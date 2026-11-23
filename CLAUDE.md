@@ -8,6 +8,9 @@ Read these before doing anything else:
 2. `vault/Tasks.md`
 3. The latest note in `vault/Dev Log/` (named YYYY-MM-DD)
 
+## During every session
+Track tasks in the vault as you do them, not only at the end: add a task to `vault/Tasks.md` when you start it (mark it in progress), tick it off when it's done, and note blockers in the day's Dev Log as they happen.
+
 ## End of every session
 1. Write a Dev Log note `vault/Dev Log/YYYY-MM-DD.md`: what was done, what broke, what's next. If one already exists for the day, add to it. Link it from `vault/00 Home.md`.
 2. Tick off finished tasks in `vault/Tasks.md` and add new ones.

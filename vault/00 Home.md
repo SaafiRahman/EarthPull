@@ -10,7 +10,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 **Gate to Phase 1:** at least 12 of 20 people say they'd share a hometown pull, and the name and domain are secured.
 
 ## What to do next
-1. Finish the Phase 0 tasks in [[Tasks]]: name, domain, competitor search, paper prototype, interest test, project board.
+1. Finish the Phase 0 tasks in [[Tasks]]: name, domain, competitor search, paper prototype, interest test.
 2. Then Phase 1: the [[Data Pipeline]], built on Canada first.
 
 ## Notes
@@ -19,7 +19,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 - [[Game Design]]: rarity tiers and caps, stats, card art, core loop, sharing hooks, maps and friends, out of scope for v1
 - [[Architecture]]: Firebase stack, Firestore collections, the minting transaction, static card pool
 - [[Data Pipeline]]: sources, steps, card images, gate
-- [[Tasks]]: current and upcoming tasks
+- [[Tasks]]: current and upcoming tasks (mirrored on the [GitHub Projects board](https://github.com/users/SaafiRahman/projects/4))
 - [[Launch & Marketing]]: Phases 5 and 6
 - [[Resume & Metrics]]: metrics, resume templates, interview talking points
 
@@ -36,7 +36,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## Dev Log
 One note per work session in `Dev Log/`, named YYYY-MM-DD.
-- [[Dev Log/2026-11-23]]: vault set up, filled in from the roadmap, first commit
+- [[Dev Log/2026-11-23]]: vault set up, filled in from the roadmap, first push, GitHub Projects board
 
 ## Rules for this vault
 - It is committed to GitHub. Never put secrets (API keys, passwords, tokens) or personal information here.
