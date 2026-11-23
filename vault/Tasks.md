@@ -45,6 +45,10 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [ ] At the rarity step: make sure structures land in high tiers (fame percentile alone may not do it)
   - [ ] Wikipedia titles for the 417 towns with no Wikidata item linked by GeoNames ID (name-match fallback)
 - [x] Private preview map of the Canada candidate cards: [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX) (2026-11-23). Rebuild: `python pipeline/export_preview.py`, then republish `preview/index.html`
+- ~~Redraw the preview map with a detailed coastline~~ Not needed (developer, 2026-11-23): the preview is a throwaway; the real app uses MapLibre with proper vector tiles (see [[Architecture]]). The data fixes below still apply.
+- [ ] Pipeline: drop items more than ~25 km outside Canada (wrong-country tags such as the Seattle Times Building), and treat disaster sites and shipwrecks as sensitive (Ocean Ranger)
+- [ ] Developer: keep offshore landmarks like the Hibernia platform (~300 km out)?
+- [ ] Before launch: check location accuracy across the whole pool, not just Canada
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
 - [ ] Compute stats (log-scale population, normalise each stat to 1–100).
