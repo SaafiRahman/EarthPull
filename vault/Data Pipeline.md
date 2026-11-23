@@ -41,6 +41,16 @@ Back to [[00 Home]]. Source: [[Roadmap]] (Phase 1). Feeds the stats in [[Game De
 
 - 2026-11-23, step 2: census subdivision boundaries (2021, StatCan ArcGIS REST layer 9; the zip downloads are behind a browser check scripts can't pass). In urban subdivisions, places within 15 km of the place named after the subdivision are dropped: 161 dropped, 1,520 left. Greektown and Williamsville are gone; Dartmouth, Kanata and Fort McMurray are kept. **Over-drops real towns** inside merged municipalities (Georgetown, Stouffville, Ancaster, Stoney Creek, Aylmer); needs review. 16 coastal points fall outside every boundary.
 - 2026-11-23, step 2 revised: the boundary rule alone dropped real towns, so each of its candidates is now checked against Wikidata (`pipeline/wikidata_places.py`): same-name items within 5 km, judged by their "instance of" classes. Keep if any is a town, city, village or former municipality, or a settlement with an English or French Wikipedia article; drop if it's a neighbourhood, borough or suburb, or if there's no usable match. Result: 160 flagged → 60 kept (Georgetown, Simcoe, Mount Pearl, Paris, Stoney Creek), 100 dropped (Montréal boroughs, Greektown, Sandy Hill, ByWard Market). Also dropped population-0 places (14). **Canada pool: 1,567 places.** Review file: `pipeline/data/interim/neighbourhood_check_ca.csv`.
+- 2026-11-23, step 3: `pipeline/wikidata_ca.py`.
+  - Towns joined to Wikidata exactly by GeoNames ID (P1566): 1,250 of 1,667 linked; 1,208 have an English article, 5 French only.
+  - Landmarks: items in Canada of 37 Wikidata classes (mountains, ranges, hills, volcanoes, glaciers, ice fields, lakes incl. glacial lakes and reservoirs, rivers, waterfalls, bays, islands, canyons, national parks) that have an English or French article. **9,789 landmarks**: 3,043 lakes, 2,344 rivers, 1,870 mountains, 1,169 islands, 533 bays, 355 ranges, 181 waterfalls, 92 glaciers, 53 national parks. Province by point-in-polygon on the census subdivisions; coastal features get the nearest one.
+
+## Going global
+Almost every source is already worldwide: GeoNames, Wikidata, Wikipedia page views and the temperature data. The only per-country piece so far is the Statistics Canada boundaries, used to spot neighbourhoods. Findings on Canada (2026-11-23) for a worldwide rule:
+- Wikidata by GeoNames ID covers 75% of places (1,250 of 1,667).
+- Its classes alone aren't reliable: it calls real towns and villages "neighbourhood" (Uxbridge, Carp, Metcalfe) as well as true suburbs (Orléans, Stittsville).
+- Boundaries alone over-drop real towns (see step 2).
+- Proposed global rule, to confirm: flag a place when it's within ~15 km of a much bigger place (no boundaries needed), and drop it only if Wikidata agrees it's a neighbourhood. Use national boundaries only where a country turns out messy.
 
 ## Known data issues
 From the risks in the [[Roadmap]]:
@@ -60,4 +70,6 @@ Found while building the paper prototype (2026-11-23, 30 places, `prototype/fetc
 - **Wikidata class labels are messy:** "Greektown" is itself a class label, "neighbourhood of Quebec City" contains "city", and many neighbourhoods are tagged with a bare "urban-type settlement". Match municipality labels by prefix, let neighbourhood words win, and require a Wikipedia article for generic settlements.
 - **Debatable drops** to revisit: Virgil, Cookstown, Lively (real communities with no clear Wikidata class), and Nepean (a city until 2001; Wikidata now calls it a neighbourhood).
 - **Wikidata Query Service** returns 500s now and then; the lookup caches every answer and retries.
+- **Direct Wikidata classes miss landmarks:** Lake Louise (Alberta) is a "glacial lake", not a "lake". Subclass walks time out on Canada's lakes, so the narrower classes are listed by hand in `wikidata_ca.py`. Check the list per country.
+- **Landmarks spanning provinces** get the province of their coordinate point (the Columbia Icefield shows as British Columbia).
 - **Elevation 0 m:** Churchill, Manitoba is stored as 0 m in Wikidata, while the terrain model gives 9 m. Small towns' elevations may be rough.

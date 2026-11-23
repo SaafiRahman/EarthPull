@@ -35,9 +35,12 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] Wikidata check on drop candidates: `pipeline/wikidata_places.py`; 160 flagged → 60 kept as real towns, 100 dropped (2026-11-23)
   - [x] Drop places with population 0: 14 dropped (2026-11-23)
   - [ ] Later: debatable drops to revisit (Virgil, Cookstown, Lively; Nepean, which Wikidata now calls a neighbourhood)
-- [ ] Pull landmark categories from Wikidata and join them to Wikipedia article titles. (in progress 2026-11-23, Canada)
-  - [ ] Link towns to Wikidata by GeoNames ID (P1566): Wikipedia titles plus a global neighbourhood check that doesn't need per-country boundaries (in progress 2026-11-23)
-  - [ ] Landmarks (mountains, lakes, rivers, parks, waterfalls, islands, glaciers) with an English or French Wikipedia article (in progress 2026-11-23)
+- [x] Pull landmark categories from Wikidata and join them to Wikipedia article titles (Canada): `pipeline/wikidata_ca.py` (2026-11-23)
+  - [x] Link towns to Wikidata by GeoNames ID (P1566): 1,250 of 1,667 linked, 1,208 with an English article (2026-11-23)
+  - [x] Landmarks with an English or French Wikipedia article: 9,789 (2026-11-23)
+  - [ ] Decide: global neighbourhood rule (see [[Data Pipeline#Going global]])
+  - [ ] Decide: include built landmarks (towers, bridges, historic sites)? Only natural features and national parks so far
+  - [ ] Wikipedia titles for the 417 towns with no Wikidata item linked by GeoNames ID (name-match fallback)
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
 - [ ] Compute stats (log-scale population, normalise each stat to 1–100).
