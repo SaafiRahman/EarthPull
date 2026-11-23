@@ -16,6 +16,7 @@ pipeline/.venv/Scripts/python -m pip install -r pipeline/requirements.txt   # Wi
 |---|---|---|
 | 1. GeoNames, one country, cleaned | `python pipeline/geonames.py --country CA` | `data/interim/geonames_ca.parquet` |
 | 2. Drop neighbourhoods (Canada): StatCan census subdivisions + Wikidata check | `python pipeline/drop_neighbourhoods_ca.py` | `data/interim/places_ca.parquet`, `neighbourhood_check_ca.csv` |
+| 3. Wikidata: towns by GeoNames ID, natural landmarks (Canada) | `python pipeline/wikidata_ca.py` | `data/interim/towns_wikidata_ca.parquet`, `landmarks_ca.parquet` |
 
 Downloads and Wikidata answers are cached in `data/raw/`. Everything under `data/` is git-ignored and can be rebuilt.
 
