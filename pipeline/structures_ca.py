@@ -39,7 +39,8 @@ EXCLUDE = {
     "organisation, not a place": ["business", "company", "enterprise", "chain", "brand", "organization",
                                   "organisation", "university", "college", "school", "library"],
     "military": ["forces base", "military base", "air base", "naval base", "radar station", "command"],
-    "sensitive (roadmap: exclude)": ["memorial", "cemetery", "grave", "tomb", "mausoleum", "prison", "penitentiary",
+    # Memorials are allowed as cards (developer, 2026-11-23); burial sites stay out.
+    "sensitive (roadmap: exclude)": ["cemetery", "grave", "tomb", "mausoleum", "prison", "penitentiary",
                                      "jail", "correctional", "residential school", "hospital"],
     "too generic or not visitable": ["mine", "landfill", "sewage", "water treatment", "office building",
                                      "apartment building", "residential building", "condominium", "factory",

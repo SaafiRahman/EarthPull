@@ -40,8 +40,8 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] Landmarks with an English or French Wikipedia article: 9,789 (2026-11-23)
   - [x] Decide: worldwide neighbourhood rule: approved 2026-11-23 (see [[Decisions]]); build it when the pipeline goes past Canada
   - [x] Decide: built landmarks: yes, and they should be high rarity (2026-11-23)
-  - [x] Pull built landmarks for Canada: `pipeline/structures_ca.py`, **2,031 structures** (2026-11-23)
-  - [ ] Developer: memorials are excluded per the roadmap's sensitive-sites rule, which also drops the National War Memorial in Ottawa. Keep that rule, or allow major national memorials?
+  - [x] Pull built landmarks for Canada: `pipeline/structures_ca.py`, **2,052 structures** (2026-11-23)
+  - [x] Developer: keep memorials as cards (2026-11-23); 21 added, incl. the National War Memorial
   - [ ] At the rarity step: make sure structures land in high tiers (fame percentile alone may not do it)
   - [ ] Wikipedia titles for the 417 towns with no Wikidata item linked by GeoNames ID (name-match fallback)
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.

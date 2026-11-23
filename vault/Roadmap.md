@@ -374,6 +374,6 @@ Keep the dev log, launch-day screenshots and the PostHog dashboard; they are you
 | Bots claim all the rare cards | High | Sign-in, App Check, rate limits, revocable cards from flagged accounts |
 | Traffic spike crashes the site or runs up bills | Medium | Load test, static card data on the CDN, cached world map, busy mode, budget-triggered kill switch |
 | Scarce cards run out and new players feel locked out | Medium | Unlimited commons, "discovered by" for everyone, seasons with new variants |
-| Data errors (wrong names, offensive or sensitive places) | Medium | Sample checks in Phase 1; exclude sensitive categories (cemeteries, memorial sites, disputed borders) |
+| Data errors (wrong names, offensive or sensitive places) | Medium | Sample checks in Phase 1; exclude sensitive categories (cemeteries, ~~memorial sites~~, disputed borders). **Update 2026-11-23: memorials are allowed as cards** (see [[Decisions]]) |
 | Data licence requirements | Low | Credit GeoNames, Wikidata, Wikipedia and the map tile provider on an About page |
 | School workload delays the build | High | Treat dates as targets; cut scope (leaderboards, sets) before cutting the core loop |

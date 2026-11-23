@@ -22,6 +22,7 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Worldwide neighbourhood rule | Flag a place within ~15 km of a much bigger place; drop it only if Wikidata (by GeoNames ID) agrees it's a neighbourhood. National boundaries only where a country is messy | Works without per-country data; on Canada, boundaries alone and Wikidata alone each got real towns wrong. See [[Data Pipeline#Going global]] |
 | 2026-11-23 | Built landmarks | Include structures: towers, buildings, bridges and similar, not just natural features | Developer: they're really important to have, and they should be high-rarity cards |
 | 2026-11-23 | Query engine for big Wikidata walks | QLever (public, University of Freiburg) for the structures query; query.wikidata.org for the rest | The structure-subclass walk times out on query.wikidata.org; QLever does it in seconds. If QLever is down, the cached result in `data/raw/` still works |
+| 2026-11-23 | Memorials | Allowed as cards (National War Memorial, Wolfe-Montcalm Monument...). Cemeteries, graves, prisons, residential schools and hospitals stay excluded | Developer's call; changes the roadmap's "exclude memorial sites" rule |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open
