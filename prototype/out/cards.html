@@ -1,0 +1,294 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Earthpull paper prototype</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,sans-serif;color:#111827}
+.card{width:2.5in;height:3.5in;border-radius:.14in;padding:.09in;background:var(--f);display:flex;flex-direction:column;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact;position:relative;overflow:hidden;color:#111827}
+.t-mythic{background:conic-gradient(from 200deg,#e11d48,#f59e0b,#10b981,#3b82f6,#8b5cf6,#e11d48)}
+.t-legendary{background:linear-gradient(135deg,#a16207,#facc15 45%,#a16207)}
+.top{display:flex;justify-content:space-between;align-items:center;color:#fff;font-weight:800;font-size:8.5pt;padding:0 .03in .05in;letter-spacing:.04em;text-transform:uppercase;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.serial{background:rgba(0,0,0,.35);border-radius:99px;padding:1px 7px;font-size:8pt;letter-spacing:0;text-transform:none}
+.serial.none{background:transparent;opacity:.8;font-weight:600}
+.imgwrap{position:relative;height:1.35in;border-radius:.08in;overflow:hidden;border:2px solid rgba(255,255,255,.85)}
+.art{width:100%;height:100%;display:block}
+.ph{position:absolute;right:5px;bottom:4px;font-size:6pt;font-weight:700;color:rgba(255,255,255,.9);background:rgba(0,0,0,.3);padding:1px 4px;border-radius:3px;letter-spacing:.08em}
+.type{position:absolute;left:5px;top:4px;font-size:6.5pt;font-weight:700;color:#111827;background:rgba(255,255,255,.92);padding:1px 5px;border-radius:99px}
+.name,.country,.stats,.facts{background:var(--a)}
+.name{margin-top:.06in;border-radius:.06in .06in 0 0;padding:.04in .07in 0;font-weight:800;font-size:12.5pt;line-height:1.1;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.country{padding:0 .07in .03in;font-size:7.5pt;color:#4b5563;font-weight:600}
+.stats{padding:.02in .07in;flex:1;display:flex;flex-direction:column;justify-content:space-around}
+.stat{display:grid;grid-template-columns:.32in 1fr .22in;align-items:center;gap:4px;font-size:8pt}
+.stat b{font-weight:800}.stat em{font-style:normal;font-weight:800;text-align:right}
+.stat i{height:7px;background:rgba(0,0,0,.12);border-radius:99px;overflow:hidden}
+.stat s{display:block;height:100%;background:var(--f);border-radius:99px}
+.t-mythic .stat s{background:linear-gradient(90deg,#e11d48,#8b5cf6)}
+.facts{border-radius:0 0 .06in .06in;padding:.03in .07in .05in;font-size:5.8pt;color:#4b5563;line-height:1.25}
+
+@page{size:letter;margin:.22in .5in}
+.sheet{display:grid;grid-template-columns:repeat(3,2.5in);grid-template-rows:repeat(3,3.5in);height:10.5in;gap:0;justify-content:center;break-after:page;break-inside:avoid;overflow:hidden}
+.sheet:last-child{break-after:auto}
+.sheet .card{outline:.5px dashed #9ca3af;outline-offset:0}
+.back{width:2.5in;height:3.5in;border-radius:.14in;background:radial-gradient(circle at 50% 45%,#1e3a8a,#0b1220 70%);
+  -webkit-print-color-adjust:exact;print-color-adjust:exact;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;outline:.5px dashed #9ca3af}
+.back .globe{width:1.2in;height:1.2in;border-radius:50%;border:3px solid #60a5fa;background:
+  radial-gradient(circle at 35% 35%,#22c55e 0 18%,transparent 19%),radial-gradient(circle at 65% 60%,#22c55e 0 14%,transparent 15%),#2563eb}
+.back .word{margin-top:.15in;font-weight:900;font-size:16pt;letter-spacing:.08em}
+.back .sub{font-size:7pt;opacity:.75;margin-top:2px}
+.cover{break-after:page;padding-top:.3in;font-size:11pt;line-height:1.45;max-width:7in;margin:0 auto}
+.cover h1{font-size:20pt;margin-bottom:.1in}.cover h2{font-size:12pt;margin:.18in 0 .05in}
+.cover ul{margin-left:.25in}.cover table{border-collapse:collapse;font-size:9.5pt;margin-top:.05in}
+.cover td,.cover th{border:1px solid #d1d5db;padding:2px 8px;text-align:left}
+</style></head><body><div class="cover">
+<h1>Paper prototype: 30 cards</h1>
+<p>Real places, real data. Stats: <b>HP</b> = population (log scale), <b>DEF</b> = elevation, <b>ATK</b> = Wikipedia page views over 12 months (log scale), <b>CHL</b> = colder average temperature is higher. Each runs 1–100.</p>
+<h2>How to run it</h2>
+<ul>
+<li>Print pages 2–5 single-sided (100% scale, not "fit to page") and cut along the dashed lines. Page 6 holds card backs: print it on the back of each card sheet if your printer does duplex, or skip it and use opaque sleeves.</li>
+<li>Shuffle all 30 face down. Each friend draws 5 as one "pack" and flips them one at a time.</li>
+<li>Watch and write down: which cards get a reaction out loud, whether anyone reads the serial, whether anyone compares stats, and what they say about the Canadian towns.</li>
+</ul>
+<h2>Tier mix in this deck</h2>
+<table><tr><th>Tier</th><th>Cards</th><th>Real pull odds</th></tr><tr><td>Common</td><td>17</td><td>70%</td></tr><tr><td>Rare</td><td>7</td><td>22%</td></tr><tr><td>Epic</td><td>3</td><td>6.5%</td></tr><tr><td>Legendary</td><td>2</td><td>1.4%</td></tr><tr><td>Mythic</td><td>1</td><td>0.1%</td></tr></table>
+<p style="margin-top:.08in;font-size:9.5pt">The deck is richer than real odds (which would give 21 Commons and no Legendary or Mythic in 30 cards) so testers see every tier. Serials are random within each cap.</p>
+<p style="font-size:9.5pt;margin-top:.08in">Data: Wikidata, GeoNames, Wikimedia Pageviews (Nov 2025–Oct 2026), Open-Meteo (2025 averages). Images are placeholders.</p>
+</div><div class="sheet">
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Tofino</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:16%"></s></i><em>16</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:28%"></s></i><em>28</em></div><div class="stat"><b>CHL</b><i><s style="width:40%"></s></i><em>40</em></div></div>
+  <div class="facts">Pop. 2,516 · 10 m · 47k views/yr · 9.8 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bae6fd"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 72 Q20 48 45 64 T105 52 V100 H-5Z" fill="#86efac"/><path d="M-5 80 Q35 62 70 76 T105 70 V100 H-5Z" fill="#4ade80"/><path d="M-4 90 L4 60 L12 90Z" fill="#15803d"/><path d="M10 90 L18 60 L26 90Z" fill="#166534"/><path d="M26 90 L34 60 L42 90Z" fill="#14532d"/><path d="M42 90 L50 60 L58 90Z" fill="#15803d"/><path d="M58 90 L66 60 L74 90Z" fill="#166534"/><path d="M74 90 L82 60 L90 90Z" fill="#14532d"/><path d="M88 90 L96 60 L104 90Z" fill="#15803d"/><rect y="88" width="100" height="12" fill="#3f6212"/></svg><span class="ph">PHOTO</span><span class="type">Forest</span></div>
+  <div class="name">Gimli</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:15%"></s></i><em>15</em></div><div class="stat"><b>DEF</b><i><s style="width:4%"></s></i><em>4</em></div><div class="stat"><b>ATK</b><i><s style="width:28%"></s></i><em>28</em></div><div class="stat"><b>CHL</b><i><s style="width:53%"></s></i><em>53</em></div></div>
+  <div class="facts">Pop. 2,345 · 222 m · 49k views/yr · 3.7 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Lunenburg</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:16%"></s></i><em>16</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:35%"></s></i><em>35</em></div><div class="stat"><b>CHL</b><i><s style="width:43%"></s></i><em>43</em></div></div>
+  <div class="facts">Pop. 2,405 · 30 m · 70k views/yr · 8.3 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#1e293b"/><circle cx="22" cy="24" r="9" fill="#a7f3d0"/><path d="M0 30 Q30 10 55 32 T100 22" stroke="#34d399" stroke-width="5" fill="none" opacity=".7"/><path d="M0 35 Q35 18 60 38 T100 30" stroke="#a78bfa" stroke-width="3" fill="none" opacity=".6"/><path d="M0 75 Q50 68 100 76 V100 H0Z" fill="#e2e8f0"/></svg><span class="ph">PHOTO</span><span class="type">Tundra</span></div>
+  <div class="name">Inuvik</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:18%"></s></i><em>18</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:41%"></s></i><em>41</em></div><div class="stat"><b>CHL</b><i><s style="width:71%"></s></i><em>71</em></div></div>
+  <div class="facts">Pop. 3,137 · 15 m · 100k views/yr · -5.4 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bae6fd"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 72 Q20 48 45 64 T105 52 V100 H-5Z" fill="#86efac"/><path d="M-5 80 Q35 62 70 76 T105 70 V100 H-5Z" fill="#4ade80"/><path d="M-4 90 L4 60 L12 90Z" fill="#15803d"/><path d="M10 90 L18 60 L26 90Z" fill="#166534"/><path d="M26 90 L34 60 L42 90Z" fill="#14532d"/><path d="M42 90 L50 60 L58 90Z" fill="#15803d"/><path d="M58 90 L66 60 L74 90Z" fill="#166534"/><path d="M74 90 L82 60 L90 90Z" fill="#14532d"/><path d="M88 90 L96 60 L104 90Z" fill="#15803d"/><rect y="88" width="100" height="12" fill="#3f6212"/></svg><span class="ph">PHOTO</span><span class="type">Forest</span></div>
+  <div class="name">Flin Flon</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:23%"></s></i><em>23</em></div><div class="stat"><b>DEF</b><i><s style="width:5%"></s></i><em>5</em></div><div class="stat"><b>ATK</b><i><s style="width:33%"></s></i><em>33</em></div><div class="stat"><b>CHL</b><i><s style="width:58%"></s></i><em>58</em></div></div>
+  <div class="facts">Pop. 5,099 · 299 m · 64k views/yr · 0.8 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#1e293b"/><circle cx="22" cy="24" r="9" fill="#a7f3d0"/><path d="M0 30 Q30 10 55 32 T100 22" stroke="#34d399" stroke-width="5" fill="none" opacity=".7"/><path d="M0 35 Q35 18 60 38 T100 30" stroke="#a78bfa" stroke-width="3" fill="none" opacity=".6"/><path d="M0 75 Q50 68 100 76 V100 H0Z" fill="#e2e8f0"/></svg><span class="ph">PHOTO</span><span class="type">Tundra</span></div>
+  <div class="name">Dawson City</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:12%"></s></i><em>12</em></div><div class="stat"><b>DEF</b><i><s style="width:7%"></s></i><em>7</em></div><div class="stat"><b>ATK</b><i><s style="width:45%"></s></i><em>45</em></div><div class="stat"><b>CHL</b><i><s style="width:63%"></s></i><em>63</em></div></div>
+  <div class="facts">Pop. 1,577 · 370 m · 124k views/yr · -1.7 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">Canmore</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:33%"></s></i><em>33</em></div><div class="stat"><b>DEF</b><i><s style="width:24%"></s></i><em>24</em></div><div class="stat"><b>ATK</b><i><s style="width:33%"></s></i><em>33</em></div><div class="stat"><b>CHL</b><i><s style="width:54%"></s></i><em>54</em></div></div>
+  <div class="facts">Pop. 15,990 · 1,310 m · 64k views/yr · 3.0 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#1e293b"/><circle cx="22" cy="24" r="9" fill="#a7f3d0"/><path d="M0 30 Q30 10 55 32 T100 22" stroke="#34d399" stroke-width="5" fill="none" opacity=".7"/><path d="M0 35 Q35 18 60 38 T100 30" stroke="#a78bfa" stroke-width="3" fill="none" opacity=".6"/><path d="M0 75 Q50 68 100 76 V100 H0Z" fill="#e2e8f0"/></svg><span class="ph">PHOTO</span><span class="type">Tundra</span></div>
+  <div class="name">Churchill</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:6%"></s></i><em>6</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:49%"></s></i><em>49</em></div><div class="stat"><b>CHL</b><i><s style="width:68%"></s></i><em>68</em></div></div>
+  <div class="facts">Pop. 870 · 0 m · 157k views/yr · -4.0 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#fcd34d"/><circle cx="22" cy="24" r="9" fill="#fff7ed"/><path d="M0 72 Q30 55 60 72 T100 68 V100 H0Z" fill="#f59e0b"/><path d="M0 85 Q40 70 80 86 T120 84 V100 H0Z" fill="#d97706"/></svg><span class="ph">PHOTO</span><span class="type">Desert</span></div>
+  <div class="name">Uyuni</div>
+  <div class="country">Bolivia</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:39%"></s></i><em>39</em></div><div class="stat"><b>DEF</b><i><s style="width:67%"></s></i><em>67</em></div><div class="stat"><b>ATK</b><i><s style="width:19%"></s></i><em>19</em></div><div class="stat"><b>CHL</b><i><s style="width:43%"></s></i><em>43</em></div></div>
+  <div class="facts">Pop. 29,672 · 3,670 m · 28k views/yr · 8.4 °C avg</div>
+</div></div><div class="sheet">
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#1e293b"/><circle cx="22" cy="24" r="9" fill="#a7f3d0"/><path d="M0 30 Q30 10 55 32 T100 22" stroke="#34d399" stroke-width="5" fill="none" opacity=".7"/><path d="M0 35 Q35 18 60 38 T100 30" stroke="#a78bfa" stroke-width="3" fill="none" opacity=".6"/><path d="M0 75 Q50 68 100 76 V100 H0Z" fill="#e2e8f0"/></svg><span class="ph">PHOTO</span><span class="type">Tundra</span></div>
+  <div class="name">Oymyakon</div>
+  <div class="country">Russia</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:2%"></s></i><em>2</em></div><div class="stat"><b>DEF</b><i><s style="width:14%"></s></i><em>14</em></div><div class="stat"><b>ATK</b><i><s style="width:53%"></s></i><em>53</em></div><div class="stat"><b>CHL</b><i><s style="width:87%"></s></i><em>87</em></div></div>
+  <div class="facts">Pop. 560 · 745 m · 197k views/yr · -13.5 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#1e293b"/><circle cx="22" cy="24" r="9" fill="#a7f3d0"/><path d="M0 30 Q30 10 55 32 T100 22" stroke="#34d399" stroke-width="5" fill="none" opacity=".7"/><path d="M0 35 Q35 18 60 38 T100 30" stroke="#a78bfa" stroke-width="3" fill="none" opacity=".6"/><path d="M0 75 Q50 68 100 76 V100 H0Z" fill="#e2e8f0"/></svg><span class="ph">PHOTO</span><span class="type">Tundra</span></div>
+  <div class="name">Longyearbyen</div>
+  <div class="country">Norway</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:16%"></s></i><em>16</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:61%"></s></i><em>61</em></div><div class="stat"><b>CHL</b><i><s style="width:67%"></s></i><em>67</em></div></div>
+  <div class="facts">Pop. 2,417 · 6 m · 309k views/yr · -3.5 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">Hallstatt</div>
+  <div class="country">Austria</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:5%"></s></i><em>5</em></div><div class="stat"><b>DEF</b><i><s style="width:9%"></s></i><em>9</em></div><div class="stat"><b>ATK</b><i><s style="width:52%"></s></i><em>52</em></div><div class="stat"><b>CHL</b><i><s style="width:38%"></s></i><em>38</em></div></div>
+  <div class="facts">Pop. 741 · 511 m · 193k views/yr · 10.8 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#fcd34d"/><circle cx="22" cy="24" r="9" fill="#fff7ed"/><path d="M0 72 Q30 55 60 72 T100 68 V100 H0Z" fill="#f59e0b"/><path d="M0 85 Q40 70 80 86 T120 84 V100 H0Z" fill="#d97706"/></svg><span class="ph">PHOTO</span><span class="type">Desert</span></div>
+  <div class="name">Timbuktu</div>
+  <div class="country">Mali</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:41%"></s></i><em>41</em></div><div class="stat"><b>DEF</b><i><s style="width:5%"></s></i><em>5</em></div><div class="stat"><b>ATK</b><i><s style="width:69%"></s></i><em>69</em></div><div class="stat"><b>CHL</b><i><s style="width:1%"></s></i><em>1</em></div></div>
+  <div class="facts">Pop. 35,330 · 261 m · 509k views/yr · 30.0 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">La Rinconada</div>
+  <div class="country">Peru</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:34%"></s></i><em>34</em></div><div class="stat"><b>DEF</b><i><s style="width:96%"></s></i><em>96</em></div><div class="stat"><b>ATK</b><i><s style="width:52%"></s></i><em>52</em></div><div class="stat"><b>CHL</b><i><s style="width:60%"></s></i><em>60</em></div></div>
+  <div class="facts">Pop. 16,907 · 5,300 m · 184k views/yr · 0.2 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Llanfairpwllgwyngyll</div>
+  <div class="country">United Kingdom</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:18%"></s></i><em>18</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:64%"></s></i><em>64</em></div><div class="stat"><b>CHL</b><i><s style="width:39%"></s></i><em>39</em></div></div>
+  <div class="facts">Pop. 3,107 · 38 m · 384k views/yr · 10.5 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#fcd34d"/><circle cx="22" cy="24" r="9" fill="#fff7ed"/><path d="M0 72 Q30 55 60 72 T100 68 V100 H0Z" fill="#f59e0b"/><path d="M0 85 Q40 70 80 86 T120 84 V100 H0Z" fill="#d97706"/></svg><span class="ph">PHOTO</span><span class="type">Desert</span></div>
+  <div class="name">Truth or Consequences</div>
+  <div class="country">United States</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:24%"></s></i><em>24</em></div><div class="stat"><b>DEF</b><i><s style="width:24%"></s></i><em>24</em></div><div class="stat"><b>ATK</b><i><s style="width:54%"></s></i><em>54</em></div><div class="stat"><b>CHL</b><i><s style="width:24%"></s></i><em>24</em></div></div>
+  <div class="facts">Pop. 6,052 · 1,294 m · 212k views/yr · 18.1 °C avg</div>
+</div>
+<div class="card t-common " style="--f:#6b7280;--a:#e5e7eb;--g:rgba(148,163,184,.0)">
+  <div class="top"><span class="tier">Common</span><span class="serial none">Unnumbered</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Ushuaia</div>
+  <div class="country">Argentina</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:49%"></s></i><em>49</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:62%"></s></i><em>62</em></div><div class="stat"><b>CHL</b><i><s style="width:49%"></s></i><em>49</em></div></div>
+  <div class="facts">Pop. 82,615 · 23 m · 329k views/yr · 5.3 °C avg</div>
+</div>
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#332 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bae6fd"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 72 Q20 48 45 64 T105 52 V100 H-5Z" fill="#86efac"/><path d="M-5 80 Q35 62 70 76 T105 70 V100 H-5Z" fill="#4ade80"/><path d="M-4 90 L4 60 L12 90Z" fill="#15803d"/><path d="M10 90 L18 60 L26 90Z" fill="#166534"/><path d="M26 90 L34 60 L42 90Z" fill="#14532d"/><path d="M42 90 L50 60 L58 90Z" fill="#15803d"/><path d="M58 90 L66 60 L74 90Z" fill="#166534"/><path d="M74 90 L82 60 L90 90Z" fill="#14532d"/><path d="M88 90 L96 60 L104 90Z" fill="#15803d"/><rect y="88" width="100" height="12" fill="#3f6212"/></svg><span class="ph">PHOTO</span><span class="type">Forest</span></div>
+  <div class="name">Kelowna</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:54%"></s></i><em>54</em></div><div class="stat"><b>DEF</b><i><s style="width:6%"></s></i><em>6</em></div><div class="stat"><b>ATK</b><i><s style="width:56%"></s></i><em>56</em></div><div class="stat"><b>CHL</b><i><s style="width:38%"></s></i><em>38</em></div></div>
+  <div class="facts">Pop. 144,576 · 344 m · 242k views/yr · 11.2 °C avg</div>
+</div></div><div class="sheet">
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#971 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bae6fd"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 72 Q20 48 45 64 T105 52 V100 H-5Z" fill="#86efac"/><path d="M-5 80 Q35 62 70 76 T105 70 V100 H-5Z" fill="#4ade80"/><path d="M-4 90 L4 60 L12 90Z" fill="#15803d"/><path d="M10 90 L18 60 L26 90Z" fill="#166534"/><path d="M26 90 L34 60 L42 90Z" fill="#14532d"/><path d="M42 90 L50 60 L58 90Z" fill="#15803d"/><path d="M58 90 L66 60 L74 90Z" fill="#166534"/><path d="M74 90 L82 60 L90 90Z" fill="#14532d"/><path d="M88 90 L96 60 L104 90Z" fill="#15803d"/><rect y="88" width="100" height="12" fill="#3f6212"/></svg><span class="ph">PHOTO</span><span class="type">Forest</span></div>
+  <div class="name">Thunder Bay</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:51%"></s></i><em>51</em></div><div class="stat"><b>DEF</b><i><s style="width:4%"></s></i><em>4</em></div><div class="stat"><b>ATK</b><i><s style="width:55%"></s></i><em>55</em></div><div class="stat"><b>CHL</b><i><s style="width:52%"></s></i><em>52</em></div></div>
+  <div class="facts">Pop. 108,843 · 199 m · 221k views/yr · 4.0 °C avg</div>
+</div>
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#155 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">Lake Louise</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>DEF</b><i><s style="width:31%"></s></i><em>31</em></div><div class="stat"><b>ATK</b><i><s style="width:29%"></s></i><em>29</em></div><div class="stat"><b>CHL</b><i><s style="width:59%"></s></i><em>59</em></div></div>
+  <div class="facts">Pop. n/a · 1,731 m · 49k views/yr · 0.4 °C avg</div>
+</div>
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#405 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">Mount Robson</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>DEF</b><i><s style="width:72%"></s></i><em>72</em></div><div class="stat"><b>ATK</b><i><s style="width:33%"></s></i><em>33</em></div><div class="stat"><b>CHL</b><i><s style="width:89%"></s></i><em>89</em></div></div>
+  <div class="facts">Pop. n/a · 3,954 m · 63k views/yr · -14.7 °C avg</div>
+</div>
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#667 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Hobart</div>
+  <div class="country">Australia</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:57%"></s></i><em>57</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:62%"></s></i><em>62</em></div><div class="stat"><b>CHL</b><i><s style="width:37%"></s></i><em>37</em></div></div>
+  <div class="facts">Pop. 197,451 · 54 m · 339k views/yr · 11.4 °C avg</div>
+</div>
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#50 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Bergen</div>
+  <div class="country">Norway</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:60%"></s></i><em>60</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:60%"></s></i><em>60</em></div><div class="stat"><b>CHL</b><i><s style="width:44%"></s></i><em>44</em></div></div>
+  <div class="facts">Pop. 291,189 · 5 m · 299k views/yr · 7.9 °C avg</div>
+</div>
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#75 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#fcd34d"/><circle cx="22" cy="24" r="9" fill="#fff7ed"/><path d="M0 72 Q30 55 60 72 T100 68 V100 H0Z" fill="#f59e0b"/><path d="M0 85 Q40 70 80 86 T120 84 V100 H0Z" fill="#d97706"/></svg><span class="ph">PHOTO</span><span class="type">Desert</span></div>
+  <div class="name">Arequipa</div>
+  <div class="country">Peru</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:72%"></s></i><em>72</em></div><div class="stat"><b>DEF</b><i><s style="width:42%"></s></i><em>42</em></div><div class="stat"><b>ATK</b><i><s style="width:40%"></s></i><em>40</em></div><div class="stat"><b>CHL</b><i><s style="width:28%"></s></i><em>28</em></div></div>
+  <div class="facts">Pop. 1,008,290 · 2,335 m · 96k views/yr · 16.1 °C avg</div>
+</div>
+<div class="card t-epic " style="--f:#7c3aed;--a:#ede9fe;--g:rgba(139,92,246,.6)">
+  <div class="top"><span class="tier">Epic</span><span class="serial">#69 of 100</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#7dd3fc"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><path d="M0 70 Q25 62 50 70 T100 70 V100 H0Z" fill="#0ea5e9"/><path d="M0 80 Q25 73 50 80 T100 80 V100 H0Z" fill="#0369a1"/><path d="M60 70 L72 52 L84 70Z" fill="#475569"/></svg><span class="ph">PHOTO</span><span class="type">Coastal</span></div>
+  <div class="name">Vancouver</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:68%"></s></i><em>68</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:84%"></s></i><em>84</em></div><div class="stat"><b>CHL</b><i><s style="width:39%"></s></i><em>39</em></div></div>
+  <div class="facts">Pop. 662,248 · 2 m · 1.2M views/yr · 10.6 °C avg</div>
+</div>
+<div class="card t-epic " style="--f:#7c3aed;--a:#ede9fe;--g:rgba(139,92,246,.6)">
+  <div class="top"><span class="tier">Epic</span><span class="serial">#13 of 100</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">Banff National Park</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>DEF</b><i><s style="width:25%"></s></i><em>25</em></div><div class="stat"><b>ATK</b><i><s style="width:49%"></s></i><em>49</em></div><div class="stat"><b>CHL</b><i><s style="width:54%"></s></i><em>54</em></div></div>
+  <div class="facts">Pop. n/a · 1,359 m · 157k views/yr · 2.9 °C avg</div>
+</div>
+<div class="card t-epic " style="--f:#7c3aed;--a:#ede9fe;--g:rgba(139,92,246,.6)">
+  <div class="top"><span class="tier">Epic</span><span class="serial">#47 of 100</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#fcd34d"/><circle cx="22" cy="24" r="9" fill="#fff7ed"/><path d="M0 72 Q30 55 60 72 T100 68 V100 H0Z" fill="#f59e0b"/><path d="M0 85 Q40 70 80 86 T120 84 V100 H0Z" fill="#d97706"/></svg><span class="ph">PHOTO</span><span class="type">Desert</span></div>
+  <div class="name">Marrakesh</div>
+  <div class="country">Morocco</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:72%"></s></i><em>72</em></div><div class="stat"><b>DEF</b><i><s style="width:8%"></s></i><em>8</em></div><div class="stat"><b>ATK</b><i><s style="width:67%"></s></i><em>67</em></div><div class="stat"><b>CHL</b><i><s style="width:17%"></s></i><em>17</em></div></div>
+  <div class="facts">Pop. 1,002,697 · 465 m · 436k views/yr · 21.5 °C avg</div>
+</div></div><div class="sheet">
+<div class="card t-legendary " style="--f:#c88a04;--a:#fef3c7;--g:rgba(245,158,11,.7)">
+  <div class="top"><span class="tier">Legendary</span><span class="serial">#10 of 10</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#c7d2fe"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><rect x="2" y="55" width="14" height="45" fill="#475569"/><rect x="16" y="35" width="12" height="65" fill="#334155"/><rect x="28" y="60" width="16" height="40" fill="#64748b"/><rect x="44" y="25" width="10" height="75" fill="#1e293b"/><rect x="54" y="50" width="14" height="50" fill="#475569"/><rect x="68" y="40" width="12" height="60" fill="#334155"/><rect x="80" y="62" width="18" height="38" fill="#64748b"/></svg><span class="ph">PHOTO</span><span class="type">Urban</span></div>
+  <div class="name">Tokyo</div>
+  <div class="country">Japan</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:97%"></s></i><em>97</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:90%"></s></i><em>90</em></div><div class="stat"><b>CHL</b><i><s style="width:26%"></s></i><em>26</em></div></div>
+  <div class="facts">Pop. 14,264,798 · 6 m · 1.7M views/yr · 16.9 °C avg</div>
+</div>
+<div class="card t-legendary " style="--f:#c88a04;--a:#fef3c7;--g:rgba(245,158,11,.7)">
+  <div class="top"><span class="tier">Legendary</span><span class="serial">#1 of 10</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#c7d2fe"/><circle cx="22" cy="24" r="9" fill="#fde68a"/><rect x="2" y="55" width="14" height="45" fill="#475569"/><rect x="16" y="35" width="12" height="65" fill="#334155"/><rect x="28" y="60" width="16" height="40" fill="#64748b"/><rect x="44" y="25" width="10" height="75" fill="#1e293b"/><rect x="54" y="50" width="14" height="50" fill="#475569"/><rect x="68" y="40" width="12" height="60" fill="#334155"/><rect x="80" y="62" width="18" height="38" fill="#64748b"/></svg><span class="ph">PHOTO</span><span class="type">Urban</span></div>
+  <div class="name">Ottawa</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:72%"></s></i><em>72</em></div><div class="stat"><b>DEF</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>ATK</b><i><s style="width:76%"></s></i><em>76</em></div><div class="stat"><b>CHL</b><i><s style="width:47%"></s></i><em>47</em></div></div>
+  <div class="facts">Pop. 1,017,449 · 70 m · 766k views/yr · 6.7 °C avg</div>
+</div>
+<div class="card t-mythic " style="--f:#e11d48;--a:#ffe4e6;--g:rgba(244,63,94,.75)">
+  <div class="top"><span class="tier">Mythic</span><span class="serial">1 of 1</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bfdbfe"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 100 L30 40 L50 70 L70 30 L105 100Z" fill="#64748b"/><path d="M70 30 L62 45 L70 42 L78 45Z M30 40 L24 51 L30 48 L36 51Z" fill="#fff"/><path d="M0 100 L0 85 Q50 75 100 88 V100Z" fill="#166534"/></svg><span class="ph">PHOTO</span><span class="type">Mountain</span></div>
+  <div class="name">Mount Everest</div>
+  <div class="country">Nepal / China</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:1%"></s></i><em>1</em></div><div class="stat"><b>DEF</b><i><s style="width:100%"></s></i><em>100</em></div><div class="stat"><b>ATK</b><i><s style="width:94%"></s></i><em>94</em></div><div class="stat"><b>CHL</b><i><s style="width:100%"></s></i><em>100</em></div></div>
+  <div class="facts">Pop. n/a · 8,849 m · 2.1M views/yr · -30.0 °C avg</div>
+</div></div><div class="sheet"><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div><div class="back"><div class="globe"></div><div class="word">EARTHPULL</div><div class="sub">paper prototype</div></div></div></body></html>

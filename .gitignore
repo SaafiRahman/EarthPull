@@ -1,3 +1,6 @@
 # Obsidian per-device state
 vault/.obsidian/workspace*.json
 vault/.trash/
+
+# Prototype API cache
+prototype/.cache.json

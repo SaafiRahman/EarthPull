@@ -1,0 +1,63 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,sans-serif;color:#111827}
+.card{width:2.5in;height:3.5in;border-radius:.14in;padding:.09in;background:var(--f);display:flex;flex-direction:column;
+  -webkit-print-color-adjust:exact;print-color-adjust:exact;position:relative;overflow:hidden;color:#111827}
+.t-mythic{background:conic-gradient(from 200deg,#e11d48,#f59e0b,#10b981,#3b82f6,#8b5cf6,#e11d48)}
+.t-legendary{background:linear-gradient(135deg,#a16207,#facc15 45%,#a16207)}
+.top{display:flex;justify-content:space-between;align-items:center;color:#fff;font-weight:800;font-size:8.5pt;padding:0 .03in .05in;letter-spacing:.04em;text-transform:uppercase;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.serial{background:rgba(0,0,0,.35);border-radius:99px;padding:1px 7px;font-size:8pt;letter-spacing:0;text-transform:none}
+.serial.none{background:transparent;opacity:.8;font-weight:600}
+.imgwrap{position:relative;height:1.35in;border-radius:.08in;overflow:hidden;border:2px solid rgba(255,255,255,.85)}
+.art{width:100%;height:100%;display:block}
+.ph{position:absolute;right:5px;bottom:4px;font-size:6pt;font-weight:700;color:rgba(255,255,255,.9);background:rgba(0,0,0,.3);padding:1px 4px;border-radius:3px;letter-spacing:.08em}
+.type{position:absolute;left:5px;top:4px;font-size:6.5pt;font-weight:700;color:#111827;background:rgba(255,255,255,.92);padding:1px 5px;border-radius:99px}
+.name,.country,.stats,.facts{background:var(--a)}
+.name{margin-top:.06in;border-radius:.06in .06in 0 0;padding:.04in .07in 0;font-weight:800;font-size:12.5pt;line-height:1.1;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.country{padding:0 .07in .03in;font-size:7.5pt;color:#4b5563;font-weight:600}
+.stats{padding:.02in .07in;flex:1;display:flex;flex-direction:column;justify-content:space-around}
+.stat{display:grid;grid-template-columns:.32in 1fr .22in;align-items:center;gap:4px;font-size:8pt}
+.stat b{font-weight:800}.stat em{font-style:normal;font-weight:800;text-align:right}
+.stat i{height:7px;background:rgba(0,0,0,.12);border-radius:99px;overflow:hidden}
+.stat s{display:block;height:100%;background:var(--f);border-radius:99px}
+.t-mythic .stat s{background:linear-gradient(90deg,#e11d48,#8b5cf6)}
+.facts{border-radius:0 0 .06in .06in;padding:.03in .07in .05in;font-size:5.8pt;color:#4b5563;line-height:1.25}
+
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{background:radial-gradient(ellipse at 50% 46%,rgba(59,130,246,.55) 0,rgba(15,23,42,0) 42%),radial-gradient(ellipse at 50% 120%,#1e3a8a 0,#0b1220 60%);
+  display:flex;flex-direction:column;align-items:center;color:#fff}
+.kicker{margin-top:92px;font-size:30px;font-weight:800;letter-spacing:.32em;color:#93c5fd}
+.head{font-size:68px;font-weight:900;margin-top:10px;letter-spacing:-.01em}
+.head span{color:#1d6fd8;filter:brightness(1.5)}
+.stage{position:relative;margin-top:44px;display:flex;justify-content:center}
+.rays{position:absolute;inset:-260px;background:repeating-conic-gradient(from 0deg,rgba(255,255,255,.07) 0 6deg,transparent 6deg 18deg);
+  -webkit-mask:radial-gradient(circle,#000 20%,transparent 62%);mask:radial-gradient(circle,#000 20%,transparent 62%)}
+.stage .card{zoom:2.55;box-shadow:0 0 0 1px rgba(255,255,255,.2),0 10px 40px rgba(59,130,246,.55)}
+.holder{display:flex;justify-content:center}
+.pill{position:absolute;left:50%;transform:translateX(-50%);bottom:-52px;background:#fff;color:#0b1220;font-weight:800;font-size:26px;
+  padding:12px 26px;border-radius:99px;white-space:nowrap;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+.pill b{color:#1d6fd8}
+.cta{margin-top:96px;display:flex;gap:18px}
+.btn{font-size:30px;font-weight:800;padding:22px 40px;border-radius:20px;background:#fff;color:#0b1220}
+.btn.alt{background:rgba(255,255,255,.12);color:#fff;border:2px solid rgba(255,255,255,.3)}
+.spark{position:absolute;width:10px;height:10px;border-radius:50%;background:#fde68a;box-shadow:0 0 14px #fde68a}
+</style></head><body>
+<div class="kicker">YOUR FIRST PACK</div>
+<div class="head">You pulled your <span>hometown</span></div>
+<div class="stage"><div class="rays"></div>
+  <div class="holder">
+<div class="card t-rare " style="--f:#1d6fd8;--a:#dbeafe;--g:rgba(59,130,246,.55)">
+  <div class="top"><span class="tier">Rare</span><span class="serial">#3 of 1,000</span></div>
+  <div class="imgwrap"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" class="art"><rect width="100" height="100" fill="#bae6fd"/><circle cx="22" cy="24" r="9" fill="#fef9c3"/><path d="M-5 72 Q20 48 45 64 T105 52 V100 H-5Z" fill="#86efac"/><path d="M-5 80 Q35 62 70 76 T105 70 V100 H-5Z" fill="#4ade80"/><path d="M-4 90 L4 60 L12 90Z" fill="#15803d"/><path d="M10 90 L18 60 L26 90Z" fill="#166534"/><path d="M26 90 L34 60 L42 90Z" fill="#14532d"/><path d="M42 90 L50 60 L58 90Z" fill="#15803d"/><path d="M58 90 L66 60 L74 90Z" fill="#166534"/><path d="M74 90 L82 60 L90 90Z" fill="#14532d"/><path d="M88 90 L96 60 L104 90Z" fill="#15803d"/><rect y="88" width="100" height="12" fill="#3f6212"/></svg><span class="type">Forest</span></div>
+  <div class="name">Kelowna</div>
+  <div class="country">Canada</div>
+  <div class="stats"><div class="stat"><b>HP</b><i><s style="width:54%"></s></i><em>54</em></div><div class="stat"><b>DEF</b><i><s style="width:6%"></s></i><em>6</em></div><div class="stat"><b>ATK</b><i><s style="width:56%"></s></i><em>56</em></div><div class="stat"><b>CHL</b><i><s style="width:38%"></s></i><em>38</em></div></div>
+  <div class="facts">Pop. 144,576 · 344 m · 242k views/yr · 11.2 °C avg</div>
+</div></div>
+  <div class="pill">Discovered by <b>you</b> · first in your region</div>
+  <i class="spark" style="left:-60px;top:120px"></i><i class="spark" style="right:-70px;top:60px;width:7px;height:7px"></i>
+  <i class="spark" style="right:-40px;top:520px"></i><i class="spark" style="left:-30px;top:640px;width:6px;height:6px"></i>
+</div>
+<div class="cta"><div class="btn">Share this pull</div><div class="btn alt">See it on the map</div></div>
+</body></html>

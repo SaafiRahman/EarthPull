@@ -41,4 +41,9 @@ From the risks in the [[Roadmap]]:
 - Wrong names, or offensive or sensitive places: sample checks in Phase 1; exclude sensitive categories (cemeteries, memorial sites, disputed borders).
 - Licence requirements: credit GeoNames, Wikidata, Wikipedia and the map tile provider on an About page.
 
-No issues found in real data yet.
+Found while building the paper prototype (2026-11-23, 30 places, `prototype/fetch_cards.py`):
+- **Missing population in Wikidata:** Tofino has no population claim at all. Fallback to GeoNames `cities1000` (2,516, matches the 2021 census). In Phase 1, GeoNames is the main population source anyway; keep Wikidata as the fallback, not the other way round.
+- **Several elevations per place:** Hobart has 1,270 m (probably the city's highest point) and 54 m. Everest has six, from different surveys (8,844 to 8,850 m, one in feet). Rule used: take Wikidata's preferred-rank value if there is one (Everest: 8,848.86 m); otherwise, for towns, the value closest to the terrain height at the coordinate (Open-Meteo elevation API), and for peaks the highest.
+- **Natural features have no population:** peaks, lakes and parks get HP 1. Decide in Phase 1 whether that's fine (it's funny) or whether features need a different HP source.
+- **Rate limits:** the Wikimedia Pageviews API returned 429 after about 10 requests, and Open-Meteo returned a 503 once. Cache every response and back off; see the cache in `prototype/fetch_cards.py`.
+- **Elevation 0 m:** Churchill, Manitoba is stored as 0 m in Wikidata, while the terrain model gives 9 m. Small towns' elevations may be rough.

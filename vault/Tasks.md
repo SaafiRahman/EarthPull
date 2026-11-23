@@ -4,16 +4,24 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
 
 ## Current: Phase 0, ideation and validation (1 week)
 - [ ] Pick a name. Shortlist: Earthpull, Placedex, Pull the Planet, Atlasdex. Check .com, .gg and .io availability and that the handle is free on TikTok, X and Reddit. (Open in [[Decisions]].)
+  - [x] Research domain availability; results and recommendation in [[Decisions#Phase 0 research (2026-11-23)]] (2026-11-23)
+  - [ ] Check X, TikTok and Reddit handles by hand (couldn't be checked automatically)
 - [ ] Buy the domain (about $10–40 per year).
-- [ ] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental_games for "places gacha" or "city card pack" games.
+- [x] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental_games for "places gacha" or "city card pack" games. Done 2026-11-23; found CityDeck, a close match. See [[Decisions#Competitor search]].
 - [ ] Paper prototype: print 30 fake cards (mix of tiers, real stats) and have 5 friends open "packs" from a shuffled pile. Watch which cards they react to.
+  - [x] Make the materials: 30 real cards with real stats as a printable PDF: `prototype/out/paper-prototype-cards.pdf` (2026-11-23)
+  - [ ] Print it (pages 2–5, 100% scale; page 6 is card backs) and cut the cards
 - [ ] Interest test: show a mock-up of one card and the hometown pull to 20 people. Ask "would you open a pack?" and "would you send this to someone?"
+  - [x] Make the hometown-pull mock-up image: `prototype/out/hometown-pull-mockup.png` (Kelowna, Rare #3 of 1,000) (2026-11-23)
 - [x] Set up the repo, a GitHub Projects board with the roadmap, and a dev log. (2026-11-23)
   - [x] Repo with vault, `CLAUDE.md` and `.gitignore` (2026-11-23)
   - [x] Dev log in `vault/Dev Log/` (2026-11-23)
   - [x] First commit (2026-11-23)
   - [x] Push to GitHub (2026-11-23)
   - [x] GitHub Projects board: "Earthpull Roadmap", https://github.com/users/SaafiRahman/projects/4 (2026-11-23)
+
+- [ ] Play CityDeck for 20 minutes and note what it does well
+- [ ] Add CityDeck to the competitor table in [[Roadmap]]
 
 **Gate to Phase 1:** at least 12 of 20 people say they'd share a hometown pull, and the name and domain are secured.
 

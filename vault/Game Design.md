@@ -22,6 +22,13 @@ Cards use serial-numbered print runs, like real trading cards. Commons are unlim
 ## Stats
 Computed from real data in the [[Data Pipeline]].
 
+Scales used in the paper prototype (2026-11-23), each 1–100 on fixed ranges so stats stay comparable as the pool grows:
+- HP: log population, 500 people = 1, 20 million = 100. No population (peaks, lakes, parks) = 1.
+- Defense: elevation, 0 m = 1, 5,500 m or more = 100.
+- Attack: log of 12-month page views, 10k = 1, 3 million = 100.
+- Chill: average temperature, 30 °C = 1, −20 °C = 100.
+The first attempt (log scales starting at 0) squeezed every card into a narrow band; the ranges above spread them out. Tune in the beta.
+
 | Stat | Source | Notes |
 |---|---|---|
 | HP | Population | Log-scaled so megacities don't break everything |
