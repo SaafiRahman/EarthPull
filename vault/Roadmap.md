@@ -4,7 +4,7 @@ Nov 23, 2026 · @Saafi
 
 ## Overview
 
-**Earthpull is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** The goal is a resume line with real numbers (for example, "Built Earthpull, 25K players in the first month") plus an engineering story worth telling in interviews. Money is not the goal. Earthpull is a working name; see Phase 0.
+**Earthpull is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** The goal is a resume line with real numbers (for example, "Built Earthpull, 25K players in the first month") plus an engineering story worth telling in interviews. Money is not the goal. Earthpull is a working name; see Phase 0. **Update 2026-11-23: the name is Pull the Planet** (see [[Decisions]]).
 
 **One-line pitch:** Open packs, pull real towns, lakes and landmarks, and claim numbered copies before they run out. Some places exist only once.
 

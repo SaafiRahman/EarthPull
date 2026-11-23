@@ -3,10 +3,10 @@
 Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and finish. The [GitHub Projects board](https://github.com/users/SaafiRahman/projects/4) mirrors this list; this note is the source of truth, so update the board to match.
 
 ## Current: Phase 0, ideation and validation (1 week)
-- [ ] Pick a name. Shortlist: Earthpull, Placedex, Pull the Planet, Atlasdex. Check .com, .gg and .io availability and that the handle is free on TikTok, X and Reddit. (Open in [[Decisions]].)
+- [x] Pick a name: **Pull the Planet** (2026-11-23). Shortlist was Earthpull, Placedex, Pull the Planet, Atlasdex. Check .com, .gg and .io availability and that the handle is free on TikTok, X and Reddit. (Open in [[Decisions]].)
   - [x] Research domain availability; results and recommendation in [[Decisions#Phase 0 research (2026-11-23)]] (2026-11-23)
-  - [ ] Check X, TikTok and Reddit handles by hand (couldn't be checked automatically)
-- [ ] Buy the domain (about $10–40 per year).
+  - [ ] Check and claim `pulltheplanet` on X, TikTok and Reddit (couldn't be checked automatically)
+- [ ] Buy pulltheplanet.com (about $10–40 per year; free as of 2026-11-23). Optionally .gg too.
 - [x] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental_games for "places gacha" or "city card pack" games. Done 2026-11-23; found CityDeck, a close match. See [[Decisions#Competitor search]].
 - ~~Paper prototype: print 30 fake cards and have 5 friends open "packs".~~ **Dropped 2026-11-23**; the Phase 3 private beta is the first real test. The materials already made stay in `prototype/out/` (card PDF) and can be reused.
 - ~~Interest test: show a mock-up of the hometown pull to 20 people.~~ **Dropped 2026-11-23**, same reason. The mock-up (`prototype/out/hometown-pull-mockup.png`) can be reused for build-in-public posts.
@@ -15,7 +15,7 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
   - [x] Dev log in `vault/Dev Log/` (2026-11-23)
   - [x] First commit (2026-11-23)
   - [x] Push to GitHub (2026-11-23)
-  - [x] GitHub Projects board: "Earthpull Roadmap", https://github.com/users/SaafiRahman/projects/4 (2026-11-23)
+  - [x] GitHub Projects board: "Pull the Planet Roadmap" (was "Earthpull Roadmap"), https://github.com/users/SaafiRahman/projects/4 (2026-11-23)
 
 - [ ] Play CityDeck for 20 minutes and note what it does well
 - [ ] Add CityDeck to the competitor table in [[Roadmap]]

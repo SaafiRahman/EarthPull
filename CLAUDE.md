@@ -1,4 +1,4 @@
-# EarthPull
+# Pull the Planet (repo: EarthPull)
 
 The project's long-term memory is the Obsidian vault in `vault/`.
 

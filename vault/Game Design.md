@@ -2,7 +2,7 @@
 
 Back to [[00 Home]]. Source: [[Roadmap]] (game design spec). Decisions behind this note live in [[Decisions]].
 
-**Earthpull is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Version 1 is pack opening, numbered copies, a personal collection and a shared world map. Battles and trading wait for v2.
+**Pull the Planet is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Version 1 is pack opening, numbered copies, a personal collection and a shared world map. Battles and trading wait for v2.
 
 ## Rarity tiers and caps
 Cards use serial-numbered print runs, like real trading cards. Commons are unlimited; every higher tier has a fixed cap. The caps are starting values to tune in the beta (Phase 3, see [[Roadmap]]).
