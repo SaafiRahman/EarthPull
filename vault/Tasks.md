@@ -38,8 +38,11 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [x] Pull landmark categories from Wikidata and join them to Wikipedia article titles (Canada): `pipeline/wikidata_ca.py` (2026-11-23)
   - [x] Link towns to Wikidata by GeoNames ID (P1566): 1,250 of 1,667 linked, 1,208 with an English article (2026-11-23)
   - [x] Landmarks with an English or French Wikipedia article: 9,789 (2026-11-23)
-  - [ ] Decide: global neighbourhood rule (see [[Data Pipeline#Going global]])
-  - [ ] Decide: include built landmarks (towers, bridges, historic sites)? Only natural features and national parks so far
+  - [x] Decide: worldwide neighbourhood rule: approved 2026-11-23 (see [[Decisions]]); build it when the pipeline goes past Canada
+  - [x] Decide: built landmarks: yes, and they should be high rarity (2026-11-23)
+  - [x] Pull built landmarks for Canada: `pipeline/structures_ca.py`, **2,031 structures** (2026-11-23)
+  - [ ] Developer: memorials are excluded per the roadmap's sensitive-sites rule, which also drops the National War Memorial in Ottawa. Keep that rule, or allow major national memorials?
+  - [ ] At the rarity step: make sure structures land in high tiers (fame percentile alone may not do it)
   - [ ] Wikipedia titles for the 417 towns with no Wikidata item linked by GeoNames ID (name-match fallback)
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
