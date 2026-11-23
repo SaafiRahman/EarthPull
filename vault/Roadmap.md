@@ -121,7 +121,7 @@ Each phase ends at a gate; don't start the next phase until its gate is met, and
 - [ ] ~~Interest test: show a mock-up of one card and the hometown pull to 20 people. Ask "would you open a pack?" and "would you send this to someone?"~~ Dropped 2026-11-23.
 - [ ] Set up the repo, a Trello or GitHub Projects board with this roadmap, and a dev log (screenshots and notes for each week; this becomes launch content later).
 
-**Gate to Phase 1:** ~~at least 12 of 20 people say they'd share a hometown pull, and~~ the name and domain are secured. (Changed 2026-11-23: the Phase 3 private beta is the first test of whether people share pulls.)
+**Gate to Phase 1:** ~~at least 12 of 20 people say they'd share a hometown pull, and~~ the name and domain are secured. **Met 2026-11-23.** (Changed 2026-11-23: the Phase 3 private beta is the first test of whether people share pulls.)
 
 ## Phase 1 — Data pipeline (3 weeks, about 20 hours)
 

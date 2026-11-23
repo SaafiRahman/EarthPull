@@ -6,7 +6,9 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
 - [x] Pick a name: **Pull the Planet** (2026-11-23). Shortlist was Earthpull, Placedex, Pull the Planet, Atlasdex. Check .com, .gg and .io availability and that the handle is free on TikTok, X and Reddit. (Open in [[Decisions]].)
   - [x] Research domain availability; results and recommendation in [[Decisions#Phase 0 research (2026-11-23)]] (2026-11-23)
   - [ ] Check and claim `pulltheplanet` on X, TikTok and Reddit (couldn't be checked automatically)
-- [ ] Buy pulltheplanet.com (about $10–40 per year; free as of 2026-11-23). Optionally .gg too.
+- [x] Buy pulltheplanet.com: Cloudflare Registrar, $11.17/yr, auto-renew on, expires 2027-11-23 (2026-11-23)
+  - [ ] Click the registrant verification email from Cloudflare/ICANN (within about 15 days, or the domain can be suspended)
+  - [ ] Turn on two-factor login on the Cloudflare account
 - [x] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental_games for "places gacha" or "city card pack" games. Done 2026-11-23; found CityDeck, a close match. See [[Decisions#Competitor search]].
 - ~~Paper prototype: print 30 fake cards and have 5 friends open "packs".~~ **Dropped 2026-11-23**; the Phase 3 private beta is the first real test. The materials already made stay in `prototype/out/` (card PDF) and can be reused.
 - ~~Interest test: show a mock-up of the hometown pull to 20 people.~~ **Dropped 2026-11-23**, same reason. The mock-up (`prototype/out/hometown-pull-mockup.png`) can be reused for build-in-public posts.
@@ -20,7 +22,7 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
 - [ ] Play CityDeck for 20 minutes and note what it does well
 - [ ] Add CityDeck to the competitor table in [[Roadmap]]
 
-**Gate to Phase 1:** name and domain secured. (Changed 2026-11-23: the share test moved to the Phase 3 beta; see [[Decisions]].)
+**Gate to Phase 1:** name and domain secured. **Met 2026-11-23** (Pull the Planet, pulltheplanet.com). The handle check is left over but doesn't block Phase 1.
 
 ## Current: Phase 1, data pipeline (3 weeks, about 20 hours)
 Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Canada only for now. Details in [[Data Pipeline]].

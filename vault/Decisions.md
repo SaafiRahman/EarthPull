@@ -16,11 +16,11 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Skip the paper prototype and interest test | Phase 0 gate is now just "name and domain secured"; the Phase 3 private beta is the first test of whether people share pulls | Developer's call. Trade-off: no evidence the hometown hook works until about 15 weeks of building are done, so watch the Phase 3 share numbers closely |
 | 2026-11-23 | Start Phase 1 before the Phase 0 gate | Build the pipeline (Canada only) while the name and domain are still open | The pipeline doesn't depend on the name; developer's call |
 | 2026-11-23 | Name | **Pull the Planet** (working name Earthpull retired) | Only shortlisted name with the .com free; all three TLDs free; says what the game is. See [[#Phase 0 research (2026-11-23)]] |
+| 2026-11-23 | Domain | **pulltheplanet.com** at Cloudflare Registrar, $11.17/yr at cost, auto-renew on, expires 2027-11-23, Cloudflare nameservers | At-cost price with no renewal jump; free WHOIS redaction; DNS works with Firebase App Hosting custom domains. .gg and .io not bought |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open
 Each has the roadmap's recommendation.
-- [ ] **Domain.** Buy pulltheplanet.com (rechecked free on 2026-11-23, as were .gg and .io). Name is decided, see above.
 - [ ] **Minimum age.** Recommended: 13+, with a birth-year check at sign-up. Collecting emails from children under 13 brings extra legal requirements.
 - [ ] **Usernames.** Recommended: usernames are public on "discovered by" credits and leaderboards, so filter profanity at sign-up, add a report button, and allow renaming an account that breaks the rules.
 - [ ] **Season policy.** Recommended: state publicly that Season 1 cards are never reprinted or taken away, except for botting. Later seasons add new variants instead.
