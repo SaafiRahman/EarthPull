@@ -3,12 +3,14 @@
 Each place is matched to the 2021 census subdivision (CSD) it falls inside. In urban CSDs
 (cities, towns, villes, villages), if one place carries the CSD's own name, it's the
 municipality itself; other places inside that CSD and within NEAR_KM of it are treated as
-neighbourhoods and dropped. Far-out places inside amalgamated cities (rural villages in the
+neighbourhood candidates. Each candidate is then checked against Wikidata
+(wikidata_places.verdict): kept if Wikidata calls it a town/city/village or former
+municipality, or a settlement with its own Wikipedia article; dropped otherwise. Far-out places inside amalgamated cities (rural villages in the
 City of Ottawa) and everything in rural or regional CSDs are kept.
 
     python pipeline/drop_neighbourhoods_ca.py
 Input:  data/interim/geonames_ca.parquet   (from geonames.py)
-Output: data/interim/places_ca.parquet     (+ data/interim/dropped_neighbourhoods_ca.csv)
+Output: data/interim/places_ca.parquet     (+ data/interim/neighbourhood_check_ca.csv)
 """
 import re
 import unicodedata
@@ -18,6 +20,7 @@ import geopandas as gpd
 import pandas as pd
 
 from statcan_csd import fetch as fetch_csd
+from wikidata_places import lookup_many, verdict
 
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
@@ -63,12 +66,19 @@ def main():
         dist_km = metric.loc[others].distance(metric.loc[main_idx, "geometry"]) / 1000
         drop_idx += list(dist_km[dist_km < NEAR_KM].index)
 
-    dropped = j.loc[drop_idx].copy()
-    kept = j.drop(index=drop_idx)
+    cand = j.loc[drop_idx].copy()
+    print(f"Boundary rule flags {len(cand):,} possible neighbourhoods; checking Wikidata...")
+    matches = lookup_many((i, r["name"], r["latitude"], r["longitude"]) for i, r in cand.iterrows())
+    cand[["verdict", "reason"]] = [verdict(matches[i]) for i in cand.index]
+    cand["wikidata"] = [",".join(m["qid"] for m in matches[i][:3]) for i in cand.index]
+    print(cand.groupby(["verdict", "reason"]).size().to_string())
+    dropped = cand[cand["verdict"] == "drop"]
+    kept = j.drop(index=dropped.index)
     kept.to_parquet(INTERIM / "places_ca.parquet")
     cols = ["name", "province", "CSDNAME", "CSDTYPE", "feature_code", "population"]
-    dropped.sort_values("population", ascending=False)[cols + ["geonameid"]].to_csv(
-        INTERIM / "dropped_neighbourhoods_ca.csv", index=False, encoding="utf-8")
+    cand.sort_values(["verdict", "population"], ascending=[True, False])[
+        cols + ["verdict", "reason", "wikidata", "geonameid"]].to_csv(
+        INTERIM / "neighbourhood_check_ca.csv", index=False, encoding="utf-8")
 
     print(f"Urban CSDs with 2+ places: {urban.groupby('CSDUID').filter(lambda g: len(g) > 1)['CSDUID'].nunique()}, "
           f"main place found in {mains}, no name match in {len(unmatched)}")
@@ -78,8 +88,8 @@ def main():
         print(dropped.sort_values("population", ascending=False)[cols].head(25).to_string(index=False))
         print("\nCheck known cases:")
         print(j[j["name"].isin(["Greektown", "Williamsville", "Glen Cairn", "Manotick", "Kanata", "Scarborough",
-                                "Dartmouth", "Fort McMurray", "Chicoutimi"])][cols].assign(
-            dropped=lambda d: d.index.isin(drop_idx)).to_string(index=False))
+                                "Dartmouth", "Fort McMurray", "Georgetown", "Simcoe", "Mount Pearl"])][cols].assign(
+            dropped=lambda d: d.index.isin(dropped.index)).to_string(index=False))
         print("\nUrban CSDs with several places but no place named after the CSD (left alone):")
         print(pd.DataFrame(unmatched, columns=["CSD", "type", "places", "examples"]).sort_values("places", ascending=False).head(12).to_string(index=False))
 

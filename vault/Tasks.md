@@ -27,12 +27,14 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
 ## Current: Phase 1, data pipeline (3 weeks, about 20 hours)
 Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Canada only for now. Details in [[Data Pipeline]].
 - [x] Set up `pipeline/` (Python venv, pandas/GeoPandas, `requirements.txt`, README) (2026-11-23)
-- [ ] Download and clean GeoNames, filtered to Canada; drop duplicates and alternate-name noise (in progress 2026-11-23): `pipeline/geonames.py`, 1,681 places
+- [x] Download and clean GeoNames, filtered to Canada; drop duplicates and alternate-name noise: `pipeline/geonames.py` + `drop_neighbourhoods_ca.py`, **1,567 places** (2026-11-23)
   - [x] Show the developer a 20-row sample (2026-11-23)
   - [x] Developer chose Statistics Canada boundaries to drop neighbourhoods coded as towns (2026-11-23)
   - [x] Drop neighbourhoods using 2021 census subdivision boundaries: `pipeline/statcan_csd.py` + `drop_neighbourhoods_ca.py`, 1,681 → 1,520 (2026-11-23)
-  - [ ] Review the drop list (`pipeline/data/interim/dropped_neighbourhoods_ca.csv`): it also drops real towns inside merged municipalities (Georgetown, Stouffville, Ancaster, Stoney Creek). Decide: allow-list, or a smaller distance than 15 km
-  - [ ] Developer: keep or drop the 14 places with population 0
+  - [x] Developer review: the 15 km rule also drops real towns (Georgetown, Simcoe, Mount Pearl). Chosen fix: check each candidate against Wikidata, since a hand allow-list won't scale globally (2026-11-23)
+  - [x] Wikidata check on drop candidates: `pipeline/wikidata_places.py`; 160 flagged → 60 kept as real towns, 100 dropped (2026-11-23)
+  - [x] Drop places with population 0: 14 dropped (2026-11-23)
+  - [ ] Later: debatable drops to revisit (Virgil, Cookstown, Lively; Nepean, which Wikidata now calls a neighbourhood)
 - [ ] Pull landmark categories from Wikidata and join them to Wikipedia article titles.
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.

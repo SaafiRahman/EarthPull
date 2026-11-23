@@ -17,6 +17,8 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Start Phase 1 before the Phase 0 gate | Build the pipeline (Canada only) while the name and domain are still open | The pipeline doesn't depend on the name; developer's call |
 | 2026-11-23 | Name | **Pull the Planet** (working name Earthpull retired) | Only shortlisted name with the .com free; all three TLDs free; says what the game is. See [[#Phase 0 research (2026-11-23)]] |
 | 2026-11-23 | Domain | **pulltheplanet.com** at Cloudflare Registrar, $11.17/yr at cost, auto-renew on, expires 2027-11-23, Cloudflare nameservers | At-cost price with no renewal jump; free WHOIS redaction; DNS works with Firebase App Hosting custom domains. .gg and .io not bought |
+| 2026-11-23 | Neighbourhood removal | StatCan census subdivisions flag candidates; Wikidata classes decide keep or drop | A hand allow-list won't scale globally (developer's call); the boundary rule alone dropped real towns like Georgetown and Simcoe |
+| 2026-11-23 | Population-0 places | Drop them | Developer's call; they'd all get HP 1 |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open

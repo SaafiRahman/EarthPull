@@ -106,6 +106,9 @@ def clean(df: pd.DataFrame, country: str) -> gpd.GeoDataFrame:
     df = df.drop_duplicates("geonameid")
     report.append(("Drop blank names and repeated IDs", len(df)))
 
+    df = df[df["population"] > 0]  # municipality seats GeoNames lists with no population (decided 2026-11-23)
+    report.append(("Drop population 0", len(df)))
+
     df["name_key"] = df["asciiname"].str.lower().str.replace(r"[^a-z0-9]", "", regex=True)
     df, dupes = dedupe(df)
     report.append((f"Drop same name + province within {DEDUPE_KM} km (keep most populous)", len(df)))

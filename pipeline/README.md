@@ -15,9 +15,10 @@ pipeline/.venv/Scripts/python -m pip install -r pipeline/requirements.txt   # Wi
 | Step | Script | Output |
 |---|---|---|
 | 1. GeoNames, one country, cleaned | `python pipeline/geonames.py --country CA` | `data/interim/geonames_ca.parquet` |
+| 2. Drop neighbourhoods (Canada): StatCan census subdivisions + Wikidata check | `python pipeline/drop_neighbourhoods_ca.py` | `data/interim/places_ca.parquet`, `neighbourhood_check_ca.csv` |
 
-Downloads are cached in `data/raw/`. Everything under `data/` is git-ignored and can be rebuilt.
+Downloads and Wikidata answers are cached in `data/raw/`. Everything under `data/` is git-ignored and can be rebuilt.
 
 ## Data credits
 
-GeoNames (geonames.org), CC BY 4.0.
+GeoNames (geonames.org), CC BY 4.0. Statistics Canada 2021 census subdivision boundaries, Open Government Licence – Canada. Wikidata, CC0.
