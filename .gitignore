@@ -1,0 +1,3 @@
+# Obsidian per-device state
+vault/.obsidian/workspace*.json
+vault/.trash/

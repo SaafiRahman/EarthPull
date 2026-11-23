@@ -1,0 +1,43 @@
+# Earthpull: Home
+
+Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-11-23|Dev Log]] note at the start of every session.
+
+**Earthpull (working name) is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Launch target: early May 2027.
+
+## Current phase
+**Phase 0: Ideation and validation.** Lock the name, prove the core moment is fun on paper, and set up the project. The repo and vault are set up; the rest of Phase 0 is in [[Tasks]].
+
+**Gate to Phase 1:** at least 12 of 20 people say they'd share a hometown pull, and the name and domain are secured.
+
+## What to do next
+1. Finish the Phase 0 tasks in [[Tasks]]: name, domain, competitor search, paper prototype, interest test, project board.
+2. Then Phase 1: the [[Data Pipeline]], built on Canada first.
+
+## Notes
+- [[Roadmap]]: the full roadmap and source of truth (phases 0–6, gates, risks)
+- [[Decisions]]: decided choices and open questions, with dates and reasons
+- [[Game Design]]: rarity tiers and caps, stats, card art, core loop, sharing hooks, maps and friends, out of scope for v1
+- [[Architecture]]: Firebase stack, Firestore collections, the minting transaction, static card pool
+- [[Data Pipeline]]: sources, steps, card images, gate
+- [[Tasks]]: current and upcoming tasks
+- [[Launch & Marketing]]: Phases 5 and 6
+- [[Resume & Metrics]]: metrics, resume templates, interview talking points
+
+## Phases at a glance
+| Phase | Name | Length |
+|---|---|---|
+| 0 | Ideation and validation | 1 week |
+| 1 | Data pipeline | 3 weeks |
+| 2 | MVP build | 11 weeks |
+| 3 | Private beta and tuning | 3 weeks |
+| 4 | Deployment and infrastructure | 2 weeks, then an exam pause |
+| 5 | Launch and marketing | 2 weeks |
+| 6 | Growth and post-launch | Ongoing |
+
+## Dev Log
+One note per work session in `Dev Log/`, named YYYY-MM-DD.
+- [[Dev Log/2026-11-23]]: vault set up, filled in from the roadmap, first commit
+
+## Rules for this vault
+- It is committed to GitHub. Never put secrets (API keys, passwords, tokens) or personal information here.
+- Use absolute dates (YYYY-MM-DD), not "today" or "last week".
