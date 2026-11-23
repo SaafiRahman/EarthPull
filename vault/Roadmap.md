@@ -117,11 +117,11 @@ Each phase ends at a gate; don't start the next phase until its gate is met, and
 - [ ] Pick a name. Shortlist: Earthpull, Placedex, Pull the Planet, Atlasdex. Check .com, .gg and .io availability and that the handle is free on TikTok, X and Reddit.
 - [ ] Buy the domain (about $10–40 per year).
 - [ ] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental\_games for "places gacha" or "city card pack" games.
-- [ ] Paper prototype: print 30 fake cards (mix of tiers, real stats) and have 5 friends open "packs" from a shuffled pile. Watch which cards they react to.
-- [ ] Interest test: show a mock-up of one card and the hometown pull to 20 people. Ask "would you open a pack?" and "would you send this to someone?"
+- [ ] ~~Paper prototype: print 30 fake cards (mix of tiers, real stats) and have 5 friends open "packs" from a shuffled pile. Watch which cards they react to.~~ Dropped 2026-11-23.
+- [ ] ~~Interest test: show a mock-up of one card and the hometown pull to 20 people. Ask "would you open a pack?" and "would you send this to someone?"~~ Dropped 2026-11-23.
 - [ ] Set up the repo, a Trello or GitHub Projects board with this roadmap, and a dev log (screenshots and notes for each week; this becomes launch content later).
 
-**Gate to Phase 1:** at least 12 of 20 people say they'd share a hometown pull, and the name and domain are secured.
+**Gate to Phase 1:** ~~at least 12 of 20 people say they'd share a hometown pull, and~~ the name and domain are secured. (Changed 2026-11-23: the Phase 3 private beta is the first test of whether people share pulls.)
 
 ## Phase 1 — Data pipeline (3 weeks, about 20 hours)
 

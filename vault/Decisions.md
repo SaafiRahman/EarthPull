@@ -13,6 +13,8 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Money | Free; no paid packs or cards | Selling packs is gambling-adjacent and hurts the resume story |
 | 2026-11-23 | Project memory | Obsidian vault in `vault/` | Keeps design, decisions and progress in the repo, readable by the developer and by Claude sessions |
 | 2026-11-23 | Task board | GitHub Projects ("Earthpull Roadmap"), mirroring [[Tasks]] | Developer's choice over Trello; lives next to the repo. The vault stays the source of truth |
+| 2026-11-23 | Skip the paper prototype and interest test | Phase 0 gate is now just "name and domain secured"; the Phase 3 private beta is the first test of whether people share pulls | Developer's call. Trade-off: no evidence the hometown hook works until about 15 weeks of building are done, so watch the Phase 3 share numbers closely |
+| 2026-11-23 | Start Phase 1 before the Phase 0 gate | Build the pipeline (Canada only) while the name and domain are still open | The pipeline doesn't depend on the name; developer's call |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open

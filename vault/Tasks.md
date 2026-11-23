@@ -8,11 +8,8 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
   - [ ] Check X, TikTok and Reddit handles by hand (couldn't be checked automatically)
 - [ ] Buy the domain (about $10–40 per year).
 - [x] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental_games for "places gacha" or "city card pack" games. Done 2026-11-23; found CityDeck, a close match. See [[Decisions#Competitor search]].
-- [ ] Paper prototype: print 30 fake cards (mix of tiers, real stats) and have 5 friends open "packs" from a shuffled pile. Watch which cards they react to.
-  - [x] Make the materials: 30 real cards with real stats as a printable PDF: `prototype/out/paper-prototype-cards.pdf` (2026-11-23)
-  - [ ] Print it (pages 2–5, 100% scale; page 6 is card backs) and cut the cards
-- [ ] Interest test: show a mock-up of one card and the hometown pull to 20 people. Ask "would you open a pack?" and "would you send this to someone?"
-  - [x] Make the hometown-pull mock-up image: `prototype/out/hometown-pull-mockup.png` (Kelowna, Rare #3 of 1,000) (2026-11-23)
+- ~~Paper prototype: print 30 fake cards and have 5 friends open "packs".~~ **Dropped 2026-11-23**; the Phase 3 private beta is the first real test. The materials already made stay in `prototype/out/` (card PDF) and can be reused.
+- ~~Interest test: show a mock-up of the hometown pull to 20 people.~~ **Dropped 2026-11-23**, same reason. The mock-up (`prototype/out/hometown-pull-mockup.png`) can be reused for build-in-public posts.
 - [x] Set up the repo, a GitHub Projects board with the roadmap, and a dev log. (2026-11-23)
   - [x] Repo with vault, `CLAUDE.md` and `.gitignore` (2026-11-23)
   - [x] Dev log in `vault/Dev Log/` (2026-11-23)
@@ -23,11 +20,14 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
 - [ ] Play CityDeck for 20 minutes and note what it does well
 - [ ] Add CityDeck to the competitor table in [[Roadmap]]
 
-**Gate to Phase 1:** at least 12 of 20 people say they'd share a hometown pull, and the name and domain are secured.
+**Gate to Phase 1:** name and domain secured. (Changed 2026-11-23: the share test moved to the Phase 3 beta; see [[Decisions]].)
 
-## Upcoming: Phase 1, data pipeline (3 weeks, about 20 hours)
-Start on Canada first. Details in [[Data Pipeline]].
-- [ ] Download and clean GeoNames; drop duplicates and alternate-name noise.
+## Current: Phase 1, data pipeline (3 weeks, about 20 hours)
+Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Canada only for now. Details in [[Data Pipeline]].
+- [x] Set up `pipeline/` (Python venv, pandas/GeoPandas, `requirements.txt`, README) (2026-11-23)
+- [ ] Download and clean GeoNames, filtered to Canada; drop duplicates and alternate-name noise (in progress 2026-11-23): `pipeline/geonames.py`, 1,681 places
+  - [x] Show the developer a 20-row sample (2026-11-23)
+  - [ ] Developer review of the sample, then decide how to drop neighbourhoods that GeoNames codes as towns (see [[Data Pipeline#Known data issues]])
 - [ ] Pull landmark categories from Wikidata and join them to Wikipedia article titles.
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.

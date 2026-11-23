@@ -36,6 +36,9 @@ Back to [[00 Home]]. Source: [[Roadmap]] (Phase 1). Feeds the stats in [[Game De
 - A random sample of 100 cards looks right: no broken names, stats in range, sensible rarities.
 - Keep the pool to roughly 150,000–200,000 cards to start.
 
+## Progress (Canada)
+- 2026-11-23, step 1: `pipeline/geonames.py` downloads `cities1000` and `admin1CodesASCII`, filters to Canada and cleans. 172,063 worldwide → 3,009 Canadian → 1,681 after dropping neighbourhoods (PPLX, 1,328 rows) and historical, abandoned and destroyed places. Output: `pipeline/data/interim/geonames_ca.parquet` (GeoParquet, EPSG:4326, git-ignored).
+
 ## Known data issues
 From the risks in the [[Roadmap]]:
 - Wrong names, or offensive or sensitive places: sample checks in Phase 1; exclude sensitive categories (cemeteries, memorial sites, disputed borders).
@@ -46,4 +49,9 @@ Found while building the paper prototype (2026-11-23, 30 places, `prototype/fetc
 - **Several elevations per place:** Hobart has 1,270 m (probably the city's highest point) and 54 m. Everest has six, from different surveys (8,844 to 8,850 m, one in feet). Rule used: take Wikidata's preferred-rank value if there is one (Everest: 8,848.86 m); otherwise, for towns, the value closest to the terrain height at the coordinate (Open-Meteo elevation API), and for peaks the highest.
 - **Natural features have no population:** peaks, lakes and parks get HP 1. Decide in Phase 1 whether that's fine (it's funny) or whether features need a different HP source.
 - **Rate limits:** the Wikimedia Pageviews API returned 429 after about 10 requests, and Open-Meteo returned a 503 once. Cache every response and back off; see the cache in `prototype/fetch_cards.py`.
+- **GeoNames elevation is mostly blank** (1,632 of 1,681 Canadian places). Use the `dem` column (terrain model height, set for all but 8) for Defense.
+- **Neighbourhoods coded as towns:** some city neighbourhoods are coded PPL, not PPLX, so they survive the filter, e.g. Greektown (Vancouver) and Williamsville (Kingston). Fix to decide: drop a place inside a much bigger city's boundary (needs boundary data, e.g. Statistics Canada census subdivisions) or within a few km of a city 10× its size.
+- **Population 0:** 14 Canadian places (municipality seats such as Saint-Rémi-de-Tingwick, PPLA3) have population 0. They'd get HP 1; decide whether to drop them.
+- **Quebec dominates:** 522 of 1,681 places, because Quebec has many small municipalities. Fine for cards, but it skews per-province rarity percentiles if rarity is assigned per province.
+- **No duplicates found** by the same name + province within 5 km rule in Canada; keep the rule for other countries.
 - **Elevation 0 m:** Churchill, Manitoba is stored as 0 m in Wikidata, while the terrain model gives 9 m. Small towns' elevations may be rough.

@@ -4,3 +4,8 @@ vault/.trash/
 
 # Prototype API cache
 prototype/.cache.json
+
+# Pipeline
+pipeline/.venv/
+pipeline/data/
+__pycache__/
