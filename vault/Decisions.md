@@ -23,6 +23,8 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Built landmarks | Include structures: towers, buildings, bridges and similar, not just natural features | Developer: they're really important to have, and they should be high-rarity cards |
 | 2026-11-23 | Query engine for big Wikidata walks | QLever (public, University of Freiburg) for the structures query; query.wikidata.org for the rest | The structure-subclass walk times out on query.wikidata.org; QLever does it in seconds. If QLever is down, the cached result in `data/raw/` still works |
 | 2026-11-23 | Memorials | Allowed as cards (National War Memorial, Wolfe-Montcalm Monument...). Cemeteries, graves, prisons, residential schools and hospitals stay excluded | Developer's call; changes the roadmap's "exclude memorial sites" rule |
+| 2026-11-23 | Identify pipeline requests to Wikimedia | User-Agent `PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/EarthPull)` | Wikimedia's policy asks for a contact; anonymous scripts were throttled to ~13 h for Canada. Developer approved using the repo URL (no email) |
+| 2026-11-23 | Fame score | English + French Wikipedia views, last 12 complete months, real users only | Quebec places often have only, or mainly, a French article |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open

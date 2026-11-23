@@ -52,6 +52,7 @@ Almost every source is already worldwide: GeoNames, Wikidata, Wikipedia page vie
 - Wikidata by GeoNames ID covers 75% of places (1,250 of 1,667).
 - Its classes alone aren't reliable: it calls real towns and villages "neighbourhood" (Uxbridge, Carp, Metcalfe) as well as true suburbs (Orléans, Stittsville).
 - Boundaries alone over-drop real towns (see step 2).
+- **Page views worldwide:** per-article API requests would be ~250,000 for a global pool. Better: Wikimedia's bulk monthly files (`dumps.wikimedia.org/other/pageview_complete/monthly/`, one file per month with every article's views, ~4–5 GB compressed, ~55 GB for 12 months). Stream each file and keep only our articles: no rate limits, one overnight job.
 - Proposed global rule, to confirm: flag a place when it's within ~15 km of a much bigger place (no boundaries needed), and drop it only if Wikidata agrees it's a neighbourhood. Use national boundaries only where a country turns out messy.
 
 ## Known data issues
@@ -71,9 +72,12 @@ Found while building the paper prototype (2026-11-23, 30 places, `prototype/fetc
 - **No duplicates found** by the same name + province within 5 km rule in Canada; keep the rule for other countries.
 - **Wikidata class labels are messy:** "Greektown" is itself a class label, "neighbourhood of Quebec City" contains "city", and many neighbourhoods are tagged with a bare "urban-type settlement". Match municipality labels by prefix, let neighbourhood words win, and require a Wikipedia article for generic settlements.
 - **Debatable drops** to revisit: Virgil, Cookstown, Lively (real communities with no clear Wikidata class), and Nepean (a city until 2001; Wikidata now calls it a neighbourhood).
+- **Wikimedia throttles anonymous scripts:** with a generic User-Agent the page views API returned 429 ("retry after 54 s") after a short burst: 0.4 articles/s, ~13 h for Canada. With a User-Agent naming the project and its GitHub URL (Wikimedia's policy asks for a contact), ~4/s.
 - **Wikidata Query Service** returns 500s now and then; the lookup caches every answer and retries.
 - **Direct Wikidata classes miss landmarks:** Lake Louise (Alberta) is a "glacial lake", not a "lake". Subclass walks time out on Canada's lakes, so the narrower classes are listed by hand in `wikidata_ca.py`. Check the list per country.
 - **Landmarks spanning provinces** get the province of their coordinate point (the Columbia Icefield shows as British Columbia).
 - **Wikidata labels have typos** (e.g. "Bruce Nuclear Generating Stationc"). Show labels as-is for now; consider the Wikipedia title for display.
 - **Dots in water on the preview map (checked 2026-11-23).** Against the detailed 50 m boundaries, 99% of towns, 94% of built and 91% of natural points are on land; against the preview's simplified outline only 89% / 78% / 83%. So most of what looked wrong was the drawn coastline (small islands like the Gulf Islands had been deleted). Most remaining off-coast points belong on water: bays (379), river points (Wikidata puts rivers at their mouth), islands, bridges, lighthouses, canals; the 16 off-coast towns are within ~100 m of the shore. Real errors: wrong-country items (Seattle Times Building, 111 km outside Canada), offshore structures (Hibernia platform, the Ocean Ranger wreck, ~300 km out).
+- **Page views (Canada, done 2026-11-23):** 13,391 candidates; 377 have no en/fr article (fame 0), 5 have an article but 0 views. Median views per year: towns 6.5k, built 2.5k, natural 0.3k; 99th percentile: towns 327k, built 107k, natural 32k. Top: Toronto 1.61M, Lake Ontario 1.50M, Montréal 1.45M, Vancouver 1.29M; top built: BMO Field, CN Tower, Gordie Howe Bridge, BC Place. Very skewed, so rarity should come from percentiles within each type, not raw views.
+- **News spikes inflate fame:** a single month can dominate the year (Tumbler Ridge: 444k of 499k in one month; BMO Field 247k in one month; Gordie Howe Bridge on opening). Median month x 12 would damp this; open question in [[Tasks]].
 - **Elevation 0 m:** Churchill, Manitoba is stored as 0 m in Wikidata, while the terrain model gives 9 m. Small towns' elevations may be rough.

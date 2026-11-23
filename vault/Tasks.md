@@ -49,7 +49,9 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Pipeline: drop items more than ~25 km outside Canada (wrong-country tags such as the Seattle Times Building), and treat disaster sites and shipwrecks as sensitive (Ocean Ranger)
 - [ ] Developer: keep offshore landmarks like the Hibernia platform (~300 km out)?
 - [ ] Before launch: check location accuracy across the whole pool, not just Canada
-- [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
+- [x] Fetch page views for every place that has an article; places without one get a fame score of zero. (done 2026-11-23 for Canada: 13,391 candidates in `pool_ca.parquet`)
+- [ ] Developer: fame from news spikes. One-month spikes inflate the 12-month total (Tumbler Ridge 444k of 499k in one month; BMO Field and Gordie Howe Bridge too). Use median month x 12 instead of the sum? Needs a re-fetch that keeps monthly numbers (~1 h for Canada; the bulk dumps give months anyway)
+- [ ] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes): whose card are they, and do they count their whole article's views?
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
 - [ ] Compute stats (log-scale population, normalise each stat to 1–100).
 - [ ] Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed.
