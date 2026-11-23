@@ -13,6 +13,9 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.
 2. Phase 1 on Canada: clean GeoNames, then Wikidata landmarks, page views and stats. See [[Tasks]].
 
+## Preview
+- [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
+
 ## Notes
 - [[Roadmap]]: the full roadmap and source of truth (phases 0–6, gates, risks)
 - [[Decisions]]: decided choices and open questions, with dates and reasons

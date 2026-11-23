@@ -44,6 +44,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] Developer: keep memorials as cards (2026-11-23); 21 added, incl. the National War Memorial
   - [ ] At the rarity step: make sure structures land in high tiers (fame percentile alone may not do it)
   - [ ] Wikipedia titles for the 417 towns with no Wikidata item linked by GeoNames ID (name-match fallback)
+- [x] Private preview map of the Canada candidate cards: [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX) (2026-11-23). Rebuild: `python pipeline/export_preview.py`, then republish `preview/index.html`
 - [ ] Fetch page views for every place that has an article; places without one get a fame score of zero.
 - [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
 - [ ] Compute stats (log-scale population, normalise each stat to 1–100).

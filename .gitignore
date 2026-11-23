@@ -9,3 +9,6 @@ prototype/.cache.json
 pipeline/.venv/
 pipeline/data/
 __pycache__/
+
+# Preview map data (rebuilt by pipeline/export_preview.py)
+preview/data/
