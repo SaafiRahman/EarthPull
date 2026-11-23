@@ -12,7 +12,7 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Tick tasks off at the end of each sess
   - [x] Repo with vault, `CLAUDE.md` and `.gitignore` (2026-11-23)
   - [x] Dev log in `vault/Dev Log/` (2026-11-23)
   - [x] First commit (2026-11-23)
-  - [ ] Push to GitHub (needs the developer's OK)
+  - [x] Push to GitHub (2026-11-23)
   - [ ] Trello or GitHub Projects board
 
 **Gate to Phase 1:** at least 12 of 20 people say they'd share a hometown pull, and the name and domain are secured.
