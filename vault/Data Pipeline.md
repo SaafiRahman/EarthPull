@@ -39,6 +39,8 @@ Back to [[00 Home]]. Source: [[Roadmap]] (Phase 1). Feeds the stats in [[Game De
 ## Progress (Canada)
 - 2026-11-23, step 1: `pipeline/geonames.py` downloads `cities1000` and `admin1CodesASCII`, filters to Canada and cleans. 172,063 worldwide → 3,009 Canadian → 1,681 after dropping neighbourhoods (PPLX, 1,328 rows) and historical, abandoned and destroyed places. Output: `pipeline/data/interim/geonames_ca.parquet` (GeoParquet, EPSG:4326, git-ignored).
 
+- 2026-11-23, step 2: census subdivision boundaries (2021, StatCan ArcGIS REST layer 9; the zip downloads are behind a browser check scripts can't pass). In urban subdivisions, places within 15 km of the place named after the subdivision are dropped: 161 dropped, 1,520 left. Greektown and Williamsville are gone; Dartmouth, Kanata and Fort McMurray are kept. **Over-drops real towns** inside merged municipalities (Georgetown, Stouffville, Ancaster, Stoney Creek, Aylmer); needs review. 16 coastal points fall outside every boundary.
+
 ## Known data issues
 From the risks in the [[Roadmap]]:
 - Wrong names, or offensive or sensitive places: sample checks in Phase 1; exclude sensitive categories (cemeteries, memorial sites, disputed borders).
