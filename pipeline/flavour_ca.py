@@ -79,10 +79,13 @@ BEST = re.compile(r"\b(largest|biggest|highest|tallest|longest|oldest|deepest|fi
 
 def sentences(text: str) -> list[str]:
     text = text.split("\n")[0] if len(text.split("\n")[0]) > 60 else " ".join(text.split("\n")[:2])
+    text = text.replace("Ha! Ha!", "Ha! Ha! ")  # a place name (Baie des Ha! Ha!), not two sentence ends
     for _ in range(3):  # nested brackets
         text = BRACKETS.sub("", text)
     text = re.sub(r"\s+([,.;:])", r"\1", re.sub(r"\s{2,}", " ", text)).strip()
-    return [s.strip() for s in SPLIT.split(text) if s.strip()]
+    out = [s.strip().replace(" ", " ").strip() for s in SPLIT.split(text)]
+    # Drop lead-ins to a list ("... in these municipalities:") and bare coordinates ("63° 15′ 40″ N, ...").
+    return [s for s in out if s and not s.endswith(":") and "°" not in s]
 
 
 def trim(s: str) -> str:
@@ -120,6 +123,17 @@ def main():
 
     df["flavour"] = [flavour(cache.get(f"{l}|{t}", "")) if isinstance(t, str) else ""
                      for l, t in zip(df["flavour_lang"], df["flavour_title"])]
+
+    # Cards are in English (developer, 2026-11-24): French lines use the hand translation in flavour_en.csv,
+    # keyed by the French line, so a line that changes on Wikipedia shows up as untranslated, never stale.
+    # An empty translation means the French line was not usable.
+    en = pd.read_csv(ROOT / "flavour_en.csv", keep_default_na=False).set_index("fr")["en"]
+    fr = (df["flavour_lang"] == "fr") & (df["flavour"] != "")
+    todo = df.loc[fr & ~df["flavour"].isin(en.index), "flavour"].drop_duplicates()
+    df.loc[fr, "flavour"] = df.loc[fr, "flavour"].map(en).fillna("")
+    if len(todo):
+        todo.to_frame("fr").assign(en="").to_csv(INTERIM / "flavour_untranslated.csv", index=False, encoding="utf-8")
+        print(f"  {len(todo)} French lines have no translation yet (blank for now): data/interim/flavour_untranslated.csv")
     out = df[["id", "flavour", "flavour_lang", "flavour_title"]]
     out.to_parquet(INTERIM / "flavour_ca.parquet")
 

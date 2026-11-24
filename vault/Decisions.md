@@ -33,6 +33,7 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | No stats, no battles | Cards show real facts (population, elevation, height, area or length, average temperature, fame) instead of 1–100 stats; battles dropped from v2; trading stays a v2 idea | Developer: the game is about collecting, maybe trading; a battle system isn't needed. Wikigacha has battles, but our hooks are the map, numbered copies and local cards |
 | 2026-11-23 | Gone places | Drop places that are demolished, destroyed or never built (CalgaryNEXT); keep ones that closed but still stand (Montreal Forum) | Cards are real places you can visit |
 | 2026-11-24 | Places you can't visit | Undersea features and lakes that no longer exist are dropped like demolished buildings | Same reason as gone places: cards are real places you can visit |
+| 2026-11-24 | English cards | Flavour lines from French-only Wikipedia articles are translated into English; translations live in `pipeline/flavour_en.csv`, keyed by the French line | Developer: "translate it on english". One language on cards; keying by the French text flags lines that change on Wikipedia instead of showing a stale translation |
 | 2026-11-23 | Worldwide ranking | Rank fame within each country, not against the whole world | Every country gets its own Legendaries and Epics, which suits local packs |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
