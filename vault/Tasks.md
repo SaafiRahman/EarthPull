@@ -62,3 +62,4 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 
 ## Before Phase 2
 - [ ] Settle the open questions in [[Decisions]].
+- [ ] Decide the details of local packs (developer's idea, 2026-11-23): see [[Decisions#Open]]

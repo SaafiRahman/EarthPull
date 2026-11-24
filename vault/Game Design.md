@@ -56,6 +56,7 @@ The first attempt (log scales starting at 0) squeezed every card into a narrow b
 ## Sharing hooks
 - **Hometown pack:** your first pack guarantees a card within about 50 km, from coarse IP location (province or country level is stored, never exact location).
 - **Discovered by:** the first person to pull any card, commons included, gets their name on it forever.
+- **Local packs (developer's idea, 2026-11-23, not yet scheduled):** open a local pack that only gives cards near where you are, each marked with a special "Local" tag showing it was pulled there. Local-tagged copies can be worth more. Travelling unlocks the local pack of wherever you are, so a trip becomes a reason to open packs. Open questions in [[Decisions#Open]].
 - **Sets:** complete themed sets for bonus packs and a badge, such as Canada's 13 provincial and territorial capitals, the Great Lakes, or the Seven Summits.
 
 ## Maps and friends

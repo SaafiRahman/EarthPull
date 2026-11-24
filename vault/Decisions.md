@@ -34,6 +34,7 @@ Each has the roadmap's recommendation.
 - [ ] **Usernames.** Recommended: usernames are public on "discovered by" credits and leaderboards, so filter profanity at sign-up, add a report button, and allow renaming an account that breaks the rules.
 - [ ] **Season policy.** Recommended: state publicly that Season 1 cards are never reprinted or taken away, except for botting. Later seasons add new variants instead.
 - [ ] **Launch scope.** Recommended: the whole world at launch (more shareable), not Canada first. (Building the Phase 1 pipeline on Canada first is separate from launch scope.)
+- [ ] **Local packs (idea, 2026-11-23).** Details to settle: v1 or v2; the radius ("near you"); how often a local pack is available; what "worth more" means for a Local-tagged copy (rarer variant, display only, or more points); how location is checked within the privacy rules (coarse IP region, never stored exactly) and how to stop VPN or GPS spoofing from faking travel. See [[Game Design#Sharing hooks]].
 - [ ] **Analytics event list.** Write it before Phase 2: page view, sign-up, pack opened, card pulled (tier, serial), share tapped, friend added, map opened. These are the numbers the resume line depends on (see [[Resume & Metrics]]).
 
 ## Phase 0 research (2026-11-23)
