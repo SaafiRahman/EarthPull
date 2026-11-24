@@ -69,7 +69,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] North America: translate flavour from Spanish, French, Dutch and Danish articles (expect far more Spanish lines than the 1,538 French ones; plan the approach before running)
 - [ ] North America: one command runs the whole pipeline for a list of countries
 - [x] (done 2026-11-24) Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development (`export_ca.py`; sample in `pipeline/sample/cards_sample_ca.json`)
-- [ ] Card images: Wikidata image → Commons thumbnail + author + licence; reject maps, flags, logos and tiny images; mini-map render for the rest. Check the photo vs mini-map split on a sample first.
+- [ ] (in progress 2026-11-24) Card images: Wikidata image → Commons thumbnail + author + licence; reject maps, flags, logos and tiny images; mini-map render for the rest. Check the photo vs mini-map split on a sample first. **Split checked 2026-11-24 (`images_ca.py`, lookups only):** 51% of cards have a usable photo (built 94%, towns 66%, nature 39%; Legendary 96%, Epic 93%, Rare 82%, Common 32%). Next: developer picks how mini-maps are made, then download thumbnails
 
 **Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
