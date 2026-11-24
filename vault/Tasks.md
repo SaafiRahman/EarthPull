@@ -52,7 +52,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [x] Fetch page views for every place that has an article; places without one get a fame score of zero. (done 2026-11-23 for Canada: 13,391 candidates in `pool_ca.parquet`)
 - [x] Re-fetch page views with monthly numbers; fame = median month x 12 (done 2026-11-23, developer's decision) One-month spikes inflate the 12-month total (Tumbler Ridge 444k of 499k in one month; BMO Field and Gordie Howe Bridge too). Use median month x 12 instead of the sum? Needs a re-fetch that keeps monthly numbers (~1 h for Canada; the bulk dumps give months anyway)
 - [ ] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes): whose card are they, and do they count their whole article's views?
-- [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
+- [ ] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics. (in progress 2026-11-23, Canada)
 - [ ] Compute stats (log-scale population, normalise each stat to 1–100).
 - [ ] Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed.
 - [ ] Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development.
