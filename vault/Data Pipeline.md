@@ -32,9 +32,10 @@ Back to [[00 Home]]. Source: [[Roadmap]] (Phase 1). Feeds the facts in [[Game De
 - Expect a large share of small towns to need the mini-map; check the real split on a sample first.
 
 ## Gate to Phase 2
-- The script runs end to end from a clean machine.
+- The pipeline runs end to end for any country with one command, from a clean machine.
+- It has been run for all of North America, the launch pool (developer, 2026-11-24).
 - A random sample of 100 cards looks right: no broken names, facts plausible, sensible rarities.
-- Keep the pool to roughly 150,000–200,000 cards to start.
+- No card-count target: 150,000–200,000 was a starting cap. See [[Decisions]].
 
 ## Progress (Canada)
 - 2026-11-23, step 1: `pipeline/geonames.py` downloads `cities1000` and `admin1CodesASCII`, filters to Canada and cleans. 172,063 worldwide → 3,009 Canadian → 1,681 after dropping neighbourhoods (PPLX, 1,328 rows) and historical, abandoned and destroyed places. Output: `pipeline/data/interim/geonames_ca.parquet` (GeoParquet, EPSG:4326, git-ignored).

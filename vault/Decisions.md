@@ -34,6 +34,8 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Gone places | Drop places that are demolished, destroyed or never built (CalgaryNEXT); keep ones that closed but still stand (Montreal Forum) | Cards are real places you can visit |
 | 2026-11-24 | Places you can't visit | Undersea features and lakes that no longer exist are dropped like demolished buildings | Same reason as gone places: cards are real places you can visit |
 | 2026-11-24 | English cards | Flavour lines from French-only Wikipedia articles are translated into English; translations live in `pipeline/flavour_en.csv`, keyed by the French line | Developer: "translate it on english". One language on cards; keying by the French text flags lines that change on Wikipedia instead of showing a stale translation |
+| 2026-11-24 | Launch pool: North America | Launch with every North American country (Canada, US, Mexico, Central America, the Caribbean, Greenland); add other regions after launch | Developer's call. WikiGacha's pool is effectively every Wikipedia article (~7M in English), so a pool of a few hundred thousand places is small, not too big |
+| 2026-11-24 | Phase 1 gate | The gate is "runs for any country with one command, run for North America", not a card count; the 150–200k figure was a starting cap, not a target | Lets the game ship with the launch region and grow country by country |
 | 2026-11-23 | Worldwide ranking | Rank fame within each country, not against the whole world | Every country gets its own Legendaries and Epics, which suits local packs |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 

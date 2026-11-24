@@ -5,9 +5,9 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 **Pull the Planet (named 2026-11-23; working name was Earthpull) is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Launch target: early May 2027.
 
 ## Current phase
-**Phase 1: Data pipeline** (started 2026-11-23). Phase 0's gate was met on 2026-11-23: the name is Pull the Planet and pulltheplanet.com is registered. Earlier, the paper prototype and interest test were dropped, and the share test moves to the Phase 3 beta. Phase 1, the [[Data Pipeline]], has started on Canada only.
+**Phase 1: Data pipeline** (started 2026-11-23). Phase 0's gate was met on 2026-11-23: the name is Pull the Planet and pulltheplanet.com is registered. Earlier, the paper prototype and interest test were dropped, and the share test moves to the Phase 3 beta. Phase 1, the [[Data Pipeline]], has started on Canada; the launch pool is all of North America (decided 2026-11-24).
 
-**Gate to Phase 2:** the pipeline runs end to end from a clean machine, and a random sample of 100 cards looks right.
+**Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
 ## What to do next
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.

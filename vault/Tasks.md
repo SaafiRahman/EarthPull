@@ -7,7 +7,7 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
   - [x] Research domain availability; results and recommendation in [[Decisions#Phase 0 research (2026-11-23)]] (2026-11-23)
   - [ ] Check and claim `pulltheplanet` on X, TikTok and Reddit (couldn't be checked automatically)
 - [x] Buy pulltheplanet.com: Cloudflare Registrar, $11.17/yr, auto-renew on, expires 2027-11-23 (2026-11-23)
-  - [ ] Click the registrant verification email from Cloudflare/ICANN (within about 15 days, or the domain can be suspended)
+  - [ ] Confirm registrant contact is verified: Cloudflare → Domain Registration → Manage Domains → pulltheplanet.com shows no warning (developer got no email and saw no warning on the zone overview, 2026-11-24; the registration page is the one to check)
   - [ ] Turn on two-factor login on the Cloudflare account
 - [x] Do a final competitor search on Product Hunt, itch.io, r/WebGames and r/incremental_games for "places gacha" or "city card pack" games. Done 2026-11-23; found CityDeck, a close match. See [[Decisions#Competitor search]].
 - ~~Paper prototype: print 30 fake cards and have 5 friends open "packs".~~ **Dropped 2026-11-23**; the Phase 3 private beta is the first real test. The materials already made stay in `prototype/out/` (card PDF) and can be reused.
@@ -25,7 +25,7 @@ Back to [[00 Home]]. Source: [[Roadmap]]. Track tasks here as they start and fin
 **Gate to Phase 1:** name and domain secured. **Met 2026-11-23** (Pull the Planet, pulltheplanet.com). The handle check is left over but doesn't block Phase 1.
 
 ## Current: Phase 1, data pipeline (3 weeks, about 20 hours)
-Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Canada only for now. Details in [[Data Pipeline]].
+Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Canada first; the launch pool is all of North America (developer, 2026-11-24). Details in [[Data Pipeline]].
 - [x] Set up `pipeline/` (Python venv, pandas/GeoPandas, `requirements.txt`, README) (2026-11-23)
 - [x] Download and clean GeoNames, filtered to Canada; drop duplicates and alternate-name noise: `pipeline/geonames.py` + `drop_neighbourhoods_ca.py`, **1,567 places** (2026-11-23)
   - [x] Show the developer a 20-row sample (2026-11-23)
@@ -65,10 +65,13 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [x] French flavour lines translated into English (developer, 2026-11-24): 1,538 lines, hand translations in `pipeline/flavour_en.csv`
 - [ ] Developer: decide whether to rewrite flavour into livelier facts later (beta)
 - [ ] Found while translating: Lac à la Loutre (Montreal) "existed until the 19th century" (gone place, not caught); Grayling Fork Black River is in Alaska (wrong country)
+- [ ] North America: make every step take a country code (scripts are `_ca` now) and replace the Statistics Canada neighbourhood rule with one that works anywhere
+- [ ] North America: translate flavour from Spanish, French, Dutch and Danish articles (expect far more Spanish lines than the 1,538 French ones; plan the approach before running)
+- [ ] North America: one command runs the whole pipeline for a list of countries
 - [ ] Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development.
 - [ ] Card images: Wikidata image → Commons thumbnail + author + licence; reject maps, flags, logos and tiny images; mini-map render for the rest. Check the photo vs mini-map split on a sample first.
 
-**Gate to Phase 2:** the script runs end to end from a clean machine, and a random sample of 100 cards looks right.
+**Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
 ## Before Phase 2
 - [ ] Settle the open questions in [[Decisions]].

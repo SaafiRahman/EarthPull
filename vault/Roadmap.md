@@ -155,6 +155,8 @@ Each phase ends at a gate; don't start the next phase until its gate is met, and
 
 **Gate to Phase 2:** the script runs end to end from a clean machine, and a random sample of 100 cards looks right (no broken names, stats in range, sensible rarities). Keep the pool to roughly 150,000–200,000 cards to start; that is plenty.
 
+**Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right. See [[Decisions]].
+
 ## Phase 2 — MVP build (11 weeks, about 80 hours)
 
 **Build the smallest version that delivers the core moment: open a pack, see a numbered real place, share it, see it on the world map.** Everything that decides what you pulled runs on the server.
