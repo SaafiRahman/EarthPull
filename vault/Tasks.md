@@ -48,27 +48,27 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - ~~Redraw the preview map with a detailed coastline~~ Not needed (developer, 2026-11-23): the preview is a throwaway; the real app uses MapLibre with proper vector tiles (see [[Architecture]]). The data fixes below still apply.
 - [ ] Pipeline: drop items more than ~25 km outside Canada (wrong-country tags such as the Seattle Times Building and the Adirondack Mountains, which are in New York but tagged Quebec). (Done 2026-11-23: disaster sites, wrecks and offshore platforms are now excluded.)
 - [x] Developer: keep offshore landmarks like the Hibernia platform? No: offshore platforms are not cards (2026-11-23)
-- [ ] Same-name cards need a place in the name: two "CN Tower" cards (Toronto, and a skyscraper in Edmonton). Use the Wikipedia title's disambiguation or add the town at export
+- [x] (done 2026-11-24, export) Same-name cards need a place in the name: two "CN Tower" cards (Toronto, and a skyscraper in Edmonton). Use the Wikipedia title's disambiguation or add the town at export
 - [x] Drop never-built structures (CalgaryNEXT): done 2026-11-23 by hand fix in `pipeline/overrides.csv`
 - [ ] Pick the rest of the ~50 Mythics when the pool goes worldwide (3 Canadian so far)
 - [ ] Before launch: check location accuracy across the whole pool, not just Canada
 - [x] Fetch page views for every place that has an article; places without one get a fame score of zero. (done 2026-11-23 for Canada: 13,391 candidates in `pool_ca.parquet`)
 - [x] Re-fetch page views with monthly numbers; fame = median month x 12 (done 2026-11-23, developer's decision) One-month spikes inflate the 12-month total (Tumbler Ridge 444k of 499k in one month; BMO Field and Gordie Howe Bridge too). Use median month x 12 instead of the sum? Needs a re-fetch that keeps monthly numbers (~1 h for Canada; the bulk dumps give months anyway)
-- [ ] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes): whose card are they, and do they count their whole article's views?
+- [ ] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes; the Rocky Mountains card's point is in Idaho because Wikidata puts the range's point there): whose card are they, and do they count their whole article's views?
 - [x] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics. (done 2026-11-23 for Canada: `rarity_ca.py`; Mythics so far Niagara Falls, CN Tower, Rocky Mountains)
 - [ ] ~~Compute stats (log-scale population, normalise each stat to 1–100).~~ Replaced 2026-11-23 by card facts (developer)
 - [x] Drop gone places: demolished, destroyed or never built (Wikidata classes, Wikipedia categories, redirected articles); keep closed-but-standing (done 2026-11-23: `gone_ca.py`, 501 dropped, 12,887 cards left)
 - [x] (done 2026-11-24) Collect card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim), fame
 - [ ] Fix step 3's elevation: it takes Wikidata P2044 without its unit (some peaks came in feet). Step 6 works around it by preferring the unit-converted value
 - [x] (done 2026-11-24) Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed (`flavour_ca.py`, 97% of cards)
-- [ ] Flavour for towns with no Wikipedia article (24% of towns): write a line from their facts at export
+- [x] (done 2026-11-24) Flavour for cards with no Wikipedia line (444): written from their facts at export
 - [x] French flavour lines translated into English (developer, 2026-11-24): 1,538 lines, hand translations in `pipeline/flavour_en.csv`
 - [ ] Developer: decide whether to rewrite flavour into livelier facts later (beta)
 - [ ] Found while translating: Lac à la Loutre (Montreal) "existed until the 19th century" (gone place, not caught); Grayling Fork Black River is in Alaska (wrong country)
 - [ ] North America: make every step take a country code (scripts are `_ca` now) and replace the Statistics Canada neighbourhood rule with one that works anywhere
 - [ ] North America: translate flavour from Spanish, French, Dutch and Danish articles (expect far more Spanish lines than the 1,538 French ones; plan the approach before running)
 - [ ] North America: one command runs the whole pipeline for a list of countries
-- [ ] Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development.
+- [x] (done 2026-11-24) Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development (`export_ca.py`; sample in `pipeline/sample/cards_sample_ca.json`)
 - [ ] Card images: Wikidata image → Commons thumbnail + author + licence; reject maps, flags, logos and tiny images; mini-map render for the rest. Check the photo vs mini-map split on a sample first.
 
 **Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.

@@ -1,0 +1,3256 @@
+{
+ "note": "Sample of the Canada card pool for front-end development; built by pipeline/export_ca.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5463",
+   "name": "Rocky Mountains",
+   "label": "Rocky Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 44.15,
+   "lon": -113.8,
+   "rarity": "Mythic",
+   "fame": 556956,
+   "facts": {
+    "elevation_m": 4401,
+    "length_km": 3000,
+    "temp_c": 1.3
+   },
+   "flavour": {
+    "text": "The Rocky Mountains, also known as the Rockies, are a major mountain range and the largest mountain system in North America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rocky Mountains",
+    "url": "https://en.wikipedia.org/wiki/Rocky_Mountains",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q34221",
+   "name": "Niagara Falls",
+   "label": "Niagara Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.08,
+   "lon": -79.071,
+   "rarity": "Mythic",
+   "fame": 706020,
+   "facts": {
+    "elevation_m": 169,
+    "height_m": 51,
+    "temp_c": 8.7
+   },
+   "flavour": {
+    "text": "Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Niagara Falls",
+    "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q134883",
+   "name": "CN Tower",
+   "label": "CN Tower",
+   "type": "built",
+   "kind": "architectural landmark",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6428,
+   "lon": -79.3871,
+   "rarity": "Mythic",
+   "fame": 481818,
+   "facts": {
+    "elevation_m": 90,
+    "height_m": 553,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "Completed in 1976, it is located in downtown Toronto, built on the former Railway Lands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "CN Tower",
+    "url": "https://en.wikipedia.org/wiki/CN_Tower",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q22362756",
+   "name": "Aegean Lake",
+   "label": "Aegean Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 50.8214,
+   "lon": -94.7574,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 383,
+    "temp_c": 1.1
+   },
+   "flavour": {
+    "text": "The lake forms part of a canoe route in Woodland Caribou Provincial Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aegean Lake",
+    "url": "https://en.wikipedia.org/wiki/Aegean_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q6802359",
+   "name": "McMillan Flowage",
+   "label": "McMillan Flowage",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 46.5206,
+   "lon": -60.6506,
+   "rarity": "Common",
+   "fame": 174,
+   "facts": {
+    "elevation_m": 394,
+    "temp_c": 3.7
+   },
+   "flavour": {
+    "text": "It was created when the Nova Scotia Power Corporation constructed the Wreck Cove Hydro Electric Station and placed D-7 Dam across Indian Brook.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "McMillan Flowage",
+    "url": "https://en.wikipedia.org/wiki/McMillan_Flowage",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q82969331",
+   "name": "Lac Sautauriski",
+   "label": "Lac Sautauriski",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 47.3661,
+   "lon": -71.2914,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 746,
+    "temp_c": -0.1
+   },
+   "flavour": {
+    "text": "Lake Sautauriski is a freshwater body crossed from north to south by the Sautauriski River, flowing in the unorganized territory of Lac-Jacques-Cartier.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sautauriski Lake",
+    "url": "https://en.wikipedia.org/wiki/Sautauriski_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7425861",
+   "name": "Satah Mountain",
+   "label": "Satah Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 52.4758,
+   "lon": -124.69,
+   "rarity": "Common",
+   "fame": 462,
+   "facts": {
+    "elevation_m": 1921,
+    "prominence_m": 419,
+    "temp_c": 0.2
+   },
+   "flavour": {
+    "text": "It is southeast of Punkutlaenkut Lake and east of the community of Anahim Lake in Range 3 Coast Land District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Satah Mountain",
+    "url": "https://en.wikipedia.org/wiki/Satah_Mountain",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q28494589",
+   "name": "Branche de la rivière Bayonne",
+   "label": "Branche de la rivière Bayonne",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.1108,
+   "lon": -73.3683,
+   "rarity": "Common",
+   "fame": 84,
+   "facts": {
+    "elevation_m": 54,
+    "length_km": 12,
+    "temp_c": 4.9
+   },
+   "flavour": {
+    "text": "The Bayonne River branch is a tributary of the Bayonne River, on the north shore of the St. Lawrence.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Branche de la rivière Bayonne",
+    "url": "https://fr.wikipedia.org/wiki/Branche_de_la_rivi%C3%A8re_Bayonne",
+    "translated": true
+   }
+  },
+  {
+   "id": "wd:Q22557156",
+   "name": "Mount Warren",
+   "label": "Mount Warren",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 52.5633,
+   "lon": -117.3758,
+   "rarity": "Common",
+   "fame": 408,
+   "facts": {
+    "elevation_m": 3362,
+    "prominence_m": 412,
+    "temp_c": -3.2
+   },
+   "flavour": {
+    "text": "Mount Warren is a 3,362-metre mountain summit located at the southeast end of Maligne Lake in Jasper National Park, in the Canadian Rockies of Alberta, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Warren (Alberta)",
+    "url": "https://en.wikipedia.org/wiki/Mount_Warren_%28Alberta%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q5168544",
+   "name": "Copes Bay",
+   "label": "Copes Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 79.4851,
+   "lon": -76.4446,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 156,
+    "length_km": 37,
+    "temp_c": -16.5
+   },
+   "flavour": {
+    "text": "It is located in Nares Strait by eastern Ellesmere Island, and marks the northern edge of Cook Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Copes Bay",
+    "url": "https://en.wikipedia.org/wiki/Copes_Bay",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q4866199",
+   "name": "Basalt Falls",
+   "label": "Basalt Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 52.7983,
+   "lon": -125.546,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 1011,
+    "temp_c": 1.7
+   },
+   "flavour": {
+    "text": "Basalt Falls is a waterfall on the Dean River in the Chilcotin District of the Central Interior of British Columbia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basalt Falls",
+    "url": "https://en.wikipedia.org/wiki/Basalt_Falls",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q17638301",
+   "name": "Rivière du Portage",
+   "label": "Rivière du Portage (near Saint-Siméon)",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 48.0352,
+   "lon": -70.2968,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 481,
+    "length_km": 40,
+    "temp_c": 0.9
+   },
+   "flavour": {
+    "text": "The River Portage, a tributary of the southwestern shore of the Petit Saguenay River flowing successively in the municipalities of L'Anse-Saint-Jean and…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portage River (Petit-Saguenay River tributary)",
+    "url": "https://en.wikipedia.org/wiki/Portage_River_%28Petit-Saguenay_River_tributary%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q280536",
+   "name": "Arum Lake",
+   "label": "Arum Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.5333,
+   "lon": -125.067,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 988,
+    "temp_c": 7.2
+   },
+   "flavour": {
+    "text": "Arum Lake is a lake on Vancouver Island, Canada, south of the Tsable River and south of the town of Comox.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arum Lake",
+    "url": "https://en.wikipedia.org/wiki/Arum_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q114470378",
+   "name": "Lac du Sud-Ouest",
+   "label": "Lac du Sud-Ouest",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.9444,
+   "lon": -71.4242,
+   "rarity": "Common",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 205,
+    "temp_c": 3.6
+   },
+   "flavour": {
+    "text": "Its eastern part is in Quebec City and its western part in the municipality of Saint-Gabriel-de-Valcartier.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Lac du Sud-Ouest (Québec)",
+    "url": "https://fr.wikipedia.org/wiki/Lac_du_Sud-Ouest_%28Qu%C3%A9bec%29",
+    "translated": true
+   }
+  },
+  {
+   "id": "wd:Q1889648",
+   "name": "Oxford Lake",
+   "label": "Oxford Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-MB",
+   "country": "CA",
+   "lat": 54.8333,
+   "lon": -95.5833,
+   "rarity": "Common",
+   "fame": 462,
+   "facts": {
+    "elevation_m": 186,
+    "area_km2": 349,
+    "length_km": 55,
+    "temp_c": -1.9
+   },
+   "flavour": {
+    "text": "The lake is 401 square kilometres in size and sits at a surface elevation of 186 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oxford Lake",
+    "url": "https://en.wikipedia.org/wiki/Oxford_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:12076648",
+   "name": "Weedon Centre",
+   "label": "Weedon Centre",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.708,
+   "lon": -71.4599,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1059,
+    "elevation_m": 276,
+    "temp_c": 4.2
+   },
+   "flavour": {
+    "text": "A community of 1,059 people in Quebec.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:13592172",
+   "name": "Valley Waters",
+   "label": "Valley Waters",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 45.673,
+   "lon": -65.837,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4549,
+    "elevation_m": 34,
+    "temp_c": 5.3
+   },
+   "flavour": {
+    "text": "A community of 4,549 people in New Brunswick.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:11903570",
+   "name": "Saint-Laurent-de-l'Île-d'Orléans",
+   "label": "Saint-Laurent-de-l'Île-d'Orléans",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.8606,
+   "lon": -71.005,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1532,
+    "elevation_m": 8.0,
+    "temp_c": 3.8
+   },
+   "flavour": {
+    "text": "A community of 1,532 people in Quebec.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:5949512",
+   "name": "Esquimalt",
+   "label": "Esquimalt",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 48.4357,
+   "lon": -123.4117,
+   "rarity": "Common",
+   "fame": 16176,
+   "facts": {
+    "population": 17655,
+    "elevation_m": 38,
+    "area_km2": 7.1,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "It is almost tangential to Esquimalt 1 Indian Reserve near Admirals Road.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Esquimalt",
+    "url": "https://en.wikipedia.org/wiki/Esquimalt",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6175609",
+   "name": "Walpole Island",
+   "label": "Walpole Island (Ontario)",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 42.6152,
+   "lon": -82.514,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1878,
+    "elevation_m": 176,
+    "temp_c": 8.8
+   },
+   "flavour": {
+    "text": "A community of 1,878 people in Ontario.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:5946961",
+   "name": "Eel Ground",
+   "label": "Eel Ground",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.9654,
+   "lon": -65.6288,
+   "rarity": "Common",
+   "fame": 822,
+   "facts": {
+    "population": 1094,
+    "elevation_m": 16,
+    "area_km2": 28,
+    "temp_c": 4.6
+   },
+   "flavour": {
+    "text": "Natoaganeg First Nation, historically known as Eel Ground Band or Eel Ground First Nation.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Natoaganeg First Nation",
+    "url": "https://en.wikipedia.org/wiki/Natoaganeg_First_Nation",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5911715",
+   "name": "Burnside",
+   "label": "Burnside",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 44.7017,
+   "lon": -63.6005,
+   "rarity": "Common",
+   "fame": 1566,
+   "facts": {
+    "population": 7506,
+    "elevation_m": 29,
+    "temp_c": 6.4
+   },
+   "flavour": {
+    "text": "Burnside is a Canadian urban neighbourhood located along the northeast shore of Bedford Basin of the Halifax Regional Municipality in Dartmouth, Nova Scotia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Burnside, Nova Scotia",
+    "url": "https://en.wikipedia.org/wiki/Burnside%2C_Nova_Scotia",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:13592173",
+   "name": "Fundy-St. Martins",
+   "label": "Fundy-St. Martins",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 45.4078,
+   "lon": -65.4391,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5225,
+    "elevation_m": 143,
+    "temp_c": 5.0
+   },
+   "flavour": {
+    "text": "A community of 5,225 people in New Brunswick.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:5927024",
+   "name": "Contrecoeur",
+   "label": "Contrecoeur",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.8501,
+   "lon": -73.2325,
+   "rarity": "Common",
+   "fame": 7398,
+   "facts": {
+    "population": 3587,
+    "elevation_m": 26,
+    "area_km2": 88,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "The population as of the Canada 2021 Census was 9,480.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Contrecoeur",
+    "url": "https://en.wikipedia.org/wiki/Contrecoeur",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:8593671",
+   "name": "Saint-Pascal",
+   "label": "Saint-Pascal",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 47.5181,
+   "lon": -69.803,
+   "rarity": "Common",
+   "fame": 4638,
+   "facts": {
+    "population": 3490,
+    "elevation_m": 54,
+    "area_km2": 60,
+    "temp_c": 3.5
+   },
+   "flavour": {
+    "text": "Saint-Pascal is a city in Kamouraska Regional County Municipality in the Bas-Saint-Laurent region of Quebec.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Pascal",
+    "url": "https://en.wikipedia.org/wiki/Saint-Pascal",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6128795",
+   "name": "Royston",
+   "label": "Royston",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.647,
+   "lon": -124.9467,
+   "rarity": "Common",
+   "fame": 2250,
+   "facts": {
+    "population": 1616,
+    "elevation_m": 15,
+    "area_km2": 4.6,
+    "temp_c": 8.6
+   },
+   "flavour": {
+    "text": "Royston is an unincorporated community that is part of the greater Comox Valley region, 100 km northwest of Nanaimo on Vancouver Island, in British Columbia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Royston, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Royston%2C_British_Columbia",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6137631",
+   "name": "Saint-Côme-Linière",
+   "label": "Saint-Côme-Linière",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.0668,
+   "lon": -70.5157,
+   "rarity": "Common",
+   "fame": 2124,
+   "facts": {
+    "population": 2167,
+    "elevation_m": 310,
+    "area_km2": 152,
+    "temp_c": 3.7
+   },
+   "flavour": {
+    "text": "Saint-Côme–Linière is a municipality in the Beauce-Sartigan Regional County Municipality in the Chaudière-Appalaches region of Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Côme–Linière",
+    "url": "https://en.wikipedia.org/wiki/Saint-C%C3%B4me%E2%80%93Lini%C3%A8re",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q2873035",
+   "name": "Autostade",
+   "label": "Autostade",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.488,
+   "lon": -73.5453,
+   "rarity": "Epic",
+   "fame": 9480,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "The Autostade was a Canadian football stadium in the Victoriatown neighbourhood of Montreal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Autostade",
+    "url": "https://en.wikipedia.org/wiki/Autostade",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3495641",
+   "name": "Jarry Park Stadium",
+   "label": "Jarry Park Stadium",
+   "type": "built",
+   "kind": "former entity",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.5328,
+   "lon": -73.6269,
+   "rarity": "Epic",
+   "fame": 26184,
+   "facts": {
+    "elevation_m": 56,
+    "temp_c": 6.6
+   },
+   "flavour": {
+    "text": "Jarry Park Stadium is a former baseball stadium, home to the Montreal Expos, from 1969 through 1976, located in Montreal, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jarry Park Stadium",
+    "url": "https://en.wikipedia.org/wiki/Jarry_Park_Stadium",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q24190526",
+   "name": "Tsawwassen Mills",
+   "label": "Tsawwassen Mills",
+   "type": "built",
+   "kind": "shopping center",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.0381,
+   "lon": -123.086,
+   "rarity": "Epic",
+   "fame": 10494,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "Tsawwassen Mills is a super-regional outlet centre on Tsawwassen First Nation land, in Delta, British Columbia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tsawwassen Mills",
+    "url": "https://en.wikipedia.org/wiki/Tsawwassen_Mills",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7250885",
+   "name": "Prospera Place",
+   "label": "Prospera Place",
+   "type": "built",
+   "kind": "building",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.8928,
+   "lon": -119.495,
+   "rarity": "Epic",
+   "fame": 8376,
+   "facts": {
+    "elevation_m": 350,
+    "temp_c": 8.3
+   },
+   "flavour": {
+    "text": "The facility opened in 1999 and is the home arena of the Kelowna Rockets of the Western Hockey League.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Prospera Place",
+    "url": "https://en.wikipedia.org/wiki/Prospera_Place",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3064559",
+   "name": "Fairview Pointe-Claire",
+   "label": "Fairview Pointe-Claire",
+   "type": "built",
+   "kind": "shopping center",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.4639,
+   "lon": -73.8311,
+   "rarity": "Epic",
+   "fame": 8052,
+   "facts": {
+    "elevation_m": 61,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "Fairview Pointe-Claire is the largest shopping mall in the West Island and one of the biggest on the Island of Montreal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fairview Pointe-Claire",
+    "url": "https://en.wikipedia.org/wiki/Fairview_Pointe-Claire",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7840546",
+   "name": "Memorial to the Victims of Communism",
+   "label": "Memorial to the Victims of Communism",
+   "type": "built",
+   "kind": "victims of communism memorial",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.4183,
+   "lon": -75.7089,
+   "rarity": "Epic",
+   "fame": 14352,
+   "facts": {
+    "elevation_m": 64,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "It was officially unveiled on December 12, 2024.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Memorial to the Victims of Communism (Canada)",
+    "url": "https://en.wikipedia.org/wiki/Memorial_to_the_Victims_of_Communism_%28Canada%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q4985200",
+   "name": "Canada Life Place",
+   "label": "Canada Life Place",
+   "type": "built",
+   "kind": "arena",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 42.9825,
+   "lon": -81.2525,
+   "rarity": "Epic",
+   "fame": 19248,
+   "facts": {
+    "elevation_m": 252,
+    "temp_c": 8.0
+   },
+   "flavour": {
+    "text": "Canada Life Place is a sports-entertainment centre, in London, Ontario, Canada – the largest such centre in Southwestern Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canada Life Place",
+    "url": "https://en.wikipedia.org/wiki/Canada_Life_Place",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q5681707",
+   "name": "Hatley Park National Historic Site",
+   "label": "Hatley Park National Historic Site",
+   "type": "built",
+   "kind": "",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 48.4343,
+   "lon": -123.472,
+   "rarity": "Epic",
+   "fame": 40440,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "Hatley Park National Historic Site is located in Colwood, British Columbia, in Greater Victoria.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hatley Park National Historic Site",
+    "url": "https://en.wikipedia.org/wiki/Hatley_Park_National_Historic_Site",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3497349",
+   "name": "Mont Tremblant Resort",
+   "label": "Mont Tremblant Resort",
+   "type": "built",
+   "kind": "ski resort",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.214,
+   "lon": -74.585,
+   "rarity": "Epic",
+   "fame": 36828,
+   "facts": {
+    "elevation_m": 263,
+    "temp_c": 3.0
+   },
+   "flavour": {
+    "text": "Mont Tremblant Ski Resort is a year-round resort in the Laurentian Mountains of Quebec, Canada, located about 130 km northwest of Montreal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mont Tremblant Resort",
+    "url": "https://en.wikipedia.org/wiki/Mont_Tremblant_Resort",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1954743",
+   "name": "Museum of Anthropology at UBC",
+   "label": "Museum of Anthropology at UBC",
+   "type": "built",
+   "kind": "archives",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.2692,
+   "lon": -123.2597,
+   "rarity": "Epic",
+   "fame": 11484,
+   "facts": {
+    "elevation_m": 71,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "The Museum of Anthropology at the University of British Columbia campus in Vancouver, British Columbia, Canada displays world arts and cultures.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Museum of Anthropology at UBC",
+    "url": "https://en.wikipedia.org/wiki/Museum_of_Anthropology_at_UBC",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1131514",
+   "name": "Coppermine River",
+   "label": "Coppermine River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 67.8167,
+   "lon": -115.0833,
+   "rarity": "Epic",
+   "fame": 8586,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 840,
+    "temp_c": -10.4
+   },
+   "flavour": {
+    "text": "The Coppermine River is a river in the North Slave and Kitikmeot regions of the Northwest Territories and Nunavut in Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coppermine River",
+    "url": "https://en.wikipedia.org/wiki/Coppermine_River",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q837267",
+   "name": "Prince Charles Island",
+   "label": "Prince Charles Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 67.7833,
+   "lon": -76.2,
+   "rarity": "Epic",
+   "fame": 7536,
+   "facts": {
+    "elevation_m": 55,
+    "area_km2": 9521,
+    "length_km": 130,
+    "temp_c": -11.6
+   },
+   "flavour": {
+    "text": "With an area of 9,665.87 km2, it is the world's 78th largest island and the 19th largest island in Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Prince Charles Island",
+    "url": "https://en.wikipedia.org/wiki/Prince_Charles_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q908739",
+   "name": "Graham Island",
+   "label": "Graham Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 53.4553,
+   "lon": -132.2394,
+   "rarity": "Epic",
+   "fame": 22854,
+   "facts": {
+    "elevation_m": 125,
+    "area_km2": 6361,
+    "temp_c": 7.0
+   },
+   "flavour": {
+    "text": "Graham Island is the largest island in the Haida Gwaii archipelago, lying off the mainland coast of British Columbia, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Graham Island",
+    "url": "https://en.wikipedia.org/wiki/Graham_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1420547",
+   "name": "Selkirk Mountains",
+   "label": "Selkirk Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.95,
+   "lon": -117.38,
+   "rarity": "Epic",
+   "fame": 27768,
+   "facts": {
+    "elevation_m": 3519,
+    "length_km": 525,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "The Selkirk Mountains are a mountain range spanning the northern portion of the Idaho Panhandle, eastern Washington.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Selkirk Mountains",
+    "url": "https://en.wikipedia.org/wiki/Selkirk_Mountains",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q203862",
+   "name": "Saint-Maurice river",
+   "label": "Saint-Maurice river",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.3494,
+   "lon": -72.5289,
+   "rarity": "Epic",
+   "fame": 8346,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 563,
+    "temp_c": 4.5
+   },
+   "flavour": {
+    "text": "The Saint-Maurice River is one of the main tributaries of the St. Lawrence River, after the Ottawa and the Saguenay Rivers and drains an area of 42,735 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Maurice River",
+    "url": "https://en.wikipedia.org/wiki/Saint-Maurice_River",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q2549051",
+   "name": "Ward Hunt Island",
+   "label": "Ward Hunt Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 83.1,
+   "lon": -74.1667,
+   "rarity": "Epic",
+   "fame": 8604,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 14,
+    "length_km": 6.5,
+    "temp_c": -18.2
+   },
+   "flavour": {
+    "text": "Ward Hunt Island is a small, uninhabited island in the Arctic Ocean, located off the north coast of Ellesmere Island near the Ward Hunt Ice Shelf.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ward Hunt Island",
+    "url": "https://en.wikipedia.org/wiki/Ward_Hunt_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q134116",
+   "name": "Melville Island",
+   "label": "Melville Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NT",
+   "country": "CA",
+   "lat": 75.5014,
+   "lon": -113.5052,
+   "rarity": "Epic",
+   "fame": 14862,
+   "facts": {
+    "elevation_m": 776,
+    "area_km2": 42149,
+    "length_km": 341,
+    "temp_c": -18.7
+   },
+   "flavour": {
+    "text": "With an area of 42,330.26 km2, it is the 33rd largest island in the world and Canada's eighth largest island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Melville Island (Northwest Territories and Nunavut)",
+    "url": "https://en.wikipedia.org/wiki/Melville_Island_%28Northwest_Territories_and_Nunavut%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q597959",
+   "name": "Tuktut Nogait National Park",
+   "label": "Tuktut Nogait National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CA-NT",
+   "country": "CA",
+   "lat": 68.8187,
+   "lon": -121.749,
+   "rarity": "Epic",
+   "fame": 4758,
+   "facts": {
+    "elevation_m": 632,
+    "area_km2": 18181,
+    "temp_c": -10.6
+   },
+   "flavour": {
+    "text": "Tuktut Nogait National Park is a national park located in the Northwest Territories of Canada that was established in 1998.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tuktut Nogait National Park",
+    "url": "https://en.wikipedia.org/wiki/Tuktut_Nogait_National_Park",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1950454",
+   "name": "Mount Edziza",
+   "label": "Mount Edziza",
+   "type": "nature",
+   "kind": "hill",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 57.7156,
+   "lon": -130.6347,
+   "rarity": "Epic",
+   "fame": 8724,
+   "facts": {
+    "elevation_m": 2793,
+    "temp_c": -3.2
+   },
+   "flavour": {
+    "text": "It is about 40 kilometres southeast of the community of Telegraph Creek in the middle of the Big Raven Plateau, which is part of the Tahltan Highland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Edziza",
+    "url": "https://en.wikipedia.org/wiki/Mount_Edziza",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1532029",
+   "name": "Ripple Rock",
+   "label": "Ripple Rock",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 50.1317,
+   "lon": -125.3546,
+   "rarity": "Epic",
+   "fame": 22134,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 8.7
+   },
+   "flavour": {
+    "text": "Ripple Rock is an underwater mountain located in the Seymour Narrows of the Discovery Passage in British Columbia, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ripple Rock",
+    "url": "https://en.wikipedia.org/wiki/Ripple_Rock",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6076211",
+   "name": "Moncton",
+   "label": "Moncton",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.0945,
+   "lon": -64.7965,
+   "rarity": "Epic",
+   "fame": 201624,
+   "facts": {
+    "population": 86106,
+    "elevation_m": 30,
+    "area_km2": 141,
+    "temp_c": 5.7
+   },
+   "flavour": {
+    "text": "Moncton is the most populous city in the Canadian province of New Brunswick.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moncton",
+    "url": "https://en.wikipedia.org/wiki/Moncton",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5955895",
+   "name": "Fort McMurray",
+   "label": "Fort McMurray",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 56.7268,
+   "lon": -111.381,
+   "rarity": "Epic",
+   "fame": 110658,
+   "facts": {
+    "population": 66573,
+    "elevation_m": 258,
+    "area_km2": 52,
+    "temp_c": 0.6
+   },
+   "flavour": {
+    "text": "It is located in northeast Alberta, in the middle of the Athabasca oil sands, surrounded by boreal forest.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort McMurray",
+    "url": "https://en.wikipedia.org/wiki/Fort_McMurray",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6138517",
+   "name": "Saint John",
+   "label": "Saint John",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 45.2708,
+   "lon": -66.0562,
+   "rarity": "Epic",
+   "fame": 155100,
+   "facts": {
+    "population": 71808,
+    "elevation_m": 30,
+    "area_km2": 316,
+    "temp_c": 5.8
+   },
+   "flavour": {
+    "text": "It is Canada's oldest incorporated city, established by royal charter on 18 May 1785, during the reign of George III.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint John, New Brunswick",
+    "url": "https://en.wikipedia.org/wiki/Saint_John%2C_New_Brunswick",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6137270",
+   "name": "Saguenay",
+   "label": "Saguenay",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 48.4168,
+   "lon": -71.0657,
+   "rarity": "Epic",
+   "fame": 186270,
+   "facts": {
+    "population": 148886,
+    "elevation_m": 84,
+    "area_km2": 1136,
+    "temp_c": 2.5
+   },
+   "flavour": {
+    "text": "Saguenay is a city in the Saguenay–Lac-Saint-Jean region of Quebec, Canada, on the Saguenay River, about 200 kilometres north of Quebec City by overland route.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saguenay, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Saguenay%2C_Quebec",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5920288",
+   "name": "Charlottetown",
+   "label": "Charlottetown",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-PE",
+   "country": "CA",
+   "lat": 46.2346,
+   "lon": -63.1256,
+   "rarity": "Epic",
+   "fame": 144624,
+   "facts": {
+    "population": 38809,
+    "elevation_m": 14,
+    "area_km2": 44,
+    "temp_c": 5.6
+   },
+   "flavour": {
+    "text": "Charlottetown is the capital and largest city of the Canadian province of Prince Edward Island, and the county seat of Queens County.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charlottetown",
+    "url": "https://en.wikipedia.org/wiki/Charlottetown",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6066513",
+   "name": "Markham",
+   "label": "Markham",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.8668,
+   "lon": -79.2663,
+   "rarity": "Epic",
+   "fame": 116964,
+   "facts": {
+    "population": 338503,
+    "elevation_m": 168,
+    "area_km2": 213,
+    "temp_c": 7.1
+   },
+   "flavour": {
+    "text": "It is approximately 30 km northeast of Downtown Toronto.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Markham, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Markham%2C_Ontario",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6101645",
+   "name": "Peterborough",
+   "label": "Peterborough",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 44.3001,
+   "lon": -78.3162,
+   "rarity": "Epic",
+   "fame": 96018,
+   "facts": {
+    "population": 85807,
+    "elevation_m": 188,
+    "area_km2": 58,
+    "temp_c": 6.4
+   },
+   "flavour": {
+    "text": "Peterborough is a city and county seat of Peterborough County, Ontario, Canada, about 125 kilometres northeast of Toronto.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Peterborough, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Peterborough%2C_Ontario",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6176823",
+   "name": "Waterloo",
+   "label": "Waterloo",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.4668,
+   "lon": -80.5164,
+   "rarity": "Epic",
+   "fame": 111006,
+   "facts": {
+    "population": 104986,
+    "elevation_m": 325,
+    "temp_c": 6.7
+   },
+   "flavour": {
+    "text": "It is one of three cities in the Regional Municipality of Waterloo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Waterloo, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Waterloo%2C_Ontario",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5881791",
+   "name": "Abbotsford",
+   "label": "Abbotsford",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.058,
+   "lon": -122.2526,
+   "rarity": "Epic",
+   "fame": 100416,
+   "facts": {
+    "population": 141397,
+    "elevation_m": 114,
+    "area_km2": 376,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "Abbotsford is a city in British Columbia next to the Canada–United States border, Greater Vancouver, and the Fraser River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Abbotsford, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Abbotsford%2C_British_Columbia",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5983607",
+   "name": "Inuvik",
+   "label": "Inuvik",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NT",
+   "country": "CA",
+   "lat": 68.3617,
+   "lon": -133.7282,
+   "rarity": "Epic",
+   "fame": 97350,
+   "facts": {
+    "population": 3243,
+    "elevation_m": 22,
+    "temp_c": -8.9
+   },
+   "flavour": {
+    "text": "Inuvik is the only town in the Inuvik Region, and the third largest community in Canada's Northwest Territories.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Inuvik",
+    "url": "https://en.wikipedia.org/wiki/Inuvik",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q21209442",
+   "name": "Rideau Cottage",
+   "label": "Rideau Cottage",
+   "type": "built",
+   "kind": "cottage",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.4437,
+   "lon": -75.6827,
+   "rarity": "Legendary",
+   "fame": 66252,
+   "facts": {
+    "elevation_m": 70,
+    "area_km2": 0.0,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "Rideau Cottage is a historic residential building located on the grounds of Rideau Hall in Ottawa, Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rideau Cottage",
+    "url": "https://en.wikipedia.org/wiki/Rideau_Cottage",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q5062237",
+   "name": "Centre Block",
+   "label": "Centre Block",
+   "type": "built",
+   "kind": "parliament building",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.425,
+   "lon": -75.6997,
+   "rarity": "Legendary",
+   "fame": 50742,
+   "facts": {
+    "elevation_m": 86,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "The Centre Block is the main building of the Canadian Parliament buildings on Parliament Hill, in Ottawa, Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Centre Block",
+    "url": "https://en.wikipedia.org/wiki/Centre_Block",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1327290",
+   "name": "Canadian Tire Centre",
+   "label": "Canadian Tire Centre",
+   "type": "built",
+   "kind": "arena",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.2969,
+   "lon": -75.9272,
+   "rarity": "Legendary",
+   "fame": 64296,
+   "facts": {
+    "elevation_m": 107,
+    "temp_c": 5.6
+   },
+   "flavour": {
+    "text": "It opened on January 15, 1996 as the Palladium, and was also known as the Corel Centre from 1996 to 2006, and as Scotiabank Place from 2006 to 2013.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canadian Tire Centre",
+    "url": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q124352",
+   "name": "Lions Gate Bridge",
+   "label": "Lions Gate Bridge",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.3153,
+   "lon": -123.1383,
+   "rarity": "Legendary",
+   "fame": 44178,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 111,
+    "length_km": 1.8,
+    "temp_c": 10.5
+   },
+   "flavour": {
+    "text": "The Lions Gate Bridge, opened in 1938 and officially known as the First Narrows Bridge.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lions Gate Bridge",
+    "url": "https://en.wikipedia.org/wiki/Lions_Gate_Bridge",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1052475",
+   "name": "First Canadian Place",
+   "label": "First Canadian Place",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6486,
+   "lon": -79.3817,
+   "rarity": "Legendary",
+   "fame": 47778,
+   "facts": {
+    "elevation_m": 98,
+    "height_m": 298,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "First Canadian Place is a commercial skyscraper in the Financial District of Toronto, Ontario, at the northwest corner of King and Bay streets.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "First Canadian Place",
+    "url": "https://en.wikipedia.org/wiki/First_Canadian_Place",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q76318",
+   "name": "Rogers Centre",
+   "label": "Rogers Centre",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6414,
+   "lon": -79.3892,
+   "rarity": "Legendary",
+   "fame": 288360,
+   "facts": {
+    "elevation_m": 84,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "Rogers Centre is a retractable roof stadium in downtown Toronto, Ontario, Canada, situated at the base of the CN Tower near the northern shore of Lake Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rogers Centre",
+    "url": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q865076",
+   "name": "Confederation Bridge",
+   "label": "Confederation Bridge",
+   "type": "built",
+   "kind": "box girder bridge",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.1997,
+   "lon": -63.7657,
+   "rarity": "Legendary",
+   "fame": 108744,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 40,
+    "length_km": 13,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "The Confederation Bridge is a box girder bridge carrying the Trans-Canada Highway across the Abegweit Passage of the Northumberland Strait.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Confederation Bridge",
+    "url": "https://en.wikipedia.org/wiki/Confederation_Bridge",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1032248",
+   "name": "Habitat 67",
+   "label": "Habitat 67",
+   "type": "built",
+   "kind": "apartment building",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.5,
+   "lon": -73.5439,
+   "rarity": "Legendary",
+   "fame": 153822,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "Habitat 67, or just Habitat, is a housing complex at Cité du Havre, on the Saint Lawrence River, Montreal, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Habitat 67",
+    "url": "https://en.wikipedia.org/wiki/Habitat_67",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q81178",
+   "name": "Baffin Island",
+   "label": "Baffin Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 68.0,
+   "lon": -70.0,
+   "rarity": "Legendary",
+   "fame": 196200,
+   "facts": {
+    "elevation_m": 2147,
+    "area_km2": 507451,
+    "length_km": 1600,
+    "temp_c": -11.8
+   },
+   "flavour": {
+    "text": "Baffin Island in the Canadian territory of Nunavut, is the largest island in Canada, the second-largest island in the Americas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Baffin Island",
+    "url": "https://en.wikipedia.org/wiki/Baffin_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1506857",
+   "name": "Oak Island",
+   "label": "Oak Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 44.5139,
+   "lon": -64.2942,
+   "rarity": "Legendary",
+   "fame": 202284,
+   "facts": {
+    "elevation_m": 11,
+    "area_km2": 0.6,
+    "length_km": 1.5,
+    "temp_c": 6.6
+   },
+   "flavour": {
+    "text": "The tree-covered island is one of several islands in Mahone Bay, and is connected to the mainland by a causeway.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oak Island",
+    "url": "https://en.wikipedia.org/wiki/Oak_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q391391",
+   "name": "Nahanni National Park Reserve",
+   "label": "Nahanni National Park Reserve",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CA-NT",
+   "country": "CA",
+   "lat": 61.5971,
+   "lon": -125.852,
+   "rarity": "Legendary",
+   "fame": 120480,
+   "facts": {
+    "elevation_m": 720,
+    "area_km2": 30000,
+    "temp_c": -5.2
+   },
+   "flavour": {
+    "text": "The Nahanni National Park Reserve, sometimes known as \"Headless Valley\" or \"Valley of The Headless Men\", in the Dehcho Region of the Northwest Territories.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nahanni National Park Reserve",
+    "url": "https://en.wikipedia.org/wiki/Nahanni_National_Park_Reserve",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q681389",
+   "name": "Hans Island",
+   "label": "Hans Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 80.8264,
+   "lon": -66.4583,
+   "rarity": "Legendary",
+   "fame": 156396,
+   "facts": {
+    "elevation_m": 130,
+    "area_km2": 1.2,
+    "length_km": 1.4,
+    "temp_c": 0.0
+   },
+   "flavour": {
+    "text": "Hans Island is an island in the centre of the Kennedy Channel of the Nares Strait in the high Arctic region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hans Island",
+    "url": "https://en.wikipedia.org/wiki/Hans_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q170479",
+   "name": "Vancouver Island",
+   "label": "Vancouver Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.6333,
+   "lon": -125.7,
+   "rarity": "Legendary",
+   "fame": 266376,
+   "facts": {
+    "elevation_m": 1195,
+    "area_km2": 32134,
+    "length_km": 460,
+    "temp_c": 4.4
+   },
+   "flavour": {
+    "text": "Vancouver Island is an island in the northeastern Pacific Ocean and part of the Canadian province of British Columbia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vancouver Island",
+    "url": "https://en.wikipedia.org/wiki/Vancouver_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q181857",
+   "name": "Bay of Fundy",
+   "label": "Bay of Fundy",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 45.0,
+   "lon": -65.75,
+   "rarity": "Legendary",
+   "fame": 130110,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 16000,
+    "temp_c": 6.2
+   },
+   "flavour": {
+    "text": "The Bay of Fundy is a bay between the Canadian provinces of New Brunswick and Nova Scotia, with a small portion touching the U.S. state of Maine.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bay of Fundy",
+    "url": "https://en.wikipedia.org/wiki/Bay_of_Fundy",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q5525",
+   "name": "Great Bear Lake",
+   "label": "Great Bear Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-NT",
+   "country": "CA",
+   "lat": 66.0,
+   "lon": -121.0,
+   "rarity": "Legendary",
+   "fame": 96222,
+   "facts": {
+    "elevation_m": 155,
+    "area_km2": 31153,
+    "length_km": 400,
+    "temp_c": -6.6
+   },
+   "flavour": {
+    "text": "Great Bear Lake in the boreal forest of Canada is the largest lake entirely in Canada, the fourth-largest in North America, and the eighth-largest in the world.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Bear Lake",
+    "url": "https://en.wikipedia.org/wiki/Great_Bear_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1336091",
+   "name": "Sable Island",
+   "label": "Sable Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 43.9309,
+   "lon": -59.9178,
+   "rarity": "Legendary",
+   "fame": 211200,
+   "facts": {
+    "elevation_m": 1.2,
+    "area_km2": 34,
+    "length_km": 36,
+    "temp_c": 7.8
+   },
+   "flavour": {
+    "text": "Sable Island is an island in the North Atlantic Ocean, about 300 kilometres southeast of Halifax, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sable Island",
+    "url": "https://en.wikipedia.org/wiki/Sable_Island",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6173331",
+   "name": "Vancouver",
+   "label": "Vancouver",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.2497,
+   "lon": -123.1193,
+   "rarity": "Legendary",
+   "fame": 1228410,
+   "facts": {
+    "population": 662248,
+    "elevation_m": 70,
+    "area_km2": 115,
+    "temp_c": 10.5
+   },
+   "flavour": {
+    "text": "As the most populous city in the province, the 2021 Canadian census recorded 662,248 people in the city, up from 631,486 in 2016.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vancouver",
+    "url": "https://en.wikipedia.org/wiki/Vancouver",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6077243",
+   "name": "Montréal",
+   "label": "Montréal",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.5088,
+   "lon": -73.5878,
+   "rarity": "Legendary",
+   "fame": 1446018,
+   "facts": {
+    "population": 1762949,
+    "elevation_m": 216,
+    "area_km2": 498,
+    "temp_c": 6.6
+   },
+   "flavour": {
+    "text": "Montreal is the largest city in the province of Quebec, the second-largest in Canada, and the eighth-largest in North America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Montreal",
+    "url": "https://en.wikipedia.org/wiki/Montreal",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5913490",
+   "name": "Calgary",
+   "label": "Calgary",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 51.0501,
+   "lon": -114.0853,
+   "rarity": "Legendary",
+   "fame": 751044,
+   "facts": {
+    "population": 1306784,
+    "elevation_m": 1048,
+    "area_km2": 826,
+    "temp_c": 4.1
+   },
+   "flavour": {
+    "text": "Calgary is the largest city in the Canadian province of Alberta.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calgary",
+    "url": "https://en.wikipedia.org/wiki/Calgary",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6325494",
+   "name": "Québec",
+   "label": "Québec",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.8123,
+   "lon": -71.2145,
+   "rarity": "Legendary",
+   "fame": 634560,
+   "facts": {
+    "population": 531902,
+    "elevation_m": 54,
+    "area_km2": 485,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "Quebec City is the capital city of the Canadian province of Quebec.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quebec City",
+    "url": "https://en.wikipedia.org/wiki/Quebec_City",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6167865",
+   "name": "Toronto",
+   "label": "Toronto",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6533,
+   "lon": -79.3839,
+   "rarity": "Legendary",
+   "fame": 1611582,
+   "facts": {
+    "population": 2794356,
+    "elevation_m": 92,
+    "area_km2": 630,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "Toronto is the most populous city in Canada and the capital city of the Canadian province of Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Toronto",
+    "url": "https://en.wikipedia.org/wiki/Toronto",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5946768",
+   "name": "Edmonton",
+   "label": "Edmonton",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 53.5501,
+   "lon": -113.4687,
+   "rarity": "Legendary",
+   "fame": 631740,
+   "facts": {
+    "population": 1010899,
+    "elevation_m": 668,
+    "area_km2": 768,
+    "temp_c": 3.2
+   },
+   "flavour": {
+    "text": "Edmonton is the capital city of the Canadian province of Alberta.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Edmonton",
+    "url": "https://en.wikipedia.org/wiki/Edmonton",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6094817",
+   "name": "Ottawa",
+   "label": "Ottawa",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.4112,
+   "lon": -75.6981,
+   "rarity": "Legendary",
+   "fame": 827286,
+   "facts": {
+    "population": 1017449,
+    "elevation_m": 71,
+    "area_km2": 2779,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "Ottawa is the capital city of Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ottawa",
+    "url": "https://en.wikipedia.org/wiki/Ottawa",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q5019657",
+   "name": "Calgary Courts Centre",
+   "label": "Calgary Courts Centre",
+   "type": "built",
+   "kind": "built structure",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 51.0472,
+   "lon": -114.074,
+   "rarity": "Rare",
+   "fame": 1890,
+   "facts": {
+    "elevation_m": 1053,
+    "height_m": 129,
+    "temp_c": 4.1
+   },
+   "flavour": {
+    "text": "Calgary Courts Centre is the largest court facility in North America by size, and is in Calgary, Alberta.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calgary Courts Centre",
+    "url": "https://en.wikipedia.org/wiki/Calgary_Courts_Centre",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q181672",
+   "name": "Niagara Cantilever Bridge",
+   "label": "Niagara Cantilever Bridge",
+   "type": "built",
+   "kind": "cantilever bridge",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.1081,
+   "lon": -79.0586,
+   "rarity": "Rare",
+   "fame": 2184,
+   "facts": {
+    "elevation_m": 93,
+    "length_km": 0.3,
+    "temp_c": 8.7
+   },
+   "flavour": {
+    "text": "An international railway-only bridge between Canada and the United States, it connected Niagara Falls, New York, and Niagara Falls, Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Niagara Cantilever Bridge",
+    "url": "https://en.wikipedia.org/wiki/Niagara_Cantilever_Bridge",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q107071940",
+   "name": "Mississauga Celebration Square",
+   "label": "Mississauga Celebration Square",
+   "type": "built",
+   "kind": "fixed construction",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.5884,
+   "lon": -79.6434,
+   "rarity": "Rare",
+   "fame": 1278,
+   "facts": {
+    "elevation_m": 157,
+    "temp_c": 8.3
+   },
+   "flavour": {
+    "text": "It's located in the city centre adjacent to city hall, extending south to Burnhamthorpe Road.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mississauga Celebration Square",
+    "url": "https://en.wikipedia.org/wiki/Mississauga_Celebration_Square",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7311508",
+   "name": "Remai Arts Centre",
+   "label": "Remai Arts Centre",
+   "type": "built",
+   "kind": "performing arts center",
+   "region": "CA-SK",
+   "country": "CA",
+   "lat": 52.1231,
+   "lon": -106.667,
+   "rarity": "Rare",
+   "fame": 414,
+   "facts": {
+    "elevation_m": 485,
+    "temp_c": 2.4
+   },
+   "flavour": {
+    "text": "The centre is owned by and the main venue for the Persephone Theatre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Remai Arts Centre",
+    "url": "https://en.wikipedia.org/wiki/Remai_Arts_Centre",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q14578489",
+   "name": "The Cathedral of Immaculate Conception",
+   "label": "The Cathedral of Immaculate Conception",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 47.3631,
+   "lon": -68.3328,
+   "rarity": "Rare",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 185,
+    "temp_c": 2.8
+   },
+   "flavour": {
+    "text": "The Cathedral of the Immaculate Conception is the cathedral of the Diocese of Edmundston.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Cathédrale de l'Immaculée-Conception d'Edmundston",
+    "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_de_l%27Immacul%C3%A9e-Conception_d%27Edmundston",
+    "translated": true
+   }
+  },
+  {
+   "id": "wd:Q7736971",
+   "name": "The Gold Range",
+   "label": "The Gold Range",
+   "type": "built",
+   "kind": "hotel",
+   "region": "CA-NT",
+   "country": "CA",
+   "lat": 62.4533,
+   "lon": -114.371,
+   "rarity": "Rare",
+   "fame": 2256,
+   "facts": {
+    "elevation_m": 192,
+    "temp_c": -4.8
+   },
+   "flavour": {
+    "text": "The Gold Range is a Canadian hotel and bar located in Yellowknife, Northwest Territories.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Gold Range",
+    "url": "https://en.wikipedia.org/wiki/The_Gold_Range",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7235982",
+   "name": "Powder King Mountain Resort",
+   "label": "Powder King Mountain Resort",
+   "type": "built",
+   "kind": "ski resort",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 55.3631,
+   "lon": -122.625,
+   "rarity": "Rare",
+   "fame": 2142,
+   "facts": {
+    "elevation_m": 1189,
+    "temp_c": 0.8
+   },
+   "flavour": {
+    "text": "Powder King Mountain Resort, commonly referred to simply as Powder King.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Powder King Mountain Resort",
+    "url": "https://en.wikipedia.org/wiki/Powder_King_Mountain_Resort",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1509055",
+   "name": "SkyBridge",
+   "label": "SkyBridge",
+   "type": "built",
+   "kind": "cable-stayed bridge",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.2056,
+   "lon": -122.8969,
+   "rarity": "Rare",
+   "fame": 6174,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 123,
+    "length_km": 0.6,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "Built between 1987 and 1989, it carries trains of the Expo Line of TransLink's SkyTrain across the Fraser River between New Westminster and Surrey.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "SkyBridge (TransLink)",
+    "url": "https://en.wikipedia.org/wiki/SkyBridge_%28TransLink%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q4748827",
+   "name": "Amsterdam Bridge, Toronto",
+   "label": "Amsterdam Bridge, Toronto",
+   "type": "built",
+   "kind": "footbridge",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6383,
+   "lon": -79.3843,
+   "rarity": "Rare",
+   "fame": 1230,
+   "facts": {
+    "elevation_m": 77,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "The steel structure is a cable footbridge that crosses over the Simcoe Street Slip from York Quay to Rees Street Slip.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Amsterdam Bridge",
+    "url": "https://en.wikipedia.org/wiki/Amsterdam_Bridge",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q24191078",
+   "name": "Brampton Jain Temple",
+   "label": "Brampton Jain Temple",
+   "type": "built",
+   "kind": "Jain temple",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.828,
+   "lon": -79.7179,
+   "rarity": "Rare",
+   "fame": 1368,
+   "facts": {
+    "elevation_m": 224,
+    "temp_c": 7.2
+   },
+   "flavour": {
+    "text": "Brampton Jain Temple or the Bhagwan 1008 Adinatha Swamy Jain Temple, is the first Jain temple in Canada constructed using traditional Indian architecture.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brampton Jain Temple",
+    "url": "https://en.wikipedia.org/wiki/Brampton_Jain_Temple",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3564105",
+   "name": "Vélodrome de Queen's Park, Verdun",
+   "label": "Vélodrome de Queen's Park, Verdun",
+   "type": "built",
+   "kind": "velodrome",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.45,
+   "lon": -73.5667,
+   "rarity": "Rare",
+   "fame": 708,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "It hosted the 1899 ICA Track Cycling World Championships between 9 and 11 August.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vélodrome de Queen's Park",
+    "url": "https://en.wikipedia.org/wiki/V%C3%A9lodrome_de_Queen%27s_Park",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7789602",
+   "name": "Thomas Fisher Rare Book Library",
+   "label": "Thomas Fisher Rare Book Library",
+   "type": "built",
+   "kind": "academic archive",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6641,
+   "lon": -79.3989,
+   "rarity": "Rare",
+   "fame": 6366,
+   "facts": {
+    "elevation_m": 111,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "The Thomas Fisher Rare Book Library is an academic library on the St. George campus of the University of Toronto constituting the largest repository of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thomas Fisher Rare Book Library",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Fisher_Rare_Book_Library",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q6920483",
+   "name": "Mount Douglas",
+   "label": "Mount Douglas",
+   "type": "nature",
+   "kind": "hill",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 48.4931,
+   "lon": -123.347,
+   "rarity": "Rare",
+   "fame": 3858,
+   "facts": {
+    "elevation_m": 225,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "It is located in PKOLS in the municipality of Saanich.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Douglas, Saanich",
+    "url": "https://en.wikipedia.org/wiki/Mount_Douglas%2C_Saanich",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q22440211",
+   "name": "Mount King George",
+   "label": "Mount King George (near Invermere)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 50.5967,
+   "lon": -115.4054,
+   "rarity": "Rare",
+   "fame": 828,
+   "facts": {
+    "elevation_m": 3337,
+    "temp_c": -0.6
+   },
+   "flavour": {
+    "text": "Mount King George is a prominent 3,413-metre mountain summit located in Height of the Rockies Provincial Park, in the Canadian Rockies of British Columbia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount King George (British Columbia)",
+    "url": "https://en.wikipedia.org/wiki/Mount_King_George_%28British_Columbia%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3108297",
+   "name": "Illecillewaet Glacier",
+   "label": "Illecillewaet Glacier",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 51.2367,
+   "lon": -117.442,
+   "rarity": "Rare",
+   "fame": 2604,
+   "facts": {
+    "elevation_m": 2350,
+    "temp_c": -0.5
+   },
+   "flavour": {
+    "text": "It is located inside Glacier National Park in the Selkirk Mountains, a sub-range of the Columbia Mountains.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Illecillewaet Glacier",
+    "url": "https://en.wikipedia.org/wiki/Illecillewaet_Glacier",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q4498665",
+   "name": "Hog's Back Falls",
+   "label": "Hog's Back Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.371,
+   "lon": -75.697,
+   "rarity": "Rare",
+   "fame": 4542,
+   "facts": {
+    "elevation_m": 70,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "The Hog's Back Falls, officially known as the Prince of Wales Falls, but rarely referred to by this name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hog's Back Falls",
+    "url": "https://en.wikipedia.org/wiki/Hog%27s_Back_Falls",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7359555",
+   "name": "Weagamow Lake",
+   "label": "Weagamow Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 52.8959,
+   "lon": -91.3701,
+   "rarity": "Rare",
+   "fame": 720,
+   "facts": {
+    "elevation_m": 290,
+    "area_km2": 138,
+    "temp_c": -1.3
+   },
+   "flavour": {
+    "text": "Weagamow Lake is a lake in Kenora District in northwestern Ontario, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Weagamow Lake",
+    "url": "https://en.wikipedia.org/wiki/Weagamow_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3215214",
+   "name": "Lac Stukely",
+   "label": "Lac Stukely",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.3753,
+   "lon": -72.2519,
+   "rarity": "Rare",
+   "fame": 1440,
+   "facts": {
+    "elevation_m": 285,
+    "area_km2": 4.0,
+    "length_km": 5.3,
+    "temp_c": 4.6
+   },
+   "flavour": {
+    "text": "Its waters border the municipalities of Orford, Bonsecours, Eastman and a large part of Mount Orford National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Stukely",
+    "url": "https://en.wikipedia.org/wiki/Lake_Stukely",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1275436",
+   "name": "Grand Lake",
+   "label": "Grand Lake (near Pasadena)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-NL",
+   "country": "CA",
+   "lat": 48.8667,
+   "lon": -57.4333,
+   "rarity": "Rare",
+   "fame": 3486,
+   "facts": {
+    "elevation_m": 432,
+    "temp_c": 2.9
+   },
+   "flavour": {
+    "text": "Grand Lake is a large lake in the interior of the island of Newfoundland, in the Canadian province of Newfoundland and Labrador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Lake (Newfoundland and Labrador)",
+    "url": "https://en.wikipedia.org/wiki/Grand_Lake_%28Newfoundland_and_Labrador%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q22609369",
+   "name": "Nicholson Island",
+   "label": "Nicholson Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.917,
+   "lon": -77.521,
+   "rarity": "Rare",
+   "fame": 1350,
+   "facts": {
+    "elevation_m": 83,
+    "temp_c": 8.3
+   },
+   "flavour": {
+    "text": "It is one of the islands and shoals in the Scotch Bonnet Ridge.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nicholson Island (Lake Ontario)",
+    "url": "https://en.wikipedia.org/wiki/Nicholson_Island_%28Lake_Ontario%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3433773",
+   "name": "Rivière Ouareau",
+   "label": "Rivière Ouareau",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.94,
+   "lon": -73.4075,
+   "rarity": "Rare",
+   "fame": 1644,
+   "facts": {
+    "elevation_m": 16,
+    "length_km": 96,
+    "temp_c": 5.3
+   },
+   "flavour": {
+    "text": "The Ouareau River is a tributary of the Assomption River crossing the administrative region of Lanaudière, in Quebec, in Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ouareau River",
+    "url": "https://en.wikipedia.org/wiki/Ouareau_River",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3256660",
+   "name": "Little Bow River",
+   "label": "Little Bow River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 50.5763,
+   "lon": -113.8649,
+   "rarity": "Rare",
+   "fame": 768,
+   "facts": {
+    "elevation_m": 1037,
+    "length_km": 262,
+    "temp_c": 4.0
+   },
+   "flavour": {
+    "text": "From its headwaters near High River, it flows south, then turns east and flows into Travers Reservoir.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Bow River",
+    "url": "https://en.wikipedia.org/wiki/Little_Bow_River",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q22660375",
+   "name": "Raven River",
+   "label": "Raven River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 51.9433,
+   "lon": -115.1678,
+   "rarity": "Rare",
+   "fame": 702,
+   "facts": {
+    "elevation_m": 1387,
+    "length_km": 95,
+    "temp_c": 1.6
+   },
+   "flavour": {
+    "text": "The river is located in both the Clearwater County and Red Deer County.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Raven River",
+    "url": "https://en.wikipedia.org/wiki/Raven_River",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q7299643",
+   "name": "Razorback Mountain",
+   "label": "Razorback Mountain (near Anahim Lake)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 51.5906,
+   "lon": -124.6908,
+   "rarity": "Rare",
+   "fame": 720,
+   "facts": {
+    "elevation_m": 3183,
+    "prominence_m": 2153,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "It is the highest peak of the Niut Range, a subrange of the Coast Mountains.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Razorback Mountain (British Columbia)",
+    "url": "https://en.wikipedia.org/wiki/Razorback_Mountain_%28British_Columbia%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5964215",
+   "name": "Granby",
+   "label": "Granby",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.4001,
+   "lon": -72.7324,
+   "rarity": "Rare",
+   "fame": 36294,
+   "facts": {
+    "population": 66222,
+    "elevation_m": 102,
+    "area_km2": 156,
+    "temp_c": 5.7
+   },
+   "flavour": {
+    "text": "According to the latest statistics from the 2021 Canadian Census, Granby has a population of 69,025.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Granby, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Granby%2C_Quebec",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6139417",
+   "name": "Salmon Arm",
+   "label": "Salmon Arm",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 50.6998,
+   "lon": -119.2691,
+   "rarity": "Rare",
+   "fame": 36162,
+   "facts": {
+    "population": 19432,
+    "elevation_m": 427,
+    "area_km2": 155,
+    "temp_c": 6.9
+   },
+   "flavour": {
+    "text": "Salmon Arm is a city in the Columbia Shuswap Regional District of the Southern Interior of the Canadian province of British Columbia that has a population of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salmon Arm",
+    "url": "https://en.wikipedia.org/wiki/Salmon_Arm",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5888377",
+   "name": "Aurora",
+   "label": "Aurora",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 44.0001,
+   "lon": -79.4663,
+   "rarity": "Rare",
+   "fame": 43860,
+   "facts": {
+    "population": 55445,
+    "elevation_m": 266,
+    "area_km2": 50,
+    "temp_c": 6.4
+   },
+   "flavour": {
+    "text": "It is located 48 km from Downtown Toronto, north of Richmond Hill partially situated on the Oak Ridges Moraine, and surrounded by the Greenbelt.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aurora, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Aurora%2C_Ontario",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5947866",
+   "name": "Elliot Lake",
+   "label": "Elliot Lake",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 46.3834,
+   "lon": -82.6332,
+   "rarity": "Rare",
+   "fame": 27180,
+   "facts": {
+    "population": 12508,
+    "elevation_m": 310,
+    "area_km2": 715,
+    "temp_c": 4.0
+   },
+   "flavour": {
+    "text": "It is north of Lake Huron, midway between the cities of Sudbury and Sault Ste.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Elliot Lake",
+    "url": "https://en.wikipedia.org/wiki/Elliot_Lake",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6092839",
+   "name": "Ohsweken",
+   "label": "Ohsweken",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.0668,
+   "lon": -80.1163,
+   "rarity": "Rare",
+   "fame": 21024,
+   "facts": {
+    "population": 1500,
+    "elevation_m": 214,
+    "area_km2": 75,
+    "temp_c": 7.9
+   },
+   "flavour": {
+    "text": "Ohsweken is a dispersed rural community located within the Six Nations of the Grand River, in Brant County, Ontario, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ohsweken, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Ohsweken%2C_Ontario",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6093347",
+   "name": "Olds",
+   "label": "Olds",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 51.7834,
+   "lon": -114.102,
+   "rarity": "Rare",
+   "fame": 19068,
+   "facts": {
+    "population": 9209,
+    "elevation_m": 1039,
+    "area_km2": 15,
+    "temp_c": 3.0
+   },
+   "flavour": {
+    "text": "Olds is a town in central Alberta, Canada within Mountain View County and the Calgary–Edmonton Corridor.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Olds, Alberta",
+    "url": "https://en.wikipedia.org/wiki/Olds%2C_Alberta",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6155302",
+   "name": "St. Anthony",
+   "label": "St. Anthony",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NL",
+   "country": "CA",
+   "lat": 51.3704,
+   "lon": -55.5974,
+   "rarity": "Rare",
+   "fame": 19632,
+   "facts": {
+    "population": 2049,
+    "elevation_m": 9.0,
+    "temp_c": 1.7
+   },
+   "flavour": {
+    "text": "St. Anthony is a town on the northern reaches of the Great Northern Peninsula of the Canadian province of Newfoundland and Labrador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Anthony, Newfoundland and Labrador",
+    "url": "https://en.wikipedia.org/wiki/St._Anthony%2C_Newfoundland_and_Labrador",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6149996",
+   "name": "Smithers",
+   "label": "Smithers",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 54.7804,
+   "lon": -127.1743,
+   "rarity": "Rare",
+   "fame": 33972,
+   "facts": {
+    "population": 5351,
+    "elevation_m": 494,
+    "area_km2": 15,
+    "temp_c": 2.1
+   },
+   "flavour": {
+    "text": "Smithers is a town in northwestern British Columbia, approximately halfway between Prince George and Prince Rupert.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Smithers, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Smithers%2C_British_Columbia",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5905308",
+   "name": "Bolton",
+   "label": "Bolton",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.8795,
+   "lon": -79.7379,
+   "rarity": "Rare",
+   "fame": 22008,
+   "facts": {
+    "population": 26795,
+    "elevation_m": 221,
+    "temp_c": 6.4
+   },
+   "flavour": {
+    "text": "Bolton is an unincorporated town and is the most populous community in the town of Caledon, Ontario, Canada, in the Regional Municipality of Peel.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bolton, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Bolton%2C_Ontario",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:6621033",
+   "name": "Grand Falls",
+   "label": "Grand Falls",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 47.0461,
+   "lon": -67.7418,
+   "rarity": "Rare",
+   "fame": 21108,
+   "facts": {
+    "population": 5220,
+    "elevation_m": 157,
+    "area_km2": 18,
+    "temp_c": 3.2
+   },
+   "flavour": {
+    "text": "Its name comes from a waterfall created by a series of rock ledges over which the river drops 23 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Falls, New Brunswick",
+    "url": "https://en.wikipedia.org/wiki/Grand_Falls%2C_New_Brunswick",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5964401",
+   "name": "Grand Forks",
+   "label": "Grand Forks",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.0331,
+   "lon": -118.4356,
+   "rarity": "Rare",
+   "fame": 23100,
+   "facts": {
+    "population": 4049,
+    "elevation_m": 514,
+    "area_km2": 10,
+    "temp_c": 6.3
+   },
+   "flavour": {
+    "text": "It is located at the confluence of the Granby and Kettle Rivers, the latter being a tributary of the Columbia River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Forks, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Grand_Forks%2C_British_Columbia",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:5961560",
+   "name": "Gjoa Haven",
+   "label": "Gjoa Haven",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 68.626,
+   "lon": -95.8784,
+   "rarity": "Rare",
+   "fame": 41052,
+   "facts": {
+    "population": 1349,
+    "elevation_m": 1.0,
+    "area_km2": 2847,
+    "temp_c": -14.0
+   },
+   "flavour": {
+    "text": "Gjoa Haven, the only settlement on King William Island, is an Inuit hamlet in Nunavut, above the Arctic Circle.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gjoa Haven",
+    "url": "https://en.wikipedia.org/wiki/Gjoa_Haven",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q13856580",
+   "name": "Lac à la Croix",
+   "label": "Lac à la Croix (near Godefroy)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 51.2633,
+   "lon": -70.2167,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 532,
+    "area_km2": 31,
+    "temp_c": -3.0
+   },
+   "flavour": {
+    "text": "Lac à la Croix is a lake in the unorganized territory of Mont-Valin.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Lac à la Croix (Le Fjord-du-Saguenay)",
+    "url": "https://fr.wikipedia.org/wiki/Lac_%C3%A0_la_Croix_%28Le_Fjord-du-Saguenay%29",
+    "translated": true
+   }
+  },
+  {
+   "id": "wd:Q929082",
+   "name": "Ferguson Lake",
+   "label": "Ferguson Lake (near Baker Lake)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 62.9128,
+   "lon": -96.8914,
+   "rarity": "Common",
+   "fame": 414,
+   "facts": {
+    "elevation_m": 112,
+    "length_km": 25,
+    "temp_c": -10.7
+   },
+   "flavour": {
+    "text": "It is located 150 km north of the tree line, midway between Yathkyed Lake and Qamanirjuaq Lake.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ferguson Lake (Kivalliq Region)",
+    "url": "https://en.wikipedia.org/wiki/Ferguson_Lake_%28Kivalliq_Region%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q1125455",
+   "name": "Tahiryuaq",
+   "label": "Tahiryuaq (near Cambridge Bay)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 69.4167,
+   "lon": -105.25,
+   "rarity": "Common",
+   "fame": 534,
+   "facts": {
+    "elevation_m": 11,
+    "area_km2": 562,
+    "length_km": 73,
+    "temp_c": -14.2
+   },
+   "flavour": {
+    "text": "Tahiryuaq, formerly Ferguson Lake, is located on southern Victoria Island in the Kitikmeot Region of Nunavut, in northern Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tahiryuaq",
+    "url": "https://en.wikipedia.org/wiki/Tahiryuaq",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q16024979",
+   "name": "Serpentine River",
+   "label": "Serpentine River (near Laurentides)",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 47.1711,
+   "lon": -72.3511,
+   "rarity": "Common",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 322,
+    "length_km": 4.0,
+    "temp_c": 2.2
+   },
+   "flavour": {
+    "text": "The Serpentine River flows from the unorganized territory of Lac-Lapeyrère, Quebec, located in the Portneuf Regional County Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Serpentine River (Québec)",
+    "url": "https://en.wikipedia.org/wiki/Serpentine_River_%28Qu%C3%A9bec%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q21007762",
+   "name": "Rivière Fraser",
+   "label": "Rivière Fraser (near Valcourt)",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.5825,
+   "lon": -72.2514,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 175,
+    "length_km": 3.0,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "The Fraser River is a tributary of the Ulverton River, which drains on the east bank of the Saint-François River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fraser River (Le Val-Saint-François)",
+    "url": "https://en.wikipedia.org/wiki/Fraser_River_%28Le_Val-Saint-Fran%C3%A7ois%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "wd:Q3214708",
+   "name": "Amisk Lake",
+   "label": "Amisk Lake (near Athabasca)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 54.5932,
+   "lon": -112.637,
+   "rarity": "Rare",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 609,
+    "area_km2": 5.0,
+    "length_km": 6.3,
+    "temp_c": 1.3
+   },
+   "flavour": {
+    "text": "Amisk Lake is a lake located in central Alberta about 175 km northeast of the City of Edmonton and 15 km east of the village of Boyle.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Amisk Lake (Alberta)",
+    "url": "https://en.wikipedia.org/wiki/Amisk_Lake_%28Alberta%29",
+    "translated": false
+   }
+  },
+  {
+   "id": "gn:13732522",
+   "name": "Price",
+   "label": "Price",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 48.6035,
+   "lon": -68.1296,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1729,
+    "elevation_m": 62,
+    "temp_c": 2.7
+   },
+   "flavour": {
+    "text": "A community of 1,729 people in Quebec.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:6086944",
+   "name": "Nelson-Miramichi",
+   "label": "Nelson-Miramichi",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.9786,
+   "lon": -65.5406,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1164,
+    "elevation_m": 24,
+    "temp_c": 4.6
+   },
+   "flavour": {
+    "text": "A community of 1,164 people in New Brunswick.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:13592157",
+   "name": "Beaurivage",
+   "label": "Beaurivage",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.6821,
+   "lon": -64.9602,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6160,
+    "elevation_m": 7.0,
+    "temp_c": 5.0
+   },
+   "flavour": {
+    "text": "A community of 6,160 people in New Brunswick.",
+    "source": "facts"
+   }
+  },
+  {
+   "id": "gn:5892190",
+   "name": "Balgonie",
+   "label": "Balgonie",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-SK",
+   "country": "CA",
+   "lat": 50.4834,
+   "lon": -104.2678,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1756,
+    "elevation_m": 664,
+    "temp_c": 2.6
+   },
+   "flavour": {
+    "text": "A community of 1,756 people in Saskatchewan.",
+    "source": "facts"
+   }
+  }
+ ]
+}
