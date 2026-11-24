@@ -19,7 +19,7 @@ Cards use serial-numbered print runs, like real trading cards. Commons are unlim
 - The pull screen reveals the serial last ("#7 of 10") for drama.
 - How minting stays safe under load: see [[Architecture#The minting transaction]].
 
-**Built landmarks (2026-11-23):** structures such as towers, buildings and bridges are cards too, and they should be high-rarity cards. How rarity treats them is decided at the Phase 1 rarity step.
+**Built landmarks (2026-11-23):** structures such as towers, buildings and bridges are cards too, and they should be high-rarity cards. Decided at the rarity step: built cards are never Common, and they get wider Epic and Legendary shares (see [[Decisions]]).
 
 ## Stats
 Computed from real data in the [[Data Pipeline]].

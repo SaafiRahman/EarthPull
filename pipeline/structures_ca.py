@@ -38,6 +38,8 @@ EXCLUDE = {
                        "pipeline", "transmission line", "rail yard", "ferry", "tunnel"],
     "organisation, not a place": ["business", "company", "enterprise", "chain", "brand", "organization",
                                   "organisation", "university", "college", "school", "library"],
+    # Developer, 2026-11-23: offshore platforms are not cards (Ocean Ranger is a disaster site; Hibernia cannot be visited).
+    "offshore platform": ["oil platform", "gravity-based structure", "drilling rig"],
     "military": ["forces base", "military base", "air base", "naval base", "radar station", "command"],
     # Memorials are allowed as cards (developer, 2026-11-23); burial sites stay out.
     "sensitive (roadmap: exclude)": ["cemetery", "grave", "tomb", "mausoleum", "prison", "penitentiar",

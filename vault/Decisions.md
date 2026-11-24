@@ -26,6 +26,11 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Identify pipeline requests to Wikimedia | User-Agent `PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/EarthPull)` | Wikimedia's policy asks for a contact; anonymous scripts were throttled to ~13 h for Canada. Developer approved using the repo URL (no email) |
 | 2026-11-23 | Fame score | English + French Wikipedia views, last 12 complete months, real users only | Quebec places often have only, or mainly, a French article |
 | 2026-11-23 | News spikes in fame | Fame = median month x 12 (en + fr views per month). The plain 12-month total is kept as `views_12mo` for reference. (Earlier the same day: keep the plain total; changed by the developer.) | One news spike shouldn't make a card famous: Tumbler Ridge drops from 499k to 48k, CN Tower stays at 444k |
+| 2026-11-23 | Rarity method | Fame ranked within each type (town, nature, built). Towns and nature: top 0.5% Legendary, next 4.5% Epic, next 20% Rare, rest Common. Floors: national capital Legendary; provincial capitals and national parks Epic. Starting values, tuned in the beta | Types get very different view counts; floors follow the roadmap's tier examples |
+| 2026-11-23 | Built rarity | Built landmarks are never Common: top 3% Legendary, next 17% Epic, rest Rare. Arenas and stadiums stay in by fame | Developer: structures are high-rarity cards; kept as drafted |
+| 2026-11-23 | Offshore platforms | Not cards (Ocean Ranger, Hibernia) | Ocean Ranger is a disaster site (84 deaths); Hibernia can't be visited |
+| 2026-11-23 | Canadian Mythics | Niagara Falls, CN Tower, Rocky Mountains (in `pipeline/mythics.csv`) | Developer's picks; the rest of Canada's icons stay Legendary to save Mythic slots for the world |
+| 2026-11-23 | Worldwide ranking | Rank fame within each country, not against the whole world | Every country gets its own Legendaries and Epics, which suits local packs |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open
