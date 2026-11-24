@@ -25,7 +25,7 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Memorials | Allowed as cards (National War Memorial, Wolfe-Montcalm Monument...). Cemeteries, graves, prisons, residential schools and hospitals stay excluded | Developer's call; changes the roadmap's "exclude memorial sites" rule |
 | 2026-11-23 | Identify pipeline requests to Wikimedia | User-Agent `PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/EarthPull)` | Wikimedia's policy asks for a contact; anonymous scripts were throttled to ~13 h for Canada. Developer approved using the repo URL (no email) |
 | 2026-11-23 | Fame score | English + French Wikipedia views, last 12 complete months, real users only | Quebec places often have only, or mainly, a French article |
-| 2026-11-23 | News spikes in fame | Keep the plain 12-month total for now; a news story can make a card more popular. Revisit later (option: median month x 12) | Developer's call: topical fame is acceptable for launch |
+| 2026-11-23 | News spikes in fame | Fame = median month x 12 (en + fr views per month). The plain 12-month total is kept as `views_12mo` for reference. (Earlier the same day: keep the plain total; changed by the developer.) | One news spike shouldn't make a card famous: Tumbler Ridge drops from 499k to 48k, CN Tower stays at 444k |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
 ## Open
