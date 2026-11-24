@@ -11,7 +11,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## What to do next
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.
-2. Phase 1 on Canada: GeoNames, landmarks, page views, rarity and card facts are done (12,882 cards). Next: flavour text, JSON export by region, card images. See [[Tasks]].
+2. Phase 1 on Canada: GeoNames, landmarks, page views, rarity, card facts and flavour are done (12,882 cards). Next: JSON export by region, card images. See [[Tasks]].
 
 ## Preview
 - [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
@@ -39,7 +39,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## Dev Log
 One note per work session in `Dev Log/`, named YYYY-MM-DD.
-- [[Dev Log/2026-11-24]]: card facts for Canada; bad-data checks
+- [[Dev Log/2026-11-24]]: card facts and flavour for Canada; bad-data checks
 - [[Dev Log/2026-11-23]]: vault set up, filled in from the roadmap, first push, GitHub Projects board
 
 ## Rules for this vault

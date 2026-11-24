@@ -22,6 +22,7 @@ pipeline/.venv/Scripts/python -m pip install -r pipeline/requirements.txt   # Wi
 | 4b. Drop gone places: demolished, destroyed, never built (Canada); hand fixes in `overrides.csv` | `python pipeline/gone_ca.py` | `data/interim/pool_clean_ca.parquet`, `gone_ca.csv` |
 | 5. Rarity: fame rank within type, floors, hand-picked Mythics (`mythics.csv`) (Canada) | `python pipeline/rarity_ca.py` | `data/interim/rarity_ca.parquet` |
 | 6. Card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim 2.1 `wc2.1_10m_bio_1.tif` in `data/raw/worldclim/`); impossible values blanked, hand fixes in `fact_fixes.csv` (Canada) | `python pipeline/facts_ca.py` | `data/interim/cards_ca.parquet` |
+| 7. Flavour: one line per card from the Wikipedia intro (English, else French), with its source article for the CC BY-SA credit (Canada) | `python pipeline/flavour_ca.py` | `data/interim/flavour_ca.parquet` |
 
 Downloads and Wikidata answers are cached in `data/raw/`. Everything under `data/` is git-ignored and can be rebuilt.
 
