@@ -1,6 +1,6 @@
 # Pull the Planet: Home
 
-Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-11-23|Dev Log]] note at the start of every session.
+Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-11-24|Dev Log]] note at the start of every session.
 
 **Pull the Planet (named 2026-11-23; working name was Earthpull) is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Launch target: early May 2027.
 
@@ -11,7 +11,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## What to do next
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.
-2. Phase 1 on Canada: clean GeoNames, then Wikidata landmarks, page views, rarity and card facts (no 1–100 stats since 2026-11-23). See [[Tasks]].
+2. Phase 1 on Canada: GeoNames, landmarks, page views, rarity and card facts are done (12,882 cards). Next: flavour text, JSON export by region, card images. See [[Tasks]].
 
 ## Preview
 - [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
@@ -39,6 +39,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## Dev Log
 One note per work session in `Dev Log/`, named YYYY-MM-DD.
+- [[Dev Log/2026-11-24]]: card facts for Canada; bad-data checks
 - [[Dev Log/2026-11-23]]: vault set up, filled in from the roadmap, first push, GitHub Projects board
 
 ## Rules for this vault

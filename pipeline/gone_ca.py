@@ -6,7 +6,7 @@ work worldwide:
   1. Redirected article: the card's main article (English, else French) now redirects elsewhere, so the
      place was merged into something else (CalgaryNEXT -> Scotia Place). All card types.
   2. Wikidata, built cards: a class (P31) or state of use (P5817) that says destroyed, demolished,
-     proposed, unbuilt or cancelled.
+     proposed, unbuilt or cancelled. Nature cards: undersea features and former lakes (paleolakes).
   3. Wikipedia categories, built cards: "Unbuilt ..." or "Cancelled ..." drop the card. "Demolished ..." or
      "Destroyed ..." (French "détruit", "démoli") drop it only when there is also an end date (Wikidata P576,
      or a "... disestablishments" category):
@@ -38,6 +38,7 @@ WD_API = "https://www.wikidata.org/w/api.php"
 GONE_WORDS = re.compile(r"\b(destroyed|demolished|proposed|unbuilt|cancell?ed)\b", re.I)
 CAT_NEVER = re.compile(r"\b(unbuilt|cancell?ed|non réalisé)", re.I)
 CAT_GONE = re.compile(r"\b(demolished|destroyed|détruit|démoli)", re.I)
+NATURE_GONE = re.compile(r"(undersea|submarine|seamount|paleolake|former lake|prehistoric lake)", re.I)
 CAT_SKIP = re.compile(r"\b(fire|arson|burn|incendie)", re.I)
 
 session = requests.Session()
@@ -110,7 +111,7 @@ def target_items(lang: str, titles: list[str], cache: dict):
     save_cache(cache)
 
 
-def wikidata_gone(qids: list[str], cache: dict) -> dict[str, str]:
+def wikidata_gone(qids: list[str], cache: dict, words: re.Pattern = GONE_WORDS) -> dict[str, str]:
     """qid -> the gone class or state label, for items Wikidata marks as gone or never built."""
     todo = [q for q in qids if f"d|{q}" not in cache]
     for i in range(0, len(todo), 50):
@@ -130,7 +131,7 @@ def wikidata_gone(qids: list[str], cache: dict) -> dict[str, str]:
     save_cache(cache)
     out = {}
     for q in qids:
-        hit = next((cache.get(f"l|{v}", "") for v in cache.get(f"w|{q}", []) if GONE_WORDS.search(cache.get(f"l|{v}", ""))), None)
+        hit = next((cache.get(f"l|{v}", "") for v in cache.get(f"w|{q}", []) if words.search(cache.get(f"l|{v}", ""))), None)
         if hit:
             out[q] = hit
     return out
@@ -157,6 +158,11 @@ def main():
         item = cache.get(f"t|{lang}|{target}") if target else None
         if target and item != r.qid and (r.type != "town" or item in pool_qids):
             reasons[r.id] = f"article redirects to {target}"
+
+    # 2b. Nature cards you can't visit: undersea features and lakes that no longer exist (developer, 2026-11-24:
+    # fix bad data automatically; Lake Agassiz, Lomonosov Ridge)
+    for q, label in wikidata_gone(df.loc[df["type"] == "nature", "qid"].dropna().tolist(), cache, NATURE_GONE).items():
+        reasons.setdefault("wd:" + q, f"Wikidata: {label}")
 
     # 2 and 3. Built cards: Wikidata classes and Wikipedia categories
     built = df[df["type"] == "built"]

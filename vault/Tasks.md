@@ -58,7 +58,8 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [x] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics. (done 2026-11-23 for Canada: `rarity_ca.py`; Mythics so far Niagara Falls, CN Tower, Rocky Mountains)
 - [ ] ~~Compute stats (log-scale population, normalise each stat to 1–100).~~ Replaced 2026-11-23 by card facts (developer)
 - [x] Drop gone places: demolished, destroyed or never built (Wikidata classes, Wikipedia categories, redirected articles); keep closed-but-standing (done 2026-11-23: `gone_ca.py`, 501 dropped, 12,887 cards left)
-- [ ] Collect card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim), fame
+- [x] (done 2026-11-24) Collect card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim), fame
+- [ ] Fix step 3's elevation: it takes Wikidata P2044 without its unit (some peaks came in feet). Step 6 works around it by preferring the unit-converted value
 - [ ] Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed.
 - [ ] Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development.
 - [ ] Card images: Wikidata image → Commons thumbnail + author + licence; reject maps, flags, logos and tiny images; mini-map render for the rest. Check the photo vs mini-map split on a sample first.
