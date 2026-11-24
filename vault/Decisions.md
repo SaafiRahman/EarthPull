@@ -30,6 +30,8 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Built rarity | Built landmarks are never Common: top 3% Legendary, next 17% Epic, rest Rare. Arenas and stadiums stay in by fame | Developer: structures are high-rarity cards; kept as drafted |
 | 2026-11-23 | Offshore platforms | Not cards (Ocean Ranger, Hibernia) | Ocean Ranger is a disaster site (84 deaths); Hibernia can't be visited |
 | 2026-11-23 | Canadian Mythics | Niagara Falls, CN Tower, Rocky Mountains (in `pipeline/mythics.csv`) | Developer's picks; the rest of Canada's icons stay Legendary to save Mythic slots for the world |
+| 2026-11-23 | No stats, no battles | Cards show real facts (population, elevation, height, area or length, average temperature, fame) instead of 1–100 stats; battles dropped from v2; trading stays a v2 idea | Developer: the game is about collecting, maybe trading; a battle system isn't needed. Wikigacha has battles, but our hooks are the map, numbered copies and local cards |
+| 2026-11-23 | Gone places | Drop places that are demolished, destroyed or never built (CalgaryNEXT); keep ones that closed but still stand (Montreal Forum) | Cards are real places you can visit |
 | 2026-11-23 | Worldwide ranking | Rank fame within each country, not against the whole world | Every country gets its own Legendaries and Epics, which suits local packs |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 

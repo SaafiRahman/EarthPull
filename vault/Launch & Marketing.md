@@ -38,7 +38,7 @@ Read each subreddit's self-promotion rules first; some require a comment history
 |---|---|---|
 | Daily | "Pull of the day": the rarest or funniest card someone got | TikTok, X, Discord |
 | Weekly | World map update: which country is claiming the most | r/MapPorn, r/dataisbeautiful, X |
-| Weekly | Stat weirdness: "this town of 2,000 out-defends Tokyo" | TikTok, Shorts |
+| Weekly | Fact weirdness: "this town of 2,000 sits higher than any city in Europe" (updated 2026-11-23: facts, not stats) | TikTok, Shorts |
 | Per event | Recap with numbers | Dev log, LinkedIn |
 
 ### Events and seasons
@@ -54,7 +54,7 @@ Read each subreddit's self-promotion rules first; some require a comment history
 
 ### Version 2 features (in order)
 1. Trading between players (with trade limits and a cooldown).
-2. Simple battles using the real stats.
+2. ~~Simple battles using the real stats.~~ Dropped 2026-11-23: no battle system planned.
 3. Friend leagues: group goals and shared sets, building on v1's friend compare.
 4. A Wikipedia fantasy mode, reusing the page-view pipeline.
 

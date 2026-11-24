@@ -11,7 +11,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## What to do next
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.
-2. Phase 1 on Canada: clean GeoNames, then Wikidata landmarks, page views and stats. See [[Tasks]].
+2. Phase 1 on Canada: clean GeoNames, then Wikidata landmarks, page views, rarity and card facts (no 1–100 stats since 2026-11-23). See [[Tasks]].
 
 ## Preview
 - [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
@@ -19,7 +19,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 ## Notes
 - [[Roadmap]]: the full roadmap and source of truth (phases 0–6, gates, risks)
 - [[Decisions]]: decided choices and open questions, with dates and reasons
-- [[Game Design]]: rarity tiers and caps, stats, card art, core loop, sharing hooks, maps and friends, out of scope for v1
+- [[Game Design]]: rarity tiers and caps, card facts, card art, core loop, sharing hooks, maps and friends, out of scope for v1
 - [[Architecture]]: Firebase stack, Firestore collections, the minting transaction, static card pool
 - [[Data Pipeline]]: sources, steps, card images, gate
 - [[Tasks]]: current and upcoming tasks (mirrored on the [GitHub Projects board](https://github.com/users/SaafiRahman/projects/4))

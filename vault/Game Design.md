@@ -2,7 +2,7 @@
 
 Back to [[00 Home]]. Source: [[Roadmap]] (game design spec). Decisions behind this note live in [[Decisions]].
 
-**Pull the Planet is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Version 1 is pack opening, numbered copies, a personal collection and a shared world map. Battles and trading wait for v2.
+**Pull the Planet is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Version 1 is pack opening, numbered copies, a personal collection and a shared world map. Trading waits for v2; battles are not planned (2026-11-23).
 
 ## Rarity tiers and caps
 Cards use serial-numbered print runs, like real trading cards. Commons are unlimited; every higher tier has a fixed cap. The caps are starting values to tune in the beta (Phase 3, see [[Roadmap]]).
@@ -21,23 +21,19 @@ Cards use serial-numbered print runs, like real trading cards. Commons are unlim
 
 **Built landmarks (2026-11-23):** structures such as towers, buildings and bridges are cards too, and they should be high-rarity cards. Decided at the rarity step: built cards are never Common, and they get wider Epic and Legendary shares (see [[Decisions]]).
 
-## Stats
-Computed from real data in the [[Data Pipeline]].
+## Card facts
+**Decided 2026-11-23 (developer): no 1–100 stats and no battle system for now.** Pull the Planet is about collecting (and maybe trading later), so each card shows real facts about the place instead of game stats. Facts are more interesting to collect, give shareable "huh" moments, and need no scales to tune. If battles ever come back, stats can be derived from the same facts.
 
-Scales used in the paper prototype (2026-11-23), each 1–100 on fixed ranges so stats stay comparable as the pool grows:
-- HP: log population, 500 people = 1, 20 million = 100. No population (peaks, lakes, parks) = 1.
-- Defense: elevation, 0 m = 1, 5,500 m or more = 100.
-- Attack: log of 12-month page views, 10k = 1, 3 million = 100.
-- Chill: average temperature, 30 °C = 1, −20 °C = 100.
-The first attempt (log scales starting at 0) squeezed every card into a narrow band; the ranges above spread them out. Tune in the beta.
-
-| Stat | Source | Notes |
+| Fact | Shown on | Source |
 |---|---|---|
-| HP | Population | Log-scaled so megacities don't break everything |
-| Defense | Elevation | Mountains and highland towns are tanks |
-| Attack | Wikipedia page views, last 12 months | Fame = power; produces the funny matchups |
-| Chill | Average annual temperature, inverted | Colder = higher |
-| Type | Climate or biome | Coastal, Tundra, Desert, Mountain, Urban, Forest |
+| Population | Towns | GeoNames, Wikidata |
+| Elevation | Every card | Wikidata, else terrain height at the point |
+| Height | Buildings, towers, waterfalls; prominence for mountains | Wikidata |
+| Area or length | Lakes, islands, parks, glaciers (area); rivers, bridges, canals (length) | Wikidata |
+| Average temperature | Every card | WorldClim climate map, sampled at the point |
+| Fame | Every card | Wikipedia views, median month x 12 ([[Decisions]]) |
+
+The paper prototype's 1–100 scales (HP, Defense, Attack, Chill) are retired; they are in the prototype code (`prototype/fetch_cards.py`) if ever needed.
 
 ## Card art
 **Every card uses a real photo when one exists; places without a usable photo get a generated mini-map instead.**
@@ -84,7 +80,7 @@ Load pins only for the area on screen, use MapLibre's built-in clustering, and p
 
 ## Out of scope for v1
 - Trading (attracts bots and scams; needs moderation)
-- Battles (a whole game of its own)
+- Battles (a whole game of its own; not planned at all since 2026-11-23)
 - Paid packs or any real-money mechanic
 - Native mobile apps (the site should work well on phones instead)
 

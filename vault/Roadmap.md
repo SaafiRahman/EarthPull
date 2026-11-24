@@ -43,6 +43,8 @@ Cards use serial-numbered print runs, like real trading cards. Commons are unlim
 
 ### Stats from real data
 
+**Update 2026-11-23: no 1–100 stats.** Cards show real facts instead (see [[Decisions]] and [[Game Design#Card facts]]); battles are no longer planned for v2.
+
 | Stat | Source | Notes |
 | --- | --- | --- |
 | HP | Population | Log-scaled so megacities don't break everything |
@@ -143,7 +145,7 @@ Each phase ends at a gate; don't start the next phase until its gate is met, and
 2. Pull landmark categories from Wikidata and join them to Wikipedia article titles.
 3. Fetch page views for every place that has an article; places without one get a fame score of zero.
 4. Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics.
-5. Compute stats (log-scale population, normalise each stat to 1–100 so cards are comparable).
+5. ~~Compute stats (log-scale population, normalise each stat to 1–100 so cards are comparable).~~ **Update 2026-11-23:** collect real facts per card instead (population, height, elevation, area or length, average temperature, fame).
 6. Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed.
 7. Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development.
 
@@ -312,7 +314,7 @@ Read each subreddit's self-promotion rules first; some require a comment history
 ### Version 2 features (in order)
 
 1. Trading between players (with trade limits and a cooldown).
-2. Simple battles using the real stats.
+2. ~~Simple battles using the real stats.~~ Dropped 2026-11-23: no battle system planned; maybe later.
 3. Friend leagues: group goals and shared sets, building on v1's friend compare.
 4. A Wikipedia fantasy mode, reusing the page-view pipeline.
 

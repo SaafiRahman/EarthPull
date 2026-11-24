@@ -23,7 +23,7 @@ The event list behind these is an open question in [[Decisions]].
 Fill with real numbers only.
 - Built and launched Pull the Planet, a browser collecting game where every real place on Earth is a card; reached [X] players in [Y] countries within [Z] weeks.
 - Designed a transactional serial-minting system in Firestore that issued [N] numbered cards with zero duplicates under [P] concurrent users.
-- Built a geospatial data pipeline (GeoNames, Wikidata, Wikipedia page views) generating [N] cards with data-derived stats.
+- Built a geospatial data pipeline (GeoNames, Wikidata, Wikipedia page views) generating [N] cards with data-derived rarity and real-world facts.
 
 ## Interview talking points
 1. Concurrency: why minting is a race condition and how one atomic update solves it ([[Architecture#The minting transaction]]).
