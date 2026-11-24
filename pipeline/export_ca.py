@@ -13,13 +13,17 @@ downloads the regions it needs (Firestore bills per read, see Architecture). Eac
   flavour   text plus its source: Wikipedia (lang, title, url: CC BY-SA, so the card must credit and link
             it; translated=true for French lines shown in English) or "facts" (written here for places
             with no article)
+  image     "photo" (file, plus author, licence, licence_url and the Commons page: every card's detail view
+            must show "Photo: <author>, <licence>") or "minimap" (file only; Natural Earth is public domain).
+            Files are relative to the image root: images/photo/<id>.webp or images/minimap/<id>.webp,
+            with ":" in the id written as "_".
 
 Same-name cards (two "CN Tower"s, 17 "Rivière Blanche"s): the most famous keeps the plain name when it has
 at least 5x the fame of the next; the others get "(near <nearest town>)" for landmarks or "(<province>)"
 for towns, with the province added if that is still not unique.
 
     python pipeline/export_ca.py
-Input:  data/interim/cards_ca.parquet, data/interim/flavour_ca.parquet
+Input:  data/interim/cards_ca.parquet, data/interim/flavour_ca.parquet, data/interim/images_ca.parquet
 Output: data/export/CA/index.json and one file per region; pipeline/sample/cards_sample_ca.json (committed)
 """
 import json
@@ -42,7 +46,8 @@ REGIONS = {"Alberta": "CA-AB", "British Columbia": "CA-BC", "Manitoba": "CA-MB",
 KIND_LABEL = {"church building": "church", "hill, mountain": "hill"}
 FACTS = ["population", "elevation_m", "height_m", "prominence_m", "area_km2", "length_km", "temp_c"]
 ATTRIBUTION = ("Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), "
-               "credited per card. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.")
+               "credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural "
+               "Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.")
 
 
 def nice(v: float, key: str):
@@ -130,11 +135,19 @@ def card(r) -> dict:
                         "url": url, "translated": r.flavour_lang != "en"}
     else:
         c["flavour"] = {"text": facts_line(r), "source": "facts"}
+    f = r.id.replace(":", "_") + ".webp"
+    if isinstance(r.image, str):
+        c["image"] = {"kind": "photo", "file": f"images/photo/{f}", "author": r.author, "licence": r.licence,
+                      "licence_url": r.licence_url or None, "page": r.page}
+    else:
+        c["image"] = {"kind": "minimap", "file": f"images/minimap/{f}"}
     return c
 
 
 def main():
-    df = pd.read_parquet(INTERIM / "cards_ca.parquet").merge(pd.read_parquet(INTERIM / "flavour_ca.parquet"), on="id")
+    img = pd.read_parquet(INTERIM / "images_ca.parquet")[["id", "image", "author", "licence", "licence_url", "page"]]
+    df = (pd.read_parquet(INTERIM / "cards_ca.parquet").merge(pd.read_parquet(INTERIM / "flavour_ca.parquet"), on="id")
+          .merge(img, on="id", how="left"))
     assert df["id"].is_unique and df["province"].isin(REGIONS).all()
     df["label"] = labels(df)
     df = df.sort_values(["province", "fame"], ascending=[True, False])

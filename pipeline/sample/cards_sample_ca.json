@@ -1,5 +1,5 @@
 {
- "note": "Sample of the Canada card pool for front-end development; built by pipeline/export_ca.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "note": "Sample of the Canada card pool for front-end development; built by pipeline/export_ca.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
    "id": "wd:Q5463",
@@ -25,6 +25,14 @@
     "title": "Rocky Mountains",
     "url": "https://en.wikipedia.org/wiki/Rocky_Mountains",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5463.webp",
+    "author": "Gorgo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg"
    }
   },
   {
@@ -51,6 +59,14 @@
     "title": "Niagara Falls",
     "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q34221.webp",
+    "author": "Robert F. Tobler",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_USA_Canada_from_Skylon_Tower_on_2002-05-28,_full_size.jpg"
    }
   },
   {
@@ -77,6 +93,14 @@
     "title": "CN Tower",
     "url": "https://en.wikipedia.org/wiki/CN_Tower",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q134883.webp",
+    "author": "Chris Woodrich",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CN_Tower_from_Puente_de_Luz,_Toronto,_Ontario,_2025-08-25_01.jpg"
    }
   },
   {
@@ -102,6 +126,10 @@
     "title": "Aegean Lake",
     "url": "https://en.wikipedia.org/wiki/Aegean_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22362756.webp"
    }
   },
   {
@@ -127,6 +155,10 @@
     "title": "McMillan Flowage",
     "url": "https://en.wikipedia.org/wiki/McMillan_Flowage",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6802359.webp"
    }
   },
   {
@@ -152,6 +184,14 @@
     "title": "Sautauriski Lake",
     "url": "https://en.wikipedia.org/wiki/Sautauriski_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q82969331.webp",
+    "author": "Cephas",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lac_Sautauriski_PJC.jpg"
    }
   },
   {
@@ -178,6 +218,10 @@
     "title": "Satah Mountain",
     "url": "https://en.wikipedia.org/wiki/Satah_Mountain",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7425861.webp"
    }
   },
   {
@@ -204,6 +248,10 @@
     "title": "Branche de la rivière Bayonne",
     "url": "https://fr.wikipedia.org/wiki/Branche_de_la_rivi%C3%A8re_Bayonne",
     "translated": true
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q28494589.webp"
    }
   },
   {
@@ -230,6 +278,14 @@
     "title": "Mount Warren (Alberta)",
     "url": "https://en.wikipedia.org/wiki/Mount_Warren_%28Alberta%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22557156.webp",
+    "author": "Michal Onderco",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monkhead_and_Mount_Warren.jpg"
    }
   },
   {
@@ -257,6 +313,10 @@
     "title": "Copes Bay",
     "url": "https://en.wikipedia.org/wiki/Copes_Bay",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5168544.webp"
    }
   },
   {
@@ -282,6 +342,10 @@
     "title": "Basalt Falls",
     "url": "https://en.wikipedia.org/wiki/Basalt_Falls",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4866199.webp"
    }
   },
   {
@@ -308,6 +372,10 @@
     "title": "Portage River (Petit-Saguenay River tributary)",
     "url": "https://en.wikipedia.org/wiki/Portage_River_%28Petit-Saguenay_River_tributary%29",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17638301.webp"
    }
   },
   {
@@ -333,6 +401,10 @@
     "title": "Arum Lake",
     "url": "https://en.wikipedia.org/wiki/Arum_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q280536.webp"
    }
   },
   {
@@ -358,6 +430,14 @@
     "title": "Lac du Sud-Ouest (Québec)",
     "url": "https://fr.wikipedia.org/wiki/Lac_du_Sud-Ouest_%28Qu%C3%A9bec%29",
     "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q114470378.webp",
+    "author": "Gabriel Picard",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_-_Lac_du_Sud-Ouest.jpg"
    }
   },
   {
@@ -385,6 +465,10 @@
     "title": "Oxford Lake",
     "url": "https://en.wikipedia.org/wiki/Oxford_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1889648.webp"
    }
   },
   {
@@ -407,6 +491,10 @@
    "flavour": {
     "text": "A community of 1,059 people in Quebec.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_12076648.webp"
    }
   },
   {
@@ -429,6 +517,10 @@
    "flavour": {
     "text": "A community of 4,549 people in New Brunswick.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13592172.webp"
    }
   },
   {
@@ -451,6 +543,10 @@
    "flavour": {
     "text": "A community of 1,532 people in Quebec.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11903570.webp"
    }
   },
   {
@@ -478,6 +574,14 @@
     "title": "Esquimalt",
     "url": "https://en.wikipedia.org/wiki/Esquimalt",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5949512.webp",
+    "author": "Thomson M",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Esquimalt_-_panoramio.jpg"
    }
   },
   {
@@ -500,6 +604,10 @@
    "flavour": {
     "text": "A community of 1,878 people in Ontario.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6175609.webp"
    }
   },
   {
@@ -527,6 +635,14 @@
     "title": "Natoaganeg First Nation",
     "url": "https://en.wikipedia.org/wiki/Natoaganeg_First_Nation",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5946961.webp",
+    "author": "IR Walker",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2000_Eel_Ground_Pow-wow_Dancer.jpg"
    }
   },
   {
@@ -553,6 +669,10 @@
     "title": "Burnside, Nova Scotia",
     "url": "https://en.wikipedia.org/wiki/Burnside%2C_Nova_Scotia",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5911715.webp"
    }
   },
   {
@@ -575,6 +695,10 @@
    "flavour": {
     "text": "A community of 5,225 people in New Brunswick.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13592173.webp"
    }
   },
   {
@@ -602,6 +726,14 @@
     "title": "Contrecoeur",
     "url": "https://en.wikipedia.org/wiki/Contrecoeur",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5927024.webp",
+    "author": "Gaétan Veillette",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Contrecoeur_(Qu%C3%A9bec)-Vue_vers_l%27est_de_la_route_Marie-Victorin,_au_centre_du_village-2023-09-23.jpg"
    }
   },
   {
@@ -629,6 +761,14 @@
     "title": "Saint-Pascal",
     "url": "https://en.wikipedia.org/wiki/Saint-Pascal",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_8593671.webp",
+    "author": "Nicogag",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:St-pascal.JPG"
    }
   },
   {
@@ -656,6 +796,10 @@
     "title": "Royston, British Columbia",
     "url": "https://en.wikipedia.org/wiki/Royston%2C_British_Columbia",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6128795.webp"
    }
   },
   {
@@ -683,6 +827,14 @@
     "title": "Saint-Côme–Linière",
     "url": "https://en.wikipedia.org/wiki/Saint-C%C3%B4me%E2%80%93Lini%C3%A8re",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6137631.webp",
+    "author": "Mario Hains",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ancienne_maison_de_Saint_Come_Lini%C3%A8re_-_panoramio.jpg"
    }
   },
   {
@@ -708,6 +860,10 @@
     "title": "Autostade",
     "url": "https://en.wikipedia.org/wiki/Autostade",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2873035.webp"
    }
   },
   {
@@ -733,6 +889,14 @@
     "title": "Jarry Park Stadium",
     "url": "https://en.wikipedia.org/wiki/Jarry_Park_Stadium",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495641.webp",
+    "author": "Jeff from USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jarry_Park_Montreal_1971.jpg"
    }
   },
   {
@@ -758,6 +922,14 @@
     "title": "Tsawwassen Mills",
     "url": "https://en.wikipedia.org/wiki/Tsawwassen_Mills",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24190526.webp",
+    "author": "GoToVan from Vancouver, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsawwassen_Mills_Outlet_Shopping_Mall_(29932930300).jpg"
    }
   },
   {
@@ -783,6 +955,14 @@
     "title": "Prospera Place",
     "url": "https://en.wikipedia.org/wiki/Prospera_Place",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7250885.webp",
+    "author": "Aidanrice206 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Prosperaplace.jpg"
    }
   },
   {
@@ -808,6 +988,14 @@
     "title": "Fairview Pointe-Claire",
     "url": "https://en.wikipedia.org/wiki/Fairview_Pointe-Claire",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3064559.webp",
+    "author": "Jeangagnon",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fairview_Pointe-Claire_05a.jpg"
    }
   },
   {
@@ -833,6 +1021,14 @@
     "title": "Memorial to the Victims of Communism (Canada)",
     "url": "https://en.wikipedia.org/wiki/Memorial_to_the_Victims_of_Communism_%28Canada%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7840546.webp",
+    "author": "Ahunt",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Memorial_to_the_Victims_of_Communism_%E2%80%94_Canada,_a_Land_of_Refuge_2024-12-15_6584.jpg"
    }
   },
   {
@@ -858,6 +1054,14 @@
     "title": "Canada Life Place",
     "url": "https://en.wikipedia.org/wiki/Canada_Life_Place",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4985200.webp",
+    "author": "Gogerr",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canada_Life_Place,_formly_the_called_Budweiser_Gardens.jpg"
    }
   },
   {
@@ -883,6 +1087,14 @@
     "title": "Hatley Park National Historic Site",
     "url": "https://en.wikipedia.org/wiki/Hatley_Park_National_Historic_Site",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5681707.webp",
+    "author": "Smably at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Hatley_Castle.jpg"
    }
   },
   {
@@ -908,6 +1120,14 @@
     "title": "Mont Tremblant Resort",
     "url": "https://en.wikipedia.org/wiki/Mont_Tremblant_Resort",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3497349.webp",
+    "author": "Acarpentier",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_Mont_Tremblant.jpg"
    }
   },
   {
@@ -933,6 +1153,14 @@
     "title": "Museum of Anthropology at UBC",
     "url": "https://en.wikipedia.org/wiki/Museum_of_Anthropology_at_UBC",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1954743.webp",
+    "author": "Rr parker",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:UBC_MOA_with_reflecting_pool_01.JPG"
    }
   },
   {
@@ -959,6 +1187,14 @@
     "title": "Coppermine River",
     "url": "https://en.wikipedia.org/wiki/Coppermine_River",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1131514.webp",
+    "author": "D. Gordon E. Robertson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rocky_Defile,_Coppermine_River.jpg"
    }
   },
   {
@@ -986,6 +1222,14 @@
     "title": "Prince Charles Island",
     "url": "https://en.wikipedia.org/wiki/Prince_Charles_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q837267.webp",
+    "author": "European Space Agency",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Prince_Charles_Island_2020-07-25_Sentinel-2_L2A_Highlight_Optimized_Natural_Color.jpg"
    }
   },
   {
@@ -1012,6 +1256,14 @@
     "title": "Graham Island",
     "url": "https://en.wikipedia.org/wiki/Graham_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q908739.webp",
+    "author": "Karen Neoh",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:QueenCharlotteCity-Harbour.jpg"
    }
   },
   {
@@ -1038,6 +1290,10 @@
     "title": "Selkirk Mountains",
     "url": "https://en.wikipedia.org/wiki/Selkirk_Mountains",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1420547.webp"
    }
   },
   {
@@ -1064,6 +1320,14 @@
     "title": "Saint-Maurice River",
     "url": "https://en.wikipedia.org/wiki/Saint-Maurice_River",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q203862.webp",
+    "author": "Dra^^Gon",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint-maurice1.jpg"
    }
   },
   {
@@ -1091,6 +1355,14 @@
     "title": "Ward Hunt Island",
     "url": "https://en.wikipedia.org/wiki/Ward_Hunt_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2549051.webp",
+    "author": "Matti&Keti",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ward_Hunt_Island,_Ice_Shelf_03.jpg"
    }
   },
   {
@@ -1118,6 +1390,14 @@
     "title": "Melville Island (Northwest Territories and Nunavut)",
     "url": "https://en.wikipedia.org/wiki/Melville_Island_%28Northwest_Territories_and_Nunavut%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q134116.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Wfm_melville_island_canada.jpg"
    }
   },
   {
@@ -1144,6 +1424,10 @@
     "title": "Tuktut Nogait National Park",
     "url": "https://en.wikipedia.org/wiki/Tuktut_Nogait_National_Park",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q597959.webp"
    }
   },
   {
@@ -1169,6 +1453,14 @@
     "title": "Mount Edziza",
     "url": "https://en.wikipedia.org/wiki/Mount_Edziza",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1950454.webp",
+    "author": "nass5518",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_Edziza,_British_Columbia.jpg"
    }
   },
   {
@@ -1194,6 +1486,14 @@
     "title": "Ripple Rock",
     "url": "https://en.wikipedia.org/wiki/Ripple_Rock",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1532029.webp",
+    "author": "Matthews, James Skitt, Major (1878-1970)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg"
    }
   },
   {
@@ -1221,6 +1521,14 @@
     "title": "Moncton",
     "url": "https://en.wikipedia.org/wiki/Moncton",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6076211.webp",
+    "author": "Quintin Soloviev",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_the_Moncton,_New_Brunswick_skyline_(cropped).jpg"
    }
   },
   {
@@ -1248,6 +1556,14 @@
     "title": "Fort McMurray",
     "url": "https://en.wikipedia.org/wiki/Fort_McMurray",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5955895.webp",
+    "author": "Regional Municipality of Wood Buffalo",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_mcmurray_aerial.jpg"
    }
   },
   {
@@ -1275,6 +1591,14 @@
     "title": "Saint John, New Brunswick",
     "url": "https://en.wikipedia.org/wiki/Saint_John%2C_New_Brunswick",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6138517.webp",
+    "author": "Quintin Soloviev",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DJI_20250223074726_0273_D_copy.jpg"
    }
   },
   {
@@ -1302,6 +1626,14 @@
     "title": "Saguenay, Quebec",
     "url": "https://en.wikipedia.org/wiki/Saguenay%2C_Quebec",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6137270.webp",
+    "author": "Chicoutimi_-_Centre-ville_Est.jpg : Chicoutimi CampusUQAC07_282.JPG : service des communications de l'UQAC Pyramide_des_Ha!_Ha!.jpg : Adqproductions Entrée_du_pavillon_Gérard-Arguin_du_Cégep_de_Jonquière02.JPG : Khayman 20090111_Alcan_secteur_Arvida.JPG : Khayman derivative work: Chicoutimi ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ville_saguenay_montage.jpg"
    }
   },
   {
@@ -1329,6 +1661,14 @@
     "title": "Charlottetown",
     "url": "https://en.wikipedia.org/wiki/Charlottetown",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5920288.webp",
+    "author": "Martin Cathrae from Charlottetown, PE, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Charlottetown-Stratford_(aerial)_02.jpg"
    }
   },
   {
@@ -1356,6 +1696,14 @@
     "title": "Markham, Ontario",
     "url": "https://en.wikipedia.org/wiki/Markham%2C_Ontario",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6066513.webp",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:MarkhamCivicCenter27.jpg"
    }
   },
   {
@@ -1383,6 +1731,14 @@
     "title": "Peterborough, Ontario",
     "url": "https://en.wikipedia.org/wiki/Peterborough%2C_Ontario",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6101645.webp",
+    "author": "Jkentrandall",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peteborough_Skyline_Sunset.jpg"
    }
   },
   {
@@ -1409,6 +1765,14 @@
     "title": "Waterloo, Ontario",
     "url": "https://en.wikipedia.org/wiki/Waterloo%2C_Ontario",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6176823.webp",
+    "author": "Giligone",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Uptown_Waterloo_Ontario.JPG"
    }
   },
   {
@@ -1436,6 +1800,10 @@
     "title": "Abbotsford, British Columbia",
     "url": "https://en.wikipedia.org/wiki/Abbotsford%2C_British_Columbia",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5881791.webp"
    }
   },
   {
@@ -1462,6 +1830,14 @@
     "title": "Inuvik",
     "url": "https://en.wikipedia.org/wiki/Inuvik",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5983607.webp",
+    "author": "Martin Male from Yellowknife, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fall_Colors_Over_Inuvik_1.jpg"
    }
   },
   {
@@ -1488,6 +1864,14 @@
     "title": "Rideau Cottage",
     "url": "https://en.wikipedia.org/wiki/Rideau_Cottage",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21209442.webp",
+    "author": "Topley, William James, 1845-1930.",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Rideau_Cottage.jpg"
    }
   },
   {
@@ -1513,6 +1897,14 @@
     "title": "Centre Block",
     "url": "https://en.wikipedia.org/wiki/Centre_Block",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5062237.webp",
+    "author": "Arctic.gnome",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Parliament-Ottawa.jpg"
    }
   },
   {
@@ -1538,6 +1930,14 @@
     "title": "Canadian Tire Centre",
     "url": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1327290.webp",
+    "author": "Ontario Images",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canadian_Tire_Centre_1.JPG"
    }
   },
   {
@@ -1565,6 +1965,14 @@
     "title": "Lions Gate Bridge",
     "url": "https://en.wikipedia.org/wiki/Lions_Gate_Bridge",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124352.webp",
+    "author": "Bobanny",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Lions_Gate.jpg"
    }
   },
   {
@@ -1591,6 +1999,14 @@
     "title": "First Canadian Place",
     "url": "https://en.wikipedia.org/wiki/First_Canadian_Place",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1052475.webp",
+    "author": "Arild Vågen",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:First_Canadian_Place_August_2017_01.jpg"
    }
   },
   {
@@ -1616,6 +2032,14 @@
     "title": "Rogers Centre",
     "url": "https://en.wikipedia.org/wiki/Rogers_Centre",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q76318.webp",
+    "author": "Fabian Roudra Baroi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rogers_Centre.jpg"
    }
   },
   {
@@ -1643,6 +2067,14 @@
     "title": "Confederation Bridge",
     "url": "https://en.wikipedia.org/wiki/Confederation_Bridge",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q865076.webp",
+    "author": "Wladyslaw",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:NB_-_Confederation_Bridge1.jpg"
    }
   },
   {
@@ -1668,6 +2100,14 @@
     "title": "Habitat 67",
     "url": "https://en.wikipedia.org/wiki/Habitat_67",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1032248.webp",
+    "author": "Parcours riverain - Ville de Montréal from Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habitat_67,_2600,_avenue_Pierre-Dupuy_(Ville-Marie)_(35399872943).jpg"
    }
   },
   {
@@ -1695,6 +2135,14 @@
     "title": "Baffin Island",
     "url": "https://en.wikipedia.org/wiki/Baffin_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q81178.webp",
+    "author": "NASA World Wind",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Wfm_baffin_island.jpg"
    }
   },
   {
@@ -1722,6 +2170,14 @@
     "title": "Oak Island",
     "url": "https://en.wikipedia.org/wiki/Oak_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1506857.webp",
+    "author": "Richard McCully",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Island_and_Wharf,_Oak_Island,_Nova_Scotia,_Canada,_August_1931.jpg"
    }
   },
   {
@@ -1748,6 +2204,14 @@
     "title": "Nahanni National Park Reserve",
     "url": "https://en.wikipedia.org/wiki/Nahanni_National_Park_Reserve",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q391391.webp",
+    "author": "Paul Gierszewski",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nahanni_-_VirginiaFalls.jpg"
    }
   },
   {
@@ -1775,6 +2239,10 @@
     "title": "Hans Island",
     "url": "https://en.wikipedia.org/wiki/Hans_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q681389.webp"
    }
   },
   {
@@ -1802,6 +2270,14 @@
     "title": "Vancouver Island",
     "url": "https://en.wikipedia.org/wiki/Vancouver_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q170479.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:VancouverIsland.A2003154.1930.250m.cropped.jpg"
    }
   },
   {
@@ -1828,6 +2304,14 @@
     "title": "Bay of Fundy",
     "url": "https://en.wikipedia.org/wiki/Bay_of_Fundy",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q181857.webp",
+    "author": "Inmouchar",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Overlooking_the_Bay_of_Fundy.JPG"
    }
   },
   {
@@ -1855,6 +2339,10 @@
     "title": "Great Bear Lake",
     "url": "https://en.wikipedia.org/wiki/Great_Bear_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5525.webp"
    }
   },
   {
@@ -1882,6 +2370,14 @@
     "title": "Sable Island",
     "url": "https://en.wikipedia.org/wiki/Sable_Island",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1336091.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Sable_island.jpg"
    }
   },
   {
@@ -1909,6 +2405,14 @@
     "title": "Vancouver",
     "url": "https://en.wikipedia.org/wiki/Vancouver",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6173331.webp",
+    "author": "Quintin Soloviev",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_Canada.jpg"
    }
   },
   {
@@ -1936,6 +2440,14 @@
     "title": "Montreal",
     "url": "https://en.wikipedia.org/wiki/Montreal",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6077243.webp",
+    "author": "https://www.pxfuel.com/",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Montreal-canada-parc-urban.jpg"
    }
   },
   {
@@ -1963,6 +2475,14 @@
     "title": "Calgary",
     "url": "https://en.wikipedia.org/wiki/Calgary",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5913490.webp",
+    "author": "Gorgo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:PengrowthSaddledomeDay.jpg"
    }
   },
   {
@@ -1990,6 +2510,14 @@
     "title": "Quebec City",
     "url": "https://en.wikipedia.org/wiki/Quebec_City",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6325494.webp",
+    "author": "Fabian Roudra Baroi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Buildings_and_Roads_of_Old_Quebec_City_14.jpg"
    }
   },
   {
@@ -2017,6 +2545,14 @@
     "title": "Toronto",
     "url": "https://en.wikipedia.org/wiki/Toronto",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6167865.webp",
+    "author": "Jchmrt",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg"
    }
   },
   {
@@ -2044,6 +2580,14 @@
     "title": "Edmonton",
     "url": "https://en.wikipedia.org/wiki/Edmonton",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5946768.webp",
+    "author": "IQRemix",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_edmonton.jpg"
    }
   },
   {
@@ -2071,6 +2615,14 @@
     "title": "Ottawa",
     "url": "https://en.wikipedia.org/wiki/Ottawa",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6094817.webp",
+    "author": "Allice Hunter",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ottawa_Montage_2020.jpg"
    }
   },
   {
@@ -2097,6 +2649,14 @@
     "title": "Calgary Courts Centre",
     "url": "https://en.wikipedia.org/wiki/Calgary_Courts_Centre",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5019657.webp",
+    "author": "Qyd",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Calgary_Courts_Centre-Oct_2006.JPG"
    }
   },
   {
@@ -2123,6 +2683,14 @@
     "title": "Niagara Cantilever Bridge",
     "url": "https://en.wikipedia.org/wiki/Niagara_Cantilever_Bridge",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q181672.webp",
+    "author": "Rand, McNally & Company",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NU_RM30_Niagara_Cantilever_Bridge.jpg"
    }
   },
   {
@@ -2148,6 +2716,14 @@
     "title": "Mississauga Celebration Square",
     "url": "https://en.wikipedia.org/wiki/Mississauga_Celebration_Square",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q107071940.webp",
+    "author": "Dillan Payne",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mississauga_Celebration_Square,_May_16_2026.jpg"
    }
   },
   {
@@ -2173,6 +2749,14 @@
     "title": "Remai Arts Centre",
     "url": "https://en.wikipedia.org/wiki/Remai_Arts_Centre",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7311508.webp",
+    "author": "SriMesh",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EH2009_Persephone_Theatre.jpg"
    }
   },
   {
@@ -2198,6 +2782,14 @@
     "title": "Cathédrale de l'Immaculée-Conception d'Edmundston",
     "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_de_l%27Immacul%C3%A9e-Conception_d%27Edmundston",
     "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14578489.webp",
+    "author": "Bouchecl",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9draleEdmundston.jpg"
    }
   },
   {
@@ -2223,6 +2815,14 @@
     "title": "The Gold Range",
     "url": "https://en.wikipedia.org/wiki/The_Gold_Range",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7736971.webp",
+    "author": "Trevor MacInnis ( Contribs )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Gold_Range.jpg"
    }
   },
   {
@@ -2248,6 +2848,14 @@
     "title": "Powder King Mountain Resort",
     "url": "https://en.wikipedia.org/wiki/Powder_King_Mountain_Resort",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7235982.webp",
+    "author": "Robolson",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Powder_King_2017.jpg"
    }
   },
   {
@@ -2275,6 +2883,14 @@
     "title": "SkyBridge (TransLink)",
     "url": "https://en.wikipedia.org/wiki/SkyBridge_%28TransLink%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1509055.webp",
+    "author": "Mike",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Westminster_Pier_Park_2015-06-27.jpg"
    }
   },
   {
@@ -2300,6 +2916,14 @@
     "title": "Amsterdam Bridge",
     "url": "https://en.wikipedia.org/wiki/Amsterdam_Bridge",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4748827.webp",
+    "author": "Peter Broster",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_Bridge,_Toronto.jpg"
    }
   },
   {
@@ -2325,6 +2949,10 @@
     "title": "Brampton Jain Temple",
     "url": "https://en.wikipedia.org/wiki/Brampton_Jain_Temple",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24191078.webp"
    }
   },
   {
@@ -2350,6 +2978,14 @@
     "title": "Vélodrome de Queen's Park",
     "url": "https://en.wikipedia.org/wiki/V%C3%A9lodrome_de_Queen%27s_Park",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3564105.webp",
+    "author": "Poirier, J.-R., illustrateur",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:VelodromeQP,Fig.7F,_piste,vue_vers_le_nord,photo,1899.JPG"
    }
   },
   {
@@ -2375,6 +3011,14 @@
     "title": "Thomas Fisher Rare Book Library",
     "url": "https://en.wikipedia.org/wiki/Thomas_Fisher_Rare_Book_Library",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7789602.webp",
+    "author": "Thomas Fisher Rare Book Library",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seminar_room_and_mezzanine.jpg"
    }
   },
   {
@@ -2400,6 +3044,14 @@
     "title": "Mount Douglas, Saanich",
     "url": "https://en.wikipedia.org/wiki/Mount_Douglas%2C_Saanich",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6920483.webp",
+    "author": "Nrqm",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_douglas.jpg"
    }
   },
   {
@@ -2425,6 +3077,14 @@
     "title": "Mount King George (British Columbia)",
     "url": "https://en.wikipedia.org/wiki/Mount_King_George_%28British_Columbia%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22440211.webp",
+    "author": "Eggbones",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_King_George.jpg"
    }
   },
   {
@@ -2450,6 +3110,14 @@
     "title": "Illecillewaet Glacier",
     "url": "https://en.wikipedia.org/wiki/Illecillewaet_Glacier",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3108297.webp",
+    "author": "The Interior",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IllGlacier1.JPG"
    }
   },
   {
@@ -2475,6 +3143,14 @@
     "title": "Hog's Back Falls",
     "url": "https://en.wikipedia.org/wiki/Hog%27s_Back_Falls",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4498665.webp",
+    "author": "D. Gordon E. Robertson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hog%27s_Back_Falls,_lower_falls.jpg"
    }
   },
   {
@@ -2501,6 +3177,10 @@
     "title": "Weagamow Lake",
     "url": "https://en.wikipedia.org/wiki/Weagamow_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7359555.webp"
    }
   },
   {
@@ -2528,6 +3208,14 @@
     "title": "Lake Stukely",
     "url": "https://en.wikipedia.org/wiki/Lake_Stukely",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3215214.webp",
+    "author": "Boréal",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2007-07_Parc_du_Mont-Orford_-_Plage_du_Lac_Stukeley.jpg"
    }
   },
   {
@@ -2553,6 +3241,14 @@
     "title": "Grand Lake (Newfoundland and Labrador)",
     "url": "https://en.wikipedia.org/wiki/Grand_Lake_%28Newfoundland_and_Labrador%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1275436.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS014-E-15554_-_View_of_Newfoundland.jpg"
    }
   },
   {
@@ -2578,6 +3274,10 @@
     "title": "Nicholson Island (Lake Ontario)",
     "url": "https://en.wikipedia.org/wiki/Nicholson_Island_%28Lake_Ontario%29",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22609369.webp"
    }
   },
   {
@@ -2604,6 +3304,14 @@
     "title": "Ouareau River",
     "url": "https://en.wikipedia.org/wiki/Ouareau_River",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3433773.webp",
+    "author": "Gilles Douaire",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint-Liguori_Quebec.jpg"
    }
   },
   {
@@ -2630,6 +3338,10 @@
     "title": "Little Bow River",
     "url": "https://en.wikipedia.org/wiki/Little_Bow_River",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3256660.webp"
    }
   },
   {
@@ -2656,6 +3368,10 @@
     "title": "Raven River",
     "url": "https://en.wikipedia.org/wiki/Raven_River",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22660375.webp"
    }
   },
   {
@@ -2682,6 +3398,10 @@
     "title": "Razorback Mountain (British Columbia)",
     "url": "https://en.wikipedia.org/wiki/Razorback_Mountain_%28British_Columbia%29",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7299643.webp"
    }
   },
   {
@@ -2709,6 +3429,14 @@
     "title": "Granby, Quebec",
     "url": "https://en.wikipedia.org/wiki/Granby%2C_Quebec",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5964215.webp",
+    "author": "Gabriel Picard",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rue_Principale_Granby_2023-1_(cropped).jpg"
    }
   },
   {
@@ -2736,6 +3464,14 @@
     "title": "Salmon Arm",
     "url": "https://en.wikipedia.org/wiki/Salmon_Arm",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6139417.webp",
+    "author": "The Interior",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SalmonArmFromTappen.JPG"
    }
   },
   {
@@ -2763,6 +3499,14 @@
     "title": "Aurora, Ontario",
     "url": "https://en.wikipedia.org/wiki/Aurora%2C_Ontario",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5888377.webp",
+    "author": "P199",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aurora_ON.JPG"
    }
   },
   {
@@ -2790,6 +3534,14 @@
     "title": "Elliot Lake",
     "url": "https://en.wikipedia.org/wiki/Elliot_Lake",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5947866.webp",
+    "author": "P199",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Elliot_Lake.JPG"
    }
   },
   {
@@ -2817,6 +3569,10 @@
     "title": "Ohsweken, Ontario",
     "url": "https://en.wikipedia.org/wiki/Ohsweken%2C_Ontario",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6092839.webp"
    }
   },
   {
@@ -2844,6 +3600,14 @@
     "title": "Olds, Alberta",
     "url": "https://en.wikipedia.org/wiki/Olds%2C_Alberta",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6093347.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Alberta_mainstreet_Olds_033.jpg"
    }
   },
   {
@@ -2870,6 +3634,14 @@
     "title": "St. Anthony, Newfoundland and Labrador",
     "url": "https://en.wikipedia.org/wiki/St._Anthony%2C_Newfoundland_and_Labrador",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6155302.webp",
+    "author": "Original Uploader was Sheldoncoles ( talk ) at 07:56, 17. Feb. 2007.",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Stanthony_071904.jpg"
    }
   },
   {
@@ -2897,6 +3669,10 @@
     "title": "Smithers, British Columbia",
     "url": "https://en.wikipedia.org/wiki/Smithers%2C_British_Columbia",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6149996.webp"
    }
   },
   {
@@ -2923,6 +3699,10 @@
     "title": "Bolton, Ontario",
     "url": "https://en.wikipedia.org/wiki/Bolton%2C_Ontario",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5905308.webp"
    }
   },
   {
@@ -2950,6 +3730,14 @@
     "title": "Grand Falls, New Brunswick",
     "url": "https://en.wikipedia.org/wiki/Grand_Falls%2C_New_Brunswick",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6621033.webp",
+    "author": "...some guy",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GrandFalls_-_summer.jpg"
    }
   },
   {
@@ -2977,6 +3765,14 @@
     "title": "Grand Forks, British Columbia",
     "url": "https://en.wikipedia.org/wiki/Grand_Forks%2C_British_Columbia",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5964401.webp",
+    "author": "Vxceprex",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_forks_bc_(cropped).jpg"
    }
   },
   {
@@ -3004,6 +3800,14 @@
     "title": "Gjoa Haven",
     "url": "https://en.wikipedia.org/wiki/Gjoa_Haven",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5961560.webp",
+    "author": "Clevelander96",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gjoa.JPG"
    }
   },
   {
@@ -3030,6 +3834,14 @@
     "title": "Lac à la Croix (Le Fjord-du-Saguenay)",
     "url": "https://fr.wikipedia.org/wiki/Lac_%C3%A0_la_Croix_%28Le_Fjord-du-Saguenay%29",
     "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q13856580.webp",
+    "author": "marc boivin",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Baie_Nord_Ouest_Lac_A_La_Croix_-_panoramio.jpg"
    }
   },
   {
@@ -3056,6 +3868,10 @@
     "title": "Ferguson Lake (Kivalliq Region)",
     "url": "https://en.wikipedia.org/wiki/Ferguson_Lake_%28Kivalliq_Region%29",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q929082.webp"
    }
   },
   {
@@ -3083,6 +3899,14 @@
     "title": "Tahiryuaq",
     "url": "https://en.wikipedia.org/wiki/Tahiryuaq",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1125455.webp",
+    "author": "European Space Agency",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tahiryuaq_2022-07-23_Sentinel-2_L2A_True_color.jpg"
    }
   },
   {
@@ -3109,6 +3933,10 @@
     "title": "Serpentine River (Québec)",
     "url": "https://en.wikipedia.org/wiki/Serpentine_River_%28Qu%C3%A9bec%29",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16024979.webp"
    }
   },
   {
@@ -3135,6 +3963,10 @@
     "title": "Fraser River (Le Val-Saint-François)",
     "url": "https://en.wikipedia.org/wiki/Fraser_River_%28Le_Val-Saint-Fran%C3%A7ois%29",
     "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21007762.webp"
    }
   },
   {
@@ -3162,6 +3994,14 @@
     "title": "Amisk Lake (Alberta)",
     "url": "https://en.wikipedia.org/wiki/Amisk_Lake_%28Alberta%29",
     "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3214708.webp",
+    "author": "Fedyniakb",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amisk_Lake.jpg"
    }
   },
   {
@@ -3184,6 +4024,10 @@
    "flavour": {
     "text": "A community of 1,729 people in Quebec.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13732522.webp"
    }
   },
   {
@@ -3206,6 +4050,10 @@
    "flavour": {
     "text": "A community of 1,164 people in New Brunswick.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6086944.webp"
    }
   },
   {
@@ -3228,6 +4076,10 @@
    "flavour": {
     "text": "A community of 6,160 people in New Brunswick.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13592157.webp"
    }
   },
   {
@@ -3250,6 +4102,10 @@
    "flavour": {
     "text": "A community of 1,756 people in Saskatchewan.",
     "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5892190.webp"
    }
   }
  ]

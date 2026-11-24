@@ -12,3 +12,6 @@ __pycache__/
 
 # Preview map data (rebuilt by pipeline/export_preview.py)
 preview/data/
+
+# Image previews to look at (not committed)
+minimap-previews/

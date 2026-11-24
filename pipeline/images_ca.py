@@ -1,4 +1,4 @@
-"""Step 9 (Canada): find a photo for every card, with its author and licence. Nothing is downloaded here.
+"""Step 7b (Canada): find a photo for every card, with its author and licence. Nothing is downloaded here.
 
 Candidates, in order:
   1. Wikidata image (P18) of the card's item
@@ -127,10 +127,53 @@ def why_not(f: str, info) -> str:
     return ""
 
 
+def download(workers: int = 4):
+    """Save each card's photo as a 640 px WebP in data/export/images/photo/ (our own copy, served from our CDN;
+    the roadmap rules out linking to Wikimedia live). Skips files already saved, so a stopped run resumes."""
+    from concurrent.futures import ThreadPoolExecutor
+    from io import BytesIO
+
+    from PIL import Image
+
+    out = ROOT / "data" / "export" / "images" / "photo"
+    out.mkdir(parents=True, exist_ok=True)
+    img = pd.read_parquet(INTERIM / "images_ca.parquet")
+    todo = [(r.id, r.thumb) for r in img[img["image"].notna()].itertuples()
+            if not (out / f"{r.id.replace(':', '_')}.webp").exists()]
+    print(f"Downloading {len(todo):,} photos", flush=True)
+
+    def one(job):
+        cid, url = job
+        for attempt in range(6):
+            r = session.get(url, timeout=60)
+            if r.status_code in (429, 500, 502, 503, 504):
+                time.sleep(int(r.headers.get("Retry-After") or 0) or 2 ** attempt)
+                continue
+            r.raise_for_status()
+            im = Image.open(BytesIO(r.content)).convert("RGB")
+            im.thumbnail((THUMB, THUMB * 2))
+            im.save(out / f"{cid.replace(':', '_')}.webp", "WEBP", quality=80)
+            return None
+        return cid
+
+    with ThreadPoolExecutor(workers) as pool:
+        failed = []
+        for n, res in enumerate(pool.map(one, todo), 1):
+            if res:
+                failed.append(res)
+            if n % 500 == 0:
+                print(f"  {n:,}/{len(todo):,}", flush=True)
+    size = sum(f.stat().st_size for f in out.glob("*.webp"))
+    print(f"{len(list(out.glob('*.webp'))):,} photos in {out.relative_to(ROOT.parent)} ({size / 1e6:.0f} MB); failed: {failed[:10]}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sample", type=int, default=0)
+    ap.add_argument("--download", action="store_true", help="save the photos found by a full run")
     args = ap.parse_args()
+    if args.download:
+        return download()
     df = pd.read_parquet(INTERIM / "cards_ca.parquet")
     if args.sample:
         df = df.groupby("type").sample(args.sample // 3, random_state=11)  # the same number of each type
