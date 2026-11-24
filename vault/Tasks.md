@@ -49,7 +49,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Pipeline: drop items more than ~25 km outside Canada (wrong-country tags such as the Seattle Times Building and the Adirondack Mountains, which are in New York but tagged Quebec). (Done 2026-11-23: disaster sites, wrecks and offshore platforms are now excluded.)
 - [x] Developer: keep offshore landmarks like the Hibernia platform? No: offshore platforms are not cards (2026-11-23)
 - [ ] Same-name cards need a place in the name: two "CN Tower" cards (Toronto, and a skyscraper in Edmonton). Use the Wikipedia title's disambiguation or add the town at export
-- [ ] Drop never-built structures (CalgaryNEXT, a cancelled stadium proposal)
+- [x] Drop never-built structures (CalgaryNEXT): done 2026-11-23 by hand fix in `pipeline/overrides.csv`
 - [ ] Pick the rest of the ~50 Mythics when the pool goes worldwide (3 Canadian so far)
 - [ ] Before launch: check location accuracy across the whole pool, not just Canada
 - [x] Fetch page views for every place that has an article; places without one get a fame score of zero. (done 2026-11-23 for Canada: 13,391 candidates in `pool_ca.parquet`)
@@ -57,7 +57,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes): whose card are they, and do they count their whole article's views?
 - [x] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics. (done 2026-11-23 for Canada: `rarity_ca.py`; Mythics so far Niagara Falls, CN Tower, Rocky Mountains)
 - [ ] ~~Compute stats (log-scale population, normalise each stat to 1–100).~~ Replaced 2026-11-23 by card facts (developer)
-- [ ] Drop gone places: demolished, destroyed or never built (Wikidata classes, Wikipedia categories, redirected articles); keep closed-but-standing (in progress 2026-11-23)
+- [x] Drop gone places: demolished, destroyed or never built (Wikidata classes, Wikipedia categories, redirected articles); keep closed-but-standing (done 2026-11-23: `gone_ca.py`, 501 dropped, 12,887 cards left)
 - [ ] Collect card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim), fame
 - [ ] Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed.
 - [ ] Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development.

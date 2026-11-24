@@ -11,7 +11,7 @@ Mythics are hand-picked (mythics.csv), about 50 for the whole world.
 A candidate with fame 0 stays Common unless a floor lifts it.
 
     python pipeline/rarity_ca.py
-Input:  data/interim/pool_ca.parquet, places_ca.parquet, pipeline/mythics.csv
+Input:  data/interim/pool_clean_ca.parquet (step 4b), places_ca.parquet, pipeline/mythics.csv
 Output: data/interim/rarity_ca.parquet
 """
 from pathlib import Path
@@ -39,7 +39,7 @@ def tier_from_rank(pct: float, top: dict) -> str:
 
 
 def main():
-    df = pd.read_parquet(INTERIM / "pool_ca.parquet")
+    df = pd.read_parquet(INTERIM / "pool_clean_ca.parquet")
     fc = gpd.read_parquet(INTERIM / "places_ca.parquet").set_index("geonameid")["feature_code"]
     df["feature_code"] = df["id"].str.removeprefix("gn:").map(fc).where(df["type"] == "town")
 

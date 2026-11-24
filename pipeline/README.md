@@ -19,6 +19,7 @@ pipeline/.venv/Scripts/python -m pip install -r pipeline/requirements.txt   # Wi
 | 3. Wikidata: towns by GeoNames ID, natural landmarks (Canada) | `python pipeline/wikidata_ca.py` | `data/interim/towns_wikidata_ca.parquet`, `landmarks_ca.parquet` |
 | 3b. Built landmarks via QLever (Canada) | `python pipeline/structures_ca.py` | `data/interim/structures_ca.parquet`, `structures_excluded_ca.csv` |
 | 4. Page views, en + fr, 12 months; combined pool (Canada) | `python pipeline/pageviews_ca.py` | `data/interim/pool_ca.parquet` |
+| 4b. Drop gone places: demolished, destroyed, never built (Canada); hand fixes in `overrides.csv` | `python pipeline/gone_ca.py` | `data/interim/pool_clean_ca.parquet`, `gone_ca.csv` |
 | 5. Rarity: fame rank within type, floors, hand-picked Mythics (`mythics.csv`) (Canada) | `python pipeline/rarity_ca.py` | `data/interim/rarity_ca.parquet` |
 
 Downloads and Wikidata answers are cached in `data/raw/`. Everything under `data/` is git-ignored and can be rebuilt.
