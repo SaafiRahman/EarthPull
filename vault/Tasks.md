@@ -65,7 +65,15 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [x] French flavour lines translated into English (developer, 2026-11-24): 1,538 lines, hand translations in `pipeline/flavour_en.csv`
 - [ ] Developer: decide whether to rewrite flavour into livelier facts later (beta)
 - [ ] Found while translating: Lac à la Loutre (Montreal) "existed until the 19th century" (gone place, not caught); Grayling Fork Black River is in Alaska (wrong country)
-- [ ] North America: make every step take a country code (scripts are `_ca` now) and replace the Statistics Canada neighbourhood rule with one that works anywhere
+- [ ] (in progress 2026-11-24) North America: make every step take a country code (scripts are `_ca` now) and replace the Statistics Canada neighbourhood rule with one that works anywhere. Plan:
+  - [x] Country table: Wikidata item, local Wikipedia language(s) per country (CA fr, MX es, GL da, HT fr, AW nl...) (`countries.py`, 41 countries, IDs checked against Wikidata 2026-11-24)
+  - [x] Regions from Natural Earth admin-1 (ISO 3166-2 codes) for every card, replacing StatCan; drop points well outside the country (wrong-country cards) (`regions.py`; towns keep GeoNames' province via Natural Earth's GeoNames codes, landmarks use their point)
+  - [x] Neighbourhoods without census boundaries (`towns.py`): candidates are towns within 15 km of one 3x bigger; Wikidata decides. Canada: 1,567 towns, same count as before, 20 swapped each way (Montreal boroughs and Ottawa suburbs now dropped; Virgil, Cookstown, Lively now kept; Brant and Gabriola wrongly dropped)
+  - [ ] Every step takes --country and writes to data/interim/<CC>/; English plus the local Wikipedia instead of English + French
+  - [ ] Rerun Canada and compare with today's 12,882 cards; then run the US
+  - Sizes found 2026-11-24: GeoNames towns US 17,348, MX 8,944, CA 3,009 (32,498 in North America); US natural landmarks with an English article ~23,900; US structures in 3+ languages ~26,400; Mexico natural landmarks ~650
+  - [ ] Landmarks for all of North America at once: home country by point, "also in" from Wikidata's countries (developer, 2026-11-24)
+  - [ ] Developer decision after the US run: with ~26,000 US buildings, keep "every building is at least Rare"?
 - [ ] North America: translate flavour from Spanish, French, Dutch and Danish articles (expect far more Spanish lines than the 1,538 French ones; plan the approach before running)
 - [ ] North America: one command runs the whole pipeline for a list of countries
 - [x] (done 2026-11-24) Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development (`export_ca.py`; sample in `pipeline/sample/cards_sample_ca.json`)

@@ -1,10 +1,11 @@
 """Step 1 of the data pipeline: download GeoNames cities1000, filter to one country, clean it.
 
-    python pipeline/geonames.py            # Canada (default)
-    python pipeline/geonames.py --country CA --sample 20
+    python pipeline/geonames.py --country CA
+    python pipeline/geonames.py --country US --sample 20
 
-Outputs data/interim/geonames_<cc>.parquet (GeoParquet, EPSG:4326) and prints a cleaning
-report plus a random sample. Downloads are cached in data/raw/.
+Outputs data/interim/<CC>/geonames.parquet (GeoParquet, EPSG:4326) with each place's region (ISO 3166-2,
+from its GeoNames admin1 code; see regions.py) and prints a cleaning report plus a random sample.
+Downloads are cached in data/raw/.
 """
 import argparse
 import io
@@ -16,11 +17,14 @@ import geopandas as gpd
 import pandas as pd
 import requests
 
+import regions
+from countries import get, interim
+
 ROOT = Path(__file__).parent
 RAW = ROOT / "data" / "raw"
 INTERIM = ROOT / "data" / "interim"
 BASE = "https://download.geonames.org/export/dump/"
-UA = {"User-Agent": "EarthpullPipeline/0.1 (data pipeline)"}
+UA = {"User-Agent": "PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/EarthPull)"}
 
 # https://download.geonames.org/export/dump/readme.txt, "geoname" table
 COLUMNS = ["geonameid", "name", "asciiname", "alternatenames", "latitude", "longitude", "feature_class",
@@ -113,9 +117,17 @@ def clean(df: pd.DataFrame, country: str) -> gpd.GeoDataFrame:
     df, dupes = dedupe(df)
     report.append((f"Drop same name + province within {DEDUPE_KM} km (keep most populous)", len(df)))
 
-    df = df.merge(load_admin1(), on=["country_code", "admin1_code"], how="left")
+    df = df.merge(load_admin1(), on=["country_code", "admin1_code"], how="left").reset_index(drop=True)
+    df[["region", "region_name"]] = regions.from_geonames(df["country_code"], df["admin1_code"])
+    miss = df["region"].isna()  # admin1 codes Natural Earth doesn't list: use the point
+    if miss.any():
+        by_point = regions.assign(df.loc[miss, "latitude"], df.loc[miss, "longitude"])
+        df.loc[miss, ["region", "region_name"]] = by_point[["region", "region_name"]].to_numpy()
+    df["province"] = df["region_name"]  # older steps read "province"
+    df["country"] = country
     gdf = gpd.GeoDataFrame(
-        df[["geonameid", "name", "asciiname", "province", "admin1_code", "feature_code", "population",
+        df[["geonameid", "name", "asciiname", "country", "region", "region_name", "province", "admin1_code",
+            "feature_code", "population",
             "elevation", "dem", "latitude", "longitude", "timezone", "modification_date"]],
         geometry=gpd.points_from_xy(df["longitude"], df["latitude"]), crs="EPSG:4326",
     ).sort_values("population", ascending=False).reset_index(drop=True)
@@ -131,21 +143,21 @@ def clean(df: pd.DataFrame, country: str) -> gpd.GeoDataFrame:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--country", default="CA")
+    ap.add_argument("--country", required=True)
     ap.add_argument("--sample", type=int, default=20)
     args = ap.parse_args()
 
-    gdf = clean(load_cities(), args.country.upper())
-    INTERIM.mkdir(parents=True, exist_ok=True)
-    out = INTERIM / f"geonames_{args.country.lower()}.parquet"
+    cc = get(args.country).code
+    gdf = clean(load_cities(), cc)
+    out = interim(cc) / "geonames.parquet"
     gdf.to_parquet(out)
 
     print(f"\n{len(gdf):,} places -> {out.relative_to(ROOT)}")
-    print("By province:", gdf["province"].value_counts().to_dict())
-    print("Missing: province", gdf["province"].isna().sum(), "| elevation", gdf["elevation"].isna().sum(),
+    print("By region:", gdf["region"].value_counts().to_dict())
+    print("Missing: region", gdf["region"].isna().sum(), "| elevation", gdf["elevation"].isna().sum(),
           "| dem", gdf["dem"].isna().sum(), "| population 0:", (gdf["population"] == 0).sum())
     print(f"\nRandom sample of {args.sample}:")
-    cols = ["geonameid", "name", "province", "feature_code", "population", "elevation", "dem", "latitude", "longitude"]
+    cols = ["geonameid", "name", "region", "feature_code", "population", "elevation", "dem", "latitude", "longitude"]
     with pd.option_context("display.width", 200, "display.max_columns", 20):
         print(gdf.sample(args.sample, random_state=1)[cols].to_string(index=False))
 
