@@ -1,16 +1,18 @@
-"""Step 4 (Canada): 12 months of Wikipedia page views for every candidate, and one combined pool table.
+"""Step 4: 12 months of Wikipedia page views for every candidate of one country, and one combined pool table.
 
-Fame = median month x 12, where a month's views are English + French Wikipedia views (user agents only,
+Fame = median month x 12, where a month's views are English + local-language Wikipedia views (user agents only,
 no bots) over the last 12 complete months. The median keeps one news spike from dominating the year
 (Tumbler Ridge had 444k of its 499k yearly views in one month). The plain 12-month total is kept as views_12mo.
-French counts too because many Quebec places have a fuller French article, or only a French one.
+The local language (countries.py) counts too because many places have a fuller local article, or only
+that one (French in Quebec, Spanish in Mexico). The US counts English only.
 A candidate with no article has fame 0 (roadmap).
 
-    python pipeline/pageviews_ca.py
-Input:  data/interim/places_ca.parquet, towns_wikidata_ca.parquet, landmarks_ca.parquet, structures_ca.parquet
-Output: data/interim/pool_ca.parquet (views_en, views_fr, views_12mo, fame)
+    python pipeline/pageviews.py --country CA
+Input:  data/interim/<CC>/towns.parquet, landmarks.parquet, structures.parquet
+Output: data/interim/<CC>/pool.parquet (views_en, views_local, views_12mo, fame)
 Answers are cached in data/raw/pageviews.sqlite, so an interrupted run picks up where it stopped.
 """
+import argparse
 import json
 import sqlite3
 import threading
@@ -22,6 +24,8 @@ from urllib.parse import quote
 import geopandas as gpd
 import pandas as pd
 import requests
+
+from countries import get, interim
 
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
@@ -89,49 +93,55 @@ def views(pairs: set[tuple[str, str]]) -> dict[tuple[str, str], list[int]]:
     return have
 
 
-def pool() -> pd.DataFrame:
-    """All Canadian candidates in one table."""
-    keep = set(gpd.read_parquet(INTERIM / "places_ca.parquet")["geonameid"])
-    t = gpd.read_parquet(INTERIM / "towns_wikidata_ca.parquet")
-    t = t[t["geonameid"].isin(keep)]
+def pool(code: str) -> pd.DataFrame:
+    """All candidates of one country in one table."""
+    d = interim(code)
+    t = gpd.read_parquet(d / "towns.parquet")
     towns = pd.DataFrame({
-        "id": "gn:" + t["geonameid"], "name": t["name"], "type": "town", "kind": "town", "province": t["province"],
+        "id": "gn:" + t["geonameid"], "name": t["name"], "type": "town", "kind": "town",
         "lat": t["latitude"], "lon": t["longitude"], "population": t["population"],
         "elevation_m": t["elevation"].fillna(t["dem"]).astype("Float64"), "qid": t["qid"],
-        "enwiki": t["enwiki"], "frwiki": t["frwiki"]})
-    lm = gpd.read_parquet(INTERIM / "landmarks_ca.parquet")
-    nature = pd.DataFrame({
-        "id": "wd:" + lm["qid"], "name": lm["name"].fillna(lm["enwiki"]).fillna(lm["frwiki"]), "type": "nature",
-        "kind": lm["kind"], "province": lm["province"], "lat": lm["lat"], "lon": lm["lon"],
-        "elevation_m": lm["elevation_m"].astype("Float64"), "qid": lm["qid"], "enwiki": lm["enwiki"], "frwiki": lm["frwiki"]})
-    st = gpd.read_parquet(INTERIM / "structures_ca.parquet")
-    built = pd.DataFrame({
-        "id": "wd:" + st["qid"], "name": st["name"].fillna(st["enwiki"]).fillna(st["frwiki"]), "type": "built",
-        "kind": st["kind"], "province": st["province"], "lat": st["lat"], "lon": st["lon"], "sitelinks": st["sitelinks"],
-        "qid": st["qid"], "enwiki": st["enwiki"], "frwiki": st["frwiki"]})
-    df = pd.concat([towns, nature, built], ignore_index=True)
+        "enwiki": t["enwiki"], "lwiki": t["lwiki"], "also_in": [[] for _ in range(len(t))]})
+    towns[["country", "region", "region_name"]] = t[["country", "region", "region_name"]].to_numpy()
+    parts = [towns]
+    for fname, typ in (("landmarks.parquet", "nature"), ("structures.parquet", "built")):
+        lm = gpd.read_parquet(d / fname)
+        cols = ["qid", "name", "kind", "lat", "lon", "qid", "enwiki", "lwiki", "country", "region", "region_name",
+                "also_in", "sitelinks"] + (["elevation_m"] if typ == "nature" else [])
+        x = pd.DataFrame(lm[list(dict.fromkeys(cols))]).assign(id="wd:" + lm["qid"], type=typ)
+        x["also_in"] = x["also_in"].map(list)
+        if typ == "nature":
+            x["elevation_m"] = x["elevation_m"].astype("Float64")
+        parts.append(x)
+    df = pd.concat(parts, ignore_index=True)
+    df["province"] = df["region_name"]  # older steps read "province"
+    df["local_lang"] = None if get(code).local in (None, "en") else get(code).local
     # A Wikidata item can be both a natural landmark and a structure (a dam's lake, a park): keep one card.
-    df = df.drop_duplicates("id", keep="first")
-    return df
+    return df.drop_duplicates("id", keep="first")
 
 
 def main():
-    df = pool()
-    pairs = {("en", t) for t in df["enwiki"].dropna()} | {("fr", t) for t in df["frwiki"].dropna()}
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
+    code = get(ap.parse_args().country).code
+    df = pool(code)
+    lang = df["local_lang"].iloc[0] if len(df) else None
+    pairs = {("en", t) for t in df["enwiki"].dropna()} | ({(lang, t) for t in df["lwiki"].dropna()} if lang else set())
     v = views(pairs)
     zero = [0] * len(MONTHS)
     en = df["enwiki"].map(lambda t: v.get(("en", t), zero) if isinstance(t, str) else zero)
-    fr = df["frwiki"].map(lambda t: v.get(("fr", t), zero) if isinstance(t, str) else zero)
-    monthly = pd.DataFrame([[a + b for a, b in zip(x, y)] for x, y in zip(en, fr)], index=df.index, columns=MONTHS)
+    lo = df["lwiki"].map(lambda t: v.get((lang, t), zero) if isinstance(t, str) and lang else zero)
+    monthly = pd.DataFrame([[a + b for a, b in zip(x, y)] for x, y in zip(en, lo)], index=df.index, columns=MONTHS)
     df["views_en"] = en.map(sum).where(df["enwiki"].notna()).astype("Int64")
-    df["views_fr"] = fr.map(sum).where(df["frwiki"].notna()).astype("Int64")
+    df["views_local"] = lo.map(sum).where(df["lwiki"].notna()).astype("Int64")
     df["views_12mo"] = monthly.sum(axis=1)
     df["fame"] = (monthly.median(axis=1) * 12).round().astype(int)
-    df.to_parquet(INTERIM / "pool_ca.parquet")
+    out = interim(code) / "pool.parquet"
+    df.to_parquet(out)
 
-    print(f"\n{len(df):,} candidates -> data/interim/pool_ca.parquet")
-    print("No article (fame 0):", int((df["enwiki"].isna() & df["frwiki"].isna()).sum()),
-          "| article but 0 views:", int(((df["enwiki"].notna() | df["frwiki"].notna()) & (df["views_12mo"] == 0)).sum()),
+    print(f"\n{len(df):,} candidates -> {out.relative_to(ROOT).as_posix()}")
+    print("No article (fame 0):", int((df["enwiki"].isna() & df["lwiki"].isna()).sum()),
+          "| article but 0 views:", int(((df["enwiki"].notna() | df["lwiki"].notna()) & (df["views_12mo"] == 0)).sum()),
           "| fame 0 (most months without views):", int((df["fame"] == 0).sum()))
     q = df.groupby("type")["fame"].describe(percentiles=[.5, .9, .99])[["count", "50%", "90%", "99%", "max"]]
     print("\nFame (median month x 12) by type:\n" + q.round(0).to_string())

@@ -1,4 +1,4 @@
-"""Step 8 (Canada): export the card pool as static JSON for Cloud Storage, plus a sample for front-end work.
+"""Step 8: export one country's card pool as static JSON for Cloud Storage, plus a sample for front-end work.
 
 One file per region (ISO 3166-2 code, e.g. CA-ON.json) and an index.json listing them, so the game only
 downloads the regions it needs (Firestore bills per read, see Architecture). Each card:
@@ -7,11 +7,12 @@ downloads the regions it needs (Firestore bills per read, see Architecture). Eac
   name      the place's name; label: name plus a qualifier when other cards share the name
   type      town | nature | built;  kind: what it is (lake, skyscraper, ...)
   region, country, lat, lon (4 decimals, about 11 m)
+  also_in   other countries a border landmark is in (Niagara Falls: home CA, also_in ["US"]); only when set
   rarity, fame (Wikipedia views, median month x 12)
   facts     only the facts this card has: population, elevation_m, height_m, prominence_m, area_km2,
             length_km, temp_c (average yearly temperature). The front end picks which to show.
   flavour   text plus its source: Wikipedia (lang, title, url: CC BY-SA, so the card must credit and link
-            it; translated=true for French lines shown in English) or "facts" (written here for places
+            it; translated=true for local-language lines shown in English) or "facts" (written here for places
             with no article)
   image     "photo" (file, plus author, licence, licence_url and the Commons page: every card's detail view
             must show "Photo: <author>, <licence>") or "minimap" (file only; Natural Earth is public domain).
@@ -22,10 +23,11 @@ Same-name cards (two "CN Tower"s, 17 "Rivière Blanche"s): the most famous keeps
 at least 5x the fame of the next; the others get "(near <nearest town>)" for landmarks or "(<province>)"
 for towns, with the province added if that is still not unique.
 
-    python pipeline/export_ca.py
-Input:  data/interim/cards_ca.parquet, data/interim/flavour_ca.parquet, data/interim/images_ca.parquet
-Output: data/export/CA/index.json and one file per region; pipeline/sample/cards_sample_ca.json (committed)
+    python pipeline/export.py --country CA
+Input:  data/interim/<CC>/cards.parquet, flavour.parquet, images.parquet
+Output: data/export/<CC>/index.json and one file per region; pipeline/sample/cards_sample_<cc>.json
 """
+import argparse
 import json
 from datetime import date
 from pathlib import Path
@@ -34,15 +36,11 @@ from urllib.parse import quote
 import numpy as np
 import pandas as pd
 
+from countries import get, interim
+
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
-OUT = ROOT / "data" / "export" / "CA"
-SAMPLE = ROOT / "sample" / "cards_sample_ca.json"
-
-REGIONS = {"Alberta": "CA-AB", "British Columbia": "CA-BC", "Manitoba": "CA-MB", "New Brunswick": "CA-NB",
-           "Newfoundland and Labrador": "CA-NL", "Nova Scotia": "CA-NS", "Northwest Territories": "CA-NT",
-           "Nunavut": "CA-NU", "Ontario": "CA-ON", "Prince Edward Island": "CA-PE", "Quebec": "CA-QC",
-           "Saskatchewan": "CA-SK", "Yukon": "CA-YT"}
+EXPORT = ROOT / "data" / "export"
 KIND_LABEL = {"church building": "church", "hill, mountain": "hill"}
 FACTS = ["population", "elevation_m", "height_m", "prominence_m", "area_km2", "length_km", "temp_c"]
 ATTRIBUTION = ("Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), "
@@ -126,9 +124,11 @@ def facts_line(r) -> str:
 
 def card(r) -> dict:
     c = {"id": r.id, "name": r.name, "label": r.label, "type": r.type,
-         "kind": KIND_LABEL.get(r.kind, str(r.kind).split(",")[0]), "region": REGIONS[r.province], "country": "CA",
+         "kind": KIND_LABEL.get(r.kind, str(r.kind).split(",")[0]), "region": r.region, "country": r.country,
          "lat": round(r.lat, 4), "lon": round(r.lon, 4), "rarity": r.rarity, "fame": int(r.fame),
          "facts": {k: nice(getattr(r, k), k) for k in FACTS if pd.notna(getattr(r, k))}}
+    if r.also_in is not None and len(r.also_in):
+        c["also_in"] = sorted(r.also_in)
     if r.flavour:
         url = f"https://{r.flavour_lang}.wikipedia.org/wiki/{quote(r.flavour_title.replace(' ', '_'))}"
         c["flavour"] = {"text": r.flavour, "source": "wikipedia", "lang": r.flavour_lang, "title": r.flavour_title,
@@ -145,19 +145,24 @@ def card(r) -> dict:
 
 
 def main():
-    img = pd.read_parquet(INTERIM / "images_ca.parquet")[["id", "image", "author", "licence", "licence_url", "page"]]
-    df = (pd.read_parquet(INTERIM / "cards_ca.parquet").merge(pd.read_parquet(INTERIM / "flavour_ca.parquet"), on="id")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
+    c = get(ap.parse_args().country)
+    d = interim(c.code)
+    OUT, SAMPLE = EXPORT / c.code, ROOT / "sample" / f"cards_sample_{c.code.lower()}.json"
+    img = pd.read_parquet(d / "images.parquet")[["id", "image", "author", "licence", "licence_url", "page"]]
+    df = (pd.read_parquet(d / "cards.parquet").merge(pd.read_parquet(d / "flavour.parquet"), on="id")
           .merge(img, on="id", how="left"))
-    assert df["id"].is_unique and df["province"].isin(REGIONS).all()
+    assert df["id"].is_unique and df["region"].notna().all() and (df["country"] == c.code).all()
     df["label"] = labels(df)
-    df = df.sort_values(["province", "fame"], ascending=[True, False])
+    df = df.sort_values(["region", "fame"], ascending=[True, False])
     cards = {i: card(r) for i, r in zip(df.index, df.itertuples())}
 
     OUT.mkdir(parents=True, exist_ok=True)
-    index = {"country": "CA", "built": date.today().isoformat(), "cards": len(df), "attribution": ATTRIBUTION,
+    index = {"country": c.code, "built": date.today().isoformat(), "cards": len(df), "attribution": ATTRIBUTION,
              "regions": []}
-    for prov, g in df.groupby("province"):
-        code = REGIONS[prov]
+    for code, g in df.groupby("region"):
+        prov = g["region_name"].iat[0]
         (OUT / f"{code}.json").write_text(json.dumps({"region": code, "name": prov, "cards": [cards[i] for i in g.index]},
                                                     ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         index["regions"].append({"code": code, "name": prov, "file": f"{code}.json", "cards": len(g),
@@ -168,16 +173,17 @@ def main():
     pick = df[df["rarity"] == "Mythic"].index.tolist()
     for (rar, typ), g in df[df["rarity"] != "Mythic"].groupby(["rarity", "type"]):
         pick += g.sample(min(len(g), {"Legendary": 8, "Epic": 10, "Rare": 12, "Common": 12}[rar]), random_state=7).index.tolist()
-    pick += [i for i in df[df["label"] != df["name"]].sample(6, random_state=7).index if i not in pick]  # same-name labels
-    pick += [i for i in df[df["flavour"] == ""].sample(4, random_state=7).index if i not in pick]  # facts flavour
+    same, plain = df[df["label"] != df["name"]], df[df["flavour"] == ""]
+    pick += [i for i in same.sample(min(6, len(same)), random_state=7).index if i not in pick]  # same-name labels
+    pick += [i for i in plain.sample(min(4, len(plain)), random_state=7).index if i not in pick]  # facts flavour
     SAMPLE.parent.mkdir(exist_ok=True)
-    SAMPLE.write_text(json.dumps({"note": "Sample of the Canada card pool for front-end development; built by "
-                                          "pipeline/export_ca.py. " + ATTRIBUTION,
+    SAMPLE.write_text(json.dumps({"note": f"Sample of the {c.name} card pool for front-end development; built by "
+                                          "pipeline/export.py. " + ATTRIBUTION,
                                   "cards": [cards[i] for i in pick]}, ensure_ascii=False, indent=1), encoding="utf-8")
 
     size = sum(f.stat().st_size for f in OUT.glob("*.json"))
     print(f"{len(df):,} cards -> {OUT.relative_to(ROOT.parent)} ({len(index['regions'])} regions, {size / 1e6:.1f} MB)")
-    print("Largest region files:", sorted(((f.name, f"{f.stat().st_size / 1e6:.2f} MB") for f in OUT.glob("CA-*.json")),
+    print("Largest region files:", sorted(((f.name, f"{f.stat().st_size / 1e6:.2f} MB") for f in OUT.glob(f"{c.code}-*.json")),
                                          key=lambda x: -float(x[1].split()[0]))[:3])
     print(f"Sample: {len(pick)} cards -> {SAMPLE.relative_to(ROOT.parent)}")
     lab = df[df["label"] != df["name"]]

@@ -1,6 +1,7 @@
 # Data pipeline
 
-Turns free public datasets into the card pool. Plan and known data issues: `vault/Data Pipeline.md`.
+Turns free public datasets into the card pool, for any country in `countries.py` (all of North America).
+Plan and known data issues: `vault/Data Pipeline.md`.
 
 ## Setup
 
@@ -10,25 +11,41 @@ pipeline/.venv/Scripts/python -m pip install -r pipeline/requirements.txt   # Wi
 # macOS/Linux: pipeline/.venv/bin/python -m pip install -r pipeline/requirements.txt
 ```
 
+Two files are downloaded by hand into `pipeline/data/raw/`: WorldClim 2.1 `wc2.1_10m_bio_1.tif` (in `worldclim/`,
+from https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip) and the Natural Earth 1:10m
+zips (in `naturalearth/`: land, lakes, lakes_north_america, rivers_lake_centerlines, rivers_north_america,
+admin_1_states_provinces).
+
+## One command
+
+```
+python pipeline/run.py CA                # one country
+python pipeline/run.py all               # every country in countries.py
+python pipeline/run.py US --from facts   # resume at a later step
+```
+
 ## Steps
 
-| Step | Script | Output |
+Every step takes `--country CC` (except step 3) and reads and writes `data/interim/<CC>/`.
+"Local language" is the country's own Wikipedia next to English (`countries.py`: French for Canada, Spanish for Mexico).
+
+| Step | Script | Output in `data/interim/<CC>/` |
 |---|---|---|
-| 1. GeoNames, one country, cleaned | `python pipeline/geonames.py --country CA` | `data/interim/geonames_ca.parquet` |
-| 2. Drop neighbourhoods (Canada): StatCan census subdivisions + Wikidata check | `python pipeline/drop_neighbourhoods_ca.py` | `data/interim/places_ca.parquet`, `neighbourhood_check_ca.csv` |
-| 3. Wikidata: towns by GeoNames ID, natural landmarks (Canada) | `python pipeline/wikidata_ca.py` | `data/interim/towns_wikidata_ca.parquet`, `landmarks_ca.parquet` |
-| 3b. Built landmarks via QLever (Canada) | `python pipeline/structures_ca.py` | `data/interim/structures_ca.parquet`, `structures_excluded_ca.csv` |
-| 4. Page views, en + fr, 12 months; combined pool (Canada) | `python pipeline/pageviews_ca.py` | `data/interim/pool_ca.parquet` |
-| 4b. Drop gone places: demolished, destroyed, never built (Canada); hand fixes in `overrides.csv` | `python pipeline/gone_ca.py` | `data/interim/pool_clean_ca.parquet`, `gone_ca.csv` |
-| 5. Rarity: fame rank within type, floors, hand-picked Mythics (`mythics.csv`) (Canada) | `python pipeline/rarity_ca.py` | `data/interim/rarity_ca.parquet` |
-| 6. Card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim 2.1 `wc2.1_10m_bio_1.tif` in `data/raw/worldclim/`); impossible values blanked, hand fixes in `fact_fixes.csv` (Canada) | `python pipeline/facts_ca.py` | `data/interim/cards_ca.parquet` |
-| 7. Flavour: one line per card from the Wikipedia intro (English, else French), with its source article for the CC BY-SA credit; French lines use the English translations in `flavour_en.csv` (Canada) | `python pipeline/flavour_ca.py` | `data/interim/flavour_ca.parquet` |
-| 7b. Card images: a free photo with author and licence (Wikidata image, else the article's lead image, checked on Commons); `--download` saves 640 px WebP copies (Canada) | `python pipeline/images_ca.py` then `python pipeline/images_ca.py --download` | `data/interim/images_ca.parquet`, `data/export/images/photo/` |
-| 7c. Mini-maps for cards with no photo: wide "where is it" maps from Natural Earth (`data/raw/naturalearth/`) (Canada) | `python pipeline/minimap_ca.py` | `data/export/images/minimap/` |
-| 8. Export: one JSON file per region (`CA-ON.json`, ...) plus `index.json`, unique labels for same-name cards, facts-based flavour where there is no article; a committed sample for front-end work (Canada) | `python pipeline/export_ca.py` | `data/export/CA/`, `pipeline/sample/cards_sample_ca.json` |
+| 1. GeoNames towns of one country, cleaned; region (ISO 3166-2) from the GeoNames admin1 code | `geonames.py` | `geonames.parquet` |
+| 2. Link towns to Wikidata by GeoNames ID; drop neighbourhoods (near a much bigger town and Wikidata says so) | `towns.py` | `towns.parquet`, `towns_checked.csv` |
+| 3. Natural and built landmarks for every country at once (QLever); home country and region from the point, "also in" from Wikidata's countries | `landmarks.py` | `landmarks.parquet`, `structures.parquet` (+ `data/interim/structures_excluded.csv`) |
+| 4. Page views, English + local language, 12 months; combined pool | `pageviews.py` | `pool.parquet` |
+| 4b. Drop gone places: demolished, destroyed, never built; hand fixes in `overrides.csv` | `gone.py` | `pool_clean.parquet`, `gone.csv` |
+| 5. Rarity: fame rank within type, floors, hand-picked Mythics (`mythics.csv`) | `rarity.py` | `rarity.parquet` |
+| 6. Card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature; impossible values blanked, hand fixes in `fact_fixes.csv` | `facts.py` | `cards.parquet` |
+| 7. Flavour: one line per card from the Wikipedia intro (English, else local language), credited; local-language lines use the English translations in `flavour_en.csv` (lang, src, en) | `flavour.py` | `flavour.parquet`, `flavour_untranslated.csv` |
+| 7b. Card images: a free photo with author and licence (Wikidata image, else the article's lead image, checked on Commons); `--download` saves 640 px WebP copies | `images.py`, then `images.py --download` | `images.parquet`, `data/export/images/photo/` |
+| 7c. Mini-maps for cards with no photo, from Natural Earth | `minimap.py` | `data/export/images/minimap/` |
+| 8. Export: one JSON file per region (`CA-ON.json`, ...) plus `index.json`; unique labels for same-name cards; facts-based flavour where there is no article; a sample for front-end work | `export.py` | `data/export/<CC>/`, `pipeline/sample/cards_sample_<cc>.json` |
 
 Downloads and Wikidata answers are cached in `data/raw/`. Everything under `data/` is git-ignored and can be rebuilt.
 
 ## Data credits
 
-GeoNames (geonames.org), CC BY 4.0. Statistics Canada 2021 census subdivision boundaries, Open Government Licence – Canada. Wikidata, CC0.
+GeoNames (geonames.org), CC BY 4.0. Wikidata, CC0. Wikipedia text, CC BY-SA 4.0. Wikimedia Commons photos, credited per card.
+Natural Earth, public domain. WorldClim 2.1. Copernicus DEM via Open-Meteo.

@@ -1,4 +1,4 @@
-"""Step 6 (Canada): real facts for every card (developer, 2026-11-23: facts instead of 1-100 stats).
+"""Step 6: real facts for every card (developer, 2026-11-23: facts instead of 1-100 stats).
 
 Facts collected (each may be empty when no source has it):
   population      towns: GeoNames (step 1)
@@ -11,12 +11,13 @@ Facts collected (each may be empty when no source has it):
   fame            Wikipedia views, median month x 12 (step 4)
 Which facts a card shows is decided at export.
 
-    python pipeline/facts_ca.py
-Input:  data/interim/rarity_ca.parquet, pipeline/fact_fixes.csv, data/raw/worldclim/wc2.1_10m_bio_1.tif
+    python pipeline/facts.py --country CA
+Input:  data/interim/<CC>/rarity.parquet, pipeline/fact_fixes.csv, data/raw/worldclim/wc2.1_10m_bio_1.tif
         (from https://geodata.ucdavis.edu/climate/worldclim/2_1/base/wc2.1_10m_bio.zip)
-Output: data/interim/cards_ca.parquet
+Output: data/interim/<CC>/cards.parquet
 Answers are cached in data/raw/facts_cache.json.
 """
+import argparse
 import json
 import time
 from pathlib import Path
@@ -25,6 +26,8 @@ import numpy as np
 import pandas as pd
 import rasterio
 import requests
+
+from countries import get as country, interim
 
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
@@ -124,10 +127,10 @@ HEIGHT_KINDS = r"waterfall|tower|building|skyscraper|bridge|dam|lighthouse|churc
 
 def clear_bad(df: pd.DataFrame):
     """Blank facts that can't be right, so a card shows nothing rather than nonsense (developer, 2026-11-23:
-    fix bad data automatically). Limits are loose: the highest point in Canada is Mount Logan (5,959 m)."""
+    fix bad data automatically). Limits are loose: the highest point in North America is Denali (6,190 m)."""
     kind = df["kind"].fillna("")
     rules = {
-        "elevation_m": ~df["elevation_m"].between(-100, 5960),
+        "elevation_m": ~df["elevation_m"].between(-100, 6200),
         "height_m": ~df["height_m"].between(0.5, 1000) | ~((df["type"] == "built") | kind.str.contains(HEIGHT_KINDS)),
         "prominence_m": ~df["prominence_m"].between(1, 9000) | (df["prominence_m"] > df["elevation_m"] + 1)
                         | ~kind.str.contains("mountain|peak|volcano|hill"),
@@ -143,7 +146,10 @@ def clear_bad(df: pd.DataFrame):
 
 
 def main():
-    df = pd.read_parquet(INTERIM / "rarity_ca.parquet")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
+    d = interim(country(ap.parse_args().country).code)
+    df = pd.read_parquet(d / "rarity.parquet")
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
 
     wd = wikidata_facts(sorted(df["qid"].dropna().unique()), cache)
@@ -165,10 +171,10 @@ def main():
         df.loc[df["id"] == f.id, f.column] = f.value
     df["temp_c"] = temperature(df["lat"], df["lon"]).round(1)
     df = df.drop(columns=["elevation_wd"])
-    df.to_parquet(INTERIM / "cards_ca.parquet")
+    df.to_parquet(d / "cards.parquet")
 
     facts = ["population", "elevation_m", "height_m", "prominence_m", "area_km2", "length_km", "temp_c"]
-    print(f"\n{len(df):,} cards -> data/interim/cards_ca.parquet")
+    print(f"\n{len(df):,} cards -> {(d / 'cards.parquet').relative_to(ROOT).as_posix()}")
     print("Share of cards with each fact, by type (%):")
     print((df.groupby("type")[facts].agg(lambda s: s.notna().mean() * 100)).round(0).to_string())
     big = df[df["kind"].isin(["lake", "river", "mountain", "island", "waterfall", "skyscraper", "bridge"])]
@@ -177,7 +183,8 @@ def main():
     pd.set_option("display.width", 220)
     print("\nExamples:")
     ex = ["Toronto", "Mount Robson", "CN Tower", "Lake Superior", "Fraser River", "Niagara Falls", "Iqaluit",
-          "Confederation Bridge", "Baffin Island", "Mount Logan"]
+          "Confederation Bridge", "Baffin Island", "Mount Logan", "New York City", "Denali", "Grand Canyon",
+          "Mexico City", "Popocatépetl", "Statue of Liberty", "Golden Gate Bridge", "Mississippi River"]
     ex_rows = df[df["name"].isin(ex)].sort_values("fame", ascending=False).drop_duplicates("name")  # most famous of same-name cards
     print(ex_rows[["name", "type", "rarity"] + facts].to_string(index=False))
     print("Elevation source:", df["elevation_source"].value_counts().to_dict())

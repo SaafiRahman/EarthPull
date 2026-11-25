@@ -1,5 +1,7 @@
 # Hand fixes for cards the automatic checks get wrong. action: keep or drop. Keep this list short;
-# fix the rule instead when a pattern repeats.
+# fix the rule instead when a pattern repeats. A keep also overrides the built-landmark exclusion words (landmarks.py).
 id,action,reason
 wd:Q367272,keep,"Montreal Forum: closed as an arena in 1996, the building still stands (Wikipedia lists it as demolished)"
 wd:Q21413764,drop,"CalgaryNEXT: cancelled proposal; its Wikidata item now links to the Scotia Place article"
+wd:Q5588772,keep,"Senate of Canada Building: the former Ottawa Union Station, so Wikidata also calls it a railway station"
+wd:Q338963,keep,"Casino du Lac-Leamy: a landmark casino; Wikidata also lists its heliport"

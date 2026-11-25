@@ -1,14 +1,14 @@
-"""Step 4b (Canada): drop places that are gone or were never built.
+"""Step 4b: drop places that are gone or were never built.
 
 Developer, 2026-11-23: drop demolished, destroyed and never-built places; keep ones that closed but still
 stand (the Montreal Forum building, a decommissioned Senate building). All checks are automatic, so they
 work worldwide:
-  1. Redirected article: the card's main article (English, else French) now redirects elsewhere, so the
+  1. Redirected article: the card's main article (English, else the local language) now redirects elsewhere, so the
      place was merged into something else (CalgaryNEXT -> Scotia Place). All card types.
   2. Wikidata, built cards: a class (P31) or state of use (P5817) that says destroyed, demolished,
      proposed, unbuilt or cancelled. Nature cards: undersea features and former lakes (paleolakes).
   3. Wikipedia categories, built cards: "Unbuilt ..." or "Cancelled ..." drop the card. "Demolished ..." or
-     "Destroyed ..." (French "détruit", "démoli") drop it only when there is also an end date (Wikidata P576,
+     "Destroyed ..." (and the same words in French, Spanish, Dutch and Danish) drop it only when there is also an end date (Wikidata P576,
      or a "... disestablishments" category):
      a replaced bridge's article sits in its old bridge's category (Port Mann Bridge).
   4. pipeline/overrides.csv: hand fixes (keep or drop by card id) for what the rules get wrong.
@@ -16,11 +16,12 @@ Not used: fire categories (most burned churches and halls were rebuilt: Notre-Da
 City Hall), "under construction" (it will exist), and an end date (P576) alone, which is also set for
 places that only closed.
 
-    python pipeline/gone_ca.py
-Input:  data/interim/pool_ca.parquet
-Output: data/interim/pool_clean_ca.parquet, gone_ca.csv (what was dropped and why)
+    python pipeline/gone.py --country CA
+Input:  data/interim/<CC>/pool.parquet
+Output: data/interim/<CC>/pool_clean.parquet, gone.csv (what was dropped and why)
 Answers are cached in data/raw/wiki_meta.json.
 """
+import argparse
 import json
 import re
 import time
@@ -29,6 +30,8 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+from countries import get, interim
+
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
 CACHE = ROOT / "data" / "raw" / "wiki_meta.json"
@@ -36,10 +39,11 @@ UA = {"User-Agent": "PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/E
 WD_API = "https://www.wikidata.org/w/api.php"
 
 GONE_WORDS = re.compile(r"\b(destroyed|demolished|proposed|unbuilt|cancell?ed)\b", re.I)
-CAT_NEVER = re.compile(r"\b(unbuilt|cancell?ed|non réalisé)", re.I)
-CAT_GONE = re.compile(r"\b(demolished|destroyed|détruit|démoli)", re.I)
+# Category words in English, French, Spanish, Dutch and Danish (the local languages in countries.py).
+CAT_NEVER = re.compile(r"\b(unbuilt|cancell?ed|non réalisé|no construid|nunca construid|cancelad|niet gebouwd|aldrig opført)", re.I)
+CAT_GONE = re.compile(r"\b(demolished|destroyed|détruit|démoli|demolid|destruid|desaparecid|gesloopt|verwoest|nedrevne|ødelagte)", re.I)
 NATURE_GONE = re.compile(r"(undersea|submarine|seamount|paleolake|former lake|prehistoric lake)", re.I)
-CAT_SKIP = re.compile(r"\b(fire|arson|burn|incendie)", re.I)
+CAT_SKIP = re.compile(r"\b(fire|arson|burn|incendie|incendio|brand)", re.I)
 
 session = requests.Session()
 session.headers.update(UA)
@@ -138,19 +142,25 @@ def wikidata_gone(qids: list[str], cache: dict, words: re.Pattern = GONE_WORDS) 
 
 
 def main():
-    df = pd.read_parquet(INTERIM / "pool_ca.parquet")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
+    c = get(ap.parse_args().country)
+    d = interim(c.code)
+    df = pd.read_parquet(d / "pool.parquet")
+    loc = c.local if c.local not in (None, "en") else None
+    wikis = [("en", "enwiki")] + ([(loc, "lwiki")] if loc else [])  # (language, column)
     cache = load_cache()
     reasons: dict[str, str] = {}
 
     # 1. Redirected articles (all cards)
-    for lang in ("en", "fr"):
-        wiki_query(lang, sorted(df[f"{lang}wiki"].dropna().unique()), cache, "redirect")
-    for lang in ("en", "fr"):
-        targets = {cache[f"r|{lang}|{t}"] for t in df[f"{lang}wiki"].dropna() if cache.get(f"r|{lang}|{t}")}
+    for lang, col in wikis:
+        wiki_query(lang, sorted(df[col].dropna().unique()), cache, "redirect")
+    for lang, col in wikis:
+        targets = {cache[f"r|{lang}|{t}"] for t in df[col].dropna() if cache.get(f"r|{lang}|{t}")}
         target_items(lang, sorted(targets), cache)
     pool_qids = set(df["qid"].dropna())
     for r in df.itertuples():
-        lang, t =("en", r.enwiki) if isinstance(r.enwiki, str) else ("fr", r.frwiki)
+        lang, t = ("en", r.enwiki) if isinstance(r.enwiki, str) else (loc, r.lwiki)
         target = cache.get(f"r|{lang}|{t}") if isinstance(t, str) else ""
         # A page that was only renamed still belongs to the same Wikidata item. Towns are dropped only when the
         # target is already another card: GeoNames sometimes links a town to a wrapper item whose page redirects
@@ -168,12 +178,12 @@ def main():
     built = df[df["type"] == "built"]
     for q, label in wikidata_gone(built["qid"].tolist(), cache).items():
         reasons.setdefault("wd:" + q, f"Wikidata: {label}")
-    for lang in ("en", "fr"):
-        wiki_query(lang, sorted(built[f"{lang}wiki"].dropna().unique()), cache, "cats")
+    for lang, col in wikis:
+        wiki_query(lang, sorted(built[col].dropna().unique()), cache, "cats")
     for r in built.itertuples():
-        for lang, t in (("en", r.enwiki), ("fr", r.frwiki)):
+        for lang, t in (("en", r.enwiki), (loc, r.lwiki)):
             if isinstance(t, str):
-                cats = cache.get(f"c|en|{r.enwiki}", []) + cache.get(f"c|fr|{r.frwiki}", [])
+                cats = cache.get(f"c|en|{r.enwiki}", []) + cache.get(f"c|{loc}|{r.lwiki}", [])
                 ended = cache.get(f"d|{r.qid}", False) or any("disestablishments" in c for c in cats)
                 cat = next((c for c in cache.get(f"c|{lang}|{t}", []) if not CAT_SKIP.search(c)
                             and (CAT_NEVER.search(c) or (ended and CAT_GONE.search(c)))), None)
@@ -190,13 +200,13 @@ def main():
             reasons[f.id] = f"hand fix: {f.reason}"
 
     gone = df[df["id"].isin(reasons)].assign(reason=df["id"].map(reasons))
-    gone[["id", "name", "type", "kind", "province", "fame", "reason"]].sort_values("fame", ascending=False) \
-        .to_csv(INTERIM / "gone_ca.csv", index=False, encoding="utf-8")
+    gone[["id", "name", "type", "kind", "region", "fame", "reason"]].sort_values("fame", ascending=False) \
+        .to_csv(d / "gone.csv", index=False, encoding="utf-8")
     clean = df[~df["id"].isin(reasons)]
-    clean.to_parquet(INTERIM / "pool_clean_ca.parquet")
+    clean.to_parquet(d / "pool_clean.parquet")
 
-    print(f"\nDropped {len(gone):,} of {len(df):,} -> {len(clean):,} cards in data/interim/pool_clean_ca.parquet")
-    kinds = gone["reason"].str.extract(r"^(article redirects|Wikidata|Category|Catégorie|hand fix)")[0].fillna("other")
+    print(f"\nDropped {len(gone):,} of {len(df):,} -> {len(clean):,} cards in {(d / 'pool_clean.parquet').relative_to(ROOT).as_posix()}")
+    kinds = gone["reason"].str.extract(r"^(article redirects|Wikidata|hand fix)")[0].fillna("category")
     print("By check:", kinds.value_counts().to_dict(), "| by type:", gone["type"].value_counts().to_dict())
     top = gone.sort_values("fame", ascending=False).head(40)
     print("Most famous dropped:\n" + "\n".join(f"  {n} [{t}] {f / 1e3:.0f}k: {why}" for n, t, f, why

@@ -1,6 +1,6 @@
-"""Step 5 (Canada): rarity tier for every candidate.
+"""Step 5: rarity tier for every candidate of one country.
 
-Rarity comes from fame (median month x 12, step 4) ranked within each type, because towns, natural
+Rarity comes from fame (median month x 12, step 4) ranked within each type of the country, because towns, natural
 and built landmarks get very different view counts (median towns 6.1k, built 2.3k, natural 0.3k).
 Then floors from the roadmap and the developer:
   - the national capital is at least Legendary ("Capitals" in the roadmap's Legendary row)
@@ -10,14 +10,17 @@ Then floors from the roadmap and the developer:
 Mythics are hand-picked (mythics.csv), about 50 for the whole world.
 A candidate with fame 0 stays Common unless a floor lifts it.
 
-    python pipeline/rarity_ca.py
-Input:  data/interim/pool_clean_ca.parquet (step 4b), places_ca.parquet, pipeline/mythics.csv
-Output: data/interim/rarity_ca.parquet
+    python pipeline/rarity.py --country CA
+Input:  data/interim/<CC>/pool_clean.parquet (step 4b), towns.parquet, pipeline/mythics.csv
+Output: data/interim/<CC>/rarity.parquet
 """
+import argparse
 from pathlib import Path
 
 import geopandas as gpd
 import pandas as pd
+
+from countries import get, interim
 
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
@@ -39,8 +42,11 @@ def tier_from_rank(pct: float, top: dict) -> str:
 
 
 def main():
-    df = pd.read_parquet(INTERIM / "pool_clean_ca.parquet")
-    fc = gpd.read_parquet(INTERIM / "places_ca.parquet").set_index("geonameid")["feature_code"]
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
+    d = interim(get(ap.parse_args().country).code)
+    df = pd.read_parquet(d / "pool_clean.parquet")
+    fc = gpd.read_parquet(d / "towns.parquet").set_index("geonameid")["feature_code"]
     df["feature_code"] = df["id"].str.removeprefix("gn:").map(fc).where(df["type"] == "town")
 
     # Rank 1 = most famous; pct = share of the type at or above this card.
@@ -63,12 +69,12 @@ def main():
     df.loc[hit, "rarity"], df.loc[hit, "rarity_reason"] = "Mythic", "hand-picked"
     missing = set(myth["id"]) - set(df["id"])
     if missing:
-        print("Mythics not in this pool (other countries):", len(missing))
+        print("Mythics not in this country:", len(missing))
 
-    df.to_parquet(INTERIM / "rarity_ca.parquet")
+    df.to_parquet(d / "rarity.parquet")
 
     pd.set_option("display.width", 200)
-    print(f"{len(df):,} cards -> data/interim/rarity_ca.parquet\n")
+    print(f"{len(df):,} cards -> {(d / 'rarity.parquet').relative_to(ROOT).as_posix()}\n")
     print(pd.crosstab(df["type"], df["rarity"], margins=True)[[t for t in TIERS if t in set(df["rarity"])] + ["All"]])
     print("\nLifted by a floor:", df["rarity_reason"].value_counts().drop("fame").to_dict())
     for t in reversed(TIERS):
@@ -78,7 +84,7 @@ def main():
         lst = s if len(s) <= 40 else s.sample(25, random_state=1).sort_values("fame", ascending=False)
         label = f"{t} ({len(s)})" + ("" if len(s) <= 40 else ", random 25")
         print(f"\n{label}: " + ", ".join(f"{n} [{ty[0]}] {f / 1e3:.0f}k" for n, ty, f in zip(lst["name"], lst["type"], lst["fame"])))
-    edge = {f"{t} {r}": int(df[(df["type"] == t) & (df["rarity_reason"] == "fame") & (df["rarity"] == r)]["fame"].min())
+    edge = {f"{t} {r}": df[(df["type"] == t) & (df["rarity_reason"] == "fame") & (df["rarity"] == r)]["fame"].min()
             for t in ("town", "nature", "built") for r in ("Legendary", "Epic", "Rare")}
     print("\nLowest fame that reaches each tier:", edge)
     cand = df[df["rarity"] != "Mythic"].nlargest(15, "fame")

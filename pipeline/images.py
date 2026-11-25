@@ -1,8 +1,8 @@
-"""Step 7b (Canada): find a photo for every card, with its author and licence. Nothing is downloaded here.
+"""Step 7b: find a photo for every card, with its author and licence. Nothing is downloaded here.
 
 Candidates, in order:
   1. Wikidata image (P18) of the card's item
-  2. the lead image of its Wikipedia article (pageimages), English then French
+  2. the lead image of its Wikipedia article (pageimages), English then the local language
 Each candidate is looked up on Wikimedia Commons (imageinfo + extmetadata). It is rejected when:
   - it is not on Commons (a local Wikipedia file may be non-free fair use)
   - it is a drawing rather than a photo: SVG/PNG maps, flags, logos, coats of arms, seals, locator maps,
@@ -10,10 +10,11 @@ Each candidate is looked up on Wikimedia Commons (imageinfo + extmetadata). It i
   - it is small (shorter side under 400 px) or its licence is missing
 Cards with no usable photo get a mini-map later (see Game Design).
 
-    python pipeline/images_ca.py               every card
-    python pipeline/images_ca.py --sample 600  a random sample, to check the photo vs mini-map split first
-Input:  data/interim/cards_ca.parquet
-Output: data/interim/images_ca.parquet (id, image file, thumbnail url, width, height, author, licence,
+    python pipeline/images.py --country CA               every card
+    python pipeline/images.py --country CA --sample 600  a random sample, to check the photo vs mini-map split
+    python pipeline/images.py --country CA --download    save the photos a full run found
+Input:  data/interim/<CC>/cards.parquet
+Output: data/interim/<CC>/images.parquet (id, image file, thumbnail url, width, height, author, licence,
         licence url, source) and a printed summary. Answers are cached in data/raw/images_cache.json.
 """
 import argparse
@@ -26,14 +27,17 @@ from pathlib import Path
 import pandas as pd
 import requests
 
+from countries import get, interim
+
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
 CACHE = ROOT / "data" / "raw" / "images_cache.json"
 UA = {"User-Agent": "PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/EarthPull)"}
 THUMB = 640  # thumbnail width requested from Commons
 MIN_SIDE = 400
-NOT_PHOTO = re.compile(r"\b(map|maps|karte|carte|locat\w*|locator|flag|drapeau|logo|coat[ _]of[ _]arms|armoiries|"
-                       r"blason|coa|seal|emblem|diagram|plan|schema|icon|signature|wordmark)\b", re.I)
+NOT_PHOTO = re.compile(r"\b(map|maps|karte|carte|kaart|kort|mapa|locat\w*|locali[zs]\w*|ubicaci\w*|locator|flag|"
+                       r"drapeau|bandera|vlag|logo|coat[ _]of[ _]arms|armoiries|escudo|wapen|v[aå]ben|"
+                       r"blason|coa|seal|sello|emblem|diagram|plan|plano|schema|icon|signature|firma|wordmark)\b", re.I)
 
 session = requests.Session()
 session.headers.update(UA)
@@ -127,7 +131,7 @@ def why_not(f: str, info) -> str:
     return ""
 
 
-def download(workers: int = 4):
+def download(d, workers: int = 4):
     """Save each card's photo as a 640 px WebP in data/export/images/photo/ (our own copy, served from our CDN;
     the roadmap rules out linking to Wikimedia live). Skips files already saved, so a stopped run resumes."""
     from concurrent.futures import ThreadPoolExecutor
@@ -137,7 +141,7 @@ def download(workers: int = 4):
 
     out = ROOT / "data" / "export" / "images" / "photo"
     out.mkdir(parents=True, exist_ok=True)
-    img = pd.read_parquet(INTERIM / "images_ca.parquet")
+    img = pd.read_parquet(d / "images.parquet")
     todo = [(r.id, r.thumb) for r in img[img["image"].notna()].itertuples()
             if not (out / f"{r.id.replace(':', '_')}.webp").exists()]
     print(f"Downloading {len(todo):,} photos", flush=True)
@@ -169,22 +173,26 @@ def download(workers: int = 4):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
     ap.add_argument("--sample", type=int, default=0)
     ap.add_argument("--download", action="store_true", help="save the photos found by a full run")
     args = ap.parse_args()
+    c = get(args.country)
+    d = interim(c.code)
+    loc = c.local if c.local not in (None, "en") else None
     if args.download:
-        return download()
-    df = pd.read_parquet(INTERIM / "cards_ca.parquet")
+        return download(d)
+    df = pd.read_parquet(d / "cards.parquet")
     if args.sample:
         df = df.groupby("type").sample(args.sample // 3, random_state=11)  # the same number of each type
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
 
     wikidata_p18(sorted(df["qid"].dropna().unique()), cache)
-    for lang in ("en", "fr"):
-        page_images(lang, sorted(df[f"{lang}wiki"].dropna().unique()), cache)
+    for lang, col in [("en", "enwiki")] + ([(loc, "lwiki")] if loc else []):
+        page_images(lang, sorted(df[col].dropna().unique()), cache)
     cands = {r.id: [c for c in (cache.get(f"p18|{r.qid}") if isinstance(r.qid, str) else "",
                                 cache.get(f"pi|en|{r.enwiki}") if isinstance(r.enwiki, str) else "",
-                                cache.get(f"pi|fr|{r.frwiki}") if isinstance(r.frwiki, str) else "") if c]
+                                cache.get(f"pi|{loc}|{r.lwiki}") if isinstance(r.lwiki, str) and loc else "") if c]
              for r in df.itertuples()}
     commons_info(sorted({f.replace(" ", "_") for fs in cands.values() for f in fs}), cache)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
@@ -209,7 +217,7 @@ def main():
                          "reject": "; ".join(dict.fromkeys(reasons)) or "no image anywhere"})
     out = df[["id", "name", "type", "kind", "rarity"]].merge(pd.DataFrame(rows), on="id")
     if not args.sample:
-        out.drop(columns=["name", "type", "kind", "rarity"]).to_parquet(INTERIM / "images_ca.parquet")
+        out.drop(columns=["name", "type", "kind", "rarity"]).to_parquet(d / "images.parquet")
 
     has = out["image"].notna()
     print(f"\n{len(out):,} cards{' (sample)' if args.sample else ''}: {has.mean():.0%} have a usable photo")

@@ -1,6 +1,6 @@
-"""Step 7 (Canada): a one-line flavour fact per card from its Wikipedia summary.
+"""Step 7: a one-line flavour fact per card from its Wikipedia summary.
 
-The summary is the article's intro (English article, else French). Its first sentence usually just says
+The summary is the article's intro (English article, else the local-language one). Its first sentence usually just says
 what the place is ("X is a lake in Y"), which the card already shows, so when it is only that and a
 later sentence is a good length, the later sentence is used. Brackets (pronunciations, coordinates,
 dates) are removed, and long sentences end at a comma (else a word boundary).
@@ -8,11 +8,13 @@ Cards with no article (24% of towns) get no flavour here; the export can write a
 
 Wikipedia text is CC BY-SA: the card credits and links the source article (flavour_lang, flavour_title).
 
-    python pipeline/flavour_ca.py
-Input:  data/interim/cards_ca.parquet
-Output: data/interim/flavour_ca.parquet (id, flavour, flavour_lang, flavour_title)
+    python pipeline/flavour.py --country CA
+Input:  data/interim/<CC>/cards.parquet, pipeline/flavour_en.csv (hand translations: lang, src, en)
+Output: data/interim/<CC>/flavour.parquet (id, flavour, flavour_lang, flavour_title),
+        data/interim/<CC>/flavour_untranslated.csv (local-language lines still to translate)
 Answers are cached in data/raw/extracts.json.
 """
+import argparse
 import json
 import re
 import time
@@ -21,6 +23,8 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+
+from countries import get, interim
 
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
@@ -72,9 +76,11 @@ def extracts(lang: str, titles: list[str], cache: dict):
 ABBR = "".join(rf"(?<!\b{a}\.)" for a in ("St", "Mt", "Ft", "Dr", "No", "vs", "ca", r"U\.S", "Jr", "Sr", "approx", "[A-Z]"))
 SPLIT = re.compile(ABBR + r"(?<=[.!?])\s+(?=[A-ZÀ-Ý0-9«\"])")
 BRACKETS = re.compile(r"\s*[(\[][^()\[\]]*[)\]]")
-# "X is a lake in Y" / "X est un village du Québec": only says what the place is.
-PLAIN = re.compile(r"^.{0,80}?\b(is|was|est|était) (an?|une?)\b.{0,90}$", re.I)
-BEST = re.compile(r"\b(largest|biggest|highest|tallest|longest|oldest|deepest|first|only|most|plus grand|plus haut|seul)\b", re.I)
+# "X is a lake in Y" / "X est un village du Québec" / "X es un municipio de Y": only says what the place is.
+# English, French, Spanish, Dutch and Danish (the local languages in countries.py).
+PLAIN = re.compile(r"^.{0,80}?\b(is|was|est|était|es|era|fue|er|var) (an?|une?|una?|een|en|et)\b.{0,90}$", re.I)
+BEST = re.compile(r"\b(largest|biggest|highest|tallest|longest|oldest|deepest|first|only|most|plus grand|plus haut|seul"
+                  r"|más grande|más alto|mayor|único|única|primer|grootste|hoogste|oudste|enige|største|højeste|ældste|eneste)\b", re.I)
 
 
 def sentences(text: str) -> list[str]:
@@ -113,32 +119,42 @@ def flavour(text: str) -> str:
 
 
 def main():
-    df = pd.read_parquet(INTERIM / "cards_ca.parquet")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
+    c = get(ap.parse_args().country)
+    d = interim(c.code)
+    loc = c.local if c.local not in (None, "en") else None
+    df = pd.read_parquet(d / "cards.parquet")
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
-    df["flavour_lang"] = df["enwiki"].notna().map({True: "en", False: "fr"})
-    df["flavour_title"] = df["enwiki"].fillna(df["frwiki"])
-    for lang in ("en", "fr"):
+    df["flavour_lang"] = df["enwiki"].notna().map({True: "en", False: loc})
+    df["flavour_title"] = df["enwiki"].fillna(df["lwiki"])
+    for lang in ["en"] + ([loc] if loc else []):
         extracts(lang, sorted(df.loc[df["flavour_lang"] == lang, "flavour_title"].dropna().unique()), cache)
     CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
 
     df["flavour"] = [flavour(cache.get(f"{l}|{t}", "")) if isinstance(t, str) else ""
                      for l, t in zip(df["flavour_lang"], df["flavour_title"])]
 
-    # Cards are in English (developer, 2026-11-24): French lines use the hand translation in flavour_en.csv,
-    # keyed by the French line, so a line that changes on Wikipedia shows up as untranslated, never stale.
-    # An empty translation means the French line was not usable.
-    en = pd.read_csv(ROOT / "flavour_en.csv", keep_default_na=False).set_index("fr")["en"]
-    fr = (df["flavour_lang"] == "fr") & (df["flavour"] != "")
-    todo = df.loc[fr & ~df["flavour"].isin(en.index), "flavour"].drop_duplicates()
-    df.loc[fr, "flavour"] = df.loc[fr, "flavour"].map(en).fillna("")
-    if len(todo):
-        todo.to_frame("fr").assign(en="").to_csv(INTERIM / "flavour_untranslated.csv", index=False, encoding="utf-8")
-        print(f"  {len(todo)} French lines have no translation yet (blank for now): data/interim/flavour_untranslated.csv")
+    # Cards are in English (developer, 2026-11-24): local-language lines use the hand translation in
+    # flavour_en.csv, keyed by the original line, so a line that changes on Wikipedia shows up as untranslated,
+    # never stale. An empty translation means the original line was not usable.
+    tr = pd.read_csv(ROOT / "flavour_en.csv", keep_default_na=False)
+    untr = d / "flavour_untranslated.csv"
+    if loc:
+        en = tr[tr["lang"] == loc].set_index("src")["en"]
+        lo = (df["flavour_lang"] == loc) & (df["flavour"] != "")
+        todo = df.loc[lo & ~df["flavour"].isin(en.index), "flavour"].drop_duplicates()
+        df.loc[lo, "flavour"] = df.loc[lo, "flavour"].map(en).fillna("")
+        if len(todo):
+            todo.to_frame("src").assign(lang=loc, en="")[["lang", "src", "en"]].to_csv(untr, index=False, encoding="utf-8")
+            print(f"  {len(todo)} {loc} lines have no translation yet (blank for now): {untr.relative_to(ROOT).as_posix()}")
+        elif untr.exists():
+            untr.unlink()
     out = df[["id", "flavour", "flavour_lang", "flavour_title"]]
-    out.to_parquet(INTERIM / "flavour_ca.parquet")
+    out.to_parquet(d / "flavour.parquet")
 
     has = df["flavour"] != ""
-    print(f"\n{len(df):,} cards -> data/interim/flavour_ca.parquet; {has.mean():.0%} have flavour")
+    print(f"\n{len(df):,} cards -> {(d / 'flavour.parquet').relative_to(ROOT).as_posix()}; {has.mean():.0%} have flavour")
     print("By type (%):", (df.groupby("type")["flavour"].agg(lambda s: (s != "").mean() * 100)).round(0).to_dict())
     print("Language:", df.loc[has, "flavour_lang"].value_counts().to_dict(), "| cut with …:", int(df["flavour"].str.endswith("…").sum()))
     for t in ("town", "nature", "built"):

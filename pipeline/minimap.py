@@ -1,13 +1,13 @@
-"""Step 7c (Canada): draw a mini-map for every card with no usable photo (developer, 2026-11-24: pre-rendered).
+"""Step 7c: draw a mini-map for every card with no usable photo (developer, 2026-11-24: pre-rendered).
 
 A small map centred on the card: land, sea, lakes and rivers from Natural Earth 1:10m (with its detailed
 North America lakes and rivers), and a pin. The view is sized to the place: about 3x the width of its
 area or 1.2x its length when Wikidata has one, else a default by kind. No text, so it works in any
 language and reads at card size.
 
-    python pipeline/minimap_ca.py --ids wd:Q1,gn:2     a few cards, for a look
-    python pipeline/minimap_ca.py                      every card that needs one
-Input:  data/interim/cards_ca.parquet, data/interim/images_ca.parquet,
+    python pipeline/minimap.py --country CA --ids wd:Q1,gn:2     a few cards, for a look
+    python pipeline/minimap.py --country CA                      every card that needs one
+Input:  data/interim/<CC>/cards.parquet, data/interim/<CC>/images.parquet,
         data/raw/naturalearth/*.zip (https://www.naturalearthdata.com, public domain)
 Output: data/export/images/minimap/<card id>.webp (480 x 360)
 """
@@ -85,13 +85,16 @@ def render(r, L: dict, path: Path):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--country", required=True)
     ap.add_argument("--ids", default="")
     args = ap.parse_args()
-    df = pd.read_parquet(INTERIM / "cards_ca.parquet")
+    from countries import get, interim
+    d = interim(get(args.country).code)
+    df = pd.read_parquet(d / "cards.parquet")
     if args.ids:
         df = df[df["id"].isin(args.ids.split(","))]
     else:
-        img = pd.read_parquet(INTERIM / "images_ca.parquet")
+        img = pd.read_parquet(d / "images.parquet")
         df = df[df["id"].isin(img.loc[img["image"].isna(), "id"])]
     OUT.mkdir(parents=True, exist_ok=True)
     L = layers()

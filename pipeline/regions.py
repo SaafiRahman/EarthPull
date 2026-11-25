@@ -35,6 +35,11 @@ def admin1() -> gpd.GeoDataFrame:
         parts.append(g.assign(country=c.code))
     r = pd.concat(parts, ignore_index=True)
     r = r.assign(region=r["iso_3166_2"], region_name=r["name_en"].fillna(r["name"]), gn=r["gn_a1_code"])
+    # Natural Earth gives places with no ISO 3166-2 subdivision a placeholder ("TC-X03~", "AI-X00"): those
+    # become one region for the whole country, named after it (code "TC", "Turks and Caicos Islands").
+    ph = r["region"].isna() | r["region"].str.contains(r"~|-X\d", regex=True)
+    r.loc[ph, "region"] = r.loc[ph, "country"]
+    r.loc[ph, "region_name"] = r.loc[ph, "country"].map(lambda c: COUNTRIES[c].name)
     r["geometry"] = r.geometry.make_valid()
     return gpd.GeoDataFrame(r[["country", "region", "region_name", "gn", "geometry"]], crs=a.crs)
 

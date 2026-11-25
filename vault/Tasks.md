@@ -44,7 +44,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] Developer: keep memorials as cards (2026-11-23); 21 added, incl. the National War Memorial
   - [x] At the rarity step: make sure structures land in high tiers (done 2026-11-23: no Common structures, wider top tiers)
   - [ ] Wikipedia titles for the 417 towns with no Wikidata item linked by GeoNames ID (name-match fallback)
-- [x] Private preview map of the Canada candidate cards: [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX) (2026-11-23). Rebuild: `python pipeline/export_preview.py`, then republish `preview/index.html`
+- [x] Private preview map of the Canada candidate cards: [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX) (2026-11-23). Retired 2026-11-24 with the Statistics Canada files it was built from (`export_preview.py` removed)
 - ~~Redraw the preview map with a detailed coastline~~ Not needed (developer, 2026-11-23): the preview is a throwaway; the real app uses MapLibre with proper vector tiles (see [[Architecture]]). The data fixes below still apply.
 - [ ] Pipeline: drop items more than ~25 km outside Canada (wrong-country tags such as the Seattle Times Building and the Adirondack Mountains, which are in New York but tagged Quebec). (Done 2026-11-23: disaster sites, wrecks and offshore platforms are now excluded.)
 - [x] Developer: keep offshore landmarks like the Hibernia platform? No: offshore platforms are not cards (2026-11-23)
@@ -54,28 +54,29 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Before launch: check location accuracy across the whole pool, not just Canada
 - [x] Fetch page views for every place that has an article; places without one get a fame score of zero. (done 2026-11-23 for Canada: 13,391 candidates in `pool_ca.parquet`)
 - [x] Re-fetch page views with monthly numbers; fame = median month x 12 (done 2026-11-23, developer's decision) One-month spikes inflate the 12-month total (Tumbler Ridge 444k of 499k in one month; BMO Field and Gordie Howe Bridge too). Use median month x 12 instead of the sum? Needs a re-fetch that keeps monthly numbers (~1 h for Canada; the bulk dumps give months anyway)
-- [ ] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes; the Rocky Mountains card's point is in Idaho because Wikidata puts the range's point there): whose card are they, and do they count their whole article's views?
+- [x] Cross-border landmarks (Appalachian Mountains, Lake Ontario, Great Lakes; the Rocky Mountains card's point is in Idaho): decided 2026-11-24, home by point plus "also in" (see [[Decisions]]); they count their whole article's views
 - [x] Assign rarity by fame percentile within the pool, then hand-pick the roughly 50 Mythics. (done 2026-11-23 for Canada: `rarity_ca.py`; Mythics so far Niagara Falls, CN Tower, Rocky Mountains)
 - [ ] ~~Compute stats (log-scale population, normalise each stat to 1–100).~~ Replaced 2026-11-23 by card facts (developer)
 - [x] Drop gone places: demolished, destroyed or never built (Wikidata classes, Wikipedia categories, redirected articles); keep closed-but-standing (done 2026-11-23: `gone_ca.py`, 501 dropped, 12,887 cards left)
 - [x] (done 2026-11-24) Collect card facts: population, elevation (terrain height where missing), height or prominence, area or length, average temperature (WorldClim), fame
-- [ ] Fix step 3's elevation: it takes Wikidata P2044 without its unit (some peaks came in feet). Step 6 works around it by preferring the unit-converted value
+- [x] (done 2026-11-24) Fix step 3's elevation: `landmarks.py` takes Wikidata's unit-converted value (QLever `psn:`), so peaks entered in feet come out in metres
 - [x] (done 2026-11-24) Generate flavour: a one-line fact per card from the Wikipedia summary, trimmed (`flavour_ca.py`, 97% of cards)
 - [x] (done 2026-11-24) Flavour for cards with no Wikipedia line (444): written from their facts at export
 - [x] French flavour lines translated into English (developer, 2026-11-24): 1,538 lines, hand translations in `pipeline/flavour_en.csv`
 - [ ] Developer: decide whether to rewrite flavour into livelier facts later (beta)
-- [ ] Found while translating: Lac à la Loutre (Montreal) "existed until the 19th century" (gone place, not caught); Grayling Fork Black River is in Alaska (wrong country)
+- [ ] Found while translating: Lac à la Loutre (Montreal) "existed until the 19th century" (gone place, not caught); Grayling Fork Black River is in Alaska (wrong country; fixed 2026-11-24 by homing landmarks by their point)
 - [ ] (in progress 2026-11-24) North America: make every step take a country code (scripts are `_ca` now) and replace the Statistics Canada neighbourhood rule with one that works anywhere. Plan:
   - [x] Country table: Wikidata item, local Wikipedia language(s) per country (CA fr, MX es, GL da, HT fr, AW nl...) (`countries.py`, 41 countries, IDs checked against Wikidata 2026-11-24)
   - [x] Regions from Natural Earth admin-1 (ISO 3166-2 codes) for every card, replacing StatCan; drop points well outside the country (wrong-country cards) (`regions.py`; towns keep GeoNames' province via Natural Earth's GeoNames codes, landmarks use their point)
   - [x] Neighbourhoods without census boundaries (`towns.py`): candidates are towns within 15 km of one 3x bigger; Wikidata decides. Canada: 1,567 towns, same count as before, 20 swapped each way (Montreal boroughs and Ottawa suburbs now dropped; Virgil, Cookstown, Lively now kept; Brant and Gabriola wrongly dropped)
-  - [ ] Every step takes --country and writes to data/interim/<CC>/; English plus the local Wikipedia instead of English + French
-  - [ ] Rerun Canada and compare with today's 12,882 cards; then run the US
+  - [x] (done 2026-11-24) Every step takes --country and writes to data/interim/<CC>/; English plus the local Wikipedia instead of English + French. Scripts lost their `_ca` suffix; the old Canada-only scripts and the throwaway preview exporter were removed
+  - [x] (done 2026-11-24) Rerun Canada through `run.py CA` and compare: **12,789 cards** (was 12,882). 116 gone: 112 border landmarks now homed in the US, Greenland or Saint Pierre by their point (Rocky Mountains, Lake Superior, Adirondacks, Ambassador Bridge) plus the known Ottawa-village town swaps; 23 added (town swaps, a few landmarks). Rarity changed for 68 cards
+  - [ ] Run the US (then Mexico and the rest) through `run.py`
   - Sizes found 2026-11-24: GeoNames towns US 17,348, MX 8,944, CA 3,009 (32,498 in North America); US natural landmarks with an English article ~23,900; US structures in 3+ languages ~26,400; Mexico natural landmarks ~650
-  - [ ] Landmarks for all of North America at once: home country by point, "also in" from Wikidata's countries (developer, 2026-11-24)
+  - [x] (done 2026-11-24) Landmarks for all of North America at once: home country by point, "also in" from Wikidata's countries (developer, 2026-11-24). `landmarks.py`: 37,677 natural and 19,373 built landmarks in 41 countries; 873 border landmarks tagged "also in"
   - [ ] Developer decision after the US run: with ~26,000 US buildings, keep "every building is at least Rare"?
 - [ ] North America: translate flavour from Spanish, French, Dutch and Danish articles (expect far more Spanish lines than the 1,538 French ones; plan the approach before running)
-- [ ] North America: one command runs the whole pipeline for a list of countries
+- [x] (done 2026-11-24, untested end to end) North America: one command runs the whole pipeline for a list of countries: `python pipeline/run.py CA US` or `run.py all`
 - [x] (done 2026-11-24) Export the card pool as static JSON (split by region) for Cloud Storage, plus a small sample file for front-end development (`export_ca.py`; sample in `pipeline/sample/cards_sample_ca.json`)
 - [x] (done 2026-11-24) Card images: Wikidata image → Commons thumbnail + author + licence; reject maps, flags, logos and tiny images; mini-map render for the rest. Check the photo vs mini-map split on a sample first. **Split checked 2026-11-24 (`images_ca.py`, lookups only):** 51% of cards have a usable photo (built 94%, towns 66%, nature 39%; Legendary 96%, Epic 93%, Rare 82%, Common 32%). Developer chose pre-rendered mini-maps; 6,538 photos downloaded (382 MB as 640 px WebP), 6,344 wide mini-maps drawn (53 MB), all wired into the export
 - [ ] Detailed mini-maps from OpenStreetMap for Rare-and-up cards with no photo (~900 in Canada): the real shape of the lake or island; needs an "© OpenStreetMap contributors" credit
@@ -87,3 +88,5 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 ## Before Phase 2
 - [ ] Settle the open questions in [[Decisions]].
 - [ ] Decide the details of local packs (developer's idea, 2026-11-23): see [[Decisions#Open]]
+- [ ] Turn Point Light (a Washington lighthouse) is a Canadian card: Wikidata gives it Canada only and Natural Earth's border puts its point in BC (found 2026-11-24)
+- [ ] Rocky Mountains Mythic now belongs to the US card pool (its point is in Idaho): check Mythics when the US runs

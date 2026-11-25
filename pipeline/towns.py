@@ -19,17 +19,61 @@ Output: data/interim/<CC>/towns.parquet (kept towns: qid, enwiki, lwiki = local-
         data/interim/<CC>/towns_checked.csv (every candidate and its verdict)
 """
 import argparse
+import hashlib
+import json
+import time
+from pathlib import Path
+from urllib.parse import unquote
 
 import geopandas as gpd
 import numpy as np
 import pandas as pd
+import requests
 
 from countries import get, interim
-from wikidata_ca import sparql, title, town_class
-from wikidata_places import lookup_many, verdict
+from wikidata_places import category, lookup_many, verdict
 
 NEAR_KM, BIGGER, MIN_BIG = 15, 3, 10_000
 CITY_KM, CITY_POP = 8, 50_000
+ROOT = Path(__file__).parent
+CACHE_FILE = ROOT / "data" / "raw" / "wikidata_bulk_cache.json"
+ENDPOINT = "https://query.wikidata.org/sparql"
+UA = {"User-Agent": "PullThePlanetPipeline/0.1 (https://github.com/SaafiRahman/EarthPull)",
+      "Accept": "application/sparql-results+json"}
+
+
+def sparql(query: str) -> list[dict]:
+    """query.wikidata.org, with answers cached by query text."""
+    cache = json.loads(CACHE_FILE.read_text(encoding="utf-8")) if CACHE_FILE.exists() else {}
+    key = hashlib.sha1(query.encode()).hexdigest()
+    if key not in cache:
+        for attempt in range(5):
+            r = requests.get(ENDPOINT, params={"query": query}, headers=UA, timeout=180)
+            if r.status_code in (429, 500, 502, 503, 504):
+                time.sleep(int(r.headers.get("Retry-After") or 0) or 10 * (attempt + 1))
+                continue
+            r.raise_for_status()
+            break
+        else:
+            r.raise_for_status()
+        cache[key] = [{k: v["value"] for k, v in b.items()} for b in r.json()["results"]["bindings"]]
+        CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+        time.sleep(1)
+    return cache[key]
+
+
+def title(url: str | None) -> str | None:
+    """Article title from a Wikipedia URL."""
+    return unquote(url.rsplit("/wiki/", 1)[1]).replace("_", " ") if isinstance(url, str) else None
+
+
+def town_class(classes: list[str]) -> str:
+    cats = {category(c) for c in classes}
+    for c in ("municipality", "neighbourhood", "settlement"):
+        if c in cats:
+            return c
+    return "other"
 
 
 def near_bigger(t: pd.DataFrame) -> pd.DataFrame:
