@@ -822,334 +822,334 @@
    }
   },
   {
-   "id": "wd:Q2961677",
-   "name": "Canso Causeway",
-   "label": "Canso Causeway",
+   "id": "wd:Q2022853",
+   "name": "Olympic Village in Montreal",
+   "label": "Olympic Village in Montreal",
    "type": "built",
-   "kind": "bridge",
-   "region": "CA-NS",
-   "country": "CA",
-   "lat": 45.6439,
-   "lon": -61.4197,
-   "rarity": "Epic",
-   "fame": 14700,
-   "facts": {
-    "elevation_m": 2.0,
-    "temp_c": 5.3
-   },
-   "flavour": {
-    "text": "The Canso Causeway is a 1,385-metre-long rock-fill causeway crossing the Strait of Canso.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Canso Causeway",
-    "url": "https://en.wikipedia.org/wiki/Canso_Causeway",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2961677.webp",
-    "author": "Sxjxcx at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:CansoCauseway.jpg"
-   }
-  },
-  {
-   "id": "wd:Q99364",
-   "name": "Big Chute Marine Railway",
-   "label": "Big Chute Marine Railway",
-   "type": "built",
-   "kind": "boat lift",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 44.8847,
-   "lon": -79.6747,
-   "rarity": "Epic",
-   "fame": 9108,
-   "facts": {
-    "elevation_m": 198,
-    "temp_c": 5.9
-   },
-   "flavour": {
-    "text": "Big Chute Marine Railway is a patent slip at lock 44 of the Trent-Severn Waterway in the township of Georgian Bay, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Big Chute Marine Railway",
-    "url": "https://en.wikipedia.org/wiki/Big_Chute_Marine_Railway",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q99364.webp",
-    "author": "acansino",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Big_chute_acansino.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1579157",
-   "name": "Mount Royal Cross",
-   "label": "Mount Royal Cross",
-   "type": "built",
-   "kind": "summit cross",
+   "kind": "Olympic Village",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.5089,
-   "lon": -73.5878,
+   "lat": 45.5686,
+   "lon": -73.5546,
    "rarity": "Epic",
-   "fame": 10188,
+   "fame": 9312,
    "facts": {
-    "elevation_m": 226,
+    "elevation_m": 50,
     "temp_c": 6.6
    },
    "flavour": {
-    "text": "It stands at the northeastern peak of the mountain and overlooks the eastern part of the Island of Montreal.",
+    "text": "The Olympic Village is a twin-tower structure in Montreal, Quebec, Canada, built as the athletes' residence for the 1976 Summer Olympics.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Mount Royal Cross",
-    "url": "https://en.wikipedia.org/wiki/Mount_Royal_Cross",
+    "title": "Olympic Village (Montreal)",
+    "url": "https://en.wikipedia.org/wiki/Olympic_Village_%28Montreal%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1579157.webp",
-    "author": "The Cosmonaut",
-    "licence": "CC BY-SA 2.5 ca",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Croix_du_mont_Royal.jpg"
-   }
-  },
-  {
-   "id": "wd:Q168737",
-   "name": "château Ramezay",
-   "label": "château Ramezay",
-   "type": "built",
-   "kind": "museum",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.509,
-   "lon": -73.5533,
-   "rarity": "Epic",
-   "fame": 9552,
-   "facts": {
-    "elevation_m": 32,
-    "temp_c": 6.6
-   },
-   "flavour": {
-    "text": "The Château Ramezay is a museum and historic building on Notre-Dame Street in Old Montreal, opposite Montreal City Hall in Montreal, Quebec, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Château Ramezay",
-    "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Ramezay",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q168737.webp",
-    "author": "Joanne Lévesque",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_Ch%C3%A2teau_Ramezay.jpg"
-   }
-  },
-  {
-   "id": "wd:Q2091081",
-   "name": "National War Memorial",
-   "label": "National War Memorial (near Ottawa)",
-   "type": "built",
-   "kind": "war memorial",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 45.424,
-   "lon": -75.6955,
-   "rarity": "Epic",
-   "fame": 11604,
-   "facts": {
-    "elevation_m": 76,
-    "temp_c": 5.9
-   },
-   "flavour": {
-    "text": "The National War Memorial, titled The Response, is a tall, granite memorial arch with accreted bronze sculptures in Ottawa, Ontario.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "National War Memorial (Canada)",
-    "url": "https://en.wikipedia.org/wiki/National_War_Memorial_%28Canada%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2091081.webp",
-    "author": "Unknown author",
+    "file": "images/photo/wd_Q2022853.webp",
+    "author": "– Wladyslaw [Disk.] . The original uploader was Taxiarchos228 at German Wikipedia .; Roger D'Astous & Luc Durand (architects)",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:OttawaWarMemorial.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Olympisches_Dorf.jpg"
    }
   },
   {
-   "id": "wd:Q1051168",
-   "name": "Notre-Dame Cathedral Basilica",
-   "label": "Notre-Dame Cathedral Basilica",
+   "id": "wd:Q24335091",
+   "name": "Rouville-Campbell Manor",
+   "label": "Rouville-Campbell Manor",
    "type": "built",
-   "kind": "Catholic cathedral",
-   "region": "CA-ON",
+   "kind": "manor house",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 45.4297,
-   "lon": -75.6965,
+   "lat": 45.5601,
+   "lon": -73.2004,
    "rarity": "Epic",
-   "fame": 10854,
+   "fame": 26040,
    "facts": {
-    "elevation_m": 65,
+    "elevation_m": 11,
     "temp_c": 5.9
    },
    "flavour": {
-    "text": "The Notre-Dame Cathedral Basilica is a Roman Catholic minor basilica in Ottawa, Ontario, Canada located on 385 Sussex Drive in the Lower Town neighbourhood.",
+    "text": "The Manoir Rouville-Campbell is a historic building located in Mont-Saint-Hilaire in the Montérégie region of Quebec, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Notre-Dame Cathedral Basilica",
-    "url": "https://en.wikipedia.org/wiki/Notre-Dame_Cathedral_Basilica",
+    "title": "Manoir Rouville-Campbell",
+    "url": "https://en.wikipedia.org/wiki/Manoir_Rouville-Campbell",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1051168.webp",
-    "author": "Daryl Mitchell from Saskatoon, Canada",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Notre_Dame_Cathedral_Basilica_in_Ottawa.jpg"
+    "file": "images/photo/wd_Q24335091.webp",
+    "author": "Thomas1313",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Manoir_Rouville-Campbell.jpg"
    }
   },
   {
-   "id": "wd:Q1393350",
-   "name": "Fairmont Royal York",
-   "label": "Fairmont Royal York",
-   "type": "built",
-   "kind": "hotel",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6455,
-   "lon": -79.3816,
-   "rarity": "Epic",
-   "fame": 28674,
-   "facts": {
-    "elevation_m": 90,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "Located along Front Street West, the hotel is situated at the southern end of the Financial District, in Downtown Toronto.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Fairmont Royal York",
-    "url": "https://en.wikipedia.org/wiki/Fairmont_Royal_York",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1393350.webp",
-    "author": "Dillan Payne",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fairmont_Royal_York_from_CIBC_Square_Park,_May_13_2026_(01).jpg"
-   }
-  },
-  {
-   "id": "wd:Q63247052",
-   "name": "Avenir Centre",
-   "label": "Avenir Centre",
-   "type": "built",
-   "kind": "indoor ice rink",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 46.0855,
-   "lon": -64.7849,
-   "rarity": "Epic",
-   "fame": 10086,
-   "facts": {
-    "elevation_m": 19,
-    "temp_c": 5.7
-   },
-   "flavour": {
-    "text": "It opened on September 8, 2018, it serves as the home to the Moncton Wildcats of the Quebec Maritimes Junior Hockey League.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Avenir Centre",
-    "url": "https://en.wikipedia.org/wiki/Avenir_Centre",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q63247052.webp",
-    "author": "Quintin Soloviev",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Avenir_Centre_(Moncton).jpg"
-   }
-  },
-  {
-   "id": "wd:Q7122335",
-   "name": "Pacific Centre",
-   "label": "Pacific Centre",
+   "id": "wd:Q24190526",
+   "name": "Tsawwassen Mills",
+   "label": "Tsawwassen Mills",
    "type": "built",
    "kind": "shopping center",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 49.2834,
-   "lon": -123.118,
+   "lat": 49.0381,
+   "lon": -123.086,
    "rarity": "Epic",
-   "fame": 7956,
+   "fame": 10494,
    "facts": {
-    "elevation_m": 46,
-    "temp_c": 10.5
+    "elevation_m": 1.0,
+    "temp_c": 10.3
    },
    "flavour": {
-    "text": "It is owned by Cadillac Fairview, the Ontario Pension Board, and the Workplace Safety and Insurance Board, and is managed by Cadillac Fairview.",
+    "text": "Tsawwassen Mills is a super-regional outlet centre on Tsawwassen First Nation land, in Delta, British Columbia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Pacific Centre",
-    "url": "https://en.wikipedia.org/wiki/Pacific_Centre",
+    "title": "Tsawwassen Mills",
+    "url": "https://en.wikipedia.org/wiki/Tsawwassen_Mills",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7122335.webp",
-    "author": "Northwest",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pacific_Centre.jpg"
+    "file": "images/photo/wd_Q24190526.webp",
+    "author": "GoToVan from Vancouver, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsawwassen_Mills_Outlet_Shopping_Mall_(29932930300).jpg"
    }
   },
   {
-   "id": "wd:Q61602719",
-   "name": "Montreal Tower",
-   "label": "Montreal Tower",
+   "id": "wd:Q7250885",
+   "name": "Prospera Place",
+   "label": "Prospera Place",
    "type": "built",
-   "kind": "inclined tower",
-   "region": "CA-QC",
+   "kind": "building",
+   "region": "CA-BC",
    "country": "CA",
-   "lat": 45.5595,
-   "lon": -73.5521,
+   "lat": 49.8928,
+   "lon": -119.495,
    "rarity": "Epic",
-   "fame": 20688,
+   "fame": 8376,
    "facts": {
-    "elevation_m": 32,
-    "height_m": 175,
-    "temp_c": 6.6
+    "elevation_m": 350,
+    "temp_c": 8.3
    },
    "flavour": {
-    "text": "Montreal Tower, formerly known as Olympic Tower, is the tallest inclined structure in the world at 165 metres, and the tenth tallest structure in Montreal.",
+    "text": "The facility opened in 1999 and is the home arena of the Kelowna Rockets of the Western Hockey League.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Montreal Tower",
-    "url": "https://en.wikipedia.org/wiki/Montreal_Tower",
+    "title": "Prospera Place",
+    "url": "https://en.wikipedia.org/wiki/Prospera_Place",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q61602719.webp",
-    "author": "Jiaqian AirplaneFan",
+    "file": "images/photo/wd_Q7250885.webp",
+    "author": "Aidanrice206 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Prosperaplace.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3579104",
+   "name": "Aldred Building",
+   "label": "Aldred Building",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.505,
+   "lon": -73.5567,
+   "rarity": "Epic",
+   "fame": 7908,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 6.6
+   },
+   "flavour": {
+    "text": "The Aldred Building is an Art deco building on the historic Place d'Armes square in the Old Montreal quarter of Montreal, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aldred Building",
+    "url": "https://en.wikipedia.org/wiki/Aldred_Building",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3579104.webp",
+    "author": "The Cosmonaut",
+    "licence": "CC BY-SA 2.5 ca",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:L%27%C3%89difice_Aldred.jpg"
+   }
+  },
+  {
+   "id": "wd:Q176822",
+   "name": "Sudbury Neutrino Observatory",
+   "label": "Sudbury Neutrino Observatory",
+   "type": "built",
+   "kind": "neutrino detector",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 46.4667,
+   "lon": -81.1728,
+   "rarity": "Epic",
+   "fame": 14130,
+   "facts": {
+    "elevation_m": 299,
+    "temp_c": 3.9
+   },
+   "flavour": {
+    "text": "The Sudbury Neutrino Observatory was a neutrino observatory located 2100 m underground in Vale's Creighton Mine in Sudbury, Ontario, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sudbury Neutrino Observatory",
+    "url": "https://en.wikipedia.org/wiki/Sudbury_Neutrino_Observatory",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q176822.webp",
+    "author": "User:Boardhead",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:SNOLAB_2014-03-21.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4985200",
+   "name": "Canada Life Place",
+   "label": "Canada Life Place",
+   "type": "built",
+   "kind": "arena",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 42.9825,
+   "lon": -81.2525,
+   "rarity": "Epic",
+   "fame": 19248,
+   "facts": {
+    "elevation_m": 252,
+    "temp_c": 8.0
+   },
+   "flavour": {
+    "text": "Canada Life Place is a sports-entertainment centre, in London, Ontario, Canada – the largest such centre in Southwestern Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canada Life Place",
+    "url": "https://en.wikipedia.org/wiki/Canada_Life_Place",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4985200.webp",
+    "author": "Gogerr",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canada_Life_Place,_formly_the_called_Budweiser_Gardens.jpg"
+   }
+  },
+  {
+   "id": "wd:Q862283",
+   "name": "Capilano Suspension Bridge",
+   "label": "Capilano Suspension Bridge",
+   "type": "built",
+   "kind": "business",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.3428,
+   "lon": -123.112,
+   "rarity": "Epic",
+   "fame": 36888,
+   "facts": {
+    "elevation_m": 99,
+    "length_km": 0.1,
+    "temp_c": 6.8
+   },
+   "flavour": {
+    "text": "The Capilano Suspension Bridge is a simple suspension bridge crossing the Capilano River in Upper Capilano, British Columbia, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Capilano Suspension Bridge",
+    "url": "https://en.wikipedia.org/wiki/Capilano_Suspension_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q862283.webp",
+    "author": "Markus Säynevirta",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Capilano_Suspension_Bridge,_Vancouver,_Canada_(July_2016)_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3497349",
+   "name": "Mont Tremblant Resort",
+   "label": "Mont Tremblant Resort",
+   "type": "built",
+   "kind": "ski resort",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.214,
+   "lon": -74.585,
+   "rarity": "Epic",
+   "fame": 36828,
+   "facts": {
+    "elevation_m": 263,
+    "temp_c": 3.0
+   },
+   "flavour": {
+    "text": "Mont Tremblant Ski Resort is a year-round resort in the Laurentian Mountains of Quebec, Canada, located about 130 km northwest of Montreal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mont Tremblant Resort",
+    "url": "https://en.wikipedia.org/wiki/Mont_Tremblant_Resort",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3497349.webp",
+    "author": "Acarpentier",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Olympic_Stadium_in_Montreal_at_sunset_-_panoramio.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Ski_Mont_Tremblant.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1954743",
+   "name": "Museum of Anthropology at UBC",
+   "label": "Museum of Anthropology at UBC",
+   "type": "built",
+   "kind": "archives",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.2692,
+   "lon": -123.2597,
+   "rarity": "Epic",
+   "fame": 11484,
+   "facts": {
+    "elevation_m": 71,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "The Museum of Anthropology at the University of British Columbia campus in Vancouver, British Columbia, Canada displays world arts and cultures.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Museum of Anthropology at UBC",
+    "url": "https://en.wikipedia.org/wiki/Museum_of_Anthropology_at_UBC",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1954743.webp",
+    "author": "Rr parker",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:UBC_MOA_with_reflecting_pool_01.JPG"
    }
   },
   {
@@ -1838,69 +1838,36 @@
    }
   },
   {
-   "id": "wd:Q107240467",
-   "name": "Pinnacle One Yonge",
-   "label": "Pinnacle One Yonge",
+   "id": "wd:Q1327290",
+   "name": "Canadian Tire Centre",
+   "label": "Canadian Tire Centre",
    "type": "built",
-   "kind": "building",
+   "kind": "arena",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.6436,
-   "lon": -79.3744,
+   "lat": 45.2969,
+   "lon": -75.9272,
    "rarity": "Legendary",
-   "fame": 104058,
+   "fame": 64296,
    "facts": {
-    "elevation_m": 78,
-    "temp_c": 8.5
+    "elevation_m": 107,
+    "temp_c": 5.6
    },
    "flavour": {
-    "text": "It will consist of six skyscrapers ranging in height from 22 to 106 storeys tall.",
+    "text": "It opened on January 15, 1996 as the Palladium, and was also known as the Corel Centre from 1996 to 2006, and as Scotiabank Place from 2006 to 2013.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Pinnacle One Yonge",
-    "url": "https://en.wikipedia.org/wiki/Pinnacle_One_Yonge",
+    "title": "Canadian Tire Centre",
+    "url": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q107240467.webp",
-    "author": "Dillan Payne",
+    "file": "images/photo/wd_Q1327290.webp",
+    "author": "Ontario Images",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:View_of_SkyTower_at_Pinnacle_One_Yonge_from_Ward%27s_Island,_September_11_2026_(01)_(cropped).jpg"
-   }
-  },
-  {
-   "id": "wd:Q1046446",
-   "name": "Casa Loma",
-   "label": "Casa Loma",
-   "type": "built",
-   "kind": "historic house museum",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6781,
-   "lon": -79.4093,
-   "rarity": "Legendary",
-   "fame": 128778,
-   "facts": {
-    "elevation_m": 153,
-    "temp_c": 8.1
-   },
-   "flavour": {
-    "text": "Casa Loma is a Gothic Revival castle-style mansion and garden in midtown Toronto, Ontario, Canada, that is now a historic house museum and landmark.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Casa Loma",
-    "url": "https://en.wikipedia.org/wiki/Casa_Loma",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1046446.webp",
-    "author": "Evelyncyuzu",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Casa_Loma_2022.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Canadian_Tire_Centre_1.JPG"
    }
   },
   {
@@ -1934,6 +1901,39 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:TD_Place_2022.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2151874",
+   "name": "Rideau Hall",
+   "label": "Rideau Hall",
+   "type": "built",
+   "kind": "palace",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.4438,
+   "lon": -75.6856,
+   "rarity": "Legendary",
+   "fame": 64050,
+   "facts": {
+    "elevation_m": 71,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "Rideau Hall is the official residence of the governor general of Canada, the representative of the monarch of Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rideau Hall",
+    "url": "https://en.wikipedia.org/wiki/Rideau_Hall",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2151874.webp",
+    "author": "Peregrine981",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Rideau_Hall04.jpg"
    }
   },
   {
@@ -1972,136 +1972,135 @@
    }
   },
   {
-   "id": "wd:Q1143666",
-   "name": "TD Place Arena",
-   "label": "TD Place Arena",
+   "id": "wd:Q607810",
+   "name": "Yonge Dundas Square",
+   "label": "Yonge Dundas Square",
    "type": "built",
-   "kind": "arena",
+   "kind": "open-air event venue",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 45.3988,
-   "lon": -75.685,
+   "lat": 43.6561,
+   "lon": -79.3803,
    "rarity": "Legendary",
-   "fame": 48354,
+   "fame": 46824,
    "facts": {
-    "elevation_m": 67,
-    "temp_c": 5.9
-   },
-   "flavour": {
-    "text": "Opened in December 1967, it is used primarily for sports, including curling, figure skating, ice hockey, and lacrosse.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "TD Place Arena",
-    "url": "https://en.wikipedia.org/wiki/TD_Place_Arena",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1143666.webp",
-    "author": "en:User:Earl Andrew",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Ottawa_Civic_Centre_sideview_2004.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1671788",
-   "name": "Princess Auto Stadium",
-   "label": "Princess Auto Stadium",
-   "type": "built",
-   "kind": "stadium",
-   "region": "CA-MB",
-   "country": "CA",
-   "lat": 49.8078,
-   "lon": -97.1431,
-   "rarity": "Legendary",
-   "fame": 51162,
-   "facts": {
-    "elevation_m": 230,
-    "temp_c": 2.7
-   },
-   "flavour": {
-    "text": "The stadium, which opened in 2013, is located on the University of Manitoba campus next to University Stadium.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Princess Auto Stadium",
-    "url": "https://en.wikipedia.org/wiki/Princess_Auto_Stadium",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1671788.webp",
-    "author": "Significa liberdade",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Princess_Auto_Stadium_2024.jpg"
-   }
-  },
-  {
-   "id": "wd:Q284716",
-   "name": "Saint Joseph's Oratory",
-   "label": "Saint Joseph's Oratory",
-   "type": "built",
-   "kind": "church building",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.4917,
-   "lon": -73.6167,
-   "rarity": "Legendary",
-   "fame": 95754,
-   "facts": {
-    "elevation_m": 144,
-    "length_km": 0.1,
-    "temp_c": 6.5
-   },
-   "flavour": {
-    "text": "Saint Joseph's Oratory of Mount Royal is a Roman Catholic minor basilica and national shrine located at 3800 Queen Mary Road in the Côte-des-Neiges…",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Saint Joseph's Oratory",
-    "url": "https://en.wikipedia.org/wiki/Saint_Joseph%27s_Oratory",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q284716.webp",
-    "author": "Dpalma01",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:View_of_St._Joseph%27s_Oratory_on_Mount_Royal_08_2025.jpg"
-   }
-  },
-  {
-   "id": "wd:Q76318",
-   "name": "Rogers Centre",
-   "label": "Rogers Centre",
-   "type": "built",
-   "kind": "association football venue",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6414,
-   "lon": -79.3892,
-   "rarity": "Legendary",
-   "fame": 288360,
-   "facts": {
-    "elevation_m": 84,
+    "elevation_m": 96,
     "temp_c": 8.5
    },
    "flavour": {
-    "text": "Rogers Centre is a retractable roof stadium in downtown Toronto, Ontario, Canada, situated at the base of the CN Tower near the northern shore of Lake Ontario.",
+    "text": "Sankofa Square, colloquially Dundas Square, is a public square and outdoor venue at the southeast corner of the intersection of Yonge Street and Dundas Street…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Rogers Centre",
-    "url": "https://en.wikipedia.org/wiki/Rogers_Centre",
+    "title": "Sankofa Square",
+    "url": "https://en.wikipedia.org/wiki/Sankofa_Square",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q76318.webp",
-    "author": "Fabian Roudra Baroi",
+    "file": "images/photo/wd_Q607810.webp",
+    "author": "Dillan Payne",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rogers_Centre.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Sankofa_Square_Toronto,_May_30_2026_(01).jpg"
+   }
+  },
+  {
+   "id": "wd:Q540062",
+   "name": "Fortress of Louisbourg",
+   "label": "Fortress of Louisbourg",
+   "type": "built",
+   "kind": "National Historic Site Administered by Parks Canada",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 45.8925,
+   "lon": -59.985,
+   "rarity": "Legendary",
+   "fame": 47766,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 5.7
+   },
+   "flavour": {
+    "text": "The Fortress of Louisbourg is a tourist attraction as a National Historic Site and the location of a one-quarter partial reconstruction of an 18th-century…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fortress of Louisbourg",
+    "url": "https://en.wikipedia.org/wiki/Fortress_of_Louisbourg",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q540062.webp",
+    "author": "Aconcagua",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Louisbourg20.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17154775",
+   "name": "Polar bear jail",
+   "label": "Polar bear jail",
+   "type": "built",
+   "kind": "building",
+   "region": "CA-MB",
+   "country": "CA",
+   "lat": 58.7537,
+   "lon": -94.0738,
+   "rarity": "Legendary",
+   "fame": 41742,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": -6.6
+   },
+   "flavour": {
+    "text": "The Polar Bear Holding Facility, colloquially known as the Polar Bear Jail, is a special building in Churchill, Manitoba, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Polar bear jail",
+    "url": "https://en.wikipedia.org/wiki/Polar_bear_jail",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17154775.webp",
+    "author": "Emma",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bear_jail_(6360643033).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1032248",
+   "name": "Habitat 67",
+   "label": "Habitat 67",
+   "type": "built",
+   "kind": "apartment building",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.5,
+   "lon": -73.5439,
+   "rarity": "Legendary",
+   "fame": 153822,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "Habitat 67, or just Habitat, is a housing complex at Cité du Havre, on the Saint Lawrence River, Montreal, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Habitat 67",
+    "url": "https://en.wikipedia.org/wiki/Habitat_67",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1032248.webp",
+    "author": "Parcours riverain - Ville de Montréal from Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habitat_67,_2600,_avenue_Pierre-Dupuy_(Ville-Marie)_(35399872943).jpg"
    }
   },
   {
@@ -2624,397 +2623,398 @@
    }
   },
   {
-   "id": "wd:Q7606974",
-   "name": "100 King Street West",
-   "label": "100 King Street West",
+   "id": "wd:Q59315832",
+   "name": "Big Tub Lighthouse",
+   "label": "Big Tub Lighthouse",
    "type": "built",
-   "kind": "skyscraper",
+   "kind": "lighthouse",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.2573,
-   "lon": -79.8705,
+   "lat": 45.2575,
+   "lon": -81.6728,
    "rarity": "Rare",
-   "fame": 2142,
+   "fame": 804,
    "facts": {
-    "elevation_m": 107,
-    "temp_c": 8.1
+    "elevation_m": 180,
+    "height_m": 12,
+    "temp_c": 6.6
    },
    "flavour": {
-    "text": "100 King Street West, formerly known as Stelco Tower, is the third tallest building in Hamilton, Ontario, Canada.",
+    "text": "The lighthouse was first lit in 1885 and remains in use today.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "100 King Street West",
-    "url": "https://en.wikipedia.org/wiki/100_King_Street_West",
+    "title": "Big Tub Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Big_Tub_Lighthouse",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7606974.webp",
-    "author": "Draconichiaro",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:StelcoTowerJacksonSquare.jpg"
-   }
-  },
-  {
-   "id": "wd:Q89172512",
-   "name": "Saint Arsenije Sremac Church, Whitby",
-   "label": "Saint Arsenije Sremac Church, Whitby",
-   "type": "built",
-   "kind": "church",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.8746,
-   "lon": -78.9417,
-   "rarity": "Rare",
-   "fame": 702,
-   "facts": {
-    "elevation_m": 102,
-    "temp_c": 7.5
-   },
-   "flavour": {
-    "text": "Saint Arsenije Sremac Serbian Orthodox Church is an Eastern Orthodox church located in Whitby, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Saint Arsenije Sremac Serbian Orthodox Church",
-    "url": "https://en.wikipedia.org/wiki/Saint_Arsenije_Sremac_Serbian_Orthodox_Church",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q89172512.webp",
-    "author": "Djuradj Vujcic",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Saint_Arsenije_Sremac_Serbian_Orthodox_Church_photo_by_Djuradj_Vujcic.jpg"
-   }
-  },
-  {
-   "id": "wd:Q2112897",
-   "name": "Fort Richelieu",
-   "label": "Fort Richelieu",
-   "type": "built",
-   "kind": "archaeological site",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 46.0468,
-   "lon": -73.1157,
-   "rarity": "Rare",
-   "fame": 2322,
-   "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 5.3
-   },
-   "flavour": {
-    "text": "The fort is designated as a National Historic Site of Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Fort Richelieu",
-    "url": "https://en.wikipedia.org/wiki/Fort_Richelieu",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2112897.webp",
-    "author": "Fralambert",
+    "file": "images/photo/wd_Q59315832.webp",
+    "author": "NewMedia Designs - Shari Chambers",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Monument_du_Fort_Richelieu.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bigtublight.jpg"
    }
   },
   {
-   "id": "wd:Q780392",
-   "name": "L Tower",
-   "label": "L Tower",
+   "id": "wd:Q4883257",
+   "name": "Bell Sports Complex",
+   "label": "Bell Sports Complex",
    "type": "built",
-   "kind": "skyscraper",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6464,
-   "lon": -79.3764,
-   "rarity": "Rare",
-   "fame": 3180,
-   "facts": {
-    "elevation_m": 85,
-    "height_m": 205,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "The L Tower is a residential skyscraper in Toronto, Ontario, Canada, which was designed by architect Daniel Libeskind.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "L Tower",
-    "url": "https://en.wikipedia.org/wiki/L_Tower",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q780392.webp",
-    "author": "Secondarywaltz",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:L_Tower_from_The_Esplanande.JPG"
-   }
-  },
-  {
-   "id": "wd:Q6783764",
-   "name": "Masonic Temple",
-   "label": "Masonic Temple (near St. John's)",
-   "type": "built",
-   "kind": "Masonic temple",
-   "region": "CA-NL",
-   "country": "CA",
-   "lat": 47.5658,
-   "lon": -52.7075,
-   "rarity": "Rare",
-   "fame": 882,
-   "facts": {
-    "elevation_m": 35,
-    "temp_c": 5.0
-   },
-   "flavour": {
-    "text": "The Masonic Temple built in 1894 at St. John's, Newfoundland, Canada is an example of Victorian construction which includes pilasters.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Masonic Temple (St. John's, Newfoundland and Labrador)",
-    "url": "https://en.wikipedia.org/wiki/Masonic_Temple_%28St._John%27s%2C_Newfoundland_and_Labrador%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6783764.webp",
-    "author": "User:HJKeats",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Masonic_Temple,_Newfoundland.jpg"
-   }
-  },
-  {
-   "id": "wd:Q26935214",
-   "name": "Co-Cathedral of Our Lady of Fourvière",
-   "label": "Co-Cathedral of Our Lady of Fourvière",
-   "type": "built",
-   "kind": "Catholic cathedral",
+   "kind": "building",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 46.5525,
-   "lon": -75.5006,
+   "lat": 45.4527,
+   "lon": -73.4452,
    "rarity": "Rare",
-   "fame": 528,
+   "fame": 3408,
    "facts": {
-    "elevation_m": 227,
-    "temp_c": 2.9
+    "elevation_m": 25,
+    "temp_c": 6.3
    },
    "flavour": {
-    "text": "Notre-Dame-de-Fourvière Co-Cathedral is the co-cathedral of the Diocese of Saint-Jérôme–Mont-Laurier, Quebec, Canada.",
-    "source": "wikipedia",
-    "lang": "fr",
-    "title": "Cocathédrale Notre-Dame-de-Fourvière de Mont-Laurier",
-    "url": "https://fr.wikipedia.org/wiki/Cocath%C3%A9drale_Notre-Dame-de-Fourvi%C3%A8re_de_Mont-Laurier",
-    "translated": true
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q26935214.webp",
-    "author": "Unknown Unknown",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Notre-Dame-de-Mont-Laurier_BAnQ_P748S1P1344.jpg"
-   }
-  },
-  {
-   "id": "wd:Q16247338",
-   "name": "Centre for Interactive Research on Sustainability",
-   "label": "Centre for Interactive Research on Sustainability",
-   "type": "built",
-   "kind": "built structure",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 49.262,
-   "lon": -123.253,
-   "rarity": "Rare",
-   "fame": 954,
-   "facts": {
-    "elevation_m": 90,
-    "temp_c": 10.2
-   },
-   "flavour": {
-    "text": "The Centre for Interactive Research on Sustainability is located at the University of British Columbia's Point Grey Campus in Vancouver.",
+    "text": "It opened on December 12, 2008, and features two ice hockey rinks and one indoor soccer pitch.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Centre for Interactive Research on Sustainability",
-    "url": "https://en.wikipedia.org/wiki/Centre_for_Interactive_Research_on_Sustainability",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q16247338.webp",
-    "author": "Xicotencatl",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CIRS_Building_UBC.jpg"
-   }
-  },
-  {
-   "id": "wd:Q16684499",
-   "name": "Church of St Rose of Lima, Gatineau",
-   "label": "Church of St Rose of Lima, Gatineau",
-   "type": "built",
-   "kind": "church",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.4994,
-   "lon": -75.6083,
-   "rarity": "Rare",
-   "fame": 720,
-   "facts": {
-    "elevation_m": 55,
-    "temp_c": 5.8
-   },
-   "flavour": {
-    "text": "Sainte-Rose-de-Lima Church is a Catholic religious building located in the Templeton neighborhood of Gatineau, Quebec, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sainte-Rose-de-Lima Church, Gatineau",
-    "url": "https://en.wikipedia.org/wiki/Sainte-Rose-de-Lima_Church%2C_Gatineau",
+    "title": "CN Sports Complex",
+    "url": "https://en.wikipedia.org/wiki/CN_Sports_Complex",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q16684499.webp"
+    "file": "images/minimap/wd_Q4883257.webp"
    }
   },
   {
-   "id": "wd:Q7337769",
-   "name": "River Rock Casino Resort",
-   "label": "River Rock Casino Resort",
+   "id": "wd:Q3077956",
+   "name": "Fort Menagoueche",
+   "label": "Fort Menagoueche",
    "type": "built",
-   "kind": "casino",
-   "region": "CA-BC",
+   "kind": "fort",
+   "region": "CA-NB",
    "country": "CA",
-   "lat": 49.1961,
-   "lon": -123.1277,
+   "lat": 45.2644,
+   "lon": -66.0736,
    "rarity": "Rare",
-   "fame": 5994,
+   "fame": 1272,
    "facts": {
-    "elevation_m": 8.0,
-    "temp_c": 10.5
+    "elevation_m": 10,
+    "temp_c": 5.8
    },
    "flavour": {
-    "text": "River Rock Casino Resort is casino hotel located in Richmond, British Columbia along the Fraser River.",
+    "text": "It was reconstructed as Fort Frederick by the British.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "River Rock Casino Resort",
-    "url": "https://en.wikipedia.org/wiki/River_Rock_Casino_Resort",
+    "title": "Fort Menagoueche",
+    "url": "https://en.wikipedia.org/wiki/Fort_Menagoueche",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7337769.webp",
+    "file": "images/photo/wd_Q3077956.webp",
+    "author": "Hantsheroes",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OldFortsMonumentStJohnNewBrunswick.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3397495",
+   "name": "Portage Bridge",
+   "label": "Portage Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.4222,
+   "lon": -75.7136,
+   "rarity": "Rare",
+   "fame": 1584,
+   "facts": {
+    "elevation_m": 40,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "The Portage Bridge crosses the Ottawa River just down-river from the Chaudière Bridge, joining the communities of Gatineau, Quebec and Ottawa, Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portage Bridge",
+    "url": "https://en.wikipedia.org/wiki/Portage_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3397495.webp",
+    "author": "P199",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Portage_Bridge_Ottawa-Hull.JPG"
+   }
+  },
+  {
+   "id": "wd:Q28376385",
+   "name": "Victoria Beach Lighthouse",
+   "label": "Victoria Beach Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 44.676,
+   "lon": -65.7535,
+   "rarity": "Rare",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 29,
+    "height_m": 7.9,
+    "temp_c": 6.1
+   },
+   "flavour": {
+    "text": "It was built in 1901 to guide ships through the Digby Gut.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Phare de Victoria Beach",
+    "url": "https://fr.wikipedia.org/wiki/Phare_de_Victoria_Beach",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28376385.webp",
+    "author": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lighthouse_DSC02595_-_Victoria_Beach_Lighthouse_(7986860727).jpg"
+   }
+  },
+  {
+   "id": "wd:Q18167827",
+   "name": "Sydenham Street United Church",
+   "label": "Sydenham Street United Church",
+   "type": "built",
+   "kind": "church building",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 44.2299,
+   "lon": -76.4884,
+   "rarity": "Rare",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 96,
+    "temp_c": 6.9
+   },
+   "flavour": {
+    "text": "It was originally a Methodist church, but since 1925 has belonged to the United Church of Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sydenham Street United Church",
+    "url": "https://en.wikipedia.org/wiki/Sydenham_Street_United_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q18167827.webp",
+    "author": "Nerlich & Co., Toronto",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Sydenham_Street_Methodist_Church,_Kingston,_Canada_1910.jpg"
+   }
+  },
+  {
+   "id": "wd:Q776096",
+   "name": "Italian Walk of Fame",
+   "label": "Italian Walk of Fame",
+   "type": "built",
+   "kind": "walk of fame",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6551,
+   "lon": -79.4147,
+   "rarity": "Rare",
+   "fame": 2886,
+   "facts": {
+    "elevation_m": 110,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "The Italian Walk of Fame located in Toronto, Ontario, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Italian Walk of Fame",
+    "url": "https://en.wikipedia.org/wiki/Italian_Walk_of_Fame",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q776096.webp",
+    "author": "Canmenwalker",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Italian_Walk_of_Fame_2023.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4231899",
+   "name": "Chan Centre for the Performing Arts",
+   "label": "Chan Centre for the Performing Arts",
+   "type": "built",
+   "kind": "performing arts building",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.2697,
+   "lon": -123.255,
+   "rarity": "Rare",
+   "fame": 3996,
+   "facts": {
+    "elevation_m": 86,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "The Chan Centre for the Performing Arts is located on the campus of the University of British Columbia in Vancouver, British Columbia, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chan Centre for the Performing Arts",
+    "url": "https://en.wikipedia.org/wiki/Chan_Centre_for_the_Performing_Arts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4231899.webp",
     "author": "Arnold C",
     "licence": "Attribution",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Riverrockcasino-2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Chancentre-closeup.jpg"
    }
   },
   {
-   "id": "wd:Q8060815",
-   "name": "Yukon Arts Centre",
-   "label": "Yukon Arts Centre",
+   "id": "wd:Q7538075",
+   "name": "Skytrail",
+   "label": "Skytrail",
    "type": "built",
-   "kind": "art museum",
-   "region": "CA-YT",
+   "kind": "footbridge",
+   "region": "CA-SK",
    "country": "CA",
-   "lat": 60.7498,
-   "lon": -135.0943,
+   "lat": 51.4901,
+   "lon": -107.072,
    "rarity": "Rare",
-   "fame": 672,
+   "fame": 606,
    "facts": {
-    "elevation_m": 716,
-    "temp_c": -0.9
+    "elevation_m": 492,
+    "temp_c": 3.2
    },
    "flavour": {
-    "text": "The Yukon Arts Centre an arts centre and gallery located in Whitehorse, Yukon, Canada.",
+    "text": "The SkyTrail Bridge spans the South Saskatchewan River in Outlook, Saskatchewan, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Yukon Arts Centre",
-    "url": "https://en.wikipedia.org/wiki/Yukon_Arts_Centre",
+    "title": "Skytrail",
+    "url": "https://en.wikipedia.org/wiki/Skytrail",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q8060815.webp",
-    "author": "117Avenue",
+    "file": "images/photo/wd_Q7538075.webp",
+    "author": "Kats0303",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Old_Fire_Hall_(Yukon).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:SkytrailOutlook.jpg"
    }
   },
   {
-   "id": "wd:Q7539623",
-   "name": "Sledgehammer",
-   "label": "Sledgehammer",
+   "id": "wd:Q2886887",
+   "name": "Cathedral Basilica of St Michael, Sherbrooke",
+   "label": "Cathedral Basilica of St Michael, Sherbrooke",
    "type": "built",
-   "kind": "amusement ride",
-   "region": "CA-ON",
+   "kind": "cathedral",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 43.8397,
-   "lon": -79.5407,
+   "lat": 45.4025,
+   "lon": -71.8931,
    "rarity": "Rare",
-   "fame": 1854,
+   "fame": 2514,
    "facts": {
-    "elevation_m": 222,
-    "temp_c": 6.6
+    "elevation_m": 179,
+    "temp_c": 5.2
    },
    "flavour": {
-    "text": "The Huss ride was opened to the public on May 4, 2003, and continues to operate today.",
+    "text": "Saint-Michel Basilica-Cathedral is a Roman Catholic minor basilica and cathedral dedicated to St. Michael located in Sherbrooke, Quebec, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Sledge Hammer (ride)",
-    "url": "https://en.wikipedia.org/wiki/Sledge_Hammer_%28ride%29",
+    "title": "Saint-Michel Basilica-Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Saint-Michel_Basilica-Cathedral",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7539623.webp",
-    "author": "mathewingram",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sledge_Hammer_Canada%27s_Wonderland.jpg"
+    "file": "images/photo/wd_Q2886887.webp",
+    "author": "Libertad-pb",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint-Michel_Sherbrooke.jpg"
    }
   },
   {
-   "id": "wd:Q1033771",
-   "name": "Canterra Tower",
-   "label": "Canterra Tower",
+   "id": "wd:Q2945010",
+   "name": "Islamic Cultural Centre of Quebec City",
+   "label": "Islamic Cultural Centre of Quebec City",
+   "type": "built",
+   "kind": "mosque",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.7779,
+   "lon": -71.3054,
+   "rarity": "Rare",
+   "fame": 2880,
+   "facts": {
+    "elevation_m": 79,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "The Islamic Cultural Centre of Quebec City is an organization dedicated to meeting the spiritual.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Islamic Cultural Centre of Quebec City",
+    "url": "https://en.wikipedia.org/wiki/Islamic_Cultural_Centre_of_Quebec_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2945010.webp",
+    "author": "Wilfredor",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Quebec_Islamic_Cultural_Centre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7020873",
+   "name": "Nexen Building, Calgary",
+   "label": "Nexen Building, Calgary",
    "type": "built",
    "kind": "skyscraper",
    "region": "CA-AB",
    "country": "CA",
-   "lat": 51.0511,
-   "lon": -114.071,
+   "lat": 51.0464,
+   "lon": -114.0794,
    "rarity": "Rare",
-   "fame": 2340,
+   "fame": 1326,
    "facts": {
-    "elevation_m": 1049,
-    "height_m": 177,
+    "elevation_m": 1052,
+    "height_m": 152,
     "temp_c": 4.1
    },
    "flavour": {
-    "text": "400 Third is a skyscraper in Calgary, Alberta, Canada.",
+    "text": "801 Seventh Avenue S.W., commonly known as the Nexen Building, is a high rise office building in downtown Calgary, Alberta, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Canterra Tower",
-    "url": "https://en.wikipedia.org/wiki/Canterra_Tower",
+    "title": "Nexen Building",
+    "url": "https://en.wikipedia.org/wiki/Nexen_Building",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1033771.webp",
-    "author": "Surrealplaces at English Wikipedia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Canterra_1.jpg"
+    "file": "images/photo/wd_Q7020873.webp",
+    "author": "Qyd ( talk · contribs )",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Nexen_building1.jpg"
    }
   },
   {
@@ -4006,29 +4006,29 @@
    }
   },
   {
-   "id": "gn:6138374",
-   "name": "Saint-Hyacinthe",
-   "label": "Saint-Hyacinthe",
+   "id": "gn:6354934",
+   "name": "Aylmer",
+   "label": "Aylmer (Quebec)",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.6308,
-   "lon": -72.957,
+   "lat": 45.4002,
+   "lon": -75.8064,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 50326,
-    "elevation_m": 32,
+    "population": 56542,
+    "elevation_m": 90,
     "temp_c": 5.9
    },
    "flavour": {
-    "text": "A community of 50,326 people in Quebec.",
+    "text": "A community of 56,542 people in Quebec.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_6138374.webp"
+    "file": "images/minimap/gn_6354934.webp"
    }
   },
   {
@@ -4084,29 +4084,29 @@
    }
   },
   {
-   "id": "gn:6139071",
-   "name": "Saint-Simon",
-   "label": "Saint-Simon",
+   "id": "gn:13732297",
+   "name": "Sainte-Geneviève-de-Berthier",
+   "label": "Sainte-Geneviève-de-Berthier",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.7345,
-   "lon": -72.8729,
+   "lat": 46.0917,
+   "lon": -73.212,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1413,
-    "elevation_m": 30,
-    "temp_c": 5.6
+    "population": 2253,
+    "elevation_m": 12,
+    "temp_c": 5.1
    },
    "flavour": {
-    "text": "A community of 1,413 people in Quebec.",
+    "text": "A community of 2,253 people in Quebec.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_6139071.webp"
+    "file": "images/minimap/gn_13732297.webp"
    }
   }
  ]

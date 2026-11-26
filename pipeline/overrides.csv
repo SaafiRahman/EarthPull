@@ -6,3 +6,5 @@ wd:Q21413764,drop,"CalgaryNEXT: cancelled proposal; its Wikidata item now links 
 wd:Q5588772,keep,"Senate of Canada Building: the former Ottawa Union Station, so Wikidata also calls it a railway station"
 wd:Q338963,keep,"Casino du Lac-Leamy: a landmark casino; Wikidata also lists its heliport"
 wd:Q1127212,drop,"2 World Trade Center: only the foundation is built; Wikidata calls it a skyscraper"
+wd:Q11290,keep,"Grand Central Terminal: a landmark building; Wikidata calls it a railway station"
+wd:Q214867,keep,"National Gallery of Art: Wikidata calls it a national gallery and a nonprofit organization"

@@ -2,6 +2,41 @@
  "note": "Sample of the United States card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q44440",
+   "name": "Golden Gate Bridge",
+   "label": "Golden Gate Bridge",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 37.8197,
+   "lon": -122.4786,
+   "rarity": "Mythic",
+   "fame": 650856,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 227,
+    "length_km": 2.7,
+    "temp_c": 14.1
+   },
+   "flavour": {
+    "text": "The San Francisco Golden Gate Bridge is a suspension bridge spanning the Golden Gate.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Golden Gate Bridge",
+    "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q44440.webp",
+    "author": "Rich Niewiroski Jr.",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg"
+   }
+  },
+  {
    "id": "wd:Q5463",
    "name": "Rocky Mountains",
    "label": "Rocky Mountains",
@@ -36,6 +71,73 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9202",
+   "name": "Statue of Liberty",
+   "label": "Statue of Liberty",
+   "type": "built",
+   "kind": "colossal statue",
+   "region": "US-NJ",
+   "country": "US",
+   "lat": 40.6892,
+   "lon": -74.0444,
+   "rarity": "Mythic",
+   "fame": 1369932,
+   "facts": {
+    "elevation_m": 8.0,
+    "height_m": 46,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "The Statue of Liberty is a colossal neoclassical sculpture of a robed and crowned woman located on Liberty Island, part of New York City, in New York Harbor.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Statue of Liberty",
+    "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9202.webp",
+    "author": "Christian David",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_and_a_sightseeing_boat,_Liberty_Island,_New_York.jpg"
+   }
+  },
+  {
+   "id": "wd:Q83497",
+   "name": "Mount Rushmore",
+   "label": "Mount Rushmore",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-SD",
+   "country": "US",
+   "lat": 43.8789,
+   "lon": -103.4592,
+   "rarity": "Mythic",
+   "fame": 1207584,
+   "facts": {
+    "elevation_m": 1745,
+    "temp_c": 7.0
+   },
+   "flavour": {
+    "text": "The Mount Rushmore National Memorial is a national memorial featuring a colossal sculpture carved into the granite face of Mount Rushmore in the Black Hills.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Rushmore",
+    "url": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q83497.webp",
+    "author": "Thomas Wolf , www.foto-tw.de",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_Rushmore_detail_view_(100MP).jpg"
    }
   },
   {
@@ -809,329 +911,330 @@
    }
   },
   {
-   "id": "wd:Q5471828",
-   "name": "Fort Phil Kearny",
-   "label": "Fort Phil Kearny",
+   "id": "wd:Q2907462",
+   "name": "Universe of Energy",
+   "label": "Universe of Energy",
    "type": "built",
-   "kind": "fort",
-   "region": "US-WY",
+   "kind": "amusement ride",
+   "region": "US-FL",
    "country": "US",
-   "lat": 44.5322,
-   "lon": -106.826,
+   "lat": 28.3746,
+   "lon": -81.5479,
    "rarity": "Epic",
-   "fame": 13752,
+   "fame": 33990,
    "facts": {
-    "elevation_m": 1437,
-    "temp_c": 6.7
+    "elevation_m": 40,
+    "temp_c": 22.1
    },
    "flavour": {
-    "text": "Fort Phil Kearny was an outpost of the United States Army that existed in the late 1860s in present-day northeastern Wyoming along the Bozeman Trail.",
+    "text": "The Universe of Energy was a pavilion on the eastern side of Future World at Epcot, a theme park at the Walt Disney World Resort in Bay Lake, Florida.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Fort Phil Kearny",
-    "url": "https://en.wikipedia.org/wiki/Fort_Phil_Kearny",
+    "title": "Universe of Energy",
+    "url": "https://en.wikipedia.org/wiki/Universe_of_Energy",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5471828.webp",
-    "author": "Gcoudert at English Wikipedia",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Fort_Phil_Kearney.JPG"
+    "file": "images/photo/wd_Q2907462.webp",
+    "author": "Theme Park Tourist",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Universe_of_Energy_(23052612180).jpg"
    }
   },
   {
-   "id": "wd:Q5374101",
-   "name": "Empire Mine State Historic Park",
-   "label": "Empire Mine State Historic Park",
+   "id": "wd:Q965011",
+   "name": "Millard House",
+   "label": "Millard House",
    "type": "built",
-   "kind": "California state historic park",
+   "kind": "Textile block house",
    "region": "US-CA",
    "country": "US",
-   "lat": 39.2036,
-   "lon": -121.043,
+   "lat": 34.1554,
+   "lon": -118.1618,
    "rarity": "Epic",
-   "fame": 15378,
+   "fame": 15468,
    "facts": {
-    "elevation_m": 850,
-    "temp_c": 13.8
+    "elevation_m": 267,
+    "temp_c": 18.5
    },
    "flavour": {
-    "text": "Empire Mine State Historic Park is a state-protected mine and park in the Sierra Nevada mountains in Grass Valley, California.",
+    "text": "The Millard House, commonly known as La Miniatura, is a house at 645 Prospect Crescent in Pasadena, a suburb of Los Angeles, California, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Empire Mine State Historic Park",
-    "url": "https://en.wikipedia.org/wiki/Empire_Mine_State_Historic_Park",
+    "title": "Millard House (Pasadena, California)",
+    "url": "https://en.wikipedia.org/wiki/Millard_House_%28Pasadena%2C_California%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q965011.webp",
+    "author": "Los Angeles",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Millard_House,_Pasadena.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2244441",
+   "name": "Port of Long Beach",
+   "label": "Port of Long Beach",
+   "type": "built",
+   "kind": "port",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 33.7542,
+   "lon": -118.2165,
+   "rarity": "Epic",
+   "fame": 29004,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 17.9
+   },
+   "flavour": {
+    "text": "The Port of Long Beach, administered as the Harbor Department of the City of Long Beach, is a container port in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port of Long Beach",
+    "url": "https://en.wikipedia.org/wiki/Port_of_Long_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2244441.webp",
+    "author": "Msun523",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Crane_BridgeShip.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1426217",
+   "name": "Garrison Dam",
+   "label": "Garrison Dam",
+   "type": "built",
+   "kind": "embankment dam",
+   "region": "US-ND",
+   "country": "US",
+   "lat": 47.4986,
+   "lon": -101.412,
+   "rarity": "Epic",
+   "fame": 20472,
+   "facts": {
+    "elevation_m": 556,
+    "temp_c": 5.3
+   },
+   "flavour": {
+    "text": "Garrison Dam is an earth-fill embankment dam on the Missouri River in central North Dakota, U.S.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Garrison Dam",
+    "url": "https://en.wikipedia.org/wiki/Garrison_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1426217.webp",
+    "author": "Harry Weddington, U.S. Army Corps of Engineers",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:USACE_Garrison_Dam_North_Dakota.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1392467",
+   "name": "Mudd Club",
+   "label": "Mudd Club",
+   "type": "built",
+   "kind": "nightclub",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7177,
+   "lon": -74.0023,
+   "rarity": "Epic",
+   "fame": 31992,
+   "facts": {
+    "elevation_m": 32,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "The Mudd Club was a nightclub located at 77 White Street in the TriBeCa neighborhood of Lower Manhattan in New York City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mudd Club",
+    "url": "https://en.wikipedia.org/wiki/Mudd_Club",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1392467.webp",
+    "author": "Wickkey",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Facciata_del_Mudd_Club_@_NYC.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6016039",
+   "name": "Independence Events Center",
+   "label": "Independence Events Center",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "US-MO",
+   "country": "US",
+   "lat": 39.0391,
+   "lon": -94.3576,
+   "rarity": "Epic",
+   "fame": 11562,
+   "facts": {
+    "elevation_m": 240,
+    "temp_c": 12.6
+   },
+   "flavour": {
+    "text": "Cable Dahmer Arena is a 5,800-seat multi-purpose indoor arena in Independence, Missouri, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cable Dahmer Arena",
+    "url": "https://en.wikipedia.org/wiki/Cable_Dahmer_Arena",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5374101.webp"
+    "file": "images/minimap/wd_Q6016039.webp"
    }
   },
   {
-   "id": "wd:Q7541393",
-   "name": "Sloss Furnaces",
-   "label": "Sloss Furnaces",
+   "id": "wd:Q2661000",
+   "name": "Power Station",
+   "label": "Power Station",
    "type": "built",
-   "kind": "historic landmark",
-   "region": "US-AL",
-   "country": "US",
-   "lat": 33.5207,
-   "lon": -86.7913,
-   "rarity": "Epic",
-   "fame": 17814,
-   "facts": {
-    "elevation_m": 194,
-    "temp_c": 16.5
-   },
-   "flavour": {
-    "text": "It operated as a pig iron-producing blast furnace from 1882 to 1971.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sloss Furnaces",
-    "url": "https://en.wikipedia.org/wiki/Sloss_Furnaces",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7541393.webp",
-    "author": "DXR",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sloss_Furnaces,_Birmingham_AL,_North_view_20160714_1.jpg"
-   }
-  },
-  {
-   "id": "wd:Q4396797",
-   "name": "Rock Island Arsenal",
-   "label": "Rock Island Arsenal",
-   "type": "built",
-   "kind": "archaeological site",
-   "region": "US-IL",
-   "country": "US",
-   "lat": 41.5169,
-   "lon": -90.5419,
-   "rarity": "Epic",
-   "fame": 57420,
-   "facts": {
-    "elevation_m": 180,
-    "temp_c": 9.9
-   },
-   "flavour": {
-    "text": "The Rock Island Arsenal comprises 946 acres located on Arsenal Island, originally known as Rock Island.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Rock Island Arsenal",
-    "url": "https://en.wikipedia.org/wiki/Rock_Island_Arsenal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4396797.webp",
-    "author": "Robert A, Ryan, J. Ceronia, and Bruce A. Harms, Photographers",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Rock_Island_Arsenal,_Building_No._1,_Gillespie_Avenue_between_Terrace_Drive_%26_Hedge_Lane,_Rock_Island,(_Rock_Island_County,_Illinois).jpg"
-   }
-  },
-  {
-   "id": "wd:Q7141555",
-   "name": "Pasadena Playhouse",
-   "label": "Pasadena Playhouse",
-   "type": "built",
-   "kind": "educational institution",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 34.1451,
-   "lon": -118.1372,
-   "rarity": "Epic",
-   "fame": 34152,
-   "facts": {
-    "elevation_m": 259,
-    "temp_c": 18.5
-   },
-   "flavour": {
-    "text": "The 686-seat auditorium produces a variety of cultural and artistic events, professional shows, and community engagements each year.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pasadena Playhouse",
-    "url": "https://en.wikipedia.org/wiki/Pasadena_Playhouse",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7141555.webp",
-    "author": "Flickr user Canon in 2D",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pasadena_Playhouse.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7641361",
-   "name": "Sunset Tower",
-   "label": "Sunset Tower",
-   "type": "built",
-   "kind": "hotel",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 34.0951,
-   "lon": -118.3721,
-   "rarity": "Epic",
-   "fame": 28962,
-   "facts": {
-    "elevation_m": 126,
-    "temp_c": 17.5
-   },
-   "flavour": {
-    "text": "The Sunset Tower Hotel, previously known as The St. James's Club and The Argyle.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sunset Tower",
-    "url": "https://en.wikipedia.org/wiki/Sunset_Tower",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7641361.webp",
-    "author": "Carol M. Highsmith",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Highsmithargylehotelsunsetstrip.jpg"
-   }
-  },
-  {
-   "id": "wd:Q897202",
-   "name": "Temple Emanu-El",
-   "label": "Temple Emanu-El",
-   "type": "built",
-   "kind": "synagogue",
+   "kind": "recording studio",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.768,
-   "lon": -73.9697,
+   "lat": 40.7664,
+   "lon": -73.9894,
    "rarity": "Epic",
-   "fame": 27072,
+   "fame": 39984,
    "facts": {
-    "elevation_m": 28,
+    "elevation_m": 21,
     "temp_c": 12.1
    },
    "flavour": {
-    "text": "Temple Emanu-El of New York is a synagogue at 1 East 65th Street on the Upper East Side of Manhattan, at the northeast corner with Fifth Avenue.",
+    "text": "Power Station at BerkleeNYC is a recording studio located at 441 West 53rd Street in the Hell's Kitchen neighborhood of Midtown Manhattan in New York City.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Temple Emanu-El of New York (1930)",
-    "url": "https://en.wikipedia.org/wiki/Temple_Emanu-El_of_New_York_%281930%29",
+    "title": "Power Station (recording studio)",
+    "url": "https://en.wikipedia.org/wiki/Power_Station_%28recording_studio%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q897202.webp",
-    "author": "Jim.henderson",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Emanu-elNYjeh.JPG"
-   }
-  },
-  {
-   "id": "wd:Q3135697",
-   "name": "Hilton Hawaiian Village",
-   "label": "Hilton Hawaiian Village",
-   "type": "built",
-   "kind": "hotel",
-   "region": "US-HI",
-   "country": "US",
-   "lat": 21.2824,
-   "lon": -157.8374,
-   "rarity": "Epic",
-   "fame": 20676,
-   "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "The resort first opened in 1955, and since has grown to become the largest in the Hilton chain of hotels.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Hilton Hawaiian Village",
-    "url": "https://en.wikipedia.org/wiki/Hilton_Hawaiian_Village",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3135697.webp",
-    "author": "Travis.Thurston",
+    "file": "images/photo/wd_Q2661000.webp",
+    "author": "Americasroof",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:DukesLagoon4.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Avatar-studios.jpg"
    }
   },
   {
-   "id": "wd:Q5471315",
-   "name": "Fort Hays",
-   "label": "Fort Hays",
+   "id": "wd:Q895431",
+   "name": "Bowery Ballroom",
+   "label": "Bowery Ballroom",
    "type": "built",
-   "kind": "fort",
-   "region": "US-KS",
+   "kind": "concert hall",
+   "region": "US-NY",
    "country": "US",
-   "lat": 38.8617,
-   "lon": -99.3422,
+   "lat": 40.7206,
+   "lon": -73.9939,
    "rarity": "Epic",
-   "fame": 17874,
+   "fame": 21054,
    "facts": {
-    "elevation_m": 615,
-    "temp_c": 12.0
+    "elevation_m": 23,
+    "temp_c": 12.1
    },
    "flavour": {
-    "text": "Active from 1865 to 1889 it was an important frontier post during the American Indian Wars of the late 19th century.",
+    "text": "The venue has enjoyed a fabled reputation among musicians as well as audiences.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Fort Hays",
-    "url": "https://en.wikipedia.org/wiki/Fort_Hays",
+    "title": "Bowery Ballroom",
+    "url": "https://en.wikipedia.org/wiki/Bowery_Ballroom",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5471315.webp",
-    "author": "IveGoneAway",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fort_Hays_Blockhouse_01.jpg"
+    "file": "images/photo/wd_Q895431.webp",
+    "author": "This photo was taken by participant/team Tony as part of the Commons:Wikipedia Takes Manhattan project on April 4, 2008. This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. You are free: to share – to copy, distribute and transmit the work to remix – to adapt the work Under the following conditions: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original. https://creativecommons.org/licenses/by-sa/3.0 CC BY-SA 3.0 Creative Commons Attribution-Share Alike 3.0 true true",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WTM_tony_0084.jpg"
    }
   },
   {
-   "id": "wd:Q1406471",
-   "name": "Walter E. Fernald Developmental Center",
-   "label": "Walter E. Fernald Developmental Center",
+   "id": "wd:Q1266597",
+   "name": "Dupont Circle",
+   "label": "Dupont Circle",
    "type": "built",
-   "kind": "historic district",
-   "region": "US-MA",
+   "kind": "gay village",
+   "region": "US-DC",
    "country": "US",
-   "lat": 42.3911,
-   "lon": -71.2106,
+   "lat": 38.9096,
+   "lon": -77.0434,
    "rarity": "Epic",
-   "fame": 23274,
+   "fame": 36600,
    "facts": {
-    "elevation_m": 55,
-    "temp_c": 9.4
+    "elevation_m": 27,
+    "area_km2": 1.3,
+    "temp_c": 13.5
    },
    "flavour": {
-    "text": "The Walter E. Fernald State School, later the Walter E. Fernald Developmental Center.",
+    "text": "Dupont Circle is a historic roundabout park and neighborhood of Washington, D.C..",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Walter E. Fernald Developmental Center",
-    "url": "https://en.wikipedia.org/wiki/Walter_E._Fernald_Developmental_Center",
+    "title": "Dupont Circle",
+    "url": "https://en.wikipedia.org/wiki/Dupont_Circle",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1406471.webp",
-    "author": "Daderot",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Walter_E._Fernald_State_School_-_IMG_1879.JPG"
+    "file": "images/photo/wd_Q1266597.webp",
+    "author": "AgnosticPreachersKid",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dupont_Circle_fountain_-_facing_southwest.JPG"
+   }
+  },
+  {
+   "id": "wd:Q689054",
+   "name": "Goliath",
+   "label": "Goliath (near Mableton)",
+   "type": "built",
+   "kind": "amusement ride",
+   "region": "US-GA",
+   "country": "US",
+   "lat": 33.7692,
+   "lon": -84.55,
+   "rarity": "Epic",
+   "fame": 11988,
+   "facts": {
+    "elevation_m": 245,
+    "temp_c": 16.2
+   },
+   "flavour": {
+    "text": "Goliath is a steel roller coaster located at Six Flags Over Georgia in Mableton, Georgia, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Goliath (Six Flags Over Georgia)",
+    "url": "https://en.wikipedia.org/wiki/Goliath_%28Six_Flags_Over_Georgia%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q689054.webp",
+    "author": "Coasterswim at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Goliath3.jpg"
    }
   },
   {
@@ -1827,273 +1930,263 @@
    }
   },
   {
-   "id": "wd:Q25379780",
-   "name": "161 Maiden Lane",
-   "label": "161 Maiden Lane",
+   "id": "wd:Q1132413",
+   "name": "Soldier Field",
+   "label": "Soldier Field",
    "type": "built",
-   "kind": "building or structure under construction",
-   "region": "US-NY",
+   "kind": "stadium",
+   "region": "US-IL",
    "country": "US",
-   "lat": 40.7055,
-   "lon": -74.0048,
+   "lat": 41.8625,
+   "lon": -87.6167,
    "rarity": "Legendary",
-   "fame": 74778,
+   "fame": 395658,
    "facts": {
-    "elevation_m": 37,
-    "height_m": 204,
-    "temp_c": 12.1
+    "elevation_m": 194,
+    "temp_c": 9.7
    },
    "flavour": {
-    "text": "161 Maiden Lane is an incomplete 670-foot-tall residential skyscraper on Maiden Lane in the Financial District of Manhattan, New York City, United States.",
+    "text": "It also regularly hosts stadium concerts and other large crowd events.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "161 Maiden Lane",
-    "url": "https://en.wikipedia.org/wiki/161_Maiden_Lane",
+    "title": "Soldier Field",
+    "url": "https://en.wikipedia.org/wiki/Soldier_Field",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q25379780.webp",
-    "author": "GrissJr",
+    "file": "images/photo/wd_Q1132413.webp",
+    "author": "Sea Cow",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:1SeaportJ19.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Soldier_Field_S.jpg"
    }
   },
   {
-   "id": "wd:Q465811",
-   "name": "National Mall",
-   "label": "National Mall",
+   "id": "wd:Q1618347",
+   "name": "Alamodome",
+   "label": "Alamodome",
    "type": "built",
-   "kind": "avenue",
-   "region": "US-DC",
+   "kind": "stadium",
+   "region": "US-TX",
    "country": "US",
-   "lat": 38.8894,
-   "lon": -77.0231,
+   "lat": 29.4169,
+   "lon": -98.4789,
    "rarity": "Legendary",
-   "fame": 152154,
+   "fame": 122478,
    "facts": {
-    "elevation_m": 6.1,
-    "length_km": 3.2,
-    "temp_c": 13.5
+    "elevation_m": 195,
+    "temp_c": 20.5
    },
    "flavour": {
-    "text": "The National Mall is a landscaped park near the downtown area of Washington, D.C., the capital city of the United States.",
+    "text": "It is located on the southeastern fringe of downtown San Antonio.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "National Mall",
-    "url": "https://en.wikipedia.org/wiki/National_Mall",
+    "title": "Alamodome",
+    "url": "https://en.wikipedia.org/wiki/Alamodome",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q465811.webp",
-    "author": "Carol M. Highsmith",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_U.S._Capitol_under_restoration,_Washington,_D.C_LCCN2010630859.jpg"
+    "file": "images/photo/wd_Q1618347.webp",
+    "author": "Billy Hathorn",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alamodome_from_the_Tower_of_the_Americas_IMG_4600.JPG"
    }
   },
   {
-   "id": "wd:Q474326",
-   "name": "Walt Disney Concert Hall",
-   "label": "Walt Disney Concert Hall",
+   "id": "wd:Q734970",
+   "name": "Taliesin",
+   "label": "Taliesin",
    "type": "built",
-   "kind": "concert hall",
+   "kind": "residenz",
+   "region": "US-WI",
+   "country": "US",
+   "lat": 43.1415,
+   "lon": -90.0709,
+   "rarity": "Legendary",
+   "fame": 113448,
+   "facts": {
+    "elevation_m": 243,
+    "area_km2": 0.0,
+    "temp_c": 7.5
+   },
+   "flavour": {
+    "text": "Taliesin is a house-studio complex located 2.5 miles south of the village of Spring Green, Wisconsin, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Taliesin (studio)",
+    "url": "https://en.wikipedia.org/wiki/Taliesin_%28studio%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q734970.webp",
+    "author": "Cindy",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TaliesinFrankLloydWrightHomeSpringGreenWisconsinWinter.jpg"
+   }
+  },
+  {
+   "id": "wd:Q59626",
+   "name": "Circuit of the Americas",
+   "label": "Circuit of the Americas",
+   "type": "built",
+   "kind": "motorsport racing track",
+   "region": "US-TX",
+   "country": "US",
+   "lat": 30.1328,
+   "lon": -97.6411,
+   "rarity": "Legendary",
+   "fame": 143850,
+   "facts": {
+    "elevation_m": 154,
+    "length_km": 5.5,
+    "temp_c": 19.7
+   },
+   "flavour": {
+    "text": "The Circuit of the Americas is a Grade 1 FIA-specification 3.426 mi motor racing track and facilities located in Austin, Texas, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Circuit of the Americas",
+    "url": "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q59626.webp",
+    "author": "Zach Catanzareti Photo",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Circuit_of_the_americas_cota_(52781066233).jpg"
+   }
+  },
+  {
+   "id": "wd:Q100324831",
+   "name": "VelociCoaster",
+   "label": "VelociCoaster",
+   "type": "built",
+   "kind": "launched roller coaster",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 28.4713,
+   "lon": -81.472,
+   "rarity": "Legendary",
+   "fame": 95346,
+   "facts": {
+    "elevation_m": 41,
+    "height_m": 47,
+    "length_km": 1.4,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "Jurassic World VelociCoaster, or simply VelociCoaster, is a launched roller coaster at Universal Islands of Adventure in Orlando, Florida, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "VelociCoaster",
+    "url": "https://en.wikipedia.org/wiki/VelociCoaster",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q100324831.webp",
+    "author": "Eric A. Soto",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Islands_of_Adventure_Orlando_(51149417278)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wd:Q774694",
+   "name": "Ohio Stadium",
+   "label": "Ohio Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "US-OH",
+   "country": "US",
+   "lat": 40.0017,
+   "lon": -83.0197,
+   "rarity": "Legendary",
+   "fame": 157704,
+   "facts": {
+    "elevation_m": 225,
+    "temp_c": 11.0
+   },
+   "flavour": {
+    "text": "Common nicknames for the stadium include \"The Horseshoe\", \"The Shoe\", and \"The House That Harley Built\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ohio Stadium",
+    "url": "https://en.wikipedia.org/wiki/Ohio_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q774694.webp",
+    "author": "Lectrician2",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohio_Stadium_Overhead.jpg"
+   }
+  },
+  {
+   "id": "wd:Q107377339",
+   "name": "Hayvenhurst",
+   "label": "Hayvenhurst",
+   "type": "built",
+   "kind": "building",
    "region": "US-CA",
    "country": "US",
-   "lat": 34.0553,
-   "lon": -118.25,
+   "lat": 34.1547,
+   "lon": -118.4934,
    "rarity": "Legendary",
-   "fame": 93624,
+   "fame": 81630,
    "facts": {
-    "elevation_m": 130,
-    "temp_c": 18.6
+    "elevation_m": 238,
+    "temp_c": 17.5
    },
    "flavour": {
-    "text": "The Walt Disney Concert Hall in downtown Los Angeles, California, is the fourth hall of the Los Angeles Music Center and was designed by Frank Gehry.",
+    "text": "Hayvenhurst is a 2-acre compound in the Encino neighborhood of the San Fernando Valley in California, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Walt Disney Concert Hall",
-    "url": "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
+    "title": "Hayvenhurst",
+    "url": "https://en.wikipedia.org/wiki/Hayvenhurst",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q474326.webp",
-    "author": "Carol M. Highsmith",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Image-Disney_Concert_Hall_by_Carol_Highsmith_edit.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q107377339.webp"
    }
   },
   {
-   "id": "wd:Q1284526",
-   "name": "Hanford Site",
-   "label": "Hanford Site",
+   "id": "wd:Q1438462",
+   "name": "Fort Benning",
+   "label": "Fort Benning",
    "type": "built",
-   "kind": "United States national laboratory",
-   "region": "US-WA",
+   "kind": "educational institution",
+   "region": "US-GA",
    "country": "US",
-   "lat": 46.6475,
-   "lon": -119.5986,
+   "lat": 32.3661,
+   "lon": -84.9692,
    "rarity": "Legendary",
-   "fame": 166398,
+   "fame": 172416,
    "facts": {
-    "elevation_m": 142,
-    "temp_c": 12.2
+    "elevation_m": 104,
+    "temp_c": 18.0
    },
    "flavour": {
-    "text": "The Hanford Site is a decommissioned nuclear production complex operated by the United States federal government on the Columbia River in Benton County in the…",
+    "text": "As a power projection platform, the post can deploy combat-ready forces by air, rail, and highway for their designated mission.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Hanford Site",
-    "url": "https://en.wikipedia.org/wiki/Hanford_Site",
+    "title": "Fort Benning",
+    "url": "https://en.wikipedia.org/wiki/Fort_Benning",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1284526.webp",
-    "author": "United States Department of Energy",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Hanford_N_Reactor_adjusted.jpg"
-   }
-  },
-  {
-   "id": "wd:Q652452",
-   "name": "Metropolitan Life Insurance Company Tower",
-   "label": "Metropolitan Life Insurance Company Tower",
-   "type": "built",
-   "kind": "hotel",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 40.7411,
-   "lon": -73.9875,
-   "rarity": "Legendary",
-   "fame": 73728,
-   "facts": {
-    "elevation_m": 50,
-    "height_m": 213,
-    "temp_c": 12.1
-   },
-   "flavour": {
-    "text": "The Metropolitan Life Insurance Company Tower is a skyscraper occupying a full block in the Flatiron District of Manhattan in New York City, New York.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Metropolitan Life Insurance Company Tower",
-    "url": "https://en.wikipedia.org/wiki/Metropolitan_Life_Insurance_Company_Tower",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q652452.webp",
-    "author": "Ryan Schwark",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Metropolitan_Life_Insurance_Tower,_2024.jpg"
-   }
-  },
-  {
-   "id": "wd:Q9188",
-   "name": "Empire State Building",
-   "label": "Empire State Building",
-   "type": "built",
-   "kind": "office building",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 40.7483,
-   "lon": -73.9856,
-   "rarity": "Legendary",
-   "fame": 1013544,
-   "facts": {
-    "elevation_m": 34,
-    "height_m": 453,
-    "area_km2": 0.2,
-    "temp_c": 12.1
-   },
-   "flavour": {
-    "text": "The Empire State Building is a 102-story, supertall skyscraper in the Midtown South neighborhood of Manhattan, New York City, United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Empire State Building",
-    "url": "https://en.wikipedia.org/wiki/Empire_State_Building",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q9188.webp",
-    "author": "Sam Valadi",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg"
-   }
-  },
-  {
-   "id": "wd:Q849027",
-   "name": "Prudential Center",
-   "label": "Prudential Center",
-   "type": "built",
-   "kind": "arena",
-   "region": "US-NJ",
-   "country": "US",
-   "lat": 40.7336,
-   "lon": -74.1711,
-   "rarity": "Legendary",
-   "fame": 137616,
-   "facts": {
-    "elevation_m": 7.0,
-    "temp_c": 11.5
-   },
-   "flavour": {
-    "text": "By 2023, it was among the top five concert venues worldwide by earnings.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Prudential Center",
-    "url": "https://en.wikipedia.org/wiki/Prudential_Center",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q849027.webp",
-    "author": "Jim.henderson",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Pudcentnewarkjeh.JPG"
-   }
-  },
-  {
-   "id": "wd:Q1833555",
-   "name": "Millennium Tower",
-   "label": "Millennium Tower",
-   "type": "built",
-   "kind": "apartment building",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 37.7903,
-   "lon": -122.3961,
-   "rarity": "Legendary",
-   "fame": 75618,
-   "facts": {
-    "elevation_m": 2.0,
-    "height_m": 197,
-    "temp_c": 14.1
-   },
-   "flavour": {
-    "text": "A mixed-use, primarily residential high rise, it is the tallest residential building and the 6th-tallest overall in San Francisco.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Millennium Tower (San Francisco)",
-    "url": "https://en.wikipedia.org/wiki/Millennium_Tower_%28San_Francisco%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1833555.webp",
-    "author": "Hydrogen Iodide at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Millennium_Tower_San_Francisco_July_2008.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1438462.webp"
    }
   },
   {
@@ -2236,38 +2329,37 @@
    }
   },
   {
-   "id": "wd:Q178741",
-   "name": "Great Salt Lake",
-   "label": "Great Salt Lake",
+   "id": "wd:Q223969",
+   "name": "Arches National Park",
+   "label": "Arches National Park",
    "type": "nature",
-   "kind": "lake",
+   "kind": "national park",
    "region": "US-UT",
    "country": "US",
-   "lat": 41.1667,
-   "lon": -112.5833,
+   "lat": 38.7281,
+   "lon": -109.54,
    "rarity": "Legendary",
-   "fame": 264708,
+   "fame": 129306,
    "facts": {
-    "elevation_m": 1283,
-    "area_km2": 4400,
-    "length_km": 120,
-    "temp_c": 10.3
+    "elevation_m": 1360,
+    "area_km2": 354,
+    "temp_c": 11.9
    },
    "flavour": {
-    "text": "The Great Salt Lake is the largest saltwater lake in the Western Hemisphere and the eighth-largest terminal lake in the world.",
+    "text": "The park is adjacent to the Colorado River, 4 mi north of Moab, Utah.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Great Salt Lake",
-    "url": "https://en.wikipedia.org/wiki/Great_Salt_Lake",
+    "title": "Arches National Park",
+    "url": "https://en.wikipedia.org/wiki/Arches_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q178741.webp",
-    "author": "Copernicus Sentinel-2, ESA",
-    "licence": "CC BY-SA 3.0 igo",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_by_Sentinel-2.jpg"
+    "file": "images/photo/wd_Q223969.webp",
+    "author": "m01229 from USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Delicate_Arch_-_Arches_National_Park_(28744386992).jpg"
    }
   },
   {
@@ -2657,400 +2749,402 @@
    }
   },
   {
-   "id": "wd:Q4792362",
-   "name": "Arlington Memorial Amphitheater",
-   "label": "Arlington Memorial Amphitheater",
+   "id": "wd:Q570717",
+   "name": "1818 Market Street",
+   "label": "1818 Market Street",
    "type": "built",
-   "kind": "amphitheatre",
-   "region": "US-VA",
+   "kind": "office building",
+   "region": "US-PA",
    "country": "US",
-   "lat": 38.8764,
-   "lon": -77.073,
+   "lat": 39.953,
+   "lon": -75.171,
    "rarity": "Rare",
-   "fame": 7530,
+   "fame": 2370,
    "facts": {
-    "elevation_m": 58,
+    "elevation_m": 21,
+    "height_m": 152,
+    "temp_c": 12.6
+   },
+   "flavour": {
+    "text": "The building was designed by the firm Ewing Cole Cherry Brott.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "1818 Market Street",
+    "url": "https://en.wikipedia.org/wiki/1818_Market_Street",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q570717.webp",
+    "author": "Wobbanight",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:1818_Market_Street_d.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23907605",
+   "name": "Socony-Mobil Building",
+   "label": "Socony-Mobil Building",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7508,
+   "lon": -73.9759,
+   "rarity": "Rare",
+   "fame": 9696,
+   "facts": {
+    "elevation_m": 111,
+    "height_m": 174,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "The Socony-Mobil Building, also known as 150 East 42nd Street, is a 45-story.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Socony-Mobil Building",
+    "url": "https://en.wikipedia.org/wiki/Socony-Mobil_Building",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23907605.webp",
+    "author": "Jordan Rockerbie from Richmond, Canada. Note that the author kindly dropped the non-commercial tag after uploaders request.",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Socony-Mobil_Building.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14629007",
+   "name": "Linn Cove Viaduct",
+   "label": "Linn Cove Viaduct",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "US-NC",
+   "country": "US",
+   "lat": 36.0932,
+   "lon": -81.8132,
+   "rarity": "Rare",
+   "fame": 4092,
+   "facts": {
+    "elevation_m": 1344,
+    "length_km": 0.4,
+    "temp_c": 11.2
+   },
+   "flavour": {
+    "text": "The Linn Cove Viaduct is a 1,243-foot-long, concrete segmental bridge which snakes around Grandfather Mountain in western North Carolina.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Linn Cove Viaduct",
+    "url": "https://en.wikipedia.org/wiki/Linn_Cove_Viaduct",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14629007.webp",
+    "author": "MBugbey",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MDB_2658-Linn-Cove-Viaduct-Red-Car-4x3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q106777907",
+   "name": "Asian Garden Mall",
+   "label": "Asian Garden Mall",
+   "type": "built",
+   "kind": "shopping mall",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 33.7436,
+   "lon": -117.9686,
+   "rarity": "Rare",
+   "fame": 6504,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 18.2
+   },
+   "flavour": {
+    "text": "Opened in 1987, Asian Garden Mall is the first and largest Vietnamese-American shopping mall and is seen as a symbol of the community.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Asian Garden Mall",
+    "url": "https://en.wikipedia.org/wiki/Asian_Garden_Mall",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q106777907.webp",
+    "author": "DHN",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Phuoc_Loc_Tho_Tet_2008.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16899008",
+   "name": "Queen Anne Hotel",
+   "label": "Queen Anne Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 37.7872,
+   "lon": -122.427,
+   "rarity": "Rare",
+   "fame": 2892,
+   "facts": {
+    "elevation_m": 72,
+    "temp_c": 14.1
+   },
+   "flavour": {
+    "text": "The hotel is a historic 1890 Victorian mansion, in the namesake Queen Anne architectural style, and decorated in the painted lady style.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Queen Anne Hotel",
+    "url": "https://en.wikipedia.org/wiki/Queen_Anne_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16899008.webp",
+    "author": "Smallbones",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:1590_Sutter_Queen_Anne_SF_CA.JPG"
+   }
+  },
+  {
+   "id": "wd:Q22674044",
+   "name": "The Frederick Hotel",
+   "label": "The Frederick Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7154,
+   "lon": -74.0093,
+   "rarity": "Rare",
+   "fame": 846,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "The Frederick Hotel, previously the Cosmopolitan Hotel Tribeca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cosmopolitan Hotel Tribeca",
+    "url": "https://en.wikipedia.org/wiki/Cosmopolitan_Hotel_Tribeca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22674044.webp",
+    "author": "Scan by NYPL",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:LUNCH_MENU_(held_by)_COSMOPOLITAN_HOTEL_(at)_%22NEW_YORK,_NY%22_(HOTEL;)_(NYPL_Hades-276097-471161).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1738346",
+   "name": "Kelsey Museum of Archaeology",
+   "label": "Kelsey Museum of Archaeology",
+   "type": "built",
+   "kind": "archaeological museum",
+   "region": "US-MI",
+   "country": "US",
+   "lat": 42.2769,
+   "lon": -83.7406,
+   "rarity": "Rare",
+   "fame": 2244,
+   "facts": {
+    "elevation_m": 271,
+    "temp_c": 9.0
+   },
+   "flavour": {
+    "text": "The Kelsey Museum of Archaeology is a museum of archaeology located on the University of Michigan central campus in Ann Arbor, Michigan, in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kelsey Museum of Archaeology",
+    "url": "https://en.wikipedia.org/wiki/Kelsey_Museum_of_Archaeology",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1738346.webp",
+    "author": "w_lemay",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Newberry_Hall_(Kelsey_Museum_of_Archaeology),_University_of_Michigan,_State_Street,_Ann_Arbor,_MI_-_54381414528.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3541988",
+   "name": "Arvest Convention Center",
+   "label": "Arvest Convention Center",
+   "type": "built",
+   "kind": "stadium",
+   "region": "US-OK",
+   "country": "US",
+   "lat": 36.1489,
+   "lon": -95.9972,
+   "rarity": "Rare",
+   "fame": 2616,
+   "facts": {
+    "elevation_m": 225,
+    "temp_c": 15.8
+   },
+   "flavour": {
+    "text": "The Arvest Convention Center is a 275,000 square foot convention center located in downtown Tulsa, Oklahoma.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arvest Convention Center",
+    "url": "https://en.wikipedia.org/wiki/Arvest_Convention_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3541988.webp",
+    "author": "dravecky",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cox_Business_Center_arena.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5313700",
+   "name": "Dumbarton Oaks Park",
+   "label": "Dumbarton Oaks Park",
+   "type": "built",
+   "kind": "urban park",
+   "region": "US-DC",
+   "country": "US",
+   "lat": 38.9153,
+   "lon": -77.0622,
+   "rarity": "Rare",
+   "fame": 1884,
+   "facts": {
+    "elevation_m": 39,
     "temp_c": 13.5
    },
    "flavour": {
-    "text": "Memorial Amphitheater is an outdoor amphitheater, exhibit hall, and nonsectarian chapel located in Arlington National Cemetery in Arlington County, Virginia.",
+    "text": "The Dumbarton Oaks Park is a public park, located in the 3100 block of R Street, Northwest, Washington, D.C., in the Georgetown neighborhood.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Arlington Memorial Amphitheater",
-    "url": "https://en.wikipedia.org/wiki/Arlington_Memorial_Amphitheater",
+    "title": "Dumbarton Oaks Park",
+    "url": "https://en.wikipedia.org/wiki/Dumbarton_Oaks_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q4792362.webp",
-    "author": "Susanne Bledsoe, U.S. Army Corps of Engineers",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Arlington_National_Cemetery_Amphitheater.jpg"
+    "file": "images/photo/wd_Q5313700.webp",
+    "author": "Smallbones",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunbarton_Park_Bridge_DC.jpg"
    }
   },
   {
-   "id": "wd:Q14716456",
-   "name": "Holy Angels Catholic Church",
-   "label": "Holy Angels Catholic Church",
+   "id": "wd:Q6796125",
+   "name": "Maxwell Lock & Dam",
+   "label": "Maxwell Lock & Dam",
    "type": "built",
-   "kind": "church",
-   "region": "US-OH",
+   "kind": "dam",
+   "region": "US-PA",
    "country": "US",
-   "lat": 41.4492,
-   "lon": -82.7231,
+   "lat": 40.002,
+   "lon": -79.96,
    "rarity": "Rare",
-   "fame": 636,
+   "fame": 762,
    "facts": {
-    "elevation_m": 181,
-    "temp_c": 9.9
+    "elevation_m": 229,
+    "temp_c": 10.6
    },
    "flavour": {
-    "text": "Holy Angels Church is the oldest extant church building in the Roman Catholic Diocese of Toledo and Erie County, Ohio.",
+    "text": "Maxwell Lock and Dam is a navigational lock and gated dam on the Monongahela River between Centerville in Washington County.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Holy Angels Catholic Church (Sandusky, Ohio)",
-    "url": "https://en.wikipedia.org/wiki/Holy_Angels_Catholic_Church_%28Sandusky%2C_Ohio%29",
+    "title": "Maxwell Lock & Dam",
+    "url": "https://en.wikipedia.org/wiki/Maxwell_Lock_%26_Dam",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q14716456.webp",
-    "author": "Nyttend",
+    "file": "images/photo/wd_Q6796125.webp",
+    "author": "U.S. Army Corps of Engineers",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Holy_Angels_Catholic_Church_in_Sandusky.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Maxwellld.jpg"
    }
   },
   {
-   "id": "wd:Q5086148",
-   "name": "Charlotte Sports Park",
-   "label": "Charlotte Sports Park",
+   "id": "wd:Q5883934",
+   "name": "Holocaust Memorial at California Palace of the Legion of Honor",
+   "label": "Holocaust Memorial at California Palace of the Legion of Honor",
    "type": "built",
-   "kind": "sports venue",
-   "region": "US-FL",
+   "kind": "memorial",
+   "region": "US-CA",
    "country": "US",
-   "lat": 26.9992,
-   "lon": -82.1817,
+   "lat": 37.7844,
+   "lon": -122.5008,
    "rarity": "Rare",
-   "fame": 6462,
+   "fame": 2382,
    "facts": {
-    "elevation_m": 2.0,
-    "temp_c": 23.0
+    "elevation_m": 115,
+    "temp_c": 13.8
    },
    "flavour": {
-    "text": "The stadium is the home field for Tampa Bay Rays spring training operations, as well as its Rookie-class Florida Complex League Rays teams.",
+    "text": "The Holocaust Memorial at California Palace of the Legion of Honor is a Holocaust memorial in San Francisco, California, in Lincoln Park.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Charlotte Sports Park",
-    "url": "https://en.wikipedia.org/wiki/Charlotte_Sports_Park",
+    "title": "Holocaust Memorial at California Palace of the Legion of Honor",
+    "url": "https://en.wikipedia.org/wiki/Holocaust_Memorial_at_California_Palace_of_the_Legion_of_Honor",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5086148.webp",
-    "author": "User HappyHarvick2962 on en.wikipedia",
+    "file": "images/photo/wd_Q5883934.webp",
+    "author": "Zboralski",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Stadium6.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Holocaust-mem-san-francisco-c.jpg"
    }
   },
   {
-   "id": "wd:Q511256",
-   "name": "One Museum Park",
-   "label": "One Museum Park",
+   "id": "wd:Q1906417",
+   "name": "The Block Museum of Art",
+   "label": "The Block Museum of Art",
    "type": "built",
-   "kind": "built structure",
+   "kind": "art museum",
    "region": "US-IL",
    "country": "US",
-   "lat": 41.8671,
-   "lon": -87.6212,
+   "lat": 42.0524,
+   "lon": -87.6727,
    "rarity": "Rare",
-   "fame": 4650,
+   "fame": 2202,
    "facts": {
-    "elevation_m": 183,
-    "height_m": 224,
-    "temp_c": 9.7
-   },
-   "flavour": {
-    "text": "One Museum Park is a skyscraper in South Loop, Chicago, designed by Chicago-based architecture firm Pappageorge Haymes, Ltd.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "One Museum Park",
-    "url": "https://en.wikipedia.org/wiki/One_Museum_Park",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q511256.webp",
-    "author": "Ryan Kirby",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:OneMuseumPark_05_25_08.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5117864",
-   "name": "Church of the Good Shepherd",
-   "label": "Church of the Good Shepherd (near Englewood Cliffs)",
-   "type": "built",
-   "kind": "church",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 40.8683,
-   "lon": -73.9203,
-   "rarity": "Rare",
-   "fame": 1890,
-   "facts": {
-    "elevation_m": 20,
-    "temp_c": 11.5
-   },
-   "flavour": {
-    "text": "The Church of the Good Shepherd, located at 4967 Broadway at the corner of Isham Street in the Inwood neighborhood of Manhattan, New York City.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Church of the Good Shepherd (New York City)",
-    "url": "https://en.wikipedia.org/wiki/Church_of_the_Good_Shepherd_%28New_York_City%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5117864.webp",
-    "author": "MoTabChoir01",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:GoodShepRCExt.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3124927",
-   "name": "One Detroit Center",
-   "label": "One Detroit Center",
-   "type": "built",
-   "kind": "building",
-   "region": "US-MI",
-   "country": "US",
-   "lat": 42.33,
-   "lon": -83.045,
-   "rarity": "Rare",
-   "fame": 11088,
-   "facts": {
-    "elevation_m": 185,
+    "elevation_m": 184,
     "temp_c": 9.5
    },
    "flavour": {
-    "text": "Rising 619 feet, it is the third-tallest building in Detroit as well as in Michigan, behind the Renaissance Center and Hudson's Detroit.",
+    "text": "The Block Museum of Art is a free public art museum located on the campus of Northwestern University in Evanston, Illinois.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ally Detroit Center",
-    "url": "https://en.wikipedia.org/wiki/Ally_Detroit_Center",
+    "title": "Mary and Leigh Block Museum of Art",
+    "url": "https://en.wikipedia.org/wiki/Mary_and_Leigh_Block_Museum_of_Art",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3124927.webp",
-    "author": "WMrapids",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Ally_Detroit_Center_(2025).jpg"
-   }
-  },
-  {
-   "id": "wd:Q2278413",
-   "name": "Sherman Library and Gardens",
-   "label": "Sherman Library and Gardens",
-   "type": "built",
-   "kind": "botanical garden",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 33.6024,
-   "lon": -117.873,
-   "rarity": "Rare",
-   "fame": 1518,
-   "facts": {
-    "elevation_m": 35,
-    "temp_c": 16.9
-   },
-   "flavour": {
-    "text": "The Sherman Library and Gardens are botanical gardens in Corona del Mar, California.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sherman Library and Gardens",
-    "url": "https://en.wikipedia.org/wiki/Sherman_Library_and_Gardens",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2278413.webp",
-    "author": "Lane 4 Imaging",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sherman_Library_%26_Gardens1.jpg"
-   }
-  },
-  {
-   "id": "wd:Q4889076",
-   "name": "Benjamin Ogle Tayloe House",
-   "label": "Benjamin Ogle Tayloe House",
-   "type": "built",
-   "kind": "house",
-   "region": "US-DC",
-   "country": "US",
-   "lat": 38.8996,
-   "lon": -77.0344,
-   "rarity": "Rare",
-   "fame": 3942,
-   "facts": {
-    "elevation_m": 33,
-    "temp_c": 13.5
-   },
-   "flavour": {
-    "text": "The Benjamin Ogle Tayloe House is a Federal-style house located at 21 Madison Place NW in Washington, D.C., in the United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Benjamin Ogle Tayloe House",
-    "url": "https://en.wikipedia.org/wiki/Benjamin_Ogle_Tayloe_House",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4889076.webp",
-    "author": "APK",
+    "file": "images/photo/wd_Q1906417.webp",
+    "author": "Paradoxsociety",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Benjamin_Ogle_Tayloe_House.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7814957",
-   "name": "Tom Bevill Lock and Dam",
-   "label": "Tom Bevill Lock and Dam",
-   "type": "built",
-   "kind": "dam",
-   "region": "US-AL",
-   "country": "US",
-   "lat": 33.2107,
-   "lon": -88.2878,
-   "rarity": "Rare",
-   "fame": 1152,
-   "facts": {
-    "elevation_m": 41,
-    "temp_c": 16.8
-   },
-   "flavour": {
-    "text": "The Tom Bevill Lock and Dam, formerly named Aliceville Lock and Dam and \"Memphis Lock and Dam\".",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Tom Bevill Lock and Dam",
-    "url": "https://en.wikipedia.org/wiki/Tom_Bevill_Lock_and_Dam",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7814957.webp",
-    "author": "Adrien Lamarre, U.S. Army Corps of Engineers",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:USACE_Tom_Bevill_Lock_and_Dam.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7590454",
-   "name": "St. Mary's of the Mountain Church",
-   "label": "St. Mary's of the Mountain Church",
-   "type": "built",
-   "kind": "church",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 42.2039,
-   "lon": -74.2003,
-   "rarity": "Rare",
-   "fame": 294,
-   "facts": {
-    "elevation_m": 505,
-    "temp_c": 6.2
-   },
-   "flavour": {
-    "text": "St. Mary's of the Mountain Church was an historic Roman Catholic church on New York State Route 23A in Hunter, Greene County, New York.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "St. Mary's of the Mountain Church",
-    "url": "https://en.wikipedia.org/wiki/St._Mary%27s_of_the_Mountain_Church",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7590454.webp",
-    "author": "Julia Manzerova",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mary_on_the_Mountain.jpg"
-   }
-  },
-  {
-   "id": "wd:Q96382154",
-   "name": "Inn on Boltwood",
-   "label": "Inn on Boltwood",
-   "type": "built",
-   "kind": "building",
-   "region": "US-MA",
-   "country": "US",
-   "lat": 42.3746,
-   "lon": -72.5186,
-   "rarity": "Rare",
-   "fame": 858,
-   "facts": {
-    "elevation_m": 98,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "The Inn on Boltwood, formerly known as The Lord Jeffrey Inn, in Amherst, Massachusetts, dates from 1926.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Inn on Boltwood",
-    "url": "https://en.wikipedia.org/wiki/Inn_on_Boltwood",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q96382154.webp",
-    "author": "John Phelan",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Inn_on_Boltwood,_Amherst_MA.jpg"
-   }
-  },
-  {
-   "id": "wd:Q90743054",
-   "name": "Coronado Motel",
-   "label": "Coronado Motel",
-   "type": "built",
-   "kind": "motel",
-   "region": "US-CO",
-   "country": "US",
-   "lat": 38.2303,
-   "lon": -104.6244,
-   "rarity": "Rare",
-   "fame": 684,
-   "facts": {
-    "elevation_m": 1465,
-    "temp_c": 11.6
-   },
-   "flavour": {
-    "text": "The Coronado Lodge, at 2130 Lake Ave. in Pueblo, Colorado, was listed on the National Register of Historic Places in 2020.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Coronado Lodge",
-    "url": "https://en.wikipedia.org/wiki/Coronado_Lodge",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q90743054.webp",
-    "author": "Jeffrey Beall",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Coronado_Lodge.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:NU_Block_Museum_of_Art.JPG"
    }
   },
   {
@@ -3867,34 +3961,32 @@
    }
   },
   {
-   "id": "gn:4170019",
-   "name": "Ridgecrest",
-   "label": "Ridgecrest (Florida)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-FL",
+   "id": "wd:Q21197291",
+   "name": "Troublesome Creek",
+   "label": "Troublesome Creek (near Mount Carmel)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-VA",
    "country": "US",
-   "lat": 27.8975,
-   "lon": -82.8053,
+   "lat": 36.6478,
+   "lon": -82.7506,
    "rarity": "Common",
-   "fame": 870,
+   "fame": 72,
    "facts": {
-    "population": 2558,
-    "elevation_m": 17,
-    "area_km2": 1.5,
-    "temp_c": 22.7
+    "elevation_m": 368,
+    "temp_c": 12.7
    },
    "flavour": {
-    "text": "The population was 2,966 at the 2020 census.",
+    "text": "Troublesome Creek is a stream in Lee and Scott counties, Virginia, in the United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ridgecrest, Florida",
-    "url": "https://en.wikipedia.org/wiki/Ridgecrest%2C_Florida",
+    "title": "Troublesome Creek (Clinch River tributary)",
+    "url": "https://en.wikipedia.org/wiki/Troublesome_Creek_%28Clinch_River_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4170019.webp"
+    "file": "images/minimap/wd_Q21197291.webp"
    }
   },
   {
@@ -3933,137 +4025,141 @@
    }
   },
   {
-   "id": "wd:Q2351809",
-   "name": "Grand River",
-   "label": "Grand River (near Fort Gibson)",
-   "type": "nature",
-   "kind": "river",
-   "region": "US-OK",
-   "country": "US",
-   "lat": 35.7922,
-   "lon": -95.2944,
-   "rarity": "Rare",
-   "fame": 1650,
-   "facts": {
-    "elevation_m": 146,
-    "temp_c": 15.7
-   },
-   "flavour": {
-    "text": "The Grand River is an alternate name for the lower section of the Neosho River, a tributary of the Arkansas River in Oklahoma.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Grand River (Oklahoma)",
-    "url": "https://en.wikipedia.org/wiki/Grand_River_%28Oklahoma%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2351809.webp",
-    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:USACE_Fort_Gibson_Lake_and_Dam.jpg"
-   }
-  },
-  {
-   "id": "wd:Q6674508",
-   "name": "Longwood",
-   "label": "Longwood (near Natchez)",
-   "type": "built",
-   "kind": "villa",
-   "region": "US-MS",
-   "country": "US",
-   "lat": 31.5367,
-   "lon": -91.4047,
-   "rarity": "Epic",
-   "fame": 14892,
-   "facts": {
-    "elevation_m": 69,
-    "temp_c": 18.6
-   },
-   "flavour": {
-    "text": "Longwood, also known as Nutt's Folly, is a historic antebellum octagonal mansion located at 140 Lower Woodville Road in Natchez, Mississippi, United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Longwood (Natchez, Mississippi)",
-    "url": "https://en.wikipedia.org/wiki/Longwood_%28Natchez%2C_Mississippi%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6674508.webp",
-    "author": "Carol M. Highsmith",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Longwood_by_Highsmith_01.jpg"
-   }
-  },
-  {
-   "id": "gn:4641630",
-   "name": "Milan",
-   "label": "Milan (Tennessee)",
+   "id": "gn:4227777",
+   "name": "Union City",
+   "label": "Union City (Georgia)",
    "type": "town",
    "kind": "town",
-   "region": "US-TN",
+   "region": "US-GA",
    "country": "US",
-   "lat": 35.9198,
-   "lon": -88.7589,
+   "lat": 33.5871,
+   "lon": -84.5424,
    "rarity": "Common",
-   "fame": 10140,
+   "fame": 11874,
    "facts": {
-    "population": 7813,
-    "elevation_m": 128,
-    "area_km2": 23,
-    "temp_c": 14.8
+    "population": 20805,
+    "elevation_m": 295,
+    "area_km2": 51,
+    "temp_c": 16.1
    },
    "flavour": {
-    "text": "Milan is the largest city in Gibson County, Tennessee, United States.",
+    "text": "The population was 26,830 at the 2020 census.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Milan, Tennessee",
-    "url": "https://en.wikipedia.org/wiki/Milan%2C_Tennessee",
+    "title": "Union City, Georgia",
+    "url": "https://en.wikipedia.org/wiki/Union_City%2C_Georgia",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4641630.webp",
-    "author": "RageBanken",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Milan_TN_USA_Main_street_looking_Southeast..jpg"
+    "file": "images/photo/gn_4227777.webp",
+    "author": "UnionCityGov",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:City_Hall_-_Union_City.jpg"
    }
   },
   {
-   "id": "wd:Q125843853",
-   "name": "Copper Mountain",
-   "label": "Copper Mountain (near Thermopolis)",
+   "id": "wd:Q7811482",
+   "name": "Tobacco River",
+   "label": "Tobacco River (near Beaverton)",
    "type": "nature",
-   "kind": "mountain",
-   "region": "US-WY",
+   "kind": "river",
+   "region": "US-MI",
    "country": "US",
-   "lat": 43.4594,
-   "lon": -107.9447,
+   "lat": 43.8028,
+   "lon": -84.3872,
    "rarity": "Common",
-   "fame": 708,
+   "fame": 642,
    "facts": {
-    "elevation_m": 2513,
-    "temp_c": 5.7
+    "elevation_m": 191,
+    "temp_c": 7.6
    },
    "flavour": {
-    "text": "Copper Mountain is a roughly 8,312 feet mountain in the Bridger Mountains, a small range that straddles the Fremont and Hot Springs County line.",
+    "text": "Located in Gladwin and Midland counties, the river rises in Beaverton at the confluence of the river's North, Middle, and South branches in Ross Lake.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Copper Mountain (Wyoming)",
-    "url": "https://en.wikipedia.org/wiki/Copper_Mountain_%28Wyoming%29",
+    "title": "Tobacco River (Tittabawassee River tributary)",
+    "url": "https://en.wikipedia.org/wiki/Tobacco_River_%28Tittabawassee_River_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q125843853.webp",
-    "author": "Charles Willgren from Fort Collins, Colorado, United States",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Boysen_Reservoir.jpg"
+    "file": "images/photo/wd_Q7811482.webp",
+    "author": "Notorious4life ( talk ) ( Uploads )",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Tobacco_River_(Tittabawassee_River_tributary).jpg"
+   }
+  },
+  {
+   "id": "gn:5082811",
+   "name": "Auburn",
+   "label": "Auburn (New Hampshire)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NH",
+   "country": "US",
+   "lat": 43.0045,
+   "lon": -71.3484,
+   "rarity": "Common",
+   "fame": 4662,
+   "facts": {
+    "population": 5089,
+    "elevation_m": 78,
+    "area_km2": 74,
+    "temp_c": 7.8
+   },
+   "flavour": {
+    "text": "The population was 5,946 at the 2020 census, up from 4,953 at the 2010 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Auburn, New Hampshire",
+    "url": "https://en.wikipedia.org/wiki/Auburn%2C_New_Hampshire",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5082811.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Massabesic_Lake-Postcard-1920.jpg"
+   }
+  },
+  {
+   "id": "gn:5729293",
+   "name": "Green",
+   "label": "Green (Oregon)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-OR",
+   "country": "US",
+   "lat": 43.1604,
+   "lon": -123.3679,
+   "rarity": "Common",
+   "fame": 1338,
+   "facts": {
+    "population": 7515,
+    "elevation_m": 157,
+    "area_km2": 12,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "Green is a census-designated place and unincorporated community in Douglas County, Oregon, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Green, Oregon",
+    "url": "https://en.wikipedia.org/wiki/Green%2C_Oregon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5729293.webp",
+    "author": "Visitor7",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Green,_Oregon.jpg"
    }
   },
   {

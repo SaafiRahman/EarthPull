@@ -86,7 +86,10 @@ EXCLUDE = {
 # Landmark types kept even when another class matches EXCLUDE ("road bridge", "library building").
 # Sensitive sites are never rescued.
 ALWAYS_KEEP = ["bridge", "tower", "lighthouse", "castle", "fort", "cathedral", "basilica", "church", "stadium",
-               "arena", "palace", "skyscraper", "library building", "observation"]
+               "arena", "palace", "skyscraper", "library building", "observation",
+               # 2026-11-25: museums are often also a "nonprofit organization" (the Met, MoMA) and dams a
+               # "power station" (Hoover Dam); the building is the card.
+               "museum", "art gallery", "dam"]
 # Generic buildings (apartments, offices) are kept only when this famous: Habitat 67 has 26.
 FAMOUS_SITELINKS = 15
 FAMOUS_BUILDING_TYPES = ["office building", "apartment building", "residential building", "condominium"]
