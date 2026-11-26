@@ -2,36 +2,37 @@
  "note": "Sample of the Haiti card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
-   "id": "wd:Q1798978",
-   "name": "La Navidad",
-   "label": "La Navidad",
+   "id": "wd:Q206194",
+   "name": "Citadelle Laferrière",
+   "label": "Citadelle Laferrière",
    "type": "built",
-   "kind": "fort",
-   "region": "HT-NE",
+   "kind": "World Heritage Site",
+   "region": "HT-ND",
    "country": "HT",
-   "lat": 19.6906,
-   "lon": -72.0158,
+   "lat": 19.5736,
+   "lon": -72.2439,
    "rarity": "Mythic",
-   "fame": 53100,
+   "fame": 44838,
    "facts": {
-    "elevation_m": 6.0,
-    "temp_c": 26.4
+    "elevation_m": 910,
+    "area_km2": 0.0,
+    "temp_c": 24.3
    },
    "flavour": {
-    "text": "La Navidad was a Spanish fort that Christopher Columbus and his crew built on the northwest coast of Hispaniola in 1492 from the remains of the Spanish ship…",
+    "text": "The Citadelle Laferrière, commonly known as La Citadelle, is a large early-19th-century fortress located in Milot in Nord, Haiti.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "La Navidad",
-    "url": "https://en.wikipedia.org/wiki/La_Navidad",
+    "title": "Citadelle Laferrière",
+    "url": "https://en.wikipedia.org/wiki/Citadelle_Laferri%C3%A8re",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1798978.webp",
-    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
+    "file": "images/photo/wd_Q206194.webp",
+    "author": "SPC Gibran Torres, United States Army",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Vida_y_viajes_de_Cristobal_Col%C3%B3n,_1851_Construcci%C3%B3n_de_la_fortaleza_de_La_Navidad_(3819531625).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Citadelle_Laferri%C3%A8re_Aerial_View.jpg"
    }
   },
   {
@@ -692,37 +693,36 @@
    }
   },
   {
-   "id": "wd:Q206194",
-   "name": "Citadelle Laferrière",
-   "label": "Citadelle Laferrière",
+   "id": "wd:Q930795",
+   "name": "Sans-Souci Palace",
+   "label": "Sans-Souci Palace",
    "type": "built",
    "kind": "World Heritage Site",
    "region": "HT-ND",
    "country": "HT",
-   "lat": 19.5736,
-   "lon": -72.2439,
+   "lat": 19.6047,
+   "lon": -72.2186,
    "rarity": "Epic",
-   "fame": 44838,
+   "fame": 38754,
    "facts": {
-    "elevation_m": 910,
-    "area_km2": 0.0,
+    "elevation_m": 128,
     "temp_c": 24.3
    },
    "flavour": {
-    "text": "The Citadelle Laferrière, commonly known as La Citadelle, is a large early-19th-century fortress located in Milot in Nord, Haiti.",
+    "text": "The Palace of Sans-Souci, or Sans-Souci Palace, was the principal royal residence of Henry I, King of Haiti, better known as Henri Christophe.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Citadelle Laferrière",
-    "url": "https://en.wikipedia.org/wiki/Citadelle_Laferri%C3%A8re",
+    "title": "Sans-Souci Palace",
+    "url": "https://en.wikipedia.org/wiki/Sans-Souci_Palace",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q206194.webp",
-    "author": "SPC Gibran Torres, United States Army",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Citadelle_Laferri%C3%A8re_Aerial_View.jpg"
+    "file": "images/photo/wd_Q930795.webp",
+    "author": "Rémi Kaupp",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sans-Souci_Palace_front.jpg"
    }
   },
   {
@@ -759,6 +759,39 @@
    }
   },
   {
+   "id": "wd:Q1798978",
+   "name": "La Navidad",
+   "label": "La Navidad",
+   "type": "built",
+   "kind": "fort",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6906,
+   "lon": -72.0158,
+   "rarity": "Epic",
+   "fame": 53100,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "La Navidad was a Spanish fort that Christopher Columbus and his crew built on the northwest coast of Hispaniola in 1492 from the remains of the Spanish ship…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Navidad",
+    "url": "https://en.wikipedia.org/wiki/La_Navidad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1798978.webp",
+    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Vida_y_viajes_de_Cristobal_Col%C3%B3n,_1851_Construcci%C3%B3n_de_la_fortaleza_de_La_Navidad_(3819531625).jpg"
+   }
+  },
+  {
    "id": "wd:Q1246231",
    "name": "Labadee",
    "label": "Labadee",
@@ -789,39 +822,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Labadee,_Haiti_Aug_2002.JPG"
-   }
-  },
-  {
-   "id": "wd:Q930795",
-   "name": "Sans-Souci Palace",
-   "label": "Sans-Souci Palace",
-   "type": "built",
-   "kind": "World Heritage Site",
-   "region": "HT-ND",
-   "country": "HT",
-   "lat": 19.6047,
-   "lon": -72.2186,
-   "rarity": "Epic",
-   "fame": 38754,
-   "facts": {
-    "elevation_m": 128,
-    "temp_c": 24.3
-   },
-   "flavour": {
-    "text": "The Palace of Sans-Souci, or Sans-Souci Palace, was the principal royal residence of Henry I, King of Haiti, better known as Henri Christophe.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sans-Souci Palace",
-    "url": "https://en.wikipedia.org/wiki/Sans-Souci_Palace",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q930795.webp",
-    "author": "Rémi Kaupp",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Sans-Souci_Palace_front.jpg"
    }
   },
   {
