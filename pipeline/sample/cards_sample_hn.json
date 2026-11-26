@@ -174,8 +174,12 @@
     "temp_c": 24.9
    },
    "flavour": {
-    "text": "A mountain range in Atlántida.",
-    "source": "facts"
+    "text": "They run parallel to the Caribbean coast in the departments of Yoro and Atlántida.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cordillera Nombre de Dios",
+    "url": "https://es.wikipedia.org/wiki/Cordillera_Nombre_de_Dios",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -296,8 +300,12 @@
     "temp_c": 27.5
    },
    "flavour": {
-    "text": "An island in Bay Islands.",
-    "source": "facts"
+    "text": "Morat is an island in the municipality of José Santos Guardiola.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Morat",
+    "url": "https://es.wikipedia.org/wiki/Isla_Morat",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -321,8 +329,12 @@
     "temp_c": 26.8
    },
    "flavour": {
-    "text": "An island in Valle.",
-    "source": "facts"
+    "text": "Isla Inglesera is a Honduran island in the Gulf of Fonseca, part of the Honduran islands of the gulf.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Inglesera",
+    "url": "https://es.wikipedia.org/wiki/Isla_Inglesera",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1863,8 +1875,12 @@
     "temp_c": 21.1
    },
    "flavour": {
-    "text": "A monument in Copán.",
-    "source": "facts"
+    "text": "The Hieroglyphic Stairway holds the longest and most important glyph inscription in all of Mesoamerica.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Escalinata de los Jeroglíficos",
+    "url": "https://es.wikipedia.org/wiki/Escalinata_de_los_Jerogl%C3%ADficos",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2359,8 +2375,12 @@
     "temp_c": 23.7
    },
    "flavour": {
-    "text": "A waterfall in Cortés.",
-    "source": "facts"
+    "text": "The Pulhapanzak Falls are a waterfall on the Río Blanco in Honduras.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cataratas de Pulhapanzak",
+    "url": "https://es.wikipedia.org/wiki/Cataratas_de_Pulhapanzak",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3003,81 +3023,107 @@
    }
   },
   {
-   "id": "gn:3610487",
-   "name": "El Rincón",
-   "label": "El Rincón",
+   "id": "gn:3613805",
+   "name": "Cerro Grande",
+   "label": "Cerro Grande",
    "type": "town",
    "kind": "town",
-   "region": "HN-CM",
+   "region": "HN-FM",
    "country": "HN",
-   "lat": 14.578,
-   "lon": -87.9282,
+   "lat": 13.8167,
+   "lon": -87.25,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2023,
-    "elevation_m": 1251,
-    "temp_c": 20.0
+    "population": 1093,
+    "elevation_m": 1090,
+    "temp_c": 23.7
    },
    "flavour": {
-    "text": "A community of 2,023 people in Comayagua.",
+    "text": "A community of 1,093 people in Francisco Morazán.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3610487.webp"
+    "file": "images/minimap/gn_3613805.webp"
    }
   },
   {
-   "id": "gn:3601992",
-   "name": "San Juan de Planes",
-   "label": "San Juan de Planes",
+   "id": "gn:3612840",
+   "name": "Dolores",
+   "label": "Dolores (Ocotepeque)",
    "type": "town",
    "kind": "town",
-   "region": "HN-CP",
+   "region": "HN-OC",
    "country": "HN",
-   "lat": 14.9333,
-   "lon": -88.7833,
+   "lat": 14.5333,
+   "lon": -89.1167,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1185,
-    "elevation_m": 793,
-    "temp_c": 22.3
+    "population": 3997,
+    "elevation_m": 1650,
+    "temp_c": 19.1
    },
    "flavour": {
-    "text": "A community of 1,185 people in Copán.",
+    "text": "A community of 3,997 people in Ocotepeque.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3601992.webp"
+    "file": "images/minimap/gn_3612840.webp"
    }
   },
   {
-   "id": "gn:3610789",
-   "name": "El Plan",
-   "label": "El Plan",
+   "id": "gn:3605729",
+   "name": "Los Caminos",
+   "label": "Los Caminos",
    "type": "town",
    "kind": "town",
    "region": "HN-CR",
    "country": "HN",
-   "lat": 15.3264,
-   "lon": -87.9498,
+   "lat": 14.9505,
+   "lon": -87.9753,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2176,
-    "elevation_m": 67,
-    "temp_c": 26.4
+    "population": 1129,
+    "elevation_m": 713,
+    "temp_c": 23.1
    },
    "flavour": {
-    "text": "A community of 2,176 people in Cortés.",
+    "text": "A community of 1,129 people in Cortés.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3610789.webp"
+    "file": "images/minimap/gn_3605729.webp"
+   }
+  },
+  {
+   "id": "gn:3605436",
+   "name": "Los Naranjos",
+   "label": "Los Naranjos (Cortés)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 14.944,
+   "lon": -88.0365,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1882,
+    "elevation_m": 652,
+    "temp_c": 20.0
+   },
+   "flavour": {
+    "text": "A community of 1,882 people in Cortés.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3605436.webp"
    }
   }
  ]

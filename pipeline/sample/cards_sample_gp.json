@@ -53,8 +53,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "Îlet aux Fous is an uninhabited islet in the Grand Cul-de-sac Marin, part of Sainte-Rose in Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet aux Fous",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_aux_Fous",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -82,8 +86,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
+    "text": "This hill rises to 744 metres and is where the communes of Pointe-Noire, Sainte-Rose and Lamentin meet.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Morne Jeanneton",
+    "url": "https://fr.wikipedia.org/wiki/Morne_Jeanneton",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -111,8 +119,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "The Petits Pompons are two uninhabited islets of the Carénage islets in the Grand Cul-de-sac Marin.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlets des petits pompons",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elets_des_petits_pompons",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -140,8 +152,12 @@
     "temp_c": 23.5
    },
    "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
+    "text": "It is part of Guadeloupe National Park.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Morne du Col",
+    "url": "https://fr.wikipedia.org/wiki/Morne_du_Col",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -166,8 +182,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A river in Guadeloupe.",
-    "source": "facts"
+    "text": "The Coin River is a river on Basse-Terre, Guadeloupe, that flows into the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Rivière du Coin",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_du_Coin",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -196,8 +216,12 @@
     "temp_c": 23.5
    },
    "flavour": {
-    "text": "A river in Guadeloupe.",
-    "source": "facts"
+    "text": "The Beaugendre River is a river in Guadeloupe that rises in Guadeloupe National Park and flows into the sea…",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Rivière de Beaugendre",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_de_Beaugendre",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -221,8 +245,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
+    "text": "Piton Guyonneau is a peak in Guadeloupe, at Pointe-Noire.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Piton Guyonneau",
+    "url": "https://fr.wikipedia.org/wiki/Piton_Guyonneau",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -250,8 +278,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
+    "text": "Rising to 486 metres, it lies in the commune of Sainte-Rose.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Le Petit Belvédère",
+    "url": "https://fr.wikipedia.org/wiki/Le_Petit_Belv%C3%A9d%C3%A8re",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -279,8 +311,12 @@
     "temp_c": 25.4
    },
    "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
+    "text": "A road leads to the Guadeloupe Volcanological and Seismological Observatory at the summit.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Houëlmont",
+    "url": "https://fr.wikipedia.org/wiki/Hou%C3%ABlmont",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -308,8 +344,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
+    "text": "Rising to 774 metres, it lies in the commune of Pointe-Noire.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Belle-Hôtesse",
+    "url": "https://fr.wikipedia.org/wiki/Belle-H%C3%B4tesse",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -337,8 +377,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A river in Guadeloupe.",
-    "source": "facts"
+    "text": "The Bras de Sable River is a river on Basse-Terre, Guadeloupe, that flows into the Grande Rivière à Goyaves.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Rivière Bras de Sable",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Bras_de_Sable",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -366,8 +410,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "Îlet à Colas is an inhabited islet in the Grand Cul-de-sac Marin, part of Morne-à-l'Eau in Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet à Colas",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_%C3%A0_Colas",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -789,8 +837,12 @@
     "temp_c": 26.7
    },
    "flavour": {
-    "text": "A plantation house in Guadeloupe.",
-    "source": "facts"
+    "text": "Habitation Zévallos is a former sugar estate at Le Moule, on Grande-Terre, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Habitation Zévallos",
+    "url": "https://fr.wikipedia.org/wiki/Habitation_Z%C3%A9vallos",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -884,8 +936,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "Although it was never consecrated as one, locals call the church the \"cathedral\".",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Saint-Pierre-et-Saint-Paul de Pointe-à-Pitre",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pierre-et-Saint-Paul_de_Pointe-%C3%A0-Pitre",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1008,8 +1064,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A monument in Guadeloupe.",
-    "source": "facts"
+    "text": "The Mémorial ACTe, the \"Caribbean Centre for the Expression and Memory of the Slave Trade and Slavery\", is a memorial.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Mémorial ACTe",
+    "url": "https://fr.wikipedia.org/wiki/M%C3%A9morial_ACTe",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1378,8 +1438,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of Notre-Dame-de-l'Assomption, also called the Church of Notre-Dame-du-Bon-Port.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Notre-Dame-de-l'Assomption de Petit-Bourg",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Petit-Bourg",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1407,8 +1471,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of Saint-Louis is in Le Gosier, on Grande-Terre, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Saint-Louis du Gosier",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Louis_du_Gosier",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1436,8 +1504,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of Notre-Dame-du-Bon-Secours is a Catholic church on the island of La Désirade.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Notre-Dame-du-Bon-Secours de la Désirade",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame-du-Bon-Secours_de_la_D%C3%A9sirade",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1465,8 +1537,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of Saint-Jean-Baptiste is a Catholic church on Rue du Maréchal-Foch in Baie-Mahault, Guadeloupe, designed by the architect Ali Tur…",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Saint-Jean-Baptiste de Baie-Mahault",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Jean-Baptiste_de_Baie-Mahault",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1494,8 +1570,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of Notre-Dame-de-l'Assomption is a Catholic church in Trois-Rivières, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Notre-Dame-de-l'Assomption de Trois-Rivières",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame-de-l%27Assomption_de_Trois-Rivi%C3%A8res",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1556,8 +1636,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of Saint-Philippe-et-Saint-Jacques is a Catholic church in Petit-Canal, on Grande-Terre, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Saint-Philippe et Saint-Jacques de Petit-Canal",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Philippe_et_Saint-Jacques_de_Petit-Canal",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1585,8 +1669,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A beach in Guadeloupe.",
-    "source": "facts"
+    "text": "Clugny Beach is a Caribbean beach west of Sainte-Rose and east of Deshaies, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Plage de Clugny",
+    "url": "https://fr.wikipedia.org/wiki/Plage_de_Clugny",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1614,8 +1702,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A plantation house in Guadeloupe.",
-    "source": "facts"
+    "text": "The Trianon sugar works, or Habitation Roussel-Trianon, is a former colonial plantation at Grand-Bourg, on Marie-Galante.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Sucrerie Trianon",
+    "url": "https://fr.wikipedia.org/wiki/Sucrerie_Trianon",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1643,8 +1735,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A canal in Guadeloupe.",
-    "source": "facts"
+    "text": "The Perrin Canal is a waterway dug in the 19th century through the mangroves of Grande-Terre, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Canal de Perrin",
+    "url": "https://fr.wikipedia.org/wiki/Canal_de_Perrin",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1672,8 +1768,12 @@
     "temp_c": 25.4
    },
    "flavour": {
-    "text": "A monastery in Guadeloupe.",
-    "source": "facts"
+    "text": "The Saint-Antoine Monastery was a former charitable house in Basse-Terre, Guadeloupe, in the French West Indies.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Monastère Saint-Antoine (Basse-Terre)",
+    "url": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_Saint-Antoine_%28Basse-Terre%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1701,8 +1801,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A church in Guadeloupe.",
-    "source": "facts"
+    "text": "The Church of the Holy Trinity is a Catholic church on Rue de la République in Lamentin, Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église de la Sainte-Trinité de Lamentin",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_de_la_Sainte-Trinit%C3%A9_de_Lamentin",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1831,8 +1935,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "Îlet à Cochons is an islet in Guadeloupe's Petit Cul-de-sac Marin, 600 m off Grande-Terre.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet à Cochons",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_%C3%A0_Cochons",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1924,8 +2032,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "It is almost entirely covered in mangroves and rises only a few metres above the water.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet à Fajou",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_%C3%A0_Fajou",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1954,8 +2066,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A waterfall in Guadeloupe.",
-    "source": "facts"
+    "text": "The Saut de la Lézarde is a waterfall on the Lézarde River near Guadeloupe National Park, in the commune of…",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Saut de la Lézarde",
+    "url": "https://fr.wikipedia.org/wiki/Saut_de_la_L%C3%A9zarde",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1983,8 +2099,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "Îlet Feuille, or Îlet à Petrelluzzi, is an islet in the Petit Cul-de-sac Marin in Guadeloupe, part of the commune of…",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Feuille",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Feuille",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -2008,8 +2128,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
+    "text": "La Biche, or Îlet la Biche, is an uninhabited islet in the Grand Cul-de-sac Marin, part of Sainte-Rose.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "La Biche",
+    "url": "https://fr.wikipedia.org/wiki/La_Biche",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2037,8 +2161,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A bay in Guadeloupe.",
-    "source": "facts"
+    "text": "Grande Anse Beach is one of Guadeloupe's major beaches, at Ziotte, two kilometres north of the village of Deshaies.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Plage de Grande Anse (Deshaies)",
+    "url": "https://fr.wikipedia.org/wiki/Plage_de_Grande_Anse_%28Deshaies%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2066,8 +2194,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A bay in Guadeloupe.",
-    "source": "facts"
+    "text": "Porte d'Enfer is a bay in Guadeloupe between Pointe du Lagon to the east and Pointe du Piton to the west.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Porte d'Enfer (Guadeloupe)",
+    "url": "https://fr.wikipedia.org/wiki/Porte_d%27Enfer_%28Guadeloupe%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2211,115 +2343,29 @@
    }
   },
   {
-   "id": "wd:Q125375802",
-   "name": "anse Guyonneau",
-   "label": "anse Guyonneau",
-   "type": "nature",
-   "kind": "bay",
+   "id": "gn:3578441",
+   "name": "Saint-François",
+   "label": "Saint-François",
+   "type": "town",
+   "kind": "town",
    "region": "FR-GP",
    "country": "GP",
-   "lat": 16.23,
-   "lon": -61.793,
+   "lat": 16.2524,
+   "lon": -61.2733,
    "rarity": "Common",
-   "fame": 114,
+   "fame": 0,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 25.0
+    "population": 12732,
+    "elevation_m": 5.0,
+    "temp_c": 26.7
    },
    "flavour": {
-    "text": "A bay in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q125375802.webp",
-    "author": "Enrevseluj",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Anse_Guyonneau_(Pointe-Noire).jpg"
-   }
-  },
-  {
-   "id": "wd:Q138680226",
-   "name": "Le Tambour",
-   "label": "Le Tambour",
-   "type": "nature",
-   "kind": "river",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.1621,
-   "lon": -61.6437,
-   "rarity": "Common",
-   "fame": 12,
-   "facts": {
-    "elevation_m": 340,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A river in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q138680226.webp",
-    "author": "Enrevseluj",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Deuxi%C3%A8me_Bras_du_Tambour.jpg"
-   }
-  },
-  {
-   "id": "wd:Q24874179",
-   "name": "Îlet à Cabrit (Petit-Bourg)",
-   "label": "Îlet à Cabrit (Petit-Bourg)",
-   "type": "nature",
-   "kind": "island",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.1972,
-   "lon": -61.5756,
-   "rarity": "Common",
-   "fame": 192,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "An island in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q24874179.webp",
-    "author": "Enrevseluj",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%8Elet_%C3%A0_Cabrit_(Petit-Bourg).jpg"
-   }
-  },
-  {
-   "id": "wd:Q21511689",
-   "name": "Baleine du Sud",
-   "label": "Baleine du Sud",
-   "type": "nature",
-   "kind": "island",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.1642,
-   "lon": -61.3919,
-   "rarity": "Common",
-   "fame": 162,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "An island in Guadeloupe.",
+    "text": "A community of 12,732 people in Guadeloupe.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q21511689.webp"
+    "file": "images/minimap/gn_3578441.webp"
    }
   }
  ]

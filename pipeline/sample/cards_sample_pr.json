@@ -3077,84 +3077,57 @@
    }
   },
   {
-   "id": "gn:4565032",
-   "name": "G. L. Garcia",
-   "label": "G. L. Garcia",
+   "id": "gn:4562623",
+   "name": "Antón Ruiz",
+   "label": "Antón Ruiz",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.1275,
-   "lon": -66.1041,
+   "lat": 18.1852,
+   "lon": -65.8085,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1543,
-    "elevation_m": 442,
-    "area_km2": 2.0,
-    "temp_c": 23.0
+    "population": 1362,
+    "elevation_m": 30,
+    "area_km2": 1.1,
+    "temp_c": 24.2
    },
    "flavour": {
-    "text": "A community of 1,543 people in Puerto Rico.",
+    "text": "A community of 1,362 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4565032.webp"
+    "file": "images/minimap/gn_4562623.webp"
    }
   },
   {
-   "id": "gn:4566814",
-   "name": "Playita Cortada",
-   "label": "Playita Cortada",
+   "id": "gn:4566171",
+   "name": "Maria Antonia",
+   "label": "Maria Antonia",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 17.985,
-   "lon": -66.4391,
+   "lat": 17.9783,
+   "lon": -66.8893,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1475,
-    "elevation_m": 3.0,
-    "area_km2": 5.0,
-    "temp_c": 26.3
+    "population": 1599,
+    "elevation_m": 36,
+    "area_km2": 0.9,
+    "temp_c": 25.8
    },
    "flavour": {
-    "text": "A community of 1,475 people in Puerto Rico.",
+    "text": "A community of 1,599 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4566814.webp"
-   }
-  },
-  {
-   "id": "gn:4566913",
-   "name": "Pueblito del Rio",
-   "label": "Pueblito del Rio",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.228,
-   "lon": -65.8629,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1118,
-    "elevation_m": 82,
-    "area_km2": 0.7,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A community of 1,118 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4566913.webp"
+    "file": "images/minimap/gn_4566171.webp"
    }
   }
  ]

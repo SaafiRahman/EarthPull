@@ -4024,55 +4024,55 @@
    }
   },
   {
-   "id": "gn:5927043",
-   "name": "Convoy Place",
-   "label": "Convoy Place",
+   "id": "gn:8740857",
+   "name": "Wendake",
+   "label": "Wendake",
    "type": "town",
    "kind": "town",
-   "region": "CA-NS",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 44.6679,
-   "lon": -63.6143,
+   "lat": 46.8614,
+   "lon": -71.3573,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 5581,
-    "elevation_m": 70,
-    "temp_c": 6.4
+    "population": 2200,
+    "elevation_m": 149,
+    "temp_c": 3.6
    },
    "flavour": {
-    "text": "A community of 5,581 people in Nova Scotia.",
+    "text": "A community of 2,200 people in Quebec.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_5927043.webp"
+    "file": "images/minimap/gn_8740857.webp"
    }
   },
   {
-   "id": "gn:13592177",
-   "name": "Grand Lake",
-   "label": "Grand Lake",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NB",
+   "id": "wd:Q23021717",
+   "name": "Rivière Plate",
+   "label": "Rivière Plate (near Saint-Cyprien)",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 46.1126,
-   "lon": -65.9568,
+   "lat": 47.8803,
+   "lon": -69.0125,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 60,
    "facts": {
-    "population": 5725,
-    "elevation_m": 14,
-    "temp_c": 5.4
+    "elevation_m": 204,
+    "length_km": 12,
+    "temp_c": 2.4
    },
    "flavour": {
-    "text": "A community of 5,725 people in New Brunswick.",
+    "text": "A river in Quebec.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_13592177.webp"
+    "file": "images/minimap/wd_Q23021717.webp"
    }
   },
   {
@@ -4102,29 +4102,29 @@
    }
   },
   {
-   "id": "gn:13592145",
-   "name": "Vallée-des-Rivières",
-   "label": "Vallée-des-Rivières",
+   "id": "gn:5926968",
+   "name": "Constance Bay",
+   "label": "Constance Bay",
    "type": "town",
    "kind": "town",
-   "region": "CA-NB",
+   "region": "CA-ON",
    "country": "CA",
-   "lat": 47.2151,
-   "lon": -67.9607,
+   "lat": 45.5001,
+   "lon": -76.0827,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 4250,
-    "elevation_m": 152,
-    "temp_c": 3.0
+    "population": 2314,
+    "elevation_m": 61,
+    "temp_c": 4.8
    },
    "flavour": {
-    "text": "A community of 4,250 people in New Brunswick.",
+    "text": "A community of 2,314 people in Ontario.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_13592145.webp"
+    "file": "images/minimap/gn_5926968.webp"
    }
   }
  ]

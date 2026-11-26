@@ -53,8 +53,12 @@
     "temp_c": 27.7
    },
    "flavour": {
-    "text": "A mountain in Curaçao.",
-    "source": "facts"
+    "text": "El Indjan is a table mountain on Curaçao, on the edge of the former salt pans of the Rif Sint Marie plantation…",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "El Indjan",
+    "url": "https://nl.wikipedia.org/wiki/El_Indjan",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -78,8 +82,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A bay in Curaçao.",
-    "source": "facts"
+    "text": "The Schottegat is a bay and natural harbour on Curaçao, linked to the Caribbean Sea by Saint Anna Bay.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Schottegat",
+    "url": "https://nl.wikipedia.org/wiki/Schottegat",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -202,8 +210,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A mountain in Curaçao.",
-    "source": "facts"
+    "text": "Sint Michielsberg is a hill and archaeological site north of the village of Sint Michiel on Curaçao.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Sint Michielsberg",
+    "url": "https://nl.wikipedia.org/wiki/Sint_Michielsberg",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -231,8 +243,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A bay in Curaçao.",
-    "source": "facts"
+    "text": "Fuik Bay lies 11 kilometres southeast of Willemstad on Curaçao's south coast.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Fuikbaai",
+    "url": "https://nl.wikipedia.org/wiki/Fuikbaai",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -260,8 +276,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A bay in Curaçao.",
-    "source": "facts"
+    "text": "Caracas Bay is a bay on Curaçao southeast of Jan Thiel, a neighbourhood in southeastern Willemstad.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Caracasbaai",
+    "url": "https://nl.wikipedia.org/wiki/Caracasbaai",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -289,8 +309,12 @@
     "temp_c": 27.6
    },
    "flavour": {
-    "text": "A bay in Curaçao.",
-    "source": "facts"
+    "text": "It lies 8 kilometres northwest of Willemstad on Curaçao's south coast.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Sint Michielsbaai",
+    "url": "https://nl.wikipedia.org/wiki/Sint_Michielsbaai",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -318,8 +342,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A bay in Curaçao.",
-    "source": "facts"
+    "text": "Jan Thiel Bay is a bay on Curaçao bordering the south of Jan Thiel, a neighbourhood in southeastern Willemstad.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Jan Thielbaai",
+    "url": "https://nl.wikipedia.org/wiki/Jan_Thielbaai",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -845,8 +873,12 @@
     "temp_c": 27.7
    },
    "flavour": {
-    "text": "A national park in Curaçao.",
-    "source": "facts"
+    "text": "The park was founded in 1994 and covers about 200 hectares.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Nationaal park Shete Boka",
+    "url": "https://nl.wikipedia.org/wiki/Nationaal_park_Shete_Boka",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -940,8 +972,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A double-beam drawbridge in Curaçao.",
-    "source": "facts"
+    "text": "The Leonard B. Smith Bridge, also known as the L.B. Smith Bridge, is a pedestrian drawbridge in the historic centre of Willemstad, Curaçao.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Leonard B. Smithbrug",
+    "url": "https://nl.wikipedia.org/wiki/Leonard_B._Smithbrug",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -969,8 +1005,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A fort in Curaçao.",
-    "source": "facts"
+    "text": "That makes it the only fort not in Willemstad.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Fort Sint Michiel (Curaçao)",
+    "url": "https://nl.wikipedia.org/wiki/Fort_Sint_Michiel_%28Cura%C3%A7ao%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1027,8 +1067,12 @@
     "temp_c": 27.7
    },
    "flavour": {
-    "text": "A beach in Curaçao.",
-    "source": "facts"
+    "text": "Playa Cas Abou is a private beach in northwest Curaçao near the village of Pannekoek.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Playa Cas Abou",
+    "url": "https://nl.wikipedia.org/wiki/Playa_Cas_Abou",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1089,8 +1133,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A bridge in Curaçao.",
-    "source": "facts"
+    "text": "The Queen Wilhelmina Bridge crosses the Waaigat in the centre of Willemstad, Curaçao, linking the Punda and Scharloo districts.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Koningin Wilhelminabrug",
+    "url": "https://nl.wikipedia.org/wiki/Koningin_Wilhelminabrug",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1151,8 +1199,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A fort in Curaçao.",
-    "source": "facts"
+    "text": "Fort Beekenburg is a fort on Curaçao on the peninsula by Caracas Bay.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Fort Beekenburg",
+    "url": "https://nl.wikipedia.org/wiki/Fort_Beekenburg",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1180,8 +1232,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A fort in Curaçao.",
-    "source": "facts"
+    "text": "Fort Piscadera is one of the eight forts on Curaçao and stands west of the entrance to Piscadera Bay.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Fort Piscadera",
+    "url": "https://nl.wikipedia.org/wiki/Fort_Piscadera",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1209,8 +1265,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A public aquarium in Curaçao.",
-    "source": "facts"
+    "text": "The Curaçao Sea Aquarium is a public aquarium east of Willemstad on the island of Curaçao.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Curaçao Sea Aquarium",
+    "url": "https://nl.wikipedia.org/wiki/Cura%C3%A7ao_Sea_Aquarium",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1238,8 +1298,12 @@
     "temp_c": 27.8
    },
    "flavour": {
-    "text": "A resort in Curaçao.",
-    "source": "facts"
+    "text": "It lies about 12 km southeast of Willemstad.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Santa Barbara (Curaçao)",
+    "url": "https://nl.wikipedia.org/wiki/Santa_Barbara_%28Cura%C3%A7ao%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1384,35 +1448,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Landhuis_Ascension.jpg"
-   }
-  },
-  {
-   "id": "wd:Q63565038",
-   "name": "Landhuis Brievengat",
-   "label": "Landhuis Brievengat",
-   "type": "built",
-   "kind": "building",
-   "region": "CW",
-   "country": "CW",
-   "lat": 12.1497,
-   "lon": -68.9,
-   "rarity": "Rare",
-   "fame": 858,
-   "facts": {
-    "elevation_m": 29,
-    "temp_c": 27.8
-   },
-   "flavour": {
-    "text": "A building in Curaçao.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q63565038.webp",
-    "author": "Technische Fred at Dutch Wikipedia",
-    "licence": "CC BY 2.5 nl",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5/nl/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Plantagehuis_Brievengat.JPG"
    }
   }
  ]

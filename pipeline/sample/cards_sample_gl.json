@@ -1754,8 +1754,12 @@
     "temp_c": -4.9
    },
    "flavour": {
-    "text": "A church in Qeqqata.",
-    "source": "facts"
+    "text": "Bethel Church, also called the Blue Church, is a church in Sisimiut, Greenland, and the oldest in the country.",
+    "source": "wikipedia",
+    "lang": "da",
+    "title": "Bethel Kirken (Sisimiut)",
+    "url": "https://da.wikipedia.org/wiki/Bethel_Kirken_%28Sisimiut%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2320,82 +2324,32 @@
    }
   },
   {
-   "id": "wd:Q12300744",
-   "name": "Agssaussat",
-   "label": "Agssaussat",
+   "id": "wd:Q12332646",
+   "name": "Qeqertarsuatsiaq (Qeqertarsuatsiaat)",
+   "label": "Qeqertarsuatsiaq (Qeqertarsuatsiaat)",
    "type": "nature",
-   "kind": "mountain",
-   "region": "GL-QE",
-   "country": "GL",
-   "lat": 65.8833,
-   "lon": -52.1167,
-   "rarity": "Common",
-   "fame": 36,
-   "facts": {
-    "elevation_m": 1724,
-    "temp_c": -9.2
-   },
-   "flavour": {
-    "text": "A mountain in Qeqqata.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q12300744.webp"
-   }
-  },
-  {
-   "id": "wd:Q3815475",
-   "name": "Kingittorsuaq",
-   "label": "Kingittorsuaq",
-   "type": "nature",
-   "kind": "mountain",
+   "kind": "island",
    "region": "GL-SM",
    "country": "GL",
-   "lat": 64.1226,
-   "lon": -51.5735,
+   "lat": 63.075,
+   "lon": -50.6667,
    "rarity": "Common",
-   "fame": 216,
+   "fame": 54,
    "facts": {
-    "elevation_m": 1120,
-    "temp_c": -2.1
+    "elevation_m": 14,
+    "temp_c": -0.1
    },
    "flavour": {
-    "text": "A mountain in Sermersooq.",
+    "text": "An island in Sermersooq.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3815475.webp",
-    "author": "Laketown",
+    "file": "images/photo/wd_Q12332646.webp",
+    "author": "Algkalv ( talk )",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kingittorsuaq_(Sermersooq).jpg"
-   }
-  },
-  {
-   "id": "wd:Q11336573",
-   "name": "Akunnaap Nunaa",
-   "label": "Akunnaap Nunaa",
-   "type": "nature",
-   "kind": "island",
-   "region": "GL-QA",
-   "country": "GL",
-   "lat": 68.7383,
-   "lon": -52.395,
-   "rarity": "Common",
-   "fame": 24,
-   "facts": {
-    "elevation_m": 36,
-    "temp_c": -4.6
-   },
-   "flavour": {
-    "text": "An island in Qaasuitsup.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q11336573.webp"
+    "page": "https://commons.wikimedia.org/wiki/File:Qeqertarsuatsiaat.jpg"
    }
   }
  ]

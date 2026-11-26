@@ -53,8 +53,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "An island in Independencia.",
-    "source": "facts"
+    "text": "It sits inside Lake Enriquillo in the southwest of the country, between Independencia and Bahoruco provinces.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Cabritos",
+    "url": "https://es.wikipedia.org/wiki/Isla_Cabritos",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -107,8 +111,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A bay in Monte Cristi.",
-    "source": "facts"
+    "text": "Manzanillo Bay is an inlet of the Atlantic Ocean at the northwest tip of the Dominican Republic, in Monte Cristi Province.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Bahía de Manzanillo",
+    "url": "https://es.wikipedia.org/wiki/Bah%C3%ADa_de_Manzanillo",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -133,8 +141,12 @@
     "temp_c": 22.2
    },
    "flavour": {
-    "text": "A mountain in Baoruco.",
-    "source": "facts"
+    "text": "The Sierra de Neiba is a mountain range in the Bahoruco, Independencia, Elías Piña and San Juan provinces of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Sierra de Neiba",
+    "url": "https://es.wikipedia.org/wiki/Sierra_de_Neiba",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -224,8 +236,12 @@
     "temp_c": 20.6
    },
    "flavour": {
-    "text": "A river in La Vega.",
-    "source": "facts"
+    "text": "Its water drives a hydroelectric plant 11 km from Jarabacoa, with an average flow of 3.5 m³/s at Hato Viejo.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Río Jimenoa",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Jimenoa",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -279,8 +295,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A river in La Altagracia.",
-    "source": "facts"
+    "text": "From there it runs about 60 kilometres southeast to the Caribbean Sea, next to the community of Boca de Yuma.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Río Yuma",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Yuma",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -370,8 +390,12 @@
     "temp_c": 26.0
    },
    "flavour": {
-    "text": "A lake in Barahona.",
-    "source": "facts"
+    "text": "Laguna Rincón, or Laguna de Cabral, is one of the largest lagoons in the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Laguna Rincón",
+    "url": "https://es.wikipedia.org/wiki/Laguna_Rinc%C3%B3n",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -426,8 +450,12 @@
     "temp_c": 25.3
    },
    "flavour": {
-    "text": "A community of 4,026 people in Santiago.",
-    "source": "facts"
+    "text": "La Canela is a municipal district of Santiago de los Caballeros in Santiago Province, Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "La Canela",
+    "url": "https://es.wikipedia.org/wiki/La_Canela",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1152,8 +1180,12 @@
     "temp_c": 21.0
    },
    "flavour": {
-    "text": "A national park in La Estrelleta.",
-    "source": "facts"
+    "text": "Nalga de Maco National Park is a national park in the Cordillera Central, in the west of the Dominican Republic…",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Nalga de Maco",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Nalga_de_Maco",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1799,8 +1831,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A historic building in Nacional.",
-    "source": "facts"
+    "text": "It was one of the first stone houses in the Americas and probably the first two-storey house built by Europeans.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Casa del Cordón (Santo Domingo)",
+    "url": "https://es.wikipedia.org/wiki/Casa_del_Cord%C3%B3n_%28Santo_Domingo%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2878,54 +2914,107 @@
    }
   },
   {
-   "id": "gn:3492073",
-   "name": "Veragua Arriba",
-   "label": "Veragua Arriba",
+   "id": "gn:3491736",
+   "name": "Yayas de Viajama",
+   "label": "Yayas de Viajama",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.6071,
+   "lon": -70.9275,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5669,
+    "elevation_m": 317,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "A community of 5,669 people in Azua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3491736.webp"
+   }
+  },
+  {
+   "id": "gn:3496601",
+   "name": "Matanzas",
+   "label": "Matanzas",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-17",
+   "country": "DO",
+   "lat": 18.243,
+   "lon": -70.4177,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4124,
+    "elevation_m": 39,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 4,124 people in Peravia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3496601.webp"
+   }
+  },
+  {
+   "id": "gn:3493410",
+   "name": "Sabana Yegua",
+   "label": "Sabana Yegua",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.7167,
+   "lon": -71.0167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10624,
+    "elevation_m": 393,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 10,624 people in Azua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3493410.webp"
+   }
+  },
+  {
+   "id": "gn:3492897",
+   "name": "San Víctor Arriba",
+   "label": "San Víctor Arriba",
    "type": "town",
    "kind": "town",
    "region": "DO-09",
    "country": "DO",
-   "lat": 19.5833,
-   "lon": -70.3333,
+   "lat": 19.4774,
+   "lon": -70.5358,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 5858,
-    "elevation_m": 108,
-    "temp_c": 24.9
+    "population": 5624,
+    "elevation_m": 530,
+    "temp_c": 25.3
    },
    "flavour": {
-    "text": "A community of 5,858 people in Espaillat.",
+    "text": "A community of 5,624 people in Espaillat.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3492073.webp"
-   }
-  },
-  {
-   "id": "wd:Q6063002",
-   "name": "José del Carmen Ramírez National Park",
-   "label": "José del Carmen Ramírez National Park",
-   "type": "nature",
-   "kind": "national park",
-   "region": "DO-22",
-   "country": "DO",
-   "lat": 19.0995,
-   "lon": -71.2283,
-   "rarity": "Epic",
-   "fame": 1110,
-   "facts": {
-    "elevation_m": 2070,
-    "temp_c": 17.0
-   },
-   "flavour": {
-    "text": "A national park in San Juan.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q6063002.webp"
+    "file": "images/minimap/gn_3492897.webp"
    }
   }
  ]

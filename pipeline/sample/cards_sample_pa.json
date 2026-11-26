@@ -231,8 +231,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A mountain range in Los Santos.",
-    "source": "facts"
+    "text": "The Sierra del Canajagua is a small mountain range in the eastern half of the Azuero Peninsula…",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Sierra del Canajagua",
+    "url": "https://es.wikipedia.org/wiki/Sierra_del_Canajagua",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -261,8 +265,12 @@
     "temp_c": 25.8
    },
    "flavour": {
-    "text": "An island in Chiriquí.",
-    "source": "facts"
+    "text": "Isla Burica is a small island about 1 km south of Punta Burica, Panama.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Burica",
+    "url": "https://es.wikipedia.org/wiki/Isla_Burica",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -352,8 +360,12 @@
     "CR"
    ],
    "flavour": {
-    "text": "A mountain in comarca Ngäbe-Buglé.",
-    "source": "facts"
+    "text": "Cerro Pando is a mountain on the border between Costa Rica and Panama.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro Pando",
+    "url": "https://es.wikipedia.org/wiki/Cerro_Pando",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1106,8 +1118,12 @@
     "temp_c": 18.0
    },
    "flavour": {
-    "text": "A national park in Chiriquí.",
-    "source": "facts"
+    "text": "Volcán Barú National Park is a protected area in Chiriquí Province, Panama.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Volcán Barú",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Volc%C3%A1n_Bar%C3%BA",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1169,8 +1185,12 @@
     "temp_c": 21.9
    },
    "flavour": {
-    "text": "A national park in Colón.",
-    "source": "facts"
+    "text": "General Omar Torrijos Herrera National Park, originally known as El Copé, is a national park in Panama.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional General de División Omar Torrijos Herrera",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_General_de_Divisi%C3%B3n_Omar_Torrijos_Herrera",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1195,8 +1215,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A national park in Panamá.",
-    "source": "facts"
+    "text": "Camino de Cruces National Park is a national park 15 km north of Panama City.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Camino de Cruces",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Camino_de_Cruces",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3141,106 +3165,107 @@
    }
   },
   {
-   "id": "gn:3701869",
-   "name": "Río Grande",
-   "label": "Río Grande (Veraguas)",
+   "id": "gn:3704231",
+   "name": "Mogollón",
+   "label": "Mogollón",
    "type": "town",
    "kind": "town",
-   "region": "PA-9",
+   "region": "PA-7",
    "country": "PA",
-   "lat": 7.7191,
-   "lon": -81.3342,
+   "lat": 7.6492,
+   "lon": -80.4572,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 71,
-    "elevation_m": 36,
-    "temp_c": 25.5
+    "population": 79,
+    "elevation_m": 428,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "A community of 71 people in Veraguas.",
+    "text": "A community of 79 people in Los Santos.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3701869.webp"
+    "file": "images/minimap/gn_3704231.webp"
    }
   },
   {
-   "id": "gn:3706727",
-   "name": "La Raya de Calobre",
-   "label": "La Raya de Calobre",
+   "id": "gn:3707770",
+   "name": "La Ermita",
+   "label": "La Ermita",
    "type": "town",
    "kind": "town",
-   "region": "PA-9",
+   "region": "PA-8",
    "country": "PA",
-   "lat": 8.2206,
-   "lon": -80.8256,
+   "lat": 8.4607,
+   "lon": -80.071,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 233,
-    "elevation_m": 57,
-    "temp_c": 26.8
+    "population": 426,
+    "elevation_m": 114,
+    "temp_c": 27.0
    },
    "flavour": {
-    "text": "A community of 233 people in Veraguas.",
+    "text": "A community of 426 people in Panamá.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3706727.webp"
+    "file": "images/minimap/gn_3707770.webp"
    }
   },
   {
-   "id": "gn:3700572",
-   "name": "Tobobe",
-   "label": "Tobobe",
+   "id": "gn:3706052",
+   "name": "La Trinidad",
+   "label": "La Trinidad",
    "type": "town",
    "kind": "town",
-   "region": "PA-NB",
+   "region": "PA-6",
    "country": "PA",
-   "lat": 9.1208,
-   "lon": -81.828,
+   "lat": 7.9164,
+   "lon": -80.704,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 607,
-    "elevation_m": 5.0,
-    "temp_c": 26.0
+    "population": 123,
+    "elevation_m": 96,
+    "temp_c": 26.6
    },
    "flavour": {
-    "text": "A community of 607 people in Ngöbe-Buglé Comarca.",
+    "text": "A community of 123 people in Herrera.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3700572.webp"
+    "file": "images/minimap/gn_3706052.webp"
    }
   },
   {
-   "id": "wd:Q5763043",
-   "name": "Cerro Hoya",
-   "label": "Cerro Hoya",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "PA-9",
+   "id": "gn:3713575",
+   "name": "Cabuya",
+   "label": "Cabuya (Herrera)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-6",
    "country": "PA",
-   "lat": 7.2993,
-   "lon": -80.7062,
+   "lat": 8.031,
+   "lon": -80.6311,
    "rarity": "Common",
-   "fame": 156,
+   "fame": 0,
    "facts": {
-    "elevation_m": 1559,
-    "temp_c": 23.6
+    "population": 417,
+    "elevation_m": 52,
+    "temp_c": 27.3
    },
    "flavour": {
-    "text": "A mountain in Veraguas.",
+    "text": "A community of 417 people in Herrera.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5763043.webp"
+    "file": "images/minimap/gn_3713575.webp"
    }
   }
  ]

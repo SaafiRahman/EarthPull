@@ -139,8 +139,12 @@
     "temp_c": 28.3
    },
    "flavour": {
-    "text": "A community of 1,186 people in Bonaire.",
-    "source": "facts"
+    "text": "During the era of slavery the village was called Mundo Nobo.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Tera Cora (Bonaire)",
+    "url": "https://nl.wikipedia.org/wiki/Tera_Cora_%28Bonaire%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",

@@ -85,8 +85,12 @@
     "temp_c": 16.0
    },
    "flavour": {
-    "text": "A hill in Mexico.",
-    "source": "facts"
+    "text": "Cerro Zacatenco, or Cerro Santa Isabel, is a hill in the Gustavo A. Madero borough of Mexico City and the municipality of Tlalnepantla…",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro Zacatenco",
+    "url": "https://es.wikipedia.org/wiki/Cerro_Zacatenco",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -201,8 +205,12 @@
     "temp_c": 20.9
    },
    "flavour": {
-    "text": "A mountain in Oaxaca.",
-    "source": "facts"
+    "text": "Cerro de Algodón is a mountain of the Sierra Madre del Sur in the municipality of Totontepec Villa de Morelos.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro de Algodón",
+    "url": "https://es.wikipedia.org/wiki/Cerro_de_Algod%C3%B3n",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -328,8 +336,12 @@
     "temp_c": 21.3
    },
    "flavour": {
-    "text": "A mountain in Nuevo León.",
-    "source": "facts"
+    "text": "Cerro El Pilón, also called Cerro Agua de las Moras or Cerro de Tía Liberata, is a mountain in the municipalities of Santiago, Cadereyta and Allende.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro El Pilón (Nuevo León)",
+    "url": "https://es.wikipedia.org/wiki/Cerro_El_Pil%C3%B3n_%28Nuevo_Le%C3%B3n%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -353,8 +365,12 @@
     "temp_c": 20.7
    },
    "flavour": {
-    "text": "A bay in Sonora.",
-    "source": "facts"
+    "text": "It lies in the state of Sonora, in the northwest of the country, 1,700 km northwest of the capital, Mexico City.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Bahía Sargento",
+    "url": "https://es.wikipedia.org/wiki/Bah%C3%ADa_Sargento",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -382,8 +398,12 @@
     "temp_c": 18.8
    },
    "flavour": {
-    "text": "A canyon in Hidalgo.",
-    "source": "facts"
+    "text": "It is best known for its caves and grottoes and the tourist resorts of the municipality of Cardonal.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Barranca de Tolantongo",
+    "url": "https://es.wikipedia.org/wiki/Barranca_de_Tolantongo",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -411,8 +431,12 @@
     "temp_c": 20.2
    },
    "flavour": {
-    "text": "A river in Veracruz.",
-    "source": "facts"
+    "text": "The Pixquiac River rises from the runoff of the eastern slope of the Cofre de Perote.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Río Pixquiac",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Pixquiac",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -519,8 +543,12 @@
     "temp_c": 13.7
    },
    "flavour": {
-    "text": "A community of 1,790 people in State of Mexico.",
-    "source": "facts"
+    "text": "Isidro Fabela is a town in the State of Mexico.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isidro Fabela (Lerma)",
+    "url": "https://es.wikipedia.org/wiki/Isidro_Fabela_%28Lerma%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -549,8 +577,12 @@
     "temp_c": 14.4
    },
    "flavour": {
-    "text": "A community of 2,982 people in State of Mexico.",
-    "source": "facts"
+    "text": "San Bartolo is a town in the State of Mexico.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "San Bartolo (Amanalco)",
+    "url": "https://es.wikipedia.org/wiki/San_Bartolo_%28Amanalco%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -575,8 +607,12 @@
     "temp_c": 13.1
    },
    "flavour": {
-    "text": "A community of 1,463 people in State of Mexico.",
-    "source": "facts"
+    "text": "La Caridad is a town in the State of Mexico.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "La Caridad (Estado de México)",
+    "url": "https://es.wikipedia.org/wiki/La_Caridad_%28Estado_de_M%C3%A9xico%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -601,8 +637,12 @@
     "temp_c": 18.5
    },
    "flavour": {
-    "text": "A community of 1,891 people in Puebla.",
-    "source": "facts"
+    "text": "Santa Lucía Cosamaloapan is a town in the Mexican state of Puebla.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Santa Lucía Cosamaloapan",
+    "url": "https://es.wikipedia.org/wiki/Santa_Luc%C3%ADa_Cosamaloapan",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -731,8 +771,12 @@
     "temp_c": 18.6
    },
    "flavour": {
-    "text": "A community of 4,960 people in San Luis Potosí.",
-    "source": "facts"
+    "text": "Tierra Nueva is a town in the Mexican state of San Luis Potosí, seat of the municipality of the same name.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Tierra Nueva (San Luis Potosí)",
+    "url": "https://es.wikipedia.org/wiki/Tierra_Nueva_%28San_Luis_Potos%C3%AD%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -2532,8 +2576,12 @@
     "temp_c": 20.1
    },
    "flavour": {
-    "text": "A monument in Guerrero.",
-    "source": "facts"
+    "text": "The Monumental Christ of Taxco is a 20-metre statue: a 7-metre base topped by a 13-metre figure.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cristo de Taxco",
+    "url": "https://es.wikipedia.org/wiki/Cristo_de_Taxco",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2627,8 +2675,12 @@
     "temp_c": 20.6
    },
    "flavour": {
-    "text": "A garden in Morelos.",
-    "source": "facts"
+    "text": "The Jardín Borda is a colonial Mexican house with an artificial lake and beautiful gardens, built by the famous silver miner.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Jardín Borda",
+    "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Borda",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3215,8 +3267,12 @@
     "temp_c": 24.7
    },
    "flavour": {
-    "text": "A community of 124,644 people in San Luis Potosí.",
-    "source": "facts"
+    "text": "The municipality of Ciudad Valles is one of the 59 municipalities of the Mexican state of San Luis Potosí.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Municipio de Ciudad Valles",
+    "url": "https://es.wikipedia.org/wiki/Municipio_de_Ciudad_Valles",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3313,8 +3369,12 @@
     "temp_c": 16.6
    },
    "flavour": {
-    "text": "A community of 10,083 people in Zacatecas.",
-    "source": "facts"
+    "text": "Tacoaleche is the second-largest town in the municipality of Guadalupe, Zacatecas, after the municipal seat.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Tacoaleche",
+    "url": "https://es.wikipedia.org/wiki/Tacoaleche",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3408,8 +3468,12 @@
     "temp_c": 20.2
    },
    "flavour": {
-    "text": "A community of 38,780 people in Jalisco.",
-    "source": "facts"
+    "text": "La Barca is a Mexican city in the Ciénega region of Jalisco, seat of the municipality of the same name.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "La Barca (Jalisco)",
+    "url": "https://es.wikipedia.org/wiki/La_Barca_%28Jalisco%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3537,8 +3601,12 @@
     "temp_c": 13.3
    },
    "flavour": {
-    "text": "A community of 2,790 people in Veracruz.",
-    "source": "facts"
+    "text": "It is the seat of the municipality of Xoxocotla.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Xoxocotla (Veracruz)",
+    "url": "https://es.wikipedia.org/wiki/Xoxocotla_%28Veracruz%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3567,8 +3635,12 @@
     "temp_c": 24.8
    },
    "flavour": {
-    "text": "A community of 1,383 people in Chiapas.",
-    "source": "facts"
+    "text": "Vicente Guerrero is a town in the Mexican state of Chiapas.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Vicente Guerrero (Jiquipilas)",
+    "url": "https://es.wikipedia.org/wiki/Vicente_Guerrero_%28Jiquipilas%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -3619,8 +3691,12 @@
     "temp_c": 19.2
    },
    "flavour": {
-    "text": "A community of 3,741 people in Guanajuato.",
-    "source": "facts"
+    "text": "It is the seat of the municipality of Pueblo Nuevo.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Pueblo Nuevo (Guanajuato)",
+    "url": "https://es.wikipedia.org/wiki/Pueblo_Nuevo_%28Guanajuato%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -3680,111 +3756,107 @@
    }
   },
   {
-   "id": "gn:4027145",
-   "name": "Morelita",
-   "label": "Morelita",
+   "id": "gn:4015159",
+   "name": "Casa Blanca",
+   "label": "Casa Blanca (Sinaloa)",
    "type": "town",
    "kind": "town",
-   "region": "MX-GRO",
+   "region": "MX-SIN",
    "country": "MX",
-   "lat": 18.2692,
-   "lon": -100.5642,
+   "lat": 25.4321,
+   "lon": -108.4252,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1214,
-    "elevation_m": 283,
-    "temp_c": 27.9
+    "population": 1417,
+    "elevation_m": 10,
+    "temp_c": 24.5
    },
    "flavour": {
-    "text": "A community of 1,214 people in Guerrero.",
+    "text": "A community of 1,417 people in Sinaloa.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4027145.webp"
+    "file": "images/minimap/gn_4015159.webp"
    }
   },
   {
-   "id": "wd:Q5791678",
-   "name": "Christ the King",
-   "label": "Christ the King",
-   "type": "built",
-   "kind": "colossal statue",
+   "id": "gn:8858874",
+   "name": "Huapacal 2da. Sección (Punta Brava)",
+   "label": "Huapacal 2da. Sección (Punta Brava)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 18.1972,
+   "lon": -93.1719,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "population": 1982,
+    "elevation_m": 13,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 1,982 people in Tabasco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8858874.webp"
+   }
+  },
+  {
+   "id": "gn:3972525",
+   "name": "Ermita de Guadalupe",
+   "label": "Ermita de Guadalupe",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-ZAC",
+   "country": "MX",
+   "lat": 22.5866,
+   "lon": -103.0324,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2351,
+    "elevation_m": 1960,
+    "temp_c": 16.7
+   },
+   "flavour": {
+    "text": "A community of 2,351 people in Zacatecas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3972525.webp"
+   }
+  },
+  {
+   "id": "gn:3519418",
+   "name": "San Felipe Coamango",
+   "label": "San Felipe Coamango",
+   "type": "town",
+   "kind": "town",
    "region": "MX-MEX",
    "country": "MX",
-   "lat": 19.5621,
-   "lon": -99.1844,
-   "rarity": "Rare",
-   "fame": 6654,
+   "lat": 19.859,
+   "lon": -99.6068,
+   "rarity": "Common",
+   "fame": 0,
    "facts": {
-    "elevation_m": 2308,
-    "height_m": 43,
-    "temp_c": 15.5
+    "population": 4638,
+    "elevation_m": 2627,
+    "temp_c": 13.3
    },
    "flavour": {
-    "text": "A colossal statue in State of Mexico.",
+    "text": "A community of 4,638 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5791678.webp"
-   }
-  },
-  {
-   "id": "gn:3822398",
-   "name": "Popolnah",
-   "label": "Popolnah",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-YUC",
-   "country": "MX",
-   "lat": 20.9935,
-   "lon": -87.5628,
-   "rarity": "Common",
-   "fame": 672,
-   "facts": {
-    "population": 3504,
-    "elevation_m": 17,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "A community of 3,504 people in Yucatán.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3822398.webp"
-   }
-  },
-  {
-   "id": "gn:3522795",
-   "name": "Natívitas",
-   "label": "Natívitas",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-TLA",
-   "country": "MX",
-   "lat": 19.2333,
-   "lon": -98.3147,
-   "rarity": "Common",
-   "fame": 486,
-   "facts": {
-    "population": 1421,
-    "elevation_m": 2199,
-    "temp_c": 15.5
-   },
-   "flavour": {
-    "text": "A community of 1,421 people in Tlaxcala.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3522795.webp",
-    "author": "Isaac Vásquez",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_Santa_Mar%C3%ADa,_Nat%C3%ADvitas_Tlaxcala.jpg"
+    "file": "images/minimap/gn_3519418.webp"
    }
   }
  ]

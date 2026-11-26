@@ -53,8 +53,12 @@
     "temp_c": 18.1
    },
    "flavour": {
-    "text": "A mountain in San José.",
-    "source": "facts"
+    "text": "Cerro Caraigres is a 2,506 m mountain massif in the south of San José Province, Costa Rica, between the cantons of Acosta and Aserrí.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro Caraigres",
+    "url": "https://es.wikipedia.org/wiki/Cerro_Caraigres",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1311,8 +1315,12 @@
     "temp_c": 24.5
    },
    "flavour": {
-    "text": "A national park in Puntarenas.",
-    "source": "facts"
+    "text": "It lies in the Pacific Ocean, 532 km from the coast at Cabo Blanco.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Isla del Coco",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Isla_del_Coco",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1912,8 +1920,12 @@
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "An association football venue in Limón.",
-    "source": "facts"
+    "text": "The Juan Gobán Stadium is a football stadium in Limón, capital of the province of the same name, on Costa Rica's Caribbean coast.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Estadio Juan Gobán",
+    "url": "https://es.wikipedia.org/wiki/Estadio_Juan_Gob%C3%A1n",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3025,82 +3037,55 @@
    }
   },
   {
-   "id": "wd:Q23740301",
-   "name": "Río María Aguilar",
-   "label": "Río María Aguilar",
-   "type": "nature",
-   "kind": "river",
+   "id": "gn:3621335",
+   "name": "Tejar",
+   "label": "Tejar",
+   "type": "town",
+   "kind": "town",
    "region": "CR-SJ",
    "country": "CR",
-   "lat": 9.9135,
-   "lon": -84.0577,
+   "lat": 9.743,
+   "lon": -84.2322,
    "rarity": "Common",
-   "fame": 954,
+   "fame": 0,
    "facts": {
-    "elevation_m": 1161,
-    "temp_c": 19.8
+    "population": 22433,
+    "elevation_m": 999,
+    "temp_c": 22.2
    },
    "flavour": {
-    "text": "A river in San José.",
+    "text": "A community of 22,433 people in San José.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q23740301.webp"
+    "file": "images/minimap/gn_3621335.webp"
    }
   },
   {
-   "id": "wd:Q23745188",
-   "name": "Río Blanco",
-   "label": "Río Blanco",
-   "type": "nature",
-   "kind": "river",
-   "region": "CR-L",
+   "id": "gn:3624908",
+   "name": "Ángeles",
+   "label": "Ángeles",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-H",
    "country": "CR",
-   "lat": 10.2892,
-   "lon": -83.8408,
+   "lat": 9.9886,
+   "lon": -84.0592,
    "rarity": "Common",
-   "fame": 270,
+   "fame": 0,
    "facts": {
-    "elevation_m": 103,
-    "temp_c": 24.9
+    "population": 1355,
+    "elevation_m": 1200,
+    "temp_c": 19.8
    },
    "flavour": {
-    "text": "A river in Limón.",
+    "text": "A community of 1,355 people in Heredia.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q23745188.webp"
-   }
-  },
-  {
-   "id": "wd:Q84433176",
-   "name": "Edificio Metálico, San José",
-   "label": "Edificio Metálico, San José",
-   "type": "built",
-   "kind": "building",
-   "region": "CR-SJ",
-   "country": "CR",
-   "lat": 9.9361,
-   "lon": -84.0744,
-   "rarity": "Rare",
-   "fame": 3270,
-   "facts": {
-    "elevation_m": 1159,
-    "temp_c": 19.8
-   },
-   "flavour": {
-    "text": "A building in San José.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q84433176.webp",
-    "author": "Rodtico21",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Edificio_Metalico._Escuela_Buenaventura_Corrales._San_Jose._Costa_Rica.JPG"
+    "file": "images/minimap/gn_3624908.webp"
    }
   }
  ]

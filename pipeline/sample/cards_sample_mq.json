@@ -52,8 +52,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to the commune of La Trinité.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Tartane",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Tartane",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -77,8 +81,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to the commune of Rivière-Salée.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Petit Îlet",
+    "url": "https://fr.wikipedia.org/wiki/Petit_%C3%8Elet",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -131,8 +139,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A mountain in Martinique.",
-    "source": "facts"
+    "text": "Morne Genty is a volcanic peak in the commune of Les Anses-d'Arlet, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Morne Genty",
+    "url": "https://fr.wikipedia.org/wiki/Morne_Genty",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -189,8 +201,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to the commune of Le Vauclin.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Petite Grenade",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Petite_Grenade",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -214,8 +230,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to the commune of Sainte-Anne.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Chevalier",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Chevalier",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -243,8 +263,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to the commune of Sainte-Anne.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Hardy",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Hardy",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -268,8 +292,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A mountain in Martinique.",
-    "source": "facts"
+    "text": "Morne Clochette is a volcanic peak in the communes of Le Diamant and Les Anses-d'Arlet, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Morne Clochette",
+    "url": "https://fr.wikipedia.org/wiki/Morne_Clochette",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -297,8 +325,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to Le Marin and lies in the Duprey district.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Petit Dupré",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Petit_Dupr%C3%A9",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -326,8 +358,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "Îlet Frégate is an uninhabited island in Martinique, one of the islets of Le François, part of that commune.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Frégate",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Fr%C3%A9gate",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -351,8 +387,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "It belongs to Sainte-Anne but is not part of the Sainte-Anne Islets nature reserve further east.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet à Aigrettes",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_%C3%A0_Aigrettes",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1010,8 +1050,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "Îlet Sainte-Marie is an islet off the northeast coast of Martinique, just opposite the small town of Sainte-Marie.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Sainte-Marie",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Sainte-Marie",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1074,8 +1118,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "Also called the \"Montmartre of Martinique\", the church is freely modelled on the Sacré-Cœur Basilica in Paris.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église du Sacré-Cœur de Balata",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_du_Sacr%C3%A9-C%C5%93ur_de_Balata",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1103,8 +1151,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "The Church of Saint-Henri, or Sainte-Hyacinthe, is a Catholic church in Les Anses-d'Arlet, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Saint-Henri des Anses-d'Arlet",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Henri_des_Anses-d%27Arlet",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1132,8 +1184,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "The Church of Saint-Étienne is a Catholic church in Le Marin, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Saint-Étienne du Marin",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-%C3%89tienne_du_Marin",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1161,8 +1217,12 @@
     "temp_c": 24.8
    },
    "flavour": {
-    "text": "A square in Martinique.",
-    "source": "facts"
+    "text": "Place Bertin is the main square of the town of Saint-Pierre, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Place Bertin",
+    "url": "https://fr.wikipedia.org/wiki/Place_Bertin",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1223,8 +1283,12 @@
     "temp_c": 24.8
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "The Church of Sainte-Catherine is a Catholic church in Grand'Rivière, on the island of Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Sainte-Catherine de Grand'Rivière",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Sainte-Catherine_de_Grand%27Rivi%C3%A8re",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1252,8 +1316,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "The Church of Sainte-Anne, often called Notre-Dame de Sainte-Anne, is a Catholic parish church in Sainte-Anne, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Notre-Dame de Sainte-Anne",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame_de_Sainte-Anne",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1281,8 +1349,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "The Church of Notre-Dame du Rosaire de Redoute is a Catholic church in Fort-de-France, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Notre-Dame du Rosaire de Redoute",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame_du_Rosaire_de_Redoute",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1310,8 +1382,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A courthouse in Martinique.",
-    "source": "facts"
+    "text": "The old courthouse of Fort-de-France is a neoclassical building on Rue Perrinon.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Ancien palais de justice de Fort-de-France",
+    "url": "https://fr.wikipedia.org/wiki/Ancien_palais_de_justice_de_Fort-de-France",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1339,8 +1415,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "A plantation house in Martinique.",
-    "source": "facts"
+    "text": "Château Dubuc is a former colonial plantation estate at Tartane, on the Caravelle peninsula of Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Château Dubuc",
+    "url": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_Dubuc",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1368,8 +1448,12 @@
     "temp_c": 24.5
    },
    "flavour": {
-    "text": "A church in Martinique.",
-    "source": "facts"
+    "text": "The Church of the Immaculate Conception is a Catholic church in L'Ajoupa-Bouillon, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église de l'Immaculée-Conception de L'Ajoupa-Bouillon",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_de_l%27Immacul%C3%A9e-Conception_de_L%27Ajoupa-Bouillon",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1397,8 +1481,12 @@
     "temp_c": 24.5
    },
    "flavour": {
-    "text": "A church building in Martinique.",
-    "source": "facts"
+    "text": "The Church of Notre-Dame-de-la-Délivrande is a Catholic church in the commune of Le Morne-Rouge, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Église Notre-Dame-de-la-Délivrande du Morne-Rouge",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame-de-la-D%C3%A9livrande_du_Morne-Rouge",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1426,8 +1514,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "Îlet Madame is one of the islets of Le Robert on Martinique's Atlantic coast.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Madame",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Madame",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1455,8 +1547,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "The Table du Diable is a small uninhabited island off the Sainte-Anne peninsula in Martinique, 500 m east of Îlet Cabrits.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "La Table du Diable",
+    "url": "https://fr.wikipedia.org/wiki/La_Table_du_Diable",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1485,8 +1581,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "One of the ten islets of Le Robert, Îlet Chancel is the largest islet in Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Chancel",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Chancel",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1514,8 +1614,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
+    "text": "Îlet Ramiers, or Îlet à Ramiers, is a small uninhabited island in the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Îlet Ramiers",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Elet_Ramiers",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1572,8 +1676,12 @@
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A mountain in Martinique.",
-    "source": "facts"
+    "text": "Morne Larcher is a volcanic peak in the communes of Le Diamant and Les Anses-d'Arlet, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Morne Larcher",
+    "url": "https://fr.wikipedia.org/wiki/Morne_Larcher",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1601,8 +1709,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A mountain in Martinique.",
-    "source": "facts"
+    "text": "Morne Gommier is a volcanic peak in the commune of Le Marin, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Morne Gommier",
+    "url": "https://fr.wikipedia.org/wiki/Morne_Gommier",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1731,8 +1843,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A bay in Martinique.",
-    "source": "facts"
+    "text": "Anse Trabaud is a beach in the commune of Sainte-Anne, Martinique.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Anse Trabaud",
+    "url": "https://fr.wikipedia.org/wiki/Anse_Trabaud",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1918,61 +2034,29 @@
    }
   },
   {
-   "id": "wd:Q22249065",
-   "name": "Rocher de la Perle",
-   "label": "Rocher de la Perle",
-   "type": "nature",
-   "kind": "island",
+   "id": "gn:3570584",
+   "name": "Le Gros-Morne",
+   "label": "Le Gros-Morne",
+   "type": "town",
+   "kind": "town",
    "region": "FR-MQ",
    "country": "MQ",
-   "lat": 14.8421,
-   "lon": -61.2277,
+   "lat": 14.7,
+   "lon": -61.0,
    "rarity": "Common",
-   "fame": 444,
+   "fame": 0,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 24.8
+    "population": 11025,
+    "elevation_m": 132,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Martinique.",
+    "text": "A community of 11,025 people in Martinique.",
     "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q22249065.webp",
-    "author": "Jmp48",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ilet_la_Perle.JPG"
-   }
-  },
-  {
-   "id": "wd:Q27729675",
-   "name": "Morne Jacqueline",
-   "label": "Morne Jacqueline",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.4728,
-   "lon": -61.0763,
-   "rarity": "Common",
-   "fame": 228,
-   "facts": {
-    "elevation_m": 223,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "A mountain in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q27729675.webp",
-    "author": "Patrice78500",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Morne_Jacqueline_depuis_Petite_Anse.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570584.webp"
    }
   }
  ]

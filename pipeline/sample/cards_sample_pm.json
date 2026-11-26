@@ -54,8 +54,12 @@
     "temp_c": 5.0
    },
    "flavour": {
-    "text": "An island in Saint Pierre and Miquelon.",
-    "source": "facts"
+    "text": "Pointe Plate is a French island in Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Pointe Plate (Saint-Pierre-et-Miquelon)",
+    "url": "https://fr.wikipedia.org/wiki/Pointe_Plate_%28Saint-Pierre-et-Miquelon%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -224,8 +228,12 @@
     "temp_c": 5.4
    },
    "flavour": {
-    "text": "A hill in Saint Pierre and Miquelon.",
-    "source": "facts"
+    "text": "The Tête de Galantry is a hill on the island of Saint-Pierre, in Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Tête de Galantry",
+    "url": "https://fr.wikipedia.org/wiki/T%C3%AAte_de_Galantry",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -255,8 +263,12 @@
     "temp_c": 5.4
    },
    "flavour": {
-    "text": "An island in Saint Pierre and Miquelon.",
-    "source": "facts"
+    "text": "Petit Colombier is a small island in Saint Pierre and Miquelon, just northeast of Grand Colombier and north of Saint-Pierre island.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Petit Colombier",
+    "url": "https://fr.wikipedia.org/wiki/Petit_Colombier",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -313,8 +325,12 @@
     "temp_c": 5.2
    },
    "flavour": {
-    "text": "A hill in Saint Pierre and Miquelon.",
-    "source": "facts"
+    "text": "Le Trépied is the highest point of the island of Saint-Pierre, in Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Le Trépied",
+    "url": "https://fr.wikipedia.org/wiki/Le_Tr%C3%A9pied",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -339,8 +355,12 @@
     "temp_c": 5.2
    },
    "flavour": {
-    "text": "A lake in Saint Pierre and Miquelon.",
-    "source": "facts"
+    "text": "It is named after Cap Noir, just to the east on the other side of the Tête de Galantry.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Étang du Cap Noir",
+    "url": "https://fr.wikipedia.org/wiki/%C3%89tang_du_Cap_Noir",
+    "translated": true
    },
    "image": {
     "kind": "minimap",

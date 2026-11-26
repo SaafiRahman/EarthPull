@@ -83,8 +83,12 @@
     "temp_c": 25.9
    },
    "flavour": {
-    "text": "A lake in Holguín.",
-    "source": "facts"
+    "text": "The Nipe Dam, also called the Nipe Reservoir, is a reservoir in the centre of Holguín Province, Cuba.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Presa Nipe",
+    "url": "https://es.wikipedia.org/wiki/Presa_Nipe",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -108,8 +112,12 @@
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "A mountain range in Holguín.",
-    "source": "facts"
+    "text": "Cerro Galano is a hill in Holguín Province, Cuba, and the highest point of the range known as the Maniabón Group.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro Galano",
+    "url": "https://es.wikipedia.org/wiki/Cerro_Galano",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -137,8 +145,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A mountain in Holguín.",
-    "source": "facts"
+    "text": "La Silla de Gibara is a karst mountain in Holguín Province, Cuba.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Silla de Gibara",
+    "url": "https://es.wikipedia.org/wiki/Silla_de_Gibara",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -166,8 +178,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Holguín.",
-    "source": "facts"
+    "text": "It is part of the islands and waters that shape the coast of northeastern Cuba on the Atlantic.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cayo Moa Grande",
+    "url": "https://es.wikipedia.org/wiki/Cayo_Moa_Grande",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -191,8 +207,12 @@
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A bay in Matanzas.",
-    "source": "facts"
+    "text": "Matanzas Bay is a bay in Matanzas Province, in western Cuba.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Bahía de Matanzas (Cuba)",
+    "url": "https://es.wikipedia.org/wiki/Bah%C3%ADa_de_Matanzas_%28Cuba%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -216,8 +236,12 @@
     "temp_c": 24.9
    },
    "flavour": {
-    "text": "A river in Guantánamo.",
-    "source": "facts"
+    "text": "It flows through Guantánamo Province.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Río Duaba",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Duaba",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -278,8 +302,12 @@
     "temp_c": 24.8
    },
    "flavour": {
-    "text": "A river in Villa Clara.",
-    "source": "facts"
+    "text": "It flows through Villa Clara Province.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Río Jiquiabo",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Jiquiabo",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -303,8 +331,12 @@
     "temp_c": 24.5
    },
    "flavour": {
-    "text": "A waterfall in Holguín.",
-    "source": "facts"
+    "text": "El Salto del Guayabo is the main sight of La Mensura-Pilotos National Park, in the municipality of Mayarí, Holguín Province.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Salto del Guayabo",
+    "url": "https://es.wikipedia.org/wiki/Salto_del_Guayabo",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1270,8 +1302,12 @@
     "temp_c": 23.8
    },
    "flavour": {
-    "text": "A national park in Pinar del Río.",
-    "source": "facts"
+    "text": "It covers 54,000 acres of mountain forest in the Sierra de los Órganos.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional La Güira",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_La_G%C3%BCira",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1332,8 +1368,12 @@
     "temp_c": 25.5
    },
    "flavour": {
-    "text": "A national park in Isla de la Juventud.",
-    "source": "facts"
+    "text": "Ciénaga de Lanier National Park covers about 100 km² and holds the third most important wetland in the Cuban archipelago.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Ciénaga de Lanier",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Ci%C3%A9naga_de_Lanier",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1973,8 +2013,12 @@
     "temp_c": 24.7
    },
    "flavour": {
-    "text": "A Monumento Nacional de Cuba in Santiago de Cuba.",
-    "source": "facts"
+    "text": "Ciudad Escolar 26 de Julio, formerly the Moncada Barracks, is a school complex in a former army barracks in Santiago de Cuba.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cuartel Moncada",
+    "url": "https://es.wikipedia.org/wiki/Cuartel_Moncada",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2168,8 +2212,12 @@
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A beach in Holguín.",
-    "source": "facts"
+    "text": "It is part of the tourist coast of Holguín, along with the beaches of Guardalavaca, Yuraguanal and Esmeralda.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Playa Pesquero",
+    "url": "https://es.wikipedia.org/wiki/Playa_Pesquero",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2200,8 +2248,12 @@
     "US"
    ],
    "flavour": {
-    "text": "A border checkpoint in Guantánamo.",
-    "source": "facts"
+    "text": "The Northeast Gate is the only border crossing between the Guantánamo Bay Naval Base and the town of Boquerón.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Puerta del Noreste",
+    "url": "https://es.wikipedia.org/wiki/Puerta_del_Noreste",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -3150,104 +3202,105 @@
    }
   },
   {
-   "id": "gn:3533826",
-   "name": "Yaguajay",
-   "label": "Yaguajay",
+   "id": "gn:3558729",
+   "name": "Fontanar",
+   "label": "Fontanar",
    "type": "town",
    "kind": "town",
-   "region": "CU-07",
+   "region": "CU-03",
    "country": "CU",
-   "lat": 22.3269,
-   "lon": -79.2369,
+   "lat": 23.0239,
+   "lon": -82.408,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 42218,
-    "elevation_m": 22,
+    "population": 178601,
+    "elevation_m": 67,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A community of 178,601 people in Havana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3558729.webp"
+   }
+  },
+  {
+   "id": "wd:Q6407774",
+   "name": "Cayo Judas",
+   "label": "Cayo Judas",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 22.25,
+   "lon": -78.3167,
+   "rarity": "Common",
+   "fame": 54,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "An island in Ciego de Ávila.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6407774.webp"
+   }
+  },
+  {
+   "id": "gn:3554097",
+   "name": "Puerto Esperanza",
+   "label": "Puerto Esperanza",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.7688,
+   "lon": -83.7316,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3331,
+    "elevation_m": 4.0,
     "temp_c": 24.7
    },
    "flavour": {
-    "text": "A community of 42,218 people in Sancti Spíritus.",
+    "text": "A community of 3,331 people in Pinar del Río.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3533826.webp"
+    "file": "images/minimap/gn_3554097.webp"
    }
   },
   {
-   "id": "wd:Q23803955",
-   "name": "Cabaña River",
-   "label": "Cabaña River",
-   "type": "nature",
-   "kind": "river",
-   "region": "CU-11",
-   "country": "CU",
-   "lat": 20.6444,
-   "lon": -74.9175,
-   "rarity": "Common",
-   "fame": 60,
-   "facts": {
-    "elevation_m": 8.0,
-    "temp_c": 23.9
-   },
-   "flavour": {
-    "text": "A river in Holguín.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q23803955.webp"
-   }
-  },
-  {
-   "id": "wd:Q5759162",
-   "name": "Cayo Eusebio",
-   "label": "Cayo Eusebio",
+   "id": "wd:Q5759191",
+   "name": "Cayo Hicacal",
+   "label": "Cayo Hicacal",
    "type": "nature",
    "kind": "island",
-   "region": "CU-09",
+   "region": "CU-05",
    "country": "CU",
-   "lat": 21.8667,
-   "lon": -77.6833,
+   "lat": 23.0672,
+   "lon": -80.0789,
    "rarity": "Common",
-   "fame": 24,
+   "fame": 42,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 25.7
+    "elevation_m": 4.0,
+    "temp_c": 25.1
    },
    "flavour": {
-    "text": "An island in Camagüey.",
+    "text": "An island in Villa Clara.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5759162.webp"
-   }
-  },
-  {
-   "id": "wd:Q123560436",
-   "name": "río Guajacabo",
-   "label": "río Guajacabo",
-   "type": "nature",
-   "kind": "river",
-   "region": "CU-12",
-   "country": "CU",
-   "lat": 20.4897,
-   "lon": -76.9761,
-   "rarity": "Common",
-   "fame": 30,
-   "facts": {
-    "elevation_m": 3.0,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "A river in Granma.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q123560436.webp"
+    "file": "images/minimap/wd_Q5759191.webp"
    }
   }
  ]

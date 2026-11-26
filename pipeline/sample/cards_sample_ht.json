@@ -87,8 +87,12 @@
     "temp_c": 24.4
    },
    "flavour": {
-    "text": "A mountain range in Artibonite.",
-    "source": "facts"
+    "text": "It rises partly in the Nord-Ouest department and partly in the Artibonite.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Massif de Terre Neuve",
+    "url": "https://fr.wikipedia.org/wiki/Massif_de_Terre_Neuve",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -142,8 +146,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A bay in Nord-Est.",
-    "source": "facts"
+    "text": "Fort-Liberté Bay is an enclosed bay on Haiti's north coast, north of the town of Fort-Liberté and west of the Lagon aux Bœufs.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Baie de Fort-Liberté",
+    "url": "https://fr.wikipedia.org/wiki/Baie_de_Fort-Libert%C3%A9",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -230,8 +238,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "A bay in Nord-Ouest.",
-    "source": "facts"
+    "text": "Moustiques Bay is a bay on Haiti's north coast, opening onto the Atlantic opposite Tortuga Island.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Baie des Moustiques",
+    "url": "https://fr.wikipedia.org/wiki/Baie_des_Moustiques",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -256,8 +268,12 @@
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A river in Sud.",
-    "source": "facts"
+    "text": "The Torbeck River flows through Haiti's Sud department, in the Les Cayes arrondissement.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Rivière Torbeck",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Torbeck",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -312,8 +328,12 @@
     "temp_c": 23.6
    },
    "flavour": {
-    "text": "A river in Centre.",
-    "source": "facts"
+    "text": "It is a tributary of the Lociane River.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Rivière Victorine",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Victorine",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -934,8 +954,12 @@
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "A national park in Ouest.",
-    "source": "facts"
+    "text": "Martissant Urban National Park, listed as \"Parc de Martissant\" in Haiti's register of protected areas.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Parc national urbain de Martissant",
+    "url": "https://fr.wikipedia.org/wiki/Parc_national_urbain_de_Martissant",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1169,8 +1193,12 @@
     "temp_c": 20.2
    },
    "flavour": {
-    "text": "A national park in Ouest.",
-    "source": "facts"
+    "text": "It covers 18,780 ha, split into two parks, one of 4,780.57 ha and the other of about 14,000 ha.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Parc national Forêt des Pins",
+    "url": "https://fr.wikipedia.org/wiki/Parc_national_For%C3%AAt_des_Pins",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1674,8 +1702,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "A cathedral in Nippes.",
-    "source": "facts"
+    "text": "It is the seat of the bishop of the Diocese of Anse-à-Veau and Miragoâne.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Cathédrale Sainte-Anne d'Anse-à-Veau",
+    "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Sainte-Anne_d%27Anse-%C3%A0-Veau",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1733,8 +1765,12 @@
     "temp_c": 23.7
    },
    "flavour": {
-    "text": "A cathedral in Centre.",
-    "source": "facts"
+    "text": "It is the seat of the bishop of the Diocese of Hinche.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Cathédrale de l'Immaculée-Conception de Hinche",
+    "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_de_l%27Immacul%C3%A9e-Conception_de_Hinche",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1758,8 +1794,12 @@
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "A sports venue in Ouest.",
-    "source": "facts"
+    "text": "The Carrefour Sports Centre, also known as Parc Edouard Baker, is one of the largest sports grounds in Haiti.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Centre sportif de Carrefour",
+    "url": "https://fr.wikipedia.org/wiki/Centre_sportif_de_Carrefour",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -2827,54 +2867,55 @@
    }
   },
   {
-   "id": "gn:3731257",
-   "name": "Les Abricots",
-   "label": "Les Abricots",
+   "id": "gn:3726674",
+   "name": "Désarmes",
+   "label": "Désarmes",
    "type": "town",
    "kind": "town",
-   "region": "HT-GA",
+   "region": "HT-AR",
    "country": "HT",
-   "lat": 18.649,
-   "lon": -74.3079,
+   "lat": 18.9934,
+   "lon": -72.3906,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1245,
-    "elevation_m": 11,
-    "temp_c": 24.9
+    "population": 15594,
+    "elevation_m": 81,
+    "temp_c": 22.5
    },
    "flavour": {
-    "text": "A community of 1,245 people in Grand'Anse.",
+    "text": "A community of 15,594 people in Artibonite.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3731257.webp"
+    "file": "images/minimap/gn_3726674.webp"
    }
   },
   {
-   "id": "wd:Q17621749",
-   "name": "baie des Gonaïves",
-   "label": "baie des Gonaïves",
-   "type": "nature",
-   "kind": "bay",
-   "region": "HT-AR",
+   "id": "gn:3720765",
+   "name": "Môle Saint-Nicolas",
+   "label": "Môle Saint-Nicolas",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NO",
    "country": "HT",
-   "lat": 19.426,
-   "lon": -72.7,
+   "lat": 19.8079,
+   "lon": -73.3779,
    "rarity": "Common",
-   "fame": 108,
+   "fame": 0,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.6
+    "population": 3224,
+    "elevation_m": 31,
+    "temp_c": 24.4
    },
    "flavour": {
-    "text": "A bay in Artibonite.",
+    "text": "A community of 3,224 people in Nord-Ouest.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q17621749.webp"
+    "file": "images/minimap/gn_3720765.webp"
    }
   },
   {
@@ -2906,32 +2947,6 @@
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Nord_Department,_Haiti_-_panoramio_(12).jpg"
-   }
-  },
-  {
-   "id": "gn:3717916",
-   "name": "Roche-à-Bateau",
-   "label": "Roche-à-Bateau",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-SD",
-   "country": "HT",
-   "lat": 18.1818,
-   "lon": -74.0035,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1662,
-    "elevation_m": 16,
-    "temp_c": 24.2
-   },
-   "flavour": {
-    "text": "A community of 1,662 people in Sud.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3717916.webp"
    }
   }
  ]

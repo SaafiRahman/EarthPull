@@ -49,8 +49,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A bay in Sint Maarten.",
-    "source": "facts"
+    "text": "It lies in the south of the country, just west of Philipsburg.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Little Bay (Sint Maarten)",
+    "url": "https://nl.wikipedia.org/wiki/Little_Bay_%28Sint_Maarten%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -79,8 +83,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A lake in Sint Maarten.",
-    "source": "facts"
+    "text": "It is a semi-enclosed lake in Simpson Bay Lagoon with calm, shallow water.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Mullet Pond",
+    "url": "https://nl.wikipedia.org/wiki/Mullet_Pond",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -104,8 +112,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "An island in Sint Maarten.",
-    "source": "facts"
+    "text": "Hen & Chickens are three rocks that belong to the islands of Sint Maarten.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Hen & Chickens",
+    "url": "https://nl.wikipedia.org/wiki/Hen_%26_Chickens",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -129,8 +141,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A hill in Sint Maarten.",
-    "source": "facts"
+    "text": "Fort Willem I was built on the summit in 1801 but has fallen into ruin.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Fort Hill",
+    "url": "https://nl.wikipedia.org/wiki/Fort_Hill",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -187,8 +203,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A mountain in Sint Maarten.",
-    "source": "facts"
+    "text": "Mount Flagstaff is a 370-metre mountain whose summit sits on the border of Sint Maarten and the French Collectivity of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Mount Flagstaff",
+    "url": "https://nl.wikipedia.org/wiki/Mount_Flagstaff",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -212,8 +232,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A mountain in Sint Maarten.",
-    "source": "facts"
+    "text": "Sentry Hill is a mountain in the Caribbean country of Sint Maarten.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Sentry Hill",
+    "url": "https://nl.wikipedia.org/wiki/Sentry_Hill",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -237,8 +261,12 @@
     "temp_c": 26.9
    },
    "flavour": {
-    "text": "An island in Sint Maarten.",
-    "source": "facts"
+    "text": "It is one of Sint Maarten's islands and lies about 5 km east of Philipsburg.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Molly Beday",
+    "url": "https://nl.wikipedia.org/wiki/Molly_Beday",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -266,8 +294,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "An island in Sint Maarten.",
-    "source": "facts"
+    "text": "Cow & Calf are two small islands that belong to the islands of Sint Maarten.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Cow & Calf",
+    "url": "https://nl.wikipedia.org/wiki/Cow_%26_Calf",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -378,8 +410,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A community of 6,000 people in Sint Maarten.",
-    "source": "facts"
+    "text": "It is the third-largest settlement in the country by population.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Koolbaai",
+    "url": "https://nl.wikipedia.org/wiki/Koolbaai",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -533,8 +569,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A beach in Sint Maarten.",
-    "source": "facts"
+    "text": "The beach is in the northwest of Lowlands, against the French border.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Cupecoy Beach",
+    "url": "https://nl.wikipedia.org/wiki/Cupecoy_Beach",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -595,8 +635,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A beach in Sint Maarten.",
-    "source": "facts"
+    "text": "The beach lies past the bridge to the airport, on the other side of Simpson Bay Lagoon.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Kim Sha Beach",
+    "url": "https://nl.wikipedia.org/wiki/Kim_Sha_Beach",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -686,8 +730,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A beach in Sint Maarten.",
-    "source": "facts"
+    "text": "The beach is north of the airport and has bright white sand below high cliffs.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Mullet Bay Beach",
+    "url": "https://nl.wikipedia.org/wiki/Mullet_Bay_Beach",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -715,8 +763,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A monument in Sint Maarten.",
-    "source": "facts"
+    "text": "The first Concordia monument on Sint Maarten was unveiled here in 1948.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Concordiamonument 1648-1948",
+    "url": "https://nl.wikipedia.org/wiki/Concordiamonument_1648-1948",
+    "translated": true
    },
    "image": {
     "kind": "photo",

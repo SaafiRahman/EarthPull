@@ -84,8 +84,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "An island in Saint Martin.",
-    "source": "facts"
+    "text": "It is part of the French overseas collectivity of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Petite Clef",
+    "url": "https://fr.wikipedia.org/wiki/Petite_Clef",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -180,8 +184,12 @@
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "An island in Saint Martin.",
-    "source": "facts"
+    "text": "It is part of the French overseas collectivity of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Rocher de l'Anse Marcel",
+    "url": "https://fr.wikipedia.org/wiki/Rocher_de_l%27Anse_Marcel",
+    "translated": true
    },
    "image": {
     "kind": "minimap",

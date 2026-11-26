@@ -144,8 +144,12 @@
     "temp_c": 24.7
    },
    "flavour": {
-    "text": "An island in San Miguel.",
-    "source": "facts"
+    "text": "The island's name is Indigenous, from Conxagua or Comixagua, meaning \"flying tiger\".",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Conchagua",
+    "url": "https://es.wikipedia.org/wiki/Isla_Conchagua",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -169,8 +173,12 @@
     "temp_c": 21.5
    },
    "flavour": {
-    "text": "A mountain in Ahuachapán.",
-    "source": "facts"
+    "text": "Laguna Verde is a crater lake between the villages of Palo Verde and San Juan de Dios in Ahuachapán, near Apaneca and Juayúa.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Laguna Verde (El Salvador)",
+    "url": "https://es.wikipedia.org/wiki/Laguna_Verde_%28El_Salvador%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -224,8 +232,12 @@
     "temp_c": 21.5
    },
    "flavour": {
-    "text": "A lake in Santa Ana.",
-    "source": "facts"
+    "text": "Laguna Cuzcachapa is a lake 0.8 kilometres east of the Salvadoran town of Chalchuapa…",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Laguna Cuzcachapa",
+    "url": "https://es.wikipedia.org/wiki/Laguna_Cuzcachapa",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -316,8 +328,12 @@
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "An island in Usulután.",
-    "source": "facts"
+    "text": "Isla Madre Sal is a Salvadoran island in Jiquilisco Bay.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Madre Sal",
+    "url": "https://es.wikipedia.org/wiki/Isla_Madre_Sal",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -346,8 +362,12 @@
     "temp_c": 26.8
    },
    "flavour": {
-    "text": "An island in La Unión.",
-    "source": "facts"
+    "text": "Isla Martín Pérez is a small island in the Gulf of Fonseca.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Martín Pérez",
+    "url": "https://es.wikipedia.org/wiki/Isla_Mart%C3%ADn_P%C3%A9rez",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1900,8 +1920,12 @@
     "temp_c": 22.6
    },
    "flavour": {
-    "text": "A monument in La Libertad.",
-    "source": "facts"
+    "text": "The Monument to the Revolution stands in the grounds of the Museum of Art of El Salvador, in San Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Monumento a la Revolución (El Salvador)",
+    "url": "https://es.wikipedia.org/wiki/Monumento_a_la_Revoluci%C3%B3n_%28El_Salvador%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1995,8 +2019,12 @@
     "temp_c": 24.7
    },
    "flavour": {
-    "text": "A theatre building in San Miguel.",
-    "source": "facts"
+    "text": "The Francisco Gavidia National Theatre is in the city of San Miguel, El Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Teatro Nacional Francisco Gavidia",
+    "url": "https://es.wikipedia.org/wiki/Teatro_Nacional_Francisco_Gavidia",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2024,8 +2052,12 @@
     "temp_c": 28.1
    },
    "flavour": {
-    "text": "A port in La Unión.",
-    "source": "facts"
+    "text": "The Port of La Unión is in the city of La Unión, El Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Puerto La Unión",
+    "url": "https://es.wikipedia.org/wiki/Puerto_La_Uni%C3%B3n",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2086,8 +2118,12 @@
     "temp_c": 22.6
    },
    "flavour": {
-    "text": "A monument in San Salvador.",
-    "source": "facts"
+    "text": "The Monument to the Sea, better known as the Fuente Luminosa, is a monument in the city of San Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Fuente Luminosa",
+    "url": "https://es.wikipedia.org/wiki/Fuente_Luminosa",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2320,8 +2356,12 @@
     "temp_c": 23.6
    },
    "flavour": {
-    "text": "A volcano in San Salvador.",
-    "source": "facts"
+    "text": "The Ilopango caldera is a volcanic caldera in El Salvador, about 12 kilometres east of San Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Caldera del lago de Ilopango",
+    "url": "https://es.wikipedia.org/wiki/Caldera_del_lago_de_Ilopango",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2753,58 +2793,6 @@
    }
   },
   {
-   "id": "gn:3583009",
-   "name": "Tecoluca",
-   "label": "Tecoluca",
-   "type": "town",
-   "kind": "town",
-   "region": "SV-CU",
-   "country": "SV",
-   "lat": 13.7892,
-   "lon": -89.0053,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2781,
-    "elevation_m": 758,
-    "temp_c": 23.6
-   },
-   "flavour": {
-    "text": "A community of 2,781 people in Cuscatlán.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3583009.webp"
-   }
-  },
-  {
-   "id": "wd:Q2895032",
-   "name": "Isla Zacatillo",
-   "label": "Isla Zacatillo",
-   "type": "nature",
-   "kind": "island",
-   "region": "SV-UN",
-   "country": "SV",
-   "lat": 13.305,
-   "lon": -87.7622,
-   "rarity": "Common",
-   "fame": 1134,
-   "facts": {
-    "elevation_m": 108,
-    "area_km2": 4.0,
-    "temp_c": 26.8
-   },
-   "flavour": {
-    "text": "An island in La Unión.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q2895032.webp"
-   }
-  },
-  {
    "id": "gn:3583471",
    "name": "San Martín",
    "label": "San Martín",
@@ -2831,32 +2819,54 @@
    }
   },
   {
-   "id": "wd:Q1056001",
-   "name": "Cerro Verde",
-   "label": "Cerro Verde",
+   "id": "wd:Q5921918",
+   "name": "Isla San Sebastián",
+   "label": "Isla San Sebastián",
    "type": "nature",
-   "kind": "hill",
-   "region": "SV-SA",
+   "kind": "island",
+   "region": "SV-US",
    "country": "SV",
-   "lat": 13.8264,
-   "lon": -89.6226,
+   "lat": 13.1833,
+   "lon": -88.4167,
    "rarity": "Common",
-   "fame": 4164,
+   "fame": 312,
    "facts": {
-    "elevation_m": 2030,
-    "temp_c": 23.2
+    "elevation_m": 7.0,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "A hill in Santa Ana.",
+    "text": "An island in Usulután.",
     "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1056001.webp",
-    "author": "Dead.rabbit",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Verde_from_Santa_Ana_Volcano.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5921918.webp"
+   }
+  },
+  {
+   "id": "gn:3583009",
+   "name": "Tecoluca",
+   "label": "Tecoluca",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CU",
+   "country": "SV",
+   "lat": 13.7892,
+   "lon": -89.0053,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2781,
+    "elevation_m": 758,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 2,781 people in Cuscatlán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3583009.webp"
    }
   }
  ]

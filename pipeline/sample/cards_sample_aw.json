@@ -256,8 +256,12 @@
     "temp_c": 28.0
    },
    "flavour": {
-    "text": "An island in Aruba.",
-    "source": "facts"
+    "text": "Renaissance Island is a private reef island off the coast of Aruba, opposite Queen Beatrix International Airport.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Renaissance Island",
+    "url": "https://nl.wikipedia.org/wiki/Renaissance_Island",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -599,8 +603,12 @@
     "temp_c": 27.9
    },
    "flavour": {
-    "text": "A barracks in Aruba.",
-    "source": "facts"
+    "text": "The Savaneta Marine Barracks are a base of the Netherlands Marine Corps by the village of Savaneta on Aruba's southwest coast.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Marinierskazerne Savaneta",
+    "url": "https://nl.wikipedia.org/wiki/Marinierskazerne_Savaneta",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -828,8 +836,12 @@
     "temp_c": 28.0
    },
    "flavour": {
-    "text": "A building in Aruba.",
-    "source": "facts"
+    "text": "It is also known as the Little Yellow House or the former Aruba Bank House.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Weststraat 15",
+    "url": "https://nl.wikipedia.org/wiki/Weststraat_15",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1056,8 +1068,12 @@
     "temp_c": 27.9
    },
    "flavour": {
-    "text": "A brook in Aruba.",
-    "source": "facts"
+    "text": "Fontein is an area on the Caribbean island of Aruba near San Nicolaas and Boca Prins, on the island's northeast coast.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Fontein (Aruba)",
+    "url": "https://nl.wikipedia.org/wiki/Fontein_%28Aruba%29",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1114,8 +1130,12 @@
     "temp_c": 27.9
    },
    "flavour": {
-    "text": "A church in Aruba.",
-    "source": "facts"
+    "text": "The church is one of the four congregations of the Protestant Church of Aruba.",
+    "source": "wikipedia",
+    "lang": "nl",
+    "title": "Kerki Protestant Piedra Plat",
+    "url": "https://nl.wikipedia.org/wiki/Kerki_Protestant_Piedra_Plat",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1224,64 +1244,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:01Nicolaas_Store.jpg"
-   }
-  },
-  {
-   "id": "wd:Q18618757",
-   "name": "Watertower Oranjestad",
-   "label": "Watertower Oranjestad",
-   "type": "built",
-   "kind": "cultural property",
-   "region": "AW",
-   "country": "AW",
-   "lat": 12.5211,
-   "lon": -70.0339,
-   "rarity": "Rare",
-   "fame": 114,
-   "facts": {
-    "elevation_m": 6.0,
-    "temp_c": 28.0
-   },
-   "flavour": {
-    "text": "A cultural property in Aruba.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q18618757.webp",
-    "author": "Liza van Hofwegen",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Watertoren_Aruba.jpg"
-   }
-  },
-  {
-   "id": "wd:Q42586321",
-   "name": "School 1888",
-   "label": "School 1888",
-   "type": "built",
-   "kind": "building",
-   "region": "AW",
-   "country": "AW",
-   "lat": 12.5188,
-   "lon": -70.0362,
-   "rarity": "Rare",
-   "fame": 84,
-   "facts": {
-    "elevation_m": 4.0,
-    "temp_c": 28.0
-   },
-   "flavour": {
-    "text": "A building in Aruba.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q42586321.webp",
-    "author": "Natalie Liao Jen",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:School_1888_(3),_Oranjestad,_ARUBA.JPG"
    }
   }
  ]

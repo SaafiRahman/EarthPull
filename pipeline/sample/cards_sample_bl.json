@@ -85,8 +85,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Saint Barthélemy.",
-    "source": "facts"
+    "text": "Île le Boulanger is a French island between Saint Martin and Saint Barthélemy, part of the collectivity of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Île le Boulanger",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Ele_le_Boulanger",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -143,8 +147,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Saint Barthélemy.",
-    "source": "facts"
+    "text": "Île Petit Jean is a French island between Saint Martin and Saint Barthélemy, part of the collectivity of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Île Petit Jean",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Ele_Petit_Jean",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -172,8 +180,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "An island in Saint Barthélemy.",
-    "source": "facts"
+    "text": "Île Coco is a small, uninhabited French island one kilometre south of Saint Barthélemy, part of the collectivity of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Île Coco",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Ele_Coco",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -234,8 +246,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Saint Barthélemy.",
-    "source": "facts"
+    "text": "Le Pain de Sucre is a French island between Saint Martin and Saint Barthélemy, part of the collectivity of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Pain de Sucre (Saint-Barthélemy)",
+    "url": "https://fr.wikipedia.org/wiki/Pain_de_Sucre_%28Saint-Barth%C3%A9lemy%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -263,8 +279,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "An island in Saint Barthélemy.",
-    "source": "facts"
+    "text": "Île Pelé is a French island between Saint Martin and Saint Barthélemy, part of the collectivity of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Île Pelé",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Ele_Pel%C3%A9",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -421,8 +441,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A bell tower in Saint Barthélemy.",
-    "source": "facts"
+    "text": "This Swedish bell tower dates from 1800 and stands near the sub-prefecture on Rue Lubin-Prin in Gustavia, Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Clocher suédois de Gustavia",
+    "url": "https://fr.wikipedia.org/wiki/Clocher_su%C3%A9dois_de_Gustavia",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -545,8 +569,12 @@
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A house in Saint Barthélemy.",
-    "source": "facts"
+    "text": "The Governor's House, built in the 1780s, stands in Gustavia on the island of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Maison des Gouverneurs de Gustavia",
+    "url": "https://fr.wikipedia.org/wiki/Maison_des_Gouverneurs_de_Gustavia",
+    "translated": true
    },
    "image": {
     "kind": "photo",

@@ -1289,8 +1289,12 @@
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "A national park in Izabal.",
-    "source": "facts"
+    "text": "Río Dulce National Park is in Izabal Department, Guatemala.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Río Dulce",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_R%C3%ADo_Dulce",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1318,8 +1322,12 @@
     "temp_c": 25.9
    },
    "flavour": {
-    "text": "A national park in Alta Verapaz.",
-    "source": "facts"
+    "text": "Laguna Lachuá National Park is a national park in Guatemala.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Laguna Lachuá",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Laguna_Lachu%C3%A1",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -2481,8 +2489,12 @@
     "temp_c": 16.0
    },
    "flavour": {
-    "text": "A mountain in Quetzaltenango.",
-    "source": "facts"
+    "text": "Santiaguito is a volcano that grew from a crater of Santa María volcano between 1902 and 1922.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Volcán Santiaguito",
+    "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Santiaguito",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -3271,108 +3283,107 @@
    }
   },
   {
-   "id": "wd:Q5922135",
-   "name": "Isla de Los Gatos",
-   "label": "Isla de Los Gatos",
-   "type": "nature",
-   "kind": "island",
-   "region": "GT-SO",
-   "country": "GT",
-   "lat": 14.65,
-   "lon": -91.2333,
-   "rarity": "Common",
-   "fame": 252,
-   "facts": {
-    "elevation_m": 1556,
-    "temp_c": 19.2
-   },
-   "flavour": {
-    "text": "An island in Sololá.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5922135.webp"
-   }
-  },
-  {
-   "id": "gn:3598119",
-   "name": "Cobán",
-   "label": "Cobán",
+   "id": "gn:3591997",
+   "name": "Ostuncalco",
+   "label": "Ostuncalco",
    "type": "town",
    "kind": "town",
-   "region": "GT-AV",
+   "region": "GT-QZ",
    "country": "GT",
-   "lat": 15.4703,
-   "lon": -90.3745,
-   "rarity": "Epic",
+   "lat": 14.869,
+   "lon": -91.6214,
+   "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 212047,
-    "elevation_m": 1326,
-    "temp_c": 18.3
+    "population": 51828,
+    "elevation_m": 2506,
+    "temp_c": 12.4
    },
    "flavour": {
-    "text": "A community of 212,047 people in Alta Verapaz.",
+    "text": "A community of 51,828 people in Quetzaltenango.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3598119.webp"
+    "file": "images/minimap/gn_3591997.webp"
    }
   },
   {
-   "id": "wd:Q5922517",
-   "name": "Islote Pedregal",
-   "label": "Islote Pedregal",
-   "type": "nature",
-   "kind": "island",
+   "id": "gn:3594422",
+   "name": "La Libertad",
+   "label": "La Libertad (Petén)",
+   "type": "town",
+   "kind": "town",
    "region": "GT-PE",
    "country": "GT",
-   "lat": 16.9333,
-   "lon": -89.9167,
+   "lat": 16.7885,
+   "lon": -90.117,
    "rarity": "Common",
-   "fame": 66,
+   "fame": 0,
    "facts": {
-    "elevation_m": 112,
-    "temp_c": 25.6
+    "population": 8646,
+    "elevation_m": 186,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "An island in Petén.",
+    "text": "A community of 8,646 people in Petén.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5922517.webp"
+    "file": "images/minimap/gn_3594422.webp"
    }
   },
   {
-   "id": "wd:Q17630138",
-   "name": "Sierra de Chamá",
-   "label": "Sierra de Chamá",
-   "type": "nature",
-   "kind": "mountain range",
-   "region": "GT-AV",
+   "id": "gn:3590399",
+   "name": "San Bartolo",
+   "label": "San Bartolo",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-TO",
    "country": "GT",
-   "lat": 15.6667,
-   "lon": -90.5,
+   "lat": 15.0844,
+   "lon": -91.4561,
    "rarity": "Common",
-   "fame": 540,
+   "fame": 0,
    "facts": {
-    "elevation_m": 326,
-    "temp_c": 25.3
+    "population": 1290,
+    "elevation_m": 2116,
+    "temp_c": 15.3
    },
    "flavour": {
-    "text": "A mountain range in Alta Verapaz.",
+    "text": "A community of 1,290 people in Totonicapán.",
     "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q17630138.webp",
-    "author": "SteveTMP12",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Cob%C3%A1n,_Guatemala.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/gn_3590399.webp"
+   }
+  },
+  {
+   "id": "gn:3595282",
+   "name": "Ixtahuacán",
+   "label": "Ixtahuacán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.4169,
+   "lon": -91.7693,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3708,
+    "elevation_m": 1609,
+    "temp_c": 17.6
+   },
+   "flavour": {
+    "text": "A community of 3,708 people in Huehuetenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3595282.webp"
    }
   }
  ]

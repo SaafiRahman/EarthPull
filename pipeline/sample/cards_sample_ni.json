@@ -116,8 +116,12 @@
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "A river in North Caribbean Coast.",
-    "source": "facts"
+    "text": "It rises on the northeastern slopes of the Cordillera Isabelia.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Prinzapolca",
+    "url": "https://es.wikipedia.org/wiki/Prinzapolca",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -174,8 +178,12 @@
     "temp_c": 27.5
    },
    "flavour": {
-    "text": "An island in Chinandega.",
-    "source": "facts"
+    "text": "It belongs to the municipality of El Viejo in Nicaragua's Chinandega Department, on the border with Honduras.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Isla Maderas Negras",
+    "url": "https://es.wikipedia.org/wiki/Isla_Maderas_Negras",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1084,8 +1092,12 @@
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "A national park in North Caribbean Coast.",
-    "source": "facts"
+    "text": "It was created in 1971, covers 631 km², and is part of the Bosawás Nature Reserve.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Saslaya",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Saslaya",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
@@ -1110,8 +1122,12 @@
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "A national park in Masaya.",
-    "source": "facts"
+    "text": "Masaya Volcano National Park is a Nicaraguan park covering an old volcanic caldera that now holds Masaya Volcano.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Volcán Masaya",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Volc%C3%A1n_Masaya",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1139,8 +1155,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A national park in Granada.",
-    "source": "facts"
+    "text": "Mombacho Volcano Nature Reserve lies south of the city of Granada and the Isletas de Granada in Nicaragua.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional Volcán Mombacho",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Volc%C3%A1n_Mombacho",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1542,8 +1562,12 @@
     "temp_c": 27.3
    },
    "flavour": {
-    "text": "A church in León.",
-    "source": "facts"
+    "text": "It stands in the El Sagrario neighbourhood and belongs to the cathedral parish.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Iglesia de La Recolección (León, Nicaragua)",
+    "url": "https://es.wikipedia.org/wiki/Iglesia_de_La_Recolecci%C3%B3n_%28Le%C3%B3n%2C_Nicaragua%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1696,8 +1720,12 @@
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A church building in Granada.",
-    "source": "facts"
+    "text": "The Convent of San Francisco, also known as the San Francisco Convent Museum Cultural Centre, is a former convent and museum in Granada.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Convento de San Francisco (Granada)",
+    "url": "https://es.wikipedia.org/wiki/Convento_de_San_Francisco_%28Granada%29",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -1816,8 +1844,12 @@
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A religious building in León.",
-    "source": "facts"
+    "text": "The Lord of Miracles of Esquipulas of El Sauce, or the Black Christ of Esquipulas, is an image of the crucified Christ.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Señor de los Milagros de Esquipulas de El Sauce",
+    "url": "https://es.wikipedia.org/wiki/Se%C3%B1or_de_los_Milagros_de_Esquipulas_de_El_Sauce",
+    "translated": true
    },
    "image": {
     "kind": "photo",
@@ -2717,54 +2749,55 @@
    }
   },
   {
-   "id": "wd:Q26399118",
-   "name": "Peña of Cross",
-   "label": "Peña of Cross",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "NI-JI",
-   "country": "NI",
-   "lat": 13.0923,
-   "lon": -86.0131,
-   "rarity": "Common",
-   "fame": 540,
-   "facts": {
-    "elevation_m": 800,
-    "temp_c": 22.0
-   },
-   "flavour": {
-    "text": "A mountain in Jinotega.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q26399118.webp"
-   }
-  },
-  {
-   "id": "gn:7701408",
-   "name": "Las Praderas",
-   "label": "Las Praderas",
+   "id": "gn:3617730",
+   "name": "Masachapa",
+   "label": "Masachapa",
    "type": "town",
    "kind": "town",
-   "region": "NI-JI",
+   "region": "NI-MN",
    "country": "NI",
-   "lat": 13.348,
-   "lon": -85.944,
+   "lat": 11.7869,
+   "lon": -86.5142,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 3868,
-    "elevation_m": 425,
-    "temp_c": 23.7
+    "population": 4264,
+    "elevation_m": 12,
+    "temp_c": 27.1
    },
    "flavour": {
-    "text": "A community of 3,868 people in Jinotega.",
+    "text": "A community of 4,264 people in Managua.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_7701408.webp"
+    "file": "images/minimap/gn_3617730.webp"
+   }
+  },
+  {
+   "id": "gn:3618924",
+   "name": "Jiquilillo",
+   "label": "Jiquilillo",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.7459,
+   "lon": -87.4516,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4142,
+    "elevation_m": 9.0,
+    "temp_c": 27.6
+   },
+   "flavour": {
+    "text": "A community of 4,142 people in Chinandega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3618924.webp"
    }
   }
  ]
