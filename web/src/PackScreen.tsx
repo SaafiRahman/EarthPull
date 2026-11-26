@@ -41,12 +41,12 @@ export function PackScreen({ pool, state, onOpen, onAddPack }: {
           {pulls.map((p, i) => (
             <button
               key={p.card.id}
-              className={`flip aspect-[5/7] w-full text-left ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-1/2 sm:col-span-1 sm:w-full' : ''}`}
+              className={`flip rise aspect-[5/7] text-left ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
               style={{ animationDelay: `${i * 80}ms` }}
               onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
               aria-label={flipped[i] ? `${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
-              <div className="flip-inner rise" style={{ animationDelay: `${i * 80}ms` }}>
+              <div className="flip-inner">
                 <div className="flip-face"><CardBack tier={p.card.tier} /></div>
                 <div className="flip-face flip-front">
                   {flipped[i] ? <CardFace pool={pool} card={p.card} serial={p.serial} hometown={p.hometown} /> : null}

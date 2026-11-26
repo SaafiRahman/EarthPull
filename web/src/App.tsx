@@ -62,7 +62,8 @@ export default function App() {
       </main>
       {tab !== 'map' ? (
         <footer className="flex flex-wrap justify-between gap-2 border-t border-line px-4 py-2 text-xs text-muted">
-          <span>Demo: packs roll in your browser and serial numbers are simulated. Places from GeoNames, Wikidata and Wikipedia; photos from Wikimedia Commons.</span>
+          <span className="hidden sm:inline">Demo: packs roll in your browser and serial numbers are simulated. Places from GeoNames, Wikidata and Wikipedia; photos from Wikimedia Commons.</span>
+          <span className="sm:hidden">Demo: serials are simulated.</span>
           <ResetButton onReset={reset} />
         </footer>
       ) : null}

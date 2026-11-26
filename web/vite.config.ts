@@ -31,4 +31,7 @@ function serveExport(): Plugin {
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), serveExport()],
+  // MapLibre loads its worker from a file next to its own module; Vite's dependency pre-bundling moves the module and
+  // breaks that path ("Worker failed to load"), so serve maplibre-gl as-is.
+  optimizeDeps: { exclude: ['maplibre-gl'] },
 })
