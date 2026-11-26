@@ -7,12 +7,11 @@ import type { GameState } from './game'
 import { ownedCards, type OwnedCard } from './Collection'
 
 // Free vector map styles from OpenFreeMap (no key). The player picks one; the choice is remembered in this browser.
+// Developer, 2026-11-26: keep Classic, Light and Ocean (Bright and Night dropped).
 export const MAP_STYLES = [
   { id: 'liberty', name: 'Classic', light: true },
-  { id: 'bright', name: 'Bright', light: true },
   { id: 'positron', name: 'Light', light: true },
   { id: 'fiord', name: 'Ocean', light: false },
-  { id: 'dark', name: 'Night', light: false },
 ] as const
 type StyleId = (typeof MAP_STYLES)[number]['id']
 const STYLE_KEY = 'ptp-map-style'

@@ -33,7 +33,7 @@ try {
     await clickText(page, 'Done')
   }
   await clickText(page, 'Map')
-  for (const id of ['liberty', 'bright', 'positron', 'fiord', 'dark']) {
+  for (const id of ['liberty', 'positron', 'fiord']) {
     await page.click(`#map-style-${id}`)
     await sleep(6000)
     await page.screenshot({ path: `${OUT}/${id}.png` })
