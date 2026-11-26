@@ -31,7 +31,9 @@ try {
         if (p.foil && p.card.tier === 'Mythic') badFoilSerial++
         // Commons never numbered; numbered tiers within the run they came from
         const cap = (p.foil ? FOIL_CAPS : CAPS)[p.card.tier]
-        if (p.card.tier === 'Common' ? p.serial != null : (p.serial == null || p.serial > cap || p.cap !== cap)) badFoilSerial++
+        if (p.card.tier === 'Common' ? p.serial != null
+          : cap == null ? (p.serial == null || p.cap != null)
+            : (p.serial == null || p.serial > cap || p.cap !== cap)) badFoilSerial++
       }
     }
     // Sell out one Legendary: 10 plain + 5 foil copies, then nothing

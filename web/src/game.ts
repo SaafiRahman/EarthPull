@@ -2,7 +2,7 @@
 // (Roadmap Phase 2). Serial numbers are simulated: each numbered card starts with a made-up count of copies already
 // claimed by "other players", so pulls feel like they land in a shared world.
 import type { Stamp } from './Card'
-import { CAPS, FOIL_CAPS, FOIL_ODDS, ODDS, TIERS, distanceKm, type IndexCard, type Pool, type Tier } from './data'
+import { CAPS, FOIL_CAPS, FOIL_ODDS, NUMBERED, ODDS, TIERS, distanceKm, type IndexCard, type Pool, type Tier } from './data'
 
 export const PACK_SIZE = 5
 export const MAX_PACKS = 3
@@ -84,11 +84,12 @@ function hash01(id: string): number {
   return ((h >>> 0) % 100000) / 100000
 }
 
+// Simulated copies other players pulled before you: a few for capped Legendaries, thousands for uncapped Rares.
+const OTHERS: Record<Tier, number> = { Common: 0, Rare: 6000, Epic: 900, Legendary: 4, Mythic: 0 }
+const OTHERS_FOIL: Record<Tier, number> = { Common: 0, Rare: 300, Epic: 45, Legendary: 2, Mythic: 0 }
 function alreadyClaimed(card: IndexCard, foil = false): number {
-  const cap = (foil ? FOIL_CAPS : CAPS)[card.tier]
-  if (!cap || card.tier === 'Mythic') return 0
   const f = hash01(foil ? `${card.id}~foil` : card.id)
-  return card.tier === 'Legendary' ? Math.floor(f * (foil ? 2 : 4)) : Math.floor(f * cap * 0.4)
+  return Math.floor(f * (foil ? OTHERS_FOIL : OTHERS)[card.tier])
 }
 
 export function mintedSoFar(s: GameState, card: IndexCard): number {
@@ -143,7 +144,7 @@ export function openPack(pool: Pool, s: GameState, rand = Math.random, kind: 'no
     let serial: number | null = null
     let cap: number | null = null
     if (CAPS[card.tier] != null) {
-      // Numbered card: the plain and foil runs are counted separately. If the rolled run is all claimed, try the other.
+      // Capped card: the plain and foil runs are counted separately. If the rolled run is all claimed, try the other.
       const left = (f: boolean) => (mints[f ? `${card.id}~foil` : card.id] ?? alreadyClaimed(card, f)) < ((f ? FOIL_CAPS : CAPS)[card.tier] ?? 0)
       if (!left(foil)) {
         if (card.tier === 'Mythic' || !left(!foil)) return false // minted out: this card can't drop any more
@@ -153,6 +154,11 @@ export function openPack(pool: Pool, s: GameState, rand = Math.random, kind: 'no
       serial = (mints[key] ?? alreadyClaimed(card, foil)) + 1
       mints[key] = serial
       cap = (foil ? FOIL_CAPS : CAPS)[card.tier]
+    } else if (NUMBERED[card.tier]) {
+      // Uncapped but numbered: the next number in pull order, plain and foil counted separately
+      const key = foil ? `${card.id}~foil` : card.id
+      serial = (mints[key] ?? alreadyClaimed(card, foil)) + 1
+      mints[key] = serial
     }
     taken.add(card.id)
     pulls.push({ card, serial, cap, hometown, foil, local: local?.label })

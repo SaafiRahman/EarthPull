@@ -70,7 +70,8 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           <p className="serial-in font-display text-lg font-semibold" style={{ color: TIER_COLOR[best.card.tier] }}>
             {best.card.tier === 'Mythic'
               ? `You pulled the only ${best.card.label} card in the world.`
-              : `${foil}${best.card.label}: copy #${best.serial} of ${best.cap?.toLocaleString('en-US')}`}
+              : best.cap ? `${foil}${best.card.label}: copy #${best.serial} of ${best.cap.toLocaleString('en-US')}`
+                : `${foil}${best.card.label}: ${best.card.tier} #${best.serial?.toLocaleString('en-US')}`}
           </p>
         ) : null}
         <div className="flex gap-3">
