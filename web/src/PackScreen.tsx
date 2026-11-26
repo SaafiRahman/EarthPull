@@ -160,7 +160,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     const foil = best.foil ? 'Foil ' : ''
     const ready = phase === 'cards'
     return (
-      <div ref={stage} onClickCapture={() => { if (phase === 'opening') opening.current?.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
+      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
         <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
