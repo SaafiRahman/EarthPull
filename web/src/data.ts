@@ -4,16 +4,15 @@
 export const TIERS = ['Common', 'Rare', 'Epic', 'Legendary', 'Mythic'] as const
 export type Tier = (typeof TIERS)[number]
 
-// Only the top is capped (developer, 2026-11-26): Legendary /100, Mythic 1/1. Rare and Epic are unlimited but still
-// numbered in pull order ("Rare #4,812"); Commons are unlimited and unnumbered.
-export const CAPS: Record<Tier, number | null> = { Common: null, Rare: null, Epic: null, Legendary: 100, Mythic: 1 }
+// Only Mythics are limited (developer, 2026-11-26): one copy each. Rare, Epic and Legendary are unlimited but every
+// copy is numbered in pull order ("Legendary #37"); Commons are unlimited and unnumbered. Nothing else can run out.
+export const CAPS: Record<Tier, number | null> = { Common: null, Rare: null, Epic: null, Legendary: null, Mythic: 1 }
 export const NUMBERED: Record<Tier, boolean> = { Common: false, Rare: true, Epic: true, Legendary: true, Mythic: true }
 // Pull odds per card slot (Game Design, starting values)
 export const ODDS: Record<Tier, number> = { Common: 0.7, Rare: 0.22, Epic: 0.065, Legendary: 0.014, Mythic: 0.001 }
-// Variants (Decisions 2026-11-26): any card but a Mythic can roll foil. Foils are their own run, numbered separately;
-// a capped tier's foil run is sized to the 5% foil odds (Legendary 100 + 5 foil), so both runs sell out together. The Mythic stays a single copy with no foil.
+// Variants (Decisions 2026-11-26): any card but a Mythic can roll foil. Foils are numbered as their own run. The Mythic stays a single copy with no foil.
 export const FOIL_ODDS = 0.05
-export const FOIL_CAPS: Record<Tier, number | null> = { Common: null, Rare: null, Epic: null, Legendary: 5, Mythic: 0 }
+export const FOIL_CAPS: Record<Tier, number | null> = { Common: null, Rare: null, Epic: null, Legendary: null, Mythic: 0 }
 
 export type CardType = 'town' | 'nature' | 'built'
 const TYPE_OF: Record<string, CardType> = { t: 'town', n: 'nature', b: 'built' }

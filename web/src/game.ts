@@ -84,9 +84,9 @@ function hash01(id: string): number {
   return ((h >>> 0) % 100000) / 100000
 }
 
-// Simulated copies other players pulled before you: a few for capped Legendaries, thousands for uncapped Rares.
-const OTHERS: Record<Tier, number> = { Common: 0, Rare: 6000, Epic: 900, Legendary: 40, Mythic: 0 }
-const OTHERS_FOIL: Record<Tier, number> = { Common: 0, Rare: 300, Epic: 45, Legendary: 2, Mythic: 0 }
+// Simulated copies other players pulled before you, so numbers look like a shared world.
+const OTHERS: Record<Tier, number> = { Common: 0, Rare: 6000, Epic: 900, Legendary: 120, Mythic: 0 }
+const OTHERS_FOIL: Record<Tier, number> = { Common: 0, Rare: 300, Epic: 45, Legendary: 6, Mythic: 0 }
 function alreadyClaimed(card: IndexCard, foil = false): number {
   const f = hash01(foil ? `${card.id}~foil` : card.id)
   return Math.floor(f * (foil ? OTHERS_FOIL : OTHERS)[card.tier])
@@ -144,7 +144,7 @@ export function openPack(pool: Pool, s: GameState, rand = Math.random, kind: 'no
     let serial: number | null = null
     let cap: number | null = null
     if (CAPS[card.tier] != null) {
-      // Capped card: the plain and foil runs are counted separately. If the rolled run is all claimed, try the other.
+      // Capped card (only Mythics now): if the rolled run is all claimed, try the other.
       const left = (f: boolean) => (mints[f ? `${card.id}~foil` : card.id] ?? alreadyClaimed(card, f)) < ((f ? FOIL_CAPS : CAPS)[card.tier] ?? 0)
       if (!left(foil)) {
         if (card.tier === 'Mythic' || !left(!foil)) return false // minted out: this card can't drop any more

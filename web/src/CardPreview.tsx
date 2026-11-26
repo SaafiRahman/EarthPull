@@ -6,7 +6,7 @@ import { TIERS, type IndexCard, type Pool, type Tier } from './data'
 // small size used in the collection grid. For screenshots and design work.
 const PICKS = ['wd:Q9202', 'wd:Q130018', 'wd:Q34261', 'wd:Q1073221', 'gn:4503682']
 const SERIAL: Record<Tier, number | null> = { Common: null, Rare: 4812, Epic: 731, Legendary: 37, Mythic: 1 }
-const FOIL_SERIAL: Record<Tier, number | null> = { Common: null, Rare: 241, Epic: 38, Legendary: 2, Mythic: 1 }
+const FOIL_SERIAL: Record<Tier, number | null> = { Common: null, Rare: 241, Epic: 38, Legendary: 6, Mythic: 1 }
 const DAY = new Date('2026-11-26T12:00:00').getTime()
 
 function Row({ title, children, cols = 5 }: { title: string; children: ReactNode; cols?: number }) {
@@ -33,7 +33,7 @@ export function CardPreview({ pool }: { pool: Pool }) {
       <Row title="Plain">
         {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardFace pool={pool} card={byTier(t)} serial={SERIAL[t]} /></div>)}
       </Row>
-      <Row title="Foil (about 1 in 20; only Legendary and Mythic are capped: Legendary /100 + foil /5; Rare and Epic numbered, no cap)">
+      <Row title="Foil (about 1 in 20; only Mythics are limited; Rare, Epic and Legendary numbered in pull order, no cap)">
         {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardFace pool={pool} card={byTier(t)} serial={t === 'Common' ? null : FOIL_SERIAL[t]} foil /></div>)}
       </Row>
       <Row title="Stickers and cards without a photo">

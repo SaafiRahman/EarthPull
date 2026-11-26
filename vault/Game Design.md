@@ -5,20 +5,20 @@ Back to [[00 Home]]. Source: [[Roadmap]] (game design spec). Decisions behind th
 **Pull the Planet is a free browser gacha game where every real place on Earth is a card, and everyone's pulls fill in one shared world map.** Version 1 is pack opening, numbered copies, a personal collection and a shared world map. Trading waits for v2; battles are not planned (2026-11-23).
 
 ## Rarity tiers and caps
-Cards use serial-numbered print runs, like real trading cards. Commons are unlimited; every higher tier has a fixed cap. The caps are starting values to tune in the beta (Phase 3, see [[Roadmap]]).
+Every copy above Common carries a number in pull order. Only Mythics are limited, to one copy each (developer, 2026-11-26); every other tier is unlimited, so no card but a Mythic ever runs out. The caps are starting values to tune in the beta (Phase 3, see [[Roadmap]]).
 
 | Tier | Copies | Foil copies (2026-11-26) | What lands here | Pull odds per card (start) |
 |---|---|---|---|---|
 | Common | Unlimited, no number | Unlimited, no number | Small towns, minor features | 70% |
 | Rare | Unlimited, numbered in pull order (was /1000) | Unlimited, numbered separately | Mid-size cities, notable lakes and peaks | 22% |
 | Epic | Unlimited, numbered in pull order (was /100) | Unlimited, numbered separately | Major cities, national parks | 6.5% |
-| Legendary | /100 (was /10) | /5 | Capitals, world-famous mountains and rivers | 1.4% |
+| Legendary | Unlimited, numbered in pull order (was /10, then /100) | Unlimited, numbered separately | Capitals, world-famous mountains and rivers | 1.4% |
 | Mythic | 1/1 | None | About 50 icons: Everest, Eiffel Tower, Niagara Falls | 0.1% |
 
-- **Only the top is capped (developer, 2026-11-26):** Legendary (/100 + foil /5, raised from /10 the same day) and Mythic. Rare and Epic never run out, but each copy carries its pull number, so early copies are low numbers.
-- **Foil (developer, 2026-11-26):** about 1 in 20 pulls is foil, numbered as its own run. A Legendary's foil run is sized to the foil odds (100 + 5 foil) so both run out together; if the rolled run is minted out, the card drops from the other. The Mythic stays a single copy. See [[Decisions]].
+- **Only Mythics are limited (developer, 2026-11-26):** one copy each. Rare, Epic and Legendary never run out, but each copy carries its pull number, so early copies are low numbers.
+- **Foil (developer, 2026-11-26):** about 1 in 20 pulls is foil, numbered as its own run. The Mythic has no foil.
 
-- When a numbered card's cap is reached, it is "minted out" and can drop only as a lower-tier variant or not at all.
+- When a Mythic has been pulled it is "minted out" and never drops again.
 - The pull screen reveals the serial last ("#7 of 10") for drama.
 - How minting stays safe under load: see [[Architecture#The minting transaction]].
 

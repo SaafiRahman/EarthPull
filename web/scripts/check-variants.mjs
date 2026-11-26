@@ -36,17 +36,16 @@ try {
             : (p.serial == null || p.serial > cap || p.cap !== cap)) badFoilSerial++
       }
     }
-    // Sell out one Legendary: 100 plain + 5 foil copies, then nothing
-    const leg = pool.byTier.Legendary[0]
-    const one = { ...pool, byTier: { Common: [], Rare: [], Epic: [], Legendary: [leg], Mythic: [] } }
-    const only = { ...pool, byTier: one.byTier }
-    let st = g.newState(), plain = 0, foilLeg = 0
-    for (let i = 0; i < 160; i++) {
-      const r = g.openPack(only, { ...st, packs: 3, mints: { ...st.mints, [leg.id]: st.mints[leg.id] ?? 0, [`${leg.id}~foil`]: st.mints[`${leg.id}~foil`] ?? 0 } }, Math.random)
+    // Only Mythics are limited: one Mythic drops once, then never again; a Legendary keeps dropping
+    const myth = pool.byTier.Mythic[0], leg = pool.byTier.Legendary[0]
+    const only = { ...pool, byTier: { Common: [], Rare: [], Epic: [], Legendary: [leg], Mythic: [myth] } }
+    let st = g.newState(), mythics = 0, legs = 0, mythFoil = 0
+    for (let i = 0; i < 4000; i++) {
+      const r = g.openPack(only, { ...st, packs: 3 })
       st = r.state
-      for (const p of r.pulls) { if (p.card.id === leg.id) p.foil ? foilLeg++ : plain++ }
+      for (const p of r.pulls) { if (p.card.id === myth.id) { mythics++; if (p.foil) mythFoil++ } else if (p.card.id === leg.id) legs++ }
     }
-    out.legendarySellOut = { plain, foil: foilLeg, expected: '100 plain, 5 foil' }
+    out.sellOut = { mythicCopies: mythics, mythicFoils: mythFoil, legendaryCopies: legs, expected: 'Mythic 1, foils 0, Legendary keeps dropping' }
     out.normal = { cards, foilRate: +(foils / cards).toFixed(4), foilCommons, badFoilSerial, dupPacks }
 
     // Local packs: a city and a rural town; distances, tiers, stamps, one a day
