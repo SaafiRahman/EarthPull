@@ -17,6 +17,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 - [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
 
 ## Notes
+- [[Bulk Data Plan]]: how the pipeline scales past North America (proposed 2026-11-26)
 - [[Roadmap]]: the full roadmap and source of truth (phases 0–6, gates, risks)
 - [[Decisions]]: decided choices and open questions, with dates and reasons
 - [[Game Design]]: rarity tiers and caps, card facts, card art, core loop, sharing hooks, maps and friends, out of scope for v1
