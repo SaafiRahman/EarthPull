@@ -49,12 +49,25 @@ session = requests.Session()
 session.headers.update(UA)
 
 
+class OutOfQuota(Exception):
+    """The service's hourly or daily allowance is used up; waiting minutes won't help."""
+
+
 def get(url: str, **kw) -> dict:
     method = kw.pop("method", "GET")
     for attempt in range(6):
-        r = session.request(method, url, timeout=60, **kw)
+        try:
+            r = session.request(method, url, timeout=60, **kw)
+        except (requests.ConnectionError, requests.Timeout):  # dropped or slow answer: wait and retry
+            time.sleep(30 * (attempt + 1))
+            continue
+        if r.status_code == 429 and any(w in r.text for w in ("Hourly", "Daily")):
+            raise OutOfQuota(r.json().get("reason", r.text[:200]))
         if r.status_code in (429, 500, 502, 503, 504):
-            time.sleep(int(r.headers.get("Retry-After") or 0) or 2 ** attempt)
+            # Cap the wait: on 2026-11-25 the run sat silent for 7 hours on one server-requested wait.
+            wait = min(300, int(float(r.headers.get("Retry-After") or 0)) or 2 ** attempt)
+            print(f"  {r.status_code} from {url.split('/')[2]}; waiting {wait} s", flush=True)
+            time.sleep(wait)
             continue
         r.raise_for_status()
         return r.json()
@@ -95,13 +108,20 @@ def terrain_height(points: list[tuple[float, float]], cache: dict) -> list[float
         batch = todo[i:i + 100]
         lat = ",".join(k[2:].split(",")[0] for k in batch)
         lon = ",".join(k[2:].split(",")[1] for k in batch)
-        for k, v in zip(batch, get("https://api.open-meteo.com/v1/elevation", params={"latitude": lat, "longitude": lon})["elevation"]):
+        try:
+            got = get("https://api.open-meteo.com/v1/elevation", params={"latitude": lat, "longitude": lon})["elevation"]
+        except OutOfQuota as e:
+            # Open-Meteo's free tier allows ~5,000 points an hour and ~10,000 a day (the US needs 31,000). Leave the
+            # rest without a terrain height; a rerun fills them in from where the cache stopped.
+            print(f"  Open-Meteo: {e} -> {len(todo) - i:,} points left without terrain height for now", flush=True)
+            break
+        for k, v in zip(batch, got):
             cache[k] = v
         CACHE.write_text(json.dumps(cache), encoding="utf-8")  # save each batch so a stopped run resumes
         print(f"  terrain {i + len(batch):,}/{len(todo):,}", flush=True)
         time.sleep(0.5)
     CACHE.write_text(json.dumps(cache), encoding="utf-8")
-    return [cache[k] for k in key]
+    return [cache.get(k) for k in key]
 
 
 def temperature(lat: pd.Series, lon: pd.Series) -> np.ndarray:
@@ -165,7 +185,7 @@ def main():
     miss = df["elevation_m"].isna()
     print(f"Terrain height for {int(miss.sum()):,} cards without an elevation")
     df.loc[miss, "elevation_m"] = terrain_height(list(zip(df.loc[miss, "lat"], df.loc[miss, "lon"])), cache)
-    df.loc[miss, "elevation_source"] = "terrain"
+    df.loc[miss & df["elevation_m"].notna(), "elevation_source"] = "terrain"
     # Hand fixes for facts the sources get wrong (pipeline/fact_fixes.csv); an empty value blanks the fact.
     for f in pd.read_csv(ROOT / "fact_fixes.csv", comment="#").itertuples():
         df.loc[df["id"] == f.id, f.column] = f.value

@@ -10,6 +10,7 @@ steps, and only when --from is at or before it. Every step caches what it downlo
 rerun only fetches what is new. Each step's own report is printed as it runs.
 """
 import argparse
+import os
 import subprocess
 import sys
 import time
@@ -36,10 +37,23 @@ STEPS = [
 NAMES = [s[0] for s in STEPS]
 
 
+# UTF-8 output: on Windows a log file defaults to cp1252, which crashes on names like Kahikinui (2026-11-25).
+ENV = {**os.environ, "PYTHONIOENCODING": "utf-8"}
+
+
 def step(script: str, args: list[str]):
     t = time.time()
     print(f"\n=== {script} {' '.join(args)}", flush=True)
-    subprocess.run([sys.executable, "-u", str(ROOT / script), *args], check=True)
+    # Every step caches what it fetches, so a step that dies on a network hiccup is rerun (up to twice) and
+    # only redoes what is missing. A real bug fails three times and stops the run.
+    for attempt in range(3):
+        if subprocess.run([sys.executable, "-u", str(ROOT / script), *args], env=ENV).returncode == 0:
+            break
+        if attempt < 2:
+            print(f"=== {script} failed; retrying in 2 min ({attempt + 1}/2)", flush=True)
+            time.sleep(120)
+    else:
+        sys.exit(f"=== {script} failed 3 times; stopping")
     print(f"=== done in {(time.time() - t) / 60:.1f} min", flush=True)
 
 

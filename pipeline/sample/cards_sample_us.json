@@ -1,0 +1,4173 @@
+{
+ "note": "Sample of the United States card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5463",
+   "name": "Rocky Mountains",
+   "label": "Rocky Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-ID",
+   "country": "US",
+   "lat": 44.15,
+   "lon": -113.8,
+   "rarity": "Mythic",
+   "fame": 513792,
+   "facts": {
+    "elevation_m": 4401,
+    "length_km": 3000,
+    "temp_c": 1.3
+   },
+   "also_in": [
+    "CA"
+   ],
+   "flavour": {
+    "text": "The Rocky Mountains, also known as the Rockies, are a major mountain range and the largest mountain system in North America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rocky Mountains",
+    "url": "https://en.wikipedia.org/wiki/Rocky_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5463.webp",
+    "author": "Gorgo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3467633",
+   "name": "Mount Gilbert",
+   "label": "Mount Gilbert (near Akutan)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-AK",
+   "country": "US",
+   "lat": 54.2521,
+   "lon": -165.662,
+   "rarity": "Common",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 818,
+    "temp_c": 3.7
+   },
+   "flavour": {
+    "text": "Mount Gilbert is a volcano which forms the northern part of Akun Island in the eastern Aleutian Islands, USA.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Gilbert (Alaska)",
+    "url": "https://en.wikipedia.org/wiki/Mount_Gilbert_%28Alaska%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3467633.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:MountGilbert.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7339237",
+   "name": "Roach River",
+   "label": "Roach River (near Greenville)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-ME",
+   "country": "US",
+   "lat": 45.698,
+   "lon": -69.544,
+   "rarity": "Common",
+   "fame": 714,
+   "facts": {
+    "elevation_m": 312,
+    "temp_c": 3.6
+   },
+   "flavour": {
+    "text": "From the outlet of Third Roach Pond in Shawtown, the river runs 19.1 miles west, through a chain of ponds.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roach River (Maine)",
+    "url": "https://en.wikipedia.org/wiki/Roach_River_%28Maine%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7339237.webp"
+   }
+  },
+  {
+   "id": "wd:Q49048977",
+   "name": "McNeeley Peak",
+   "label": "McNeeley Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-WA",
+   "country": "US",
+   "lat": 46.9282,
+   "lon": -121.6471,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 2068,
+    "temp_c": 3.6
+   },
+   "flavour": {
+    "text": "McNeeley Peak is a 6,786-foot-elevation summit located in Mount Rainier National Park in Pierce County of Washington state.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "McNeeley Peak (Washington)",
+    "url": "https://en.wikipedia.org/wiki/McNeeley_Peak_%28Washington%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q49048977.webp",
+    "author": "Ron Clausen",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:McNeeley_Peak_in_Mount_Rainier_National_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q34772617",
+   "name": "Childers Creek",
+   "label": "Childers Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-GA",
+   "country": "US",
+   "lat": 33.5221,
+   "lon": -82.6024,
+   "rarity": "Common",
+   "fame": 72,
+   "facts": {
+    "elevation_m": 139,
+    "temp_c": 16.7
+   },
+   "flavour": {
+    "text": "Childers Creek is a stream in the U.S. state of Georgia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Childers Creek",
+    "url": "https://en.wikipedia.org/wiki/Childers_Creek",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q34772617.webp"
+   }
+  },
+  {
+   "id": "wd:Q16861554",
+   "name": "Slate Island",
+   "label": "Slate Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-MA",
+   "country": "US",
+   "lat": 42.2682,
+   "lon": -70.912,
+   "rarity": "Common",
+   "fame": 534,
+   "facts": {
+    "elevation_m": 9.0,
+    "area_km2": 0.1,
+    "temp_c": 10.1
+   },
+   "flavour": {
+    "text": "It is part of Boston Harbor Islands National and State Park and is just east of Grape Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Slate Island",
+    "url": "https://en.wikipedia.org/wiki/Slate_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16861554.webp",
+    "author": "National Park Service (United States)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Slate_Island,_Massachusetts.jpg"
+   }
+  },
+  {
+   "id": "wd:Q49300841",
+   "name": "Coney Lake",
+   "label": "Coney Lake (near Leavenworth)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-WA",
+   "country": "US",
+   "lat": 47.5078,
+   "lon": -120.7944,
+   "rarity": "Common",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 2254,
+    "area_km2": 0.1,
+    "temp_c": 4.7
+   },
+   "flavour": {
+    "text": "Coney Lake is a small alpine lake located in the Enchantments region of the Alpine Lakes Wilderness in Chelan County, Washington.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coney Lake (Chelan County, Washington)",
+    "url": "https://en.wikipedia.org/wiki/Coney_Lake_%28Chelan_County%2C_Washington%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q49300841.webp",
+    "author": "mountainamoeba",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coney_Lake_from_Druid_Plateau.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27984964",
+   "name": "Clifty Creek",
+   "label": "Clifty Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-MO",
+   "country": "US",
+   "lat": 36.9278,
+   "lon": -92.2097,
+   "rarity": "Common",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 273,
+    "temp_c": 13.3
+   },
+   "flavour": {
+    "text": "It is a tributary of the North Fork River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Clifty Creek (North Fork River tributary)",
+    "url": "https://en.wikipedia.org/wiki/Clifty_Creek_%28North_Fork_River_tributary%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27984964.webp"
+   }
+  },
+  {
+   "id": "wd:Q24061733",
+   "name": "Polo Peak",
+   "label": "Polo Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-SD",
+   "country": "US",
+   "lat": 44.4147,
+   "lon": -103.7577,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 1639,
+    "temp_c": 6.9
+   },
+   "flavour": {
+    "text": "With an elevation of 5,413 feet, Polo Peak is the 143rd highest summit in the state of South Dakota.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Polo Peak",
+    "url": "https://en.wikipedia.org/wiki/Polo_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24061733.webp"
+   }
+  },
+  {
+   "id": "wd:Q20706791",
+   "name": "Heron Lake",
+   "label": "Heron Lake (near Lakefield)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-MN",
+   "country": "US",
+   "lat": 43.7742,
+   "lon": -95.2692,
+   "rarity": "Common",
+   "fame": 486,
+   "facts": {
+    "elevation_m": 425,
+    "temp_c": 6.9
+   },
+   "flavour": {
+    "text": "Heron Lake is a lake in Jackson County, in the U.S. state of Minnesota.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Heron Lake (Jackson County, Minnesota)",
+    "url": "https://en.wikipedia.org/wiki/Heron_Lake_%28Jackson_County%2C_Minnesota%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q20706791.webp"
+   }
+  },
+  {
+   "id": "wd:Q7577910",
+   "name": "Spirit River",
+   "label": "Spirit River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-WI",
+   "country": "US",
+   "lat": 45.4356,
+   "lon": -89.7206,
+   "rarity": "Common",
+   "fame": 300,
+   "facts": {
+    "elevation_m": 431,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "The Spirit River is a tributary of the Wisconsin River with headwaters in Price County and a confluence with the Wisconsin in Lincoln County just downstream…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Spirit River (Wisconsin)",
+    "url": "https://en.wikipedia.org/wiki/Spirit_River_%28Wisconsin%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7577910.webp",
+    "author": "Brian Morren",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:SpiritFalls-2013-01-01-A.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16894705",
+   "name": "Mars Lake",
+   "label": "Mars Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-WI",
+   "country": "US",
+   "lat": 45.5817,
+   "lon": -89.165,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 482,
+    "temp_c": 4.3
+   },
+   "flavour": {
+    "text": "Mars Lake is a small spring-fed rural lake in Oneida County in northern Wisconsin in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mars Lake",
+    "url": "https://en.wikipedia.org/wiki/Mars_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16894705.webp"
+   }
+  },
+  {
+   "id": "wd:Q25238521",
+   "name": "Dollar Lake",
+   "label": "Dollar Lake (near Clarkston)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-MI",
+   "country": "US",
+   "lat": 42.7244,
+   "lon": -83.4233,
+   "rarity": "Common",
+   "fame": 204,
+   "facts": {
+    "elevation_m": 300,
+    "temp_c": 8.3
+   },
+   "flavour": {
+    "text": "The lake lies within Independence Township in Oakland County, Michigan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dollar Lake (Independence Township, Michigan)",
+    "url": "https://en.wikipedia.org/wiki/Dollar_Lake_%28Independence_Township%2C_Michigan%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q25238521.webp"
+   }
+  },
+  {
+   "id": "gn:4153186",
+   "name": "Desoto Lakes",
+   "label": "Desoto Lakes",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 27.3714,
+   "lon": -82.4898,
+   "rarity": "Common",
+   "fame": 630,
+   "facts": {
+    "population": 3646,
+    "elevation_m": 9.0,
+    "area_km2": 3.3,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "The population was 2,137 at the 2020 US census, down from 3,646 at the 2010 US Census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Desoto Lakes, Florida",
+    "url": "https://en.wikipedia.org/wiki/Desoto_Lakes%2C_Florida",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4153186.webp"
+   }
+  },
+  {
+   "id": "gn:4387545",
+   "name": "Gainesville",
+   "label": "Gainesville (Missouri)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-MO",
+   "country": "US",
+   "lat": 36.6031,
+   "lon": -92.4282,
+   "rarity": "Common",
+   "fame": 4746,
+   "facts": {
+    "population": 760,
+    "elevation_m": 238,
+    "area_km2": 7.4,
+    "temp_c": 13.9
+   },
+   "flavour": {
+    "text": "The population was 745 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gainesville, Missouri",
+    "url": "https://en.wikipedia.org/wiki/Gainesville%2C_Missouri",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4387545.webp",
+    "author": "Kbh3rd",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ozark_County_MO_Courthouse_20151021-028.jpg"
+   }
+  },
+  {
+   "id": "gn:4115429",
+   "name": "Hot Springs Village",
+   "label": "Hot Springs Village",
+   "type": "town",
+   "kind": "town",
+   "region": "US-AR",
+   "country": "US",
+   "lat": 34.672,
+   "lon": -92.9988,
+   "rarity": "Common",
+   "fame": 15960,
+   "facts": {
+    "population": 12807,
+    "elevation_m": 239,
+    "area_km2": 155,
+    "temp_c": 15.5
+   },
+   "flavour": {
+    "text": "As it is situated in two counties, it is also part of two metropolitan statistical areas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hot Springs Village, Arkansas",
+    "url": "https://en.wikipedia.org/wiki/Hot_Springs_Village%2C_Arkansas",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4115429.webp"
+   }
+  },
+  {
+   "id": "gn:5197723",
+   "name": "Lemont",
+   "label": "Lemont (Pennsylvania)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PA",
+   "country": "US",
+   "lat": 40.8106,
+   "lon": -77.8183,
+   "rarity": "Common",
+   "fame": 1956,
+   "facts": {
+    "population": 2270,
+    "elevation_m": 309,
+    "area_km2": 3.3,
+    "temp_c": 9.0
+   },
+   "flavour": {
+    "text": "Lemont is a census-designated place in College Township, Pennsylvania, United States, within the State College–DuBois combined statistical area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lemont, Pennsylvania",
+    "url": "https://en.wikipedia.org/wiki/Lemont%2C_Pennsylvania",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5197723.webp",
+    "author": "Mark Michalovic",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thompson_Grain_Elevator_and_Coal_Sheds.jpg"
+   }
+  },
+  {
+   "id": "gn:4434904",
+   "name": "Marion",
+   "label": "Marion (Mississippi)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-MS",
+   "country": "US",
+   "lat": 32.4174,
+   "lon": -88.6478,
+   "rarity": "Common",
+   "fame": 2118,
+   "facts": {
+    "population": 1574,
+    "elevation_m": 112,
+    "area_km2": 7.6,
+    "temp_c": 17.3
+   },
+   "flavour": {
+    "text": "It is a northeastern suburb of Meridian, the county seat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marion, Mississippi",
+    "url": "https://en.wikipedia.org/wiki/Marion%2C_Mississippi",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4434904.webp",
+    "author": "Dofftoubab",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marion,_Mississippi_town_hall.jpg"
+   }
+  },
+  {
+   "id": "gn:4483174",
+   "name": "Ogden",
+   "label": "Ogden (North Carolina)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NC",
+   "country": "US",
+   "lat": 34.2724,
+   "lon": -77.8186,
+   "rarity": "Common",
+   "fame": 1764,
+   "facts": {
+    "population": 6766,
+    "elevation_m": 14,
+    "area_km2": 12,
+    "temp_c": 17.3
+   },
+   "flavour": {
+    "text": "The CDP is both a suburb of the city of Wilmington and part of the Wilmington Metropolitan Statistical Area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ogden, North Carolina",
+    "url": "https://en.wikipedia.org/wiki/Ogden%2C_North_Carolina",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4483174.webp"
+   }
+  },
+  {
+   "id": "gn:5145257",
+   "name": "Yorkville",
+   "label": "Yorkville (New York)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 43.1129,
+   "lon": -75.271,
+   "rarity": "Common",
+   "fame": 2226,
+   "facts": {
+    "population": 2634,
+    "elevation_m": 132,
+    "area_km2": 1.8,
+    "temp_c": 7.8
+   },
+   "flavour": {
+    "text": "The population was 2,689 at the 2010 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yorkville, Oneida County, New York",
+    "url": "https://en.wikipedia.org/wiki/Yorkville%2C_Oneida_County%2C_New_York",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5145257.webp"
+   }
+  },
+  {
+   "id": "gn:5230743",
+   "name": "Redfield",
+   "label": "Redfield (South Dakota)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-SD",
+   "country": "US",
+   "lat": 44.8758,
+   "lon": -98.5187,
+   "rarity": "Common",
+   "fame": 5682,
+   "facts": {
+    "population": 2379,
+    "elevation_m": 397,
+    "area_km2": 5.0,
+    "temp_c": 6.8
+   },
+   "flavour": {
+    "text": "The population was 2,214 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Redfield, South Dakota",
+    "url": "https://en.wikipedia.org/wiki/Redfield%2C_South_Dakota",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5230743.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SPINK_COUNTY_COURTHOUSE,_REDFIELD,_SD.jpg"
+   }
+  },
+  {
+   "id": "gn:4717341",
+   "name": "Palmview South",
+   "label": "Palmview South",
+   "type": "town",
+   "kind": "town",
+   "region": "US-TX",
+   "country": "US",
+   "lat": 26.2156,
+   "lon": -98.3786,
+   "rarity": "Common",
+   "fame": 396,
+   "facts": {
+    "population": 5575,
+    "elevation_m": 42,
+    "area_km2": 6.4,
+    "temp_c": 23.3
+   },
+   "flavour": {
+    "text": "The population was 2,008 at the 2020 United States Census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palmview South, Texas",
+    "url": "https://en.wikipedia.org/wiki/Palmview_South%2C_Texas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4717341.webp",
+    "author": "ALAN SCHMIERER",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Americana_RV_Park,_near_Bentsen_and_Nat_Butterfly_Center_(16042167584).jpg"
+   }
+  },
+  {
+   "id": "gn:4889120",
+   "name": "Crete",
+   "label": "Crete (Illinois)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-IL",
+   "country": "US",
+   "lat": 41.4445,
+   "lon": -87.6314,
+   "rarity": "Common",
+   "fame": 12954,
+   "facts": {
+    "population": 8191,
+    "elevation_m": 222,
+    "area_km2": 25,
+    "temp_c": 9.5
+   },
+   "flavour": {
+    "text": "It is a far south suburb of Chicago, 30 miles from the Loop and only 6 miles from the Indiana border.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crete, Illinois",
+    "url": "https://en.wikipedia.org/wiki/Crete%2C_Illinois",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4889120.webp"
+   }
+  },
+  {
+   "id": "gn:4081166",
+   "name": "Odenville",
+   "label": "Odenville",
+   "type": "town",
+   "kind": "town",
+   "region": "US-AL",
+   "country": "US",
+   "lat": 33.6773,
+   "lon": -86.3966,
+   "rarity": "Common",
+   "fame": 4554,
+   "facts": {
+    "population": 3695,
+    "elevation_m": 225,
+    "area_km2": 36,
+    "temp_c": 15.7
+   },
+   "flavour": {
+    "text": "At the 2010 census the population was 3,585, up from 1,131 in 2000.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Odenville, Alabama",
+    "url": "https://en.wikipedia.org/wiki/Odenville%2C_Alabama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4081166.webp",
+    "author": "formulanone",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AL174_West_at_US411_-_Odenville,_Alabama.jpg"
+   }
+  },
+  {
+   "id": "gn:4924543",
+   "name": "Ossian",
+   "label": "Ossian",
+   "type": "town",
+   "kind": "town",
+   "region": "US-IN",
+   "country": "US",
+   "lat": 40.8806,
+   "lon": -85.1664,
+   "rarity": "Common",
+   "fame": 3102,
+   "facts": {
+    "population": 3341,
+    "elevation_m": 256,
+    "area_km2": 4.4,
+    "temp_c": 9.8
+   },
+   "flavour": {
+    "text": "The town was named after Ossian, the narrator of a cycle of epic poems by the Scottish poet James Macpherson.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ossian, Indiana",
+    "url": "https://en.wikipedia.org/wiki/Ossian%2C_Indiana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4924543.webp",
+    "author": "Indiana6724",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Ossian,_Indiana_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5471828",
+   "name": "Fort Phil Kearny",
+   "label": "Fort Phil Kearny",
+   "type": "built",
+   "kind": "fort",
+   "region": "US-WY",
+   "country": "US",
+   "lat": 44.5322,
+   "lon": -106.826,
+   "rarity": "Epic",
+   "fame": 13752,
+   "facts": {
+    "elevation_m": 1437,
+    "temp_c": 6.7
+   },
+   "flavour": {
+    "text": "Fort Phil Kearny was an outpost of the United States Army that existed in the late 1860s in present-day northeastern Wyoming along the Bozeman Trail.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Phil Kearny",
+    "url": "https://en.wikipedia.org/wiki/Fort_Phil_Kearny",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471828.webp",
+    "author": "Gcoudert at English Wikipedia",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Phil_Kearney.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5374101",
+   "name": "Empire Mine State Historic Park",
+   "label": "Empire Mine State Historic Park",
+   "type": "built",
+   "kind": "California state historic park",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 39.2036,
+   "lon": -121.043,
+   "rarity": "Epic",
+   "fame": 15378,
+   "facts": {
+    "elevation_m": 850,
+    "temp_c": 13.8
+   },
+   "flavour": {
+    "text": "Empire Mine State Historic Park is a state-protected mine and park in the Sierra Nevada mountains in Grass Valley, California.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Empire Mine State Historic Park",
+    "url": "https://en.wikipedia.org/wiki/Empire_Mine_State_Historic_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5374101.webp"
+   }
+  },
+  {
+   "id": "wd:Q7541393",
+   "name": "Sloss Furnaces",
+   "label": "Sloss Furnaces",
+   "type": "built",
+   "kind": "historic landmark",
+   "region": "US-AL",
+   "country": "US",
+   "lat": 33.5207,
+   "lon": -86.7913,
+   "rarity": "Epic",
+   "fame": 17814,
+   "facts": {
+    "elevation_m": 194,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "It operated as a pig iron-producing blast furnace from 1882 to 1971.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sloss Furnaces",
+    "url": "https://en.wikipedia.org/wiki/Sloss_Furnaces",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7541393.webp",
+    "author": "DXR",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sloss_Furnaces,_Birmingham_AL,_North_view_20160714_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4396797",
+   "name": "Rock Island Arsenal",
+   "label": "Rock Island Arsenal",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "US-IL",
+   "country": "US",
+   "lat": 41.5169,
+   "lon": -90.5419,
+   "rarity": "Epic",
+   "fame": 57420,
+   "facts": {
+    "elevation_m": 180,
+    "temp_c": 9.9
+   },
+   "flavour": {
+    "text": "The Rock Island Arsenal comprises 946 acres located on Arsenal Island, originally known as Rock Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rock Island Arsenal",
+    "url": "https://en.wikipedia.org/wiki/Rock_Island_Arsenal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4396797.webp",
+    "author": "Robert A, Ryan, J. Ceronia, and Bruce A. Harms, Photographers",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Rock_Island_Arsenal,_Building_No._1,_Gillespie_Avenue_between_Terrace_Drive_%26_Hedge_Lane,_Rock_Island,(_Rock_Island_County,_Illinois).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7141555",
+   "name": "Pasadena Playhouse",
+   "label": "Pasadena Playhouse",
+   "type": "built",
+   "kind": "educational institution",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.1451,
+   "lon": -118.1372,
+   "rarity": "Epic",
+   "fame": 34152,
+   "facts": {
+    "elevation_m": 259,
+    "temp_c": 18.5
+   },
+   "flavour": {
+    "text": "The 686-seat auditorium produces a variety of cultural and artistic events, professional shows, and community engagements each year.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pasadena Playhouse",
+    "url": "https://en.wikipedia.org/wiki/Pasadena_Playhouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7141555.webp",
+    "author": "Flickr user Canon in 2D",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pasadena_Playhouse.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7641361",
+   "name": "Sunset Tower",
+   "label": "Sunset Tower",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.0951,
+   "lon": -118.3721,
+   "rarity": "Epic",
+   "fame": 28962,
+   "facts": {
+    "elevation_m": 126,
+    "temp_c": 17.5
+   },
+   "flavour": {
+    "text": "The Sunset Tower Hotel, previously known as The St. James's Club and The Argyle.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sunset Tower",
+    "url": "https://en.wikipedia.org/wiki/Sunset_Tower",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7641361.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Highsmithargylehotelsunsetstrip.jpg"
+   }
+  },
+  {
+   "id": "wd:Q897202",
+   "name": "Temple Emanu-El",
+   "label": "Temple Emanu-El",
+   "type": "built",
+   "kind": "synagogue",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.768,
+   "lon": -73.9697,
+   "rarity": "Epic",
+   "fame": 27072,
+   "facts": {
+    "elevation_m": 28,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "Temple Emanu-El of New York is a synagogue at 1 East 65th Street on the Upper East Side of Manhattan, at the northeast corner with Fifth Avenue.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Temple Emanu-El of New York (1930)",
+    "url": "https://en.wikipedia.org/wiki/Temple_Emanu-El_of_New_York_%281930%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q897202.webp",
+    "author": "Jim.henderson",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Emanu-elNYjeh.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3135697",
+   "name": "Hilton Hawaiian Village",
+   "label": "Hilton Hawaiian Village",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-HI",
+   "country": "US",
+   "lat": 21.2824,
+   "lon": -157.8374,
+   "rarity": "Epic",
+   "fame": 20676,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The resort first opened in 1955, and since has grown to become the largest in the Hilton chain of hotels.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hilton Hawaiian Village",
+    "url": "https://en.wikipedia.org/wiki/Hilton_Hawaiian_Village",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3135697.webp",
+    "author": "Travis.Thurston",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DukesLagoon4.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5471315",
+   "name": "Fort Hays",
+   "label": "Fort Hays",
+   "type": "built",
+   "kind": "fort",
+   "region": "US-KS",
+   "country": "US",
+   "lat": 38.8617,
+   "lon": -99.3422,
+   "rarity": "Epic",
+   "fame": 17874,
+   "facts": {
+    "elevation_m": 615,
+    "temp_c": 12.0
+   },
+   "flavour": {
+    "text": "Active from 1865 to 1889 it was an important frontier post during the American Indian Wars of the late 19th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Hays",
+    "url": "https://en.wikipedia.org/wiki/Fort_Hays",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471315.webp",
+    "author": "IveGoneAway",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Hays_Blockhouse_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1406471",
+   "name": "Walter E. Fernald Developmental Center",
+   "label": "Walter E. Fernald Developmental Center",
+   "type": "built",
+   "kind": "historic district",
+   "region": "US-MA",
+   "country": "US",
+   "lat": 42.3911,
+   "lon": -71.2106,
+   "rarity": "Epic",
+   "fame": 23274,
+   "facts": {
+    "elevation_m": 55,
+    "temp_c": 9.4
+   },
+   "flavour": {
+    "text": "The Walter E. Fernald State School, later the Walter E. Fernald Developmental Center.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Walter E. Fernald Developmental Center",
+    "url": "https://en.wikipedia.org/wiki/Walter_E._Fernald_Developmental_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1406471.webp",
+    "author": "Daderot",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Walter_E._Fernald_State_School_-_IMG_1879.JPG"
+   }
+  },
+  {
+   "id": "wd:Q393769",
+   "name": "Tanana River",
+   "label": "Tanana River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-AK",
+   "country": "US",
+   "lat": 63.0492,
+   "lon": -141.8644,
+   "rarity": "Epic",
+   "fame": 10254,
+   "facts": {
+    "elevation_m": 513,
+    "length_km": 940,
+    "temp_c": -5.1
+   },
+   "flavour": {
+    "text": "The Tanana River is a 584-mile tributary of the Yukon River in the U.S. state of Alaska.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tanana River",
+    "url": "https://en.wikipedia.org/wiki/Tanana_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q393769.webp",
+    "author": "Original uploader was Chris 73 at the English language Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Braided_Stream_FairbanksTananaRiver.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7428707",
+   "name": "Sawtooth Range",
+   "label": "Sawtooth Range",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-ID",
+   "country": "US",
+   "lat": 43.9533,
+   "lon": -114.991,
+   "rarity": "Epic",
+   "fame": 17460,
+   "facts": {
+    "elevation_m": 3277,
+    "area_km2": 1756,
+    "length_km": 70,
+    "temp_c": 0.4
+   },
+   "flavour": {
+    "text": "The Sawtooth Range is a mountain range of the Rocky Mountains in central Idaho, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sawtooth Range (Idaho)",
+    "url": "https://en.wikipedia.org/wiki/Sawtooth_Range_%28Idaho%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7428707.webp",
+    "author": "Fredlyfish4",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sawtooth_Range.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1744263",
+   "name": "Klamath Mountains",
+   "label": "Klamath Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 41.32,
+   "lon": -122.48,
+   "rarity": "Epic",
+   "fame": 19734,
+   "facts": {
+    "elevation_m": 2751,
+    "area_km2": 25595,
+    "length_km": 249,
+    "temp_c": 6.9
+   },
+   "flavour": {
+    "text": "The Klamath Mountains are a rugged and lightly populated mountain range in northwestern California and southwestern Oregon in the western United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Klamath Mountains",
+    "url": "https://en.wikipedia.org/wiki/Klamath_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1744263.webp",
+    "author": "Miguel Vieira from Walnut Creek, CA, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pinus_balfouriana_Trinity_Alps.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1361278",
+   "name": "Humboldt River",
+   "label": "Humboldt River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-NV",
+   "country": "US",
+   "lat": 39.988,
+   "lon": -118.601,
+   "rarity": "Epic",
+   "fame": 24378,
+   "facts": {
+    "elevation_m": 1187,
+    "length_km": 531,
+    "temp_c": 11.3
+   },
+   "flavour": {
+    "text": "The Humboldt River is the longest river in the northern and central part of Nevada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Humboldt River",
+    "url": "https://en.wikipedia.org/wiki/Humboldt_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1361278.webp",
+    "author": "G. Thomas ( talk )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:CarlinCanyonNV.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7573265",
+   "name": "Spanish Peaks",
+   "label": "Spanish Peaks",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-CO",
+   "country": "US",
+   "lat": 37.38,
+   "lon": -105.0,
+   "rarity": "Epic",
+   "fame": 9480,
+   "facts": {
+    "elevation_m": 4139,
+    "temp_c": 5.5
+   },
+   "flavour": {
+    "text": "The Spanish Peaks are a pair of prominent mountains located in southwestern Huerfano County, Colorado.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Spanish Peaks",
+    "url": "https://en.wikipedia.org/wiki/Spanish_Peaks",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7573265.webp",
+    "author": "Footwarrior",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spanish_Peaks.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2592992",
+   "name": "Wonder Lake",
+   "label": "Wonder Lake (near Healy)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-AK",
+   "country": "US",
+   "lat": 63.4742,
+   "lon": -150.8758,
+   "rarity": "Epic",
+   "fame": 9522,
+   "facts": {
+    "elevation_m": 605,
+    "area_km2": 2.6,
+    "length_km": 4.3,
+    "temp_c": -3.8
+   },
+   "flavour": {
+    "text": "Wonder Lake is a lake located in Denali National Park and Preserve in Alaska.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wonder Lake (Alaska)",
+    "url": "https://en.wikipedia.org/wiki/Wonder_Lake_%28Alaska%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2592992.webp",
+    "author": "Denali National Park and Preserve",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Wonder_Lake_and_Denali.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1326803",
+   "name": "Umpqua River",
+   "label": "Umpqua River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-OR",
+   "country": "US",
+   "lat": 43.6693,
+   "lon": -124.2051,
+   "rarity": "Epic",
+   "fame": 8238,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 179,
+    "temp_c": 11.4
+   },
+   "flavour": {
+    "text": "The Umpqua River on the Pacific coast of Oregon in the United States is approximately 111 miles long.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Umpqua River",
+    "url": "https://en.wikipedia.org/wiki/Umpqua_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1326803.webp",
+    "author": "Bob Heims, U.S. Army Corps of Engineers",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Umpqua_River_Pacific_Ocean.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7333292",
+   "name": "Tule Lake",
+   "label": "Tule Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 41.9093,
+   "lon": -121.533,
+   "rarity": "Epic",
+   "fame": 12852,
+   "facts": {
+    "elevation_m": 1230,
+    "area_km2": 5.3,
+    "length_km": 8.0,
+    "temp_c": 8.6
+   },
+   "flavour": {
+    "text": "Tule Lake is an intermittent lake covering an area of 13,000 acres extending five miles long and three miles across.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tule Lake",
+    "url": "https://en.wikipedia.org/wiki/Tule_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7333292.webp",
+    "author": "Pacific Southwest Region U.S. Fish and Wildlife Service, photographer unknown",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tule_Lake_Basin.jpg"
+   }
+  },
+  {
+   "id": "wd:Q88428",
+   "name": "Fort Jefferson",
+   "label": "Fort Jefferson",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 24.6278,
+   "lon": -82.8731,
+   "rarity": "Epic",
+   "fame": 63432,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is the largest brick masonry structure in the Americas, covering 16 acres and constructed of over 16 million bricks.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Jefferson",
+    "url": "https://en.wikipedia.org/wiki/Fort_Jefferson",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q88428.webp",
+    "author": "U.S. National Park Service",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fort-Jefferson_Dry-Tortugas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q451522",
+   "name": "Lake Havasu",
+   "label": "Lake Havasu",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.4833,
+   "lon": -114.3833,
+   "rarity": "Epic",
+   "fame": 77766,
+   "facts": {
+    "elevation_m": 136,
+    "area_km2": 78,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "Lake Havasu is a large reservoir formed by Parker Dam on the Colorado River, on the border between San Bernardino County, California, and Mohave County.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Havasu",
+    "url": "https://en.wikipedia.org/wiki/Lake_Havasu",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q451522.webp",
+    "author": "Doc Searls from Santa Barbara, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LkHavasu.jpg"
+   }
+  },
+  {
+   "id": "gn:5788054",
+   "name": "Bremerton",
+   "label": "Bremerton",
+   "type": "town",
+   "kind": "town",
+   "region": "US-WA",
+   "country": "US",
+   "lat": 47.5673,
+   "lon": -122.6326,
+   "rarity": "Epic",
+   "fame": 76476,
+   "facts": {
+    "population": 39520,
+    "elevation_m": 11,
+    "area_km2": 83,
+    "temp_c": 10.5
+   },
+   "flavour": {
+    "text": "The population was 43,505 at the 2020 census and an estimated 44,122 in 2021, making it the largest city on the Kitsap Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bremerton, Washington",
+    "url": "https://en.wikipedia.org/wiki/Bremerton%2C_Washington",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5788054.webp",
+    "author": "Dcoetzee",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bremerton_2.jpg"
+   }
+  },
+  {
+   "id": "gn:4501198",
+   "name": "Cherry Hill",
+   "label": "Cherry Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NJ",
+   "country": "US",
+   "lat": 39.9348,
+   "lon": -75.0307,
+   "rarity": "Epic",
+   "fame": 100830,
+   "facts": {
+    "population": 70475,
+    "elevation_m": 17,
+    "area_km2": 63,
+    "temp_c": 12.7
+   },
+   "flavour": {
+    "text": "As a suburb of Philadelphia, the township is part of South Jersey and the Philadelphia metropolitan area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cherry Hill, New Jersey",
+    "url": "https://en.wikipedia.org/wiki/Cherry_Hill%2C_New_Jersey",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4501198.webp",
+    "author": "Adam Moss",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cherry_Hill_Station.jpg"
+   }
+  },
+  {
+   "id": "gn:5352423",
+   "name": "Glendale",
+   "label": "Glendale (California)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.1425,
+   "lon": -118.2551,
+   "rarity": "Epic",
+   "fame": 228456,
+   "facts": {
+    "population": 201020,
+    "elevation_m": 159,
+    "area_km2": 79,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "Glendale is a city located primarily in the Verdugo Mountains region, with a small portion in the San Fernando Valley of Los Angeles County, California.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Glendale, California",
+    "url": "https://en.wikipedia.org/wiki/Glendale%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5352423.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Glendale_California_From_Forest_Lawn.jpg"
+   }
+  },
+  {
+   "id": "gn:4752186",
+   "name": "Chesapeake",
+   "label": "Chesapeake",
+   "type": "town",
+   "kind": "town",
+   "region": "US-VA",
+   "country": "US",
+   "lat": 36.819,
+   "lon": -76.2749,
+   "rarity": "Epic",
+   "fame": 94050,
+   "facts": {
+    "population": 235429,
+    "elevation_m": 3.0,
+    "area_km2": 909,
+    "temp_c": 15.7
+   },
+   "flavour": {
+    "text": "Chesapeake is an independent city in Virginia, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chesapeake, Virginia",
+    "url": "https://en.wikipedia.org/wiki/Chesapeake%2C_Virginia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4752186.webp",
+    "author": "Nyttend",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Chesapeake_municipal_center.jpg"
+   }
+  },
+  {
+   "id": "gn:5562087",
+   "name": "Crescent City",
+   "label": "Crescent City",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 41.7559,
+   "lon": -124.2018,
+   "rarity": "Epic",
+   "fame": 112938,
+   "facts": {
+    "population": 6774,
+    "elevation_m": 13,
+    "area_km2": 6.3,
+    "temp_c": 12.0
+   },
+   "flavour": {
+    "text": "Crescent City is the only incorporated city in Del Norte County, California, United States, of which it is also the county seat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crescent City, California",
+    "url": "https://en.wikipedia.org/wiki/Crescent_City%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5562087.webp",
+    "author": "Robert Campbell",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crescent_City_California_harbor_aerial_view.jpg"
+   }
+  },
+  {
+   "id": "gn:5476825",
+   "name": "Los Alamos",
+   "label": "Los Alamos",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NM",
+   "country": "US",
+   "lat": 35.8881,
+   "lon": -106.307,
+   "rarity": "Epic",
+   "fame": 194466,
+   "facts": {
+    "population": 12019,
+    "elevation_m": 2198,
+    "area_km2": 29,
+    "temp_c": 9.5
+   },
+   "flavour": {
+    "text": "Los Alamos is a census-designated place in Los Alamos County, New Mexico, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Los Alamos, New Mexico",
+    "url": "https://en.wikipedia.org/wiki/Los_Alamos%2C_New_Mexico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5476825.webp",
+    "author": "Daniel Schwen",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Los_Alamos.jpg"
+   }
+  },
+  {
+   "id": "gn:5356700",
+   "name": "Hidden Hills",
+   "label": "Hidden Hills",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.1603,
+   "lon": -118.6523,
+   "rarity": "Epic",
+   "fame": 111510,
+   "facts": {
+    "population": 1924,
+    "elevation_m": 328,
+    "area_km2": 4.4,
+    "temp_c": 16.6
+   },
+   "flavour": {
+    "text": "It is located in the Santa Monica Mountains adjacent to Calabasas and the San Fernando Valley region of Los Angeles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hidden Hills, California",
+    "url": "https://en.wikipedia.org/wiki/Hidden_Hills%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5356700.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Long_Valley_Road_gate,_Hidden_Hills,_California.jpg"
+   }
+  },
+  {
+   "id": "gn:4159839",
+   "name": "Islamorada",
+   "label": "Islamorada",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 24.9243,
+   "lon": -80.6278,
+   "rarity": "Epic",
+   "fame": 94158,
+   "facts": {
+    "population": 7131,
+    "elevation_m": 3.0,
+    "area_km2": 17,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "As of the 2020 census, the village had a population of 7,107, up from 6,119 in 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Islamorada, Florida",
+    "url": "https://en.wikipedia.org/wiki/Islamorada%2C_Florida",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4159839.webp",
+    "author": "User:Ex1le",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Islamorada_Florida.jpg"
+   }
+  },
+  {
+   "id": "gn:4801859",
+   "name": "Charleston",
+   "label": "Charleston (West Virginia)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-WV",
+   "country": "US",
+   "lat": 38.3498,
+   "lon": -81.6326,
+   "rarity": "Epic",
+   "fame": 248430,
+   "facts": {
+    "population": 46838,
+    "elevation_m": 182,
+    "area_km2": 85,
+    "temp_c": 12.3
+   },
+   "flavour": {
+    "text": "Charleston is the capital and most populous city of the U.S. state of West Virginia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charleston, West Virginia",
+    "url": "https://en.wikipedia.org/wiki/Charleston%2C_West_Virginia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4801859.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:View_across_the_Kanawha_River_of_Charleston,_the_capital_city_of_West_Virginia_LCCN2015631775.tif"
+   }
+  },
+  {
+   "id": "gn:4738721",
+   "name": "Uvalde",
+   "label": "Uvalde",
+   "type": "town",
+   "kind": "town",
+   "region": "US-TX",
+   "country": "US",
+   "lat": 29.2097,
+   "lon": -99.7862,
+   "rarity": "Epic",
+   "fame": 127086,
+   "facts": {
+    "population": 16476,
+    "elevation_m": 277,
+    "area_km2": 20,
+    "temp_c": 20.5
+   },
+   "flavour": {
+    "text": "The population was 15,217 at the 2020 census, down from 15,751 in 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Uvalde, Texas",
+    "url": "https://en.wikipedia.org/wiki/Uvalde%2C_Texas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4738721.webp",
+    "author": "Billy Hathorn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Opera_House,_Uvalde,_TX_IMG_4261.JPG"
+   }
+  },
+  {
+   "id": "wd:Q25379780",
+   "name": "161 Maiden Lane",
+   "label": "161 Maiden Lane",
+   "type": "built",
+   "kind": "building or structure under construction",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7055,
+   "lon": -74.0048,
+   "rarity": "Legendary",
+   "fame": 74778,
+   "facts": {
+    "elevation_m": 37,
+    "height_m": 204,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "161 Maiden Lane is an incomplete 670-foot-tall residential skyscraper on Maiden Lane in the Financial District of Manhattan, New York City, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "161 Maiden Lane",
+    "url": "https://en.wikipedia.org/wiki/161_Maiden_Lane",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25379780.webp",
+    "author": "GrissJr",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1SeaportJ19.jpg"
+   }
+  },
+  {
+   "id": "wd:Q465811",
+   "name": "National Mall",
+   "label": "National Mall",
+   "type": "built",
+   "kind": "avenue",
+   "region": "US-DC",
+   "country": "US",
+   "lat": 38.8894,
+   "lon": -77.0231,
+   "rarity": "Legendary",
+   "fame": 152154,
+   "facts": {
+    "elevation_m": 6.1,
+    "length_km": 3.2,
+    "temp_c": 13.5
+   },
+   "flavour": {
+    "text": "The National Mall is a landscaped park near the downtown area of Washington, D.C., the capital city of the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Mall",
+    "url": "https://en.wikipedia.org/wiki/National_Mall",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q465811.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_U.S._Capitol_under_restoration,_Washington,_D.C_LCCN2010630859.jpg"
+   }
+  },
+  {
+   "id": "wd:Q474326",
+   "name": "Walt Disney Concert Hall",
+   "label": "Walt Disney Concert Hall",
+   "type": "built",
+   "kind": "concert hall",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.0553,
+   "lon": -118.25,
+   "rarity": "Legendary",
+   "fame": 93624,
+   "facts": {
+    "elevation_m": 130,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "The Walt Disney Concert Hall in downtown Los Angeles, California, is the fourth hall of the Los Angeles Music Center and was designed by Frank Gehry.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Walt Disney Concert Hall",
+    "url": "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q474326.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Image-Disney_Concert_Hall_by_Carol_Highsmith_edit.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1284526",
+   "name": "Hanford Site",
+   "label": "Hanford Site",
+   "type": "built",
+   "kind": "United States national laboratory",
+   "region": "US-WA",
+   "country": "US",
+   "lat": 46.6475,
+   "lon": -119.5986,
+   "rarity": "Legendary",
+   "fame": 166398,
+   "facts": {
+    "elevation_m": 142,
+    "temp_c": 12.2
+   },
+   "flavour": {
+    "text": "The Hanford Site is a decommissioned nuclear production complex operated by the United States federal government on the Columbia River in Benton County in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hanford Site",
+    "url": "https://en.wikipedia.org/wiki/Hanford_Site",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1284526.webp",
+    "author": "United States Department of Energy",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Hanford_N_Reactor_adjusted.jpg"
+   }
+  },
+  {
+   "id": "wd:Q652452",
+   "name": "Metropolitan Life Insurance Company Tower",
+   "label": "Metropolitan Life Insurance Company Tower",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7411,
+   "lon": -73.9875,
+   "rarity": "Legendary",
+   "fame": 73728,
+   "facts": {
+    "elevation_m": 50,
+    "height_m": 213,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "The Metropolitan Life Insurance Company Tower is a skyscraper occupying a full block in the Flatiron District of Manhattan in New York City, New York.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Metropolitan Life Insurance Company Tower",
+    "url": "https://en.wikipedia.org/wiki/Metropolitan_Life_Insurance_Company_Tower",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q652452.webp",
+    "author": "Ryan Schwark",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Metropolitan_Life_Insurance_Tower,_2024.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9188",
+   "name": "Empire State Building",
+   "label": "Empire State Building",
+   "type": "built",
+   "kind": "office building",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7483,
+   "lon": -73.9856,
+   "rarity": "Legendary",
+   "fame": 1013544,
+   "facts": {
+    "elevation_m": 34,
+    "height_m": 453,
+    "area_km2": 0.2,
+    "temp_c": 12.1
+   },
+   "flavour": {
+    "text": "The Empire State Building is a 102-story, supertall skyscraper in the Midtown South neighborhood of Manhattan, New York City, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Empire State Building",
+    "url": "https://en.wikipedia.org/wiki/Empire_State_Building",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9188.webp",
+    "author": "Sam Valadi",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg"
+   }
+  },
+  {
+   "id": "wd:Q849027",
+   "name": "Prudential Center",
+   "label": "Prudential Center",
+   "type": "built",
+   "kind": "arena",
+   "region": "US-NJ",
+   "country": "US",
+   "lat": 40.7336,
+   "lon": -74.1711,
+   "rarity": "Legendary",
+   "fame": 137616,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 11.5
+   },
+   "flavour": {
+    "text": "By 2023, it was among the top five concert venues worldwide by earnings.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Prudential Center",
+    "url": "https://en.wikipedia.org/wiki/Prudential_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q849027.webp",
+    "author": "Jim.henderson",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Pudcentnewarkjeh.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1833555",
+   "name": "Millennium Tower",
+   "label": "Millennium Tower",
+   "type": "built",
+   "kind": "apartment building",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 37.7903,
+   "lon": -122.3961,
+   "rarity": "Legendary",
+   "fame": 75618,
+   "facts": {
+    "elevation_m": 2.0,
+    "height_m": 197,
+    "temp_c": 14.1
+   },
+   "flavour": {
+    "text": "A mixed-use, primarily residential high rise, it is the tallest residential building and the 6th-tallest overall in San Francisco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Millennium Tower (San Francisco)",
+    "url": "https://en.wikipedia.org/wiki/Millennium_Tower_%28San_Francisco%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1833555.webp",
+    "author": "Hydrogen Iodide at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Millennium_Tower_San_Francisco_July_2008.jpg"
+   }
+  },
+  {
+   "id": "wd:Q615337",
+   "name": "Mount Mitchell",
+   "label": "Mount Mitchell",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-NC",
+   "country": "US",
+   "lat": 35.7647,
+   "lon": -82.2653,
+   "rarity": "Legendary",
+   "fame": 151674,
+   "facts": {
+    "elevation_m": 2037,
+    "prominence_m": 1857,
+    "temp_c": 10.1
+   },
+   "flavour": {
+    "text": "Mount Mitchell is the highest peak of the Appalachian Mountains and the highest peak in mainland North America east of the Mississippi River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Mitchell",
+    "url": "https://en.wikipedia.org/wiki/Mount_Mitchell",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q615337.webp",
+    "author": "Username11236",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_Mitchell_from_Mt._Mitchell_overlook_NC.jpg"
+   }
+  },
+  {
+   "id": "wd:Q605122",
+   "name": "Schuylkill River",
+   "label": "Schuylkill River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PA",
+   "country": "US",
+   "lat": 40.6336,
+   "lon": -76.1803,
+   "rarity": "Legendary",
+   "fame": 80568,
+   "facts": {
+    "elevation_m": 171,
+    "length_km": 207,
+    "temp_c": 9.9
+   },
+   "flavour": {
+    "text": "The Schuylkill River is a river in eastern Pennsylvania in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Schuylkill River",
+    "url": "https://en.wikipedia.org/wiki/Schuylkill_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q605122.webp",
+    "author": "Emy111 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_August_2007.jpg"
+   }
+  },
+  {
+   "id": "wd:Q357546",
+   "name": "Adirondack Mountains",
+   "label": "Adirondack Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 44.1125,
+   "lon": -73.9239,
+   "rarity": "Legendary",
+   "fame": 218376,
+   "facts": {
+    "elevation_m": 1629,
+    "temp_c": 3.1
+   },
+   "also_in": [
+    "CA"
+   ],
+   "flavour": {
+    "text": "The Adirondack Mountains are a massif of mountains in Northeastern New York State which form a circular dome approximately 160 miles wide and covering about…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Adirondack Mountains",
+    "url": "https://en.wikipedia.org/wiki/Adirondack_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q357546.webp",
+    "author": "stillwellmike",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adirondacks_2016_Cascade_mountain_hike.jpg"
+   }
+  },
+  {
+   "id": "wd:Q18438",
+   "name": "Long Island",
+   "label": "Long Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.7889,
+   "lon": -73.2335,
+   "rarity": "Legendary",
+   "fame": 606588,
+   "facts": {
+    "elevation_m": 122,
+    "area_km2": 3566,
+    "length_km": 190,
+    "temp_c": 11.5
+   },
+   "flavour": {
+    "text": "Long Island is a densely populated island in southeastern New York State, extending eastward into the Atlantic Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Long Island",
+    "url": "https://en.wikipedia.org/wiki/Long_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q18438.webp",
+    "author": "Ronald Diel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Montauk_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q178741",
+   "name": "Great Salt Lake",
+   "label": "Great Salt Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-UT",
+   "country": "US",
+   "lat": 41.1667,
+   "lon": -112.5833,
+   "rarity": "Legendary",
+   "fame": 264708,
+   "facts": {
+    "elevation_m": 1283,
+    "area_km2": 4400,
+    "length_km": 120,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "The Great Salt Lake is the largest saltwater lake in the Western Hemisphere and the eighth-largest terminal lake in the world.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Salt Lake",
+    "url": "https://en.wikipedia.org/wiki/Great_Salt_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q178741.webp",
+    "author": "Copernicus Sentinel-2, ESA",
+    "licence": "CC BY-SA 3.0 igo",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Salt_Lake_by_Sentinel-2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5492",
+   "name": "Lake Erie",
+   "label": "Lake Erie",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-OH",
+   "country": "US",
+   "lat": 42.25,
+   "lon": -80.9997,
+   "rarity": "Legendary",
+   "fame": 246294,
+   "facts": {
+    "elevation_m": 173,
+    "area_km2": 25744,
+    "length_km": 388,
+    "temp_c": 9.4
+   },
+   "also_in": [
+    "CA"
+   ],
+   "flavour": {
+    "text": "Lake Erie is the fourth-largest lake by surface area of the five Great Lakes in North America and the eleventh-largest globally.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Erie",
+    "url": "https://en.wikipedia.org/wiki/Lake_Erie",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5492.webp",
+    "author": "NOAA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:A1.23188.1851.LakeErie.143.250m.jpg"
+   }
+  },
+  {
+   "id": "wd:Q667507",
+   "name": "Lake Powell",
+   "label": "Lake Powell",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-AZ",
+   "country": "US",
+   "lat": 36.9361,
+   "lon": -111.4842,
+   "rarity": "Legendary",
+   "fame": 155790,
+   "facts": {
+    "elevation_m": 1129,
+    "area_km2": 658,
+    "length_km": 300,
+    "temp_c": 14.7
+   },
+   "flavour": {
+    "text": "It is a major vacation destination visited by approximately two million people every year.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Powell",
+    "url": "https://en.wikipedia.org/wiki/Lake_Powell",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q667507.webp",
+    "author": "Copernicus Sentinel-2, ESA",
+    "licence": "CC BY-SA 3.0 igo",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Powell_by_Sentinel-2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1801120",
+   "name": "Lake of the Ozarks",
+   "label": "Lake of the Ozarks",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-MO",
+   "country": "US",
+   "lat": 38.2034,
+   "lon": -92.6235,
+   "rarity": "Legendary",
+   "fame": 194826,
+   "facts": {
+    "elevation_m": 198,
+    "temp_c": 13.1
+   },
+   "flavour": {
+    "text": "Lake of the Ozarks is a reservoir created by impounding the Osage River in the northern part of the Ozarks in central Missouri.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake of the Ozarks",
+    "url": "https://en.wikipedia.org/wiki/Lake_of_the_Ozarks",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1801120.webp",
+    "author": "Jay Dugger",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_panorama_of_Lake_of_the_Ozarks_MO-JDugger.jpg"
+   }
+  },
+  {
+   "id": "gn:4560349",
+   "name": "Philadelphia",
+   "label": "Philadelphia",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PA",
+   "country": "US",
+   "lat": 39.9524,
+   "lon": -75.1636,
+   "rarity": "Legendary",
+   "fame": 1453122,
+   "facts": {
+    "population": 1573916,
+    "elevation_m": 12,
+    "area_km2": 370,
+    "temp_c": 12.7
+   },
+   "flavour": {
+    "text": "Philadelphia, colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania and the sixth-most populous city in the United…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Philadelphia",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4560349.webp",
+    "author": "颐园居",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_20240528_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gn:4975802",
+   "name": "Portland",
+   "label": "Portland (Maine)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-ME",
+   "country": "US",
+   "lat": 43.6574,
+   "lon": -70.2589,
+   "rarity": "Legendary",
+   "fame": 418680,
+   "facts": {
+    "population": 66881,
+    "elevation_m": 19,
+    "area_km2": 180,
+    "temp_c": 8.0
+   },
+   "flavour": {
+    "text": "Portland is the most populous city in the U.S. state of Maine.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portland, Maine",
+    "url": "https://en.wikipedia.org/wiki/Portland%2C_Maine",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4975802.webp",
+    "author": "Karmos",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Portland,_Maine_Montage.jpg"
+   }
+  },
+  {
+   "id": "gn:4553433",
+   "name": "Tulsa",
+   "label": "Tulsa",
+   "type": "town",
+   "kind": "town",
+   "region": "US-OK",
+   "country": "US",
+   "lat": 36.154,
+   "lon": -95.9928,
+   "rarity": "Legendary",
+   "fame": 422868,
+   "facts": {
+    "population": 413066,
+    "elevation_m": 220,
+    "area_km2": 521,
+    "temp_c": 15.8
+   },
+   "flavour": {
+    "text": "Tulsa is the second-most-populous city in the U.S. state of Oklahoma and the 48th-most populous city in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tulsa, Oklahoma",
+    "url": "https://en.wikipedia.org/wiki/Tulsa%2C_Oklahoma",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4553433.webp",
+    "author": "Nils Huenerfuerst",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tulsa_skyline_aerial,_April_2023.jpg"
+   }
+  },
+  {
+   "id": "gn:4160021",
+   "name": "Jacksonville",
+   "label": "Jacksonville",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 30.3322,
+   "lon": -81.6556,
+   "rarity": "Legendary",
+   "fame": 631404,
+   "facts": {
+    "population": 1009833,
+    "elevation_m": 5.0,
+    "area_km2": 2265,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "Jacksonville, colloquially nicknamed Jax, is the most populous city proper in the U.S. state of Florida, located on the Atlantic coast of northeastern Florida.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jacksonville, Florida",
+    "url": "https://en.wikipedia.org/wiki/Jacksonville%2C_Florida",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4160021.webp",
+    "author": "Quintin Soloviev",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jacksonville_skyline.jpg"
+   }
+  },
+  {
+   "id": "gn:4460243",
+   "name": "Charlotte",
+   "label": "Charlotte",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NC",
+   "country": "US",
+   "lat": 35.2271,
+   "lon": -80.8431,
+   "rarity": "Legendary",
+   "fame": 785340,
+   "facts": {
+    "population": 911311,
+    "elevation_m": 229,
+    "area_km2": 796,
+    "temp_c": 15.7
+   },
+   "flavour": {
+    "text": "Charlotte is the most populous city in the U.S. state of North Carolina.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charlotte, North Carolina",
+    "url": "https://en.wikipedia.org/wiki/Charlotte%2C_North_Carolina",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4460243.webp",
+    "author": "Greengrass090",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Charlotte_collage.jpg"
+   }
+  },
+  {
+   "id": "gn:5393212",
+   "name": "Santa Monica",
+   "label": "Santa Monica",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.0195,
+   "lon": -118.4914,
+   "rarity": "Legendary",
+   "fame": 396174,
+   "facts": {
+    "population": 93220,
+    "elevation_m": 32,
+    "area_km2": 22,
+    "temp_c": 17.5
+   },
+   "flavour": {
+    "text": "It is situated along Santa Monica Bay on California's South Coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Monica, California",
+    "url": "https://en.wikipedia.org/wiki/Santa_Monica%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5393212.webp",
+    "author": "Mike Gonzalez ( TheCoffee )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ocean_Avenue.jpg"
+   }
+  },
+  {
+   "id": "gn:4259418",
+   "name": "Indianapolis",
+   "label": "Indianapolis",
+   "type": "town",
+   "kind": "town",
+   "region": "US-IN",
+   "country": "US",
+   "lat": 39.7684,
+   "lon": -86.158,
+   "rarity": "Legendary",
+   "fame": 600372,
+   "facts": {
+    "population": 887642,
+    "elevation_m": 218,
+    "area_km2": 953,
+    "temp_c": 11.3
+   },
+   "flavour": {
+    "text": "Indianapolis, colloquially known as Indy, is the capital and most populous city of the U.S. state of Indiana and the county seat of Marion County.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Indianapolis",
+    "url": "https://en.wikipedia.org/wiki/Indianapolis",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4259418.webp",
+    "author": "Miyin2",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Indianapolis.jpg"
+   }
+  },
+  {
+   "id": "gn:4140963",
+   "name": "Washington",
+   "label": "Washington",
+   "type": "town",
+   "kind": "town",
+   "region": "US-DC",
+   "country": "US",
+   "lat": 38.8951,
+   "lon": -77.0364,
+   "rarity": "Legendary",
+   "fame": 2448048,
+   "facts": {
+    "population": 689545,
+    "elevation_m": 7.0,
+    "area_km2": 177,
+    "temp_c": 13.5
+   },
+   "flavour": {
+    "text": "Washington, D.C., officially the District of Columbia and commonly shortened to Washington or DC, is the capital city of the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Washington, D.C.",
+    "url": "https://en.wikipedia.org/wiki/Washington%2C_D.C.",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4140963.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_White_House_and_downtown,_Washington,_D.C_LCCN2010630891.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4792362",
+   "name": "Arlington Memorial Amphitheater",
+   "label": "Arlington Memorial Amphitheater",
+   "type": "built",
+   "kind": "amphitheatre",
+   "region": "US-VA",
+   "country": "US",
+   "lat": 38.8764,
+   "lon": -77.073,
+   "rarity": "Rare",
+   "fame": 7530,
+   "facts": {
+    "elevation_m": 58,
+    "temp_c": 13.5
+   },
+   "flavour": {
+    "text": "Memorial Amphitheater is an outdoor amphitheater, exhibit hall, and nonsectarian chapel located in Arlington National Cemetery in Arlington County, Virginia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arlington Memorial Amphitheater",
+    "url": "https://en.wikipedia.org/wiki/Arlington_Memorial_Amphitheater",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4792362.webp",
+    "author": "Susanne Bledsoe, U.S. Army Corps of Engineers",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Arlington_National_Cemetery_Amphitheater.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14716456",
+   "name": "Holy Angels Catholic Church",
+   "label": "Holy Angels Catholic Church",
+   "type": "built",
+   "kind": "church",
+   "region": "US-OH",
+   "country": "US",
+   "lat": 41.4492,
+   "lon": -82.7231,
+   "rarity": "Rare",
+   "fame": 636,
+   "facts": {
+    "elevation_m": 181,
+    "temp_c": 9.9
+   },
+   "flavour": {
+    "text": "Holy Angels Church is the oldest extant church building in the Roman Catholic Diocese of Toledo and Erie County, Ohio.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holy Angels Catholic Church (Sandusky, Ohio)",
+    "url": "https://en.wikipedia.org/wiki/Holy_Angels_Catholic_Church_%28Sandusky%2C_Ohio%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14716456.webp",
+    "author": "Nyttend",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Holy_Angels_Catholic_Church_in_Sandusky.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5086148",
+   "name": "Charlotte Sports Park",
+   "label": "Charlotte Sports Park",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 26.9992,
+   "lon": -82.1817,
+   "rarity": "Rare",
+   "fame": 6462,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "The stadium is the home field for Tampa Bay Rays spring training operations, as well as its Rookie-class Florida Complex League Rays teams.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charlotte Sports Park",
+    "url": "https://en.wikipedia.org/wiki/Charlotte_Sports_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5086148.webp",
+    "author": "User HappyHarvick2962 on en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stadium6.jpg"
+   }
+  },
+  {
+   "id": "wd:Q511256",
+   "name": "One Museum Park",
+   "label": "One Museum Park",
+   "type": "built",
+   "kind": "built structure",
+   "region": "US-IL",
+   "country": "US",
+   "lat": 41.8671,
+   "lon": -87.6212,
+   "rarity": "Rare",
+   "fame": 4650,
+   "facts": {
+    "elevation_m": 183,
+    "height_m": 224,
+    "temp_c": 9.7
+   },
+   "flavour": {
+    "text": "One Museum Park is a skyscraper in South Loop, Chicago, designed by Chicago-based architecture firm Pappageorge Haymes, Ltd.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "One Museum Park",
+    "url": "https://en.wikipedia.org/wiki/One_Museum_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q511256.webp",
+    "author": "Ryan Kirby",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:OneMuseumPark_05_25_08.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5117864",
+   "name": "Church of the Good Shepherd",
+   "label": "Church of the Good Shepherd (near Englewood Cliffs)",
+   "type": "built",
+   "kind": "church",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 40.8683,
+   "lon": -73.9203,
+   "rarity": "Rare",
+   "fame": 1890,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 11.5
+   },
+   "flavour": {
+    "text": "The Church of the Good Shepherd, located at 4967 Broadway at the corner of Isham Street in the Inwood neighborhood of Manhattan, New York City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church of the Good Shepherd (New York City)",
+    "url": "https://en.wikipedia.org/wiki/Church_of_the_Good_Shepherd_%28New_York_City%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5117864.webp",
+    "author": "MoTabChoir01",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:GoodShepRCExt.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3124927",
+   "name": "One Detroit Center",
+   "label": "One Detroit Center",
+   "type": "built",
+   "kind": "building",
+   "region": "US-MI",
+   "country": "US",
+   "lat": 42.33,
+   "lon": -83.045,
+   "rarity": "Rare",
+   "fame": 11088,
+   "facts": {
+    "elevation_m": 185,
+    "temp_c": 9.5
+   },
+   "flavour": {
+    "text": "Rising 619 feet, it is the third-tallest building in Detroit as well as in Michigan, behind the Renaissance Center and Hudson's Detroit.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ally Detroit Center",
+    "url": "https://en.wikipedia.org/wiki/Ally_Detroit_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3124927.webp",
+    "author": "WMrapids",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Ally_Detroit_Center_(2025).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2278413",
+   "name": "Sherman Library and Gardens",
+   "label": "Sherman Library and Gardens",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 33.6024,
+   "lon": -117.873,
+   "rarity": "Rare",
+   "fame": 1518,
+   "facts": {
+    "elevation_m": 35,
+    "temp_c": 16.9
+   },
+   "flavour": {
+    "text": "The Sherman Library and Gardens are botanical gardens in Corona del Mar, California.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sherman Library and Gardens",
+    "url": "https://en.wikipedia.org/wiki/Sherman_Library_and_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2278413.webp",
+    "author": "Lane 4 Imaging",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sherman_Library_%26_Gardens1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4889076",
+   "name": "Benjamin Ogle Tayloe House",
+   "label": "Benjamin Ogle Tayloe House",
+   "type": "built",
+   "kind": "house",
+   "region": "US-DC",
+   "country": "US",
+   "lat": 38.8996,
+   "lon": -77.0344,
+   "rarity": "Rare",
+   "fame": 3942,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": 13.5
+   },
+   "flavour": {
+    "text": "The Benjamin Ogle Tayloe House is a Federal-style house located at 21 Madison Place NW in Washington, D.C., in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Benjamin Ogle Tayloe House",
+    "url": "https://en.wikipedia.org/wiki/Benjamin_Ogle_Tayloe_House",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4889076.webp",
+    "author": "APK",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Benjamin_Ogle_Tayloe_House.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7814957",
+   "name": "Tom Bevill Lock and Dam",
+   "label": "Tom Bevill Lock and Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "US-AL",
+   "country": "US",
+   "lat": 33.2107,
+   "lon": -88.2878,
+   "rarity": "Rare",
+   "fame": 1152,
+   "facts": {
+    "elevation_m": 41,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "The Tom Bevill Lock and Dam, formerly named Aliceville Lock and Dam and \"Memphis Lock and Dam\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tom Bevill Lock and Dam",
+    "url": "https://en.wikipedia.org/wiki/Tom_Bevill_Lock_and_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7814957.webp",
+    "author": "Adrien Lamarre, U.S. Army Corps of Engineers",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:USACE_Tom_Bevill_Lock_and_Dam.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7590454",
+   "name": "St. Mary's of the Mountain Church",
+   "label": "St. Mary's of the Mountain Church",
+   "type": "built",
+   "kind": "church",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 42.2039,
+   "lon": -74.2003,
+   "rarity": "Rare",
+   "fame": 294,
+   "facts": {
+    "elevation_m": 505,
+    "temp_c": 6.2
+   },
+   "flavour": {
+    "text": "St. Mary's of the Mountain Church was an historic Roman Catholic church on New York State Route 23A in Hunter, Greene County, New York.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Mary's of the Mountain Church",
+    "url": "https://en.wikipedia.org/wiki/St._Mary%27s_of_the_Mountain_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7590454.webp",
+    "author": "Julia Manzerova",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_on_the_Mountain.jpg"
+   }
+  },
+  {
+   "id": "wd:Q96382154",
+   "name": "Inn on Boltwood",
+   "label": "Inn on Boltwood",
+   "type": "built",
+   "kind": "building",
+   "region": "US-MA",
+   "country": "US",
+   "lat": 42.3746,
+   "lon": -72.5186,
+   "rarity": "Rare",
+   "fame": 858,
+   "facts": {
+    "elevation_m": 98,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "The Inn on Boltwood, formerly known as The Lord Jeffrey Inn, in Amherst, Massachusetts, dates from 1926.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Inn on Boltwood",
+    "url": "https://en.wikipedia.org/wiki/Inn_on_Boltwood",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q96382154.webp",
+    "author": "John Phelan",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Inn_on_Boltwood,_Amherst_MA.jpg"
+   }
+  },
+  {
+   "id": "wd:Q90743054",
+   "name": "Coronado Motel",
+   "label": "Coronado Motel",
+   "type": "built",
+   "kind": "motel",
+   "region": "US-CO",
+   "country": "US",
+   "lat": 38.2303,
+   "lon": -104.6244,
+   "rarity": "Rare",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 1465,
+    "temp_c": 11.6
+   },
+   "flavour": {
+    "text": "The Coronado Lodge, at 2130 Lake Ave. in Pueblo, Colorado, was listed on the National Register of Historic Places in 2020.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coronado Lodge",
+    "url": "https://en.wikipedia.org/wiki/Coronado_Lodge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q90743054.webp",
+    "author": "Jeffrey Beall",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coronado_Lodge.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7330610",
+   "name": "Richland Balsam",
+   "label": "Richland Balsam",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-NC",
+   "country": "US",
+   "lat": 35.3676,
+   "lon": -82.9903,
+   "rarity": "Rare",
+   "fame": 3066,
+   "facts": {
+    "elevation_m": 1954,
+    "prominence_m": 917,
+    "temp_c": 10.4
+   },
+   "flavour": {
+    "text": "The Blue Ridge Parkway reaches an elevation of 6,053 feet—the parkway's highest point—as it passes over Richland Balsam's southwestern slope.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Richland Balsam",
+    "url": "https://en.wikipedia.org/wiki/Richland_Balsam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7330610.webp",
+    "author": "Thomson200",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Richland_Balsam_from_Steestachee_Bald_Overlook,_October_2016.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7235578",
+   "name": "Poultney River",
+   "label": "Poultney River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-NY",
+   "country": "US",
+   "lat": 43.6264,
+   "lon": -73.3435,
+   "rarity": "Rare",
+   "fame": 1338,
+   "facts": {
+    "elevation_m": 43,
+    "temp_c": 7.5
+   },
+   "flavour": {
+    "text": "In its 40-mile long course, the river drains approximately 263 square miles as it flows northwards into the southern end of Lake Champlain.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Poultney River",
+    "url": "https://en.wikipedia.org/wiki/Poultney_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7235578.webp"
+   }
+  },
+  {
+   "id": "wd:Q7353199",
+   "name": "Robledo Mountains",
+   "label": "Robledo Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-NM",
+   "country": "US",
+   "lat": 32.4047,
+   "lon": -106.9,
+   "rarity": "Rare",
+   "fame": 1410,
+   "facts": {
+    "elevation_m": 1463,
+    "temp_c": 15.7
+   },
+   "flavour": {
+    "text": "The Robledo Mountains are a mountain range in Doña Ana County, New Mexico, just northwest of Las Cruces.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Robledo Mountains",
+    "url": "https://en.wikipedia.org/wiki/Robledo_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7353199.webp",
+    "author": "Patrick Alexander from Las Cruces, NM",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Robledo_Mountains_-_Flickr_-_aspidoscelis_(8).jpg"
+   }
+  },
+  {
+   "id": "wd:Q768503",
+   "name": "Tippecanoe Lake",
+   "label": "Tippecanoe Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-IN",
+   "country": "US",
+   "lat": 41.3278,
+   "lon": -85.7597,
+   "rarity": "Rare",
+   "fame": 4530,
+   "facts": {
+    "elevation_m": 225,
+    "area_km2": 360,
+    "temp_c": 9.6
+   },
+   "flavour": {
+    "text": "Tippecanoe Lake is a large, glacially created lake in Leesburg, Kosciusko County, Indiana and, at 123 feet deep, is the deepest natural lake in the state.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tippecanoe Lake",
+    "url": "https://en.wikipedia.org/wiki/Tippecanoe_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q768503.webp"
+   }
+  },
+  {
+   "id": "wd:Q5287866",
+   "name": "Dodge Island",
+   "label": "Dodge Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 25.7745,
+   "lon": -80.1709,
+   "rarity": "Rare",
+   "fame": 4578,
+   "facts": {
+    "elevation_m": 3.0,
+    "area_km2": 2.1,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Port of Miami is located on, what was, Dodge, Lummus and Sam Islands, and has berths for both cruise and cargo ships.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dodge Island",
+    "url": "https://en.wikipedia.org/wiki/Dodge_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5287866.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Port_of_Miami_Florida.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5522613",
+   "name": "Gardner River",
+   "label": "Gardner River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-MT",
+   "country": "US",
+   "lat": 45.0298,
+   "lon": -110.7001,
+   "rarity": "Rare",
+   "fame": 1440,
+   "facts": {
+    "elevation_m": 1595,
+    "length_km": 40,
+    "temp_c": 2.9
+   },
+   "flavour": {
+    "text": "The Gardner River is a tributary of the Yellowstone River, approximately 25 miles long, in northwestern Wyoming and south central Montana in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gardner River",
+    "url": "https://en.wikipedia.org/wiki/Gardner_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5522613.webp",
+    "author": "Jo Suderman",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:BoilingRiverGardnerRiver.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7562183",
+   "name": "Sonoma Mountain",
+   "label": "Sonoma Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 38.3231,
+   "lon": -122.575,
+   "rarity": "Rare",
+   "fame": 3342,
+   "facts": {
+    "elevation_m": 751,
+    "temp_c": 14.7
+   },
+   "flavour": {
+    "text": "At an elevation of 2,463 ft, Sonoma Mountain offers expansive views of the Pacific Ocean to the west and the Sonoma Valley to the east.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sonoma Mountain",
+    "url": "https://en.wikipedia.org/wiki/Sonoma_Mountain",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7562183.webp",
+    "author": "Covalent at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sonomamtnfrmannadel.jpg"
+   }
+  },
+  {
+   "id": "wd:Q118899249",
+   "name": "The Castles",
+   "label": "The Castles",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-CO",
+   "country": "US",
+   "lat": 38.7369,
+   "lon": -107.1687,
+   "rarity": "Rare",
+   "fame": 1488,
+   "facts": {
+    "elevation_m": 3568,
+    "temp_c": 0.9
+   },
+   "flavour": {
+    "text": "The Castles are naturally occurring pillars of stone in Gunnison County, Colorado, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Castles (Colorado)",
+    "url": "https://en.wikipedia.org/wiki/The_Castles_%28Colorado%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q118899249.webp",
+    "author": "Larry Lamsa",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Castles_-_Colorado.jpg"
+   }
+  },
+  {
+   "id": "wd:Q583758",
+   "name": "Kagamil Island",
+   "label": "Kagamil Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-AK",
+   "country": "US",
+   "lat": 52.9931,
+   "lon": -169.7119,
+   "rarity": "Rare",
+   "fame": 1296,
+   "facts": {
+    "elevation_m": 893,
+    "temp_c": 3.2
+   },
+   "flavour": {
+    "text": "Kagamil Island, in the Islands of Four Mountains subgroup of the Aleutian archipelago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kagamil Island",
+    "url": "https://en.wikipedia.org/wiki/Kagamil_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q583758.webp",
+    "author": "G. Vernon Byrd (U.S. Fish and Wildlife Service, courtesy of Alaska Volcano Observatory)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Kagamil.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3215218",
+   "name": "Swiftcurrent Lake",
+   "label": "Swiftcurrent Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-MT",
+   "country": "US",
+   "lat": 48.7953,
+   "lon": -113.6614,
+   "rarity": "Rare",
+   "fame": 2586,
+   "facts": {
+    "elevation_m": 1.5,
+    "length_km": 1.6,
+    "temp_c": 1.7
+   },
+   "flavour": {
+    "text": "Swiftcurrent Lake is located in the Many Glacier region of Glacier National Park, in the U.S. state of Montana.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Swiftcurrent Lake",
+    "url": "https://en.wikipedia.org/wiki/Swiftcurrent_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3215218.webp",
+    "author": "Jeff P from Berkeley, CA, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lakeside_View_(11415064175).jpg"
+   }
+  },
+  {
+   "id": "wd:Q37421",
+   "name": "Franklin Falls",
+   "label": "Franklin Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "US-WA",
+   "country": "US",
+   "lat": 47.425,
+   "lon": -121.432,
+   "rarity": "Rare",
+   "fame": 1614,
+   "facts": {
+    "elevation_m": 849,
+    "temp_c": 4.9
+   },
+   "flavour": {
+    "text": "Franklin Falls is the first of three major waterfalls on the South Fork Snoqualmie River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Franklin Falls",
+    "url": "https://en.wikipedia.org/wiki/Franklin_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q37421.webp",
+    "author": "Steven Pavlov",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2022-08-01,_Franklin_Falls_(King_County,_Washington),_005.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5138792",
+   "name": "Cobbetts Pond",
+   "label": "Cobbetts Pond",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-NH",
+   "country": "US",
+   "lat": 42.7967,
+   "lon": -71.2883,
+   "rarity": "Rare",
+   "fame": 1446,
+   "facts": {
+    "elevation_m": 50,
+    "temp_c": 8.8
+   },
+   "flavour": {
+    "text": "Cobbetts Pond is a 302-acre water body located in Rockingham County in southern New Hampshire, United States, in the town of Windham.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cobbetts Pond",
+    "url": "https://en.wikipedia.org/wiki/Cobbetts_Pond",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5138792.webp",
+    "author": "Ken Gallager",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CobbettsPondApril2025.jpg"
+   }
+  },
+  {
+   "id": "gn:5733409",
+   "name": "Jacksonville",
+   "label": "Jacksonville (Oregon)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-OR",
+   "country": "US",
+   "lat": 42.3135,
+   "lon": -122.967,
+   "rarity": "Rare",
+   "fame": 26892,
+   "facts": {
+    "population": 2883,
+    "elevation_m": 477,
+    "area_km2": 4.9,
+    "temp_c": 11.1
+   },
+   "flavour": {
+    "text": "It’s known for its historical buildings, proximity to Southern Oregon wineries, and the Britt Festival.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jacksonville, Oregon",
+    "url": "https://en.wikipedia.org/wiki/Jacksonville%2C_Oregon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5733409.webp",
+    "author": "Frank Schulenburg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jacksonville_City_Hall_(2026)-L1001086.jpg"
+   }
+  },
+  {
+   "id": "gn:4500579",
+   "name": "Avalon",
+   "label": "Avalon (New Jersey)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-NJ",
+   "country": "US",
+   "lat": 39.1012,
+   "lon": -74.7177,
+   "rarity": "Rare",
+   "fame": 18618,
+   "facts": {
+    "population": 1283,
+    "elevation_m": 3.0,
+    "area_km2": 13,
+    "temp_c": 12.7
+   },
+   "flavour": {
+    "text": "The borough's population swells to as many as 45,000 during the summer.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Avalon, New Jersey",
+    "url": "https://en.wikipedia.org/wiki/Avalon%2C_New_Jersey",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4500579.webp",
+    "author": "Smallbones",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Avalon_NJ_LS_station.JPG"
+   }
+  },
+  {
+   "id": "gn:5364134",
+   "name": "La Verne",
+   "label": "La Verne",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.1008,
+   "lon": -117.7678,
+   "rarity": "Rare",
+   "fame": 28224,
+   "facts": {
+    "population": 32681,
+    "elevation_m": 323,
+    "area_km2": 22,
+    "temp_c": 17.6
+   },
+   "flavour": {
+    "text": "The population was 31,334 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Verne, California",
+    "url": "https://en.wikipedia.org/wiki/La_Verne%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5364134.webp",
+    "author": "Phu \"Son\" Nguyen from CA, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Third_St,_University_of_La_Verne.jpg"
+   }
+  },
+  {
+   "id": "gn:4124112",
+   "name": "North Little Rock",
+   "label": "North Little Rock",
+   "type": "town",
+   "kind": "town",
+   "region": "US-AR",
+   "country": "US",
+   "lat": 34.7695,
+   "lon": -92.2671,
+   "rarity": "Rare",
+   "fame": 27600,
+   "facts": {
+    "population": 66504,
+    "elevation_m": 81,
+    "area_km2": 142,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "Located on the north side of the Arkansas River, it is the twin city of Little Rock.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "North Little Rock, Arkansas",
+    "url": "https://en.wikipedia.org/wiki/North_Little_Rock%2C_Arkansas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4124112.webp",
+    "author": "Belinda Hankins Miller from U.S.A., upload by Herrick 10:33, 15 November 2007 (UTC)",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arkansas_River,_Looking_Across_To_North_Little_Rock_423757092.jpg"
+   }
+  },
+  {
+   "id": "gn:5361298",
+   "name": "Joshua Tree",
+   "label": "Joshua Tree",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.1347,
+   "lon": -116.3131,
+   "rarity": "Rare",
+   "fame": 67170,
+   "facts": {
+    "population": 7414,
+    "elevation_m": 834,
+    "area_km2": 93,
+    "temp_c": 16.6
+   },
+   "flavour": {
+    "text": "The population was 6,489 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Joshua Tree, California",
+    "url": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5361298.webp",
+    "author": "Bernard Gagnon",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Joshua_Tree,_California_01.jpg"
+   }
+  },
+  {
+   "id": "gn:4157634",
+   "name": "Gulf Breeze",
+   "label": "Gulf Breeze",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 30.3571,
+   "lon": -87.1639,
+   "rarity": "Rare",
+   "fame": 30906,
+   "facts": {
+    "population": 6323,
+    "elevation_m": 5.0,
+    "area_km2": 61,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "It is located between Downtown Pensacola and Pensacola Beach, and is part of the Pensacola Metropolitan Area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gulf Breeze, Florida",
+    "url": "https://en.wikipedia.org/wiki/Gulf_Breeze%2C_Florida",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4157634.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_ISS_Expedition_72,_Gulf_Breeze,_Florida,_November_19,_2024_(ISS072-E-98035)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gn:4518307",
+   "name": "Milford",
+   "label": "Milford (Ohio)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-OH",
+   "country": "US",
+   "lat": 39.1753,
+   "lon": -84.2944,
+   "rarity": "Rare",
+   "fame": 16512,
+   "facts": {
+    "population": 6876,
+    "elevation_m": 167,
+    "area_km2": 10.0,
+    "temp_c": 11.5
+   },
+   "flavour": {
+    "text": "The population was 6,582 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Milford, Ohio",
+    "url": "https://en.wikipedia.org/wiki/Milford%2C_Ohio",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4518307.webp",
+    "author": "User:Neilnat",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Downonmainstreet.jpeg"
+   }
+  },
+  {
+   "id": "gn:5407933",
+   "name": "West Covina",
+   "label": "West Covina",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 34.0686,
+   "lon": -117.939,
+   "rarity": "Rare",
+   "fame": 63744,
+   "facts": {
+    "population": 108484,
+    "elevation_m": 117,
+    "area_km2": 42,
+    "temp_c": 18.3
+   },
+   "flavour": {
+    "text": "Located 19 miles east of downtown Los Angeles in the central San Gabriel Valley, it is part of Greater Los Angeles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "West Covina, California",
+    "url": "https://en.wikipedia.org/wiki/West_Covina%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5407933.webp",
+    "author": "Faust71",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pillar_of_Balzac.jpg"
+   }
+  },
+  {
+   "id": "gn:5662190",
+   "name": "Libby",
+   "label": "Libby",
+   "type": "town",
+   "kind": "town",
+   "region": "US-MT",
+   "country": "US",
+   "lat": 48.3883,
+   "lon": -115.556,
+   "rarity": "Rare",
+   "fame": 34944,
+   "facts": {
+    "population": 2645,
+    "elevation_m": 639,
+    "area_km2": 5.1,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "The population was 2,775 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Libby, Montana",
+    "url": "https://en.wikipedia.org/wiki/Libby%2C_Montana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5662190.webp",
+    "author": "USEPA Environmental-Protection-Agency",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Libby,_Montana_-_date_unknown_(14604413572).jpg"
+   }
+  },
+  {
+   "id": "gn:4943097",
+   "name": "Marblehead",
+   "label": "Marblehead",
+   "type": "town",
+   "kind": "town",
+   "region": "US-MA",
+   "country": "US",
+   "lat": 42.5001,
+   "lon": -70.8578,
+   "rarity": "Rare",
+   "fame": 58530,
+   "facts": {
+    "population": 19808,
+    "elevation_m": 18,
+    "area_km2": 51,
+    "temp_c": 9.5
+   },
+   "flavour": {
+    "text": "Marblehead is a coastal New England town in Essex County, Massachusetts, United States, along the North Shore.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marblehead, Massachusetts",
+    "url": "https://en.wikipedia.org/wiki/Marblehead%2C_Massachusetts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4943097.webp",
+    "author": "Keitei at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Marbleheadneck.jpg"
+   }
+  },
+  {
+   "id": "gn:4065552",
+   "name": "Gulf Shores",
+   "label": "Gulf Shores",
+   "type": "town",
+   "kind": "town",
+   "region": "US-AL",
+   "country": "US",
+   "lat": 30.246,
+   "lon": -87.7008,
+   "rarity": "Rare",
+   "fame": 42552,
+   "facts": {
+    "population": 11131,
+    "elevation_m": 2.0,
+    "area_km2": 81,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "As of the 2020 census, the population was 15,014.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gulf Shores, Alabama",
+    "url": "https://en.wikipedia.org/wiki/Gulf_Shores%2C_Alabama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4065552.webp",
+    "author": "Infrogmation of New Orleans",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GulfShoresALGulfIslandGrill.jpg"
+   }
+  },
+  {
+   "id": "gn:5391615",
+   "name": "San Anselmo",
+   "label": "San Anselmo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 37.9746,
+   "lon": -122.5616,
+   "rarity": "Rare",
+   "fame": 27612,
+   "facts": {
+    "population": 12653,
+    "elevation_m": 14,
+    "area_km2": 6.9,
+    "temp_c": 14.0
+   },
+   "flavour": {
+    "text": "San Anselmo is located 1.5 miles west of San Rafael, at an elevation of 46 feet.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Anselmo, California",
+    "url": "https://en.wikipedia.org/wiki/San_Anselmo%2C_California",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5391615.webp",
+    "author": "Pi.1415926535",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Anselmo_from_Mount_Tam,_February_2026.JPG"
+   }
+  },
+  {
+   "id": "gn:4170019",
+   "name": "Ridgecrest",
+   "label": "Ridgecrest (Florida)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 27.8975,
+   "lon": -82.8053,
+   "rarity": "Common",
+   "fame": 870,
+   "facts": {
+    "population": 2558,
+    "elevation_m": 17,
+    "area_km2": 1.5,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "The population was 2,966 at the 2020 census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ridgecrest, Florida",
+    "url": "https://en.wikipedia.org/wiki/Ridgecrest%2C_Florida",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4170019.webp"
+   }
+  },
+  {
+   "id": "gn:4183354",
+   "name": "Blairsville",
+   "label": "Blairsville (Georgia)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-GA",
+   "country": "US",
+   "lat": 34.8762,
+   "lon": -83.9582,
+   "rarity": "Rare",
+   "fame": 27384,
+   "facts": {
+    "population": 554,
+    "elevation_m": 574,
+    "area_km2": 2.9,
+    "temp_c": 13.1
+   },
+   "flavour": {
+    "text": "Blairsville is a city in and the county seat of Union County, on the northern border of Georgia, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blairsville, Georgia",
+    "url": "https://en.wikipedia.org/wiki/Blairsville%2C_Georgia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4183354.webp",
+    "author": "John Trainor",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Union_County_Georgia_Courthouse.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2351809",
+   "name": "Grand River",
+   "label": "Grand River (near Fort Gibson)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-OK",
+   "country": "US",
+   "lat": 35.7922,
+   "lon": -95.2944,
+   "rarity": "Rare",
+   "fame": 1650,
+   "facts": {
+    "elevation_m": 146,
+    "temp_c": 15.7
+   },
+   "flavour": {
+    "text": "The Grand River is an alternate name for the lower section of the Neosho River, a tributary of the Arkansas River in Oklahoma.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand River (Oklahoma)",
+    "url": "https://en.wikipedia.org/wiki/Grand_River_%28Oklahoma%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2351809.webp",
+    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:USACE_Fort_Gibson_Lake_and_Dam.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6674508",
+   "name": "Longwood",
+   "label": "Longwood (near Natchez)",
+   "type": "built",
+   "kind": "villa",
+   "region": "US-MS",
+   "country": "US",
+   "lat": 31.5367,
+   "lon": -91.4047,
+   "rarity": "Epic",
+   "fame": 14892,
+   "facts": {
+    "elevation_m": 69,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "Longwood, also known as Nutt's Folly, is a historic antebellum octagonal mansion located at 140 Lower Woodville Road in Natchez, Mississippi, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Longwood (Natchez, Mississippi)",
+    "url": "https://en.wikipedia.org/wiki/Longwood_%28Natchez%2C_Mississippi%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6674508.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Longwood_by_Highsmith_01.jpg"
+   }
+  },
+  {
+   "id": "gn:4641630",
+   "name": "Milan",
+   "label": "Milan (Tennessee)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-TN",
+   "country": "US",
+   "lat": 35.9198,
+   "lon": -88.7589,
+   "rarity": "Common",
+   "fame": 10140,
+   "facts": {
+    "population": 7813,
+    "elevation_m": 128,
+    "area_km2": 23,
+    "temp_c": 14.8
+   },
+   "flavour": {
+    "text": "Milan is the largest city in Gibson County, Tennessee, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Milan, Tennessee",
+    "url": "https://en.wikipedia.org/wiki/Milan%2C_Tennessee",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4641630.webp",
+    "author": "RageBanken",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Milan_TN_USA_Main_street_looking_Southeast..jpg"
+   }
+  },
+  {
+   "id": "wd:Q125843853",
+   "name": "Copper Mountain",
+   "label": "Copper Mountain (near Thermopolis)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-WY",
+   "country": "US",
+   "lat": 43.4594,
+   "lon": -107.9447,
+   "rarity": "Common",
+   "fame": 708,
+   "facts": {
+    "elevation_m": 2513,
+    "temp_c": 5.7
+   },
+   "flavour": {
+    "text": "Copper Mountain is a roughly 8,312 feet mountain in the Bridger Mountains, a small range that straddles the Fremont and Hot Springs County line.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Copper Mountain (Wyoming)",
+    "url": "https://en.wikipedia.org/wiki/Copper_Mountain_%28Wyoming%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q125843853.webp",
+    "author": "Charles Willgren from Fort Collins, Colorado, United States",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boysen_Reservoir.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16890254",
+   "name": "Chicago Bay",
+   "label": "Chicago Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "US-MN",
+   "country": "US",
+   "lat": 47.8381,
+   "lon": -89.9636,
+   "rarity": "Common",
+   "fame": 450,
+   "facts": {
+    "elevation_m": 181,
+    "temp_c": 2.9
+   },
+   "flavour": {
+    "text": "A bay in Minnesota.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16890254.webp"
+   }
+  },
+  {
+   "id": "gn:4166047",
+   "name": "Nocatee",
+   "label": "Nocatee",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 27.1603,
+   "lon": -81.8823,
+   "rarity": "Common",
+   "fame": 1080,
+   "facts": {
+    "population": 4524,
+    "elevation_m": 13,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "A community of 4,524 people in Florida.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4166047.webp"
+   }
+  },
+  {
+   "id": "gn:5220400",
+   "name": "Youngsville",
+   "label": "Youngsville (Pennsylvania, near Cherryville)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PA",
+   "country": "US",
+   "lat": 40.7812,
+   "lon": -75.4768,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1732,
+    "elevation_m": 240,
+    "temp_c": 9.9
+   },
+   "flavour": {
+    "text": "A community of 1,732 people in Pennsylvania.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5220400.webp"
+   }
+  },
+  {
+   "id": "gn:5583981",
+   "name": "American Falls",
+   "label": "American Falls (Idaho)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-ID",
+   "country": "US",
+   "lat": 42.786,
+   "lon": -112.8544,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4321,
+    "elevation_m": 1343,
+    "temp_c": 8.2
+   },
+   "flavour": {
+    "text": "A community of 4,321 people in Idaho.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5583981.webp"
+   }
+  }
+ ]
+}

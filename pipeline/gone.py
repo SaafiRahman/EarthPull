@@ -199,14 +199,25 @@ def main():
         elif f.action == "drop" and f.id in set(df["id"]):
             reasons[f.id] = f"hand fix: {f.reason}"
 
-    gone = df[df["id"].isin(reasons)].assign(reason=df["id"].map(reasons))
+    # 5. One card per Wikidata item (2026-11-25: 37 US pairs). A town sharing an item with a natural landmark
+    # was linked to the wrong article (the Grand Canyon village got the canyon), so the landmark wins; a
+    # "building" sharing an item with a town is a planned town or base Wikidata also calls a structure
+    # (Washington DC, Columbia MD), so the town wins; between two towns the bigger one wins (Lexington).
+    rank = df["type"].map({"nature": 0, "town": 1, "built": 2})
+    order = df.assign(_r=rank, _p=-df["population"].fillna(0), _f=-df["fame"]).sort_values(["_r", "_p", "_f"])
+    left = order[order["qid"].notna() & ~order["id"].isin(reasons)]
+    for i, q in left.loc[left["qid"].duplicated(), ["id", "qid"]].itertuples(index=False):
+        keep = left.loc[left["qid"] == q].iloc[0]
+        reasons[i] = f"duplicate: same Wikidata item as {keep['name']} ({keep['type']}, {keep['id']})"
+
+    gone =df[df["id"].isin(reasons)].assign(reason=df["id"].map(reasons))
     gone[["id", "name", "type", "kind", "region", "fame", "reason"]].sort_values("fame", ascending=False) \
         .to_csv(d / "gone.csv", index=False, encoding="utf-8")
     clean = df[~df["id"].isin(reasons)]
     clean.to_parquet(d / "pool_clean.parquet")
 
     print(f"\nDropped {len(gone):,} of {len(df):,} -> {len(clean):,} cards in {(d / 'pool_clean.parquet').relative_to(ROOT).as_posix()}")
-    kinds = gone["reason"].str.extract(r"^(article redirects|Wikidata|hand fix)")[0].fillna("category")
+    kinds = gone["reason"].str.extract(r"^(article redirects|Wikidata|hand fix|duplicate)")[0].fillna("category")
     print("By check:", kinds.value_counts().to_dict(), "| by type:", gone["type"].value_counts().to_dict())
     top = gone.sort_values("fame", ascending=False).head(40)
     print("Most famous dropped:\n" + "\n".join(f"  {n} [{t}] {f / 1e3:.0f}k: {why}" for n, t, f, why

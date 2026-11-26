@@ -53,7 +53,11 @@ def fetch(lang: str, title: str) -> list[int]:
     """Views for each of the 12 months; months the API leaves out had 0 views."""
     url = API.format(lang=lang, title=quote(title.replace(" ", "_"), safe=""), start=START, end=END)
     for attempt in range(8):
-        r = session().get(url, timeout=30)
+        try:
+            r = session().get(url, timeout=30)
+        except (requests.ConnectionError, requests.Timeout):  # dropped connection: wait and retry
+            time.sleep(min(60, 2 ** attempt))
+            continue
         if r.status_code == 404:  # article exists but no views recorded in the window
             return [0] * len(MONTHS)
         if r.status_code in (429, 500, 502, 503, 504):

@@ -440,526 +440,484 @@
    }
   },
   {
-   "id": "gn:12076648",
-   "name": "Weedon Centre",
-   "label": "Weedon Centre",
+   "id": "gn:7535673",
+   "name": "Cap-Santé",
+   "label": "Cap-Santé",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.708,
-   "lon": -71.4599,
+   "lat": 46.6716,
+   "lon": -71.7881,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 5004,
    "facts": {
-    "population": 1059,
-    "elevation_m": 276,
-    "temp_c": 4.2
+    "population": 2666,
+    "elevation_m": 38,
+    "area_km2": 70,
+    "temp_c": 4.0
    },
    "flavour": {
-    "text": "A community of 1,059 people in Quebec.",
-    "source": "facts"
+    "text": "It is the county seat of Portneuf Regional County Municipality and was as well the county seat of the designated Portneuf County.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cap-Santé",
+    "url": "https://en.wikipedia.org/wiki/Cap-Sant%C3%A9",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_12076648.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_7535673.webp",
+    "author": "Gabriel Picard",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_Cap-Sant%C3%A9_-_Vue_a%C3%A9rienne_automne_2023.jpg"
    }
   },
   {
-   "id": "gn:13592172",
-   "name": "Valley Waters",
-   "label": "Valley Waters",
+   "id": "gn:6138643",
+   "name": "Saint-Lin-Laurentides",
+   "label": "Saint-Lin-Laurentides",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.8501,
+   "lon": -73.7659,
+   "rarity": "Common",
+   "fame": 13722,
+   "facts": {
+    "population": 17463,
+    "elevation_m": 59,
+    "area_km2": 118,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "Its official name uses an en dash; however, the city's own website and Statistics Canada uses the two-hyphen version of its name: Saint-Lin--Laurentides.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Lin–Laurentides",
+    "url": "https://en.wikipedia.org/wiki/Saint-Lin%E2%80%93Laurentides",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6138643.webp",
+    "author": "Vintotal",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Route_335_(St-Lin).jpg"
+   }
+  },
+  {
+   "id": "gn:5958590",
+   "name": "Fruitvale",
+   "label": "Fruitvale",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.1165,
+   "lon": -117.5522,
+   "rarity": "Common",
+   "fame": 5502,
+   "facts": {
+    "population": 3491,
+    "elevation_m": 659,
+    "area_km2": 2.7,
+    "temp_c": 7.0
+   },
+   "flavour": {
+    "text": "It is 16 km east of the city of Trail along Highway 3B.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fruitvale, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Fruitvale%2C_British_Columbia",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5958590.webp"
+   }
+  },
+  {
+   "id": "gn:6050177",
+   "name": "LaSalle",
+   "label": "LaSalle",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 42.2448,
+   "lon": -83.061,
+   "rarity": "Common",
+   "fame": 16440,
+   "facts": {
+    "population": 32721,
+    "elevation_m": 178,
+    "temp_c": 9.5
+   },
+   "flavour": {
+    "text": "It is a bedroom community of the City of Windsor, part of the Windsor Census Metropolitan Area, and located south of that city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "LaSalle, Ontario",
+    "url": "https://en.wikipedia.org/wiki/LaSalle%2C_Ontario",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6050177.webp",
+    "author": "P199",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LaSalle_ON.JPG"
+   }
+  },
+  {
+   "id": "gn:6090405",
+   "name": "North Perth",
+   "label": "North Perth",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.7251,
+   "lon": -80.9672,
+   "rarity": "Common",
+   "fame": 4668,
+   "facts": {
+    "population": 13130,
+    "elevation_m": 380,
+    "temp_c": 6.2
+   },
+   "flavour": {
+    "text": "Its name is based on its location in the northern portion of Perth County.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "North Perth, Ontario",
+    "url": "https://en.wikipedia.org/wiki/North_Perth%2C_Ontario",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6090405.webp",
+    "author": "Balcer",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Listowel_Main_Street_SE.jpg"
+   }
+  },
+  {
+   "id": "gn:12096534",
+   "name": "Burnt Church",
+   "label": "Burnt Church",
    "type": "town",
    "kind": "town",
    "region": "CA-NB",
    "country": "CA",
-   "lat": 45.673,
-   "lon": -65.837,
+   "lat": 47.1989,
+   "lon": -65.1396,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 4549,
-    "elevation_m": 34,
+    "population": 1715,
+    "elevation_m": 18,
+    "temp_c": 4.4
+   },
+   "flavour": {
+    "text": "A community of 1,715 people in New Brunswick.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_12096534.webp"
+   }
+  },
+  {
+   "id": "gn:5883074",
+   "name": "Albanel",
+   "label": "Albanel",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 48.8832,
+   "lon": -72.4487,
+   "rarity": "Common",
+   "fame": 3054,
+   "facts": {
+    "population": 1087,
+    "elevation_m": 150,
+    "area_km2": 203,
+    "temp_c": 1.3
+   },
+   "flavour": {
+    "text": "Albanel is a municipality in the Canadian province of Quebec, located within the regional county municipality of Maria-Chapdelaine.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Albanel, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Albanel%2C_Quebec",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5883074.webp",
+    "author": "Unknown author",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Countryside_in_Albanel,_Quebec.jpg"
+   }
+  },
+  {
+   "id": "gn:6174844",
+   "name": "Wabush",
+   "label": "Wabush",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NL",
+   "country": "CA",
+   "lat": 52.9001,
+   "lon": -66.8654,
+   "rarity": "Common",
+   "fame": 15084,
+   "facts": {
+    "population": 1964,
+    "elevation_m": 590,
+    "area_km2": 46,
+    "temp_c": -4.0
+   },
+   "flavour": {
+    "text": "Wabush is a small town in the western tip of Labrador, bordering Quebec; it is known for transportation and iron ore operations.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wabush",
+    "url": "https://en.wikipedia.org/wiki/Wabush",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6174844.webp"
+   }
+  },
+  {
+   "id": "gn:6179394",
+   "name": "Westridge",
+   "label": "Westridge",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.2833,
+   "lon": -122.95,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2521,
+    "elevation_m": 127,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "A community of 2,521 people in British Columbia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6179394.webp"
+   }
+  },
+  {
+   "id": "gn:5924984",
+   "name": "Colchester",
+   "label": "Colchester",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 41.9834,
+   "lon": -82.9331,
+   "rarity": "Common",
+   "fame": 4650,
+   "facts": {
+    "population": 2334,
+    "elevation_m": 172,
+    "temp_c": 9.7
+   },
+   "flavour": {
+    "text": "Colchester is a community and unincorporated place in Southwestern Ontario, the southernmost settlement on mainland Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colchester, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Colchester%2C_Ontario",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5924984.webp",
+    "author": "Gary J. Wood from Toronto, ON, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colchester_Harbour_Gas.jpg"
+   }
+  },
+  {
+   "id": "gn:5991284",
+   "name": "Kerrobert",
+   "label": "Kerrobert",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-SK",
+   "country": "CA",
+   "lat": 51.9168,
+   "lon": -109.1348,
+   "rarity": "Common",
+   "fame": 3324,
+   "facts": {
+    "population": 1061,
+    "elevation_m": 685,
+    "area_km2": 7.5,
+    "temp_c": 2.6
+   },
+   "flavour": {
+    "text": "Kerrobert is a town in west central Saskatchewan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kerrobert",
+    "url": "https://en.wikipedia.org/wiki/Kerrobert",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5991284.webp",
+    "author": "Ringrust",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kerrobert_Court_House.JPG"
+   }
+  },
+  {
+   "id": "gn:13732212",
+   "name": "Caniapiscau",
+   "label": "Caniapiscau",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 54.8669,
+   "lon": -69.9155,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3882,
+    "elevation_m": 528,
+    "temp_c": -5.2
+   },
+   "flavour": {
+    "text": "A community of 3,882 people in Quebec.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13732212.webp"
+   }
+  },
+  {
+   "id": "wd:Q2961677",
+   "name": "Canso Causeway",
+   "label": "Canso Causeway",
+   "type": "built",
+   "kind": "bridge",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 45.6439,
+   "lon": -61.4197,
+   "rarity": "Epic",
+   "fame": 14700,
+   "facts": {
+    "elevation_m": 2.0,
     "temp_c": 5.3
    },
    "flavour": {
-    "text": "A community of 4,549 people in New Brunswick.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13592172.webp"
-   }
-  },
-  {
-   "id": "gn:6051272",
-   "name": "Leblanc",
-   "label": "Leblanc",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 48.2668,
-   "lon": -74.3491,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1513,
-    "elevation_m": 485,
-    "temp_c": 0.7
-   },
-   "flavour": {
-    "text": "A community of 1,513 people in Quebec.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6051272.webp"
-   }
-  },
-  {
-   "id": "gn:6090785",
-   "name": "North Vancouver",
-   "label": "North Vancouver",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 49.3164,
-   "lon": -123.0693,
-   "rarity": "Common",
-   "fame": 16086,
-   "facts": {
-    "population": 88168,
-    "elevation_m": 68,
-    "area_km2": 161,
-    "temp_c": 10.5
-   },
-   "flavour": {
-    "text": "The District of North Vancouver, commonly North Vancouver or North Van, is a district municipality in British Columbia, Canada.",
+    "text": "The Canso Causeway is a 1,385-metre-long rock-fill causeway crossing the Strait of Canso.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "North Vancouver (district municipality)",
-    "url": "https://en.wikipedia.org/wiki/North_Vancouver_%28district_municipality%29",
+    "title": "Canso Causeway",
+    "url": "https://en.wikipedia.org/wiki/Canso_Causeway",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_6090785.webp",
-    "author": "joe goldberg",
+    "file": "images/photo/wd_Q2961677.webp",
+    "author": "Sxjxcx at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:CansoCauseway.jpg"
+   }
+  },
+  {
+   "id": "wd:Q99364",
+   "name": "Big Chute Marine Railway",
+   "label": "Big Chute Marine Railway",
+   "type": "built",
+   "kind": "boat lift",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 44.8847,
+   "lon": -79.6747,
+   "rarity": "Epic",
+   "fame": 9108,
+   "facts": {
+    "elevation_m": 198,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "Big Chute Marine Railway is a patent slip at lock 44 of the Trent-Severn Waterway in the township of Georgian Bay, Ontario, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Big Chute Marine Railway",
+    "url": "https://en.wikipedia.org/wiki/Big_Chute_Marine_Railway",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q99364.webp",
+    "author": "acansino",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Seaplane_North_Vancouver.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Big_chute_acansino.jpg"
    }
   },
   {
-   "id": "gn:6069732",
-   "name": "McGregor",
-   "label": "McGregor",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 42.1501,
-   "lon": -82.9665,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1536,
-    "elevation_m": 182,
-    "temp_c": 9.4
-   },
-   "flavour": {
-    "text": "A community of 1,536 people in Ontario.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6069732.webp"
-   }
-  },
-  {
-   "id": "gn:6086361",
-   "name": "Nauwigewauk",
-   "label": "Nauwigewauk",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 45.4669,
-   "lon": -65.8988,
-   "rarity": "Common",
-   "fame": 750,
-   "facts": {
-    "population": 1472,
-    "elevation_m": 58,
-    "area_km2": 31,
-    "temp_c": 5.5
-   },
-   "flavour": {
-    "text": "It is located near the communities of Quispamsis and Lakeside at the mouth of the Hammond River, and borders the town of Hampton.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Nauwigewauk, New Brunswick",
-    "url": "https://en.wikipedia.org/wiki/Nauwigewauk%2C_New_Brunswick",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6086361.webp"
-   }
-  },
-  {
-   "id": "gn:5911715",
-   "name": "Burnside",
-   "label": "Burnside",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NS",
-   "country": "CA",
-   "lat": 44.7017,
-   "lon": -63.6005,
-   "rarity": "Common",
-   "fame": 1566,
-   "facts": {
-    "population": 7506,
-    "elevation_m": 29,
-    "temp_c": 6.4
-   },
-   "flavour": {
-    "text": "Burnside is a Canadian urban neighbourhood located along the northeast shore of Bedford Basin of the Halifax Regional Municipality in Dartmouth, Nova Scotia.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Burnside, Nova Scotia",
-    "url": "https://en.wikipedia.org/wiki/Burnside%2C_Nova_Scotia",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_5911715.webp"
-   }
-  },
-  {
-   "id": "gn:13592160",
-   "name": "Champdoré",
-   "label": "Champdoré",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 46.386,
-   "lon": -64.7824,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5115,
-    "elevation_m": 48,
-    "temp_c": 5.2
-   },
-   "flavour": {
-    "text": "A community of 5,115 people in New Brunswick.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13592160.webp"
-   }
-  },
-  {
-   "id": "gn:5897323",
-   "name": "Bedford",
-   "label": "Bedford (Quebec)",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.1168,
-   "lon": -72.9824,
-   "rarity": "Common",
-   "fame": 7362,
-   "facts": {
-    "population": 2684,
-    "elevation_m": 57,
-    "area_km2": 4.4,
-    "temp_c": 6.1
-   },
-   "flavour": {
-    "text": "The population as of the Canada 2011 Census was 2,684.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Bedford, Quebec (city)",
-    "url": "https://en.wikipedia.org/wiki/Bedford%2C_Quebec_%28city%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_5897323.webp",
-    "author": "Pierre Bona",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Bedford-Route_235.jpg"
-   }
-  },
-  {
-   "id": "gn:8354587",
-   "name": "Saint-Lambert-de-Lauzon",
-   "label": "Saint-Lambert-de-Lauzon",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 46.5862,
-   "lon": -71.2089,
-   "rarity": "Common",
-   "fame": 4398,
-   "facts": {
-    "population": 2443,
-    "elevation_m": 131,
-    "area_km2": 110,
-    "temp_c": 4.1
-   },
-   "flavour": {
-    "text": "It is part of the Chaudière-Appalaches region and the population is 6,177 as of the Canada 2011 Census.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Saint-Lambert-de-Lauzon",
-    "url": "https://en.wikipedia.org/wiki/Saint-Lambert-de-Lauzon",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_8354587.webp",
-    "author": "Rjobidon",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Lambert-de-Lauzon.jpg"
-   }
-  },
-  {
-   "id": "gn:6113535",
-   "name": "Pritchard",
-   "label": "Pritchard",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 50.6831,
-   "lon": -119.8191,
-   "rarity": "Common",
-   "fame": 2070,
-   "facts": {
-    "population": 1500,
-    "elevation_m": 364,
-    "area_km2": 13,
-    "temp_c": 6.0
-   },
-   "flavour": {
-    "text": "Pritchard is an unincorporated community straddling the South Thompson River in the Thompson region of south central British Columbia.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pritchard, British Columbia",
-    "url": "https://en.wikipedia.org/wiki/Pritchard%2C_British_Columbia",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6113535.webp"
-   }
-  },
-  {
-   "id": "gn:6943831",
-   "name": "Lac-au-Saumon",
-   "label": "Lac-au-Saumon",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 48.421,
-   "lon": -67.3476,
-   "rarity": "Common",
-   "fame": 2070,
-   "facts": {
-    "population": 1488,
-    "elevation_m": 168,
-    "area_km2": 84,
-    "temp_c": 1.9
-   },
-   "flavour": {
-    "text": "Lac-au-Saumon is a municipality in the Canadian province of Quebec, located in La Matapédia Regional Council Municipality in the Matapédia Valley.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Lac-au-Saumon, Quebec",
-    "url": "https://en.wikipedia.org/wiki/Lac-au-Saumon%2C_Quebec",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6943831.webp",
-    "author": "Rapout",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lac-au-Saumon.jpg"
-   }
-  },
-  {
-   "id": "wd:Q976408",
-   "name": "Scotiabank Centre",
-   "label": "Scotiabank Centre",
+   "id": "wd:Q1579157",
+   "name": "Mount Royal Cross",
+   "label": "Mount Royal Cross",
    "type": "built",
-   "kind": "arena",
-   "region": "CA-NS",
+   "kind": "summit cross",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 44.6483,
-   "lon": -63.5767,
+   "lat": 45.5089,
+   "lon": -73.5878,
    "rarity": "Epic",
-   "fame": 27660,
+   "fame": 10188,
    "facts": {
-    "elevation_m": 39,
+    "elevation_m": 226,
     "temp_c": 6.6
    },
    "flavour": {
-    "text": "Scotiabank Centre is the largest multi-purpose facility in Atlantic Canada, located in downtown Halifax, Nova Scotia.",
+    "text": "It stands at the northeastern peak of the mountain and overlooks the eastern part of the Island of Montreal.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Scotiabank Centre",
-    "url": "https://en.wikipedia.org/wiki/Scotiabank_Centre",
+    "title": "Mount Royal Cross",
+    "url": "https://en.wikipedia.org/wiki/Mount_Royal_Cross",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q976408.webp",
-    "author": "Bryson109 at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Halifaxmetrocentre06aa.jpg"
-   }
-  },
-  {
-   "id": "wd:Q4999205",
-   "name": "Burlington Bay James N. Allan Skyway",
-   "label": "Burlington Bay James N. Allan Skyway",
-   "type": "built",
-   "kind": "bridge",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.2994,
-   "lon": -79.798,
-   "rarity": "Epic",
-   "fame": 9168,
-   "facts": {
-    "elevation_m": 77,
-    "temp_c": 8.8
-   },
-   "flavour": {
-    "text": "The Burlington Bay James N. Allan Skyway, originally called the Burlington Bay Skyway and simply known as the Burlington Skyway or The Skyway.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Burlington Bay James N. Allan Skyway",
-    "url": "https://en.wikipedia.org/wiki/Burlington_Bay_James_N._Allan_Skyway",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4999205.webp",
-    "author": "Poke958",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Burlington_Bay_James_N._Allan_Skyway_2004.jpg"
-   }
-  },
-  {
-   "id": "wd:Q688778",
-   "name": "Goliath",
-   "label": "Goliath",
-   "type": "built",
-   "kind": "amusement ride",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.5278,
-   "lon": -73.5363,
-   "rarity": "Epic",
-   "fame": 10218,
-   "facts": {
-    "elevation_m": 8.0,
-    "temp_c": 6.6
-   },
-   "flavour": {
-    "text": "Designed by Bolliger & Mabillard, it reaches a maximum height of 174.8 feet, a speed of 68.4 miles per hour and a track length of 4,038.8 feet.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Goliath (La Ronde)",
-    "url": "https://en.wikipedia.org/wiki/Goliath_%28La_Ronde%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q688778.webp"
-   }
-  },
-  {
-   "id": "wd:Q2870805",
-   "name": "Verdun Auditorium",
-   "label": "Verdun Auditorium",
-   "type": "built",
-   "kind": "arena",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.4625,
-   "lon": -73.5617,
-   "rarity": "Epic",
-   "fame": 9630,
-   "facts": {
-    "elevation_m": 16,
-    "temp_c": 6.5
-   },
-   "flavour": {
-    "text": "The building opened on November 28, 1939, and holds 4,114 seats.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Verdun Auditorium",
-    "url": "https://en.wikipedia.org/wiki/Verdun_Auditorium",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2870805.webp",
-    "author": "RicLaf",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Verdun_Auditorium.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5430835",
-   "name": "Fairview Mall",
-   "label": "Fairview Mall",
-   "type": "built",
-   "kind": "shopping center",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.7778,
-   "lon": -79.3444,
-   "rarity": "Epic",
-   "fame": 10146,
-   "facts": {
-    "elevation_m": 184,
-    "temp_c": 8.1
-   },
-   "flavour": {
-    "text": "Opened in 1970, the centre has over 180 stores, offices and a cinema complex.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Fairview Mall",
-    "url": "https://en.wikipedia.org/wiki/Fairview_Mall",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5430835.webp",
-    "author": "GTD Aquitaine",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Fairview_Mall_Entrance_4.jpg"
+    "file": "images/photo/wd_Q1579157.webp",
+    "author": "The Cosmonaut",
+    "licence": "CC BY-SA 2.5 ca",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Croix_du_mont_Royal.jpg"
    }
   },
   {
@@ -996,137 +954,202 @@
    }
   },
   {
-   "id": "wd:Q1068063",
-   "name": "National Gallery of Canada",
-   "label": "National Gallery of Canada",
+   "id": "wd:Q2091081",
+   "name": "National War Memorial",
+   "label": "National War Memorial (near Ottawa)",
    "type": "built",
-   "kind": "national gallery",
+   "kind": "war memorial",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 45.4295,
-   "lon": -75.6989,
+   "lat": 45.424,
+   "lon": -75.6955,
    "rarity": "Epic",
-   "fame": 31326,
+   "fame": 11604,
    "facts": {
-    "elevation_m": 70,
-    "height_m": 10,
-    "area_km2": 0.0,
+    "elevation_m": 76,
     "temp_c": 5.9
    },
    "flavour": {
-    "text": "The National Gallery of Canada, located in the capital city of Ottawa, Ontario, is Canada's national art museum.",
+    "text": "The National War Memorial, titled The Response, is a tall, granite memorial arch with accreted bronze sculptures in Ottawa, Ontario.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "National Gallery of Canada",
-    "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Canada",
+    "title": "National War Memorial (Canada)",
+    "url": "https://en.wikipedia.org/wiki/National_War_Memorial_%28Canada%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1068063.webp",
-    "author": "– Wladyslaw [Disk.]",
+    "file": "images/photo/wd_Q2091081.webp",
+    "author": "Unknown author",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_National_Gallery_of_Canada.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:OttawaWarMemorial.jpg"
    }
   },
   {
-   "id": "wd:Q6965639",
-   "name": "Narcisse Snake Dens",
-   "label": "Narcisse Snake Dens",
+   "id": "wd:Q1051168",
+   "name": "Notre-Dame Cathedral Basilica",
+   "label": "Notre-Dame Cathedral Basilica",
    "type": "built",
-   "kind": "hibernaculum",
-   "region": "CA-MB",
+   "kind": "Catholic cathedral",
+   "region": "CA-ON",
    "country": "CA",
-   "lat": 50.7339,
-   "lon": -97.5293,
+   "lat": 45.4297,
+   "lon": -75.6965,
    "rarity": "Epic",
-   "fame": 10530,
+   "fame": 10854,
    "facts": {
-    "elevation_m": 281,
-    "temp_c": 1.5
+    "elevation_m": 65,
+    "temp_c": 5.9
    },
    "flavour": {
-    "text": "The Narcisse Snake Dens are a provincial wildlife management area located in the Rural Municipality of Armstrong about 6 km north of Narcisse.",
+    "text": "The Notre-Dame Cathedral Basilica is a Roman Catholic minor basilica in Ottawa, Ontario, Canada located on 385 Sussex Drive in the Lower Town neighbourhood.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Narcisse Snake Dens",
-    "url": "https://en.wikipedia.org/wiki/Narcisse_Snake_Dens",
+    "title": "Notre-Dame Cathedral Basilica",
+    "url": "https://en.wikipedia.org/wiki/Notre-Dame_Cathedral_Basilica",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6965639.webp",
-    "author": "J Hazard",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Narcisse_Snake_Dens_Sign.JPG"
+    "file": "images/photo/wd_Q1051168.webp",
+    "author": "Daryl Mitchell from Saskatoon, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Notre_Dame_Cathedral_Basilica_in_Ottawa.jpg"
    }
   },
   {
-   "id": "wd:Q7270389",
-   "name": "Queen Elizabeth Theatre",
-   "label": "Queen Elizabeth Theatre (near Vancouver)",
+   "id": "wd:Q1393350",
+   "name": "Fairmont Royal York",
+   "label": "Fairmont Royal York",
    "type": "built",
-   "kind": "performing arts building",
+   "kind": "hotel",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6455,
+   "lon": -79.3816,
+   "rarity": "Epic",
+   "fame": 28674,
+   "facts": {
+    "elevation_m": 90,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "Located along Front Street West, the hotel is situated at the southern end of the Financial District, in Downtown Toronto.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fairmont Royal York",
+    "url": "https://en.wikipedia.org/wiki/Fairmont_Royal_York",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1393350.webp",
+    "author": "Dillan Payne",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fairmont_Royal_York_from_CIBC_Square_Park,_May_13_2026_(01).jpg"
+   }
+  },
+  {
+   "id": "wd:Q63247052",
+   "name": "Avenir Centre",
+   "label": "Avenir Centre",
+   "type": "built",
+   "kind": "indoor ice rink",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.0855,
+   "lon": -64.7849,
+   "rarity": "Epic",
+   "fame": 10086,
+   "facts": {
+    "elevation_m": 19,
+    "temp_c": 5.7
+   },
+   "flavour": {
+    "text": "It opened on September 8, 2018, it serves as the home to the Moncton Wildcats of the Quebec Maritimes Junior Hockey League.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Avenir Centre",
+    "url": "https://en.wikipedia.org/wiki/Avenir_Centre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q63247052.webp",
+    "author": "Quintin Soloviev",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Avenir_Centre_(Moncton).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7122335",
+   "name": "Pacific Centre",
+   "label": "Pacific Centre",
+   "type": "built",
+   "kind": "shopping center",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 49.2803,
-   "lon": -123.1132,
+   "lat": 49.2834,
+   "lon": -123.118,
    "rarity": "Epic",
-   "fame": 8178,
+   "fame": 7956,
    "facts": {
-    "elevation_m": 32,
+    "elevation_m": 46,
     "temp_c": 10.5
    },
    "flavour": {
-    "text": "It was named after the former Canadian monarch, Queen Elizabeth II.",
+    "text": "It is owned by Cadillac Fairview, the Ontario Pension Board, and the Workplace Safety and Insurance Board, and is managed by Cadillac Fairview.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Queen Elizabeth Theatre",
-    "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_Theatre",
+    "title": "Pacific Centre",
+    "url": "https://en.wikipedia.org/wiki/Pacific_Centre",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7270389.webp",
-    "author": "Richard Macdonald",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_Theater_Vancouver_BC.JPG"
+    "file": "images/photo/wd_Q7122335.webp",
+    "author": "Northwest",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pacific_Centre.jpg"
    }
   },
   {
-   "id": "wd:Q3495641",
-   "name": "Jarry Park Stadium",
-   "label": "Jarry Park Stadium",
+   "id": "wd:Q61602719",
+   "name": "Montreal Tower",
+   "label": "Montreal Tower",
    "type": "built",
-   "kind": "former entity",
+   "kind": "inclined tower",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.5328,
-   "lon": -73.6269,
+   "lat": 45.5595,
+   "lon": -73.5521,
    "rarity": "Epic",
-   "fame": 26184,
+   "fame": 20688,
    "facts": {
-    "elevation_m": 56,
+    "elevation_m": 32,
+    "height_m": 175,
     "temp_c": 6.6
    },
    "flavour": {
-    "text": "Jarry Park Stadium is a former baseball stadium, home to the Montreal Expos, from 1969 through 1976, located in Montreal, Quebec, Canada.",
+    "text": "Montreal Tower, formerly known as Olympic Tower, is the tallest inclined structure in the world at 165 metres, and the tenth tallest structure in Montreal.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Jarry Park Stadium",
-    "url": "https://en.wikipedia.org/wiki/Jarry_Park_Stadium",
+    "title": "Montreal Tower",
+    "url": "https://en.wikipedia.org/wiki/Montreal_Tower",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3495641.webp",
-    "author": "Jeff from USA",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Jarry_Park_Montreal_1971.jpg"
+    "file": "images/photo/wd_Q61602719.webp",
+    "author": "Jiaqian AirplaneFan",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Olympic_Stadium_in_Montreal_at_sunset_-_panoramio.jpg"
    }
   },
   {
@@ -2601,260 +2624,264 @@
    }
   },
   {
-   "id": "wd:Q7757923",
-   "name": "The Power Plant",
-   "label": "The Power Plant",
-   "type": "built",
-   "kind": "art museum",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6384,
-   "lon": -79.3821,
-   "rarity": "Rare",
-   "fame": 2142,
-   "facts": {
-    "elevation_m": 79,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "The Power Plant Contemporary Art Gallery is a Canadian public art gallery located at Harbourfront Centre in the heart of Toronto, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "The Power Plant",
-    "url": "https://en.wikipedia.org/wiki/The_Power_Plant",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7757923.webp",
-    "author": "Tom Arban Photography Inc.",
-    "licence": "Attribution",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:The_Power_Plant_lobby.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7586718",
-   "name": "St. Agnes Kouying Tsao Catholic Church",
-   "label": "St. Agnes Kouying Tsao Catholic Church",
-   "type": "built",
-   "kind": "church",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.8704,
-   "lon": -79.3534,
-   "rarity": "Rare",
-   "fame": 990,
-   "facts": {
-    "elevation_m": 206,
-    "temp_c": 7.0
-   },
-   "flavour": {
-    "text": "St. Agnes Kouying Tsao Catholic Church, formerly known as Blessed Agnes Kouying Tsao Catholic Mission, was founded in 1992 by Rev.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "St. Agnes Kouying Tsao Catholic Church",
-    "url": "https://en.wikipedia.org/wiki/St._Agnes_Kouying_Tsao_Catholic_Church",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7586718.webp",
-    "author": "Silver Dovelet",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:St._Agnes_Kouying_Tsao_Catholic_Church.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3583526",
-   "name": "Église Saint-Pierre-Claver",
-   "label": "Église Saint-Pierre-Claver",
-   "type": "built",
-   "kind": "Catholic parish church",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.5373,
-   "lon": -73.5779,
-   "rarity": "Rare",
-   "fame": 432,
-   "facts": {
-    "elevation_m": 56,
-    "temp_c": 6.6
-   },
-   "flavour": {
-    "text": "The church was founded in 1915, and the building went up that year and was finished in 1917.",
-    "source": "wikipedia",
-    "lang": "fr",
-    "title": "Église Saint-Pierre-Claver de Montréal",
-    "url": "https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Pierre-Claver_de_Montr%C3%A9al",
-    "translated": true
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3583526.webp",
-    "author": "Jeangagnon",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Eglise_Saint-Pierre-Claver_02.jpg"
-   }
-  },
-  {
-   "id": "wd:Q8055521",
-   "name": "York Redoubt",
-   "label": "York Redoubt",
-   "type": "built",
-   "kind": "National Historic Site Administered by Parks Canada",
-   "region": "CA-NS",
-   "country": "CA",
-   "lat": 44.5966,
-   "lon": -63.5524,
-   "rarity": "Rare",
-   "fame": 2586,
-   "facts": {
-    "elevation_m": 53,
-    "temp_c": 6.6
-   },
-   "flavour": {
-    "text": "York Redoubt is a redoubt situated on a bluff overlooking the entrance to Halifax Harbour at Ferguson's Cove, Nova Scotia, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "York Redoubt",
-    "url": "https://en.wikipedia.org/wiki/York_Redoubt",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q8055521.webp",
-    "author": "Saffron Blaze",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:York_Redoubt.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7497925",
-   "name": "Ship Harbour",
-   "label": "Ship Harbour",
-   "type": "built",
-   "kind": "port",
-   "region": "CA-NL",
-   "country": "CA",
-   "lat": 47.3601,
-   "lon": -53.9027,
-   "rarity": "Rare",
-   "fame": 924,
-   "facts": {
-    "elevation_m": 20,
-    "temp_c": 4.9
-   },
-   "flavour": {
-    "text": "Ship Harbour is a community in Newfoundland and Labrador, Canada located on the eastern shore of Placentia Bay.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Ship Harbour, Newfoundland and Labrador",
-    "url": "https://en.wikipedia.org/wiki/Ship_Harbour%2C_Newfoundland_and_Labrador",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q7497925.webp"
-   }
-  },
-  {
-   "id": "wd:Q1408480",
-   "name": "Mighty Canadian Minebuster",
-   "label": "Mighty Canadian Minebuster",
-   "type": "built",
-   "kind": "wooden roller coaster",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.8392,
-   "lon": -79.5419,
-   "rarity": "Rare",
-   "fame": 7116,
-   "facts": {
-    "elevation_m": 224,
-    "temp_c": 6.6
-   },
-   "flavour": {
-    "text": "The Mighty Canadian Minebuster is a wooden roller coaster located at Canada's Wonderland amusement park in Vaughan, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mighty Canadian Minebuster",
-    "url": "https://en.wikipedia.org/wiki/Mighty_Canadian_Minebuster",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1408480.webp",
-    "author": "Mike chernucha",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Minebuster.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1383518",
-   "name": "Exchange Tower",
-   "label": "Exchange Tower",
+   "id": "wd:Q7606974",
+   "name": "100 King Street West",
+   "label": "100 King Street West",
    "type": "built",
    "kind": "skyscraper",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.6483,
-   "lon": -79.3833,
+   "lat": 43.2573,
+   "lon": -79.8705,
    "rarity": "Rare",
-   "fame": 4584,
+   "fame": 2142,
    "facts": {
-    "elevation_m": 87,
-    "height_m": 146,
-    "temp_c": 8.5
+    "elevation_m": 107,
+    "temp_c": 8.1
    },
    "flavour": {
-    "text": "Exchange Tower is a 36 storey 146 m tower in the First Canadian Place complex of Toronto, Ontario, Canada completed in 1981.",
+    "text": "100 King Street West, formerly known as Stelco Tower, is the third tallest building in Hamilton, Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Exchange Tower",
-    "url": "https://en.wikipedia.org/wiki/Exchange_Tower",
+    "title": "100 King Street West",
+    "url": "https://en.wikipedia.org/wiki/100_King_Street_West",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1383518.webp",
-    "author": "Unknown author",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:TSXExchangetower.jpg"
+    "file": "images/photo/wd_Q7606974.webp",
+    "author": "Draconichiaro",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:StelcoTowerJacksonSquare.jpg"
    }
   },
   {
-   "id": "wd:Q2872557",
-   "name": "Autodrome Saint-Eustache",
-   "label": "Autodrome Saint-Eustache",
+   "id": "wd:Q89172512",
+   "name": "Saint Arsenije Sremac Church, Whitby",
+   "label": "Saint Arsenije Sremac Church, Whitby",
    "type": "built",
-   "kind": "motorsport racing track",
-   "region": "CA-QC",
+   "kind": "church",
+   "region": "CA-ON",
    "country": "CA",
-   "lat": 45.5733,
-   "lon": -73.9625,
+   "lat": 43.8746,
+   "lon": -78.9417,
    "rarity": "Rare",
-   "fame": 3084,
+   "fame": 702,
    "facts": {
-    "elevation_m": 46,
-    "temp_c": 5.9
+    "elevation_m": 102,
+    "temp_c": 7.5
    },
    "flavour": {
-    "text": "Established in 1965, it contained a 0.400 mi paved oval and a 1.100 mi paved road course with hot pits, grandstands and services.",
+    "text": "Saint Arsenije Sremac Serbian Orthodox Church is an Eastern Orthodox church located in Whitby, Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Autodrome Saint-Eustache",
-    "url": "https://en.wikipedia.org/wiki/Autodrome_Saint-Eustache",
+    "title": "Saint Arsenije Sremac Serbian Orthodox Church",
+    "url": "https://en.wikipedia.org/wiki/Saint_Arsenije_Sremac_Serbian_Orthodox_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q89172512.webp",
+    "author": "Djuradj Vujcic",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Arsenije_Sremac_Serbian_Orthodox_Church_photo_by_Djuradj_Vujcic.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2112897",
+   "name": "Fort Richelieu",
+   "label": "Fort Richelieu",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.0468,
+   "lon": -73.1157,
+   "rarity": "Rare",
+   "fame": 2322,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 5.3
+   },
+   "flavour": {
+    "text": "The fort is designated as a National Historic Site of Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Richelieu",
+    "url": "https://en.wikipedia.org/wiki/Fort_Richelieu",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2112897.webp",
+    "author": "Fralambert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monument_du_Fort_Richelieu.jpg"
+   }
+  },
+  {
+   "id": "wd:Q780392",
+   "name": "L Tower",
+   "label": "L Tower",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.6464,
+   "lon": -79.3764,
+   "rarity": "Rare",
+   "fame": 3180,
+   "facts": {
+    "elevation_m": 85,
+    "height_m": 205,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "The L Tower is a residential skyscraper in Toronto, Ontario, Canada, which was designed by architect Daniel Libeskind.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "L Tower",
+    "url": "https://en.wikipedia.org/wiki/L_Tower",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q780392.webp",
+    "author": "Secondarywaltz",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:L_Tower_from_The_Esplanande.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6783764",
+   "name": "Masonic Temple",
+   "label": "Masonic Temple (near St. John's)",
+   "type": "built",
+   "kind": "Masonic temple",
+   "region": "CA-NL",
+   "country": "CA",
+   "lat": 47.5658,
+   "lon": -52.7075,
+   "rarity": "Rare",
+   "fame": 882,
+   "facts": {
+    "elevation_m": 35,
+    "temp_c": 5.0
+   },
+   "flavour": {
+    "text": "The Masonic Temple built in 1894 at St. John's, Newfoundland, Canada is an example of Victorian construction which includes pilasters.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Masonic Temple (St. John's, Newfoundland and Labrador)",
+    "url": "https://en.wikipedia.org/wiki/Masonic_Temple_%28St._John%27s%2C_Newfoundland_and_Labrador%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6783764.webp",
+    "author": "User:HJKeats",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Masonic_Temple,_Newfoundland.jpg"
+   }
+  },
+  {
+   "id": "wd:Q26935214",
+   "name": "Co-Cathedral of Our Lady of Fourvière",
+   "label": "Co-Cathedral of Our Lady of Fourvière",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.5525,
+   "lon": -75.5006,
+   "rarity": "Rare",
+   "fame": 528,
+   "facts": {
+    "elevation_m": 227,
+    "temp_c": 2.9
+   },
+   "flavour": {
+    "text": "Notre-Dame-de-Fourvière Co-Cathedral is the co-cathedral of the Diocese of Saint-Jérôme–Mont-Laurier, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Cocathédrale Notre-Dame-de-Fourvière de Mont-Laurier",
+    "url": "https://fr.wikipedia.org/wiki/Cocath%C3%A9drale_Notre-Dame-de-Fourvi%C3%A8re_de_Mont-Laurier",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q26935214.webp",
+    "author": "Unknown Unknown",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Notre-Dame-de-Mont-Laurier_BAnQ_P748S1P1344.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16247338",
+   "name": "Centre for Interactive Research on Sustainability",
+   "label": "Centre for Interactive Research on Sustainability",
+   "type": "built",
+   "kind": "built structure",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.262,
+   "lon": -123.253,
+   "rarity": "Rare",
+   "fame": 954,
+   "facts": {
+    "elevation_m": 90,
+    "temp_c": 10.2
+   },
+   "flavour": {
+    "text": "The Centre for Interactive Research on Sustainability is located at the University of British Columbia's Point Grey Campus in Vancouver.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Centre for Interactive Research on Sustainability",
+    "url": "https://en.wikipedia.org/wiki/Centre_for_Interactive_Research_on_Sustainability",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16247338.webp",
+    "author": "Xicotencatl",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CIRS_Building_UBC.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16684499",
+   "name": "Church of St Rose of Lima, Gatineau",
+   "label": "Church of St Rose of Lima, Gatineau",
+   "type": "built",
+   "kind": "church",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.4994,
+   "lon": -75.6083,
+   "rarity": "Rare",
+   "fame": 720,
+   "facts": {
+    "elevation_m": 55,
+    "temp_c": 5.8
+   },
+   "flavour": {
+    "text": "Sainte-Rose-de-Lima Church is a Catholic religious building located in the Templeton neighborhood of Gatineau, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sainte-Rose-de-Lima Church, Gatineau",
+    "url": "https://en.wikipedia.org/wiki/Sainte-Rose-de-Lima_Church%2C_Gatineau",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q2872557.webp"
+    "file": "images/minimap/wd_Q16684499.webp"
    }
   },
   {
@@ -2891,69 +2918,69 @@
    }
   },
   {
-   "id": "wd:Q3579114",
-   "name": "Saskatchewan Legislative Building",
-   "label": "Saskatchewan Legislative Building",
+   "id": "wd:Q8060815",
+   "name": "Yukon Arts Centre",
+   "label": "Yukon Arts Centre",
    "type": "built",
-   "kind": "parliament building",
-   "region": "CA-SK",
+   "kind": "art museum",
+   "region": "CA-YT",
    "country": "CA",
-   "lat": 50.4324,
-   "lon": -104.615,
+   "lat": 60.7498,
+   "lon": -135.0943,
    "rarity": "Rare",
-   "fame": 7326,
+   "fame": 672,
    "facts": {
-    "elevation_m": 582,
-    "temp_c": 3.3
+    "elevation_m": 716,
+    "temp_c": -0.9
    },
    "flavour": {
-    "text": "The Saskatchewan Legislative Building is located in Regina, Saskatchewan, Canada, and houses the Legislative Assembly of Saskatchewan.",
+    "text": "The Yukon Arts Centre an arts centre and gallery located in Whitehorse, Yukon, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Saskatchewan Legislative Building",
-    "url": "https://en.wikipedia.org/wiki/Saskatchewan_Legislative_Building",
+    "title": "Yukon Arts Centre",
+    "url": "https://en.wikipedia.org/wiki/Yukon_Arts_Centre",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3579114.webp",
-    "author": "Quintin Soloviev",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Saskatchewan_Legislative_Building_-_Regina.jpg"
+    "file": "images/photo/wd_Q8060815.webp",
+    "author": "117Avenue",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Old_Fire_Hall_(Yukon).jpg"
    }
   },
   {
-   "id": "wd:Q6073450",
-   "name": "Iroquois Lacrosse Arena",
-   "label": "Iroquois Lacrosse Arena",
+   "id": "wd:Q7539623",
+   "name": "Sledgehammer",
+   "label": "Sledgehammer",
    "type": "built",
-   "kind": "arena",
+   "kind": "amusement ride",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.0088,
-   "lon": -80.0614,
+   "lat": 43.8397,
+   "lon": -79.5407,
    "rarity": "Rare",
-   "fame": 1848,
+   "fame": 1854,
    "facts": {
-    "elevation_m": 208,
-    "temp_c": 7.9
+    "elevation_m": 222,
+    "temp_c": 6.6
    },
    "flavour": {
-    "text": "The Iroquois Lacrosse Arena is a box lacrosse arena on the outskirts of Hagersville, Ontario, Canada on the Six Nations of the Grand River Reserve.",
+    "text": "The Huss ride was opened to the public on May 4, 2003, and continues to operate today.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Iroquois Lacrosse Arena",
-    "url": "https://en.wikipedia.org/wiki/Iroquois_Lacrosse_Arena",
+    "title": "Sledge Hammer (ride)",
+    "url": "https://en.wikipedia.org/wiki/Sledge_Hammer_%28ride%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6073450.webp",
-    "author": "JFVoll",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iroquois_Lacrosse_Arena_-_Six_Nations,_ON.jpg"
+    "file": "images/photo/wd_Q7539623.webp",
+    "author": "mathewingram",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sledge_Hammer_Canada%27s_Wonderland.jpg"
    }
   },
   {
@@ -3797,195 +3824,185 @@
    }
   },
   {
-   "id": "wd:Q6922204",
-   "name": "Mount Minto",
-   "label": "Mount Minto (near Coral Harbour)",
+   "id": "wd:Q4804405",
+   "name": "Ash Lake",
+   "label": "Ash Lake (near Yarmouth)",
    "type": "nature",
-   "kind": "mountain",
-   "region": "CA-NU",
+   "kind": "lake",
+   "region": "CA-NS",
    "country": "CA",
-   "lat": 63.95,
-   "lon": -80.9833,
+   "lat": 44.1605,
+   "lon": -66.1075,
    "rarity": "Common",
-   "fame": 150,
+   "fame": 96,
    "facts": {
-    "elevation_m": 213,
-    "temp_c": -10.3
+    "elevation_m": 21,
+    "temp_c": 6.8
    },
    "flavour": {
-    "text": "Mount Minto is a mountain located on northern Bell Peninsula, Southampton Island, in Kivalliq Region, Nunavut, Canada.",
+    "text": "Ash Lake, Clare is a lake of Clare municipality, in Nova Scotia, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Mount Minto (Nunavut)",
-    "url": "https://en.wikipedia.org/wiki/Mount_Minto_%28Nunavut%29",
+    "title": "Ash Lake (Clare)",
+    "url": "https://en.wikipedia.org/wiki/Ash_Lake_%28Clare%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q6922204.webp"
+    "file": "images/minimap/wd_Q4804405.webp"
    }
   },
   {
-   "id": "wd:Q22518907",
-   "name": "Peters Lake",
-   "label": "Peters Lake (near Huntsville)",
+   "id": "wd:Q7363038",
+   "name": "Summit Lake",
+   "label": "Summit Lake (near Chapleau)",
    "type": "nature",
    "kind": "lake",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 45.5436,
-   "lon": -79.1464,
+   "lat": 48.4264,
+   "lon": -82.7208,
    "rarity": "Common",
-   "fame": 108,
+   "fame": 138,
    "facts": {
-    "elevation_m": 373,
-    "area_km2": 0.5,
-    "temp_c": 3.8
+    "elevation_m": 352,
+    "temp_c": 1.1
    },
    "flavour": {
-    "text": "Peters Lake is a lake in the municipality of Kearney, Parry Sound District in central Ontario, Canada.",
+    "text": "Summit Lake is a lake in geographic Shenango Township in the Unorganized North Part of Sudbury District in Northeastern Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Peters Lake (Parry Sound District)",
-    "url": "https://en.wikipedia.org/wiki/Peters_Lake_%28Parry_Sound_District%29",
+    "title": "Summit Lake (Sudbury District)",
+    "url": "https://en.wikipedia.org/wiki/Summit_Lake_%28Sudbury_District%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q22518907.webp"
+    "file": "images/minimap/wd_Q7363038.webp"
    }
   },
   {
-   "id": "wd:Q5168751",
-   "name": "Copper Mountain",
-   "label": "Copper Mountain (near Grand Forks)",
+   "id": "wd:Q7363115",
+   "name": "McKenzie Lake",
+   "label": "McKenzie Lake (near United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.3642,
+   "lon": -78.0228,
+   "rarity": "Common",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 395,
+    "length_km": 3.5,
+    "temp_c": 3.7
+   },
+   "flavour": {
+    "text": "McKenzie Lake is a lake in South Algonquin, Nipissing District and Hastings Highlands, Hastings County in Ontario, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "McKenzie Lake (Nipissing District)",
+    "url": "https://en.wikipedia.org/wiki/McKenzie_Lake_%28Nipissing_District%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7363115.webp"
+   }
+  },
+  {
+   "id": "wd:Q7547066",
+   "name": "Snake River",
+   "label": "Snake River (near Inuvik)",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-YT",
+   "country": "CA",
+   "lat": 65.9837,
+   "lon": -134.1982,
+   "rarity": "Rare",
+   "fame": 846,
+   "facts": {
+    "elevation_m": 95,
+    "length_km": 277,
+    "temp_c": -6.0
+   },
+   "flavour": {
+    "text": "The Snake River is in the Yukon Territory near the Northwest Territories border.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Snake River (Yukon)",
+    "url": "https://en.wikipedia.org/wiki/Snake_River_%28Yukon%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7547066.webp"
+   }
+  },
+  {
+   "id": "wd:Q22406232",
+   "name": "Rivière aux Rats",
+   "label": "Rivière aux Rats (near Gaspé)",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 49.242,
+   "lon": -63.1167,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 21,
+    "temp_c": 2.2
+   },
+   "flavour": {
+    "text": "The rivière aux Rats is a tributary of the Gulf of Saint Lawrence, flowing in the municipality of L'Île-d'Anticosti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière aux Rats (Anticosti Island)",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_aux_Rats_%28Anticosti_Island%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22406232.webp"
+   }
+  },
+  {
+   "id": "wd:Q6922480",
+   "name": "Mount Odin",
+   "label": "Mount Odin (near Nakusp)",
    "type": "nature",
    "kind": "mountain",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 49.1242,
-   "lon": -118.79,
-   "rarity": "Common",
-   "fame": 348,
-   "facts": {
-    "elevation_m": 1500,
-    "temp_c": 5.5
-   },
-   "flavour": {
-    "text": "This page is about the mountain in the Boundary Country near Greenwood, British Columbia.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Copper Mountain (British Columbia)",
-    "url": "https://en.wikipedia.org/wiki/Copper_Mountain_%28British_Columbia%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5168751.webp"
-   }
-  },
-  {
-   "id": "wd:Q5032907",
-   "name": "Canoe Lake",
-   "label": "Canoe Lake (near United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde)",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 45.5492,
-   "lon": -78.7181,
+   "lat": 50.5517,
+   "lon": -118.1292,
    "rarity": "Rare",
-   "fame": 3078,
+   "fame": 1188,
    "facts": {
-    "elevation_m": 417,
-    "area_km2": 3.7,
-    "temp_c": 3.5
+    "elevation_m": 2971,
+    "prominence_m": 2409,
+    "temp_c": 1.0
    },
    "flavour": {
-    "text": "Canoe Lake is a major access point for many canoeists entering Algonquin Park as well as being home to many cottages.",
+    "text": "The mountain was likely named by George Dawson as his map contains the earliest known appearance of the name.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Canoe Lake (Nipissing District)",
-    "url": "https://en.wikipedia.org/wiki/Canoe_Lake_%28Nipissing_District%29",
+    "title": "Mount Odin (British Columbia)",
+    "url": "https://en.wikipedia.org/wiki/Mount_Odin_%28British_Columbia%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5032907.webp",
-    "author": "Markabq",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:CanoeLake.JPG"
-   }
-  },
-  {
-   "id": "wd:Q7361693",
-   "name": "Whitesand Lake",
-   "label": "Whitesand Lake (near Schreiber)",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 48.8528,
-   "lon": -87.3811,
-   "rarity": "Common",
-   "fame": 186,
-   "facts": {
-    "elevation_m": 284,
-    "area_km2": 2.7,
-    "temp_c": 1.1
-   },
-   "flavour": {
-    "text": "Whitesand Lake is a lake in Thunder Bay District, Ontario, Canada, part of the Hewitson River system.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Whitesand Lake (Hewitson River)",
-    "url": "https://en.wikipedia.org/wiki/Whitesand_Lake_%28Hewitson_River%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7361693.webp",
-    "author": "P199",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Whitesand_Lake_Ontario.JPG"
-   }
-  },
-  {
-   "id": "wd:Q16899409",
-   "name": "Rose Lake",
-   "label": "Rose Lake (near Neebing)",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 48.106,
-   "lon": -90.4182,
-   "rarity": "Common",
-   "fame": 450,
-   "facts": {
-    "elevation_m": 463,
-    "temp_c": 2.0
-   },
-   "also_in": [
-    "US"
-   ],
-   "flavour": {
-    "text": "Rose Lake is a lake on the border between Cook County, Minnesota and Ontario.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Rose Lake (Pigeon River)",
-    "url": "https://en.wikipedia.org/wiki/Rose_Lake_%28Pigeon_River%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q16899409.webp",
-    "author": "Norstrem",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rose_Lake,_Minnesota.jpg"
+    "file": "images/photo/wd_Q6922480.webp",
+    "author": "Murray Foubister",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monashee_Mtns_-_Mt_Odin(2972)-Thor_(2948)_Group_in_the_Monashee_Mtns._Group_in_the_Monashee_Mtns._(15809162598).jpg"
    }
   },
   {
