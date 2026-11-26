@@ -203,19 +203,4 @@ function SerialStamp({ tier, serial, foil }: { tier: Tier; serial: number | null
   )
 }
 
-/** Face-down card: the pack art, glowing in the rarity colour of what's inside. */
-export function CardBack({ tier }: { tier: Tier }) {
-  const style = { '--glow': TIER_COLOR[tier] } as CSSProperties
-  return (
-    <div className={`h-full w-full rounded-[14px] border border-line bg-panel-2 ${tier === 'Common' ? '' : 'glow'}`} style={style}>
-      <div className="flex h-full flex-col items-center justify-center gap-2 rounded-[14px] bg-[radial-gradient(circle_at_50%_40%,#24324a,transparent_70%)]">
-        <svg viewBox="0 0 64 64" className="h-1/3 w-1/3 text-accent" fill="none" stroke="currentColor" strokeWidth="2.2">
-          <circle cx="32" cy="32" r="26" />
-          <ellipse cx="32" cy="32" rx="11" ry="26" />
-          <path d="M6 32h52M10 19h44M10 45h44" />
-        </svg>
-        <span className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-muted">Pull the Planet</span>
-      </div>
-    </div>
-  )
-}
+export { CardBack } from './CardBack'

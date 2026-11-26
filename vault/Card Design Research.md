@@ -32,6 +32,13 @@ The photos are Wikimedia Commons pictures of every shape and quality, not art ma
 - **Local stamp (developer's idea, 2026-11-26):** a card pulled from a local pack gets a sticker or stamp like a prerelease or passport stamp: "Local", the place it was pulled and the date. The same card from a random pack has no stamp, so the stamped copy is the special one.
 - Problem to solve: Rare-and-up cards with no photo (18% of Rares, 7% of Epics, 4% of Legendaries) need a full-art look built from the mini-map.
 
+## Card back (2026-11-26)
+Research: physical TCGs keep one back for decades (Pokémon's Poké Ball back unchanged since 1999, Yu-Gi-Oh's swirl, Magic's locked brown back, partly so cards can't be told apart face-down); Lorcana hides details in it (a Hidden Mickey in the corners); digital games make backs collectibles (Hearthstone gives a new back each ranked season). Plan: one iconic default back now, collectible backs as rewards later.
+
+Rounds of mock-ups on `/#cards`: A Night Earth (globe lit by the card pool's places), B Nautical chart (navy, gold compass rose), C Topographic (teal contours), D Passport (burgundy leather, gold crest); then E (B's compass on D's leather) and F (D's crest on B's chart); then logo versions of the compass (pin on the north point, globe star, orbit); then three built round a map pin (compass pin, globe pin, pin on the planet).
+
+**Chosen (developer, 2026-11-26): the compass pin on burgundy leather**, four points only (diagonals removed). Gold wordmark, "World Collector", and a hidden 0°00′N · 0°00′E (Null Island) under the pin. The compass pin is also the game's logo (header, browser tab icon), since every card is a pin on the map. Code: `web/src/CardBack.tsx`; favicon `web/public/favicon.svg`.
+
 ## Sources
 - Pokémon: [Scarlet & Violet card aesthetic](https://www.pokemon.com/us/pokemon-news/pokemon-tcg-scarlet-and-violet-revamps-pokemon-tcg-card-aesthetic), [rarity guide](https://cardcodex.com/blog/pokemon-card-rarities-explained-symbols-and-pull-rates/), [Mega Evolution rarities](https://rarecandy.com/blog/rarities-pokemon-mega-evolution-era)
 - Pokémon TCG Pocket: [rarity (Bulbapedia)](https://bulbapedia.bulbagarden.net/wiki/Rarity_(TCG_Pocket)), [Immersive cards](https://pocketcards.net/blog/immersive-cards-3d-art-pokemon-tcg-pocket), [rarity guide](https://www.sportskeeda.com/pokemon/pokemon-tcg-pocket-card-rarity-guide)
@@ -39,3 +46,4 @@ The photos are Wikimedia Commons pictures of every shape and quality, not art ma
 - Topps: [Refractor card (Wikipedia)](https://en.wikipedia.com/wiki/Refractor_card), [what is a Superfractor](https://www.si.com/collectibles/hobby-slang-series-what-exactly-superfractor), [Topps refractors guide](https://cardlines.com/topps-refractors-guide/)
 - Marvel Snap: [Infinity Splits](https://marvelsnapzone.com/infinity-splits/)
 - One Piece: [manga rares (SNKRDUNK)](https://snkrdunk.com/en/magazine/?p=491176)
+- Card backs: [Pokémon backs (CardGamer)](https://cardgamer.com/games/tcgs/pokemon/pokemon-card-back-design/), [Yu-Gi-Oh backing (Yugipedia)](https://yugipedia.com/wiki/Card_backing), [Lorcana easter eggs (Tabletop Gaming)](https://www.tabletopgaming.co.uk/Features/easter-eggs-and-hidden-details-in-disney-lorcana), [Hearthstone ranked rewards](https://hearthstone.wiki.gg/wiki/Ranked_rewards)

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { LogoMark } from './CardBack'
 import { CardPreview } from './CardPreview'
 import { Collection } from './Collection'
 import { loadPool, type Pool } from './data'
@@ -43,7 +44,7 @@ export default function App() {
   return (
     <div className="flex h-full flex-col">
       <header className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
-        <div className="font-display text-lg font-extrabold tracking-tight">Pull the Planet <span className="ml-1 rounded bg-panel-2 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-muted">North America demo</span></div>
+        <div className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"><LogoMark className="h-7 w-7" />Pull the Planet <span className="ml-1 rounded bg-panel-2 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-muted">North America demo</span></div>
         <nav className="flex gap-1 rounded-xl bg-panel p-1" aria-label="Sections">
           {TABS.map(([id, label]) => (
             <button

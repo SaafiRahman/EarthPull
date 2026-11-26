@@ -53,7 +53,7 @@ export function CardPreview({ pool }: { pool: Pool }) {
           </div>
         ))}
       </Row>
-      <Row title="Card backs">
+      <Row title="Card backs (with the rarity glow they show face-down in a pack)">
         {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardBack tier={t} /></div>)}
       </Row>
     </div>
