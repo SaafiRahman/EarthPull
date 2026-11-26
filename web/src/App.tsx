@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { CardPreview } from './CardPreview'
 import { Collection } from './Collection'
 import { loadPool, type Pool } from './data'
 import { MAX_PACKS, loadState, newState, openPack, refill, saveState, type GameState } from './game'
@@ -36,6 +37,7 @@ export default function App() {
 
   if (error) return <p className="p-8 text-center text-muted">{error}</p>
   if (!pool) return <p className="p-8 text-center text-muted">Loading 86,000 places…</p>
+  if (location.hash === '#cards') return <CardPreview pool={pool} />
 
   return (
     <div className="flex h-full flex-col">
