@@ -360,189 +360,6 @@
    }
   },
   {
-   "id": "gn:3570785",
-   "name": "Ducos",
-   "label": "Ducos",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.5753,
-   "lon": -60.9745,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 17394,
-    "elevation_m": 62,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "A community of 17,394 people in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3570785.webp"
-   }
-  },
-  {
-   "id": "gn:3570501",
-   "name": "L'Ajoupa-Bouillon",
-   "label": "L'Ajoupa-Bouillon",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.8209,
-   "lon": -61.1175,
-   "rarity": "Common",
-   "fame": 3048,
-   "facts": {
-    "population": 1815,
-    "elevation_m": 314,
-    "area_km2": 12,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "L'Ajoupa-Bouillon, commonly known as L'Ajoupa, is a commune and town in the French overseas department and region, and island, of Martinique.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "L'Ajoupa-Bouillon",
-    "url": "https://en.wikipedia.org/wiki/L%27Ajoupa-Bouillon",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3570501.webp",
-    "author": "UHF",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_l%27Immacul%C3%A9e-Conception_de_L%27Ajoupa-Bouillon_3.jpg"
-   }
-  },
-  {
-   "id": "gn:3570446",
-   "name": "La Trinité",
-   "label": "La Trinité",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.7381,
-   "lon": -60.9632,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 15040,
-    "elevation_m": 6.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "A community of 15,040 people in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3570446.webp"
-   }
-  },
-  {
-   "id": "gn:3570392",
-   "name": "Le Vauclin",
-   "label": "Le Vauclin",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.5454,
-   "lon": -60.8383,
-   "rarity": "Common",
-   "fame": 5832,
-   "facts": {
-    "population": 7812,
-    "elevation_m": 8.0,
-    "area_km2": 39,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "Le Vauclin is a commune in the French overseas department and region, and island of Martinique.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Le Vauclin",
-    "url": "https://en.wikipedia.org/wiki/Le_Vauclin",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3570392.webp",
-    "author": "Olivier.jarfas",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Le-vauclin-fruits-and-vegetables-market.jpg"
-   }
-  },
-  {
-   "id": "gn:3569928",
-   "name": "Sainte-Luce",
-   "label": "Sainte-Luce",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.4685,
-   "lon": -60.9214,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 9196,
-    "elevation_m": 6.0,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "A community of 9,196 people in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3569928.webp"
-   }
-  },
-  {
-   "id": "gn:3570423",
-   "name": "Le Morne-Rouge",
-   "label": "Le Morne-Rouge",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.7761,
-   "lon": -61.1356,
-   "rarity": "Common",
-   "fame": 9678,
-   "facts": {
-    "population": 5469,
-    "elevation_m": 459,
-    "area_km2": 38,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "Le Morne-Rouge is a commune and town in the French overseas department and island of Martinique.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Le Morne-Rouge",
-    "url": "https://en.wikipedia.org/wiki/Le_Morne-Rouge",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3570423.webp",
-    "author": "Radosław Botev",
-    "licence": "Attribution",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Morne-Rouge_Martinique.jpg"
-   }
-  },
-  {
    "id": "gn:3569970",
    "name": "Rivière-Pilote",
    "label": "Rivière-Pilote",
@@ -588,97 +405,28 @@
    "lat": 14.4716,
    "lon": -60.8699,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 8286,
    "facts": {
     "population": 7943,
     "elevation_m": 28,
+    "area_km2": 32,
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A community of 7,943 people in Martinique.",
-    "source": "facts"
+    "text": "Le Marin is a town and commune in the French overseas department of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Marin",
+    "url": "https://en.wikipedia.org/wiki/Le_Marin",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3570426.webp"
-   }
-  },
-  {
-   "id": "gn:3570427",
-   "name": "Le Lorrain",
-   "label": "Le Lorrain",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.8326,
-   "lon": -61.0555,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 8341,
-    "elevation_m": 13,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A community of 8,341 people in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3570427.webp"
-   }
-  },
-  {
-   "id": "gn:3569926",
-   "name": "Sainte-Marie",
-   "label": "Sainte-Marie",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.7835,
-   "lon": -60.9923,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 20380,
-    "elevation_m": 14,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "A community of 20,380 people in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3569926.webp"
-   }
-  },
-  {
-   "id": "gn:3570584",
-   "name": "Le Gros-Morne",
-   "label": "Le Gros-Morne",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.7,
-   "lon": -61.0,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 11025,
-    "elevation_m": 132,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "A community of 11,025 people in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3570584.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3570426.webp",
+    "author": "Nawal",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Marin_Martinique.jpg"
    }
   },
   {
@@ -714,6 +462,313 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:SAINT_ESPRIT_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:3570429",
+   "name": "Le François",
+   "label": "Le François",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6151,
+   "lon": -60.9031,
+   "rarity": "Common",
+   "fame": 10692,
+   "facts": {
+    "population": 19682,
+    "elevation_m": 14,
+    "area_km2": 54,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Le François is a town and commune in the arrondissement of Le Marin on Martinique, 22 km from the island capital of Fort-de-France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le François",
+    "url": "https://en.wikipedia.org/wiki/Le_Fran%C3%A7ois",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570429.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:France-Martinique-Le_Francois.jpg"
+   }
+  },
+  {
+   "id": "gn:3570427",
+   "name": "Le Lorrain",
+   "label": "Le Lorrain",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8326,
+   "lon": -61.0555,
+   "rarity": "Common",
+   "fame": 4614,
+   "facts": {
+    "population": 8341,
+    "elevation_m": 13,
+    "area_km2": 50,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It was originally called Grande-Anse and was renamed as such in the late 19th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Lorrain",
+    "url": "https://en.wikipedia.org/wiki/Le_Lorrain",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570427.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Hyacinthe_Lorrain_2.jpg"
+   }
+  },
+  {
+   "id": "gn:3570446",
+   "name": "La Trinité",
+   "label": "La Trinité",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7381,
+   "lon": -60.9632,
+   "rarity": "Common",
+   "fame": 11130,
+   "facts": {
+    "population": 15040,
+    "elevation_m": 6.0,
+    "area_km2": 46,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "La Trinité is a town and commune in the French overseas region and department of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Trinité, Martinique",
+    "url": "https://en.wikipedia.org/wiki/La_Trinit%C3%A9%2C_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570446.webp"
+   }
+  },
+  {
+   "id": "gn:3569928",
+   "name": "Sainte-Luce",
+   "label": "Sainte-Luce",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4685,
+   "lon": -60.9214,
+   "rarity": "Common",
+   "fame": 10884,
+   "facts": {
+    "population": 9196,
+    "elevation_m": 6.0,
+    "area_km2": 28,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Sainte-Luce is a fishing town and commune in the French overseas department of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sainte-Luce, Martinique",
+    "url": "https://en.wikipedia.org/wiki/Sainte-Luce%2C_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3569928.webp",
+    "author": "Bartosz Wietrzyk",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Sainte-Luce_view_over_town.JPG"
+   }
+  },
+  {
+   "id": "gn:3570412",
+   "name": "Le Robert",
+   "label": "Le Robert",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6775,
+   "lon": -60.9423,
+   "rarity": "Common",
+   "fame": 2988,
+   "facts": {
+    "population": 23814,
+    "elevation_m": 8.0,
+    "area_km2": 47,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Le Robert is a town and the third-largest commune in the French overseas department of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Robert",
+    "url": "https://en.wikipedia.org/wiki/Le_Robert",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570412.webp"
+   }
+  },
+  {
+   "id": "gn:3570501",
+   "name": "L'Ajoupa-Bouillon",
+   "label": "L'Ajoupa-Bouillon",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8209,
+   "lon": -61.1175,
+   "rarity": "Common",
+   "fame": 3048,
+   "facts": {
+    "population": 1815,
+    "elevation_m": 314,
+    "area_km2": 12,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "L'Ajoupa-Bouillon, commonly known as L'Ajoupa, is a commune and town in the French overseas department and region, and island, of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "L'Ajoupa-Bouillon",
+    "url": "https://en.wikipedia.org/wiki/L%27Ajoupa-Bouillon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570501.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_l%27Immacul%C3%A9e-Conception_de_L%27Ajoupa-Bouillon_3.jpg"
+   }
+  },
+  {
+   "id": "gn:3569915",
+   "name": "Saint-Joseph",
+   "label": "Saint-Joseph",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.671,
+   "lon": -61.0391,
+   "rarity": "Common",
+   "fame": 6390,
+   "facts": {
+    "population": 16974,
+    "elevation_m": 240,
+    "area_km2": 43,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Saint-Joseph is a commune in the Arrondissement of Fort-de-France on Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Joseph, Martinique",
+    "url": "https://en.wikipedia.org/wiki/Saint-Joseph%2C_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3569915.webp",
+    "author": "Florian Fèvre",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bus_Mozaik_%C3%A0_Saint_Joseph.JPG"
+   }
+  },
+  {
+   "id": "gn:3571097",
+   "name": "Basse-Pointe",
+   "label": "Basse-Pointe",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8694,
+   "lon": -61.1152,
+   "rarity": "Common",
+   "fame": 5070,
+   "facts": {
+    "population": 4037,
+    "elevation_m": 14,
+    "area_km2": 28,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Basse-Pointe is a town and commune in the French overseas department and region, and island of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basse-Pointe",
+    "url": "https://en.wikipedia.org/wiki/Basse-Pointe",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3571097.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habitation_P%C3%A9coul_-_Acc%C3%A8s_principal.jpg"
+   }
+  },
+  {
+   "id": "gn:3570423",
+   "name": "Le Morne-Rouge",
+   "label": "Le Morne-Rouge",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7761,
+   "lon": -61.1356,
+   "rarity": "Common",
+   "fame": 9678,
+   "facts": {
+    "population": 5469,
+    "elevation_m": 459,
+    "area_km2": 38,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Le Morne-Rouge is a commune and town in the French overseas department and island of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Morne-Rouge",
+    "url": "https://en.wikipedia.org/wiki/Le_Morne-Rouge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570423.webp",
+    "author": "Radosław Botev",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Morne-Rouge_Martinique.jpg"
    }
   },
   {
@@ -1723,41 +1778,6 @@
    }
   },
   {
-   "id": "gn:3570396",
-   "name": "Les Trois-Îlets",
-   "label": "Les Trois-Îlets",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.5391,
-   "lon": -61.0335,
-   "rarity": "Rare",
-   "fame": 14910,
-   "facts": {
-    "population": 5657,
-    "elevation_m": 19,
-    "area_km2": 29,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "Les Trois-Îlets is a town and commune in the French overseas department and region of Martinique.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Les Trois-Îlets",
-    "url": "https://en.wikipedia.org/wiki/Les_Trois-%C3%8Elets",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3570396.webp",
-    "author": "Radosław Botev",
-    "licence": "Attribution",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Trois-Ilets_church.jpg"
-   }
-  },
-  {
    "id": "gn:3570428",
    "name": "Le Lamentin",
    "label": "Le Lamentin",
@@ -1790,6 +1810,41 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Aeroport_Aime_Cesaire.jpg"
+   }
+  },
+  {
+   "id": "gn:3569926",
+   "name": "Sainte-Marie",
+   "label": "Sainte-Marie",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7835,
+   "lon": -60.9923,
+   "rarity": "Rare",
+   "fame": 26250,
+   "facts": {
+    "population": 20380,
+    "elevation_m": 14,
+    "area_km2": 45,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Sainte-Marie is a town and the fifth-largest commune in the French overseas department of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sainte-Marie, Martinique",
+    "url": "https://en.wikipedia.org/wiki/Sainte-Marie%2C_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3569926.webp",
+    "author": "Riba",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sainte-Marie_(vue_de_l%27%C3%AElet).JPG"
    }
   },
   {
@@ -1828,63 +1883,96 @@
    }
   },
   {
-   "id": "gn:3570429",
-   "name": "Le François",
-   "label": "Le François",
+   "id": "gn:3570396",
+   "name": "Les Trois-Îlets",
+   "label": "Les Trois-Îlets",
    "type": "town",
    "kind": "town",
    "region": "FR-MQ",
    "country": "MQ",
-   "lat": 14.6151,
-   "lon": -60.9031,
+   "lat": 14.5391,
+   "lon": -61.0335,
    "rarity": "Rare",
-   "fame": 10692,
+   "fame": 14910,
    "facts": {
-    "population": 19682,
-    "elevation_m": 14,
-    "area_km2": 54,
-    "temp_c": 26.2
+    "population": 5657,
+    "elevation_m": 19,
+    "area_km2": 29,
+    "temp_c": 26.1
    },
    "flavour": {
-    "text": "Le François is a town and commune in the arrondissement of Le Marin on Martinique, 22 km from the island capital of Fort-de-France.",
+    "text": "Les Trois-Îlets is a town and commune in the French overseas department and region of Martinique.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Le François",
-    "url": "https://en.wikipedia.org/wiki/Le_Fran%C3%A7ois",
+    "title": "Les Trois-Îlets",
+    "url": "https://en.wikipedia.org/wiki/Les_Trois-%C3%8Elets",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3570429.webp",
-    "author": "Unknown author",
-    "licence": "Public domain",
+    "file": "images/photo/gn_3570396.webp",
+    "author": "Radosław Botev",
+    "licence": "Attribution",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:France-Martinique-Le_Francois.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Trois-Ilets_church.jpg"
    }
   },
   {
-   "id": "wd:Q27729641",
-   "name": "îlet du Galion",
-   "label": "îlet du Galion",
+   "id": "wd:Q22249065",
+   "name": "Rocher de la Perle",
+   "label": "Rocher de la Perle",
    "type": "nature",
    "kind": "island",
    "region": "FR-MQ",
    "country": "MQ",
-   "lat": 14.7308,
-   "lon": -60.9355,
+   "lat": 14.8421,
+   "lon": -61.2277,
    "rarity": "Common",
-   "fame": 90,
+   "fame": 444,
    "facts": {
     "elevation_m": 0.0,
-    "temp_c": 26.2
+    "temp_c": 24.8
    },
    "flavour": {
     "text": "An island in Martinique.",
     "source": "facts"
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q27729641.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q22249065.webp",
+    "author": "Jmp48",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ilet_la_Perle.JPG"
+   }
+  },
+  {
+   "id": "wd:Q27729675",
+   "name": "Morne Jacqueline",
+   "label": "Morne Jacqueline",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4728,
+   "lon": -61.0763,
+   "rarity": "Common",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 223,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A mountain in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27729675.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Jacqueline_depuis_Petite_Anse.jpg"
    }
   }
  ]

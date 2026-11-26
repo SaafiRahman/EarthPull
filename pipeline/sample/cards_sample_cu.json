@@ -375,29 +375,130 @@
    }
   },
   {
-   "id": "gn:3567669",
-   "name": "Bartolomé Masó",
-   "label": "Bartolomé Masó",
+   "id": "gn:3567546",
+   "name": "Bejucal",
+   "label": "Bejucal",
    "type": "town",
    "kind": "town",
-   "region": "CU-12",
+   "region": "CU-16",
    "country": "CU",
-   "lat": 20.1666,
-   "lon": -76.944,
+   "lat": 22.9283,
+   "lon": -82.3888,
+   "rarity": "Common",
+   "fame": 4998,
+   "facts": {
+    "population": 18123,
+    "elevation_m": 110,
+    "area_km2": 120,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It is well known as the terminal station of the first railroad built in Cuba and Latin America in 1837.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bejucal",
+    "url": "https://en.wikipedia.org/wiki/Bejucal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3567546.webp",
+    "author": "Alabrada",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ferroc_Bejucal2.jpg"
+   }
+  },
+  {
+   "id": "gn:3561667",
+   "name": "El Caney",
+   "label": "El Caney",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-09",
+   "country": "CU",
+   "lat": 21.3,
+   "lon": -78.4833,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 53024,
-    "elevation_m": 63,
-    "temp_c": 23.5
+    "population": 4597,
+    "elevation_m": 3.0,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "A community of 53,024 people in Granma.",
+    "text": "A community of 4,597 people in Camagüey.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3567669.webp"
+    "file": "images/minimap/gn_3561667.webp"
+   }
+  },
+  {
+   "id": "gn:3556078",
+   "name": "Jobabo",
+   "label": "Jobabo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-10",
+   "country": "CU",
+   "lat": 20.9098,
+   "lon": -77.2845,
+   "rarity": "Common",
+   "fame": 1320,
+   "facts": {
+    "population": 49403,
+    "elevation_m": 50,
+    "area_km2": 885,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is located in the southern part of the province, 34 km south of Las Tunas, the provincial capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jobabo",
+    "url": "https://en.wikipedia.org/wiki/Jobabo",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3556078.webp"
+   }
+  },
+  {
+   "id": "gn:3556168",
+   "name": "Jiguaní",
+   "label": "Jiguaní",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.3684,
+   "lon": -76.4291,
+   "rarity": "Common",
+   "fame": 3198,
+   "facts": {
+    "population": 41106,
+    "elevation_m": 137,
+    "area_km2": 646,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is located 25 kilometres east of Bayamo, the provincial capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jiguaní",
+    "url": "https://en.wikipedia.org/wiki/Jiguan%C3%AD",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3556168.webp",
+    "author": "Christian Pirkl",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jiguan%C3%AD_DSC09671.jpg"
    }
   },
   {
@@ -411,283 +512,254 @@
    "lat": 20.1881,
    "lon": -75.8503,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 2886,
    "facts": {
     "population": 67293,
     "elevation_m": 201,
+    "area_km2": 498,
     "temp_c": 25.4
    },
    "flavour": {
-    "text": "A community of 67,293 people in Santiago de Cuba.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3539093.webp"
-   }
-  },
-  {
-   "id": "gn:3542167",
-   "name": "Río Cauto",
-   "label": "Río Cauto",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-12",
-   "country": "CU",
-   "lat": 20.5598,
-   "lon": -76.9167,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 23737,
-    "elevation_m": 12,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "A community of 23,737 people in Granma.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3542167.webp"
-   }
-  },
-  {
-   "id": "gn:3557801",
-   "name": "Guanajay",
-   "label": "Guanajay",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-15",
-   "country": "CU",
-   "lat": 22.9261,
-   "lon": -82.6869,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 25258,
-    "elevation_m": 109,
-    "temp_c": 24.6
-   },
-   "flavour": {
-    "text": "A community of 25,258 people in Artemisa.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3557801.webp"
-   }
-  },
-  {
-   "id": "gn:3533753",
-   "name": "Yara",
-   "label": "Yara",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-12",
-   "country": "CU",
-   "lat": 20.2742,
-   "lon": -76.9523,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 28944,
-    "elevation_m": 25,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "A community of 28,944 people in Granma.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3533753.webp"
-   }
-  },
-  {
-   "id": "gn:3533826",
-   "name": "Yaguajay",
-   "label": "Yaguajay",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-07",
-   "country": "CU",
-   "lat": 22.3269,
-   "lon": -79.2369,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 42218,
-    "elevation_m": 22,
-    "temp_c": 24.7
-   },
-   "flavour": {
-    "text": "A community of 42,218 people in Sancti Spíritus.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3533826.webp"
-   }
-  },
-  {
-   "id": "gn:3535775",
-   "name": "Soroa",
-   "label": "Soroa",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-15",
-   "country": "CU",
-   "lat": 22.7984,
-   "lon": -83.0125,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 7205,
-    "elevation_m": 247,
-    "temp_c": 23.9
-   },
-   "flavour": {
-    "text": "A community of 7,205 people in Artemisa.",
-    "source": "facts"
+    "text": "It is located 19 km north of Santiago de Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Luis, Santiago de Cuba",
+    "url": "https://en.wikipedia.org/wiki/San_Luis%2C_Santiago_de_Cuba",
+    "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3535775.webp",
-    "author": "BenjiPill",
+    "file": "images/photo/gn_3539093.webp",
+    "author": "P199",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2025-06_-_Cuba,_Soroa_05.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:San_Luis_Cuba_skyline.JPG"
    }
   },
   {
-   "id": "gn:3548529",
-   "name": "Madruga",
-   "label": "Madruga",
+   "id": "gn:3563843",
+   "name": "Colón",
+   "label": "Colón",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 22.7211,
+   "lon": -80.9037,
+   "rarity": "Common",
+   "fame": 4932,
+   "facts": {
+    "population": 63882,
+    "elevation_m": 55,
+    "area_km2": 597,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "The municipality has an area of 547 km2 and a population of about 68,021.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colón, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Col%C3%B3n%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3563843.webp",
+    "author": "Blueeagle55",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Almirante_Cristobal_Col%C3%B3n.jpg"
+   }
+  },
+  {
+   "id": "gn:3542137",
+   "name": "Río Guayabal de Yateras",
+   "label": "Río Guayabal de Yateras",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 20.3667,
+   "lon": -75.0167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 25753,
+    "elevation_m": 438,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 25,753 people in Guantánamo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3542137.webp"
+   }
+  },
+  {
+   "id": "gn:3540618",
+   "name": "San Diego de Los Baños",
+   "label": "San Diego de Los Baños",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.6471,
+   "lon": -83.3683,
+   "rarity": "Common",
+   "fame": 1008,
+   "facts": {
+    "population": 1643,
+    "elevation_m": 60,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "San Diego de los Baños is a consejo popular and urban settlement in Los Palacios, Pinar del Río Province, Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Diego de los Baños",
+    "url": "https://en.wikipedia.org/wiki/San_Diego_de_los_Ba%C3%B1os",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3540618.webp",
+    "author": "Martin Cígler",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Diego_de_los_Ba%C5%88os_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3567612",
+   "name": "Bauta",
+   "label": "Bauta",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-15",
+   "country": "CU",
+   "lat": 22.9821,
+   "lon": -82.5476,
+   "rarity": "Common",
+   "fame": 2862,
+   "facts": {
+    "population": 45768,
+    "elevation_m": 70,
+    "area_km2": 157,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Bauta is a municipality and town located 40 km southwest of Havana City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bauta, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Bauta%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3567612.webp",
+    "author": "elpbatista @ Mapillary",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calle_152,_Bauta_-_Mapillary_(1574893472700427).jpg"
+   }
+  },
+  {
+   "id": "gn:3553343",
+   "name": "Lajas",
+   "label": "Lajas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-06",
+   "country": "CU",
+   "lat": 22.4144,
+   "lon": -80.2936,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 22602,
+    "elevation_m": 78,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 22,602 people in Cienfuegos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3553343.webp"
+   }
+  },
+  {
+   "id": "gn:3567655",
+   "name": "Batabanó",
+   "label": "Batabanó",
    "type": "town",
    "kind": "town",
    "region": "CU-16",
    "country": "CU",
-   "lat": 22.9098,
-   "lon": -81.8566,
+   "lat": 22.7174,
+   "lon": -82.2901,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3606,
    "facts": {
-    "population": 33798,
-    "elevation_m": 150,
-    "temp_c": 24.7
+    "population": 13832,
+    "elevation_m": 10,
+    "area_km2": 187,
+    "temp_c": 25.1
    },
    "flavour": {
-    "text": "A community of 33,798 people in Mayabeque.",
-    "source": "facts"
+    "text": "Batabanó is a municipality and town in the Mayabeque Province of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Batabanó, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Bataban%C3%B3%2C_Cuba",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3548529.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3567655.webp",
+    "author": "Lezumbalaberenjena",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collage_Bataban%C3%B3.jpg"
    }
   },
   {
-   "id": "gn:3550002",
-   "name": "Leader",
-   "label": "Leader",
+   "id": "gn:3558792",
+   "name": "Florencia",
+   "label": "Florencia",
    "type": "town",
    "kind": "town",
-   "region": "CU-03",
+   "region": "CU-08",
    "country": "CU",
-   "lat": 23.0333,
-   "lon": -82.25,
+   "lat": 22.1459,
+   "lon": -78.9722,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1314,
    "facts": {
-    "population": 5612,
-    "elevation_m": 99,
-    "temp_c": 25.0
+    "population": 19811,
+    "elevation_m": 100,
+    "area_km2": 286,
+    "temp_c": 24.8
    },
    "flavour": {
-    "text": "A community of 5,612 people in Havana.",
-    "source": "facts"
+    "text": "It is located in the western part of the province, south of Chambas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Florencia, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Florencia%2C_Cuba",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3550002.webp"
-   }
-  },
-  {
-   "id": "gn:3551184",
-   "name": "La Sierpe",
-   "label": "La Sierpe",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-07",
-   "country": "CU",
-   "lat": 21.7717,
-   "lon": -79.2678,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 16937,
-    "elevation_m": 41,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "A community of 16,937 people in Sancti Spíritus.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3551184.webp"
-   }
-  },
-  {
-   "id": "gn:3541446",
-   "name": "Sagua de Tánamo",
-   "label": "Sagua de Tánamo",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-11",
-   "country": "CU",
-   "lat": 20.5828,
-   "lon": -75.2412,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 18282,
-    "elevation_m": 26,
-    "temp_c": 25.6
-   },
-   "flavour": {
-    "text": "A community of 18,282 people in Holguín.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3541446.webp"
-   }
-  },
-  {
-   "id": "gn:3563609",
-   "name": "Condado",
-   "label": "Condado",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-07",
-   "country": "CU",
-   "lat": 21.876,
-   "lon": -79.8401,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 38248,
-    "elevation_m": 36,
-    "temp_c": 23.7
-   },
-   "flavour": {
-    "text": "A community of 38,248 people in Sancti Spíritus.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3563609.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3558792.webp",
+    "author": "naldoff",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Florencia_-_Cuba.JPG"
    }
   },
   {
@@ -1342,211 +1414,108 @@
    }
   },
   {
-   "id": "gn:3563908",
-   "name": "Cojímar",
-   "label": "Cojímar",
+   "id": "gn:3556969",
+   "name": "Holguín",
+   "label": "Holguín",
    "type": "town",
    "kind": "town",
-   "region": "CU-03",
+   "region": "CU-11",
    "country": "CU",
-   "lat": 23.1648,
-   "lon": -82.3012,
+   "lat": 20.8872,
+   "lon": -76.2631,
    "rarity": "Epic",
-   "fame": 12378,
+   "fame": 35796,
    "facts": {
-    "population": 20390,
-    "elevation_m": 14,
-    "area_km2": 4.2,
-    "temp_c": 25.0
+    "population": 319102,
+    "elevation_m": 146,
+    "area_km2": 656,
+    "temp_c": 25.8
    },
    "flavour": {
-    "text": "The town was the residence of the American author Ernest Hemingway, who lived there for a time and kept his fishing boat, the Pilar, in the town.",
+    "text": "It is the fourth largest city in Cuba, after Havana, Santiago de Cuba, and Camagüey.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cojímar",
-    "url": "https://en.wikipedia.org/wiki/Coj%C3%ADmar",
+    "title": "Holguín",
+    "url": "https://en.wikipedia.org/wiki/Holgu%C3%ADn",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3563908.webp",
-    "author": "Carol M. Highsmith",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Fuerte_de_Cojimar,_Cojimar,_Cuba_LCCN2010638895.tif"
+    "file": "images/photo/gn_3556969.webp",
+    "author": "Josué Marrero Bermúdez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Holguin.jpg"
    }
   },
   {
-   "id": "gn:3568312",
-   "name": "Artemisa",
-   "label": "Artemisa",
+   "id": "gn:3564178",
+   "name": "Ciego de Ávila",
+   "label": "Ciego de Ávila",
    "type": "town",
    "kind": "town",
-   "region": "CU-15",
+   "region": "CU-08",
    "country": "CU",
-   "lat": 22.8137,
-   "lon": -82.7581,
+   "lat": 21.8422,
+   "lon": -78.7603,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 15690,
    "facts": {
-    "population": 68073,
-    "elevation_m": 43,
-    "temp_c": 25.0
-   },
-   "flavour": {
-    "text": "A community of 68,073 people in Artemisa.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3568312.webp"
-   }
-  },
-  {
-   "id": "gn:3535498",
-   "name": "Tarará",
-   "label": "Tarará",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-03",
-   "country": "CU",
-   "lat": 23.1745,
-   "lon": -82.2065,
-   "rarity": "Epic",
-   "fame": 4458,
-   "facts": {
-    "population": 4512,
-    "elevation_m": 16,
+    "population": 142027,
+    "elevation_m": 49,
+    "area_km2": 445,
     "temp_c": 25.3
    },
    "flavour": {
-    "text": "It is about 19 km east of the city centre and west of other beaches including Santa Maria del Mar and Guanabo.",
+    "text": "The capital city has a population of about 156,322 and the province 430,507.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Tarará",
-    "url": "https://en.wikipedia.org/wiki/Tarar%C3%A1",
+    "title": "Ciego de Ávila",
+    "url": "https://en.wikipedia.org/wiki/Ciego_de_%C3%81vila",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3535498.webp",
-    "author": "Alexander Berezhnoy",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:TARARA._(District_of_Havana,_Cuba)._-_panoramio_(14).jpg"
+    "file": "images/photo/gn_3564178.webp",
+    "author": "Leon petrosyan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciego_De_Avila.JPG"
    }
   },
   {
-   "id": "gn:3547398",
-   "name": "Matanzas",
-   "label": "Matanzas",
+   "id": "gn:3536729",
+   "name": "Santiago de Cuba",
+   "label": "Santiago de Cuba",
    "type": "town",
    "kind": "town",
-   "region": "CU-04",
+   "region": "CU-13",
    "country": "CU",
-   "lat": 23.0439,
-   "lon": -81.5828,
+   "lat": 20.0229,
+   "lon": -75.8217,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 123768,
    "facts": {
-    "population": 146733,
-    "elevation_m": 1.0,
-    "temp_c": 25.0
+    "population": 555865,
+    "elevation_m": 33,
+    "area_km2": 1032,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "A community of 146,733 people in Matanzas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3547398.webp"
-   }
-  },
-  {
-   "id": "gn:3566067",
-   "name": "Camagüey",
-   "label": "Camagüey",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-09",
-   "country": "CU",
-   "lat": 21.3808,
-   "lon": -77.9169,
-   "rarity": "Epic",
-   "fame": 49686,
-   "facts": {
-    "population": 347562,
-    "elevation_m": 102,
-    "area_km2": 1106,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "Camagüey is a city and municipality in central Cuba and the nation's third-largest city with more than 333,000 inhabitants.",
+    "text": "Santiago de Cuba is the second-largest city in Cuba and the capital city of Santiago de Cuba Province.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Camagüey",
-    "url": "https://en.wikipedia.org/wiki/Camag%C3%BCey",
+    "title": "Santiago de Cuba",
+    "url": "https://en.wikipedia.org/wiki/Santiago_de_Cuba",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3566067.webp",
-    "author": "Danleo",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Camaguey_rooftops_2.jpg"
-   }
-  },
-  {
-   "id": "gn:3544091",
-   "name": "Pinar del Río",
-   "label": "Pinar del Río",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-01",
-   "country": "CU",
-   "lat": 22.4165,
-   "lon": -83.6966,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 186990,
-    "elevation_m": 55,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A community of 186,990 people in Pinar del Río.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3544091.webp"
-   }
-  },
-  {
-   "id": "gn:3539560",
-   "name": "San José de las Lajas",
-   "label": "San José de las Lajas",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-16",
-   "country": "CU",
-   "lat": 22.9612,
-   "lon": -82.1515,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 54847,
-    "elevation_m": 138,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A community of 54,847 people in Mayabeque.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3539560.webp"
+    "file": "images/photo/gn_3536729.webp",
+    "author": "Glogg, Peter, Switzerland",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castillo_del_Morro_by_Glogg_4.jpg"
    }
   },
   {
@@ -1560,45 +1529,129 @@
    "lat": 22.4071,
    "lon": -79.9658,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 40956,
    "facts": {
     "population": 250512,
     "elevation_m": 132,
+    "area_km2": 514,
     "temp_c": 24.6
    },
    "flavour": {
-    "text": "A community of 250,512 people in Villa Clara.",
-    "source": "facts"
+    "text": "Santa Clara is the capital city of the Cuban province of Villa Clara.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Clara, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Santa_Clara%2C_Cuba",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3537906.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3537906.webp",
+    "author": "Lezumbalaberenjena at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Calle_Parque_SC.JPG"
    }
   },
   {
-   "id": "gn:3556969",
-   "name": "Holguín",
-   "label": "Holguín",
+   "id": "gn:3568312",
+   "name": "Artemisa",
+   "label": "Artemisa",
    "type": "town",
    "kind": "town",
-   "region": "CU-11",
+   "region": "CU-15",
    "country": "CU",
-   "lat": 20.8872,
-   "lon": -76.2631,
+   "lat": 22.8137,
+   "lon": -82.7581,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 13836,
    "facts": {
-    "population": 319102,
-    "elevation_m": 146,
-    "temp_c": 25.8
+    "population": 68073,
+    "elevation_m": 43,
+    "area_km2": 690,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "A community of 319,102 people in Holguín.",
-    "source": "facts"
+    "text": "Artemisa is a municipality and city in Cuba, formerly part of La Habana Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Artemisa",
+    "url": "https://en.wikipedia.org/wiki/Artemisa",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3556969.webp"
+    "file": "images/minimap/gn_3568312.webp"
+   }
+  },
+  {
+   "id": "gn:3544091",
+   "name": "Pinar del Río",
+   "label": "Pinar del Río",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.4165,
+   "lon": -83.6966,
+   "rarity": "Epic",
+   "fame": 28476,
+   "facts": {
+    "population": 186990,
+    "elevation_m": 55,
+    "area_km2": 691,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Pinar del Río is the capital city of Pinar del Río Province, Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pinar del Río",
+    "url": "https://en.wikipedia.org/wiki/Pinar_del_R%C3%ADo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3544091.webp",
+    "author": "Mmoyaq",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrer_Jos%C3%A9_Mart%C3%AD_Pinar_del_Rio.JPG"
+   }
+  },
+  {
+   "id": "gn:3547398",
+   "name": "Matanzas",
+   "label": "Matanzas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 23.0439,
+   "lon": -81.5828,
+   "rarity": "Epic",
+   "fame": 41886,
+   "facts": {
+    "population": 146733,
+    "elevation_m": 1.0,
+    "area_km2": 317,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Matanzas is the capital of the Cuban province of Matanzas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Matanzas",
+    "url": "https://en.wikipedia.org/wiki/Matanzas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3547398.webp",
+    "author": "Jerome Ryan",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuba_-_Matanzas_-_Matanzas_from_Ermita_de_Monserrate_church.jpg"
    }
   },
   {
@@ -1633,6 +1686,76 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Presidio_Modelo.JPG"
+   }
+  },
+  {
+   "id": "gn:3539560",
+   "name": "San José de las Lajas",
+   "label": "San José de las Lajas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-16",
+   "country": "CU",
+   "lat": 22.9612,
+   "lon": -82.1515,
+   "rarity": "Epic",
+   "fame": 6288,
+   "facts": {
+    "population": 54847,
+    "elevation_m": 138,
+    "area_km2": 591,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "San José de las Lajas is a municipality and the capital city of the newly formed Mayabeque Province of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San José de las Lajas",
+    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_de_las_Lajas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3539560.webp",
+    "author": "Alabrada",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catholic_Church_in_San_Jos%C3%A9_de_las_Lajas.jpg"
+   }
+  },
+  {
+   "id": "gn:3550598",
+   "name": "Las Tunas",
+   "label": "Las Tunas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-10",
+   "country": "CU",
+   "lat": 20.9613,
+   "lon": -76.9519,
+   "rarity": "Epic",
+   "fame": 11196,
+   "facts": {
+    "population": 203684,
+    "elevation_m": 91,
+    "area_km2": 891,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is the capital of the Las Tunas Province and was named Victoria de Las Tunas from 1869 to 1976.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Las Tunas",
+    "url": "https://en.wikipedia.org/wiki/Las_Tunas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3550598.webp",
+    "author": "Christian Pirkl",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Tunas_CF9A0961.jpg"
    }
   },
   {
@@ -2524,408 +2647,419 @@
    }
   },
   {
-   "id": "gn:3566134",
-   "name": "Calimete",
-   "label": "Calimete",
+   "id": "gn:3534094",
+   "name": "Viñales",
+   "label": "Viñales",
    "type": "town",
    "kind": "town",
-   "region": "CU-04",
+   "region": "CU-01",
    "country": "CU",
-   "lat": 22.5342,
-   "lon": -80.9111,
+   "lat": 22.6189,
+   "lon": -83.7069,
    "rarity": "Rare",
-   "fame": 1122,
+   "fame": 6396,
    "facts": {
-    "population": 23255,
-    "elevation_m": 23,
-    "area_km2": 958,
-    "temp_c": 25.1
+    "population": 27129,
+    "elevation_m": 144,
+    "area_km2": 704,
+    "temp_c": 23.8
    },
    "flavour": {
-    "text": "It was founded in 1867 by José Antonio Castañeda.",
+    "text": "The town consists mostly of one-story wooden houses with porches.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Calimete",
-    "url": "https://en.wikipedia.org/wiki/Calimete",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3566134.webp"
-   }
-  },
-  {
-   "id": "gn:3565244",
-   "name": "Luis Arcos Bergnes",
-   "label": "Luis Arcos Bergnes",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-05",
-   "country": "CU",
-   "lat": 22.5038,
-   "lon": -79.8148,
-   "rarity": "Rare",
-   "fame": 438,
-   "facts": {
-    "population": 2279,
-    "elevation_m": 66,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "With a population of 2,279 it is considered a village.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Luis Arcos Bergnes, Cuba",
-    "url": "https://en.wikipedia.org/wiki/Luis_Arcos_Bergnes%2C_Cuba",
+    "title": "Viñales",
+    "url": "https://en.wikipedia.org/wiki/Vi%C3%B1ales",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3565244.webp",
-    "author": "Eric Marshall",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Camajuani,_Cuba_-_panoramio.jpg"
+    "file": "images/photo/gn_3534094.webp",
+    "author": "BenjiPill",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-06_-_Vi%C3%B1ales,_Cuba_07.jpg"
    }
   },
   {
-   "id": "gn:3557823",
-   "name": "Guanabo",
-   "label": "Guanabo",
+   "id": "gn:3538803",
+   "name": "San Miguel del Padrón",
+   "label": "San Miguel del Padrón",
    "type": "town",
    "kind": "town",
    "region": "CU-03",
    "country": "CU",
-   "lat": 23.1683,
-   "lon": -82.1374,
+   "lat": 23.0954,
+   "lon": -82.3267,
    "rarity": "Rare",
-   "fame": 3300,
+   "fame": 5304,
    "facts": {
-    "population": 5087,
-    "elevation_m": 8.0,
-    "temp_c": 25.3
+    "population": 159273,
+    "elevation_m": 57,
+    "area_km2": 26,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "Guanabo is a beach town in the Ciudad de la Habana Province of Cuba.",
+    "text": "San Miguel del Padrón is one of the 15 municipalities/boroughs into which the city of Havana, Cuba is divided.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Guanabo",
-    "url": "https://en.wikipedia.org/wiki/Guanabo",
+    "title": "San Miguel del Padrón",
+    "url": "https://en.wikipedia.org/wiki/San_Miguel_del_Padr%C3%B3n",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3557823.webp",
-    "author": "Alexander Berezhnoy",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cuba,_Guanabo._2013_-_panoramio_(15).jpg"
+    "file": "images/photo/gn_3538803.webp",
+    "author": "Dietrich Michael Weidmann",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2012-01-01-Havano_(Foto_Dietrich_Michael_Weidmann)_007.JPG"
    }
   },
   {
-   "id": "gn:3547976",
-   "name": "Manicaragua",
-   "label": "Manicaragua",
+   "id": "gn:3566356",
+   "name": "Caibarién",
+   "label": "Caibarién",
    "type": "town",
    "kind": "town",
    "region": "CU-05",
    "country": "CU",
-   "lat": 22.1502,
-   "lon": -79.9787,
+   "lat": 22.5199,
+   "lon": -79.466,
    "rarity": "Rare",
-   "fame": 1938,
+   "fame": 6282,
    "facts": {
-    "population": 41532,
-    "elevation_m": 144,
-    "area_km2": 986,
-    "temp_c": 23.7
+    "population": 39140,
+    "elevation_m": 3.0,
+    "area_km2": 212,
+    "temp_c": 25.5
    },
    "flavour": {
-    "text": "It is located in the Escambray Mountains at the southern part of Villa Clara, bordering the provinces of Cienfuegos to the west and Sancti Spíritus to the east.",
+    "text": "Caibarién is a municipality city in the Villa Clara province of Cuba.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Manicaragua",
-    "url": "https://en.wikipedia.org/wiki/Manicaragua",
+    "title": "Caibarién",
+    "url": "https://en.wikipedia.org/wiki/Caibari%C3%A9n",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3547976.webp",
-    "author": "Lezumbalaberenjena",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Parroquial_%22Nuestra_Se%C3%B1ora_del_Carmen%22_de_Manicaragua.jpg"
+    "file": "images/photo/gn_3566356.webp",
+    "author": "Original uploader was Lezumbalaberenjena at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:1_Caibariengazebo.jpg"
    }
   },
   {
-   "id": "gn:3754915",
-   "name": "Jimaguayú",
-   "label": "Jimaguayú",
+   "id": "gn:3546434",
+   "name": "Morón",
+   "label": "Morón",
    "type": "town",
    "kind": "town",
-   "region": "CU-09",
+   "region": "CU-08",
    "country": "CU",
-   "lat": 21.2419,
-   "lon": -77.8257,
+   "lat": 22.1088,
+   "lon": -78.6269,
    "rarity": "Rare",
-   "fame": 1134,
+   "fame": 10740,
    "facts": {
-    "population": 21169,
-    "elevation_m": 117,
-    "area_km2": 799,
-    "temp_c": 25.0
-   },
-   "flavour": {
-    "text": "Jimaguayú is a municipality and town in the Camagüey Province of Cuba.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Jimaguayú",
-    "url": "https://en.wikipedia.org/wiki/Jimaguay%C3%BA",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3754915.webp",
-    "author": "Rob Oo from NL",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Camag%C3%BCey,_Cuba.jpg"
-   }
-  },
-  {
-   "id": "gn:3536259",
-   "name": "Sibanicú",
-   "label": "Sibanicú",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-09",
-   "country": "CU",
-   "lat": 21.2363,
-   "lon": -77.5256,
-   "rarity": "Rare",
-   "fame": 1386,
-   "facts": {
-    "population": 16856,
-    "elevation_m": 92,
-    "area_km2": 745,
+    "population": 66060,
+    "elevation_m": 7.0,
+    "area_km2": 615,
     "temp_c": 25.3
    },
    "flavour": {
-    "text": "Sibanicú is a municipality and town in the Camagüey Province of Cuba.",
+    "text": "It is one of ten municipalities in the province, and is the second in importance and the oldest.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Sibanicú",
-    "url": "https://en.wikipedia.org/wiki/Sibanic%C3%BA",
+    "title": "Morón, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Mor%C3%B3n%2C_Cuba",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3536259.webp",
-    "author": "Christian Pirkl",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sibanic%C3%BA_DSC01281.jpg"
+    "file": "images/photo/gn_3546434.webp",
+    "author": "InZweiZeiten",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gallo_de_Moron.jpg"
    }
   },
   {
-   "id": "gn:3564394",
-   "name": "Chambas",
-   "label": "Chambas",
+   "id": "gn:3563908",
+   "name": "Cojímar",
+   "label": "Cojímar",
    "type": "town",
    "kind": "town",
-   "region": "CU-08",
+   "region": "CU-03",
    "country": "CU",
-   "lat": 22.1927,
-   "lon": -78.9141,
+   "lat": 23.1648,
+   "lon": -82.3012,
    "rarity": "Rare",
-   "fame": 1302,
+   "fame": 12378,
    "facts": {
-    "population": 24114,
-    "elevation_m": 34,
-    "area_km2": 769,
-    "temp_c": 25.4
-   },
-   "flavour": {
-    "text": "It has a population of 39,085 inhabitants, with a density of 54.5 inhabitants per square kilometer, lower than the provincial average.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Chambas",
-    "url": "https://en.wikipedia.org/wiki/Chambas",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3564394.webp"
-   }
-  },
-  {
-   "id": "gn:3544171",
-   "name": "Pilón",
-   "label": "Pilón",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-12",
-   "country": "CU",
-   "lat": 19.9055,
-   "lon": -77.3215,
-   "rarity": "Rare",
-   "fame": 1380,
-   "facts": {
-    "population": 28752,
-    "elevation_m": 12,
-    "area_km2": 462,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "It is located on the southern coast of Cuba, in an inlet of the Caribbean Sea.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pilón, Cuba",
-    "url": "https://en.wikipedia.org/wiki/Pil%C3%B3n%2C_Cuba",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3544171.webp",
-    "author": "Óðinn",
-    "licence": "CC BY-SA 2.5 ca",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Costa_del_mar_Caribe_en_Pil%C3%B3n.jpg"
-   }
-  },
-  {
-   "id": "gn:3556078",
-   "name": "Jobabo",
-   "label": "Jobabo",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-10",
-   "country": "CU",
-   "lat": 20.9098,
-   "lon": -77.2845,
-   "rarity": "Rare",
-   "fame": 1320,
-   "facts": {
-    "population": 49403,
-    "elevation_m": 50,
-    "area_km2": 885,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "It is located in the southern part of the province, 34 km south of Las Tunas, the provincial capital.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Jobabo",
-    "url": "https://en.wikipedia.org/wiki/Jobabo",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3556078.webp"
-   }
-  },
-  {
-   "id": "gn:3567823",
-   "name": "Baraguá",
-   "label": "Baraguá",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-08",
-   "country": "CU",
-   "lat": 21.6822,
-   "lon": -78.6257,
-   "rarity": "Rare",
-   "fame": 1782,
-   "facts": {
-    "population": 15268,
-    "elevation_m": 9.0,
-    "area_km2": 728,
-    "temp_c": 25.6
-   },
-   "flavour": {
-    "text": "Its administrative seat is located in the town of Gaspar.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Baraguá",
-    "url": "https://en.wikipedia.org/wiki/Baragu%C3%A1",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3567823.webp",
-    "author": "carlos adan",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gaspar,_Cuba_-_panoramio.jpg"
-   }
-  },
-  {
-   "id": "gn:3564084",
-   "name": "Ciro Redondo",
-   "label": "Ciro Redondo",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-08",
-   "country": "CU",
-   "lat": 22.0192,
-   "lon": -78.7036,
-   "rarity": "Rare",
-   "fame": 1362,
-   "facts": {
-    "population": 29560,
-    "elevation_m": 44,
-    "area_km2": 588,
+    "population": 20390,
+    "elevation_m": 14,
+    "area_km2": 4.2,
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "It is located halfway between the cities of Ciego de Ávila and Morón and was named after Ciro Redondo.",
+    "text": "The town was the residence of the American author Ernest Hemingway, who lived there for a time and kept his fishing boat, the Pilar, in the town.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ciro Redondo",
-    "url": "https://en.wikipedia.org/wiki/Ciro_Redondo",
+    "title": "Cojímar",
+    "url": "https://en.wikipedia.org/wiki/Coj%C3%ADmar",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3564084.webp",
-    "author": "ricardosmp @ Mapillary",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ciro_Redondo_-_Mapillary_(2981018672173910).jpg"
+    "file": "images/photo/gn_3563908.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fuerte_de_Cojimar,_Cojimar,_Cuba_LCCN2010638895.tif"
    }
   },
   {
-   "id": "gn:3566573",
-   "name": "Cabañas",
-   "label": "Cabañas",
+   "id": "gn:3567995",
+   "name": "Bahía Honda",
+   "label": "Bahía Honda",
    "type": "town",
    "kind": "town",
    "region": "CU-15",
    "country": "CU",
-   "lat": 22.9794,
-   "lon": -82.9221,
+   "lat": 22.9033,
+   "lon": -83.1599,
    "rarity": "Rare",
-   "fame": 1398,
+   "fame": 5670,
    "facts": {
-    "population": 5894,
-    "elevation_m": 7.0,
-    "temp_c": 24.4
+    "population": 19834,
+    "elevation_m": 21,
+    "area_km2": 784,
+    "temp_c": 24.5
    },
    "flavour": {
-    "text": "Cabañas is a village and consejo popular of the municipality of Mariel, in the Artemisa Province, on the northeast coast in western Cuba.",
+    "text": "Before 2011, the municipality belonged to Pinar del Río Province.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cabañas, Cuba",
-    "url": "https://en.wikipedia.org/wiki/Caba%C3%B1as%2C_Cuba",
+    "title": "Bahía Honda, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Bah%C3%ADa_Honda%2C_Cuba",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3566573.webp",
-    "author": "Thousand*Fingers",
+    "file": "images/photo/gn_3567995.webp",
+    "author": "LBM1948",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Caba%C3%B1as(Cuba).jpeg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pinar_del_R%C3%ADo_(1983)_08.jpg"
+   }
+  },
+  {
+   "id": "gn:3541440",
+   "name": "Sagua la Grande",
+   "label": "Sagua la Grande",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.806,
+   "lon": -80.0742,
+   "rarity": "Rare",
+   "fame": 9534,
+   "facts": {
+    "population": 62073,
+    "elevation_m": 11,
+    "area_km2": 661,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Sagua la Grande is a municipality located on the north coast of the province of Villa Clara in central Cuba, on the Sagua la Grande River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sagua La Grande",
+    "url": "https://en.wikipedia.org/wiki/Sagua_La_Grande",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3541440.webp",
+    "author": "Saguero",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_de_Sagua_la_Grande.jpg"
+   }
+  },
+  {
+   "id": "gn:3547867",
+   "name": "Manzanillo",
+   "label": "Manzanillo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.3424,
+   "lon": -77.1193,
+   "rarity": "Rare",
+   "fame": 8916,
+   "facts": {
+    "population": 128188,
+    "elevation_m": 16,
+    "area_km2": 498,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "By population, it is the 14th-largest Cuban city and the most populated one not being a provincial seat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Manzanillo, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Manzanillo%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3547867.webp",
+    "author": "Corina Robles",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:S%C3%ADmbolo_de_la_Ciudad_(Glorieta).jpg"
+   }
+  },
+  {
+   "id": "gn:3534915",
+   "name": "Trinidad",
+   "label": "Trinidad",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-07",
+   "country": "CU",
+   "lat": 21.7996,
+   "lon": -79.9835,
+   "rarity": "Rare",
+   "fame": 23442,
+   "facts": {
+    "population": 60206,
+    "elevation_m": 53,
+    "area_km2": 1155,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Trinidad is one of the best-preserved cities in the Caribbean from the time when the sugar trade was the main industry in the region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trinidad, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Trinidad%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3534915.webp",
+    "author": "Dieter Mueller, dino1948",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Trinidad_(Kuba)_02.jpg"
+   }
+  },
+  {
+   "id": "gn:3547930",
+   "name": "Mantua",
+   "label": "Mantua",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.2917,
+   "lon": -84.283,
+   "rarity": "Rare",
+   "fame": 7620,
+   "facts": {
+    "population": 10797,
+    "elevation_m": 22,
+    "area_km2": 915,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Mantua is a municipality and town in the Pinar del Río Province of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mantua, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Mantua%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3547930.webp"
+   }
+  },
+  {
+   "id": "gn:3537845",
+   "name": "Santa Cruz del Norte",
+   "label": "Santa Cruz del Norte",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-16",
+   "country": "CU",
+   "lat": 23.1536,
+   "lon": -81.9226,
+   "rarity": "Rare",
+   "fame": 13140,
+   "facts": {
+    "population": 18402,
+    "elevation_m": 6.0,
+    "area_km2": 376,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Before 2011 it was part of La Habana Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Cruz del Norte",
+    "url": "https://en.wikipedia.org/wiki/Santa_Cruz_del_Norte",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3537845.webp",
+    "author": "Qyd",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_del_Norte.jpg"
+   }
+  },
+  {
+   "id": "gn:3534632",
+   "name": "Varadero",
+   "label": "Varadero",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 23.1568,
+   "lon": -81.2444,
+   "rarity": "Rare",
+   "fame": 33444,
+   "facts": {
+    "population": 20000,
+    "elevation_m": 8.0,
+    "area_km2": 32,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Varadero, also referred to as Playa Azul, is a resort town in the province of Matanzas, Cuba, and one of the largest resort areas in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Varadero",
+    "url": "https://en.wikipedia.org/wiki/Varadero",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3534632.webp",
+    "author": "Rômulo Ferreira",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Varadero_-_Cuba_(41007616331).jpg"
    }
   },
   {
@@ -2965,19 +3099,28 @@
    "lat": 22.2783,
    "lon": -83.7609,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1632,
    "facts": {
     "population": 6690,
     "elevation_m": 22,
+    "area_km2": 765,
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A community of 6,690 people in Pinar del Río.",
-    "source": "facts"
+    "text": "It is centered mainly on agriculture, stock raising.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Luis, Pinar del Río",
+    "url": "https://en.wikipedia.org/wiki/San_Luis%2C_Pinar_del_R%C3%ADo",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3539092.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3539092.webp",
+    "author": "Yerandy1990",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Paseo_Juana_Romero.jpg"
    }
   },
   {
@@ -3007,109 +3150,104 @@
    }
   },
   {
-   "id": "wd:Q5759207",
-   "name": "Cayo Loco",
-   "label": "Cayo Loco",
-   "type": "nature",
-   "kind": "island",
-   "region": "CU-06",
-   "country": "CU",
-   "lat": 22.1508,
-   "lon": -80.4558,
-   "rarity": "Common",
-   "fame": 138,
-   "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "An island in Cienfuegos.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5759207.webp"
-   }
-  },
-  {
-   "id": "gn:3536640",
-   "name": "Santo Domingo",
-   "label": "Santo Domingo",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-05",
-   "country": "CU",
-   "lat": 22.5867,
-   "lon": -80.2426,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 45476,
-    "elevation_m": 51,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 45,476 people in Villa Clara.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3536640.webp"
-   }
-  },
-  {
-   "id": "gn:3540667",
-   "name": "Sancti Spíritus",
-   "label": "Sancti Spíritus",
+   "id": "gn:3533826",
+   "name": "Yaguajay",
+   "label": "Yaguajay",
    "type": "town",
    "kind": "town",
    "region": "CU-07",
    "country": "CU",
-   "lat": 21.9343,
-   "lon": -79.4398,
-   "rarity": "Epic",
+   "lat": 22.3269,
+   "lon": -79.2369,
+   "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 127069,
-    "elevation_m": 57,
-    "temp_c": 25.7
+    "population": 42218,
+    "elevation_m": 22,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "A community of 127,069 people in Sancti Spíritus.",
+    "text": "A community of 42,218 people in Sancti Spíritus.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3540667.webp"
+    "file": "images/minimap/gn_3533826.webp"
    }
   },
   {
-   "id": "wd:Q126945093",
-   "name": "Church of the Holy Guardian Angel",
-   "label": "Church of the Holy Guardian Angel",
-   "type": "built",
-   "kind": "Catholic church building",
-   "region": "CU-03",
+   "id": "wd:Q23803955",
+   "name": "Cabaña River",
+   "label": "Cabaña River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-11",
    "country": "CU",
-   "lat": 23.1417,
-   "lon": -82.3558,
-   "rarity": "Rare",
-   "fame": 624,
+   "lat": 20.6444,
+   "lon": -74.9175,
+   "rarity": "Common",
+   "fame": 60,
    "facts": {
-    "elevation_m": 9.0,
-    "temp_c": 25.2
+    "elevation_m": 8.0,
+    "temp_c": 23.9
    },
    "flavour": {
-    "text": "A Catholic church building in Havana.",
+    "text": "A river in Holguín.",
     "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q126945093.webp",
-    "author": "Tacorontey",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_del_Santo_Angel,_La_Habana_Vieja.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23803955.webp"
+   }
+  },
+  {
+   "id": "wd:Q5759162",
+   "name": "Cayo Eusebio",
+   "label": "Cayo Eusebio",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-09",
+   "country": "CU",
+   "lat": 21.8667,
+   "lon": -77.6833,
+   "rarity": "Common",
+   "fame": 24,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "An island in Camagüey.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5759162.webp"
+   }
+  },
+  {
+   "id": "wd:Q123560436",
+   "name": "río Guajacabo",
+   "label": "río Guajacabo",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.4897,
+   "lon": -76.9761,
+   "rarity": "Common",
+   "fame": 30,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A river in Granma.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q123560436.webp"
    }
   }
  ]

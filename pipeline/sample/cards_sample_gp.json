@@ -375,34 +375,191 @@
    }
   },
   {
-   "id": "gn:3578682",
-   "name": "Petit-Bourg",
-   "label": "Petit-Bourg",
+   "id": "gn:3578967",
+   "name": "Le Moule",
+   "label": "Le Moule",
    "type": "town",
    "kind": "town",
    "region": "FR-GP",
    "country": "GP",
-   "lat": 16.1916,
-   "lon": -61.5914,
+   "lat": 16.3316,
+   "lon": -61.3466,
    "rarity": "Common",
-   "fame": 10890,
+   "fame": 11688,
    "facts": {
-    "population": 24994,
-    "elevation_m": 7.0,
-    "area_km2": 130,
+    "population": 22692,
+    "elevation_m": 8.0,
+    "area_km2": 83,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Le Moule is the sixth-largest commune in the French overseas department of Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Moule",
+    "url": "https://en.wikipedia.org/wiki/Le_Moule",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578967.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Jean-Baptiste_au_Moule_3.JPG"
+   }
+  },
+  {
+   "id": "gn:3579023",
+   "name": "Lamentin",
+   "label": "Lamentin",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2705,
+   "lon": -61.6317,
+   "rarity": "Common",
+   "fame": 11484,
+   "facts": {
+    "population": 14891,
+    "elevation_m": 10,
+    "area_km2": 66,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "Petit-Bourg is the seventh-largest commune in the French overseas department of Guadeloupe.",
+    "text": "It is part of the agglomeration of Pointe-à-Pitre, in the north part of Basse-Terre.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Petit-Bourg",
-    "url": "https://en.wikipedia.org/wiki/Petit-Bourg",
+    "title": "Lamentin",
+    "url": "https://en.wikipedia.org/wiki/Lamentin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579023.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamentin_-_Habitation_Routa_04.jpg"
+   }
+  },
+  {
+   "id": "gn:3578467",
+   "name": "Saint-Claude",
+   "label": "Saint-Claude",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0252,
+   "lon": -61.6998,
+   "rarity": "Common",
+   "fame": 10458,
+   "facts": {
+    "population": 10134,
+    "elevation_m": 462,
+    "area_km2": 34,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "It lies in the interior of southern Basse-Terre Island, just northeast of the capital city of Basse-Terre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Claude, Guadeloupe",
+    "url": "https://en.wikipedia.org/wiki/Saint-Claude%2C_Guadeloupe",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3578682.webp"
+    "file": "images/minimap/gn_3578467.webp"
+   }
+  },
+  {
+   "id": "gn:3578351",
+   "name": "Petites Anses",
+   "label": "Petites Anses",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.8499,
+   "lon": -61.6446,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1314,
+    "elevation_m": 44,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 1,314 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578351.webp"
+   }
+  },
+  {
+   "id": "gn:3578466",
+   "name": "Sainte-Anne",
+   "label": "Sainte-Anne",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2256,
+   "lon": -61.381,
+   "rarity": "Common",
+   "fame": 12168,
+   "facts": {
+    "population": 22859,
+    "elevation_m": 3.0,
+    "area_km2": 80,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It is one of the most popular tourist destinations of the island, along with Le Gosier and Saint-François.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sainte-Anne, Guadeloupe",
+    "url": "https://en.wikipedia.org/wiki/Sainte-Anne%2C_Guadeloupe",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578466.webp",
+    "author": "Grook Da Oger",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Matin_%C3%A0_la_plage_de_la_caravelle_-_07_2006.JPG"
+   }
+  },
+  {
+   "id": "gn:3579232",
+   "name": "Beauséjour",
+   "label": "Beauséjour",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3041,
+   "lon": -61.0737,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1716,
+    "elevation_m": 9.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 1,716 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579232.webp"
    }
   },
   {
@@ -441,6 +598,41 @@
    }
   },
   {
+   "id": "gn:3578324",
+   "name": "Trois-Rivières",
+   "label": "Trois-Rivières",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9759,
+   "lon": -61.6449,
+   "rarity": "Common",
+   "fame": 6360,
+   "facts": {
+    "population": 8812,
+    "elevation_m": 110,
+    "area_km2": 31,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Trois-Rivières is a commune in the overseas department of Guadeloupe, and the seat of the Canton of Trois-Rivières.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trois-Rivières, Guadeloupe",
+    "url": "https://en.wikipedia.org/wiki/Trois-Rivi%C3%A8res%2C_Guadeloupe",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578324.webp",
+    "author": "Rcdut",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guadeloupe06.JPG"
+   }
+  },
+  {
    "id": "gn:3579761",
    "name": "Baillif",
    "label": "Baillif",
@@ -476,264 +668,108 @@
    }
   },
   {
-   "id": "gn:3578351",
-   "name": "Petites Anses",
-   "label": "Petites Anses",
+   "id": "gn:3578278",
+   "name": "Vieux-Habitants",
+   "label": "Vieux-Habitants",
    "type": "town",
    "kind": "town",
    "region": "FR-GP",
    "country": "GP",
-   "lat": 15.8499,
-   "lon": -61.6446,
+   "lat": 16.0587,
+   "lon": -61.7667,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 7032,
    "facts": {
-    "population": 1314,
-    "elevation_m": 44,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "A community of 1,314 people in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3578351.webp"
-   }
-  },
-  {
-   "id": "gn:3578967",
-   "name": "Le Moule",
-   "label": "Le Moule",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.3316,
-   "lon": -61.3466,
-   "rarity": "Common",
-   "fame": 11688,
-   "facts": {
-    "population": 22692,
-    "elevation_m": 8.0,
-    "area_km2": 83,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "Le Moule is the sixth-largest commune in the French overseas department of Guadeloupe.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Le Moule",
-    "url": "https://en.wikipedia.org/wiki/Le_Moule",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3578967.webp",
-    "author": "LPLT",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Jean-Baptiste_au_Moule_3.JPG"
-   }
-  },
-  {
-   "id": "gn:3579232",
-   "name": "Beauséjour",
-   "label": "Beauséjour",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.3041,
-   "lon": -61.0737,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1716,
-    "elevation_m": 9.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "A community of 1,716 people in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3579232.webp"
-   }
-  },
-  {
-   "id": "gn:3579250",
-   "name": "Grand-Bourg",
-   "label": "Grand-Bourg",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 15.884,
-   "lon": -61.3148,
-   "rarity": "Common",
-   "fame": 6204,
-   "facts": {
-    "population": 5867,
+    "population": 7728,
     "elevation_m": 7.0,
-    "area_km2": 56,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "Grand-Bourg, also known as Grand-Bourg de Marie-Galante, is a commune on the island of Marie-Galante.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Grand-Bourg",
-    "url": "https://en.wikipedia.org/wiki/Grand-Bourg",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3579250.webp",
-    "author": "Smiley",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Grand_Bourg.jpg"
-   }
-  },
-  {
-   "id": "gn:3578447",
-   "name": "Sainte-Rose",
-   "label": "Sainte-Rose",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.3326,
-   "lon": -61.6969,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 20192,
-    "elevation_m": 22,
-    "temp_c": 25.0
-   },
-   "flavour": {
-    "text": "A community of 20,192 people in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3578447.webp"
-   }
-  },
-  {
-   "id": "gn:3579023",
-   "name": "Lamentin",
-   "label": "Lamentin",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.2705,
-   "lon": -61.6317,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 14891,
-    "elevation_m": 10,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 14,891 people in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3579023.webp"
-   }
-  },
-  {
-   "id": "gn:3578681",
-   "name": "Petit-Canal",
-   "label": "Petit-Canal",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.3791,
-   "lon": -61.4872,
-   "rarity": "Common",
-   "fame": 4884,
-   "facts": {
-    "population": 8554,
-    "elevation_m": 16,
-    "area_km2": 70,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "Petit-Canal is a coastal commune on Grande-Terre.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Petit-Canal",
-    "url": "https://en.wikipedia.org/wiki/Petit-Canal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3578681.webp",
-    "author": "Kim Hansen",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:WW1_monument_Petit-Canal_2010-03-28.jpg"
-   }
-  },
-  {
-   "id": "gn:3578467",
-   "name": "Saint-Claude",
-   "label": "Saint-Claude",
-   "type": "town",
-   "kind": "town",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.0252,
-   "lon": -61.6998,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 10134,
-    "elevation_m": 462,
+    "area_km2": 59,
     "temp_c": 23.5
    },
    "flavour": {
-    "text": "A community of 10,134 people in Guadeloupe.",
-    "source": "facts"
+    "text": "It is located on the southwest coast of the island of Basse-Terre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vieux-Habitants",
+    "url": "https://en.wikipedia.org/wiki/Vieux-Habitants",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3578467.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3578278.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Joseph_de_Vieux-Habitants_12.JPG"
    }
   },
   {
-   "id": "gn:3578466",
-   "name": "Sainte-Anne",
-   "label": "Sainte-Anne",
+   "id": "gn:3578594",
+   "name": "Pointe-Noire",
+   "label": "Pointe-Noire",
    "type": "town",
    "kind": "town",
    "region": "FR-GP",
    "country": "GP",
-   "lat": 16.2256,
-   "lon": -61.381,
+   "lat": 16.2322,
+   "lon": -61.7892,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 6084,
    "facts": {
-    "population": 22859,
-    "elevation_m": 3.0,
-    "temp_c": 26.4
+    "population": 7749,
+    "elevation_m": 9.0,
+    "area_km2": 60,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "A community of 22,859 people in Guadeloupe.",
-    "source": "facts"
+    "text": "It is located on the northwest coast of the island of Basse-Terre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pointe-Noire, Guadeloupe",
+    "url": "https://en.wikipedia.org/wiki/Pointe-Noire%2C_Guadeloupe",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3578466.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3578594.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre-Dame-de-l%27Assomption_de_Pointe-Noire.JPG"
+   }
+  },
+  {
+   "id": "gn:3579789",
+   "name": "Anse-Bertrand",
+   "label": "Anse-Bertrand",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.4724,
+   "lon": -61.5074,
+   "rarity": "Common",
+   "fame": 6846,
+   "facts": {
+    "population": 5146,
+    "elevation_m": 17,
+    "area_km2": 62,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Anse-Bertrand is a commune in Guadeloupe, an overseas region and department of France in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Anse-Bertrand",
+    "url": "https://en.wikipedia.org/wiki/Anse-Bertrand",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579789.webp",
+    "author": "FreeProuilhe",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porte_d%27enfer,_Anse-Bertrand,_Guadeloupe.jpg"
    }
   },
   {
@@ -2175,117 +2211,115 @@
    }
   },
   {
-   "id": "wd:Q24855416",
-   "name": "Morne Perelle",
-   "label": "Morne Perelle",
+   "id": "wd:Q125375802",
+   "name": "anse Guyonneau",
+   "label": "anse Guyonneau",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "bay",
    "region": "FR-GP",
    "country": "GP",
-   "lat": 15.9653,
-   "lon": -61.6797,
-   "rarity": "Common",
-   "fame": 30,
-   "facts": {
-    "elevation_m": 335,
-    "temp_c": 25.4
-   },
-   "flavour": {
-    "text": "A mountain in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q24855416.webp",
-    "author": "Enrevseluj",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vue_du_morne_P%C3%A9relle_et_du_morne_Bel-Air_par_le_port_de_Trois-Rivi%C3%A8res.jpg"
-   }
-  },
-  {
-   "id": "wd:Q24855330",
-   "name": "Rivière Mahault",
-   "label": "Rivière Mahault",
-   "type": "nature",
-   "kind": "river",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.2554,
-   "lon": -61.6093,
-   "rarity": "Common",
-   "fame": 138,
-   "facts": {
-    "elevation_m": 11,
-    "length_km": 14,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A river in Guadeloupe.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q24855330.webp",
-    "author": "Enrevseluj",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_Mahault.jpg"
-   }
-  },
-  {
-   "id": "wd:Q118976339",
-   "name": "chute de la rivière Caillou",
-   "label": "chute de la rivière Caillou",
-   "type": "nature",
-   "kind": "waterfall",
-   "region": "FR-GP",
-   "country": "GP",
-   "lat": 16.2379,
-   "lon": -61.7808,
+   "lat": 16.23,
+   "lon": -61.793,
    "rarity": "Common",
    "fame": 114,
    "facts": {
-    "elevation_m": 130,
+    "elevation_m": 0.0,
     "temp_c": 25.0
    },
    "flavour": {
-    "text": "A waterfall in Guadeloupe.",
+    "text": "A bay in Guadeloupe.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q118976339.webp",
+    "file": "images/photo/wd_Q125375802.webp",
     "author": "Enrevseluj",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Deuxi%C3%A8me_chute_de_la_rivi%C3%A8re_Caillou.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Anse_Guyonneau_(Pointe-Noire).jpg"
    }
   },
   {
-   "id": "wd:Q24861039",
-   "name": "rivière aux Herbes",
-   "label": "rivière aux Herbes",
+   "id": "wd:Q138680226",
+   "name": "Le Tambour",
+   "label": "Le Tambour",
    "type": "nature",
    "kind": "river",
    "region": "FR-GP",
    "country": "GP",
-   "lat": 16.0022,
-   "lon": -61.7167,
+   "lat": 16.1621,
+   "lon": -61.6437,
    "rarity": "Common",
-   "fame": 168,
+   "fame": 12,
    "facts": {
-    "elevation_m": 115,
-    "length_km": 6.3,
-    "temp_c": 23.5
+    "elevation_m": 340,
+    "temp_c": 24.5
    },
    "flavour": {
     "text": "A river in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q138680226.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deuxi%C3%A8me_Bras_du_Tambour.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24874179",
+   "name": "Îlet à Cabrit (Petit-Bourg)",
+   "label": "Îlet à Cabrit (Petit-Bourg)",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.1972,
+   "lon": -61.5756,
+   "rarity": "Common",
+   "fame": 192,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24874179.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%8Elet_%C3%A0_Cabrit_(Petit-Bourg).jpg"
+   }
+  },
+  {
+   "id": "wd:Q21511689",
+   "name": "Baleine du Sud",
+   "label": "Baleine du Sud",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.1642,
+   "lon": -61.3919,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q24861039.webp"
+    "file": "images/minimap/wd_Q21511689.webp"
    }
   }
  ]

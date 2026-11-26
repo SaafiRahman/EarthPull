@@ -1116,19 +1116,28 @@
    "lat": 10.6374,
    "lon": -61.2823,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 16020,
    "facts": {
     "population": 35000,
     "elevation_m": 62,
+    "area_km2": 12,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 35,000 people in Arima.",
-    "source": "facts"
+    "text": "Arima, officially The Royal Chartered Borough of Arima is the easternmost and second largest in area of the three boroughs of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arima",
+    "url": "https://en.wikipedia.org/wiki/Arima",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3575051.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3575051.webp",
+    "author": "Silverkid2",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Broadway_Arima.jpg"
    }
   },
   {
@@ -1142,19 +1151,28 @@
    "lat": 10.5167,
    "lon": -61.4167,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 49980,
    "facts": {
     "population": 67433,
     "elevation_m": 18,
+    "area_km2": 60,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A community of 67,433 people in Chaguanas.",
-    "source": "facts"
+    "text": "The Borough of Chaguanas is the largest municipality and fastest-growing town in Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chaguanas",
+    "url": "https://en.wikipedia.org/wiki/Chaguanas",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3574810.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3574810.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Chaguanas_6.jpg"
    }
   },
   {
@@ -1272,19 +1290,28 @@
    "lat": 10.1453,
    "lon": -61.5074,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 1116,
    "facts": {
     "population": 8568,
     "elevation_m": 61,
+    "area_km2": 510,
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A community of 8,568 people in Siparia Regional Corporation.",
-    "source": "facts"
+    "text": "The Borough of Siparia is the fifth and newest Borough of the Republic of Trinidad and Tobago, located in the southwestern portion of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Siparia (region)",
+    "url": "https://en.wikipedia.org/wiki/Siparia_%28region%29",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3573681.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3573681.webp",
+    "author": "Kalamazadkhan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quinam_bay,_Columbus_Channel,_South_Coast,_Trinidad_%26_Tobago.jpg"
    }
   },
   {
@@ -1949,32 +1976,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:El_Tucuche_45.jpg"
-   }
-  },
-  {
-   "id": "gn:3574636",
-   "name": "Diego Martin",
-   "label": "Diego Martin",
-   "type": "town",
-   "kind": "town",
-   "region": "TT-DMN",
-   "country": "TT",
-   "lat": 10.7208,
-   "lon": -61.5662,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 25370,
-    "elevation_m": 61,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "A community of 25,370 people in Diego Martin Regional Corporation.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3574636.webp"
    }
   }
  ]

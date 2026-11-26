@@ -314,7 +314,7 @@
   {
    "id": "wd:Q2661993",
    "name": "Moyuta",
-   "label": "Moyuta",
+   "label": "Moyuta (mountain)",
    "type": "nature",
    "kind": "mountain",
    "region": "GT-JU",
@@ -403,315 +403,411 @@
    }
   },
   {
-   "id": "gn:3589671",
-   "name": "San Pablo Jocopilas",
-   "label": "San Pablo Jocopilas",
+   "id": "gn:3589822",
+   "name": "San Luis Jilotepeque",
+   "label": "San Luis Jilotepeque",
    "type": "town",
    "kind": "town",
-   "region": "GT-SU",
+   "region": "GT-JA",
    "country": "GT",
-   "lat": 14.5888,
-   "lon": -91.4519,
+   "lat": 14.6472,
+   "lon": -89.7246,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3876,
    "facts": {
-    "population": 20433,
-    "elevation_m": 661,
-    "temp_c": 23.9
+    "population": 24679,
+    "elevation_m": 780,
+    "area_km2": 296,
+    "temp_c": 22.3
    },
    "flavour": {
-    "text": "A community of 20,433 people in Suchitepéquez.",
-    "source": "facts"
+    "text": "It covers an area of approximately 208.8 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Luis Jilotepeque",
+    "url": "https://en.wikipedia.org/wiki/San_Luis_Jilotepeque",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3589671.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3589822.webp",
+    "author": "DUSKR 09",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fotograf%C3%ADa_reciente.jpg"
    }
   },
   {
-   "id": "gn:3589669",
-   "name": "San Pablo La Laguna",
-   "label": "San Pablo La Laguna",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-SO",
-   "country": "GT",
-   "lat": 14.7209,
-   "lon": -91.2724,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 6186,
-    "elevation_m": 1666,
-    "temp_c": 15.5
-   },
-   "flavour": {
-    "text": "A community of 6,186 people in Sololá.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3589669.webp"
-   }
-  },
-  {
-   "id": "gn:3587506",
-   "name": "Zunilito",
-   "label": "Zunilito",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-SU",
-   "country": "GT",
-   "lat": 14.6126,
-   "lon": -91.5098,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2745,
-    "elevation_m": 787,
-    "temp_c": 25.0
-   },
-   "flavour": {
-    "text": "A community of 2,745 people in Suchitepéquez.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3587506.webp"
-   }
-  },
-  {
-   "id": "gn:3590347",
-   "name": "San Carlos Sija",
-   "label": "San Carlos Sija",
+   "id": "gn:3589778",
+   "name": "San Martín Sacatepéquez",
+   "label": "San Martín Sacatepéquez",
    "type": "town",
    "kind": "town",
    "region": "GT-QZ",
    "country": "GT",
-   "lat": 14.9844,
-   "lon": -91.5491,
+   "lat": 14.8244,
+   "lon": -91.6419,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3210,
    "facts": {
-    "population": 6831,
-    "elevation_m": 2646,
-    "temp_c": 12.4
+    "population": 3658,
+    "elevation_m": 2506,
+    "area_km2": 100,
+    "temp_c": 16.0
    },
    "flavour": {
-    "text": "A community of 6,831 people in Quetzaltenango.",
-    "source": "facts"
+    "text": "San Martín Sacatepéquez is one of 24 municipalities in the department of Quetzaltenango, Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Martín Sacatepéquez",
+    "url": "https://en.wikipedia.org/wiki/San_Mart%C3%ADn_Sacatep%C3%A9quez",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3590347.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3589778.webp",
+    "author": "Simon Burchell",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Mart%C3%ADn_Sacatep%C3%A9quez_18.JPG"
    }
   },
   {
-   "id": "gn:3589072",
-   "name": "Santo Domingo Xenacoj",
-   "label": "Santo Domingo Xenacoj",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-SA",
-   "country": "GT",
-   "lat": 14.6806,
-   "lon": -90.7001,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 8791,
-    "elevation_m": 1835,
-    "temp_c": 17.8
-   },
-   "flavour": {
-    "text": "A community of 8,791 people in Sacatepéquez.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3589072.webp"
-   }
-  },
-  {
-   "id": "gn:3588474",
-   "name": "Tectitán",
-   "label": "Tectitán",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-HU",
-   "country": "GT",
-   "lat": 15.3063,
-   "lon": -92.0605,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 743,
-    "elevation_m": 2210,
-    "temp_c": 14.2
-   },
-   "flavour": {
-    "text": "A community of 743 people in Huehuetenango.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3588474.webp"
-   }
-  },
-  {
-   "id": "gn:3590389",
-   "name": "San Benito",
-   "label": "San Benito",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-PE",
-   "country": "GT",
-   "lat": 16.9168,
-   "lon": -89.919,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 30764,
-    "elevation_m": 135,
-    "temp_c": 25.6
-   },
-   "flavour": {
-    "text": "A community of 30,764 people in Petén.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3590389.webp"
-   }
-  },
-  {
-   "id": "gn:3590788",
-   "name": "Río Hondo",
-   "label": "Río Hondo",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-ZA",
-   "country": "GT",
-   "lat": 15.045,
-   "lon": -89.5852,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5997,
-    "elevation_m": 192,
-    "temp_c": 22.6
-   },
-   "flavour": {
-    "text": "A community of 5,997 people in Zacapa.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3590788.webp"
-   }
-  },
-  {
-   "id": "gn:3589643",
-   "name": "San Pedro Carchá",
-   "label": "San Pedro Carchá",
+   "id": "gn:3598415",
+   "name": "Chisec",
+   "label": "Chisec",
    "type": "town",
    "kind": "town",
    "region": "GT-AV",
    "country": "GT",
-   "lat": 15.4774,
-   "lon": -90.311,
+   "lat": 15.8131,
+   "lon": -90.289,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3954,
    "facts": {
-    "population": 16353,
-    "elevation_m": 1283,
-    "temp_c": 17.2
+    "population": 17018,
+    "elevation_m": 223,
+    "area_km2": 1103,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "A community of 16,353 people in Alta Verapaz.",
-    "source": "facts"
+    "text": "Chisec is a town and municipality in the north of the Guatemalan department of Alta Verapaz that was founded in 1813.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chisec",
+    "url": "https://en.wikipedia.org/wiki/Chisec",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3589643.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3598415.webp",
+    "author": "Scott Sperber ssperber",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Guatemala_(Unsplash).jpg"
    }
   },
   {
-   "id": "gn:3597722",
-   "name": "Dolores",
-   "label": "Dolores",
+   "id": "gn:3598968",
+   "name": "Casillas",
+   "label": "Casillas",
    "type": "town",
    "kind": "town",
-   "region": "GT-PE",
+   "region": "GT-SR",
    "country": "GT",
-   "lat": 16.5118,
-   "lon": -89.417,
+   "lat": 14.4192,
+   "lon": -90.2433,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1644,
    "facts": {
-    "population": 10604,
-    "elevation_m": 428,
-    "temp_c": 24.1
+    "population": 7698,
+    "elevation_m": 1079,
+    "area_km2": 185,
+    "temp_c": 20.3
    },
    "flavour": {
-    "text": "A community of 10,604 people in Petén.",
-    "source": "facts"
+    "text": "It serves as the municipal seat for the surrounding municipality of the same name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Casillas, Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Casillas%2C_Guatemala",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3597722.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3598968.webp",
+    "author": "Daniel chavez castro",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayarza_en_un_domingo_t%C3%ADpico._-_panoramio.jpg"
    }
   },
   {
-   "id": "gn:3590424",
-   "name": "San Antonio Palopó",
-   "label": "San Antonio Palopó",
+   "id": "gn:3589548",
+   "name": "San Sebastián",
+   "label": "San Sebastián",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-RE",
+   "country": "GT",
+   "lat": 14.5618,
+   "lon": -91.6487,
+   "rarity": "Common",
+   "fame": 2076,
+   "facts": {
+    "population": 29167,
+    "elevation_m": 313,
+    "area_km2": 28,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "San Sebastián is a town and municipality in the Retalhuleu department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Sebastián, Retalhuleu",
+    "url": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n%2C_Retalhuleu",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589548.webp"
+   }
+  },
+  {
+   "id": "gn:3589282",
+   "name": "Santa Lucía Utatlán",
+   "label": "Santa Lucía Utatlán",
    "type": "town",
    "kind": "town",
    "region": "GT-SO",
    "country": "GT",
-   "lat": 14.6923,
-   "lon": -91.1164,
+   "lat": 14.7713,
+   "lon": -91.267,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 2430,
    "facts": {
-    "population": 3588,
-    "elevation_m": 1577,
-    "temp_c": 14.6
+    "population": 1305,
+    "elevation_m": 2497,
+    "area_km2": 44,
+    "temp_c": 15.5
    },
    "flavour": {
-    "text": "A community of 3,588 people in Sololá.",
-    "source": "facts"
+    "text": "Santa Lucía Utatlán is a municipality in the Sololá department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Lucía Utatlán",
+    "url": "https://en.wikipedia.org/wiki/Santa_Luc%C3%ADa_Utatl%C3%A1n",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3590424.webp"
+    "file": "images/minimap/gn_3589282.webp"
    }
   },
   {
-   "id": "gn:3589454",
-   "name": "Santa Catarina Palopó",
-   "label": "Santa Catarina Palopó",
+   "id": "gn:3595224",
+   "name": "Jerez",
+   "label": "Jerez",
    "type": "town",
    "kind": "town",
-   "region": "GT-SO",
+   "region": "GT-JU",
    "country": "GT",
-   "lat": 14.7233,
-   "lon": -91.1343,
+   "lat": 14.0908,
+   "lon": -89.7511,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1920,
    "facts": {
-    "population": 2948,
-    "elevation_m": 1591,
-    "temp_c": 14.6
+    "population": 4421,
+    "elevation_m": 680,
+    "area_km2": 60,
+    "temp_c": 23.4
    },
    "flavour": {
-    "text": "A community of 2,948 people in Sololá.",
-    "source": "facts"
+    "text": "It covers an area of approximately 46.72 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jerez, Jutiapa",
+    "url": "https://en.wikipedia.org/wiki/Jerez%2C_Jutiapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3595224.webp",
+    "author": "Marc03985",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AMANECER_JEREZANO.jpg"
+   }
+  },
+  {
+   "id": "gn:3599972",
+   "name": "Agua Blanca",
+   "label": "Agua Blanca",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-JU",
+   "country": "GT",
+   "lat": 14.498,
+   "lon": -89.6496,
+   "rarity": "Common",
+   "fame": 2484,
+   "facts": {
+    "population": 2776,
+    "elevation_m": 891,
+    "area_km2": 340,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "Agua Blanca is a municipality in the Jutiapa department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Agua Blanca, Jutiapa",
+    "url": "https://en.wikipedia.org/wiki/Agua_Blanca%2C_Jutiapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3599972.webp",
+    "author": "Daniel chavez castro",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Templo_Catolico_de_Agua_Blanca,_Jutiapa,_Guatemala._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3599094",
+   "name": "Canillá",
+   "label": "Canillá",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QC",
+   "country": "GT",
+   "lat": 15.1655,
+   "lon": -90.8526,
+   "rarity": "Common",
+   "fame": 2166,
+   "facts": {
+    "population": 1698,
+    "elevation_m": 1213,
+    "area_km2": 123,
+    "temp_c": 17.5
+   },
+   "flavour": {
+    "text": "Canillá is a municipality in the Guatemalan department of El Quiché with a surface area of 123 km2 and a population of 15,053 people.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canillá",
+    "url": "https://en.wikipedia.org/wiki/Canill%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3599094.webp",
+    "author": "Rrenner",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Canilla_Guatemala.jpg"
+   }
+  },
+  {
+   "id": "gn:3589770",
+   "name": "San Mateo Ixtatán",
+   "label": "San Mateo Ixtatán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.8319,
+   "lon": -91.4781,
+   "rarity": "Common",
+   "fame": 4152,
+   "facts": {
+    "population": 13213,
+    "elevation_m": 2599,
+    "area_km2": 560,
+    "temp_c": 14.5
+   },
+   "flavour": {
+    "text": "It is situated at 2,540 metres above sea level in the Cuchumatanes mountain range and covers 560 km² of terrain.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Mateo Ixtatán",
+    "url": "https://en.wikipedia.org/wiki/San_Mateo_Ixtat%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3589770.webp",
+    "author": "Simon Burchell",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Mateo_Ixtat%C3%A1n_1.jpg"
+   }
+  },
+  {
+   "id": "gn:3587546",
+   "name": "Zapotitlán",
+   "label": "Zapotitlán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-JU",
+   "country": "GT",
+   "lat": 14.1392,
+   "lon": -89.8263,
+   "rarity": "Common",
+   "fame": 1644,
+   "facts": {
+    "population": 1617,
+    "elevation_m": 874,
+    "area_km2": 84,
+    "temp_c": 23.4
+   },
+   "flavour": {
+    "text": "It covers an area of approximately 88.84 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Zapotitlán, Jutiapa",
+    "url": "https://en.wikipedia.org/wiki/Zapotitl%C3%A1n%2C_Jutiapa",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3589454.webp"
+    "file": "images/minimap/gn_3587546.webp"
+   }
+  },
+  {
+   "id": "gn:3589629",
+   "name": "San Pedro Pinula",
+   "label": "San Pedro Pinula",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-JA",
+   "country": "GT",
+   "lat": 14.6635,
+   "lon": -89.8462,
+   "rarity": "Common",
+   "fame": 3138,
+   "facts": {
+    "population": 3302,
+    "elevation_m": 1101,
+    "area_km2": 532,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "It covers an area of approximately 515.9 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Pedro Pinula",
+    "url": "https://en.wikipedia.org/wiki/San_Pedro_Pinula",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3589629.webp",
+    "author": "Gobierno de Guatemala",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Presidente_Giammattei_inaugur%C3%A1_instituto_tecnol%C3%B3gico_San_Pedro_Pinula_Jalapa_20240108.jpg"
    }
   },
   {
@@ -1297,6 +1393,76 @@
    }
   },
   {
+   "id": "gn:3598572",
+   "name": "Chimaltenango",
+   "label": "Chimaltenango",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-CM",
+   "country": "GT",
+   "lat": 14.6588,
+   "lon": -90.8216,
+   "rarity": "Epic",
+   "fame": 15720,
+   "facts": {
+    "population": 96985,
+    "elevation_m": 1795,
+    "area_km2": 86,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "It serves as both the capital of the department of Chimaltenango and the municipal seat for the surrounding municipality of the same name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chimaltenango",
+    "url": "https://en.wikipedia.org/wiki/Chimaltenango",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3598572.webp",
+    "author": "Tom Fortunato",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Chimaltenango.jpg"
+   }
+  },
+  {
+   "id": "gn:3593376",
+   "name": "Lívingston",
+   "label": "Lívingston",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.8283,
+   "lon": -88.7504,
+   "rarity": "Epic",
+   "fame": 27918,
+   "facts": {
+    "population": 17923,
+    "elevation_m": 16,
+    "area_km2": 1940,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Livingston is a town in Izabal Department, eastern Guatemala, at the mouth of the Río Dulce at the Gulf of Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Livingston, Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Livingston%2C_Guatemala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3593376.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrer_de_Livingston.JPG"
+   }
+  },
+  {
    "id": "gn:3590616",
    "name": "Salamá",
    "label": "Salamá",
@@ -1307,19 +1473,28 @@
    "lat": 15.1021,
    "lon": -90.3191,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 7656,
    "facts": {
     "population": 65275,
     "elevation_m": 936,
+    "area_km2": 776,
     "temp_c": 20.1
    },
    "flavour": {
-    "text": "A community of 65,275 people in Baja Verapaz.",
-    "source": "facts"
+    "text": "It is the capital of the department of Baja Verapaz and it is situated at 940 m above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salamá",
+    "url": "https://en.wikipedia.org/wiki/Salam%C3%A1",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3590616.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3590616.webp",
+    "author": "César Gularte",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Sanmateosalama.jpg"
    }
   },
   {
@@ -1333,123 +1508,98 @@
    "lat": 14.301,
    "lon": -90.7882,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 18054,
    "facts": {
     "population": 156313,
     "elevation_m": 349,
+    "area_km2": 332,
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A community of 156,313 people in Escuintla.",
-    "source": "facts"
+    "text": "Escuintla is an industrial city in Guatemala, its land area is 4,384 km2, and it is nationally known for its sugar agribusiness.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Escuintla",
+    "url": "https://en.wikipedia.org/wiki/Escuintla",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3595803.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3595803.webp",
+    "author": "mardoqueo sagastume",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palin,_Guatemala_-_panoramio_(1).jpg"
    }
   },
   {
-   "id": "gn:3598572",
-   "name": "Chimaltenango",
-   "label": "Chimaltenango",
+   "id": "gn:3590979",
+   "name": "Quetzaltenango",
+   "label": "Quetzaltenango",
    "type": "town",
    "kind": "town",
-   "region": "GT-CM",
+   "region": "GT-QZ",
    "country": "GT",
-   "lat": 14.6588,
-   "lon": -90.8216,
+   "lat": 14.8446,
+   "lon": -91.5232,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 77922,
    "facts": {
-    "population": 96985,
-    "elevation_m": 1795,
-    "temp_c": 16.8
+    "population": 180706,
+    "elevation_m": 2351,
+    "area_km2": 120,
+    "temp_c": 12.4
    },
    "flavour": {
-    "text": "A community of 96,985 people in Chimaltenango.",
-    "source": "facts"
+    "text": "Quetzaltenango (Spanish pronunciation:, also known by its Kʼicheʼ Maya name Xelajú or Xela.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quetzaltenango",
+    "url": "https://en.wikipedia.org/wiki/Quetzaltenango",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3598572.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3590979.webp",
+    "author": "Bruno Rijsman",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xela_to_Lake_Atitlan_Trek_(Guatemala,_February_2020)_-_8_(49991937477).jpg"
    }
   },
   {
-   "id": "gn:3587587",
-   "name": "Zacapa",
-   "label": "Zacapa",
+   "id": "gn:3589404",
+   "name": "Santa Cruz del Quiché",
+   "label": "Santa Cruz del Quiché",
    "type": "town",
    "kind": "town",
-   "region": "GT-ZA",
+   "region": "GT-QC",
    "country": "GT",
-   "lat": 14.9687,
-   "lon": -89.5273,
+   "lat": 15.0299,
+   "lon": -91.1488,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 10518,
    "facts": {
-    "population": 60424,
-    "elevation_m": 232,
-    "temp_c": 25.8
+    "population": 78279,
+    "elevation_m": 1979,
+    "area_km2": 128,
+    "temp_c": 15.8
    },
    "flavour": {
-    "text": "A community of 60,424 people in Zacapa.",
-    "source": "facts"
+    "text": "It serves as the capital of the El Quiché department and the municipal seat of Santa Cruz del Quiché municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Cruz del Quiché",
+    "url": "https://en.wikipedia.org/wiki/Santa_Cruz_del_Quich%C3%A9",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3587587.webp"
-   }
-  },
-  {
-   "id": "gn:3592609",
-   "name": "Mazatenango",
-   "label": "Mazatenango",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-SU",
-   "country": "GT",
-   "lat": 14.5341,
-   "lon": -91.5031,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 77431,
-    "elevation_m": 373,
-    "temp_c": 25.0
-   },
-   "flavour": {
-    "text": "A community of 77,431 people in Suchitepéquez.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3592609.webp"
-   }
-  },
-  {
-   "id": "gn:3596421",
-   "name": "Guastatoya",
-   "label": "Guastatoya",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-PR",
-   "country": "GT",
-   "lat": 14.8544,
-   "lon": -90.0699,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 24831,
-    "elevation_m": 520,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 24,831 people in El Progreso.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3596421.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3589404.webp",
+    "author": "AmaretoCR",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Gobernacion_de_Santa_Cruz_del_Quiche.jpg"
    }
   },
   {
@@ -1463,102 +1613,133 @@
    "lat": 16.9226,
    "lon": -89.8994,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 27588,
    "facts": {
     "population": 20464,
     "elevation_m": 121,
+    "area_km2": 4348,
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 20,464 people in Petén.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3595725.webp"
-   }
-  },
-  {
-   "id": "gn:3598119",
-   "name": "Cobán",
-   "label": "Cobán",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-AV",
-   "country": "GT",
-   "lat": 15.4703,
-   "lon": -90.3745,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 212047,
-    "elevation_m": 1326,
-    "temp_c": 18.3
-   },
-   "flavour": {
-    "text": "A community of 212,047 people in Alta Verapaz.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3598119.webp"
-   }
-  },
-  {
-   "id": "gn:3588258",
-   "name": "Totonicapán",
-   "label": "Totonicapán",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-TO",
-   "country": "GT",
-   "lat": 14.9119,
-   "lon": -91.3605,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 103952,
-    "elevation_m": 2499,
-    "temp_c": 12.7
-   },
-   "flavour": {
-    "text": "A community of 103,952 people in Totonicapán.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3588258.webp"
-   }
-  },
-  {
-   "id": "gn:11449731",
-   "name": "Nuevo León",
-   "label": "Nuevo León",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-HU",
-   "country": "GT",
-   "lat": 15.7937,
-   "lon": -91.0924,
-   "rarity": "Epic",
-   "fame": 222,
-   "facts": {
-    "population": 10000,
-    "elevation_m": 200,
-    "area_km2": 2000,
-    "temp_c": 22.0
-   },
-   "flavour": {
-    "text": "A community of 10,000 people in Huehuetenango.",
-    "source": "facts"
+    "text": "Flores is the capital of the Petén Department, Guatemala's landlocked, sparsely populated northernmost department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Flores, Petén",
+    "url": "https://en.wikipedia.org/wiki/Flores%2C_Pet%C3%A9n",
+    "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_11449731.webp",
-    "author": "New Lyon",
+    "file": "images/photo/gn_3595725.webp",
+    "author": "Juan Francisco",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flores_Island.jpg"
+   }
+  },
+  {
+   "id": "gn:3597804",
+   "name": "Cuilapa",
+   "label": "Cuilapa",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SR",
+   "country": "GT",
+   "lat": 14.2754,
+   "lon": -90.2986,
+   "rarity": "Epic",
+   "fame": 5634,
+   "facts": {
+    "population": 41359,
+    "elevation_m": 983,
+    "area_km2": 365,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It serves as the capital of the department of Santa Rosa and as the administrative seat for the surrounding municipality of Cuilapa.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cuilapa",
+    "url": "https://en.wikipedia.org/wiki/Cuilapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3597804.webp",
+    "author": "Lee Siebert (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cuilapa-Barbarena_volcanic_field.jpg"
+   }
+  },
+  {
+   "id": "gn:3590858",
+   "name": "Retalhuleu",
+   "label": "Retalhuleu",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-RE",
+   "country": "GT",
+   "lat": 14.5358,
+   "lon": -91.6785,
+   "rarity": "Epic",
+   "fame": 11988,
+   "facts": {
+    "population": 90505,
+    "elevation_m": 241,
+    "area_km2": 796,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is the departmental seat of Retalhuleu Department as well as the municipal seat of Retalhuleu Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Retalhuleu",
+    "url": "https://en.wikipedia.org/wiki/Retalhuleu",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3590858.webp",
+    "author": "Rodrigobaaz",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nuevo_Le%C3%B3n_(Guatemala).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_Central_Retalhuleu.jpg"
+   }
+  },
+  {
+   "id": "gn:3595237",
+   "name": "Jalapa",
+   "label": "Jalapa",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-JA",
+   "country": "GT",
+   "lat": 14.6354,
+   "lon": -89.9911,
+   "rarity": "Epic",
+   "fame": 10320,
+   "facts": {
+    "population": 159840,
+    "elevation_m": 1360,
+    "area_km2": 544,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "The municipality covers an area of 686 km2, making it the largest municipality by area in the Jalapa department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jalapa, Jalapa",
+    "url": "https://en.wikipedia.org/wiki/Jalapa%2C_Jalapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3595237.webp",
+    "author": "Daniel chavez castro",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Templo_catolico_principal_de_Jalapa._-_panoramio.jpg"
    }
   },
   {
@@ -1688,33 +1869,37 @@
    }
   },
   {
-   "id": "gn:3598129",
-   "name": "Ciudad Tecún Umán",
-   "label": "Ciudad Tecún Umán",
+   "id": "gn:3599699",
+   "name": "Antigua Guatemala",
+   "label": "Antigua Guatemala",
    "type": "town",
    "kind": "town",
-   "region": "GT-SM",
+   "region": "GT-SA",
    "country": "GT",
-   "lat": 14.6774,
-   "lon": -92.1404,
+   "lat": 14.5564,
+   "lon": -90.7332,
    "rarity": "Legendary",
-   "fame": 5364,
+   "fame": 160632,
    "facts": {
-    "population": 11432,
-    "elevation_m": 29,
-    "temp_c": 27.5
+    "population": 46054,
+    "elevation_m": 1583,
+    "temp_c": 16.8
    },
    "flavour": {
-    "text": "A community of 11,432 people in San Marcos.",
-    "source": "facts"
+    "text": "Antigua Guatemala serves as the capital of the homonymous municipality and the Sacatepéquez Department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antigua Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Antigua_Guatemala",
+    "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3598129.webp",
-    "author": "AlejandroLinaresGarcia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:PlazachurchTecun.JPG"
+    "file": "images/photo/gn_3599699.webp",
+    "author": "Chad Davis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Catalina_Arch_-_Antigua_Guatemala_Feb_2020.jpg"
    }
   },
   {
@@ -2515,81 +2700,487 @@
    }
   },
   {
-   "id": "gn:3594422",
-   "name": "La Libertad",
-   "label": "La Libertad (Petén)",
+   "id": "gn:3592362",
+   "name": "Morales",
+   "label": "Morales",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.4723,
+   "lon": -88.8407,
+   "rarity": "Rare",
+   "fame": 6096,
+   "facts": {
+    "population": 18994,
+    "elevation_m": 48,
+    "area_km2": 1295,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The municipality was created in 1920 and is formed by the town of Morales, 9 villages and 56 rural communities.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morales, Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Morales%2C_Guatemala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3592362.webp",
+    "author": "Alberto G. Valdeavellano",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Prosperomorales1896.JPG"
+   }
+  },
+  {
+   "id": "gn:3590389",
+   "name": "San Benito",
+   "label": "San Benito",
    "type": "town",
    "kind": "town",
    "region": "GT-PE",
    "country": "GT",
-   "lat": 16.7885,
-   "lon": -90.117,
-   "rarity": "Common",
-   "fame": 0,
+   "lat": 16.9168,
+   "lon": -89.919,
+   "rarity": "Rare",
+   "fame": 5400,
    "facts": {
-    "population": 8646,
-    "elevation_m": 186,
-    "temp_c": 25.7
+    "population": 30764,
+    "elevation_m": 135,
+    "area_km2": 112,
+    "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 8,646 people in Petén.",
-    "source": "facts"
+    "text": "It covers an area of 112 km2, and had 29,926 inhabitants at the 2002 Census; the latest official estimate was 59,486 people.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Benito, Guatemala",
+    "url": "https://en.wikipedia.org/wiki/San_Benito%2C_Guatemala",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3594422.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3590389.webp",
+    "author": "Jhosek",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Municipalidad_de_San_Benito.jpg"
    }
   },
   {
-   "id": "gn:3589468",
-   "name": "Santa Bárbara",
-   "label": "Santa Bárbara (Huehuetenango)",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-HU",
-   "country": "GT",
-   "lat": 15.3162,
-   "lon": -91.6328,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 888,
-    "elevation_m": 2435,
-    "temp_c": 16.7
-   },
-   "flavour": {
-    "text": "A community of 888 people in Huehuetenango.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3589468.webp"
-   }
-  },
-  {
-   "id": "gn:3599793",
-   "name": "Almolonga",
-   "label": "Almolonga (Quetzaltenango)",
+   "id": "gn:3590605",
+   "name": "Salcajá",
+   "label": "Salcajá",
    "type": "town",
    "kind": "town",
    "region": "GT-QZ",
    "country": "GT",
-   "lat": 14.8159,
-   "lon": -91.4946,
-   "rarity": "Common",
-   "fame": 0,
+   "lat": 14.8796,
+   "lon": -91.457,
+   "rarity": "Rare",
+   "fame": 5334,
    "facts": {
-    "population": 12299,
-    "elevation_m": 2261,
-    "temp_c": 14.4
+    "population": 19434,
+    "elevation_m": 2322,
+    "area_km2": 12,
+    "temp_c": 12.7
    },
    "flavour": {
-    "text": "A community of 12,299 people in Quetzaltenango.",
-    "source": "facts"
+    "text": "Salcajá is a town and municipality in Quetzaltenango department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salcajá",
+    "url": "https://en.wikipedia.org/wiki/Salcaj%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3590605.webp",
+    "author": "Carlos López Mendizábal",
+    "licence": "GFDL",
+    "licence_url": "http://www.gnu.org/copyleft/fdl.html",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Salcaj%C3%A1_1524_b.jpg"
+   }
+  },
+  {
+   "id": "gn:3591851",
+   "name": "Palencia",
+   "label": "Palencia",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.6671,
+   "lon": -90.3572,
+   "rarity": "Rare",
+   "fame": 7392,
+   "facts": {
+    "population": 18574,
+    "elevation_m": 1368,
+    "area_km2": 196,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "Palencia is a town, with a population of 31,824, and a municipality in the Guatemala department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palencia, Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Palencia%2C_Guatemala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3591851.webp",
+    "author": "Titanium Zem",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica-Palencia-Guatemala.jpg"
+   }
+  },
+  {
+   "id": "gn:3590030",
+   "name": "San José del Golfo",
+   "label": "San José del Golfo",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.7641,
+   "lon": -90.3723,
+   "rarity": "Rare",
+   "fame": 4992,
+   "facts": {
+    "population": 4908,
+    "elevation_m": 909,
+    "area_km2": 84,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "The Municipality of San José del Golfo is located 28 kilometers from the Capital City to the north-east of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San José del Golfo",
+    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_del_Golfo",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3599793.webp"
+    "file": "images/minimap/gn_3590030.webp"
+   }
+  },
+  {
+   "id": "gn:3592237",
+   "name": "Nebaj",
+   "label": "Nebaj",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QC",
+   "country": "GT",
+   "lat": 15.4061,
+   "lon": -91.1468,
+   "rarity": "Rare",
+   "fame": 7980,
+   "facts": {
+    "population": 23301,
+    "elevation_m": 1909,
+    "area_km2": 600,
+    "temp_c": 15.2
+   },
+   "flavour": {
+    "text": "Santa María Nebaj is part of the Ixil Community, along with San Juan Cotzal and San Gaspar Chajul.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa María Nebaj",
+    "url": "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_Nebaj",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3592237.webp",
+    "author": "Murray Foubister",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Last_look_back_at_Nebaj_(6849898718).jpg"
+   }
+  },
+  {
+   "id": "gn:3598122",
+   "name": "Coatepeque",
+   "label": "Coatepeque",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QZ",
+   "country": "GT",
+   "lat": 14.7041,
+   "lon": -91.8643,
+   "rarity": "Rare",
+   "fame": 12132,
+   "facts": {
+    "population": 105415,
+    "elevation_m": 500,
+    "area_km2": 426,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "According to the 2018 census, the town of Coatepeque had a population of 37,330.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coatepeque, Quetzaltenango",
+    "url": "https://en.wikipedia.org/wiki/Coatepeque%2C_Quetzaltenango",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3598122.webp",
+    "author": "Jose Manuel",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coatepeque_Aerial.jpg"
+   }
+  },
+  {
+   "id": "gn:3595148",
+   "name": "Joyabaj",
+   "label": "Joyabaj",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QC",
+   "country": "GT",
+   "lat": 14.9931,
+   "lon": -90.8016,
+   "rarity": "Rare",
+   "fame": 5664,
+   "facts": {
+    "population": 13164,
+    "elevation_m": 1432,
+    "area_km2": 304,
+    "temp_c": 19.5
+   },
+   "flavour": {
+    "text": "It is located about 50 kilometers from Santa Cruz del Quiché, in the Sierra de Chuacús mountains.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Joyabaj",
+    "url": "https://en.wikipedia.org/wiki/Joyabaj",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3595148.webp",
+    "author": "Rrenner",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20061109_19-13-42joyobamarket.JPG"
+   }
+  },
+  {
+   "id": "gn:3587923",
+   "name": "Villa Canales",
+   "label": "Villa Canales",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.4828,
+   "lon": -90.5343,
+   "rarity": "Rare",
+   "fame": 9984,
+   "facts": {
+    "population": 155423,
+    "elevation_m": 1218,
+    "area_km2": 353,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "Villa Canales is a city and municipality in the Guatemala department of Guatemala, situated 22 km south of the capital Guatemala City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Villa Canales",
+    "url": "https://en.wikipedia.org/wiki/Villa_Canales",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587923.webp",
+    "author": "Nuziel",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boca2013.jpg"
+   }
+  },
+  {
+   "id": "gn:3590924",
+   "name": "Rabinal",
+   "label": "Rabinal",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-BV",
+   "country": "GT",
+   "lat": 15.0853,
+   "lon": -90.4925,
+   "rarity": "Rare",
+   "fame": 6432,
+   "facts": {
+    "population": 15157,
+    "elevation_m": 975,
+    "area_km2": 504,
+    "temp_c": 20.5
+   },
+   "flavour": {
+    "text": "The municipality covers an area of 336 km2 with a population of 40,797.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rabinal",
+    "url": "https://en.wikipedia.org/wiki/Rabinal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3590924.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Rabinal1927.jpg"
+   }
+  },
+  {
+   "id": "gn:3592753",
+   "name": "Malacatán",
+   "label": "Malacatán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 14.9113,
+   "lon": -92.0579,
+   "rarity": "Rare",
+   "fame": 8850,
+   "facts": {
+    "population": 92816,
+    "elevation_m": 395,
+    "area_km2": 204,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Malacatán is a town and municipality in the San Marcos department of Guatemala, located to the west of San Marcos town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Malacatán",
+    "url": "https://en.wikipedia.org/wiki/Malacat%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3592753.webp",
+    "author": "Panoramio",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Malacatan.jpg"
+   }
+  },
+  {
+   "id": "gn:3589452",
+   "name": "Santa Catarina Pinula",
+   "label": "Santa Catarina Pinula",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.5705,
+   "lon": -90.4993,
+   "rarity": "Rare",
+   "fame": 8142,
+   "facts": {
+    "population": 80582,
+    "elevation_m": 1538,
+    "area_km2": 50,
+    "temp_c": 17.6
+   },
+   "flavour": {
+    "text": "Santa Catarina Pinula is a town, with a population of 70,982 and a municipality in the Guatemala Department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Catarina Pinula",
+    "url": "https://en.wikipedia.org/wiki/Santa_Catarina_Pinula",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3589452.webp",
+    "author": "Rene Hernandez",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Catarina_Pinula.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3132625",
+   "name": "Nebaj",
+   "label": "Nebaj (archaeological site)",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-QC",
+   "country": "GT",
+   "lat": 15.4083,
+   "lon": -91.1472,
+   "rarity": "Rare",
+   "fame": 834,
+   "facts": {
+    "elevation_m": 1900,
+    "temp_c": 15.2
+   },
+   "flavour": {
+    "text": "Nebaj is an archaeological site of the pre-Columbian Maya civilization, located in the western Guatemala highlands near the Ixil village of Santa María Nebaj.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nebaj",
+    "url": "https://en.wikipedia.org/wiki/Nebaj",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3132625.webp",
+    "author": "Daderot",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Nebaj_Polychrome_Fragment_of_Old_Fire_God,_900-1200_AD,_Maya,_Guatemala_-_Houston_Museum_of_Natural_Science_-_DSC02122.JPG"
+   }
+  },
+  {
+   "id": "gn:3589626",
+   "name": "San Pedro Sacatepéquez",
+   "label": "San Pedro Sacatepéquez (San Marcos)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 14.9681,
+   "lon": -91.7617,
+   "rarity": "Rare",
+   "fame": 7674,
+   "facts": {
+    "population": 40021,
+    "elevation_m": 2321,
+    "area_km2": 253,
+    "temp_c": 13.8
+   },
+   "flavour": {
+    "text": "San Pedro Sacatepéquez is a city, with a population of 49,589, and a municipality in the San Marcos department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Pedro Sacatepéquez, San Marcos",
+    "url": "https://en.wikipedia.org/wiki/San_Pedro_Sacatep%C3%A9quez%2C_San_Marcos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3589626.webp",
+    "author": "Jenny Ramos y Sofía Soto",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%BCipil_elaborado_en_San_Pedro_Sacatep%C3%A9quez,_San_Marcos.jpg"
    }
   },
   {
@@ -2619,29 +3210,32 @@
    }
   },
   {
-   "id": "gn:3589626",
-   "name": "San Pedro Sacatepéquez",
-   "label": "San Pedro Sacatepéquez (San Marcos)",
-   "type": "town",
-   "kind": "town",
+   "id": "wd:Q3820666",
+   "name": "La Blanca",
+   "label": "La Blanca (near Ciudad Tecún Umán)",
+   "type": "built",
+   "kind": "archaeological site",
    "region": "GT-SM",
    "country": "GT",
-   "lat": 14.9681,
-   "lon": -91.7617,
-   "rarity": "Common",
-   "fame": 0,
+   "lat": 14.5952,
+   "lon": -92.1387,
+   "rarity": "Rare",
+   "fame": 750,
    "facts": {
-    "population": 40021,
-    "elevation_m": 2321,
-    "temp_c": 13.8
+    "elevation_m": 13,
+    "temp_c": 27.9
    },
    "flavour": {
-    "text": "A community of 40,021 people in San Marcos.",
-    "source": "facts"
+    "text": "La Blanca is a pre-Columbian Mesoamerican archaeological site in present-day La Blanca, San Marcos Department, western Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Blanca, San Marcos (archaeological site)",
+    "url": "https://en.wikipedia.org/wiki/La_Blanca%2C_San_Marcos_%28archaeological_site%29",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3589626.webp"
+    "file": "images/minimap/wd_Q3820666.webp"
    }
   },
   {
@@ -2655,15 +3249,20 @@
    "lat": 14.5545,
    "lon": -90.9437,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3282,
    "facts": {
     "population": 12136,
     "elevation_m": 1563,
+    "area_km2": 172,
     "temp_c": 15.6
    },
    "flavour": {
-    "text": "A community of 12,136 people in Chimaltenango.",
-    "source": "facts"
+    "text": "It is in this municipality that the Acatenango volcano is located.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Acatenango, Chimaltenango",
+    "url": "https://en.wikipedia.org/wiki/Acatenango%2C_Chimaltenango",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
@@ -2671,81 +3270,108 @@
    }
   },
   {
-   "id": "gn:3598655",
-   "name": "Chichicastenango",
-   "label": "Chichicastenango",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-QC",
+   "id": "wd:Q5922135",
+   "name": "Isla de Los Gatos",
+   "label": "Isla de Los Gatos",
+   "type": "nature",
+   "kind": "island",
+   "region": "GT-SO",
    "country": "GT",
-   "lat": 14.9433,
-   "lon": -91.1112,
+   "lat": 14.65,
+   "lon": -91.2333,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 252,
    "facts": {
-    "population": 141567,
-    "elevation_m": 2077,
-    "temp_c": 14.8
+    "elevation_m": 1556,
+    "temp_c": 19.2
    },
    "flavour": {
-    "text": "A community of 141,567 people in Quiché.",
+    "text": "An island in Sololá.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3598655.webp"
+    "file": "images/minimap/wd_Q5922135.webp"
    }
   },
   {
-   "id": "gn:3587543",
-   "name": "Zaragoza",
-   "label": "Zaragoza",
+   "id": "gn:3598119",
+   "name": "Cobán",
+   "label": "Cobán",
    "type": "town",
    "kind": "town",
-   "region": "GT-CM",
+   "region": "GT-AV",
    "country": "GT",
-   "lat": 14.6497,
-   "lon": -90.8903,
-   "rarity": "Common",
+   "lat": 15.4703,
+   "lon": -90.3745,
+   "rarity": "Epic",
    "fame": 0,
    "facts": {
-    "population": 24022,
-    "elevation_m": 2062,
-    "temp_c": 15.6
+    "population": 212047,
+    "elevation_m": 1326,
+    "temp_c": 18.3
    },
    "flavour": {
-    "text": "A community of 24,022 people in Chimaltenango.",
+    "text": "A community of 212,047 people in Alta Verapaz.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3587543.webp"
+    "file": "images/minimap/gn_3598119.webp"
    }
   },
   {
-   "id": "gn:3593500",
-   "name": "La Unión",
-   "label": "La Unión",
-   "type": "town",
-   "kind": "town",
-   "region": "GT-ZA",
+   "id": "wd:Q5922517",
+   "name": "Islote Pedregal",
+   "label": "Islote Pedregal",
+   "type": "nature",
+   "kind": "island",
+   "region": "GT-PE",
    "country": "GT",
-   "lat": 14.9666,
-   "lon": -89.2902,
+   "lat": 16.9333,
+   "lon": -89.9167,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 66,
    "facts": {
-    "population": 3682,
-    "elevation_m": 902,
-    "temp_c": 22.4
+    "elevation_m": 112,
+    "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 3,682 people in Zacapa.",
+    "text": "An island in Petén.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3593500.webp"
+    "file": "images/minimap/wd_Q5922517.webp"
+   }
+  },
+  {
+   "id": "wd:Q17630138",
+   "name": "Sierra de Chamá",
+   "label": "Sierra de Chamá",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "GT-AV",
+   "country": "GT",
+   "lat": 15.6667,
+   "lon": -90.5,
+   "rarity": "Common",
+   "fame": 540,
+   "facts": {
+    "elevation_m": 326,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A mountain range in Alta Verapaz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17630138.webp",
+    "author": "SteveTMP12",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Cob%C3%A1n,_Guatemala.jpg"
    }
   }
  ]

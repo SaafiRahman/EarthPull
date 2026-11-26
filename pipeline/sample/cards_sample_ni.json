@@ -2,38 +2,38 @@
  "note": "Sample of the Nicaragua card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
-   "id": "wd:Q173862",
-   "name": "Lake Nicaragua",
-   "label": "Lake Nicaragua",
-   "type": "nature",
-   "kind": "lake",
-   "region": "NI-RI",
+   "id": "gn:3617763",
+   "name": "Managua",
+   "label": "Managua",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
    "country": "NI",
-   "lat": 11.5742,
-   "lon": -85.3563,
+   "lat": 12.1328,
+   "lon": -86.2504,
    "rarity": "Mythic",
-   "fame": 92436,
+   "fame": 157668,
    "facts": {
-    "elevation_m": 32,
-    "area_km2": 8264,
-    "length_km": 148,
-    "temp_c": 26.5
+    "population": 973087,
+    "elevation_m": 108,
+    "area_km2": 267,
+    "temp_c": 25.5
    },
    "flavour": {
-    "text": "With an elevation of 32.7 metres above sea level, the lake reaches a depth of 26 metres.",
+    "text": "Managua is the capital and largest city of Nicaragua, and one of the largest cities in Central America.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lake Nicaragua",
-    "url": "https://en.wikipedia.org/wiki/Lake_Nicaragua",
+    "title": "Managua",
+    "url": "https://en.wikipedia.org/wiki/Managua",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q173862.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:ISS066-E-103300_-_View_of_Nicaragua.jpg"
+    "file": "images/photo/gn_3617763.webp",
+    "author": "Jairo Cajina",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Avenida_Bolivar_A_Chavez.jpg"
    }
   },
   {
@@ -408,6 +408,366 @@
    }
   },
   {
+   "id": "gn:3617191",
+   "name": "Posoltega",
+   "label": "Posoltega",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.5442,
+   "lon": -86.9798,
+   "rarity": "Common",
+   "fame": 1404,
+   "facts": {
+    "population": 6403,
+    "elevation_m": 73,
+    "area_km2": 149,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Posoltega is a municipality in the Chinandega department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Posoltega, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Posoltega%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617191.webp"
+   }
+  },
+  {
+   "id": "gn:3616572",
+   "name": "San Sebastián de Yalí",
+   "label": "San Sebastián de Yalí",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-JI",
+   "country": "NI",
+   "lat": 13.3054,
+   "lon": -86.1864,
+   "rarity": "Common",
+   "fame": 1986,
+   "facts": {
+    "population": 4514,
+    "elevation_m": 855,
+    "area_km2": 401,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "San Sebastián de Yalí is a municipality in the Jinotega department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Sebastián de Yalí",
+    "url": "https://en.wikipedia.org/wiki/San_Sebasti%C3%A1n_de_Yal%C3%AD",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616572.webp",
+    "author": "JOAN PLANAS",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_yali.jpg"
+   }
+  },
+  {
+   "id": "gn:3616584",
+   "name": "San Ramón",
+   "label": "San Ramón",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MT",
+   "country": "NI",
+   "lat": 12.9234,
+   "lon": -85.839,
+   "rarity": "Common",
+   "fame": 1380,
+   "facts": {
+    "population": 2827,
+    "elevation_m": 639,
+    "area_km2": 424,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "San Ramón is a municipality in the Matagalpa department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Ramón, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/San_Ram%C3%B3n%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616584.webp"
+   }
+  },
+  {
+   "id": "gn:3615865",
+   "name": "Valle San Francisco",
+   "label": "Valle San Francisco",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.5248,
+   "lon": -86.2887,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2219,
+    "elevation_m": 64,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 2,219 people in Managua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3615865.webp"
+   }
+  },
+  {
+   "id": "gn:3620930",
+   "name": "Altagracia",
+   "label": "Altagracia",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.5662,
+   "lon": -85.5784,
+   "rarity": "Common",
+   "fame": 3708,
+   "facts": {
+    "population": 2771,
+    "elevation_m": 66,
+    "area_km2": 211,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Altagracia is a municipality in the Rivas Department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Altagracia",
+    "url": "https://en.wikipedia.org/wiki/Altagracia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620930.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Altagracia_Finca_Magdalena_y_Volcan_Concepcion.jpg"
+   }
+  },
+  {
+   "id": "gn:3617109",
+   "name": "Quilalí",
+   "label": "Quilalí",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-NS",
+   "country": "NI",
+   "lat": 13.567,
+   "lon": -86.026,
+   "rarity": "Common",
+   "fame": 2646,
+   "facts": {
+    "population": 13590,
+    "elevation_m": 412,
+    "area_km2": 345,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "Quilalí is a town and a municipality in the Nueva Segovia Department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quilalí",
+    "url": "https://en.wikipedia.org/wiki/Quilal%C3%AD",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3617109.webp",
+    "author": "Elizabeth Sampson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quilal%C3%AD.jpg"
+   }
+  },
+  {
+   "id": "gn:3616721",
+   "name": "San Juan de Río Coco",
+   "label": "San Juan de Río Coco",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MD",
+   "country": "NI",
+   "lat": 13.5448,
+   "lon": -86.165,
+   "rarity": "Common",
+   "fame": 2436,
+   "facts": {
+    "population": 3820,
+    "elevation_m": 822,
+    "area_km2": 182,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "San Juan del Río Coco is a town and a municipality in the Madriz department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan del Río Coco",
+    "url": "https://en.wikipedia.org/wiki/San_Juan_del_R%C3%ADo_Coco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616721.webp",
+    "author": "Pete",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan_Rio_Coco.jpg"
+   }
+  },
+  {
+   "id": "gn:3616349",
+   "name": "Santo Tomás",
+   "label": "Santo Tomás",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.0694,
+   "lon": -85.0906,
+   "rarity": "Common",
+   "fame": 2058,
+   "facts": {
+    "population": 14809,
+    "elevation_m": 412,
+    "area_km2": 547,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "It occupies an area of 546.6 km2, and as per 2023 estimate, the municipality has a population of 19,932 individuals.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santo Tomás, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Santo_Tom%C3%A1s%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616349.webp"
+   }
+  },
+  {
+   "id": "gn:3620318",
+   "name": "Comalapa",
+   "label": "Comalapa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.2835,
+   "lon": -85.5108,
+   "rarity": "Common",
+   "fame": 1140,
+   "facts": {
+    "population": 1272,
+    "elevation_m": 273,
+    "area_km2": 644,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It occupied an area of 643.9 km2, and as per 2023 estimate, the municipality has a population of 18,383 individuals.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Comalapa, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Comalapa%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3620318.webp"
+   }
+  },
+  {
+   "id": "gn:3616594",
+   "name": "San Rafael del Sur",
+   "label": "San Rafael del Sur",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 11.8485,
+   "lon": -86.4384,
+   "rarity": "Common",
+   "fame": 3264,
+   "facts": {
+    "population": 29836,
+    "elevation_m": 126,
+    "area_km2": 357,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "San Rafael del Sur is a town and a municipality in the Managua department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Rafael del Sur",
+    "url": "https://en.wikipedia.org/wiki/San_Rafael_del_Sur",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616594.webp",
+    "author": "Oyaudi",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Rafael_del_Sur.jpg"
+   }
+  },
+  {
+   "id": "gn:3616794",
+   "name": "San Jorge",
+   "label": "San Jorge",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.4558,
+   "lon": -85.8031,
+   "rarity": "Common",
+   "fame": 1614,
+   "facts": {
+    "population": 7158,
+    "elevation_m": 54,
+    "area_km2": 25,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "San Jorge is a municipality in the Rivas department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Jorge, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/San_Jorge%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616794.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Jorge_Puerto.jpg"
+   }
+  },
+  {
    "id": "gn:3617569",
    "name": "Moyogalpa",
    "label": "Moyogalpa",
@@ -418,305 +778,28 @@
    "lat": 11.5401,
    "lon": -85.698,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3192,
    "facts": {
     "population": 3940,
     "elevation_m": 20,
+    "area_km2": 66,
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A community of 3,940 people in Rivas.",
-    "source": "facts"
+    "text": "Moyogalpa is the largest village and the home of the largest of the three ferry ports on Ometepe Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moyogalpa",
+    "url": "https://en.wikipedia.org/wiki/Moyogalpa",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3617569.webp"
-   }
-  },
-  {
-   "id": "gn:3828262",
-   "name": "Ciudad Sandino",
-   "label": "Ciudad Sandino",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-MN",
-   "country": "NI",
-   "lat": 12.1589,
-   "lon": -86.3442,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 50000,
-    "elevation_m": 105,
-    "temp_c": 25.5
-   },
-   "flavour": {
-    "text": "A community of 50,000 people in Managua.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3828262.webp"
-   }
-  },
-  {
-   "id": "gn:3620473",
-   "name": "Villa El Carmen",
-   "label": "Villa El Carmen",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-MN",
-   "country": "NI",
-   "lat": 11.9801,
-   "lon": -86.5057,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5219,
-    "elevation_m": 107,
-    "temp_c": 27.1
-   },
-   "flavour": {
-    "text": "A community of 5,219 people in Managua.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3620473.webp"
-   }
-  },
-  {
-   "id": "gn:3616028",
-   "name": "Tisma",
-   "label": "Tisma",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-MS",
-   "country": "NI",
-   "lat": 12.0819,
-   "lon": -86.0174,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5182,
-    "elevation_m": 53,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 5,182 people in Masaya.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3616028.webp"
-   }
-  },
-  {
-   "id": "gn:3618954",
-   "name": "Jalapa",
-   "label": "Jalapa",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-NS",
-   "country": "NI",
-   "lat": 13.9222,
-   "lon": -86.1235,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 24037,
-    "elevation_m": 686,
-    "temp_c": 23.0
-   },
-   "flavour": {
-    "text": "A community of 24,037 people in Nueva Segovia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3618954.webp"
-   }
-  },
-  {
-   "id": "gn:3620544",
-   "name": "Camoapa",
-   "label": "Camoapa",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-BO",
-   "country": "NI",
-   "lat": 12.3838,
-   "lon": -85.5128,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 16653,
-    "elevation_m": 530,
-    "temp_c": 24.0
-   },
-   "flavour": {
-    "text": "A community of 16,653 people in Boaco.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3620544.webp"
-   }
-  },
-  {
-   "id": "gn:3617565",
-   "name": "Mozonte",
-   "label": "Mozonte",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-NS",
-   "country": "NI",
-   "lat": 13.6603,
-   "lon": -86.4384,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2338,
-    "elevation_m": 697,
-    "temp_c": 23.0
-   },
-   "flavour": {
-    "text": "A community of 2,338 people in Nueva Segovia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3617565.webp"
-   }
-  },
-  {
-   "id": "gn:3617459",
-   "name": "Nueva Guinea",
-   "label": "Nueva Guinea",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-AS",
-   "country": "NI",
-   "lat": 11.6876,
-   "lon": -84.4562,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 52929,
-    "elevation_m": 212,
-    "temp_c": 25.4
-   },
-   "flavour": {
-    "text": "A community of 52,929 people in South Caribbean Coast.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3617459.webp"
-   }
-  },
-  {
-   "id": "gn:3616441",
-   "name": "Santa María",
-   "label": "Santa María",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-NS",
-   "country": "NI",
-   "lat": 13.7467,
-   "lon": -86.7093,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 720,
-    "elevation_m": 777,
-    "temp_c": 24.3
-   },
-   "flavour": {
-    "text": "A community of 720 people in Nueva Segovia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3616441.webp"
-   }
-  },
-  {
-   "id": "gn:3616597",
-   "name": "San Rafael del Norte",
-   "label": "San Rafael del Norte",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-JI",
-   "country": "NI",
-   "lat": 13.2125,
-   "lon": -86.1109,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5458,
-    "elevation_m": 1081,
-    "temp_c": 20.2
-   },
-   "flavour": {
-    "text": "A community of 5,458 people in Jinotega.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3616597.webp"
-   }
-  },
-  {
-   "id": "gn:3620353",
-   "name": "Ciudad Antigua",
-   "label": "Ciudad Antigua",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-NS",
-   "country": "NI",
-   "lat": 13.6406,
-   "lon": -86.3081,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1787,
-    "elevation_m": 634,
-    "temp_c": 22.4
-   },
-   "flavour": {
-    "text": "A community of 1,787 people in Nueva Segovia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3620353.webp"
-   }
-  },
-  {
-   "id": "gn:3617115",
-   "name": "Quezalguaque",
-   "label": "Quezalguaque",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-LE",
-   "country": "NI",
-   "lat": 12.5068,
-   "lon": -86.9029,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1974,
-    "elevation_m": 98,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "A community of 1,974 people in León.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3617115.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3617569.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moyogalpa_Puerto.jpg"
    }
   },
   {
@@ -919,6 +1002,71 @@
    }
   },
   {
+   "id": "wd:Q173862",
+   "name": "Lake Nicaragua",
+   "label": "Lake Nicaragua",
+   "type": "nature",
+   "kind": "lake",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.5742,
+   "lon": -85.3563,
+   "rarity": "Epic",
+   "fame": 92436,
+   "facts": {
+    "elevation_m": 32,
+    "area_km2": 8264,
+    "length_km": 148,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "With an elevation of 32.7 metres above sea level, the lake reaches a depth of 26 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Lake_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q173862.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS066-E-103300_-_View_of_Nicaragua.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6727157",
+   "name": "Volcán Maderas",
+   "label": "Volcán Maderas",
+   "type": "nature",
+   "kind": "national park",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.4453,
+   "lon": -85.5079,
+   "rarity": "Epic",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 1198,
+    "area_km2": 26,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The reserve contains Volcán Maderas, an extinct 1,394-meter volcano surrounded by a cloud forest.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán Maderas Natural Reserve",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Maderas_Natural_Reserve",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6727157.webp"
+   }
+  },
+  {
    "id": "wd:Q3364508",
    "name": "Saslaya National Park",
    "label": "Saslaya National Park",
@@ -942,40 +1090,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/wd_Q3364508.webp"
-   }
-  },
-  {
-   "id": "wd:Q950875",
-   "name": "Ometepe",
-   "label": "Ometepe",
-   "type": "nature",
-   "kind": "island",
-   "region": "NI-RI",
-   "country": "NI",
-   "lat": 11.4984,
-   "lon": -85.6255,
-   "rarity": "Epic",
-   "fame": 28848,
-   "facts": {
-    "elevation_m": 1610,
-    "area_km2": 277,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "Ometepe is an island formed by two volcanoes rising out of Lake Nicaragua, located in the Rivas Department of the Republic of Nicaragua.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Ometepe",
-    "url": "https://en.wikipedia.org/wiki/Ometepe",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q950875.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-33030_-_View_of_Nicaragua.jpg"
    }
   },
   {
@@ -1038,115 +1152,106 @@
    }
   },
   {
-   "id": "wd:Q6727157",
-   "name": "Volcán Maderas",
-   "label": "Volcán Maderas",
+   "id": "wd:Q950875",
+   "name": "Ometepe",
+   "label": "Ometepe",
    "type": "nature",
-   "kind": "national park",
+   "kind": "island",
    "region": "NI-RI",
    "country": "NI",
-   "lat": 11.4453,
-   "lon": -85.5079,
+   "lat": 11.4984,
+   "lon": -85.6255,
    "rarity": "Epic",
-   "fame": 228,
+   "fame": 28848,
    "facts": {
-    "elevation_m": 1198,
-    "area_km2": 26,
+    "elevation_m": 1610,
+    "area_km2": 277,
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "The reserve contains Volcán Maderas, an extinct 1,394-meter volcano surrounded by a cloud forest.",
+    "text": "Ometepe is an island formed by two volcanoes rising out of Lake Nicaragua, located in the Rivas Department of the Republic of Nicaragua.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Volcán Maderas Natural Reserve",
-    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Maderas_Natural_Reserve",
+    "title": "Ometepe",
+    "url": "https://en.wikipedia.org/wiki/Ometepe",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q6727157.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q950875.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-33030_-_View_of_Nicaragua.jpg"
    }
   },
   {
-   "id": "gn:3620680",
-   "name": "Bluefields",
-   "label": "Bluefields",
+   "id": "gn:3617448",
+   "name": "Ocotal",
+   "label": "Ocotal",
    "type": "town",
    "kind": "town",
-   "region": "NI-AS",
+   "region": "NI-NS",
    "country": "NI",
-   "lat": 12.0129,
-   "lon": -83.7645,
+   "lat": 13.6322,
+   "lon": -86.474,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 7806,
    "facts": {
-    "population": 44373,
-    "elevation_m": 11,
-    "temp_c": 25.9
+    "population": 33928,
+    "elevation_m": 600,
+    "area_km2": 85,
+    "temp_c": 23.0
    },
    "flavour": {
-    "text": "A community of 44,373 people in South Caribbean Coast.",
-    "source": "facts"
+    "text": "Ocotal is the capital of the Nueva Segovia Department in Nicaragua, Central America and the municipal seat of Ocotal Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ocotal",
+    "url": "https://en.wikipedia.org/wiki/Ocotal",
+    "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3620680.webp",
-    "author": "一井 潤一",
+    "file": "images/photo/gn_3617448.webp",
+    "author": "Pasionyanhelo",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2015bluefieldsDSC_0195.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Templo_Parroquial_de_Ocotal.jpg"
    }
   },
   {
-   "id": "gn:3620674",
-   "name": "Boaco",
-   "label": "Boaco",
+   "id": "gn:3617723",
+   "name": "Masaya",
+   "label": "Masaya",
    "type": "town",
    "kind": "town",
-   "region": "NI-BO",
+   "region": "NI-MS",
    "country": "NI",
-   "lat": 12.4726,
-   "lon": -85.6596,
+   "lat": 11.9732,
+   "lon": -86.0959,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 36,
    "facts": {
-    "population": 29046,
-    "elevation_m": 335,
-    "temp_c": 24.0
+    "population": 130113,
+    "elevation_m": 242,
+    "temp_c": 25.2
    },
    "flavour": {
-    "text": "A community of 29,046 people in Boaco.",
-    "source": "facts"
+    "text": "Masaya is the capital city of Masaya Department in Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Masaya, Masaya",
+    "url": "https://en.wikipedia.org/wiki/Masaya%2C_Masaya",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3620674.webp"
-   }
-  },
-  {
-   "id": "gn:3618908",
-   "name": "Juigalpa",
-   "label": "Juigalpa",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-CO",
-   "country": "NI",
-   "lat": 12.1059,
-   "lon": -85.3655,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 50000,
-    "elevation_m": 105,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "A community of 50,000 people in Chontales.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3618908.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3617723.webp",
+    "author": "Byralaal",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Masaya_church_in_the_Central_Park.jpg"
    }
   },
   {
@@ -1160,19 +1265,168 @@
    "lat": 11.1271,
    "lon": -84.7779,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 7152,
    "facts": {
     "population": 13451,
     "elevation_m": 29,
+    "area_km2": 1445,
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "A community of 13,451 people in Río San Juan.",
-    "source": "facts"
+    "text": "It is situated on the southern shore of Lake Nicaragua, at the confluence of the San Juan River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Carlos, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/San_Carlos%2C_Nicaragua",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3616911.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3616911.webp",
+    "author": "David Berkowitz",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Carlos_Nicaragua-2.jpg"
+   }
+  },
+  {
+   "id": "gn:3618929",
+   "name": "Jinotega",
+   "label": "Jinotega",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-JI",
+   "country": "NI",
+   "lat": 13.091,
+   "lon": -86.0023,
+   "rarity": "Epic",
+   "fame": 14526,
+   "facts": {
+    "population": 55000,
+    "elevation_m": 1007,
+    "area_km2": 880,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "Jinotega is the capital city of the Department of Jinotega in north-central Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jinotega",
+    "url": "https://en.wikipedia.org/wiki/Jinotega",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3618929.webp",
+    "author": "HeraldFrancisco NI",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jinotega_desde_el_Cerro_Cubulc%C3%A1n.jpg"
+   }
+  },
+  {
+   "id": "gn:3618908",
+   "name": "Juigalpa",
+   "label": "Juigalpa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.1059,
+   "lon": -85.3655,
+   "rarity": "Epic",
+   "fame": 6450,
+   "facts": {
+    "population": 50000,
+    "elevation_m": 105,
+    "area_km2": 727,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Juigalpa is the municipal seat of Juigalpa Municipality and the capital city of the Chontales Department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juigalpa, Chontales",
+    "url": "https://en.wikipedia.org/wiki/Juigalpa%2C_Chontales",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3618908.webp",
+    "author": "Zenia Nuñez",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Juigalpa_Catedral.jpg"
+   }
+  },
+  {
+   "id": "gn:3620674",
+   "name": "Boaco",
+   "label": "Boaco",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-BO",
+   "country": "NI",
+   "lat": 12.4726,
+   "lon": -85.6596,
+   "rarity": "Epic",
+   "fame": 6198,
+   "facts": {
+    "population": 29046,
+    "elevation_m": 335,
+    "area_km2": 1087,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "Boaco is the capital city and a municipality of the Boaco Department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Boaco",
+    "url": "https://en.wikipedia.org/wiki/Boaco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620674.webp",
+    "author": "Enrique Padilla Díaz",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_in_Boaco.jpg"
+   }
+  },
+  {
+   "id": "gn:3620680",
+   "name": "Bluefields",
+   "label": "Bluefields",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 12.0129,
+   "lon": -83.7645,
+   "rarity": "Epic",
+   "fame": 80004,
+   "facts": {
+    "population": 44373,
+    "elevation_m": 11,
+    "area_km2": 4775,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Bluefields is a city and municipality on the central Mosquito Coast, and capital of the South Caribbean Coast Autonomous Region, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bluefields",
+    "url": "https://en.wikipedia.org/wiki/Bluefields",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620680.webp",
+    "author": "一井 潤一",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2015bluefieldsDSC_0195.jpg"
    }
   },
   {
@@ -1202,175 +1456,73 @@
    }
   },
   {
-   "id": "gn:3616730",
-   "name": "Grey Town",
-   "label": "Grey Town",
+   "id": "gn:3616726",
+   "name": "San Juan del Sur",
+   "label": "San Juan del Sur",
    "type": "town",
    "kind": "town",
-   "region": "NI-SJ",
+   "region": "NI-RI",
    "country": "NI",
-   "lat": 10.9468,
-   "lon": -83.7347,
+   "lat": 11.2529,
+   "lon": -85.8705,
    "rarity": "Epic",
-   "fame": 2166,
+   "fame": 23280,
    "facts": {
-    "population": 642,
-    "elevation_m": 6.0,
-    "temp_c": 26.2
+    "population": 7790,
+    "elevation_m": 9.0,
+    "area_km2": 411,
+    "temp_c": 26.4
    },
    "flavour": {
-    "text": "It is located at the mouth of the San Juan River and serves as the administrative centre of the municipality of San Juan de Nicaragua.",
+    "text": "San Juan del Sur is a municipality and coastal town on the Pacific Ocean, in the Rivas department in southwest Nicaragua.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Greytown, Nicaragua",
-    "url": "https://en.wikipedia.org/wiki/Greytown%2C_Nicaragua",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3616730.webp"
-   }
-  },
-  {
-   "id": "gn:3619194",
-   "name": "Estelí",
-   "label": "Estelí",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-ES",
-   "country": "NI",
-   "lat": 13.0929,
-   "lon": -86.3559,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 96422,
-    "elevation_m": 833,
-    "temp_c": 21.5
-   },
-   "flavour": {
-    "text": "A community of 96,422 people in Estelí.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3619194.webp"
-   }
-  },
-  {
-   "id": "gn:3617204",
-   "name": "Poneloya",
-   "label": "Poneloya",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-LE",
-   "country": "NI",
-   "lat": 12.3783,
-   "lon": -87.0422,
-   "rarity": "Epic",
-   "fame": 1830,
-   "facts": {
-    "population": 4232,
-    "elevation_m": 6.0,
-    "temp_c": 27.5
-   },
-   "flavour": {
-    "text": "It lies within the León Department and borders Las Peñitas, Nicaragua.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Poneloya, Nicaragua",
-    "url": "https://en.wikipedia.org/wiki/Poneloya%2C_Nicaragua",
+    "title": "San Juan del Sur",
+    "url": "https://en.wikipedia.org/wiki/San_Juan_del_Sur",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3617204.webp",
-    "author": "Juan José Mendoza",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Poneloya,_Nicaragua_-_panoramio_(3).jpg"
-   }
-  },
-  {
-   "id": "gn:3618030",
-   "name": "León",
-   "label": "León",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-LE",
-   "country": "NI",
-   "lat": 12.4353,
-   "lon": -86.8786,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 144538,
-    "elevation_m": 102,
-    "temp_c": 27.3
-   },
-   "flavour": {
-    "text": "A community of 144,538 people in León.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3618030.webp"
-   }
-  },
-  {
-   "id": "gn:3618929",
-   "name": "Jinotega",
-   "label": "Jinotega",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-JI",
-   "country": "NI",
-   "lat": 13.091,
-   "lon": -86.0023,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 55000,
-    "elevation_m": 1007,
-    "temp_c": 22.0
-   },
-   "flavour": {
-    "text": "A community of 55,000 people in Jinotega.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3618929.webp",
-    "author": "HeraldFrancisco NI",
+    "file": "images/photo/gn_3616726.webp",
+    "author": "JorgeRodriguez",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Jinotega_desde_el_Cerro_Cubulc%C3%A1n.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan_del_Sur,_Nicaragua._View_from_SANSA_Flight_(Liberia-Costa_Esmeralda).jpg"
    }
   },
   {
-   "id": "gn:3617763",
-   "name": "Managua",
-   "label": "Managua",
+   "id": "gn:3616232",
+   "name": "Somoto",
+   "label": "Somoto",
    "type": "town",
    "kind": "town",
-   "region": "NI-MN",
+   "region": "NI-MD",
    "country": "NI",
-   "lat": 12.1328,
-   "lon": -86.2504,
-   "rarity": "Legendary",
-   "fame": 0,
+   "lat": 13.4841,
+   "lon": -86.5823,
+   "rarity": "Epic",
+   "fame": 8172,
    "facts": {
-    "population": 973087,
-    "elevation_m": 108,
-    "temp_c": 25.5
+    "population": 20316,
+    "elevation_m": 683,
+    "area_km2": 466,
+    "temp_c": 21.7
    },
    "flavour": {
-    "text": "A community of 973,087 people in Managua.",
-    "source": "facts"
+    "text": "Somoto is a city and a municipality located in the hills of northern Nicaragua, and capital of the department of Madriz.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Somoto, Madriz",
+    "url": "https://en.wikipedia.org/wiki/Somoto%2C_Madriz",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3617763.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3616232.webp",
+    "author": "WillSV",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Somoto_Parroquia.JPG"
    }
   },
   {
@@ -2090,6 +2242,422 @@
    }
   },
   {
+   "id": "gn:3615745",
+   "name": "Waslala",
+   "label": "Waslala",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AN",
+   "country": "NI",
+   "lat": 13.335,
+   "lon": -85.37,
+   "rarity": "Rare",
+   "fame": 4962,
+   "facts": {
+    "population": 6498,
+    "elevation_m": 376,
+    "area_km2": 1905,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "It is located 71 miles from Matagalpa and 161 miles from Managua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Waslala",
+    "url": "https://en.wikipedia.org/wiki/Waslala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3615745.webp",
+    "author": "Shared Interest",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Waslala_2008.jpg"
+   }
+  },
+  {
+   "id": "gn:3620645",
+   "name": "Bonanza",
+   "label": "Bonanza",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AN",
+   "country": "NI",
+   "lat": 14.03,
+   "lon": -84.597,
+   "rarity": "Rare",
+   "fame": 4452,
+   "facts": {
+    "population": 6315,
+    "elevation_m": 198,
+    "area_km2": 1898,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Bonanza, Nicaragua is a town and a municipality in the North Caribbean Coast Autonomous Region of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bonanza, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Bonanza%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620645.webp",
+    "author": "Drebert",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Bonanza1.jpg"
+   }
+  },
+  {
+   "id": "gn:3616682",
+   "name": "San Marcos",
+   "label": "San Marcos",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CA",
+   "country": "NI",
+   "lat": 11.9095,
+   "lon": -86.2035,
+   "rarity": "Rare",
+   "fame": 3948,
+   "facts": {
+    "population": 23347,
+    "elevation_m": 554,
+    "area_km2": 118,
+    "temp_c": 23.4
+   },
+   "flavour": {
+    "text": "It is located 45 km south of the capital Managua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Marcos, Carazo",
+    "url": "https://en.wikipedia.org/wiki/San_Marcos%2C_Carazo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616682.webp",
+    "author": "Renamed_user_6e0b88a454af314221db5ecfd50beda0",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SanMarcos_Nicaragua.jpg"
+   }
+  },
+  {
+   "id": "gn:3618954",
+   "name": "Jalapa",
+   "label": "Jalapa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-NS",
+   "country": "NI",
+   "lat": 13.9222,
+   "lon": -86.1235,
+   "rarity": "Rare",
+   "fame": 5430,
+   "facts": {
+    "population": 24037,
+    "elevation_m": 686,
+    "area_km2": 687,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "It is located in northern Nicaragua, close to the Honduras border.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jalapa, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Jalapa%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3618954.webp",
+    "author": "Jack Fiallos",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Almacenes_de_tabaco,_Jalapa,_Nicaragua.jpg"
+   }
+  },
+  {
+   "id": "gn:3616253",
+   "name": "Siuna",
+   "label": "Siuna",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AN",
+   "country": "NI",
+   "lat": 13.7332,
+   "lon": -84.7772,
+   "rarity": "Rare",
+   "fame": 5484,
+   "facts": {
+    "population": 16056,
+    "elevation_m": 193,
+    "area_km2": 3422,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Siuna is a county-sized administrative municipality in Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Siuna",
+    "url": "https://en.wikipedia.org/wiki/Siuna",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616253.webp",
+    "author": "Drebert revisiting childhood locales near the Ei River Hydro Electric Plant in Nicaragua . Most photos uploaded by user are Allen Drebert Family Photos 1957-1961 while uploader was a child, unlike this one at a much later (nearing retirement age) date in his life. ( See this and upload note: here )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Siuna_Today.jpg"
+   }
+  },
+  {
+   "id": "gn:3617069",
+   "name": "Río Blanco",
+   "label": "Río Blanco",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MT",
+   "country": "NI",
+   "lat": 12.9344,
+   "lon": -85.2235,
+   "rarity": "Rare",
+   "fame": 3720,
+   "facts": {
+    "population": 17018,
+    "elevation_m": 265,
+    "area_km2": 662,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "In 1836, a settler by the name of Arthur Morgan conquered the land and created a new hideout for the Van Der Linde Gang.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Blanco, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Blanco%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3617069.webp",
+    "author": "Richard Salgado",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Mus%C3%BAn,_R%C3%ADo_Blanco._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3620269",
+   "name": "Corinto",
+   "label": "Corinto",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.4825,
+   "lon": -87.173,
+   "rarity": "Rare",
+   "fame": 8418,
+   "facts": {
+    "population": 19183,
+    "elevation_m": 9.0,
+    "area_km2": 71,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Corinto is a town, with a population of 18,602, on the northwest Pacific coast of Nicaragua in the province of Chinandega.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Corinto, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Corinto%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620269.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corinto_Puerto.jpg"
+   }
+  },
+  {
+   "id": "gn:3616035",
+   "name": "Tipitapa",
+   "label": "Tipitapa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1973,
+   "lon": -86.0971,
+   "rarity": "Rare",
+   "fame": 6948,
+   "facts": {
+    "population": 50000,
+    "elevation_m": 54,
+    "area_km2": 975,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "The area is located between Lake Managua and Lake Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tipitapa",
+    "url": "https://en.wikipedia.org/wiki/Tipitapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3616035.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tipitapa_-_Pulperia.jpg"
+   }
+  },
+  {
+   "id": "gn:3828262",
+   "name": "Ciudad Sandino",
+   "label": "Ciudad Sandino",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1589,
+   "lon": -86.3442,
+   "rarity": "Rare",
+   "fame": 5958,
+   "facts": {
+    "population": 50000,
+    "elevation_m": 105,
+    "area_km2": 51,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Ciudad Sandino is a city and municipality in the Managua department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ciudad Sandino",
+    "url": "https://en.wikipedia.org/wiki/Ciudad_Sandino",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3828262.webp",
+    "author": "Xavicruz",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Restaurante_ciudad_sandino.jpg"
+   }
+  },
+  {
+   "id": "gn:3620390",
+   "name": "Chichigalpa",
+   "label": "Chichigalpa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.5704,
+   "lon": -87.028,
+   "rarity": "Rare",
+   "fame": 4122,
+   "facts": {
+    "population": 33137,
+    "elevation_m": 76,
+    "area_km2": 222,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Chichigalpa o Chichicapan is a town and municipality in the Chinandega Department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chichigalpa",
+    "url": "https://en.wikipedia.org/wiki/Chichigalpa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620390.webp",
+    "author": "Hejo004A",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_aerea_ciudad_de_Chichigalpa.jpg"
+   }
+  },
+  {
+   "id": "gn:3617470",
+   "name": "Niquinohomo",
+   "label": "Niquinohomo",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MS",
+   "country": "NI",
+   "lat": 11.9052,
+   "lon": -86.0945,
+   "rarity": "Rare",
+   "fame": 4434,
+   "facts": {
+    "population": 7732,
+    "elevation_m": 468,
+    "area_km2": 32,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Niquinohomo is a municipality in the Masaya department of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Niquinohomo",
+    "url": "https://en.wikipedia.org/wiki/Niquinohomo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3617470.webp",
+    "author": "Zuluniga",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_santa_ana_niquinohomo.JPG"
+   }
+  },
+  {
+   "id": "gn:3618482",
+   "name": "La Libertad",
+   "label": "La Libertad",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.2164,
+   "lon": -85.1659,
+   "rarity": "Rare",
+   "fame": 4188,
+   "facts": {
+    "population": 3127,
+    "elevation_m": 483,
+    "area_km2": 774,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "It is the birthplace of President Daniel Ortega, Cardinal Miguel Obando y Bravo, and Vice President Omar Halleslevens.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Libertad, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/La_Libertad%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3618482.webp"
+   }
+  },
+  {
    "id": "gn:3617147",
    "name": "Momotombo",
    "label": "Momotombo (León)",
@@ -2116,81 +2684,87 @@
    }
   },
   {
-   "id": "gn:3616092",
+   "id": "wd:Q1345487",
    "name": "Telica",
-   "label": "Telica (León)",
-   "type": "town",
-   "kind": "town",
+   "label": "Telica (volcano)",
+   "type": "nature",
+   "kind": "volcano",
    "region": "NI-LE",
    "country": "NI",
-   "lat": 12.522,
-   "lon": -86.8594,
+   "lat": 12.6019,
+   "lon": -86.845,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 4512,
    "facts": {
-    "population": 8776,
-    "elevation_m": 131,
+    "elevation_m": 1061,
     "temp_c": 26.4
    },
    "flavour": {
-    "text": "A community of 8,776 people in León.",
-    "source": "facts"
+    "text": "It is located in Telica municipality, in the León department of Nicaragua, within the Volcán Telica Rota Natural Reserve.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Telica (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Telica_%28volcano%29",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3616092.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q1345487.webp",
+    "author": "Lee Siebert (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Telica.jpg"
    }
   },
   {
-   "id": "gn:3616721",
-   "name": "San Juan de Río Coco",
-   "label": "San Juan de Río Coco",
-   "type": "town",
-   "kind": "town",
-   "region": "NI-MD",
+   "id": "wd:Q26399118",
+   "name": "Peña of Cross",
+   "label": "Peña of Cross",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-JI",
    "country": "NI",
-   "lat": 13.5448,
-   "lon": -86.165,
+   "lat": 13.0923,
+   "lon": -86.0131,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 540,
    "facts": {
-    "population": 3820,
-    "elevation_m": 822,
-    "temp_c": 22.9
+    "elevation_m": 800,
+    "temp_c": 22.0
    },
    "flavour": {
-    "text": "A community of 3,820 people in Madriz.",
+    "text": "A mountain in Jinotega.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3616721.webp"
+    "file": "images/minimap/wd_Q26399118.webp"
    }
   },
   {
-   "id": "gn:3619267",
-   "name": "El Viejo",
-   "label": "El Viejo",
+   "id": "gn:7701408",
+   "name": "Las Praderas",
+   "label": "Las Praderas",
    "type": "town",
    "kind": "town",
-   "region": "NI-CI",
+   "region": "NI-JI",
    "country": "NI",
-   "lat": 12.6635,
-   "lon": -87.1666,
+   "lat": 13.348,
+   "lon": -85.944,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 53504,
-    "elevation_m": 49,
-    "temp_c": 27.3
+    "population": 7836,
+    "elevation_m": 425,
+    "temp_c": 23.7
    },
    "flavour": {
-    "text": "A community of 53,504 people in Chinandega.",
+    "text": "A community of 7,836 people in Jinotega.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3619267.webp"
+    "file": "images/minimap/gn_7701408.webp"
    }
   }
  ]

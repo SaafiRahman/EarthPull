@@ -379,315 +379,356 @@
    }
   },
   {
-   "id": "gn:3495159",
-   "name": "Paya",
-   "label": "Paya",
+   "id": "gn:3503950",
+   "name": "Juan Adrián",
+   "label": "Juan Adrián",
    "type": "town",
    "kind": "town",
-   "region": "DO-17",
+   "region": "DO-28",
    "country": "DO",
-   "lat": 18.262,
-   "lon": -70.2956,
+   "lat": 18.7636,
+   "lon": -70.3373,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1254,
    "facts": {
-    "population": 6916,
-    "elevation_m": 47,
-    "temp_c": 26.2
+    "population": 1371,
+    "elevation_m": 356,
+    "temp_c": 20.8
    },
    "flavour": {
-    "text": "A community of 6,916 people in Peravia.",
-    "source": "facts"
+    "text": "Juan Adrian is a town in the Monseñor Nouel province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juan Adrián",
+    "url": "https://en.wikipedia.org/wiki/Juan_Adri%C3%A1n",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3495159.webp"
+    "file": "images/minimap/gn_3503950.webp"
    }
   },
   {
-   "id": "gn:3505778",
-   "name": "Fantino",
-   "label": "Fantino",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-24",
-   "country": "DO",
-   "lat": 19.1215,
-   "lon": -70.2997,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 10024,
-    "elevation_m": 56,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "A community of 10,024 people in Sánchez Ramírez.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3505778.webp"
-   }
-  },
-  {
-   "id": "gn:3512128",
-   "name": "Bajos de Haina",
-   "label": "Bajos de Haina",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-21",
-   "country": "DO",
-   "lat": 18.4154,
-   "lon": -70.0332,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 66784,
-    "elevation_m": 36,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "A community of 66,784 people in San Cristóbal.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3512128.webp"
-   }
-  },
-  {
-   "id": "gn:3493271",
-   "name": "Salsipuedes",
-   "label": "Salsipuedes",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-19",
-   "country": "DO",
-   "lat": 19.4055,
-   "lon": -70.3799,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 11675,
-    "elevation_m": 252,
-    "temp_c": 24.2
-   },
-   "flavour": {
-    "text": "A community of 11,675 people in Hermanas Mirabal.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3493271.webp"
-   }
-  },
-  {
-   "id": "gn:3499748",
-   "name": "Licey al Medio",
-   "label": "Licey al Medio",
+   "id": "gn:3503338",
+   "name": "La Canela",
+   "label": "La Canela",
    "type": "town",
    "kind": "town",
    "region": "DO-25",
    "country": "DO",
-   "lat": 19.4333,
-   "lon": -70.6,
+   "lat": 19.4734,
+   "lon": -70.8163,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1050,
    "facts": {
-    "population": 6435,
-    "elevation_m": 199,
+    "population": 4026,
+    "elevation_m": 182,
     "temp_c": 25.3
    },
    "flavour": {
-    "text": "A community of 6,435 people in Santiago.",
+    "text": "A community of 4,026 people in Santiago.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3499748.webp"
+    "file": "images/minimap/gn_3503338.webp"
    }
   },
   {
-   "id": "gn:3500370",
-   "name": "Las Matas de Farfán",
-   "label": "Las Matas de Farfán",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-22",
-   "country": "DO",
-   "lat": 18.8731,
-   "lon": -71.5166,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 21802,
-    "elevation_m": 451,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 21,802 people in San Juan.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3500370.webp"
-   }
-  },
-  {
-   "id": "gn:3500641",
-   "name": "Las Charcas",
-   "label": "Las Charcas",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-02",
-   "country": "DO",
-   "lat": 18.4503,
-   "lon": -70.6172,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 4720,
-    "elevation_m": 68,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "A community of 4,720 people in Azua.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3500641.webp"
-   }
-  },
-  {
-   "id": "gn:3510874",
-   "name": "Cabrera",
-   "label": "Cabrera",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-14",
-   "country": "DO",
-   "lat": 19.6426,
-   "lon": -69.9049,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 4947,
-    "elevation_m": 22,
-    "temp_c": 25.4
-   },
-   "flavour": {
-    "text": "A community of 4,947 people in María Trinidad Sánchez.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3510874.webp"
-   }
-  },
-  {
-   "id": "gn:3498191",
-   "name": "Los Llanos",
-   "label": "Los Llanos",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-23",
-   "country": "DO",
-   "lat": 18.6203,
-   "lon": -69.4958,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5529,
-    "elevation_m": 45,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "A community of 5,529 people in San Pedro de Macorís.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3498191.webp"
-   }
-  },
-  {
-   "id": "gn:3495111",
-   "name": "Pedro García",
-   "label": "Pedro García",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-25",
-   "country": "DO",
-   "lat": 19.592,
-   "lon": -70.6526,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1457,
-    "elevation_m": 454,
-    "temp_c": 23.4
-   },
-   "flavour": {
-    "text": "A community of 1,457 people in Santiago.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3495111.webp"
-   }
-  },
-  {
-   "id": "gn:3510083",
-   "name": "Castañuelas",
-   "label": "Castañuelas",
+   "id": "gn:3491943",
+   "name": "Villa Elisa",
+   "label": "Villa Elisa",
    "type": "town",
    "kind": "town",
    "region": "DO-15",
    "country": "DO",
-   "lat": 19.7139,
-   "lon": -71.4988,
+   "lat": 19.6856,
+   "lon": -71.2701,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 462,
    "facts": {
-    "population": 4209,
-    "elevation_m": 23,
-    "temp_c": 26.4
+    "population": 1143,
+    "elevation_m": 68,
+    "temp_c": 26.0
    },
    "flavour": {
-    "text": "A community of 4,209 people in Monte Cristi.",
-    "source": "facts"
+    "text": "It is known as a Municipal District since 1997 because of its faster development as a county.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Villa Elisa, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Villa_Elisa%2C_Dominican_Republic",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3510083.webp"
+    "file": "images/minimap/gn_3491943.webp"
    }
   },
   {
-   "id": "gn:3506034",
-   "name": "El Valle",
-   "label": "El Valle",
+   "id": "gn:3495256",
+   "name": "Partido",
+   "label": "Partido",
    "type": "town",
    "kind": "town",
-   "region": "DO-30",
+   "region": "DO-05",
    "country": "DO",
-   "lat": 18.9757,
-   "lon": -69.3783,
+   "lat": 19.484,
+   "lon": -71.5473,
+   "rarity": "Common",
+   "fame": 978,
+   "facts": {
+    "population": 2170,
+    "elevation_m": 200,
+    "area_km2": 157,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Partido is a town in the Dajabón province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Partido, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Partido%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3495256.webp"
+   }
+  },
+  {
+   "id": "gn:3503811",
+   "name": "Juan Santiago",
+   "label": "Juan Santiago",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-07",
+   "country": "DO",
+   "lat": 18.7034,
+   "lon": -71.5897,
+   "rarity": "Common",
+   "fame": 912,
+   "facts": {
+    "population": 1549,
+    "elevation_m": 807,
+    "area_km2": 107,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "Juan Santiago is a Dominican municipality in the Elías Piña province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juan Santiago, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Juan_Santiago%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3503811.webp"
+   }
+  },
+  {
+   "id": "gn:3495024",
+   "name": "Pepillo Salcedo",
+   "label": "Pepillo Salcedo",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.6984,
+   "lon": -71.7451,
+   "rarity": "Common",
+   "fame": 5274,
+   "facts": {
+    "population": 3866,
+    "elevation_m": 7.0,
+    "area_km2": 149,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Pepillo Salcedo is a municipality in the Monte Cristi Province of the Dominican Republic, located next to the border with Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pepillo Salcedo, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Pepillo_Salcedo%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3495024.webp"
+   }
+  },
+  {
+   "id": "gn:3512573",
+   "name": "Arenoso",
+   "label": "Arenoso",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-06",
+   "country": "DO",
+   "lat": 19.1873,
+   "lon": -69.8592,
+   "rarity": "Common",
+   "fame": 2160,
+   "facts": {
+    "population": 2897,
+    "elevation_m": 18,
+    "area_km2": 142,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Arenoso is a town in the Duarte province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arenoso",
+    "url": "https://en.wikipedia.org/wiki/Arenoso",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3512573.webp"
+   }
+  },
+  {
+   "id": "gn:3492367",
+   "name": "Tireo Arriba",
+   "label": "Tireo Arriba",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 18.9354,
+   "lon": -70.6885,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 5666,
-    "elevation_m": 42,
-    "temp_c": 24.6
+    "population": 3816,
+    "elevation_m": 1242,
+    "temp_c": 16.8
    },
    "flavour": {
-    "text": "A community of 5,666 people in Hato Mayor.",
+    "text": "A community of 3,816 people in La Vega.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3506034.webp"
+    "file": "images/minimap/gn_3492367.webp"
+   }
+  },
+  {
+   "id": "gn:3507461",
+   "name": "El Guayabal",
+   "label": "El Guayabal",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.7496,
+   "lon": -70.8369,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2835,
+    "elevation_m": 727,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "A community of 2,835 people in Azua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3507461.webp"
+   }
+  },
+  {
+   "id": "gn:3510822",
+   "name": "Cachón",
+   "label": "Cachón",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-04",
+   "country": "DO",
+   "lat": 18.2483,
+   "lon": -71.1891,
+   "rarity": "Common",
+   "fame": 636,
+   "facts": {
+    "population": 1903,
+    "elevation_m": 22,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "El Cachón is a town in the Barahona province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Cachón",
+    "url": "https://en.wikipedia.org/wiki/El_Cach%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3510822.webp"
+   }
+  },
+  {
+   "id": "gn:3493198",
+   "name": "Sánchez",
+   "label": "Sánchez",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-20",
+   "country": "DO",
+   "lat": 19.2281,
+   "lon": -69.6137,
+   "rarity": "Common",
+   "fame": 4578,
+   "facts": {
+    "population": 11365,
+    "elevation_m": 25,
+    "area_km2": 329,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Sánchez is a municipality located in the Samaná Province of the Dominican Republic, situated on the southern coast of the Samaná Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sánchez, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A1nchez%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3493198.webp",
+    "author": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:S%C3%A1nchez_(Saman%C3%A1)_Iglesia_Nuestra_Se%C3%B1ora_de_Lourdes.jpg"
+   }
+  },
+  {
+   "id": "gn:3493873",
+   "name": "Rincón",
+   "label": "Rincón",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 19.1194,
+   "lon": -70.4063,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5909,
+    "elevation_m": 88,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 5,909 people in La Vega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3493873.webp"
    }
   },
   {
@@ -724,37 +765,36 @@
    }
   },
   {
-   "id": "wd:Q538953",
-   "name": "La Vega",
-   "label": "La Vega",
+   "id": "wd:Q6906955",
+   "name": "Monumento de Santiago",
+   "label": "Monumento de Santiago",
    "type": "built",
-   "kind": "big city",
-   "region": "DO-13",
+   "kind": "monument",
+   "region": "DO-25",
    "country": "DO",
-   "lat": 19.2242,
-   "lon": -70.5283,
+   "lat": 19.4507,
+   "lon": -70.695,
    "rarity": "Epic",
-   "fame": 32208,
+   "fame": 21372,
    "facts": {
-    "elevation_m": 100,
-    "area_km2": 642,
-    "temp_c": 24.8
+    "elevation_m": 223,
+    "temp_c": 25.3
    },
    "flavour": {
-    "text": "La Vega, officially Concepción de La Vega, is the third most populous city and a municipality of the Dominican Republic.",
+    "text": "It is the highest building in Santiago, and a major tourist attraction for the area.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "La Vega, Dominican Republic",
-    "url": "https://en.wikipedia.org/wiki/La_Vega%2C_Dominican_Republic",
+    "title": "Monumento de Santiago",
+    "url": "https://en.wikipedia.org/wiki/Monumento_de_Santiago",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q538953.webp",
-    "author": "DRW2193",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:La_vega_01.JPG"
+    "file": "images/photo/wd_Q6906955.webp",
+    "author": "Casualknit at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Monument_to_the_Heroes_of_the_Restoration1.JPG"
    }
   },
   {
@@ -792,36 +832,36 @@
    }
   },
   {
-   "id": "wd:Q6906955",
-   "name": "Monumento de Santiago",
-   "label": "Monumento de Santiago",
+   "id": "wd:Q5400137",
+   "name": "Estadio Cibao",
+   "label": "Estadio Cibao",
    "type": "built",
-   "kind": "monument",
+   "kind": "sports venue",
    "region": "DO-25",
    "country": "DO",
-   "lat": 19.4507,
-   "lon": -70.695,
+   "lat": 19.4669,
+   "lon": -70.7089,
    "rarity": "Epic",
-   "fame": 21372,
+   "fame": 9846,
    "facts": {
-    "elevation_m": 223,
+    "elevation_m": 154,
     "temp_c": 25.3
    },
    "flavour": {
-    "text": "It is the highest building in Santiago, and a major tourist attraction for the area.",
+    "text": "Currently, it is mostly used for baseball games and hosts the home games of the Águilas Cibaeñas in the Dominican Winter Baseball League.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Monumento de Santiago",
-    "url": "https://en.wikipedia.org/wiki/Monumento_de_Santiago",
+    "title": "Estadio Cibao",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Cibao",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6906955.webp",
-    "author": "Casualknit at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Monument_to_the_Heroes_of_the_Restoration1.JPG"
+    "file": "images/photo/wd_Q5400137.webp",
+    "author": "Advancehg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadiocibao.jpg"
    }
   },
   {
@@ -1315,89 +1355,64 @@
    }
   },
   {
-   "id": "gn:3504077",
-   "name": "Jimaní",
-   "label": "Jimaní",
+   "id": "gn:3492985",
+   "name": "Santa Cruz de Barahona",
+   "label": "Santa Cruz de Barahona",
    "type": "town",
    "kind": "town",
-   "region": "DO-10",
+   "region": "DO-04",
    "country": "DO",
-   "lat": 18.4877,
-   "lon": -71.8515,
+   "lat": 18.2086,
+   "lon": -71.1007,
    "rarity": "Epic",
    "fame": 0,
    "facts": {
-    "population": 6567,
-    "elevation_m": 50,
-    "temp_c": 20.2
+    "population": 77160,
+    "elevation_m": 39,
+    "temp_c": 26.7
    },
    "flavour": {
-    "text": "A community of 6,567 people in Independencia.",
+    "text": "A community of 77,160 people in Barahona.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3504077.webp"
+    "file": "images/minimap/gn_3492985.webp"
    }
   },
   {
-   "id": "gn:3512208",
-   "name": "Azua",
-   "label": "Azua",
+   "id": "gn:3511233",
+   "name": "Bonao",
+   "label": "Bonao",
    "type": "town",
    "kind": "town",
-   "region": "DO-02",
+   "region": "DO-28",
    "country": "DO",
-   "lat": 18.4532,
-   "lon": -70.7349,
+   "lat": 18.9415,
+   "lon": -70.4111,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 16914,
    "facts": {
-    "population": 59139,
-    "elevation_m": 86,
-    "temp_c": 26.9
+    "population": 73269,
+    "elevation_m": 166,
+    "area_km2": 664,
+    "temp_c": 24.3
    },
    "flavour": {
-    "text": "A community of 59,139 people in Azua.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3512208.webp"
-   }
-  },
-  {
-   "id": "gn:3510969",
-   "name": "Cabarete",
-   "label": "Cabarete",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-18",
-   "country": "DO",
-   "lat": 19.7498,
-   "lon": -70.4083,
-   "rarity": "Epic",
-   "fame": 12468,
-   "facts": {
-    "population": 4094,
-    "elevation_m": 12,
-    "temp_c": 25.4
-   },
-   "flavour": {
-    "text": "Cabarete is a town in the Puerto Plata province of the Dominican Republic, noted for its tourism and beaches.",
+    "text": "It is the capital of the Monseñor Nouel province.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cabarete",
-    "url": "https://en.wikipedia.org/wiki/Cabarete",
+    "title": "Bonao",
+    "url": "https://en.wikipedia.org/wiki/Bonao",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3510969.webp",
-    "author": "Alex Proimos from Sydney, Australia",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cabarete,_Dominican_Republic_(8644953576).jpg"
+    "file": "images/photo/gn_3511233.webp",
+    "author": "Stine Grimsrud",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plazabonao.jpg"
    }
   },
   {
@@ -1411,45 +1426,159 @@
    "lat": 18.4898,
    "lon": -71.4189,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 10344,
    "facts": {
     "population": 18670,
     "elevation_m": 50,
+    "area_km2": 282,
     "temp_c": 27.9
    },
    "flavour": {
-    "text": "A community of 18,670 people in Baoruco.",
-    "source": "facts"
+    "text": "Neiba is a city in the southwest of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Neiba",
+    "url": "https://en.wikipedia.org/wiki/Neiba",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3495857.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3495857.webp",
+    "author": "Cordillero88",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Neiba.jpg"
    }
   },
   {
-   "id": "gn:3500957",
-   "name": "La Romana",
-   "label": "La Romana",
+   "id": "gn:3494242",
+   "name": "Punta Cana",
+   "label": "Punta Cana",
    "type": "town",
    "kind": "town",
-   "region": "DO-12",
+   "region": "DO-11",
    "country": "DO",
-   "lat": 18.4233,
-   "lon": -68.9664,
+   "lat": 18.5818,
+   "lon": -68.4043,
+   "rarity": "Epic",
+   "fame": 384246,
+   "facts": {
+    "population": 100023,
+    "elevation_m": 28,
+    "area_km2": 475,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "It was politically incorporated as the \"Verón–Punta Cana Touristic Municipal District\" in 2006, and it is subject to the municipality of Higüey.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Punta Cana",
+    "url": "https://en.wikipedia.org/wiki/Punta_Cana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3494242.webp",
+    "author": "A.Miskovsky",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Saona_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3509363",
+   "name": "Constanza",
+   "label": "Constanza",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 18.9092,
+   "lon": -70.745,
+   "rarity": "Epic",
+   "fame": 26850,
+   "facts": {
+    "population": 29481,
+    "elevation_m": 1177,
+    "area_km2": 849,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "Constanza is a town and municipality in La Vega Province, Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Constanza, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Constanza%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3509363.webp",
+    "author": "CristoRey99",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Constanza_Dominican_Republic.jpg"
+   }
+  },
+  {
+   "id": "gn:3509386",
+   "name": "Comendador",
+   "label": "Comendador",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-07",
+   "country": "DO",
+   "lat": 18.8775,
+   "lon": -71.7032,
+   "rarity": "Epic",
+   "fame": 3822,
+   "facts": {
+    "population": 12070,
+    "elevation_m": 394,
+    "area_km2": 253,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Comendador is the capital of the Elías Piña province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Comendador, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Comendador%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3509386.webp",
+    "author": "Ronny Medina",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Comendador,_Elias_Pi%C3%B1a.jpg"
+   }
+  },
+  {
+   "id": "gn:3492997",
+   "name": "Samaná",
+   "label": "Samaná",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-20",
+   "country": "DO",
+   "lat": 19.204,
+   "lon": -69.3341,
    "rarity": "Epic",
    "fame": 0,
    "facts": {
-    "population": 208437,
-    "elevation_m": 9.0,
-    "temp_c": 26.2
+    "population": 11432,
+    "elevation_m": 23,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "A community of 208,437 people in La Romana.",
+    "text": "A community of 11,432 people in Samaná.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3500957.webp"
+    "file": "images/minimap/gn_3492997.webp"
    }
   },
   {
@@ -1463,45 +1592,63 @@
    "lat": 18.0356,
    "lon": -71.7467,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 7368,
    "facts": {
     "population": 11072,
     "elevation_m": 12,
+    "area_km2": 1275,
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 11,072 people in Pedernales.",
-    "source": "facts"
+    "text": "Pedernales is the capital of the Pedernales Province, in the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pedernales, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Pedernales%2C_Dominican_Republic",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3495137.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3495137.webp",
+    "author": "Tim Ross",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:07-05-10PedernalesDR.jpg"
    }
   },
   {
-   "id": "gn:3493174",
-   "name": "San Fernando de Monte Cristi",
-   "label": "San Fernando de Monte Cristi",
+   "id": "gn:3496134",
+   "name": "Monte Plata",
+   "label": "Monte Plata",
    "type": "town",
    "kind": "town",
-   "region": "DO-15",
+   "region": "DO-29",
    "country": "DO",
-   "lat": 19.848,
-   "lon": -71.646,
+   "lat": 18.8075,
+   "lon": -69.7843,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 9636,
    "facts": {
-    "population": 17001,
-    "elevation_m": 31,
-    "temp_c": 26.4
+    "population": 15532,
+    "elevation_m": 55,
+    "area_km2": 624,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "A community of 17,001 people in Monte Cristi.",
-    "source": "facts"
+    "text": "It includes the municipal districts of Boyá, Chirino, and Don Juan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monte Plata",
+    "url": "https://en.wikipedia.org/wiki/Monte_Plata",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3493174.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3496134.webp",
+    "author": "CristoRey99",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monte_Plata_Dominican_Republic.jpg"
    }
   },
   {
@@ -1515,75 +1662,28 @@
    "lat": 18.2797,
    "lon": -70.3318,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 25050,
    "facts": {
     "population": 66709,
     "elevation_m": 67,
+    "area_km2": 643,
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "A community of 66,709 people in Peravia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3512067.webp"
-   }
-  },
-  {
-   "id": "gn:3512332",
-   "name": "Arroyo Salado",
-   "label": "Arroyo Salado",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-14",
-   "country": "DO",
-   "lat": 19.5,
-   "lon": -69.9,
-   "rarity": "Epic",
-   "fame": 1392,
-   "facts": {
-    "population": 1990,
-    "elevation_m": 6.0,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "It is very close to the town of Cabrera, and a short distance from Nagua.",
+    "text": "It is the commercial and manufacturing center in the southern region of Valdesia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Arroyo Salado",
-    "url": "https://en.wikipedia.org/wiki/Arroyo_Salado",
+    "title": "Baní",
+    "url": "https://en.wikipedia.org/wiki/Ban%C3%AD",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3512332.webp"
-   }
-  },
-  {
-   "id": "gn:3493081",
-   "name": "San Juan de la Maguana",
-   "label": "San Juan de la Maguana",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-22",
-   "country": "DO",
-   "lat": 18.8064,
-   "lon": -71.2263,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 72950,
-    "elevation_m": 406,
-    "temp_c": 23.9
-   },
-   "flavour": {
-    "text": "A community of 72,950 people in San Juan.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3493081.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3512067.webp",
+    "author": "Ronny Medina",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_Ban%C3%AD.jpg"
    }
   },
   {
@@ -1875,32 +1975,32 @@
    }
   },
   {
-   "id": "wd:Q5400439",
-   "name": "Estadio Olímpico",
-   "label": "Estadio Olímpico",
+   "id": "wd:Q16621734",
+   "name": "Hatillo Dam",
+   "label": "Hatillo Dam",
    "type": "built",
-   "kind": "sports venue",
-   "region": "DO-13",
+   "kind": "embankment dam",
+   "region": "DO-24",
    "country": "DO",
-   "lat": 19.2287,
-   "lon": -70.5124,
+   "lat": 19.0339,
+   "lon": -70.1989,
    "rarity": "Rare",
-   "fame": 1404,
+   "fame": 3444,
    "facts": {
-    "elevation_m": 93,
-    "temp_c": 24.8
+    "elevation_m": 88,
+    "temp_c": 26.0
    },
    "flavour": {
-    "text": "It is currently used mostly for football matches and hosts the home games of Jarabacoa of the Liga Dominicana de Fútbol.",
+    "text": "The Hatillo Dam is an earth and rock-filled embankment dam on the Yuna River about 6 km southwest of Cotuí in Sánchez Ramírez Province of the Dominican…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Olímpico (La Vega)",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_%28La_Vega%29",
+    "title": "Hatillo Dam",
+    "url": "https://en.wikipedia.org/wiki/Hatillo_Dam",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5400439.webp"
+    "file": "images/minimap/wd_Q16621734.webp"
    }
   },
   {
@@ -1934,66 +2034,61 @@
    }
   },
   {
-   "id": "wd:Q141908499",
-   "name": "Manzanillo Port",
-   "label": "Manzanillo Port",
+   "id": "wd:Q5400511",
+   "name": "Estadio Tetelo Vargas",
+   "label": "Estadio Tetelo Vargas",
    "type": "built",
-   "kind": "port",
-   "region": "DO-15",
+   "kind": "sports venue",
+   "region": "DO-23",
    "country": "DO",
-   "lat": 19.7051,
-   "lon": -71.7433,
+   "lat": 18.4642,
+   "lon": -69.3033,
    "rarity": "Rare",
-   "fame": 768,
+   "fame": 2982,
    "facts": {
-    "elevation_m": 4.0,
-    "length_km": 0.2,
-    "temp_c": 26.6
+    "elevation_m": 8.0,
+    "temp_c": 26.3
    },
    "flavour": {
-    "text": "Manzanillo Port is located in Manzanillo, Monte Cristi Province, Dominican Republic.",
+    "text": "It is currently used mostly for baseball matches and hosts the home games of Estrellas Orientales.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Manzanillo Port",
-    "url": "https://en.wikipedia.org/wiki/Manzanillo_Port",
+    "title": "Estadio Tetelo Vargas",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Tetelo_Vargas",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q141908499.webp"
+    "file": "images/minimap/wd_Q5400511.webp"
    }
   },
   {
-   "id": "wd:Q5400137",
-   "name": "Estadio Cibao",
-   "label": "Estadio Cibao",
+   "id": "wd:Q7414960",
+   "name": "San Miguel Field",
+   "label": "San Miguel Field",
    "type": "built",
-   "kind": "sports venue",
-   "region": "DO-25",
+   "kind": "airstrip",
+   "region": "DO-24",
    "country": "DO",
-   "lat": 19.4669,
-   "lon": -70.7089,
+   "lat": 19.05,
+   "lon": -70.15,
    "rarity": "Rare",
-   "fame": 9846,
+   "fame": 258,
    "facts": {
-    "elevation_m": 154,
-    "temp_c": 25.3
+    "elevation_m": 131,
+    "temp_c": 26.0
    },
    "flavour": {
-    "text": "Currently, it is mostly used for baseball games and hosts the home games of the Águilas Cibaeñas in the Dominican Winter Baseball League.",
+    "text": "San Miguel Field is located in Cotuí, the capital of the Sánchez Ramírez province in the Dominican Republic.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Cibao",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Cibao",
+    "title": "San Miguel Field",
+    "url": "https://en.wikipedia.org/wiki/San_Miguel_Field",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5400137.webp",
-    "author": "Advancehg",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Estadiocibao.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7414960.webp"
    }
   },
   {
@@ -2371,468 +2466,275 @@
    }
   },
   {
-   "id": "gn:3504033",
-   "name": "Joba Arriba",
-   "label": "Joba Arriba",
+   "id": "gn:3496396",
+   "name": "Miches",
+   "label": "Miches",
    "type": "town",
    "kind": "town",
-   "region": "DO-09",
+   "region": "DO-08",
    "country": "DO",
-   "lat": 19.5667,
-   "lon": -70.2667,
+   "lat": 18.9836,
+   "lon": -69.0476,
    "rarity": "Rare",
-   "fame": 1134,
+   "fame": 23574,
    "facts": {
-    "population": 1471,
-    "elevation_m": 103,
-    "area_km2": 152,
-    "temp_c": 24.9
+    "population": 9273,
+    "elevation_m": 6.0,
+    "area_km2": 444,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "It is a municipal district of Gaspar Hernández.",
+    "text": "The community sits between the northern slopes of the Cordillera Oriental and the southern shore of the Samaná Bay.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Joba Arriba",
-    "url": "https://en.wikipedia.org/wiki/Joba_Arriba",
+    "title": "Miches",
+    "url": "https://en.wikipedia.org/wiki/Miches",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3504033.webp",
-    "author": "Jobano88",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Joba_Arriba_Dominican_Republic_mountain_town.jpg"
+    "file": "images/photo/gn_3496396.webp",
+    "author": "Ronny Medina",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Miches.jpg"
    }
   },
   {
-   "id": "gn:3491914",
-   "name": "Villarpando",
-   "label": "Villarpando",
+   "id": "gn:3510874",
+   "name": "Cabrera",
+   "label": "Cabrera",
    "type": "town",
    "kind": "town",
-   "region": "DO-02",
+   "region": "DO-14",
    "country": "DO",
-   "lat": 18.6586,
-   "lon": -71.0392,
+   "lat": 19.6426,
+   "lon": -69.9049,
    "rarity": "Rare",
-   "fame": 264,
+   "fame": 9738,
    "facts": {
-    "population": 3016,
-    "elevation_m": 287,
-    "temp_c": 24.5
+    "population": 4947,
+    "elevation_m": 22,
+    "area_km2": 298,
+    "temp_c": 25.4
    },
    "flavour": {
-    "text": "Villarpando is a town in the Azua province of the Dominican Republic.",
+    "text": "It is located at the eastern end of the country's north coast, at the western extreme of the Scottish Bay, 130 kilometers north of Santo Domingo.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Villarpando",
-    "url": "https://en.wikipedia.org/wiki/Villarpando",
+    "title": "Cabrera, María Trinidad Sánchez",
+    "url": "https://en.wikipedia.org/wiki/Cabrera%2C_Mar%C3%ADa_Trinidad_S%C3%A1nchez",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3510874.webp",
+    "author": "Acostamike",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Municipio_de_Cabrera.jpg"
+   }
+  },
+  {
+   "id": "gn:3505488",
+   "name": "Gaspar Hernández",
+   "label": "Gaspar Hernández",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-09",
+   "country": "DO",
+   "lat": 19.6275,
+   "lon": -70.2777,
+   "rarity": "Rare",
+   "fame": 7404,
+   "facts": {
+    "population": 6506,
+    "elevation_m": 13,
+    "area_km2": 370,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Gaspar Hernández is a small city in Espaillat province on the North Coast Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gaspar Hernández",
+    "url": "https://en.wikipedia.org/wiki/Gaspar_Hern%C3%A1ndez",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3505488.webp",
+    "author": "Seibano17",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Espaillat_Province_Dominican_Republic.jpg"
+   }
+  },
+  {
+   "id": "gn:7874116",
+   "name": "Santo Domingo Oeste",
+   "label": "Santo Domingo Oeste",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-32",
+   "country": "DO",
+   "lat": 18.5,
+   "lon": -70.0,
+   "rarity": "Rare",
+   "fame": 7800,
+   "facts": {
+    "population": 701269,
+    "elevation_m": 58,
+    "area_km2": 54,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Santo Domingo Oeste is a municipality of the Santo Domingo province in the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santo Domingo Oeste",
+    "url": "https://en.wikipedia.org/wiki/Santo_Domingo_Oeste",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3491914.webp"
+    "file": "images/minimap/gn_7874116.webp"
    }
   },
   {
-   "id": "gn:3508083",
-   "name": "El Carril",
-   "label": "El Carril",
+   "id": "gn:3493568",
+   "name": "Sabana de la Mar",
+   "label": "Sabana de la Mar",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-30",
+   "country": "DO",
+   "lat": 19.0593,
+   "lon": -69.3884,
+   "rarity": "Rare",
+   "fame": 8226,
+   "facts": {
+    "population": 13977,
+    "elevation_m": 9.0,
+    "area_km2": 509,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Sabana de la Mar, usually spelled in English as Savana de la Mar, is a town in the Hato Mayor province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sabana de la Mar",
+    "url": "https://en.wikipedia.org/wiki/Sabana_de_la_Mar",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3493568.webp",
+    "author": "LeonidasB",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sabana_de_la_Mae.jpg"
+   }
+  },
+  {
+   "id": "gn:3491952",
+   "name": "Villa Altagracia",
+   "label": "Villa Altagracia",
    "type": "town",
    "kind": "town",
    "region": "DO-21",
    "country": "DO",
-   "lat": 18.449,
-   "lon": -70.0279,
+   "lat": 18.673,
+   "lon": -70.171,
    "rarity": "Rare",
-   "fame": 222,
+   "fame": 9552,
    "facts": {
-    "population": 2643,
-    "elevation_m": 60,
+    "population": 40027,
+    "elevation_m": 178,
+    "area_km2": 482,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "Within the municipality there are three municipal districts: La Cuchilla, Medina, and San José del Puerto.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Villa Altagracia",
+    "url": "https://en.wikipedia.org/wiki/Villa_Altagracia",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3491952.webp"
+   }
+  },
+  {
+   "id": "gn:3512128",
+   "name": "Bajos de Haina",
+   "label": "Bajos de Haina",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-21",
+   "country": "DO",
+   "lat": 18.4154,
+   "lon": -70.0332,
+   "rarity": "Rare",
+   "fame": 13710,
+   "facts": {
+    "population": 66784,
+    "elevation_m": 36,
+    "area_km2": 38,
     "temp_c": 25.9
    },
    "flavour": {
-    "text": "El Carril is a town in the San Cristóbal province of the Dominican Republic.",
+    "text": "It is close to the capital Santo Domingo, and may be regarded as part of the metropolitan area of Greater Santo Domingo.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "El Carril",
-    "url": "https://en.wikipedia.org/wiki/El_Carril",
+    "title": "Bajos de Haina",
+    "url": "https://en.wikipedia.org/wiki/Bajos_de_Haina",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3508083.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3512128.webp",
+    "author": "Jason_Rollette",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haina_Shoreline_-_panoramio.jpg"
    }
   },
   {
-   "id": "gn:3506719",
-   "name": "El Palmar",
-   "label": "El Palmar",
+   "id": "gn:3499602",
+   "name": "Loma de Cabrera",
+   "label": "Loma de Cabrera",
    "type": "town",
    "kind": "town",
-   "region": "DO-03",
+   "region": "DO-05",
    "country": "DO",
-   "lat": 18.4114,
-   "lon": -71.2456,
+   "lat": 19.4333,
+   "lon": -71.6,
    "rarity": "Rare",
-   "fame": 264,
+   "fame": 8370,
    "facts": {
-    "population": 2445,
-    "elevation_m": 14,
-    "temp_c": 27.5
-   },
-   "flavour": {
-    "text": "El Palmar is a town in the Baoruco province of the Dominican Republic.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "El Palmar, Dominican Republic",
-    "url": "https://en.wikipedia.org/wiki/El_Palmar%2C_Dominican_Republic",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3506719.webp"
-   }
-  },
-  {
-   "id": "gn:3504793",
-   "name": "Hatillo Palma",
-   "label": "Hatillo Palma",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-15",
-   "country": "DO",
-   "lat": 19.6626,
-   "lon": -71.1941,
-   "rarity": "Rare",
-   "fame": 648,
-   "facts": {
-    "population": 3574,
-    "elevation_m": 74,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "Hatillo Palma is a town in the Monte Cristi province of the Dominican Republic.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Hatillo Palma",
-    "url": "https://en.wikipedia.org/wiki/Hatillo_Palma",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3504793.webp"
-   }
-  },
-  {
-   "id": "gn:3494655",
-   "name": "Pizarrete",
-   "label": "Pizarrete",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-17",
-   "country": "DO",
-   "lat": 18.2994,
-   "lon": -70.2265,
-   "rarity": "Rare",
-   "fame": 372,
-   "facts": {
-    "population": 2695,
-    "elevation_m": 57,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "Pizarrete is a town in the Peravia province of the Dominican Republic.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pizarrete",
-    "url": "https://en.wikipedia.org/wiki/Pizarrete",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3494655.webp"
-   }
-  },
-  {
-   "id": "gn:3503910",
-   "name": "Juancho",
-   "label": "Juancho",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-16",
-   "country": "DO",
-   "lat": 17.8578,
-   "lon": -71.2931,
-   "rarity": "Rare",
-   "fame": 414,
-   "facts": {
-    "population": 1623,
-    "elevation_m": 12,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "It is a municipal district of the municipality of Pedernales.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Juancho",
-    "url": "https://en.wikipedia.org/wiki/Juancho",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3503910.webp"
-   }
-  },
-  {
-   "id": "gn:3493769",
-   "name": "Río Grande",
-   "label": "Río Grande",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-18",
-   "country": "DO",
-   "lat": 19.6667,
-   "lon": -70.7667,
-   "rarity": "Rare",
-   "fame": 306,
-   "facts": {
-    "population": 20154,
-    "elevation_m": 397,
+    "population": 6679,
+    "elevation_m": 303,
+    "area_km2": 239,
     "temp_c": 24.8
    },
    "flavour": {
-    "text": "Río Grande is a town in the Puerto Plata province of the Dominican Republic.",
+    "text": "Loma de Cabrera is the second largest city in the province of Dajabón, Dominican Republic.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Río Grande, Dominican Republic",
-    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande%2C_Dominican_Republic",
+    "title": "Loma de Cabrera",
+    "url": "https://en.wikipedia.org/wiki/Loma_de_Cabrera",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3493769.webp"
-   }
-  },
-  {
-   "id": "gn:3510553",
-   "name": "Cana Chapetón",
-   "label": "Cana Chapetón",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-15",
-   "country": "DO",
-   "lat": 19.607,
-   "lon": -71.2573,
-   "rarity": "Rare",
-   "fame": 330,
-   "facts": {
-    "population": 1758,
-    "elevation_m": 63,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "Cana Chapetón is a town in the Monte Cristi province of the Dominican Republic.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Cana Chapetón",
-    "url": "https://en.wikipedia.org/wiki/Cana_Chapet%C3%B3n",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3510553.webp"
-   }
-  },
-  {
-   "id": "gn:3503256",
-   "name": "La Caya",
-   "label": "La Caya",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-27",
-   "country": "DO",
-   "lat": 19.6998,
-   "lon": -71.1208,
-   "rarity": "Rare",
-   "fame": 822,
-   "facts": {
-    "population": 1005,
-    "elevation_m": 173,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "The term \"la caya\" refers to a species of tree which grows in the region.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "La Caya",
-    "url": "https://en.wikipedia.org/wiki/La_Caya",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3503256.webp"
-   }
-  },
-  {
-   "id": "gn:3503338",
-   "name": "La Canela",
-   "label": "La Canela",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-25",
-   "country": "DO",
-   "lat": 19.4734,
-   "lon": -70.8163,
-   "rarity": "Rare",
-   "fame": 1050,
-   "facts": {
-    "population": 4026,
-    "elevation_m": 182,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "A community of 4,026 people in Santiago.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3503338.webp"
-   }
-  },
-  {
-   "id": "gn:3494979",
-   "name": "Pescadería",
-   "label": "Pescadería",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-04",
-   "country": "DO",
-   "lat": 18.2677,
-   "lon": -71.1661,
-   "rarity": "Rare",
-   "fame": 210,
-   "facts": {
-    "population": 2116,
-    "elevation_m": 10,
-    "temp_c": 26.7
-   },
-   "flavour": {
-    "text": "Pescadería is a town in the Barahona province of the Dominican Republic.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pescadería",
-    "url": "https://en.wikipedia.org/wiki/Pescader%C3%ADa",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3494979.webp"
-   }
-  },
-  {
-   "id": "gn:3509382",
-   "name": "La Vega",
-   "label": "La Vega (La Vega)",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-13",
-   "country": "DO",
-   "lat": 19.2203,
-   "lon": -70.531,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 102426,
-    "elevation_m": 82,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 102,426 people in La Vega.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3509382.webp"
-   }
-  },
-  {
-   "id": "gn:3496601",
-   "name": "Matanzas",
-   "label": "Matanzas",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-17",
-   "country": "DO",
-   "lat": 18.243,
-   "lon": -70.4177,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 4124,
-    "elevation_m": 39,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 4,124 people in Peravia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3496601.webp"
-   }
-  },
-  {
-   "id": "gn:3494863",
-   "name": "Piedra Blanca",
-   "label": "Piedra Blanca",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-28",
-   "country": "DO",
-   "lat": 18.8443,
-   "lon": -70.3169,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 8531,
-    "elevation_m": 180,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 8,531 people in Monseñor Nouel.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3494863.webp"
-   }
-  },
-  {
-   "id": "gn:3492367",
-   "name": "Tireo Arriba",
-   "label": "Tireo Arriba",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-13",
-   "country": "DO",
-   "lat": 18.9354,
-   "lon": -70.6885,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3816,
-    "elevation_m": 1242,
-    "temp_c": 16.8
-   },
-   "flavour": {
-    "text": "A community of 3,816 people in La Vega.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3492367.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3499602.webp",
+    "author": "Elpesao",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BalnearioElSalto.jpg"
    }
   },
   {
@@ -2845,20 +2747,185 @@
    "country": "DO",
    "lat": 18.45,
    "lon": -69.6,
-   "rarity": "Common",
-   "fame": 0,
+   "rarity": "Rare",
+   "fame": 24450,
    "facts": {
     "population": 46300,
     "elevation_m": 12,
+    "area_km2": 146,
     "temp_c": 25.9
    },
    "flavour": {
-    "text": "A community of 46,300 people in Santo Domingo.",
+    "text": "Within the municipality there is one municipal district: La Caleta.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Boca Chica",
+    "url": "https://en.wikipedia.org/wiki/Boca_Chica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3511336.webp",
+    "author": "https://www.flickr.com/photos/daquellamanera/",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boca_Chica,_Dominican_Republic_2004.jpg"
+   }
+  },
+  {
+   "id": "gn:3495811",
+   "name": "Nizao",
+   "label": "Nizao",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-17",
+   "country": "DO",
+   "lat": 18.247,
+   "lon": -70.2105,
+   "rarity": "Rare",
+   "fame": 8142,
+   "facts": {
+    "population": 6530,
+    "elevation_m": 29,
+    "area_km2": 49,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Nizao is a city in the province of Peravia in the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nizao",
+    "url": "https://en.wikipedia.org/wiki/Nizao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3495811.webp",
+    "author": "http://commons.wikimedia.org/w/index.php?title=User:Rosant",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nizao.jpg"
+   }
+  },
+  {
+   "id": "gn:3491796",
+   "name": "Yamasá",
+   "label": "Yamasá",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-29",
+   "country": "DO",
+   "lat": 18.7732,
+   "lon": -70.0258,
+   "rarity": "Rare",
+   "fame": 9054,
+   "facts": {
+    "population": 11595,
+    "elevation_m": 89,
+    "area_km2": 442,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "It includes the municipal district of Los Botados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yamasá",
+    "url": "https://en.wikipedia.org/wiki/Yamas%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3491796.webp",
+    "author": "Yamasa88",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Yamasa_Monte_Plata_Dominican_Republic_6.jpg"
+   }
+  },
+  {
+   "id": "gn:3505855",
+   "name": "Esperanza",
+   "label": "Esperanza",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-27",
+   "country": "DO",
+   "lat": 19.5847,
+   "lon": -70.9849,
+   "rarity": "Rare",
+   "fame": 8196,
+   "facts": {
+    "population": 42169,
+    "elevation_m": 113,
+    "area_km2": 215,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Within the municipality there are four municipal districts: Boca de Mao, Jicomé, Maizal and Paradero.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Esperanza, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Esperanza%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3505855.webp",
+    "author": "Jcb at Dutch Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Esperanza_weeshuis.jpg"
+   }
+  },
+  {
+   "id": "gn:3492073",
+   "name": "Veragua Arriba",
+   "label": "Veragua Arriba",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-09",
+   "country": "DO",
+   "lat": 19.5833,
+   "lon": -70.3333,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5858,
+    "elevation_m": 108,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "A community of 5,858 people in Espaillat.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3511336.webp"
+    "file": "images/minimap/gn_3492073.webp"
+   }
+  },
+  {
+   "id": "wd:Q6063002",
+   "name": "José del Carmen Ramírez National Park",
+   "label": "José del Carmen Ramírez National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-22",
+   "country": "DO",
+   "lat": 19.0995,
+   "lon": -71.2283,
+   "rarity": "Epic",
+   "fame": 1110,
+   "facts": {
+    "elevation_m": 2070,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "A national park in San Juan.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6063002.webp"
    }
   }
  ]

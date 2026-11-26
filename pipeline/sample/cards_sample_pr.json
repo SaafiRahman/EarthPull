@@ -450,327 +450,327 @@
    }
   },
   {
-   "id": "gn:4566512",
-   "name": "Parcelas Nuevas",
-   "label": "Parcelas Nuevas",
+   "id": "gn:4564214",
+   "name": "El Negro",
+   "label": "El Negro",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.1402,
-   "lon": -66.1724,
+   "lat": 18.0375,
+   "lon": -65.8513,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1628,
-    "elevation_m": 433,
-    "area_km2": 1.7,
-    "temp_c": 23.6
+    "population": 1656,
+    "elevation_m": 41,
+    "area_km2": 0.8,
+    "temp_c": 24.6
    },
    "flavour": {
-    "text": "A community of 1,628 people in Puerto Rico.",
+    "text": "A community of 1,656 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4566512.webp"
+    "file": "images/minimap/gn_4564214.webp"
    }
   },
   {
-   "id": "gn:4566477",
-   "name": "Palmarejo",
-   "label": "Palmarejo (Puerto Rico, near Lajas)",
+   "id": "gn:4566513",
+   "name": "Parcelas Peñuelas",
+   "label": "Parcelas Peñuelas",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.0402,
-   "lon": -67.0768,
+   "lat": 17.9989,
+   "lon": -66.3413,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1169,
-    "elevation_m": 39,
-    "area_km2": 0.9,
-    "temp_c": 25.5
-   },
-   "flavour": {
-    "text": "A community of 1,169 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4566477.webp"
-   }
-  },
-  {
-   "id": "gn:4565032",
-   "name": "G. L. Garcia",
-   "label": "G. L. Garcia",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.1275,
-   "lon": -66.1041,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1798,
-    "elevation_m": 442,
-    "area_km2": 2.0,
-    "temp_c": 23.0
-   },
-   "flavour": {
-    "text": "A community of 1,798 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4565032.webp"
-   }
-  },
-  {
-   "id": "gn:4565760",
-   "name": "La Fermina",
-   "label": "La Fermina",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.1755,
-   "lon": -65.8535,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3177,
-    "elevation_m": 120,
-    "area_km2": 2.5,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A community of 3,177 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4565760.webp"
-   }
-  },
-  {
-   "id": "gn:4565780",
-   "name": "La Luisa",
-   "label": "La Luisa",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4488,
-   "lon": -66.5099,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2887,
-    "elevation_m": 13,
-    "area_km2": 2.5,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 2,887 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4565780.webp"
-   }
-  },
-  {
-   "id": "gn:4566498",
-   "name": "Palomas",
-   "label": "Palomas (Puerto Rico, near Yauco)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0136,
-   "lon": -66.8732,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2321,
-    "elevation_m": 33,
-    "area_km2": 1.3,
-    "temp_c": 24.2
-   },
-   "flavour": {
-    "text": "A community of 2,321 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4566498.webp"
-   }
-  },
-  {
-   "id": "gn:4563816",
-   "name": "Coco",
-   "label": "Coco",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0072,
-   "lon": -66.2593,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5803,
-    "elevation_m": 40,
-    "area_km2": 4.4,
-    "temp_c": 23.6
-   },
-   "flavour": {
-    "text": "A community of 5,803 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4563816.webp"
-   }
-  },
-  {
-   "id": "gn:4568527",
-   "name": "Vázquez",
-   "label": "Vázquez",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0658,
-   "lon": -66.2385,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2297,
-    "elevation_m": 162,
-    "area_km2": 3.8,
-    "temp_c": 23.6
-   },
-   "flavour": {
-    "text": "A community of 2,297 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568527.webp"
-   }
-  },
-  {
-   "id": "gn:4564026",
-   "name": "Coto Laurel",
-   "label": "Coto Laurel",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0497,
-   "lon": -66.5513,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3606,
-    "elevation_m": 69,
-    "area_km2": 1.0,
-    "temp_c": 24.0
-   },
-   "flavour": {
-    "text": "A community of 3,606 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4564026.webp"
-   }
-  },
-  {
-   "id": "gn:4566814",
-   "name": "Playita Cortada",
-   "label": "Playita Cortada",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 17.985,
-   "lon": -66.4391,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1677,
-    "elevation_m": 3.0,
-    "area_km2": 5.0,
+    "population": 1132,
+    "elevation_m": 45,
+    "area_km2": 1.5,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 1,677 people in Puerto Rico.",
+    "text": "A community of 1,132 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4566814.webp"
+    "file": "images/minimap/gn_4566513.webp"
    }
   },
   {
-   "id": "gn:4566723",
-   "name": "Piedra Gorda",
-   "label": "Piedra Gorda",
+   "id": "gn:4566674",
+   "name": "Peña Pobre",
+   "label": "Peña Pobre",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.4341,
-   "lon": -66.8877,
+   "lat": 18.2155,
+   "lon": -65.8221,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1927,
-    "elevation_m": 164,
-    "area_km2": 1.8,
-    "temp_c": 24.3
+    "population": 1024,
+    "elevation_m": 99,
+    "area_km2": 0.3,
+    "temp_c": 24.2
    },
    "flavour": {
-    "text": "A community of 1,927 people in Puerto Rico.",
+    "text": "A community of 1,024 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4566723.webp"
+    "file": "images/minimap/gn_4566674.webp"
    }
   },
   {
-   "id": "gn:4567586",
-   "name": "Ramos",
-   "label": "Ramos",
+   "id": "gn:4566475",
+   "name": "Palmarejo",
+   "label": "Palmarejo (Puerto Rico, near Coamo)",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.3397,
-   "lon": -65.7127,
+   "lat": 18.068,
+   "lon": -66.3255,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2004,
-    "elevation_m": 58,
-    "area_km2": 2.8,
+    "population": 1087,
+    "elevation_m": 243,
+    "area_km2": 1.5,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 1,087 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566475.webp"
+   }
+  },
+  {
+   "id": "gn:4565033",
+   "name": "Galateo",
+   "label": "Galateo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3624,
+   "lon": -66.2588,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2705,
+    "elevation_m": 30,
+    "area_km2": 1.7,
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 2,004 people in Puerto Rico.",
+    "text": "A community of 2,705 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4567586.webp"
+    "file": "images/minimap/gn_4565033.webp"
+   }
+  },
+  {
+   "id": "gn:4566497",
+   "name": "Palomas",
+   "label": "Palomas (Puerto Rico, near Comerío)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2325,
+   "lon": -66.2563,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1742,
+    "elevation_m": 591,
+    "area_km2": 2.2,
+    "temp_c": 23.1
+   },
+   "flavour": {
+    "text": "A community of 1,742 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566497.webp"
+   }
+  },
+  {
+   "id": "gn:4564216",
+   "name": "El Ojo",
+   "label": "El Ojo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0038,
+   "lon": -66.3916,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1713,
+    "elevation_m": 33,
+    "area_km2": 0.4,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "A community of 1,713 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4564216.webp"
+   }
+  },
+  {
+   "id": "gn:4563220",
+   "name": "Capitanejo",
+   "label": "Capitanejo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0145,
+   "lon": -66.5337,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3209,
+    "elevation_m": 5.0,
+    "area_km2": 2.5,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "A community of 3,209 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4563220.webp"
+   }
+  },
+  {
+   "id": "gn:4562517",
+   "name": "Aguas Claras",
+   "label": "Aguas Claras",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2527,
+   "lon": -65.6535,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3499,
+    "elevation_m": 31,
+    "area_km2": 7.1,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 3,499 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4562517.webp"
+   }
+  },
+  {
+   "id": "gn:4565544",
+   "name": "Indios",
+   "label": "Indios",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9941,
+   "lon": -66.8193,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1739,
+    "elevation_m": 45,
+    "area_km2": 2.6,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 1,739 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565544.webp"
+   }
+  },
+  {
+   "id": "gn:4567573",
+   "name": "Rafael Capo",
+   "label": "Rafael Capo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4072,
+   "lon": -66.7821,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1863,
+    "elevation_m": 183,
+    "area_km2": 4.0,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "A community of 1,863 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4567573.webp"
+   }
+  },
+  {
+   "id": "gn:4567575",
+   "name": "Rafael Hernandez",
+   "label": "Rafael Hernandez",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4713,
+   "lon": -67.0791,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1516,
+    "elevation_m": 111,
+    "area_km2": 0.7,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "A community of 1,516 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4567575.webp"
    }
   },
   {
@@ -1499,246 +1499,108 @@
    }
   },
   {
-   "id": "gn:4562529",
-   "name": "Aibonito",
-   "label": "Aibonito",
+   "id": "gn:4567552",
+   "name": "Quebradillas",
+   "label": "Quebradillas",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.14,
-   "lon": -66.266,
+   "lat": 18.4738,
+   "lon": -66.9385,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 8358,
    "facts": {
-    "population": 8947,
-    "elevation_m": 604,
-    "temp_c": 23.6
+    "population": 5620,
+    "elevation_m": 112,
+    "area_km2": 72,
+    "temp_c": 24.3
    },
    "flavour": {
-    "text": "A community of 8,947 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4562529.webp"
-   }
-  },
-  {
-   "id": "gn:4568451",
-   "name": "Trujillo Alto",
-   "label": "Trujillo Alto",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.3547,
-   "lon": -66.0074,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 75243,
-    "elevation_m": 20,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "A community of 75,243 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568451.webp"
-   }
-  },
-  {
-   "id": "gn:4564991",
-   "name": "Florida",
-   "label": "Florida",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.3624,
-   "lon": -66.5613,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 5652,
-    "elevation_m": 192,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 5,652 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4564991.webp"
-   }
-  },
-  {
-   "id": "gn:4566652",
-   "name": "Patillas",
-   "label": "Patillas",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0064,
-   "lon": -66.0157,
-   "rarity": "Epic",
-   "fame": 7770,
-   "facts": {
-    "population": 4247,
-    "elevation_m": 20,
-    "area_km2": 154,
-    "temp_c": 23.0
-   },
-   "flavour": {
-    "text": "Patillas is a beach town and municipality of Puerto Rico located in the southeastern coast, south of San Lorenzo; west of Yabucoa and Maunabo.",
+    "text": "Quebradillas is a town and municipality in Puerto Rico located in the northern shore bordering the Atlantic Ocean, north of San Sebastián; east of Isabela.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Patillas, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Patillas%2C_Puerto_Rico",
+    "title": "Quebradillas, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Quebradillas%2C_Puerto_Rico",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4566652.webp",
-    "author": "Oquendo from Freeport, NY",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Patillas_Puerto_Rico.jpg"
-   }
-  },
-  {
-   "id": "gn:4568917",
-   "name": "Yauco",
-   "label": "Yauco",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.035,
-   "lon": -66.8499,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 20295,
-    "elevation_m": 40,
-    "temp_c": 24.2
-   },
-   "flavour": {
-    "text": "A community of 20,295 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568917.webp"
-   }
-  },
-  {
-   "id": "gn:4562768",
-   "name": "Barceloneta",
-   "label": "Barceloneta",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4505,
-   "lon": -66.5385,
-   "rarity": "Epic",
-   "fame": 9660,
-   "facts": {
-    "population": 22322,
-    "elevation_m": 3.0,
-    "area_km2": 94,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "Barceloneta is a town and municipality in Puerto Rico located in the north region, bordering the Atlantic Ocean, north of Florida, east of Arecibo.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Barceloneta, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Barceloneta%2C_Puerto_Rico",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4562768.webp",
-    "author": "The Eloquent Peasant",
+    "file": "images/photo/gn_4567552.webp",
+    "author": "Mistman123",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Estatuas_en_Paseo_de_los_Veteranos_en_Barceloneta,_Puerto_Rico_02.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Guajatacatunel.jpg"
    }
   },
   {
-   "id": "gn:4566880",
-   "name": "Ponce",
-   "label": "Ponce",
+   "id": "gn:4565712",
+   "name": "Juana Díaz",
+   "label": "Juana Díaz",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.0103,
-   "lon": -66.624,
+   "lat": 18.0525,
+   "lon": -66.5066,
    "rarity": "Epic",
-   "fame": 2028,
+   "fame": 10512,
    "facts": {
-    "population": 137491,
-    "elevation_m": 15,
+    "population": 9427,
+    "elevation_m": 49,
+    "area_km2": 277,
     "temp_c": 24.0
    },
    "flavour": {
-    "text": "The Ponce Historic Zone is a historic district in downtown Ponce, Puerto Rico, consisting of buildings.",
+    "text": "Juana Díaz is a town and municipality of Puerto Rico located on the southern coast of the island, south of Jayuya, Ciales, Orocovis and Villalba.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ponce Historic Zone",
-    "url": "https://en.wikipedia.org/wiki/Ponce_Historic_Zone",
+    "title": "Juana Díaz, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Juana_D%C3%ADaz%2C_Puerto_Rico",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4566880.webp",
-    "author": "The original uploader was Jmoliver at English Wikipedia .",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Parque_de_Bombas-Ponce_Puerto_Rico.jpg"
+    "file": "images/photo/gn_4565712.webp",
+    "author": "Edgar Torres",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flamboyan_tree,_Juana_Diaz,_PR_-_panoramio.jpg"
    }
   },
   {
-   "id": "gn:4565346",
-   "name": "Hatillo",
-   "label": "Hatillo",
+   "id": "gn:4566208",
+   "name": "Maunabo",
+   "label": "Maunabo",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.4863,
-   "lon": -66.8255,
+   "lat": 18.0072,
+   "lon": -65.8993,
    "rarity": "Epic",
-   "fame": 8550,
+   "fame": 7662,
    "facts": {
-    "population": 5622,
-    "elevation_m": 7.0,
-    "area_km2": 152,
+    "population": 2154,
+    "elevation_m": 10,
+    "area_km2": 72,
     "temp_c": 24.6
    },
    "flavour": {
-    "text": "Hatillo is a town and municipality located in Puerto Rico's north coast, bordered by the Atlantic Ocean to the north, Lares and Utuado to the south.",
+    "text": "Maunabo is a town and municipality of Puerto Rico located in the Maunabo Valley on the southeastern coast, northeast of Patillas and south of Yabucoa.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Hatillo, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Hatillo%2C_Puerto_Rico",
+    "title": "Maunabo, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Maunabo%2C_Puerto_Rico",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4565346.webp",
-    "author": "Oscar Rohena (Oscalito, source )",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Festival_de_las_Mascaras_en_Hatillo,_Puerto_Rico_fokuso.jpg"
+    "file": "images/photo/gn_4566208.webp",
+    "author": "Unknown author",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Faro_Punta_Tuna.jpg"
    }
   },
   {
@@ -1752,54 +1614,238 @@
    "lat": 18.4413,
    "lon": -66.1182,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 16764,
    "facts": {
     "population": 28093,
     "elevation_m": 3.0,
+    "area_km2": 18,
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A community of 28,093 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4563298.webp"
-   }
-  },
-  {
-   "id": "gn:4562600",
-   "name": "Añasco",
-   "label": "Añasco",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.2827,
-   "lon": -67.1396,
-   "rarity": "Epic",
-   "fame": 22308,
-   "facts": {
-    "population": 6136,
-    "elevation_m": 9.0,
-    "area_km2": 116,
-    "temp_c": 24.7
-   },
-   "flavour": {
-    "text": "Añasco, named after one of its settlers, Don Luis de Añasco, is a town and municipality of Puerto Rico located on the west coast of the island bordering the…",
+    "text": "It is west of the capital San Juan, east of Toa Baja, north of Bayamón and Guaynabo, and south of San Juan Bay.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Añasco, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/A%C3%B1asco%2C_Puerto_Rico",
+    "title": "Cataño, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Cata%C3%B1o%2C_Puerto_Rico",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4562600.webp",
-    "author": "cavenaghi9",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Puente_del_R%C3%ADo_Grande_de_A%C3%B1asco.jpg"
+    "file": "images/photo/gn_4563298.webp",
+    "author": "Serge Melki from Indianapolis, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_Bacardi_(349349243).jpg"
+   }
+  },
+  {
+   "id": "gn:4565125",
+   "name": "Gurabo",
+   "label": "Gurabo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2544,
+   "lon": -65.9729,
+   "rarity": "Epic",
+   "fame": 9774,
+   "facts": {
+    "population": 8973,
+    "elevation_m": 61,
+    "area_km2": 73,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It is located in the central eastern region, north of San Lorenzo; south of Trujillo Alto; east of Caguas; and west of Carolina and Juncos.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gurabo, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Gurabo%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4565125.webp",
+    "author": "Ligocsicnarf89",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021plazadegurabo1.jpg"
+   }
+  },
+  {
+   "id": "gn:4564946",
+   "name": "Fajardo",
+   "label": "Fajardo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3258,
+   "lon": -65.6524,
+   "rarity": "Epic",
+   "fame": 21612,
+   "facts": {
+    "population": 32124,
+    "elevation_m": 10,
+    "area_km2": 156,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Fajardo is a town and a municipality part of the San Juan-Caguas-Fajardo Combined Statistical Area in Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fajardo, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Fajardo%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4564946.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fajardo_basin.jpg"
+   }
+  },
+  {
+   "id": "gn:4568040",
+   "name": "Salinas",
+   "label": "Salinas",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9775,
+   "lon": -66.298,
+   "rarity": "Epic",
+   "fame": 12834,
+   "facts": {
+    "population": 6375,
+    "elevation_m": 7.0,
+    "area_km2": 181,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Salinas is a town and municipality in the southern part of Puerto Rico located in the southern coast of the island, south of Aibonito and Cayey.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salinas, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Salinas%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4568040.webp",
+    "author": "Gasmaster2005",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Salinas.jpg"
+   }
+  },
+  {
+   "id": "gn:4566022",
+   "name": "Loíza",
+   "label": "Loíza",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4313,
+   "lon": -65.8802,
+   "rarity": "Epic",
+   "fame": 17250,
+   "facts": {
+    "population": 4311,
+    "elevation_m": 3.0,
+    "area_km2": 1.7,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Loíza is a town and municipality on the northeastern coast of Puerto Rico, located east of Carolina, west of Río Grande, and north of Canóvanas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Loíza, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Lo%C3%ADza%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4566022.webp",
+    "author": "David Sanchez from Washington DC, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Grande_de_Lo%C3%ADza.jpg"
+   }
+  },
+  {
+   "id": "gn:4568908",
+   "name": "Yabucoa",
+   "label": "Yabucoa",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0505,
+   "lon": -65.8793,
+   "rarity": "Epic",
+   "fame": 9798,
+   "facts": {
+    "population": 6952,
+    "elevation_m": 33,
+    "area_km2": 216,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Yabucoa is a town and municipality in Puerto Rico located in the eastern region, north of Maunabo; south of San Lorenzo, Las Piedras and Humacao.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yabucoa, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Yabucoa%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4568908.webp",
+    "author": "Drew Danielson",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seagrape_(Coccoloba_uvifera)_shrub_at_Playa_Lucia,_Yabucoa,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "gn:4563008",
+   "name": "Caguas",
+   "label": "Caguas",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2341,
+   "lon": -66.0485,
+   "rarity": "Epic",
+   "fame": 44034,
+   "facts": {
+    "population": 86804,
+    "elevation_m": 65,
+    "area_km2": 29,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "Caguas is a city and municipality in central eastern Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caguas, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Caguas%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4563008.webp",
+    "author": "Ian Poellet",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_Alcaldia_-_Caguas_Puerto_Rico.jpg"
    }
   },
   {
@@ -2839,359 +2885,6 @@
    }
   },
   {
-   "id": "gn:4568074",
-   "name": "San Antonio",
-   "label": "San Antonio",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4488,
-   "lon": -66.3027,
-   "rarity": "Rare",
-   "fame": 228,
-   "facts": {
-    "population": 6456,
-    "elevation_m": 7.0,
-    "area_km2": 4.9,
-    "temp_c": 25.6
-   },
-   "flavour": {
-    "text": "San Antonio is a comunidad in Higuillar which is one of the 6 barrios of Dorado, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "San Antonio (Higuillar)",
-    "url": "https://en.wikipedia.org/wiki/San_Antonio_%28Higuillar%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568074.webp"
-   }
-  },
-  {
-   "id": "gn:4568347",
-   "name": "Stella",
-   "label": "Stella",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.3219,
-   "lon": -67.2468,
-   "rarity": "Rare",
-   "fame": 462,
-   "facts": {
-    "population": 1293,
-    "elevation_m": 2.0,
-    "area_km2": 0.9,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "Stella is a community in Pueblo barrio and Calvache barrio, in the municipality of Rincón, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Stella, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Stella%2C_Puerto_Rico",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568347.webp"
-   }
-  },
-  {
-   "id": "gn:4564861",
-   "name": "Esperanza",
-   "label": "Esperanza",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0972,
-   "lon": -65.4707,
-   "rarity": "Rare",
-   "fame": 2346,
-   "facts": {
-    "population": 1092,
-    "elevation_m": 5.0,
-    "area_km2": 3.3,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "It was the location of Hacienda Casa del Frances, a historic site listed on the U.S. National Register of Historic Places.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Esperanza, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Esperanza%2C_Puerto_Rico",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4564861.webp",
-    "author": "ReggaeMan567",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Main_Street_of_Esperanza,_Puerto_Rico.jpg"
-   }
-  },
-  {
-   "id": "gn:4562483",
-   "name": "Aceitunas",
-   "label": "Aceitunas",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4433,
-   "lon": -67.0649,
-   "rarity": "Rare",
-   "fame": 738,
-   "facts": {
-    "population": 1688,
-    "elevation_m": 176,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "The land area of this subdivision is 5.36 square miles.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Aceitunas",
-    "url": "https://en.wikipedia.org/wiki/Aceitunas",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4562483.webp",
-    "author": "Jmundo",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Visittomoca.jpg"
-   }
-  },
-  {
-   "id": "gn:4565796",
-   "name": "La Parguera",
-   "label": "La Parguera",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 17.975,
-   "lon": -67.0466,
-   "rarity": "Rare",
-   "fame": 1512,
-   "facts": {
-    "population": 1141,
-    "elevation_m": 8.0,
-    "area_km2": 0.7,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "A community of 1,141 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4565796.webp"
-   }
-  },
-  {
-   "id": "gn:4568253",
-   "name": "Santo Domingo",
-   "label": "Santo Domingo",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.0633,
-   "lon": -66.7524,
-   "rarity": "Rare",
-   "fame": 54,
-   "facts": {
-    "population": 3633,
-    "elevation_m": 136,
-    "area_km2": 5.7,
-    "temp_c": 23.3
-   },
-   "flavour": {
-    "text": "Santo Domingo is a barrio in the municipality of Peñuelas, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Santo Domingo, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Santo_Domingo%2C_Puerto_Rico",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568253.webp"
-   }
-  },
-  {
-   "id": "gn:4563124",
-   "name": "Candelero Arriba",
-   "label": "Candelero Arriba",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.1019,
-   "lon": -65.8368,
-   "rarity": "Rare",
-   "fame": 348,
-   "facts": {
-    "population": 1346,
-    "elevation_m": 81,
-    "temp_c": 24.6
-   },
-   "flavour": {
-    "text": "Candelero Arriba is a barrio in the municipality of Humacao, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Candelero Arriba",
-    "url": "https://en.wikipedia.org/wiki/Candelero_Arriba",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4563124.webp",
-    "author": "yasmapaz & ace_heart",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Eclipse_as_seen_from_Candelero_Arriba,_Humacao,_Puerto_Rico.jpg"
-   }
-  },
-  {
-   "id": "gn:4566485",
-   "name": "Palmer",
-   "label": "Palmer",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.3705,
-   "lon": -65.7741,
-   "rarity": "Rare",
-   "fame": 624,
-   "facts": {
-    "population": 1205,
-    "elevation_m": 18,
-    "area_km2": 0.5,
-    "temp_c": 25.6
-   },
-   "flavour": {
-    "text": "Palmer is a small settlement and sector in the barrio Mameyes II of Río Grande, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Palmer, Río Grande, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/Palmer%2C_R%C3%ADo_Grande%2C_Puerto_Rico",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4566485.webp",
-    "author": "G. Edward Johnson",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Palmer_Puerto_Rico_Post_Office_2021-08-07_12-35-25_1.jpg"
-   }
-  },
-  {
-   "id": "gn:4564028",
-   "name": "Coto Norte",
-   "label": "Coto Norte",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4308,
-   "lon": -66.4399,
-   "rarity": "Rare",
-   "fame": 414,
-   "facts": {
-    "population": 1381,
-    "elevation_m": 79,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "Coto Norte is a rural barrio with an urban zone in the municipality of Manatí, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Coto Norte",
-    "url": "https://en.wikipedia.org/wiki/Coto_Norte",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4564028.webp",
-    "author": "Yarfpr",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Carretera_PR-149,_Manat%C3%AD,_Puerto_Rico_(1).jpg"
-   }
-  },
-  {
-   "id": "gn:4568367",
-   "name": "Tallaboa",
-   "label": "Tallaboa",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 17.995,
-   "lon": -66.7163,
-   "rarity": "Rare",
-   "fame": 186,
-   "facts": {
-    "population": 1150,
-    "elevation_m": 14,
-    "area_km2": 2.9,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "A community of 1,150 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4568367.webp"
-   }
-  },
-  {
-   "id": "gn:4568399",
-   "name": "Tierras Nuevas Poniente",
-   "label": "Tierras Nuevas Poniente",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4619,
-   "lon": -66.4885,
-   "rarity": "Rare",
-   "fame": 546,
-   "facts": {
-    "population": 2366,
-    "elevation_m": 23,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "Tierras Nuevas Poniente is a rural barrio in the municipality of Manatí, Puerto Rico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Tierras Nuevas Poniente",
-    "url": "https://en.wikipedia.org/wiki/Tierras_Nuevas_Poniente",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4568399.webp",
-    "author": "Edgar Torres",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Secluded_beach_at_sunset,_Manati,_PR_-_panoramio.jpg"
-   }
-  },
-  {
    "id": "wd:Q7386273",
    "name": "Río Duey",
    "label": "Río Duey (near Sabana Eneas)",
@@ -3384,110 +3077,84 @@
    }
   },
   {
-   "id": "gn:4568350",
-   "name": "Suárez",
-   "label": "Suárez",
+   "id": "gn:4565032",
+   "name": "G. L. Garcia",
+   "label": "G. L. Garcia",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.4302,
-   "lon": -65.8535,
+   "lat": 18.1275,
+   "lon": -66.1041,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2276,
+    "population": 1798,
+    "elevation_m": 442,
+    "area_km2": 2.0,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "A community of 1,798 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565032.webp"
+   }
+  },
+  {
+   "id": "gn:4566814",
+   "name": "Playita Cortada",
+   "label": "Playita Cortada",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.985,
+   "lon": -66.4391,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1677,
     "elevation_m": 3.0,
-    "area_km2": 0.6,
-    "temp_c": 25.9
+    "area_km2": 5.0,
+    "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 2,276 people in Puerto Rico.",
+    "text": "A community of 1,677 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4568350.webp"
+    "file": "images/minimap/gn_4566814.webp"
    }
   },
   {
-   "id": "gn:4567574",
-   "name": "Rafael Gonzalez",
-   "label": "Rafael Gonzalez",
+   "id": "gn:4566913",
+   "name": "Pueblito del Rio",
+   "label": "Pueblito del Rio",
    "type": "town",
    "kind": "town",
    "region": "US-PR",
    "country": "PR",
-   "lat": 18.4275,
-   "lon": -66.7868,
+   "lat": 18.228,
+   "lon": -65.8629,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2325,
-    "elevation_m": 128,
-    "area_km2": 1.1,
-    "temp_c": 24.6
+    "population": 1481,
+    "elevation_m": 82,
+    "area_km2": 0.7,
+    "temp_c": 24.5
    },
    "flavour": {
-    "text": "A community of 2,325 people in Puerto Rico.",
+    "text": "A community of 1,481 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4567574.webp"
-   }
-  },
-  {
-   "id": "gn:4565689",
-   "name": "Jobos",
-   "label": "Jobos",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 17.9552,
-   "lon": -66.1654,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3475,
-    "elevation_m": 7.0,
-    "area_km2": 1.4,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "A community of 3,475 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4565689.webp"
-   }
-  },
-  {
-   "id": "gn:4566270",
-   "name": "Moca",
-   "label": "Moca",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.3947,
-   "lon": -67.1132,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 4964,
-    "elevation_m": 40,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "A community of 4,964 people in Puerto Rico.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4566270.webp"
+    "file": "images/minimap/gn_4566913.webp"
    }
   }
  ]

@@ -397,6 +397,62 @@
    }
   },
   {
+   "id": "gn:3576854",
+   "name": "Bisee",
+   "label": "Bisee",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0243,
+   "lon": -60.9744,
+   "rarity": "Common",
+   "fame": 564,
+   "facts": {
+    "population": 12980,
+    "elevation_m": 48,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "With a population of 12,980, it is the second largest town in Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bisée",
+    "url": "https://en.wikipedia.org/wiki/Bis%C3%A9e",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576854.webp"
+   }
+  },
+  {
+   "id": "gn:3576664",
+   "name": "L’Abbayée",
+   "label": "L’Abbayée",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 13.9271,
+   "lon": -60.9719,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1355,
+    "elevation_m": 72,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,355 people in Castries Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576664.webp"
+   }
+  },
+  {
    "id": "gn:3576791",
    "name": "Ciceron",
    "label": "Ciceron",
@@ -420,58 +476,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_3576791.webp"
-   }
-  },
-  {
-   "id": "gn:3576551",
-   "name": "Morne Doudon",
-   "label": "Morne Doudon",
-   "type": "town",
-   "kind": "town",
-   "region": "LC-02",
-   "country": "LC",
-   "lat": 14.0099,
-   "lon": -60.9724,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1176,
-    "elevation_m": 211,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 1,176 people in Castries Quarter.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3576551.webp"
-   }
-  },
-  {
-   "id": "gn:3576885",
-   "name": "Balata",
-   "label": "Balata",
-   "type": "town",
-   "kind": "town",
-   "region": "LC-02",
-   "country": "LC",
-   "lat": 14.014,
-   "lon": -60.956,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1812,
-    "elevation_m": 37,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 1,812 people in Castries Quarter.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3576885.webp"
    }
   },
   {
@@ -527,32 +531,6 @@
    }
   },
   {
-   "id": "gn:3576781",
-   "name": "Corinthe",
-   "label": "Corinthe",
-   "type": "town",
-   "kind": "town",
-   "region": "LC-06",
-   "country": "LC",
-   "lat": 14.0453,
-   "lon": -60.9607,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1576,
-    "elevation_m": 25,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 1,576 people in Gros Islet Quarter.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3576781.webp"
-   }
-  },
-  {
    "id": "gn:11954745",
    "name": "Beauséjour",
    "label": "Beauséjour",
@@ -579,33 +557,71 @@
    }
   },
   {
-   "id": "gn:3576854",
-   "name": "Bisee",
-   "label": "Bisee",
+   "id": "gn:3576562",
+   "name": "Monchy",
+   "label": "Monchy",
    "type": "town",
    "kind": "town",
-   "region": "LC-02",
+   "region": "LC-06",
    "country": "LC",
-   "lat": 14.0243,
-   "lon": -60.9744,
+   "lat": 14.0532,
+   "lon": -60.9299,
    "rarity": "Common",
-   "fame": 564,
+   "fame": 510,
    "facts": {
-    "population": 12980,
-    "elevation_m": 48,
+    "population": 1011,
+    "elevation_m": 22,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "With a population of 12,980, it is the second largest town in Saint Lucia.",
+    "text": "Monchy is a town and second-order administrative division of Gros Islet District in the island nation of Saint Lucia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Bisée",
-    "url": "https://en.wikipedia.org/wiki/Bis%C3%A9e",
+    "title": "Monchy, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Monchy%2C_Saint_Lucia",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3576854.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3576562.webp",
+    "author": "Gene93k",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monchy_skyline_2012.JPG"
+   }
+  },
+  {
+   "id": "gn:3576830",
+   "name": "Canaries",
+   "label": "Canaries",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9022,
+   "lon": -61.0646,
+   "rarity": "Common",
+   "fame": 1428,
+   "facts": {
+    "population": 1862,
+    "elevation_m": 12,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Canaries is a populated place located on the West Coast of Saint Lucia in the Canaries Quarter.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canaries, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Canaries%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576830.webp",
+    "author": "Mjr74",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Canaries.JPG"
    }
   },
   {
@@ -635,81 +651,85 @@
    }
   },
   {
-   "id": "gn:3576836",
-   "name": "Cabiche",
-   "label": "Cabiche",
+   "id": "gn:3576551",
+   "name": "Morne Doudon",
+   "label": "Morne Doudon",
    "type": "town",
    "kind": "town",
    "region": "LC-02",
    "country": "LC",
-   "lat": 14.004,
-   "lon": -60.9478,
+   "lat": 14.0099,
+   "lon": -60.9724,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1169,
-    "elevation_m": 193,
+    "population": 1176,
+    "elevation_m": 211,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A community of 1,169 people in Castries Quarter.",
+    "text": "A community of 1,176 people in Castries Quarter.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3576836.webp"
+    "file": "images/minimap/gn_3576551.webp"
    }
   },
   {
-   "id": "gn:3576888",
-   "name": "Augier",
-   "label": "Augier",
-   "type": "town",
-   "kind": "town",
-   "region": "LC-11",
-   "country": "LC",
-   "lat": 13.7632,
-   "lon": -60.9789,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1850,
-    "elevation_m": 94,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 1,850 people in Vieux Fort Quarter.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3576888.webp"
-   }
-  },
-  {
-   "id": "gn:3576895",
-   "name": "Anse Ger",
-   "label": "Anse Ger",
+   "id": "gn:3576639",
+   "name": "La Pointe",
+   "label": "La Pointe",
    "type": "town",
    "kind": "town",
    "region": "LC-08",
    "country": "LC",
-   "lat": 13.7978,
-   "lon": -60.9164,
+   "lat": 13.846,
+   "lon": -60.9024,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1471,
-    "elevation_m": 64,
-    "temp_c": 26.6
+    "population": 1274,
+    "elevation_m": 132,
+    "temp_c": 26.0
    },
    "flavour": {
-    "text": "A community of 1,471 people in Micoud Quarter.",
+    "text": "A community of 1,274 people in Micoud Quarter.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3576895.webp"
+    "file": "images/minimap/gn_3576639.webp"
+   }
+  },
+  {
+   "id": "gn:11955912",
+   "name": "Ti Rocher",
+   "label": "Ti Rocher",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-08",
+   "country": "LC",
+   "lat": 13.8166,
+   "lon": -60.9302,
+   "rarity": "Common",
+   "fame": 342,
+   "facts": {
+    "population": 1371,
+    "elevation_m": 104,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is also a second-level division in Micoud District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ti Rocher, Micoud",
+    "url": "https://en.wikipedia.org/wiki/Ti_Rocher%2C_Micoud",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11955912.webp"
    }
   },
   {
@@ -854,15 +874,20 @@
    "lat": 13.9141,
    "lon": -60.8913,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 1638,
    "facts": {
     "population": 12589,
     "elevation_m": 19,
+    "area_km2": 72,
     "temp_c": 26.0
    },
    "flavour": {
-    "text": "A community of 12,589 people in Dennery Quarter.",
-    "source": "facts"
+    "text": "Dennery District is one of 10 districts of the Caribbean island nation of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dennery District",
+    "url": "https://en.wikipedia.org/wiki/Dennery_District",
+    "translated": false
    },
    "image": {
     "kind": "photo",
@@ -1704,63 +1729,81 @@
    }
   },
   {
-   "id": "gn:3576830",
-   "name": "Canaries",
-   "label": "Canaries",
+   "id": "gn:3576888",
+   "name": "Augier",
+   "label": "Augier",
    "type": "town",
    "kind": "town",
-   "region": "LC-01",
+   "region": "LC-11",
    "country": "LC",
-   "lat": 13.9022,
-   "lon": -61.0646,
-   "rarity": "Rare",
-   "fame": 1428,
-   "facts": {
-    "population": 1862,
-    "elevation_m": 12,
-    "temp_c": 25.7
-   },
-   "flavour": {
-    "text": "Canaries is a populated place located on the West Coast of Saint Lucia in the Canaries Quarter.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Canaries, Saint Lucia",
-    "url": "https://en.wikipedia.org/wiki/Canaries%2C_Saint_Lucia",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3576830.webp",
-    "author": "Mjr74",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Canaries.JPG"
-   }
-  },
-  {
-   "id": "gn:9072631",
-   "name": "Bocage",
-   "label": "Bocage",
-   "type": "town",
-   "kind": "town",
-   "region": "LC-02",
-   "country": "LC",
-   "lat": 13.9889,
-   "lon": -60.972,
+   "lat": 13.7632,
+   "lon": -60.9789,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1420,
-    "elevation_m": 135,
-    "temp_c": 26.0
+    "population": 1850,
+    "elevation_m": 94,
+    "temp_c": 26.6
    },
    "flavour": {
-    "text": "A community of 1,420 people in Castries Quarter.",
+    "text": "A community of 1,850 people in Vieux Fort Quarter.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_9072631.webp"
+    "file": "images/minimap/gn_3576888.webp"
+   }
+  },
+  {
+   "id": "gn:3576895",
+   "name": "Anse Ger",
+   "label": "Anse Ger",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-08",
+   "country": "LC",
+   "lat": 13.7978,
+   "lon": -60.9164,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1471,
+    "elevation_m": 64,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,471 people in Micoud Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576895.webp"
+   }
+  },
+  {
+   "id": "gn:11955981",
+   "name": "Au Leon",
+   "label": "Au Leon",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-05",
+   "country": "LC",
+   "lat": 13.9458,
+   "lon": -60.9078,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1393,
+    "elevation_m": 96,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,393 people in Dennery Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11955981.webp"
    }
   }
  ]

@@ -381,289 +381,95 @@
    }
   },
   {
-   "id": "gn:3722239",
-   "name": "Les Irois",
-   "label": "Les Irois",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-GA",
-   "country": "HT",
-   "lat": 18.4049,
-   "lon": -74.4528,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2265,
-    "elevation_m": 14,
-    "temp_c": 24.5
-   },
-   "flavour": {
-    "text": "A community of 2,265 people in Grand'Anse.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3722239.webp"
-   }
-  },
-  {
-   "id": "gn:3727287",
-   "name": "Kotdefè",
-   "label": "Kotdefè",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-SE",
-   "country": "HT",
-   "lat": 18.1887,
-   "lon": -73.0029,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2393,
-    "elevation_m": 9.0,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 2,393 people in Sud-Est.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3727287.webp"
-   }
-  },
-  {
-   "id": "gn:3731132",
-   "name": "Anse à Galets",
-   "label": "Anse à Galets",
+   "id": "gn:3725222",
+   "name": "Fonds Verrettes",
+   "label": "Fonds Verrettes",
    "type": "town",
    "kind": "town",
    "region": "HT-OU",
    "country": "HT",
-   "lat": 18.8345,
-   "lon": -72.8664,
+   "lat": 18.3957,
+   "lon": -71.8563,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 1650,
    "facts": {
-    "population": 7178,
-    "elevation_m": 22,
-    "temp_c": 26.2
+    "population": 2789,
+    "elevation_m": 803,
+    "area_km2": 288,
+    "temp_c": 20.2
    },
    "flavour": {
-    "text": "A community of 7,178 people in Ouest.",
-    "source": "facts"
+    "text": "It has 40,224 inhabitants and lies adjacent to the Dominican Republic–Haiti border.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fonds-Verrettes",
+    "url": "https://en.wikipedia.org/wiki/Fonds-Verrettes",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3731132.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3725222.webp",
+    "author": "myself",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fonds_verettes_paysage.JPG"
    }
   },
   {
-   "id": "gn:3719008",
-   "name": "Petite Anse",
-   "label": "Petite Anse",
+   "id": "gn:3719099",
+   "name": "Perches",
+   "label": "Perches",
    "type": "town",
    "kind": "town",
-   "region": "HT-NO",
+   "region": "HT-NE",
    "country": "HT",
-   "lat": 19.6301,
-   "lon": -73.155,
+   "lat": 19.522,
+   "lon": -71.9232,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 876,
    "facts": {
-    "population": 1539,
-    "elevation_m": 6.0,
-    "temp_c": 26.7
+    "population": 1889,
+    "elevation_m": 122,
+    "area_km2": 40,
+    "temp_c": 25.9
    },
    "flavour": {
-    "text": "A community of 1,539 people in Nord-Ouest.",
-    "source": "facts"
+    "text": "Perches is a commune in the Fort-Liberté Arrondissement, in the Nord-Est department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Perches, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Perches%2C_Haiti",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3719008.webp"
+    "file": "images/minimap/gn_3719099.webp"
    }
   },
   {
-   "id": "gn:3718707",
-   "name": "Plaine du Nord",
-   "label": "Plaine du Nord",
+   "id": "gn:3722286",
+   "name": "Léogâne",
+   "label": "Léogâne",
    "type": "town",
    "kind": "town",
-   "region": "HT-ND",
+   "region": "HT-OU",
    "country": "HT",
-   "lat": 19.6771,
-   "lon": -72.2697,
+   "lat": 18.5111,
+   "lon": -72.6334,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2492,
-    "elevation_m": 20,
-    "temp_c": 25.8
+    "population": 134190,
+    "elevation_m": 18,
+    "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 2,492 people in Nord.",
+    "text": "A community of 134,190 people in Ouest.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3718707.webp"
-   }
-  },
-  {
-   "id": "gn:3728054",
-   "name": "Cerca la Source",
-   "label": "Cerca la Source",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-CE",
-   "country": "HT",
-   "lat": 19.167,
-   "lon": -71.7901,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2792,
-    "elevation_m": 370,
-    "temp_c": 23.6
-   },
-   "flavour": {
-    "text": "A community of 2,792 people in Centre.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3728054.webp"
-   }
-  },
-  {
-   "id": "gn:3718975",
-   "name": "Petite Rivière de Nippes",
-   "label": "Petite Rivière de Nippes",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-NI",
-   "country": "HT",
-   "lat": 18.4761,
-   "lon": -73.2349,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1794,
-    "elevation_m": 15,
-    "temp_c": 24.1
-   },
-   "flavour": {
-    "text": "A community of 1,794 people in Nippes.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3718975.webp"
-   }
-  },
-  {
-   "id": "gn:3718411",
-   "name": "Port-Margot",
-   "label": "Port-Margot",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-ND",
-   "country": "HT",
-   "lat": 19.7518,
-   "lon": -72.4301,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3070,
-    "elevation_m": 37,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 3,070 people in Nord.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3718411.webp"
-   }
-  },
-  {
-   "id": "gn:3722124",
-   "name": "Lenbe",
-   "label": "Lenbe",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-ND",
-   "country": "HT",
-   "lat": 19.706,
-   "lon": -72.4034,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 32645,
-    "elevation_m": 34,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 32,645 people in Nord.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3722124.webp"
-   }
-  },
-  {
-   "id": "gn:3718666",
-   "name": "Plaisance",
-   "label": "Plaisance",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-ND",
-   "country": "HT",
-   "lat": 19.598,
-   "lon": -72.4699,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 4152,
-    "elevation_m": 387,
-    "temp_c": 23.0
-   },
-   "flavour": {
-    "text": "A community of 4,152 people in Nord.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3718666.webp"
-   }
-  },
-  {
-   "id": "gn:3716669",
-   "name": "Thomassique",
-   "label": "Thomassique",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-CE",
-   "country": "HT",
-   "lat": 19.0821,
-   "lon": -71.8385,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 4857,
-    "elevation_m": 294,
-    "temp_c": 25.6
-   },
-   "flavour": {
-    "text": "A community of 4,857 people in Centre.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3716669.webp"
+    "file": "images/minimap/gn_3722286.webp"
    }
   },
   {
@@ -690,6 +496,260 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_3731123.webp"
+   }
+  },
+  {
+   "id": "gn:3718975",
+   "name": "Petite Rivière de Nippes",
+   "label": "Petite Rivière de Nippes",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NI",
+   "country": "HT",
+   "lat": 18.4761,
+   "lon": -73.2349,
+   "rarity": "Common",
+   "fame": 1392,
+   "facts": {
+    "population": 1794,
+    "elevation_m": 15,
+    "area_km2": 94,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Petite-Rivière-de-Nippes is a commune in the Miragoâne Arrondissement, in the Nippes department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petite-Rivière-de-Nippes",
+    "url": "https://en.wikipedia.org/wiki/Petite-Rivi%C3%A8re-de-Nippes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3718975.webp",
+    "author": "Alex Carroll",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Petite_Rivi%C3%A8re_de_Nippes_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3727984",
+   "name": "Chambellan",
+   "label": "Chambellan",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.5504,
+   "lon": -74.3132,
+   "rarity": "Common",
+   "fame": 1176,
+   "facts": {
+    "population": 1397,
+    "elevation_m": 69,
+    "area_km2": 73,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Chambellan is a commune in the Jérémie Arrondissement, in the Grand'Anse department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chambellan",
+    "url": "https://en.wikipedia.org/wiki/Chambellan",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3727984.webp"
+   }
+  },
+  {
+   "id": "gn:3718199",
+   "name": "Ranquitte",
+   "label": "Ranquitte",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.4133,
+   "lon": -72.0808,
+   "rarity": "Common",
+   "fame": 798,
+   "facts": {
+    "population": 1391,
+    "elevation_m": 403,
+    "area_km2": 82,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Ranquitte is a commune in the Saint-Raphaël Arrondissement, in the Nord department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ranquitte",
+    "url": "https://en.wikipedia.org/wiki/Ranquitte",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718199.webp"
+   }
+  },
+  {
+   "id": "gn:3716980",
+   "name": "Sources Chaudes",
+   "label": "Sources Chaudes",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.4839,
+   "lon": -74.2867,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5544,
+    "elevation_m": 140,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "A community of 5,544 people in Grand'Anse.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3716980.webp"
+   }
+  },
+  {
+   "id": "gn:3718938",
+   "name": "Petit Trou de Nippes",
+   "label": "Petit Trou de Nippes",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NI",
+   "country": "HT",
+   "lat": 18.5253,
+   "lon": -73.5082,
+   "rarity": "Common",
+   "fame": 1920,
+   "facts": {
+    "population": 2130,
+    "elevation_m": 6.0,
+    "area_km2": 153,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Petit-Trou-de-Nippes is a commune in the Anse-à-Veau Arrondissement, in the Nippes department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petit-Trou-de-Nippes",
+    "url": "https://en.wikipedia.org/wiki/Petit-Trou-de-Nippes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3718938.webp",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Daniel Barker",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100123-N-4774B-016_Sailors_assigned_to_the_guided-missile_cruiser_USS_Normandy_(CG_60)_take_a_rigid-hull_inflatable_boat_to_the_island_of_Petit_Trou_De_Nippes.jpg"
+   }
+  },
+  {
+   "id": "gn:3731105",
+   "name": "Anse Rouge",
+   "label": "Anse Rouge",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.6338,
+   "lon": -73.0553,
+   "rarity": "Common",
+   "fame": 1614,
+   "facts": {
+    "population": 4437,
+    "elevation_m": 15,
+    "area_km2": 434,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Anse-Rouge is a commune in the Gros-Morne Arrondissement, in the Artibonite department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Anse-Rouge",
+    "url": "https://en.wikipedia.org/wiki/Anse-Rouge",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731105.webp"
+   }
+  },
+  {
+   "id": "gn:3718924",
+   "name": "Phaëton",
+   "label": "Phaëton",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6752,
+   "lon": -71.8969,
+   "rarity": "Common",
+   "fame": 408,
+   "facts": {
+    "population": 2297,
+    "elevation_m": 9.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is an old factory town, like its neighbor, Derac, as part of the old Dauphin Plantation residential area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Phaeton, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Phaeton%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718924.webp"
+   }
+  },
+  {
+   "id": "gn:3727398",
+   "name": "Corail",
+   "label": "Corail",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.5677,
+   "lon": -73.8894,
+   "rarity": "Common",
+   "fame": 1152,
+   "facts": {
+    "population": 2782,
+    "elevation_m": 10,
+    "area_km2": 109,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Corail is a commune in the Corail Arrondissement, in the Grand'Anse department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Corail, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Corail%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3727398.webp",
+    "author": "Bruno Le Bansais",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corail_Ha%C3%AFti_nouveau_quartier.jpg"
    }
   },
   {
@@ -1182,86 +1242,38 @@
    }
   },
   {
-   "id": "gn:3728097",
-   "name": "Les Cayes",
-   "label": "Les Cayes",
+   "id": "gn:3740007",
+   "name": "Cité Soleil",
+   "label": "Cité Soleil",
    "type": "town",
    "kind": "town",
-   "region": "HT-SD",
+   "region": "HT-OU",
    "country": "HT",
-   "lat": 18.192,
-   "lon": -73.7495,
+   "lat": 18.5803,
+   "lon": -72.3381,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 32322,
    "facts": {
-    "population": 125799,
-    "elevation_m": 1.0,
-    "temp_c": 26.3
+    "population": 265072,
+    "elevation_m": 7.0,
+    "area_km2": 0.0,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "A community of 125,799 people in Sud.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3728097.webp"
-   }
-  },
-  {
-   "id": "gn:3725364",
-   "name": "Fond des Blancs",
-   "label": "Fond des Blancs",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-SD",
-   "country": "HT",
-   "lat": 18.2778,
-   "lon": -73.1273,
-   "rarity": "Epic",
-   "fame": 4842,
-   "facts": {
-    "population": 2653,
-    "elevation_m": 303,
-    "area_km2": 0.7,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "Fond-des-Blancs is a communal section located in the Sud department of Haiti in the Aquin Arrondissement.",
+    "text": "Cité Soleil is an extremely impoverished and densely populated commune located in the Port-au-Prince metropolitan area in Haiti.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Fond-des-Blancs",
-    "url": "https://en.wikipedia.org/wiki/Fond-des-Blancs",
+    "title": "Cité Soleil",
+    "url": "https://en.wikipedia.org/wiki/Cit%C3%A9_Soleil",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3725364.webp"
-   }
-  },
-  {
-   "id": "gn:3723593",
-   "name": "Jérémie",
-   "label": "Jérémie",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-GA",
-   "country": "HT",
-   "lat": 18.65,
-   "lon": -74.1167,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 97503,
-    "elevation_m": 12,
-    "temp_c": 24.8
-   },
-   "flavour": {
-    "text": "A community of 97,503 people in Grand'Anse.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3723593.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3740007.webp",
+    "author": "Bruno Le Bansais",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_soleil.JPG"
    }
   },
   {
@@ -1291,6 +1303,76 @@
    }
   },
   {
+   "id": "gn:3717588",
+   "name": "Saint-Marc",
+   "label": "Saint-Marc",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.1114,
+   "lon": -72.7008,
+   "rarity": "Epic",
+   "fame": 19920,
+   "facts": {
+    "population": 266642,
+    "elevation_m": 5.0,
+    "area_km2": 498,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "It is one of the biggest cities, second to Gonaïves, between Port-au-Prince and Cap-Haïtien.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Marc",
+    "url": "https://en.wikipedia.org/wiki/Saint-Marc",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3717588.webp",
+    "author": "Didier Moïse",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint-Marc_Welcome_Sign_at_Frecyneau.jpg"
+   }
+  },
+  {
+   "id": "gn:3723841",
+   "name": "Hinche",
+   "label": "Hinche",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.1409,
+   "lon": -72.0119,
+   "rarity": "Epic",
+   "fame": 12522,
+   "facts": {
+    "population": 18590,
+    "elevation_m": 230,
+    "area_km2": 588,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "It has a population of about 50,000 in its urban area, which corresponds to the Juanaria communal section.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hinche",
+    "url": "https://en.wikipedia.org/wiki/Hinche",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3723841.webp",
+    "author": "BosPP",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eglise_Baptiste_Maranatha_de_Hinche.jpg"
+   }
+  },
+  {
    "id": "gn:3724696",
    "name": "Gonaïves",
    "label": "Gonaïves",
@@ -1317,32 +1399,6 @@
    }
   },
   {
-   "id": "gn:3723841",
-   "name": "Hinche",
-   "label": "Hinche",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-CE",
-   "country": "HT",
-   "lat": 19.1409,
-   "lon": -72.0119,
-   "rarity": "Epic",
-   "fame": 0,
-   "facts": {
-    "population": 18590,
-    "elevation_m": 230,
-    "temp_c": 23.7
-   },
-   "flavour": {
-    "text": "A community of 18,590 people in Centre.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3723841.webp"
-   }
-  },
-  {
    "id": "gn:3723779",
    "name": "Jacmel",
    "label": "Jacmel",
@@ -1353,19 +1409,28 @@
    "lat": 18.2357,
    "lon": -72.5369,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 29088,
    "facts": {
     "population": 137966,
     "elevation_m": 29,
+    "area_km2": 444,
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "A community of 137,966 people in Sud-Est.",
-    "source": "facts"
+    "text": "Jacmel is a commune in southern Haiti previously founded by the Spanish in 1504 before the relocation of the Dominicans to the eastern side of the island…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jacmel",
+    "url": "https://en.wikipedia.org/wiki/Jacmel",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3723779.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3723779.webp",
+    "author": "User:Doron",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:JacmelView.jpg"
    }
   },
   {
@@ -1379,19 +1444,54 @@
    "lat": 19.9398,
    "lon": -72.8304,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 14940,
    "facts": {
     "population": 306217,
     "elevation_m": 11,
+    "area_km2": 329,
     "temp_c": 24.3
    },
    "flavour": {
-    "text": "A community of 306,217 people in Nord-Ouest.",
+    "text": "Port-de-Paix used to be a large exporter of bananas and coffee.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port-de-Paix",
+    "url": "https://en.wikipedia.org/wiki/Port-de-Paix",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3718420.webp",
+    "author": "U.S. Navy photo by Mass Communication Specialist 1st Class Emmitt Hawks",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_080908-N-9774H-147_An_aerial_view_of_the_devastation_in_Port_de_Paix_after_four_storms_in_one_month_have_devastated_the_island_and_killed_more_than_800_people.jpg"
+   }
+  },
+  {
+   "id": "gn:3723593",
+   "name": "Jérémie",
+   "label": "Jérémie",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.65,
+   "lon": -74.1167,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 97503,
+    "elevation_m": 12,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 97,503 people in Grand'Anse.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3718420.webp"
+    "file": "images/minimap/gn_3723593.webp"
    }
   },
   {
@@ -1405,50 +1505,54 @@
    "lat": 18.446,
    "lon": -73.0896,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 7446,
    "facts": {
     "population": 89202,
     "elevation_m": 6.0,
+    "area_km2": 186,
     "temp_c": 24.9
    },
    "flavour": {
-    "text": "A community of 89,202 people in Nippes.",
+    "text": "It is also the headquarters of the Miragoâne Arrondissement.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Miragoâne",
+    "url": "https://en.wikipedia.org/wiki/Mirago%C3%A2ne",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3720824.webp",
+    "author": "pikliz.fotki.com",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EGLISE_DE_MIRAGOANE-vi.jpg"
+   }
+  },
+  {
+   "id": "gn:3728097",
+   "name": "Les Cayes",
+   "label": "Les Cayes",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.192,
+   "lon": -73.7495,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 125799,
+    "elevation_m": 1.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 125,799 people in Sud.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3720824.webp"
-   }
-  },
-  {
-   "id": "gn:3727135",
-   "name": "Croix-des-Bouquets",
-   "label": "Croix-des-Bouquets",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-OU",
-   "country": "HT",
-   "lat": 18.5768,
-   "lon": -72.2262,
-   "rarity": "Epic",
-   "fame": 306,
-   "facts": {
-    "population": 229127,
-    "elevation_m": 69,
-    "area_km2": 635,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "Croix-des-Bouquets is a town in the Croix-des-Bouquets commune in the Croix-des-Bouquets Arrondissement, in the Ouest department of Haiti.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Croix-des-Bouquets (town)",
-    "url": "https://en.wikipedia.org/wiki/Croix-des-Bouquets_%28town%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3727135.webp"
+    "file": "images/minimap/gn_3728097.webp"
    }
   },
   {
@@ -1462,19 +1566,28 @@
    "lat": 18.5435,
    "lon": -72.3388,
    "rarity": "Legendary",
-   "fame": 0,
+   "fame": 287514,
    "facts": {
     "population": 1234742,
     "elevation_m": 27,
+    "area_km2": 36,
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "A community of 1,234,742 people in Ouest.",
-    "source": "facts"
+    "text": "Port-au-Prince is the capital and most populous city of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port-au-Prince",
+    "url": "https://en.wikipedia.org/wiki/Port-au-Prince",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3718426.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3718426.webp",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Meranda Keller",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100221-N-5787K-002_An_aerial_view_of_the_logistical_area_near_the_port_in_Port-au-Prince_(cropped).jpg"
    }
   },
   {
@@ -2220,33 +2333,467 @@
    }
   },
   {
-   "id": "gn:3718431",
-   "name": "Port-à-Piment",
-   "label": "Port-à-Piment",
+   "id": "gn:3716044",
+   "name": "Verrettes",
+   "label": "Verrettes",
    "type": "town",
    "kind": "town",
-   "region": "HT-SD",
+   "region": "HT-AR",
    "country": "HT",
-   "lat": 18.2496,
-   "lon": -74.0971,
+   "lat": 19.0505,
+   "lon": -72.4659,
    "rarity": "Rare",
-   "fame": 114,
+   "fame": 3654,
    "facts": {
-    "population": 3819,
-    "elevation_m": 12,
-    "temp_c": 24.2
+    "population": 48724,
+    "elevation_m": 72,
+    "area_km2": 316,
+    "temp_c": 25.3
    },
    "flavour": {
-    "text": "In 2009, the commune had a population of 17,207.",
+    "text": "It is located approximately 58 km north of the capital, Port-au-Prince, and has 144,812 inhabitants.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Port-à-Piment, Port-à-Piment, Haiti",
-    "url": "https://en.wikipedia.org/wiki/Port-%C3%A0-Piment%2C_Port-%C3%A0-Piment%2C_Haiti",
+    "title": "Verrettes",
+    "url": "https://en.wikipedia.org/wiki/Verrettes",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3718431.webp"
+    "file": "images/minimap/gn_3716044.webp"
+   }
+  },
+  {
+   "id": "gn:3728964",
+   "name": "Cabaret",
+   "label": "Cabaret",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.7358,
+   "lon": -72.4193,
+   "rarity": "Rare",
+   "fame": 3948,
+   "facts": {
+    "population": 3951,
+    "elevation_m": 46,
+    "area_km2": 212,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "In 2009, the commune had 62,063 inhabitants.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cabaret, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Cabaret%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3728964.webp",
+    "author": "Farmamundi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Atenci%C3%B3n_primaria_en_salud_a_la_poblaci%C3%B3n_de_Cabaret,_Hait%C3%AD,_tras_el_terremoto_de_2010.JPG"
+   }
+  },
+  {
+   "id": "gn:3721280",
+   "name": "Marmelade",
+   "label": "Marmelade",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.5174,
+   "lon": -72.3613,
+   "rarity": "Rare",
+   "fame": 3570,
+   "facts": {
+    "population": 2184,
+    "elevation_m": 747,
+    "area_km2": 109,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "It is the chief town of the Marmelade Arrondissement, which also includes the commune of Saint Michel de l'Attalaye.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marmelade",
+    "url": "https://en.wikipedia.org/wiki/Marmelade",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3721280.webp",
+    "author": "Smithsonian Institution from United States",
+    "licence": "No restrictions",
+    "licence_url": "https://www.flickr.com/commons/usage/",
+    "page": "https://commons.wikimedia.org/wiki/File:Village_of_Marmalade,_Haiti_(15467276050).jpg"
+   }
+  },
+  {
+   "id": "gn:3722110",
+   "name": "Limonade",
+   "label": "Limonade",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.6701,
+   "lon": -72.1243,
+   "rarity": "Rare",
+   "fame": 8394,
+   "facts": {
+    "population": 3810,
+    "elevation_m": 20,
+    "area_km2": 132,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Christopher Columbus and his crew celebrated the first Christmas in the Americas at Limonade in 1492.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Limonade",
+    "url": "https://en.wikipedia.org/wiki/Limonade",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3722110.webp",
+    "author": "Awiseman",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Limonade_Haiti.jpg"
+   }
+  },
+  {
+   "id": "gn:3726786",
+   "name": "Delmas",
+   "label": "Delmas",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5448,
+   "lon": -72.3004,
+   "rarity": "Rare",
+   "fame": 14316,
+   "facts": {
+    "population": 395260,
+    "elevation_m": 127,
+    "area_km2": 28,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Delmas itself is an urban continuation of the capital city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Delmas, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Delmas%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3726786.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Delmas_48_Haiti.jpg"
+   }
+  },
+  {
+   "id": "gn:3726540",
+   "name": "Dessalines",
+   "label": "Dessalines",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.2618,
+   "lon": -72.5161,
+   "rarity": "Rare",
+   "fame": 5076,
+   "facts": {
+    "population": 181903,
+    "elevation_m": 26,
+    "area_km2": 474,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is named after Jean-Jacques Dessalines, a leader of the Haitian Revolution and the first ruler and emperor of independent Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dessalines",
+    "url": "https://en.wikipedia.org/wiki/Dessalines",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3726540.webp",
+    "author": "André Lachance",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_commune_de_Dessalines.jpg"
+   }
+  },
+  {
+   "id": "gn:3731095",
+   "name": "Aquin",
+   "label": "Aquin",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.2797,
+   "lon": -73.3943,
+   "rarity": "Rare",
+   "fame": 8880,
+   "facts": {
+    "population": 5246,
+    "elevation_m": 11,
+    "area_km2": 639,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It is a port on the south coast of the Tiburon Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aquin",
+    "url": "https://en.wikipedia.org/wiki/Aquin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3731095.webp",
+    "author": "EPH2017",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eglise_Catholique_d%27Aquin.jpg"
+   }
+  },
+  {
+   "id": "gn:3720854",
+   "name": "Milot",
+   "label": "Milot",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.6084,
+   "lon": -72.2132,
+   "rarity": "Rare",
+   "fame": 7212,
+   "facts": {
+    "population": 5534,
+    "elevation_m": 102,
+    "area_km2": 72,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "It is the site of Sans-Souci Palace, one of Haiti's most revered landmarks.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Milot, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Milot%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3720854.webp",
+    "author": "Carol4929",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Milot_Haiti_7.jpg"
+   }
+  },
+  {
+   "id": "gn:3718962",
+   "name": "Tigwav",
+   "label": "Tigwav",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.4312,
+   "lon": -72.8652,
+   "rarity": "Rare",
+   "fame": 13392,
+   "facts": {
+    "population": 117504,
+    "elevation_m": 16,
+    "area_km2": 388,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "It is located 68 kilometres southwest of Port-au-Prince.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petit-Goâve",
+    "url": "https://en.wikipedia.org/wiki/Petit-Go%C3%A2ve",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3718962.webp",
+    "author": "Mangrove Mike",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Petit-Go%C3%A2ve_1981_(Flickr).jpg"
+   }
+  },
+  {
+   "id": "gn:3725364",
+   "name": "Fond des Blancs",
+   "label": "Fond des Blancs",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.2778,
+   "lon": -73.1273,
+   "rarity": "Rare",
+   "fame": 4842,
+   "facts": {
+    "population": 2653,
+    "elevation_m": 303,
+    "area_km2": 0.7,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Fond-des-Blancs is a communal section located in the Sud department of Haiti in the Aquin Arrondissement.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fond-des-Blancs",
+    "url": "https://en.wikipedia.org/wiki/Fond-des-Blancs",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3725364.webp"
+   }
+  },
+  {
+   "id": "gn:3716224",
+   "name": "Trou du Nord",
+   "label": "Trou du Nord",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6167,
+   "lon": -72.0244,
+   "rarity": "Rare",
+   "fame": 3810,
+   "facts": {
+    "population": 10569,
+    "elevation_m": 40,
+    "area_km2": 131,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Trou-du-Nord is a commune in the Trou-du-Nord Arrondissement, in the Nord-Est department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trou-du-Nord",
+    "url": "https://en.wikipedia.org/wiki/Trou-du-Nord",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3716224.webp"
+   }
+  },
+  {
+   "id": "gn:3723440",
+   "name": "Kenscoff",
+   "label": "Kenscoff",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.4477,
+   "lon": -72.284,
+   "rarity": "Rare",
+   "fame": 6324,
+   "facts": {
+    "population": 42175,
+    "elevation_m": 1466,
+    "area_km2": 203,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "Kenscoff is a commune in the Port-au-Prince Arrondissement, in the Ouest department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kenscoff",
+    "url": "https://en.wikipedia.org/wiki/Kenscoff",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3723440.webp",
+    "author": "Kendra Helmer, USAID",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Amid_rows_of_cabbage,_Haiti.jpg"
+   }
+  },
+  {
+   "id": "gn:3731087",
+   "name": "Arcahaie",
+   "label": "Arcahaie (Nord-Ouest)",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 19.8167,
+   "lon": -72.9167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4119,
+    "elevation_m": 189,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "A community of 4,119 people in Nord-Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731087.webp"
+   }
+  },
+  {
+   "id": "wd:Q3115020",
+   "name": "Grande Rivière du Nord",
+   "label": "Grande Rivière du Nord (near Quartier Morin)",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.7519,
+   "lon": -72.1167,
+   "rarity": "Common",
+   "fame": 540,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 70,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Grande Rivière du Nord is a small coastal river that has its mouth in the Atlantic Ocean located in the Nord department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grande Rivière du Nord",
+    "url": "https://en.wikipedia.org/wiki/Grande_Rivi%C3%A8re_du_Nord",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3115020.webp"
    }
   },
   {
@@ -2280,159 +2827,111 @@
    }
   },
   {
-   "id": "gn:3731087",
-   "name": "Arcahaie",
-   "label": "Arcahaie (Nord-Ouest)",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-NO",
-   "country": "HT",
-   "lat": 19.8167,
-   "lon": -72.9167,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 4119,
-    "elevation_m": 189,
-    "temp_c": 24.4
-   },
-   "flavour": {
-    "text": "A community of 4,119 people in Nord-Ouest.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3731087.webp"
-   }
-  },
-  {
-   "id": "gn:3724439",
-   "name": "Grande Rivière du Nord",
-   "label": "Grande Rivière du Nord (Nord)",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-ND",
-   "country": "HT",
-   "lat": 19.5774,
-   "lon": -72.1687,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 8836,
-    "elevation_m": 69,
-    "temp_c": 24.3
-   },
-   "flavour": {
-    "text": "A community of 8,836 people in Nord.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3724439.webp"
-   }
-  },
-  {
-   "id": "gn:3731088",
-   "name": "Arcahaie",
-   "label": "Arcahaie (Ouest)",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-OU",
-   "country": "HT",
-   "lat": 18.7702,
-   "lon": -72.5123,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 130306,
-    "elevation_m": 15,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "A community of 130,306 people in Ouest.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3731088.webp"
-   }
-  },
-  {
-   "id": "gn:3724145",
-   "name": "Gros Morne",
-   "label": "Gros Morne",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-AR",
-   "country": "HT",
-   "lat": 19.6708,
-   "lon": -72.6781,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 7294,
-    "elevation_m": 219,
-    "temp_c": 24.4
-   },
-   "flavour": {
-    "text": "A community of 7,294 people in Artibonite.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3724145.webp"
-   }
-  },
-  {
-   "id": "gn:3731095",
-   "name": "Aquin",
-   "label": "Aquin",
-   "type": "town",
-   "kind": "town",
-   "region": "HT-SD",
-   "country": "HT",
-   "lat": 18.2797,
-   "lon": -73.3943,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5246,
-    "elevation_m": 11,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 5,246 people in Sud.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3731095.webp"
-   }
-  },
-  {
-   "id": "gn:3727055",
-   "name": "Dame-Marie",
-   "label": "Dame-Marie",
+   "id": "gn:3731257",
+   "name": "Les Abricots",
+   "label": "Les Abricots",
    "type": "town",
    "kind": "town",
    "region": "HT-GA",
    "country": "HT",
-   "lat": 18.5611,
-   "lon": -74.4217,
+   "lat": 18.649,
+   "lon": -74.3079,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 6036,
-    "elevation_m": 17,
-    "temp_c": 25.2
+    "population": 1245,
+    "elevation_m": 11,
+    "temp_c": 24.9
    },
    "flavour": {
-    "text": "A community of 6,036 people in Grand'Anse.",
+    "text": "A community of 1,245 people in Grand'Anse.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3727055.webp"
+    "file": "images/minimap/gn_3731257.webp"
+   }
+  },
+  {
+   "id": "wd:Q17621749",
+   "name": "baie des Gonaïves",
+   "label": "baie des Gonaïves",
+   "type": "nature",
+   "kind": "bay",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.426,
+   "lon": -72.7,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A bay in Artibonite.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17621749.webp"
+   }
+  },
+  {
+   "id": "gn:3730937",
+   "name": "Bahon",
+   "label": "Bahon",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.4696,
+   "lon": -72.1147,
+   "rarity": "Common",
+   "fame": 744,
+   "facts": {
+    "population": 1618,
+    "elevation_m": 119,
+    "area_km2": 76,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "A community of 1,618 people in Nord.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3730937.webp",
+    "author": "Yoni Rubin",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nord_Department,_Haiti_-_panoramio_(12).jpg"
+   }
+  },
+  {
+   "id": "gn:3717916",
+   "name": "Roche-à-Bateau",
+   "label": "Roche-à-Bateau",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.1818,
+   "lon": -74.0035,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1662,
+    "elevation_m": 16,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "A community of 1,662 people in Sud.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3717916.webp"
    }
   }
  ]

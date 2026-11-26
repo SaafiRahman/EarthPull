@@ -390,137 +390,33 @@
    }
   },
   {
-   "id": "gn:3706396",
-   "name": "Las Margaritas",
-   "label": "Las Margaritas",
+   "id": "gn:3706155",
+   "name": "Las Uvas",
+   "label": "Las Uvas",
    "type": "town",
    "kind": "town",
    "region": "PA-8",
    "country": "PA",
-   "lat": 9.1918,
-   "lon": -79.0867,
+   "lat": 8.4613,
+   "lon": -79.9961,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 600,
    "facts": {
-    "population": 4165,
-    "elevation_m": 29,
-    "temp_c": 25.8
+    "population": 482,
+    "elevation_m": 57,
+    "temp_c": 27.2
    },
    "flavour": {
-    "text": "A community of 4,165 people in Panamá.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3706396.webp"
-   }
-  },
-  {
-   "id": "gn:3710910",
-   "name": "Entradero",
-   "label": "Entradero",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-2",
-   "country": "PA",
-   "lat": 8.5667,
-   "lon": -80.2125,
-   "rarity": "Common",
-   "fame": 96,
-   "facts": {
-    "population": 1049,
-    "elevation_m": 318,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "Entradero is a town in the Coclé province of Panama.",
+    "text": "Las Uvas is a corregimiento in San Carlos District, Panamá Oeste Province, Panama with a population of 1,587 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Entradero",
-    "url": "https://en.wikipedia.org/wiki/Entradero",
+    "title": "Las Uvas",
+    "url": "https://en.wikipedia.org/wiki/Las_Uvas",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3710910.webp"
-   }
-  },
-  {
-   "id": "gn:3706727",
-   "name": "La Raya de Calobre",
-   "label": "La Raya de Calobre",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-9",
-   "country": "PA",
-   "lat": 8.2206,
-   "lon": -80.8256,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 233,
-    "elevation_m": 57,
-    "temp_c": 26.8
-   },
-   "flavour": {
-    "text": "A community of 233 people in Veraguas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3706727.webp"
-   }
-  },
-  {
-   "id": "gn:3701231",
-   "name": "Santa Cruz",
-   "label": "Santa Cruz (Chiriquí, near Lajas Adentro)",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-4",
-   "country": "PA",
-   "lat": 8.2353,
-   "lon": -81.9127,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 386,
-    "elevation_m": 38,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 386 people in Chiriquí.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3701231.webp"
-   }
-  },
-  {
-   "id": "gn:3702882",
-   "name": "Piedras Gordas",
-   "label": "Piedras Gordas (Coclé)",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-2",
-   "country": "PA",
-   "lat": 8.6389,
-   "lon": -80.5114,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 510,
-    "elevation_m": 434,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 510 people in Coclé.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3702882.webp"
+    "file": "images/minimap/gn_3706155.webp"
    }
   },
   {
@@ -534,15 +430,19 @@
    "lat": 8.4772,
    "lon": -80.1573,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 618,
    "facts": {
     "population": 450,
     "elevation_m": 165,
     "temp_c": 27.0
    },
    "flavour": {
-    "text": "A community of 450 people in Coclé.",
-    "source": "facts"
+    "text": "It has a land area of 66.1 square kilometres and had a population of 2,303 as of 2010, giving it a population density of 34.8 inhabitants per square kilometre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Retiro, Coclé",
+    "url": "https://en.wikipedia.org/wiki/El_Retiro%2C_Cocl%C3%A9",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
@@ -550,55 +450,163 @@
    }
   },
   {
-   "id": "gn:3701227",
-   "name": "Santa Cruz",
-   "label": "Santa Cruz (Chiriquí, near Breñón)",
+   "id": "gn:3702601",
+   "name": "Ponuga",
+   "label": "Ponuga",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 7.8827,
+   "lon": -80.9771,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 509,
+    "elevation_m": 51,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 509 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3702601.webp"
+   }
+  },
+  {
+   "id": "gn:3700620",
+   "name": "Tijeras",
+   "label": "Tijeras",
    "type": "town",
    "kind": "town",
    "region": "PA-4",
    "country": "PA",
-   "lat": 8.6463,
-   "lon": -82.7605,
+   "lat": 8.4693,
+   "lon": -82.5484,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 274,
-    "elevation_m": 666,
-    "temp_c": 24.5
+    "population": 1148,
+    "elevation_m": 106,
+    "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 274 people in Chiriquí.",
+    "text": "A community of 1,148 people in Chiriquí.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3701227.webp"
+    "file": "images/minimap/gn_3700620.webp"
    }
   },
   {
-   "id": "gn:3714658",
-   "name": "La Arenosa",
-   "label": "La Arenosa",
+   "id": "gn:3708307",
+   "name": "Juan Díaz",
+   "label": "Juan Díaz",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.4607,
+   "lon": -80.2853,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1935,
+    "elevation_m": 68,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 1,935 people in Coclé.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3708307.webp"
+   }
+  },
+  {
+   "id": "gn:3715008",
+   "name": "Aguas Blancas",
+   "label": "Aguas Blancas",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.507,
+   "lon": -80.3079,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1053,
+    "elevation_m": 88,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 1,053 people in Coclé.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3715008.webp"
+   }
+  },
+  {
+   "id": "gn:3700609",
+   "name": "Tinajas",
+   "label": "Tinajas",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.5592,
+   "lon": -82.4622,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 905,
+    "elevation_m": 296,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 905 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3700609.webp"
+   }
+  },
+  {
+   "id": "gn:3702276",
+   "name": "Quebrada Bonita Adentro",
+   "label": "Quebrada Bonita Adentro",
    "type": "town",
    "kind": "town",
    "region": "PA-3",
    "country": "PA",
-   "lat": 9.0422,
-   "lon": -79.9496,
+   "lat": 9.2965,
+   "lon": -79.7063,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 138,
    "facts": {
-    "population": 319,
-    "elevation_m": 43,
-    "temp_c": 26.5
+    "population": 2229,
+    "elevation_m": 142,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "A community of 319 people in Colón.",
-    "source": "facts"
+    "text": "Quebrada Bonita Adentro is a town in the Colón province of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quebrada Bonita Adentro",
+    "url": "https://en.wikipedia.org/wiki/Quebrada_Bonita_Adentro",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3714658.webp"
+    "file": "images/minimap/gn_3702276.webp"
    }
   },
   {
@@ -628,81 +636,89 @@
    }
   },
   {
-   "id": "gn:3712761",
-   "name": "Cerro Caña",
-   "label": "Cerro Caña",
+   "id": "gn:3714538",
+   "name": "Bahía Azul",
+   "label": "Bahía Azul",
    "type": "town",
    "kind": "town",
    "region": "PA-NB",
    "country": "PA",
-   "lat": 8.3488,
-   "lon": -81.6154,
+   "lat": 9.1418,
+   "lon": -81.8942,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 319,
-    "elevation_m": 509,
-    "temp_c": 23.7
+    "population": 379,
+    "elevation_m": 13,
+    "temp_c": 25.9
    },
    "flavour": {
-    "text": "A community of 319 people in Ngöbe-Buglé Comarca.",
+    "text": "A community of 379 people in Ngöbe-Buglé Comarca.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3712761.webp"
+    "file": "images/minimap/gn_3714538.webp"
    }
   },
   {
-   "id": "gn:10179291",
-   "name": "Villa Lourdes",
-   "label": "Villa Lourdes",
+   "id": "gn:3710694",
+   "name": "El Hato",
+   "label": "El Hato",
    "type": "town",
    "kind": "town",
    "region": "PA-7",
    "country": "PA",
-   "lat": 7.8098,
-   "lon": -80.4723,
+   "lat": 7.7955,
+   "lon": -80.3828,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 306,
    "facts": {
-    "population": 410,
-    "elevation_m": 90,
+    "population": 204,
+    "elevation_m": 38,
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A community of 410 people in Los Santos.",
-    "source": "facts"
+    "text": "El Hato is a corregimiento in Guararé District, Los Santos Province, Panama with a population of 374 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Hato",
+    "url": "https://en.wikipedia.org/wiki/El_Hato",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_10179291.webp"
+    "file": "images/minimap/gn_3710694.webp"
    }
   },
   {
-   "id": "gn:3701239",
-   "name": "Santa Clara",
-   "label": "Santa Clara (Panamá)",
+   "id": "gn:3705229",
+   "name": "Los Lotes",
+   "label": "Los Lotes",
    "type": "town",
    "kind": "town",
    "region": "PA-8",
    "country": "PA",
-   "lat": 9.0339,
-   "lon": -79.7534,
+   "lat": 9.1254,
+   "lon": -79.291,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 138,
    "facts": {
-    "population": 1410,
-    "elevation_m": 105,
-    "temp_c": 26.4
+    "population": 1323,
+    "elevation_m": 40,
+    "temp_c": 26.9
    },
    "flavour": {
-    "text": "A community of 1,410 people in Panamá.",
-    "source": "facts"
+    "text": "Los Lotes is a town in the Panamá Province of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Los Lotes",
+    "url": "https://en.wikipedia.org/wiki/Los_Lotes",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3701239.webp"
+    "file": "images/minimap/gn_3705229.webp"
    }
   },
   {
@@ -2583,63 +2599,63 @@
    }
   },
   {
-   "id": "gn:3713051",
-   "name": "Capellanía",
-   "label": "Capellanía",
+   "id": "gn:3704547",
+   "name": "María Chiquita",
+   "label": "María Chiquita",
    "type": "town",
    "kind": "town",
-   "region": "PA-2",
+   "region": "PA-3",
    "country": "PA",
-   "lat": 8.3022,
-   "lon": -80.5533,
+   "lat": 9.4429,
+   "lon": -79.753,
    "rarity": "Rare",
-   "fame": 720,
+   "fame": 1080,
    "facts": {
-    "population": 2252,
-    "elevation_m": 32,
-    "temp_c": 27.2
+    "population": 1146,
+    "elevation_m": 5.0,
+    "temp_c": 25.9
    },
    "flavour": {
-    "text": "It has a land area of 102.3 square kilometres and had a population of 4,512 as of 2010, giving it a population density of 44.1 inhabitants per square kilometre.",
+    "text": "María Chiquita is a corregimiento in Portobelo District, Colón Province, Panama with a population of 2,415 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Capellanía",
-    "url": "https://en.wikipedia.org/wiki/Capellan%C3%ADa",
+    "title": "María Chiquita",
+    "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Chiquita",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3713051.webp"
+    "file": "images/minimap/gn_3704547.webp"
    }
   },
   {
-   "id": "gn:3712505",
-   "name": "Chepo",
-   "label": "Chepo",
+   "id": "gn:3713047",
+   "name": "Capira",
+   "label": "Capira",
    "type": "town",
    "kind": "town",
    "region": "PA-8",
    "country": "PA",
-   "lat": 9.1702,
-   "lon": -79.1008,
+   "lat": 8.7584,
+   "lon": -79.8776,
    "rarity": "Rare",
-   "fame": 3108,
+   "fame": 2124,
    "facts": {
-    "population": 12912,
-    "elevation_m": 19,
-    "temp_c": 25.8
+    "population": 3432,
+    "elevation_m": 120,
+    "temp_c": 25.9
    },
    "flavour": {
-    "text": "Chepo is a town and corregimiento in Chepo District, Panamá Province, Panama with a population of 20,420 as of 2010.",
+    "text": "Capira is a town and corregimiento in Capira District, Panamá Oeste Province, Panama with a population of 5,181 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Chepo, Panamá Province",
-    "url": "https://en.wikipedia.org/wiki/Chepo%2C_Panam%C3%A1_Province",
+    "title": "Capira",
+    "url": "https://en.wikipedia.org/wiki/Capira",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3712505.webp"
+    "file": "images/minimap/gn_3713047.webp"
    }
   },
   {
@@ -2677,33 +2693,34 @@
    }
   },
   {
-   "id": "gn:3715111",
-   "name": "Agua Buena",
-   "label": "Agua Buena",
+   "id": "gn:3702632",
+   "name": "Pocrí",
+   "label": "Pocrí (Los Santos)",
    "type": "town",
    "kind": "town",
    "region": "PA-7",
    "country": "PA",
-   "lat": 7.8368,
-   "lon": -80.3996,
+   "lat": 7.6602,
+   "lon": -80.1195,
    "rarity": "Rare",
-   "fame": 618,
+   "fame": 1074,
    "facts": {
-    "population": 1012,
-    "elevation_m": 65,
-    "temp_c": 27.3
+    "population": 494,
+    "elevation_m": 51,
+    "area_km2": 280,
+    "temp_c": 26.9
    },
    "flavour": {
-    "text": "Agua Buena is a corregimiento in Los Santos District, Los Santos Province, Panama with a population of 1,117 as of 2010.",
+    "text": "The population according to the 2000 census was 3,397.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Agua Buena",
-    "url": "https://en.wikipedia.org/wiki/Agua_Buena",
+    "title": "Pocrí District",
+    "url": "https://en.wikipedia.org/wiki/Pocr%C3%AD_District",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3715111.webp"
+    "file": "images/minimap/gn_3702632.webp"
    }
   },
   {
@@ -2741,447 +2758,489 @@
    }
   },
   {
-   "id": "gn:3711240",
-   "name": "El Caño",
-   "label": "El Caño",
+   "id": "gn:3712164",
+   "name": "Coclé",
+   "label": "Coclé",
    "type": "town",
    "kind": "town",
    "region": "PA-2",
    "country": "PA",
-   "lat": 8.4078,
-   "lon": -80.5172,
+   "lat": 8.4651,
+   "lon": -80.4155,
    "rarity": "Rare",
-   "fame": 1380,
+   "fame": 924,
    "facts": {
-    "population": 1129,
-    "elevation_m": 22,
-    "temp_c": 26.7
+    "population": 1298,
+    "elevation_m": 46,
+    "temp_c": 27.1
    },
    "flavour": {
-    "text": "It has a land area of 86 square kilometres and had a population of 3,351 as of 2010, giving it a population density of 38.9 inhabitants per square kilometre.",
+    "text": "Coclé is a corregimiento in Penonomé District, Coclé Province, Panama with a population of 4,100 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "El Caño",
-    "url": "https://en.wikipedia.org/wiki/El_Ca%C3%B1o",
+    "title": "Coclé, Coclé",
+    "url": "https://en.wikipedia.org/wiki/Cocl%C3%A9%2C_Cocl%C3%A9",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3711240.webp"
+    "file": "images/minimap/gn_3712164.webp"
    }
   },
   {
-   "id": "gn:3703786",
-   "name": "Ocú",
-   "label": "Ocú",
+   "id": "gn:3704187",
+   "name": "Monagrillo",
+   "label": "Monagrillo",
    "type": "town",
    "kind": "town",
    "region": "PA-6",
    "country": "PA",
-   "lat": 7.9452,
-   "lon": -80.7773,
+   "lat": 7.9826,
+   "lon": -80.433,
    "rarity": "Rare",
-   "fame": 1734,
+   "fame": 1428,
    "facts": {
-    "population": 3939,
-    "elevation_m": 132,
-    "temp_c": 26.6
+    "population": 10821,
+    "elevation_m": 26,
+    "temp_c": 27.3
    },
    "flavour": {
-    "text": "Ocú is a town and corregimiento in Ocú District, Herrera Province, Panama with a population of 7,006 as of 2010.",
+    "text": "Monagrillo is a corregimiento in Chitré District, Herrera Province, Panama with a population of 12,385 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ocú",
-    "url": "https://en.wikipedia.org/wiki/Oc%C3%BA",
+    "title": "Monagrillo (corregimiento)",
+    "url": "https://en.wikipedia.org/wiki/Monagrillo_%28corregimiento%29",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3703786.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3704187.webp",
+    "author": "Ayaita",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_en_Monagrillo.jpg"
    }
   },
   {
-   "id": "gn:3713873",
-   "name": "Boquerón",
-   "label": "Boquerón",
+   "id": "gn:3708616",
+   "name": "Horconcitos",
+   "label": "Horconcitos",
    "type": "town",
    "kind": "town",
    "region": "PA-4",
    "country": "PA",
-   "lat": 8.5077,
-   "lon": -82.5707,
+   "lat": 8.3147,
+   "lon": -82.1533,
    "rarity": "Rare",
-   "fame": 1416,
+   "fame": 1044,
    "facts": {
-    "population": 1658,
-    "elevation_m": 207,
-    "temp_c": 24.1
+    "population": 877,
+    "elevation_m": 53,
+    "area_km2": 73,
+    "temp_c": 26.6
    },
    "flavour": {
-    "text": "Boquerón is a corregimiento in Boquerón District, Chiriquí Province, Panama, near the volcano of Volcán Barú.",
+    "text": "It has a land area of 73.1 square kilometres and had a population of 996 as of 2010, giving it a population density of 13.6 inhabitants per square kilometre.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Boquerón, Chiriquí",
-    "url": "https://en.wikipedia.org/wiki/Boquer%C3%B3n%2C_Chiriqu%C3%AD",
+    "title": "Horconcitos",
+    "url": "https://en.wikipedia.org/wiki/Horconcitos",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3713873.webp"
+    "file": "images/minimap/gn_3708616.webp"
    }
   },
   {
-   "id": "gn:3702384",
-   "name": "Puerto Pilón",
-   "label": "Puerto Pilón",
+   "id": "gn:3711618",
+   "name": "Dolega District",
+   "label": "Dolega District",
    "type": "town",
    "kind": "town",
-   "region": "PA-3",
+   "region": "PA-4",
    "country": "PA",
-   "lat": 9.3632,
-   "lon": -79.7933,
+   "lat": 8.5667,
+   "lon": -82.4141,
    "rarity": "Rare",
-   "fame": 1014,
+   "fame": 2070,
    "facts": {
-    "population": 8754,
-    "elevation_m": 22,
-    "temp_c": 25.9
+    "population": 1653,
+    "elevation_m": 247,
+    "temp_c": 25.0
    },
    "flavour": {
-    "text": "Puerto Pilón is a corregimiento in Colón District, Colón Province, Panama with a population of 16,517 as of 2010.",
+    "text": "It has a land area of 26.8 square kilometres and had a population of 4,074 as of 2010, giving it a population density of 152.1 inhabitants per square kilometre.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Puerto Pilón",
-    "url": "https://en.wikipedia.org/wiki/Puerto_Pil%C3%B3n",
+    "title": "Dolega, Chiriquí",
+    "url": "https://en.wikipedia.org/wiki/Dolega%2C_Chiriqu%C3%AD",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3702384.webp"
+    "file": "images/minimap/gn_3711618.webp"
    }
   },
   {
-   "id": "gn:3707752",
-   "name": "La Espigadilla",
-   "label": "La Espigadilla",
+   "id": "gn:3703839",
+   "name": "Nueva Gorgona",
+   "label": "Nueva Gorgona",
    "type": "town",
    "kind": "town",
-   "region": "PA-7",
+   "region": "PA-8",
    "country": "PA",
-   "lat": 7.8878,
-   "lon": -80.3889,
+   "lat": 8.5548,
+   "lon": -79.8743,
    "rarity": "Rare",
-   "fame": 474,
+   "fame": 3528,
    "facts": {
-    "population": 1172,
-    "elevation_m": 47,
-    "temp_c": 27.3
+    "population": 3530,
+    "elevation_m": 25,
+    "temp_c": 26.9
    },
    "flavour": {
-    "text": "La Espigadilla is a corregimiento in Los Santos District, Los Santos Province, Panama with a population of 1,675 as of 2010.",
+    "text": "Nueva Gorgona is a town and corregimiento in Chame District, Panamá Oeste Province, Panama with a population of 4,075 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "La Espigadilla",
-    "url": "https://en.wikipedia.org/wiki/La_Espigadilla",
+    "title": "Nueva Gorgona",
+    "url": "https://en.wikipedia.org/wiki/Nueva_Gorgona",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3707752.webp"
+    "file": "images/minimap/gn_3703839.webp"
    }
   },
   {
-   "id": "gn:3703745",
-   "name": "Olá",
-   "label": "Olá",
+   "id": "gn:3712459",
+   "name": "Chiguirí Arriba",
+   "label": "Chiguirí Arriba",
    "type": "town",
    "kind": "town",
    "region": "PA-2",
    "country": "PA",
-   "lat": 8.4202,
-   "lon": -80.6505,
+   "lat": 8.6754,
+   "lon": -80.1891,
    "rarity": "Rare",
-   "fame": 1836,
+   "fame": 1170,
    "facts": {
-    "population": 384,
-    "elevation_m": 119,
-    "temp_c": 26.7
+    "population": 509,
+    "elevation_m": 320,
+    "temp_c": 26.1
    },
    "flavour": {
-    "text": "Olá is a corregimiento in Olá District, Coclé Province, Panama with a population of 1,419 as of 2010.",
+    "text": "Chiguirí Arriba is a corregimiento in Penonomé District, Coclé Province, Panama with a population of 10,018 as of 2010.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Olá",
-    "url": "https://en.wikipedia.org/wiki/Ol%C3%A1",
+    "title": "Chiguirí Arriba",
+    "url": "https://en.wikipedia.org/wiki/Chiguir%C3%AD_Arriba",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3703745.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3712459.webp",
+    "author": "Laurin isbeth",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chorro_Tavid%C3%A1,_Cocl%C3%A9.jpg"
    }
   },
   {
-   "id": "gn:3712884",
-   "name": "Cativá",
-   "label": "Cativá",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-3",
-   "country": "PA",
-   "lat": 9.3622,
-   "lon": -79.8323,
-   "rarity": "Rare",
-   "fame": 1554,
-   "facts": {
-    "population": 29607,
-    "elevation_m": 12,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "Cativá is a corregimiento in Colón District, Colón Province, Panama, with a population of 34,558 as of 2010.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Cativá",
-    "url": "https://en.wikipedia.org/wiki/Cativ%C3%A1",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3712884.webp"
-   }
-  },
-  {
-   "id": "gn:3706292",
-   "name": "Las Palmas",
-   "label": "Las Palmas (Veraguas)",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-9",
-   "country": "PA",
-   "lat": 8.1362,
-   "lon": -81.4541,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1291,
-    "elevation_m": 295,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "A community of 1,291 people in Veraguas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3706292.webp"
-   }
-  },
-  {
-   "id": "gn:3701704",
-   "name": "Sabana Grande",
-   "label": "Sabana Grande (Los Santos)",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-7",
-   "country": "PA",
-   "lat": 7.8388,
-   "lon": -80.3659,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 521,
-    "elevation_m": 41,
-    "temp_c": 27.3
-   },
-   "flavour": {
-    "text": "A community of 521 people in Los Santos.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3701704.webp"
-   }
-  },
-  {
-   "id": "gn:3701484",
-   "name": "San Francisco",
-   "label": "San Francisco (Veraguas, near Quebrada de Oro)",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-9",
-   "country": "PA",
-   "lat": 8.0584,
-   "lon": -81.3743,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1898,
-    "elevation_m": 65,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "A community of 1,898 people in Veraguas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3701484.webp"
-   }
-  },
-  {
-   "id": "gn:10347489",
-   "name": "El Porvenir",
-   "label": "El Porvenir (Chiriquí)",
+   "id": "gn:3712636",
+   "name": "Cerro Punta",
+   "label": "Cerro Punta",
    "type": "town",
    "kind": "town",
    "region": "PA-4",
    "country": "PA",
-   "lat": 8.232,
-   "lon": -81.8335,
+   "lat": 8.8522,
+   "lon": -82.5736,
+   "rarity": "Rare",
+   "fame": 5808,
+   "facts": {
+    "population": 1568,
+    "elevation_m": 1958,
+    "temp_c": 15.9
+   },
+   "flavour": {
+    "text": "Cerro Punta is located in Panama's western highlands at an altitude of 2,000 metres, just south of the Continental Divide.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Punta, Chiriquí",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Punta%2C_Chiriqu%C3%AD",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3712636.webp",
+    "author": "Héctor D. Polo Morales / Cynthia Centella",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Image-Cerro_punta_PARA_WIKI.jpg"
+   }
+  },
+  {
+   "id": "gn:3706459",
+   "name": "Las Lajas",
+   "label": "Las Lajas (Chiriquí)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.2452,
+   "lon": -81.8701,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 659,
-    "elevation_m": 45,
+    "population": 1012,
+    "elevation_m": 68,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A community of 659 people in Chiriquí.",
+    "text": "A community of 1,012 people in Chiriquí.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_10347489.webp"
+    "file": "images/minimap/gn_3706459.webp"
    }
   },
   {
-   "id": "gn:3710981",
-   "name": "El Cortezo",
-   "label": "El Cortezo (Los Santos)",
+   "id": "gn:3701868",
+   "name": "Río Grande",
+   "label": "Río Grande (Coclé)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.4319,
+   "lon": -80.487,
+   "rarity": "Rare",
+   "fame": 1206,
+   "facts": {
+    "population": 1070,
+    "elevation_m": 29,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Río Grande is a corregimiento in Penonomé District, Coclé Province, Panama with a population of 3,117 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Grande, Coclé",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande%2C_Cocl%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701868.webp"
+   }
+  },
+  {
+   "id": "gn:3705542",
+   "name": "Los Ángeles",
+   "label": "Los Ángeles (Chiriquí)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.5257,
+   "lon": -82.2029,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 250,
+    "elevation_m": 358,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "A community of 250 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3705542.webp"
+   }
+  },
+  {
+   "id": "gn:3711923",
+   "name": "Corozal",
+   "label": "Corozal (Veraguas)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.0809,
+   "lon": -81.435,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 189,
+    "elevation_m": 206,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 189 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3711923.webp"
+   }
+  },
+  {
+   "id": "gn:3710038",
+   "name": "El Rincón",
+   "label": "El Rincón (Veraguas)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.1844,
+   "lon": -81.4316,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 300,
+    "elevation_m": 233,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 300 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3710038.webp"
+   }
+  },
+  {
+   "id": "gn:3706294",
+   "name": "Las Palmas",
+   "label": "Las Palmas (Los Santos)",
    "type": "town",
    "kind": "town",
    "region": "PA-7",
    "country": "PA",
-   "lat": 7.4291,
-   "lon": -80.6326,
+   "lat": 7.6831,
+   "lon": -80.4973,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 239,
-    "elevation_m": 153,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "A community of 239 people in Los Santos.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3710981.webp"
-   }
-  },
-  {
-   "id": "gn:3701240",
-   "name": "Santa Clara",
-   "label": "Santa Clara (Chiriquí)",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-4",
-   "country": "PA",
-   "lat": 8.8348,
-   "lon": -82.7819,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1360,
-    "elevation_m": 1219,
-    "temp_c": 16.9
-   },
-   "flavour": {
-    "text": "A community of 1,360 people in Chiriquí.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3701240.webp"
-   }
-  },
-  {
-   "id": "gn:3708853",
-   "name": "Guayabal",
-   "label": "Guayabal",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-4",
-   "country": "PA",
-   "lat": 8.6179,
-   "lon": -82.5791,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 220,
-    "elevation_m": 605,
-    "temp_c": 24.1
-   },
-   "flavour": {
-    "text": "A community of 220 people in Chiriquí.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3708853.webp"
-   }
-  },
-  {
-   "id": "gn:3714672",
-   "name": "Arenas",
-   "label": "Arenas",
-   "type": "town",
-   "kind": "town",
-   "region": "PA-9",
-   "country": "PA",
-   "lat": 7.37,
-   "lon": -80.8595,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 97,
-    "elevation_m": 20,
+    "population": 13,
+    "elevation_m": 157,
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "A community of 97 people in Veraguas.",
+    "text": "A community of 13 people in Los Santos.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3714672.webp"
+    "file": "images/minimap/gn_3706294.webp"
    }
   },
   {
-   "id": "gn:3713875",
-   "name": "Boquerón",
-   "label": "Boquerón (Veraguas)",
+   "id": "gn:3701869",
+   "name": "Río Grande",
+   "label": "Río Grande (Veraguas)",
    "type": "town",
    "kind": "town",
    "region": "PA-9",
    "country": "PA",
-   "lat": 8.2435,
-   "lon": -80.8584,
+   "lat": 7.7191,
+   "lon": -81.3342,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 38,
-    "elevation_m": 69,
-    "temp_c": 26.4
+    "population": 71,
+    "elevation_m": 36,
+    "temp_c": 25.5
    },
    "flavour": {
-    "text": "A community of 38 people in Veraguas.",
+    "text": "A community of 71 people in Veraguas.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3713875.webp"
+    "file": "images/minimap/gn_3701869.webp"
+   }
+  },
+  {
+   "id": "gn:3706727",
+   "name": "La Raya de Calobre",
+   "label": "La Raya de Calobre",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.2206,
+   "lon": -80.8256,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 233,
+    "elevation_m": 57,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "A community of 233 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3706727.webp"
+   }
+  },
+  {
+   "id": "gn:3700572",
+   "name": "Tobobe",
+   "label": "Tobobe",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-NB",
+   "country": "PA",
+   "lat": 9.1208,
+   "lon": -81.828,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 607,
+    "elevation_m": 5.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 607 people in Ngöbe-Buglé Comarca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3700572.webp"
+   }
+  },
+  {
+   "id": "wd:Q5763043",
+   "name": "Cerro Hoya",
+   "label": "Cerro Hoya",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 7.2993,
+   "lon": -80.7062,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 1559,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A mountain in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5763043.webp"
    }
   }
  ]

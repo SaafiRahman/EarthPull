@@ -411,15 +411,19 @@
    "lat": 32.2802,
    "lon": -64.7833,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 5892,
    "facts": {
     "population": 5702,
     "elevation_m": 1.0,
     "temp_c": 22.2
    },
    "flavour": {
-    "text": "A community of 5,702 people in Paget Parish.",
-    "source": "facts"
+    "text": "Paget Parish is one of the nine parishes of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Paget Parish",
+    "url": "https://en.wikipedia.org/wiki/Paget_Parish",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
@@ -463,15 +467,19 @@
    "lat": 32.3058,
    "lon": -64.7575,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 6144,
    "facts": {
     "population": 7330,
     "elevation_m": 1.0,
     "temp_c": 22.2
    },
    "flavour": {
-    "text": "A community of 7,330 people in Devonshire.",
-    "source": "facts"
+    "text": "Devonshire Parish is one of the nine parishes of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Devonshire Parish",
+    "url": "https://en.wikipedia.org/wiki/Devonshire_Parish",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
@@ -489,19 +497,27 @@
    "lat": 32.2516,
    "lon": -64.8547,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3612,
    "facts": {
     "population": 6633,
     "elevation_m": 1.0,
     "temp_c": 22.1
    },
    "flavour": {
-    "text": "A community of 6,633 people in Southampton.",
-    "source": "facts"
+    "text": "Southampton Parish is one of the nine parishes of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Southampton Parish, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Southampton_Parish%2C_Bermuda",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353870.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_13353870.webp",
+    "author": "The Reefs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Reefs_Hotel_%26_Club,_Bermuda_resort.jpg"
    }
   },
   {
@@ -515,15 +531,19 @@
    "lat": 32.2964,
    "lon": -64.8693,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 2460,
    "facts": {
     "population": 7653,
     "elevation_m": 1.0,
     "temp_c": 22.1
    },
    "flavour": {
-    "text": "A community of 7,653 people in Sandys Parish.",
-    "source": "facts"
+    "text": "Sandys Parish is one of the nine parishes of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sandys Parish",
+    "url": "https://en.wikipedia.org/wiki/Sandys_Parish",
+    "translated": false
    },
    "image": {
     "kind": "minimap",
@@ -593,15 +613,19 @@
    "lat": 32.2657,
    "lon": -64.8092,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 7428,
    "facts": {
     "population": 8615,
     "elevation_m": 1.0,
     "temp_c": 22.2
    },
    "flavour": {
-    "text": "A community of 8,615 people in Warwick.",
-    "source": "facts"
+    "text": "Warwick Parish is one of the nine parishes of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Warwick Parish",
+    "url": "https://en.wikipedia.org/wiki/Warwick_Parish",
+    "translated": false
    },
    "image": {
     "kind": "minimap",

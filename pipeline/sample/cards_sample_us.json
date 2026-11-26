@@ -4148,107 +4148,111 @@
    }
   },
   {
-   "id": "gn:4991470",
-   "name": "Eagle River",
-   "label": "Eagle River (Michigan)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-MI",
+   "id": "wd:Q6477166",
+   "name": "Ocheda Lake",
+   "label": "Ocheda Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-MN",
    "country": "US",
-   "lat": 47.4138,
-   "lon": -88.2957,
+   "lat": 43.5692,
+   "lon": -95.6081,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 360,
    "facts": {
-    "population": 71,
-    "elevation_m": 198,
-    "temp_c": 4.3
+    "elevation_m": 474,
+    "area_km2": 7.8,
+    "temp_c": 6.8
    },
    "flavour": {
-    "text": "A community of 71 people in Michigan.",
+    "text": "A lake in Minnesota.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6477166.webp",
+    "author": "USGS",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ocheda.jpg"
+   }
+  },
+  {
+   "id": "gn:4166047",
+   "name": "Nocatee",
+   "label": "Nocatee",
+   "type": "town",
+   "kind": "town",
+   "region": "US-FL",
+   "country": "US",
+   "lat": 27.1603,
+   "lon": -81.8823,
+   "rarity": "Common",
+   "fame": 1080,
+   "facts": {
+    "population": 4524,
+    "elevation_m": 13,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "A community of 4,524 people in Florida.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4991470.webp"
+    "file": "images/minimap/gn_4166047.webp"
    }
   },
   {
-   "id": "gn:7258211",
-   "name": "Dover Base Housing",
-   "label": "Dover Base Housing",
-   "type": "town",
-   "kind": "town",
-   "region": "US-DE",
-   "country": "US",
-   "lat": 39.1176,
-   "lon": -75.4839,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3450,
-    "elevation_m": 6.0,
-    "temp_c": 13.0
-   },
-   "flavour": {
-    "text": "A community of 3,450 people in Delaware.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_7258211.webp"
-   }
-  },
-  {
-   "id": "gn:5220400",
-   "name": "Youngsville",
-   "label": "Youngsville (Pennsylvania, near Cherryville)",
+   "id": "gn:5200195",
+   "name": "Mayfield",
+   "label": "Mayfield (Pennsylvania, near Scottdale)",
    "type": "town",
    "kind": "town",
    "region": "US-PA",
    "country": "US",
-   "lat": 40.7812,
-   "lon": -75.4768,
+   "lat": 40.1362,
+   "lon": -79.5978,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1732,
-    "elevation_m": 240,
-    "temp_c": 9.9
+    "population": 1717,
+    "elevation_m": 333,
+    "temp_c": 10.3
    },
    "flavour": {
-    "text": "A community of 1,732 people in Pennsylvania.",
+    "text": "A community of 1,717 people in Pennsylvania.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_5220400.webp"
+    "file": "images/minimap/gn_5200195.webp"
    }
   },
   {
-   "id": "gn:13697058",
-   "name": "Eagle Foothills",
-   "label": "Eagle Foothills",
+   "id": "gn:4903976",
+   "name": "North Peoria",
+   "label": "North Peoria",
    "type": "town",
    "kind": "town",
-   "region": "US-ID",
+   "region": "US-IL",
    "country": "US",
-   "lat": 43.7401,
-   "lon": -116.3879,
+   "lat": 40.7175,
+   "lon": -89.5843,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 30000,
-    "elevation_m": 868,
-    "temp_c": 10.4
+    "population": 113004,
+    "elevation_m": 193,
+    "temp_c": 10.5
    },
    "flavour": {
-    "text": "A community of 30,000 people in Idaho.",
+    "text": "A community of 113,004 people in Illinois.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_13697058.webp"
+    "file": "images/minimap/gn_4903976.webp"
    }
   }
  ]

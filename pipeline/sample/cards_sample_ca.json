@@ -440,324 +440,319 @@
    }
   },
   {
-   "id": "gn:7535673",
-   "name": "Cap-Santé",
-   "label": "Cap-Santé",
+   "id": "gn:6955478",
+   "name": "Les Escoumins",
+   "label": "Les Escoumins",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 46.6716,
-   "lon": -71.7881,
+   "lat": 48.3519,
+   "lon": -69.4072,
    "rarity": "Common",
-   "fame": 5004,
+   "fame": 6018,
    "facts": {
-    "population": 2666,
-    "elevation_m": 38,
-    "area_km2": 70,
-    "temp_c": 4.0
+    "population": 1339,
+    "elevation_m": 11,
+    "area_km2": 283,
+    "temp_c": 2.6
    },
    "flavour": {
-    "text": "It is the county seat of Portneuf Regional County Municipality and was as well the county seat of the designated Portneuf County.",
+    "text": "Les Escoumins is a municipality in La Haute-Côte-Nord Regional County Municipality in the Côte-Nord region of Quebec, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cap-Santé",
-    "url": "https://en.wikipedia.org/wiki/Cap-Sant%C3%A9",
+    "title": "Les Escoumins",
+    "url": "https://en.wikipedia.org/wiki/Les_Escoumins",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_7535673.webp",
-    "author": "Gabriel Picard",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_Cap-Sant%C3%A9_-_Vue_a%C3%A9rienne_automne_2023.jpg"
+    "file": "images/photo/gn_6955478.webp",
+    "author": "Jouu31",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Baiedesescoumins.jpg"
    }
   },
   {
-   "id": "gn:6138643",
-   "name": "Saint-Lin-Laurentides",
-   "label": "Saint-Lin-Laurentides",
+   "id": "gn:5960304",
+   "name": "Gentilly",
+   "label": "Gentilly",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.8501,
-   "lon": -73.7659,
+   "lat": 46.4001,
+   "lon": -72.2741,
    "rarity": "Common",
-   "fame": 13722,
+   "fame": 15066,
    "facts": {
-    "population": 17463,
-    "elevation_m": 59,
-    "area_km2": 118,
-    "temp_c": 4.8
+    "population": 1634,
+    "elevation_m": 17,
+    "temp_c": 4.6
    },
    "flavour": {
-    "text": "Its official name uses an en dash; however, the city's own website and Statistics Canada uses the two-hyphen version of its name: Saint-Lin--Laurentides.",
+    "text": "It is one of the major population centres within Bécancour's extensive territory, with 1,673 inhabitants counted in Gentilly at the 2016 population census.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Saint-Lin–Laurentides",
-    "url": "https://en.wikipedia.org/wiki/Saint-Lin%E2%80%93Laurentides",
+    "title": "Gentilly, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Gentilly%2C_Quebec",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_6138643.webp",
-    "author": "Vintotal",
+    "file": "images/photo/gn_5960304.webp",
+    "author": "Fralambert",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Route_335_(St-Lin).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-%C3%89douard-de-Gentilly.jpg"
    }
   },
   {
-   "id": "gn:5958590",
-   "name": "Fruitvale",
-   "label": "Fruitvale",
+   "id": "gn:6058415",
+   "name": "Logan Lake",
+   "label": "Logan Lake",
    "type": "town",
    "kind": "town",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 49.1165,
-   "lon": -117.5522,
+   "lat": 50.4922,
+   "lon": -120.8149,
    "rarity": "Common",
-   "fame": 5502,
+   "fame": 5844,
    "facts": {
-    "population": 3491,
-    "elevation_m": 659,
-    "area_km2": 2.7,
-    "temp_c": 7.0
+    "population": 2190,
+    "elevation_m": 1100,
+    "area_km2": 325,
+    "temp_c": 3.7
    },
    "flavour": {
-    "text": "It is 16 km east of the city of Trail along Highway 3B.",
+    "text": "Logan Lake is a district municipality in the Southern Interior of British Columbia, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Fruitvale, British Columbia",
-    "url": "https://en.wikipedia.org/wiki/Fruitvale%2C_British_Columbia",
+    "title": "Logan Lake",
+    "url": "https://en.wikipedia.org/wiki/Logan_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6058415.webp",
+    "author": "Andybremner2012",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Logan_Lake%27s_welcome_sign.JPG"
+   }
+  },
+  {
+   "id": "gn:6119528",
+   "name": "Naujaat",
+   "label": "Naujaat",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 66.5291,
+   "lon": -86.2437,
+   "rarity": "Common",
+   "fame": 11478,
+   "facts": {
+    "population": 1225,
+    "elevation_m": 1.0,
+    "area_km2": 424,
+    "temp_c": -12.2
+   },
+   "flavour": {
+    "text": "It is located on the shores of Hudson Bay, at the south end of the Melville Peninsula, in the Kivalliq Region of Nunavut, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Naujaat",
+    "url": "https://en.wikipedia.org/wiki/Naujaat",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6119528.webp",
+    "author": "https://www.flickr.com/people/naturallight/ Leslie Philipp",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Repulse_Bay.jpg"
+   }
+  },
+  {
+   "id": "gn:6079673",
+   "name": "Mount Albert",
+   "label": "Mount Albert",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 44.1334,
+   "lon": -79.3163,
+   "rarity": "Common",
+   "fame": 5922,
+   "facts": {
+    "population": 4925,
+    "elevation_m": 243,
+    "temp_c": 6.1
+   },
+   "flavour": {
+    "text": "It is located 65 km north-east of Toronto, 21 km south of Sutton, 45 km west-southwest of Beaverton and 30 km north of Markham.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Albert, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Mount_Albert%2C_Ontario",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_5958590.webp"
+    "file": "images/minimap/gn_6079673.webp"
    }
   },
   {
-   "id": "gn:6050177",
-   "name": "LaSalle",
-   "label": "LaSalle",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 42.2448,
-   "lon": -83.061,
-   "rarity": "Common",
-   "fame": 16440,
-   "facts": {
-    "population": 32721,
-    "elevation_m": 178,
-    "temp_c": 9.5
-   },
-   "flavour": {
-    "text": "It is a bedroom community of the City of Windsor, part of the Windsor Census Metropolitan Area, and located south of that city.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "LaSalle, Ontario",
-    "url": "https://en.wikipedia.org/wiki/LaSalle%2C_Ontario",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6050177.webp",
-    "author": "P199",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:LaSalle_ON.JPG"
-   }
-  },
-  {
-   "id": "gn:6090405",
-   "name": "North Perth",
-   "label": "North Perth",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.7251,
-   "lon": -80.9672,
-   "rarity": "Common",
-   "fame": 4668,
-   "facts": {
-    "population": 13130,
-    "elevation_m": 380,
-    "temp_c": 6.2
-   },
-   "flavour": {
-    "text": "Its name is based on its location in the northern portion of Perth County.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "North Perth, Ontario",
-    "url": "https://en.wikipedia.org/wiki/North_Perth%2C_Ontario",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6090405.webp",
-    "author": "Balcer",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Listowel_Main_Street_SE.jpg"
-   }
-  },
-  {
-   "id": "gn:12096534",
-   "name": "Burnt Church",
-   "label": "Burnt Church",
+   "id": "gn:13592154",
+   "name": "Miramichi River Valley",
+   "label": "Miramichi River Valley",
    "type": "town",
    "kind": "town",
    "region": "CA-NB",
    "country": "CA",
-   "lat": 47.1989,
-   "lon": -65.1396,
+   "lat": 46.615,
+   "lon": -65.9017,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1715,
-    "elevation_m": 18,
-    "temp_c": 4.4
+    "population": 1996,
+    "elevation_m": 69,
+    "temp_c": 4.6
    },
    "flavour": {
-    "text": "A community of 1,715 people in New Brunswick.",
+    "text": "A community of 1,996 people in New Brunswick.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_12096534.webp"
+    "file": "images/minimap/gn_13592154.webp"
    }
   },
   {
-   "id": "gn:5883074",
-   "name": "Albanel",
-   "label": "Albanel",
+   "id": "gn:5885150",
+   "name": "Ange-Gardien",
+   "label": "Ange-Gardien",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 48.8832,
-   "lon": -72.4487,
+   "lat": 45.3501,
+   "lon": -72.9324,
    "rarity": "Common",
-   "fame": 3054,
+   "fame": 4230,
    "facts": {
-    "population": 1087,
-    "elevation_m": 150,
-    "area_km2": 203,
-    "temp_c": 1.3
+    "population": 2420,
+    "elevation_m": 71,
+    "area_km2": 90,
+    "temp_c": 5.9
    },
    "flavour": {
-    "text": "Albanel is a municipality in the Canadian province of Quebec, located within the regional county municipality of Maria-Chapdelaine.",
+    "text": "Ange-Gardien is a municipality in the Canadian province of Quebec, located within the Rouville Regional County Municipality in the province's Montérégie region.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Albanel, Quebec",
-    "url": "https://en.wikipedia.org/wiki/Albanel%2C_Quebec",
+    "title": "Ange-Gardien",
+    "url": "https://en.wikipedia.org/wiki/Ange-Gardien",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5883074.webp",
-    "author": "Unknown author",
-    "licence": "Attribution",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Countryside_in_Albanel,_Quebec.jpg"
+    "file": "images/photo/gn_5885150.webp",
+    "author": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ange-Gardien-%C3%A9glise.jpg"
    }
   },
   {
-   "id": "gn:6174844",
-   "name": "Wabush",
-   "label": "Wabush",
+   "id": "gn:13607844",
+   "name": "Black River-Hardwicke",
+   "label": "Black River-Hardwicke",
    "type": "town",
    "kind": "town",
-   "region": "CA-NL",
+   "region": "CA-NB",
    "country": "CA",
-   "lat": 52.9001,
-   "lon": -66.8654,
-   "rarity": "Common",
-   "fame": 15084,
-   "facts": {
-    "population": 1964,
-    "elevation_m": 590,
-    "area_km2": 46,
-    "temp_c": -4.0
-   },
-   "flavour": {
-    "text": "Wabush is a small town in the western tip of Labrador, bordering Quebec; it is known for transportation and iron ore operations.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Wabush",
-    "url": "https://en.wikipedia.org/wiki/Wabush",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6174844.webp"
-   }
-  },
-  {
-   "id": "gn:6179394",
-   "name": "Westridge",
-   "label": "Westridge",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 49.2833,
-   "lon": -122.95,
+   "lat": 47.0212,
+   "lon": -65.2076,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2521,
-    "elevation_m": 127,
-    "temp_c": 10.2
+    "population": 1067,
+    "elevation_m": 2.0,
+    "temp_c": 4.6
    },
    "flavour": {
-    "text": "A community of 2,521 people in British Columbia.",
+    "text": "A community of 1,067 people in New Brunswick.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_6179394.webp"
+    "file": "images/minimap/gn_13607844.webp"
    }
   },
   {
-   "id": "gn:5924984",
-   "name": "Colchester",
-   "label": "Colchester",
+   "id": "gn:5906690",
+   "name": "Bowen Island",
+   "label": "Bowen Island (British Columbia)",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.3847,
+   "lon": -123.3362,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4256,
+    "elevation_m": 30,
+    "temp_c": 9.3
+   },
+   "flavour": {
+    "text": "A community of 4,256 people in British Columbia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5906690.webp"
+   }
+  },
+  {
+   "id": "gn:5897865",
+   "name": "Belle River",
+   "label": "Belle River",
    "type": "town",
    "kind": "town",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 41.9834,
-   "lon": -82.9331,
+   "lat": 42.2926,
+   "lon": -82.7119,
    "rarity": "Common",
-   "fame": 4650,
+   "fame": 5910,
    "facts": {
-    "population": 2334,
-    "elevation_m": 172,
-    "temp_c": 9.7
+    "population": 9650,
+    "elevation_m": 175,
+    "temp_c": 9.2
    },
    "flavour": {
-    "text": "Colchester is a community and unincorporated place in Southwestern Ontario, the southernmost settlement on mainland Canada.",
+    "text": "It was incorporated in 1999 by amalgamating the town of Belle River with the townships of Maidstone, Rochester, Tilbury North, and Tilbury West.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Colchester, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Colchester%2C_Ontario",
+    "title": "Belle River, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Belle_River%2C_Ontario",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5924984.webp",
-    "author": "Gary J. Wood from Toronto, ON, Canada",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Colchester_Harbour_Gas.jpg"
+    "file": "images/photo/gn_5897865.webp",
+    "author": "P199",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lakeshore_ON.JPG"
    }
   },
   {
@@ -796,29 +791,38 @@
    }
   },
   {
-   "id": "gn:13732212",
-   "name": "Caniapiscau",
-   "label": "Caniapiscau",
+   "id": "gn:6137655",
+   "name": "Saint-Damase",
+   "label": "Saint-Damase",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 54.8669,
-   "lon": -69.9155,
+   "lat": 45.5334,
+   "lon": -72.9991,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 2880,
    "facts": {
-    "population": 3882,
-    "elevation_m": 528,
-    "temp_c": -5.2
+    "population": 1349,
+    "elevation_m": 30,
+    "area_km2": 81,
+    "temp_c": 5.9
    },
    "flavour": {
-    "text": "A community of 3,882 people in Quebec.",
-    "source": "facts"
+    "text": "Saint-Damase is a municipality located in Les Maskoutains Regional County Municipality in the Montérégie region of Quebec.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Damase, Montérégie",
+    "url": "https://en.wikipedia.org/wiki/Saint-Damase%2C_Mont%C3%A9r%C3%A9gie",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13732212.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_6137655.webp",
+    "author": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St-Damase_kiosque.jpg"
    }
   },
   {
@@ -1707,38 +1711,38 @@
    }
   },
   {
-   "id": "gn:6101645",
-   "name": "Peterborough",
-   "label": "Peterborough",
+   "id": "gn:6166739",
+   "name": "Timmins",
+   "label": "Timmins",
    "type": "town",
    "kind": "town",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 44.3001,
-   "lon": -78.3162,
+   "lat": 48.4669,
+   "lon": -81.3331,
    "rarity": "Epic",
-   "fame": 96018,
+   "fame": 97320,
    "facts": {
-    "population": 85807,
-    "elevation_m": 188,
-    "area_km2": 58,
-    "temp_c": 6.4
+    "population": 41788,
+    "elevation_m": 301,
+    "area_km2": 2979,
+    "temp_c": 1.3
    },
    "flavour": {
-    "text": "Peterborough is a city and county seat of Peterborough County, Ontario, Canada, about 125 kilometres northeast of Toronto.",
+    "text": "The city's economy is based on natural resource extraction.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Peterborough, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Peterborough%2C_Ontario",
+    "title": "Timmins",
+    "url": "https://en.wikipedia.org/wiki/Timmins",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_6101645.webp",
-    "author": "Jkentrandall",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Peteborough_Skyline_Sunset.jpg"
+    "file": "images/photo/gn_6166739.webp",
+    "author": "P199",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Timmins_Ontario.jpg"
    }
   },
   {
@@ -3423,174 +3427,173 @@
    }
   },
   {
-   "id": "gn:5964215",
-   "name": "Granby",
-   "label": "Granby",
+   "id": "gn:5909629",
+   "name": "Brossard",
+   "label": "Brossard",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.4001,
-   "lon": -72.7324,
+   "lat": 45.4501,
+   "lon": -73.4658,
    "rarity": "Rare",
-   "fame": 36294,
+   "fame": 34248,
    "facts": {
-    "population": 66222,
-    "elevation_m": 102,
-    "area_km2": 156,
-    "temp_c": 5.7
+    "population": 69575,
+    "elevation_m": 17,
+    "area_km2": 52,
+    "temp_c": 6.3
    },
    "flavour": {
-    "text": "According to the latest statistics from the 2021 Canadian Census, Granby has a population of 69,025.",
+    "text": "Brossard is a municipality in the Montérégie region of Quebec, Canada and is part of the Greater Montreal area.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Granby, Quebec",
-    "url": "https://en.wikipedia.org/wiki/Granby%2C_Quebec",
+    "title": "Brossard",
+    "url": "https://en.wikipedia.org/wiki/Brossard",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5964215.webp",
-    "author": "Gabriel Picard",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rue_Principale_Granby_2023-1_(cropped).jpg"
+    "file": "images/photo/gn_5909629.webp",
+    "author": "Hayden Soloviev",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brossard,_Quebec.jpg"
    }
   },
   {
-   "id": "gn:6139417",
-   "name": "Salmon Arm",
-   "label": "Salmon Arm",
+   "id": "gn:5925975",
+   "name": "Collingwood",
+   "label": "Collingwood",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 44.4834,
+   "lon": -80.2164,
+   "rarity": "Rare",
+   "fame": 37614,
+   "facts": {
+    "population": 21793,
+    "elevation_m": 194,
+    "temp_c": 5.8
+   },
+   "flavour": {
+    "text": "It is situated on Nottawasaga Bay at the southern point of Georgian Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Collingwood, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Collingwood%2C_Ontario",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_5925975.webp",
+    "author": "GTD Aquitaine",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Downtown_Collingwood_Hurontario.jpg"
+   }
+  },
+  {
+   "id": "gn:6098642",
+   "name": "Parksville",
+   "label": "Parksville",
    "type": "town",
    "kind": "town",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 50.6998,
-   "lon": -119.2691,
+   "lat": 49.3195,
+   "lon": -124.3157,
    "rarity": "Rare",
-   "fame": 36162,
+   "fame": 20850,
    "facts": {
-    "population": 19432,
-    "elevation_m": 427,
-    "area_km2": 155,
-    "temp_c": 6.9
+    "population": 12000,
+    "elevation_m": 26,
+    "area_km2": 15,
+    "temp_c": 8.9
    },
    "flavour": {
-    "text": "Salmon Arm is a city in the Columbia Shuswap Regional District of the Southern Interior of the Canadian province of British Columbia that has a population of…",
+    "text": "As of the 2021 Census, Parksville's population was 13,642, representing a 9.5% increase over the 2016 Census.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Salmon Arm",
-    "url": "https://en.wikipedia.org/wiki/Salmon_Arm",
+    "title": "Parksville, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Parksville%2C_British_Columbia",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_6139417.webp",
-    "author": "The Interior",
+    "file": "images/photo/gn_6098642.webp",
+    "author": "Cosmic6811",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:SalmonArmFromTappen.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Parksville_Rathtrevor_Beach.jpg"
    }
   },
   {
-   "id": "gn:5888377",
-   "name": "Aurora",
-   "label": "Aurora",
+   "id": "gn:5992830",
+   "name": "Kirkland",
+   "label": "Kirkland",
    "type": "town",
    "kind": "town",
-   "region": "CA-ON",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 44.0001,
-   "lon": -79.4663,
+   "lat": 45.4501,
+   "lon": -73.8659,
    "rarity": "Rare",
-   "fame": 43860,
+   "fame": 18828,
    "facts": {
-    "population": 55445,
-    "elevation_m": 266,
-    "area_km2": 50,
-    "temp_c": 6.4
+    "population": 20491,
+    "elevation_m": 36,
+    "area_km2": 9.6,
+    "temp_c": 6.2
    },
    "flavour": {
-    "text": "It is located 48 km from Downtown Toronto, north of Richmond Hill partially situated on the Oak Ridges Moraine, and surrounded by the Greenbelt.",
+    "text": "It is named after Charles-Aimé Kirkland, a Quebec provincial politician.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Aurora, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Aurora%2C_Ontario",
+    "title": "Kirkland, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Kirkland%2C_Quebec",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5888377.webp",
+    "file": "images/photo/gn_5992830.webp",
     "author": "P199",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aurora_ON.JPG"
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Kirkland_QC.JPG"
    }
   },
   {
-   "id": "gn:5947866",
-   "name": "Elliot Lake",
-   "label": "Elliot Lake",
+   "id": "gn:6183204",
+   "name": "Winkler",
+   "label": "Winkler",
    "type": "town",
    "kind": "town",
-   "region": "CA-ON",
+   "region": "CA-MB",
    "country": "CA",
-   "lat": 46.3834,
-   "lon": -82.6332,
+   "lat": 49.1817,
+   "lon": -97.941,
    "rarity": "Rare",
-   "fame": 27180,
+   "fame": 20868,
    "facts": {
-    "population": 12508,
-    "elevation_m": 310,
-    "area_km2": 715,
-    "temp_c": 4.0
+    "population": 12660,
+    "elevation_m": 271,
+    "area_km2": 17,
+    "temp_c": 3.3
    },
    "flavour": {
-    "text": "It is north of Lake Huron, midway between the cities of Sudbury and Sault Ste.",
+    "text": "Winkler is a city in Manitoba, Canada, with a population of 13,745, making it the 4th largest city in Manitoba, as of the 2021 Canadian census.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Elliot Lake",
-    "url": "https://en.wikipedia.org/wiki/Elliot_Lake",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_5947866.webp",
-    "author": "P199",
-    "licence": "CC BY-SA 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Elliot_Lake.JPG"
-   }
-  },
-  {
-   "id": "gn:6092839",
-   "name": "Ohsweken",
-   "label": "Ohsweken",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.0668,
-   "lon": -80.1163,
-   "rarity": "Rare",
-   "fame": 21024,
-   "facts": {
-    "population": 1500,
-    "elevation_m": 214,
-    "area_km2": 75,
-    "temp_c": 7.9
-   },
-   "flavour": {
-    "text": "Ohsweken is a dispersed rural community located within the Six Nations of the Grand River, in Brant County, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Ohsweken, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Ohsweken%2C_Ontario",
+    "title": "Winkler, Manitoba",
+    "url": "https://en.wikipedia.org/wiki/Winkler%2C_Manitoba",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_6092839.webp"
+    "file": "images/minimap/gn_6183204.webp"
    }
   },
   {
@@ -3629,495 +3632,468 @@
    }
   },
   {
-   "id": "gn:6155302",
-   "name": "St. Anthony",
-   "label": "St. Anthony",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NL",
-   "country": "CA",
-   "lat": 51.3704,
-   "lon": -55.5974,
-   "rarity": "Rare",
-   "fame": 19632,
-   "facts": {
-    "population": 2049,
-    "elevation_m": 9.0,
-    "temp_c": 1.7
-   },
-   "flavour": {
-    "text": "St. Anthony is a town on the northern reaches of the Great Northern Peninsula of the Canadian province of Newfoundland and Labrador.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "St. Anthony, Newfoundland and Labrador",
-    "url": "https://en.wikipedia.org/wiki/St._Anthony%2C_Newfoundland_and_Labrador",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6155302.webp",
-    "author": "Original Uploader was Sheldoncoles ( talk ) at 07:56, 17. Feb. 2007.",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Stanthony_071904.jpg"
-   }
-  },
-  {
-   "id": "gn:6149996",
-   "name": "Smithers",
-   "label": "Smithers",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 54.7804,
-   "lon": -127.1743,
-   "rarity": "Rare",
-   "fame": 33972,
-   "facts": {
-    "population": 5351,
-    "elevation_m": 494,
-    "area_km2": 15,
-    "temp_c": 2.1
-   },
-   "flavour": {
-    "text": "Smithers is a town in northwestern British Columbia, approximately halfway between Prince George and Prince Rupert.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Smithers, British Columbia",
-    "url": "https://en.wikipedia.org/wiki/Smithers%2C_British_Columbia",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6149996.webp"
-   }
-  },
-  {
-   "id": "gn:5905308",
-   "name": "Bolton",
-   "label": "Bolton",
+   "id": "gn:5909294",
+   "name": "Brockville",
+   "label": "Brockville",
    "type": "town",
    "kind": "town",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.8795,
-   "lon": -79.7379,
+   "lat": 44.5913,
+   "lon": -75.687,
    "rarity": "Rare",
-   "fame": 22008,
+   "fame": 42012,
    "facts": {
-    "population": 26795,
-    "elevation_m": 221,
-    "temp_c": 6.4
+    "population": 23886,
+    "elevation_m": 93,
+    "temp_c": 6.6
    },
    "flavour": {
-    "text": "Bolton is an unincorporated town and is the most populous community in the town of Caledon, Ontario, Canada, in the Regional Municipality of Peel.",
+    "text": "Although it falls within the United Counties of Leeds and Grenville, it is politically independent of the county.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Bolton, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Bolton%2C_Ontario",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_5905308.webp"
-   }
-  },
-  {
-   "id": "gn:6621033",
-   "name": "Grand Falls",
-   "label": "Grand Falls",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 47.0461,
-   "lon": -67.7418,
-   "rarity": "Rare",
-   "fame": 21108,
-   "facts": {
-    "population": 5220,
-    "elevation_m": 157,
-    "area_km2": 18,
-    "temp_c": 3.2
-   },
-   "flavour": {
-    "text": "Its name comes from a waterfall created by a series of rock ledges over which the river drops 23 metres.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Grand Falls, New Brunswick",
-    "url": "https://en.wikipedia.org/wiki/Grand_Falls%2C_New_Brunswick",
+    "title": "Brockville",
+    "url": "https://en.wikipedia.org/wiki/Brockville",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_6621033.webp",
-    "author": "...some guy",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:GrandFalls_-_summer.jpg"
+    "file": "images/photo/gn_5909294.webp",
+    "author": "Vincebrockvlog at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:General_Brock_Courthouse_Building_Brockville_Ontario.JPG"
    }
   },
   {
-   "id": "gn:5964401",
-   "name": "Grand Forks",
-   "label": "Grand Forks",
+   "id": "gn:6075061",
+   "name": "Mirabel",
+   "label": "Mirabel",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.6501,
+   "lon": -74.0825,
+   "rarity": "Rare",
+   "fame": 39330,
+   "facts": {
+    "population": 34626,
+    "elevation_m": 70,
+    "area_km2": 487,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "Mirabel is a suburb of Montreal, located on the North Shore in southern Quebec.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mirabel, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Mirabel%2C_Quebec",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6075061.webp",
+    "author": "P199",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mirabel_QC.JPG"
+   }
+  },
+  {
+   "id": "gn:6157390",
+   "name": "Stoney Creek",
+   "label": "Stoney Creek",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.2168,
+   "lon": -79.7663,
+   "rarity": "Rare",
+   "fame": 24288,
+   "facts": {
+    "population": 76382,
+    "elevation_m": 112,
+    "area_km2": 100,
+    "temp_c": 8.8
+   },
+   "flavour": {
+    "text": "Stoney Creek is a community in the city of Hamilton in the Canadian province of Ontario located 10 km east of Downtown Hamilton and 57 km south-west of Toronto.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stoney Creek, Ontario",
+    "url": "https://en.wikipedia.org/wiki/Stoney_Creek%2C_Ontario",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6157390.webp",
+    "author": "Nelro ( talk )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Stony_Creek_Monument,_Stony_Creek.jpg"
+   }
+  },
+  {
+   "id": "gn:5971372",
+   "name": "Harrison Hot Springs",
+   "label": "Harrison Hot Springs",
    "type": "town",
    "kind": "town",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 49.0331,
-   "lon": -118.4356,
+   "lat": 49.2997,
+   "lon": -121.7859,
    "rarity": "Rare",
-   "fame": 23100,
+   "fame": 22062,
    "facts": {
-    "population": 4049,
-    "elevation_m": 514,
-    "area_km2": 10,
-    "temp_c": 6.3
+    "population": 1905,
+    "elevation_m": 18,
+    "temp_c": 9.0
    },
    "flavour": {
-    "text": "It is located at the confluence of the Granby and Kettle Rivers, the latter being a tributary of the Columbia River.",
+    "text": "Harrison Hot Springs is a village located at the southern end of Harrison Lake in the Fraser Valley of British Columbia, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Grand Forks, British Columbia",
-    "url": "https://en.wikipedia.org/wiki/Grand_Forks%2C_British_Columbia",
+    "title": "Harrison Hot Springs",
+    "url": "https://en.wikipedia.org/wiki/Harrison_Hot_Springs",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5964401.webp",
-    "author": "Vxceprex",
+    "file": "images/photo/gn_5971372.webp",
+    "author": "Straitgate",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Grand_forks_bc_(cropped).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Harrison_Hot_Spr_Waterfront_2012.JPG"
    }
   },
   {
-   "id": "gn:5961560",
-   "name": "Gjoa Haven",
-   "label": "Gjoa Haven",
+   "id": "gn:6064180",
+   "name": "Magog",
+   "label": "Magog",
    "type": "town",
    "kind": "town",
-   "region": "CA-NU",
+   "region": "CA-QC",
    "country": "CA",
-   "lat": 68.626,
-   "lon": -95.8784,
+   "lat": 45.2668,
+   "lon": -72.1491,
    "rarity": "Rare",
-   "fame": 41052,
+   "fame": 39522,
    "facts": {
-    "population": 1349,
-    "elevation_m": 1.0,
-    "area_km2": 2847,
-    "temp_c": -14.0
+    "population": 15550,
+    "elevation_m": 220,
+    "area_km2": 168,
+    "temp_c": 5.2
    },
    "flavour": {
-    "text": "Gjoa Haven, the only settlement on King William Island, is an Inuit hamlet in Nunavut, above the Arctic Circle.",
+    "text": "Magog is a city in southeastern Quebec, Canada, about 120 kilometres east of Montreal at the confluence of Lake Memphremagog—after which the city was…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Gjoa Haven",
-    "url": "https://en.wikipedia.org/wiki/Gjoa_Haven",
+    "title": "Magog, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Magog%2C_Quebec",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5961560.webp",
-    "author": "Clevelander96",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gjoa.JPG"
+    "file": "images/photo/gn_6064180.webp",
+    "author": "Jean-Philippe Boulet",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pano_Magog.JPG"
    }
   },
   {
-   "id": "wd:Q23021651",
-   "name": "Petite rivière Noire",
-   "label": "Petite rivière Noire (near Notre-Dame-du-Portage)",
+   "id": "gn:6111529",
+   "name": "Portage la Prairie",
+   "label": "Portage la Prairie",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-MB",
+   "country": "CA",
+   "lat": 49.9728,
+   "lon": -98.2926,
+   "rarity": "Rare",
+   "fame": 33882,
+   "facts": {
+    "population": 13304,
+    "elevation_m": 263,
+    "area_km2": 25,
+    "temp_c": 2.7
+   },
+   "flavour": {
+    "text": "Its land area is 24.68 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portage la Prairie",
+    "url": "https://en.wikipedia.org/wiki/Portage_la_Prairie",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6111529.webp",
+    "author": "Josh Wright",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Portage_la_Prairie_-_City_Collage.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7244805",
+   "name": "Princess Royal Island",
+   "label": "Princess Royal Island (near Pond Inlet)",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 76.9333,
+   "lon": -94.3167,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 9.0,
+    "length_km": 4.5,
+    "temp_c": -16.5
+   },
+   "flavour": {
+    "text": "It lies in Norwegian Bay, approximately 3 km off the northeast coast of Devon Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Princess Royal Island (Nunavut)",
+    "url": "https://en.wikipedia.org/wiki/Princess_Royal_Island_%28Nunavut%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7244805.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:DISCOVERY_OF_PRINCESS_ROYAL_ISLAND.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5168752",
+   "name": "Copper Mountain",
+   "label": "Copper Mountain (near Banff)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 51.2092,
+   "lon": -115.8853,
+   "rarity": "Rare",
+   "fame": 708,
+   "facts": {
+    "elevation_m": 2795,
+    "prominence_m": 479,
+    "temp_c": -0.7
+   },
+   "flavour": {
+    "text": "The mountain was named in 1884 by George M. Dawson after he had climbed to a mining site set up by Joe Healy and J.S. Dennis in 1881.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Copper Mountain (Alberta)",
+    "url": "https://en.wikipedia.org/wiki/Copper_Mountain_%28Alberta%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5168752.webp",
+    "author": "Andrew Bowden",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Copper_Mountain_in_Banff_NP.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4996579",
+   "name": "Bull Lake",
+   "label": "Bull Lake (near Valley East)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 46.8981,
+   "lon": -80.5561,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 319,
+    "temp_c": 2.8
+   },
+   "flavour": {
+    "text": "The primary outflow is an unnamed creek to Rawson Lake, and further through a series of lakes, Halleck Lake and Halleck Creek into the Sturgeon River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bull Lake (Sheppard Township)",
+    "url": "https://en.wikipedia.org/wiki/Bull_Lake_%28Sheppard_Township%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4996579.webp"
+   }
+  },
+  {
+   "id": "wd:Q49909595",
+   "name": "Rivière Alex",
+   "label": "Rivière Alex (near Saint-Ulric)",
    "type": "nature",
    "kind": "river",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 47.6936,
-   "lon": -69.5425,
+   "lat": 48.7694,
+   "lon": -67.6789,
    "rarity": "Common",
    "fame": 36,
    "facts": {
-    "elevation_m": 124,
-    "length_km": 6.0,
-    "temp_c": 3.3
+    "elevation_m": 32,
+    "length_km": 8.0,
+    "temp_c": 2.5
    },
    "flavour": {
-    "text": "The Petite Noire River flows through Saint-Alexandre-de-Kamouraska and Saint-Antonin, in the Bas-Saint-Laurent region.",
+    "text": "The Alex River is a tributary on the southwest bank of the Blanche River, which flows northwest to the Gulf of St. Lawrence.",
     "source": "wikipedia",
     "lang": "fr",
-    "title": "Petite rivière Noire (rivière du Loup)",
-    "url": "https://fr.wikipedia.org/wiki/Petite_rivi%C3%A8re_Noire_%28rivi%C3%A8re_du_Loup%29",
+    "title": "Rivière Alex (rivière Blanche)",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Alex_%28rivi%C3%A8re_Blanche%29",
     "translated": true
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q23021651.webp"
+    "file": "images/minimap/wd_Q49909595.webp"
    }
   },
   {
-   "id": "wd:Q3477924",
-   "name": "Seine River",
-   "label": "Seine River (near Winnipeg)",
+   "id": "wd:Q22447939",
+   "name": "Massacre Island",
+   "label": "Massacre Island (near Liverpool)",
    "type": "nature",
-   "kind": "river",
-   "region": "CA-MB",
+   "kind": "island",
+   "region": "CA-NS",
    "country": "CA",
-   "lat": 49.9003,
-   "lon": -97.1094,
-   "rarity": "Rare",
-   "fame": 2424,
+   "lat": 43.9081,
+   "lon": -64.799,
+   "rarity": "Common",
+   "fame": 162,
    "facts": {
-    "elevation_m": 221,
-    "length_km": 150,
-    "temp_c": 2.8
+    "elevation_m": 5.0,
+    "temp_c": 7.0
    },
    "flavour": {
-    "text": "It is one of the four rivers that flows in the city of Winnipeg.",
+    "text": "Massacre Island is an island off the coast of Port Mouton, Nova Scotia, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Seine River (Manitoba)",
-    "url": "https://en.wikipedia.org/wiki/Seine_River_%28Manitoba%29",
+    "title": "Massacre Island",
+    "url": "https://en.wikipedia.org/wiki/Massacre_Island",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3477924.webp",
-    "author": "Robert Linsdell from St. Andrews, Canada",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Seine_River,_St._Boniface,_Winnipeg_(505061)_(24234093183).jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22447939.webp"
    }
   },
   {
-   "id": "wd:Q17515057",
-   "name": "Eagle Lake",
-   "label": "Eagle Lake (near Anahim Lake)",
+   "id": "wd:Q4796177",
+   "name": "Arrowhead Mountain",
+   "label": "Arrowhead Mountain (near Pond Inlet)",
    "type": "nature",
-   "kind": "lake",
+   "kind": "mountain",
+   "region": "CA-NU",
+   "country": "CA",
+   "lat": 82.2167,
+   "lon": -72.2167,
+   "rarity": "Common",
+   "fame": 342,
+   "facts": {
+    "elevation_m": 1860,
+    "prominence_m": 476,
+    "temp_c": -22.8
+   },
+   "flavour": {
+    "text": "Arrowhead Mountain is a mountain located on Ellesmere Island, Nunavut, Canada and is located east northeast of Mount Oxford.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arrowhead Mountain (Nunavut)",
+    "url": "https://en.wikipedia.org/wiki/Arrowhead_Mountain_%28Nunavut%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4796177.webp"
+   }
+  },
+  {
+   "id": "gn:6065301",
+   "name": "Mannheim",
+   "label": "Mannheim",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.3981,
+   "lon": -80.5454,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1002,
+    "elevation_m": 347,
+    "temp_c": 6.7
+   },
+   "flavour": {
+    "text": "A community of 1,002 people in Ontario.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6065301.webp"
+   }
+  },
+  {
+   "id": "wd:Q31772",
+   "name": "Moresby Island",
+   "label": "Moresby Island (near Prince Rupert)",
+   "type": "nature",
+   "kind": "island",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 51.9131,
-   "lon": -124.3869,
-   "rarity": "Rare",
-   "fame": 1470,
+   "lat": 53.0789,
+   "lon": -132.1278,
+   "rarity": "Epic",
+   "fame": 10308,
    "facts": {
-    "elevation_m": 1042,
-    "area_km2": 12,
-    "length_km": 10,
-    "temp_c": 2.5
+    "elevation_m": 541,
+    "area_km2": 2608,
+    "temp_c": 6.9
    },
    "flavour": {
-    "text": "Eagle Lake is an endorheic lake in the western Chilcotin District of the Central Interior of British Columbia, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Eagle Lake (British Columbia)",
-    "url": "https://en.wikipedia.org/wiki/Eagle_Lake_%28British_Columbia%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q17515057.webp",
-    "author": "Tatlayoko",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:EagleLakeBC.jpg"
-   }
-  },
-  {
-   "id": "wd:Q18168167",
-   "name": "Depot Creek",
-   "label": "Depot Creek (near Lappe)",
-   "type": "nature",
-   "kind": "river",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 48.6225,
-   "lon": -89.5942,
-   "rarity": "Common",
-   "fame": 96,
-   "facts": {
-    "elevation_m": 316,
-    "temp_c": 1.6
-   },
-   "flavour": {
-    "text": "It is in the Great Lakes Basin and is a left tributary of the Kaministiquia River.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Depot Creek (Thunder Bay District)",
-    "url": "https://en.wikipedia.org/wiki/Depot_Creek_%28Thunder_Bay_District%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q18168167.webp"
-   }
-  },
-  {
-   "id": "wd:Q7974133",
-   "name": "Waterhen River",
-   "label": "Waterhen River (near Meadow Lake)",
-   "type": "nature",
-   "kind": "river",
-   "region": "CA-SK",
-   "country": "CA",
-   "lat": 54.6386,
-   "lon": -107.7786,
-   "rarity": "Common",
-   "fame": 582,
-   "facts": {
-    "elevation_m": 451,
-    "length_km": 142,
-    "temp_c": 0.7
-   },
-   "flavour": {
-    "text": "Waterhen River is an east-flowing river in the north-west area of the Canadian province of Saskatchewan in the drainage basin of the Beaver River.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Waterhen River (Saskatchewan)",
-    "url": "https://en.wikipedia.org/wiki/Waterhen_River_%28Saskatchewan%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7974133.webp",
-    "author": "Kayoty",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Waterhen_River_from_Highway_155.JPG"
-   }
-  },
-  {
-   "id": "wd:Q5032907",
-   "name": "Canoe Lake",
-   "label": "Canoe Lake (near United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde)",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 45.5492,
-   "lon": -78.7181,
-   "rarity": "Rare",
-   "fame": 3078,
-   "facts": {
-    "elevation_m": 417,
-    "area_km2": 3.7,
-    "temp_c": 3.5
-   },
-   "flavour": {
-    "text": "Canoe Lake is a major access point for many canoeists entering Algonquin Park as well as being home to many cottages.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Canoe Lake (Nipissing District)",
-    "url": "https://en.wikipedia.org/wiki/Canoe_Lake_%28Nipissing_District%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5032907.webp",
-    "author": "Markabq",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:CanoeLake.JPG"
-   }
-  },
-  {
-   "id": "gn:13732349",
-   "name": "Saint-Michel-du-Squatec",
-   "label": "Saint-Michel-du-Squatec",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 47.8821,
-   "lon": -68.7186,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1076,
-    "elevation_m": 183,
-    "temp_c": 2.4
-   },
-   "flavour": {
-    "text": "A community of 1,076 people in Quebec.",
+    "text": "An island in British Columbia.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_13732349.webp"
+    "file": "images/minimap/wd_Q31772.webp"
    }
   },
   {
-   "id": "gn:6184755",
-   "name": "Gracefield",
-   "label": "Gracefield",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 46.1001,
-   "lon": -76.0494,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2376,
-    "elevation_m": 150,
-    "temp_c": 4.1
-   },
-   "flavour": {
-    "text": "A community of 2,376 people in Quebec.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6184755.webp"
-   }
-  },
-  {
-   "id": "gn:6112000",
-   "name": "Port Rowan",
-   "label": "Port Rowan",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 42.6168,
-   "lon": -80.4664,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1102,
-    "elevation_m": 184,
-    "temp_c": 8.6
-   },
-   "flavour": {
-    "text": "A community of 1,102 people in Ontario.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6112000.webp"
-   }
-  },
-  {
-   "id": "wd:Q3433682",
-   "name": "Rivière Cyriac",
-   "label": "Rivière Cyriac",
+   "id": "wd:Q15628940",
+   "name": "Rivière aux Eaux Mortes",
+   "label": "Rivière aux Eaux Mortes",
    "type": "nature",
    "kind": "river",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 48.3014,
-   "lon": -71.2936,
+   "lat": 47.1139,
+   "lon": -72.6181,
    "rarity": "Common",
-   "fame": 384,
+   "fame": 234,
    "facts": {
-    "elevation_m": 177,
-    "length_km": 73,
-    "temp_c": 1.6
+    "elevation_m": 161,
+    "length_km": 44,
+    "temp_c": 2.7
    },
    "flavour": {
     "text": "A river in Quebec.",
@@ -4125,7 +4101,33 @@
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q3433682.webp"
+    "file": "images/minimap/wd_Q15628940.webp"
+   }
+  },
+  {
+   "id": "gn:6138974",
+   "name": "Saint-Raphaël",
+   "label": "Saint-Raphaël (Quebec)",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.2501,
+   "lon": -76.0161,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1113,
+    "elevation_m": 179,
+    "temp_c": 3.9
+   },
+   "flavour": {
+    "text": "A community of 1,113 people in Quebec.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6138974.webp"
    }
   }
  ]

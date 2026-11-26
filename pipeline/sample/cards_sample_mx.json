@@ -424,319 +424,319 @@
    }
   },
   {
-   "id": "gn:11096605",
-   "name": "La Compañia",
-   "label": "La Compañia",
+   "id": "gn:3999251",
+   "name": "Las Taponas",
+   "label": "Las Taponas",
    "type": "town",
    "kind": "town",
-   "region": "MX-PUE",
+   "region": "MX-QUE",
    "country": "MX",
-   "lat": 18.9708,
-   "lon": -97.7228,
+   "lat": 20.4181,
+   "lon": -100.3833,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2526,
-    "elevation_m": 2124,
-    "temp_c": 16.1
+    "population": 1994,
+    "elevation_m": 2056,
+    "temp_c": 16.8
    },
    "flavour": {
-    "text": "A community of 2,526 people in Puebla.",
+    "text": "A community of 1,994 people in Querétaro.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_11096605.webp"
+    "file": "images/minimap/gn_3999251.webp"
    }
   },
   {
-   "id": "gn:3531268",
-   "name": "Chacalapa",
-   "label": "Chacalapa (Guerrero)",
+   "id": "gn:3515212",
+   "name": "San José Toxi",
+   "label": "San José Toxi",
    "type": "town",
    "kind": "town",
-   "region": "MX-GRO",
+   "region": "MX-MEX",
    "country": "MX",
-   "lat": 16.8075,
-   "lon": -98.4582,
+   "lat": 19.8681,
+   "lon": -99.9335,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1371,
-    "elevation_m": 538,
-    "temp_c": 25.6
+    "population": 1735,
+    "elevation_m": 2564,
+    "temp_c": 13.1
    },
    "flavour": {
-    "text": "A community of 1,371 people in Guerrero.",
+    "text": "A community of 1,735 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3531268.webp"
+    "file": "images/minimap/gn_3515212.webp"
    }
   },
   {
-   "id": "gn:4000152",
-   "name": "Las Cañas",
-   "label": "Las Cañas (Guanajuato)",
+   "id": "gn:3824689",
+   "name": "Ahueyahualco",
+   "label": "Ahueyahualco",
    "type": "town",
    "kind": "town",
-   "region": "MX-GUA",
+   "region": "MX-VER",
    "country": "MX",
-   "lat": 20.2952,
-   "lon": -101.4184,
+   "lat": 19.7199,
+   "lon": -97.2623,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1093,
-    "elevation_m": 1780,
-    "temp_c": 17.9
+    "population": 2639,
+    "elevation_m": 2136,
+    "temp_c": 14.8
    },
    "flavour": {
-    "text": "A community of 1,093 people in Guanajuato.",
+    "text": "A community of 2,639 people in Veracruz.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4000152.webp"
+    "file": "images/minimap/gn_3824689.webp"
    }
   },
   {
-   "id": "gn:3530620",
-   "name": "Cintalapa",
-   "label": "Cintalapa",
+   "id": "gn:8859091",
+   "name": "Colonia Isidro Fabela",
+   "label": "Colonia Isidro Fabela",
    "type": "town",
    "kind": "town",
-   "region": "MX-CHP",
+   "region": "MX-MEX",
    "country": "MX",
-   "lat": 16.9236,
-   "lon": -91.3615,
+   "lat": 19.3006,
+   "lon": -99.5228,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 318,
    "facts": {
-    "population": 1571,
-    "elevation_m": 491,
-    "temp_c": 22.8
+    "population": 1478,
+    "elevation_m": 2575,
+    "temp_c": 13.7
    },
    "flavour": {
-    "text": "A community of 1,571 people in Chiapas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3530620.webp"
-   }
-  },
-  {
-   "id": "gn:8858402",
-   "name": "Belén Atzitzimititlán",
-   "label": "Belén Atzitzimititlán",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-TLA",
-   "country": "MX",
-   "lat": 19.3469,
-   "lon": -98.19,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3232,
-    "elevation_m": 2310,
-    "temp_c": 14.0
-   },
-   "flavour": {
-    "text": "A community of 3,232 people in Tlaxcala.",
+    "text": "A community of 1,478 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_8858402.webp",
-    "author": "Isaacvp",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gobenerment_building_on_Belen_Atzizimitl%C3%A1n,_in_Tlaxcala,_Mexico.jpg"
+    "file": "images/photo/gn_8859091.webp",
+    "author": "www.guia-sanmateoate…",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IGLESIA_DE_LA_COL._ISIDRO_FABELA_-_panoramio.jpg"
    }
   },
   {
-   "id": "gn:4006206",
-   "name": "Francisco García Salinas",
-   "label": "Francisco García Salinas",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-ZAC",
-   "country": "MX",
-   "lat": 23.8122,
-   "lon": -103.1821,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1821,
-    "elevation_m": 1961,
-    "temp_c": 16.8
-   },
-   "flavour": {
-    "text": "A community of 1,821 people in Zacatecas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4006206.webp"
-   }
-  },
-  {
-   "id": "gn:3518711",
-   "name": "San Juan Coatzospam",
-   "label": "San Juan Coatzospam",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-OAX",
-   "country": "MX",
-   "lat": 18.05,
-   "lon": -96.763,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1212,
-    "elevation_m": 1871,
-    "temp_c": 20.6
-   },
-   "flavour": {
-    "text": "A community of 1,212 people in Oaxaca.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3518711.webp"
-   }
-  },
-  {
-   "id": "gn:8858417",
-   "name": "Colonia los Cedros",
-   "label": "Colonia los Cedros",
+   "id": "gn:3987619",
+   "name": "San Bartolo",
+   "label": "San Bartolo (State of Mexico, near San Juan)",
    "type": "town",
    "kind": "town",
    "region": "MX-MEX",
    "country": "MX",
-   "lat": 19.3117,
-   "lon": -99.5411,
+   "lat": 19.2468,
+   "lon": -100.0567,
    "rarity": "Common",
-   "fame": 144,
+   "fame": 48,
    "facts": {
-    "population": 3094,
-    "elevation_m": 2578,
-    "temp_c": 13.7
+    "population": 2360,
+    "elevation_m": 2265,
+    "temp_c": 14.4
    },
    "flavour": {
-    "text": "A community of 3,094 people in State of Mexico.",
+    "text": "A community of 2,360 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_8858417.webp"
+    "file": "images/minimap/gn_3987619.webp"
    }
   },
   {
-   "id": "gn:3827437",
-   "name": "Zacamulpa Tlalmimilolpan",
-   "label": "Zacamulpa Tlalmimilolpan",
+   "id": "gn:3827061",
+   "name": "La Caridad",
+   "label": "La Caridad",
    "type": "town",
    "kind": "town",
    "region": "MX-MEX",
    "country": "MX",
-   "lat": 19.3886,
-   "lon": -99.4458,
+   "lat": 19.9478,
+   "lon": -99.8369,
    "rarity": "Common",
-   "fame": 216,
+   "fame": 84,
    "facts": {
-    "population": 1776,
-    "elevation_m": 2805,
-    "temp_c": 12.2
+    "population": 1340,
+    "elevation_m": 2574,
+    "temp_c": 13.1
    },
    "flavour": {
-    "text": "A community of 1,776 people in State of Mexico.",
+    "text": "A community of 1,340 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3827437.webp"
+    "file": "images/minimap/gn_3827061.webp"
    }
   },
   {
-   "id": "gn:8858707",
-   "name": "La Escalera",
-   "label": "La Escalera",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-TAB",
-   "country": "MX",
-   "lat": 17.8436,
-   "lon": -92.5256,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2052,
-    "elevation_m": 23,
-    "temp_c": 26.8
-   },
-   "flavour": {
-    "text": "A community of 2,052 people in Tabasco.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_8858707.webp"
-   }
-  },
-  {
-   "id": "gn:8859671",
-   "name": "El Bellote (Miguel de la Madrid)",
-   "label": "El Bellote (Miguel de la Madrid)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-TAB",
-   "country": "MX",
-   "lat": 18.4253,
-   "lon": -93.1508,
-   "rarity": "Common",
-   "fame": 138,
-   "facts": {
-    "population": 1113,
-    "elevation_m": 1.0,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "A community of 1,113 people in Tabasco.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_8859671.webp"
-   }
-  },
-  {
-   "id": "gn:8859212",
-   "name": "Pezmatlán",
-   "label": "Pezmatlán",
+   "id": "gn:3818895",
+   "name": "Santa Lucía Cosamaloapan",
+   "label": "Santa Lucía Cosamaloapan",
    "type": "town",
    "kind": "town",
    "region": "MX-PUE",
    "country": "MX",
-   "lat": 19.8466,
-   "lon": -97.4853,
+   "lat": 18.8836,
+   "lon": -98.3519,
    "rarity": "Common",
-   "fame": 78,
+   "fame": 216,
    "facts": {
-    "population": 1375,
-    "elevation_m": 1905,
-    "temp_c": 17.8
+    "population": 1617,
+    "elevation_m": 1845,
+    "temp_c": 18.5
    },
    "flavour": {
-    "text": "A community of 1,375 people in Puebla.",
+    "text": "A community of 1,617 people in Puebla.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_8859212.webp"
+    "file": "images/minimap/gn_3818895.webp"
+   }
+  },
+  {
+   "id": "gn:3826992",
+   "name": "Calvario Buenavista",
+   "label": "Calvario Buenavista",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.7021,
+   "lon": -99.9573,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1928,
+    "elevation_m": 2600,
+    "temp_c": 13.0
+   },
+   "flavour": {
+    "text": "A community of 1,928 people in State of Mexico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3826992.webp"
+   }
+  },
+  {
+   "id": "gn:3517363",
+   "name": "Santa Lucía",
+   "label": "Santa Lucía (Oaxaca)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 16.1886,
+   "lon": -96.614,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1608,
+    "elevation_m": 2009,
+    "temp_c": 19.1
+   },
+   "flavour": {
+    "text": "A community of 1,608 people in Oaxaca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3517363.webp"
+   }
+  },
+  {
+   "id": "gn:4027170",
+   "name": "Santa Teresa",
+   "label": "Santa Teresa (Guerrero, near Paso de Arena)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GRO",
+   "country": "MX",
+   "lat": 18.3409,
+   "lon": -100.8192,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1486,
+    "elevation_m": 363,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "A community of 1,486 people in Guerrero.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4027170.webp"
+   }
+  },
+  {
+   "id": "gn:3516187",
+   "name": "Tecamalucan",
+   "label": "Tecamalucan",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 18.7607,
+   "lon": -97.2257,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2277,
+    "elevation_m": 1380,
+    "temp_c": 14.7
+   },
+   "flavour": {
+    "text": "A community of 2,277 people in Veracruz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3516187.webp"
+   }
+  },
+  {
+   "id": "gn:3981652",
+   "name": "Tierra Nueva",
+   "label": "Tierra Nueva",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-SLP",
+   "country": "MX",
+   "lat": 21.669,
+   "lon": -100.5729,
+   "rarity": "Common",
+   "fame": 174,
+   "facts": {
+    "population": 5261,
+    "elevation_m": 1788,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "A community of 5,261 people in San Luis Potosí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3981652.webp"
    }
   },
   {
@@ -1477,108 +1477,107 @@
    }
   },
   {
-   "id": "gn:3981941",
-   "name": "Tepic",
-   "label": "Tepic",
+   "id": "gn:3987544",
+   "name": "San Blas",
+   "label": "San Blas",
    "type": "town",
    "kind": "town",
    "region": "MX-NAY",
    "country": "MX",
-   "lat": 21.5073,
-   "lon": -104.8933,
+   "lat": 21.5408,
+   "lon": -105.288,
    "rarity": "Epic",
-   "fame": 51582,
+   "fame": 31728,
    "facts": {
-    "population": 332863,
-    "elevation_m": 950,
-    "area_km2": 1983,
-    "temp_c": 23.2
+    "population": 10187,
+    "elevation_m": 1.0,
+    "area_km2": 824,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "Tepic is the capital and largest city of the western Mexican state of Nayarit, as well as the seat of the Tepic Municipality.",
+    "text": "San Blas is both a municipality and municipal seat located on the Pacific coast of Mexico in Nayarit.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Tepic",
-    "url": "https://en.wikipedia.org/wiki/Tepic",
+    "title": "San Blas, Nayarit",
+    "url": "https://en.wikipedia.org/wiki/San_Blas%2C_Nayarit",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3981941.webp",
-    "author": "Eduardo López",
+    "file": "images/photo/gn_3987544.webp",
+    "author": "Vic0 at en.wikipedia",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Collage_Tepic.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:San_Blas_(Mexico).JPG"
    }
   },
   {
-   "id": "gn:3981984",
-   "name": "Tepatitlán de Morelos",
-   "label": "Tepatitlán de Morelos",
+   "id": "gn:4003520",
+   "name": "Barra de Navidad",
+   "label": "Barra de Navidad",
    "type": "town",
    "kind": "town",
    "region": "MX-JAL",
    "country": "MX",
-   "lat": 20.8169,
-   "lon": -102.7635,
+   "lat": 19.2081,
+   "lon": -104.6807,
    "rarity": "Epic",
-   "fame": 27840,
+   "fame": 26796,
    "facts": {
-    "population": 91959,
-    "elevation_m": 1825,
-    "area_km2": 25,
-    "temp_c": 18.4
+    "population": 4324,
+    "elevation_m": 5.0,
+    "area_km2": 3.0,
+    "temp_c": 25.5
    },
    "flavour": {
-    "text": "It is located in the area known as Los Altos de Jalisco, about 70 km east of state capital Guadalajara.",
+    "text": "It belongs to the municipality of Cihuatlán.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Tepatitlán",
-    "url": "https://en.wikipedia.org/wiki/Tepatitl%C3%A1n",
+    "title": "Barra de Navidad",
+    "url": "https://en.wikipedia.org/wiki/Barra_de_Navidad",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3981984.webp",
-    "author": "José González Peña",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tepatitl%C3%A1n_de_Morelos_(20250425)1.jpg"
+    "file": "images/photo/gn_4003520.webp",
+    "author": "Lynx Burgos",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marina_Grand_Bay_-_panoramio.jpg"
    }
   },
   {
-   "id": "gn:3516225",
-   "name": "Taxco de Alarcón",
-   "label": "Taxco de Alarcón",
+   "id": "gn:3530870",
+   "name": "Chilpancingo",
+   "label": "Chilpancingo",
    "type": "town",
    "kind": "town",
    "region": "MX-GRO",
    "country": "MX",
-   "lat": 18.5571,
-   "lon": -99.6051,
+   "lat": 17.5523,
+   "lon": -99.5012,
    "rarity": "Epic",
-   "fame": 44022,
+   "fame": 47394,
    "facts": {
-    "population": 50399,
-    "elevation_m": 1727,
-    "area_km2": 347,
-    "temp_c": 20.1
+    "population": 187251,
+    "elevation_m": 1249,
+    "temp_c": 20.9
    },
    "flavour": {
-    "text": "Taxco de Alarcón is a small city and administrative center of Taxco de Alarcón municipality located in the Mexican state of Guerrero.",
+    "text": "Chilpancingo de los Bravo is the capital and second-largest city of the Mexican state of Guerrero.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Taxco",
-    "url": "https://en.wikipedia.org/wiki/Taxco",
+    "title": "Chilpancingo",
+    "url": "https://en.wikipedia.org/wiki/Chilpancingo",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3516225.webp",
-    "author": "María Quezada Aranda",
+    "file": "images/photo/gn_3530870.webp",
+    "author": "Microstar",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Santa_Prisca_en_medio_de_Taxco.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Chilpancingo_Collage.jpg"
    }
   },
   {
@@ -1616,136 +1615,140 @@
    }
   },
   {
-   "id": "gn:4018761",
-   "name": "Allende",
-   "label": "Allende",
+   "id": "gn:3996426",
+   "name": "Matamoros",
+   "label": "Matamoros",
    "type": "town",
    "kind": "town",
    "region": "MX-COA",
    "country": "MX",
-   "lat": 28.3412,
-   "lon": -100.8511,
+   "lat": 25.527,
+   "lon": -103.2285,
    "rarity": "Epic",
-   "fame": 19350,
+   "fame": 8718,
    "facts": {
-    "population": 20694,
-    "elevation_m": 385,
-    "temp_c": 20.6
+    "population": 52233,
+    "elevation_m": 1117,
+    "temp_c": 21.3
    },
    "flavour": {
-    "text": "The city serves as the administrative center for the surrounding municipality of Allende.",
+    "text": "Matamoros is a city located in the southwestern part of the Mexican state of Coahuila; it serves as the seat of the surrounding municipality of the same name.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Allende, Coahuila",
-    "url": "https://en.wikipedia.org/wiki/Allende%2C_Coahuila",
+    "title": "Matamoros, Coahuila",
+    "url": "https://en.wikipedia.org/wiki/Matamoros%2C_Coahuila",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4018761.webp",
+    "file": "images/photo/gn_3996426.webp",
     "author": "MikSed",
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Centro_en_Allende,_Coahuila.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_en_Matamoros,_Coahuila.jpg"
    }
   },
   {
-   "id": "gn:3985604",
-   "name": "San Luis Río Colorado",
-   "label": "San Luis Río Colorado",
+   "id": "gn:3991347",
+   "name": "Puerto Peñasco",
+   "label": "Puerto Peñasco",
    "type": "town",
    "kind": "town",
    "region": "MX-SON",
    "country": "MX",
-   "lat": 32.4555,
-   "lon": -114.7704,
+   "lat": 31.3172,
+   "lon": -113.538,
    "rarity": "Epic",
-   "fame": 46218,
+   "fame": 70452,
    "facts": {
-    "population": 176685,
-    "elevation_m": 36,
-    "temp_c": 22.9
+    "population": 62689,
+    "elevation_m": 11,
+    "temp_c": 22.1
    },
    "flavour": {
-    "text": "In the 2020 census, the city had a population of 176,685.",
+    "text": "Puerto Peñasco is a small city located in Puerto Peñasco Municipality in the northwest of the Mexican state of Sonora.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "San Luis Río Colorado",
-    "url": "https://en.wikipedia.org/wiki/San_Luis_R%C3%ADo_Colorado",
+    "title": "Puerto Peñasco",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Pe%C3%B1asco",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3985604.webp",
-    "author": "AyuntamientoSLRC",
+    "file": "images/photo/gn_3991347.webp",
+    "author": "self.",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_inmaculada_concepci%C3%B3n_SLRC.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Montaje_de_puerto_pe%C3%B1asco.jpg"
    }
   },
   {
-   "id": "gn:4013085",
-   "name": "Compostela",
-   "label": "Compostela",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-NAY",
-   "country": "MX",
-   "lat": 21.2373,
-   "lon": -104.9006,
-   "rarity": "Epic",
-   "fame": 10998,
-   "facts": {
-    "population": 17573,
-    "elevation_m": 855,
-    "temp_c": 21.6
-   },
-   "flavour": {
-    "text": "A community of 17,573 people in Nayarit.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4013085.webp",
-    "author": "AlejandroLinaresGarcia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:AsdeOros07.JPG"
-   }
-  },
-  {
-   "id": "gn:4005867",
-   "name": "Ciudad General Escobedo",
-   "label": "Ciudad General Escobedo",
+   "id": "gn:3985241",
+   "name": "San Nicolás de los Garza",
+   "label": "San Nicolás de los Garza",
    "type": "town",
    "kind": "town",
    "region": "MX-NLE",
    "country": "MX",
-   "lat": 25.7966,
-   "lon": -100.3177,
+   "lat": 25.7417,
+   "lon": -100.3022,
    "rarity": "Epic",
-   "fame": 14388,
+   "fame": 44124,
    "facts": {
-    "population": 454967,
-    "elevation_m": 499,
-    "area_km2": 207,
+    "population": 412199,
+    "elevation_m": 510,
+    "area_km2": 60,
     "temp_c": 22.4
    },
    "flavour": {
-    "text": "General Escobedo, or simply Escobedo, is a city and municipality in Nuevo León, Mexico, that is part of the Monterrey Metropolitan area.",
+    "text": "San Nicolás de los Garza, sometimes known only as San Nicolás.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "General Escobedo",
-    "url": "https://en.wikipedia.org/wiki/General_Escobedo",
+    "title": "San Nicolás de los Garza",
+    "url": "https://en.wikipedia.org/wiki/San_Nicol%C3%A1s_de_los_Garza",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4005867.webp",
-    "author": "Jvr solid",
+    "file": "images/photo/gn_3985241.webp",
+    "author": "Omaaar",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:PalacioMunicipalEsc.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Universidad_Station.jpg"
+   }
+  },
+  {
+   "id": "gn:4003757",
+   "name": "Ciudad Benito Juárez",
+   "label": "Ciudad Benito Juárez",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.6466,
+   "lon": -100.0914,
+   "rarity": "Epic",
+   "fame": 13176,
+   "facts": {
+    "population": 308285,
+    "elevation_m": 389,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "Ciudad Benito Juárez, or simply Juárez, is the name of a city located in the eastern part of the Monterrey metropolitan area in the Mexican state of Nuevo León.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juárez, Nuevo León",
+    "url": "https://en.wikipedia.org/wiki/Ju%C3%A1rez%2C_Nuevo_Le%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4003757.webp",
+    "author": "Víctor M. Velázquez Moreno",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_del_Cerro_de_la_Silla._2.jpg"
    }
   },
   {
@@ -2079,6 +2082,111 @@
    }
   },
   {
+   "id": "gn:4005539",
+   "name": "Guadalajara",
+   "label": "Guadalajara",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.6774,
+   "lon": -103.3475,
+   "rarity": "Legendary",
+   "fame": 625524,
+   "facts": {
+    "population": 1385629,
+    "elevation_m": 1546,
+    "area_km2": 145,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "Guadalajara is the capital and most populous city of the western Mexican state of Jalisco, as well as the most densely populated municipality in Jalisco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guadalajara",
+    "url": "https://en.wikipedia.org/wiki/Guadalajara",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4005539.webp",
+    "author": "Isacdaavid",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_Guadalajara_desde_edificio_Bansi_hacia_norte_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gn:4005270",
+   "name": "Guanajuato",
+   "label": "Guanajuato",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 21.0186,
+   "lon": -101.2591,
+   "rarity": "Legendary",
+   "fame": 94656,
+   "facts": {
+    "population": 72237,
+    "elevation_m": 2010,
+    "area_km2": 997,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "Several of its thoroughfares run partially or entirely underground.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guanajuato (city)",
+    "url": "https://en.wikipedia.org/wiki/Guanajuato_%28city%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4005270.webp",
+    "author": "Anders Lagerås",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guanajuato30_guanajuato.jpg"
+   }
+  },
+  {
+   "id": "gn:3530139",
+   "name": "Coyoacán",
+   "label": "Coyoacán",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.3467,
+   "lon": -99.1617,
+   "rarity": "Legendary",
+   "fame": 115248,
+   "facts": {
+    "population": 614447,
+    "elevation_m": 2255,
+    "area_km2": 54,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "The former village became the borough's \"historic center\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coyoacán",
+    "url": "https://en.wikipedia.org/wiki/Coyoac%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3530139.webp",
+    "author": "DavidGomezChiu",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerta_a_Coyoac%C3%A1n.JPG"
+   }
+  },
+  {
    "id": "gn:3991328",
    "name": "Puerto Vallarta",
    "label": "Puerto Vallarta",
@@ -2111,111 +2219,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Collage_Puerto_Vallarta.jpg"
-   }
-  },
-  {
-   "id": "gn:3522210",
-   "name": "Pachuca de Soto",
-   "label": "Pachuca de Soto",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-HID",
-   "country": "MX",
-   "lat": 20.117,
-   "lon": -98.7333,
-   "rarity": "Legendary",
-   "fame": 95520,
-   "facts": {
-    "population": 256584,
-    "elevation_m": 2393,
-    "area_km2": 60,
-    "temp_c": 14.6
-   },
-   "flavour": {
-    "text": "Pachuca, formally known as Pachuca de Soto, is the capital and largest city of the east-central Mexican state of Hidalgo.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pachuca",
-    "url": "https://en.wikipedia.org/wiki/Pachuca",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3522210.webp",
-    "author": "Diego Delso",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Reloj_Monumental,_Pachuca,_Hidalgo,_M%C3%A9xico,_2013-10-10,_DD_06.JPG"
-   }
-  },
-  {
-   "id": "gn:3533462",
-   "name": "Acapulco de Juárez",
-   "label": "Acapulco de Juárez",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-GRO",
-   "country": "MX",
-   "lat": 16.8494,
-   "lon": -99.9089,
-   "rarity": "Legendary",
-   "fame": 252672,
-   "facts": {
-    "population": 658609,
-    "elevation_m": 16,
-    "area_km2": 1881,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "Acapulco de Juárez, commonly called Acapulco, is a city and major seaport in the state of Guerrero on the Pacific coast of Mexico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Acapulco",
-    "url": "https://en.wikipedia.org/wiki/Acapulco",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3533462.webp",
-    "author": "Mitrush (montage)",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Acapulco_Collage_2013.jpg"
-   }
-  },
-  {
-   "id": "gn:3979770",
-   "name": "Zapopan",
-   "label": "Zapopan",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-JAL",
-   "country": "MX",
-   "lat": 20.7211,
-   "lon": -103.3874,
-   "rarity": "Legendary",
-   "fame": 183054,
-   "facts": {
-    "population": 1476491,
-    "elevation_m": 1565,
-    "area_km2": 200,
-    "temp_c": 20.3
-   },
-   "flavour": {
-    "text": "It is part of the Guadalajara Metropolitan Area.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Zapopan",
-    "url": "https://en.wikipedia.org/wiki/Zapopan",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3979770.webp",
-    "author": "Another Believer",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zapopan,_Jalisco,_Mexico,_2021_-_012.jpg"
    }
   },
   {
@@ -2288,73 +2291,71 @@
    }
   },
   {
-   "id": "gn:3985344",
-   "name": "San Miguel de Allende",
-   "label": "San Miguel de Allende",
+   "id": "gn:3979673",
+   "name": "Ixtapa-Zihuatanejo",
+   "label": "Ixtapa-Zihuatanejo",
    "type": "town",
    "kind": "town",
-   "region": "MX-GUA",
+   "region": "MX-GRO",
    "country": "MX",
-   "lat": 20.9153,
-   "lon": -100.7439,
+   "lat": 17.6434,
+   "lon": -101.5521,
    "rarity": "Legendary",
-   "fame": 226896,
+   "fame": 149700,
    "facts": {
-    "population": 174615,
-    "elevation_m": 1917,
-    "area_km2": 0.4,
-    "temp_c": 17.0
+    "population": 67408,
+    "elevation_m": 13,
+    "temp_c": 27.0
    },
    "flavour": {
-    "text": "San Miguel de Allende is the principal city in the municipality of San Miguel de Allende, located in the far eastern part of Guanajuato, Mexico.",
+    "text": "Zihuatanejo, also known as Ixtapa-Zihuatanejo, is the fourth largest city in the Mexican state of Guerrero.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "San Miguel de Allende",
-    "url": "https://en.wikipedia.org/wiki/San_Miguel_de_Allende",
+    "title": "Zihuatanejo",
+    "url": "https://en.wikipedia.org/wiki/Zihuatanejo",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3985344.webp",
-    "author": "https://www.flickr.com/photos/jiuguangw/",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_de_Allende_sky.jpg"
+    "file": "images/photo/gn_3979673.webp",
+    "author": "AlejandroLinaresGarcia",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BeachHotelsPlayaMaderaZihua.JPG"
    }
   },
   {
-   "id": "gn:4005270",
-   "name": "Guanajuato",
-   "label": "Guanajuato",
+   "id": "gn:3998655",
+   "name": "León de los Aldama",
+   "label": "León de los Aldama",
    "type": "town",
    "kind": "town",
    "region": "MX-GUA",
    "country": "MX",
-   "lat": 21.0186,
-   "lon": -101.2591,
+   "lat": 21.1218,
+   "lon": -101.6825,
    "rarity": "Legendary",
-   "fame": 94656,
+   "fame": 125328,
    "facts": {
-    "population": 72237,
-    "elevation_m": 2010,
-    "area_km2": 997,
-    "temp_c": 15.3
+    "population": 1579803,
+    "elevation_m": 1803,
+    "temp_c": 18.9
    },
    "flavour": {
-    "text": "Several of its thoroughfares run partially or entirely underground.",
+    "text": "León, officially León de Los Aldama, is the most populous city and municipal seat of the municipality of León in the Mexican state of Guanajuato.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Guanajuato (city)",
-    "url": "https://en.wikipedia.org/wiki/Guanajuato_%28city%29",
+    "title": "León, Guanajuato",
+    "url": "https://en.wikipedia.org/wiki/Le%C3%B3n%2C_Guanajuato",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4005270.webp",
-    "author": "Anders Lagerås",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Guanajuato30_guanajuato.jpg"
+    "file": "images/photo/gn_3998655.webp",
+    "author": "Antuán",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le%C3%B3n_montage.jpg"
    }
   },
   {
@@ -3129,282 +3130,97 @@
    }
   },
   {
-   "id": "gn:3516048",
-   "name": "Temax",
-   "label": "Temax",
+   "id": "gn:3999162",
+   "name": "Las Varas",
+   "label": "Las Varas",
    "type": "town",
    "kind": "town",
-   "region": "MX-YUC",
+   "region": "MX-NAY",
    "country": "MX",
-   "lat": 21.1506,
-   "lon": -88.9394,
+   "lat": 21.1797,
+   "lon": -105.1363,
    "rarity": "Rare",
-   "fame": 1320,
+   "fame": 2958,
    "facts": {
-    "population": 6239,
-    "elevation_m": 12,
-    "temp_c": 25.7
+    "population": 14419,
+    "elevation_m": 27,
+    "temp_c": 24.8
    },
    "flavour": {
-    "text": "As of 2010, the town has a population of 6,239.",
+    "text": "Las Varas is a small town located in the state of Nayarit, Mexico, about 100 km north of Puerto Vallarta, and is part of the Compostela municipality.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Temax",
-    "url": "https://en.wikipedia.org/wiki/Temax",
+    "title": "Las Varas, Nayarit",
+    "url": "https://en.wikipedia.org/wiki/Las_Varas%2C_Nayarit",
     "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3516048.webp",
-    "author": "Inri",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Temax,_Yucat%C3%A1n_(02).jpg"
-   }
-  },
-  {
-   "id": "gn:3518617",
-   "name": "San Juan Tepa",
-   "label": "San Juan Tepa",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-HID",
-   "country": "MX",
-   "lat": 20.2158,
-   "lon": -99.0655,
-   "rarity": "Rare",
-   "fame": 852,
-   "facts": {
-    "population": 5932,
-    "elevation_m": 2018,
-    "temp_c": 16.3
-   },
-   "flavour": {
-    "text": "A community of 5,932 people in Hidalgo.",
-    "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3518617.webp"
+    "file": "images/minimap/gn_3999162.webp"
    }
   },
   {
-   "id": "gn:4004394",
-   "name": "Indaparapeo",
-   "label": "Indaparapeo",
+   "id": "gn:3994863",
+   "name": "Nombre de Dios",
+   "label": "Nombre de Dios",
    "type": "town",
    "kind": "town",
-   "region": "MX-MIC",
+   "region": "MX-DUR",
    "country": "MX",
-   "lat": 19.7897,
-   "lon": -100.9685,
+   "lat": 23.8489,
+   "lon": -104.2471,
    "rarity": "Rare",
-   "fame": 1776,
+   "fame": 2736,
    "facts": {
-    "population": 6791,
-    "elevation_m": 1904,
-    "temp_c": 15.8
-   },
-   "flavour": {
-    "text": "A community of 6,791 people in Michoacán.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4004394.webp",
-    "author": "KevinJIK",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Indaparapeo.jpg"
-   }
-  },
-  {
-   "id": "gn:3532639",
-   "name": "Atempan",
-   "label": "Atempan",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-PUE",
-   "country": "MX",
-   "lat": 19.8394,
-   "lon": -97.4586,
-   "rarity": "Rare",
-   "fame": 684,
-   "facts": {
-    "population": 6457,
-    "elevation_m": 1960,
+    "population": 5302,
+    "elevation_m": 1731,
     "temp_c": 17.8
    },
    "flavour": {
-    "text": "A community of 6,457 people in Puebla.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3532639.webp",
-    "author": "Ehécatl Cabrera",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vendedor_de_verduras.jpg"
-   }
-  },
-  {
-   "id": "gn:3523414",
-   "name": "Mazatepec",
-   "label": "Mazatepec (Puebla)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-PUE",
-   "country": "MX",
-   "lat": 20.017,
-   "lon": -97.4189,
-   "rarity": "Rare",
-   "fame": 786,
-   "facts": {
-    "population": 1587,
-    "elevation_m": 645,
-    "temp_c": 22.5
-   },
-   "flavour": {
-    "text": "A community of 1,587 people in Puebla.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3523414.webp",
-    "author": "Saúl Muñoz Viveros",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mazatepec_-_panoramio.jpg"
-   }
-  },
-  {
-   "id": "gn:3994182",
-   "name": "Onavas",
-   "label": "Onavas",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-SON",
-   "country": "MX",
-   "lat": 28.4609,
-   "lon": -109.5286,
-   "rarity": "Rare",
-   "fame": 1608,
-   "facts": {
-    "population": 361,
-    "elevation_m": 188,
-    "temp_c": 24.3
-   },
-   "flavour": {
-    "text": "Ónavas is a small town surrounded by Onavas Municipality in the southeast of the Mexican state of Sonora.",
+    "text": "Nombre de Dios is a city and seat of the municipality of Nombre de Dios, established as Pueblo Mágico on October 11, 2018, in the state of Durango.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ónavas",
-    "url": "https://en.wikipedia.org/wiki/%C3%93navas",
+    "title": "Nombre de Dios, Durango",
+    "url": "https://en.wikipedia.org/wiki/Nombre_de_Dios%2C_Durango",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3994182.webp",
-    "author": "Gildardo Quijada flo…",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:IGLESIA_DE_ONAVAS_-_panoramio.jpg"
+    "file": "images/photo/gn_3994863.webp",
+    "author": "Catedrales e Iglesias/Cathedrals and Churches from Ciudad de México, Mexico",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_San_Pedro_Ap%C3%B3stol,_Nombre_de_Dios,_Durango,_M%C3%A9xico_02.jpg"
    }
   },
   {
-   "id": "gn:3515188",
-   "name": "Totontepec Villa de Morelos",
-   "label": "Totontepec Villa de Morelos",
+   "id": "gn:3483849",
+   "name": "Ciudad Valles",
+   "label": "Ciudad Valles",
    "type": "town",
    "kind": "town",
-   "region": "MX-OAX",
+   "region": "MX-SLP",
    "country": "MX",
-   "lat": 17.2568,
-   "lon": -96.0276,
+   "lat": 21.9963,
+   "lon": -99.0109,
    "rarity": "Rare",
-   "fame": 666,
+   "fame": 3036,
    "facts": {
-    "population": 1684,
-    "elevation_m": 1843,
-    "area_km2": 319,
-    "temp_c": 17.2
+    "population": 124644,
+    "elevation_m": 90,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "A community of 1,684 people in Oaxaca.",
+    "text": "A community of 124,644 people in San Luis Potosí.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3515188.webp",
-    "author": "Rod.romz",
+    "file": "images/photo/gn_3483849.webp",
+    "author": "Charey eu",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Totontepec_Villa_de_Morelos.jpg"
-   }
-  },
-  {
-   "id": "gn:3974602",
-   "name": "San Rafael",
-   "label": "San Rafael (Chihuahua)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-CHH",
-   "country": "MX",
-   "lat": 27.4893,
-   "lon": -107.8897,
-   "rarity": "Rare",
-   "fame": 936,
-   "facts": {
-    "population": 2160,
-    "elevation_m": 2282,
-    "temp_c": 16.5
-   },
-   "flavour": {
-    "text": "A community of 2,160 people in Chihuahua.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3974602.webp",
-    "author": "MikSed",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Rafael,_Chihuahua.jpg"
-   }
-  },
-  {
-   "id": "gn:4022970",
-   "name": "Victoria",
-   "label": "Victoria",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-GUA",
-   "country": "MX",
-   "lat": 21.2119,
-   "lon": -100.2165,
-   "rarity": "Rare",
-   "fame": 2046,
-   "facts": {
-    "population": 2564,
-    "elevation_m": 1722,
-    "temp_c": 17.7
-   },
-   "flavour": {
-    "text": "Victoria is a Mexican city located in the Northeast region of the state of Guanajuato, within the Sierra Gorda range.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Victoria, Guanajuato",
-    "url": "https://en.wikipedia.org/wiki/Victoria%2C_Guanajuato",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4022970.webp",
-    "author": "Juan Carlos Fonseca Mata",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_San_Juan_Bautista_-_Victoria,_Guanajuato.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:MX12182356561780.jpg"
    }
   },
   {
@@ -3442,328 +3258,537 @@
    }
   },
   {
-   "id": "gn:4006532",
-   "name": "Esqueda",
-   "label": "Esqueda",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-SON",
-   "country": "MX",
-   "lat": 30.7275,
-   "lon": -109.5878,
-   "rarity": "Rare",
-   "fame": 2574,
-   "facts": {
-    "population": 6749,
-    "elevation_m": 1199,
-    "temp_c": 17.6
-   },
-   "flavour": {
-    "text": "A community of 6,749 people in Sonora.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4006532.webp",
-    "author": "Francisco.martinezp",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cruz_Roja_Delegaci%C3%B3n_Esqueda_Sonora.jpg"
-   }
-  },
-  {
-   "id": "gn:3526928",
-   "name": "Hueypoxtla",
-   "label": "Hueypoxtla",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-MEX",
-   "country": "MX",
-   "lat": 19.9109,
-   "lon": -99.0758,
-   "rarity": "Rare",
-   "fame": 4122,
-   "facts": {
-    "population": 3989,
-    "elevation_m": 2266,
-    "area_km2": 80,
-    "temp_c": 15.4
-   },
-   "flavour": {
-    "text": "It serves as the municipal seat of the surrounding municipality of the same name.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Hueypoxtla",
-    "url": "https://en.wikipedia.org/wiki/Hueypoxtla",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3526928.webp",
-    "author": "Jose Antonio Hernandez Quezada PJAHQ",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hueypoxtla_Campo_de_Beisbol_fotografia_Aerea_PJAHQ_(1).jpg"
-   }
-  },
-  {
-   "id": "gn:3816575",
-   "name": "Vicente Guerrero",
-   "label": "Vicente Guerrero (Chiapas, near Ricardo Flores Magón)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-CHP",
-   "country": "MX",
-   "lat": 16.4388,
-   "lon": -92.7124,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1997,
-    "elevation_m": 491,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "A community of 1,997 people in Chiapas.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3816575.webp"
-   }
-  },
-  {
-   "id": "gn:4029500",
-   "name": "Jesús María",
-   "label": "Jesús María (Querétaro)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-QUE",
-   "country": "MX",
-   "lat": 20.6222,
-   "lon": -100.2562,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 2978,
-    "elevation_m": 1900,
-    "temp_c": 17.5
-   },
-   "flavour": {
-    "text": "A community of 2,978 people in Querétaro.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4029500.webp"
-   }
-  },
-  {
-   "id": "gn:8858606",
-   "name": "Loma Bonita",
-   "label": "Loma Bonita (Morelos)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-MOR",
-   "country": "MX",
-   "lat": 18.9314,
-   "lon": -99.1756,
-   "rarity": "Common",
-   "fame": 162,
-   "facts": {
-    "population": 2332,
-    "elevation_m": 1491,
-    "temp_c": 20.6
-   },
-   "flavour": {
-    "text": "A community of 2,332 people in Morelos.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_8858606.webp"
-   }
-  },
-  {
-   "id": "gn:3518695",
-   "name": "San Juan del Río",
-   "label": "San Juan del Río (Oaxaca, near San Lorenzo Albarradas)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-OAX",
-   "country": "MX",
-   "lat": 16.8829,
-   "lon": -96.1607,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1231,
-    "elevation_m": 1200,
-    "temp_c": 18.4
-   },
-   "flavour": {
-    "text": "A community of 1,231 people in Oaxaca.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3518695.webp"
-   }
-  },
-  {
-   "id": "gn:3985574",
-   "name": "San Marcos",
-   "label": "San Marcos (Jalisco, near Zapotitán de Hidalgo)",
-   "type": "town",
-   "kind": "town",
-   "region": "MX-JAL",
-   "country": "MX",
-   "lat": 20.319,
-   "lon": -103.5341,
-   "rarity": "Common",
-   "fame": 600,
-   "facts": {
-    "population": 1249,
-    "elevation_m": 1358,
-    "temp_c": 19.8
-   },
-   "flavour": {
-    "text": "A community of 1,249 people in Jalisco.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3985574.webp"
-   }
-  },
-  {
-   "id": "gn:3815333",
-   "name": "Los Pilares",
-   "label": "Los Pilares (Tlaxcala)",
+   "id": "gn:3815391",
+   "name": "San Juan Huactzinco",
+   "label": "San Juan Huactzinco",
    "type": "town",
    "kind": "town",
    "region": "MX-TLA",
    "country": "MX",
-   "lat": 19.2716,
-   "lon": -97.947,
-   "rarity": "Common",
-   "fame": 0,
+   "lat": 19.2334,
+   "lon": -98.2526,
+   "rarity": "Rare",
+   "fame": 1290,
    "facts": {
-    "population": 1280,
-    "elevation_m": 2691,
-    "temp_c": 12.8
+    "population": 6687,
+    "elevation_m": 2217,
+    "temp_c": 15.5
    },
    "flavour": {
-    "text": "A community of 1,280 people in Tlaxcala.",
-    "source": "facts"
+    "text": "San Juan Huactzinco is a town and its surrounding municipality in the Mexican state of Tlaxcala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan Huactzinco",
+    "url": "https://en.wikipedia.org/wiki/San_Juan_Huactzinco",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3815333.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3815391.webp",
+    "author": "Isaacvp",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_San_Juan_Huatzinco.jpg"
    }
   },
   {
-   "id": "gn:3517220",
-   "name": "Santa María Petapa",
-   "label": "Santa María Petapa",
+   "id": "gn:3982668",
+   "name": "Tacoaleche",
+   "label": "Tacoaleche",
    "type": "town",
    "kind": "town",
-   "region": "MX-OAX",
+   "region": "MX-ZAC",
    "country": "MX",
-   "lat": 16.8204,
-   "lon": -95.119,
-   "rarity": "Common",
-   "fame": 234,
+   "lat": 22.8201,
+   "lon": -102.4034,
+   "rarity": "Rare",
+   "fame": 1680,
    "facts": {
-    "population": 2322,
-    "elevation_m": 245,
-    "temp_c": 25.2
+    "population": 8612,
+    "elevation_m": 2133,
+    "temp_c": 16.6
    },
    "flavour": {
-    "text": "A community of 2,322 people in Oaxaca.",
+    "text": "A community of 8,612 people in Zacatecas.",
     "source": "facts"
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3517220.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3982668.webp",
+    "author": "AlejandroLinaresGarcia",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zacatecas187.jpg"
    }
   },
   {
-   "id": "gn:8859798",
-   "name": "Álvaro Obregón 2da. Sección (El Lechugal)",
-   "label": "Álvaro Obregón 2da. Sección (El Lechugal)",
+   "id": "gn:3991668",
+   "name": "Progreso",
+   "label": "Progreso (Coahuila)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-COA",
+   "country": "MX",
+   "lat": 27.4284,
+   "lon": -100.9889,
+   "rarity": "Rare",
+   "fame": 3528,
+   "facts": {
+    "population": 796,
+    "elevation_m": 309,
+    "temp_c": 21.8
+   },
+   "flavour": {
+    "text": "Progreso is a city and seat of the municipality of Progreso, in the north-eastern Mexican state of Coahuila.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Progreso, Coahuila",
+    "url": "https://en.wikipedia.org/wiki/Progreso%2C_Coahuila",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3991668.webp"
+   }
+  },
+  {
+   "id": "gn:3979665",
+   "name": "Zinapécuaro de Figueroa",
+   "label": "Zinapécuaro de Figueroa",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MIC",
+   "country": "MX",
+   "lat": 19.8601,
+   "lon": -100.8273,
+   "rarity": "Rare",
+   "fame": 1092,
+   "facts": {
+    "population": 15875,
+    "elevation_m": 1893,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "Zinapécuaro de Figueroa is a town and the seat of the municipality of Zinapécuaro, in the central Mexican state of Michoacán.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Zinapécuaro de Figueroa",
+    "url": "https://en.wikipedia.org/wiki/Zinap%C3%A9cuaro_de_Figueroa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3979665.webp",
+    "author": "Leonmezaglez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Iglesia_de_Zinap%C3%A9cuaro.jpg"
+   }
+  },
+  {
+   "id": "gn:4003526",
+   "name": "La Barca",
+   "label": "La Barca",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.2899,
+   "lon": -102.542,
+   "rarity": "Rare",
+   "fame": 4326,
+   "facts": {
+    "population": 35219,
+    "elevation_m": 1558,
+    "area_km2": 12,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "A community of 35,219 people in Jalisco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4003526.webp",
+    "author": "Carloscurielfotografo",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiosko_2_Colonia_Santa_M%C3%B3nica,_La_Barca,_Jalisco,_M%C3%A9xico..jpg"
+   }
+  },
+  {
+   "id": "gn:3803064",
+   "name": "Jalapa",
+   "label": "Jalapa",
    "type": "town",
    "kind": "town",
    "region": "MX-TAB",
    "country": "MX",
-   "lat": 18.3929,
-   "lon": -92.7912,
-   "rarity": "Common",
-   "fame": 0,
+   "lat": 17.7217,
+   "lon": -92.8127,
+   "rarity": "Rare",
+   "fame": 3222,
    "facts": {
-    "population": 1059,
-    "elevation_m": 6.0,
-    "temp_c": 26.4
+    "population": 4999,
+    "elevation_m": 16,
+    "area_km2": 2.0,
+    "temp_c": 26.5
    },
    "flavour": {
-    "text": "A community of 1,059 people in Tabasco.",
-    "source": "facts"
+    "text": "Jalapa is a small city in the Mexican state of Tabasco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jalapa, Tabasco",
+    "url": "https://en.wikipedia.org/wiki/Jalapa%2C_Tabasco",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_8859798.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3803064.webp",
+    "author": "Alfonsobouchot",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Huimanguillo_Palacio_Municipal.jpg"
    }
   },
   {
-   "id": "gn:3825061",
-   "name": "Xoteapan",
-   "label": "Xoteapan",
+   "id": "gn:3518135",
+   "name": "San Pablo de las Salinas",
+   "label": "San Pablo de las Salinas",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.666,
+   "lon": -99.0898,
+   "rarity": "Rare",
+   "fame": 6894,
+   "facts": {
+    "population": 156191,
+    "elevation_m": 2236,
+    "temp_c": 16.0
+   },
+   "flavour": {
+    "text": "San Pablo de las Salinas is an exclave and the second-largest colonia in Tultitlán Municipality in the State of Mexico, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Pablo de las Salinas",
+    "url": "https://en.wikipedia.org/wiki/San_Pablo_de_las_Salinas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3518135.webp",
+    "author": "ArCaRa",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_cultural_de_San_Pablo_de_las_Salinas._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3514994",
+   "name": "Tuzantán",
+   "label": "Tuzantán",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-CHP",
+   "country": "MX",
+   "lat": 15.1472,
+   "lon": -92.4226,
+   "rarity": "Rare",
+   "fame": 1116,
+   "facts": {
+    "population": 2863,
+    "elevation_m": 79,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Tuzantán is a town and municipality in the Mexican state of Chiapas in southern Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tuzantán",
+    "url": "https://en.wikipedia.org/wiki/Tuzant%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3514994.webp"
+   }
+  },
+  {
+   "id": "gn:3514399",
+   "name": "Xoxocotla",
+   "label": "Xoxocotla (Veracruz)",
    "type": "town",
    "kind": "town",
    "region": "MX-VER",
    "country": "MX",
-   "lat": 18.4338,
-   "lon": -95.2656,
+   "lat": 18.6466,
+   "lon": -97.1524,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2033,
-    "elevation_m": 187,
-    "temp_c": 25.1
+    "population": 2362,
+    "elevation_m": 2125,
+    "temp_c": 13.3
    },
    "flavour": {
-    "text": "A community of 2,033 people in Veracruz.",
+    "text": "A community of 2,362 people in Veracruz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3514399.webp",
+    "author": "Genaro Garcia Hernan…",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paisajes_de_Xoxocotla_Ver_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3815916",
+   "name": "Vicente Guerrero",
+   "label": "Vicente Guerrero (Chiapas, near Quintana Roo)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-CHP",
+   "country": "MX",
+   "lat": 16.6603,
+   "lon": -93.5831,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "population": 1383,
+    "elevation_m": 507,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 1,383 people in Chiapas.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3825061.webp"
+    "file": "images/minimap/gn_3815916.webp"
    }
   },
   {
-   "id": "gn:3516509",
-   "name": "Soyataco",
-   "label": "Soyataco",
+   "id": "gn:3996618",
+   "name": "Maravillas",
+   "label": "Maravillas (Zacatecas)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-ZAC",
+   "country": "MX",
+   "lat": 22.4013,
+   "lon": -102.0165,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2317,
+    "elevation_m": 2066,
+    "temp_c": 16.9
+   },
+   "flavour": {
+    "text": "A community of 2,317 people in Zacatecas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3996618.webp"
+   }
+  },
+  {
+   "id": "gn:3991567",
+   "name": "Pueblo Nuevo",
+   "label": "Pueblo Nuevo (Guanajuato)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 20.5255,
+   "lon": -101.3716,
+   "rarity": "Common",
+   "fame": 756,
+   "facts": {
+    "population": 3741,
+    "elevation_m": 1710,
+    "temp_c": 19.2
+   },
+   "flavour": {
+    "text": "A community of 3,741 people in Guanajuato.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3991567.webp"
+   }
+  },
+  {
+   "id": "gn:4007319",
+   "name": "El Tejocote",
+   "label": "El Tejocote (Querétaro)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-QUE",
+   "country": "MX",
+   "lat": 20.6192,
+   "lon": -100.0349,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2701,
+    "elevation_m": 2020,
+    "temp_c": 17.5
+   },
+   "flavour": {
+    "text": "A community of 2,701 people in Querétaro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4007319.webp"
+   }
+  },
+  {
+   "id": "gn:3802269",
+   "name": "Reforma",
+   "label": "Reforma (Tabasco)",
    "type": "town",
    "kind": "town",
    "region": "MX-TAB",
    "country": "MX",
-   "lat": 18.2097,
-   "lon": -93.0744,
+   "lat": 18.2139,
+   "lon": -93.3424,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 4046,
+    "population": 2254,
     "elevation_m": 9.0,
-    "temp_c": 26.4
+    "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 4,046 people in Tabasco.",
+    "text": "A community of 2,254 people in Tabasco.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3516509.webp"
+    "file": "images/minimap/gn_3802269.webp"
+   }
+  },
+  {
+   "id": "gn:3821601",
+   "name": "Carrizalillo",
+   "label": "Carrizalillo",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GRO",
+   "country": "MX",
+   "lat": 17.8503,
+   "lon": -99.7126,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1200,
+    "elevation_m": 1520,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 1,200 people in Guerrero.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3821601.webp"
+   }
+  },
+  {
+   "id": "gn:3526681",
+   "name": "Ixtapan de la Sal",
+   "label": "Ixtapan de la Sal",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 18.8446,
+   "lon": -99.6756,
+   "rarity": "Rare",
+   "fame": 6402,
+   "facts": {
+    "population": 17640,
+    "elevation_m": 1892,
+    "temp_c": 15.8
+   },
+   "flavour": {
+    "text": "A community of 17,640 people in State of Mexico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3526681.webp",
+    "author": "Thelmadatter",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PlazaChurchIxtapan.JPG"
+   }
+  },
+  {
+   "id": "gn:3514469",
+   "name": "Xocchel",
+   "label": "Xocchel",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 20.833,
+   "lon": -89.1826,
+   "rarity": "Common",
+   "fame": 666,
+   "facts": {
+    "population": 3229,
+    "elevation_m": 15,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 3,229 people in Yucatán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3514469.webp",
+    "author": "Inri",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Xocchel,_Yucat%C3%A1n_(03).JPG"
+   }
+  },
+  {
+   "id": "gn:8858985",
+   "name": "La Candelaria Teotlalpan",
+   "label": "La Candelaria Teotlalpan",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TLA",
+   "country": "MX",
+   "lat": 19.3331,
+   "lon": -98.2256,
+   "rarity": "Common",
+   "fame": 450,
+   "facts": {
+    "population": 1585,
+    "elevation_m": 2244,
+    "temp_c": 15.5
+   },
+   "flavour": {
+    "text": "A community of 1,585 people in Tlaxcala.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_8858985.webp",
+    "author": "Isaacvp",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frontal_de_la_Iglesia_de_la_Candelaria_Teotlalpan,_Totolac,_Tlaxcala.jpg"
    }
   }
  ]

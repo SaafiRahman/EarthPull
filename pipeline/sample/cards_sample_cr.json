@@ -413,6 +413,68 @@
    }
   },
   {
+   "id": "gn:3624142",
+   "name": "Concepción",
+   "label": "Concepción",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.9268,
+   "lon": -84.0012,
+   "rarity": "Common",
+   "fame": 1368,
+   "facts": {
+    "population": 14000,
+    "elevation_m": 1377,
+    "area_km2": 3.8,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "Concepción is a district of the La Unión canton, in the Cartago province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Concepción District, La Unión",
+    "url": "https://en.wikipedia.org/wiki/Concepci%C3%B3n_District%2C_La_Uni%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624142.webp"
+   }
+  },
+  {
+   "id": "gn:3622751",
+   "name": "Naranjo",
+   "label": "Naranjo",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0987,
+   "lon": -84.3782,
+   "rarity": "Common",
+   "fame": 2772,
+   "facts": {
+    "population": 11853,
+    "elevation_m": 1044,
+    "area_km2": 15,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "Naranjo is a district of the Naranjo canton, in the Alajuela province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Naranjo de Alajuela",
+    "url": "https://en.wikipedia.org/wiki/Naranjo_de_Alajuela",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3622751.webp"
+   }
+  },
+  {
    "id": "gn:3624057",
    "name": "Cot",
    "label": "Cot",
@@ -444,284 +506,55 @@
    }
   },
   {
-   "id": "gn:3622382",
-   "name": "Pital",
-   "label": "Pital",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-A",
-   "country": "CR",
-   "lat": 10.4506,
-   "lon": -84.2741,
-   "rarity": "Common",
-   "fame": 2526,
-   "facts": {
-    "population": 2046,
-    "elevation_m": 161,
-    "area_km2": 379,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "Pital is a district of the San Carlos canton, in the Alajuela province of Costa Rica.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pital, San Carlos",
-    "url": "https://en.wikipedia.org/wiki/Pital%2C_San_Carlos",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3622382.webp"
-   }
-  },
-  {
-   "id": "gn:3623112",
-   "name": "La Suiza",
-   "label": "La Suiza",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-C",
-   "country": "CR",
-   "lat": 9.8506,
-   "lon": -83.6169,
-   "rarity": "Common",
-   "fame": 1278,
-   "facts": {
-    "population": 2434,
-    "elevation_m": 611,
-    "area_km2": 161,
-    "temp_c": 22.4
-   },
-   "flavour": {
-    "text": "La Suiza is a district of the Turrialba canton, in the Cartago province of Costa Rica.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "La Suiza District",
-    "url": "https://en.wikipedia.org/wiki/La_Suiza_District",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3623112.webp"
-   }
-  },
-  {
-   "id": "gn:3621524",
-   "name": "Santiago",
-   "label": "Santiago (San José)",
+   "id": "gn:3621505",
+   "name": "San Vicente",
+   "label": "San Vicente",
    "type": "town",
    "kind": "town",
    "region": "CR-SJ",
    "country": "CR",
-   "lat": 9.8464,
-   "lon": -84.3143,
+   "lat": 9.9619,
+   "lon": -84.0494,
    "rarity": "Common",
-   "fame": 1554,
+   "fame": 0,
    "facts": {
-    "population": 8292,
-    "elevation_m": 1109,
-    "area_km2": 35,
-    "temp_c": 21.9
-   },
-   "flavour": {
-    "text": "Santiago is a district and head city of the Puriscal canton, in the San José province of Costa Rica.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Santiago District, Puriscal",
-    "url": "https://en.wikipedia.org/wiki/Santiago_District%2C_Puriscal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3621524.webp",
-    "author": "Rodtico21",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Santiago_de_Puriscal._Costa_Rica.jpg"
-   }
-  },
-  {
-   "id": "gn:3624848",
-   "name": "Aserrí",
-   "label": "Aserrí",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-SJ",
-   "country": "CR",
-   "lat": 9.8614,
-   "lon": -84.0927,
-   "rarity": "Common",
-   "fame": 2436,
-   "facts": {
-    "population": 25874,
-    "elevation_m": 1338,
-    "area_km2": 15,
+    "population": 34447,
+    "elevation_m": 1227,
     "temp_c": 19.8
    },
    "flavour": {
-    "text": "Aserrí is a district of the Aserrí canton, in the San José province of Costa Rica.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Aserrí District",
-    "url": "https://en.wikipedia.org/wiki/Aserr%C3%AD_District",
-    "translated": false
+    "text": "A community of 34,447 people in San José.",
+    "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3624848.webp",
-    "author": "Erodrigufer",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Panoramic_view_Costa_Rica.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621505.webp"
    }
   },
   {
-   "id": "gn:3621440",
-   "name": "Siquirres",
-   "label": "Siquirres",
+   "id": "gn:3623580",
+   "name": "Guápiles",
+   "label": "Guápiles",
    "type": "town",
    "kind": "town",
    "region": "CR-L",
    "country": "CR",
-   "lat": 10.0975,
-   "lon": -83.5066,
-   "rarity": "Common",
-   "fame": 1686,
-   "facts": {
-    "population": 18231,
-    "elevation_m": 69,
-    "area_km2": 184,
-    "temp_c": 24.4
-   },
-   "flavour": {
-    "text": "It is a center of commerce and has most of the services for the area's locals.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Siquirres",
-    "url": "https://en.wikipedia.org/wiki/Siquirres",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3621440.webp",
-    "author": "Ll1324",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Siquirres,_Costa_Rica,_Entrance.jpg"
-   }
-  },
-  {
-   "id": "gn:3624730",
-   "name": "Batán",
-   "label": "Batán",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-L",
-   "country": "CR",
-   "lat": 10.0835,
-   "lon": -83.3341,
+   "lat": 10.2168,
+   "lon": -83.7848,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 4584,
-    "elevation_m": 18,
+    "population": 19092,
+    "elevation_m": 254,
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 4,584 people in Limón.",
+    "text": "A community of 19,092 people in Limón.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3624730.webp"
-   }
-  },
-  {
-   "id": "gn:3622895",
-   "name": "Matina",
-   "label": "Matina",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-L",
-   "country": "CR",
-   "lat": 10.0836,
-   "lon": -83.2843,
-   "rarity": "Common",
-   "fame": 1170,
-   "facts": {
-    "population": 2315,
-    "elevation_m": 10,
-    "area_km2": 351,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "Matina is a district of the Matina canton, in the Limón province of Costa Rica.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Matina District",
-    "url": "https://en.wikipedia.org/wiki/Matina_District",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3622895.webp"
-   }
-  },
-  {
-   "id": "gn:3621817",
-   "name": "San Juan",
-   "label": "San Juan (Alajuela)",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-A",
-   "country": "CR",
-   "lat": 10.1025,
-   "lon": -84.3169,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 7729,
-    "elevation_m": 1090,
-    "temp_c": 20.1
-   },
-   "flavour": {
-    "text": "A community of 7,729 people in Alajuela.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3621817.webp"
-   }
-  },
-  {
-   "id": "gn:3623258",
-   "name": "La Cruz",
-   "label": "La Cruz",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-G",
-   "country": "CR",
-   "lat": 11.0738,
-   "lon": -85.6327,
-   "rarity": "Common",
-   "fame": 1890,
-   "facts": {
-    "population": 4319,
-    "elevation_m": 241,
-    "area_km2": 344,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "It is located in the north of the country, near the border with Nicaragua.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "La Cruz, Costa Rica",
-    "url": "https://en.wikipedia.org/wiki/La_Cruz%2C_Costa_Rica",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3623258.webp"
+    "file": "images/minimap/gn_3623580.webp"
    }
   },
   {
@@ -756,29 +589,179 @@
    }
   },
   {
-   "id": "gn:3624908",
-   "name": "Ángeles",
-   "label": "Ángeles",
+   "id": "gn:3624593",
+   "name": "Buenos Aires",
+   "label": "Buenos Aires",
    "type": "town",
    "kind": "town",
-   "region": "CR-H",
+   "region": "CR-P",
    "country": "CR",
-   "lat": 9.9886,
-   "lon": -84.0592,
+   "lat": 9.173,
+   "lon": -83.3328,
+   "rarity": "Common",
+   "fame": 2802,
+   "facts": {
+    "population": 11680,
+    "elevation_m": 383,
+    "area_km2": 555,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "Buenos Aires is a district of the Buenos Aires canton, in the Puntarenas province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Buenos Aires, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Buenos_Aires%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624593.webp"
+   }
+  },
+  {
+   "id": "gn:3622325",
+   "name": "Pocora",
+   "label": "Pocora",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.172,
+   "lon": -83.6026,
+   "rarity": "Common",
+   "fame": 948,
+   "facts": {
+    "population": 5248,
+    "elevation_m": 95,
+    "area_km2": 73,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Pocora is a district of the Guácimo canton, in the Limón province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pocora",
+    "url": "https://en.wikipedia.org/wiki/Pocora",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3622325.webp"
+   }
+  },
+  {
+   "id": "gn:3623935",
+   "name": "Desamparados",
+   "label": "Desamparados",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 9.9473,
+   "lon": -84.5063,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1355,
-    "elevation_m": 1200,
-    "temp_c": 19.8
+    "population": 14448,
+    "elevation_m": 281,
+    "temp_c": 26.1
    },
    "flavour": {
-    "text": "A community of 1,355 people in Heredia.",
+    "text": "A community of 14,448 people in Alajuela.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3624908.webp"
+    "file": "images/minimap/gn_3623935.webp"
+   }
+  },
+  {
+   "id": "gn:3621490",
+   "name": "Sardinal",
+   "label": "Sardinal",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.5167,
+   "lon": -85.6475,
+   "rarity": "Common",
+   "fame": 2862,
+   "facts": {
+    "population": 3267,
+    "elevation_m": 50,
+    "area_km2": 260,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "Sardinal is a district of the Carrillo canton, in the Guanacaste province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sardinal",
+    "url": "https://en.wikipedia.org/wiki/Sardinal",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621490.webp"
+   }
+  },
+  {
+   "id": "gn:3624718",
+   "name": "Belén",
+   "label": "Belén",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.4079,
+   "lon": -85.5884,
+   "rarity": "Common",
+   "fame": 1074,
+   "facts": {
+    "population": 2715,
+    "elevation_m": 40,
+    "area_km2": 182,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Belén is a district of the Carrillo canton, in the Guanacaste province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belén District, Carrillo",
+    "url": "https://en.wikipedia.org/wiki/Bel%C3%A9n_District%2C_Carrillo",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624718.webp"
+   }
+  },
+  {
+   "id": "gn:3624730",
+   "name": "Batán",
+   "label": "Batán",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.0835,
+   "lon": -83.3341,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4584,
+    "elevation_m": 18,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 4,584 people in Limón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624730.webp"
    }
   },
   {
@@ -1450,19 +1433,28 @@
    "lat": 10.0172,
    "lon": -84.2127,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 28206,
    "facts": {
     "population": 47494,
     "elevation_m": 955,
+    "area_km2": 11,
     "temp_c": 20.1
    },
    "flavour": {
-    "text": "A community of 47,494 people in Alajuela.",
-    "source": "facts"
+    "text": "As the seat of the Municipality of Alajuela canton, it is awarded the status of city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alajuela",
+    "url": "https://en.wikipedia.org/wiki/Alajuela",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3624955.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3624955.webp",
+    "author": "Mariordo Mario Roberto Duran Ortiz/Mario Duran Valerio",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alajuela_city_%26_SJO_12_2009_MDV_4909.jpg"
    }
   },
   {
@@ -2436,212 +2428,104 @@
    }
   },
   {
-   "id": "gn:3623656",
-   "name": "Golfito",
-   "label": "Golfito",
+   "id": "gn:3623369",
+   "name": "Jacó",
+   "label": "Jacó",
    "type": "town",
    "kind": "town",
    "region": "CR-P",
    "country": "CR",
-   "lat": 8.6033,
-   "lon": -83.1134,
+   "lat": 9.615,
+   "lon": -84.6298,
    "rarity": "Rare",
-   "fame": 7008,
+   "fame": 17568,
    "facts": {
-    "population": 6777,
-    "elevation_m": 39,
-    "area_km2": 356,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "Golfito is a district and port town of the Golfito canton, in the Puntarenas province of Costa Rica, located on the southern Pacific Coast.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Golfito",
-    "url": "https://en.wikipedia.org/wiki/Golfito",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3623656.webp",
-    "author": "Unknown author",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:DirkvdM_golfito-1.jpg"
-   }
-  },
-  {
-   "id": "gn:3621138",
-   "name": "Uvita",
-   "label": "Uvita",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-P",
-   "country": "CR",
-   "lat": 9.1704,
-   "lon": -83.7395,
-   "rarity": "Rare",
-   "fame": 17532,
-   "facts": {
-    "population": 3000,
-    "elevation_m": 63,
-    "temp_c": 23.3
-   },
-   "flavour": {
-    "text": "Uvita de Osa, is a small town in southern Costa Rica, on a section of coastline known as the Bahía Ballena.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Uvita (Costa Rica)",
-    "url": "https://en.wikipedia.org/wiki/Uvita_%28Costa_Rica%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3621138.webp",
-    "author": "Melissa Guadalupe Huertas",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Playa_Uvita,_Costa_Rica.jpg"
-   }
-  },
-  {
-   "id": "gn:3621630",
-   "name": "Santa Ana",
-   "label": "Santa Ana",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-SJ",
-   "country": "CR",
-   "lat": 9.9326,
-   "lon": -84.1826,
-   "rarity": "Rare",
-   "fame": 5310,
-   "facts": {
-    "population": 8029,
-    "elevation_m": 909,
-    "area_km2": 5.4,
-    "temp_c": 21.9
-   },
-   "flavour": {
-    "text": "The city acts as seat to the municipal government of the Santa Ana Canton.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Santa Ana, Costa Rica",
-    "url": "https://en.wikipedia.org/wiki/Santa_Ana%2C_Costa_Rica",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3621630.webp",
-    "author": "User:Gabriel P Chacon",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Santa_Ana_de_noche._Costa_Rica.jpg"
-   }
-  },
-  {
-   "id": "gn:3621990",
-   "name": "Sámara",
-   "label": "Sámara",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-G",
-   "country": "CR",
-   "lat": 9.8815,
-   "lon": -85.5281,
-   "rarity": "Rare",
-   "fame": 4836,
-   "facts": {
-    "population": 1071,
+    "population": 4085,
     "elevation_m": 10,
-    "area_km2": 109,
-    "temp_c": 26.2
+    "area_km2": 141,
+    "temp_c": 25.9
    },
    "flavour": {
-    "text": "Sámara is a district of the Nicoya canton, in the Guanacaste province of Costa Rica.",
+    "text": "Jacó has a black sand beach that is 4 km long and is popular among surfers.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Sámara",
-    "url": "https://en.wikipedia.org/wiki/S%C3%A1mara",
+    "title": "Jacó, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Jac%C3%B3%2C_Costa_Rica",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3621990.webp",
-    "author": "Haakon S. Krohn",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:S%C3%A1mara.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623369.webp"
    }
   },
   {
-   "id": "gn:3621184",
-   "name": "Turrialba",
-   "label": "Turrialba",
+   "id": "gn:3621224",
+   "name": "Tres Ríos",
+   "label": "Tres Ríos",
    "type": "town",
    "kind": "town",
    "region": "CR-C",
    "country": "CR",
-   "lat": 9.9037,
-   "lon": -83.6836,
+   "lat": 9.9069,
+   "lon": -83.9879,
    "rarity": "Rare",
-   "fame": 7146,
+   "fame": 4362,
    "facts": {
-    "population": 28955,
-    "elevation_m": 674,
-    "area_km2": 57,
-    "temp_c": 18.9
+    "population": 10430,
+    "elevation_m": 1332,
+    "area_km2": 2.3,
+    "temp_c": 16.5
    },
    "flavour": {
-    "text": "Turrialba is a district of the Turrialba canton, in the Cartago province of Costa Rica.",
+    "text": "Its name is derived from its location at the confluence of the Tiribí, Chiquito, and Cruz rivers.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Turrialba (district)",
-    "url": "https://en.wikipedia.org/wiki/Turrialba_%28district%29",
+    "title": "Tres Ríos, Cartago",
+    "url": "https://en.wikipedia.org/wiki/Tres_R%C3%ADos%2C_Cartago",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3621184.webp",
-    "author": "Dalabulu",
+    "file": "images/photo/gn_3621224.webp",
+    "author": "Pablo Bernal Alfaro",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Municipalidad_de_Turrialba.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_de_Tres_R%C3%ADos_(La_Uni%C3%B3n).jpg"
    }
   },
   {
-   "id": "gn:3622190",
-   "name": "Quesada",
-   "label": "Quesada",
+   "id": "gn:3622193",
+   "name": "Quepos",
+   "label": "Quepos",
    "type": "town",
    "kind": "town",
-   "region": "CR-A",
+   "region": "CR-P",
    "country": "CR",
-   "lat": 10.3266,
-   "lon": -84.432,
+   "lat": 9.4306,
+   "lon": -84.1623,
    "rarity": "Rare",
-   "fame": 8376,
+   "fame": 10608,
    "facts": {
-    "population": 27310,
-    "elevation_m": 616,
-    "area_km2": 143,
-    "temp_c": 19.4
+    "population": 7810,
+    "elevation_m": 7.0,
+    "area_km2": 236,
+    "temp_c": 26.0
    },
    "flavour": {
-    "text": "It is the head city of the canton of San Carlos.",
+    "text": "Quepos is a district of the canton of Quepos, in the province of Puntarenas, Costa Rica.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Quesada, San Carlos",
-    "url": "https://en.wikipedia.org/wiki/Quesada%2C_San_Carlos",
+    "title": "Quepos",
+    "url": "https://en.wikipedia.org/wiki/Quepos",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3622190.webp",
-    "author": "Manuel A. Aguilar C.",
-    "licence": "CC BY-SA 3.0 cr",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/cr/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg"
+    "file": "images/photo/gn_3622193.webp",
+    "author": "Tarrazu at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Alto-quepos-tarrazu-costa-rica.jpg"
    }
   },
   {
@@ -2680,6 +2564,41 @@
    }
   },
   {
+   "id": "gn:3623656",
+   "name": "Golfito",
+   "label": "Golfito",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 8.6033,
+   "lon": -83.1134,
+   "rarity": "Rare",
+   "fame": 7008,
+   "facts": {
+    "population": 6777,
+    "elevation_m": 39,
+    "area_km2": 356,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Golfito is a district and port town of the Golfito canton, in the Puntarenas province of Costa Rica, located on the southern Pacific Coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Golfito",
+    "url": "https://en.wikipedia.org/wiki/Golfito",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3623656.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:DirkvdM_golfito-1.jpg"
+   }
+  },
+  {
    "id": "gn:3623716",
    "name": "La Fortuna",
    "label": "La Fortuna",
@@ -2712,6 +2631,76 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Arenal-Vukan_und_der_Ort_La_Fortuna.jpg"
+   }
+  },
+  {
+   "id": "gn:3624842",
+   "name": "Atenas",
+   "label": "Atenas",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 9.9749,
+   "lon": -84.3789,
+   "rarity": "Rare",
+   "fame": 9804,
+   "facts": {
+    "population": 7014,
+    "elevation_m": 704,
+    "area_km2": 9.8,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Its urban area is referred as Atenas city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Atenas",
+    "url": "https://en.wikipedia.org/wiki/Atenas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3624842.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Atenas.jpg"
+   }
+  },
+  {
+   "id": "gn:3624171",
+   "name": "Colón",
+   "label": "Colón",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9149,
+   "lon": -84.2417,
+   "rarity": "Rare",
+   "fame": 5352,
+   "facts": {
+    "population": 9687,
+    "elevation_m": 801,
+    "area_km2": 40,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "It is famous for its warm climate, proximity to nature and its surrounding mountains, folkloric traditions, horse riding, and multiculturalism.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colón, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Col%C3%B3n%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3624171.webp",
+    "author": "Jacobovillegas",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciudad_Colon_Costa_Rica_april_2016,_aerial_image.jpg"
    }
   },
   {
@@ -2750,65 +2739,38 @@
    }
   },
   {
-   "id": "gn:3623369",
-   "name": "Jacó",
-   "label": "Jacó",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-P",
-   "country": "CR",
-   "lat": 9.615,
-   "lon": -84.6298,
-   "rarity": "Rare",
-   "fame": 17568,
-   "facts": {
-    "population": 4085,
-    "elevation_m": 10,
-    "area_km2": 141,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "Jacó has a black sand beach that is 4 km long and is popular among surfers.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Jacó, Costa Rica",
-    "url": "https://en.wikipedia.org/wiki/Jac%C3%B3%2C_Costa_Rica",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3623369.webp"
-   }
-  },
-  {
-   "id": "gn:3622716",
-   "name": "Nicoya",
-   "label": "Nicoya",
+   "id": "gn:3621990",
+   "name": "Sámara",
+   "label": "Sámara",
    "type": "town",
    "kind": "town",
    "region": "CR-G",
    "country": "CR",
-   "lat": 10.1504,
-   "lon": -85.4509,
+   "lat": 9.8815,
+   "lon": -85.5281,
    "rarity": "Rare",
-   "fame": 13590,
+   "fame": 4836,
    "facts": {
-    "population": 15313,
-    "elevation_m": 128,
-    "area_km2": 311,
-    "temp_c": 25.6
+    "population": 1071,
+    "elevation_m": 10,
+    "area_km2": 109,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "Nicoya is a district and head city of the Nicoya canton, in the Guanacaste province of Costa Rica, located on the Nicoya Peninsula.",
+    "text": "Sámara is a district of the Nicoya canton, in the Guanacaste province of Costa Rica.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Nicoya",
-    "url": "https://en.wikipedia.org/wiki/Nicoya",
+    "title": "Sámara",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A1mara",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3622716.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3621990.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:S%C3%A1mara.jpg"
    }
   },
   {
@@ -2840,6 +2802,41 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_3621501.webp"
+   }
+  },
+  {
+   "id": "gn:3622190",
+   "name": "Quesada",
+   "label": "Quesada",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.3266,
+   "lon": -84.432,
+   "rarity": "Rare",
+   "fame": 8376,
+   "facts": {
+    "population": 27310,
+    "elevation_m": 616,
+    "area_km2": 143,
+    "temp_c": 19.4
+   },
+   "flavour": {
+    "text": "It is the head city of the canton of San Carlos.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quesada, San Carlos",
+    "url": "https://en.wikipedia.org/wiki/Quesada%2C_San_Carlos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3622190.webp",
+    "author": "Manuel A. Aguilar C.",
+    "licence": "CC BY-SA 3.0 cr",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/cr/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg"
    }
   },
   {
@@ -2971,6 +2968,32 @@
    }
   },
   {
+   "id": "gn:3621817",
+   "name": "San Juan",
+   "label": "San Juan (Alajuela)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.1025,
+   "lon": -84.3169,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7729,
+    "elevation_m": 1090,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "A community of 7,729 people in Alajuela.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621817.webp"
+   }
+  },
+  {
    "id": "gn:3621679",
    "name": "San Rafael",
    "label": "San Rafael (Alajuela)",
@@ -3002,106 +3025,82 @@
    }
   },
   {
-   "id": "wd:Q23737030",
-   "name": "Santa Elena Bay",
-   "label": "Santa Elena Bay",
+   "id": "wd:Q23740301",
+   "name": "Río María Aguilar",
+   "label": "Río María Aguilar",
    "type": "nature",
-   "kind": "bay",
-   "region": "CR-G",
+   "kind": "river",
+   "region": "CR-SJ",
    "country": "CR",
-   "lat": 10.92,
-   "lon": -85.7994,
+   "lat": 9.9135,
+   "lon": -84.0577,
    "rarity": "Common",
-   "fame": 276,
+   "fame": 954,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.5
+    "elevation_m": 1161,
+    "temp_c": 19.8
    },
    "flavour": {
-    "text": "A bay in Guanacaste.",
+    "text": "A river in San José.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q23737030.webp"
+    "file": "images/minimap/wd_Q23740301.webp"
    }
   },
   {
-   "id": "gn:3622765",
-   "name": "Nandayure",
-   "label": "Nandayure",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-G",
-   "country": "CR",
-   "lat": 10.0333,
-   "lon": -85.2,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1649,
-    "elevation_m": 11,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 1,649 people in Guanacaste.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3622765.webp"
-   }
-  },
-  {
-   "id": "gn:3623580",
-   "name": "Guápiles",
-   "label": "Guápiles",
-   "type": "town",
-   "kind": "town",
+   "id": "wd:Q23745188",
+   "name": "Río Blanco",
+   "label": "Río Blanco",
+   "type": "nature",
+   "kind": "river",
    "region": "CR-L",
    "country": "CR",
-   "lat": 10.2168,
-   "lon": -83.7848,
+   "lat": 10.2892,
+   "lon": -83.8408,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 270,
    "facts": {
-    "population": 19092,
-    "elevation_m": 254,
-    "temp_c": 25.6
+    "elevation_m": 103,
+    "temp_c": 24.9
    },
    "flavour": {
-    "text": "A community of 19,092 people in Limón.",
+    "text": "A river in Limón.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3623580.webp"
+    "file": "images/minimap/wd_Q23745188.webp"
    }
   },
   {
-   "id": "wd:Q23745401",
-   "name": "Isla Cedros",
-   "label": "Isla Cedros",
-   "type": "nature",
-   "kind": "island",
-   "region": "CR-P",
+   "id": "wd:Q84433176",
+   "name": "Edificio Metálico, San José",
+   "label": "Edificio Metálico, San José",
+   "type": "built",
+   "kind": "building",
+   "region": "CR-SJ",
    "country": "CR",
-   "lat": 9.8464,
-   "lon": -84.8783,
-   "rarity": "Common",
-   "fame": 948,
+   "lat": 9.9361,
+   "lon": -84.0744,
+   "rarity": "Rare",
+   "fame": 3270,
    "facts": {
-    "elevation_m": 55,
-    "area_km2": 0.5,
-    "temp_c": 26.3
+    "elevation_m": 1159,
+    "temp_c": 19.8
    },
    "flavour": {
-    "text": "An island in Puntarenas.",
+    "text": "A building in San José.",
     "source": "facts"
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q23745401.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q84433176.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edificio_Metalico._Escuela_Buenaventura_Corrales._San_Jose._Costa_Rica.JPG"
    }
   }
  ]
