@@ -1,0 +1,178 @@
+// The booster pack (pack opening, step a, 2026-11-26): a sealed foil pack in the leather-and-gold theme with
+// crimped edges, a gold dot map drawn from the card pool's real places, and the compass pin. Swipe across the top
+// to tear it open, or tap it (it tears itself). The pulls are already decided when the pack appears, like TCG Pocket.
+import { useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent } from 'react'
+import { CompassPin } from './CardBack'
+import type { Pool } from './data'
+import { sfx } from './sfx'
+
+const W = 260, H = 420
+const TEAR_Y = 58 // the strip above this line rips off
+
+type Kind = 'normal' | 'local'
+const THEMES: Record<Kind, { top: string; mid: string; bottom: string; label: string }> = {
+  normal: { top: '#7a2235', mid: '#4a0f1d', bottom: '#2a0710', label: 'NORTH AMERICA' },
+  local: { top: '#b5363f', mid: '#7d1a26', bottom: '#4a0c14', label: 'LOCAL PACK' },
+}
+
+// Gold dot map of the pool's places (equirectangular over North America), cached per pool
+const mapCache = new WeakMap<Pool, string>()
+function dotMap(pool: Pool): string {
+  const hit = mapCache.get(pool)
+  if (hit) return hit
+  const x0 = 22, x1 = W - 22, y0 = 168, y1 = 318, lon0 = -168, lon1 = -52, lat0 = 7, lat1 = 72
+  const seen = new Set<string>(), parts: string[] = []
+  for (const c of pool.cards) {
+    if (c.lon < lon0 || c.lon > lon1 || c.lat < lat0 || c.lat > lat1) continue
+    const x = Math.round((x0 + (c.lon - lon0) / (lon1 - lon0) * (x1 - x0)) / 3) * 3
+    const y = Math.round((y1 - (c.lat - lat0) / (lat1 - lat0) * (y1 - y0)) / 3) * 3
+    const k = `${x},${y}`
+    if (seen.has(k)) continue // one dot per 3x3 cell: a halftone map
+    seen.add(k)
+    parts.push(`M${x} ${y}h0`)
+  }
+  const d = parts.join('')
+  mapCache.set(pool, d)
+  return d
+}
+
+// Foil bits thrown out by the rip, made once when the module loads
+const BITS = Array.from({ length: 22 }, () => ({
+  x: Math.random() * 100, dx: (Math.random() - 0.5) * 220, dy: -60 - Math.random() * 140, rot: (Math.random() - 0.5) * 720,
+  w: 3 + Math.random() * 5, h: 2 + Math.random() * 3, delay: Math.random() * 120, gold: Math.random() > 0.35,
+}))
+
+/** Zigzag crimp along the top or bottom edge. */
+function crimp(y: number, dir: 1 | -1): string {
+  const pts: string[] = [`M0 ${y}`]
+  for (let x = 0; x <= W; x += 8) pts.push(`L${x} ${y + (x / 8) % 2 * 5 * dir}`)
+  return pts.join('')
+}
+
+function PackArt({ pool, kind, id }: { pool: Pool; kind: Kind; id: string }) {
+  const t = THEMES[kind]
+  return (
+    <>
+      <defs>
+        <linearGradient id={`foil${id}`} x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor={t.top} /><stop offset=".5" stopColor={t.mid} /><stop offset="1" stopColor={t.bottom} />
+        </linearGradient>
+        <linearGradient id={`pgold${id}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#fbe7a6" /><stop offset=".5" stopColor="#d6a645" /><stop offset="1" stopColor="#a57422" /></linearGradient>
+        <linearGradient id={`crimp${id}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#d9a845" /><stop offset="1" stopColor="#8a5e18" /></linearGradient>
+      </defs>
+      {/* Body and crimped ends */}
+      <rect x="0" y="10" width={W} height={H - 20} fill={`url(#foil${id})`} />
+      <path d={`${crimp(10, -1)}L${W} 24L0 24Z`} fill={`url(#crimp${id})`} />
+      <path d={`${crimp(H - 10, 1)}L${W} ${H - 24}L0 ${H - 24}Z`} fill={`url(#crimp${id})`} />
+      {[...Array(14)].map((_, i) => <line key={i} x1={6 + i * 18} y1="12" x2={6 + i * 18} y2="23" stroke="#6b4612" strokeWidth="1" opacity=".5" />)}
+      {[...Array(14)].map((_, i) => <line key={`b${i}`} x1={6 + i * 18} y1={H - 23} x2={6 + i * 18} y2={H - 12} stroke="#6b4612" strokeWidth="1" opacity=".5" />)}
+      {/* Tear line with a notch */}
+      <line x1="10" y1={TEAR_Y} x2={W - 10} y2={TEAR_Y} stroke="#f3d27e" strokeWidth="1" strokeDasharray="4 4" opacity=".55" />
+      <path d={`M0 ${TEAR_Y - 5}L7 ${TEAR_Y}L0 ${TEAR_Y + 5}Z`} fill="#140b0f" />
+      <text x={W / 2} y={TEAR_Y - 10} textAnchor="middle" fontFamily="Figtree, sans-serif" fontWeight="700" fontSize="7.5" letterSpacing="2.5" fill="#f3d27e" opacity=".7">TEAR HERE ›</text>
+      {/* Front */}
+      <text x={W / 2} y="92" textAnchor="middle" fontFamily="Bricolage Grotesque, sans-serif" fontWeight="800" fontSize="22" letterSpacing="3.5" fill={`url(#pgold${id})`}>PULL THE PLANET</text>
+      <text x={W / 2} y="110" textAnchor="middle" fontFamily="Figtree, sans-serif" fontWeight="700" fontSize="8.5" letterSpacing="3.5" fill="#e2b85a">{t.label} · BOOSTER</text>
+      <path d={dotMap(pool)} stroke="#e2b85a" strokeWidth="1.5" strokeLinecap="round" opacity=".55" />
+      <CompassPin id={`pk${id}`} cx={W / 2} hy={232} R={34} ty={290} hole={24} inside={t.mid} />
+      <rect x={W / 2 - 62} y="330" width="124" height="26" rx="13" fill="#140b0f" opacity=".55" stroke="#e2b85a" strokeOpacity=".5" />
+      <text x={W / 2} y="347" textAnchor="middle" fontFamily="Figtree, sans-serif" fontWeight="800" fontSize="10" letterSpacing="2.5" fill="#f3d27e">5 PLACES INSIDE</text>
+      <text x={W / 2} y={H - 34} textAnchor="middle" fontFamily="Figtree, sans-serif" fontWeight="600" fontSize="6.5" letterSpacing="1.5" fill="#e2b85a" opacity=".6">0°00′N · 0°00′E</text>
+    </>
+  )
+}
+
+/**
+ * The pack, ready to tear. Calls `onOpened` once the strip has flown off. The strip and the body are the same art
+ * clipped at the tear line, so the rip lines up exactly.
+ */
+export function Pack({ pool, kind = 'normal', onOpened }: { pool: Pool; kind?: Kind; onOpened: () => void }) {
+  const id = useId().replace(/:/g, '')
+  const box = useRef<HTMLDivElement>(null)
+  const drag = useRef<{ x: number; y: number; moved: boolean; lastCrinkle: number } | null>(null)
+  const [progress, setProgress] = useState(0)
+  const [torn, setTorn] = useState(false)
+
+  const tear = () => {
+    if (torn) return
+    setProgress(1)
+    setTorn(true)
+    sfx.rip()
+    window.setTimeout(onOpened, 430)
+  }
+  const autoTear = () => {
+    if (torn) return
+    sfx.unlock()
+    const start = performance.now()
+    const step = (now: number) => {
+      const p = Math.min(1, (now - start) / 320)
+      setProgress(p)
+      if (Math.random() < 0.5) sfx.crinkle()
+      if (p < 1) requestAnimationFrame(step); else tear()
+    }
+    requestAnimationFrame(step)
+  }
+
+  const rel = (e: PointerEvent) => {
+    const r = box.current!.getBoundingClientRect()
+    return { x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height }
+  }
+  const down = (e: PointerEvent<HTMLDivElement>) => {
+    if (torn) return
+    sfx.unlock()
+    e.currentTarget.setPointerCapture(e.pointerId)
+    drag.current = { ...rel(e), moved: false, lastCrinkle: 0 }
+  }
+  const move = (e: PointerEvent<HTMLDivElement>) => {
+    const d = drag.current
+    if (!d || torn) return
+    const p = rel(e)
+    if (Math.abs(p.x - d.x) > 0.04) d.moved = true
+    if (!d.moved) return
+    const prog = Math.max(0, Math.min(1, p.x))
+    setProgress((cur) => Math.max(cur, prog))
+    const now = performance.now()
+    if (now - d.lastCrinkle > 45) { sfx.crinkle(); d.lastCrinkle = now }
+    if (prog > 0.92) { drag.current = null; tear() }
+  }
+  const up = () => {
+    const d = drag.current
+    drag.current = null
+    if (!d || torn) return
+    if (!d.moved) autoTear()
+    else if (progress > 0.6) tear()
+    else setProgress(0)
+  }
+
+  useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === 'Enter' || e.key === ' ') autoTear() }; window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k) })
+
+  const cut = (TEAR_Y / H) * 100
+  return (
+    <div className="flex flex-col items-center gap-5">
+      <div
+        ref={box} role="button" tabIndex={0} aria-label="Pack: swipe across the top or tap to tear it open"
+        className={`pack relative aspect-[260/420] w-[min(62vw,280px)] touch-none select-none ${torn ? 'pack-torn' : ''}`}
+        onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerCancel={up}
+        style={{ '--cut': `${cut}%`, '--prog': progress } as CSSProperties}
+      >
+        <div className="pack-float absolute inset-0">
+          <svg viewBox={`0 0 ${W} ${H}`} className="pack-body absolute inset-0 h-full w-full" aria-hidden><PackArt pool={pool} kind={kind} id={`b${id}`} /></svg>
+          <svg viewBox={`0 0 ${W} ${H}`} className="pack-strip absolute inset-0 h-full w-full" aria-hidden><PackArt pool={pool} kind={kind} id={`s${id}`} /></svg>
+          <div className="pack-sheen pointer-events-none absolute inset-0" />
+          <div className="pack-cut pointer-events-none absolute left-0 h-[3px]" />
+          {torn ? BITS.map((b, i) => (
+            <span key={i} className="pack-bit" style={{
+              left: `${b.x}%`, width: b.w, height: b.h, animationDelay: `${b.delay}ms`,
+              background: b.gold ? '#f3d27e' : '#ffffff', '--dx': `${b.dx}px`, '--dy': `${b.dy}px`, '--rot': `${b.rot}deg`,
+            } as CSSProperties} />
+          )) : null}
+        </div>
+        {torn ? <div className="pack-flash pointer-events-none" /> : null}
+      </div>
+      <p className={`text-sm text-muted transition-opacity ${torn ? 'opacity-0' : ''}`}>
+        <span className="hidden sm:inline">Drag across the top to tear it open, or click the pack.</span>
+        <span className="sm:hidden">Swipe across the top to tear it open, or tap.</span>
+      </p>
+    </div>
+  )
+}

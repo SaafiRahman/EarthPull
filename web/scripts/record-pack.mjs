@@ -45,7 +45,19 @@ try {
   await cdp.send('Page.startScreencast', { format: 'jpeg', quality: 88, everyNthFrame: 1 })
   await sleep(1200)
   await clickText(page, 'Open a pack')
-  await sleep(1300)
+  // The pack floats in; swipe across its top like a player would
+  const pack = await page.waitForSelector('.pack')
+  await sleep(1400)
+  const b = await pack.boundingBox()
+  const y = b.y + b.height * 0.11
+  await page.mouse.move(b.x + 4, y)
+  await page.mouse.down()
+  for (let i = 1; i <= 30; i++) {
+    await page.mouse.move(b.x + (b.width * i) / 30, y + Math.sin(i / 4) * 2)
+    await sleep(22)
+  }
+  await page.mouse.up()
+  await sleep(2000)
   const cards = await page.$$('button.flip')
   for (let i = 0; i < cards.length; i++) {
     await cards[i].click()

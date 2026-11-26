@@ -7,6 +7,7 @@ import { MAX_PACKS, loadState, newState, openPack, refill, saveState, type GameS
 import { HometownPicker } from './Hometown'
 import { MapView } from './MapView'
 import { PackScreen } from './PackScreen'
+import { isMuted, onMuteChange, setMuted } from './sfx'
 
 type Tab = 'packs' | 'collection' | 'map'
 const TABS: [Tab, string][] = [['packs', 'Packs'], ['collection', 'Collection'], ['map', 'Map']]
@@ -45,6 +46,8 @@ export default function App() {
     <div className="flex h-full flex-col">
       <header className="app-header flex flex-wrap items-center justify-between gap-3 px-4 py-3">
         <div className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"><LogoMark className="h-7 w-7" />Pull the Planet <span className="ml-1 rounded border border-accent/30 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-accent/80">North America demo</span></div>
+        <div className="flex items-center gap-2">
+        <MuteButton />
         <nav className="flex gap-1 rounded-xl border border-line bg-ground/60 p-1" aria-label="Sections">
           {TABS.map(([id, label]) => (
             <button
@@ -55,6 +58,7 @@ export default function App() {
             </button>
           ))}
         </nav>
+        </div>
       </header>
       <main className="min-h-0 flex-1 overflow-y-auto">
         {tab === 'packs' ? (
@@ -94,4 +98,19 @@ function ResetButton({ onReset }: { onReset: () => void }) {
   return sure
     ? <button className="font-semibold text-mythic underline" onClick={() => { setSure(false); onReset() }}>Tap again to erase your collection</button>
     : <button className="underline" onClick={() => setSure(true)}>Start over</button>
+}
+
+/** Sound on or off (remembered in this browser). */
+function MuteButton() {
+  const [muted, set] = useState(isMuted)
+  useEffect(() => onMuteChange(set), [])
+  return (
+    <button onClick={() => setMuted(!muted)} aria-label={muted ? 'Turn sound on' : 'Turn sound off'} aria-pressed={!muted}
+      className="grid h-9 w-9 place-items-center rounded-lg border border-line text-muted hover:text-accent">
+      <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M11 5 6 9H3v6h3l5 4z" />
+        {muted ? <path d="m16 9 5 6m0-6-5 6" /> : <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />}
+      </svg>
+    </button>
+  )
 }

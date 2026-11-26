@@ -25,6 +25,34 @@ const clickText = async (page, text, selector = 'button') => {
   throw new Error(`No ${selector} with text "${text}"`)
 }
 
+// Tear the pack open: a real drag across the top strip, or a tap
+const tearPack = async (page, { swipe = false, shotName } = {}) => {
+  const pack = await page.waitForSelector('.pack')
+  await sleep(500)
+  if (shotName) await shot(page, shotName)
+  const b = await pack.boundingBox()
+  if (swipe) {
+    const y = b.y + b.height * 0.11
+    await page.mouse.move(b.x + 4, y)
+    await page.mouse.down()
+    for (let i = 1; i <= 12; i++) {
+      await page.mouse.move(b.x + (b.width * 0.5 * i) / 12, y)
+      await sleep(25)
+    }
+    await shot(page, 'pack-tearing')
+    for (let i = 13; i <= 24; i++) {
+      await page.mouse.move(b.x + (b.width * i) / 24, y)
+      await sleep(25)
+    }
+    await page.mouse.up()
+    await sleep(250)
+    await shot(page, 'pack-torn')
+  } else {
+    await pack.click()
+  }
+  await sleep(1500)
+}
+
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--hide-scrollbars'] })
 try {
   const page = await browser.newPage()
@@ -47,7 +75,7 @@ try {
   await shot(page, 'packs-ready')
 
   await clickText(page, 'Open a pack')
-  await sleep(900)
+  await tearPack(page, { swipe: true, shotName: 'pack' })
   await shot(page, 'pack-face-down')
 
   const cards = await page.$$('button.flip')
@@ -69,6 +97,7 @@ try {
   for (let k = 0; k < 6; k++) {
     await clickText(page, 'Demo: add a pack now')
     await clickText(page, 'Open a pack')
+    await tearPack(page)
     await sleep(500)
     await clickText(page, 'Reveal all')
     await sleep(900)
@@ -79,6 +108,7 @@ try {
 
   // Today's local pack (near the hometown), then pretend to travel and open another
   await clickText(page, 'Open local pack')
+  await tearPack(page)
   await sleep(500)
   await clickText(page, 'Reveal all')
   await sleep(1800)
@@ -92,6 +122,7 @@ try {
   await page.click('[role="dialog"] ul button')
   await clickText(page, 'Demo: new local pack now')
   await clickText(page, 'Open local pack')
+  await tearPack(page)
   await sleep(500)
   await clickText(page, 'Reveal all')
   await sleep(1500)
@@ -113,6 +144,7 @@ try {
   await clickText(page, 'Packs')
   await clickText(page, 'Demo: add a pack now')
   await clickText(page, 'Open a pack')
+    await tearPack(page)
   await sleep(600)
   await clickText(page, 'Reveal all')
   await sleep(1800)

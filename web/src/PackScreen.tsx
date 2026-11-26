@@ -1,7 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type CSSProperties } from 'react'
 import { CardBack, CardFace, StampSticker, TIER_COLOR } from './Card'
 import { CardModal } from './CardModal'
 import type { Pool } from './data'
+import { Pack } from './Pack'
+import { sfx } from './sfx'
 import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type GameState, type Pulled } from './game'
 
 function useNow(ms = 1000) {
@@ -28,6 +30,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const [openedAt, setOpenedAt] = useState(0)
   const [flipped, setFlipped] = useState<boolean[]>([])
   const [open, setOpen] = useState<Pulled | null>(null)
+  const [phase, setPhase] = useState<'pack' | 'cards'>('pack')
 
   const start = (k: Kind) => {
     const p = onOpen(k)
@@ -36,10 +39,32 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     setOpenedAt(Date.now())
     setPulls(p)
     setFlipped(p.map(() => false))
+    setPhase('pack')
   }
-  const flip = (i: number) => setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
+  const flip = (i: number) => {
+    if (!pulls || flipped[i]) return
+    sfx.flip()
+    window.setTimeout(() => sfx.reveal(pulls[i].card.tier), 380)
+    setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
+  }
+  const revealAll = () => {
+    if (!pulls) return
+    sfx.flip()
+    const best = pulls.filter((_, i) => !flipped[i]).at(-1)
+    if (best) window.setTimeout(() => sfx.reveal(best.card.tier), 380)
+    setFlipped(pulls.map(() => true))
+  }
   const allFlipped = flipped.length > 0 && flipped.every(Boolean)
   const stamp = (p: Pulled) => stampOf({ ...p, at: openedAt }, state)
+
+  if (pulls && phase === 'pack') {
+    return (
+      <div className="mx-auto flex max-w-xl flex-col items-center gap-4 px-4 py-8">
+        {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
+        <Pack pool={pool} kind={kind} onOpened={() => { setPhase('cards'); pulls.forEach((_, i) => sfx.slide(i)) }} />
+      </div>
+    )
+  }
 
   if (pulls) {
     const best = pulls[pulls.length - 1]
@@ -52,8 +77,8 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           {pulls.map((p, i) => (
             <button
               key={p.card.id}
-              className={`flip rise aspect-[5/7] text-left ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
-              style={{ animationDelay: `${i * 80}ms` }}
+              className={`flip deal aspect-[5/7] text-left ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
+              style={{ animationDelay: `${i * 90}ms`, '--fx': (pulls.length - 1) / 2 - i } as CSSProperties}
               onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
               aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
@@ -76,7 +101,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
         ) : null}
         <div className="flex gap-3">
           {!allFlipped ? (
-            <button className="rounded-xl border border-line px-5 py-2.5 font-semibold" onClick={() => setFlipped(pulls.map(() => true))}>Reveal all</button>
+            <button className="rounded-xl border border-line px-5 py-2.5 font-semibold" onClick={revealAll}>Reveal all</button>
           ) : (
             <button className="btn-gold rounded-xl px-6 py-2.5 font-semibold" onClick={() => setPulls(null)}>Done</button>
           )}

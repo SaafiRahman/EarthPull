@@ -39,6 +39,9 @@ Rounds of mock-ups on `/#cards`: A Night Earth (globe lit by the card pool's pla
 
 **Chosen (developer, 2026-11-26): the compass pin on burgundy leather**, four points only (diagonals removed). Gold wordmark, "World Collector", and a hidden 0°00′N · 0°00′E (Null Island) under the pin. The compass pin is also the game's logo (header, browser tab icon), since every card is a pin on the map. Code: `web/src/CardBack.tsx`; favicon `web/public/favicon.svg`.
 
+## Pack opening (2026-11-26)
+Research: TCG Pocket (swipe to tear, the ripping sound, light from the pack signals a rare, animated top cards you can replay), Hearthstone (each pack has its own art and opening animation), Genshin (the falling star's colour tells the rarity: blue, purple, gold), Honkai: Star Rail (one star shines brighter for a 5-star), EA FC (light panel and tunnel signal a walkout; reveal builds up nation, club, player). Shared ideas: the pack is a real object; a hint before the reveal is where excitement peaks; reveals escalate by rarity, commons stay quick; short and skippable; sound and colour carry rarity; top moments replayable. Plan in [[Decisions]] (Pack opening).
+
 ## Sources
 - Pokémon: [Scarlet & Violet card aesthetic](https://www.pokemon.com/us/pokemon-news/pokemon-tcg-scarlet-and-violet-revamps-pokemon-tcg-card-aesthetic), [rarity guide](https://cardcodex.com/blog/pokemon-card-rarities-explained-symbols-and-pull-rates/), [Mega Evolution rarities](https://rarecandy.com/blog/rarities-pokemon-mega-evolution-era)
 - Pokémon TCG Pocket: [rarity (Bulbapedia)](https://bulbapedia.bulbagarden.net/wiki/Rarity_(TCG_Pocket)), [Immersive cards](https://pocketcards.net/blog/immersive-cards-3d-art-pokemon-tcg-pocket), [rarity guide](https://www.sportskeeda.com/pokemon/pokemon-tcg-pocket-card-rarity-guide)

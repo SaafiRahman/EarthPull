@@ -64,6 +64,53 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   box-shadow: 0 6px 24px -12px rgba(0,0,0,.8);
 }
 
+/* ───────────── Booster pack (Pack.tsx) ───────────── */
+.pack { cursor: grab; outline: none; }
+.pack:active { cursor: grabbing; }
+.pack-float { animation: pack-bob 3.2s ease-in-out infinite; filter: drop-shadow(0 24px 30px rgba(0,0,0,.75)) drop-shadow(0 0 30px rgba(226,184,90,.18)); }
+@keyframes pack-bob { 0%, 100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-8px) rotate(1deg); } }
+.pack-body { clip-path: inset(var(--cut) 0 0 0); }
+.pack-strip {
+  clip-path: inset(0 0 calc(100% - var(--cut)) 0);
+  transform-origin: 100% var(--cut);
+  transform: rotate(calc(var(--prog) * -5deg)) translateY(calc(var(--prog) * -4px));
+}
+.pack-cut {
+  top: var(--cut); width: calc(var(--prog) * 100%); margin-top: -1.5px;
+  background: linear-gradient(90deg, rgba(255,240,190,.2), #fff3c4);
+  box-shadow: 0 0 10px 2px rgba(255,220,140,.9), 0 0 24px 6px rgba(226,184,90,.5);
+  border-radius: 2px; opacity: min(1, calc(var(--prog) * 6));
+}
+.pack-sheen {
+  background: linear-gradient(115deg, transparent 35%, rgba(255,240,200,.22) 45%, rgba(255,255,255,.35) 50%, rgba(255,240,200,.22) 55%, transparent 65%);
+  background-size: 300% 100%; mix-blend-mode: overlay;
+  clip-path: inset(5.7% 0 5.7% 0);
+  animation: pack-sheen 3.6s ease-in-out infinite;
+}
+@keyframes pack-sheen { 0% { background-position: 120% 0; } 60%, 100% { background-position: -120% 0; } }
+.pack-torn .pack-float { animation: pack-pop .45s cubic-bezier(.2,.9,.3,1) forwards; }
+/* Burst of light at the rip, bridging the pack and the cards */
+.pack-flash {
+  position: absolute; z-index: 5; left: 50%; top: 14%; width: 10px; height: 10px; margin: -5px;
+  border-radius: 50%; background: radial-gradient(circle, #fff7dc 0%, rgba(243,210,126,.85) 30%, rgba(226,184,90,0) 70%);
+  animation: pack-flash .55s ease-out forwards;
+}
+@keyframes pack-flash { from { transform: scale(1); opacity: 1; } to { transform: scale(70); opacity: 0; } }
+@keyframes pack-pop { 0% { transform: scale(1); } 30% { transform: scale(1.06); opacity: 1; } 100% { transform: translateY(30px) scale(.9); opacity: 0; } }
+.pack-torn .pack-strip { animation: strip-fly .6s cubic-bezier(.4,0,.8,.6) forwards; }
+@keyframes strip-fly { to { transform: translate(-70px, -190px) rotate(-38deg); opacity: 0; } }
+.pack-torn .pack-cut { opacity: 0; transition: opacity .2s; }
+.pack-bit {
+  position: absolute; top: var(--cut); border-radius: 1px;
+  animation: bit-fly .85s cubic-bezier(.15,.7,.4,1) forwards;
+}
+@keyframes bit-fly { from { transform: translate(0, 0) rotate(0); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) rotate(var(--rot)); opacity: 0; } }
+
+/* Cards sliding out of the pack into the row */
+/* Each card starts stacked where the pack was (--fx: its distance from the middle card) and spreads into place */
+@keyframes deal { from { opacity: 0; transform: translateX(calc(var(--fx, 0) * 105%)) translateY(70px) scale(.5) rotate(calc(var(--fx, 0) * 4deg)); } 30% { opacity: 1; } to { opacity: 1; transform: none; } }
+.deal { animation: deal .6s cubic-bezier(.2,.9,.3,1.15) both; }
+
 /* Card flip */
 .flip { perspective: 1200px; }
 .flip-inner {
@@ -101,6 +148,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rise { animation: rise 0.4s ease-out both; }
 
 @media (prefers-reduced-motion: reduce) {
+  .pack-float, .pack-sheen, .deal { animation: none; }
   .flip-inner { transition: none; }
   .glow, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }
