@@ -2,7 +2,7 @@
 // (Roadmap Phase 2). Serial numbers are simulated: each numbered card starts with a made-up count of copies already
 // claimed by "other players", so pulls feel like they land in a shared world.
 import type { Stamp } from './Card'
-import { CAPS, FOIL_COMMON_CAP, FOIL_ODDS, ODDS, TIERS, distanceKm, type IndexCard, type Pool, type Tier } from './data'
+import { CAPS, FOIL_CAPS, FOIL_ODDS, ODDS, TIERS, distanceKm, type IndexCard, type Pool, type Tier } from './data'
 
 export const PACK_SIZE = 5
 export const MAX_PACKS = 3
@@ -84,12 +84,11 @@ function hash01(id: string): number {
   return ((h >>> 0) % 100000) / 100000
 }
 
-function alreadyClaimed(card: IndexCard, foilCommon = false): number {
-  if (foilCommon) return Math.floor(hash01(`${card.id}~foil`) * FOIL_COMMON_CAP * 0.2)
-  const cap = CAPS[card.tier]
-  if (cap == null || card.tier === 'Mythic') return 0
-  const f = hash01(card.id)
-  return card.tier === 'Legendary' ? Math.floor(f * 4) : Math.floor(f * cap * 0.4)
+function alreadyClaimed(card: IndexCard, foil = false): number {
+  const cap = (foil ? FOIL_CAPS : CAPS)[card.tier]
+  if (!cap || card.tier === 'Mythic') return 0
+  const f = hash01(foil ? `${card.id}~foil` : card.id)
+  return card.tier === 'Legendary' ? Math.floor(f * (foil ? 2 : 4)) : Math.floor(f * cap * 0.4)
 }
 
 export function mintedSoFar(s: GameState, card: IndexCard): number {
@@ -140,22 +139,23 @@ export function openPack(pool: Pool, s: GameState, rand = Math.random, kind: 'no
 
   const claim = (card: IndexCard, hometown = false): boolean => {
     if (taken.has(card.id)) return false
-    let foil = rand() < FOIL_ODDS
-    const cap = CAPS[card.tier]
+    let foil = card.tier !== 'Mythic' && rand() < FOIL_ODDS
     let serial: number | null = null
-    if (cap != null) {
-      const minted = mints[card.id] ?? alreadyClaimed(card)
-      if (minted >= cap) return false // minted out: this card can't drop any more
-      serial = minted + 1
-      mints[card.id] = serial
-    } else if (foil) {
-      const key = `${card.id}~foil`
-      const minted = mints[key] ?? alreadyClaimed(card, true)
-      if (minted < FOIL_COMMON_CAP) mints[key] = serial = minted + 1
-      else foil = false // foils of this Common are all claimed: a plain copy instead
+    let cap: number | null = null
+    if (CAPS[card.tier] != null) {
+      // Numbered card: the plain and foil runs are counted separately. If the rolled run is all claimed, try the other.
+      const left = (f: boolean) => (mints[f ? `${card.id}~foil` : card.id] ?? alreadyClaimed(card, f)) < ((f ? FOIL_CAPS : CAPS)[card.tier] ?? 0)
+      if (!left(foil)) {
+        if (card.tier === 'Mythic' || !left(!foil)) return false // minted out: this card can't drop any more
+        foil = !foil
+      }
+      const key = foil ? `${card.id}~foil` : card.id
+      serial = (mints[key] ?? alreadyClaimed(card, foil)) + 1
+      mints[key] = serial
+      cap = (foil ? FOIL_CAPS : CAPS)[card.tier]
     }
     taken.add(card.id)
-    pulls.push({ card, serial, cap: foil && card.tier === 'Common' ? FOIL_COMMON_CAP : cap, hometown, foil, local: local?.label })
+    pulls.push({ card, serial, cap, hometown, foil, local: local?.label })
     return true
   }
 

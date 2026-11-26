@@ -7,7 +7,7 @@ try {
   const page = await browser.newPage()
   await page.goto('http://localhost:5173/#cards', { waitUntil: 'networkidle0' })
   const report = await page.evaluate(async () => {
-    const { loadPool, distanceKm, FOIL_COMMON_CAP } = await import('/src/data.ts')
+    const { loadPool, distanceKm, CAPS, FOIL_CAPS } = await import('/src/data.ts')
     const g = await import('/src/game.ts')
     const pool = await loadPool()
     const out = {}
@@ -27,13 +27,24 @@ try {
       for (const p of r.pulls) {
         cards++
         if (p.foil) foils++
-        if (p.foil && p.card.tier === 'Common') {
-          foilCommons++
-          if (p.serial == null || p.serial > FOIL_COMMON_CAP || p.cap !== FOIL_COMMON_CAP) badFoilSerial++
-        }
-        if (!p.foil && p.card.tier === 'Common' && p.serial != null) badFoilSerial++
+        if (p.foil && p.card.tier === 'Common') foilCommons++
+        if (p.foil && p.card.tier === 'Mythic') badFoilSerial++
+        // Commons never numbered; numbered tiers within the run they came from
+        const cap = (p.foil ? FOIL_CAPS : CAPS)[p.card.tier]
+        if (p.card.tier === 'Common' ? p.serial != null : (p.serial == null || p.serial > cap || p.cap !== cap)) badFoilSerial++
       }
     }
+    // Sell out one Legendary: 10 plain + 5 foil copies, then nothing
+    const leg = pool.byTier.Legendary[0]
+    const one = { ...pool, byTier: { Common: [], Rare: [], Epic: [], Legendary: [leg], Mythic: [] } }
+    const only = { ...pool, byTier: one.byTier }
+    let st = g.newState(), plain = 0, foilLeg = 0
+    for (let i = 0; i < 40; i++) {
+      const r = g.openPack(only, { ...st, packs: 3, mints: { ...st.mints, [leg.id]: st.mints[leg.id] ?? 0, [`${leg.id}~foil`]: st.mints[`${leg.id}~foil`] ?? 0 } }, Math.random)
+      st = r.state
+      for (const p of r.pulls) { if (p.card.id === leg.id) p.foil ? foilLeg++ : plain++ }
+    }
+    out.legendarySellOut = { plain, foil: foilLeg, expected: '10 plain, 5 foil' }
     out.normal = { cards, foilRate: +(foils / cards).toFixed(4), foilCommons, badFoilSerial, dupPacks }
 
     // Local packs: a city and a rural town; distances, tiers, stamps, one a day

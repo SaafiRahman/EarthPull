@@ -6,6 +6,7 @@ import { TIERS, type IndexCard, type Pool, type Tier } from './data'
 // small size used in the collection grid. For screenshots and design work.
 const PICKS = ['wd:Q9202', 'wd:Q130018', 'wd:Q34261', 'wd:Q1073221', 'gn:4503682']
 const SERIAL: Record<Tier, number | null> = { Common: null, Rare: 362, Epic: 22, Legendary: 4, Mythic: 1 }
+const FOIL_SERIAL: Record<Tier, number | null> = { Common: null, Rare: 41, Epic: 7, Legendary: 2, Mythic: 1 }
 const DAY = new Date('2026-11-26T12:00:00').getTime()
 
 function Row({ title, children, cols = 5 }: { title: string; children: ReactNode; cols?: number }) {
@@ -32,12 +33,12 @@ export function CardPreview({ pool }: { pool: Pool }) {
       <Row title="Plain">
         {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardFace pool={pool} card={byTier(t)} serial={SERIAL[t]} /></div>)}
       </Row>
-      <Row title="Foil (about 1 in 20 of any tier; foil Commons numbered /500)">
-        {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardFace pool={pool} card={byTier(t)} serial={t === 'Common' ? 37 : SERIAL[t]} foil /></div>)}
+      <Row title="Foil (about 1 in 20; foil runs are half the normal cap: Rare /500, Epic /50, Legendary /5; foil Commons unlimited)">
+        {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardFace pool={pool} card={byTier(t)} serial={t === 'Common' ? null : FOIL_SERIAL[t]} foil /></div>)}
       </Row>
       <Row title="Stickers and cards without a photo">
         <div className="aspect-[5/7]"><CardFace pool={pool} card={common} serial={null} stamp={local('Halifax')} /></div>
-        <div className="aspect-[5/7]"><CardFace pool={pool} card={epic} serial={58} stamp={local('Dartmouth')} foil /></div>
+        <div className="aspect-[5/7]"><CardFace pool={pool} card={epic} serial={12} stamp={local('Dartmouth')} foil /></div>
         <div className="aspect-[5/7]"><CardFace pool={pool} card={rare} serial={119} stamp={home} /></div>
         <div className="aspect-[5/7]"><CardFace pool={pool} card={mapOnly('Common')} serial={null} /></div>
         <div className="aspect-[5/7]"><CardFace pool={pool} card={mapOnly('Rare')} serial={811} /></div>

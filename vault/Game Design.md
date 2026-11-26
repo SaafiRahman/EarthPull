@@ -7,13 +7,15 @@ Back to [[00 Home]]. Source: [[Roadmap]] (game design spec). Decisions behind th
 ## Rarity tiers and caps
 Cards use serial-numbered print runs, like real trading cards. Commons are unlimited; every higher tier has a fixed cap. The caps are starting values to tune in the beta (Phase 3, see [[Roadmap]]).
 
-| Tier | Copies | What lands here | Pull odds per card (start) |
-|---|---|---|---|
-| Common | Unlimited, no number | Small towns, minor features | 70% |
-| Rare | /1000 | Mid-size cities, notable lakes and peaks | 22% |
-| Epic | /100 | Major cities, national parks | 6.5% |
-| Legendary | /10 | Capitals, world-famous mountains and rivers | 1.4% |
-| Mythic | 1/1 | About 50 icons: Everest, Eiffel Tower, Niagara Falls | 0.1% |
+| Tier | Copies | Foil copies (2026-11-26) | What lands here | Pull odds per card (start) |
+|---|---|---|---|---|
+| Common | Unlimited, no number | Unlimited, no number | Small towns, minor features | 70% |
+| Rare | /1000 | /500 | Mid-size cities, notable lakes and peaks | 22% |
+| Epic | /100 | /50 | Major cities, national parks | 6.5% |
+| Legendary | /10 | /5 | Capitals, world-famous mountains and rivers | 1.4% |
+| Mythic | 1/1 | None | About 50 icons: Everest, Eiffel Tower, Niagara Falls | 0.1% |
+
+- **Foil (developer, 2026-11-26):** about 1 in 20 pulls is foil. A numbered card's foils are their own run, numbered separately at half the normal cap, so every numbered card has 1.5x its normal copies in total (Rare 1,000 + 500 foil). If the rolled run is minted out, the card drops from the other run. The Mythic stays a single copy. See [[Decisions]].
 
 - When a numbered card's cap is reached, it is "minted out" and can drop only as a lower-tier variant or not at all.
 - The pull screen reveals the serial last ("#7 of 10") for drama.

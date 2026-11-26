@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent } from 'react'
-import { FOIL_COMMON_CAP, imageUrl, loadDetail, regionName, type Fact, type IndexCard, type Pool, type Tier } from './data'
+import { CAPS, FOIL_CAPS, imageUrl, loadDetail, regionName, type Fact, type IndexCard, type Pool, type Tier } from './data'
 
 export const TIER_COLOR: Record<Tier, string> = {
   Common: 'var(--color-common)',
@@ -22,8 +22,9 @@ export function serialText(serial: number | null, tier: Tier): string {
   return serial == null ? tier : `#${serial.toLocaleString('en-US')}`
 }
 
-export function capText(tier: Tier): string {
-  return { Common: '', Rare: '/1,000', Epic: '/100', Legendary: '/10', Mythic: '' }[tier]
+export function capText(tier: Tier, foil = false): string {
+  const cap = (foil ? FOIL_CAPS : CAPS)[tier]
+  return cap && tier !== 'Mythic' ? `/${cap.toLocaleString('en-US')}` : ''
 }
 
 const FACT_LABEL: Record<Fact['key'], string> = {
@@ -139,11 +140,12 @@ function useFlavour(pool: Pool, id: string, want: boolean): string | undefined {
  * not the photo: plain slate for Common, then contour lines (Rare), a lat/long grid (Epic), gold (Legendary) and a
  * moving rainbow (Mythic). A foil copy adds a holographic shine to the frame and text panel; the photo stays clean.
  */
-export function CardFace({ pool, card, serial, stamp, foil = false, size = 'md', showSerial = true }: {
+export function CardFace({ pool, card, serial, stamp, foil: foilAsked = false, size = 'md', showSerial = true }: {
   pool: Pool; card: IndexCard; serial: number | null; stamp?: Stamp; foil?: boolean
   size?: 'sm' | 'md' | 'lg'; showSerial?: boolean
 }) {
   const tilt = useTilt()
+  const foil = foilAsked && card.tier !== 'Mythic' // the Mythic is a single copy with no foil version
   const flavour = useFlavour(pool, card.id, size !== 'sm')
   const img = imageUrl(card.image)
   const isMap = card.image.includes('minimap')
@@ -189,11 +191,11 @@ export function CardFace({ pool, card, serial, stamp, foil = false, size = 'md',
   )
 }
 
-/** Serial printed on the card face like a stamped number. Foil Commons get their own /500 numbering. */
+/** Serial printed on the card face like a stamped number. Foils are their own run (Rare foil /500). */
 function SerialStamp({ tier, serial, foil }: { tier: Tier; serial: number | null; foil: boolean }) {
   if (tier === 'Mythic') return <span className="tcg-serial tcg-serial-mythic">1 of 1</span>
   if (serial == null) return foil ? <span className="tcg-serial tcg-serial-foil">Foil</span> : null
-  const cap = tier === 'Common' ? `/${FOIL_COMMON_CAP}` : capText(tier)
+  const cap = capText(tier, foil)
   return (
     <span className={`tcg-serial ${foil ? 'tcg-serial-foil' : ''} ${tier === 'Legendary' ? 'tcg-serial-gold' : ''}`}>
       {foil ? <span className="tcg-serial-tag">Foil</span> : null}#{serial.toLocaleString('en-US')}<span className="tcg-serial-cap">{cap}</span>

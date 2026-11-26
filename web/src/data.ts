@@ -8,10 +8,11 @@ export type Tier = (typeof TIERS)[number]
 export const CAPS: Record<Tier, number | null> = { Common: null, Rare: 1000, Epic: 100, Legendary: 10, Mythic: 1 }
 // Pull odds per card slot (Game Design, starting values)
 export const ODDS: Record<Tier, number> = { Common: 0.7, Rare: 0.22, Epic: 0.065, Legendary: 0.014, Mythic: 0.001 }
-// Variants (Decisions 2026-11-26): any card can roll foil. Foil Commons get their own numbering up to this cap;
-// a foil numbered card keeps its normal serial.
+// Variants (Decisions 2026-11-26): any card but a Mythic can roll foil. Foils of a numbered card are their own run,
+// numbered separately and capped at half the normal cap (Rare 1,000 + 500 foil). Foil Commons are unlimited and
+// unnumbered like plain ones; the Mythic stays a single copy with no foil.
 export const FOIL_ODDS = 0.05
-export const FOIL_COMMON_CAP = 500
+export const FOIL_CAPS: Record<Tier, number | null> = { Common: null, Rare: 500, Epic: 50, Legendary: 5, Mythic: 0 }
 
 export type CardType = 'town' | 'nature' | 'built'
 const TYPE_OF: Record<string, CardType> = { t: 'town', n: 'nature', b: 'built' }
