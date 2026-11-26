@@ -91,7 +91,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Mini-maps: terrain shading so mountain cards aren't flat; small islands missing from Natural Earth put the pin in the sea (Low Island)
 - [ ] Card frame (Phase 2): photos come in many shapes (panoramas), so crop to fit
 
-**Gate to Phase 2 (updated 2026-11-24, met 2026-11-26):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
+**Gate to Phase 2 (updated 2026-11-24; all but the clean-machine run met 2026-11-26):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
 ## Before Phase 2
 - [ ] Settle the open questions in [[Decisions]].
