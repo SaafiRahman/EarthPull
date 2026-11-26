@@ -65,10 +65,23 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 
 /* ───────────── Booster pack (Pack.tsx) ───────────── */
-.pack { cursor: grab; outline: none; }
+.pack { cursor: grab; outline: none; perspective: 1000px; --mx: 50%; --my: 35%; --rx: 0deg; --ry: 0deg; }
+.pack-tilt { transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform .25s cubic-bezier(.2,.8,.2,1); transform-style: preserve-3d; }
+/* Light on the foil that follows the pointer */
+.pack-spec {
+  background: radial-gradient(circle at var(--mx) var(--my), rgba(255,244,214,.38), rgba(255,220,150,.08) 30%, transparent 55%);
+  mix-blend-mode: overlay; clip-path: inset(5.7% 0 5.7% 0);
+}
+/* Soft shadow on the floor under the floating pack, shrinking as the pack rises */
+.pack-floor {
+  position: absolute; left: 12%; right: 12%; bottom: -7%; height: 7%;
+  background: radial-gradient(closest-side, rgba(0,0,0,.75), transparent);
+  animation: pack-floor 3.2s ease-in-out infinite;
+}
+@keyframes pack-floor { 0%, 100% { transform: scale(1); opacity: .9; } 50% { transform: scale(.82); opacity: .6; } }
 .pack:active { cursor: grabbing; }
-.pack-float { animation: pack-bob 3.2s ease-in-out infinite; filter: drop-shadow(0 24px 30px rgba(0,0,0,.75)) drop-shadow(0 0 30px rgba(226,184,90,.18)); }
-@keyframes pack-bob { 0%, 100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-8px) rotate(1deg); } }
+.pack-float { animation: pack-bob 3.2s ease-in-out infinite; filter: drop-shadow(0 18px 22px rgba(0,0,0,.6)) drop-shadow(0 0 40px rgba(226,184,90,.16)); will-change: transform; }
+@keyframes pack-bob { 0%, 100% { transform: translate3d(0, 0, 0) rotate(-1deg); } 50% { transform: translate3d(0, -10px, 0) rotate(1deg); } }
 .pack-body { clip-path: inset(var(--cut) 0 0 0); }
 .pack-strip {
   clip-path: inset(0 0 calc(100% - var(--cut)) 0);
@@ -88,7 +101,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   animation: pack-sheen 3.6s ease-in-out infinite;
 }
 @keyframes pack-sheen { 0% { background-position: 120% 0; } 60%, 100% { background-position: -120% 0; } }
-.pack-torn .pack-float { animation: pack-pop .45s cubic-bezier(.2,.9,.3,1) forwards; }
 /* Burst of light at the rip, bridging the pack and the cards */
 .pack-flash {
   position: absolute; z-index: 5; left: 50%; top: 14%; width: 10px; height: 10px; margin: -5px;
@@ -96,20 +108,24 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   animation: pack-flash .55s ease-out forwards;
 }
 @keyframes pack-flash { from { transform: scale(1); opacity: 1; } to { transform: scale(70); opacity: 0; } }
-@keyframes pack-pop { 0% { transform: scale(1); } 30% { transform: scale(1.06); opacity: 1; } 100% { transform: translateY(30px) scale(.9); opacity: 0; } }
-.pack-torn .pack-strip { animation: strip-fly .6s cubic-bezier(.4,0,.8,.6) forwards; }
-@keyframes strip-fly { to { transform: translate(-70px, -190px) rotate(-38deg); opacity: 0; } }
+.pack-torn .pack-strip { animation: strip-fly .7s cubic-bezier(.3,.2,.6,1) forwards; }
+/* The strip peels from the left (where the tear began), pivots on its right end, then flies off up and right */
+@keyframes strip-fly {
+  0% { transform: rotate(-5deg); }
+  35% { transform: translate(6px, -14px) rotate(-26deg); opacity: 1; }
+  80% { opacity: 1; }
+  100% { transform: translate(190px, -170px) rotate(-70deg); opacity: 0; }
+}
 .pack-torn .pack-cut { opacity: 0; transition: opacity .2s; }
+/* Once torn, the foil light covers only what is left of the pack, not the cards coming out of it */
+.pack-torn .pack-sheen, .pack-torn .pack-spec { clip-path: inset(var(--cut) 0 5.7% 0); }
 .pack-bit {
   position: absolute; top: var(--cut); border-radius: 1px;
   animation: bit-fly .85s cubic-bezier(.15,.7,.4,1) forwards;
 }
 @keyframes bit-fly { from { transform: translate(0, 0) rotate(0); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) rotate(var(--rot)); opacity: 0; } }
 
-/* Cards sliding out of the pack into the row */
-/* Each card starts stacked where the pack was (--fx: its distance from the middle card) and spreads into place */
-@keyframes deal { from { opacity: 0; transform: translateX(calc(var(--fx, 0) * 105%)) translateY(70px) scale(.5) rotate(calc(var(--fx, 0) * 4deg)); } 30% { opacity: 1; } to { opacity: 1; transform: none; } }
-.deal { animation: deal .6s cubic-bezier(.2,.9,.3,1.15) both; }
+.pack-torn .pack-float, .pack-torn .pack-floor { animation-play-state: paused; }
 
 /* Card flip */
 .flip { perspective: 1200px; }
@@ -148,7 +164,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rise { animation: rise 0.4s ease-out both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .pack-float, .pack-sheen, .deal { animation: none; }
+  .pack-float, .pack-sheen, .pack-floor { animation: none; }
   .flip-inner { transition: none; }
   .glow, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }

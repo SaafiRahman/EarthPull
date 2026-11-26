@@ -97,7 +97,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] (done 2026-11-26) Card back: researched, four rounds of mock-ups, developer chose the compass pin on burgundy leather; now the back everywhere and the logo in the header and browser tab (`CardBack.tsx`, `public/favicon.svg`)
   - [x] (done 2026-11-26) Site theme to match the logo and card back: leather-and-gold tokens, gold buttons and header edge, teal for hometown. Also fixed: tall portrait photos squeezed the facts box off small cards (only the photo shrinks now)
   - [ ] (in progress 2026-11-26) Pack opening animations (see [[Decisions]]):
-    - [x] (done 2026-11-26) a. Pack art and tear (swipe or tap), cards spread out of the pack with a light burst; sound engine (`sfx.ts`, Web Audio) and mute button. Video: `node scripts/record-pack.mjs` + `frames-to-mp4.py`
+    - [x] (done 2026-11-26) a. Pack art and tear (swipe or tap), cards spread out of the pack with a light burst; refined the same day after developer feedback ("looks flat, not smooth"): pillow shading, wrinkles, emboss, tilt and floor shadow on the pack; one continuous GSAP sequence (strip peels off, cards rise out of the opening, pack drops away, cards fly to the row; tap to skip); sound engine (`sfx.ts`, Web Audio) and mute button. Video: `node scripts/record-pack.mjs` + `frames-to-mp4.py`
     - [ ] b. Rarity hint glow on the pack, escalating flips per tier, fake-outs
     - [ ] c. Legendary walkout (country, region, place)
     - [ ] d. Mythic globe zoom to the place

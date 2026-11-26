@@ -1,10 +1,14 @@
-import { useEffect, useState, type CSSProperties } from 'react'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import { useEffect, useRef, useState } from 'react'
 import { CardBack, CardFace, StampSticker, TIER_COLOR } from './Card'
 import { CardModal } from './CardModal'
 import type { Pool } from './data'
 import { Pack } from './Pack'
 import { sfx } from './sfx'
 import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type GameState, type Pulled } from './game'
+
+gsap.registerPlugin(useGSAP)
 
 function useNow(ms = 1000) {
   const [now, setNow] = useState(Date.now())
@@ -30,7 +34,38 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const [openedAt, setOpenedAt] = useState(0)
   const [flipped, setFlipped] = useState<boolean[]>([])
   const [open, setOpen] = useState<Pulled | null>(null)
-  const [phase, setPhase] = useState<'pack' | 'cards'>('pack')
+  const [phase, setPhase] = useState<'pack' | 'opening' | 'cards'>('pack')
+  const stage = useRef<HTMLDivElement>(null)
+  const packWrap = useRef<HTMLDivElement>(null)
+  const cardEls = useRef<(HTMLButtonElement | null)[]>([])
+  const opening = useRef<gsap.core.Timeline | null>(null)
+
+  // The cards come out of the torn pack: they start inside it (behind the pack, just under the tear), slide up out
+  // of the opening while the pack drops away, then fly from there to their places in the row.
+  useGSAP(() => {
+    if (phase !== 'opening' || !pulls) return
+    const cards = cardEls.current.slice(0, pulls.length).filter(Boolean) as HTMLButtonElement[]
+    const packEl = packWrap.current?.querySelector('.pack')
+    const finish = () => { gsap.set(cards, { clearProps: 'transform,zIndex,visibility,opacity' }); setPhase('cards') }
+    if (!packEl || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { finish(); return }
+    const pr = packEl.getBoundingClientRect()
+    const from = cards.map((el) => {
+      const r = el.getBoundingClientRect()
+      const scale = (pr.width * 0.74) / r.width
+      const h = r.height * scale
+      const insideTop = pr.top + pr.height * 0.19 // just under the tear line, hidden behind the pack
+      return { x: pr.left + pr.width / 2 - (r.left + r.width / 2), y: insideTop + h / 2 - (r.top + r.height / 2), scale, rise: h * 0.5 }
+    })
+    gsap.set(cards, {
+      x: (i) => from[i].x, y: (i) => from[i].y, scale: (i) => from[i].scale, rotation: (i) => (i - 2) * 1.5,
+      autoAlpha: 1, zIndex: (i) => 10 - i, transformOrigin: '50% 50%',
+    })
+    opening.current = gsap.timeline({ onComplete: finish })
+      .to(cards, { y: (i) => from[i].y - from[i].rise, duration: 0.55, ease: 'power3.out', stagger: { each: 0.05, from: 'end' } }, 0.08)
+      .to(packWrap.current, { y: '+=340', rotation: 6, autoAlpha: 0, duration: 0.65, ease: 'power2.in' }, 0.45)
+      .add(() => pulls.forEach((_, i) => sfx.slide(i)), 0.75)
+      .to(cards, { x: 0, y: 0, scale: 1, rotation: 0, duration: 0.8, ease: 'back.out(1.2)', stagger: 0.07 }, 0.75)
+  }, { dependencies: [phase], scope: stage })
 
   const start = (k: Kind) => {
     const p = onOpen(k)
@@ -57,28 +92,20 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const allFlipped = flipped.length > 0 && flipped.every(Boolean)
   const stamp = (p: Pulled) => stampOf({ ...p, at: openedAt }, state)
 
-  if (pulls && phase === 'pack') {
-    return (
-      <div className="mx-auto flex max-w-xl flex-col items-center gap-4 px-4 py-8">
-        {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
-        <Pack pool={pool} kind={kind} onOpened={() => { setPhase('cards'); pulls.forEach((_, i) => sfx.slide(i)) }} />
-      </div>
-    )
-  }
-
   if (pulls) {
     const best = pulls[pulls.length - 1]
     const foil = best.foil ? 'Foil ' : ''
+    const ready = phase === 'cards'
     return (
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6">
+      <div ref={stage} onClickCapture={() => { if (phase === 'opening') opening.current?.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
-        <p className="text-sm text-muted">{allFlipped ? 'Tap a card to look closer.' : 'Tap each card to flip it. The best is last.'}</p>
+        <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{allFlipped ? 'Tap a card to look closer.' : 'Tap each card to flip it. The best is last.'}</p>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {pulls.map((p, i) => (
             <button
               key={p.card.id}
-              className={`flip deal aspect-[5/7] text-left ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
-              style={{ animationDelay: `${i * 90}ms`, '--fx': (pulls.length - 1) / 2 - i } as CSSProperties}
+              ref={(el) => { cardEls.current[i] = el }}
+              className={`flip relative aspect-[5/7] text-left ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
               onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
               aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
@@ -91,7 +118,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
             </button>
           ))}
         </div>
-        {flipped[pulls.length - 1] && (best.serial != null || best.card.tier === 'Mythic') ? (
+        {ready && flipped[pulls.length - 1] && (best.serial != null || best.card.tier === 'Mythic') ? (
           <p className="serial-in font-display text-lg font-semibold" style={{ color: TIER_COLOR[best.card.tier] }}>
             {best.card.tier === 'Mythic'
               ? `You pulled the only ${best.card.label} card in the world.`
@@ -99,13 +126,18 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
                 : `${foil}${best.card.label}: ${best.card.tier} #${best.serial?.toLocaleString('en-US')}`}
           </p>
         ) : null}
-        <div className="flex gap-3">
+        <div className={`flex gap-3 transition-opacity duration-300 ${ready ? '' : 'pointer-events-none opacity-0'}`}>
           {!allFlipped ? (
             <button className="rounded-xl border border-line px-5 py-2.5 font-semibold" onClick={revealAll}>Reveal all</button>
           ) : (
             <button className="btn-gold rounded-xl px-6 py-2.5 font-semibold" onClick={() => setPulls(null)}>Done</button>
           )}
         </div>
+        {!ready ? (
+          <div ref={packWrap} className="absolute inset-x-0 top-28 z-20 flex justify-center">
+            <Pack pool={pool} kind={kind} onTorn={() => setPhase('opening')} />
+          </div>
+        ) : null}
         {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stamp(open)} onClose={() => setOpen(null)} /> : null}
       </div>
     )

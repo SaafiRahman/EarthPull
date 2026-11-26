@@ -50,7 +50,7 @@ const tearPack = async (page, { swipe = false, shotName } = {}) => {
   } else {
     await pack.click()
   }
-  await sleep(1500)
+  await sleep(2600)
 }
 
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--hide-scrollbars'] })
