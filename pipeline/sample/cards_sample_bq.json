@@ -36,6 +36,262 @@
    }
   },
   {
+   "id": "wd:Q955448",
+   "name": "Green Island",
+   "label": "Green Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6491,
+   "lon": -63.23,
+   "rarity": "Common",
+   "fame": 1368,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "length_km": 0.1,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Green Island is a small uninhabited islet about 250 metres north of the Caribbean island of Saba, and is part of the Dutch special municipality of Saba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Green Island, Saba",
+    "url": "https://en.wikipedia.org/wiki/Green_Island%2C_Saba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q955448.webp",
+    "author": "Pia L at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Saba_airport.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2658486",
+   "name": "Troy Hill",
+   "label": "Troy Hill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6333,
+   "lon": -63.2333,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 566,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A mountain in Saba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2658486.webp"
+   }
+  },
+  {
+   "id": "wd:Q9178935",
+   "name": "Brandaris",
+   "label": "Brandaris",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.2667,
+   "lon": -68.3833,
+   "rarity": "Common",
+   "fame": 2886,
+   "facts": {
+    "elevation_m": 241,
+    "prominence_m": 241,
+    "temp_c": 28.1
+   },
+   "flavour": {
+    "text": "Mount Brandaris, or Brandaris, is a hill that is the highest point on the island of Bonaire.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Brandaris",
+    "url": "https://en.wikipedia.org/wiki/Mount_Brandaris",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9178935.webp",
+    "author": "Paul Asman and Jill Lenoble",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Washington-Slagbaai_National_Park_(2447781608).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1586079",
+   "name": "The Quill",
+   "label": "The Quill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-BQ3",
+   "country": "BQ",
+   "lat": 17.4778,
+   "lon": -62.9597,
+   "rarity": "Common",
+   "fame": 6714,
+   "facts": {
+    "elevation_m": 601,
+    "prominence_m": 601,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The summit elevation of 601 m above sea level makes it the second highest mountain in the Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Quill (volcano)",
+    "url": "https://en.wikipedia.org/wiki/The_Quill_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1586079.webp",
+    "author": "Walter Hellebrand. Original uploader was Walter Hellebrand at…",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quill_dormant_vulcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q124408910",
+   "name": "Well's Bay",
+   "label": "Well's Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6411,
+   "lon": -63.2528,
+   "rarity": "Common",
+   "fame": 1062,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It is located on the northwestern coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Well's Bay",
+    "url": "https://en.wikipedia.org/wiki/Well%27s_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124408910.webp",
+    "author": "CareAhLine",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Wells_Bay,_Saba,_with_Torrens_Point_in_the_distance.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6469307",
+   "name": "Ladder Bay, Saba",
+   "label": "Ladder Bay, Saba",
+   "type": "nature",
+   "kind": "bay",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.634,
+   "lon": -63.256,
+   "rarity": "Common",
+   "fame": 1656,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The bay sits on the west side of the island, directly under a set of 800 steps hand carved into the rocks locally known as \"The Ladder\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ladder Bay (Saba)",
+    "url": "https://en.wikipedia.org/wiki/Ladder_Bay_%28Saba%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6469307.webp",
+    "author": "Serge Melki from Indianapolis, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saba_-_Customs_House_(1253512007).jpg"
+   }
+  },
+  {
+   "id": "wd:Q124361693",
+   "name": "Cove Bay",
+   "label": "Cove Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6417,
+   "lon": -63.2197,
+   "rarity": "Common",
+   "fame": 1050,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It is located on the southeastern coast of the Flat Point peninsula, below the Juancho E. Yrausquin Airport and the Flat Point Tide Pools.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cove Bay (Saba)",
+    "url": "https://en.wikipedia.org/wiki/Cove_Bay_%28Saba%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124361693.webp",
+    "author": "Stefan Krasowski",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saba01-Krasowski.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21808782",
+   "name": "Boven",
+   "label": "Boven",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-BQ3",
+   "country": "BQ",
+   "lat": 17.5187,
+   "lon": -62.9971,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 296,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A mountain in Sint Eustatius.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21808782.webp",
+    "author": "Christine Warner Hawks",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hiking_at_Boven_(8610826554).jpg"
+   }
+  },
+  {
    "id": "gn:3513765",
    "name": "Dorp Rincon",
    "label": "Dorp Rincon",
@@ -190,6 +446,97 @@
    }
   },
   {
+   "id": "wd:Q2730234",
+   "name": "Fort Oranje",
+   "label": "Fort Oranje (near Oranjestad)",
+   "type": "built",
+   "kind": "fort",
+   "region": "NL-BQ3",
+   "country": "BQ",
+   "lat": 17.4819,
+   "lon": -62.9867,
+   "rarity": "Epic",
+   "fame": 3492,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is located in Oranjestad, the island's capital, on a cliff overlooking Oranje Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Oranje (Sint Eustatius)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Oranje_%28Sint_Eustatius%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2730234.webp",
+    "author": "Walter Hellebrand",
+    "licence": "GFDL",
+    "licence_url": "http://www.gnu.org/copyleft/fdl.html",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Oranje.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3544364",
+   "name": "Stadion Antonio Trenidat",
+   "label": "Stadion Antonio Trenidat",
+   "type": "built",
+   "kind": "stadium",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.2317,
+   "lon": -68.3298,
+   "rarity": "Epic",
+   "fame": 2022,
+   "facts": {
+    "elevation_m": 27,
+    "temp_c": 28.2
+   },
+   "flavour": {
+    "text": "Stadion Antonio Trenidat is an association football stadium in Rincon, on the island of Bonaire.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stadion Antonio Trenidat",
+    "url": "https://en.wikipedia.org/wiki/Stadion_Antonio_Trenidat",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3544364.webp"
+   }
+  },
+  {
+   "id": "wd:Q19947254",
+   "name": "slavenhuisjes bij Witte Pan en Oranje Pan",
+   "label": "slavenhuisjes bij Witte Pan en Oranje Pan",
+   "type": "built",
+   "kind": "house",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.0577,
+   "lon": -68.2807,
+   "rarity": "Epic",
+   "fame": 3150,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "A house in Bonaire.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q19947254.webp",
+    "author": "David Burley - User: (WT-shared) Khemicals at wts wikivoyage",
+    "licence": "CC BY-SA 1.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bonaire_Red_Slave_Huts.jpg"
+   }
+  },
+  {
    "id": "gn:3513173",
    "name": "The Bottom",
    "label": "The Bottom",
@@ -255,6 +602,455 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lower_Town_Sint_Eustatius.jpg"
+   }
+  },
+  {
+   "id": "wd:Q110259491",
+   "name": "Fort Amsterdam",
+   "label": "Fort Amsterdam",
+   "type": "built",
+   "kind": "fort",
+   "region": "NL-BQ3",
+   "country": "BQ",
+   "lat": 17.4863,
+   "lon": -62.9926,
+   "rarity": "Rare",
+   "fame": 912,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The Waterfort, also called Fort Amsterdam, is a fortress on the southwest coast of Sint Eustatius, Dutch Caribbean, of which only ruins remain.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Waterfort (Sint Eustatius)",
+    "url": "https://en.wikipedia.org/wiki/Waterfort_%28Sint_Eustatius%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q110259491.webp",
+    "author": "Carib93",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_Water_Fort_St._Eustatius_with_in_the_background_the_Godet_burial_ground.jpg"
+   }
+  },
+  {
+   "id": "wd:Q56425104",
+   "name": "St. Paul's Conversion Church",
+   "label": "St. Paul's Conversion Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6293,
+   "lon": -63.2318,
+   "rarity": "Rare",
+   "fame": 54,
+   "facts": {
+    "elevation_m": 427,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A church in Saba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q56425104.webp",
+    "author": "Richie Diesterheft from Chicago, IL, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Paul%27s_Conversion_Church,_Windwardside,_1860_(6550026663).jpg"
+   }
+  },
+  {
+   "id": "wd:Q23674387",
+   "name": "St. Bernard Church",
+   "label": "St. Bernard Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1527,
+   "lon": -68.2732,
+   "rarity": "Rare",
+   "fame": 1050,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "The St. Bernard Church is a religious building belonging to the Catholic Church and is located in the city of Kralendijk.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Bernard Church, Kralendijk",
+    "url": "https://en.wikipedia.org/wiki/St._Bernard_Church%2C_Kralendijk",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23674387.webp",
+    "author": "Bgabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BONAIRE-kralendijk-kath-kirche.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23674462",
+   "name": "Our Lady of Coromoto Church, Antriol",
+   "label": "Our Lady of Coromoto Church, Antriol",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1705,
+   "lon": -68.2707,
+   "rarity": "Rare",
+   "fame": 468,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 28.2
+   },
+   "flavour": {
+    "text": "The Our Lady of Coromoto Church also known as the Parish of Our Lady of Coromoto is a religious building belonging to the Catholic Church and is located in…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of Coromoto Church, Antriol",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Coromoto_Church%2C_Antriol",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23674462.webp"
+   }
+  },
+  {
+   "id": "wd:Q419913",
+   "name": "Fort Oranje",
+   "label": "Fort Oranje (near Kralendijk)",
+   "type": "built",
+   "kind": "fort",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1488,
+   "lon": -68.2768,
+   "rarity": "Rare",
+   "fame": 1854,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "Originally built in 1639 as a nameless fort by the Dutch West India Company, it is the oldest masonry structure on the island of Bonaire.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Orange (Bonaire)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Orange_%28Bonaire%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q419913.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OLD_FORT_ORANJE,_KRALENDIJK.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9341198",
+   "name": "Municipal Stadium in Kralendijk",
+   "label": "Municipal Stadium in Kralendijk",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1501,
+   "lon": -68.2741,
+   "rarity": "Rare",
+   "fame": 1074,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Municipal Stadium (Kralendijk)",
+    "url": "https://en.wikipedia.org/wiki/Municipal_Stadium_%28Kralendijk%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9341198.webp",
+    "author": "Username: roger4336 Name: [1], from Flickr",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kralendijk_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q137122274",
+   "name": "plaque of The First Salute",
+   "label": "plaque of The First Salute",
+   "type": "built",
+   "kind": "commemorative plaque",
+   "region": "NL-BQ3",
+   "country": "BQ",
+   "lat": 17.4819,
+   "lon": -62.9867,
+   "rarity": "Rare",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A commemorative plaque in Sint Eustatius.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q137122274.webp",
+    "author": "Boy Lawson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collectie_Nationaal_Museum_van_Wereldculturen_TM-20030090_Gedenkplaat_in_Fort_Oranje_Oranjestad_Boy_Lawson.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23712697",
+   "name": "Holy Rosary Church",
+   "label": "Holy Rosary Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6391,
+   "lon": -63.2296,
+   "rarity": "Rare",
+   "fame": 432,
+   "facts": {
+    "elevation_m": 405,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Holy Rosary Church, also known as the Queen of the Holy Rosary Church.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holy Rosary Church, Saba",
+    "url": "https://en.wikipedia.org/wiki/Holy_Rosary_Church%2C_Saba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23712697.webp",
+    "author": "Richie Diesterheft from Chicago, IL, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen_of_The_Holy_Rosary_Church_in_Zions_Hill,_1962_(6550006709).jpg"
+   }
+  },
+  {
+   "id": "wd:Q23712666",
+   "name": "Sacred Heart Church",
+   "label": "Sacred Heart Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6273,
+   "lon": -63.2503,
+   "rarity": "Rare",
+   "fame": 534,
+   "facts": {
+    "elevation_m": 223,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Sacred Heart Church is a religious building belonging to the Catholic Church and is located in the town of The Bottom.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sacred Heart Church, Saba",
+    "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Church%2C_Saba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23712666.webp",
+    "author": "Richie Diesterheft from Chicago, IL, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Church,_1935_Horizontal_(6549988599).jpg"
+   }
+  },
+  {
+   "id": "wd:Q56425289",
+   "name": "Wesleyan Holiness Church",
+   "label": "Wesleyan Holiness Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6274,
+   "lon": -63.2515,
+   "rarity": "Rare",
+   "fame": 84,
+   "facts": {
+    "elevation_m": 221,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A church in Saba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q56425289.webp",
+    "author": "Coenraad Liebrecht Temminck Groll",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wesleyan_Holyness_kerk,_nummer_97,_voorgevel_-_20651872_-_RCE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23674110",
+   "name": "St. Louis Bertrand Church",
+   "label": "St. Louis Bertrand Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.2384,
+   "lon": -68.3304,
+   "rarity": "Rare",
+   "fame": 762,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 28.2
+   },
+   "flavour": {
+    "text": "The St. Louis Bertrand Church is a religious building affiliated with the Catholic Church and is located in the town of Rincon on the Caribbean island of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Louis Bertrand Church (Bonaire)",
+    "url": "https://en.wikipedia.org/wiki/St._Louis_Bertrand_Church_%28Bonaire%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23674110.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RINCON_ROMAN_CATHOLIC_CHURCH,_BONAIRE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5470779",
+   "name": "Fort Bay",
+   "label": "Fort Bay",
+   "type": "built",
+   "kind": "port",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6164,
+   "lon": -63.2514,
+   "rarity": "Rare",
+   "fame": 1752,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Fort Bay is the official and only port on the island of Saba, in the Caribbean Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Bay",
+    "url": "https://en.wikipedia.org/wiki/Fort_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5470779.webp",
+    "author": "Aquaimages",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Bay,_Saba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1544807",
+   "name": "Klein Bonaire",
+   "label": "Klein Bonaire",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1581,
+   "lon": -68.3108,
+   "rarity": "Rare",
+   "fame": 11226,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 6.0,
+    "length_km": 3.9,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "Klein Bonaire is a small uninhabited islet off the west coast of the Caribbean island of Bonaire, and is part of the Dutch special municipality of Bonaire.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Klein Bonaire",
+    "url": "https://en.wikipedia.org/wiki/Klein_Bonaire",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1544807.webp",
+    "author": "dronepicr",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Klein_Bonaire_(34800854911).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1301834",
+   "name": "Mount Scenery",
+   "label": "Mount Scenery",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.635,
+   "lon": -63.2392,
+   "rarity": "Rare",
+   "fame": 33324,
+   "facts": {
+    "elevation_m": 870,
+    "prominence_m": 870,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Its lava dome forms the summit of the Saba island stratovolcano.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Scenery",
+    "url": "https://en.wikipedia.org/wiki/Mount_Scenery",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1301834.webp",
+    "author": "Richie Diesterheft",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saba_with_cloud_cover.jpg"
    }
   }
  ]

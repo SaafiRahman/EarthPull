@@ -30,7 +30,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q44440.webp",
-    "author": "Rich Niewiroski Jr.",
+    "author": "Rich Niewiroski Jr",
     "licence": "CC BY 2.5",
     "licence_url": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg"
@@ -79,7 +79,7 @@
    "label": "Statue of Liberty",
    "type": "built",
    "kind": "colossal statue",
-   "region": "US-NJ",
+   "region": "US-NY",
    "country": "US",
    "lat": 40.6892,
    "lon": -74.0444,
@@ -134,256 +134,251 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q83497.webp",
-    "author": "Thomas Wolf , www.foto-tw.de",
+    "author": "Thomas Wolf, www.foto-tw.de",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Mount_Rushmore_detail_view_(100MP).jpg"
    }
   },
   {
-   "id": "wd:Q21197353",
-   "name": "Wolfpen Creek",
-   "label": "Wolfpen Creek (near Erie)",
+   "id": "wd:Q20709978",
+   "name": "Pawnee Creek",
+   "label": "Pawnee Creek (near Fort Scott)",
    "type": "nature",
    "kind": "river",
    "region": "US-KS",
    "country": "US",
-   "lat": 37.8034,
-   "lon": -95.0622,
+   "lat": 37.7911,
+   "lon": -94.8242,
    "rarity": "Common",
-   "fame": 90,
+   "fame": 96,
    "facts": {
-    "elevation_m": 277,
-    "temp_c": 13.4
+    "elevation_m": 254,
+    "temp_c": 13.6
    },
    "flavour": {
-    "text": "Wolfpen Creek is a stream in Bourbon and Allen counties, in the U.S. state of Kansas.",
+    "text": "Pawnee Creek is a stream in Bourbon and Crawford counties, in the U.S. state of Kansas.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wolfpen Creek (Kansas)",
-    "url": "https://en.wikipedia.org/wiki/Wolfpen_Creek_%28Kansas%29",
+    "title": "Pawnee Creek (Kansas)",
+    "url": "https://en.wikipedia.org/wiki/Pawnee_Creek_%28Kansas%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q21197353.webp"
+    "file": "images/minimap/wd_Q20709978.webp"
    }
   },
   {
-   "id": "wd:Q28106397",
-   "name": "Gribler Creek",
-   "label": "Gribler Creek",
+   "id": "wd:Q28104203",
+   "name": "Cub Creek",
+   "label": "Cub Creek (near Potosi)",
    "type": "nature",
    "kind": "river",
    "region": "US-MO",
    "country": "US",
-   "lat": 37.0745,
-   "lon": -90.1626,
+   "lat": 37.7928,
+   "lon": -91.0594,
    "rarity": "Common",
    "fame": 84,
    "facts": {
-    "elevation_m": 112,
-    "temp_c": 13.6
+    "elevation_m": 267,
+    "temp_c": 12.6
    },
    "flavour": {
-    "text": "Gribler Creek is a stream in Bollinger and Wayne counties in the U.S. state of Missouri.",
+    "text": "Cub Creek is a stream in Iron and Washington counties in the U.S. state of Missouri.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Gribler Creek",
-    "url": "https://en.wikipedia.org/wiki/Gribler_Creek",
+    "title": "Cub Creek (Courtois Creek tributary)",
+    "url": "https://en.wikipedia.org/wiki/Cub_Creek_%28Courtois_Creek_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q28106397.webp"
+    "file": "images/minimap/wd_Q28104203.webp"
    }
   },
   {
-   "id": "wd:Q112660102",
-   "name": "Upper Pahranagat Lake",
-   "label": "Upper Pahranagat Lake",
+   "id": "wd:Q55610041",
+   "name": "Dry Lake",
+   "label": "Dry Lake (near Fallon)",
    "type": "nature",
    "kind": "lake",
    "region": "US-NV",
    "country": "US",
-   "lat": 37.2999,
-   "lon": -115.1284,
+   "lat": 39.5852,
+   "lon": -118.4616,
    "rarity": "Common",
-   "fame": 366,
+   "fame": 372,
    "facts": {
-    "elevation_m": 1020,
-    "temp_c": 14.7
+    "elevation_m": 1183,
+    "temp_c": 10.7
    },
    "flavour": {
-    "text": "Upper Pahranagat Lake is a lake located in Pahranagat National Wildlife Refuge, within the Pahranagat Valley south of Alamo, Nevada.",
+    "text": "Dry Lake was named for the fact it often contained little water.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Upper Pahranagat Lake",
-    "url": "https://en.wikipedia.org/wiki/Upper_Pahranagat_Lake",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q112660102.webp",
-    "author": "Stan Shebs",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Upper_Pahranagat_Lake_1.jpg"
-   }
-  },
-  {
-   "id": "wd:Q107629860",
-   "name": "Lake Five",
-   "label": "Lake Five (near Columbia Falls)",
-   "type": "nature",
-   "kind": "lake",
-   "region": "US-MT",
-   "country": "US",
-   "lat": 48.4644,
-   "lon": -114.02,
-   "rarity": "Common",
-   "fame": 414,
-   "facts": {
-    "elevation_m": 994,
-    "temp_c": 5.2
-   },
-   "flavour": {
-    "text": "Lake Five is a freshwater lake in Flathead County, Montana, near the western entrance to Glacier National Park.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Lake Five (Montana)",
-    "url": "https://en.wikipedia.org/wiki/Lake_Five_%28Montana%29",
+    "title": "Dry Lake (Churchill County, Nevada)",
+    "url": "https://en.wikipedia.org/wiki/Dry_Lake_%28Churchill_County%2C_Nevada%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q107629860.webp"
+    "file": "images/minimap/wd_Q55610041.webp"
    }
   },
   {
-   "id": "wd:Q7797799",
-   "name": "Three Sisters",
-   "label": "Three Sisters (near Dahlonega)",
+   "id": "wd:Q5510054",
+   "name": "Fusillade Mountain",
+   "label": "Fusillade Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-MT",
+   "country": "US",
+   "lat": 48.6403,
+   "lon": -113.723,
+   "rarity": "Common",
+   "fame": 426,
+   "facts": {
+    "elevation_m": 2667,
+    "prominence_m": 207,
+    "temp_c": 1.8
+   },
+   "flavour": {
+    "text": "Fusillade Mountain is located in the Lewis Range, Glacier National Park in the U.S. state of Montana.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fusillade Mountain",
+    "url": "https://en.wikipedia.org/wiki/Fusillade_Mountain",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5510054.webp",
+    "author": "mark byzewski",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fusillade_Mountain,_Glacier_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5091517",
+   "name": "Chenocetah Mountain",
+   "label": "Chenocetah Mountain",
    "type": "nature",
    "kind": "mountain",
    "region": "US-GA",
    "country": "US",
-   "lat": 34.5968,
-   "lon": -83.9444,
+   "lat": 34.5022,
+   "lon": -83.5067,
    "rarity": "Common",
-   "fame": 714,
+   "fame": 720,
    "facts": {
-    "elevation_m": 650,
-    "prominence_m": 112,
-    "temp_c": 14.2
+    "elevation_m": 551,
+    "temp_c": 14.6
    },
    "flavour": {
-    "text": "Three Sisters Mountain is a mountain near Dahlonega, Lumpkin County, Georgia with a trio of peaks known locally as Rattlesnake, Wildcat and McBrayer.",
+    "text": "Chenocetah Mountain, known to locals as \"Tower Mountain,\" is located near the towns of Mount Airy and Cornelia, Georgia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Three Sisters (Georgia)",
-    "url": "https://en.wikipedia.org/wiki/Three_Sisters_%28Georgia%29",
+    "title": "Chenocetah Mountain",
+    "url": "https://en.wikipedia.org/wiki/Chenocetah_Mountain",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7797799.webp",
-    "author": "Thomson200",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Three_Sisters,_Lumpkin_County,_Georgia.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5091517.webp"
    }
   },
   {
-   "id": "wd:Q19867759",
-   "name": "Deep Hollow",
-   "label": "Deep Hollow",
+   "id": "wd:Q27989267",
+   "name": "Dundaff Creek",
+   "label": "Dundaff Creek",
    "type": "nature",
    "kind": "river",
    "region": "US-PA",
    "country": "US",
-   "lat": 41.3096,
-   "lon": -76.4823,
+   "lat": 41.6571,
+   "lon": -75.6036,
    "rarity": "Common",
    "fame": 174,
    "facts": {
-    "elevation_m": 524,
-    "temp_c": 8.3
+    "elevation_m": 321,
+    "temp_c": 7.6
    },
    "flavour": {
-    "text": "Deep Hollow is a tributary of West Branch Fishing Creek in Luzerne County, Pennsylvania, in the United States.",
+    "text": "Dundaff Creek is a tributary of East Branch Tunkhannock Creek in Susquehanna County and Lackawanna County, in Pennsylvania, in the United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Deep Hollow (West Branch Fishing Creek tributary)",
-    "url": "https://en.wikipedia.org/wiki/Deep_Hollow_%28West_Branch_Fishing_Creek_tributary%29",
+    "title": "Dundaff Creek",
+    "url": "https://en.wikipedia.org/wiki/Dundaff_Creek",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q19867759.webp"
+    "file": "images/minimap/wd_Q27989267.webp"
    }
   },
   {
-   "id": "wd:Q18379373",
-   "name": "Bunker Hill",
-   "label": "Bunker Hill (near Eureka)",
+   "id": "wd:Q43232305",
+   "name": "Rainbow Mountain",
+   "label": "Rainbow Mountain (near Summerlin South)",
    "type": "nature",
    "kind": "mountain",
    "region": "US-NV",
    "country": "US",
-   "lat": 39.2529,
-   "lon": -117.126,
+   "lat": 36.108,
+   "lon": -115.4903,
    "rarity": "Common",
-   "fame": 912,
+   "fame": 930,
    "facts": {
-    "elevation_m": 3498,
-    "prominence_m": 851,
-    "temp_c": 7.4
+    "elevation_m": 2075,
+    "temp_c": 15.7
    },
    "flavour": {
-    "text": "Bunker Hill is the highest mountain in Lander County, within the Toiyabe Range of central Nevada, United States.",
+    "text": "Rainbow Mountain is a 6,811-foot-elevation mountain summit in Clark County, Nevada, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Bunker Hill (Nevada)",
-    "url": "https://en.wikipedia.org/wiki/Bunker_Hill_%28Nevada%29",
+    "title": "Rainbow Mountain (Clark County, Nevada)",
+    "url": "https://en.wikipedia.org/wiki/Rainbow_Mountain_%28Clark_County%2C_Nevada%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q18379373.webp",
-    "author": "Famartin",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2014-10-08_12_56_31_View_of_Bunker_Hill_from_Tahoe_Road_in_Kingston,_Nevada.JPG"
+    "file": "images/photo/wd_Q43232305.webp",
+    "author": "Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rainbow_Mountain_2.jpg"
    }
   },
   {
-   "id": "wd:Q27984650",
-   "name": "Thomas Branch",
-   "label": "Thomas Branch",
+   "id": "wd:Q27984236",
+   "name": "Goose Creek",
+   "label": "Goose Creek (near Kingston)",
    "type": "nature",
    "kind": "river",
    "region": "US-MO",
    "country": "US",
-   "lat": 38.9706,
-   "lon": -92.7919,
+   "lat": 39.6661,
+   "lon": -94.0747,
    "rarity": "Common",
    "fame": 120,
    "facts": {
-    "elevation_m": 177,
-    "temp_c": 12.5
+    "elevation_m": 248,
+    "temp_c": 11.5
    },
    "flavour": {
-    "text": "It is a tributary of the Missouri River.",
+    "text": "Goose Creek is a stream in Caldwell County of Missouri.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Thomas Branch (Missouri River tributary)",
-    "url": "https://en.wikipedia.org/wiki/Thomas_Branch_%28Missouri_River_tributary%29",
+    "title": "Goose Creek (Shoal Creek tributary)",
+    "url": "https://en.wikipedia.org/wiki/Goose_Creek_%28Shoal_Creek_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q27984650.webp"
+    "file": "images/minimap/wd_Q27984236.webp"
    }
   },
   {
@@ -413,97 +408,97 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q7580441.webp",
-    "author": "User:Sethant",
+    "author": "Sethant",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:SpringCreek2007.jpg"
    }
   },
   {
-   "id": "wd:Q21197148",
-   "name": "Remund Lake",
-   "label": "Remund Lake",
+   "id": "wd:Q21197021",
+   "name": "Lake Hassel",
+   "label": "Lake Hassel",
    "type": "nature",
    "kind": "lake",
    "region": "US-MN",
    "country": "US",
-   "lat": 44.1778,
-   "lon": -93.4836,
+   "lat": 45.3903,
+   "lon": -95.5694,
    "rarity": "Common",
    "fame": 132,
    "facts": {
-    "elevation_m": 333,
-    "temp_c": 6.8
+    "elevation_m": 318,
+    "temp_c": 6.2
    },
    "flavour": {
-    "text": "Remund Lake is a lake in Waseca County, in the U.S. state of Minnesota.",
+    "text": "Lake Hassel is a lake in Swift County, in the U.S. state of Minnesota.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Remund Lake",
-    "url": "https://en.wikipedia.org/wiki/Remund_Lake",
+    "title": "Lake Hassel",
+    "url": "https://en.wikipedia.org/wiki/Lake_Hassel",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q21197148.webp"
+    "file": "images/minimap/wd_Q21197021.webp"
    }
   },
   {
-   "id": "wd:Q19876706",
-   "name": "Lindy Creek",
-   "label": "Lindy Creek",
+   "id": "wd:Q19878133",
+   "name": "Sugar Notch Run",
+   "label": "Sugar Notch Run",
    "type": "nature",
    "kind": "river",
    "region": "US-PA",
    "country": "US",
-   "lat": 41.4184,
-   "lon": -75.6962,
+   "lat": 41.2175,
+   "lon": -75.9074,
    "rarity": "Common",
-   "fame": 270,
+   "fame": 264,
    "facts": {
-    "elevation_m": 250,
-    "temp_c": 8.6
+    "elevation_m": 185,
+    "temp_c": 9.0
    },
    "flavour": {
-    "text": "It is approximately 2.3 miles long and flows through Ransom Township and Scranton.",
+    "text": "It is approximately 3.0 miles long and flows through Hanover Township, Sugar Notch, and Ashley.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lindy Creek",
-    "url": "https://en.wikipedia.org/wiki/Lindy_Creek",
+    "title": "Sugar Notch Run",
+    "url": "https://en.wikipedia.org/wiki/Sugar_Notch_Run",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q19876706.webp"
+    "file": "images/minimap/wd_Q19878133.webp"
    }
   },
   {
-   "id": "wd:Q27984767",
+   "id": "wd:Q27984409",
    "name": "Lost Creek",
-   "label": "Lost Creek (near Steelville)",
+   "label": "Lost Creek (near Garden City)",
    "type": "nature",
    "kind": "river",
    "region": "US-MO",
    "country": "US",
-   "lat": 37.9172,
-   "lon": -91.1011,
+   "lat": 38.4539,
+   "lon": -94.1261,
    "rarity": "Common",
    "fame": 90,
    "facts": {
-    "elevation_m": 226,
+    "elevation_m": 229,
     "temp_c": 12.7
    },
    "flavour": {
-    "text": "Lost Creek is a stream in Crawford and Washington counties in the U.S. state of Missouri.",
+    "text": "It is a tributary of the South Grand River.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lost Creek (Courtois Creek tributary)",
-    "url": "https://en.wikipedia.org/wiki/Lost_Creek_%28Courtois_Creek_tributary%29",
+    "title": "Lost Creek (South Grand River tributary)",
+    "url": "https://en.wikipedia.org/wiki/Lost_Creek_%28South_Grand_River_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q27984767.webp"
+    "file": "images/minimap/wd_Q27984409.webp"
    }
   },
   {
@@ -1008,137 +1003,136 @@
    }
   },
   {
-   "id": "wd:Q15249539",
-   "name": "Mary E. Surratt Boarding House",
-   "label": "Mary E. Surratt Boarding House",
+   "id": "wd:Q916958",
+   "name": "President's Park",
+   "label": "President's Park",
    "type": "built",
-   "kind": "townhouse",
+   "kind": "National Park System unit",
    "region": "US-DC",
    "country": "US",
-   "lat": 38.8996,
-   "lon": -77.0205,
+   "lat": 38.8962,
+   "lon": -77.0366,
    "rarity": "Epic",
-   "fame": 12006,
+   "fame": 12156,
    "facts": {
-    "elevation_m": 14,
-    "area_km2": 0.0,
+    "elevation_m": 15,
+    "area_km2": 0.3,
     "temp_c": 13.5
    },
    "flavour": {
-    "text": "The Mary E. Surratt Boarding House in Washington, D.C. was the site of meetings of conspirators to kidnap and subsequently to assassinate U.S. President…",
+    "text": "President's Park, located in downtown Washington, D.C., encompasses the White House and includes the Eisenhower Executive Office Building.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Mary E. Surratt Boarding House",
-    "url": "https://en.wikipedia.org/wiki/Mary_E._Surratt_Boarding_House",
+    "title": "President's Park",
+    "url": "https://en.wikipedia.org/wiki/President%27s_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q15249539.webp",
-    "author": "Difference engine",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mary_E._Surratt_Boarding_House.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1293993",
-   "name": "Mike O'Callaghan–Pat Tillman Memorial Bridge",
-   "label": "Mike O'Callaghan–Pat Tillman Memorial Bridge",
-   "type": "built",
-   "kind": "arch bridge",
-   "region": "US-NV",
-   "country": "US",
-   "lat": 36.0125,
-   "lon": -114.7414,
-   "rarity": "Epic",
-   "fame": 52476,
-   "facts": {
-    "elevation_m": 225,
-    "length_km": 0.6,
-    "temp_c": 20.8
-   },
-   "flavour": {
-    "text": "The Mike O'Callaghan–Pat Tillman Memorial Bridge is an arch bridge that spans the Colorado River between the U.S. states of Arizona and Nevada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mike O'Callaghan–Pat Tillman Memorial Bridge",
-    "url": "https://en.wikipedia.org/wiki/Mike_O%27Callaghan%E2%80%93Pat_Tillman_Memorial_Bridge",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1293993.webp",
-    "author": "Mariordo (Mario Roberto Durán Ortiz)",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mike_O%27Callaghan%E2%80%93Pat_Tillman_Memorial_Bridge_09_2017_4768.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5500102",
-   "name": "Free State of Galveston",
-   "label": "Free State of Galveston",
-   "type": "built",
-   "kind": "seaside resort",
-   "region": "US-TX",
-   "country": "US",
-   "lat": 29.2811,
-   "lon": -94.8258,
-   "rarity": "Epic",
-   "fame": 18108,
-   "facts": {
-    "elevation_m": 2.0,
-    "temp_c": 20.9
-   },
-   "flavour": {
-    "text": "The Free State of Galveston was a satirical name given to the coastal city of Galveston in the U.S. state of Texas during the early-to-mid-20th century.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Free State of Galveston",
-    "url": "https://en.wikipedia.org/wiki/Free_State_of_Galveston",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5500102.webp",
-    "author": "Tichnor Bros. Inc. Boston Mass",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:BeachBoulevardGalvestonPostcard.jpg"
-   }
-  },
-  {
-   "id": "wd:Q6674508",
-   "name": "Longwood",
-   "label": "Longwood (near Natchez)",
-   "type": "built",
-   "kind": "villa",
-   "region": "US-MS",
-   "country": "US",
-   "lat": 31.5367,
-   "lon": -91.4047,
-   "rarity": "Epic",
-   "fame": 14892,
-   "facts": {
-    "elevation_m": 69,
-    "temp_c": 18.6
-   },
-   "flavour": {
-    "text": "Longwood, also known as Nutt's Folly, is a historic antebellum octagonal mansion located at 140 Lower Woodville Road in Natchez, Mississippi, United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Longwood (Natchez, Mississippi)",
-    "url": "https://en.wikipedia.org/wiki/Longwood_%28Natchez%2C_Mississippi%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6674508.webp",
+    "file": "images/photo/wd_Q916958.webp",
     "author": "Carol M. Highsmith",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Longwood_by_Highsmith_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Lafayette_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1888848",
+   "name": "Michelob Ultra Arena",
+   "label": "Michelob Ultra Arena",
+   "type": "built",
+   "kind": "event venue",
+   "region": "US-NV",
+   "country": "US",
+   "lat": 36.0907,
+   "lon": -115.179,
+   "rarity": "Epic",
+   "fame": 49770,
+   "facts": {
+    "elevation_m": 672,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "Michelob Ultra Arena is a 12,000-seat multi-purpose indoor arena at the Mandalay Bay Resort and Casino, located on the Las Vegas Strip in Paradise, Nevada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Michelob Ultra Arena",
+    "url": "https://en.wikipedia.org/wiki/Michelob_Ultra_Arena",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1888848.webp",
+    "author": "Kris1123",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MandalayBay2010.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5307819",
+   "name": "Driskill Hotel",
+   "label": "Driskill Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-TX",
+   "country": "US",
+   "lat": 30.2681,
+   "lon": -97.7417,
+   "rarity": "Epic",
+   "fame": 18180,
+   "facts": {
+    "elevation_m": 153,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "The Driskill, a Romanesque-style building completed in 1886, is the oldest operating hotel in Austin, Texas, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Driskill Hotel",
+    "url": "https://en.wikipedia.org/wiki/Driskill_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5307819.webp",
+    "author": "Billy Hathorn",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Driskill_Hotel,_Austin,_TX,_2013_IMG_6496.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1657653",
+   "name": "Columbus Air Force Base",
+   "label": "Columbus Air Force Base",
+   "type": "built",
+   "kind": "airbase",
+   "region": "US-MS",
+   "country": "US",
+   "lat": 33.6439,
+   "lon": -88.4439,
+   "rarity": "Epic",
+   "fame": 12312,
+   "facts": {
+    "elevation_m": 56,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "Columbus Air Force Base is a United States Air Force base located in unincorporated Lowndes County, Mississippi, near Columbus.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Columbus Air Force Base",
+    "url": "https://en.wikipedia.org/wiki/Columbus_Air_Force_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1657653.webp",
+    "author": "United States Geological Survey",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Columbusafb-17feb1996.jpg"
    }
   },
   {
@@ -1175,71 +1169,69 @@
    }
   },
   {
-   "id": "wd:Q655014",
-   "name": "Cathedral of Saint Paul, National Shrine of the Apostle Paul",
-   "label": "Cathedral of Saint Paul, National Shrine of the Apostle Paul",
+   "id": "wd:Q480993",
+   "name": "Fort Snelling",
+   "label": "Fort Snelling",
    "type": "built",
-   "kind": "cathedral",
+   "kind": "fort",
    "region": "US-MN",
    "country": "US",
-   "lat": 44.9469,
-   "lon": -93.1089,
+   "lat": 44.8928,
+   "lon": -93.1806,
    "rarity": "Epic",
-   "fame": 41028,
+   "fame": 37170,
    "facts": {
-    "elevation_m": 277,
-    "height_m": 93,
-    "length_km": 0.1,
-    "temp_c": 7.5
+    "elevation_m": 241,
+    "temp_c": 7.6
    },
    "flavour": {
-    "text": "It is the co-cathedral of the Archdiocese of Saint Paul and Minneapolis, along with the Basilica of Saint Mary in Minneapolis.",
+    "text": "Fort Snelling is a former military fortification and National Historic Landmark in the U.S. state of Minnesota on the bluffs overlooking the confluence of the…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cathedral of Saint Paul (Minnesota)",
-    "url": "https://en.wikipedia.org/wiki/Cathedral_of_Saint_Paul_%28Minnesota%29",
+    "title": "Fort Snelling",
+    "url": "https://en.wikipedia.org/wiki/Fort_Snelling",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q655014.webp",
-    "author": "AlexiusHoratius",
+    "file": "images/photo/wd_Q480993.webp",
+    "author": "en:User:The Statue With The Dictionary",
     "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_Paul_(Minnesota)_5.jpg"
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Fortsnellinggrounds.jpg"
    }
   },
   {
-   "id": "wd:Q7076384",
-   "name": "Ochre Court",
-   "label": "Ochre Court",
+   "id": "wd:Q5452450",
+   "name": "First Baptist Church in America",
+   "label": "First Baptist Church in America",
    "type": "built",
-   "kind": "villa",
+   "kind": "Protestant church building",
    "region": "US-RI",
    "country": "US",
-   "lat": 41.4738,
-   "lon": -71.2989,
+   "lat": 41.8272,
+   "lon": -71.4081,
    "rarity": "Epic",
-   "fame": 19530,
+   "fame": 20958,
    "facts": {
-    "elevation_m": 21,
+    "elevation_m": 12,
     "temp_c": 10.3
    },
    "flavour": {
-    "text": "Commissioned by Ogden Goelet, it was built at a cost of $4.5 million in 1892.",
+    "text": "The First Baptist Church in America, also known as the First Baptist Church of Providence or the First Baptist Meetinghouse.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ochre Court",
-    "url": "https://en.wikipedia.org/wiki/Ochre_Court",
+    "title": "First Baptist Church in America",
+    "url": "https://en.wikipedia.org/wiki/First_Baptist_Church_in_America",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7076384.webp",
-    "author": "Dennis Heller",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ochre_Court,_Newport.jpg"
+    "file": "images/photo/wd_Q5452450.webp",
+    "author": "Filetime",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:First_Baptist_Church_in_America_from_Angell_St.jpg"
    }
   },
   {
@@ -1277,36 +1269,37 @@
    }
   },
   {
-   "id": "wd:Q7179385",
-   "name": "Petty Island",
-   "label": "Petty Island",
+   "id": "wd:Q7332454",
+   "name": "Round Valley Reservoir",
+   "label": "Round Valley Reservoir",
    "type": "nature",
-   "kind": "island",
+   "kind": "lake",
    "region": "US-NJ",
    "country": "US",
-   "lat": 39.9647,
-   "lon": -75.1031,
+   "lat": 40.6139,
+   "lon": -74.8227,
    "rarity": "Epic",
-   "fame": 8568,
+   "fame": 9618,
    "facts": {
-    "elevation_m": 11,
-    "temp_c": 12.7
+    "elevation_m": 116,
+    "area_km2": 9.3,
+    "temp_c": 10.8
    },
    "flavour": {
-    "text": "Petty Island is a 292-acre island located in the Delaware River, which forms the border between Pennsylvania and New Jersey in the United States.",
+    "text": "The Round Valley Reservoir in Clinton Township in Hunterdon County, New Jersey, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Petty Island",
-    "url": "https://en.wikipedia.org/wiki/Petty_Island",
+    "title": "Round Valley Reservoir",
+    "url": "https://en.wikipedia.org/wiki/Round_Valley_Reservoir",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7179385.webp",
-    "author": "Doc Searls",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:DelawarePhillyCamdenPettyIslandaerial.jpg"
+    "file": "images/photo/wd_Q7332454.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:RoundValleySign2.JPG"
    }
   },
   {
@@ -1338,78 +1331,78 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q1129457.webp",
-    "author": "The original uploader was Geographer at English Wikipedia .",
+    "author": "Geographer",
     "licence": "CC BY 1.0",
     "licence_url": "https://creativecommons.org/licenses/by/1.0",
     "page": "https://commons.wikimedia.org/wiki/File:Convictlake.jpg"
    }
   },
   {
-   "id": "wd:Q2586389",
-   "name": "Wisteria Island",
-   "label": "Wisteria Island",
+   "id": "wd:Q2905619",
+   "name": "Ballast Key",
+   "label": "Ballast Key",
    "type": "nature",
    "kind": "island",
    "region": "US-FL",
    "country": "US",
-   "lat": 24.5679,
-   "lon": -81.8106,
+   "lat": 24.5243,
+   "lon": -81.964,
    "rarity": "Epic",
-   "fame": 9156,
+   "fame": 9294,
    "facts": {
-    "elevation_m": 2.0,
+    "elevation_m": 0.0,
     "area_km2": 0.1,
-    "length_km": 0.5,
-    "temp_c": 25.2
+    "temp_c": 25.6
    },
    "flavour": {
-    "text": "Wisteria Island is a federally owned, uninhabited island in the lower Florida Keys 645 yards northwest of the northwestern corner of the main island and city…",
+    "text": "It is the southernmost point of land in the contiguous United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wisteria Island",
-    "url": "https://en.wikipedia.org/wiki/Wisteria_Island",
+    "title": "Ballast Key",
+    "url": "https://en.wikipedia.org/wiki/Ballast_Key",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2586389.webp",
-    "author": "Marc Averette",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wisteria_Island.JPG"
+    "file": "images/photo/wd_Q2905619.webp",
+    "author": "Joeschmitty at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ballast_Key.jpg"
    }
   },
   {
-   "id": "wd:Q516606",
-   "name": "Kohala",
-   "label": "Kohala",
+   "id": "wd:Q1501136",
+   "name": "Mokoliʻi",
+   "label": "Mokoliʻi",
    "type": "nature",
-   "kind": "volcano",
+   "kind": "island",
    "region": "US-HI",
    "country": "US",
-   "lat": 20.0861,
-   "lon": -155.7172,
+   "lat": 21.5093,
+   "lon": -157.8295,
    "rarity": "Epic",
-   "fame": 12912,
+   "fame": 13416,
    "facts": {
-    "elevation_m": 1670,
-    "temp_c": 19.1
+    "elevation_m": 63,
+    "area_km2": 0.0,
+    "temp_c": 22.8
    },
    "flavour": {
-    "text": "Kohala is the oldest of five volcanoes that make up the island of Hawaii.",
+    "text": "Mokoliʻi is part of Kualoa Regional Park and located a third of a mile offshore of Kualoa Point, Oahu.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Kohala (mountain)",
-    "url": "https://en.wikipedia.org/wiki/Kohala_%28mountain%29",
+    "title": "Mokoliʻi",
+    "url": "https://en.wikipedia.org/wiki/Mokoli%CA%BBi",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q516606.webp",
-    "author": "US gov",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Kohala_volcano.jpeg"
+    "file": "images/photo/wd_Q1501136.webp",
+    "author": "Caracas1830",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Chinaman%27s_Hat_-_Mokoli%CA%BBi_(O%27ahu).JPG"
    }
   },
   {
@@ -1446,103 +1439,101 @@
    }
   },
   {
-   "id": "wd:Q1538093",
-   "name": "Wolf River",
-   "label": "Wolf River",
+   "id": "wd:Q1542869",
+   "name": "Grand River",
+   "label": "Grand River (near Mobridge)",
    "type": "nature",
    "kind": "river",
-   "region": "US-TN",
+   "region": "US-SD",
    "country": "US",
-   "lat": 35.1829,
-   "lon": -90.0568,
+   "lat": 45.5756,
+   "lon": -100.4672,
    "rarity": "Epic",
-   "fame": 32100,
+   "fame": 11136,
    "facts": {
-    "elevation_m": 62,
-    "length_km": 169,
-    "temp_c": 15.9
+    "elevation_m": 488,
+    "length_km": 303,
+    "temp_c": 6.9
    },
    "flavour": {
-    "text": "The Wolf River is a 105-mile-long alluvial river in western Tennessee and northern Mississippi.",
+    "text": "The length of the combined branch is 110 mi, with its longest fork, its length is approximately 200 mi.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wolf River (Tennessee)",
-    "url": "https://en.wikipedia.org/wiki/Wolf_River_%28Tennessee%29",
+    "title": "Grand River (South Dakota)",
+    "url": "https://en.wikipedia.org/wiki/Grand_River_%28South_Dakota%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1542869.webp"
+   }
+  },
+  {
+   "id": "wd:Q1399312",
+   "name": "Feather River",
+   "label": "Feather River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 38.785,
+   "lon": -121.622,
+   "rarity": "Epic",
+   "fame": 12600,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 270,
+    "temp_c": 16.3
+   },
+   "flavour": {
+    "text": "The Feather River is the principal tributary of the Sacramento River, in the Sacramento Valley of Northern California.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Feather River",
+    "url": "https://en.wikipedia.org/wiki/Feather_River",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1538093.webp",
-    "author": "Gary Bridgman",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Wolf-River-swamp-North-Mississippi.jpg"
+    "file": "images/photo/wd_Q1399312.webp",
+    "author": "Frank Schulenburg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Feather_River_Canyon-3798.jpg"
    }
   },
   {
-   "id": "wd:Q6477226",
-   "name": "Lake Oroville",
-   "label": "Lake Oroville",
+   "id": "wd:Q6476880",
+   "name": "Lake Merced",
+   "label": "Lake Merced",
    "type": "nature",
    "kind": "lake",
    "region": "US-CA",
    "country": "US",
-   "lat": 39.5636,
-   "lon": -121.456,
+   "lat": 37.7208,
+   "lon": -122.4958,
    "rarity": "Epic",
-   "fame": 12624,
+   "fame": 9804,
    "facts": {
-    "elevation_m": 275,
-    "temp_c": 15.0
+    "elevation_m": 7.0,
+    "area_km2": 2.6,
+    "temp_c": 14.1
    },
    "flavour": {
-    "text": "Lake Oroville is a reservoir formed by the Oroville Dam impounding the Feather River, located in Butte County, northern California.",
+    "text": "Lake Merced is a freshwater lake located on the West Side of San Francisco, in the southwest corner of the city.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lake Oroville",
-    "url": "https://en.wikipedia.org/wiki/Lake_Oroville",
+    "title": "Lake Merced",
+    "url": "https://en.wikipedia.org/wiki/Lake_Merced",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6477226.webp",
-    "author": "Podruznik at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_oroville_in_butte_county.JPG"
-   }
-  },
-  {
-   "id": "wd:Q2843378",
-   "name": "Crowley Lake",
-   "label": "Crowley Lake",
-   "type": "nature",
-   "kind": "lake",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 37.611,
-   "lon": -118.7412,
-   "rarity": "Epic",
-   "fame": 9828,
-   "facts": {
-    "elevation_m": 2063,
-    "temp_c": 5.6
-   },
-   "flavour": {
-    "text": "Crowley Lake is a reservoir on the upper Owens River in southern Mono County, California, in the United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Crowley Lake",
-    "url": "https://en.wikipedia.org/wiki/Crowley_Lake",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2843378.webp",
-    "author": "Clinton Steeds",
+    "file": "images/photo/wd_Q6476880.webp",
+    "author": "Isabell Schulz",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Crowley_Lake_evening.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Merced_at_SFSU.jpg"
    }
   },
   {
@@ -1852,7 +1843,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_4159839.webp",
-    "author": "User:Ex1le",
+    "author": "Ex1le",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Islamorada_Florida.jpg"
@@ -1962,36 +1953,36 @@
    }
   },
   {
-   "id": "wd:Q461382",
-   "name": "Karl G. Jansky Very Large Array",
-   "label": "Karl G. Jansky Very Large Array",
+   "id": "wd:Q342057",
+   "name": "Pueblo of Acoma",
+   "label": "Pueblo of Acoma",
    "type": "built",
-   "kind": "combined facility",
+   "kind": "federally recognized Native American tribe in the United States",
    "region": "US-NM",
    "country": "US",
-   "lat": 34.0787,
-   "lon": -107.6177,
+   "lat": 34.8972,
+   "lon": -107.5824,
    "rarity": "Legendary",
-   "fame": 84984,
+   "fame": 74586,
    "facts": {
-    "elevation_m": 2124,
-    "temp_c": 9.3
+    "elevation_m": 2000,
+    "temp_c": 10.7
    },
    "flavour": {
-    "text": "The Karl G. Jansky Very Large Array is a centimeter-wavelength radio astronomy observatory in the southwestern United States built in the 1970s.",
+    "text": "Acoma Pueblo is a Keres Indigenous American pueblo approximately 60 miles west of Albuquerque, New Mexico, in the United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Very Large Array",
-    "url": "https://en.wikipedia.org/wiki/Very_Large_Array",
+    "title": "Acoma Pueblo",
+    "url": "https://en.wikipedia.org/wiki/Acoma_Pueblo",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q461382.webp",
-    "author": "user:Hajor",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:USA.NM.VeryLargeArray.02.jpg"
+    "file": "images/photo/wd_Q342057.webp",
+    "author": "Scott Catron",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Acoma_Pueblo_Sky_City_2.jpg"
    }
   },
   {
@@ -2062,37 +2053,36 @@
    }
   },
   {
-   "id": "wd:Q2631701",
-   "name": "Central Park Tower",
-   "label": "Central Park Tower",
+   "id": "wd:Q1022965",
+   "name": "CBGB",
+   "label": "CBGB",
    "type": "built",
-   "kind": "supertall building",
+   "kind": "music venue",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.7663,
-   "lon": -73.9809,
+   "lat": 40.7253,
+   "lon": -73.9919,
    "rarity": "Legendary",
-   "fame": 260904,
+   "fame": 246276,
    "facts": {
-    "elevation_m": 67,
-    "height_m": 472,
+    "elevation_m": 29,
     "temp_c": 12.1
    },
    "flavour": {
-    "text": "Central Park Tower is a residential supertall skyscraper at 217 West 57th Street, along Billionaires' Row.",
+    "text": "CBGB was a New York City music club opened in 1973 by Hilly Kristal and his ex-wife Karen Kristal at 315 Bowery in the East Village in Manhattan, New York City.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Central Park Tower",
-    "url": "https://en.wikipedia.org/wiki/Central_Park_Tower",
+    "title": "CBGB",
+    "url": "https://en.wikipedia.org/wiki/CBGB",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2631701.webp",
-    "author": "GrissJr",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CentralParkTowerSep20.jpg"
+    "file": "images/photo/wd_Q1022965.webp",
+    "author": "Adicarlo at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:CBGB_club_facade.jpg"
    }
   },
   {
@@ -2125,70 +2115,69 @@
    }
   },
   {
-   "id": "wd:Q941908",
-   "name": "3 World Trade Center",
-   "label": "3 World Trade Center",
+   "id": "wd:Q7013764",
+   "name": "New York Military Academy",
+   "label": "New York Military Academy",
    "type": "built",
-   "kind": "skyscraper",
+   "kind": "military academy",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.7109,
-   "lon": -74.0116,
+   "lat": 41.4483,
+   "lon": -74.0275,
    "rarity": "Legendary",
-   "fame": 76506,
+   "fame": 76254,
    "facts": {
-    "elevation_m": 1.0,
-    "height_m": 329,
-    "temp_c": 12.1
+    "elevation_m": 57,
+    "temp_c": 9.8
    },
    "flavour": {
-    "text": "3 World Trade Center is a skyscraper constructed as part of the new World Trade Center in Lower Manhattan, New York City.",
+    "text": "NYMA is one of the oldest military schools in the United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "3 World Trade Center",
-    "url": "https://en.wikipedia.org/wiki/3_World_Trade_Center",
+    "title": "New York Military Academy",
+    "url": "https://en.wikipedia.org/wiki/New_York_Military_Academy",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q941908.webp",
-    "author": "dconvertini",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Looking_up_at_3_and_4_World_Trade_Center_(straightened,_cropped,_3).jpg"
+    "file": "images/photo/wd_Q7013764.webp",
+    "author": "Daniel Case",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:New_York_Military_Academy_Main_Gate_(2006-05-22).jpg"
    }
   },
   {
-   "id": "wd:Q1309059",
-   "name": "Wynn Las Vegas",
-   "label": "Wynn Las Vegas",
+   "id": "wd:Q845846",
+   "name": "The STRAT Hotel, Casino & SkyPod",
+   "label": "The STRAT Hotel, Casino & SkyPod",
    "type": "built",
    "kind": "casino",
    "region": "US-NV",
    "country": "US",
-   "lat": 36.1275,
-   "lon": -115.1678,
+   "lat": 36.1475,
+   "lon": -115.156,
    "rarity": "Legendary",
-   "fame": 98346,
+   "fame": 95952,
    "facts": {
-    "elevation_m": 635,
-    "temp_c": 18.8
+    "elevation_m": 630,
+    "temp_c": 20.1
    },
    "flavour": {
-    "text": "Wynn Las Vegas, often simply referred to as Wynn, is a luxury resort and casino located on the Las Vegas Strip in Paradise, Nevada, United States.",
+    "text": "It includes a 1,149-foot-tall observation tower, the tallest in the United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wynn Las Vegas",
-    "url": "https://en.wikipedia.org/wiki/Wynn_Las_Vegas",
+    "title": "The Strat",
+    "url": "https://en.wikipedia.org/wiki/The_Strat",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1309059.webp",
-    "author": "Alexander Migl",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Las_Vegas_Wynn_P4220706.jpg"
+    "file": "images/photo/wd_Q845846.webp",
+    "author": "Original uploader was Timjarrett at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Stratosphere_Las_Vegas_-_November_2003.jpg"
    }
   },
   {
@@ -2219,7 +2208,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q166755.webp",
-    "author": "Jan van der Crabben (Photographer)",
+    "author": "Jan van der Crabben",
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Blue_Ridge_NC.jpg"
@@ -2261,73 +2250,71 @@
    }
   },
   {
-   "id": "wd:Q630566",
-   "name": "Catskill Mountains",
-   "label": "Catskill Mountains",
+   "id": "wd:Q909777",
+   "name": "Roosevelt Island",
+   "label": "Roosevelt Island",
    "type": "nature",
-   "kind": "mountain range",
+   "kind": "island",
    "region": "US-NY",
    "country": "US",
-   "lat": 41.9986,
-   "lon": -74.3864,
+   "lat": 40.7626,
+   "lon": -73.9493,
    "rarity": "Legendary",
-   "fame": 250572,
+   "fame": 229398,
    "facts": {
-    "elevation_m": 1274,
-    "area_km2": 15259,
-    "length_km": 180,
-    "temp_c": 6.5
+    "elevation_m": 1.5,
+    "area_km2": 0.6,
+    "length_km": 3.2,
+    "temp_c": 12.1
    },
    "flavour": {
-    "text": "The Catskill Mountains, also known as the Catskills, are a physiographic province and subrange of the larger Appalachian Mountains.",
+    "text": "It lies between Manhattan Island to the west, and the borough of Queens, on Long Island, to the east.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Catskill Mountains",
-    "url": "https://en.wikipedia.org/wiki/Catskill_Mountains",
+    "title": "Roosevelt Island",
+    "url": "https://en.wikipedia.org/wiki/Roosevelt_Island",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q630566.webp",
-    "author": "The original uploader was Daniel Case at English Wikipedia .",
+    "file": "images/photo/wd_Q909777.webp",
+    "author": "Jonathan Laventhol",
     "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Central_Catskills_from_Twin_south_summit.jpg"
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roosevelt-Island-Queensboro-Bridge.jpg"
    }
   },
   {
-   "id": "wd:Q654515",
-   "name": "Lake Mead",
-   "label": "Lake Mead",
+   "id": "wd:Q629140",
+   "name": "Devils Hole",
+   "label": "Devils Hole",
    "type": "nature",
    "kind": "lake",
    "region": "US-NV",
    "country": "US",
-   "lat": 36.25,
-   "lon": -114.39,
+   "lat": 36.4254,
+   "lon": -116.2914,
    "rarity": "Legendary",
-   "fame": 187896,
+   "fame": 104100,
    "facts": {
-    "elevation_m": 372,
-    "area_km2": 640,
-    "length_km": 180,
-    "temp_c": 20.9
+    "elevation_m": 743,
+    "temp_c": 17.3
    },
    "flavour": {
-    "text": "Lake Mead is a reservoir formed by the Hoover Dam on the Colorado River in the Southwestern United States.",
+    "text": "Devils Hole is a geologic formation located in a detached unit of Death Valley National Park and surrounded by the Ash Meadows National Wildlife Refuge.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lake Mead",
-    "url": "https://en.wikipedia.org/wiki/Lake_Mead",
+    "title": "Devils Hole",
+    "url": "https://en.wikipedia.org/wiki/Devils_Hole",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q654515.webp",
-    "author": "NASA, USGS",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Mead_in_July_2022_by_Landsat.jpg"
+    "file": "images/photo/wd_Q629140.webp",
+    "author": "Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Devils_Hole_6.jpg"
    }
   },
   {
@@ -2358,45 +2345,41 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q219562.webp",
-    "author": "Luca Galuzzi ( Lucag )",
+    "author": "Luca Galuzzi (Lucag)",
     "licence": "CC BY-SA 2.5",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg"
    }
   },
   {
-   "id": "wd:Q2646503",
-   "name": "Hart Island",
-   "label": "Hart Island",
+   "id": "wd:Q2099672",
+   "name": "Plum Island",
+   "label": "Plum Island (near Niantic)",
    "type": "nature",
    "kind": "island",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.8545,
-   "lon": -73.7704,
+   "lat": 41.1809,
+   "lon": -72.1934,
    "rarity": "Legendary",
-   "fame": 104472,
+   "fame": 91056,
    "facts": {
-    "elevation_m": 5.0,
-    "area_km2": 0.5,
-    "length_km": 1.5,
-    "temp_c": 11.3
+    "elevation_m": 15,
+    "area_km2": 3.4,
+    "length_km": 4.8,
+    "temp_c": 10.3
    },
    "flavour": {
-    "text": "Hart Island, sometimes referred to as Hart's Island, is located at the western end of Long Island Sound, in the northeastern Bronx in New York City.",
+    "text": "The island is situated in Gardiners Bay, east of Orient Point, off the eastern end of the North Fork coast of Long Island.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Hart Island",
-    "url": "https://en.wikipedia.org/wiki/Hart_Island",
+    "title": "Plum Island (New York)",
+    "url": "https://en.wikipedia.org/wiki/Plum_Island_%28New_York%29",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2646503.webp",
-    "author": "Bjoertvedt",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hart_Island,_Bronx,_2012_(cropped).JPG"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2099672.webp"
    }
   },
   {
@@ -2673,7 +2656,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_5393212.webp",
-    "author": "Mike Gonzalez ( TheCoffee )",
+    "author": "Mike Gonzalez (TheCoffee)",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ocean_Avenue.jpg"
@@ -2750,36 +2733,37 @@
    }
   },
   {
-   "id": "wd:Q6799881",
-   "name": "McAlester Arboretum",
-   "label": "McAlester Arboretum",
+   "id": "wd:Q14704300",
+   "name": "Harry S. Truman Bridge",
+   "label": "Harry S. Truman Bridge",
    "type": "built",
-   "kind": "botanical garden",
+   "kind": "railway bridge",
    "region": "US-MO",
    "country": "US",
-   "lat": 38.9482,
-   "lon": -92.3298,
+   "lat": 39.1447,
+   "lon": -94.4847,
    "rarity": "Rare",
-   "fame": 426,
+   "fame": 708,
    "facts": {
-    "elevation_m": 221,
-    "temp_c": 12.3
+    "elevation_m": 216,
+    "length_km": 0.8,
+    "temp_c": 12.6
    },
    "flavour": {
-    "text": "Peace Park also known as McAlester Arboretum is a park and arboretum located on the University of Missouri campus in Columbia, Missouri, United States.",
+    "text": "The Harry S Truman Bridge is a vertical lift rail drawbridge over the Missouri River connecting Jackson County, Missouri with Clay County.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Peace Park (Missouri)",
-    "url": "https://en.wikipedia.org/wiki/Peace_Park_%28Missouri%29",
+    "title": "Harry S. Truman Bridge",
+    "url": "https://en.wikipedia.org/wiki/Harry_S._Truman_Bridge",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6799881.webp",
-    "author": "Grey Wanderer",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Monkey_house_at_peace_park.jpg"
+    "file": "images/photo/wd_Q14704300.webp",
+    "author": "Evitcepsrep",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harry_S._Truman_Bridge_from_the_West_(cropped).jpg"
    }
   },
   {
@@ -2809,366 +2793,375 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q7626122.webp",
-    "author": "Saint_Paul_Island,_Alaska_3.jpg : Jim Greenhill from Arlington and Durango, USA derivative work: Charvex ( talk )",
+    "author": "Saint_Paul_Island,_Alaska_3.jpg: Jim Greenhill from Arlington and…",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sts_Peter_and_Paul_Church_Saint_Paul_Island,_Alaska.jpg"
    }
   },
   {
-   "id": "wd:Q23018143",
-   "name": "Pike Island Locks and Dam",
-   "label": "Pike Island Locks and Dam",
+   "id": "wd:Q4552487",
+   "name": "1717 East Ninth Building",
+   "label": "1717 East Ninth Building",
    "type": "built",
-   "kind": "gravity dam",
+   "kind": "apartment building",
    "region": "US-OH",
    "country": "US",
-   "lat": 40.1504,
-   "lon": -80.7034,
+   "lat": 41.5021,
+   "lon": -81.688,
    "rarity": "Rare",
-   "fame": 1074,
+   "fame": 1122,
    "facts": {
-    "elevation_m": 196,
-    "temp_c": 10.7
+    "elevation_m": 206,
+    "temp_c": 10.3
    },
    "flavour": {
-    "text": "Pike Island Lock and Dam is the fifth lock and dam on the Ohio River, located in Yorkville, Ohio 84 miles downstream of Pittsburgh.",
+    "text": "1717 East Ninth Building, also known as the East Ohio Building, is a skyscraper in Downtown Cleveland, the U.S. state of Ohio's emerging Nine-Twelve District.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Pike Island Locks and Dam",
-    "url": "https://en.wikipedia.org/wiki/Pike_Island_Locks_and_Dam",
+    "title": "1717 East Ninth Building",
+    "url": "https://en.wikipedia.org/wiki/1717_East_Ninth_Building",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q23018143.webp",
-    "author": "Army corps of engineers",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Pike_Island_Locks_and_Dam.jpeg"
+    "file": "images/photo/wd_Q4552487.webp",
+    "author": "Ohio Office of Redevelopment",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:East_Ohio_Building.jpg"
    }
   },
   {
-   "id": "wd:Q6164234",
-   "name": "Houses at 26, 28 and 30 Jones Street",
-   "label": "Houses at 26, 28 and 30 Jones Street",
+   "id": "wd:Q7228233",
+   "name": "Pontiac Hotel",
+   "label": "Pontiac Hotel",
    "type": "built",
-   "kind": "terrace of houses",
+   "kind": "hotel",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.7318,
-   "lon": -74.0028,
+   "lat": 43.4372,
+   "lon": -76.5103,
    "rarity": "Rare",
-   "fame": 546,
+   "fame": 516,
    "facts": {
-    "elevation_m": 12,
-    "temp_c": 12.1
+    "elevation_m": 103,
+    "temp_c": 8.3
    },
    "flavour": {
-    "text": "26, 28, and 30 Jones Street are three historic Greek Revival-style rowhouses on Jones Street in the Greenwich Village neighborhood of Manhattan in New York…",
+    "text": "It was built in 1912 and designed by the office of architect George B. Post.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "26, 28, and 30 Jones Street",
-    "url": "https://en.wikipedia.org/wiki/26%2C_28%2C_and_30_Jones_Street",
+    "title": "Pontiac Hotel",
+    "url": "https://en.wikipedia.org/wiki/Pontiac_Hotel",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6164234.webp",
-    "author": "Pubdog ( talk )",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Houses_at_26,_28_and_30_Jones_Street_Jun_10.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5578981",
-   "name": "Golda's Mill",
-   "label": "Golda's Mill",
-   "type": "built",
-   "kind": "watermill",
-   "region": "US-OK",
-   "country": "US",
-   "lat": 35.8594,
-   "lon": -94.7647,
-   "rarity": "Rare",
-   "fame": 486,
-   "facts": {
-    "elevation_m": 266,
-    "temp_c": 14.9
-   },
-   "flavour": {
-    "text": "It was built in about 1882 by Dr. Nicholas Bitting on the site of an older mill.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Golda's Mill",
-    "url": "https://en.wikipedia.org/wiki/Golda%27s_Mill",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5578981.webp",
-    "author": "Don C Hodges",
+    "file": "images/photo/wd_Q7228233.webp",
+    "author": "LoganTheHammer",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Golda%27s_Mill_near_Stilwell,_Oklahoma.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pontiac_Hotel_Oswego.jpg"
    }
   },
   {
-   "id": "wd:Q6815429",
-   "name": "Memorial Hall",
-   "label": "Memorial Hall (near Kansas City)",
+   "id": "wd:Q785384",
+   "name": "Camp Nichols",
+   "label": "Camp Nichols",
    "type": "built",
-   "kind": "auditorium",
+   "kind": "fort",
+   "region": "US-OK",
+   "country": "US",
+   "lat": 36.7545,
+   "lon": -102.9263,
+   "rarity": "Rare",
+   "fame": 1182,
+   "facts": {
+    "elevation_m": 1406,
+    "temp_c": 12.2
+   },
+   "flavour": {
+    "text": "Camp Nichols, also known as Fort Nichols or Camp Nichols Ranch, was a short-lived historic fortification located in present-day Cimarron County, Oklahoma.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Camp Nichols",
+    "url": "https://en.wikipedia.org/wiki/Camp_Nichols",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q785384.webp",
+    "author": "TulGuy",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Nichols_Wikipedia_2024.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7284591",
+   "name": "Rainbow Bridge",
+   "label": "Rainbow Bridge (near Baxter Springs)",
+   "type": "built",
+   "kind": "road bridge",
    "region": "US-KS",
    "country": "US",
-   "lat": 39.1124,
-   "lon": -94.6276,
+   "lat": 37.0734,
+   "lon": -94.7406,
    "rarity": "Rare",
-   "fame": 5184,
+   "fame": 3504,
    "facts": {
-    "elevation_m": 262,
-    "temp_c": 13.0
-   },
-   "flavour": {
-    "text": "The 3,500-seat auditorium, which has a permanent stage, is used for public assemblies, concerts and sporting events.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Memorial Hall (Kansas City, Kansas)",
-    "url": "https://en.wikipedia.org/wiki/Memorial_Hall_%28Kansas_City%2C_Kansas%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6815429.webp",
-    "author": "Nja1985",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Memorial_Building_(front).JPG"
-   }
-  },
-  {
-   "id": "wd:Q8022343",
-   "name": "Willow Park Stable",
-   "label": "Willow Park Stable",
-   "type": "built",
-   "kind": "stable",
-   "region": "US-CO",
-   "country": "US",
-   "lat": 40.4336,
-   "lon": -105.7331,
-   "rarity": "Rare",
-   "fame": 282,
-   "facts": {
-    "elevation_m": 3300,
-    "temp_c": -0.5
-   },
-   "flavour": {
-    "text": "The Willow Park Stable in Rocky Mountain National Park was designed by National Park Service landscape architect Daniel Ray Hull and built in 1926.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Willow Park Stable",
-    "url": "https://en.wikipedia.org/wiki/Willow_Park_Stable",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q8022343.webp"
-   }
-  },
-  {
-   "id": "wd:Q6505710",
-   "name": "Layton Bridge",
-   "label": "Layton Bridge",
-   "type": "built",
-   "kind": "bridge",
-   "region": "US-PA",
-   "country": "US",
-   "lat": 40.0892,
-   "lon": -79.7303,
-   "rarity": "Rare",
-   "fame": 1152,
-   "facts": {
-    "elevation_m": 242,
-    "temp_c": 10.5
-   },
-   "flavour": {
-    "text": "Originally built for the Washington Run Railroad, construction began 1893 and was completed in 1899.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Layton Bridge",
-    "url": "https://en.wikipedia.org/wiki/Layton_Bridge",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6505710.webp",
-    "author": "PennDOT",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Layton_Bridge.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7092888",
-   "name": "One Maritime Plaza",
-   "label": "One Maritime Plaza",
-   "type": "built",
-   "kind": "skyscraper",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 37.7956,
-   "lon": -122.3992,
-   "rarity": "Rare",
-   "fame": 6306,
-   "facts": {
-    "elevation_m": 4.0,
+    "elevation_m": 249,
+    "length_km": 0.0,
     "temp_c": 14.1
    },
    "flavour": {
-    "text": "One Maritime Plaza is an office tower located in San Francisco's Financial District near the Embarcadero Center towers on Clay and Front Streets.",
+    "text": "The Rainbow Bridge is an old bridge over Brush Creek approximately two miles west of Riverton, Kansas on former U.S. Route 66, now a county road.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "One Maritime Plaza",
-    "url": "https://en.wikipedia.org/wiki/One_Maritime_Plaza",
+    "title": "Rainbow Bridge (Kansas)",
+    "url": "https://en.wikipedia.org/wiki/Rainbow_Bridge_%28Kansas%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7092888.webp",
-    "author": "Blackguard SF",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:One_Maritime_Plaza,_San_Francisco.jpg"
+    "file": "images/photo/wd_Q7284591.webp",
+    "author": "Michael Overton",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Rainbow_Curve_Bridge_2006-07-03.jpg"
    }
   },
   {
-   "id": "wd:Q130783869",
-   "name": "Alcove",
-   "label": "Alcove",
+   "id": "wd:Q106977644",
+   "name": "Anderson Barn",
+   "label": "Anderson Barn",
    "type": "built",
-   "kind": "building",
-   "region": "US-TN",
+   "kind": "barn",
+   "region": "US-CO",
    "country": "US",
-   "lat": 36.1614,
-   "lon": -86.7847,
+   "lat": 40.3365,
+   "lon": -104.9555,
    "rarity": "Rare",
-   "fame": 798,
+   "fame": 246,
    "facts": {
-    "elevation_m": 153,
-    "temp_c": 14.9
+    "elevation_m": 1514,
+    "temp_c": 9.4
    },
    "flavour": {
-    "text": "Construction started in 2021 and finished in 2023 after originally being proposed in 2020.",
+    "text": "The Anderson Barn near Johnstown in Weld County, Colorado, also known as the Carlson Barn, is a gambrel-roofed ornamental block building built in 1913.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Alcove (Nashville)",
-    "url": "https://en.wikipedia.org/wiki/Alcove_%28Nashville%29",
+    "title": "Anderson Barn (Johnstown, Colorado)",
+    "url": "https://en.wikipedia.org/wiki/Anderson_Barn_%28Johnstown%2C_Colorado%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q130783869.webp",
-    "author": "Wobbanight",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Alcove_Nashville.jpg"
+    "file": "images/photo/wd_Q106977644.webp",
+    "author": "Jeffrey Beall",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anderson_Barn.JPG"
    }
   },
   {
-   "id": "wd:Q64214446",
-   "name": "First Security Bank Building",
-   "label": "First Security Bank Building",
+   "id": "wd:Q4551215",
+   "name": "1616 Walnut Street Building",
+   "label": "1616 Walnut Street Building",
    "type": "built",
-   "kind": "bank building",
-   "region": "US-UT",
+   "kind": "office building",
+   "region": "US-PA",
    "country": "US",
-   "lat": 40.76,
-   "lon": -111.8897,
+   "lat": 39.9497,
+   "lon": -75.1686,
    "rarity": "Rare",
-   "fame": 618,
+   "fame": 1158,
    "facts": {
-    "elevation_m": 1302,
-    "temp_c": 11.2
+    "elevation_m": 24,
+    "temp_c": 12.6
    },
    "flavour": {
-    "text": "The First Security Bank Building in Salt Lake City, Utah, is a 12-story International Style commercial structure built in 1954.",
+    "text": "The 1616 Walnut Street Building or 1616 Building is a historic apartment community building in the Center City area of Philadelphia, Pennsylvania.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "First Security Bank Building",
-    "url": "https://en.wikipedia.org/wiki/First_Security_Bank_Building",
+    "title": "1616 Walnut Street Building",
+    "url": "https://en.wikipedia.org/wiki/1616_Walnut_Street_Building",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q64214446.webp",
-    "author": "Tamanoeconomico",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:First_Security_Bank_Building_(1).jpg"
-   }
-  },
-  {
-   "id": "wd:Q5284760",
-   "name": "Dix Dam",
-   "label": "Dix Dam",
-   "type": "built",
-   "kind": "dam",
-   "region": "US-KY",
-   "country": "US",
-   "lat": 37.7853,
-   "lon": -84.7039,
-   "rarity": "Rare",
-   "fame": 1320,
-   "facts": {
-    "elevation_m": 223,
-    "temp_c": 12.9
-   },
-   "flavour": {
-    "text": "It was constructed to generate hydroelectricity and prevent flooding of the Kentucky River but is better known for creating Herrington Lake.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Dix Dam",
-    "url": "https://en.wikipedia.org/wiki/Dix_Dam",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5284760.webp"
-   }
-  },
-  {
-   "id": "wd:Q5130714",
-   "name": "Clear Fork Brazos River",
-   "label": "Clear Fork Brazos River",
-   "type": "nature",
-   "kind": "river",
-   "region": "US-TX",
-   "country": "US",
-   "lat": 33.016,
-   "lon": -98.6689,
-   "rarity": "Rare",
-   "fame": 2940,
-   "facts": {
-    "elevation_m": 310,
-    "length_km": 60,
-    "temp_c": 17.6
-   },
-   "flavour": {
-    "text": "The Clear Fork Brazos River is the longest tributary of the Brazos River of Texas.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Clear Fork Brazos River",
-    "url": "https://en.wikipedia.org/wiki/Clear_Fork_Brazos_River",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5130714.webp",
-    "author": "Joseph E.. Elliott, Photographer",
+    "file": "images/photo/wd_Q4551215.webp",
+    "author": "Smallbones",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Fort_Griffin_Iron_Truss_Bridge,_Spanning_Clear_Fork_of_Brazos_River_at_County_Rout,_Fort_Griffin_vicinity_(Shackelford_County,_Texas).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:1616_Walnut.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7208119",
+   "name": "Point Pinos Lighthouse",
+   "label": "Point Pinos Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 36.6334,
+   "lon": -121.934,
+   "rarity": "Rare",
+   "fame": 6180,
+   "facts": {
+    "elevation_m": 10,
+    "height_m": 13,
+    "temp_c": 13.0
+   },
+   "flavour": {
+    "text": "Automated in 1975, Port Pinos retains its original third order Fresnel lens, but is surrounded today by the Pacific Grove Municipal Golf Links.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Point Pinos Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Point_Pinos_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7208119.webp",
+    "author": "Frank Schulenburg",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Point_Pinos_Light_during_reconstruction_(2013).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7588676",
+   "name": "St. John's Episcopal Church",
+   "label": "St. John's Episcopal Church (near Mount Pleasant)",
+   "type": "built",
+   "kind": "church",
+   "region": "US-TN",
+   "country": "US",
+   "lat": 35.5742,
+   "lon": -87.1389,
+   "rarity": "Rare",
+   "fame": 852,
+   "facts": {
+    "elevation_m": 216,
+    "temp_c": 14.5
+   },
+   "flavour": {
+    "text": "Built from 1839 to 1842 by Bishop Leonidas Polk, it was an active church in the Antebellum South.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. John's Episcopal Church (Ashwood, Tennessee)",
+    "url": "https://en.wikipedia.org/wiki/St._John%27s_Episcopal_Church_%28Ashwood%2C_Tennessee%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7588676.webp",
+    "author": "Hal Jespersen",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:St._John%27s_Church_Columbia_TN.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5332692",
+   "name": "Echo Dam",
+   "label": "Echo Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "US-UT",
+   "country": "US",
+   "lat": 40.966,
+   "lon": -111.43,
+   "rarity": "Rare",
+   "fame": 630,
+   "facts": {
+    "elevation_m": 1691,
+    "temp_c": 6.2
+   },
+   "flavour": {
+    "text": "Echo Dam is a dam in Summit County, Utah, standing about six miles north of Coalville and creating Echo Reservoir.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Echo Dam",
+    "url": "https://en.wikipedia.org/wiki/Echo_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5332692.webp",
+    "author": "Mr. Satterly",
+    "licence": "WTFPL",
+    "licence_url": "http://www.wtfpl.net/about/",
+    "page": "https://commons.wikimedia.org/wiki/File:Echo_Reservoir_and_Echo_Dam_seen_from_Interstate_80_in_Summit_County,_Utah.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5117802",
+   "name": "Church of the Ascension",
+   "label": "Church of the Ascension (near Mount Sterling)",
+   "type": "built",
+   "kind": "church",
+   "region": "US-KY",
+   "country": "US",
+   "lat": 38.0572,
+   "lon": -83.9433,
+   "rarity": "Rare",
+   "fame": 354,
+   "facts": {
+    "elevation_m": 305,
+    "temp_c": 12.2
+   },
+   "flavour": {
+    "text": "It was built in 1878 and added to the National Register in 1979.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church of the Ascension (Mt. Sterling, Kentucky)",
+    "url": "https://en.wikipedia.org/wiki/Church_of_the_Ascension_%28Mt._Sterling%2C_Kentucky%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5117802.webp",
+    "author": "Nyttend",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_the_Ascension,_Mount_Sterling.jpg"
+   }
+  },
+  {
+   "id": "wd:Q118876029",
+   "name": "Mount Old Baldy",
+   "label": "Mount Old Baldy",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-TX",
+   "country": "US",
+   "lat": 29.5755,
+   "lon": -99.7299,
+   "rarity": "Rare",
+   "fame": 3036,
+   "facts": {
+    "elevation_m": 550,
+    "temp_c": 18.9
+   },
+   "flavour": {
+    "text": "Mount Ol' Baldy is a hill located in Garner State Park, near the community of Concan, in Uvalde County, Texas, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Old Baldy",
+    "url": "https://en.wikipedia.org/wiki/Mount_Old_Baldy",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q118876029.webp",
+    "author": "Corey Leopold",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_Baldy_and_the_Frio_River.jpg"
    }
   },
   {
@@ -3238,227 +3231,230 @@
    }
   },
   {
-   "id": "wd:Q4727638",
-   "name": "Alkali Lake",
-   "label": "Alkali Lake",
+   "id": "wd:Q2961794",
+   "name": "Northern Oregon Coast Range",
+   "label": "Northern Oregon Coast Range",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-OR",
+   "country": "US",
+   "lat": 45.6647,
+   "lon": -123.5481,
+   "rarity": "Rare",
+   "fame": 2592,
+   "facts": {
+    "elevation_m": 1130,
+    "length_km": 161,
+    "temp_c": 8.7
+   },
+   "flavour": {
+    "text": "The Northern Oregon Coast Range is the northern section of the Oregon Coast Range, in the Pacific Coast Ranges physiographic region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Northern Oregon Coast Range",
+    "url": "https://en.wikipedia.org/wiki/Northern_Oregon_Coast_Range",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2961794.webp",
+    "author": "Walter Siegmund",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lewis_and_Clark_River_3641.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7154946",
+   "name": "Paulina Lake",
+   "label": "Paulina Lake",
    "type": "nature",
    "kind": "lake",
    "region": "US-OR",
    "country": "US",
-   "lat": 42.9772,
-   "lon": -120.028,
+   "lat": 43.7199,
+   "lon": -121.2583,
    "rarity": "Rare",
-   "fame": 2496,
+   "fame": 2982,
    "facts": {
-    "elevation_m": 1299,
-    "temp_c": 8.4
+    "elevation_m": 1930,
+    "area_km2": 6.2,
+    "temp_c": 3.5
    },
    "flavour": {
-    "text": "It lies within the Alkali Subbasin of the Summer Lake Basin watershed in southeastern Oregon.",
+    "text": "Paulina Lake is one of the twin crater lakes in Newberry Crater, central Oregon, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Alkali Lake (Oregon)",
-    "url": "https://en.wikipedia.org/wiki/Alkali_Lake_%28Oregon%29",
+    "title": "Paulina Lake",
+    "url": "https://en.wikipedia.org/wiki/Paulina_Lake",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4727638.webp",
-    "author": "Orygun",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Alkali_Lake_dry_sink,_Lake_County,_Oregon.JPG"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7154946.webp"
    }
   },
   {
-   "id": "wd:Q37275",
-   "name": "Horsetail Falls",
-   "label": "Horsetail Falls (near Cascade Locks)",
-   "type": "nature",
-   "kind": "waterfall",
-   "region": "US-OR",
-   "country": "US",
-   "lat": 45.5894,
-   "lon": -122.068,
-   "rarity": "Rare",
-   "fame": 2790,
-   "facts": {
-    "elevation_m": 55,
-    "temp_c": 9.0
-   },
-   "flavour": {
-    "text": "Horsetail Falls is a waterfall located on Horsetail Creek along the Columbia River Gorge in Multnomah County, in the U.S. state of Oregon.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Horsetail Falls (Oregon)",
-    "url": "https://en.wikipedia.org/wiki/Horsetail_Falls_%28Oregon%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q37275.webp",
-    "author": "Dajagr at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Horstail_Falls.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7142464",
-   "name": "Passage Island",
-   "label": "Passage Island",
+   "id": "wd:Q42296081",
+   "name": "Middle Island",
+   "label": "Middle Island (near Alpena)",
    "type": "nature",
    "kind": "island",
    "region": "US-MI",
    "country": "US",
-   "lat": 48.2353,
-   "lon": -88.3497,
+   "lat": 45.1925,
+   "lon": -83.3272,
    "rarity": "Rare",
-   "fame": 1164,
+   "fame": 1248,
    "facts": {
-    "elevation_m": 184,
-    "temp_c": 3.4
+    "elevation_m": 185,
+    "temp_c": 6.9
    },
    "flavour": {
-    "text": "Passage Island is a small island in the U.S. territory in western Lake Superior.",
+    "text": "The island is positioned little over a mile and a half from the community of Lakewood on the mainland.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Passage Island (Michigan)",
-    "url": "https://en.wikipedia.org/wiki/Passage_Island_%28Michigan%29",
+    "title": "Middle Island (Lake Huron)",
+    "url": "https://en.wikipedia.org/wiki/Middle_Island_%28Lake_Huron%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q7142464.webp"
+    "file": "images/minimap/wd_Q42296081.webp"
    }
   },
   {
-   "id": "wd:Q5085764",
-   "name": "Charlies Bunion",
-   "label": "Charlies Bunion",
+   "id": "wd:Q5170152",
+   "name": "Core Banks, North Carolina",
+   "label": "Core Banks, North Carolina",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "island",
    "region": "US-NC",
    "country": "US",
-   "lat": 35.6389,
-   "lon": -83.3722,
+   "lat": 34.7064,
+   "lon": -76.4589,
    "rarity": "Rare",
-   "fame": 2298,
+   "fame": 2706,
    "facts": {
-    "elevation_m": 1658,
-    "temp_c": 9.6
+    "elevation_m": 2.0,
+    "temp_c": 17.5
    },
    "flavour": {
-    "text": "Charlies Bunion is a mountain in the Great Smoky Mountains of the Southeastern United States.",
+    "text": "The Core Banks are barrier islands in North Carolina, part of the Cape Lookout National Seashore.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Charlies Bunion",
-    "url": "https://en.wikipedia.org/wiki/Charlies_Bunion",
+    "title": "Core Banks, North Carolina",
+    "url": "https://en.wikipedia.org/wiki/Core_Banks%2C_North_Carolina",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5085764.webp",
-    "author": "Brian Stansberry",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Charlies-bunion-protrusion.jpg"
+    "file": "images/photo/wd_Q5170152.webp",
+    "author": "Jarek Tuszyński",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cape_Lookout_Lighthouse_-_2013-06_-_10.JPG"
    }
   },
   {
-   "id": "wd:Q5311276",
-   "name": "Duchesne River",
-   "label": "Duchesne River",
+   "id": "wd:Q6477003",
+   "name": "Lake Mountains",
+   "label": "Lake Mountains",
    "type": "nature",
-   "kind": "river",
+   "kind": "mountain range",
    "region": "US-UT",
    "country": "US",
-   "lat": 40.0861,
-   "lon": -109.684,
+   "lat": 40.28,
+   "lon": -111.98,
    "rarity": "Rare",
-   "fame": 2010,
+   "fame": 2082,
    "facts": {
-    "elevation_m": 1418,
-    "length_km": 185,
-    "temp_c": 9.0
+    "elevation_m": 2344,
+    "temp_c": 9.4
    },
    "flavour": {
-    "text": "The Duchesne River, located in the Uintah Basin region of Utah in the western United States, is a tributary of the Green River.",
+    "text": "The Lake Mountains are a 15-mile-long mountain range located on the western edge of the Utah Valley in northwestern Utah County, Utah, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Duchesne River",
-    "url": "https://en.wikipedia.org/wiki/Duchesne_River",
+    "title": "Lake Mountains",
+    "url": "https://en.wikipedia.org/wiki/Lake_Mountains",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5311276.webp",
-    "author": "Unknown author",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:OVERALL_VIEW_OF_CANAL_AND_DUCHESNE_RIVER_VALLEY,_LOOKING_SOUTHEAST_-_Irrigation_Canals_in_the_Uinta_Basin,_Rocky_Point_Canal,_Duchesne,_Duchesne_County,_UT_HAER_UTAH,7-DUCH.V,1K-1.tif"
+    "file": "images/photo/wd_Q6477003.webp",
+    "author": "Don LaVange",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pleasant_Grove,_UT_-_Looking_West_over_Utah_Lake.jpg"
    }
   },
   {
-   "id": "wd:Q6478439",
-   "name": "Lake Wateree",
-   "label": "Lake Wateree",
+   "id": "wd:Q7406275",
+   "name": "Saluda River",
+   "label": "Saluda River",
    "type": "nature",
-   "kind": "lake",
+   "kind": "river",
    "region": "US-SC",
    "country": "US",
-   "lat": 34.4111,
-   "lon": -80.7922,
+   "lat": 34.0049,
+   "lon": -81.0618,
    "rarity": "Rare",
-   "fame": 4614,
+   "fame": 6966,
    "facts": {
-    "elevation_m": 66,
-    "temp_c": 16.3
+    "elevation_m": 40,
+    "length_km": 320,
+    "temp_c": 17.2
    },
    "flavour": {
-    "text": "Lake Wateree is a 21-square-mile reservoir in Kershaw, Fairfield, and Lancaster counties, South Carolina, in the United States.",
+    "text": "The Saluda River is a principal tributary of the Congaree River, about 200 mi long, in northern and western South Carolina in the United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lake Wateree",
-    "url": "https://en.wikipedia.org/wiki/Lake_Wateree",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q6478439.webp"
-   }
-  },
-  {
-   "id": "wd:Q49048297",
-   "name": "Matterhorn",
-   "label": "Matterhorn (near Joseph)",
-   "type": "nature",
-   "kind": "hill",
-   "region": "US-OR",
-   "country": "US",
-   "lat": 45.2283,
-   "lon": -117.2983,
-   "rarity": "Rare",
-   "fame": 1560,
-   "facts": {
-    "elevation_m": 2974,
-    "temp_c": 1.5
-   },
-   "flavour": {
-    "text": "Matterhorn is a 9,835-foot mountain summit located in Wallowa County, Oregon, US.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Matterhorn (Oregon)",
-    "url": "https://en.wikipedia.org/wiki/Matterhorn_%28Oregon%29",
+    "title": "Saluda River",
+    "url": "https://en.wikipedia.org/wiki/Saluda_River",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q49048297.webp",
-    "author": "U.S. Forest Service- Pacific Northwest Region",
+    "file": "images/photo/wd_Q7406275.webp",
+    "author": "unknown/ w:NOAA",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Matterhorn_Peak_from_Valley_Floor,_Wallowa-Whitman_National_Forest_(26776502886).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Saluda_River.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5168069",
+   "name": "Coos River",
+   "label": "Coos River",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-OR",
+   "country": "US",
+   "lat": 43.3626,
+   "lon": -124.1737,
+   "rarity": "Rare",
+   "fame": 1596,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 8.0,
+    "temp_c": 11.5
+   },
+   "flavour": {
+    "text": "The Coos River flows for about 5 miles into Coos Bay along the Pacific coast of southwest Oregon in the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coos River",
+    "url": "https://en.wikipedia.org/wiki/Coos_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5168069.webp",
+    "author": "Finetooth",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coos_river.jpg"
    }
   },
   {
@@ -3489,44 +3485,43 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q1139121.webp",
-    "author": "USGS - McGimsey R.G.",
+    "author": "USGS - McGimsey R.G",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Gareloi.jpg"
    }
   },
   {
-   "id": "wd:Q6477115",
-   "name": "Lake Nippenicket",
-   "label": "Lake Nippenicket",
+   "id": "wd:Q7351290",
+   "name": "Lake Massapoag",
+   "label": "Lake Massapoag",
    "type": "nature",
    "kind": "lake",
    "region": "US-MA",
    "country": "US",
-   "lat": 41.9719,
-   "lon": -71.0411,
+   "lat": 42.1011,
+   "lon": -71.1769,
    "rarity": "Rare",
-   "fame": 1506,
+   "fame": 1512,
    "facts": {
-    "elevation_m": 17,
-    "area_km2": 1.4,
-    "temp_c": 9.9
+    "elevation_m": 72,
+    "temp_c": 9.5
    },
    "flavour": {
-    "text": "Lake Nippenicket, known locally as The Nip, is a freshwater pond in the town of Bridgewater, Massachusetts, and immediately adjacent to Raynham, Massachusetts.",
+    "text": "The name Massapoag is Algonquin, meaning \"large water\".",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lake Nippenicket",
-    "url": "https://en.wikipedia.org/wiki/Lake_Nippenicket",
+    "title": "Lake Massapoag",
+    "url": "https://en.wikipedia.org/wiki/Lake_Massapoag",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6477115.webp",
+    "file": "images/photo/wd_Q7351290.webp",
     "author": "John Phelan",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lake_Nippenicket,_Bridgewater_MA.jpg"
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Massapoag,_Sharon_MA.jpg"
    }
   },
   {
@@ -3663,7 +3658,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_4124112.webp",
-    "author": "Belinda Hankins Miller from U.S.A., upload by Herrick 10:33, 15 November 2007 (UTC)",
+    "author": "Belinda Hankins Miller from U.S.A., upload by Herrick 10:33, 15…",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Arkansas_River,_Looking_Across_To_North_Little_Rock_423757092.jpg"
@@ -3768,7 +3763,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_4518307.webp",
-    "author": "User:Neilnat",
+    "author": "Neilnat",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Downonmainstreet.jpeg"
@@ -3950,189 +3945,195 @@
    }
   },
   {
-   "id": "wd:Q5050162",
-   "name": "Castle Island",
-   "label": "Castle Island (near Ault Field)",
+   "id": "wd:Q96375054",
+   "name": "Cirque Mountain",
+   "label": "Cirque Mountain (near Darrington)",
    "type": "nature",
-   "kind": "island",
+   "kind": "mountain",
    "region": "US-WA",
    "country": "US",
-   "lat": 48.4211,
-   "lon": -122.8219,
+   "lat": 48.1085,
+   "lon": -120.9727,
    "rarity": "Common",
-   "fame": 432,
+   "fame": 426,
    "facts": {
-    "elevation_m": 27,
-    "temp_c": 10.1
+    "elevation_m": 2298,
+    "temp_c": 2.2
    },
    "flavour": {
-    "text": "It is located just off the southern tip of Lopez Island.",
+    "text": "Cirque Mountain is a 7,966-foot mountain summit located in the Glacier Peak Wilderness of the North Cascades in Washington state.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Castle Island (Washington)",
-    "url": "https://en.wikipedia.org/wiki/Castle_Island_%28Washington%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5050162.webp"
-   }
-  },
-  {
-   "id": "gn:4426884",
-   "name": "Forest",
-   "label": "Forest (Mississippi)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-MS",
-   "country": "US",
-   "lat": 32.3646,
-   "lon": -89.4742,
-   "rarity": "Common",
-   "fame": 12960,
-   "facts": {
-    "population": 5430,
-    "elevation_m": 145,
-    "area_km2": 34,
-    "temp_c": 17.3
-   },
-   "flavour": {
-    "text": "Forest is a city in and the county seat of Scott County, Mississippi, United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Forest, Mississippi",
-    "url": "https://en.wikipedia.org/wiki/Forest%2C_Mississippi",
+    "title": "Cirque Mountain (Washington)",
+    "url": "https://en.wikipedia.org/wiki/Cirque_Mountain_%28Washington%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_4426884.webp",
-    "author": "Larry D. Moore",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Forest_Mississippi_City_Hall_2015.jpg"
+    "file": "images/photo/wd_Q96375054.webp",
+    "author": "Martin Bravenboer",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cirque_Mountain,_Triad_Lake.jpg"
    }
   },
   {
-   "id": "gn:5312844",
-   "name": "San Carlos",
-   "label": "San Carlos (Arizona, near Peridot)",
+   "id": "wd:Q6674508",
+   "name": "Longwood",
+   "label": "Longwood (near Natchez)",
+   "type": "built",
+   "kind": "villa",
+   "region": "US-MS",
+   "country": "US",
+   "lat": 31.5367,
+   "lon": -91.4047,
+   "rarity": "Epic",
+   "fame": 14892,
+   "facts": {
+    "elevation_m": 69,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "Longwood, also known as Nutt's Folly, is a historic antebellum octagonal mansion located at 140 Lower Woodville Road in Natchez, Mississippi, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Longwood (Natchez, Mississippi)",
+    "url": "https://en.wikipedia.org/wiki/Longwood_%28Natchez%2C_Mississippi%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6674508.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Longwood_by_Highsmith_01.jpg"
+   }
+  },
+  {
+   "id": "gn:5316960",
+   "name": "Taylor",
+   "label": "Taylor (Arizona)",
    "type": "town",
    "kind": "town",
    "region": "US-AZ",
    "country": "US",
-   "lat": 33.3456,
-   "lon": -110.455,
+   "lat": 34.465,
+   "lon": -110.0912,
    "rarity": "Common",
-   "fame": 5100,
+   "fame": 4674,
    "facts": {
-    "population": 3987,
-    "elevation_m": 801,
-    "area_km2": 22,
-    "temp_c": 17.6
+    "population": 3995,
+    "elevation_m": 1717,
+    "area_km2": 85,
+    "temp_c": 11.7
    },
    "flavour": {
-    "text": "San Carlos is a census-designated place in Gila County, Arizona, United States.",
+    "text": "It was founded by settlers of The Church of Jesus Christ of Latter-day Saints in January 1878, several months before the neighboring community of Snowflake.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "San Carlos, Arizona",
-    "url": "https://en.wikipedia.org/wiki/San_Carlos%2C_Arizona",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_5312844.webp"
-   }
-  },
-  {
-   "id": "wd:Q27985708",
-   "name": "Pine Creek",
-   "label": "Pine Creek (near Pea Ridge)",
-   "type": "nature",
-   "kind": "river",
-   "region": "US-MO",
-   "country": "US",
-   "lat": 36.574,
-   "lon": -94.1402,
-   "rarity": "Common",
-   "fame": 36,
-   "facts": {
-    "elevation_m": 320,
-    "temp_c": 13.6
-   },
-   "flavour": {
-    "text": "Pine Creek is a stream in McDonald County in the U.S. state of Missouri.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pine Creek (Big Sugar Creek tributary)",
-    "url": "https://en.wikipedia.org/wiki/Pine_Creek_%28Big_Sugar_Creek_tributary%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q27985708.webp"
-   }
-  },
-  {
-   "id": "wd:Q17039901",
-   "name": "Little Ogeechee River",
-   "label": "Little Ogeechee River (near Montgomery)",
-   "type": "nature",
-   "kind": "river",
-   "region": "US-GA",
-   "country": "US",
-   "lat": 31.8917,
-   "lon": -81.0947,
-   "rarity": "Common",
-   "fame": 366,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 19.3
-   },
-   "flavour": {
-    "text": "The Little Ogeechee River in Chatham County is one of two rivers by that name in the U.S. state of Georgia.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Little Ogeechee River (Chatham County)",
-    "url": "https://en.wikipedia.org/wiki/Little_Ogeechee_River_%28Chatham_County%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q17039901.webp"
-   }
-  },
-  {
-   "id": "wd:Q7109390",
-   "name": "Otter Island",
-   "label": "Otter Island (near Washburn)",
-   "type": "nature",
-   "kind": "island",
-   "region": "US-WI",
-   "country": "US",
-   "lat": 46.9961,
-   "lon": -90.6911,
-   "rarity": "Common",
-   "fame": 336,
-   "facts": {
-    "elevation_m": 236,
-    "temp_c": 4.9
-   },
-   "flavour": {
-    "text": "Otter Island is one of the Apostle Islands in Northern Wisconsin, in Lake Superior, and is part of the Apostle Islands National Lakeshore.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Otter Island (Wisconsin)",
-    "url": "https://en.wikipedia.org/wiki/Otter_Island_%28Wisconsin%29",
+    "title": "Taylor, Arizona",
+    "url": "https://en.wikipedia.org/wiki/Taylor%2C_Arizona",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7109390.webp",
-    "author": "I, the copyright holder of this work, hereby publish it under the following license:",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Otter_Island_Apostle_Islands_National_Lakeshore.jpg"
+    "file": "images/photo/gn_5316960.webp",
+    "author": "Marine 69-71",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taylor-Aguila_Standifird_House-1890.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27985003",
+   "name": "Brushy Creek",
+   "label": "Brushy Creek (near Washington)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-MO",
+   "country": "US",
+   "lat": 38.5211,
+   "lon": -91.1153,
+   "rarity": "Common",
+   "fame": 36,
+   "facts": {
+    "elevation_m": 156,
+    "temp_c": 12.7
+   },
+   "flavour": {
+    "text": "Brushy Creek is a stream in Franklin County in the U.S. state of Missouri.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brushy Creek (Saint Johns Creek tributary)",
+    "url": "https://en.wikipedia.org/wiki/Brushy_Creek_%28Saint_Johns_Creek_tributary%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27985003.webp"
+   }
+  },
+  {
+   "id": "wd:Q31591131",
+   "name": "Rocky Top",
+   "label": "Rocky Top (near Murphy)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-GA",
+   "country": "US",
+   "lat": 34.9822,
+   "lon": -84.0036,
+   "rarity": "Common",
+   "fame": 378,
+   "facts": {
+    "elevation_m": 934,
+    "temp_c": 13.3
+   },
+   "flavour": {
+    "text": "Rocky Top is a summit in the U.S. state of Georgia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rocky Top (Georgia)",
+    "url": "https://en.wikipedia.org/wiki/Rocky_Top_%28Georgia%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31591131.webp",
+    "author": "Thomson200",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Rocky_Top,_Georgia_July_2023.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5162060",
+   "name": "Connors Lake",
+   "label": "Connors Lake (near Phillips)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-WI",
+   "country": "US",
+   "lat": 45.7514,
+   "lon": -90.7374,
+   "rarity": "Common",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 420,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "It is located in the Flambeau River State Forest.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Connors Lake",
+    "url": "https://en.wikipedia.org/wiki/Connors_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5162060.webp"
    }
   },
   {

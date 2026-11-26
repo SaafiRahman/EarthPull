@@ -160,7 +160,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q869470.webp",
-    "author": "-- R45 talk!",
+    "author": "R45 talk!",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Craig_Island,_Trinidad_and_Tobago.JPG"
@@ -381,7 +381,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q7161399.webp",
-    "author": "-- R45 talk!",
+    "author": "R45 talk!",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Pelican_Island,_Trinidad_and_Tobago.JPG"
@@ -414,7 +414,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q5575304.webp",
-    "author": "The original uploader was Jimfbleak at English Wikipedia .",
+    "author": "Jimfbleak",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:View_of_Little_Tobago_from_Blue_Waters_Inn.jpg"
@@ -1348,38 +1348,36 @@
    }
   },
   {
-   "id": "wd:Q7759880",
-   "name": "The Red House",
-   "label": "The Red House",
+   "id": "wd:Q16844445",
+   "name": "Holy Trinity Cathedral, Port of Spain",
+   "label": "Holy Trinity Cathedral, Port of Spain",
    "type": "built",
-   "kind": "building",
+   "kind": "Anglican or Episcopal cathedral",
    "region": "TT-POS",
    "country": "TT",
-   "lat": 10.6531,
-   "lon": -61.5117,
+   "lat": 10.6615,
+   "lon": -61.533,
    "rarity": "Rare",
-   "fame": 3750,
+   "fame": 3216,
    "facts": {
-    "elevation_m": 11,
-    "height_m": 34,
-    "length_km": 0.2,
+    "elevation_m": 5.0,
     "temp_c": 26.7
    },
    "flavour": {
-    "text": "The Red House is the seat of Parliament in Trinidad and Tobago.",
+    "text": "Holy Trinity Cathedral is an Anglican Cathedral in Port of Spain, the capital of Trinidad and Tobago.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Red House (Trinidad and Tobago)",
-    "url": "https://en.wikipedia.org/wiki/Red_House_%28Trinidad_and_Tobago%29",
+    "title": "Holy Trinity Cathedral, Port of Spain",
+    "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral%2C_Port_of_Spain",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7759880.webp",
-    "author": "Random 00021 at English Wikipedia - Anthony Mendenhall",
+    "file": "images/photo/wd_Q16844445.webp",
+    "author": "Grueslayer",
     "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:POS_Redhouse.JPG"
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_PoS_Cathedral_of_the_Holy_Trinity_(back_view).jpg"
    }
   },
   {
@@ -1603,7 +1601,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q5267455.webp",
-    "author": "Chad Mohammed ( 954coolieboy at English Wikipedia )",
+    "author": "Chad Mohammed (954coolieboy at English Wikipedia)",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Devil%27s_Woodyard_Dec,2007.jpg"
@@ -1672,36 +1670,36 @@
    }
   },
   {
-   "id": "wd:Q16844445",
-   "name": "Holy Trinity Cathedral, Port of Spain",
-   "label": "Holy Trinity Cathedral, Port of Spain",
+   "id": "wd:Q5387765",
+   "name": "Eric Williams Plaza",
+   "label": "Eric Williams Plaza",
    "type": "built",
-   "kind": "Anglican or Episcopal cathedral",
+   "kind": "fixed construction",
    "region": "TT-POS",
    "country": "TT",
-   "lat": 10.6615,
-   "lon": -61.533,
+   "lat": 10.6489,
+   "lon": -61.5124,
    "rarity": "Rare",
-   "fame": 3216,
+   "fame": 2748,
    "facts": {
-    "elevation_m": 5.0,
+    "elevation_m": 11,
     "temp_c": 26.7
    },
    "flavour": {
-    "text": "Holy Trinity Cathedral is an Anglican Cathedral in Port of Spain, the capital of Trinidad and Tobago.",
+    "text": "Eric Williams Plaza, also known as the Eric Williams Financial Complex, located on Independence Square, Port of Spain.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Holy Trinity Cathedral, Port of Spain",
-    "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral%2C_Port_of_Spain",
+    "title": "Eric Williams Plaza",
+    "url": "https://en.wikipedia.org/wiki/Eric_Williams_Plaza",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q16844445.webp",
-    "author": "Grueslayer",
+    "file": "images/photo/wd_Q5387765.webp",
+    "author": "Chris Fitzpatrick",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:TnT_PoS_Cathedral_of_the_Holy_Trinity_(back_view).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Eric_Williams_PlazaTrinidad.jpg"
    }
   },
   {

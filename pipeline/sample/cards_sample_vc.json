@@ -37,91 +37,94 @@
    }
   },
   {
-   "id": "wd:Q5148074",
-   "name": "Colonarie River",
-   "label": "Colonarie River",
+   "id": "wd:Q7278477",
+   "name": "Rabacca Dry River",
+   "label": "Rabacca Dry River",
    "type": "nature",
    "kind": "river",
    "region": "VC-01",
    "country": "VC",
-   "lat": 13.2333,
+   "lat": 13.2833,
    "lon": -61.1167,
-   "rarity": "Common",
-   "fame": 234,
-   "facts": {
-    "elevation_m": 0.0,
-    "length_km": 8.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "The Colonarie River is the longest river in Saint Vincent and the Grenadines.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Colonarie River",
-    "url": "https://en.wikipedia.org/wiki/Colonarie_River",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5148074.webp"
-   }
-  },
-  {
-   "id": "wd:Q5004055",
-   "name": "Byera River",
-   "label": "Byera River",
-   "type": "nature",
-   "kind": "river",
-   "region": "VC-01",
-   "country": "VC",
-   "lat": 13.2562,
-   "lon": -61.1184,
-   "rarity": "Common",
-   "fame": 66,
-   "facts": {
-    "elevation_m": 3.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "The Byera River is a river of Saint Vincent and the Grenadines.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Byera River",
-    "url": "https://en.wikipedia.org/wiki/Byera_River",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5004055.webp"
-   }
-  },
-  {
-   "id": "wd:Q5594324",
-   "name": "Grand Bonhomme",
-   "label": "Grand Bonhomme",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "VC-05",
-   "country": "VC",
-   "lat": 13.2333,
-   "lon": -61.2333,
    "rarity": "Common",
    "fame": 330,
    "facts": {
-    "elevation_m": 973,
-    "temp_c": 25.1
+    "elevation_m": 4.0,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "Grand Bonhomme is a mountain in the south of the island of Saint Vincent in Saint Vincent and the Grenadines.",
+    "text": "It is a seasonal river and will only flow like a normal when there is heavy rainfall.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Grand Bonhomme",
-    "url": "https://en.wikipedia.org/wiki/Grand_Bonhomme",
+    "title": "Rabacca Dry River",
+    "url": "https://en.wikipedia.org/wiki/Rabacca_Dry_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7278477.webp",
+    "author": "W. Westall, after John Herbert Caddy",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:The_Rabacca_or_Dry_River_Soufriere_Mountain_in_the_distance_St._Vincent._Engraved_by_W._Westall.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5037748",
+   "name": "Caratal River",
+   "label": "Caratal River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2667,
+   "lon": -61.1,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Caratal River is a river of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caratal River",
+    "url": "https://en.wikipedia.org/wiki/Caratal_River",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5594324.webp"
+    "file": "images/minimap/wd_Q5037748.webp"
+   }
+  },
+  {
+   "id": "wd:Q5601483",
+   "name": "Greathead River",
+   "label": "Greathead River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1333,
+   "lon": -61.2167,
+   "rarity": "Common",
+   "fame": 66,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "The Greathead River is a river of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Greathead River",
+    "url": "https://en.wikipedia.org/wiki/Greathead_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5601483.webp"
    }
   },
   {
@@ -154,32 +157,33 @@
    }
   },
   {
-   "id": "wd:Q5595069",
-   "name": "Grand Sable River",
-   "label": "Grand Sable River",
+   "id": "wd:Q5148074",
+   "name": "Colonarie River",
+   "label": "Colonarie River",
    "type": "nature",
    "kind": "river",
    "region": "VC-01",
    "country": "VC",
-   "lat": 13.25,
+   "lat": 13.2333,
    "lon": -61.1167,
    "rarity": "Common",
-   "fame": 180,
+   "fame": 234,
    "facts": {
-    "elevation_m": 2.0,
+    "elevation_m": 0.0,
+    "length_km": 8.0,
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "The Grand Sable River is a river of Saint Vincent and the Grenadines.",
+    "text": "The Colonarie River is the longest river in Saint Vincent and the Grenadines.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Grand Sable River",
-    "url": "https://en.wikipedia.org/wiki/Grand_Sable_River",
+    "title": "Colonarie River",
+    "url": "https://en.wikipedia.org/wiki/Colonarie_River",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5595069.webp"
+    "file": "images/minimap/wd_Q5148074.webp"
    }
   },
   {
@@ -213,32 +217,38 @@
    }
   },
   {
-   "id": "wd:Q8048027",
-   "name": "Yambou River",
-   "label": "Yambou River",
+   "id": "wd:Q1254282",
+   "name": "Young Island",
+   "label": "Young Island",
    "type": "nature",
-   "kind": "river",
+   "kind": "island",
    "region": "VC-04",
    "country": "VC",
-   "lat": 13.1642,
-   "lon": -61.1437,
+   "lat": 13.1306,
+   "lon": -61.2025,
    "rarity": "Common",
-   "fame": 168,
+   "fame": 1806,
    "facts": {
-    "elevation_m": 3.0,
-    "temp_c": 27.2
+    "elevation_m": 20,
+    "area_km2": 0.1,
+    "length_km": 0.4,
+    "temp_c": 27.1
    },
    "flavour": {
-    "text": "It is located in the valley of Yambou and is one of the main rivers of the island.",
+    "text": "Young Island is one of the smallest islands of Grenadines and part of the state St. Vincent and the Grenadines.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Yambou River",
-    "url": "https://en.wikipedia.org/wiki/Yambou_River",
+    "title": "Young Island (Grenadines)",
+    "url": "https://en.wikipedia.org/wiki/Young_Island_%28Grenadines%29",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q8048027.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q1254282.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Duvernette_and_Young%27s_Island_from_Calliaqua,_St._Vincent_1890s.jpg"
    }
   },
   {
@@ -300,36 +310,32 @@
    }
   },
   {
-   "id": "wd:Q7278477",
-   "name": "Rabacca Dry River",
-   "label": "Rabacca Dry River",
+   "id": "wd:Q5594324",
+   "name": "Grand Bonhomme",
+   "label": "Grand Bonhomme",
    "type": "nature",
-   "kind": "river",
+   "kind": "mountain",
    "region": "VC-01",
    "country": "VC",
-   "lat": 13.2833,
-   "lon": -61.1167,
+   "lat": 13.2333,
+   "lon": -61.2333,
    "rarity": "Common",
    "fame": 330,
    "facts": {
-    "elevation_m": 4.0,
-    "temp_c": 26.2
+    "elevation_m": 973,
+    "temp_c": 25.1
    },
    "flavour": {
-    "text": "It is a seasonal river and will only flow like a normal when there is heavy rainfall.",
+    "text": "Grand Bonhomme is a mountain in the south of the island of Saint Vincent in Saint Vincent and the Grenadines.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Rabacca Dry River",
-    "url": "https://en.wikipedia.org/wiki/Rabacca_Dry_River",
+    "title": "Grand Bonhomme",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bonhomme",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7278477.webp",
-    "author": "W. Westall, after John Herbert Caddy",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:The_Rabacca_or_Dry_River_Soufriere_Mountain_in_the_distance_St._Vincent._Engraved_by_W._Westall.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5594324.webp"
    }
   },
   {
@@ -362,36 +368,32 @@
    }
   },
   {
-   "id": "wd:Q7963083",
-   "name": "Wallilabou River",
-   "label": "Wallilabou River",
+   "id": "wd:Q5004055",
+   "name": "Byera River",
+   "label": "Byera River",
    "type": "nature",
    "kind": "river",
-   "region": "VC-03",
+   "region": "VC-01",
    "country": "VC",
-   "lat": 13.2656,
-   "lon": -61.2589,
+   "lat": 13.2562,
+   "lon": -61.1184,
    "rarity": "Common",
-   "fame": 426,
+   "fame": 66,
    "facts": {
-    "elevation_m": 6.0,
-    "temp_c": 25.1
+    "elevation_m": 3.0,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "It rises in the Grand Bonhomme Mountains in the centre of the island and flows northwest to reach the Caribbean Sea north of Barrouallie.",
+    "text": "The Byera River is a river of Saint Vincent and the Grenadines.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wallilabou River",
-    "url": "https://en.wikipedia.org/wiki/Wallilabou_River",
+    "title": "Byera River",
+    "url": "https://en.wikipedia.org/wiki/Byera_River",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7963083.webp",
-    "author": "Edmund Otis Hovey",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:General_View_of_Wallibou_River_YORYM-TA0011.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5004055.webp"
    }
   },
   {
@@ -914,7 +916,7 @@
    "label": "Fort Charlotte",
    "type": "built",
    "kind": "fort",
-   "region": "VC-02",
+   "region": "VC-04",
    "country": "VC",
    "lat": 13.1579,
    "lon": -61.2421,
@@ -1093,7 +1095,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q257857.webp",
-    "author": "David Stanley from Nanaimo, Canada.",
+    "author": "David Stanley from Nanaimo, Canada",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Admiralty_Bay_on_Bequia,_Saint_Vincent_and_the_Grenadines_(49797161858).jpg"
@@ -1195,7 +1197,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q1914529.webp",
-    "author": "David Stanley from Nanaimo, Canada.",
+    "author": "David Stanley from Nanaimo, Canada",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Salt_Whistle_Bay_on_Mayreau_Island,_St._Vincent_and_the_Grenadines_(49999427636).jpg"

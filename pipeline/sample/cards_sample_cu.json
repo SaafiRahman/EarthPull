@@ -37,33 +37,36 @@
    }
   },
   {
-   "id": "wd:Q3647156",
-   "name": "Cayo Fragoso",
-   "label": "Cayo Fragoso",
+   "id": "wd:Q7399377",
+   "name": "Sagua la Chica River",
+   "label": "Sagua la Chica River",
    "type": "nature",
-   "kind": "island",
+   "kind": "river",
    "region": "CU-05",
    "country": "CU",
-   "lat": 22.7333,
-   "lon": -79.5333,
+   "lat": 22.7539,
+   "lon": -79.6519,
    "rarity": "Common",
-   "fame": 1032,
+   "fame": 390,
    "facts": {
     "elevation_m": 4.0,
-    "area_km2": 101,
     "temp_c": 25.4
    },
    "flavour": {
-    "text": "It has a total area of 101 square kilometers and is part of the Sabana-Camagüey Archipelago.",
+    "text": "Arising in the hills of Placetas, it flows north for 45 miles and empties into the Bay of Buena Vista.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cayo Fragoso",
-    "url": "https://en.wikipedia.org/wiki/Cayo_Fragoso",
+    "title": "Sagua la Chica River",
+    "url": "https://en.wikipedia.org/wiki/Sagua_la_Chica_River",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q3647156.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q7399377.webp",
+    "author": "CubanoBoi",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Sagua_la_Chica.jpg"
    }
   },
   {
@@ -279,7 +282,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q6114745.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-36005_-_View_of_Cuba_-_Trinidad_(Sancti_Spiritus_province).jpg"
@@ -382,28 +385,36 @@
    }
   },
   {
-   "id": "wd:Q5759295",
-   "name": "Cayo Sotavento",
-   "label": "Cayo Sotavento",
+   "id": "wd:Q115858487",
+   "name": "Camajuaní River",
+   "label": "Camajuaní River",
    "type": "nature",
-   "kind": "island",
+   "kind": "river",
    "region": "CU-05",
    "country": "CU",
-   "lat": 23.0617,
-   "lon": -80.1592,
+   "lat": 22.586,
+   "lon": -79.7801,
    "rarity": "Common",
-   "fame": 174,
+   "fame": 150,
    "facts": {
-    "elevation_m": 3.0,
-    "temp_c": 25.1
+    "elevation_m": 29,
+    "temp_c": 25.2
    },
    "flavour": {
-    "text": "An island in Villa Clara.",
-    "source": "facts"
+    "text": "The Camajuaní River is a river on the island of Cuba and a tributary of the Sagua la Chica.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Río Camajuaní",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Camajuan%C3%AD",
+    "translated": true
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5759295.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q115858487.webp",
+    "author": "Eric Marshall",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camajuani,_Cuba_-_panoramio_(2).jpg"
    }
   },
   {
@@ -1898,168 +1909,168 @@
    }
   },
   {
-   "id": "wd:Q28225576",
-   "name": "Parque Central, Havana",
-   "label": "Parque Central, Havana",
+   "id": "wd:Q18425275",
+   "name": "Hotel Saratoga, Havana",
+   "label": "Hotel Saratoga, Havana",
    "type": "built",
-   "kind": "urban park",
+   "kind": "hotel",
    "region": "CU-03",
    "country": "CU",
-   "lat": 23.1375,
-   "lon": -82.3587,
+   "lat": 23.1336,
+   "lon": -82.3581,
    "rarity": "Rare",
-   "fame": 2952,
+   "fame": 3012,
    "facts": {
-    "elevation_m": 11,
+    "elevation_m": 19,
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "The Parque Central, Havana is one of the best known and central sites of the city of Havana, Cuba.",
+    "text": "Built in 1880 as a warehouse, it was remodeled into a hotel in 1933.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Parque Central, Havana",
-    "url": "https://en.wikipedia.org/wiki/Parque_Central%2C_Havana",
+    "title": "Hotel Saratoga",
+    "url": "https://en.wikipedia.org/wiki/Hotel_Saratoga",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q28225576.webp",
-    "author": "Jorge Royan",
+    "file": "images/photo/wd_Q18425275.webp",
+    "author": "LukaszKatlewa",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Havana_-_Cuba_-_3953.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Saratoga,_Havana,_Cuba.jpg"
    }
   },
   {
-   "id": "wd:Q11942020",
-   "name": "Plaza de San Francisco",
-   "label": "Plaza de San Francisco",
+   "id": "wd:Q5991783",
+   "name": "Church of Jesus",
+   "label": "Church of Jesus",
    "type": "built",
-   "kind": "square",
+   "kind": "Catholic church building",
    "region": "CU-03",
    "country": "CU",
-   "lat": 23.1376,
-   "lon": -82.3486,
+   "lat": 23.1057,
+   "lon": -82.4411,
    "rarity": "Rare",
-   "fame": 1110,
+   "fame": 1176,
    "facts": {
-    "elevation_m": 12,
+    "elevation_m": 7.0,
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "Plaza de San Francisco de Asís is a public square in the district of Old Havana, Havana, Cuba.",
+    "text": "Iglesia de Jesús de Miramar is the second largest church in Cuba.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Plaza de San Francisco de Asís",
-    "url": "https://en.wikipedia.org/wiki/Plaza_de_San_Francisco_de_As%C3%ADs",
+    "title": "Iglesia de Jesús de Miramar",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_Jes%C3%BAs_de_Miramar",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q11942020.webp",
-    "author": "Emmanuel Huybrechts from Laval, Canada",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Scenes_of_Cuba_(K5_02244)_(5981298549).jpg"
+    "file": "images/photo/wd_Q5991783.webp",
+    "author": "architect: Eugenio Cosculluela y Barreras (1893–1978); photographer…",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:2007_august_Cuba_199.jpg"
    }
   },
   {
-   "id": "wd:Q13382101",
-   "name": "Estadio Cándido González",
-   "label": "Estadio Cándido González",
+   "id": "wd:Q25933232",
+   "name": "St. Eugene's Cathedral, Ciego de Ávila",
+   "label": "St. Eugene's Cathedral, Ciego de Ávila",
    "type": "built",
-   "kind": "sports venue",
-   "region": "CU-09",
+   "kind": "Catholic cathedral",
+   "region": "CU-08",
    "country": "CU",
-   "lat": 21.3786,
-   "lon": -77.9114,
+   "lat": 21.8414,
+   "lon": -78.7603,
    "rarity": "Rare",
-   "fame": 996,
+   "fame": 720,
    "facts": {
-    "elevation_m": 92,
-    "temp_c": 25.2
+    "elevation_m": 49,
+    "temp_c": 25.3
    },
    "flavour": {
-    "text": "It is primarily used for baseball and serves as the home field for the Toros de Camagüey, a team in the Cuban National Series.",
+    "text": "St. Eugene's Cathedral, also called the Cathedral of Saint Eugene of the Palma or simply Cathedral of Ciego de Ávila.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Cándido González",
-    "url": "https://en.wikipedia.org/wiki/Estadio_C%C3%A1ndido_Gonz%C3%A1lez",
+    "title": "St. Eugene's Cathedral, Ciego de Ávila",
+    "url": "https://en.wikipedia.org/wiki/St._Eugene%27s_Cathedral%2C_Ciego_de_%C3%81vila",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q13382101.webp",
-    "author": "Ramon.rovirosa",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Camag%C3%BCey_Cuba_Baseball_Stadium_2012.jpg"
+    "file": "images/photo/wd_Q25933232.webp",
+    "author": "Elvis Tanda",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_San_Eugenio_Ciego_de_Avila.jpg"
    }
   },
   {
-   "id": "wd:Q1076178",
-   "name": "Moncada Barracks",
-   "label": "Moncada Barracks",
+   "id": "wd:Q89237884",
+   "name": "Catedral del Santísimo Salvador de Bayamo",
+   "label": "Catedral del Santísimo Salvador de Bayamo",
    "type": "built",
-   "kind": "Monumento Nacional de Cuba",
-   "region": "CU-13",
+   "kind": "Catholic cathedral",
+   "region": "CU-12",
    "country": "CU",
-   "lat": 20.0264,
-   "lon": -75.8192,
+   "lat": 20.3733,
+   "lon": -76.6503,
    "rarity": "Rare",
-   "fame": 4974,
+   "fame": 312,
    "facts": {
     "elevation_m": 54,
-    "temp_c": 24.7
+    "temp_c": 26.0
    },
    "flavour": {
-    "text": "Ciudad Escolar 26 de Julio, formerly the Moncada Barracks, is a school complex in a former army barracks in Santiago de Cuba.",
+    "text": "The Cathedral of the Holy Saviour of Bayamo is the seat of the bishop of the Diocese of Bayamo-Manzanillo…",
     "source": "wikipedia",
     "lang": "es",
-    "title": "Cuartel Moncada",
-    "url": "https://es.wikipedia.org/wiki/Cuartel_Moncada",
+    "title": "Catedral del Santísimo Salvador (Bayamo)",
+    "url": "https://es.wikipedia.org/wiki/Catedral_del_Sant%C3%ADsimo_Salvador_%28Bayamo%29",
     "translated": true
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1076178.webp",
-    "author": "Gearink",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cuartel_Moncada_1.jpg"
+    "file": "images/photo/wd_Q89237884.webp",
+    "author": "R01k",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bayamo_-_panoramio_(1).jpg"
    }
   },
   {
-   "id": "wd:Q5910227",
-   "name": "San Francisco de Paula Church",
-   "label": "San Francisco de Paula Church",
+   "id": "wd:Q5136329",
+   "name": "Club Náutico (Havana)",
+   "label": "Club Náutico (Havana)",
    "type": "built",
-   "kind": "church",
+   "kind": "clubhouse",
    "region": "CU-03",
    "country": "CU",
-   "lat": 23.131,
-   "lon": -82.3488,
+   "lat": 23.0936,
+   "lon": -82.4597,
    "rarity": "Rare",
-   "fame": 1338,
+   "fame": 1554,
    "facts": {
-    "elevation_m": 12,
+    "elevation_m": 4.0,
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "The Iglesia de San Francisco de Paula, Havana is part of the ecclesiastical heritage of Havana.",
+    "text": "Club Náutico is a private club in Cuba used by members of government unions since being nationalized by the government in the 1960s.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Church of San Francisco de Paula, Havana",
-    "url": "https://en.wikipedia.org/wiki/Church_of_San_Francisco_de_Paula%2C_Havana",
+    "title": "Club Náutico",
+    "url": "https://en.wikipedia.org/wiki/Club_N%C3%A1utico",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5910227.webp",
-    "author": "Unknown author Unknown author",
+    "file": "images/photo/wd_Q5136329.webp",
+    "author": "Gisela López-Mata",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_y_hospital_San_Francisco_de_Paula,_Havana.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Club_N%C3%A1utico_-_Max_Borges_Recio_1953.jpg"
    }
   },
   {
@@ -2097,200 +2108,198 @@
    }
   },
   {
-   "id": "wd:Q25933232",
-   "name": "St. Eugene's Cathedral, Ciego de Ávila",
-   "label": "St. Eugene's Cathedral, Ciego de Ávila",
+   "id": "wd:Q7203621",
+   "name": "Plaza Mayor, Trinidad, Cuba",
+   "label": "Plaza Mayor, Trinidad, Cuba",
    "type": "built",
-   "kind": "Catholic cathedral",
-   "region": "CU-08",
+   "kind": "square",
+   "region": "CU-07",
    "country": "CU",
-   "lat": 21.8414,
-   "lon": -78.7603,
+   "lat": 21.8052,
+   "lon": -79.9846,
    "rarity": "Rare",
-   "fame": 720,
+   "fame": 1476,
    "facts": {
-    "elevation_m": 49,
-    "temp_c": 25.3
+    "elevation_m": 75,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "St. Eugene's Cathedral, also called the Cathedral of Saint Eugene of the Palma or simply Cathedral of Ciego de Ávila.",
+    "text": "The Plaza Mayor in Trinidad, Cuba, is the historic centre of the town, declared a UNESCO World Heritage Site in 1988.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "St. Eugene's Cathedral, Ciego de Ávila",
-    "url": "https://en.wikipedia.org/wiki/St._Eugene%27s_Cathedral%2C_Ciego_de_%C3%81vila",
+    "title": "Plaza Mayor, Trinidad",
+    "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Trinidad",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q25933232.webp",
-    "author": "Elvis Tanda",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Catedral_San_Eugenio_Ciego_de_Avila.jpg"
+    "file": "images/photo/wd_Q7203621.webp",
+    "author": "Dieter Mueller, dino1948",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Trinidad_(Kuba)_03.jpg"
    }
   },
   {
-   "id": "wd:Q16892952",
-   "name": "José Martí Anti-Imperialist Platform",
-   "label": "José Martí Anti-Imperialist Platform",
+   "id": "wd:Q2035783",
+   "name": "Our Lady of Kazan Orthodox Cathedral",
+   "label": "Our Lady of Kazan Orthodox Cathedral",
    "type": "built",
-   "kind": "monument",
+   "kind": "Eastern Orthodox church building",
    "region": "CU-03",
    "country": "CU",
-   "lat": 23.146,
-   "lon": -82.387,
+   "lat": 23.1349,
+   "lon": -82.3472,
    "rarity": "Rare",
-   "fame": 2706,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "The José Martí Anti-Imperialist Platform is a public event venue located in the Plaza de la Dignidad.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "José Martí Anti-Imperialist Platform",
-    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD_Anti-Imperialist_Platform",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q16892952.webp",
-    "author": "Elemaki",
-    "licence": "CC BY-SA 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Tribuna_antiimperialista_en_La_Habana.JPG"
-   }
-  },
-  {
-   "id": "wd:Q11942010",
-   "name": "Plaza de Armas, Havana",
-   "label": "Plaza de Armas, Havana",
-   "type": "built",
-   "kind": "Plaza de Armas",
-   "region": "CU-03",
-   "country": "CU",
-   "lat": 23.1402,
-   "lon": -82.3495,
-   "rarity": "Rare",
-   "fame": 2586,
+   "fame": 2778,
    "facts": {
     "elevation_m": 11,
+    "height_m": 30,
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "Plaza de Armas is the oldest town square in Habana Vieja.",
+    "text": "The Our Lady of Kazan Orthodox Cathedral, is a Russian Orthodox cathedral located in historic old town of Havana, Cuba.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Plaza de Armas (Havana)",
-    "url": "https://en.wikipedia.org/wiki/Plaza_de_Armas_%28Havana%29",
+    "title": "Our Lady of Kazan Orthodox Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Kazan_Orthodox_Cathedral",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q11942010.webp",
-    "author": "Eric Marshall",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas_-_panoramio_(1).jpg"
+    "file": "images/photo/wd_Q2035783.webp",
+    "author": "Ντμίτρι",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gavana_rus_cathedral.JPG"
    }
   },
   {
-   "id": "wd:Q1272732",
-   "name": "Pesquero beach",
-   "label": "Pesquero beach",
+   "id": "wd:Q5903421",
+   "name": "Plaza Hotel",
+   "label": "Plaza Hotel",
    "type": "built",
-   "kind": "beach",
-   "region": "CU-11",
+   "kind": "hotel",
+   "region": "CU-03",
    "country": "CU",
-   "lat": 21.1003,
-   "lon": -75.9339,
+   "lat": 23.1387,
+   "lon": -82.358,
    "rarity": "Rare",
-   "fame": 270,
+   "fame": 2670,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.3
+    "elevation_m": 14,
+    "temp_c": 25.2
    },
    "flavour": {
-    "text": "It is part of the tourist coast of Holguín, along with the beaches of Guardalavaca, Yuraguanal and Esmeralda.",
+    "text": "The Hotel Plaza is a historic four-story hotel in the Old Havana section of Havana.",
     "source": "wikipedia",
-    "lang": "es",
-    "title": "Playa Pesquero",
-    "url": "https://es.wikipedia.org/wiki/Playa_Pesquero",
-    "translated": true
+    "lang": "en",
+    "title": "Plaza Hotel (Havana)",
+    "url": "https://en.wikipedia.org/wiki/Plaza_Hotel_%28Havana%29",
+    "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1272732.webp",
-    "author": "Irám René GD",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Playa_pesquero_holguin_cuba_009.jpg"
+    "file": "images/photo/wd_Q5903421.webp",
+    "author": "Edicion Jordi, Havana (publisher)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Havana_-_Hotel_Plaza.jpg"
    }
   },
   {
-   "id": "wd:Q3878527",
-   "name": "Border gates at the Guantanamo Bay Naval Base",
-   "label": "Border gates at the Guantanamo Bay Naval Base",
+   "id": "wd:Q9018811",
+   "name": "The Periquera",
+   "label": "The Periquera",
    "type": "built",
-   "kind": "border checkpoint",
-   "region": "CU-14",
+   "kind": "building",
+   "region": "CU-11",
    "country": "CU",
-   "lat": 19.9737,
-   "lon": -75.0868,
+   "lat": 20.8877,
+   "lon": -76.2596,
    "rarity": "Rare",
-   "fame": 1200,
+   "fame": 732,
    "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 26.3
+    "elevation_m": 144,
+    "temp_c": 25.8
    },
-   "also_in": [
-    "US"
-   ],
    "flavour": {
-    "text": "The Northeast Gate is the only border crossing between the Guantánamo Bay Naval Base and the town of Boquerón.",
+    "text": "La Periquera is one of the most iconic historic buildings in the city of Holguín, Cuba.",
     "source": "wikipedia",
     "lang": "es",
-    "title": "Puerta del Noreste",
-    "url": "https://es.wikipedia.org/wiki/Puerta_del_Noreste",
+    "title": "La Periquera",
+    "url": "https://es.wikipedia.org/wiki/La_Periquera",
     "translated": true
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q3878527.webp"
+    "file": "images/minimap/wd_Q9018811.webp"
    }
   },
   {
-   "id": "wd:Q1289259",
-   "name": "Palacio de Valle",
-   "label": "Palacio de Valle",
+   "id": "wd:Q1076178",
+   "name": "Moncada Barracks",
+   "label": "Moncada Barracks",
    "type": "built",
-   "kind": "historic house",
-   "region": "CU-06",
+   "kind": "Monumento Nacional de Cuba",
+   "region": "CU-13",
    "country": "CU",
-   "lat": 22.1213,
-   "lon": -80.4515,
+   "lat": 20.0264,
+   "lon": -75.8192,
    "rarity": "Rare",
-   "fame": 2094,
+   "fame": 4974,
    "facts": {
-    "elevation_m": 6.0,
-    "temp_c": 25.3
+    "elevation_m": 54,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "The Palacio del Valle is a historic villa in Cienfuegos, Cuba, built by the Italian architect Alfredo Colli, from 1913 to 1917.",
+    "text": "Ciudad Escolar 26 de Julio, formerly the Moncada Barracks, is a school complex in a former army barracks in Santiago de Cuba.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cuartel Moncada",
+    "url": "https://es.wikipedia.org/wiki/Cuartel_Moncada",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1076178.webp",
+    "author": "Gearink",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuartel_Moncada_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7691923",
+   "name": "Teatro La Caridad",
+   "label": "Teatro La Caridad",
+   "type": "built",
+   "kind": "theatre building",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.4074,
+   "lon": -79.9659,
+   "rarity": "Rare",
+   "fame": 924,
+   "facts": {
+    "elevation_m": 127,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Teatro de La Caridad or Teatro La Caridad, located in Santa Clara, is one of the few remaining colonial theatres in Cuba.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Palacio del Valle",
-    "url": "https://en.wikipedia.org/wiki/Palacio_del_Valle",
+    "title": "Teatro La Caridad",
+    "url": "https://en.wikipedia.org/wiki/Teatro_La_Caridad",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1289259.webp",
-    "author": "Dieter Mueller, dino1948",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Cienfuegos_maurische_Villa.JPG"
+    "file": "images/photo/wd_Q7691923.webp",
+    "author": "Lezumbalaberenjena at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Caridad.jpg"
    }
   },
   {

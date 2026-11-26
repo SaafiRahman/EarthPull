@@ -898,7 +898,7 @@
    "label": "Altos de Chavón",
    "type": "built",
    "kind": "fixed construction",
-   "region": "DO-11",
+   "region": "DO-12",
    "country": "DO",
    "lat": 18.4215,
    "lon": -68.8899,
@@ -919,7 +919,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q444485.webp",
-    "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia",
+    "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at…",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dominicana-Altos_de_Chavon.jpg"
@@ -1058,172 +1058,166 @@
    }
   },
   {
-   "id": "wd:Q9055961",
-   "name": "Jaragua National Park",
-   "label": "Jaragua National Park",
+   "id": "wd:Q6904743",
+   "name": "Monte Cristi National Park",
+   "label": "Monte Cristi National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.777,
+   "lon": -71.7023,
+   "rarity": "Epic",
+   "fame": 984,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Monte Cristi National Park is a national park on the Caribbean Island of Hispaniola that extends from the borders of Haiti to Punta Rucia in the Dominican…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monte Cristi National Park",
+    "url": "https://en.wikipedia.org/wiki/Monte_Cristi_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6904743.webp",
+    "author": "Joel Diplan",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Unnamed_Road,_Dominican_Republic_-_panoramio_(9).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1339113",
+   "name": "Saona Island",
+   "label": "Saona Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.1556,
+   "lon": -68.6994,
+   "rarity": "Epic",
+   "fame": 51834,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 110,
+    "length_km": 25,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Saona Island is a 110-square-kilometer tropical island located 1.5 miles off the south-east coast in Dominican Republic's La Altagracia province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saona Island",
+    "url": "https://en.wikipedia.org/wiki/Saona_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1339113.webp",
+    "author": "Mihai mad",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saona-playa.JPG"
+   }
+  },
+  {
+   "id": "wd:Q17624527",
+   "name": "Sierra de Bahoruco National Park",
+   "label": "Sierra de Bahoruco National Park",
    "type": "nature",
    "kind": "national park",
    "region": "DO-16",
    "country": "DO",
-   "lat": 17.7892,
-   "lon": -71.499,
+   "lat": 18.16,
+   "lon": -71.5,
    "rarity": "Epic",
-   "fame": 5034,
+   "fame": 1890,
    "facts": {
-    "elevation_m": 191,
-    "area_km2": 1374,
-    "temp_c": 26.2
+    "elevation_m": 1378,
+    "temp_c": 21.4
    },
    "flavour": {
-    "text": "Jaragua National Park is a Dominican national park located in Pedernales Province, in the extreme southwest of the Dominican Republic.",
+    "text": "The Sierra de Bahoruco National Park is an environmentally protected national park located in the South-western region of Dominican Republic.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Jaragua National Park",
-    "url": "https://en.wikipedia.org/wiki/Jaragua_National_Park",
+    "title": "Sierra de Bahoruco National Park",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_Bahoruco_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q9055961.webp",
-    "author": "Tim Ross",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:CaribFlamingosLOviedo2.jpg"
-   }
-  },
-  {
-   "id": "wd:Q585251",
-   "name": "Cotubanamá National Park",
-   "label": "Cotubanamá National Park",
-   "type": "nature",
-   "kind": "national park",
-   "region": "DO-11",
-   "country": "DO",
-   "lat": 18.2283,
-   "lon": -68.683,
-   "rarity": "Epic",
-   "fame": 5172,
-   "facts": {
-    "elevation_m": 2.0,
-    "area_km2": 796,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "Cotubanamá National Park is located on the lower southeastern coast of the Dominican Republic.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Cotubanamá National Park",
-    "url": "https://en.wikipedia.org/wiki/Cotubanam%C3%A1_National_Park",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q585251.webp",
-    "author": "Melodygar",
+    "file": "images/photo/wd_Q17624527.webp",
+    "author": "Yolanda Leon",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Isla_Saona_III.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Brunellia_comocladifolia_3.JPG"
    }
   },
   {
-   "id": "wd:Q25277",
-   "name": "Hispaniola",
-   "label": "Hispaniola",
-   "type": "nature",
-   "kind": "island",
-   "region": "DO-22",
-   "country": "DO",
-   "lat": 19.0,
-   "lon": -71.0,
-   "rarity": "Epic",
-   "fame": 537522,
-   "facts": {
-    "elevation_m": 3098,
-    "area_km2": 76420,
-    "temp_c": 17.2
-   },
-   "also_in": [
-    "HT"
-   ],
-   "flavour": {
-    "text": "It is the most populous island in the West Indies and the second-largest by land area, after Cuba.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Hispaniola",
-    "url": "https://en.wikipedia.org/wiki/Hispaniola",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q25277.webp",
-    "author": "NASA/Expedition 20 crew",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:ISS-20_Caribbean_island_of_Hispaniola_from_the_ISS.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5549649",
-   "name": "Nalga de Maco",
-   "label": "Nalga de Maco",
+   "id": "wd:Q6062999",
+   "name": "José Armando Bermúdez National Park",
+   "label": "José Armando Bermúdez National Park",
    "type": "nature",
    "kind": "national park",
    "region": "DO-07",
    "country": "DO",
-   "lat": 19.2059,
-   "lon": -71.4972,
+   "lat": 19.2883,
+   "lon": -71.4628,
    "rarity": "Epic",
-   "fame": 1026,
+   "fame": 2532,
    "facts": {
-    "elevation_m": 1526,
-    "area_km2": 166,
+    "elevation_m": 863,
     "temp_c": 21.0
    },
    "flavour": {
-    "text": "Nalga de Maco National Park is a national park in the Cordillera Central, in the west of the Dominican Republic…",
-    "source": "wikipedia",
-    "lang": "es",
-    "title": "Parque nacional Nalga de Maco",
-    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Nalga_de_Maco",
-    "translated": true
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5549649.webp"
-   }
-  },
-  {
-   "id": "wd:Q783742",
-   "name": "Pico Duarte",
-   "label": "Pico Duarte",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "DO-25",
-   "country": "DO",
-   "lat": 19.0331,
-   "lon": -71.0053,
-   "rarity": "Epic",
-   "fame": 55194,
-   "facts": {
-    "elevation_m": 3101,
-    "prominence_m": 3101,
-    "temp_c": 13.4
-   },
-   "flavour": {
-    "text": "Pico Duarte is the highest peak in the Dominican Republic, on the island of Hispaniola and in all the Caribbean.",
+    "text": "José Armando Bermúdez National Park is a Dominican Republic National Park spanning the northern slopes and central portions of the Central Mountain Range.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Pico Duarte",
-    "url": "https://en.wikipedia.org/wiki/Pico_Duarte",
+    "title": "José Armando Bermúdez National Park",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Armando_Berm%C3%BAdez_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q783742.webp",
-    "author": "Adrian Michael",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pico_Duarte.jpg"
+    "file": "images/photo/wd_Q6062999.webp",
+    "author": "siri bl",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Foggy_scenic_view_of_Dominican_Mountains,_Cordillera_Central.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6063002",
+   "name": "José del Carmen Ramírez National Park",
+   "label": "José del Carmen Ramírez National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-22",
+   "country": "DO",
+   "lat": 19.0995,
+   "lon": -71.2283,
+   "rarity": "Epic",
+   "fame": 1110,
+   "facts": {
+    "elevation_m": 2070,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "José del Carmen Ramírez National Park is a nature reserve in San Juan de la Maguana, Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Parque nacional José del Carmen Ramírez",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_Jos%C3%A9_del_Carmen_Ram%C3%ADrez",
+    "translated": true
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6063002.webp"
    }
   },
   {
@@ -1321,69 +1315,70 @@
    }
   },
   {
-   "id": "wd:Q6062999",
-   "name": "José Armando Bermúdez National Park",
-   "label": "José Armando Bermúdez National Park",
+   "id": "wd:Q783742",
+   "name": "Pico Duarte",
+   "label": "Pico Duarte",
    "type": "nature",
-   "kind": "national park",
-   "region": "DO-26",
+   "kind": "mountain",
+   "region": "DO-25",
    "country": "DO",
-   "lat": 19.2883,
-   "lon": -71.4628,
+   "lat": 19.0331,
+   "lon": -71.0053,
    "rarity": "Epic",
-   "fame": 2532,
+   "fame": 55194,
    "facts": {
-    "elevation_m": 863,
-    "temp_c": 21.0
+    "elevation_m": 3101,
+    "prominence_m": 3101,
+    "temp_c": 13.4
    },
    "flavour": {
-    "text": "José Armando Bermúdez National Park is a Dominican Republic National Park spanning the northern slopes and central portions of the Central Mountain Range.",
+    "text": "Pico Duarte is the highest peak in the Dominican Republic, on the island of Hispaniola and in all the Caribbean.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "José Armando Bermúdez National Park",
-    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Armando_Berm%C3%BAdez_National_Park",
+    "title": "Pico Duarte",
+    "url": "https://en.wikipedia.org/wiki/Pico_Duarte",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6062999.webp",
-    "author": "siri bl",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Foggy_scenic_view_of_Dominican_Mountains,_Cordillera_Central.jpg"
+    "file": "images/photo/wd_Q783742.webp",
+    "author": "Adrian Michael",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pico_Duarte.jpg"
    }
   },
   {
-   "id": "wd:Q6904743",
-   "name": "Monte Cristi National Park",
-   "label": "Monte Cristi National Park",
+   "id": "wd:Q7258470",
+   "name": "Pueblo Viejo National Park",
+   "label": "Pueblo Viejo National Park",
    "type": "nature",
    "kind": "national park",
-   "region": "DO-15",
+   "region": "DO-13",
    "country": "DO",
-   "lat": 19.777,
-   "lon": -71.7023,
+   "lat": 19.2936,
+   "lon": -70.5442,
    "rarity": "Epic",
-   "fame": 984,
+   "fame": 798,
    "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 26.6
+    "elevation_m": 162,
+    "temp_c": 24.8
    },
    "flavour": {
-    "text": "Monte Cristi National Park is a national park on the Caribbean Island of Hispaniola that extends from the borders of Haiti to Punta Rucia in the Dominican…",
+    "text": "The Archaeological and Historical National Park of Pueblo Viejo, La Vega, in the La Vega Province of the Dominican Republic.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Monte Cristi National Park",
-    "url": "https://en.wikipedia.org/wiki/Monte_Cristi_National_Park",
+    "title": "Pueblo Viejo National Park",
+    "url": "https://en.wikipedia.org/wiki/Pueblo_Viejo_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6904743.webp",
-    "author": "Joel Diplan",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Unnamed_Road,_Dominican_Republic_-_panoramio_(9).jpg"
+    "file": "images/photo/wd_Q7258470.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuerte_Concepcion_de_la_Vega_RD_12_2019_2019_3185.jpg"
    }
   },
   {
@@ -2257,7 +2252,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q477915.webp",
-    "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia",
+    "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at…",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dominicana-Isla_Catalina2.jpg"
@@ -2359,7 +2354,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q2037402.webp",
-    "author": "-wuppertaler",
+    "author": "wuppertaler",
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:DOM_Santa_B%C3%A1rbara_de_Saman%C3%A1,_Bah%C3%ADa_de_Saman%C3%A1_0009.jpg"

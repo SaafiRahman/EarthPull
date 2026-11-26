@@ -70,70 +70,66 @@
    }
   },
   {
-   "id": "wd:Q23735177",
-   "name": "Cerro Tortuguero",
-   "label": "Cerro Tortuguero",
+   "id": "wd:Q2984377",
+   "name": "Colorado River",
+   "label": "Colorado River",
    "type": "nature",
-   "kind": "hill",
+   "kind": "river",
    "region": "CR-L",
    "country": "CR",
-   "lat": 10.584,
-   "lon": -83.5275,
+   "lat": 10.7969,
+   "lon": -83.5897,
    "rarity": "Common",
-   "fame": 1158,
+   "fame": 1056,
    "facts": {
-    "elevation_m": 119,
+    "elevation_m": 0.0,
+    "length_km": 96,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "Tortuguero Volcano, also known as Tortuguero Hill, is an extinct volcano located 5.5 kilometres WNW from Tortuguero, Costa Rica.",
+    "text": "The Colorado River, or the Rio Colorado, in Costa Rica is a distributary of the San Juan River which flows 96 kilometres towards the Caribbean in the northern…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Tortuguero Volcano",
-    "url": "https://en.wikipedia.org/wiki/Tortuguero_Volcano",
+    "title": "Colorado River (Costa Rica)",
+    "url": "https://en.wikipedia.org/wiki/Colorado_River_%28Costa_Rica%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q23735177.webp",
-    "author": "The Casual Tellurian",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Tortuguero.jpg"
+    "file": "images/photo/wd_Q2984377.webp",
+    "author": "Carlos Baquero",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barra_del_Colorado_Waterway.jpg"
    }
   },
   {
-   "id": "wd:Q4784120",
-   "name": "Aranjuez River",
-   "label": "Aranjuez River",
+   "id": "wd:Q18388962",
+   "name": "Playa cativo",
+   "label": "Playa cativo",
    "type": "nature",
-   "kind": "river",
+   "kind": "bay",
    "region": "CR-P",
    "country": "CR",
-   "lat": 9.9859,
-   "lon": -84.8186,
+   "lat": 8.674,
+   "lon": -83.3077,
    "rarity": "Common",
-   "fame": 588,
+   "fame": 450,
    "facts": {
-    "elevation_m": 14,
-    "length_km": 45,
-    "temp_c": 26.7
+    "elevation_m": 15,
+    "temp_c": 25.4
    },
    "flavour": {
-    "text": "The Aranjuez is a river in Costa Rica that has its source in the mountains and crosses the Guatusos province of Puntarenas.",
+    "text": "Playa Cativo is an eco-lodge located in Golfo Dulce, Costa Rica.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Aranjuez River",
-    "url": "https://en.wikipedia.org/wiki/Aranjuez_River",
+    "title": "Playa Cativo",
+    "url": "https://en.wikipedia.org/wiki/Playa_Cativo",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4784120.webp",
-    "author": "Hiram Montiel Calder…",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ca%C3%B1%C3%B3n_del_R%C3%ADo_Aranjuez_-_panoramio_-_Hiram_Montiel_Calder%E2%80%A6_(1).jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q18388962.webp"
    }
   },
   {
@@ -170,36 +166,32 @@
    }
   },
   {
-   "id": "wd:Q23738548",
-   "name": "Parismina River",
-   "label": "Parismina River",
+   "id": "wd:Q7697331",
+   "name": "Telire River",
+   "label": "Telire River",
    "type": "nature",
    "kind": "river",
    "region": "CR-L",
    "country": "CR",
-   "lat": 10.2898,
-   "lon": -83.3437,
+   "lat": 9.5595,
+   "lon": -82.8858,
    "rarity": "Common",
-   "fame": 696,
+   "fame": 582,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.2
+    "elevation_m": 40,
+    "temp_c": 25.5
    },
    "flavour": {
-    "text": "The Parismina River is a river in Costa Rica.",
+    "text": "The confluence of Telire with the Yorkin River creates the Sixaola, which is part of the border between Costa Rica and Panama.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Parismina River",
-    "url": "https://en.wikipedia.org/wiki/Parismina_River",
+    "title": "Telire River",
+    "url": "https://en.wikipedia.org/wiki/Telire_River",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q23738548.webp",
-    "author": "World Wide Gifts",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Costa_Rica_-_Caribbean_Sea_-_Parismina_(Eco-Tourism)_-_06.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7697331.webp"
    }
   },
   {
@@ -295,33 +287,36 @@
    }
   },
   {
-   "id": "wd:Q4958313",
-   "name": "Brava",
-   "label": "Brava",
+   "id": "wd:Q23738548",
+   "name": "Parismina River",
+   "label": "Parismina River",
    "type": "nature",
-   "kind": "island",
+   "kind": "river",
    "region": "CR-L",
    "country": "CR",
-   "lat": 10.7057,
-   "lon": -83.6887,
+   "lat": 10.2898,
+   "lon": -83.3437,
    "rarity": "Common",
-   "fame": 786,
+   "fame": 696,
    "facts": {
-    "elevation_m": 7.0,
-    "area_km2": 44,
-    "temp_c": 26.1
+    "elevation_m": 0.0,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "It is a fluvial island near the border with Nicaragua.",
+    "text": "The Parismina River is a river in Costa Rica.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Brava, Costa Rica",
-    "url": "https://en.wikipedia.org/wiki/Brava%2C_Costa_Rica",
+    "title": "Parismina River",
+    "url": "https://en.wikipedia.org/wiki/Parismina_River",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q4958313.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q23738548.webp",
+    "author": "World Wide Gifts",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Costa_Rica_-_Caribbean_Sea_-_Parismina_(Eco-Tourism)_-_06.jpg"
    }
   },
   {
@@ -354,37 +349,32 @@
    }
   },
   {
-   "id": "wd:Q2984377",
-   "name": "Colorado River",
-   "label": "Colorado River",
+   "id": "wd:Q5549327",
+   "name": "Cerro Pico Blanco",
+   "label": "Cerro Pico Blanco",
    "type": "nature",
-   "kind": "river",
+   "kind": "mountain",
    "region": "CR-L",
    "country": "CR",
-   "lat": 10.7969,
-   "lon": -83.5897,
+   "lat": 9.2833,
+   "lon": -83.0333,
    "rarity": "Common",
-   "fame": 1056,
+   "fame": 966,
    "facts": {
-    "elevation_m": 0.0,
-    "length_km": 96,
-    "temp_c": 26.3
+    "elevation_m": 2887,
+    "temp_c": 13.0
    },
    "flavour": {
-    "text": "The Colorado River, or the Rio Colorado, in Costa Rica is a distributary of the San Juan River which flows 96 kilometres towards the Caribbean in the northern…",
+    "text": "The Cerro Pico Blanco is the second highest mountain of the Cerros de Escazú, Costa Rica, with a summit elevation of 2,271 m.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Colorado River (Costa Rica)",
-    "url": "https://en.wikipedia.org/wiki/Colorado_River_%28Costa_Rica%29",
+    "title": "Cerro Pico Blanco",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Pico_Blanco",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2984377.webp",
-    "author": "Carlos Baquero",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Barra_del_Colorado_Waterway.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5549327.webp"
    }
   },
   {
@@ -802,36 +792,36 @@
    }
   },
   {
-   "id": "wd:Q2522000",
-   "name": "Estadio Nacional de Costa Rica",
-   "label": "Estadio Nacional de Costa Rica",
+   "id": "wd:Q1369626",
+   "name": "Estadio Ricardo Saprissa Aymá",
+   "label": "Estadio Ricardo Saprissa Aymá",
    "type": "built",
-   "kind": "stadium",
+   "kind": "association football venue",
    "region": "CR-SJ",
    "country": "CR",
-   "lat": 9.9364,
-   "lon": -84.1078,
+   "lat": 9.9654,
+   "lon": -84.0755,
    "rarity": "Epic",
-   "fame": 24180,
+   "fame": 16656,
    "facts": {
-    "elevation_m": 1117,
+    "elevation_m": 1170,
     "temp_c": 19.8
    },
    "flavour": {
-    "text": "It was the first modern sporting and events arena to be built in Central America.",
+    "text": "Estadio Ricardo Saprissa Aymá is a football stadium in San Juan de Tibás, with a seating capacity of 23,112.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Costa Rica National Stadium (2011)",
-    "url": "https://en.wikipedia.org/wiki/Costa_Rica_National_Stadium_%282011%29",
+    "title": "Estadio Ricardo Saprissa Aymá",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Ricardo_Saprissa_Aym%C3%A1",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2522000.webp",
-    "author": "MadriCR",
+    "file": "images/photo/wd_Q1369626.webp",
+    "author": "Kevin959503",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Nacional_de_Costa_Rica,_2011.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Montero_Giralt.jpg"
    }
   },
   {
@@ -967,36 +957,36 @@
    }
   },
   {
-   "id": "wd:Q1369626",
-   "name": "Estadio Ricardo Saprissa Aymá",
-   "label": "Estadio Ricardo Saprissa Aymá",
+   "id": "wd:Q2522000",
+   "name": "Estadio Nacional de Costa Rica",
+   "label": "Estadio Nacional de Costa Rica",
    "type": "built",
-   "kind": "association football venue",
-   "region": "CR-H",
+   "kind": "stadium",
+   "region": "CR-SJ",
    "country": "CR",
-   "lat": 9.9654,
-   "lon": -84.0755,
+   "lat": 9.9364,
+   "lon": -84.1078,
    "rarity": "Epic",
-   "fame": 16656,
+   "fame": 24180,
    "facts": {
-    "elevation_m": 1170,
+    "elevation_m": 1117,
     "temp_c": 19.8
    },
    "flavour": {
-    "text": "Estadio Ricardo Saprissa Aymá is a football stadium in San Juan de Tibás, with a seating capacity of 23,112.",
+    "text": "It was the first modern sporting and events arena to be built in Central America.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Ricardo Saprissa Aymá",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Ricardo_Saprissa_Aym%C3%A1",
+    "title": "Costa Rica National Stadium (2011)",
+    "url": "https://en.wikipedia.org/wiki/Costa_Rica_National_Stadium_%282011%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1369626.webp",
-    "author": "Kevin959503",
+    "file": "images/photo/wd_Q2522000.webp",
+    "author": "MadriCR",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Montero_Giralt.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Nacional_de_Costa_Rica,_2011.jpg"
    }
   },
   {
@@ -1134,99 +1124,104 @@
    }
   },
   {
-   "id": "wd:Q4552264",
-   "name": "Tapantí National Park",
-   "label": "Tapantí National Park",
+   "id": "wd:Q4551358",
+   "name": "Tenorio Volcano National Park",
+   "label": "Tenorio Volcano National Park",
    "type": "nature",
    "kind": "national park",
-   "region": "CR-C",
+   "region": "CR-G",
    "country": "CR",
-   "lat": 9.7706,
-   "lon": -83.7997,
+   "lat": 10.6667,
+   "lon": -85.0,
    "rarity": "Epic",
-   "fame": 2658,
+   "fame": 5976,
    "facts": {
-    "elevation_m": 1234,
-    "area_km2": 583,
-    "temp_c": 18.3
+    "elevation_m": 1414,
+    "area_km2": 129,
+    "temp_c": 23.2
    },
    "flavour": {
-    "text": "Tapantí - Cerro de la Muerte Massif National Park,, is a national park in the Central Conservation Area of Costa Rica located on the edge of the Talamanca…",
+    "text": "Tenorio Volcano National Park is a national park in the northern part of Costa Rica, which forms part of the Arenal Tempisque Conservation Area.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Tapantí National Park",
-    "url": "https://en.wikipedia.org/wiki/Tapant%C3%AD_National_Park",
+    "title": "Tenorio Volcano National Park",
+    "url": "https://en.wikipedia.org/wiki/Tenorio_Volcano_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q4552264.webp",
-    "author": "Mardochaios",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Tapanti.jpg"
-   }
-  },
-  {
-   "id": "wd:Q4552273",
-   "name": "Turrialba Volcano National Park",
-   "label": "Turrialba Volcano National Park",
-   "type": "nature",
-   "kind": "national park",
-   "region": "CR-C",
-   "country": "CR",
-   "lat": 10.03,
-   "lon": -83.77,
-   "rarity": "Epic",
-   "fame": 1122,
-   "facts": {
-    "elevation_m": 3070,
-    "temp_c": 19.2
-   },
-   "flavour": {
-    "text": "Turrialba Volcano National Park, or in Spanish the Parque Nacional Volcan Turrialba is a national park in the Central Conservation Area of Costa Rica that…",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Turrialba Volcano National Park",
-    "url": "https://en.wikipedia.org/wiki/Turrialba_Volcano_National_Park",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4552273.webp",
-    "author": "Fbolanos",
+    "file": "images/photo/wd_Q4551358.webp",
+    "author": "Cephas",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Turrialba_Volcano_cone_Sept_2005_.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_celeste_Fall_1.JPG"
    }
   },
   {
-   "id": "wd:Q4175950",
-   "name": "Juan Castro Blanco National Park",
-   "label": "Juan Castro Blanco National Park",
+   "id": "wd:Q4315024",
+   "name": "Las Baulas National Marine Park",
+   "label": "Las Baulas National Marine Park",
    "type": "nature",
    "kind": "national park",
-   "region": "CR-A",
+   "region": "CR-G",
    "country": "CR",
-   "lat": 10.2857,
-   "lon": -84.3293,
+   "lat": 10.318,
+   "lon": -85.865,
    "rarity": "Epic",
-   "fame": 2454,
+   "fame": 3186,
    "facts": {
-    "elevation_m": 1922,
-    "temp_c": 18.8
+    "elevation_m": 0.0,
+    "area_km2": 220,
+    "temp_c": 27.3
    },
    "flavour": {
-    "text": "Parque Nacional Juan Castro Blanco is a national park in the Arenal Huetar Norte Conservation Area in Alajuela Province in northern Costa Rica.",
+    "text": "It supports the largest nesting colony of leatherback sea turtles on the Pacific coast of the Americas.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Juan Castro Blanco National Park",
-    "url": "https://en.wikipedia.org/wiki/Juan_Castro_Blanco_National_Park",
+    "title": "Las Baulas Marine National Park",
+    "url": "https://en.wikipedia.org/wiki/Las_Baulas_Marine_National_Park",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q4175950.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q4315024.webp",
+    "author": "Mariordo",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marino_Las_Baulas_CRC_07_2009_6270.jpg"
+   }
+  },
+  {
+   "id": "wd:Q969125",
+   "name": "Irazú Volcano National Park",
+   "label": "Irazú Volcano National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.975,
+   "lon": -83.8653,
+   "rarity": "Epic",
+   "fame": 2820,
+   "facts": {
+    "elevation_m": 3225,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "Irazú Volcano National Park, or in Spanish the Parque Nacional Volcán Irazú, is a national park in the Central Conservation Area in Cartago Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Irazú Volcano National Park",
+    "url": "https://en.wikipedia.org/wiki/Iraz%C3%BA_Volcano_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q969125.webp",
+    "author": "Rafael Golan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Irazu_Volcano.JPG"
    }
   },
   {
@@ -1831,7 +1826,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q5290721.webp",
-    "author": "User:Jdlrobson",
+    "author": "Jdlrobson",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lead_Photo_For_Dominical0-8794135402422398.jpg"
@@ -2032,39 +2027,6 @@
    }
   },
   {
-   "id": "wd:Q1122340",
-   "name": "Rincón de la Vieja Volcano",
-   "label": "Rincón de la Vieja Volcano",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "CR-A",
-   "country": "CR",
-   "lat": 10.83,
-   "lon": -85.3239,
-   "rarity": "Rare",
-   "fame": 11400,
-   "facts": {
-    "elevation_m": 1916,
-    "temp_c": 23.0
-   },
-   "flavour": {
-    "text": "Rincón de la Vieja is an active andesitic complex volcano in north-western Costa Rica, about 23 km from Liberia, in the province of Guanacaste.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Rincón de la Vieja Volcano",
-    "url": "https://en.wikipedia.org/wiki/Rinc%C3%B3n_de_la_Vieja_Volcano",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1122340.webp",
-    "author": "cyph3r [2]",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Guanacaste_National_Park.jpg"
-   }
-  },
-  {
    "id": "wd:Q23741984",
    "name": "Laguna de Hule",
    "label": "Laguna de Hule",
@@ -2095,6 +2057,40 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Laguna_de_Hule.jpg"
+   }
+  },
+  {
+   "id": "wd:Q37316",
+   "name": "La Paz Waterfall",
+   "label": "La Paz Waterfall",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.2017,
+   "lon": -84.1615,
+   "rarity": "Rare",
+   "fame": 4236,
+   "facts": {
+    "elevation_m": 37,
+    "height_m": 37,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "In Spanish, it is known as Catarata de La Paz.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Paz Waterfall (Costa Rica)",
+    "url": "https://en.wikipedia.org/wiki/La_Paz_Waterfall_%28Costa_Rica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q37316.webp",
+    "author": "Erebus555",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Paz_Waterfall,_Costa_Rica.JPG"
    }
   },
   {
@@ -2234,37 +2230,36 @@
    }
   },
   {
-   "id": "wd:Q1733093",
-   "name": "Miravalles Volcano",
-   "label": "Miravalles Volcano",
+   "id": "wd:Q1122340",
+   "name": "Rincón de la Vieja Volcano",
+   "label": "Rincón de la Vieja Volcano",
    "type": "nature",
    "kind": "mountain",
    "region": "CR-G",
    "country": "CR",
-   "lat": 10.7473,
-   "lon": -85.1509,
+   "lat": 10.83,
+   "lon": -85.3239,
    "rarity": "Rare",
-   "fame": 4950,
+   "fame": 11400,
    "facts": {
-    "elevation_m": 2028,
-    "prominence_m": 1533,
-    "temp_c": 22.7
+    "elevation_m": 1916,
+    "temp_c": 23.0
    },
    "flavour": {
-    "text": "The Miravalles Volcano is an andesitic stratovolcano within the Miravalles Protected Zone, a nature reserve in Costa Rica.",
+    "text": "Rincón de la Vieja is an active andesitic complex volcano in north-western Costa Rica, about 23 km from Liberia, in the province of Guanacaste.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Miravalles Volcano",
-    "url": "https://en.wikipedia.org/wiki/Miravalles_Volcano",
+    "title": "Rincón de la Vieja Volcano",
+    "url": "https://en.wikipedia.org/wiki/Rinc%C3%B3n_de_la_Vieja_Volcano",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1733093.webp",
-    "author": "William Melson (Smithsonian Institution)",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Miravalles_volcano.jpg"
+    "file": "images/photo/wd_Q1122340.webp",
+    "author": "cyph3r [2]",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guanacaste_National_Park.jpg"
    }
   },
   {
@@ -2336,37 +2331,36 @@
    }
   },
   {
-   "id": "wd:Q37316",
-   "name": "La Paz Waterfall",
-   "label": "La Paz Waterfall",
+   "id": "wd:Q809647",
+   "name": "Barva Volcano",
+   "label": "Barva Volcano",
    "type": "nature",
-   "kind": "waterfall",
+   "kind": "mountain",
    "region": "CR-H",
    "country": "CR",
-   "lat": 10.2017,
-   "lon": -84.1615,
+   "lat": 10.135,
+   "lon": -84.1,
    "rarity": "Rare",
-   "fame": 4236,
+   "fame": 6654,
    "facts": {
-    "elevation_m": 37,
-    "height_m": 37,
-    "temp_c": 20.6
+    "elevation_m": 2906,
+    "temp_c": 17.4
    },
    "flavour": {
-    "text": "In Spanish, it is known as Catarata de La Paz.",
+    "text": "Barva Volcano is an andesitic stratovolcano complex in central Costa Rica, 22 kilometres north of San José, in Heredia Province.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "La Paz Waterfall (Costa Rica)",
-    "url": "https://en.wikipedia.org/wiki/La_Paz_Waterfall_%28Costa_Rica%29",
+    "title": "Barva Volcano",
+    "url": "https://en.wikipedia.org/wiki/Barva_Volcano",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q37316.webp",
-    "author": "Erebus555",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:La_Paz_Waterfall,_Costa_Rica.JPG"
+    "file": "images/photo/wd_Q809647.webp",
+    "author": "William Melson (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Barva.jpg"
    }
   },
   {
@@ -2845,7 +2839,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3622190.webp",
-    "author": "Manuel A. Aguilar C.",
+    "author": "Manuel A. Aguilar C",
     "licence": "CC BY-SA 3.0 cr",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/cr/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg"

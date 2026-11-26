@@ -92,7 +92,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q2166742.webp",
-    "author": "Tom Eppenberger Jr.",
+    "author": "Tom Eppenberger Jr",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:BartonCreekBZE.jpg"
@@ -249,7 +249,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q4906231.webp",
-    "author": "Michael Lazarev ( Asmadeus )",
+    "author": "Michael Lazarev (Asmadeus)",
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Big_Rock_Falls.jpg"
@@ -847,7 +847,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q446176.webp",
-    "author": "Michael Lazarev ( Asmadeus )",
+    "author": "Michael Lazarev (Asmadeus)",
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Altun_Ha_Belize.jpg"
@@ -1046,7 +1046,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q968463.webp",
-    "author": "The original uploader was Aquaimages at English Wikipedia .",
+    "author": "Aquaimages",
     "licence": "CC BY-SA 2.5",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Cahal_Pech_Belize.jpg"
@@ -2002,107 +2002,72 @@
    }
   },
   {
-   "id": "wd:Q815650",
-   "name": "Belize River",
-   "label": "Belize River",
+   "id": "wd:Q765874",
+   "name": "Maya Mountains",
+   "label": "Maya Mountains",
    "type": "nature",
-   "kind": "river",
+   "kind": "mountain range",
    "region": "BZ-CY",
    "country": "BZ",
-   "lat": 17.1784,
-   "lon": -89.0802,
+   "lat": 16.5015,
+   "lon": -89.0463,
    "rarity": "Rare",
-   "fame": 4236,
+   "fame": 4710,
    "facts": {
-    "elevation_m": 9.0,
-    "length_km": 290,
-    "temp_c": 25.1
+    "elevation_m": 1124,
+    "temp_c": 22.7
    },
    "also_in": [
     "GT"
    ],
    "flavour": {
-    "text": "The Belize River runs 290 kilometres through the center of Belize.",
+    "text": "The Maya Mountains are a mountain range located in Belize and eastern Guatemala, in Central America.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Belize River",
-    "url": "https://en.wikipedia.org/wiki/Belize_River",
+    "title": "Maya Mountains",
+    "url": "https://en.wikipedia.org/wiki/Maya_Mountains",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q815650.webp",
-    "author": "1000Faces at en.wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:BelizeRiverShot.JPG"
+    "file": "images/photo/wd_Q765874.webp",
+    "author": "drterdal",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maya_Mountains,_Cayo_District,_Belize.jpg"
    }
   },
   {
-   "id": "wd:Q5055296",
-   "name": "Caye Chapel",
-   "label": "Caye Chapel",
+   "id": "wd:Q2892597",
+   "name": "Cayo Espanto",
+   "label": "Cayo Espanto",
    "type": "nature",
    "kind": "island",
    "region": "BZ-BZ",
    "country": "BZ",
-   "lat": 17.6958,
-   "lon": -88.0425,
+   "lat": 17.9472,
+   "lon": -88.1225,
    "rarity": "Rare",
-   "fame": 2994,
+   "fame": 4200,
    "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 27.0
-   },
-   "flavour": {
-    "text": "Caye Chapel is a small, private island in Belize, 16 miles north-northeast of Belize City and 3 miles south of Caye Caulker.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Caye Chapel",
-    "url": "https://en.wikipedia.org/wiki/Caye_Chapel",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5055296.webp",
-    "author": "Emerald Photos (greenjinjo)",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Caye_Chapel_from_Airplane.jpeg"
-   }
-  },
-  {
-   "id": "wd:Q7588103",
-   "name": "St. George's Caye",
-   "label": "St. George's Caye",
-   "type": "nature",
-   "kind": "island",
-   "region": "BZ-BZ",
-   "country": "BZ",
-   "lat": 17.5531,
-   "lon": -88.0739,
-   "rarity": "Rare",
-   "fame": 2364,
-   "facts": {
-    "elevation_m": 2.0,
-    "length_km": 4.0,
+    "elevation_m": 0.0,
     "temp_c": 26.7
    },
    "flavour": {
-    "text": "It is part of the Belize District of Belize, Central America.",
+    "text": "It is one of the approximately 450 islands of the Belize Barrier Reef.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "St. George's Caye",
-    "url": "https://en.wikipedia.org/wiki/St._George%27s_Caye",
+    "title": "Cayo Espanto",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Espanto",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7588103.webp",
-    "author": "Kent Wang",
+    "file": "images/photo/wd_Q2892597.webp",
+    "author": "Mike's Birds from Riverside, CA, US",
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:St._George%27s_Caye_2,_Belize.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Cayo_Espanto_(40131618590).jpg"
    }
   },
   {
@@ -2138,6 +2103,39 @@
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:BZECAYE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5055296",
+   "name": "Caye Chapel",
+   "label": "Caye Chapel",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.6958,
+   "lon": -88.0425,
+   "rarity": "Rare",
+   "fame": 2994,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Caye Chapel is a small, private island in Belize, 16 miles north-northeast of Belize City and 3 miles south of Caye Caulker.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caye Chapel",
+    "url": "https://en.wikipedia.org/wiki/Caye_Chapel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5055296.webp",
+    "author": "Emerald Photos (greenjinjo)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caye_Chapel_from_Airplane.jpeg"
    }
   },
   {
@@ -2210,6 +2208,77 @@
    }
   },
   {
+   "id": "wd:Q7588103",
+   "name": "St. George's Caye",
+   "label": "St. George's Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.5531,
+   "lon": -88.0739,
+   "rarity": "Rare",
+   "fame": 2364,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 4.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is part of the Belize District of Belize, Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. George's Caye",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7588103.webp",
+    "author": "Kent Wang",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._George%27s_Caye_2,_Belize.jpg"
+   }
+  },
+  {
+   "id": "wd:Q815650",
+   "name": "Belize River",
+   "label": "Belize River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1784,
+   "lon": -89.0802,
+   "rarity": "Rare",
+   "fame": 4236,
+   "facts": {
+    "elevation_m": 9.0,
+    "length_km": 290,
+    "temp_c": 25.1
+   },
+   "also_in": [
+    "GT"
+   ],
+   "flavour": {
+    "text": "The Belize River runs 290 kilometres through the center of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belize River",
+    "url": "https://en.wikipedia.org/wiki/Belize_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q815650.webp",
+    "author": "1000Faces at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:BelizeRiverShot.JPG"
+   }
+  },
+  {
    "id": "wd:Q47490",
    "name": "Doyle's Delight",
    "label": "Doyle's Delight",
@@ -2240,75 +2309,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Doyle%27s_Delight.jpg"
-   }
-  },
-  {
-   "id": "wd:Q2892597",
-   "name": "Cayo Espanto",
-   "label": "Cayo Espanto",
-   "type": "nature",
-   "kind": "island",
-   "region": "BZ-CZL",
-   "country": "BZ",
-   "lat": 17.9472,
-   "lon": -88.1225,
-   "rarity": "Rare",
-   "fame": 4200,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.7
-   },
-   "flavour": {
-    "text": "It is one of the approximately 450 islands of the Belize Barrier Reef.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Cayo Espanto",
-    "url": "https://en.wikipedia.org/wiki/Cayo_Espanto",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2892597.webp",
-    "author": "Mike's Birds from Riverside, CA, US",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cayo_Espanto_(40131618590).jpg"
-   }
-  },
-  {
-   "id": "wd:Q765874",
-   "name": "Maya Mountains",
-   "label": "Maya Mountains",
-   "type": "nature",
-   "kind": "mountain range",
-   "region": "BZ-CY",
-   "country": "BZ",
-   "lat": 16.5015,
-   "lon": -89.0463,
-   "rarity": "Rare",
-   "fame": 4710,
-   "facts": {
-    "elevation_m": 1124,
-    "temp_c": 22.7
-   },
-   "also_in": [
-    "GT"
-   ],
-   "flavour": {
-    "text": "The Maya Mountains are a mountain range located in Belize and eastern Guatemala, in Central America.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Maya Mountains",
-    "url": "https://en.wikipedia.org/wiki/Maya_Mountains",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q765874.webp",
-    "author": "drterdal",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Maya_Mountains,_Cayo_District,_Belize.jpg"
    }
   },
   {

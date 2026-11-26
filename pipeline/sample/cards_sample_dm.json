@@ -777,7 +777,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q629436.webp",
-    "author": "Nelro ( talk )",
+    "author": "Nelro",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Valley_of_desolation.jpg"
@@ -1142,7 +1142,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q5472431.webp",
-    "author": "Ted Rufus Ross , cropped by Blofeld",
+    "author": "Ted Rufus Ross, cropped by Blofeld",
     "licence": "CC BY 2.5",
     "licence_url": "https://creativecommons.org/licenses/by/2.5",
     "page": "https://commons.wikimedia.org/wiki/File:Fort_Young_Hotel.jpg"
@@ -1204,7 +1204,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q4245116.webp",
-    "author": "Nelro ( talk )",
+    "author": "Nelro",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Roseau_Cathedral.jpg"
@@ -1335,36 +1335,36 @@
    }
   },
   {
-   "id": "wd:Q1535776",
-   "name": "Morne Watt",
-   "label": "Morne Watt",
+   "id": "wd:Q13388092",
+   "name": "Morne Plat Pays",
+   "label": "Morne Plat Pays",
    "type": "nature",
    "kind": "mountain",
-   "region": "DM-09",
+   "region": "DM-07",
    "country": "DM",
-   "lat": 15.307,
-   "lon": -61.305,
+   "lat": 15.2495,
+   "lon": -61.3465,
    "rarity": "Rare",
-   "fame": 1086,
+   "fame": 636,
    "facts": {
-    "elevation_m": 1224,
-    "temp_c": 24.1
+    "elevation_m": 960,
+    "temp_c": 25.2
    },
    "flavour": {
-    "text": "Morne Watt or Watt Mountain is a mountain consisting of one or more stratovolcanoes at the south end of Dominica in the eastern Caribbean Sea.",
+    "text": "Located on the southern region of the island, the volcano last erupted around the year 1270 AD.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Morne Watt",
-    "url": "https://en.wikipedia.org/wiki/Morne_Watt",
+    "title": "Morne Plat Pays",
+    "url": "https://en.wikipedia.org/wiki/Morne_Plat_Pays",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1535776.webp",
+    "file": "images/photo/wd_Q13388092.webp",
     "author": "Lee Siebert (Smithsonian Institution)",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Morne_Watt.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Plat_Pays.jpg"
    }
   },
   {
@@ -1734,7 +1734,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3575717.webp",
-    "author": "Picture taken by me in October 2008.",
+    "author": "Picture taken by me in October 2008",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Wall_painting_massacre_dominica.JPG"

@@ -800,69 +800,69 @@
    }
   },
   {
-   "id": "wd:Q6057757",
-   "name": "National Palace",
-   "label": "National Palace",
+   "id": "wd:Q2942929",
+   "name": "Metropolitan Cathedral of San Salvador",
+   "label": "Metropolitan Cathedral of San Salvador",
    "type": "built",
-   "kind": "building of public administration",
+   "kind": "cathedral",
    "region": "SV-SS",
    "country": "SV",
-   "lat": 13.6977,
-   "lon": -89.192,
+   "lat": 13.6986,
+   "lon": -89.1911,
    "rarity": "Epic",
-   "fame": 15816,
+   "fame": 12258,
    "facts": {
-    "elevation_m": 659,
+    "elevation_m": 658,
     "temp_c": 22.6
    },
    "flavour": {
-    "text": "The current National Palace of El Salvador, located in San Salvador, the capital city of the country of El Salvador.",
+    "text": "The Metropolitan Cathedral of the Holy Savior is the cathedral church of the Catholic Archdiocese of San Salvador in San Salvador, El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "National Palace (El Salvador)",
-    "url": "https://en.wikipedia.org/wiki/National_Palace_%28El_Salvador%29",
+    "title": "Metropolitan Cathedral of San Salvador",
+    "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_Salvador",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6057757.webp",
-    "author": "Jose Quintanilla",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_en_San_Salvador.JPG"
+    "file": "images/photo/wd_Q2942929.webp",
+    "author": "Rômulo Gama Ferreira from Vitória-ES",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Salvador_-_El_Salvador_(50899440617).jpg"
    }
   },
   {
-   "id": "wd:Q2382357",
-   "name": "Estadio Óscar Quiteño",
-   "label": "Estadio Óscar Quiteño",
+   "id": "wd:Q2412387",
+   "name": "Estadio Jorge \"El Mágico\" González",
+   "label": "Estadio Jorge \"El Mágico\" González",
    "type": "built",
-   "kind": "stadium",
-   "region": "SV-SA",
+   "kind": "association football venue",
+   "region": "SV-SS",
    "country": "SV",
-   "lat": 13.9764,
-   "lon": -89.569,
+   "lat": 13.6983,
+   "lon": -89.2154,
    "rarity": "Epic",
-   "fame": 6222,
+   "fame": 24372,
    "facts": {
-    "elevation_m": 711,
-    "temp_c": 21.6
+    "elevation_m": 712,
+    "temp_c": 22.6
    },
    "flavour": {
-    "text": "Estadio Óscar Quiteño is a multi-purpose stadium in Santa Ana, El Salvador.",
+    "text": "It is named after Salvadoran star player Mágico González.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Óscar Quiteño",
-    "url": "https://en.wikipedia.org/wiki/Estadio_%C3%93scar_Quite%C3%B1o",
+    "title": "Estadio Jorge \"El Mágico\" González",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Jorge_%22El_M%C3%A1gico%22_Gonz%C3%A1lez",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2382357.webp",
-    "author": "JMRAFFi",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Oscar_A._Quite%C3%B1o.jpg"
+    "file": "images/photo/wd_Q2412387.webp",
+    "author": "Arne Müseler",
+    "licence": "CC BY-SA 3.0 de",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:El-salvador_san-salvador_Estadio-Jorge-Gonz%C3%A1lez_2.JPG"
    }
   },
   {
@@ -895,36 +895,36 @@
    }
   },
   {
-   "id": "wd:Q5047867",
-   "name": "Casa Presidencial",
-   "label": "Casa Presidencial",
+   "id": "wd:Q690372",
+   "name": "Tazumal",
+   "label": "Tazumal",
    "type": "built",
-   "kind": "building",
-   "region": "SV-LI",
+   "kind": "archaeological site",
+   "region": "SV-SA",
    "country": "SV",
-   "lat": 13.6851,
-   "lon": -89.24,
+   "lat": 13.9796,
+   "lon": -89.6744,
    "rarity": "Epic",
-   "fame": 11160,
+   "fame": 20880,
    "facts": {
-    "elevation_m": 801,
-    "temp_c": 22.6
+    "elevation_m": 723,
+    "temp_c": 21.5
    },
    "flavour": {
-    "text": "Casa Presidencial, or \"Presidential House\" in the Spanish language, is the President of El Salvador's official residence and his offices.",
+    "text": "Tazumal is a pre-Columbian archeological site and architectural complex located within the archeological zone of Chalchuapa, in western El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Casa Presidencial (El Salvador)",
-    "url": "https://en.wikipedia.org/wiki/Casa_Presidencial_%28El_Salvador%29",
+    "title": "Tazumal",
+    "url": "https://en.wikipedia.org/wiki/Tazumal",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5047867.webp",
-    "author": "Efegé",
+    "file": "images/photo/wd_Q690372.webp",
+    "author": "ARamirez69",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Antiguacapres_01.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:El_Tazumal,_Chalchuapa.jpg"
    }
   },
   {
@@ -962,135 +962,69 @@
    }
   },
   {
-   "id": "wd:Q2942929",
-   "name": "Metropolitan Cathedral of San Salvador",
-   "label": "Metropolitan Cathedral of San Salvador",
+   "id": "wd:Q5047867",
+   "name": "Casa Presidencial",
+   "label": "Casa Presidencial",
    "type": "built",
-   "kind": "cathedral",
+   "kind": "building",
    "region": "SV-SS",
    "country": "SV",
-   "lat": 13.6986,
-   "lon": -89.1911,
+   "lat": 13.6851,
+   "lon": -89.24,
    "rarity": "Epic",
-   "fame": 12258,
+   "fame": 11160,
    "facts": {
-    "elevation_m": 658,
+    "elevation_m": 801,
     "temp_c": 22.6
    },
    "flavour": {
-    "text": "The Metropolitan Cathedral of the Holy Savior is the cathedral church of the Catholic Archdiocese of San Salvador in San Salvador, El Salvador.",
+    "text": "Casa Presidencial, or \"Presidential House\" in the Spanish language, is the President of El Salvador's official residence and his offices.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Metropolitan Cathedral of San Salvador",
-    "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_Salvador",
+    "title": "Casa Presidencial (El Salvador)",
+    "url": "https://en.wikipedia.org/wiki/Casa_Presidencial_%28El_Salvador%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2942929.webp",
-    "author": "Rômulo Gama Ferreira from Vitória-ES",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Salvador_-_El_Salvador_(50899440617).jpg"
-   }
-  },
-  {
-   "id": "wd:Q1369159",
-   "name": "Estadio Cuscatlán",
-   "label": "Estadio Cuscatlán",
-   "type": "built",
-   "kind": "association football venue",
-   "region": "SV-SS",
-   "country": "SV",
-   "lat": 13.6811,
-   "lon": -89.2223,
-   "rarity": "Epic",
-   "fame": 21906,
-   "facts": {
-    "elevation_m": 764,
-    "temp_c": 22.6
-   },
-   "flavour": {
-    "text": "It can hold 53,400 spectators, making it the Association Football stadium with the largest spectator capacity in Central America and the Caribbean.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Cuscatlán Stadium",
-    "url": "https://en.wikipedia.org/wiki/Cuscatl%C3%A1n_Stadium",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1369159.webp",
-    "author": "Arne Müseler",
-    "licence": "CC BY-SA 3.0 de",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:El-salvador_san-salvador_Estadio-Cuscatl%C3%A1n_2.JPG"
-   }
-  },
-  {
-   "id": "wd:Q690372",
-   "name": "Tazumal",
-   "label": "Tazumal",
-   "type": "built",
-   "kind": "archaeological site",
-   "region": "SV-SA",
-   "country": "SV",
-   "lat": 13.9796,
-   "lon": -89.6744,
-   "rarity": "Epic",
-   "fame": 20880,
-   "facts": {
-    "elevation_m": 723,
-    "temp_c": 21.5
-   },
-   "flavour": {
-    "text": "Tazumal is a pre-Columbian archeological site and architectural complex located within the archeological zone of Chalchuapa, in western El Salvador.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Tazumal",
-    "url": "https://en.wikipedia.org/wiki/Tazumal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q690372.webp",
-    "author": "ARamirez69",
+    "file": "images/photo/wd_Q5047867.webp",
+    "author": "Efegé",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:El_Tazumal,_Chalchuapa.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Antiguacapres_01.JPG"
    }
   },
   {
-   "id": "wd:Q2412387",
-   "name": "Estadio Jorge \"El Mágico\" González",
-   "label": "Estadio Jorge \"El Mágico\" González",
+   "id": "wd:Q6057757",
+   "name": "National Palace",
+   "label": "National Palace",
    "type": "built",
-   "kind": "association football venue",
+   "kind": "building of public administration",
    "region": "SV-SS",
    "country": "SV",
-   "lat": 13.6983,
-   "lon": -89.2154,
+   "lat": 13.6977,
+   "lon": -89.192,
    "rarity": "Epic",
-   "fame": 24372,
+   "fame": 15816,
    "facts": {
-    "elevation_m": 712,
+    "elevation_m": 659,
     "temp_c": 22.6
    },
    "flavour": {
-    "text": "It is named after Salvadoran star player Mágico González.",
+    "text": "The current National Palace of El Salvador, located in San Salvador, the capital city of the country of El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Jorge \"El Mágico\" González",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Jorge_%22El_M%C3%A1gico%22_Gonz%C3%A1lez",
+    "title": "National Palace (El Salvador)",
+    "url": "https://en.wikipedia.org/wiki/National_Palace_%28El_Salvador%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2412387.webp",
-    "author": "Arne Müseler",
-    "licence": "CC BY-SA 3.0 de",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:El-salvador_san-salvador_Estadio-Jorge-Gonz%C3%A1lez_2.JPG"
+    "file": "images/photo/wd_Q6057757.webp",
+    "author": "Jose Quintanilla",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_en_San_Salvador.JPG"
    }
   },
   {
@@ -1127,6 +1061,72 @@
    }
   },
   {
+   "id": "wd:Q1369159",
+   "name": "Estadio Cuscatlán",
+   "label": "Estadio Cuscatlán",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6811,
+   "lon": -89.2223,
+   "rarity": "Epic",
+   "fame": 21906,
+   "facts": {
+    "elevation_m": 764,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It can hold 53,400 spectators, making it the Association Football stadium with the largest spectator capacity in Central America and the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cuscatlán Stadium",
+    "url": "https://en.wikipedia.org/wiki/Cuscatl%C3%A1n_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369159.webp",
+    "author": "Arne Müseler",
+    "licence": "CC BY-SA 3.0 de",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:El-salvador_san-salvador_Estadio-Cuscatl%C3%A1n_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2382357",
+   "name": "Estadio Óscar Quiteño",
+   "label": "Estadio Óscar Quiteño",
+   "type": "built",
+   "kind": "stadium",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9764,
+   "lon": -89.569,
+   "rarity": "Epic",
+   "fame": 6222,
+   "facts": {
+    "elevation_m": 711,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "Estadio Óscar Quiteño is a multi-purpose stadium in Santa Ana, El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Óscar Quiteño",
+    "url": "https://en.wikipedia.org/wiki/Estadio_%C3%93scar_Quite%C3%B1o",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2382357.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Oscar_A._Quite%C3%B1o.jpg"
+   }
+  },
+  {
    "id": "wd:Q5350834",
    "name": "El Boqueron National Park",
    "label": "El Boqueron National Park",
@@ -1160,36 +1160,37 @@
    }
   },
   {
-   "id": "wd:Q1049338",
-   "name": "Santa Ana Volcano",
-   "label": "Santa Ana Volcano",
+   "id": "wd:Q6905054",
+   "name": "Montecristo National Park",
+   "label": "Montecristo National Park",
    "type": "nature",
-   "kind": "volcano",
-   "region": "SV-SO",
+   "kind": "national park",
+   "region": "SV-SA",
    "country": "SV",
-   "lat": 13.8528,
-   "lon": -89.63,
+   "lat": 14.3824,
+   "lon": -89.3884,
    "rarity": "Epic",
-   "fame": 29772,
+   "fame": 4038,
    "facts": {
-    "elevation_m": 2381,
-    "temp_c": 21.6
+    "elevation_m": 2418,
+    "area_km2": 20,
+    "temp_c": 20.7
    },
    "flavour": {
-    "text": "At 2,381 metres above sea level, it is the highest volcano in the country.",
+    "text": "Montecristo National Park is located in the north-western tip of El Salvador, a country in Central America known for its wildlife diversity.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Santa Ana Volcano",
-    "url": "https://en.wikipedia.org/wiki/Santa_Ana_Volcano",
+    "title": "Montecristo National Park",
+    "url": "https://en.wikipedia.org/wiki/Montecristo_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1049338.webp",
-    "author": "Unknown author",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Santa_Ana_Volcano.USAF.C-130.1.jpg"
+    "file": "images/photo/wd_Q6905054.webp",
+    "author": "ElmerGuevara",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Espacio_Libre_Parque_Montecristo.JPG"
    }
   },
   {
@@ -1262,36 +1263,36 @@
    }
   },
   {
-   "id": "wd:Q25047797",
-   "name": "Los Volcanes National Park",
-   "label": "Los Volcanes National Park",
+   "id": "wd:Q1049338",
+   "name": "Santa Ana Volcano",
+   "label": "Santa Ana Volcano",
    "type": "nature",
-   "kind": "national park",
+   "kind": "volcano",
    "region": "SV-SA",
    "country": "SV",
-   "lat": 13.8272,
-   "lon": -89.6233,
+   "lat": 13.8528,
+   "lon": -89.63,
    "rarity": "Epic",
-   "fame": 4920,
+   "fame": 29772,
    "facts": {
-    "elevation_m": 2031,
-    "temp_c": 23.2
+    "elevation_m": 2381,
+    "temp_c": 21.6
    },
    "flavour": {
-    "text": "Parque Nacional Los Volcanes, also known as Cerro Verde National Park, is a large national park in El Salvador.",
+    "text": "At 2,381 metres above sea level, it is the highest volcano in the country.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Los Volcanes National Park",
-    "url": "https://en.wikipedia.org/wiki/Los_Volcanes_National_Park",
+    "title": "Santa Ana Volcano",
+    "url": "https://en.wikipedia.org/wiki/Santa_Ana_Volcano",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q25047797.webp",
-    "author": "JMRAFFi",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Complejo_Los_Volcanes.jpg"
+    "file": "images/photo/wd_Q1049338.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Ana_Volcano.USAF.C-130.1.jpg"
    }
   },
   {
@@ -1328,37 +1329,36 @@
    }
   },
   {
-   "id": "wd:Q6905054",
-   "name": "Montecristo National Park",
-   "label": "Montecristo National Park",
+   "id": "wd:Q25047797",
+   "name": "Los Volcanes National Park",
+   "label": "Los Volcanes National Park",
    "type": "nature",
    "kind": "national park",
    "region": "SV-SA",
    "country": "SV",
-   "lat": 14.3824,
-   "lon": -89.3884,
+   "lat": 13.8272,
+   "lon": -89.6233,
    "rarity": "Epic",
-   "fame": 4038,
+   "fame": 4920,
    "facts": {
-    "elevation_m": 2418,
-    "area_km2": 20,
-    "temp_c": 20.7
+    "elevation_m": 2031,
+    "temp_c": 23.2
    },
    "flavour": {
-    "text": "Montecristo National Park is located in the north-western tip of El Salvador, a country in Central America known for its wildlife diversity.",
+    "text": "Parque Nacional Los Volcanes, also known as Cerro Verde National Park, is a large national park in El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Montecristo National Park",
-    "url": "https://en.wikipedia.org/wiki/Montecristo_National_Park",
+    "title": "Los Volcanes National Park",
+    "url": "https://en.wikipedia.org/wiki/Los_Volcanes_National_Park",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6905054.webp",
-    "author": "ElmerGuevara",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Espacio_Libre_Parque_Montecristo.JPG"
+    "file": "images/photo/wd_Q25047797.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Complejo_Los_Volcanes.jpg"
    }
   },
   {
@@ -1745,127 +1745,135 @@
    }
   },
   {
-   "id": "wd:Q3495658",
-   "name": "Estadio Jorge \"Calero\" Suárez",
-   "label": "Estadio Jorge \"Calero\" Suárez",
+   "id": "wd:Q15297660",
+   "name": "Teatro Nacional Francisco Gavidia",
+   "label": "Teatro Nacional Francisco Gavidia",
    "type": "built",
-   "kind": "stadium",
-   "region": "SV-SA",
-   "country": "SV",
-   "lat": 14.3321,
-   "lon": -89.449,
-   "rarity": "Rare",
-   "fame": 900,
-   "facts": {
-    "elevation_m": 471,
-    "temp_c": 24.3
-   },
-   "flavour": {
-    "text": "It is the largest stadium in Metapán, and is used mostly for football matches.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Estadio Jorge \"Calero\" Suárez",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Jorge_%22Calero%22_Su%C3%A1rez",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q3495658.webp"
-   }
-  },
-  {
-   "id": "wd:Q3388840",
-   "name": "Casa Blanca, El Salvador",
-   "label": "Casa Blanca, El Salvador",
-   "type": "built",
-   "kind": "archaeological site",
-   "region": "SV-SA",
-   "country": "SV",
-   "lat": 13.9889,
-   "lon": -89.6721,
-   "rarity": "Rare",
-   "fame": 4602,
-   "facts": {
-    "elevation_m": 710,
-    "temp_c": 21.5
-   },
-   "flavour": {
-    "text": "Casa Blanca is a pre-Columbian Maya archeological site within the Chalchuapa archaeological zone in the department of Santa Ana, El Salvador.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Casa Blanca, El Salvador",
-    "url": "https://en.wikipedia.org/wiki/Casa_Blanca%2C_El_Salvador",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3388840.webp",
-    "author": "Arkhael",
-    "licence": "CC BY-SA 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Casa_Blanca_(sitio_precolombino).jpg"
-   }
-  },
-  {
-   "id": "wd:Q6461526",
-   "name": "La Capilla 515",
-   "label": "La Capilla 515",
-   "type": "built",
-   "kind": "building",
-   "region": "SV-LI",
-   "country": "SV",
-   "lat": 13.686,
-   "lon": -89.2435,
-   "rarity": "Rare",
-   "fame": 606,
-   "facts": {
-    "elevation_m": 815,
-    "temp_c": 22.6
-   },
-   "flavour": {
-    "text": "It is one of the tallest apartment structures in the country.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "La Capilla 515",
-    "url": "https://en.wikipedia.org/wiki/La_Capilla_515",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6461526.webp",
-    "author": "Xtremesv",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:New_Residential_Buildings_San_Salvador.JPG"
-   }
-  },
-  {
-   "id": "wd:Q5243466",
-   "name": "Quelepa",
-   "label": "Quelepa",
-   "type": "built",
-   "kind": "archaeological site",
+   "kind": "theatre building",
    "region": "SV-SM",
    "country": "SV",
-   "lat": 13.5294,
-   "lon": -88.2217,
+   "lat": 13.4823,
+   "lon": -88.1741,
    "rarity": "Rare",
-   "fame": 4734,
+   "fame": 438,
    "facts": {
-    "elevation_m": 176,
-    "temp_c": 25.3
+    "elevation_m": 118,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "Generally considered to have been settled by the Lenca people, the site was founded around 400 BC in the Late Preclassic period.",
+    "text": "The Francisco Gavidia National Theatre is in the city of San Miguel, El Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Teatro Nacional Francisco Gavidia",
+    "url": "https://es.wikipedia.org/wiki/Teatro_Nacional_Francisco_Gavidia",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15297660.webp",
+    "author": "Steven Aguilera",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_Francisco_Gavidia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495676",
+   "name": "Estadio Juan Francisco Barraza",
+   "label": "Estadio Juan Francisco Barraza",
+   "type": "built",
+   "kind": "stadium",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.4826,
+   "lon": -88.169,
+   "rarity": "Rare",
+   "fame": 4164,
+   "facts": {
+    "elevation_m": 113,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Juan Francisco Barraza Stadium is a multi-purpose stadium in San Miguel, El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Quelepa",
-    "url": "https://en.wikipedia.org/wiki/Quelepa",
+    "title": "Juan Francisco Barraza Stadium",
+    "url": "https://en.wikipedia.org/wiki/Juan_Francisco_Barraza_Stadium",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q5243466.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495676.webp",
+    "author": "Carlos Ching",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barraza.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24824937",
+   "name": "Catedral de Zacatecoluca",
+   "label": "Catedral de Zacatecoluca",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "SV-PA",
+   "country": "SV",
+   "lat": 13.5089,
+   "lon": -88.8695,
+   "rarity": "Rare",
+   "fame": 1602,
+   "facts": {
+    "elevation_m": 210,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "The Our Lady of the Poor Cathedral also known as the Zacatecoluca Cathedral, is the main church of the Catholic Diocese of Zacatecoluca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of the Poor Cathedral, Zacatecoluca",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Poor_Cathedral%2C_Zacatecoluca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24824937.webp",
+    "author": "CarlosCT86",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_Zacatecoluca.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28584590",
+   "name": "Most Holy Trinity Cathedral, Sonsonate",
+   "label": "Most Holy Trinity Cathedral, Sonsonate",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "SV-SO",
+   "country": "SV",
+   "lat": 13.7204,
+   "lon": -89.7271,
+   "rarity": "Rare",
+   "fame": 1218,
+   "facts": {
+    "elevation_m": 229,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Most Holy Trinity Cathedral Also Sonsonate Cathedral is the name given to a religious building affiliated with the Catholic Church located in the city of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sonsonate Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Sonsonate_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28584590.webp",
+    "author": "Stvn87",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Sonsonate.jpg"
    }
   },
   {
@@ -1904,135 +1912,131 @@
    }
   },
   {
-   "id": "wd:Q6023143",
-   "name": "Monumento a la Revolución (El Salvador)",
-   "label": "Monumento a la Revolución (El Salvador)",
+   "id": "wd:Q3495559",
+   "name": "Estadio Correcaminos",
+   "label": "Estadio Correcaminos",
    "type": "built",
-   "kind": "monument",
-   "region": "SV-LI",
-   "country": "SV",
-   "lat": 13.6925,
-   "lon": -89.2418,
-   "rarity": "Rare",
-   "fame": 1332,
-   "facts": {
-    "elevation_m": 826,
-    "temp_c": 22.6
-   },
-   "flavour": {
-    "text": "The Monument to the Revolution stands in the grounds of the Museum of Art of El Salvador, in San Salvador.",
-    "source": "wikipedia",
-    "lang": "es",
-    "title": "Monumento a la Revolución (El Salvador)",
-    "url": "https://es.wikipedia.org/wiki/Monumento_a_la_Revoluci%C3%B3n_%28El_Salvador%29",
-    "translated": true
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6023143.webp",
-    "author": "Juan Nosiglia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_(El_Salvador).JPG"
-   }
-  },
-  {
-   "id": "wd:Q5400334",
-   "name": "Estadio Luis Amílcar Moreno",
-   "label": "Estadio Luis Amílcar Moreno",
-   "type": "built",
-   "kind": "sports venue",
+   "kind": "multi-purpose stadium",
    "region": "SV-MO",
    "country": "SV",
-   "lat": 13.7,
-   "lon": -88.1,
+   "lat": 13.6983,
+   "lon": -88.1011,
    "rarity": "Rare",
-   "fame": 648,
+   "fame": 1866,
    "facts": {
-    "elevation_m": 268,
+    "elevation_m": 253,
     "temp_c": 24.1
    },
    "flavour": {
-    "text": "It is currently the home for Fuerte San Francisco, used mostly for football matches and was the home stadium of C.D. Vista Hermosa.",
+    "text": "Estadio Correcaminos is a multi-use stadium in San Francisco Gotera, El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio Luis Amílcar Moreno",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Luis_Am%C3%ADlcar_Moreno",
+    "title": "Estadio Correcaminos",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Correcaminos",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5400334.webp",
-    "author": "Romelux c",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Furia_Verde_el_Estadio.JPG"
-   }
-  },
-  {
-   "id": "wd:Q24824937",
-   "name": "Catedral de Zacatecoluca",
-   "label": "Catedral de Zacatecoluca",
-   "type": "built",
-   "kind": "cathedral",
-   "region": "SV-PA",
-   "country": "SV",
-   "lat": 13.5089,
-   "lon": -88.8695,
-   "rarity": "Rare",
-   "fame": 1602,
-   "facts": {
-    "elevation_m": 210,
-    "temp_c": 23.6
-   },
-   "flavour": {
-    "text": "The Our Lady of the Poor Cathedral also known as the Zacatecoluca Cathedral, is the main church of the Catholic Diocese of Zacatecoluca.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Our Lady of the Poor Cathedral, Zacatecoluca",
-    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Poor_Cathedral%2C_Zacatecoluca",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q24824937.webp",
-    "author": "CarlosCT86",
+    "file": "images/photo/wd_Q3495559.webp",
+    "author": "Gringo2019",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_Zacatecoluca.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Goteracorrecamino.jpg"
    }
   },
   {
-   "id": "wd:Q15297660",
-   "name": "Teatro Nacional Francisco Gavidia",
-   "label": "Teatro Nacional Francisco Gavidia",
+   "id": "wd:Q6139962",
+   "name": "National Theatre of Santa Ana",
+   "label": "National Theatre of Santa Ana",
    "type": "built",
-   "kind": "theatre building",
-   "region": "SV-SM",
+   "kind": "cultural property",
+   "region": "SV-SA",
    "country": "SV",
-   "lat": 13.4823,
-   "lon": -88.1741,
+   "lat": 13.9955,
+   "lon": -89.5566,
    "rarity": "Rare",
-   "fame": 438,
+   "fame": 1506,
    "facts": {
-    "elevation_m": 118,
-    "temp_c": 24.7
+    "elevation_m": 642,
+    "temp_c": 21.6
    },
    "flavour": {
-    "text": "The Francisco Gavidia National Theatre is in the city of San Miguel, El Salvador.",
+    "text": "The Santa Ana National Theatre is the main performing arts venue of the Salvadoran city of Santa Ana.",
     "source": "wikipedia",
     "lang": "es",
-    "title": "Teatro Nacional Francisco Gavidia",
-    "url": "https://es.wikipedia.org/wiki/Teatro_Nacional_Francisco_Gavidia",
+    "title": "Teatro Nacional de Santa Ana",
+    "url": "https://es.wikipedia.org/wiki/Teatro_Nacional_de_Santa_Ana",
     "translated": true
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q15297660.webp",
-    "author": "Steven Aguilera",
+    "file": "images/photo/wd_Q6139962.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_Francisco_Gavidia.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:ES_Santa_Ana_06_2011_2535.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5243466",
+   "name": "Quelepa",
+   "label": "Quelepa",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.5294,
+   "lon": -88.2217,
+   "rarity": "Rare",
+   "fame": 4734,
+   "facts": {
+    "elevation_m": 176,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Generally considered to have been settled by the Lenca people, the site was founded around 400 BC in the Late Preclassic period.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quelepa",
+    "url": "https://en.wikipedia.org/wiki/Quelepa",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5243466.webp"
+   }
+  },
+  {
+   "id": "wd:Q3566311",
+   "name": "Teatro Nacional de San Salvador",
+   "label": "Teatro Nacional de San Salvador",
+   "type": "built",
+   "kind": "cultural property",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6986,
+   "lon": -89.1904,
+   "rarity": "Rare",
+   "fame": 4290,
+   "facts": {
+    "elevation_m": 659,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Teatro Nacional de El Salvador, or National Theatre of El Salvador began construction on November 3, 1911, by the French architect Daniel Beylard.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Teatro Nacional de El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Teatro_Nacional_de_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3566311.webp",
+    "author": "Cesar Lainez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_de_San_Salvador.JPG"
    }
   },
   {
@@ -2069,36 +2073,36 @@
    }
   },
   {
-   "id": "wd:Q5769252",
-   "name": "Cihuatán",
-   "label": "Cihuatán",
+   "id": "wd:Q6033911",
+   "name": "Museo de Arte de El Salvador",
+   "label": "Museo de Arte de El Salvador",
    "type": "built",
-   "kind": "archaeological site",
+   "kind": "art museum",
    "region": "SV-SS",
    "country": "SV",
-   "lat": 13.9812,
-   "lon": -89.1651,
+   "lat": 13.6927,
+   "lon": -89.2421,
    "rarity": "Rare",
-   "fame": 5412,
+   "fame": 2298,
    "facts": {
-    "elevation_m": 320,
-    "temp_c": 24.0
+    "elevation_m": 826,
+    "temp_c": 22.6
    },
    "flavour": {
-    "text": "It was a large urban center situated at the southernmost extent of the Mesoamerican cultural area.",
+    "text": "The Salvadoran Museum of Art is an art museum in San Salvador, the capital city of El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cihuatán",
-    "url": "https://en.wikipedia.org/wiki/Cihuat%C3%A1n",
+    "title": "Salvadoran Museum of Art",
+    "url": "https://en.wikipedia.org/wiki/Salvadoran_Museum_of_Art",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5769252.webp",
-    "author": "ElmerGuevara",
+    "file": "images/photo/wd_Q6033911.webp",
+    "author": "MARTE El Salvador",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Piramide_Cihuatan.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_Museo_de_Arte.jpg"
    }
   },
   {
@@ -2135,74 +2139,69 @@
    }
   },
   {
-   "id": "wd:Q1511554",
-   "name": "Lempa River",
-   "label": "Lempa River",
+   "id": "wd:Q1072131",
+   "name": "San Vicente",
+   "label": "San Vicente (mountain)",
    "type": "nature",
-   "kind": "river",
+   "kind": "mountain",
    "region": "SV-SV",
    "country": "SV",
-   "lat": 13.2561,
-   "lon": -88.8261,
+   "lat": 13.595,
+   "lon": -88.8369,
    "rarity": "Rare",
-   "fame": 12516,
+   "fame": 10524,
    "facts": {
-    "elevation_m": 0.0,
-    "length_km": 422,
-    "temp_c": 26.3
+    "elevation_m": 2173,
+    "temp_c": 23.6
    },
-   "also_in": [
-    "GT",
-    "HN"
-   ],
    "flavour": {
-    "text": "It is a transboundary river shared by El Salvador, Guatemala and Honduras.",
+    "text": "It is located next to the town of San Vicente and is the second highest volcano in El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lempa River",
-    "url": "https://en.wikipedia.org/wiki/Lempa_River",
+    "title": "San Vicente (volcano)",
+    "url": "https://en.wikipedia.org/wiki/San_Vicente_%28volcano%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1511554.webp",
-    "author": "mario pleitez",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lempa_River.jpg"
+    "file": "images/photo/wd_Q1072131.webp",
+    "author": "Kristal Dorion, (U.S. Geological Survey)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_vicente_els.jpg"
    }
   },
   {
-   "id": "wd:Q1062664",
-   "name": "San Miguel",
-   "label": "San Miguel (near San Rafael Oriente)",
+   "id": "wd:Q1049619",
+   "name": "Izalco",
+   "label": "Izalco (volcano)",
    "type": "nature",
-   "kind": "mountain",
-   "region": "SV-SM",
+   "kind": "volcano",
+   "region": "SV-SO",
    "country": "SV",
-   "lat": 13.4339,
-   "lon": -88.2692,
+   "lat": 13.8131,
+   "lon": -89.6333,
    "rarity": "Rare",
-   "fame": 15024,
+   "fame": 18012,
    "facts": {
-    "elevation_m": 2129,
-    "temp_c": 24.7
+    "elevation_m": 1952,
+    "temp_c": 23.2
    },
    "flavour": {
-    "text": "San Miguel is a stratovolcano in central-eastern El Salvador, approximately 15 kilometres southwest of the city of San Miguel.",
+    "text": "Izalco is an active stratovolcano on the southern flank of the Santa Ana Volcano in western El Salvador.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "San Miguel (volcano)",
-    "url": "https://en.wikipedia.org/wiki/San_Miguel_%28volcano%29",
+    "title": "Izalco (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Izalco_%28volcano%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1062664.webp",
-    "author": "Gump Stump",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_(Chaparrastique)_Volcano_El_Salvador.JPG"
+    "file": "images/photo/wd_Q1049619.webp",
+    "author": "Angela Rucker, USAID",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Green_Izalco_Volcano.JPG"
    }
   },
   {
@@ -2240,36 +2239,37 @@
    }
   },
   {
-   "id": "wd:Q1072131",
-   "name": "San Vicente",
-   "label": "San Vicente (mountain)",
+   "id": "wd:Q3045228",
+   "name": "Coatepeque Caldera",
+   "label": "Coatepeque Caldera",
    "type": "nature",
-   "kind": "mountain",
-   "region": "SV-PA",
+   "kind": "lake",
+   "region": "SV-SA",
    "country": "SV",
-   "lat": 13.595,
-   "lon": -88.8369,
+   "lat": 13.87,
+   "lon": -89.55,
    "rarity": "Rare",
-   "fame": 10524,
+   "fame": 25278,
    "facts": {
-    "elevation_m": 2173,
-    "temp_c": 23.6
+    "elevation_m": 746,
+    "area_km2": 39,
+    "temp_c": 21.6
    },
    "flavour": {
-    "text": "It is located next to the town of San Vicente and is the second highest volcano in El Salvador.",
+    "text": "The caldera was formed during a series of rhyolitic explosive eruptions from a group of stratovolcanoes between about 72,000 and 57,000 years ago.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "San Vicente (volcano)",
-    "url": "https://en.wikipedia.org/wiki/San_Vicente_%28volcano%29",
+    "title": "Coatepeque Caldera",
+    "url": "https://en.wikipedia.org/wiki/Coatepeque_Caldera",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1072131.webp",
-    "author": "Kristal Dorion, (U.S. Geological Survey)",
-    "licence": "Public domain",
+    "file": "images/photo/wd_Q3045228.webp",
+    "author": "European Union, Copernicus Sentinel-2 imagery",
+    "licence": "Attribution",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:San_vicente_els.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:LakeCoatepequeElSalvador_(cropped).jpg"
    }
   },
   {
@@ -2340,103 +2340,41 @@
    }
   },
   {
-   "id": "wd:Q137953",
-   "name": "Ilopango",
-   "label": "Ilopango",
+   "id": "wd:Q1511554",
+   "name": "Lempa River",
+   "label": "Lempa River",
    "type": "nature",
-   "kind": "volcano",
-   "region": "SV-SS",
+   "kind": "river",
+   "region": "SV-SV",
    "country": "SV",
-   "lat": 13.6667,
-   "lon": -89.05,
+   "lat": 13.2561,
+   "lon": -88.8261,
    "rarity": "Rare",
-   "fame": 4986,
+   "fame": 12516,
    "facts": {
-    "elevation_m": 442,
-    "temp_c": 23.6
+    "elevation_m": 0.0,
+    "length_km": 422,
+    "temp_c": 26.3
    },
+   "also_in": [
+    "GT",
+    "HN"
+   ],
    "flavour": {
-    "text": "The Ilopango caldera is a volcanic caldera in El Salvador, about 12 kilometres east of San Salvador.",
-    "source": "wikipedia",
-    "lang": "es",
-    "title": "Caldera del lago de Ilopango",
-    "url": "https://es.wikipedia.org/wiki/Caldera_del_lago_de_Ilopango",
-    "translated": true
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q137953.webp",
-    "author": "Unknown author",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:SalvadorVolcanoEngraving.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3045228",
-   "name": "Coatepeque Caldera",
-   "label": "Coatepeque Caldera",
-   "type": "nature",
-   "kind": "lake",
-   "region": "SV-SA",
-   "country": "SV",
-   "lat": 13.87,
-   "lon": -89.55,
-   "rarity": "Rare",
-   "fame": 25278,
-   "facts": {
-    "elevation_m": 746,
-    "area_km2": 39,
-    "temp_c": 21.6
-   },
-   "flavour": {
-    "text": "The caldera was formed during a series of rhyolitic explosive eruptions from a group of stratovolcanoes between about 72,000 and 57,000 years ago.",
+    "text": "It is a transboundary river shared by El Salvador, Guatemala and Honduras.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Coatepeque Caldera",
-    "url": "https://en.wikipedia.org/wiki/Coatepeque_Caldera",
+    "title": "Lempa River",
+    "url": "https://en.wikipedia.org/wiki/Lempa_River",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3045228.webp",
-    "author": "European Union, Copernicus Sentinel-2 imagery",
-    "licence": "Attribution",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:LakeCoatepequeElSalvador_(cropped).jpg"
-   }
-  },
-  {
-   "id": "wd:Q1049619",
-   "name": "Izalco",
-   "label": "Izalco (volcano)",
-   "type": "nature",
-   "kind": "volcano",
-   "region": "SV-SO",
-   "country": "SV",
-   "lat": 13.8131,
-   "lon": -89.6333,
-   "rarity": "Rare",
-   "fame": 18012,
-   "facts": {
-    "elevation_m": 1952,
-    "temp_c": 23.2
-   },
-   "flavour": {
-    "text": "Izalco is an active stratovolcano on the southern flank of the Santa Ana Volcano in western El Salvador.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Izalco (volcano)",
-    "url": "https://en.wikipedia.org/wiki/Izalco_%28volcano%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1049619.webp",
-    "author": "Angela Rucker, USAID",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Green_Izalco_Volcano.JPG"
+    "file": "images/photo/wd_Q1511554.webp",
+    "author": "mario pleitez",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lempa_River.jpg"
    }
   },
   {
@@ -2475,6 +2413,72 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:San_Diego_volcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q137953",
+   "name": "Ilopango",
+   "label": "Ilopango",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6667,
+   "lon": -89.05,
+   "rarity": "Rare",
+   "fame": 4986,
+   "facts": {
+    "elevation_m": 442,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "The Ilopango caldera is a volcanic caldera in El Salvador, about 12 kilometres east of San Salvador.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Caldera del lago de Ilopango",
+    "url": "https://es.wikipedia.org/wiki/Caldera_del_lago_de_Ilopango",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q137953.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:SalvadorVolcanoEngraving.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1062664",
+   "name": "San Miguel",
+   "label": "San Miguel (near San Rafael Oriente)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.4339,
+   "lon": -88.2692,
+   "rarity": "Rare",
+   "fame": 15024,
+   "facts": {
+    "elevation_m": 2129,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "San Miguel is a stratovolcano in central-eastern El Salvador, approximately 15 kilometres southwest of the city of San Miguel.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Miguel (volcano)",
+    "url": "https://en.wikipedia.org/wiki/San_Miguel_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1062664.webp",
+    "author": "Gump Stump",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_(Chaparrastique)_Volcano_El_Salvador.JPG"
    }
   },
   {

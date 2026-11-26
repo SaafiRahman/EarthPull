@@ -36,37 +36,33 @@
    }
   },
   {
-   "id": "wd:Q5595294",
-   "name": "Grande-Anse River",
-   "label": "Grande-Anse River",
+   "id": "wd:Q17382828",
+   "name": "Rivière Victorine",
+   "label": "Rivière Victorine",
    "type": "nature",
    "kind": "river",
-   "region": "HT-GA",
+   "region": "HT-CE",
    "country": "HT",
-   "lat": 18.6188,
-   "lon": -74.1265,
+   "lat": 19.1667,
+   "lon": -71.8,
    "rarity": "Common",
-   "fame": 834,
+   "fame": 24,
    "facts": {
-    "elevation_m": 72,
-    "length_km": 70,
-    "temp_c": 24.8
+    "elevation_m": 366,
+    "length_km": 15,
+    "temp_c": 23.6
    },
    "flavour": {
-    "text": "The Grande-Anse River flows through western Haiti and empties into the Gulf of Gonâve at the city of Jérémie.",
+    "text": "It is a tributary of the Lociane River.",
     "source": "wikipedia",
-    "lang": "en",
-    "title": "Grande-Anse River",
-    "url": "https://en.wikipedia.org/wiki/Grande-Anse_River",
-    "translated": false
+    "lang": "fr",
+    "title": "Rivière Victorine",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Victorine",
+    "translated": true
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5595294.webp",
-    "author": "Bruno Le Bansais",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_Grande_Anse_Ha%C3%AFti_2.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17382828.webp"
    }
   },
   {
@@ -100,91 +96,125 @@
    }
   },
   {
-   "id": "wd:Q7338932",
-   "name": "Rivière de Cavaillon",
-   "label": "Rivière de Cavaillon",
+   "id": "wd:Q17989366",
+   "name": "Baie des Flamands",
+   "label": "Baie des Flamands",
    "type": "nature",
-   "kind": "river",
+   "kind": "bay",
    "region": "HT-SD",
    "country": "HT",
-   "lat": 18.2333,
-   "lon": -73.6833,
+   "lat": 18.22,
+   "lon": -73.6747,
    "rarity": "Common",
-   "fame": 348,
+   "fame": 300,
    "facts": {
     "elevation_m": 0.0,
-    "length_km": 30,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "The Rivière de Cavaillon is a river of Haiti.",
+    "text": "It is a branch of the larger Baie des Cayes and the Caribbean Sea.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Rivière de Cavaillon",
-    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_de_Cavaillon",
+    "title": "Baie des Flamands",
+    "url": "https://en.wikipedia.org/wiki/Baie_des_Flamands",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q7338932.webp"
+    "file": "images/minimap/wd_Q17989366.webp"
    }
   },
   {
-   "id": "wd:Q17621739",
-   "name": "baie de Fort-Liberté",
-   "label": "baie de Fort-Liberté",
+   "id": "wd:Q3433722",
+   "name": "Libón River",
+   "label": "Libón River",
    "type": "nature",
-   "kind": "bay",
+   "kind": "river",
    "region": "HT-NE",
    "country": "HT",
-   "lat": 19.6728,
-   "lon": -71.8404,
+   "lat": 19.332,
+   "lon": -71.787,
    "rarity": "Common",
-   "fame": 186,
+   "fame": 324,
+   "facts": {
+    "elevation_m": 589,
+    "length_km": 40,
+    "temp_c": 23.6
+   },
+   "also_in": [
+    "DO"
+   ],
+   "flavour": {
+    "text": "It forms part of the international border between the Dominican Republic and Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Libón River",
+    "url": "https://en.wikipedia.org/wiki/Lib%C3%B3n_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3433722.webp"
+   }
+  },
+  {
+   "id": "wd:Q17354017",
+   "name": "Rivière Bâtarde",
+   "label": "Rivière Bâtarde",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.6333,
+   "lon": -72.35,
+   "rarity": "Common",
+   "fame": 126,
    "facts": {
     "elevation_m": 0.0,
-    "temp_c": 26.6
+    "length_km": 10,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "Fort-Liberté Bay is an enclosed bay on Haiti's north coast, north of the town of Fort-Liberté and west of the Lagon aux Bœufs.",
+    "text": "The Bâtarde River flows through Haiti's Ouest department, in the Port-au-Prince arrondissement.",
     "source": "wikipedia",
     "lang": "fr",
-    "title": "Baie de Fort-Liberté",
-    "url": "https://fr.wikipedia.org/wiki/Baie_de_Fort-Libert%C3%A9",
+    "title": "Rivière Bâtarde",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_B%C3%A2tarde",
     "translated": true
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q17621739.webp"
+    "file": "images/minimap/wd_Q17354017.webp"
    }
   },
   {
-   "id": "wd:Q2797523",
-   "name": "Morne Bois-Pin",
-   "label": "Morne Bois-Pin",
+   "id": "wd:Q17638289",
+   "name": "Rivière des Baradères",
+   "label": "Rivière des Baradères",
    "type": "nature",
-   "kind": "mountain",
-   "region": "HT-OU",
+   "kind": "river",
+   "region": "HT-NI",
    "country": "HT",
-   "lat": 18.35,
-   "lon": -72.2333,
+   "lat": 18.5,
+   "lon": -73.633,
    "rarity": "Common",
-   "fame": 300,
+   "fame": 132,
    "facts": {
-    "elevation_m": 2235,
-    "temp_c": 19.9
+    "elevation_m": 82,
+    "length_km": 45,
+    "temp_c": 23.8
    },
    "flavour": {
-    "text": "Morne Bois-Pin is the fourth highest mountain in Haiti.",
+    "text": "The Baradères River flows through Haiti's Nippes department, in the Baradères arrondissement.",
     "source": "wikipedia",
-    "lang": "en",
-    "title": "Morne Bois-Pin",
-    "url": "https://en.wikipedia.org/wiki/Morne_Bois-Pin",
-    "translated": false
+    "lang": "fr",
+    "title": "Rivière des Baradères",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_des_Barad%C3%A8res",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q2797523.webp"
+    "file": "images/minimap/wd_Q17638289.webp"
    }
   },
   {
@@ -222,65 +252,6 @@
    }
   },
   {
-   "id": "wd:Q17373148",
-   "name": "Baie des Moustiques",
-   "label": "Baie des Moustiques",
-   "type": "nature",
-   "kind": "bay",
-   "region": "HT-NO",
-   "country": "HT",
-   "lat": 19.9156,
-   "lon": -72.9608,
-   "rarity": "Common",
-   "fame": 402,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "Moustiques Bay is a bay on Haiti's north coast, opening onto the Atlantic opposite Tortuga Island.",
-    "source": "wikipedia",
-    "lang": "fr",
-    "title": "Baie des Moustiques",
-    "url": "https://fr.wikipedia.org/wiki/Baie_des_Moustiques",
-    "translated": true
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q17373148.webp"
-   }
-  },
-  {
-   "id": "wd:Q17638275",
-   "name": "Rivière Torbeck",
-   "label": "Rivière Torbeck",
-   "type": "nature",
-   "kind": "river",
-   "region": "HT-SD",
-   "country": "HT",
-   "lat": 18.17,
-   "lon": -73.817,
-   "rarity": "Common",
-   "fame": 90,
-   "facts": {
-    "elevation_m": 10,
-    "length_km": 15,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "The Torbeck River flows through Haiti's Sud department, in the Les Cayes arrondissement.",
-    "source": "wikipedia",
-    "lang": "fr",
-    "title": "Rivière Torbeck",
-    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Torbeck",
-    "translated": true
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q17638275.webp"
-   }
-  },
-  {
    "id": "wd:Q7338939",
    "name": "Rivière des Côtes de Fer",
    "label": "Rivière des Côtes de Fer",
@@ -311,93 +282,125 @@
    }
   },
   {
-   "id": "wd:Q17382828",
-   "name": "Rivière Victorine",
-   "label": "Rivière Victorine",
+   "id": "wd:Q3324207",
+   "name": "Morne du Cibao",
+   "label": "Morne du Cibao",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-SE",
+   "country": "HT",
+   "lat": 18.357,
+   "lon": -72.259,
+   "rarity": "Common",
+   "fame": 342,
+   "facts": {
+    "elevation_m": 2280,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "Morne du Cibao is the third highest mountain in Haiti, after Pic la Selle and Pic Macaya.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne du Cibao",
+    "url": "https://en.wikipedia.org/wiki/Morne_du_Cibao",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3324207.webp"
+   }
+  },
+  {
+   "id": "wd:Q10361596",
+   "name": "rivière Boucan Carré",
+   "label": "rivière Boucan Carré",
    "type": "nature",
    "kind": "river",
    "region": "HT-CE",
    "country": "HT",
-   "lat": 19.1667,
-   "lon": -71.8,
+   "lat": 18.8833,
+   "lon": -72.0833,
    "rarity": "Common",
-   "fame": 24,
+   "fame": 108,
    "facts": {
-    "elevation_m": 366,
-    "length_km": 15,
-    "temp_c": 23.6
+    "elevation_m": 115,
+    "length_km": 40,
+    "temp_c": 24.8
    },
    "flavour": {
-    "text": "It is a tributary of the Lociane River.",
+    "text": "The Boucan Carré River flows through the Mirebalais arrondissement of Haiti's Centre department.",
     "source": "wikipedia",
     "lang": "fr",
-    "title": "Rivière Victorine",
-    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Victorine",
+    "title": "Rivière Boucan Carré",
+    "url": "https://fr.wikipedia.org/wiki/Rivi%C3%A8re_Boucan_Carr%C3%A9",
     "translated": true
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q17382828.webp"
+    "file": "images/minimap/wd_Q10361596.webp"
    }
   },
   {
-   "id": "wd:Q17332988",
-   "name": "Rivière Blanche",
-   "label": "Rivière Blanche (near Thomazeau)",
+   "id": "wd:Q7338921",
+   "name": "Rivière Grise",
+   "label": "Rivière Grise",
    "type": "nature",
    "kind": "river",
    "region": "HT-OU",
    "country": "HT",
-   "lat": 18.6075,
-   "lon": -72.0556,
+   "lat": 18.483,
+   "lon": -72.184,
    "rarity": "Common",
-   "fame": 456,
+   "fame": 606,
    "facts": {
-    "elevation_m": 20,
+    "elevation_m": 220,
     "length_km": 100,
-    "temp_c": 26.8
+    "temp_c": 19.9
    },
    "flavour": {
-    "text": "Downstream, one arm is channeled towards the Étang Saumâtre, another joined the Canal Boucanbrou and the Trou Caïman.",
+    "text": "The Rivière Grise is a river of Haiti.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Rivière Blanche (Ouest)",
-    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Blanche_%28Ouest%29",
+    "title": "Rivière Grise",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Grise",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q17332988.webp"
+    "file": "images/minimap/wd_Q7338921.webp"
    }
   },
   {
-   "id": "wd:Q7338922",
-   "name": "Rivière Locaine",
-   "label": "Rivière Locaine",
+   "id": "wd:Q125747746",
+   "name": "Saut-d'Eau Waterfall",
+   "label": "Saut-d'Eau Waterfall",
    "type": "nature",
-   "kind": "river",
+   "kind": "waterfall",
    "region": "HT-CE",
    "country": "HT",
-   "lat": 19.0667,
-   "lon": -71.7333,
+   "lat": 18.8247,
+   "lon": -72.2235,
    "rarity": "Common",
-   "fame": 168,
+   "fame": 180,
    "facts": {
-    "elevation_m": 298,
-    "length_km": 45,
-    "temp_c": 25.5
+    "elevation_m": 425,
+    "temp_c": 24.0
    },
    "flavour": {
-    "text": "The Rivière Lociane or L'Océane is a river of Haiti.",
+    "text": "Le Saut is a waterfall at Saut-d'Eau, Haiti.",
     "source": "wikipedia",
-    "lang": "en",
-    "title": "Rivière Lociane",
-    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Lociane",
-    "translated": false
+    "lang": "fr",
+    "title": "Chute de Saut-d'Eau",
+    "url": "https://fr.wikipedia.org/wiki/Chute_de_Saut-d%27Eau",
+    "translated": true
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q7338922.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q125747746.webp",
+    "author": "Jstplace",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Haiti_Saut-d%27Eau.JPG"
    }
   },
   {
@@ -670,7 +673,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3718938.webp",
-    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Daniel Barker",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Daniel…",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100123-N-4774B-016_Sailors_assigned_to_the_guided-missile_cruiser_USS_Normandy_(CG_60)_take_a_rigid-hull_inflatable_boat_to_the_island_of_Petit_Trou_De_Nippes.jpg"
@@ -832,7 +835,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q755784.webp",
-    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Joel Carlson",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Joel…",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100117-N-4275C-190_Haitian_citizens_seek_refuge_at_the_Stade_Sylvio_Cator,_the_national_soccer_stadium,_in_Port-au-Prince,_Haiti.jpg"
@@ -865,7 +868,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q1798978.webp",
-    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
+    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from…",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Vida_y_viajes_de_Cristobal_Col%C3%B3n,_1851_Construcci%C3%B3n_de_la_fortaleza_de_La_Navidad_(3819531625).jpg"
@@ -1455,7 +1458,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3723779.webp",
-    "author": "User:Doron",
+    "author": "Doron",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:JacmelView.jpg"
@@ -1490,7 +1493,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3718420.webp",
-    "author": "U.S. Navy photo by Mass Communication Specialist 1st Class Emmitt Hawks",
+    "author": "U.S. Navy photo by Mass Communication Specialist 1st Class Emmitt…",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:US_Navy_080908-N-9774H-147_An_aerial_view_of_the_devastation_in_Port_de_Paix_after_four_storms_in_one_month_have_devastated_the_island_and_killed_more_than_800_people.jpg"
@@ -1612,7 +1615,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3718426.webp",
-    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Meranda Keller",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Meranda…",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100221-N-5787K-002_An_aerial_view_of_the_logistical_area_near_the_port_in_Port-au-Prince_(cropped).jpg"
@@ -1989,62 +1992,67 @@
    }
   },
   {
-   "id": "wd:Q2659710",
-   "name": "Pic Macaya",
-   "label": "Pic Macaya",
+   "id": "wd:Q3116170",
+   "name": "Massif de la Hotte",
+   "label": "Massif de la Hotte",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "mountain range",
    "region": "HT-SD",
    "country": "HT",
-   "lat": 18.3825,
-   "lon": -74.025,
+   "lat": 18.3831,
+   "lon": -74.0256,
    "rarity": "Rare",
-   "fame": 2508,
+   "fame": 2484,
    "facts": {
     "elevation_m": 2347,
-    "prominence_m": 2097,
     "temp_c": 20.1
    },
    "flavour": {
-    "text": "Pic Macaya is the second-highest mountain in Haiti, rising to an elevation of 2,347 metres above sea level.",
+    "text": "The Massif de la Hotte is a mountain range in southwestern Haiti, on the Tiburon Peninsula west of the Petit-Goâve-Jacmel fault.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Pic Macaya",
-    "url": "https://en.wikipedia.org/wiki/Pic_Macaya",
+    "title": "Massif de la Hotte",
+    "url": "https://en.wikipedia.org/wiki/Massif_de_la_Hotte",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q2659710.webp"
+    "file": "images/minimap/wd_Q3116170.webp"
    }
   },
   {
-   "id": "wd:Q112205034",
-   "name": "Thomazeau Volcano",
-   "label": "Thomazeau Volcano",
+   "id": "wd:Q3207215",
+   "name": "Lake Miragoâne",
+   "label": "Lake Miragoâne",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "lake",
    "region": "HT-OU",
    "country": "HT",
-   "lat": 18.68,
-   "lon": -72.08,
+   "lat": 18.4039,
+   "lon": -73.0497,
    "rarity": "Rare",
-   "fame": 1578,
+   "fame": 972,
    "facts": {
-    "elevation_m": 617,
-    "temp_c": 24.7
+    "elevation_m": 17,
+    "area_km2": 25,
+    "length_km": 10,
+    "temp_c": 24.9
    },
    "flavour": {
-    "text": "Thomazeau Volcano or the Thomazeau cinder cones, is a group of extinct cinder cones outside of Thomazeau, Haiti.",
+    "text": "It is one of the largest natural freshwater lakes in the Caribbean.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Thomazeau Volcano",
-    "url": "https://en.wikipedia.org/wiki/Thomazeau_Volcano",
+    "title": "Lake Miragoâne",
+    "url": "https://en.wikipedia.org/wiki/Lake_Mirago%C3%A2ne",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q112205034.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q3207215.webp",
+    "author": "Rency Inson Michel",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Etang_de_Miragoane_Haiti.jpg"
    }
   },
   {
@@ -2082,74 +2090,70 @@
    }
   },
   {
-   "id": "wd:Q1971319",
-   "name": "Pic la Selle",
-   "label": "Pic la Selle",
+   "id": "wd:Q2722327",
+   "name": "Étang Saumâtre",
+   "label": "Étang Saumâtre",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "lake",
    "region": "HT-OU",
    "country": "HT",
-   "lat": 18.3667,
-   "lon": -71.9833,
+   "lat": 18.5975,
+   "lon": -72.0147,
    "rarity": "Rare",
-   "fame": 9726,
+   "fame": 3570,
    "facts": {
-    "elevation_m": 2674,
-    "prominence_m": 2650,
-    "temp_c": 20.2
-   },
-   "flavour": {
-    "text": "Pic la Selle, also called Morne La Selle, is the highest peak in Haiti at 2,574 metres above sea level.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pic la Selle",
-    "url": "https://en.wikipedia.org/wiki/Pic_la_Selle",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1971319.webp",
-    "author": "Yohann-benmalek",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pic_La_Selle,_point_culminant_d%27Ha%C3%AFti.jpg"
-   }
-  },
-  {
-   "id": "wd:Q944185",
-   "name": "Dajabón River",
-   "label": "Dajabón River",
-   "type": "nature",
-   "kind": "river",
-   "region": "HT-NE",
-   "country": "HT",
-   "lat": 19.7019,
-   "lon": -71.7586,
-   "rarity": "Rare",
-   "fame": 9672,
-   "facts": {
-    "elevation_m": 0.0,
-    "length_km": 55,
-    "temp_c": 26.6
+    "elevation_m": 15,
+    "area_km2": 170,
+    "length_km": 22,
+    "temp_c": 26.8
    },
    "also_in": [
     "DO"
    ],
    "flavour": {
-    "text": "The Dajabón River is a river which forms the northernmost part of the international border between the Dominican Republic and Haiti.",
+    "text": "Étang Saumâtre, is the largest lake in Haiti, and lies along part of the border with the Dominican Republic.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Dajabón River",
-    "url": "https://en.wikipedia.org/wiki/Dajab%C3%B3n_River",
+    "title": "Étang Saumâtre",
+    "url": "https://en.wikipedia.org/wiki/%C3%89tang_Saum%C3%A2tre",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q944185.webp",
-    "author": "Fran Afonso from Islas Canarias",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Frontera_Dajab%C3%B3n_-_Ouanaminthe._Fran_Afonso_(9710562817).jpg"
+    "file": "images/photo/wd_Q2722327.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Etang_Saumatre_NASA.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16685981",
+   "name": "île de la Tortue",
+   "label": "île de la Tortue",
+   "type": "nature",
+   "kind": "island",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 20.0,
+   "lon": -72.7,
+   "rarity": "Rare",
+   "fame": 9414,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "Tortuga Island got its name because the Spanish called it \"Tortuga de mar\", sea turtle, for its shape.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Île de la Tortue (colonie française)",
+    "url": "https://fr.wikipedia.org/wiki/%C3%8Ele_de_la_Tortue_%28colonie_fran%C3%A7aise%29",
+    "translated": true
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16685981.webp"
    }
   },
   {
@@ -2250,126 +2254,126 @@
    }
   },
   {
-   "id": "wd:Q3116170",
-   "name": "Massif de la Hotte",
-   "label": "Massif de la Hotte",
+   "id": "wd:Q26226528",
+   "name": "Ilet a Brouee",
+   "label": "Ilet a Brouee",
    "type": "nature",
-   "kind": "mountain range",
+   "kind": "island",
    "region": "HT-SD",
    "country": "HT",
-   "lat": 18.3831,
-   "lon": -74.0256,
+   "lat": 18.1283,
+   "lon": -73.5906,
    "rarity": "Rare",
-   "fame": 2484,
+   "fame": 1584,
    "facts": {
-    "elevation_m": 2347,
-    "temp_c": 20.1
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 26.8
    },
    "flavour": {
-    "text": "The Massif de la Hotte is a mountain range in southwestern Haiti, on the Tiburon Peninsula west of the Petit-Goâve-Jacmel fault.",
+    "text": "It lies in the Canal de l'Est strait and it is located north of the Île-à-Vache island.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Massif de la Hotte",
-    "url": "https://en.wikipedia.org/wiki/Massif_de_la_Hotte",
+    "title": "Ilet a Brouee",
+    "url": "https://en.wikipedia.org/wiki/Ilet_a_Brouee",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q3116170.webp"
+    "file": "images/minimap/wd_Q26226528.webp"
    }
   },
   {
-   "id": "wd:Q2384085",
-   "name": "Chaîne de la Selle",
-   "label": "Chaîne de la Selle",
+   "id": "wd:Q112205034",
+   "name": "Thomazeau Volcano",
+   "label": "Thomazeau Volcano",
    "type": "nature",
-   "kind": "mountain range",
+   "kind": "mountain",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.68,
+   "lon": -72.08,
+   "rarity": "Rare",
+   "fame": 1578,
+   "facts": {
+    "elevation_m": 617,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Thomazeau Volcano or the Thomazeau cinder cones, is a group of extinct cinder cones outside of Thomazeau, Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thomazeau Volcano",
+    "url": "https://en.wikipedia.org/wiki/Thomazeau_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q112205034.webp"
+   }
+  },
+  {
+   "id": "wd:Q1971319",
+   "name": "Pic la Selle",
+   "label": "Pic la Selle",
+   "type": "nature",
+   "kind": "mountain",
    "region": "HT-OU",
    "country": "HT",
    "lat": 18.3667,
    "lon": -71.9833,
    "rarity": "Rare",
-   "fame": 2148,
+   "fame": 9726,
    "facts": {
-    "elevation_m": 2680,
+    "elevation_m": 2674,
+    "prominence_m": 2650,
     "temp_c": 20.2
    },
    "flavour": {
-    "text": "Chaîne de la Selle is a mountain range in Haiti, on the island of Hispaniola.",
+    "text": "Pic la Selle, also called Morne La Selle, is the highest peak in Haiti at 2,574 metres above sea level.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Chaîne de la Selle",
-    "url": "https://en.wikipedia.org/wiki/Cha%C3%AEne_de_la_Selle",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q2384085.webp"
-   }
-  },
-  {
-   "id": "wd:Q26225095",
-   "name": "Caye Sable",
-   "label": "Caye Sable",
-   "type": "nature",
-   "kind": "island",
-   "region": "HT-OU",
-   "country": "HT",
-   "lat": 18.7,
-   "lon": -72.7667,
-   "rarity": "Rare",
-   "fame": 11454,
-   "facts": {
-    "elevation_m": 0.0,
-    "area_km2": 0.0,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "Caye Sable is a cay of Haiti located in the Anse-à-Galets commune, about 50 kilometres west of Port-au-Prince.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Caye Sable",
-    "url": "https://en.wikipedia.org/wiki/Caye_Sable",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q26225095.webp"
-   }
-  },
-  {
-   "id": "wd:Q3207215",
-   "name": "Lake Miragoâne",
-   "label": "Lake Miragoâne",
-   "type": "nature",
-   "kind": "lake",
-   "region": "HT-OU",
-   "country": "HT",
-   "lat": 18.4039,
-   "lon": -73.0497,
-   "rarity": "Rare",
-   "fame": 972,
-   "facts": {
-    "elevation_m": 17,
-    "area_km2": 25,
-    "length_km": 10,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "It is one of the largest natural freshwater lakes in the Caribbean.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Lake Miragoâne",
-    "url": "https://en.wikipedia.org/wiki/Lake_Mirago%C3%A2ne",
+    "title": "Pic la Selle",
+    "url": "https://en.wikipedia.org/wiki/Pic_la_Selle",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3207215.webp",
-    "author": "Rency Inson Michel",
+    "file": "images/photo/wd_Q1971319.webp",
+    "author": "Yohann-benmalek",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Etang_de_Miragoane_Haiti.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Pic_La_Selle,_point_culminant_d%27Ha%C3%AFti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2659710",
+   "name": "Pic Macaya",
+   "label": "Pic Macaya",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.3825,
+   "lon": -74.025,
+   "rarity": "Rare",
+   "fame": 2508,
+   "facts": {
+    "elevation_m": 2347,
+    "prominence_m": 2097,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "Pic Macaya is the second-highest mountain in Haiti, rising to an elevation of 2,347 metres above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pic Macaya",
+    "url": "https://en.wikipedia.org/wiki/Pic_Macaya",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2659710.webp"
    }
   },
   {
@@ -2864,6 +2868,36 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/wd_Q17354049.webp"
+   }
+  },
+  {
+   "id": "wd:Q17332988",
+   "name": "Rivière Blanche",
+   "label": "Rivière Blanche (near Thomazeau)",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.6075,
+   "lon": -72.0556,
+   "rarity": "Common",
+   "fame": 456,
+   "facts": {
+    "elevation_m": 20,
+    "length_km": 100,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Downstream, one arm is channeled towards the Étang Saumâtre, another joined the Canal Boucanbrou and the Trou Caïman.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Blanche (Ouest)",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Blanche_%28Ouest%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17332988.webp"
    }
   },
   {

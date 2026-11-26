@@ -70,32 +70,32 @@
    }
   },
   {
-   "id": "wd:Q5503103",
-   "name": "Freshwater Bay, Barbados",
-   "label": "Freshwater Bay, Barbados",
+   "id": "wd:Q21746169",
+   "name": "Pico Teneriffe",
+   "label": "Pico Teneriffe",
    "type": "nature",
-   "kind": "bay",
-   "region": "BB-08",
+   "kind": "mountain",
+   "region": "BB-09",
    "country": "BB",
-   "lat": 13.1333,
-   "lon": -59.6167,
+   "lat": 13.2833,
+   "lon": -59.5667,
    "rarity": "Common",
-   "fame": 198,
+   "fame": 648,
    "facts": {
-    "elevation_m": 81,
-    "temp_c": 26.6
+    "elevation_m": 1.0,
+    "temp_c": 26.3
    },
    "flavour": {
-    "text": "Freshwater Bay is located between Paynes Bay and Carlisle Bay in Bridgetown, in the southwest of Barbados.",
+    "text": "Pico Teneriffe, is a rocky cape on the North-East coast of the island of Barbados, between the parishes of Saint Peter and Saint Andrew.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Freshwater Bay, Barbados",
-    "url": "https://en.wikipedia.org/wiki/Freshwater_Bay%2C_Barbados",
+    "title": "Pico Teneriffe (Barbados)",
+    "url": "https://en.wikipedia.org/wiki/Pico_Teneriffe_%28Barbados%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5503103.webp"
+    "file": "images/minimap/wd_Q21746169.webp"
    }
   },
   {
@@ -132,61 +132,65 @@
    }
   },
   {
-   "id": "wd:Q6214218",
-   "name": "Joes River (Barbabos)",
-   "label": "Joes River (Barbabos)",
+   "id": "wd:Q6797003",
+   "name": "Maycock's Bay, Barbados",
+   "label": "Maycock's Bay, Barbados",
    "type": "nature",
-   "kind": "river",
-   "region": "BB-06",
+   "kind": "bay",
+   "region": "BB-07",
    "country": "BB",
-   "lat": 13.2173,
-   "lon": -59.5271,
+   "lat": 13.3,
+   "lon": -59.65,
    "rarity": "Common",
-   "fame": 258,
+   "fame": 306,
    "facts": {
-    "elevation_m": 3.0,
+    "elevation_m": 0.0,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "The Joes River is a river of Barbados.",
+    "text": "Maycock's Bay is located between Six Men's Bay and Harrison Point in St. Lucy, the northwest of Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Joes River",
-    "url": "https://en.wikipedia.org/wiki/Joes_River",
+    "title": "Maycock's Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Maycock%27s_Bay%2C_Barbados",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q6214218.webp"
+    "file": "images/minimap/wd_Q6797003.webp"
    }
   },
   {
-   "id": "wd:Q4978383",
-   "name": "Bruce Vale River",
-   "label": "Bruce Vale River",
+   "id": "wd:Q6673119",
+   "name": "Long Pond River",
+   "label": "Long Pond River",
    "type": "nature",
    "kind": "river",
    "region": "BB-02",
    "country": "BB",
-   "lat": 13.25,
-   "lon": -59.55,
+   "lat": 13.2515,
+   "lon": -59.5556,
    "rarity": "Common",
-   "fame": 252,
+   "fame": 234,
    "facts": {
-    "elevation_m": 1.0,
+    "elevation_m": 0.0,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "The Bruce Vale River is a river of Barbados.",
+    "text": "The Long Pond River is a river of Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Bruce Vale River",
-    "url": "https://en.wikipedia.org/wiki/Bruce_Vale_River",
+    "title": "Long Pond River (Barbados)",
+    "url": "https://en.wikipedia.org/wiki/Long_Pond_River_%28Barbados%29",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q4978383.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q6673119.webp",
+    "author": "Kaspar C from Barbados",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marshland,_Long_Pond_-Barbados_(4422242037).jpg"
    }
   },
   {
@@ -310,65 +314,61 @@
    }
   },
   {
-   "id": "wd:Q6021421",
-   "name": "Indian River",
-   "label": "Indian River",
+   "id": "wd:Q5503103",
+   "name": "Freshwater Bay, Barbados",
+   "label": "Freshwater Bay, Barbados",
    "type": "nature",
-   "kind": "river",
+   "kind": "bay",
    "region": "BB-08",
    "country": "BB",
-   "lat": 13.1,
+   "lat": 13.1333,
    "lon": -59.6167,
    "rarity": "Common",
-   "fame": 282,
+   "fame": 198,
    "facts": {
-    "elevation_m": 6.0,
+    "elevation_m": 81,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "It was located in the Spring Garden area, in the parish of St. Michael.",
+    "text": "Freshwater Bay is located between Paynes Bay and Carlisle Bay in Bridgetown, in the southwest of Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Indian River (Barbados)",
-    "url": "https://en.wikipedia.org/wiki/Indian_River_%28Barbados%29",
+    "title": "Freshwater Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Freshwater_Bay%2C_Barbados",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q6021421.webp"
+    "file": "images/minimap/wd_Q5503103.webp"
    }
   },
   {
-   "id": "wd:Q5068861",
-   "name": "Chalky Mount",
-   "label": "Chalky Mount",
+   "id": "wd:Q6214218",
+   "name": "Joes River (Barbabos)",
+   "label": "Joes River (Barbabos)",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "river",
    "region": "BB-06",
    "country": "BB",
-   "lat": 13.2175,
-   "lon": -59.5508,
+   "lat": 13.2173,
+   "lon": -59.5271,
    "rarity": "Common",
-   "fame": 612,
+   "fame": 258,
    "facts": {
-    "elevation_m": 220,
+    "elevation_m": 3.0,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "Chalky Mount is a rugged picturesque range of hills in Saint Andrew, Barbados.",
+    "text": "The Joes River is a river of Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Chalky Mount",
-    "url": "https://en.wikipedia.org/wiki/Chalky_Mount",
+    "title": "Joes River",
+    "url": "https://en.wikipedia.org/wiki/Joes_River",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5068861.webp",
-    "author": "Postdlf",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Bathsheba,_Barbados_08.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6214218.webp"
    }
   },
   {
@@ -690,6 +690,36 @@
    }
   },
   {
+   "id": "wd:Q1854502",
+   "name": "Mount Hillaby",
+   "label": "Mount Hillaby",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BB-02",
+   "country": "BB",
+   "lat": 13.2111,
+   "lon": -59.5833,
+   "rarity": "Epic",
+   "fame": 5934,
+   "facts": {
+    "elevation_m": 340,
+    "prominence_m": 340,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The peak of Mount Hillaby is the highest point on the Eastern Caribbean island of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Hillaby",
+    "url": "https://en.wikipedia.org/wiki/Mount_Hillaby",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1854502.webp"
+   }
+  },
+  {
    "id": "wd:Q7270058",
    "name": "Queen's Park, Bridgetown",
    "label": "Queen's Park, Bridgetown",
@@ -720,36 +750,6 @@
     "licence": "CC BY 4.0",
     "licence_url": "https://creativecommons.org/licenses/by/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Queen%27s_Park,_Bridgetown_(Barbados).jpg"
-   }
-  },
-  {
-   "id": "wd:Q1854502",
-   "name": "Mount Hillaby",
-   "label": "Mount Hillaby",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "BB-11",
-   "country": "BB",
-   "lat": 13.2111,
-   "lon": -59.5833,
-   "rarity": "Epic",
-   "fame": 5934,
-   "facts": {
-    "elevation_m": 340,
-    "prominence_m": 340,
-    "temp_c": 26.3
-   },
-   "flavour": {
-    "text": "The peak of Mount Hillaby is the highest point on the Eastern Caribbean island of Barbados.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mount Hillaby",
-    "url": "https://en.wikipedia.org/wiki/Mount_Hillaby",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q1854502.webp"
    }
   },
   {
@@ -844,7 +844,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3373652.webp",
-    "author": "The original uploader was ROxBo at English Wikipedia .",
+    "author": "ROxBo",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Miami_Beach,_Barbados.jpg"
@@ -949,69 +949,70 @@
    }
   },
   {
-   "id": "wd:Q6827268",
-   "name": "Miami Beach, Barbados",
-   "label": "Miami Beach, Barbados",
+   "id": "wd:Q1077978",
+   "name": "Christ Church Parish Church",
+   "label": "Christ Church Parish Church",
    "type": "built",
-   "kind": "beach",
+   "kind": "church",
    "region": "BB-01",
    "country": "BB",
-   "lat": 13.0597,
-   "lon": -59.5397,
+   "lat": 13.0653,
+   "lon": -59.5382,
    "rarity": "Rare",
-   "fame": 1584,
+   "fame": 732,
    "facts": {
-    "elevation_m": 0.0,
+    "elevation_m": 26,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "It is located on the south coast of the island, with usually calm waters and brilliant sunset views.",
+    "text": "The current Christ Church Parish Church located in Church Hill, Christ Church, Barbados was built in 1935 and is the fifth parish church on the site.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Miami Beach, Barbados",
-    "url": "https://en.wikipedia.org/wiki/Miami_Beach%2C_Barbados",
+    "title": "Christ Church Parish Church",
+    "url": "https://en.wikipedia.org/wiki/Christ_Church_Parish_Church",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6827268.webp",
-    "author": "The original uploader was ROxBo at English Wikipedia .",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Miami_Beach,_Barbados.jpg"
+    "file": "images/photo/wd_Q1077978.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Christchurchparishchurch.jpg"
    }
   },
   {
-   "id": "wd:Q2169130",
-   "name": "Andromeda Botanic Gardens",
-   "label": "Andromeda Botanic Gardens",
+   "id": "wd:Q5856466",
+   "name": "Harrison Point Lighthouse",
+   "label": "Harrison Point Lighthouse",
    "type": "built",
-   "kind": "botanical garden",
-   "region": "BB-05",
+   "kind": "lighthouse",
+   "region": "BB-07",
    "country": "BB",
-   "lat": 13.2073,
-   "lon": -59.5181,
+   "lat": 13.3085,
+   "lon": -59.6482,
    "rarity": "Rare",
-   "fame": 948,
+   "fame": 744,
    "facts": {
-    "elevation_m": 89,
+    "elevation_m": 26,
+    "height_m": 26,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "Andromeda Botanic Gardens is an organic 8-acre botanical garden and a historic cultural attraction in the village of Bathsheba, Saint Joseph in Barbados.",
+    "text": "Harrison Point Lighthouse is a lighthouse located in the northern Parish of Saint Lucy, Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Andromeda Botanic Gardens",
-    "url": "https://en.wikipedia.org/wiki/Andromeda_Botanic_Gardens",
+    "title": "Harrison Point Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Harrison_Point_Lighthouse",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2169130.webp",
+    "file": "images/photo/wd_Q5856466.webp",
     "author": "Postdlf",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Andromeda_Botanical_Gardens_04.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Lucy,_Barbados_017.jpg"
    }
   },
   {
@@ -1077,36 +1078,37 @@
    }
   },
   {
-   "id": "wd:Q1077978",
-   "name": "Christ Church Parish Church",
-   "label": "Christ Church Parish Church",
+   "id": "wd:Q7568250",
+   "name": "South Point Lighthouse",
+   "label": "South Point Lighthouse",
    "type": "built",
-   "kind": "church",
+   "kind": "lighthouse",
    "region": "BB-01",
    "country": "BB",
-   "lat": 13.0653,
-   "lon": -59.5382,
+   "lat": 13.0471,
+   "lon": -59.5294,
    "rarity": "Rare",
-   "fame": 732,
+   "fame": 576,
    "facts": {
-    "elevation_m": 26,
+    "elevation_m": 18,
+    "height_m": 27,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "The current Christ Church Parish Church located in Church Hill, Christ Church, Barbados was built in 1935 and is the fifth parish church on the site.",
+    "text": "South Point Lighthouse is a lighthouse located in the south of Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Christ Church Parish Church",
-    "url": "https://en.wikipedia.org/wiki/Christ_Church_Parish_Church",
+    "title": "South Point Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/South_Point_Lighthouse",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1077978.webp",
-    "author": "Unknown author",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Christchurchparishchurch.jpg"
+    "file": "images/photo/wd_Q7568250.webp",
+    "author": "gemteck1 from Seattle, Washington, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cast_iron_lighthouse_(375211909).jpg"
    }
   },
   {
@@ -1143,36 +1145,32 @@
    }
   },
   {
-   "id": "wd:Q5052210",
-   "name": "Cathedral Church of Saint Michael and All Angels, Barbados",
-   "label": "Cathedral Church of Saint Michael and All Angels, Barbados",
+   "id": "wd:Q65121129",
+   "name": "Wildey Turf",
+   "label": "Wildey Turf",
    "type": "built",
-   "kind": "Anglican or Episcopal cathedral",
+   "kind": "stadium",
    "region": "BB-08",
    "country": "BB",
-   "lat": 13.0978,
-   "lon": -59.6124,
+   "lat": 13.0916,
+   "lon": -59.573,
    "rarity": "Rare",
-   "fame": 3090,
+   "fame": 3036,
    "facts": {
-    "elevation_m": 6.0,
+    "elevation_m": 80,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "The Cathedral Church of Saint Michael and All Angels, is an Anglican church located on St. Michael's Row, two blocks east of National Heroes Square.",
+    "text": "Wildey Turf is a football stadium at the Sir Garfield Sobers Sports Complex, Wildey, Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cathedral Church of Saint Michael and All Angels",
-    "url": "https://en.wikipedia.org/wiki/Cathedral_Church_of_Saint_Michael_and_All_Angels",
+    "title": "Wildey Turf",
+    "url": "https://en.wikipedia.org/wiki/Wildey_Turf",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5052210.webp",
-    "author": "Sachiko Haraguchi",
-    "licence": "CC BY-SA 3.0 igo",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Historic_Bridgetown_and_its_Garrison-115165.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q65121129.webp"
    }
   },
   {
@@ -1234,32 +1232,36 @@
    }
   },
   {
-   "id": "wd:Q65121129",
-   "name": "Wildey Turf",
-   "label": "Wildey Turf",
+   "id": "wd:Q6827268",
+   "name": "Miami Beach, Barbados",
+   "label": "Miami Beach, Barbados",
    "type": "built",
-   "kind": "stadium",
+   "kind": "beach",
    "region": "BB-01",
    "country": "BB",
-   "lat": 13.0916,
-   "lon": -59.573,
+   "lat": 13.0597,
+   "lon": -59.5397,
    "rarity": "Rare",
-   "fame": 3036,
+   "fame": 1584,
    "facts": {
-    "elevation_m": 80,
+    "elevation_m": 0.0,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "Wildey Turf is a football stadium at the Sir Garfield Sobers Sports Complex, Wildey, Barbados.",
+    "text": "It is located on the south coast of the island, with usually calm waters and brilliant sunset views.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wildey Turf",
-    "url": "https://en.wikipedia.org/wiki/Wildey_Turf",
+    "title": "Miami Beach, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Miami_Beach%2C_Barbados",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q65121129.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q6827268.webp",
+    "author": "ROxBo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Miami_Beach,_Barbados.jpg"
    }
   },
   {
@@ -1296,37 +1298,36 @@
    }
   },
   {
-   "id": "wd:Q5856466",
-   "name": "Harrison Point Lighthouse",
-   "label": "Harrison Point Lighthouse",
+   "id": "wd:Q7138905",
+   "name": "Parliament Buildings",
+   "label": "Parliament Buildings",
    "type": "built",
-   "kind": "lighthouse",
-   "region": "BB-07",
+   "kind": "parliament building",
+   "region": "BB-08",
    "country": "BB",
-   "lat": 13.3085,
-   "lon": -59.6482,
+   "lat": 13.097,
+   "lon": -59.6139,
    "rarity": "Rare",
-   "fame": 744,
+   "fame": 3600,
    "facts": {
-    "elevation_m": 26,
-    "height_m": 26,
-    "temp_c": 26.3
+    "elevation_m": 8.0,
+    "temp_c": 26.6
    },
    "flavour": {
-    "text": "Harrison Point Lighthouse is a lighthouse located in the northern Parish of Saint Lucy, Barbados.",
+    "text": "The Parliament Buildings, is the seat of the Parliament of Barbados.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Harrison Point Lighthouse",
-    "url": "https://en.wikipedia.org/wiki/Harrison_Point_Lighthouse",
+    "title": "Parliament Buildings (Barbados)",
+    "url": "https://en.wikipedia.org/wiki/Parliament_Buildings_%28Barbados%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5856466.webp",
-    "author": "Postdlf",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Saint_Lucy,_Barbados_017.jpg"
+    "file": "images/photo/wd_Q7138905.webp",
+    "author": "regani",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Bridgetown_barbados_parliament_building.jpg"
    }
   },
   {
@@ -1389,7 +1390,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q2879612.webp",
-    "author": "User:JZimmerman (WMF)",
+    "author": "JZimmerman (WMF)",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Carlisle_Bay_Beach.jpeg"

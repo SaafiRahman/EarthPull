@@ -552,7 +552,7 @@
    "label": "Mount Saint Catherine",
    "type": "nature",
    "kind": "mountain",
-   "region": "GD-04",
+   "region": "GD-05",
    "country": "GD",
    "lat": 12.1622,
    "lon": -61.6753,
@@ -766,7 +766,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3579891.webp",
-    "author": "Kylekieran ( talk )",
+    "author": "Kylekieran",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:%22Welcome_to_Sauteurs%22_sign.jpg"
@@ -1045,7 +1045,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q389978.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:ISS036-E-10080_-_View_of_the_Lesser_Antilles_(cropped_to_Ronde_area).jpg"

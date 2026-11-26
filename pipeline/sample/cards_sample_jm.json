@@ -183,32 +183,32 @@
    }
   },
   {
-   "id": "wd:Q7099517",
-   "name": "Orange Bay",
-   "label": "Orange Bay (bay)",
+   "id": "wd:Q6696436",
+   "name": "Lucea West River",
+   "label": "Lucea West River",
    "type": "nature",
-   "kind": "bay",
+   "kind": "river",
    "region": "JM-09",
    "country": "JM",
-   "lat": 18.3667,
-   "lon": -78.3144,
+   "lat": 18.4333,
+   "lon": -78.1667,
    "rarity": "Common",
-   "fame": 480,
+   "fame": 150,
    "facts": {
-    "elevation_m": 0.0,
+    "elevation_m": 6.0,
     "temp_c": 27.4
    },
    "flavour": {
-    "text": "Orange Bay is a small bay in Hanover Parish, Jamaica to the north of the resort town of Negril.",
+    "text": "The Lucea West River is a river of Jamaica that borders the town of Lucea.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Orange Bay (Hanover Parish)",
-    "url": "https://en.wikipedia.org/wiki/Orange_Bay_%28Hanover_Parish%29",
+    "title": "Lucea West River",
+    "url": "https://en.wikipedia.org/wiki/Lucea_West_River",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q7099517.webp"
+    "file": "images/minimap/wd_Q6696436.webp"
    }
   },
   {
@@ -241,32 +241,32 @@
    }
   },
   {
-   "id": "wd:Q6696436",
-   "name": "Lucea West River",
-   "label": "Lucea West River",
+   "id": "wd:Q6696433",
+   "name": "Lucea East River",
+   "label": "Lucea East River",
    "type": "nature",
    "kind": "river",
    "region": "JM-09",
    "country": "JM",
    "lat": 18.4333,
-   "lon": -78.1667,
+   "lon": -78.15,
    "rarity": "Common",
-   "fame": 150,
+   "fame": 138,
    "facts": {
-    "elevation_m": 6.0,
-    "temp_c": 27.4
+    "elevation_m": 67,
+    "temp_c": 25.9
    },
    "flavour": {
-    "text": "The Lucea West River is a river of Jamaica that borders the town of Lucea.",
+    "text": "The Lucea East River is a river of Jamaica that borders the town of Lucea.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Lucea West River",
-    "url": "https://en.wikipedia.org/wiki/Lucea_West_River",
+    "title": "Lucea East River",
+    "url": "https://en.wikipedia.org/wiki/Lucea_East_River",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q6696436.webp"
+    "file": "images/minimap/wd_Q6696433.webp"
    }
   },
   {
@@ -784,7 +784,7 @@
    "label": "Hedonism Resorts",
    "type": "built",
    "kind": "building",
-   "region": "JM-09",
+   "region": "JM-10",
    "country": "JM",
    "lat": 18.338,
    "lon": -78.3409,
@@ -1001,7 +1001,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q885798.webp",
-    "author": "Joerggo ( Diskussion )",
+    "author": "Joerggo (Diskussion)",
     "licence": "Copyrighted free use",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Blue_Mountain_Peak.jpg"
@@ -1303,7 +1303,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_3488465.webp",
-    "author": "Photo by Not home ( talk ); Not home at en.wikipedia",
+    "author": "Not home; Not home at en.wikipedia",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:St.-Jago-de-la-Vega.JPG"
@@ -1584,7 +1584,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q7205390.webp",
-    "author": "Plumb_Point_Lighthouse_from_the_Northeast.jpg : Chris Davis derivative work: -Arb. ( talk )",
+    "author": "Plumb_Point_Lighthouse_from_the_Northeast.jpg: Chris Davis…",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Pumb_Point_Lighthouse_from_NE_closeup.jpg"
@@ -2468,6 +2468,35 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:ColumbusParkHighwayMarke20231003_124700.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7099517",
+   "name": "Orange Bay",
+   "label": "Orange Bay (bay)",
+   "type": "nature",
+   "kind": "bay",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.3667,
+   "lon": -78.3144,
+   "rarity": "Common",
+   "fame": 480,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Orange Bay is a small bay in Hanover Parish, Jamaica to the north of the resort town of Negril.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Orange Bay (Hanover Parish)",
+    "url": "https://en.wikipedia.org/wiki/Orange_Bay_%28Hanover_Parish%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7099517.webp"
    }
   },
   {

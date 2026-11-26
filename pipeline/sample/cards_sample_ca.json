@@ -102,36 +102,37 @@
    }
   },
   {
-   "id": "wd:Q6743406",
-   "name": "Malibu Islet",
-   "label": "Malibu Islet",
+   "id": "wd:Q7193326",
+   "name": "Pigeon Spire",
+   "label": "Pigeon Spire",
    "type": "nature",
-   "kind": "island",
+   "kind": "mountain",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 50.1628,
-   "lon": -123.8515,
+   "lat": 50.7189,
+   "lon": -116.785,
    "rarity": "Common",
    "fame": 618,
    "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 5.6
+    "elevation_m": 3156,
+    "prominence_m": 181,
+    "temp_c": -1.5
    },
    "flavour": {
-    "text": "Malibu Islet, also known as Malibu Isle or Forbidden Island, is located at the entrance of Princess Louisa Inlet, south of Malibu Rapids, east of Queens Reach.",
+    "text": "Pigeon Spire is a peak in the Purcell Mountains of the Columbia Mountains in southeastern British Columbia, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Malibu Islet",
-    "url": "https://en.wikipedia.org/wiki/Malibu_Islet",
+    "title": "Pigeon Spire",
+    "url": "https://en.wikipedia.org/wiki/Pigeon_Spire",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6743406.webp",
-    "author": "chaz@sitka2.com",
+    "file": "images/photo/wd_Q7193326.webp",
+    "author": "Please attribute as: \"Wikipedia / Tobias Klenze\" (user page link…",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:MtArt.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:2015-06-21_Bugaboos_8835.jpg"
    }
   },
   {
@@ -321,33 +322,33 @@
    }
   },
   {
-   "id": "wd:Q23021543",
-   "name": "Rivière Fouquette",
-   "label": "Rivière Fouquette",
+   "id": "wd:Q22683732",
+   "name": "Rivière Chaude",
+   "label": "Rivière Chaude (near Saint-Pacôme)",
    "type": "nature",
    "kind": "river",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 47.7011,
-   "lon": -69.7025,
+   "lat": 47.3019,
+   "lon": -69.9036,
    "rarity": "Common",
    "fame": 210,
    "facts": {
-    "elevation_m": 0.0,
-    "length_km": 22,
-    "temp_c": 3.6
+    "elevation_m": 173,
+    "length_km": 15,
+    "temp_c": 3.0
    },
    "flavour": {
-    "text": "The Fouquette river is a tributary of the southern coast of the St. Lawrence River where it flows in front of the \"Les Pèlerins\" islands.",
+    "text": "The Chaude River flows successively in the municipalities of Mont-Carmel, Saint-Gabriel-Lalemant and La Pocatière.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Fouquette River",
-    "url": "https://en.wikipedia.org/wiki/Fouquette_River",
+    "title": "Chaude River (Grande Rivière tributary)",
+    "url": "https://en.wikipedia.org/wiki/Chaude_River_%28Grande_Rivi%C3%A8re_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q23021543.webp"
+    "file": "images/minimap/wd_Q22683732.webp"
    }
   },
   {
@@ -440,389 +441,375 @@
    }
   },
   {
-   "id": "gn:6955478",
-   "name": "Les Escoumins",
-   "label": "Les Escoumins",
+   "id": "gn:6138400",
+   "name": "Saint-Isidore",
+   "label": "Saint-Isidore (Quebec, near Saint-Bruno-de-Guigues)",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 48.3519,
-   "lon": -69.4072,
+   "lat": 47.4335,
+   "lon": -79.2996,
    "rarity": "Common",
-   "fame": 6018,
+   "fame": 0,
    "facts": {
-    "population": 1800,
-    "elevation_m": 11,
-    "area_km2": 283,
-    "temp_c": 2.6
+    "population": 1122,
+    "elevation_m": 274,
+    "temp_c": 2.5
    },
    "flavour": {
-    "text": "Les Escoumins is a municipality in La Haute-Côte-Nord Regional County Municipality in the Côte-Nord region of Quebec, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Les Escoumins",
-    "url": "https://en.wikipedia.org/wiki/Les_Escoumins",
-    "translated": false
+    "text": "A community of 1,122 people in Quebec.",
+    "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6955478.webp",
-    "author": "Jouu31",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Baiedesescoumins.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/gn_6138400.webp"
    }
   },
   {
-   "id": "gn:5960304",
-   "name": "Gentilly",
-   "label": "Gentilly",
+   "id": "gn:13592171",
+   "name": "Butternut Valley",
+   "label": "Butternut Valley",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 45.8333,
+   "lon": -65.5347,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5435,
+    "elevation_m": 120,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "A community of 5,435 people in New Brunswick.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13592171.webp"
+   }
+  },
+  {
+   "id": "gn:6945991",
+   "name": "Plessisville",
+   "label": "Plessisville",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 46.4001,
-   "lon": -72.2741,
+   "lat": 46.2186,
+   "lon": -71.762,
    "rarity": "Common",
-   "fame": 15066,
+   "fame": 1722,
    "facts": {
-    "population": 1634,
-    "elevation_m": 17,
-    "temp_c": 4.6
+    "population": 6747,
+    "elevation_m": 163,
+    "area_km2": 4.4,
+    "temp_c": 4.2
    },
    "flavour": {
-    "text": "Gentilly, known as Saint-Édouard-de-Gentilly until 1900, is a village now part of Bécancour, Quebec, Canada.",
+    "text": "Plessisville is a former town in Quebec, in the L'Érable Regional County Municipality in Centre-du-Québec, Canada.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Plessisville (ville)",
+    "url": "https://fr.wikipedia.org/wiki/Plessisville_%28ville%29",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6945991.webp",
+    "author": "Gabriel Picard",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plessisville_2025_-_1.jpg"
+   }
+  },
+  {
+   "id": "gn:5882534",
+   "name": "Agassiz",
+   "label": "Agassiz",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.233,
+   "lon": -121.7693,
+   "rarity": "Common",
+   "fame": 17748,
+   "facts": {
+    "population": 6300,
+    "elevation_m": 17,
+    "temp_c": 9.0
+   },
+   "flavour": {
+    "text": "Agassiz is a small community located in the Eastern Fraser Valley region of British Columbia, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Gentilly, Quebec",
-    "url": "https://en.wikipedia.org/wiki/Gentilly%2C_Quebec",
+    "title": "Agassiz, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Agassiz%2C_British_Columbia",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5960304.webp",
+    "file": "images/photo/gn_5882534.webp",
+    "author": "Joe Mabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Agassiz,_BC_municipal_hall_and_fire_department.jpg"
+   }
+  },
+  {
+   "id": "gn:5960603",
+   "name": "Geraldton",
+   "label": "Geraldton",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 49.7267,
+   "lon": -86.9484,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1761,
+    "elevation_m": 337,
+    "temp_c": 0.1
+   },
+   "flavour": {
+    "text": "A community of 1,761 people in Ontario.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5960603.webp"
+   }
+  },
+  {
+   "id": "gn:6062163",
+   "name": "Lutes Mountain",
+   "label": "Lutes Mountain",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.146,
+   "lon": -64.908,
+   "rarity": "Common",
+   "fame": 1170,
+   "facts": {
+    "population": 16311,
+    "elevation_m": 158,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "The community is situated in southeastern New Brunswick, to the northwest of Moncton.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lutes Mountain, New Brunswick",
+    "url": "https://en.wikipedia.org/wiki/Lutes_Mountain%2C_New_Brunswick",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6062163.webp"
+   }
+  },
+  {
+   "id": "gn:5931082",
+   "name": "Cow Bay",
+   "label": "Cow Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 44.6314,
+   "lon": -63.4322,
+   "rarity": "Common",
+   "fame": 2250,
+   "facts": {
+    "population": 1619,
+    "elevation_m": 41,
+    "temp_c": 6.7
+   },
+   "flavour": {
+    "text": "Cow Bay is an unincorporated rural community within Halifax Regional Municipality Nova Scotia on the Eastern Shore on Route 322 along the Marine Drive scenic…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cow Bay, Nova Scotia",
+    "url": "https://en.wikipedia.org/wiki/Cow_Bay%2C_Nova_Scotia",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5931082.webp"
+   }
+  },
+  {
+   "id": "gn:13592177",
+   "name": "Grand Lake",
+   "label": "Grand Lake",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 46.1126,
+   "lon": -65.9568,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5725,
+    "elevation_m": 14,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "A community of 5,725 people in New Brunswick.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13592177.webp"
+   }
+  },
+  {
+   "id": "gn:6176393",
+   "name": "Warwick",
+   "label": "Warwick",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.9501,
+   "lon": -71.9824,
+   "rarity": "Common",
+   "fame": 8142,
+   "facts": {
+    "population": 4766,
+    "elevation_m": 168,
+    "area_km2": 110,
+    "temp_c": 4.5
+   },
+   "flavour": {
+    "text": "The town was incorporated in 1861 and named after the town of the same name in England.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Warwick, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Warwick%2C_Quebec",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6176393.webp",
     "author": "Fralambert",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-%C3%89douard-de-Gentilly.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:V%C3%A9lo-gare_de_Warwick.jpg"
    }
   },
   {
-   "id": "gn:6058415",
-   "name": "Logan Lake",
-   "label": "Logan Lake",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 50.4922,
-   "lon": -120.8149,
-   "rarity": "Common",
-   "fame": 5844,
-   "facts": {
-    "population": 2190,
-    "elevation_m": 1100,
-    "area_km2": 325,
-    "temp_c": 3.7
-   },
-   "flavour": {
-    "text": "Logan Lake is a district municipality in the Southern Interior of British Columbia, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Logan Lake",
-    "url": "https://en.wikipedia.org/wiki/Logan_Lake",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6058415.webp",
-    "author": "Andybremner2012",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Logan_Lake%27s_welcome_sign.JPG"
-   }
-  },
-  {
-   "id": "gn:6119528",
-   "name": "Naujaat",
-   "label": "Naujaat",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NU",
-   "country": "CA",
-   "lat": 66.5291,
-   "lon": -86.2437,
-   "rarity": "Common",
-   "fame": 11478,
-   "facts": {
-    "population": 1082,
-    "elevation_m": 1.0,
-    "area_km2": 424,
-    "temp_c": -12.2
-   },
-   "flavour": {
-    "text": "It is located on the shores of Hudson Bay, at the south end of the Melville Peninsula, in the Kivalliq Region of Nunavut, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Naujaat",
-    "url": "https://en.wikipedia.org/wiki/Naujaat",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_6119528.webp",
-    "author": "https://www.flickr.com/people/naturallight/ Leslie Philipp",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Repulse_Bay.jpg"
-   }
-  },
-  {
-   "id": "gn:6079673",
-   "name": "Mount Albert",
-   "label": "Mount Albert",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 44.1334,
-   "lon": -79.3163,
-   "rarity": "Common",
-   "fame": 5922,
-   "facts": {
-    "population": 4925,
-    "elevation_m": 243,
-    "temp_c": 6.1
-   },
-   "flavour": {
-    "text": "It is located 65 km north-east of Toronto, 21 km south of Sutton, 45 km west-southwest of Beaverton and 30 km north of Markham.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mount Albert, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Mount_Albert%2C_Ontario",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_6079673.webp"
-   }
-  },
-  {
-   "id": "gn:13592154",
-   "name": "Miramichi River Valley",
-   "label": "Miramichi River Valley",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 46.615,
-   "lon": -65.9017,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1996,
-    "elevation_m": 69,
-    "temp_c": 4.6
-   },
-   "flavour": {
-    "text": "A community of 1,996 people in New Brunswick.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13592154.webp"
-   }
-  },
-  {
-   "id": "gn:5885150",
-   "name": "Ange-Gardien",
-   "label": "Ange-Gardien",
+   "id": "gn:8379101",
+   "name": "Princeville",
+   "label": "Princeville",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.3501,
-   "lon": -72.9324,
+   "lat": 46.1716,
+   "lon": -71.8746,
    "rarity": "Common",
-   "fame": 4230,
+   "fame": 5574,
    "facts": {
-    "population": 3021,
-    "elevation_m": 71,
-    "area_km2": 90,
-    "temp_c": 5.9
+    "population": 5693,
+    "elevation_m": 160,
+    "area_km2": 197,
+    "temp_c": 4.4
    },
    "flavour": {
-    "text": "Ange-Gardien is a municipality in the Canadian province of Quebec, located within the Rouville Regional County Municipality in the province's Montérégie region.",
+    "text": "Princeville is a city in the Canadian province of Quebec, located in L'Érable Regional County Municipality in the Centre-du-Québec region.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ange-Gardien",
-    "url": "https://en.wikipedia.org/wiki/Ange-Gardien",
+    "title": "Princeville, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Princeville%2C_Quebec",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5885150.webp",
-    "author": "Pierre Bona",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Ange-Gardien-%C3%A9glise.jpg"
+    "file": "images/photo/gn_8379101.webp",
+    "author": "Gabriel Picard",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Princeville_Quebec.jpg"
    }
   },
   {
-   "id": "gn:13607844",
-   "name": "Black River-Hardwicke",
-   "label": "Black River-Hardwicke",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 47.0212,
-   "lon": -65.2076,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1067,
-    "elevation_m": 2.0,
-    "temp_c": 4.6
-   },
-   "flavour": {
-    "text": "A community of 1,067 people in New Brunswick.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13607844.webp"
-   }
-  },
-  {
-   "id": "gn:5906690",
-   "name": "Bowen Island",
-   "label": "Bowen Island (British Columbia)",
+   "id": "gn:6171951",
+   "name": "Union Bay",
+   "label": "Union Bay",
    "type": "town",
    "kind": "town",
    "region": "CA-BC",
    "country": "CA",
-   "lat": 49.3847,
-   "lon": -123.3362,
+   "lat": 49.5838,
+   "lon": -124.8861,
    "rarity": "Common",
-   "fame": 0,
+   "fame": 3258,
    "facts": {
-    "population": 4256,
-    "elevation_m": 30,
-    "temp_c": 9.3
+    "population": 1200,
+    "elevation_m": 6.0,
+    "temp_c": 8.6
    },
    "flavour": {
-    "text": "A community of 4,256 people in British Columbia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_5906690.webp"
-   }
-  },
-  {
-   "id": "gn:5897865",
-   "name": "Belle River",
-   "label": "Belle River",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 42.2926,
-   "lon": -82.7119,
-   "rarity": "Common",
-   "fame": 5910,
-   "facts": {
-    "population": 9650,
-    "elevation_m": 175,
-    "temp_c": 9.2
-   },
-   "flavour": {
-    "text": "It was incorporated in 1999 by amalgamating the town of Belle River with the townships of Maidstone, Rochester, Tilbury North, and Tilbury West.",
+    "text": "Union Bay is an unincorporated community located south of Hart Creek on the east coast of central Vancouver Island, British Columbia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Belle River, Ontario",
-    "url": "https://en.wikipedia.org/wiki/Belle_River%2C_Ontario",
+    "title": "Union Bay, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Union_Bay%2C_British_Columbia",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_5897865.webp",
-    "author": "P199",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Lakeshore_ON.JPG"
+    "file": "images/photo/gn_6171951.webp",
+    "author": "Kalamazadkhan",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Union_Bay_off_Denman_Island,_Vancouver_Island,_British_Columbia,_Canada.jpg"
    }
   },
   {
-   "id": "gn:5991284",
-   "name": "Kerrobert",
-   "label": "Kerrobert",
-   "type": "town",
-   "kind": "town",
-   "region": "CA-SK",
-   "country": "CA",
-   "lat": 51.9168,
-   "lon": -109.1348,
-   "rarity": "Common",
-   "fame": 3324,
-   "facts": {
-    "population": 1061,
-    "elevation_m": 685,
-    "area_km2": 7.5,
-    "temp_c": 2.6
-   },
-   "flavour": {
-    "text": "Kerrobert is a town in west central Saskatchewan.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Kerrobert",
-    "url": "https://en.wikipedia.org/wiki/Kerrobert",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_5991284.webp",
-    "author": "Ringrust",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kerrobert_Court_House.JPG"
-   }
-  },
-  {
-   "id": "gn:6137655",
-   "name": "Saint-Damase",
-   "label": "Saint-Damase",
+   "id": "gn:5931427",
+   "name": "Crabtree",
+   "label": "Crabtree",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.5334,
-   "lon": -72.9991,
+   "lat": 45.9668,
+   "lon": -73.4659,
    "rarity": "Common",
-   "fame": 2880,
+   "fame": 3792,
    "facts": {
-    "population": 1349,
-    "elevation_m": 30,
-    "area_km2": 81,
-    "temp_c": 5.9
+    "population": 4210,
+    "elevation_m": 36,
+    "area_km2": 25,
+    "temp_c": 5.3
    },
    "flavour": {
-    "text": "Saint-Damase is a municipality located in Les Maskoutains Regional County Municipality in the Montérégie region of Quebec.",
+    "text": "Crabtree is a city in the Lanaudière region of Quebec, Canada, part of the Joliette Regional County Municipality.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Saint-Damase, Montérégie",
-    "url": "https://en.wikipedia.org/wiki/Saint-Damase%2C_Mont%C3%A9r%C3%A9gie",
+    "title": "Crabtree, Quebec",
+    "url": "https://en.wikipedia.org/wiki/Crabtree%2C_Quebec",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_6137655.webp",
-    "author": "Pierre Bona",
+    "file": "images/photo/gn_5931427.webp",
+    "author": "Jjmgpsimard",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:St-Damase_kiosque.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Bibliotheque_municipale.jpg"
    }
   },
   {
@@ -859,69 +846,69 @@
    }
   },
   {
-   "id": "wd:Q3137221",
-   "name": "University of Toronto Scarborough",
-   "label": "University of Toronto Scarborough",
+   "id": "wd:Q6120110",
+   "name": "University of Toronto Mississauga",
+   "label": "University of Toronto Mississauga",
    "type": "built",
    "kind": "faculty",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.7844,
-   "lon": -79.1874,
+   "lat": 43.5483,
+   "lon": -79.6633,
    "rarity": "Epic",
-   "fame": 23862,
+   "fame": 22914,
    "facts": {
-    "elevation_m": 136,
-    "temp_c": 8.1
-   },
-   "flavour": {
-    "text": "The University of Toronto Scarborough is one of the three campuses of the University of Toronto, located in Toronto, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "University of Toronto Scarborough",
-    "url": "https://en.wikipedia.org/wiki/University_of_Toronto_Scarborough",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3137221.webp",
-    "author": "Canmenwalker",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:University_of_Toronto_Scarborough_aerial_view_2024.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3816636",
-   "name": "Sherway Gardens",
-   "label": "Sherway Gardens",
-   "type": "built",
-   "kind": "shopping center",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6118,
-   "lon": -79.5571,
-   "rarity": "Epic",
-   "fame": 11808,
-   "facts": {
-    "elevation_m": 118,
+    "elevation_m": 130,
     "temp_c": 8.3
    },
    "flavour": {
-    "text": "CF Sherway Gardens is a shopping mall in the Etobicoke district of Toronto, Ontario, Canada.",
+    "text": "The University of Toronto Mississauga is one of the three campuses of the University of Toronto and its second-largest academic division.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Sherway Gardens",
-    "url": "https://en.wikipedia.org/wiki/Sherway_Gardens",
+    "title": "University of Toronto Mississauga",
+    "url": "https://en.wikipedia.org/wiki/University_of_Toronto_Mississauga",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3816636.webp",
-    "author": "Canmenwalker",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sherway_Gardens_Interior1_2021.jpg"
+    "file": "images/photo/wd_Q6120110.webp",
+    "author": "The Neon Narwhal",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maanjiwe_nendamowinan_North_Field.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6418047",
+   "name": "Kitchener Memorial Auditorium Complex",
+   "label": "Kitchener Memorial Auditorium Complex",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.4469,
+   "lon": -80.4669,
+   "rarity": "Epic",
+   "fame": 11664,
+   "facts": {
+    "elevation_m": 338,
+    "temp_c": 7.1
+   },
+   "flavour": {
+    "text": "The complex is located on East Avenue, near the Ottawa Street interchange on the Conestoga Parkway.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kitchener Memorial Auditorium Complex",
+    "url": "https://en.wikipedia.org/wiki/Kitchener_Memorial_Auditorium_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6418047.webp",
+    "author": "JFVoll",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kitchener_Memorial_Auditorium_Complex_-_Kitchener,_ON.jpg"
    }
   },
   {
@@ -958,36 +945,36 @@
    }
   },
   {
-   "id": "wd:Q6771542",
-   "name": "Markville Shopping Centre",
-   "label": "Markville Shopping Centre",
+   "id": "wd:Q5939782",
+   "name": "Humber Bay Arch Bridge",
+   "label": "Humber Bay Arch Bridge",
    "type": "built",
-   "kind": "shopping center",
+   "kind": "bicycle bridge",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.869,
-   "lon": -79.288,
+   "lat": 43.6319,
+   "lon": -79.4713,
    "rarity": "Epic",
-   "fame": 7944,
+   "fame": 7908,
    "facts": {
-    "elevation_m": 186,
-    "temp_c": 7.1
+    "elevation_m": 74,
+    "temp_c": 8.5
    },
    "flavour": {
-    "text": "CF Markville, also known as Markville Shopping Centre and Markville Mall in the Cadillac Fairview chain of malls.",
+    "text": "The Humber Bay Arch Bridge is a pedestrian and bicycle through arch bridge south of Lake Shore Boulevard West in Toronto, Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Markville Shopping Centre",
-    "url": "https://en.wikipedia.org/wiki/Markville_Shopping_Centre",
+    "title": "Humber Bay Arch Bridge",
+    "url": "https://en.wikipedia.org/wiki/Humber_Bay_Arch_Bridge",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6771542.webp",
-    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:MarkvilleShoppingCentre.jpg"
+    "file": "images/photo/wd_Q5939782.webp",
+    "author": "Wladyslaw",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Humber_Bay_und_Humber_Bay_Arch_Bridge.jpg"
    }
   },
   {
@@ -1117,7 +1104,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q304838.webp",
-    "author": "Bobjagendorf ( talk · contribs )",
+    "author": "Bobjagendorf (talk · contribs)",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Montreal_Olympic_Stadium_aerial_view.jpg"
@@ -1630,7 +1617,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_6137270.webp",
-    "author": "Chicoutimi_-_Centre-ville_Est.jpg : Chicoutimi CampusUQAC07_282.JPG : service des communications de l'UQAC Pyramide_des_Ha!_Ha!.jpg : Adqproductions Entrée_du_pavillon_Gérard-Arguin_du_Cégep_de_Jonquière02.JPG : Khayman 20090111_Alcan_secteur_Arvida.JPG : Khayman derivative work: Chicoutimi ( talk )",
+    "author": "Chicoutimi_-_Centre-ville_Est.jpg: Chicoutimi CampusUQAC07_282.JPG…",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Ville_saguenay_montage.jpg"
@@ -1835,7 +1822,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_6185377.webp",
-    "author": "User:Trevor MacInnis",
+    "author": "Trevor MacInnis",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Downtown_Yellowknife_2.jpg"
@@ -2664,605 +2651,687 @@
    }
   },
   {
-   "id": "wd:Q7703321",
-   "name": "Terrasses de la Chaudière",
-   "label": "Terrasses de la Chaudière",
+   "id": "wd:Q8016391",
+   "name": "William Osler Health Centre",
+   "label": "William Osler Health Centre",
    "type": "built",
-   "kind": "tower block",
+   "kind": "medical facility",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 45.4255,
-   "lon": -75.7212,
+   "lat": 43.7294,
+   "lon": -79.5981,
    "rarity": "Rare",
-   "fame": 4002,
+   "fame": 3906,
    "facts": {
-    "elevation_m": 59,
-    "temp_c": 5.9
+    "elevation_m": 168,
+    "temp_c": 7.8
    },
    "flavour": {
-    "text": "The complex was built in 1978 as part of Prime Minister Pierre Trudeau's initiative to see more federal workers based in the Quebec side of the Ottawa River.",
+    "text": "William Osler Health System, formerly William Osler Health Centre, is a hospital network in Ontario.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Terrasses de la Chaudière",
-    "url": "https://en.wikipedia.org/wiki/Terrasses_de_la_Chaudi%C3%A8re",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7703321.webp",
-    "author": "Harleyd613",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Terrasses_de_la_Chaudi%C3%A8re_aerial_photo.jpg"
-   }
-  },
-  {
-   "id": "wd:Q4409745",
-   "name": "Barnum House",
-   "label": "Barnum House",
-   "type": "built",
-   "kind": "house",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.9908,
-   "lon": -78.0436,
-   "rarity": "Rare",
-   "fame": 756,
-   "facts": {
-    "elevation_m": 114,
-    "temp_c": 8.1
-   },
-   "flavour": {
-    "text": "The Barnum House was built between 1817 and 1819 by Eliakim Barnum, a United Empire Loyalist originally from Vermont.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Barnum House",
-    "url": "https://en.wikipedia.org/wiki/Barnum_House",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q4409745.webp",
-    "author": "Robert Taylor from Stirling, Canada",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Barnum_House_Grafton_Ontario.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5019657",
-   "name": "Calgary Courts Centre",
-   "label": "Calgary Courts Centre",
-   "type": "built",
-   "kind": "built structure",
-   "region": "CA-AB",
-   "country": "CA",
-   "lat": 51.0472,
-   "lon": -114.074,
-   "rarity": "Rare",
-   "fame": 1890,
-   "facts": {
-    "elevation_m": 1053,
-    "height_m": 129,
-    "temp_c": 4.1
-   },
-   "flavour": {
-    "text": "Calgary Courts Centre is the largest court facility in North America by size, and is in Calgary, Alberta.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Calgary Courts Centre",
-    "url": "https://en.wikipedia.org/wiki/Calgary_Courts_Centre",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5019657.webp",
-    "author": "Qyd",
-    "licence": "CC BY-SA 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Calgary_Courts_Centre-Oct_2006.JPG"
-   }
-  },
-  {
-   "id": "wd:Q2818450",
-   "name": "Tour Terminal",
-   "label": "Tour Terminal",
-   "type": "built",
-   "kind": "skyscraper",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.4869,
-   "lon": -73.6534,
-   "rarity": "Rare",
-   "fame": 1284,
-   "facts": {
-    "elevation_m": 52,
-    "temp_c": 6.5
-   },
-   "flavour": {
-    "text": "Completed in 1966, it was the last phase of CN's developments in the area, along with the Queen Elizabeth Hotel, Central Station and the CN Building.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Terminal Tower (Montreal)",
-    "url": "https://en.wikipedia.org/wiki/Terminal_Tower_%28Montreal%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2818450.webp",
-    "author": "MTLskyline",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tour_Terminal.JPG"
-   }
-  },
-  {
-   "id": "wd:Q2935991",
-   "name": "Chambly Canal",
-   "label": "Chambly Canal",
-   "type": "built",
-   "kind": "canal",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.4482,
-   "lon": -73.2837,
-   "rarity": "Rare",
-   "fame": 3972,
-   "facts": {
-    "elevation_m": 8.0,
-    "length_km": 19,
-    "temp_c": 6.1
-   },
-   "flavour": {
-    "text": "The Chambly Canal is a National Historic Site of Canada in the Province of Quebec, running along the Richelieu River past Saint-Jean-sur-Richelieu, Carignan.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Chambly Canal",
-    "url": "https://en.wikipedia.org/wiki/Chambly_Canal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2935991.webp",
-    "author": "Minoumi",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Canal_de_Chambly.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1762378",
-   "name": "Simcoe Place",
-   "label": "Simcoe Place",
-   "type": "built",
-   "kind": "skyscraper",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.645,
-   "lon": -79.3858,
-   "rarity": "Rare",
-   "fame": 2076,
-   "facts": {
-    "elevation_m": 75,
-    "height_m": 148,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "The tower is 148 metres metres with 33 floors.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Simcoe Place",
-    "url": "https://en.wikipedia.org/wiki/Simcoe_Place",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1762378.webp",
-    "author": "SimonP",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Simcoe_Place.JPG"
-   }
-  },
-  {
-   "id": "wd:Q1054144",
-   "name": "Centre Georges-Vézina",
-   "label": "Centre Georges-Vézina",
-   "type": "built",
-   "kind": "built structure",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 48.4197,
-   "lon": -71.06,
-   "rarity": "Rare",
-   "fame": 7080,
-   "facts": {
-    "elevation_m": 86,
-    "temp_c": 2.5
-   },
-   "flavour": {
-    "text": "The arena was built in 1949 and features an Olympic-sized ice pad of 200' X 100'.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Centre Georges-Vézina",
-    "url": "https://en.wikipedia.org/wiki/Centre_Georges-V%C3%A9zina",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1054144.webp",
-    "author": "Chicoutimi",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Centre_George-V%C3%A9zina_ext.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3398549",
-   "name": "Port of Saint John",
-   "label": "Port of Saint John",
-   "type": "built",
-   "kind": "port",
-   "region": "CA-NB",
-   "country": "CA",
-   "lat": 45.2725,
-   "lon": -66.0417,
-   "rarity": "Rare",
-   "fame": 7614,
-   "facts": {
-    "elevation_m": 0.0,
-    "temp_c": 5.8
-   },
-   "flavour": {
-    "text": "The Port of Saint John is a port complex that occupies 141 hectares of land along 3,900 m of waterfront of the Saint John Harbour at the mouth of the Saint…",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Port of Saint John",
-    "url": "https://en.wikipedia.org/wiki/Port_of_Saint_John",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3398549.webp",
-    "author": "Greg Hickman from Saint John, New Brunswick, Canada",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Carnival_Victory1.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5656723",
-   "name": "Hare Krishna Temple",
-   "label": "Hare Krishna Temple",
-   "type": "built",
-   "kind": "Hindu temple",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6769,
-   "lon": -79.3979,
-   "rarity": "Rare",
-   "fame": 1932,
-   "facts": {
-    "elevation_m": 127,
-    "temp_c": 8.1
-   },
-   "flavour": {
-    "text": "The Hare Krishna Temple is located at 243 Avenue Road in Toronto, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Hare Krishna Temple, Toronto",
-    "url": "https://en.wikipedia.org/wiki/Hare_Krishna_Temple%2C_Toronto",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5656723.webp",
-    "author": "SimonP",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hare_Krishna,_Toronto.JPG"
-   }
-  },
-  {
-   "id": "wd:Q5086253",
-   "name": "Charlottetown City Hall",
-   "label": "Charlottetown City Hall",
-   "type": "built",
-   "kind": "city hall",
-   "region": "CA-PE",
-   "country": "CA",
-   "lat": 46.2343,
-   "lon": -63.1297,
-   "rarity": "Rare",
-   "fame": 1146,
-   "facts": {
-    "elevation_m": 13,
-    "temp_c": 5.6
-   },
-   "flavour": {
-    "text": "Charlottetown City Hall is the seat of City Council in Charlottetown, Prince Edward Island, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Charlottetown City Hall",
-    "url": "https://en.wikipedia.org/wiki/Charlottetown_City_Hall",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5086253.webp",
-    "author": "Rohit Sud",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Charlottetown_City_Hall.JPG"
-   }
-  },
-  {
-   "id": "wd:Q7842978",
-   "name": "Trinity Square",
-   "label": "Trinity Square",
-   "type": "built",
-   "kind": "square",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 43.6545,
-   "lon": -79.382,
-   "rarity": "Rare",
-   "fame": 1626,
-   "facts": {
-    "elevation_m": 87,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "Trinity Square is a public square in downtown Toronto, Ontario, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Trinity Square (Toronto)",
-    "url": "https://en.wikipedia.org/wiki/Trinity_Square_%28Toronto%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7842978.webp",
-    "author": "Ian Muttoo from Mississauga, Canada",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rays_of_autumn_light_in_Toronto.jpg"
-   }
-  },
-  {
-   "id": "wd:Q880777",
-   "name": "Blackcomb Peak",
-   "label": "Blackcomb Peak",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 50.0814,
-   "lon": -122.871,
-   "rarity": "Rare",
-   "fame": 3648,
-   "facts": {
-    "elevation_m": 2436,
-    "prominence_m": 86,
-    "temp_c": 2.7
-   },
-   "flavour": {
-    "text": "Blackcomb Peak is a mountain located east of Whistler, British Columbia that forms the boundary between the Whistler Blackcomb ski resort and Garibaldi…",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Blackcomb Peak",
-    "url": "https://en.wikipedia.org/wiki/Blackcomb_Peak",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q880777.webp",
-    "author": "Marmote ( talk ).",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Blackcomb_Mountain-2007.jpg"
-   }
-  },
-  {
-   "id": "wd:Q270484",
-   "name": "Kettle River",
-   "label": "Kettle River",
-   "type": "nature",
-   "kind": "river",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 50.1153,
-   "lon": -118.3119,
-   "rarity": "Rare",
-   "fame": 1926,
-   "facts": {
-    "elevation_m": 1373,
-    "length_km": 282,
-    "temp_c": 2.2
-   },
-   "also_in": [
-    "US"
-   ],
-   "flavour": {
-    "text": "The Kettle River is a 281-kilometre tributary of the Columbia River, encompassing a 10,877-square-kilometre drainage basin.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Kettle River (Columbia River tributary)",
-    "url": "https://en.wikipedia.org/wiki/Kettle_River_%28Columbia_River_tributary%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q270484.webp",
-    "author": "Iwona Erskine-Kellie from Vancouver, Canada",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kettle_River_(Columbia_River).jpg"
-   }
-  },
-  {
-   "id": "wd:Q3624056",
-   "name": "Calvert Island",
-   "label": "Calvert Island",
-   "type": "nature",
-   "kind": "island",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 51.5333,
-   "lon": -128.0,
-   "rarity": "Rare",
-   "fame": 2484,
-   "facts": {
-    "elevation_m": 350,
-    "area_km2": 329,
-    "length_km": 32,
-    "temp_c": 7.6
-   },
-   "flavour": {
-    "text": "Calvert Island is an island on the coast of the Canadian province of British Columbia.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Calvert Island (British Columbia)",
-    "url": "https://en.wikipedia.org/wiki/Calvert_Island_%28British_Columbia%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3624056.webp",
-    "author": "The Interior",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CalvertIsland.JPG"
-   }
-  },
-  {
-   "id": "wd:Q7240336",
-   "name": "Premier Range",
-   "label": "Premier Range",
-   "type": "nature",
-   "kind": "mountain range",
-   "region": "CA-BC",
-   "country": "CA",
-   "lat": 52.83,
-   "lon": -119.75,
-   "rarity": "Rare",
-   "fame": 1104,
-   "facts": {
-    "elevation_m": 3516,
-    "temp_c": -2.7
-   },
-   "flavour": {
-    "text": "The Premier Range is a group of mountains within the Cariboo Mountains of east-central British Columbia, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Premier Range",
-    "url": "https://en.wikipedia.org/wiki/Premier_Range",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7240336.webp",
-    "author": "Rufus Hawthorne",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Premier_Range.JPG"
-   }
-  },
-  {
-   "id": "wd:Q7190800",
-   "name": "Pickerel River",
-   "label": "Pickerel River",
-   "type": "nature",
-   "kind": "river",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 45.9277,
-   "lon": -80.7759,
-   "rarity": "Rare",
-   "fame": 840,
-   "facts": {
-    "elevation_m": 182,
-    "temp_c": 5.2
-   },
-   "flavour": {
-    "text": "Smaller channels near Wanikewin and Hartley Bay also connect the river directly to the main watercourse of the French River.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pickerel River (Ontario)",
-    "url": "https://en.wikipedia.org/wiki/Pickerel_River_%28Ontario%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7190800.webp",
-    "author": "Internet Archive Book Images",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Pickerel_river_CNoR_bridge_(1907)_(14758575084).jpg"
-   }
-  },
-  {
-   "id": "wd:Q6374734",
-   "name": "Kasshabog Lake",
-   "label": "Kasshabog Lake",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 44.6333,
-   "lon": -77.9667,
-   "rarity": "Rare",
-   "fame": 1326,
-   "facts": {
-    "elevation_m": 261,
-    "temp_c": 5.8
-   },
-   "flavour": {
-    "text": "It is in the Great Lakes Basin, and is home to a cottage community, including game fishing, a marina and lodges.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Kasshabog Lake",
-    "url": "https://en.wikipedia.org/wiki/Kasshabog_Lake",
+    "title": "William Osler Health System",
+    "url": "https://en.wikipedia.org/wiki/William_Osler_Health_System",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q6374734.webp"
+    "file": "images/minimap/wd_Q8016391.webp"
    }
   },
   {
-   "id": "wd:Q319492",
-   "name": "Aberdeen Lake",
-   "label": "Aberdeen Lake",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-NU",
+   "id": "wd:Q3457301",
+   "name": "Prince Edward Point National Wildlife Area",
+   "label": "Prince Edward Point National Wildlife Area",
+   "type": "built",
+   "kind": "bird observatory",
+   "region": "CA-ON",
    "country": "CA",
-   "lat": 64.5667,
-   "lon": -98.95,
+   "lat": 43.9333,
+   "lon": -76.8583,
    "rarity": "Rare",
-   "fame": 798,
+   "fame": 714,
    "facts": {
-    "elevation_m": 75,
-    "area_km2": 1100,
-    "length_km": 90,
-    "temp_c": -11.6
+    "elevation_m": 74,
+    "area_km2": 5.2,
+    "temp_c": 8.1
    },
    "flavour": {
-    "text": "The lake measures nearly 90 km east-west with a peninsula in the center separating the lake into almost two halves which extend nearly 30 km north-south.",
+    "text": "The Prince Edward Point Bird Observatory is a bird observatory located in the Prince Edward Point National Wildlife Area.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Aberdeen Lake (Nunavut)",
-    "url": "https://en.wikipedia.org/wiki/Aberdeen_Lake_%28Nunavut%29",
+    "title": "Prince Edward Point Bird Observatory",
+    "url": "https://en.wikipedia.org/wiki/Prince_Edward_Point_Bird_Observatory",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q319492.webp",
-    "author": "NASA",
+    "file": "images/photo/wd_Q3457301.webp",
+    "author": "WilyD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Prince_Edward_Point_Bird_Observatory.JPG"
+   }
+  },
+  {
+   "id": "wd:Q4425979",
+   "name": "St. Josaphat Cathedral",
+   "label": "St. Josaphat Cathedral",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "CA-AB",
+   "country": "CA",
+   "lat": 53.5544,
+   "lon": -113.4899,
+   "rarity": "Rare",
+   "fame": 1908,
+   "facts": {
+    "elevation_m": 665,
+    "temp_c": 3.2
+   },
+   "flavour": {
+    "text": "St. Josaphat Cathedral is a Ukrainian Catholic cathedral in McCauley, Edmonton, Alberta.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Josaphat Cathedral",
+    "url": "https://en.wikipedia.org/wiki/St._Josaphat_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4425979.webp",
+    "author": "Odysseus1479",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Josaphat_from_W.jpg"
+   }
+  },
+  {
+   "id": "wd:Q8078647",
+   "name": "Îlot-Trafalgar-Gleneagles",
+   "label": "Îlot-Trafalgar-Gleneagles",
+   "type": "built",
+   "kind": "city block",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.495,
+   "lon": -73.5948,
+   "rarity": "Rare",
+   "fame": 1218,
+   "facts": {
+    "elevation_m": 161,
+    "temp_c": 6.5
+   },
+   "flavour": {
+    "text": "The Îlot-Trafalgar-Gleneagles is a historic block in Montreal, Quebec, Canada, located on Côte-des-Neiges Road, on the west slope of Mount Royal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Îlot-Trafalgar-Gleneagles",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Elot-Trafalgar-Gleneagles",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q8078647.webp",
+    "author": "Serge Melki from Indianapolis, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mont_Royal_(5181739026).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2944879",
+   "name": "Rockland Centre",
+   "label": "Rockland Centre",
+   "type": "built",
+   "kind": "shopping center",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.528,
+   "lon": -73.648,
+   "rarity": "Rare",
+   "fame": 3648,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 6.6
+   },
+   "flavour": {
+    "text": "Rockland Centre is an upscale shopping mall located in the town of Mount Royal, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rockland Centre",
+    "url": "https://en.wikipedia.org/wiki/Rockland_Centre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2944879.webp",
+    "author": "Jeangagnon",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centre_Rockland_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7092825",
+   "name": "One London Place",
+   "label": "One London Place",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 42.9857,
+   "lon": -81.2466,
+   "rarity": "Rare",
+   "fame": 2064,
+   "facts": {
+    "elevation_m": 252,
+    "temp_c": 8.0
+   },
+   "flavour": {
+    "text": "Construction of the tower was completed in 1992.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "One London Place",
+    "url": "https://en.wikipedia.org/wiki/One_London_Place",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7092825.webp",
+    "author": "Rjsbird287 at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:OneLondonPlace.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3094694",
+   "name": "Galeries de la Capitale",
+   "label": "Galeries de la Capitale",
+   "type": "built",
+   "kind": "shopping center",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 46.8303,
+   "lon": -71.2992,
+   "rarity": "Rare",
+   "fame": 6048,
+   "facts": {
+    "elevation_m": 37,
+    "temp_c": 4.8
+   },
+   "flavour": {
+    "text": "Galeries de la Capitale is a shopping mall located in the Les Rivières borough in Quebec City, Quebec, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Galeries de la Capitale",
+    "url": "https://en.wikipedia.org/wiki/Galeries_de_la_Capitale",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3094694.webp",
+    "author": "JOFphoto",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ville_de_Qu%C3%A9bec_285.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2944485",
+   "name": "Mactaquac Dam",
+   "label": "Mactaquac Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 45.9542,
+   "lon": -66.8683,
+   "rarity": "Rare",
+   "fame": 5952,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "The Mactaquac Dam is an embankment dam used to generate hydroelectricity in Mactaquac, New Brunswick.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mactaquac Dam",
+    "url": "https://en.wikipedia.org/wiki/Mactaquac_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2944485.webp",
+    "author": "ScottDavis",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Mactaquac1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q8004382",
+   "name": "William Allman Memorial Arena",
+   "label": "William Allman Memorial Arena",
+   "type": "built",
+   "kind": "arena",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.3742,
+   "lon": -80.976,
+   "rarity": "Rare",
+   "fame": 1920,
+   "facts": {
+    "elevation_m": 351,
+    "temp_c": 6.7
+   },
+   "flavour": {
+    "text": "It is also one of the world's oldest continuously operated arenas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "William Allman Memorial Arena",
+    "url": "https://en.wikipedia.org/wiki/William_Allman_Memorial_Arena",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q8004382.webp",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Allman_Memorial_Arena,_Stratford,_Ontario_(21651427890).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7591472",
+   "name": "St. Peters Harbour Light",
+   "label": "St. Peters Harbour Light",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "CA-PE",
+   "country": "CA",
+   "lat": 46.4421,
+   "lon": -62.7475,
+   "rarity": "Rare",
+   "fame": 390,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 10,
+    "temp_c": 5.5
+   },
+   "flavour": {
+    "text": "The station was established in 1865 and the lighthouse itself was built in 1881.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Peters Harbour Light",
+    "url": "https://en.wikipedia.org/wiki/St._Peters_Harbour_Light",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7591472.webp",
+    "author": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Harbour_Lighthouse_(22274534702).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3397495",
+   "name": "Portage Bridge",
+   "label": "Portage Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.4222,
+   "lon": -75.7136,
+   "rarity": "Rare",
+   "fame": 1584,
+   "facts": {
+    "elevation_m": 40,
+    "temp_c": 5.9
+   },
+   "flavour": {
+    "text": "The Portage Bridge crosses the Ottawa River just down-river from the Chaudière Bridge, joining the communities of Gatineau, Quebec and Ottawa, Ontario.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portage Bridge",
+    "url": "https://en.wikipedia.org/wiki/Portage_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3397495.webp",
+    "author": "P199",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Aberdeen_Lake2.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Portage_Bridge_Ottawa-Hull.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7405858",
+   "name": "Salt Lake",
+   "label": "Salt Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-SK",
+   "country": "CA",
+   "lat": 52.408,
+   "lon": -109.725,
+   "rarity": "Rare",
+   "fame": 744,
+   "facts": {
+    "elevation_m": 661,
+    "temp_c": 2.3
+   },
+   "flavour": {
+    "text": "The lake is located south of Senlac in the west central part of the province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salt Lake (Saskatchewan)",
+    "url": "https://en.wikipedia.org/wiki/Salt_Lake_%28Saskatchewan%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7405858.webp"
+   }
+  },
+  {
+   "id": "wd:Q1801116",
+   "name": "Lake of Bays",
+   "label": "Lake of Bays",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 45.2402,
+   "lon": -79.0486,
+   "rarity": "Rare",
+   "fame": 2322,
+   "facts": {
+    "elevation_m": 315,
+    "area_km2": 71,
+    "temp_c": 4.7
+   },
+   "flavour": {
+    "text": "Ontario Highway 35 runs north and east of the lake.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake of Bays (Muskoka lake)",
+    "url": "https://en.wikipedia.org/wiki/Lake_of_Bays_%28Muskoka_lake%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1801116.webp",
+    "author": "P199",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_of_Bays_Ontario.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7759382",
+   "name": "The Ramparts",
+   "label": "The Ramparts",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 52.7097,
+   "lon": -118.359,
+   "rarity": "Rare",
+   "fame": 804,
+   "facts": {
+    "elevation_m": 2771,
+    "area_km2": 83,
+    "temp_c": -1.4
+   },
+   "flavour": {
+    "text": "The Ramparts are a mountain range in the Canadian Rockies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Ramparts (Canada)",
+    "url": "https://en.wikipedia.org/wiki/The_Ramparts_%28Canada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7759382.webp",
+    "author": "Original uploader was Brilang at en.wikipedia",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ramparts_in_Tonquin_Valley,_Jasper_National_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14874789",
+   "name": "Wild Horse River",
+   "label": "Wild Horse River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 49.6,
+   "lon": -115.617,
+   "rarity": "Rare",
+   "fame": 792,
+   "facts": {
+    "elevation_m": 765,
+    "temp_c": 5.3
+   },
+   "flavour": {
+    "text": "Wild Horse River is a tributary of the Kootenay River in the East Kootenay region of southeastern British Columbia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wild Horse River",
+    "url": "https://en.wikipedia.org/wiki/Wild_Horse_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q14874789.webp"
+   }
+  },
+  {
+   "id": "wd:Q7148897",
+   "name": "Paul Island",
+   "label": "Paul Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CA-NL",
+   "country": "CA",
+   "lat": 56.5,
+   "lon": -61.4158,
+   "rarity": "Rare",
+   "fame": 1230,
+   "facts": {
+    "elevation_m": 457,
+    "area_km2": 175,
+    "length_km": 31,
+    "temp_c": -2.9
+   },
+   "flavour": {
+    "text": "Paul's Island or Paul Island is an island off the coast of Labrador, near the town of Nain in Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Paul's Island",
+    "url": "https://en.wikipedia.org/wiki/Paul%27s_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7148897.webp",
+    "author": "Dan Wiegand",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_Island_from_onboard_the_Northern_Ranger.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3321743",
+   "name": "Mont Chauve",
+   "label": "Mont Chauve",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 45.3706,
+   "lon": -72.2111,
+   "rarity": "Rare",
+   "fame": 1770,
+   "facts": {
+    "elevation_m": 599,
+    "temp_c": 4.6
+   },
+   "flavour": {
+    "text": "At 599 m, it rises on the edge of Mont-Orford National Park, north of the shores of Lake Stukely.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Mont Chauve",
+    "url": "https://fr.wikipedia.org/wiki/Mont_Chauve",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3321743.webp",
+    "author": "Boréal",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2007-07_Parc_du_Mont-Orford_-_Lac_Stukeley_et_Mont_Chauve.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22513754",
+   "name": "Tombstone Mountain",
+   "label": "Tombstone Mountain (near Dawson City)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-YT",
+   "country": "CA",
+   "lat": 64.4051,
+   "lon": -138.6817,
+   "rarity": "Rare",
+   "fame": 1296,
+   "facts": {
+    "elevation_m": 2056,
+    "temp_c": -7.9
+   },
+   "flavour": {
+    "text": "Tombstone Mountain is a mountain in Yukon, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tombstone Mountain (Yukon)",
+    "url": "https://en.wikipedia.org/wiki/Tombstone_Mountain_%28Yukon%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22513754.webp",
+    "author": "Rick McCharles from Calgary, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ogilvie_Mountains_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7590407",
+   "name": "St. Marys River",
+   "label": "St. Marys River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CA-NS",
+   "country": "CA",
+   "lat": 45.0733,
+   "lon": -61.9283,
+   "rarity": "Rare",
+   "fame": 1236,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 30,
+    "temp_c": 6.1
+   },
+   "flavour": {
+    "text": "At approximately 250 kilometres, it is one of Nova Scotia's longest rivers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Mary's River (Nova Scotia)",
+    "url": "https://en.wikipedia.org/wiki/St._Mary%27s_River_%28Nova_Scotia%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7590407.webp"
+   }
+  },
+  {
+   "id": "wd:Q22548242",
+   "name": "Mount Monica",
+   "label": "Mount Monica",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 50.4307,
+   "lon": -116.6829,
+   "rarity": "Rare",
+   "fame": 846,
+   "facts": {
+    "elevation_m": 3019,
+    "temp_c": -1.0
+   },
+   "flavour": {
+    "text": "Mount Monica is a 3,072-metre mountain summit located in the Purcell Mountains in southeast British Columbia, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Monica",
+    "url": "https://en.wikipedia.org/wiki/Mount_Monica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22548242.webp",
+    "author": "Eggbones",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monica_Mountain.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5016252",
+   "name": "Cadboro Bay",
+   "label": "Cadboro Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CA-BC",
+   "country": "CA",
+   "lat": 48.4577,
+   "lon": -123.293,
+   "rarity": "Rare",
+   "fame": 3390,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 10.5
+   },
+   "flavour": {
+    "text": "Cadboro Bay is a bay near the southern tip of Vancouver Island and its adjacent neighbourhood in the municipalities of Saanich and Oak Bay in Greater Victoria.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cadboro Bay",
+    "url": "https://en.wikipedia.org/wiki/Cadboro_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5016252.webp",
+    "author": "Keefer4",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Cadborobay2.jpg"
    }
   },
   {
@@ -3300,127 +3369,37 @@
    }
   },
   {
-   "id": "wd:Q14874789",
-   "name": "Wild Horse River",
-   "label": "Wild Horse River",
+   "id": "wd:Q3433719",
+   "name": "La Salle River",
+   "label": "La Salle River",
    "type": "nature",
    "kind": "river",
-   "region": "CA-BC",
+   "region": "CA-MB",
    "country": "CA",
-   "lat": 49.6,
-   "lon": -115.617,
+   "lat": 49.7561,
+   "lon": -97.1414,
    "rarity": "Rare",
-   "fame": 792,
+   "fame": 1236,
    "facts": {
-    "elevation_m": 765,
-    "temp_c": 5.3
+    "elevation_m": 223,
+    "length_km": 180,
+    "temp_c": 2.7
    },
    "flavour": {
-    "text": "Wild Horse River is a tributary of the Kootenay River in the East Kootenay region of southeastern British Columbia.",
+    "text": "The La Salle is a river in Manitoba, Canada, with its source near Portage la Prairie and terminating in the Red River in Saint Norbert.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Wild Horse River",
-    "url": "https://en.wikipedia.org/wiki/Wild_Horse_River",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q14874789.webp"
-   }
-  },
-  {
-   "id": "wd:Q6921646",
-   "name": "Mount Kerkeslin",
-   "label": "Mount Kerkeslin",
-   "type": "nature",
-   "kind": "mountain",
-   "region": "CA-AB",
-   "country": "CA",
-   "lat": 52.6486,
-   "lon": -117.8267,
-   "rarity": "Rare",
-   "fame": 714,
-   "facts": {
-    "elevation_m": 2984,
-    "prominence_m": 730,
-    "temp_c": -0.6
-   },
-   "flavour": {
-    "text": "Mount Kerkeslin is a 2,984 m mountain summit located in the Athabasca River valley of Jasper National Park, in the Canadian Rockies of Alberta, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mount Kerkeslin",
-    "url": "https://en.wikipedia.org/wiki/Mount_Kerkeslin",
+    "title": "La Salle River",
+    "url": "https://en.wikipedia.org/wiki/La_Salle_River",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6921646.webp",
-    "author": "ltdan",
+    "file": "images/photo/wd_Q3433719.webp",
+    "author": "Kevin M Klerks from Inverhuron, Canada",
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Athabasca_Falls_01.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1173660",
-   "name": "Winefred Lake",
-   "label": "Winefred Lake",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-AB",
-   "country": "CA",
-   "lat": 55.4969,
-   "lon": -110.5367,
-   "rarity": "Rare",
-   "fame": 672,
-   "facts": {
-    "elevation_m": 593,
-    "area_km2": 126,
-    "temp_c": 0.5
-   },
-   "flavour": {
-    "text": "It is located in southern Wood Buffalo, in a remote area between Cold Lake and Fort McMurray, and has a total area of 122.8 km2.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Winefred Lake",
-    "url": "https://en.wikipedia.org/wiki/Winefred_Lake",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q1173660.webp"
-   }
-  },
-  {
-   "id": "wd:Q793085",
-   "name": "Aylmer Lake",
-   "label": "Aylmer Lake",
-   "type": "nature",
-   "kind": "lake",
-   "region": "CA-NT",
-   "country": "CA",
-   "lat": 64.1333,
-   "lon": -108.5,
-   "rarity": "Rare",
-   "fame": 708,
-   "facts": {
-    "elevation_m": 366,
-    "area_km2": 847,
-    "length_km": 50,
-    "temp_c": -9.4
-   },
-   "flavour": {
-    "text": "Of lakes in the Northwest Territories, it is the seventh largest.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Aylmer Lake",
-    "url": "https://en.wikipedia.org/wiki/Aylmer_Lake",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q793085.webp"
+    "page": "https://commons.wikimedia.org/wiki/File:Across_Canada_(34469007185).jpg"
    }
   },
   {
@@ -3726,7 +3705,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/gn_6157390.webp",
-    "author": "Nelro ( talk )",
+    "author": "Nelro",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Battle_of_Stony_Creek_Monument,_Stony_Creek.jpg"

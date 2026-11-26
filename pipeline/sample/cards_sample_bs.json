@@ -1477,37 +1477,32 @@
    }
   },
   {
-   "id": "wd:Q58956395",
-   "name": "Egg Island Lighthouse",
-   "label": "Egg Island Lighthouse",
+   "id": "wd:Q4357258",
+   "name": "Luis de Torres Synagogue",
+   "label": "Luis de Torres Synagogue",
    "type": "built",
-   "kind": "lighthouse",
-   "region": "BS-SW",
+   "kind": "synagogue",
+   "region": "BS-FP",
    "country": "BS",
-   "lat": 25.4983,
-   "lon": -76.8819,
+   "lat": 26.517,
+   "lon": -78.6813,
    "rarity": "Rare",
-   "fame": 222,
+   "fame": 1662,
    "facts": {
-    "elevation_m": 16,
-    "height_m": 18,
-    "temp_c": 25.1
+    "elevation_m": 7.0,
+    "temp_c": 24.7
    },
    "flavour": {
-    "text": "Egg Island Lighthouse is a lighthouse on Egg Island.",
+    "text": "The Freeport Hebrew Congregation is a former Reform Jewish congregation and synagogue, that was located in Freeport, in the Bahamas.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Egg Island Lighthouse",
-    "url": "https://en.wikipedia.org/wiki/Egg_Island_Lighthouse",
+    "title": "Luis de Torres Synagogue",
+    "url": "https://en.wikipedia.org/wiki/Luis_de_Torres_Synagogue",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q58956395.webp",
-    "author": "European Space Agency",
-    "licence": "CC BY-SA 3.0 igo",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Egg_Island,_Bahamas_ESA391953.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4357258.webp"
    }
   },
   {
@@ -1966,7 +1961,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q1540098.webp",
-    "author": "User: (WT-shared) Waustindavis at wts wikivoyage",
+    "author": "(WT-shared) Waustindavis at wts wikivoyage",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Mayaguana_IMGP0335.jpg"

@@ -29,39 +29,40 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q7350.webp",
-    "author": "User:Stan Shebs",
+    "author": "Stan Shebs",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Gatun_Locks.jpg"
    }
   },
   {
-   "id": "wd:Q6073294",
-   "name": "Petaquilla",
-   "label": "Petaquilla",
+   "id": "wd:Q5139720",
+   "name": "Cocle del Norte River",
+   "label": "Cocle del Norte River",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "river",
    "region": "PA-3",
    "country": "PA",
-   "lat": 8.9158,
-   "lon": -80.7401,
+   "lat": 9.0768,
+   "lon": -80.5729,
    "rarity": "Common",
-   "fame": 852,
+   "fame": 606,
    "facts": {
-    "elevation_m": 130,
-    "temp_c": 26.1
+    "elevation_m": 0.0,
+    "length_km": 75,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "Petaquilla is classified as: Orographic.",
+    "text": "The Cocle del Norte River is a river of Panama.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Petaquilla",
-    "url": "https://en.wikipedia.org/wiki/Petaquilla",
+    "title": "Cocle del Norte River",
+    "url": "https://en.wikipedia.org/wiki/Cocle_del_Norte_River",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q6073294.webp"
+    "file": "images/minimap/wd_Q5139720.webp"
    }
   },
   {
@@ -95,61 +96,67 @@
    }
   },
   {
-   "id": "wd:Q1799249",
-   "name": "La Yeguada",
-   "label": "La Yeguada",
+   "id": "wd:Q35335463",
+   "name": "Río Aguacate",
+   "label": "Río Aguacate",
    "type": "nature",
-   "kind": "mountain",
-   "region": "PA-9",
+   "kind": "river",
+   "region": "PA-8",
    "country": "PA",
-   "lat": 8.47,
-   "lon": -80.82,
+   "lat": 8.9,
+   "lon": -79.7167,
    "rarity": "Common",
-   "fame": 2484,
+   "fame": 0,
    "facts": {
-    "elevation_m": 1297,
-    "temp_c": 25.1
+    "elevation_m": 19,
+    "area_km2": 100,
+    "length_km": 12,
+    "temp_c": 26.6
    },
    "flavour": {
-    "text": "La Yeguada is a massive stratovolcano located in Veraguas Province, Panama, north of the Azuero Peninsula.",
+    "text": "The river is one of the main tributaries of the Caimito and the main river of the district.",
     "source": "wikipedia",
-    "lang": "en",
-    "title": "La Yeguada",
-    "url": "https://en.wikipedia.org/wiki/La_Yeguada",
-    "translated": false
+    "lang": "es",
+    "title": "Río Aguacate",
+    "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Aguacate",
+    "translated": true
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q1799249.webp"
+    "file": "images/minimap/wd_Q35335463.webp"
    }
   },
   {
-   "id": "wd:Q7190482",
-   "name": "Picacho Mountain",
-   "label": "Picacho Mountain",
+   "id": "wd:Q35401415",
+   "name": "Río Matasnillo",
+   "label": "Río Matasnillo",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "river",
    "region": "PA-8",
    "country": "PA",
-   "lat": 8.6275,
-   "lon": -80.0483,
+   "lat": 8.9742,
+   "lon": -79.5186,
    "rarity": "Common",
-   "fame": 1482,
+   "fame": 1578,
    "facts": {
-    "elevation_m": 927,
-    "temp_c": 24.5
+    "elevation_m": 6.0,
+    "temp_c": 26.6
    },
    "flavour": {
-    "text": "It is located in San Carlos District on the western side of the Panamá Province.",
+    "text": "The Matasnillo River is a river in Panama, traversing southward from the hills north of Panama City through the heart of the city before entering Panama Bay…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Picacho Mountain",
-    "url": "https://en.wikipedia.org/wiki/Picacho_Mountain",
+    "title": "Matasnillo River",
+    "url": "https://en.wikipedia.org/wiki/Matasnillo_River",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q7190482.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q35401415.webp",
+    "author": "RicardoAndres39",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PANAM%C3%81_ESTILIZADA.jpg"
    }
   },
   {
@@ -182,69 +189,61 @@
    }
   },
   {
-   "id": "wd:Q6115676",
-   "name": "San San River",
-   "label": "San San River",
+   "id": "wd:Q5488689",
+   "name": "Isla Pastores",
+   "label": "Isla Pastores",
    "type": "nature",
-   "kind": "river",
+   "kind": "island",
    "region": "PA-1",
    "country": "PA",
-   "lat": 9.5311,
-   "lon": -82.517,
+   "lat": 9.2333,
+   "lon": -82.3333,
    "rarity": "Common",
-   "fame": 360,
+   "fame": 60,
    "facts": {
-    "elevation_m": 15,
-    "temp_c": 26.4
+    "elevation_m": 5.0,
+    "temp_c": 25.7
    },
    "flavour": {
-    "text": "The San San River is a river of Panama.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "San San River",
-    "url": "https://en.wikipedia.org/wiki/San_San_River",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6115676.webp",
-    "author": "Visiona",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo-San-San,Bocas-del-Toro-Panam%C3%A1.jpeg"
-   }
-  },
-  {
-   "id": "wd:Q31734424",
-   "name": "Macizo de Canajagua",
-   "label": "Macizo de Canajagua",
-   "type": "nature",
-   "kind": "mountain range",
-   "region": "PA-7",
-   "country": "PA",
-   "lat": 7.5,
-   "lon": -80.25,
-   "rarity": "Common",
-   "fame": 102,
-   "facts": {
-    "elevation_m": 256,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "The Sierra del Canajagua is a small mountain range in the eastern half of the Azuero Peninsula…",
+    "text": "It belongs to Bocas del Toro Province; its other name, Shepherd, comes from English.",
     "source": "wikipedia",
     "lang": "es",
-    "title": "Sierra del Canajagua",
-    "url": "https://es.wikipedia.org/wiki/Sierra_del_Canajagua",
+    "title": "Isla Pastores",
+    "url": "https://es.wikipedia.org/wiki/Isla_Pastores",
     "translated": true
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q31734424.webp",
-    "author": "Luis.a.p.m.",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vista_del_Canajagua_desde_Las_Guabas.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5488689.webp"
+   }
+  },
+  {
+   "id": "wd:Q31731227",
+   "name": "Cerro de Quema",
+   "label": "Cerro de Quema",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.56,
+   "lon": -80.5195,
+   "rarity": "Common",
+   "fame": 516,
+   "facts": {
+    "elevation_m": 795,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Cerro Quema is a Cenozoic volcanic massif in the Sierra del Canajagua on the Azuero Peninsula, Los Santos Province.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Cerro Quema",
+    "url": "https://es.wikipedia.org/wiki/Cerro_Quema",
+    "translated": true
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q31731227.webp"
    }
   },
   {
@@ -275,69 +274,39 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q47510828.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:ISS016-E-20977_-_View_of_Panama.jpg"
    }
   },
   {
-   "id": "wd:Q2881883",
-   "name": "Isla Abogado",
-   "label": "Isla Abogado",
+   "id": "wd:Q5074171",
+   "name": "Charco Azul",
+   "label": "Charco Azul",
    "type": "nature",
-   "kind": "island",
-   "region": "PA-3",
-   "country": "PA",
-   "lat": 9.1992,
-   "lon": -79.86,
-   "rarity": "Common",
-   "fame": 48,
-   "facts": {
-    "elevation_m": 57,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "An island in Colón.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q2881883.webp"
-   }
-  },
-  {
-   "id": "wd:Q5101932",
-   "name": "Chiriquí River",
-   "label": "Chiriquí River",
-   "type": "nature",
-   "kind": "river",
+   "kind": "bay",
    "region": "PA-4",
    "country": "PA",
-   "lat": 8.3194,
-   "lon": -82.3372,
+   "lat": 8.2,
+   "lon": -82.75,
    "rarity": "Common",
-   "fame": 708,
+   "fame": 1200,
    "facts": {
     "elevation_m": 0.0,
-    "length_km": 130,
-    "temp_c": 26.5
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "The Chiriquí River is a river of Panama located at Chiriquí province at the districts of Boquete, David, Dolega, and Gualaca.",
+    "text": "Charco Azul is a bay and port just outside Puerto Armuelles, in the southwest corner of Panama near the border with Costa Rica.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Chiriquí River",
-    "url": "https://en.wikipedia.org/wiki/Chiriqu%C3%AD_River",
+    "title": "Charco Azul",
+    "url": "https://en.wikipedia.org/wiki/Charco_Azul",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5101932.webp",
-    "author": "EinfachFrankfurt1955",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Chiriqui_River_enters_the_Gulf_of_Chiriqui.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5074171.webp"
    }
   },
   {
@@ -346,7 +315,7 @@
    "label": "Cerro Pando",
    "type": "nature",
    "kind": "mountain",
-   "region": "PA-1",
+   "region": "PA-4",
    "country": "PA",
    "lat": 8.9226,
    "lon": -82.7119,
@@ -373,32 +342,62 @@
    }
   },
   {
-   "id": "wd:Q16848754",
-   "name": "Isla Gatun, Panama",
-   "label": "Isla Gatun, Panama",
+   "id": "wd:Q36784347",
+   "name": "Almirante Bay",
+   "label": "Almirante Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.3333,
+   "lon": -82.25,
+   "rarity": "Common",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Almirante Bay is a Caribbean bay in Panama.",
+    "source": "wikipedia",
+    "lang": "es",
+    "title": "Bahía del Almirante",
+    "url": "https://es.wikipedia.org/wiki/Bah%C3%ADa_del_Almirante",
+    "translated": true
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q36784347.webp"
+   }
+  },
+  {
+   "id": "wd:Q6081502",
+   "name": "Isla Tres Perros",
+   "label": "Isla Tres Perros",
    "type": "nature",
    "kind": "island",
    "region": "PA-3",
    "country": "PA",
-   "lat": 9.049,
-   "lon": -79.955,
+   "lat": 9.0366,
+   "lon": -79.956,
    "rarity": "Common",
-   "fame": 414,
+   "fame": 348,
    "facts": {
-    "elevation_m": 25,
+    "elevation_m": 34,
+    "area_km2": 0.0,
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "Isla Gatun is a private island located in the middle of the Panama Canal in the southwest of Gatun Lake.",
+    "text": "Isla Tres Perros is a Panamanian island with an area of 22,745 m2 located near the channel of the Panama Canal in the southwest region of the Gatun Lake.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Isla Gatun, Panama",
-    "url": "https://en.wikipedia.org/wiki/Isla_Gatun%2C_Panama",
+    "title": "Isla Tres Perros",
+    "url": "https://en.wikipedia.org/wiki/Isla_Tres_Perros",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q16848754.webp"
+    "file": "images/minimap/wd_Q6081502.webp"
    }
   },
   {
@@ -1162,39 +1161,45 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q9055955.webp",
-    "author": "Stefan Laube (user Tauchgurke )",
+    "author": "Stefan Laube (user Tauchgurke)",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Epiphylle.jpg"
    }
   },
   {
-   "id": "wd:Q17058160",
-   "name": "General Division Omar Torrijos Herrera National Park",
-   "label": "General Division Omar Torrijos Herrera National Park",
+   "id": "wd:Q313637",
+   "name": "Gatun Lake",
+   "label": "Gatun Lake",
    "type": "nature",
-   "kind": "national park",
+   "kind": "lake",
    "region": "PA-3",
    "country": "PA",
-   "lat": 8.644,
-   "lon": -80.7061,
+   "lat": 9.2,
+   "lon": -79.9,
    "rarity": "Epic",
-   "fame": 1440,
+   "fame": 39702,
    "facts": {
-    "elevation_m": 894,
-    "temp_c": 21.9
+    "elevation_m": 26,
+    "area_km2": 436,
+    "length_km": 33,
+    "temp_c": 26.5
    },
    "flavour": {
-    "text": "General Omar Torrijos Herrera National Park, originally known as El Copé, is a national park in Panama.",
+    "text": "At approximately 26 m above sea level, it forms a major part of the Panama Canal, carrying ships 33 km of their transit across the Isthmus of Panama.",
     "source": "wikipedia",
-    "lang": "es",
-    "title": "Parque nacional General de División Omar Torrijos Herrera",
-    "url": "https://es.wikipedia.org/wiki/Parque_nacional_General_de_Divisi%C3%B3n_Omar_Torrijos_Herrera",
-    "translated": true
+    "lang": "en",
+    "title": "Gatun Lake",
+    "url": "https://en.wikipedia.org/wiki/Gatun_Lake",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q17058160.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q313637.webp",
+    "author": "Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gatun_Lake.jpg"
    }
   },
   {
@@ -1266,38 +1271,32 @@
    }
   },
   {
-   "id": "wd:Q313637",
-   "name": "Gatun Lake",
-   "label": "Gatun Lake",
+   "id": "wd:Q17058160",
+   "name": "General Division Omar Torrijos Herrera National Park",
+   "label": "General Division Omar Torrijos Herrera National Park",
    "type": "nature",
-   "kind": "lake",
-   "region": "PA-3",
+   "kind": "national park",
+   "region": "PA-2",
    "country": "PA",
-   "lat": 9.2,
-   "lon": -79.9,
+   "lat": 8.644,
+   "lon": -80.7061,
    "rarity": "Epic",
-   "fame": 39702,
+   "fame": 1440,
    "facts": {
-    "elevation_m": 26,
-    "area_km2": 436,
-    "length_km": 33,
-    "temp_c": 26.5
+    "elevation_m": 894,
+    "temp_c": 21.9
    },
    "flavour": {
-    "text": "At approximately 26 m above sea level, it forms a major part of the Panama Canal, carrying ships 33 km of their transit across the Isthmus of Panama.",
+    "text": "General Omar Torrijos Herrera National Park, originally known as El Copé, is a national park in Panama.",
     "source": "wikipedia",
-    "lang": "en",
-    "title": "Gatun Lake",
-    "url": "https://en.wikipedia.org/wiki/Gatun_Lake",
-    "translated": false
+    "lang": "es",
+    "title": "Parque nacional General de División Omar Torrijos Herrera",
+    "url": "https://es.wikipedia.org/wiki/Parque_nacional_General_de_Divisi%C3%B3n_Omar_Torrijos_Herrera",
+    "translated": true
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q313637.webp",
-    "author": "User:Stan Shebs",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Gatun_Lake.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17058160.webp"
    }
   },
   {
@@ -2548,7 +2547,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q1364359.webp",
-    "author": "User:Janibeth Miranda",
+    "author": "Janibeth Miranda",
     "licence": "CC BY 3.0",
     "licence_url": "https://creativecommons.org/licenses/by/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:CuencaRioChucunaque.JPG"
@@ -2582,7 +2581,7 @@
    "image": {
     "kind": "photo",
     "file": "images/photo/wd_Q5202432.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-7601_-_View_of_Panama.jpg"
