@@ -10,6 +10,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 **Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
 ## What to do next
+**Start with the Handoff section of [[Dev Log/2026-11-26]]** (session of 2026-11-26 ended mid-rerun; it lists exact next steps).
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.
 2. Phase 1: the pipeline runs for any country with one command (`run.py`) and has been run for all of North America on 2026-11-26: 86,389 cards in 41 countries and territories. The 100-card sample review was done on 2026-11-26 with fixes, (86,345 cards). Left for the Phase 2 gate: run the pipeline once on a clean machine (never tested). Every country now has at least one Mythic (46 in North America). All flavour lines are in English (translated 2026-11-26). Also open: switching to bulk data before going past North America. See [[Tasks]].
 
