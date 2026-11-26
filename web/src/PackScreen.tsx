@@ -46,7 +46,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     const foil = best.foil ? 'Foil ' : ''
     return (
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6">
-        {kind === 'local' ? <p className="font-display text-lg font-bold text-[#ff6b70]">Local pack · near {pulls[0].local}</p> : null}
+        {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
         <p className="text-sm text-muted">{allFlipped ? 'Tap a card to look closer.' : 'Tap each card to flip it. The best is last.'}</p>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {pulls.map((p, i) => (
@@ -78,7 +78,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           {!allFlipped ? (
             <button className="rounded-xl border border-line px-5 py-2.5 font-semibold" onClick={() => setFlipped(pulls.map(() => true))}>Reveal all</button>
           ) : (
-            <button className="rounded-xl bg-accent px-6 py-2.5 font-semibold text-ground" onClick={() => setPulls(null)}>Done</button>
+            <button className="btn-gold rounded-xl px-6 py-2.5 font-semibold" onClick={() => setPulls(null)}>Done</button>
           )}
         </div>
         {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stamp(open)} onClose={() => setOpen(null)} /> : null}
@@ -103,19 +103,19 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           {next != null ? <> · next in <span className="tabular-nums text-ink">{countdown(next)}</span></> : null}
         </p>
         {state.opened === 0 && state.hometown ? (
-          <p className="mt-2 text-sm text-accent">Your first pack holds a place near {state.hometown.label}.</p>
+          <p className="mt-2 text-sm text-teal">Your first pack holds a place near {state.hometown.label}.</p>
         ) : null}
       </div>
       <button
         disabled={!state.packs}
         onClick={() => start('normal')}
-        className="rounded-2xl bg-accent px-10 py-4 font-display text-xl font-extrabold text-ground shadow-[0_0_40px_-8px_var(--color-accent)] transition hover:scale-[1.03] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:scale-100"
+        className="btn-gold rounded-2xl px-10 py-4 font-display text-xl font-extrabold"
       >
         Open a pack
       </button>
       <button onClick={onAddPack} className="text-xs text-muted underline">Demo: add a pack now</button>
 
-      <section className="mt-2 flex w-full items-center gap-4 rounded-2xl border border-[#e5484d]/40 bg-[#e5484d]/[0.07] p-4 text-left" aria-label="Local pack">
+      <section className="mt-2 flex w-full items-center gap-4 rounded-2xl border border-local/40 bg-wine-deep/50 p-4 text-left" aria-label="Local pack">
         <div className="w-20 shrink-0">
           <StampSticker stamp={{ kind: 'local', place: here?.label ?? 'Near you', date: now }} inline />
         </div>
@@ -128,9 +128,9 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           )}
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
             {!here ? (
-              <button onClick={onChangeHere} className="rounded-xl bg-[#e5484d] px-4 py-2 font-semibold text-white">Pick where you are</button>
+              <button onClick={onChangeHere} className="rounded-xl bg-local px-4 py-2 font-semibold text-white">Pick where you are</button>
             ) : ready ? (
-              <button onClick={() => start('local')} className="rounded-xl bg-[#e5484d] px-4 py-2 font-semibold text-white transition hover:scale-[1.03]">Open local pack</button>
+              <button onClick={() => start('local')} className="rounded-xl bg-local px-4 py-2 font-semibold text-white transition hover:scale-[1.03]">Open local pack</button>
             ) : (
               <span className="text-sm">Next local pack in <span className="tabular-nums font-semibold">{countdown(nextLocalAt(now) - now)}</span></span>
             )}

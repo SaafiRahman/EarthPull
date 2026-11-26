@@ -46,7 +46,7 @@ export function CardModal({ pool, card, serial, foil, stamp, copies, onClose }: 
               {foil || stamp ? (
                 <p className="mt-1 text-sm font-semibold">
                   {foil ? <span className="mr-3 bg-[linear-gradient(115deg,#ff7ac6,#ffd36e,#6effd8,#7aa8ff)] bg-clip-text text-transparent">Foil</span> : null}
-                  {stamp ? <span className={stamp.kind === 'local' ? 'text-[#ff6b70]' : 'text-accent'}>
+                  {stamp ? <span className={stamp.kind === 'local' ? 'text-local' : 'text-teal'}>
                     {stamp.kind === 'local' ? `Local pull in ${stamp.place}` : `Hometown card (${stamp.place})`}, {new Date(stamp.date).toLocaleDateString('en-CA', { day: 'numeric', month: 'short', year: 'numeric' })}
                   </span> : null}
                 </p>

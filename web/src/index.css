@@ -1,14 +1,22 @@
 @import "tailwindcss";
 
-/* Night-atlas theme: deep ink ground like a map at night, cards lit by their rarity colour. */
+/* Leather-and-gold theme (2026-11-26), taken from the card back and logo: a near-black wine ground like the
+   burgundy leather in shadow, warm panels, cream text, gold for actions, and teal (burgundy's complement) for
+   hometown and info touches. Rarity colours are the game's own and stay as they are. */
 @theme {
-  --color-ground: #0e131d;
-  --color-panel: #161d2b;
-  --color-panel-2: #1f2839;
-  --color-line: #2c3750;
-  --color-ink: #e8edf6;
-  --color-muted: #8f9ab0;
-  --color-accent: #5fd4c4;
+  --color-ground: #140b0f;
+  --color-panel: #1f1117;
+  --color-panel-2: #2c1820;
+  --color-line: #4a2a35;
+  --color-ink: #f7efe4;
+  --color-muted: #b9a59c;
+  --color-accent: #e2b85a;
+  --color-gold-light: #f6dc95;
+  --color-gold-dark: #a8731f;
+  --color-wine: #6b1a2b;
+  --color-wine-deep: #4a0f1d;
+  --color-teal: #4fc7b5;
+  --color-local: #ef5a5f;
 
   --color-common: #a3adbd;
   --color-rare: #4f8ef7;
@@ -24,7 +32,11 @@
 html, body, #root { height: 100%; }
 body {
   margin: 0;
-  background: var(--color-ground);
+  background:
+    radial-gradient(1100px 520px at 50% -140px, rgba(107, 26, 43, .55), transparent 70%),
+    radial-gradient(900px 600px at 50% 120%, rgba(74, 15, 29, .35), transparent 70%),
+    var(--color-ground);
+  background-attachment: fixed;
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
@@ -33,6 +45,23 @@ button { cursor: pointer; }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
+}
+
+/* Gold button, embossed like the wordmark on the card back */
+.btn-gold {
+  color: #2a1206;
+  background: linear-gradient(180deg, var(--color-gold-light), #d9a845 55%, #b8862f);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.55), inset 0 -2px 0 rgba(120,70,10,.45), 0 0 40px -10px rgba(226,184,90,.65);
+  transition: transform .15s, filter .15s;
+}
+.btn-gold:hover:not(:disabled) { filter: brightness(1.06); transform: translateY(-1px) scale(1.02); }
+.btn-gold:disabled { filter: grayscale(.6) brightness(.7); cursor: not-allowed; }
+
+/* Header strip: a band of leather with a thin gold edge */
+.app-header {
+  background: linear-gradient(180deg, rgba(74, 15, 29, .9), rgba(31, 17, 23, .92));
+  border-bottom: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
+  box-shadow: 0 6px 24px -12px rgba(0,0,0,.8);
 }
 
 /* Card flip */
@@ -191,6 +220,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   box-shadow: 0 0 0 0.35cqw rgba(0,0,0,.45), inset 0 0 0 0.3cqw color-mix(in srgb, var(--tier) 35%, transparent);
   color: var(--color-ink);
 }
+.tcg-head, .tcg-type, .tcg-facts, .tcg-flavour, .tcg-foot { flex-shrink: 0; }
 .tcg-head { display: flex; align-items: center; gap: 2cqw; min-height: 8.5cqw; }
 .tcg-name {
   flex: 1; min-width: 0;
@@ -204,7 +234,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* Photo window: one treatment for every photo so mismatched pictures read as a set */
 .tcg-art {
-  position: relative; flex: 1 1 auto; min-height: 30cqw;
+  position: relative; flex: 1 1 0; min-height: 30cqw; /* only the photo gives way: a tall portrait photo used to squeeze the facts box */
   border-radius: 1.8cqw; overflow: hidden;
   background: var(--color-panel-2);
   box-shadow: 0 0 0 0.4cqw rgba(0,0,0,.55), 0 0 0 0.75cqw color-mix(in srgb, var(--tier) 55%, transparent);

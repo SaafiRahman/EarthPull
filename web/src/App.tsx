@@ -43,13 +43,13 @@ export default function App() {
 
   return (
     <div className="flex h-full flex-col">
-      <header className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
-        <div className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"><LogoMark className="h-7 w-7" />Pull the Planet <span className="ml-1 rounded bg-panel-2 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-muted">North America demo</span></div>
-        <nav className="flex gap-1 rounded-xl bg-panel p-1" aria-label="Sections">
+      <header className="app-header flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+        <div className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"><LogoMark className="h-7 w-7" />Pull the Planet <span className="ml-1 rounded border border-accent/30 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-accent/80">North America demo</span></div>
+        <nav className="flex gap-1 rounded-xl border border-line bg-ground/60 p-1" aria-label="Sections">
           {TABS.map(([id, label]) => (
             <button
               key={id} onClick={() => setTab(id)} aria-current={tab === id ? 'page' : undefined}
-              className={`rounded-lg px-3.5 py-1.5 text-sm font-semibold transition ${tab === id ? 'bg-panel-2 text-ink' : 'text-muted hover:text-ink'}`}
+              className={`rounded-lg px-3.5 py-1.5 text-sm font-semibold transition ${tab === id ? 'bg-panel-2 text-accent shadow-[inset_0_0_0_1px_rgba(226,184,90,.35)]' : 'text-muted hover:text-ink'}`}
             >
               {label}{id === 'packs' && state.packs ? <span className="ml-1.5 rounded-full bg-accent px-1.5 text-xs text-ground">{state.packs}</span> : null}
             </button>
@@ -65,7 +65,7 @@ export default function App() {
         ) : tab === 'collection' ? <Collection pool={pool} state={state} /> : <MapView pool={pool} state={state} />}
       </main>
       {tab !== 'map' ? (
-        <footer className="flex flex-wrap justify-between gap-2 border-t border-line px-4 py-2 text-xs text-muted">
+        <footer className="flex flex-wrap justify-between gap-2 border-t border-line bg-ground/70 px-4 py-2 text-xs text-muted">
           <span className="hidden sm:inline">Demo: packs roll in your browser and serial numbers are simulated. Places from GeoNames, Wikidata and Wikipedia; photos from Wikimedia Commons.</span>
           <span className="sm:hidden">Demo: serials are simulated.</span>
           <ResetButton onReset={reset} />

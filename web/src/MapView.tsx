@@ -77,14 +77,14 @@ export function MapView({ pool, state }: { pool: Pool; state: GameState }) {
       m.addLayer({ id: 'clusters', type: 'circle', source: 'owned', filter: ['has', 'point_count'], paint: {
         'circle-color': tierColor(['get', 'best']), 'circle-opacity': 0.85,
         'circle-radius': ['step', ['get', 'point_count'], 14, 10, 18, 50, 24, 200, 30],
-        'circle-stroke-width': 2, 'circle-stroke-color': light ? '#ffffff' : '#0e131d' } })
+        'circle-stroke-width': 2, 'circle-stroke-color': light ? '#ffffff' : '#140b0f' } })
       m.addLayer({ id: 'cluster-count', type: 'symbol', source: 'owned', filter: ['has', 'point_count'],
         layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-size': 12, 'text-font': ['Noto Sans Bold'] },
-        paint: { 'text-color': '#0e131d' } })
+        paint: { 'text-color': '#140b0f' } })
       m.addLayer({ id: 'pins', type: 'circle', source: 'owned', filter: ['!', ['has', 'point_count']], paint: {
         'circle-color': tierColor(['get', 'tier']),
         'circle-radius': ['match', ['get', 'tier'], 4, 10, 3, 8, 2, 7, 6],
-        'circle-stroke-width': 1.5, 'circle-stroke-color': light ? '#ffffff' : '#0e131d' } })
+        'circle-stroke-width': 1.5, 'circle-stroke-color': light ? '#ffffff' : '#140b0f' } })
       m.on('click', 'clusters', async (e: maplibregl.MapLayerMouseEvent) => {
         const f = e.features?.[0]
         if (!f) return

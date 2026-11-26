@@ -58,7 +58,7 @@ export function LogoMark({ className = '' }: { className?: string }) {
   const id = useId().replace(/:/g, '')
   return (
     <svg viewBox="0 0 100 100" className={className} role="img" aria-label="Pull the Planet">
-      <CompassPin id={id} cx={50} hy={38} R={34} ty={96} hole={24} inside="#0e131d" shadow={false} />
+      <CompassPin id={id} cx={50} hy={38} R={34} ty={96} hole={24} inside="#140b0f" shadow={false} />
     </svg>
   )
 }
