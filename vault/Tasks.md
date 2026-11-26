@@ -96,6 +96,7 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] (done 2026-11-26) First version built: Vite + React + TypeScript + Tailwind + MapLibre (OpenFreeMap dark tiles). Typechecks and builds; game logic tested on the real pool (odds match over 100,000 pulls, each Mythic pulled once, Legendary serials stay within /10, refills cap at 3, hometown card lands within 50 km). Run: `cd web && npm run dev`, open http://localhost:5173
   - [x] (done 2026-11-26) Automated playthrough with puppeteer-core driving the installed Chrome (`web/scripts/playthrough.mjs`, screenshots to `minimap-previews/playthrough/`). Found and fixed: flipped cards stayed face down (entrance animation overrode the flip), the MapLibre worker failed to load under Vite pre-bundling, last card oversized on phones, phone footer too tall. Now no console errors
   - [ ] Developer plays it and gives feedback; cards need a redesign (developer, 2026-11-26)
+  - [ ] Photo credits can be messy (Fort Knox: "Work permit Original author= Cliff"): clean the Commons author field in `images.py`
   - [ ] Statue of Liberty shows New Jersey (its point is in NJ waters): hand-fix regions for border landmarks
 
 **Gate to Phase 2 (updated 2026-11-24; all but the clean-machine run met 2026-11-26):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
