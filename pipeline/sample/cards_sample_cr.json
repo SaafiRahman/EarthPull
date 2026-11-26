@@ -2,6 +2,41 @@
  "note": "Sample of the Costa Rica card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3621849",
+   "name": "San José",
+   "label": "San José",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9339,
+   "lon": -84.0849,
+   "rarity": "Mythic",
+   "fame": 233274,
+   "facts": {
+    "population": 335007,
+    "elevation_m": 1133,
+    "area_km2": 45,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "San José is the capital and largest city of Costa Rica, and the capital of San José Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San José, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621849.webp",
+    "author": "Xlionheartx",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_San_Jos%C3%A9,_Costa_Rica_(253552473).jpg"
+   }
+  },
+  {
    "id": "wd:Q12156520",
    "name": "Cerro Caraigres",
    "label": "Cerro Caraigres",
@@ -1601,41 +1636,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Parque_de_las_Esferas_de_Costa_Rica.JPG"
-   }
-  },
-  {
-   "id": "gn:3621849",
-   "name": "San José",
-   "label": "San José",
-   "type": "town",
-   "kind": "town",
-   "region": "CR-SJ",
-   "country": "CR",
-   "lat": 9.9339,
-   "lon": -84.0849,
-   "rarity": "Legendary",
-   "fame": 233274,
-   "facts": {
-    "population": 335007,
-    "elevation_m": 1133,
-    "area_km2": 45,
-    "temp_c": 19.8
-   },
-   "flavour": {
-    "text": "San José is the capital and largest city of Costa Rica, and the capital of San José Province.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "San José, Costa Rica",
-    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9%2C_Costa_Rica",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3621849.webp",
-    "author": "Xlionheartx",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_San_Jos%C3%A9,_Costa_Rica_(253552473).jpg"
    }
   },
   {

@@ -2,6 +2,41 @@
  "note": "Sample of the Saint Lucia card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3576812",
+   "name": "Castries",
+   "label": "Castries",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 13.9957,
+   "lon": -61.0061,
+   "rarity": "Mythic",
+   "fame": 53562,
+   "facts": {
+    "population": 20000,
+    "elevation_m": 119,
+    "area_km2": 79,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Castries is the capital and largest city of Saint Lucia, an island country in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castries",
+    "url": "https://en.wikipedia.org/wiki/Castries",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576812.webp",
+    "author": "UpstateNYer",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CastriesStLucia.JPG"
+   }
+  },
+  {
    "id": "wd:Q5031146",
    "name": "Canaries River",
    "label": "Canaries River",
@@ -1067,41 +1102,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Rue_de_Vieux-Fort_et_%C3%A9glise_anglicane_St-Paul_(Sainte-Lucie).jpg"
-   }
-  },
-  {
-   "id": "gn:3576812",
-   "name": "Castries",
-   "label": "Castries",
-   "type": "town",
-   "kind": "town",
-   "region": "LC-02",
-   "country": "LC",
-   "lat": 13.9957,
-   "lon": -61.0061,
-   "rarity": "Legendary",
-   "fame": 53562,
-   "facts": {
-    "population": 20000,
-    "elevation_m": 119,
-    "area_km2": 79,
-    "temp_c": 25.7
-   },
-   "flavour": {
-    "text": "Castries is the capital and largest city of Saint Lucia, an island country in the Caribbean.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Castries",
-    "url": "https://en.wikipedia.org/wiki/Castries",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3576812.webp",
-    "author": "UpstateNYer",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CastriesStLucia.JPG"
    }
   },
   {

@@ -2,6 +2,41 @@
  "note": "Sample of the El Salvador card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3583361",
+   "name": "San Salvador",
+   "label": "San Salvador",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6893,
+   "lon": -89.1872,
+   "rarity": "Mythic",
+   "fame": 264792,
+   "facts": {
+    "population": 525990,
+    "elevation_m": 653,
+    "area_km2": 72,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "San Salvador is the capital and largest city of El Salvador and of its eponymous department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Salvador",
+    "url": "https://en.wikipedia.org/wiki/San_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583361.webp",
+    "author": "Frankjh",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monumento_al_Salvador_del_Mundo_1.jpg"
+   }
+  },
+  {
    "id": "wd:Q24263800",
    "name": "Titihuapa River",
    "label": "Titihuapa River",
@@ -1687,41 +1722,6 @@
     "licence": "CC0",
     "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Nayib_Bukele_and_Fernando_Romero.jpg"
-   }
-  },
-  {
-   "id": "gn:3583361",
-   "name": "San Salvador",
-   "label": "San Salvador",
-   "type": "town",
-   "kind": "town",
-   "region": "SV-SS",
-   "country": "SV",
-   "lat": 13.6893,
-   "lon": -89.1872,
-   "rarity": "Legendary",
-   "fame": 264792,
-   "facts": {
-    "population": 525990,
-    "elevation_m": 653,
-    "area_km2": 72,
-    "temp_c": 22.6
-   },
-   "flavour": {
-    "text": "San Salvador is the capital and largest city of El Salvador and of its eponymous department.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "San Salvador",
-    "url": "https://en.wikipedia.org/wiki/San_Salvador",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3583361.webp",
-    "author": "Frankjh",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Monumento_al_Salvador_del_Mundo_1.jpg"
    }
   },
   {

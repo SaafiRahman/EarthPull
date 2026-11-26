@@ -2,6 +2,41 @@
  "note": "Sample of the Anguilla card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3573374",
+   "name": "The Valley",
+   "label": "The Valley",
+   "type": "town",
+   "kind": "town",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.217,
+   "lon": -63.0578,
+   "rarity": "Mythic",
+   "fame": 33390,
+   "facts": {
+    "population": 2035,
+    "elevation_m": 7.0,
+    "area_km2": 2.7,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Valley is the capital of Anguilla, one of its fourteen districts, and the main town on the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Valley, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/The_Valley%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573374.webp",
+    "author": "Josveek Huligar (permission given in e-mail)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wallblake_House,_The_Valley.jpg"
+   }
+  },
+  {
    "id": "wd:Q5459742",
    "name": "Flirt Rocks",
    "label": "Flirt Rocks",
@@ -249,41 +284,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_11205445.webp"
-   }
-  },
-  {
-   "id": "gn:3573374",
-   "name": "The Valley",
-   "label": "The Valley",
-   "type": "town",
-   "kind": "town",
-   "region": "AI",
-   "country": "AI",
-   "lat": 18.217,
-   "lon": -63.0578,
-   "rarity": "Legendary",
-   "fame": 33390,
-   "facts": {
-    "population": 2035,
-    "elevation_m": 7.0,
-    "area_km2": 2.7,
-    "temp_c": 26.7
-   },
-   "flavour": {
-    "text": "The Valley is the capital of Anguilla, one of its fourteen districts, and the main town on the island.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "The Valley, Anguilla",
-    "url": "https://en.wikipedia.org/wiki/The_Valley%2C_Anguilla",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3573374.webp",
-    "author": "Josveek Huligar (permission given in e-mail)",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wallblake_House,_The_Valley.jpg"
    }
   },
   {

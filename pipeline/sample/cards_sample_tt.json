@@ -2,6 +2,41 @@
  "note": "Sample of the Trinidad and Tobago card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3573890",
+   "name": "Port of Spain",
+   "label": "Port of Spain",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6667,
+   "lon": -61.5189,
+   "rarity": "Mythic",
+   "fame": 213648,
+   "facts": {
+    "population": 49031,
+    "elevation_m": 21,
+    "area_km2": 12,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Port of Spain is the capital and chief port of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port of Spain",
+    "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573890.webp",
+    "author": "Itrydisrespxtsmtsep",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:POS_SKYLINE_2024_BEAUTIFUL_EVAN-P_2024_10-8.jpg"
+   }
+  },
+  {
    "id": "wd:Q5046092",
    "name": "Carrera Island",
    "label": "Carrera Island",
@@ -1250,41 +1285,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_3573681.webp"
-   }
-  },
-  {
-   "id": "gn:3573890",
-   "name": "Port of Spain",
-   "label": "Port of Spain",
-   "type": "town",
-   "kind": "town",
-   "region": "TT-POS",
-   "country": "TT",
-   "lat": 10.6667,
-   "lon": -61.5189,
-   "rarity": "Legendary",
-   "fame": 213648,
-   "facts": {
-    "population": 49031,
-    "elevation_m": 21,
-    "area_km2": 12,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "Port of Spain is the capital and chief port of Trinidad and Tobago.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Port of Spain",
-    "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3573890.webp",
-    "author": "Itrydisrespxtsmtsep",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:POS_SKYLINE_2024_BEAUTIFUL_EVAN-P_2024_10-8.jpg"
    }
   },
   {

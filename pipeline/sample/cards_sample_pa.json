@@ -2,6 +2,40 @@
  "note": "Sample of the Panama card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q7350",
+   "name": "Panama Canal",
+   "label": "Panama Canal",
+   "type": "built",
+   "kind": "ship canal",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.12,
+   "lon": -79.75,
+   "rarity": "Mythic",
+   "fame": 929580,
+   "facts": {
+    "elevation_m": 26,
+    "length_km": 82,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Panama Canal is an artificial 82-kilometer waterway in Panama that connects the Caribbean Sea in the Atlantic Ocean with the Pacific Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Panama Canal",
+    "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7350.webp",
+    "author": "User:Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Gatun_Locks.jpg"
+   }
+  },
+  {
    "id": "wd:Q6073294",
    "name": "Petaquilla",
    "label": "Petaquilla",
@@ -1663,40 +1697,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
     "page": "https://commons.wikimedia.org/wiki/File:Cristobal_1104_Terminal_St_(Aug_1999).jpg"
-   }
-  },
-  {
-   "id": "wd:Q7350",
-   "name": "Panama Canal",
-   "label": "Panama Canal",
-   "type": "built",
-   "kind": "ship canal",
-   "region": "PA-3",
-   "country": "PA",
-   "lat": 9.12,
-   "lon": -79.75,
-   "rarity": "Legendary",
-   "fame": 929580,
-   "facts": {
-    "elevation_m": 26,
-    "length_km": 82,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "The Panama Canal is an artificial 82-kilometer waterway in Panama that connects the Caribbean Sea in the Atlantic Ocean with the Pacific Ocean.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Panama Canal",
-    "url": "https://en.wikipedia.org/wiki/Panama_Canal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7350.webp",
-    "author": "User:Stan Shebs",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Gatun_Locks.jpg"
    }
   },
   {

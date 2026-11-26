@@ -2,6 +2,41 @@
  "note": "Sample of the Honduras card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q1419813",
+   "name": "Roatán",
+   "label": "Roatán",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-IB",
+   "country": "HN",
+   "lat": 16.3834,
+   "lon": -86.4178,
+   "rarity": "Mythic",
+   "fame": 249480,
+   "facts": {
+    "elevation_m": 35,
+    "area_km2": 128,
+    "length_km": 60,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "The largest of the Bay Islands of Honduras, it is located between the islands of Utila and Guanaja.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roatán",
+    "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1419813.webp",
+    "author": "Westbrowncanada",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Westbay2106.jpg"
+   }
+  },
+  {
    "id": "wd:Q7513107",
    "name": "Sigre River",
    "label": "Sigre River",
@@ -934,35 +969,6 @@
    }
   },
   {
-   "id": "wd:Q6464048",
-   "name": "La Muralla National Park",
-   "label": "La Muralla National Park",
-   "type": "nature",
-   "kind": "national park",
-   "region": "HN-OL",
-   "country": "HN",
-   "lat": 15.1397,
-   "lon": -86.67,
-   "rarity": "Epic",
-   "fame": 798,
-   "facts": {
-    "elevation_m": 1262,
-    "temp_c": 21.4
-   },
-   "flavour": {
-    "text": "It was established on 1 January 1993. and covers an area of approximately 13,708.35 ha and a buffer zone of 13,195.05 ha for a total area of 26,903.48 ha.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "La Muralla National Park",
-    "url": "https://en.wikipedia.org/wiki/La_Muralla_National_Park",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q6464048.webp"
-   }
-  },
-  {
    "id": "wd:Q5035412",
    "name": "Capiro Calentura National Park",
    "label": "Capiro Calentura National Park",
@@ -1022,38 +1028,32 @@
    }
   },
   {
-   "id": "wd:Q1572113",
-   "name": "Utila",
-   "label": "Utila",
+   "id": "wd:Q9055966",
+   "name": "Pico Pijol National Park",
+   "label": "Pico Pijol National Park",
    "type": "nature",
-   "kind": "island",
-   "region": "HN-IB",
+   "kind": "national park",
+   "region": "HN-YO",
    "country": "HN",
-   "lat": 16.0972,
-   "lon": -86.9372,
+   "lat": 15.1972,
+   "lon": -87.5831,
    "rarity": "Epic",
-   "fame": 31026,
+   "fame": 708,
    "facts": {
-    "elevation_m": 0.0,
-    "area_km2": 42,
-    "length_km": 11,
-    "temp_c": 27.4
+    "elevation_m": 1344,
+    "temp_c": 23.2
    },
    "flavour": {
-    "text": "Utila is the smallest of Honduras' major Bay Islands, after Roatán and Guanaja, in a region that marks the south end of the Mesoamerican Barrier Reef System.",
+    "text": "It was established on 1 January 1987 and covers an area of 122.1 square kilometres.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Utila",
-    "url": "https://en.wikipedia.org/wiki/Utila",
+    "title": "Pico Pijol National Park",
+    "url": "https://en.wikipedia.org/wiki/Pico_Pijol_National_Park",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1572113.webp",
-    "author": "Rythie",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Utila_Hondoras_beach.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q9055966.webp"
    }
   },
   {
@@ -1159,66 +1159,101 @@
    }
   },
   {
-   "id": "wd:Q5057521",
-   "name": "Celaque National Park",
-   "label": "Celaque National Park",
+   "id": "wd:Q1572113",
+   "name": "Utila",
+   "label": "Utila",
    "type": "nature",
-   "kind": "national park",
-   "region": "HN-LE",
+   "kind": "island",
+   "region": "HN-IB",
    "country": "HN",
-   "lat": 14.5356,
-   "lon": -88.7072,
+   "lat": 16.0972,
+   "lon": -86.9372,
    "rarity": "Epic",
-   "fame": 6474,
+   "fame": 31026,
    "facts": {
-    "elevation_m": 2578,
-    "area_km2": 266,
-    "temp_c": 17.3
+    "elevation_m": 0.0,
+    "area_km2": 42,
+    "length_km": 11,
+    "temp_c": 27.4
    },
    "flavour": {
-    "text": "It was established on 5 August 1987 and covers an area of 266.31 square kilometres.",
+    "text": "Utila is the smallest of Honduras' major Bay Islands, after Roatán and Guanaja, in a region that marks the south end of the Mesoamerican Barrier Reef System.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Celaque National Park",
-    "url": "https://en.wikipedia.org/wiki/Celaque_National_Park",
+    "title": "Utila",
+    "url": "https://en.wikipedia.org/wiki/Utila",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5057521.webp",
-    "author": "ETXEVERZ",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Celaque_desde_Talgua_(Noroeste).JPG"
+    "file": "images/photo/wd_Q1572113.webp",
+    "author": "Rythie",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Utila_Hondoras_beach.jpg"
    }
   },
   {
-   "id": "wd:Q9055966",
-   "name": "Pico Pijol National Park",
-   "label": "Pico Pijol National Park",
+   "id": "wd:Q7230907",
+   "name": "Port Royal National Park",
+   "label": "Port Royal National Park",
    "type": "nature",
    "kind": "national park",
-   "region": "HN-YO",
+   "region": "HN-IB",
    "country": "HN",
-   "lat": 15.1972,
-   "lon": -87.5831,
+   "lat": 16.3997,
+   "lon": -86.3667,
    "rarity": "Epic",
-   "fame": 708,
+   "fame": 564,
    "facts": {
-    "elevation_m": 1344,
-    "temp_c": 23.2
+    "elevation_m": 21,
+    "temp_c": 27.5
    },
    "flavour": {
-    "text": "It was established on 1 January 1987 and covers an area of 122.1 square kilometres.",
+    "text": "It covers an area of 5 km2 along the south shore of the island's eastern end.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Pico Pijol National Park",
-    "url": "https://en.wikipedia.org/wiki/Pico_Pijol_National_Park",
+    "title": "Port Royal National Park",
+    "url": "https://en.wikipedia.org/wiki/Port_Royal_National_Park",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q9055966.webp"
+    "file": "images/minimap/wd_Q7230907.webp"
+   }
+  },
+  {
+   "id": "wd:Q6465411",
+   "name": "La Tigra National Park",
+   "label": "La Tigra National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-FM",
+   "country": "HN",
+   "lat": 14.2067,
+   "lon": -87.0997,
+   "rarity": "Epic",
+   "fame": 6954,
+   "facts": {
+    "elevation_m": 2011,
+    "area_km2": 243,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "La Tigra National Park was the first national park in Honduras, by decree No. 976-80 whose principal objective is \"The Conservation.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Tigra National Park",
+    "url": "https://en.wikipedia.org/wiki/La_Tigra_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6465411.webp",
+    "author": "Blindc1rca",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:SanJuancito2010.jpg"
    }
   },
   {

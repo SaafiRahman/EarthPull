@@ -2,6 +2,37 @@
  "note": "Sample of the Sint Maarten card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q25596",
+   "name": "Saint Martin",
+   "label": "Saint Martin",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.06,
+   "lon": -63.05,
+   "rarity": "Mythic",
+   "fame": 437556,
+   "facts": {
+    "elevation_m": 424,
+    "area_km2": 87,
+    "length_km": 14,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Saint Martin is an island in Leeward Islands of the Lesser Antilles in the northeastern Caribbean, approximately 300 km east of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Martin (island)",
+    "url": "https://en.wikipedia.org/wiki/Saint_Martin_%28island%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q25596.webp"
+   }
+  },
+  {
    "id": "wd:Q2029788",
    "name": "Little Bay",
    "label": "Little Bay",
@@ -697,39 +728,6 @@
    }
   },
   {
-   "id": "wd:Q104864004",
-   "name": "Pelikan Rock, Sint Maarten",
-   "label": "Pelikan Rock, Sint Maarten",
-   "type": "nature",
-   "kind": "island",
-   "region": "NL-SX",
-   "country": "SX",
-   "lat": 18.0178,
-   "lon": -63.0181,
-   "rarity": "Rare",
-   "fame": 510,
-   "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "Pelikan Rock is a small rocky islet, about 1 hectare in area, lying to the south-east of the coast of the island of Saint Martin.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Pelikan Rock, Sint Maarten",
-    "url": "https://en.wikipedia.org/wiki/Pelikan_Rock%2C_Sint_Maarten",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q104864004.webp",
-    "author": "Frank Schulenburg",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Brown_pelican_in_flight_(Bodega_Bay).jpg"
-   }
-  },
-  {
    "id": "wd:Q14851280",
    "name": "Great Salt Pond",
    "label": "Great Salt Pond",
@@ -763,34 +761,36 @@
    }
   },
   {
-   "id": "wd:Q25596",
-   "name": "Saint Martin",
-   "label": "Saint Martin",
+   "id": "wd:Q104864004",
+   "name": "Pelikan Rock, Sint Maarten",
+   "label": "Pelikan Rock, Sint Maarten",
    "type": "nature",
    "kind": "island",
    "region": "NL-SX",
    "country": "SX",
-   "lat": 18.06,
-   "lon": -63.05,
+   "lat": 18.0178,
+   "lon": -63.0181,
    "rarity": "Rare",
-   "fame": 437556,
+   "fame": 510,
    "facts": {
-    "elevation_m": 424,
-    "area_km2": 87,
-    "length_km": 14,
+    "elevation_m": 5.0,
     "temp_c": 26.5
    },
    "flavour": {
-    "text": "Saint Martin is an island in Leeward Islands of the Lesser Antilles in the northeastern Caribbean, approximately 300 km east of Puerto Rico.",
+    "text": "Pelikan Rock is a small rocky islet, about 1 hectare in area, lying to the south-east of the coast of the island of Saint Martin.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Saint Martin (island)",
-    "url": "https://en.wikipedia.org/wiki/Saint_Martin_%28island%29",
+    "title": "Pelikan Rock, Sint Maarten",
+    "url": "https://en.wikipedia.org/wiki/Pelikan_Rock%2C_Sint_Maarten",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q25596.webp"
+    "kind": "photo",
+    "file": "images/photo/wd_Q104864004.webp",
+    "author": "Frank Schulenburg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brown_pelican_in_flight_(Bodega_Bay).jpg"
    }
   }
  ]

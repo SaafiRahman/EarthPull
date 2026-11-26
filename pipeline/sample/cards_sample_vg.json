@@ -2,6 +2,41 @@
  "note": "Sample of the British Virgin Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q827604",
+   "name": "Tortola",
+   "label": "Tortola",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4167,
+   "lon": -64.5833,
+   "rarity": "Mythic",
+   "fame": 96300,
+   "facts": {
+    "elevation_m": 244,
+    "area_km2": 56,
+    "length_km": 19,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Tortola is the largest and most populated island of the British Virgin Islands, a group of islands that form part of the archipelago of the Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tortola",
+    "url": "https://en.wikipedia.org/wiki/Tortola",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q827604.webp",
+    "author": "Photo: Henry A-W ( Henry aw 23:34, 10 July 2006 (UTC))",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Roadtown,_Tortola.jpg"
+   }
+  },
+  {
    "id": "wd:Q3395287",
    "name": "Great Thatch",
    "label": "Great Thatch",
@@ -491,41 +526,6 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:St_Phillips_Church,_Tortola.jpg"
-   }
-  },
-  {
-   "id": "wd:Q827604",
-   "name": "Tortola",
-   "label": "Tortola",
-   "type": "nature",
-   "kind": "island",
-   "region": "VG",
-   "country": "VG",
-   "lat": 18.4167,
-   "lon": -64.5833,
-   "rarity": "Epic",
-   "fame": 96300,
-   "facts": {
-    "elevation_m": 244,
-    "area_km2": 56,
-    "length_km": 19,
-    "temp_c": 25.9
-   },
-   "flavour": {
-    "text": "Tortola is the largest and most populated island of the British Virgin Islands, a group of islands that form part of the archipelago of the Virgin Islands.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Tortola",
-    "url": "https://en.wikipedia.org/wiki/Tortola",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q827604.webp",
-    "author": "Photo: Henry A-W ( Henry aw 23:34, 10 July 2006 (UTC))",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Roadtown,_Tortola.jpg"
    }
   },
   {

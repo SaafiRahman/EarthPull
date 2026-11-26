@@ -2,6 +2,41 @@
  "note": "Sample of the Bahamas card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3571824",
+   "name": "Nassau",
+   "label": "Nassau",
+   "type": "town",
+   "kind": "town",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0582,
+   "lon": -77.3431,
+   "rarity": "Mythic",
+   "fame": 364596,
+   "facts": {
+    "population": 227940,
+    "elevation_m": 5.0,
+    "area_km2": 207,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Nassau is the capital and largest city of the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nassau, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3571824.webp",
+    "author": "Der-wuppertaler",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BHA_Nassau,_Paradise_Island,_Atlantis_Bridge_001.jpg"
+   }
+  },
+  {
    "id": "wd:Q21713612",
    "name": "August Cay",
    "label": "August Cay",
@@ -1182,41 +1217,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_3572940.webp"
-   }
-  },
-  {
-   "id": "gn:3571824",
-   "name": "Nassau",
-   "label": "Nassau",
-   "type": "town",
-   "kind": "town",
-   "region": "BS",
-   "country": "BS",
-   "lat": 25.0582,
-   "lon": -77.3431,
-   "rarity": "Legendary",
-   "fame": 364596,
-   "facts": {
-    "population": 227940,
-    "elevation_m": 5.0,
-    "area_km2": 207,
-    "temp_c": 25.0
-   },
-   "flavour": {
-    "text": "Nassau is the capital and largest city of the Bahamas.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Nassau, Bahamas",
-    "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3571824.webp",
-    "author": "Der-wuppertaler",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:BHA_Nassau,_Paradise_Island,_Atlantis_Bridge_001.jpg"
    }
   },
   {

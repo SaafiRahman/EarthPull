@@ -2,6 +2,41 @@
  "note": "Sample of the Turks and Caicos Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q1473924",
+   "name": "Grand Turk",
+   "label": "Grand Turk",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.4722,
+   "lon": -71.1389,
+   "rarity": "Mythic",
+   "fame": 44064,
+   "facts": {
+    "elevation_m": 24,
+    "area_km2": 18,
+    "length_km": 9.7,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Grand Turk is an island in the Turks and Caicos Islands, a British Overseas Territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Turk Island",
+    "url": "https://en.wikipedia.org/wiki/Grand_Turk_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1473924.webp",
+    "author": "Jersyko at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Turk_beach.JPG"
+   }
+  },
+  {
    "id": "wd:Q843866",
    "name": "Pine Cay",
    "label": "Pine Cay",
@@ -697,41 +732,6 @@
    }
   },
   {
-   "id": "wd:Q843871",
-   "name": "Parrot Cay",
-   "label": "Parrot Cay",
-   "type": "nature",
-   "kind": "island",
-   "region": "TC",
-   "country": "TC",
-   "lat": 21.9322,
-   "lon": -72.0581,
-   "rarity": "Rare",
-   "fame": 10638,
-   "facts": {
-    "elevation_m": 6.0,
-    "area_km2": 10,
-    "length_km": 4.4,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "The island contains about 1,000 acres of land, a mile-long beach and features a high-end beach resort with 61 rooms.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Parrot Cay",
-    "url": "https://en.wikipedia.org/wiki/Parrot_Cay",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q843871.webp",
-    "author": "DrooRadley",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Parrot_Cay_sunset.JPG"
-   }
-  },
-  {
    "id": "wd:Q1616654",
    "name": "Providenciales",
    "label": "Providenciales",
@@ -767,38 +767,38 @@
    }
   },
   {
-   "id": "wd:Q1473924",
-   "name": "Grand Turk",
-   "label": "Grand Turk",
+   "id": "wd:Q843871",
+   "name": "Parrot Cay",
+   "label": "Parrot Cay",
    "type": "nature",
    "kind": "island",
    "region": "TC",
    "country": "TC",
-   "lat": 21.4722,
-   "lon": -71.1389,
+   "lat": 21.9322,
+   "lon": -72.0581,
    "rarity": "Rare",
-   "fame": 44064,
+   "fame": 10638,
    "facts": {
-    "elevation_m": 24,
-    "area_km2": 18,
-    "length_km": 9.7,
-    "temp_c": 26.6
+    "elevation_m": 6.0,
+    "area_km2": 10,
+    "length_km": 4.4,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "Grand Turk is an island in the Turks and Caicos Islands, a British Overseas Territory.",
+    "text": "The island contains about 1,000 acres of land, a mile-long beach and features a high-end beach resort with 61 rooms.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Grand Turk Island",
-    "url": "https://en.wikipedia.org/wiki/Grand_Turk_Island",
+    "title": "Parrot Cay",
+    "url": "https://en.wikipedia.org/wiki/Parrot_Cay",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1473924.webp",
-    "author": "Jersyko at English Wikipedia",
+    "file": "images/photo/wd_Q843871.webp",
+    "author": "DrooRadley",
     "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Grand_Turk_beach.JPG"
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parrot_Cay_sunset.JPG"
    }
   }
  ]

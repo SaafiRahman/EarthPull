@@ -7,7 +7,9 @@ Then floors from the roadmap and the developer:
   - provincial and territorial capitals are at least Epic
   - national parks are at least Epic (roadmap's Epic row)
   - built landmarks are at least Rare and get wider top tiers (developer: structures are high rarity)
-Mythics are hand-picked (mythics.csv), about 50 for the whole world.
+Mythics are hand-picked (mythics.csv), about 50 for the whole world. A country with no hand-picked Mythic gets
+one anyway (developer, 2026-11-26): its most famous card that no other country shares (so Hispaniola or Navassa
+Island can't be one country's Mythic).
 A candidate with fame 0 stays Common unless a floor lifts it.
 
     python pipeline/rarity.py --country CA
@@ -70,6 +72,10 @@ def main():
     missing = set(myth["id"]) - set(df["id"])
     if missing:
         print("Mythics not in this country:", len(missing))
+    if not hit.any() and len(df):
+        own = df[df["also_in"].map(len) == 0]
+        top = (own if len(own) else df)["fame"].idxmax()
+        df.loc[top, "rarity"], df.loc[top, "rarity_reason"] = "Mythic", "most famous in country"
 
     df.to_parquet(d / "rarity.parquet")
 

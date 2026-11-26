@@ -2,6 +2,41 @@
  "note": "Sample of the Aruba card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3577154",
+   "name": "Oranjestad",
+   "label": "Oranjestad",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.524,
+   "lon": -70.027,
+   "rarity": "Mythic",
+   "fame": 69096,
+   "facts": {
+    "population": 29998,
+    "elevation_m": 5.0,
+    "area_km2": 23,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "Oranjestad, the capital and most populous of Aruba's eight regions, is located on the southwestern coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oranjestad",
+    "url": "https://en.wikipedia.org/wiki/Oranjestad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577154.webp",
+    "author": "Bgabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ARUBA-oranjestad-hafen-1.jpg"
+   }
+  },
+  {
    "id": "wd:Q6980890",
    "name": "Palm Island",
    "label": "Palm Island",
@@ -741,41 +776,6 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Antilla.jpg"
-   }
-  },
-  {
-   "id": "gn:3577154",
-   "name": "Oranjestad",
-   "label": "Oranjestad",
-   "type": "town",
-   "kind": "town",
-   "region": "AW",
-   "country": "AW",
-   "lat": 12.524,
-   "lon": -70.027,
-   "rarity": "Legendary",
-   "fame": 69096,
-   "facts": {
-    "population": 29998,
-    "elevation_m": 5.0,
-    "area_km2": 23,
-    "temp_c": 28.0
-   },
-   "flavour": {
-    "text": "Oranjestad, the capital and most populous of Aruba's eight regions, is located on the southwestern coast of the island.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Oranjestad",
-    "url": "https://en.wikipedia.org/wiki/Oranjestad",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3577154.webp",
-    "author": "Bgabel",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:ARUBA-oranjestad-hafen-1.jpg"
    }
   },
   {

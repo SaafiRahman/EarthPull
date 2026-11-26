@@ -2,6 +2,41 @@
  "note": "Sample of the Greenland card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3421319",
+   "name": "Nuuk",
+   "label": "Nuuk",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1835,
+   "lon": -51.7216,
+   "rarity": "Mythic",
+   "fame": 320142,
+   "facts": {
+    "population": 14798,
+    "elevation_m": 5.0,
+    "area_km2": 686,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "Nuuk is the capital and most populous city of Greenland, an autonomous territory of Denmark.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nuuk",
+    "url": "https://en.wikipedia.org/wiki/Nuuk",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3421319.webp",
+    "author": "patano",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuuk_-_capital_of_Greenland_-_panoramio.jpg"
+   }
+  },
+  {
    "id": "wd:Q24842590",
    "name": "Hubbard Gletscher",
    "label": "Hubbard Gletscher",
@@ -1374,41 +1409,6 @@
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kaffeklubben_island_aerial_photo.jpg"
-   }
-  },
-  {
-   "id": "gn:3421319",
-   "name": "Nuuk",
-   "label": "Nuuk",
-   "type": "town",
-   "kind": "town",
-   "region": "GL-SM",
-   "country": "GL",
-   "lat": 64.1835,
-   "lon": -51.7216,
-   "rarity": "Legendary",
-   "fame": 320142,
-   "facts": {
-    "population": 14798,
-    "elevation_m": 5.0,
-    "area_km2": 686,
-    "temp_c": -1.6
-   },
-   "flavour": {
-    "text": "Nuuk is the capital and most populous city of Greenland, an autonomous territory of Denmark.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Nuuk",
-    "url": "https://en.wikipedia.org/wiki/Nuuk",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3421319.webp",
-    "author": "patano",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Nuuk_-_capital_of_Greenland_-_panoramio.jpg"
    }
   },
   {

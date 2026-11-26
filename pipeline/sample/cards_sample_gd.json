@@ -2,6 +2,40 @@
  "note": "Sample of the Grenada card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3579925",
+   "name": "Saint George's",
+   "label": "Saint George's",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0529,
+   "lon": -61.7523,
+   "rarity": "Mythic",
+   "fame": 51996,
+   "facts": {
+    "population": 7500,
+    "elevation_m": 6.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "St. George's is the capital and largest city of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. George's, Grenada",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579925.webp",
+    "author": "P. Hughes",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grenada_-_St._George.jpg"
+   }
+  },
+  {
    "id": "wd:Q5599886",
    "name": "Great River of Grand Bacolet",
    "label": "Great River of Grand Bacolet",
@@ -736,40 +770,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:%22Welcome_to_Sauteurs%22_sign.jpg"
-   }
-  },
-  {
-   "id": "gn:3579925",
-   "name": "Saint George's",
-   "label": "Saint George's",
-   "type": "town",
-   "kind": "town",
-   "region": "GD-03",
-   "country": "GD",
-   "lat": 12.0529,
-   "lon": -61.7523,
-   "rarity": "Legendary",
-   "fame": 51996,
-   "facts": {
-    "population": 7500,
-    "elevation_m": 6.0,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "St. George's is the capital and largest city of Grenada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "St. George's, Grenada",
-    "url": "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3579925.webp",
-    "author": "P. Hughes",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Grenada_-_St._George.jpg"
    }
   },
   {

@@ -2,6 +2,40 @@
  "note": "Sample of the Saint Barthélemy card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3579132",
+   "name": "Gustavia",
+   "label": "Gustavia",
+   "type": "town",
+   "kind": "town",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8962,
+   "lon": -62.8498,
+   "rarity": "Mythic",
+   "fame": 34644,
+   "facts": {
+    "population": 5988,
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Gustavia is the main town and capital of the island of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gustavia",
+    "url": "https://en.wikipedia.org/wiki/Gustavia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579132.webp",
+    "author": "Originally uploaded at en.wikipedia by en:User:Evaneggers as en:Image:Stb.jpg",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gustavia_Harbor,_Saint-Barth%C3%A9lemy.jpg"
+   }
+  },
+  {
    "id": "wd:Q20662937",
    "name": "La Tortue",
    "label": "La Tortue",
@@ -268,40 +302,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:St_Barths_Lorient_Eglise_1.JPG"
-   }
-  },
-  {
-   "id": "gn:3579132",
-   "name": "Gustavia",
-   "label": "Gustavia",
-   "type": "town",
-   "kind": "town",
-   "region": "BL",
-   "country": "BL",
-   "lat": 17.8962,
-   "lon": -62.8498,
-   "rarity": "Legendary",
-   "fame": 34644,
-   "facts": {
-    "population": 5988,
-    "elevation_m": 6.0,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "Gustavia is the main town and capital of the island of Saint Barthélemy.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Gustavia",
-    "url": "https://en.wikipedia.org/wiki/Gustavia",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3579132.webp",
-    "author": "Originally uploaded at en.wikipedia by en:User:Evaneggers as en:Image:Stb.jpg",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Gustavia_Harbor,_Saint-Barth%C3%A9lemy.jpg"
    }
   },
   {

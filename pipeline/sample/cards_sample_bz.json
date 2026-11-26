@@ -2,6 +2,41 @@
  "note": "Sample of the Belize card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3582677",
+   "name": "Belize City",
+   "label": "Belize City",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4995,
+   "lon": -88.1976,
+   "rarity": "Mythic",
+   "fame": 111006,
+   "facts": {
+    "population": 65222,
+    "elevation_m": 6.0,
+    "area_km2": 36,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Belize City is the largest city in Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belize City",
+    "url": "https://en.wikipedia.org/wiki/Belize_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582677.webp",
+    "author": "Studentbz",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Belize_City_Aerial_Shots.jpg"
+   }
+  },
+  {
    "id": "wd:Q21870703",
    "name": "Haulover Creek",
    "label": "Haulover Creek",
@@ -1339,143 +1374,6 @@
    }
   },
   {
-   "id": "gn:3581514",
-   "name": "Orange Walk",
-   "label": "Orange Walk",
-   "type": "town",
-   "kind": "town",
-   "region": "BZ-OW",
-   "country": "BZ",
-   "lat": 18.0812,
-   "lon": -88.5633,
-   "rarity": "Epic",
-   "fame": 13650,
-   "facts": {
-    "population": 15298,
-    "elevation_m": 16,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "Orange Walk is the fourth largest town in Belize, with a population of about 13,400.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Orange Walk Town",
-    "url": "https://en.wikipedia.org/wiki/Orange_Walk_Town",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3581514.webp",
-    "author": "Pgbk87",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:OWtownBZE.JPG"
-   }
-  },
-  {
-   "id": "gn:3581398",
-   "name": "Punta Gorda",
-   "label": "Punta Gorda",
-   "type": "town",
-   "kind": "town",
-   "region": "BZ-TOL",
-   "country": "BZ",
-   "lat": 16.0983,
-   "lon": -88.8097,
-   "rarity": "Epic",
-   "fame": 7416,
-   "facts": {
-    "population": 5406,
-    "elevation_m": 8.0,
-    "temp_c": 25.3
-   },
-   "flavour": {
-    "text": "Punta Gorda, declared a town on Monday, 21 January 1895, known locally as P.G., is the capital and largest town of Toledo District in southern Belize.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Punta Gorda, Belize",
-    "url": "https://en.wikipedia.org/wiki/Punta_Gorda%2C_Belize",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3581398.webp",
-    "author": "Pgbk87",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:PGTOWNSQUARE.JPG"
-   }
-  },
-  {
-   "id": "gn:3582677",
-   "name": "Belize City",
-   "label": "Belize City",
-   "type": "town",
-   "kind": "town",
-   "region": "BZ-BZ",
-   "country": "BZ",
-   "lat": 17.4995,
-   "lon": -88.1976,
-   "rarity": "Epic",
-   "fame": 111006,
-   "facts": {
-    "population": 65222,
-    "elevation_m": 6.0,
-    "area_km2": 36,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "Belize City is the largest city in Belize.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Belize City",
-    "url": "https://en.wikipedia.org/wiki/Belize_City",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3582677.webp",
-    "author": "Studentbz",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Belize_City_Aerial_Shots.jpg"
-   }
-  },
-  {
-   "id": "gn:3582305",
-   "name": "Corozal",
-   "label": "Corozal",
-   "type": "town",
-   "kind": "town",
-   "region": "BZ-CZL",
-   "country": "BZ",
-   "lat": 18.3938,
-   "lon": -88.3885,
-   "rarity": "Epic",
-   "fame": 11238,
-   "facts": {
-    "population": 9815,
-    "elevation_m": 5.0,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "Corozal is located about 84 miles north of Belize City, and 9 miles from the border with Mexico.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Corozal Town",
-    "url": "https://en.wikipedia.org/wiki/Corozal_Town",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3582305.webp",
-    "author": "Jon from London, Canada",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Aerial_of_Corozal_Town,_Belize.jpg"
-   }
-  },
-  {
    "id": "gn:3581164",
    "name": "San Pedro",
    "label": "San Pedro",
@@ -1538,6 +1436,108 @@
     "licence": "CC BY-SA 2.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dangriga,_Belize_-_2009_-_towards_the_Sea.jpg"
+   }
+  },
+  {
+   "id": "gn:3581514",
+   "name": "Orange Walk",
+   "label": "Orange Walk",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 18.0812,
+   "lon": -88.5633,
+   "rarity": "Epic",
+   "fame": 13650,
+   "facts": {
+    "population": 15298,
+    "elevation_m": 16,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Orange Walk is the fourth largest town in Belize, with a population of about 13,400.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Orange Walk Town",
+    "url": "https://en.wikipedia.org/wiki/Orange_Walk_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581514.webp",
+    "author": "Pgbk87",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OWtownBZE.JPG"
+   }
+  },
+  {
+   "id": "gn:3582305",
+   "name": "Corozal",
+   "label": "Corozal",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3938,
+   "lon": -88.3885,
+   "rarity": "Epic",
+   "fame": 11238,
+   "facts": {
+    "population": 9815,
+    "elevation_m": 5.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Corozal is located about 84 miles north of Belize City, and 9 miles from the border with Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Corozal Town",
+    "url": "https://en.wikipedia.org/wiki/Corozal_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582305.webp",
+    "author": "Jon from London, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_of_Corozal_Town,_Belize.jpg"
+   }
+  },
+  {
+   "id": "gn:3581398",
+   "name": "Punta Gorda",
+   "label": "Punta Gorda",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.0983,
+   "lon": -88.8097,
+   "rarity": "Epic",
+   "fame": 7416,
+   "facts": {
+    "population": 5406,
+    "elevation_m": 8.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Punta Gorda, declared a town on Monday, 21 January 1895, known locally as P.G., is the capital and largest town of Toledo District in southern Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Punta Gorda, Belize",
+    "url": "https://en.wikipedia.org/wiki/Punta_Gorda%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581398.webp",
+    "author": "Pgbk87",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PGTOWNSQUARE.JPG"
    }
   },
   {

@@ -2,6 +2,41 @@
  "note": "Sample of the Saint Pierre and Miquelon card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3424934",
+   "name": "Saint-Pierre",
+   "label": "Saint-Pierre",
+   "type": "town",
+   "kind": "town",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7791,
+   "lon": -56.1773,
+   "rarity": "Mythic",
+   "fame": 99912,
+   "facts": {
+    "population": 6200,
+    "elevation_m": 30,
+    "area_km2": 25,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "Saint-Pierre is the capital of the French collectivité d'outre-mer of Saint Pierre and Miquelon, off the coast of the Canadian island of Newfoundland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Pierre, Saint Pierre and Miquelon",
+    "url": "https://en.wikipedia.org/wiki/Saint-Pierre%2C_Saint_Pierre_and_Miquelon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3424934.webp",
+    "author": "miquelon",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3dansleportdestpierre2.jpg"
+   }
+  },
+  {
    "id": "wd:Q104902395",
    "name": "pointe Plate",
    "label": "pointe Plate",
@@ -378,41 +413,6 @@
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Miquelon_shore.jpg"
-   }
-  },
-  {
-   "id": "gn:3424934",
-   "name": "Saint-Pierre",
-   "label": "Saint-Pierre",
-   "type": "town",
-   "kind": "town",
-   "region": "PM",
-   "country": "PM",
-   "lat": 46.7791,
-   "lon": -56.1773,
-   "rarity": "Legendary",
-   "fame": 99912,
-   "facts": {
-    "population": 6200,
-    "elevation_m": 30,
-    "area_km2": 25,
-    "temp_c": 5.2
-   },
-   "flavour": {
-    "text": "Saint-Pierre is the capital of the French collectivité d'outre-mer of Saint Pierre and Miquelon, off the coast of the Canadian island of Newfoundland.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Saint-Pierre, Saint Pierre and Miquelon",
-    "url": "https://en.wikipedia.org/wiki/Saint-Pierre%2C_Saint_Pierre_and_Miquelon",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3424934.webp",
-    "author": "miquelon",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:3dansleportdestpierre2.jpg"
    }
   },
   {

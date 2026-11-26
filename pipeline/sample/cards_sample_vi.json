@@ -2,6 +2,41 @@
  "note": "Sample of the United States Virgin Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:4795467",
+   "name": "Charlotte Amalie",
+   "label": "Charlotte Amalie",
+   "type": "town",
+   "kind": "town",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3419,
+   "lon": -64.9307,
+   "rarity": "Mythic",
+   "fame": 79362,
+   "facts": {
+    "population": 20000,
+    "elevation_m": 6.0,
+    "area_km2": 3.1,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Charlotte Amalie, on Saint Thomas, is the capital and largest town of the U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charlotte Amalie, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Charlotte_Amalie%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4795467.webp",
+    "author": "Sunil Pereira",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_St._Thomas.jpg"
+   }
+  },
+  {
    "id": "wd:Q5454484",
    "name": "Fish Bay Gut",
    "label": "Fish Bay Gut",
@@ -882,41 +917,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:St_John_Cruz_Bay_3.jpg"
-   }
-  },
-  {
-   "id": "gn:4795467",
-   "name": "Charlotte Amalie",
-   "label": "Charlotte Amalie",
-   "type": "town",
-   "kind": "town",
-   "region": "VI",
-   "country": "VI",
-   "lat": 18.3419,
-   "lon": -64.9307,
-   "rarity": "Legendary",
-   "fame": 79362,
-   "facts": {
-    "population": 20000,
-    "elevation_m": 6.0,
-    "area_km2": 3.1,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "Charlotte Amalie, on Saint Thomas, is the capital and largest town of the U.S. Virgin Islands.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Charlotte Amalie, U.S. Virgin Islands",
-    "url": "https://en.wikipedia.org/wiki/Charlotte_Amalie%2C_U.S._Virgin_Islands",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4795467.webp",
-    "author": "Sunil Pereira",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:View_of_St._Thomas.jpg"
    }
   },
   {

@@ -2,6 +2,40 @@
  "note": "Sample of the Saint Kitts and Nevis card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q204989",
+   "name": "Saint Kitts",
+   "label": "Saint Kitts",
+   "type": "nature",
+   "kind": "island",
+   "region": "KN-14",
+   "country": "KN",
+   "lat": 17.3197,
+   "lon": -62.7472,
+   "rarity": "Mythic",
+   "fame": 247362,
+   "facts": {
+    "elevation_m": 371,
+    "area_km2": 179,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The west side of the island borders the Caribbean Sea, and the eastern coast faces the Atlantic Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Kitts",
+    "url": "https://en.wikipedia.org/wiki/Saint_Kitts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q204989.webp",
+    "author": "Fred Hsu on en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_02_FRD_Caribbean_Cruise_S0577137.jpg"
+   }
+  },
+  {
    "id": "wd:Q1269774",
    "name": "Mount Liamuiga",
    "label": "Mount Liamuiga",
@@ -1176,40 +1210,6 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Nevis_2008.jpg"
-   }
-  },
-  {
-   "id": "wd:Q204989",
-   "name": "Saint Kitts",
-   "label": "Saint Kitts",
-   "type": "nature",
-   "kind": "island",
-   "region": "KN-14",
-   "country": "KN",
-   "lat": 17.3197,
-   "lon": -62.7472,
-   "rarity": "Rare",
-   "fame": 247362,
-   "facts": {
-    "elevation_m": 371,
-    "area_km2": 179,
-    "temp_c": 25.7
-   },
-   "flavour": {
-    "text": "The west side of the island borders the Caribbean Sea, and the eastern coast faces the Atlantic Ocean.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Saint Kitts",
-    "url": "https://en.wikipedia.org/wiki/Saint_Kitts",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q204989.webp",
-    "author": "Fred Hsu on en.wikipedia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:2016_02_FRD_Caribbean_Cruise_S0577137.jpg"
    }
   }
  ]

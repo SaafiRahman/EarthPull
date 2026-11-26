@@ -2,6 +2,41 @@
  "note": "Sample of the Cayman Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q737765",
+   "name": "Grand Cayman",
+   "label": "Grand Cayman",
+   "type": "nature",
+   "kind": "island",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.33,
+   "lon": -81.24,
+   "rarity": "Mythic",
+   "fame": 126096,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 197,
+    "length_km": 35,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Grand Cayman is the largest of the three Cayman Islands and the location of the territory's capital, George Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Cayman",
+    "url": "https://en.wikipedia.org/wiki/Grand_Cayman",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q737765.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_cayman.jpg"
+   }
+  },
+  {
    "id": "wd:Q16900424",
    "name": "Sparrowhawk Hill",
    "label": "Sparrowhawk Hill",
@@ -889,41 +924,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:EAST_END_LIGHT_-_GRAND_CAYMAN_ISLAND.jpg"
-   }
-  },
-  {
-   "id": "wd:Q737765",
-   "name": "Grand Cayman",
-   "label": "Grand Cayman",
-   "type": "nature",
-   "kind": "island",
-   "region": "KY",
-   "country": "KY",
-   "lat": 19.33,
-   "lon": -81.24,
-   "rarity": "Rare",
-   "fame": 126096,
-   "facts": {
-    "elevation_m": 2.0,
-    "area_km2": 197,
-    "length_km": 35,
-    "temp_c": 26.9
-   },
-   "flavour": {
-    "text": "Grand Cayman is the largest of the three Cayman Islands and the location of the territory's capital, George Town.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Grand Cayman",
-    "url": "https://en.wikipedia.org/wiki/Grand_Cayman",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q737765.webp",
-    "author": "NASA",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Grand_cayman.jpg"
    }
   }
  ]

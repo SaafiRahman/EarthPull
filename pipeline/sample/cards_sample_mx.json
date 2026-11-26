@@ -2,6 +2,73 @@
  "note": "Sample of the Mexico card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q172613",
+   "name": "Teotihuacan",
+   "label": "Teotihuacan",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.6925,
+   "lon": -98.8439,
+   "rarity": "Mythic",
+   "fame": 643770,
+   "facts": {
+    "elevation_m": 2306,
+    "area_km2": 2.5,
+    "temp_c": 15.4
+   },
+   "flavour": {
+    "text": "Teotihuacan is an ancient Mesoamerican city located in a sub-valley of the Valley of Mexico, which is located in the State of Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Teotihuacan",
+    "url": "https://en.wikipedia.org/wiki/Teotihuacan",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q172613.webp",
+    "author": "Hdlrosa",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ZA77_Teotihuac%C3%A1n_edo_de_mex_Herberto_de_la_rosa.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5859",
+   "name": "Chichen Itza",
+   "label": "Chichen Itza",
+   "type": "built",
+   "kind": "ancient city",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 20.6831,
+   "lon": -88.5686,
+   "rarity": "Mythic",
+   "fame": 825150,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The archeological site is located in Tinúm Municipality, Yucatán, Mexico, between the cities of Valladolid and Mérida.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chichen Itza",
+    "url": "https://en.wikipedia.org/wiki/Chichen_Itza",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5859.webp",
+    "author": "Daniel Schwen",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg"
+   }
+  },
+  {
    "id": "wd:Q5763304",
    "name": "Cerro Zacatenco",
    "label": "Cerro Zacatenco",
@@ -1715,37 +1782,36 @@
    }
   },
   {
-   "id": "wd:Q947870",
-   "name": "Torre Latinoamericana",
-   "label": "Torre Latinoamericana",
+   "id": "wd:Q928541",
+   "name": "Angel of Independence",
+   "label": "Angel of Independence",
    "type": "built",
-   "kind": "office building",
+   "kind": "monument",
    "region": "MX-DIF",
    "country": "MX",
-   "lat": 19.4339,
-   "lon": -99.1406,
+   "lat": 19.4269,
+   "lon": -99.1675,
    "rarity": "Legendary",
-   "fame": 78816,
+   "fame": 125760,
    "facts": {
-    "elevation_m": 2232,
-    "height_m": 182,
-    "temp_c": 17.0
+    "elevation_m": 2237,
+    "temp_c": 15.3
    },
    "flavour": {
-    "text": "Its central location, height, and history make it one of the city's most important landmarks.",
+    "text": "The Angel of Independence, most commonly known by the shortened name El Ángel and officially known as Monumento a la Independencia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Torre Latinoamericana",
-    "url": "https://en.wikipedia.org/wiki/Torre_Latinoamericana",
+    "title": "Angel of Independence",
+    "url": "https://en.wikipedia.org/wiki/Angel_of_Independence",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q947870.webp",
-    "author": "Thomas Ledl",
+    "file": "images/photo/wd_Q928541.webp",
+    "author": "Carlos Valenzuela",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Angel_de_la_independencia170409.jpg"
    }
   },
   {
@@ -1782,72 +1848,6 @@
    }
   },
   {
-   "id": "wd:Q928541",
-   "name": "Angel of Independence",
-   "label": "Angel of Independence",
-   "type": "built",
-   "kind": "monument",
-   "region": "MX-DIF",
-   "country": "MX",
-   "lat": 19.4269,
-   "lon": -99.1675,
-   "rarity": "Legendary",
-   "fame": 125760,
-   "facts": {
-    "elevation_m": 2237,
-    "temp_c": 15.3
-   },
-   "flavour": {
-    "text": "The Angel of Independence, most commonly known by the shortened name El Ángel and officially known as Monumento a la Independencia.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Angel of Independence",
-    "url": "https://en.wikipedia.org/wiki/Angel_of_Independence",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q928541.webp",
-    "author": "Carlos Valenzuela",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Angel_de_la_independencia170409.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1369097",
-   "name": "Ciudad de los Deportes Stadium",
-   "label": "Ciudad de los Deportes Stadium",
-   "type": "built",
-   "kind": "association football venue",
-   "region": "MX-DIF",
-   "country": "MX",
-   "lat": 19.3834,
-   "lon": -99.1782,
-   "rarity": "Legendary",
-   "fame": 100506,
-   "facts": {
-    "elevation_m": 2248,
-    "temp_c": 15.3
-   },
-   "flavour": {
-    "text": "The facility is used for association football matches and for American football as well.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Estadio Ciudad de los Deportes",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Ciudad_de_los_Deportes",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1369097.webp",
-    "author": "ProtoplasmaKid",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_de_la_Ciudad_de_los_Deportes_02.jpg"
-   }
-  },
-  {
    "id": "wd:Q1347689",
    "name": "Estadio GNP Seguros",
    "label": "Estadio GNP Seguros",
@@ -1881,71 +1881,137 @@
    }
   },
   {
-   "id": "wd:Q2663377",
-   "name": "Frida Kahlo Museum",
-   "label": "Frida Kahlo Museum",
+   "id": "wd:Q947870",
+   "name": "Torre Latinoamericana",
+   "label": "Torre Latinoamericana",
    "type": "built",
-   "kind": "art museum",
+   "kind": "office building",
    "region": "MX-DIF",
    "country": "MX",
-   "lat": 19.3551,
-   "lon": -99.1625,
+   "lat": 19.4339,
+   "lon": -99.1406,
    "rarity": "Legendary",
-   "fame": 78762,
+   "fame": 78816,
    "facts": {
-    "elevation_m": 2248,
-    "area_km2": 0.0,
+    "elevation_m": 2232,
+    "height_m": 182,
     "temp_c": 17.0
    },
    "flavour": {
-    "text": "The Frida Kahlo Museum, also known as The Blue House for the structure's cobalt-blue walls.",
+    "text": "Its central location, height, and history make it one of the city's most important landmarks.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Frida Kahlo Museum",
-    "url": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum",
+    "title": "Torre Latinoamericana",
+    "url": "https://en.wikipedia.org/wiki/Torre_Latinoamericana",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2663377.webp",
-    "author": "Nachtwächter",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Museo_Frida_Kahlo.JPG"
+    "file": "images/photo/wd_Q947870.webp",
+    "author": "Thomas Ledl",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg"
    }
   },
   {
-   "id": "wd:Q464899",
-   "name": "Monte Albán",
-   "label": "Monte Albán",
+   "id": "wd:Q264113",
+   "name": "Senate of the Republic",
+   "label": "Senate of the Republic",
    "type": "built",
-   "kind": "archaeological site",
-   "region": "MX-OAX",
+   "kind": "parliament building",
+   "region": "MX-DIF",
    "country": "MX",
-   "lat": 17.0439,
-   "lon": -96.7678,
+   "lat": 19.4324,
+   "lon": -99.1576,
    "rarity": "Legendary",
-   "fame": 116964,
+   "fame": 83310,
    "facts": {
-    "elevation_m": 1914,
-    "area_km2": 4000,
-    "temp_c": 20.6
+    "elevation_m": 2235,
+    "temp_c": 17.0
    },
    "flavour": {
-    "text": "Monte Albán is a large pre-Columbian archaeological site in the Santa Cruz Xoxocotlán Municipality in the southern Mexican state of Oaxaca.",
+    "text": "The Senate of the Republic, constitutionally the Chamber of Senators of the Honorable Congress of the Union, is the upper house of Mexico's bicameral Congress.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Monte Albán",
-    "url": "https://en.wikipedia.org/wiki/Monte_Alb%C3%A1n",
+    "title": "Senate of the Republic (Mexico)",
+    "url": "https://en.wikipedia.org/wiki/Senate_of_the_Republic_%28Mexico%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q464899.webp",
+    "file": "images/photo/wd_Q264113.webp",
+    "author": "EneasMx",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:C%C3%A1mara_de_Senadores_del_Congreso_de_la_Uni%C3%B3n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q173099",
+   "name": "Autódromo Hermanos Rodríguez",
+   "label": "Autódromo Hermanos Rodríguez",
+   "type": "built",
+   "kind": "motorsport racing track",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4042,
+   "lon": -99.0887,
+   "rarity": "Legendary",
+   "fame": 92604,
+   "facts": {
+    "elevation_m": 2238,
+    "length_km": 4.3,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "The Autódromo Hermanos Rodríguez is a 4.304 km motorsport race track in Mexico City, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Autódromo Hermanos Rodríguez",
+    "url": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q173099.webp",
+    "author": "Gobierno CDMX",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Formula_1_2016_-i---i-_(30061627393).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1417475",
+   "name": "Great Pyramid of Cholula",
+   "label": "Great Pyramid of Cholula",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.0575,
+   "lon": -98.3019,
+   "rarity": "Legendary",
+   "fame": 180618,
+   "facts": {
+    "elevation_m": 2178,
+    "temp_c": 16.7
+   },
+   "flavour": {
+    "text": "It is the largest archaeological site of a pyramid in the world, as well as the largest pyramid by volume known to exist in the world today.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Pyramid of Cholula",
+    "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Cholula",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1417475.webp",
     "author": "Unknown author",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Monte_Alb%C3%A1n_archeological_site,_Oaxaca.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mexico.Pue.Cholula.Pyramid.03.jpg"
    }
   },
   {

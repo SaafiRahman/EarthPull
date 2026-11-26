@@ -2,6 +2,41 @@
  "note": "Sample of the Dominican Republic card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3492908",
+   "name": "Santo Domingo",
+   "label": "Santo Domingo",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4719,
+   "lon": -69.8923,
+   "rarity": "Mythic",
+   "fame": 484134,
+   "facts": {
+    "population": 2201941,
+    "elevation_m": 24,
+    "area_km2": 1302,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Santo Domingo, officially known as Santo Domingo de Guzmán, is the capital and largest city of the Dominican Republic and the largest metropolitan area in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santo Domingo",
+    "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3492908.webp",
+    "author": "Jjc09",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo_(Dominican_Republic)_taken_atop_Novocentro_tower_viewing_the_city_to_the_southwest_2010.jpg"
+   }
+  },
+  {
    "id": "wd:Q5921449",
    "name": "Isla Cabritos",
    "label": "Isla Cabritos",
@@ -1583,41 +1618,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Dominikanische_Republik_Santo_Domingo_Basilica_Catedral_Menor_de_Santa_Maria_02.jpg"
-   }
-  },
-  {
-   "id": "gn:3492908",
-   "name": "Santo Domingo",
-   "label": "Santo Domingo",
-   "type": "town",
-   "kind": "town",
-   "region": "DO-01",
-   "country": "DO",
-   "lat": 18.4719,
-   "lon": -69.8923,
-   "rarity": "Legendary",
-   "fame": 484134,
-   "facts": {
-    "population": 2201941,
-    "elevation_m": 24,
-    "area_km2": 1302,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "Santo Domingo, officially known as Santo Domingo de Guzmán, is the capital and largest city of the Dominican Republic and the largest metropolitan area in the…",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Santo Domingo",
-    "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3492908.webp",
-    "author": "Jjc09",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo_(Dominican_Republic)_taken_atop_Novocentro_tower_viewing_the_city_to_the_southwest_2010.jpg"
    }
   },
   {

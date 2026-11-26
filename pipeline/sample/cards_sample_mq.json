@@ -2,6 +2,40 @@
  "note": "Sample of the Martinique card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q76309",
+   "name": "Mount Pelée",
+   "label": "Mount Pelée",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8131,
+   "lon": -61.1656,
+   "rarity": "Mythic",
+   "fame": 146328,
+   "facts": {
+    "elevation_m": 1397,
+    "prominence_m": 1397,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Mount Pelée or Mont Pelée is an active stratovolcano at the northern end of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Pelée",
+    "url": "https://en.wikipedia.org/wiki/Mount_Pel%C3%A9e",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q76309.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:La_Pel%C3%A9e_vue_du_Carbet.jpg"
+   }
+  },
+  {
    "id": "wd:Q27729049",
    "name": "îlet Tartane",
    "label": "îlet Tartane",
@@ -869,36 +903,6 @@
    }
   },
   {
-   "id": "wd:Q16040133",
-   "name": "îlet Sainte-Marie",
-   "label": "îlet Sainte-Marie",
-   "type": "nature",
-   "kind": "island",
-   "region": "FR-MQ",
-   "country": "MQ",
-   "lat": 14.7878,
-   "lon": -60.9889,
-   "rarity": "Epic",
-   "fame": 10152,
-   "facts": {
-    "elevation_m": 3.0,
-    "area_km2": 0.0,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "An island in Martinique.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q16040133.webp",
-    "author": "Agena.p",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Tombolo_sainte_marie_martinique.JPG"
-   }
-  },
-  {
    "id": "wd:Q262662",
    "name": "Diamond Rock",
    "label": "Diamond Rock",
@@ -934,37 +938,33 @@
    }
   },
   {
-   "id": "wd:Q76309",
-   "name": "Mount Pelée",
-   "label": "Mount Pelée",
+   "id": "wd:Q16040133",
+   "name": "îlet Sainte-Marie",
+   "label": "îlet Sainte-Marie",
    "type": "nature",
-   "kind": "mountain",
+   "kind": "island",
    "region": "FR-MQ",
    "country": "MQ",
-   "lat": 14.8131,
-   "lon": -61.1656,
+   "lat": 14.7878,
+   "lon": -60.9889,
    "rarity": "Epic",
-   "fame": 146328,
+   "fame": 10152,
    "facts": {
-    "elevation_m": 1397,
-    "prominence_m": 1397,
-    "temp_c": 24.5
+    "elevation_m": 3.0,
+    "area_km2": 0.0,
+    "temp_c": 26.2
    },
    "flavour": {
-    "text": "Mount Pelée or Mont Pelée is an active stratovolcano at the northern end of Martinique.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mount Pelée",
-    "url": "https://en.wikipedia.org/wiki/Mount_Pel%C3%A9e",
-    "translated": false
+    "text": "An island in Martinique.",
+    "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q76309.webp",
-    "author": "Unknown author",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:La_Pel%C3%A9e_vue_du_Carbet.jpg"
+    "file": "images/photo/wd_Q16040133.webp",
+    "author": "Agena.p",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Tombolo_sainte_marie_martinique.JPG"
    }
   },
   {

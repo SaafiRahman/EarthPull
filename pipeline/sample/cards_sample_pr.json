@@ -2,6 +2,41 @@
  "note": "Sample of the Puerto Rico card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:4568127",
+   "name": "San Juan",
+   "label": "San Juan",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4663,
+   "lon": -66.1057,
+   "rarity": "Mythic",
+   "fame": 398892,
+   "facts": {
+    "population": 418140,
+    "elevation_m": 7.0,
+    "area_km2": 120,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "San Juan is the capital city and most populous municipality in Puerto Rico, an unincorporated territory and insular area of the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/San_Juan%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4568127.webp",
+    "author": "James Willamor from Raleigh, NC, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan,_Puerto_Rico_(2529298606).jpg"
+   }
+  },
+  {
    "id": "wd:Q7386466",
    "name": "Río Ángeles",
    "label": "Río Ángeles",
@@ -1947,41 +1982,6 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Vieques_from_air.jpg"
-   }
-  },
-  {
-   "id": "gn:4568127",
-   "name": "San Juan",
-   "label": "San Juan",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PR",
-   "country": "PR",
-   "lat": 18.4663,
-   "lon": -66.1057,
-   "rarity": "Legendary",
-   "fame": 398892,
-   "facts": {
-    "population": 418140,
-    "elevation_m": 7.0,
-    "area_km2": 120,
-    "temp_c": 26.1
-   },
-   "flavour": {
-    "text": "San Juan is the capital city and most populous municipality in Puerto Rico, an unincorporated territory and insular area of the United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "San Juan, Puerto Rico",
-    "url": "https://en.wikipedia.org/wiki/San_Juan%2C_Puerto_Rico",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4568127.webp",
-    "author": "James Willamor from Raleigh, NC, USA",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:San_Juan,_Puerto_Rico_(2529298606).jpg"
    }
   },
   {

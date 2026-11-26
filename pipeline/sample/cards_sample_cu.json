@@ -2,6 +2,41 @@
  "note": "Sample of the Cuba card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3553478",
+   "name": "Havana",
+   "label": "Havana",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.133,
+   "lon": -82.383,
+   "rarity": "Mythic",
+   "fame": 442170,
+   "facts": {
+    "population": 2163824,
+    "elevation_m": 41,
+    "area_km2": 728,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Havana is the capital and largest city of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Havana",
+    "url": "https://en.wikipedia.org/wiki/Havana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3553478.webp",
+    "author": "Christopher Michel",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuba_libre_(6941395159).jpg"
+   }
+  },
+  {
    "id": "wd:Q3647156",
    "name": "Cayo Fragoso",
    "label": "Cayo Fragoso",
@@ -1697,41 +1732,6 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Capitolio_full.jpg"
-   }
-  },
-  {
-   "id": "gn:3553478",
-   "name": "Havana",
-   "label": "Havana",
-   "type": "town",
-   "kind": "town",
-   "region": "CU-03",
-   "country": "CU",
-   "lat": 23.133,
-   "lon": -82.383,
-   "rarity": "Legendary",
-   "fame": 442170,
-   "facts": {
-    "population": 2163824,
-    "elevation_m": 41,
-    "area_km2": 728,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "Havana is the capital and largest city of Cuba.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Havana",
-    "url": "https://en.wikipedia.org/wiki/Havana",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3553478.webp",
-    "author": "Christopher Michel",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cuba_libre_(6941395159).jpg"
    }
   },
   {

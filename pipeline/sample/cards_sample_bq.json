@@ -2,6 +2,40 @@
  "note": "Sample of the Caribbean Netherlands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3513563",
+   "name": "Kralendijk",
+   "label": "Kralendijk",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.15,
+   "lon": -68.2667,
+   "rarity": "Mythic",
+   "fame": 42228,
+   "facts": {
+    "population": 10620,
+    "elevation_m": 4.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "Kralendijk is the capital and the main port of the island of Bonaire in the Caribbean Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kralendijk",
+    "url": "https://en.wikipedia.org/wiki/Kralendijk",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513563.webp",
+    "author": "Bgabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BONAIRE-kralendijk-hafen-2.jpg"
+   }
+  },
+  {
    "id": "gn:3513765",
    "name": "Dorp Rincon",
    "label": "Dorp Rincon",
@@ -217,40 +251,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Lower_Town_Sint_Eustatius.jpg"
-   }
-  },
-  {
-   "id": "gn:3513563",
-   "name": "Kralendijk",
-   "label": "Kralendijk",
-   "type": "town",
-   "kind": "town",
-   "region": "NL-BQ1",
-   "country": "BQ",
-   "lat": 12.15,
-   "lon": -68.2667,
-   "rarity": "Legendary",
-   "fame": 42228,
-   "facts": {
-    "population": 10620,
-    "elevation_m": 4.0,
-    "temp_c": 28.3
-   },
-   "flavour": {
-    "text": "Kralendijk is the capital and the main port of the island of Bonaire in the Caribbean Netherlands.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Kralendijk",
-    "url": "https://en.wikipedia.org/wiki/Kralendijk",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3513563.webp",
-    "author": "Bgabel",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:BONAIRE-kralendijk-hafen-2.jpg"
    }
   }
  ]

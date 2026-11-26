@@ -2,6 +2,40 @@
  "note": "Sample of the Antigua and Barbuda card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q316390",
+   "name": "Antigua",
+   "label": "Antigua",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.085,
+   "lon": -61.8,
+   "rarity": "Mythic",
+   "fame": 336204,
+   "facts": {
+    "elevation_m": 67,
+    "area_km2": 281,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is one of the Leeward Islands in the Caribbean region and the most populous island of the country of Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antigua",
+    "url": "https://en.wikipedia.org/wiki/Antigua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q316390.webp",
+    "author": "Calyponte",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antiguashoreline.jpg"
+   }
+  },
+  {
    "id": "wd:Q15856886",
    "name": "Bethesda Dam",
    "label": "Bethesda Dam",
@@ -655,40 +689,6 @@
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Nelson%27s_Dockyard.jpg"
-   }
-  },
-  {
-   "id": "wd:Q316390",
-   "name": "Antigua",
-   "label": "Antigua",
-   "type": "nature",
-   "kind": "island",
-   "region": "AG-04",
-   "country": "AG",
-   "lat": 17.085,
-   "lon": -61.8,
-   "rarity": "Epic",
-   "fame": 336204,
-   "facts": {
-    "elevation_m": 67,
-    "area_km2": 281,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "It is one of the Leeward Islands in the Caribbean region and the most populous island of the country of Antigua and Barbuda.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Antigua",
-    "url": "https://en.wikipedia.org/wiki/Antigua",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q316390.webp",
-    "author": "Calyponte",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Antiguashoreline.jpg"
    }
   },
   {

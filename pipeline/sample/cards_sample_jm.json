@@ -2,6 +2,37 @@
  "note": "Sample of the Jamaica card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3489854",
+   "name": "Kingston",
+   "label": "Kingston",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.997,
+   "lon": -76.7936,
+   "rarity": "Mythic",
+   "fame": 256356,
+   "facts": {
+    "population": 937700,
+    "elevation_m": 65,
+    "area_km2": 22,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Kingston is the capital and largest city of Jamaica, located on the southeastern coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kingston, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489854.webp"
+   }
+  },
+  {
    "id": "wd:Q5054915",
    "name": "Cave River",
    "label": "Cave River",
@@ -1407,37 +1438,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:GoldeneyeEstate.jpg"
-   }
-  },
-  {
-   "id": "gn:3489854",
-   "name": "Kingston",
-   "label": "Kingston",
-   "type": "town",
-   "kind": "town",
-   "region": "JM-01",
-   "country": "JM",
-   "lat": 17.997,
-   "lon": -76.7936,
-   "rarity": "Legendary",
-   "fame": 256356,
-   "facts": {
-    "population": 937700,
-    "elevation_m": 65,
-    "area_km2": 22,
-    "temp_c": 25.2
-   },
-   "flavour": {
-    "text": "Kingston is the capital and largest city of Jamaica, located on the southeastern coast of the island.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Kingston, Jamaica",
-    "url": "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3489854.webp"
    }
   },
   {

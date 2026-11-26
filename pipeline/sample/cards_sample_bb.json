@@ -2,6 +2,41 @@
  "note": "Sample of the Barbados card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3374036",
+   "name": "Bridgetown",
+   "label": "Bridgetown",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.1073,
+   "lon": -59.6202,
+   "rarity": "Mythic",
+   "fame": 133680,
+   "facts": {
+    "population": 98511,
+    "elevation_m": 10,
+    "area_km2": 39,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Bridgetown is the capital and largest city of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bridgetown",
+    "url": "https://en.wikipedia.org/wiki/Bridgetown",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3374036.webp",
+    "author": "P.Lechien",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bridgetown_aerial.JPG"
+   }
+  },
+  {
    "id": "wd:Q5474139",
    "name": "Foul Bay",
    "label": "Foul Bay",
@@ -911,41 +946,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_3373505.webp"
-   }
-  },
-  {
-   "id": "gn:3374036",
-   "name": "Bridgetown",
-   "label": "Bridgetown",
-   "type": "town",
-   "kind": "town",
-   "region": "BB-08",
-   "country": "BB",
-   "lat": 13.1073,
-   "lon": -59.6202,
-   "rarity": "Legendary",
-   "fame": 133680,
-   "facts": {
-    "population": 98511,
-    "elevation_m": 10,
-    "area_km2": 39,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "Bridgetown is the capital and largest city of Barbados.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Bridgetown",
-    "url": "https://en.wikipedia.org/wiki/Bridgetown",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3374036.webp",
-    "author": "P.Lechien",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Bridgetown_aerial.JPG"
    }
   },
   {

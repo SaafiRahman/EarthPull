@@ -2,6 +2,41 @@
  "note": "Sample of the Saint Martin card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3578851",
+   "name": "Marigot",
+   "label": "Marigot",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0682,
+   "lon": -63.083,
+   "rarity": "Mythic",
+   "fame": 31128,
+   "facts": {
+    "population": 5700,
+    "elevation_m": 9.0,
+    "area_km2": 53,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Marigot is the main town and capital in the French Collectivity of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marigot, Saint Martin",
+    "url": "https://en.wikipedia.org/wiki/Marigot%2C_Saint_Martin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578851.webp",
+    "author": "Original uploader was Darwinek at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Marigot_2.jpg"
+   }
+  },
+  {
    "id": "wd:Q1571601",
    "name": "Île Tintamarre",
    "label": "Île Tintamarre",
@@ -333,41 +368,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/gn_13535720.webp"
-   }
-  },
-  {
-   "id": "gn:3578851",
-   "name": "Marigot",
-   "label": "Marigot",
-   "type": "town",
-   "kind": "town",
-   "region": "MF",
-   "country": "MF",
-   "lat": 18.0682,
-   "lon": -63.083,
-   "rarity": "Legendary",
-   "fame": 31128,
-   "facts": {
-    "population": 5700,
-    "elevation_m": 9.0,
-    "area_km2": 53,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "Marigot is the main town and capital in the French Collectivity of Saint Martin.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Marigot, Saint Martin",
-    "url": "https://en.wikipedia.org/wiki/Marigot%2C_Saint_Martin",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3578851.webp",
-    "author": "Original uploader was Darwinek at en.wikipedia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Marigot_2.jpg"
    }
   },
   {

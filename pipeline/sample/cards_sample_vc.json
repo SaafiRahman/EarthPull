@@ -2,6 +2,41 @@
  "note": "Sample of the Saint Vincent and the Grenadines card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q607357",
+   "name": "Mustique",
+   "label": "Mustique",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.8667,
+   "lon": -61.1833,
+   "rarity": "Mythic",
+   "fame": 128502,
+   "facts": {
+    "elevation_m": 32,
+    "area_km2": 5.7,
+    "length_km": 4.8,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "It is part of the Grenadines, a chain of islands in the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mustique",
+    "url": "https://en.wikipedia.org/wiki/Mustique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q607357.webp",
+    "author": "NASA/Tim Kopra",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS-47_Mustique_Island,_Grenadines_(cropped).jpg"
+   }
+  },
+  {
    "id": "wd:Q5148074",
    "name": "Colonarie River",
    "label": "Colonarie River",
@@ -670,41 +705,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Arnos_vale_ground.jpg"
-   }
-  },
-  {
-   "id": "wd:Q607357",
-   "name": "Mustique",
-   "label": "Mustique",
-   "type": "nature",
-   "kind": "island",
-   "region": "VC-06",
-   "country": "VC",
-   "lat": 12.8667,
-   "lon": -61.1833,
-   "rarity": "Epic",
-   "fame": 128502,
-   "facts": {
-    "elevation_m": 32,
-    "area_km2": 5.7,
-    "length_km": 4.8,
-    "temp_c": 27.4
-   },
-   "flavour": {
-    "text": "It is part of the Grenadines, a chain of islands in the West Indies.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Mustique",
-    "url": "https://en.wikipedia.org/wiki/Mustique",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q607357.webp",
-    "author": "NASA/Tim Kopra",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:ISS-47_Mustique_Island,_Grenadines_(cropped).jpg"
    }
   },
   {

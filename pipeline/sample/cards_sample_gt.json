@@ -2,6 +2,39 @@
  "note": "Sample of the Guatemala card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q181172",
+   "name": "Tikal",
+   "label": "Tikal",
+   "type": "built",
+   "kind": "ancient city",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.2221,
+   "lon": -89.6236,
+   "rarity": "Mythic",
+   "fame": 243828,
+   "facts": {
+    "elevation_m": 303,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Tikal is the ruin of an ancient city, which was likely to have been called Yax Mutal, found in a rainforest in Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tikal",
+    "url": "https://en.wikipedia.org/wiki/Tikal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q181172.webp",
+    "author": "Mundo Maya",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tikal_3.jpg"
+   }
+  },
+  {
    "id": "wd:Q10362259",
    "name": "Michatoya River",
    "label": "Michatoya River",
@@ -1529,6 +1562,40 @@
    }
   },
   {
+   "id": "wd:Q2185890",
+   "name": "Tikal Temple I",
+   "label": "Tikal Temple I",
+   "type": "built",
+   "kind": "Mesoamerican pyramid",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.2221,
+   "lon": -89.6231,
+   "rarity": "Legendary",
+   "fame": 46920,
+   "facts": {
+    "elevation_m": 302,
+    "height_m": 45,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Tikal Temple I is the designation given to one of the major structures at Tikal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tikal Temple I",
+    "url": "https://en.wikipedia.org/wiki/Tikal_Temple_I",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2185890.webp",
+    "author": "Raymond Ostertag",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Tikal_Temple1_2006_08_11.JPG"
+   }
+  },
+  {
    "id": "wd:Q504904",
    "name": "El Mirador",
    "label": "El Mirador",
@@ -1562,39 +1629,6 @@
    }
   },
   {
-   "id": "wd:Q181172",
-   "name": "Tikal",
-   "label": "Tikal",
-   "type": "built",
-   "kind": "ancient city",
-   "region": "GT-PE",
-   "country": "GT",
-   "lat": 17.2221,
-   "lon": -89.6236,
-   "rarity": "Legendary",
-   "fame": 243828,
-   "facts": {
-    "elevation_m": 303,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "Tikal is the ruin of an ancient city, which was likely to have been called Yax Mutal, found in a rainforest in Guatemala.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Tikal",
-    "url": "https://en.wikipedia.org/wiki/Tikal",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q181172.webp",
-    "author": "Mundo Maya",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tikal_3.jpg"
-   }
-  },
-  {
    "id": "wd:Q318422",
    "name": "Quiriguá",
    "label": "Quiriguá",
@@ -1625,40 +1659,6 @@
     "licence": "CC BY 2.0",
     "licence_url": "https://creativecommons.org/licenses/by/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Escultura_de_Quirigu%C3%A1.jpg"
-   }
-  },
-  {
-   "id": "wd:Q2185890",
-   "name": "Tikal Temple I",
-   "label": "Tikal Temple I",
-   "type": "built",
-   "kind": "Mesoamerican pyramid",
-   "region": "GT-PE",
-   "country": "GT",
-   "lat": 17.2221,
-   "lon": -89.6231,
-   "rarity": "Legendary",
-   "fame": 46920,
-   "facts": {
-    "elevation_m": 302,
-    "height_m": 45,
-    "temp_c": 24.9
-   },
-   "flavour": {
-    "text": "Tikal Temple I is the designation given to one of the major structures at Tikal.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Tikal Temple I",
-    "url": "https://en.wikipedia.org/wiki/Tikal_Temple_I",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q2185890.webp",
-    "author": "Raymond Ostertag",
-    "licence": "CC BY-SA 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Tikal_Temple1_2006_08_11.JPG"
    }
   },
   {

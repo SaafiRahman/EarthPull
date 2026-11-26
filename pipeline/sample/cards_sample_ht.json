@@ -2,6 +2,39 @@
  "note": "Sample of the Haiti card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q1798978",
+   "name": "La Navidad",
+   "label": "La Navidad",
+   "type": "built",
+   "kind": "fort",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6906,
+   "lon": -72.0158,
+   "rarity": "Mythic",
+   "fame": 53100,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "La Navidad was a Spanish fort that Christopher Columbus and his crew built on the northwest coast of Hispaniola in 1492 from the remains of the Spanish ship…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Navidad",
+    "url": "https://en.wikipedia.org/wiki/La_Navidad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1798978.webp",
+    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Vida_y_viajes_de_Cristobal_Col%C3%B3n,_1851_Construcci%C3%B3n_de_la_fortaleza_de_La_Navidad_(3819531625).jpg"
+   }
+  },
+  {
    "id": "wd:Q5595294",
    "name": "Grande-Anse River",
    "label": "Grande-Anse River",
@@ -659,72 +692,6 @@
    }
   },
   {
-   "id": "wd:Q1798978",
-   "name": "La Navidad",
-   "label": "La Navidad",
-   "type": "built",
-   "kind": "fort",
-   "region": "HT-NE",
-   "country": "HT",
-   "lat": 19.6906,
-   "lon": -72.0158,
-   "rarity": "Epic",
-   "fame": 53100,
-   "facts": {
-    "elevation_m": 6.0,
-    "temp_c": 26.4
-   },
-   "flavour": {
-    "text": "La Navidad was a Spanish fort that Christopher Columbus and his crew built on the northwest coast of Hispaniola in 1492 from the remains of the Spanish ship…",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "La Navidad",
-    "url": "https://en.wikipedia.org/wiki/La_Navidad",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q1798978.webp",
-    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Vida_y_viajes_de_Cristobal_Col%C3%B3n,_1851_Construcci%C3%B3n_de_la_fortaleza_de_La_Navidad_(3819531625).jpg"
-   }
-  },
-  {
-   "id": "wd:Q3365701",
-   "name": "Hotel Oloffson",
-   "label": "Hotel Oloffson",
-   "type": "built",
-   "kind": "hotel",
-   "region": "HT-OU",
-   "country": "HT",
-   "lat": 18.5294,
-   "lon": -72.3375,
-   "rarity": "Epic",
-   "fame": 11232,
-   "facts": {
-    "elevation_m": 57,
-    "temp_c": 25.7
-   },
-   "flavour": {
-    "text": "The architecture was late-19th century tropical gingerbread house, a French-origin tropical mansion design.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Hotel Oloffson",
-    "url": "https://en.wikipedia.org/wiki/Hotel_Oloffson",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3365701.webp",
-    "author": "Ketounette",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Oloffson_mars_2007.JPG"
-   }
-  },
-  {
    "id": "wd:Q206194",
    "name": "Citadelle Laferrière",
    "label": "Citadelle Laferrière",
@@ -756,6 +723,39 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Citadelle_Laferri%C3%A8re_Aerial_View.jpg"
+   }
+  },
+  {
+   "id": "wd:Q755784",
+   "name": "Stade Sylvio Cator",
+   "label": "Stade Sylvio Cator",
+   "type": "built",
+   "kind": "multi-purpose stadium",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5361,
+   "lon": -72.3425,
+   "rarity": "Epic",
+   "fame": 20646,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is currently used primarily for association football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stade Sylvio Cator",
+    "url": "https://en.wikipedia.org/wiki/Stade_Sylvio_Cator",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q755784.webp",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Joel Carlson",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100117-N-4275C-190_Haitian_citizens_seek_refuge_at_the_Stade_Sylvio_Cator,_the_national_soccer_stadium,_in_Port-au-Prince,_Haiti.jpg"
    }
   },
   {
@@ -825,36 +825,36 @@
    }
   },
   {
-   "id": "wd:Q755784",
-   "name": "Stade Sylvio Cator",
-   "label": "Stade Sylvio Cator",
+   "id": "wd:Q3365701",
+   "name": "Hotel Oloffson",
+   "label": "Hotel Oloffson",
    "type": "built",
-   "kind": "multi-purpose stadium",
+   "kind": "hotel",
    "region": "HT-OU",
    "country": "HT",
-   "lat": 18.5361,
-   "lon": -72.3425,
+   "lat": 18.5294,
+   "lon": -72.3375,
    "rarity": "Epic",
-   "fame": 20646,
+   "fame": 11232,
    "facts": {
-    "elevation_m": 15,
+    "elevation_m": 57,
     "temp_c": 25.7
    },
    "flavour": {
-    "text": "It is currently used primarily for association football matches.",
+    "text": "The architecture was late-19th century tropical gingerbread house, a French-origin tropical mansion design.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Stade Sylvio Cator",
-    "url": "https://en.wikipedia.org/wiki/Stade_Sylvio_Cator",
+    "title": "Hotel Oloffson",
+    "url": "https://en.wikipedia.org/wiki/Hotel_Oloffson",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q755784.webp",
-    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Joel Carlson",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100117-N-4275C-190_Haitian_citizens_seek_refuge_at_the_Stade_Sylvio_Cator,_the_national_soccer_stadium,_in_Port-au-Prince,_Haiti.jpg"
+    "file": "images/photo/wd_Q3365701.webp",
+    "author": "Ketounette",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Oloffson_mars_2007.JPG"
    }
   },
   {

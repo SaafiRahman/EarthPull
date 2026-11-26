@@ -2,6 +2,41 @@
  "note": "Sample of the Nicaragua card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "wd:Q173862",
+   "name": "Lake Nicaragua",
+   "label": "Lake Nicaragua",
+   "type": "nature",
+   "kind": "lake",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.5742,
+   "lon": -85.3563,
+   "rarity": "Mythic",
+   "fame": 92436,
+   "facts": {
+    "elevation_m": 32,
+    "area_km2": 8264,
+    "length_km": 148,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "With an elevation of 32.7 metres above sea level, the lake reaches a depth of 26 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Lake_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q173862.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS066-E-103300_-_View_of_Nicaragua.jpg"
+   }
+  },
+  {
    "id": "wd:Q30322496",
    "name": "Calala Island",
    "label": "Calala Island",
@@ -884,71 +919,6 @@
    }
   },
   {
-   "id": "wd:Q173862",
-   "name": "Lake Nicaragua",
-   "label": "Lake Nicaragua",
-   "type": "nature",
-   "kind": "lake",
-   "region": "NI-RI",
-   "country": "NI",
-   "lat": 11.5742,
-   "lon": -85.3563,
-   "rarity": "Epic",
-   "fame": 92436,
-   "facts": {
-    "elevation_m": 32,
-    "area_km2": 8264,
-    "length_km": 148,
-    "temp_c": 26.5
-   },
-   "flavour": {
-    "text": "With an elevation of 32.7 metres above sea level, the lake reaches a depth of 26 metres.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Lake Nicaragua",
-    "url": "https://en.wikipedia.org/wiki/Lake_Nicaragua",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q173862.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:ISS066-E-103300_-_View_of_Nicaragua.jpg"
-   }
-  },
-  {
-   "id": "wd:Q6727157",
-   "name": "Volcán Maderas",
-   "label": "Volcán Maderas",
-   "type": "nature",
-   "kind": "national park",
-   "region": "NI-RI",
-   "country": "NI",
-   "lat": 11.4453,
-   "lon": -85.5079,
-   "rarity": "Epic",
-   "fame": 228,
-   "facts": {
-    "elevation_m": 1198,
-    "area_km2": 26,
-    "temp_c": 26.2
-   },
-   "flavour": {
-    "text": "The reserve contains Volcán Maderas, an extinct 1,394-meter volcano surrounded by a cloud forest.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Volcán Maderas Natural Reserve",
-    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Maderas_Natural_Reserve",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q6727157.webp"
-   }
-  },
-  {
    "id": "wd:Q3364508",
    "name": "Saslaya National Park",
    "label": "Saslaya National Park",
@@ -972,6 +942,40 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/wd_Q3364508.webp"
+   }
+  },
+  {
+   "id": "wd:Q950875",
+   "name": "Ometepe",
+   "label": "Ometepe",
+   "type": "nature",
+   "kind": "island",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.4984,
+   "lon": -85.6255,
+   "rarity": "Epic",
+   "fame": 28848,
+   "facts": {
+    "elevation_m": 1610,
+    "area_km2": 277,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Ometepe is an island formed by two volcanoes rising out of Lake Nicaragua, located in the Rivas Department of the Republic of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ometepe",
+    "url": "https://en.wikipedia.org/wiki/Ometepe",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q950875.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-33030_-_View_of_Nicaragua.jpg"
    }
   },
   {
@@ -1034,37 +1038,33 @@
    }
   },
   {
-   "id": "wd:Q950875",
-   "name": "Ometepe",
-   "label": "Ometepe",
+   "id": "wd:Q6727157",
+   "name": "Volcán Maderas",
+   "label": "Volcán Maderas",
    "type": "nature",
-   "kind": "island",
+   "kind": "national park",
    "region": "NI-RI",
    "country": "NI",
-   "lat": 11.4984,
-   "lon": -85.6255,
+   "lat": 11.4453,
+   "lon": -85.5079,
    "rarity": "Epic",
-   "fame": 28848,
+   "fame": 228,
    "facts": {
-    "elevation_m": 1610,
-    "area_km2": 277,
+    "elevation_m": 1198,
+    "area_km2": 26,
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "Ometepe is an island formed by two volcanoes rising out of Lake Nicaragua, located in the Rivas Department of the Republic of Nicaragua.",
+    "text": "The reserve contains Volcán Maderas, an extinct 1,394-meter volcano surrounded by a cloud forest.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Ometepe",
-    "url": "https://en.wikipedia.org/wiki/Ometepe",
+    "title": "Volcán Maderas Natural Reserve",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Maderas_Natural_Reserve",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q950875.webp",
-    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-33030_-_View_of_Nicaragua.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6727157.webp"
    }
   },
   {

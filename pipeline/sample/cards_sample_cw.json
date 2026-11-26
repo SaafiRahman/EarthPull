@@ -2,6 +2,41 @@
  "note": "Sample of the Curaçao card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
  "cards": [
   {
+   "id": "gn:3513090",
+   "name": "Willemstad",
+   "label": "Willemstad",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1225,
+   "lon": -68.8864,
+   "rarity": "Mythic",
+   "fame": 192492,
+   "facts": {
+    "population": 125000,
+    "elevation_m": 1.0,
+    "area_km2": 144,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Willemstad is the capital and largest city of Curaçao, an island in the southern Caribbean Sea that is a constituent country of the Kingdom of the Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Willemstad",
+    "url": "https://en.wikipedia.org/wiki/Willemstad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513090.webp",
+    "author": "Coolcaesar",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handelskade_in_Willemstad.jpg"
+   }
+  },
+  {
    "id": "wd:Q3107360",
    "name": "El Indjan",
    "label": "El Indjan",
@@ -853,41 +888,6 @@
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Stadion_Ergilio_Hato.jpg"
-   }
-  },
-  {
-   "id": "gn:3513090",
-   "name": "Willemstad",
-   "label": "Willemstad",
-   "type": "town",
-   "kind": "town",
-   "region": "CW",
-   "country": "CW",
-   "lat": 12.1225,
-   "lon": -68.8864,
-   "rarity": "Legendary",
-   "fame": 192492,
-   "facts": {
-    "population": 125000,
-    "elevation_m": 1.0,
-    "area_km2": 144,
-    "temp_c": 27.8
-   },
-   "flavour": {
-    "text": "Willemstad is the capital and largest city of Curaçao, an island in the southern Caribbean Sea that is a constituent country of the Kingdom of the Netherlands.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Willemstad",
-    "url": "https://en.wikipedia.org/wiki/Willemstad",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3513090.webp",
-    "author": "Coolcaesar",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Handelskade_in_Willemstad.jpg"
    }
   },
   {
