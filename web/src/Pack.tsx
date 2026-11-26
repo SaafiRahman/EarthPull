@@ -166,6 +166,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
       el.style.setProperty('--my', `${(p.y * 100).toFixed(1)}%`)
       el.style.setProperty('--rx', `${((0.5 - p.y) * 12).toFixed(2)}deg`)
       el.style.setProperty('--ry', `${((p.x - 0.5) * 14).toFixed(2)}deg`)
+      el.dataset.tilt = '1'
     }
     const d = drag.current
     if (!d || torn) return
@@ -191,6 +192,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
     if (!el) return
     el.style.setProperty('--rx', '0deg')
     el.style.setProperty('--ry', '0deg')
+    delete el.dataset.tilt
   }
 
   useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === 'Enter' || e.key === ' ') autoTear() }; window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k) })
@@ -204,6 +206,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
         onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerCancel={up} onPointerLeave={leave}
         style={{ '--cut': `${cut}%`, '--prog': progress } as CSSProperties}
       >
+        <div className="pack-glow" />
         <div className="pack-floor" />
         <div className="pack-float absolute inset-0">
         <div className="pack-tilt absolute inset-0">

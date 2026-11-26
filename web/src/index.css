@@ -66,7 +66,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* ───────────── Booster pack (Pack.tsx) ───────────── */
 .pack { cursor: grab; outline: none; perspective: 1000px; --mx: 50%; --my: 35%; --rx: 0deg; --ry: 0deg; }
-.pack-tilt { transform: rotateX(var(--rx)) rotateY(var(--ry)); transition: transform .25s cubic-bezier(.2,.8,.2,1); transform-style: preserve-3d; }
+/* Tilt only while the pointer is over the pack: a 3D transform at rest makes the browser draw the pack as a softened bitmap */
+.pack-tilt { transition: transform .25s cubic-bezier(.2,.8,.2,1); }
+.pack[data-tilt] .pack-tilt { transform: rotateX(var(--rx)) rotateY(var(--ry)); }
 /* Light on the foil that follows the pointer */
 .pack-spec {
   background: radial-gradient(circle at var(--mx) var(--my), rgba(255,244,214,.38), rgba(255,220,150,.08) 30%, transparent 55%);
@@ -80,8 +82,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 @keyframes pack-floor { 0%, 100% { transform: scale(1); opacity: .9; } 50% { transform: scale(.82); opacity: .6; } }
 .pack:active { cursor: grabbing; }
-.pack-float { animation: pack-bob 3.2s ease-in-out infinite; filter: drop-shadow(0 18px 22px rgba(0,0,0,.6)) drop-shadow(0 0 40px rgba(226,184,90,.16)); will-change: transform; }
-@keyframes pack-bob { 0%, 100% { transform: translate3d(0, 0, 0) rotate(-1deg); } 50% { transform: translate3d(0, -10px, 0) rotate(1deg); } }
+/* Straight up-and-down only, no filter and no rotation, so the pack stays sharp while it floats */
+.pack-float { animation: pack-bob 3.2s ease-in-out infinite; }
+.pack-glow { position: absolute; inset: 6% -8%; border-radius: 40%; background: radial-gradient(closest-side, rgba(226,184,90,.18), transparent); pointer-events: none; }
+@keyframes pack-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 .pack-body { clip-path: inset(var(--cut) 0 0 0); }
 .pack-strip {
   clip-path: inset(0 0 calc(100% - var(--cut)) 0);
