@@ -92,6 +92,10 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Mini-maps: terrain shading so mountain cards aren't flat; small islands missing from Natural Earth put the pin in the sea (Low Island)
 - [ ] Card frame (Phase 2): photos come in many shapes (panoramas), so crop to fit
 
+- [ ] (in progress 2026-11-26) North America proof of concept (`web/`): browser-only demo with pack opening (flip, rarity glow, serial last, timer refills), collection grid with filters, MapLibre map of owned cards, hometown first pack. See [[Decisions]] 2026-11-26
+  - [x] (done 2026-11-26) First version built: Vite + React + TypeScript + Tailwind + MapLibre (OpenFreeMap dark tiles). Typechecks and builds; game logic tested on the real pool (odds match over 100,000 pulls, each Mythic pulled once, Legendary serials stay within /10, refills cap at 3, hometown card lands within 50 km). Run: `cd web && npm run dev`, open http://localhost:5173
+  - [ ] Developer plays it on the PC and gives feedback; the UI has not been clicked through yet (Chrome extension not connected while the developer was away)
+
 **Gate to Phase 2 (updated 2026-11-24; all but the clean-machine run met 2026-11-26):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
 ## Before Phase 2

@@ -14,6 +14,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 2. Phase 1: the pipeline runs for any country with one command (`run.py`) and has been run for all of North America on 2026-11-26: 86,389 cards in 41 countries and territories. The 100-card sample review was done on 2026-11-26 with fixes, (86,345 cards). Left for the Phase 2 gate: run the pipeline once on a clean machine (never tested). Every country now has at least one Mythic (46 in North America). All flavour lines are in English (translated 2026-11-26). Also open: switching to bulk data before going past North America. See [[Tasks]].
 
 ## Preview
+- North America demo (2026-11-26): `cd web && npm run dev`, then http://localhost:5173. See `web/README.md`.
 - [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
 
 ## Notes
