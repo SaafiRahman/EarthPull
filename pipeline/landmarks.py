@@ -117,6 +117,9 @@ BUILT_QUERY = PREFIXES + """SELECT DISTINCT ?i WHERE {
 # Netherlands for Bonaire), so they found nothing by country (2026-11-25). They are also asked by "located in"
 # (P131, any depth); the point still decides the home country.
 TERRITORIES = {"PR", "VI", "GL", "AW", "CW", "SX", "BQ", "GP", "MQ", "BL", "MF", "PM", "KY", "TC", "VG", "AI", "MS", "BM"}
+# Where a territory's items hang in Wikidata's "located in" (P131) tree. Caribbean Netherlands items sit under
+# Bonaire, Sint Eustatius and Saba, not under the grouping itself (2026-11-26: BQ had 8 cards and no landmarks).
+TERRITORY_ROOTS = {"BQ": ["Q27561", "Q25396", "Q26180", "Q25528"]}
 NATURE_IN = NATURE_QUERY.replace("wdt:P17 wd:%(country)s", "wdt:P131+ wd:%(country)s")
 BUILT_IN = BUILT_QUERY.replace("?i wdt:P17 ?ctry", "?i wdt:P131+ ?ctry")
 BUILT_ONE = BUILT_QUERY.replace("VALUES ?ctry { %(countries)s }\n  ?i wdt:P17 ?ctry", "?i wdt:P17 wd:%(country)s")
@@ -292,7 +295,8 @@ def nature() -> pd.DataFrame:
             except RuntimeError:
                 got += [r for q in NATURE_CLASSES for r in one(f"wd:{q}")]
             if c.code in TERRITORIES:
-                got += query(NATURE_IN % {"classes": allc, "country": c.qid, "wiki": wiki}, WDQS)
+                for root in TERRITORY_ROOTS.get(c.code, [c.qid]):
+                    got += query(NATURE_IN % {"classes": allc, "country": root, "wiki": wiki}, WDQS)
         rows += got
         print(f"  nature {c.code}: {len({r['i'] for r in got}):,} items", flush=True)
     ids = pd.DataFrame(rows).assign(qid=lambda d: d["i"].map(_qid), cls=lambda d: d["cls"].map(_qid))
@@ -331,7 +335,9 @@ def built() -> pd.DataFrame:
     for name, group in [(c, [COUNTRIES[c]]) for c in sorted(BIG)] + [("the rest", rest), ("territories", terr)]:
         q = (BUILT_ONE % {"country": group[0].qid, "min": MIN_SITELINKS} if len(group) == 1 else
              (BUILT_IN if name == "territories" else BUILT_QUERY)
-             % {"countries": " ".join(f"wd:{c.qid}" for c in group), "min": MIN_SITELINKS})
+             % {"countries": " ".join(f"wd:{q}" for c in group for q in (TERRITORY_ROOTS.get(c.code, [c.qid])
+                                                                        if name == "territories" else [c.qid])),
+                "min": MIN_SITELINKS})
         got = query(q, ENDPOINT)
         qids += [_qid(r["i"]) for r in got]
         print(f"  built {name}: {len(got):,}", flush=True)
@@ -358,6 +364,53 @@ def report(name: str, df: pd.DataFrame, kept: pd.DataFrame):
     print("  by country:", kept["country"].value_counts().to_dict())
 
 
+# Natural Earth's region borders are coarse, so a city on a border river can land on the wrong side: the Gateway
+# Arch and Busch Stadium in Illinois, Cincinnati's stadiums in Kentucky, the Statue of Liberty in New Jersey
+# (2026-11-26, ~40 of the top landmarks). When Wikidata's "located in" (P131) chain gives exactly one first-level
+# region of the same country, and that region is within BORDER_KM of the point, Wikidata wins. Rivers, lakes and
+# ranges cross borders, so they keep their point's region. pipeline/region_fixes.csv overrides both.
+REGION_QUERY = """PREFIX wd: <http://www.wikidata.org/entity/> PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT ?item ?iso WHERE { VALUES ?item { %s } ?item wdt:P131+ ?r . ?r wdt:P300 ?iso . }"""
+ISO_ALIASES = {"MX-CMX": "MX-DIF"}  # Wikidata uses Mexico City's new code; Natural Earth the old one
+SPANS = re.compile(r"river|creek|stream|brook|lake|reservoir|range|mountains|canal|trail|bay|sound|strait|gulf", re.I)
+
+
+def fix_regions(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    qids = sorted(df["qid"].unique())
+    isos: dict[str, set] = {}
+    for i in range(0, len(qids), 400):
+        for r in query(REGION_QUERY % " ".join(f"wd:{q}" for q in qids[i:i + 400]), ENDPOINT):
+            iso = r["iso"]
+            if len(iso.split("-")) == 2:
+                isos.setdefault(_qid(r["item"]), set()).add(ISO_ALIASES.get(iso, iso))
+    reg = regions.admin1().to_crs(regions.EQUAL_AREA).drop_duplicates("region").set_index("region")
+    moved = []
+    for i, r in df.iterrows():
+        wd = isos.get(r["qid"], set())
+        if len(wd) != 1 or not isinstance(r["region"], str) or SPANS.search(str(r["kind"])):
+            continue
+        target = next(iter(wd))
+        if target == r["region"] or target[:2] != r["region"][:2] or target not in reg.index:
+            continue
+        pt = gpd.GeoSeries(gpd.points_from_xy([r["lon"]], [r["lat"]]), crs="EPSG:4326").to_crs(regions.EQUAL_AREA)[0]
+        if reg.loc[target, "geometry"].distance(pt) <= BORDER_KM * 1000:
+            moved.append((r["name"], r["region"], target))
+            df.loc[i, ["region", "region_name"]] = target, reg.loc[target, "region_name"]
+    fixes = pd.read_csv(ROOT / "region_fixes.csv", comment="#")
+    for f in fixes.itertuples():
+        hit = df["qid"] == f.id.removeprefix("wd:")
+        if hit.any():
+            old_country = df.loc[hit, "country"].iat[0]
+            df.loc[hit, ["country", "region", "region_name"]] = f.region[:2], f.region, reg.loc[f.region, "region_name"]
+            df.loc[hit, "also_in"] = pd.Series([[c for c in a if c != f.region[:2]] for a in df.loc[hit, "also_in"]],
+                                               index=df.index[hit])
+            moved.append((df.loc[hit, "name"].iat[0], old_country, f.region + " (hand fix)"))
+    df["province"] = df["region_name"]
+    print(f"  regions moved to Wikidata's: {len(moved)}; e.g. " + "; ".join(f"{n} {a}->{b}" for n, a, b in moved[:12]))
+    return df
+
+
 def main():
     cols = ["qid", "name", "name_en", "name_local", "kind", "sitelinks", "enwiki", "lwiki", "local_lang",
             "lat", "lon", "country", "region", "region_name", "province", "also_in"]
@@ -376,6 +429,7 @@ def main():
     excl[["qid", "name", "country", "sitelinks", "excluded"]].sort_values("sitelinks", ascending=False).to_csv(
         ROOT / "data" / "interim" / "structures_excluded.csv", index=False, encoding="utf-8")
 
+    nk, bk = fix_regions(nk), fix_regions(bk)
     for code in COUNTRIES:
         d = interim(code)
         for df, fname, extra in ((nk, "landmarks.parquet", ["elevation_m"]), (bk, "structures.parquet", ["classes"])):

@@ -115,6 +115,31 @@ def plain(s: str) -> str:
     return re.sub(r"~\w+wiki$", "", m.group(1)) if m else s
 
 
+def clean_author(s: str) -> str:
+    """Commons "Artist" fields carry talk-page links, usernames and notes (2026-11-26: "Work permit Original
+    author= Cliff", "Notorious4life ( talk ) ( Uploads )", "The original uploader was Daniel Case at English
+    Wikipedia"). Keep just the name."""
+    s = (s or "").strip()
+    if not s:
+        return ""
+    if re.match(r"I, the copyright holder", s):
+        return "a Wikimedia Commons contributor"
+    for pat in (r"original author\s*=\s*(.+)", r"The original uploader was (.+?) at [\w ]+Wikipedia",
+                r"taken or created by (.+?) \. ", r"^Photo(?:graph)? by (.+)"):
+        m = re.search(pat, s, re.I)
+        if m:
+            s = m.group(1)
+    s = re.sub(r"\(\s*(?:w:)?User:[^)]*\)|\(\s*talk\s*\)|\(\s*Uploads\s*\)|\(\s*contribs?\s*\)", " ", s, flags=re.I)
+    s = re.sub(r"\([^)]*(?:@|https?:|talk page)[^)]*\)", " ", s, flags=re.I)  # emails, links, "contact me" notes
+    s = re.sub(r"\((?:photographer|author)\)", " ", s, flags=re.I)
+    s = re.sub(r"^User:", "", s.strip())
+    s = re.sub(r"\s+([,.;:)])", r"\1", re.sub(r"\s{2,}", " ", s)).strip(" ,.;:-")
+    s = re.sub(r"\(\s*\)", "", s.replace("( ", "(")).strip()
+    if len(s) > 70:
+        s = s[:69].rsplit(" ", 1)[0].rstrip(" ,;:(") + "…"
+    return s
+
+
 def why_not(f: str, info) -> str:
     """'' if usable, else the reason it is rejected."""
     if info is None:
@@ -210,7 +235,7 @@ def main():
         if pick:
             src, f, i = pick
             rows.append({"id": r.id, "image": f, "thumb": i["thumb"], "width": i["w"], "height": i["h"],
-                         "author": i["author"] or "Unknown author", "licence": i["licence"],
+                         "author": clean_author(i["author"]) or "Unknown author", "licence": i["licence"],
                          "licence_url": i["licence_url"], "page": i["page"], "source": src, "reject": ""})
         else:
             rows.append({"id": r.id, "image": None, "source": "mini-map",

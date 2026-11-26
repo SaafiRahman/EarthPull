@@ -8,3 +8,5 @@ wd:Q338963,keep,"Casino du Lac-Leamy: a landmark casino; Wikidata also lists its
 wd:Q1127212,drop,"2 World Trade Center: only the foundation is built; Wikidata calls it a skyscraper"
 wd:Q11290,keep,"Grand Central Terminal: a landmark building; Wikidata calls it a railway station"
 wd:Q214867,keep,"National Gallery of Art: Wikidata calls it a national gallery and a nonprofit organization"
+wd:Q5810921,drop,"Jamoncillo: a hill whose only article is the Spanish Wikipedia page on the candy, so its text and fame are the candy's"
+wd:Q10589787,drop,"Mount Uniacke: the item and its article are the Nova Scotia community; dropping the mountain card lets the town card (gn:6083052) stay"

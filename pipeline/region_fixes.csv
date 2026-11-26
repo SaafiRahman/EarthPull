@@ -1,0 +1,4 @@
+# Hand fixes for a landmark's region (ISO 3166-2) when both the point and Wikidata get it wrong. A different
+# country code moves the card to that country.
+id,region,reason
+wd:Q7855716,US-WA,"Turn Point Light: on Stuart Island, Washington; Wikidata gives Canada only and the coarse border puts the point in BC"
