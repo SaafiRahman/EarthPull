@@ -36,17 +36,17 @@ try {
             : (p.serial == null || p.serial > cap || p.cap !== cap)) badFoilSerial++
       }
     }
-    // Sell out one Legendary: 10 plain + 5 foil copies, then nothing
+    // Sell out one Legendary: 100 plain + 5 foil copies, then nothing
     const leg = pool.byTier.Legendary[0]
     const one = { ...pool, byTier: { Common: [], Rare: [], Epic: [], Legendary: [leg], Mythic: [] } }
     const only = { ...pool, byTier: one.byTier }
     let st = g.newState(), plain = 0, foilLeg = 0
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 160; i++) {
       const r = g.openPack(only, { ...st, packs: 3, mints: { ...st.mints, [leg.id]: st.mints[leg.id] ?? 0, [`${leg.id}~foil`]: st.mints[`${leg.id}~foil`] ?? 0 } }, Math.random)
       st = r.state
       for (const p of r.pulls) { if (p.card.id === leg.id) p.foil ? foilLeg++ : plain++ }
     }
-    out.legendarySellOut = { plain, foil: foilLeg, expected: '10 plain, 5 foil' }
+    out.legendarySellOut = { plain, foil: foilLeg, expected: '100 plain, 5 foil' }
     out.normal = { cards, foilRate: +(foils / cards).toFixed(4), foilCommons, badFoilSerial, dupPacks }
 
     // Local packs: a city and a rural town; distances, tiers, stamps, one a day

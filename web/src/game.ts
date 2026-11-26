@@ -85,7 +85,7 @@ function hash01(id: string): number {
 }
 
 // Simulated copies other players pulled before you: a few for capped Legendaries, thousands for uncapped Rares.
-const OTHERS: Record<Tier, number> = { Common: 0, Rare: 6000, Epic: 900, Legendary: 4, Mythic: 0 }
+const OTHERS: Record<Tier, number> = { Common: 0, Rare: 6000, Epic: 900, Legendary: 40, Mythic: 0 }
 const OTHERS_FOIL: Record<Tier, number> = { Common: 0, Rare: 300, Epic: 45, Legendary: 2, Mythic: 0 }
 function alreadyClaimed(card: IndexCard, foil = false): number {
   const f = hash01(foil ? `${card.id}~foil` : card.id)
