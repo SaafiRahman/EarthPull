@@ -58,13 +58,13 @@ try {
   }
   await page.mouse.up()
   await sleep(3200)
-  const cards = await page.$$('button.flip')
-  for (let i = 0; i < cards.length; i++) {
-    await cards[i].click()
-    await sleep(i === cards.length - 1 ? 2600 : 1000)
+  // Commons and Rares flip themselves; tap the special cards still face down
+  await sleep(1500)
+  for (const c of await page.$$('button.flip:not(.flipped)')) {
+    await c.click()
+    await sleep(2600)
   }
-  await cards[cards.length - 1].click()
-  await sleep(2500)
+  await sleep(1000)
   await cdp.send('Page.stopScreencast')
   frames.forEach((f, i) => writeFileSync(`${OUT}/${String(i).padStart(5, '0')}_${f.t.toFixed(4)}.jpg`, Buffer.from(f.data, 'base64')))
   console.log(`${frames.length} frames over ${(frames.at(-1).t - frames[0].t).toFixed(1)} s -> ${OUT}`)

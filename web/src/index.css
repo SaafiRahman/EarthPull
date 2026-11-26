@@ -164,6 +164,28 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   50% { box-shadow: 0 0 30px 8px var(--glow); }
 }
 .glow { animation: pulse-glow 1.8s ease-in-out infinite; }
+/* Spotlight on the best card of a pack with nothing special in it */
+.spotlight { animation: spotlight 1.4s ease-out; z-index: 2; }
+@keyframes spotlight { 0% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(255,214,107,0)); } 25% { transform: scale(1.06); filter: drop-shadow(0 0 22px rgba(255,214,107,.75)); } 100% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(255,214,107,0)); } }
+.glow-strong { animation: pulse-glow-strong 1.3s ease-in-out infinite; }
+@keyframes pulse-glow-strong {
+  0%, 100% { box-shadow: 0 0 18px 4px var(--glow), 0 0 40px 6px rgba(255,214,107,.25); transform: translateY(0); }
+  50% { box-shadow: 0 0 40px 12px var(--glow), 0 0 80px 18px rgba(255,214,107,.35); transform: translateY(-3px); }
+}
+/* Mythic: a rainbow aura that turns, behind the card */
+.glow-mythic { animation: none; isolation: isolate; }
+.glow-mythic::before {
+  content: ''; position: absolute; inset: -8%; z-index: -1; border-radius: 12%;
+  background: conic-gradient(from var(--ang), #ff5f8f, #ffd66b, #5fd4c4, #7aa8ff, #c58bff, #ff5f8f);
+  filter: blur(14px); opacity: .9; animation: mythic-spin 3s linear infinite;
+}
+.back-sparks span {
+  position: absolute; bottom: 0; border-radius: 50%;
+  background: radial-gradient(circle, #fff7d6, #ffd66b 60%, transparent 70%);
+  animation: spark-rise 2.2s ease-out infinite; opacity: 0;
+}
+/* Sparkles travel the full height of the card (bottom is relative to the card, unlike a transform) */
+@keyframes spark-rise { 0% { bottom: 0%; transform: scale(.6); opacity: 0; } 15% { opacity: 1; } 100% { bottom: 100%; transform: scale(1.1); opacity: 0; } }
 
 /* Serial number appears a beat after the flip */
 @keyframes serial-in {
@@ -186,7 +208,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) {
   .pack-float, .pack-sheen, .pack-floor { animation: none; }
   .flip-inner { transition: none; }
-  .glow, .mythic-frame, .rise { animation: none; }
+  .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }
 }
 

@@ -78,11 +78,13 @@ try {
   await tearPack(page, { swipe: true, shotName: 'pack' })
   await shot(page, 'pack-face-down')
 
+  // Commons and Rares flip themselves; tap the special cards still face down
+  await sleep(1200)
+  await shot(page, 'auto-flipped')
   const cards = await page.$$('button.flip')
-  for (let i = 0; i < cards.length; i++) {
-    await cards[i].click()
-    await sleep(i === cards.length - 1 ? 1600 : 500)
-    if (i === 0) await shot(page, 'first-flip')
+  for (const c of await page.$$('button.flip:not(.flipped)')) {
+    await c.click()
+    await sleep(1600)
   }
   await shot(page, 'pack-revealed')
 
@@ -99,7 +101,7 @@ try {
     await clickText(page, 'Open a pack')
     await tearPack(page)
     await sleep(500)
-    await clickText(page, 'Reveal all')
+    await clickText(page, 'Reveal all').catch(() => {}) // not there when every card flipped itself
     await sleep(900)
     await clickText(page, 'Done')
     await sleep(200)
@@ -110,7 +112,7 @@ try {
   await clickText(page, 'Open local pack')
   await tearPack(page)
   await sleep(500)
-  await clickText(page, 'Reveal all')
+  await clickText(page, 'Reveal all').catch(() => {}) // not there when every card flipped itself
   await sleep(1800)
   await shot(page, 'local-pack')
   await clickText(page, 'Done')
@@ -124,7 +126,7 @@ try {
   await clickText(page, 'Open local pack')
   await tearPack(page)
   await sleep(500)
-  await clickText(page, 'Reveal all')
+  await clickText(page, 'Reveal all').catch(() => {}) // not there when every card flipped itself
   await sleep(1500)
   await clickText(page, 'Done')
 
@@ -141,12 +143,14 @@ try {
   await shot(page, 'map')
 
   await page.setViewport({ width: 390, height: 844, isMobile: true, hasTouch: true, deviceScaleFactor: 2 })
+  // Switching to a phone viewport reloads the page: wait until the card pool has loaded again
+  await page.waitForFunction(() => [...document.querySelectorAll('button')].some((b) => b.textContent.includes('Packs')), { timeout: 30000 })
   await clickText(page, 'Packs')
   await clickText(page, 'Demo: add a pack now')
   await clickText(page, 'Open a pack')
     await tearPack(page)
   await sleep(600)
-  await clickText(page, 'Reveal all')
+  await clickText(page, 'Reveal all').catch(() => {}) // not there when every card flipped itself
   await sleep(1800)
   await shot(page, 'phone-pack')
   await clickText(page, 'Done')

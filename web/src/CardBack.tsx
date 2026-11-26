@@ -5,9 +5,11 @@
 import { useId, type CSSProperties } from 'react'
 import type { Tier } from './data'
 
+// Face-down preview (N3TWORK's advice): only the top three tiers are highlighted, so a glow always means something.
+// Common and Rare look the same face-down.
 const TIER_GLOW: Record<Tier, string> = {
   Common: 'transparent',
-  Rare: 'var(--color-rare)',
+  Rare: 'transparent',
   Epic: 'var(--color-epic)',
   Legendary: 'var(--color-legendary)',
   Mythic: 'var(--color-mythic)',
@@ -63,13 +65,23 @@ export function LogoMark({ className = '' }: { className?: string }) {
   )
 }
 
-/** Face-down card: the leather back, glowing in the rarity colour of what's inside (none for Common). */
+const HIGHLIGHT: Record<Tier, string> = { Common: '', Rare: '', Epic: 'glow', Legendary: 'glow glow-strong', Mythic: 'glow glow-mythic' }
+// Sparkles drifting up around Legendary and Mythic backs (movement, not just colour)
+const SPARKS = Array.from({ length: 10 }, (_, i) => ({ left: (i * 37) % 100, delay: (i * 0.29) % 2.2, size: 3 + (i % 3) }))
+
+/** Face-down card: the leather back, glowing in the rarity colour of what's inside (Epic and up only). */
 export function CardBack({ tier }: { tier: Tier }) {
   const id = useId().replace(/:/g, '')
   const style = { '--glow': TIER_GLOW[tier] } as CSSProperties
   const cx = W / 2, cy = 192, r = 70
   return (
-    <div className={`h-full w-full overflow-hidden rounded-[6%/4.3%] shadow-[0_10px_30px_-8px_rgba(0,0,0,.9)] ${tier === 'Common' ? '' : 'glow'}`} style={style}>
+    <div className={`relative h-full w-full rounded-[6%/4.3%] ${HIGHLIGHT[tier]}`} style={style}>
+      {tier === 'Legendary' || tier === 'Mythic' ? (
+        <div className="back-sparks pointer-events-none absolute -inset-[6%]" aria-hidden>
+          {SPARKS.map((p, i) => <span key={i} style={{ left: `${p.left}%`, width: p.size, height: p.size, animationDelay: `${p.delay}s` }} />)}
+        </div>
+      ) : null}
+    <div className="h-full w-full overflow-hidden rounded-[6%/4.3%] shadow-[0_10px_30px_-8px_rgba(0,0,0,.9)]">
       <svg viewBox={`0 0 ${W} ${H}`} className="block h-full w-full" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pull the Planet card, face down">
         <defs>
           <linearGradient id={`leather${id}`} x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#6b1a2b" /><stop offset=".55" stopColor={LEATHER} /><stop offset="1" stopColor="#350a15" /></linearGradient>
@@ -90,6 +102,7 @@ export function CardBack({ tier }: { tier: Tier }) {
           <text x={cx} y={cy + 102} textAnchor="middle" fontFamily="Figtree, sans-serif" fontWeight="600" fontSize="6.5" letterSpacing="1.5" fill={GOLD_LINE} opacity=".7">0°00′N · 0°00′E</text>
         </g>
       </svg>
+    </div>
     </div>
   )
 }

@@ -130,6 +130,29 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     setFlipped(pulls.map(() => true))
   }
   const allFlipped = flipped.length > 0 && flipped.every(Boolean)
+  const special = (p: Pulled) => p.card.tier === 'Epic' || p.card.tier === 'Legendary' || p.card.tier === 'Mythic'
+  const waiting = pulls ? pulls.filter((p, i) => special(p) && !flipped[i]).length : 0
+  const [spotlight, setSpotlight] = useState(-1)
+
+  // Commons and Rares flip themselves in a quick cascade once the cards have landed; the player taps only the
+  // special ones (N3TWORK: don't spend the player's time on commons). A pack with nothing special flips entirely,
+  // and its best card gets a short spotlight.
+  useEffect(() => {
+    if (phase !== 'cards' || !pulls) return
+    const hasSpecial = pulls.some(special)
+    const auto = pulls.map((p, i) => (hasSpecial && special(p) ? -1 : i)).filter((i) => i >= 0)
+    const timers = auto.map((i, k) => window.setTimeout(() => {
+      sfx.flip()
+      setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
+    }, 250 + k * 170))
+    if (!hasSpecial) {
+      const last = pulls.length - 1
+      timers.push(window.setTimeout(() => { sfx.reveal(pulls[last].card.tier); setSpotlight(last) }, 250 + auto.length * 170 + 250))
+      timers.push(window.setTimeout(() => setSpotlight(-1), 250 + auto.length * 170 + 1700))
+    }
+    return () => timers.forEach(clearTimeout)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, pulls])
   const stamp = (p: Pulled) => stampOf({ ...p, at: openedAt }, state)
 
   if (pulls) {
@@ -139,13 +162,13 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     return (
       <div ref={stage} onClickCapture={() => { if (phase === 'opening') opening.current?.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
-        <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{allFlipped ? 'Tap a card to look closer.' : 'Tap each card to flip it. The best is last.'}</p>
+        <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {pulls.map((p, i) => (
             <button
               key={p.card.id}
               ref={(el) => { cardEls.current[i] = el }}
-              className={`flip relative aspect-[5/7] text-left ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
+              className={`flip relative aspect-[5/7] text-left ${spotlight === i ? 'spotlight' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
               onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
               aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
@@ -170,7 +193,14 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           {!allFlipped ? (
             <button className="rounded-xl border border-line px-5 py-2.5 font-semibold" onClick={revealAll}>Reveal all</button>
           ) : (
-            <button className="btn-gold rounded-xl px-6 py-2.5 font-semibold" onClick={() => setPulls(null)}>Done</button>
+            <>
+              <button className="rounded-xl border border-line px-5 py-2.5 font-semibold" onClick={() => setPulls(null)}>Done</button>
+              {state.packs > 0 ? (
+                <button className="btn-gold rounded-xl px-6 py-2.5 font-semibold" onClick={() => { setPulls(null); setSpotlight(-1); start('normal') }}>
+                  Open another <span className="font-normal opacity-70">({state.packs} left)</span>
+                </button>
+              ) : null}
+            </>
           )}
         </div>
         {!ready ? (
