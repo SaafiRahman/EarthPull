@@ -1,0 +1,2292 @@
+{
+ "note": "Sample of the Guadeloupe card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q111209460",
+   "name": "îlet aux Fous",
+   "label": "îlet aux Fous",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3409,
+   "lon": -61.6908,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q111209460.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%8Elet_aux_Fous.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16665284",
+   "name": "Morne Jeanneton",
+   "label": "Morne Jeanneton",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2297,
+   "lon": -61.7231,
+   "rarity": "Common",
+   "fame": 84,
+   "facts": {
+    "elevation_m": 744,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16665284.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Jeanneton_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24878644",
+   "name": "Îlet des Petits Pompons",
+   "label": "Îlet des Petits Pompons",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3367,
+   "lon": -61.6928,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24878644.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%8Elet_des_petits_pompons.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16665292",
+   "name": "Morne du Col",
+   "label": "Morne du Col",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0586,
+   "lon": -61.6675,
+   "rarity": "Common",
+   "fame": 72,
+   "facts": {
+    "elevation_m": 1281,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16665292.webp"
+   }
+  },
+  {
+   "id": "wd:Q24874525",
+   "name": "Rivière du Coin",
+   "label": "Rivière du Coin",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2357,
+   "lon": -61.5876,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 5.0,
+    "length_km": 6.9,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A river in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24874525.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_du_Coin_sur_Convenance.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16672908",
+   "name": "Rivière de Beaugendre",
+   "label": "Rivière de Beaugendre",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0795,
+   "lon": -61.7689,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 9.7,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "A river in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16672908.webp"
+   }
+  },
+  {
+   "id": "wd:Q24860994",
+   "name": "Piton Guyonneau",
+   "label": "Piton Guyonneau",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2481,
+   "lon": -61.7504,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 725,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24860994.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piton_Guyonneau.jpg"
+   }
+  },
+  {
+   "id": "wd:Q124784397",
+   "name": "Le Petit Belvédère",
+   "label": "Le Petit Belvédère",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2969,
+   "lon": -61.7343,
+   "rarity": "Common",
+   "fame": 54,
+   "facts": {
+    "elevation_m": 474,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124784397.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coucher_de_soleil_sur_le_Petit_Belv%C3%A9d%C3%A8re_par_un_chemin_%C3%A0_Bellevue_sur_la_commune_de_Sainte-Rose.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3141425",
+   "name": "Houelmont",
+   "label": "Houelmont",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9811,
+   "lon": -61.7036,
+   "rarity": "Common",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 428,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3141425.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Hou%C3%ABlmont_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24874023",
+   "name": "Belle-Hôtesse",
+   "label": "Belle-Hôtesse",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2586,
+   "lon": -61.7681,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 744,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24874023.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sommet_de_Belle-H%C3%B4tesse.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24854872",
+   "name": "Bras de Sable",
+   "label": "Bras de Sable",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2317,
+   "lon": -61.6703,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 45,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A river in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24854872.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_Bras_de_Sable_pr%C3%A8s_de_son_embouchure.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21619450",
+   "name": "îlet à Colas",
+   "label": "îlet à Colas",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3457,
+   "lon": -61.5748,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21619450.webp"
+   }
+  },
+  {
+   "id": "gn:3578682",
+   "name": "Petit-Bourg",
+   "label": "Petit-Bourg",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.1916,
+   "lon": -61.5914,
+   "rarity": "Common",
+   "fame": 10890,
+   "facts": {
+    "population": 24994,
+    "elevation_m": 7.0,
+    "area_km2": 130,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Petit-Bourg is the seventh-largest commune in the French overseas department of Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petit-Bourg",
+    "url": "https://en.wikipedia.org/wiki/Petit-Bourg",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578682.webp"
+   }
+  },
+  {
+   "id": "gn:3579585",
+   "name": "Capesterre-Belle-Eau",
+   "label": "Capesterre-Belle-Eau",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.045,
+   "lon": -61.5643,
+   "rarity": "Common",
+   "fame": 10134,
+   "facts": {
+    "population": 19821,
+    "elevation_m": 17,
+    "area_km2": 103,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Capesterre-Belle-Eau is a commune in the French overseas region and department of Guadeloupe, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Capesterre-Belle-Eau",
+    "url": "https://en.wikipedia.org/wiki/Capesterre-Belle-Eau",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579585.webp",
+    "author": "bobyfume",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Chutesducarbet.jpg"
+   }
+  },
+  {
+   "id": "gn:3579761",
+   "name": "Baillif",
+   "label": "Baillif",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0204,
+   "lon": -61.7461,
+   "rarity": "Common",
+   "fame": 6360,
+   "facts": {
+    "population": 5705,
+    "elevation_m": 12,
+    "area_km2": 24,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "Baillif is a commune of Guadeloupe, an overseas region and department of France located in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Baillif",
+    "url": "https://en.wikipedia.org/wiki/Baillif",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579761.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tour_du_P%C3%A8re-Labat_09.JPG"
+   }
+  },
+  {
+   "id": "gn:3578351",
+   "name": "Petites Anses",
+   "label": "Petites Anses",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.8499,
+   "lon": -61.6446,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1314,
+    "elevation_m": 44,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 1,314 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578351.webp"
+   }
+  },
+  {
+   "id": "gn:3578967",
+   "name": "Le Moule",
+   "label": "Le Moule",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3316,
+   "lon": -61.3466,
+   "rarity": "Common",
+   "fame": 11688,
+   "facts": {
+    "population": 22692,
+    "elevation_m": 8.0,
+    "area_km2": 83,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Le Moule is the sixth-largest commune in the French overseas department of Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Moule",
+    "url": "https://en.wikipedia.org/wiki/Le_Moule",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578967.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Jean-Baptiste_au_Moule_3.JPG"
+   }
+  },
+  {
+   "id": "gn:3579232",
+   "name": "Beauséjour",
+   "label": "Beauséjour",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3041,
+   "lon": -61.0737,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1716,
+    "elevation_m": 9.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 1,716 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579232.webp"
+   }
+  },
+  {
+   "id": "gn:3579250",
+   "name": "Grand-Bourg",
+   "label": "Grand-Bourg",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.884,
+   "lon": -61.3148,
+   "rarity": "Common",
+   "fame": 6204,
+   "facts": {
+    "population": 5867,
+    "elevation_m": 7.0,
+    "area_km2": 56,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Grand-Bourg, also known as Grand-Bourg de Marie-Galante, is a commune on the island of Marie-Galante.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand-Bourg",
+    "url": "https://en.wikipedia.org/wiki/Grand-Bourg",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579250.webp",
+    "author": "Smiley",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Bourg.jpg"
+   }
+  },
+  {
+   "id": "gn:3578447",
+   "name": "Sainte-Rose",
+   "label": "Sainte-Rose",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3326,
+   "lon": -61.6969,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 20192,
+    "elevation_m": 22,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 20,192 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578447.webp"
+   }
+  },
+  {
+   "id": "gn:3579023",
+   "name": "Lamentin",
+   "label": "Lamentin",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2705,
+   "lon": -61.6317,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 14891,
+    "elevation_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 14,891 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579023.webp"
+   }
+  },
+  {
+   "id": "gn:3578681",
+   "name": "Petit-Canal",
+   "label": "Petit-Canal",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3791,
+   "lon": -61.4872,
+   "rarity": "Common",
+   "fame": 4884,
+   "facts": {
+    "population": 8554,
+    "elevation_m": 16,
+    "area_km2": 70,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Petit-Canal is a coastal commune on Grande-Terre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petit-Canal",
+    "url": "https://en.wikipedia.org/wiki/Petit-Canal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578681.webp",
+    "author": "Kim Hansen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WW1_monument_Petit-Canal_2010-03-28.jpg"
+   }
+  },
+  {
+   "id": "gn:3578467",
+   "name": "Saint-Claude",
+   "label": "Saint-Claude",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0252,
+   "lon": -61.6998,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10134,
+    "elevation_m": 462,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "A community of 10,134 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578467.webp"
+   }
+  },
+  {
+   "id": "gn:3578466",
+   "name": "Sainte-Anne",
+   "label": "Sainte-Anne",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2256,
+   "lon": -61.381,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 22859,
+    "elevation_m": 3.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 22,859 people in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578466.webp"
+   }
+  },
+  {
+   "id": "wd:Q15950320",
+   "name": "Habitation Zévallos",
+   "label": "Habitation Zévallos",
+   "type": "built",
+   "kind": "plantation house",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3056,
+   "lon": -61.3022,
+   "rarity": "Epic",
+   "fame": 5022,
+   "facts": {
+    "elevation_m": 41,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "A plantation house in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15950320.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habitation_Z%C3%A9vallos_04.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3077867",
+   "name": "Fort Fleur d'Épée",
+   "label": "Fort Fleur d'Épée",
+   "type": "built",
+   "kind": "fort",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2167,
+   "lon": -61.5131,
+   "rarity": "Epic",
+   "fame": 2256,
+   "facts": {
+    "elevation_m": 24,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It was built between 1750 and 1763 by Sébastien Le Prestre de Vauban above the town of Le Gosier.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Fleur d'épée",
+    "url": "https://en.wikipedia.org/wiki/Fort_Fleur_d%27%C3%A9p%C3%A9e",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3077867.webp",
+    "author": "bobyfume",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:FortFleurd%C3%A9p%C3%A9e.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3030719",
+   "name": "Damoiseau distillery",
+   "label": "Damoiseau distillery",
+   "type": "built",
+   "kind": "rum distillery",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3292,
+   "lon": -61.3537,
+   "rarity": "Epic",
+   "fame": 7326,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It is one of five distilleries in the Guadeloupe archipelago, and the only one in the Grande-Terre region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Damoiseau Rhum",
+    "url": "https://en.wikipedia.org/wiki/Damoiseau_Rhum",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3030719.webp",
+    "author": "KoS",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Distillerie_Damoiseau_10.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3583639",
+   "name": "Église Saint-Pierre-et-Saint-Paul de Pointe-à-Pitre",
+   "label": "Église Saint-Pierre-et-Saint-Paul de Pointe-à-Pitre",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2388,
+   "lon": -61.5345,
+   "rarity": "Epic",
+   "fame": 1728,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3583639.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eglise_Saint_Pierre_et_Saint_Paul_-_PA00105864_04.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3162394",
+   "name": "Jardin botanique de Deshaies",
+   "label": "Jardin botanique de Deshaies",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2997,
+   "lon": -61.7992,
+   "rarity": "Epic",
+   "fame": 2574,
+   "facts": {
+    "elevation_m": 109,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "There is an admission fee of €15.90 for adults or €10.90 for children, with a group discount also available.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jardin botanique de Deshaies",
+    "url": "https://en.wikipedia.org/wiki/Jardin_botanique_de_Deshaies",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3162394.webp",
+    "author": "myself",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Jardin_Botanique_-_%C3%A9tang_aux_n%C3%A9nuphars.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3077840",
+   "name": "Fort Delgrès",
+   "label": "Fort Delgrès",
+   "type": "built",
+   "kind": "fort",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9886,
+   "lon": -61.7231,
+   "rarity": "Epic",
+   "fame": 3978,
+   "facts": {
+    "elevation_m": 41,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Fort Delgrès is a French fort overlooking the town of Basse-Terre in Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Delgrès",
+    "url": "https://en.wikipedia.org/wiki/Fort_Delgr%C3%A8s",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3077840.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_du_Fort_Delgr%C3%A8s.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2325931",
+   "name": "Stade René Serge Nabajoth",
+   "label": "Stade René Serge Nabajoth",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2689,
+   "lon": -61.5088,
+   "rarity": "Epic",
+   "fame": 2406,
+   "facts": {
+    "elevation_m": 23,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stade René Serge Nabajoth",
+    "url": "https://en.wikipedia.org/wiki/Stade_Ren%C3%A9_Serge_Nabajoth",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2325931.webp"
+   }
+  },
+  {
+   "id": "wd:Q16509289",
+   "name": "Mémorial ACTe",
+   "label": "Mémorial ACTe",
+   "type": "built",
+   "kind": "monument",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2318,
+   "lon": -61.5343,
+   "rarity": "Epic",
+   "fame": 7020,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A monument in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16509289.webp",
+    "author": "Bjrmoicorla",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Photographie_de_haut_du_m%C3%A9morial_acte.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1017323",
+   "name": "Basse-Terre Cathedral",
+   "label": "Basse-Terre Cathedral",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9958,
+   "lon": -61.7297,
+   "rarity": "Epic",
+   "fame": 3078,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Basse-Terre Cathedral is a Roman Catholic cathedral dedicated to Our Lady of Guadalupe and a national monument of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basse-Terre Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Basse-Terre_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1017323.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame-de-Guadeloupe_-_Sept._2013_(1).JPG"
+   }
+  },
+  {
+   "id": "wd:Q527799",
+   "name": "Grande-Terre",
+   "label": "Grande-Terre",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3175,
+   "lon": -61.4286,
+   "rarity": "Epic",
+   "fame": 17874,
+   "facts": {
+    "elevation_m": 130,
+    "area_km2": 639,
+    "length_km": 40,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Grande-Terre Island is the name of the eastern-half of Guadeloupe proper, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grande-Terre, Guadeloupe",
+    "url": "https://en.wikipedia.org/wiki/Grande-Terre%2C_Guadeloupe",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q527799.webp",
+    "author": "Dethieubert97118",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Pointedeschateauxasaintfrancois.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2967747",
+   "name": "Carbet Falls",
+   "label": "Carbet Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0456,
+   "lon": -61.6522,
+   "rarity": "Epic",
+   "fame": 7506,
+   "facts": {
+    "elevation_m": 1026,
+    "height_m": 245,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Carbet Falls is a series of waterfalls on the Carbet River in Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carbet Falls",
+    "url": "https://en.wikipedia.org/wiki/Carbet_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2967747.webp",
+    "author": "bobyfume",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Chutesducarbet.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1334492",
+   "name": "Marie-Galante",
+   "label": "Marie-Galante",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9333,
+   "lon": -61.2667,
+   "rarity": "Epic",
+   "fame": 58182,
+   "facts": {
+    "elevation_m": 129,
+    "area_km2": 171,
+    "length_km": 16,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Marie-Galante is one of the dependencies of Guadeloupe, an overseas department of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marie-Galante",
+    "url": "https://en.wikipedia.org/wiki/Marie-Galante",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1334492.webp",
+    "author": "Kijan Ay",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Long_White_Sand_Beach_Uncrowded_In_The_Caribbean_(188395989).jpeg"
+   }
+  },
+  {
+   "id": "wd:Q1028479",
+   "name": "Guadeloupe National Park",
+   "label": "Guadeloupe National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0833,
+   "lon": -61.6833,
+   "rarity": "Epic",
+   "fame": 6018,
+   "facts": {
+    "elevation_m": 1034,
+    "area_km2": 17,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "Guadeloupe National Park is a national park in Guadeloupe, an overseas department of France located in the Leeward Islands of the eastern Caribbean region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guadeloupe National Park",
+    "url": "https://en.wikipedia.org/wiki/Guadeloupe_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1028479.webp",
+    "author": "Ofol",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Guadeloupe_123_-_Massif_de_la_Soufri%C3%A8re_1467m_-_Chemin_des_bains_jaunes.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1149310",
+   "name": "Soufrière",
+   "label": "Soufrière",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0438,
+   "lon": -61.6634,
+   "rarity": "Epic",
+   "fame": 12330,
+   "facts": {
+    "elevation_m": 1467,
+    "prominence_m": 1467,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It is the highest mountain peak in the Lesser Antilles, rising 1,467 m high.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Grande Soufrière",
+    "url": "https://en.wikipedia.org/wiki/La_Grande_Soufri%C3%A8re",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1149310.webp",
+    "author": "Ofol",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Guadeloupe_114_-_Sommet_de_la_Soufri%C3%A8re_1467m_-_Guadeloupe.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1024682",
+   "name": "La Désirade",
+   "label": "La Désirade",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3167,
+   "lon": -61.05,
+   "rarity": "Epic",
+   "fame": 30222,
+   "facts": {
+    "elevation_m": 276,
+    "area_km2": 21,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It forms part of Guadeloupe, an overseas region of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Désirade",
+    "url": "https://en.wikipedia.org/wiki/La_D%C3%A9sirade",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1024682.webp",
+    "author": "Grook Da Oger",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pano_D%C3%A9sirade.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3089172",
+   "name": "Terre-de-Haut Island",
+   "label": "Terre-de-Haut Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.8667,
+   "lon": -61.5667,
+   "rarity": "Epic",
+   "fame": 7878,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 5.2,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Terre-de-Haut Island is the easternmost island in the Îles des Saintes, part of the archipelago of Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Terre-de-Haut Island",
+    "url": "https://en.wikipedia.org/wiki/Terre-de-Haut_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3089172.webp",
+    "author": "Friman",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort-Napol%C3%A9on-des-Saintes.jpg"
+   }
+  },
+  {
+   "id": "gn:3578599",
+   "name": "Pointe-à-Pitre",
+   "label": "Pointe-à-Pitre",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2364,
+   "lon": -61.5346,
+   "rarity": "Epic",
+   "fame": 93528,
+   "facts": {
+    "population": 15181,
+    "elevation_m": 3.0,
+    "area_km2": 2.7,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Pointe-à-Pitre is the second most populous commune of Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pointe-à-Pitre",
+    "url": "https://en.wikipedia.org/wiki/Pointe-%C3%A0-Pitre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578599.webp",
+    "author": "Zivax",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pointe-%C3%A0-Pitre.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3077957",
+   "name": "Fort Napoléon des Saintes",
+   "label": "Fort Napoléon des Saintes",
+   "type": "built",
+   "kind": "fort",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.875,
+   "lon": -61.5825,
+   "rarity": "Legendary",
+   "fame": 8814,
+   "facts": {
+    "elevation_m": 98,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Property of the Departmental Council of Guadeloupe, it has been classified as a historical monument since the December 15, 1997.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Napoléon des Saintes",
+    "url": "https://en.wikipedia.org/wiki/Fort_Napol%C3%A9on_des_Saintes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3077957.webp",
+    "author": "Gauthier Geoffroy",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Napol%C3%A9on_dans_l%27archipel_des_Saintes.jpg"
+   }
+  },
+  {
+   "id": "gn:3579732",
+   "name": "Basse-Terre",
+   "label": "Basse-Terre",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9971,
+   "lon": -61.7321,
+   "rarity": "Legendary",
+   "fame": 59550,
+   "facts": {
+    "population": 11472,
+    "elevation_m": 11,
+    "area_km2": 5.8,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "It is also the prefecture of Guadeloupe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basse-Terre",
+    "url": "https://en.wikipedia.org/wiki/Basse-Terre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579732.webp",
+    "author": "Daniel Jolivet",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monts_Cara%C3%AFbes_depuis_le_Fort_Louis_Delgr%C3%A8s_%C3%A0_Basse-Terre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q37421314",
+   "name": "Église Notre-Dame-de-l'Assomption de Petit-Bourg",
+   "label": "Église Notre-Dame-de-l'Assomption de Petit-Bourg",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.1941,
+   "lon": -61.5918,
+   "rarity": "Rare",
+   "fame": 384,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q37421314.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre_Dame_de_l%27Assomption_de_Petit-Bourg_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q60387430",
+   "name": "Église Saint-Louis du Gosier",
+   "label": "Église Saint-Louis du Gosier",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2067,
+   "lon": -61.4945,
+   "rarity": "Rare",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 24,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q60387430.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Louis_du_Gosier_en_2025.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17177572",
+   "name": "Église Notre-Dame du Bon-Secours de la Désirade",
+   "label": "Église Notre-Dame du Bon-Secours de la Désirade",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3039,
+   "lon": -61.0752,
+   "rarity": "Rare",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17177572.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre-Dame_du_Bon-Secours_de_la_D%C3%A9sirade.JPG"
+   }
+  },
+  {
+   "id": "wd:Q56527564",
+   "name": "Église Saint-Jean-Baptiste de Baie-Mahault",
+   "label": "Église Saint-Jean-Baptiste de Baie-Mahault",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2673,
+   "lon": -61.586,
+   "rarity": "Rare",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 19,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q56527564.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Jean-Baptiste_de_Baie-Mahault.JPG"
+   }
+  },
+  {
+   "id": "wd:Q28112374",
+   "name": "Église Notre-Dame-de-l'Assomption de Trois-Rivières",
+   "label": "Église Notre-Dame-de-l'Assomption de Trois-Rivières",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9755,
+   "lon": -61.6448,
+   "rarity": "Rare",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 108,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28112374.webp",
+    "author": "Filo gèn'",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_Trois-rivi%C3%A8res.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15950314",
+   "name": "Habitation La Grivelière",
+   "label": "Habitation La Grivelière",
+   "type": "built",
+   "kind": "plantation house",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0716,
+   "lon": -61.7288,
+   "rarity": "Rare",
+   "fame": 1506,
+   "facts": {
+    "elevation_m": 206,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "Habitation La Grivelière is a coffee plantation and coffeehouse in Vieux-Habitants, Basse-Terre, Guadeloupe, an overseas region of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Habitation La Grivelière",
+    "url": "https://en.wikipedia.org/wiki/Habitation_La_Griveli%C3%A8re",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15950314.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habitation_La_Griveli%C3%A8re_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q60389695",
+   "name": "église Saint-Philippe-et-Saint-Jacques de Petit-Canal",
+   "label": "église Saint-Philippe-et-Saint-Jacques de Petit-Canal",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.379,
+   "lon": -61.4923,
+   "rarity": "Rare",
+   "fame": 306,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q60389695.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-Philippe-et-Saint-Jacques_de_Petit-Canal.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24874504",
+   "name": "Plage de Clugny",
+   "label": "Plage de Clugny",
+   "type": "built",
+   "kind": "beach",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3536,
+   "lon": -61.7538,
+   "rarity": "Rare",
+   "fame": 1350,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A beach in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24874504.webp",
+    "author": "FreeProuilhe",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plage_de_Cluny,_Ste-Rose,_Guadeloupe.jpg"
+   }
+  },
+  {
+   "id": "wd:Q20669924",
+   "name": "Sucrerie Roussel-Trianon",
+   "label": "Sucrerie Roussel-Trianon",
+   "type": "built",
+   "kind": "plantation house",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.8983,
+   "lon": -61.3227,
+   "rarity": "Rare",
+   "fame": 546,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A plantation house in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20669924.webp",
+    "author": "Écomusée de Marie Galante",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habitation_Roussel-Trianon.Ecuries.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24855424",
+   "name": "Canal de Perrin",
+   "label": "Canal de Perrin",
+   "type": "built",
+   "kind": "canal",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3125,
+   "lon": -61.5347,
+   "rarity": "Rare",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A canal in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24855424.webp",
+    "author": "Horza",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Canal_de_Perrin_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q20669809",
+   "name": "Monastère Saint-Antoine de Basse-Terre",
+   "label": "Monastère Saint-Antoine de Basse-Terre",
+   "type": "built",
+   "kind": "monastery",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9961,
+   "lon": -61.7297,
+   "rarity": "Rare",
+   "fame": 222,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A monastery in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20669809.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monast%C3%A8re_Saint-Antoine_-_Sept._2013_(4).JPG"
+   }
+  },
+  {
+   "id": "wd:Q37355153",
+   "name": "église de la Sainte-Trinité de Lamentin",
+   "label": "église de la Sainte-Trinité de Lamentin",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2717,
+   "lon": -61.6325,
+   "rarity": "Rare",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A church in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q37355153.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_la_Sainte-Trinit%C3%A9_de_Lamentin.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3089210",
+   "name": "Terre-de-Bas Island",
+   "label": "Terre-de-Bas Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.85,
+   "lon": -61.6167,
+   "rarity": "Rare",
+   "fame": 3150,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 9.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Terre-de-Bas Island is an island in the Îles des Saintes archipelago, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Terre-de-Bas Island",
+    "url": "https://en.wikipedia.org/wiki/Terre-de-Bas_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3089210.webp",
+    "author": "Moowgly",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Terre-de-Bas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3272062",
+   "name": "Lézarde",
+   "label": "Lézarde",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2136,
+   "lon": -61.5847,
+   "rarity": "Rare",
+   "fame": 918,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 26,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It bears its name from the way it winds between rocks and the rainforest.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lézarde (Guadeloupe)",
+    "url": "https://en.wikipedia.org/wiki/L%C3%A9zarde_%28Guadeloupe%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3272062.webp",
+    "author": "Rolland.franck",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LaLezarde.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3226931",
+   "name": "Acomat Falls",
+   "label": "Acomat Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2092,
+   "lon": -61.7606,
+   "rarity": "Rare",
+   "fame": 3996,
+   "facts": {
+    "elevation_m": 98,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "This waterfall is located in Guadeloupe, an insular region of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Acomat Falls",
+    "url": "https://en.wikipedia.org/wiki/Acomat_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3226931.webp",
+    "author": "Zivax",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guadeloupe_(4).JPG"
+   }
+  },
+  {
+   "id": "wd:Q3593587",
+   "name": "Îlet à Cochons",
+   "label": "Îlet à Cochons",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2147,
+   "lon": -61.5409,
+   "rarity": "Rare",
+   "fame": 1326,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3593587.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%8Elet_%C3%A0_Cochons.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3115019",
+   "name": "Grande Rivière à Goyaves",
+   "label": "Grande Rivière à Goyaves",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2991,
+   "lon": -61.6072,
+   "rarity": "Rare",
+   "fame": 1050,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 39,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Grande Rivière à Goyaves is the longest river in Guadeloupe, found on the island of Basse-Terre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grande Rivière à Goyaves",
+    "url": "https://en.wikipedia.org/wiki/Grande_Rivi%C3%A8re_%C3%A0_Goyaves",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3115019.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grande_rivi%C3%A8re_%C3%A0_Goyaves_au_guet_de_Ravine_chaude.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3284967",
+   "name": "Les Mamelles",
+   "label": "Les Mamelles",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.1775,
+   "lon": -61.7356,
+   "rarity": "Rare",
+   "fame": 1944,
+   "facts": {
+    "elevation_m": 768,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3284967.webp",
+    "author": "Filo gèn'",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Les_Mamelles.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3593590",
+   "name": "îlet à Fajou",
+   "label": "îlet à Fajou",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3492,
+   "lon": -61.5858,
+   "rarity": "Rare",
+   "fame": 882,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 1.1,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3593590.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ilet_%C3%A0_Fajou_vu_de_la_rive_de_Baie-Mahault.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3474287",
+   "name": "saut de la Lézarde",
+   "label": "saut de la Lézarde",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.1778,
+   "lon": -61.6553,
+   "rarity": "Rare",
+   "fame": 804,
+   "facts": {
+    "elevation_m": 162,
+    "height_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A waterfall in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3474287.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saut_de_la_L%C3%A9zarde.JPG"
+   }
+  },
+  {
+   "id": "wd:Q21427418",
+   "name": "îlet Feuille",
+   "label": "îlet Feuille",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2293,
+   "lon": -61.558,
+   "rarity": "Rare",
+   "fame": 744,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21427418.webp"
+   }
+  },
+  {
+   "id": "wd:Q24861146",
+   "name": "Îlet la Biche",
+   "label": "Îlet la Biche",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3366,
+   "lon": -61.6512,
+   "rarity": "Rare",
+   "fame": 606,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24861146.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Biche_vue_du_port_de_Morne-Rouge.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3390845",
+   "name": "Grande Anse",
+   "label": "Grande Anse",
+   "type": "nature",
+   "kind": "bay",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3069,
+   "lon": -61.7944,
+   "rarity": "Rare",
+   "fame": 1044,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A bay in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3390845.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plage_de_Grande_Anse_vers_le_sud.JPG"
+   }
+  },
+  {
+   "id": "wd:Q24854832",
+   "name": "porte d'Enfer",
+   "label": "porte d'Enfer",
+   "type": "nature",
+   "kind": "bay",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.4894,
+   "lon": -61.4414,
+   "rarity": "Rare",
+   "fame": 1026,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A bay in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24854832.webp",
+    "author": "FreeProuilhe",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porte_d%27enfer,_Anse-Bertrand,_Guadeloupe.jpg"
+   }
+  },
+  {
+   "id": "gn:3579767",
+   "name": "Baie-Mahault",
+   "label": "Baie-Mahault",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2674,
+   "lon": -61.5854,
+   "rarity": "Rare",
+   "fame": 22014,
+   "facts": {
+    "population": 30837,
+    "elevation_m": 18,
+    "area_km2": 46,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is the second most populated commune of Guadeloupe, after Les Abymes.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Baie-Mahault",
+    "url": "https://en.wikipedia.org/wiki/Baie-Mahault",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579767.webp"
+   }
+  },
+  {
+   "id": "gn:3579429",
+   "name": "Deshaies",
+   "label": "Deshaies",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.3067,
+   "lon": -61.7944,
+   "rarity": "Rare",
+   "fame": 24558,
+   "facts": {
+    "population": 3792,
+    "elevation_m": 9.0,
+    "area_km2": 31,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Deshaies is a commune in the French overseas region and department of Guadeloupe, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Deshaies",
+    "url": "https://en.wikipedia.org/wiki/Deshaies",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579429.webp",
+    "author": "Hugo Elby",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Day_cruise_from_Deshaies.JPG"
+   }
+  },
+  {
+   "id": "gn:3578959",
+   "name": "Les Abymes",
+   "label": "Les Abymes",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.273,
+   "lon": -61.5051,
+   "rarity": "Rare",
+   "fame": 46134,
+   "facts": {
+    "population": 53514,
+    "elevation_m": 20,
+    "area_km2": 81,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Les Abymes is the most populous commune in the French overseas region and department of Guadeloupe, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Les Abymes",
+    "url": "https://en.wikipedia.org/wiki/Les_Abymes",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578959.webp"
+   }
+  },
+  {
+   "id": "gn:3578978",
+   "name": "Le Gosier",
+   "label": "Le Gosier",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2062,
+   "lon": -61.4931,
+   "rarity": "Rare",
+   "fame": 14808,
+   "facts": {
+    "population": 28698,
+    "elevation_m": 24,
+    "area_km2": 45,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Le Gosier is a commune in the French overseas region and department of Guadeloupe, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Gosier",
+    "url": "https://en.wikipedia.org/wiki/Le_Gosier",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578978.webp",
+    "author": "Filbar29",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plage_de_la_Datcha,_Le_Gosier.JPG"
+   }
+  },
+  {
+   "id": "wd:Q24855416",
+   "name": "Morne Perelle",
+   "label": "Morne Perelle",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 15.9653,
+   "lon": -61.6797,
+   "rarity": "Common",
+   "fame": 30,
+   "facts": {
+    "elevation_m": 335,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A mountain in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24855416.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vue_du_morne_P%C3%A9relle_et_du_morne_Bel-Air_par_le_port_de_Trois-Rivi%C3%A8res.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24855330",
+   "name": "Rivière Mahault",
+   "label": "Rivière Mahault",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2554,
+   "lon": -61.6093,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 11,
+    "length_km": 14,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A river in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24855330.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_Mahault.jpg"
+   }
+  },
+  {
+   "id": "wd:Q118976339",
+   "name": "chute de la rivière Caillou",
+   "label": "chute de la rivière Caillou",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.2379,
+   "lon": -61.7808,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 130,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A waterfall in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q118976339.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deuxi%C3%A8me_chute_de_la_rivi%C3%A8re_Caillou.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24861039",
+   "name": "rivière aux Herbes",
+   "label": "rivière aux Herbes",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-GP",
+   "country": "GP",
+   "lat": 16.0022,
+   "lon": -61.7167,
+   "rarity": "Common",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 115,
+    "length_km": 6.3,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "A river in Guadeloupe.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24861039.webp"
+   }
+  }
+ ]
+}

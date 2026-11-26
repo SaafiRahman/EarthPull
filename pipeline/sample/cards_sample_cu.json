@@ -1,0 +1,3116 @@
+{
+ "note": "Sample of the Cuba card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q3647156",
+   "name": "Cayo Fragoso",
+   "label": "Cayo Fragoso",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.7333,
+   "lon": -79.5333,
+   "rarity": "Common",
+   "fame": 1032,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 101,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "It has a total area of 101 square kilometers and is part of the Sabana-Camagüey Archipelago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Fragoso",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Fragoso",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3647156.webp"
+   }
+  },
+  {
+   "id": "wd:Q23806187",
+   "name": "Presa Nipe",
+   "label": "Presa Nipe",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.6444,
+   "lon": -75.8637,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A lake in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23806187.webp"
+   }
+  },
+  {
+   "id": "wd:Q23797119",
+   "name": "Galano Hill",
+   "label": "Galano Hill",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.9203,
+   "lon": -76.0456,
+   "rarity": "Common",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 257,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A mountain range in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23797119.webp",
+    "author": "Irám René GD",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_galano_holguin_cuba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23796530",
+   "name": "Silla de Gibara",
+   "label": "Silla de Gibara",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 21.021,
+   "lon": -76.1039,
+   "rarity": "Common",
+   "fame": 294,
+   "facts": {
+    "elevation_m": 176,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A mountain in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23796530.webp",
+    "author": "Irám René GD",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silla_de_gibara_holguin_cuba_002.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23793267",
+   "name": "Cayo Moa Grande",
+   "label": "Cayo Moa Grande",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.6928,
+   "lon": -74.9103,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23793267.webp"
+   }
+  },
+  {
+   "id": "wd:Q2740524",
+   "name": "Matanzas Bay",
+   "label": "Matanzas Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 23.0742,
+   "lon": -81.506,
+   "rarity": "Common",
+   "fame": 756,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A bay in Matanzas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2740524.webp"
+   }
+  },
+  {
+   "id": "wd:Q23797577",
+   "name": "río Duaba",
+   "label": "río Duaba",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 20.3747,
+   "lon": -74.5236,
+   "rarity": "Common",
+   "fame": 204,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "A river in Guantánamo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23797577.webp",
+    "author": "Martin Cígler",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Duaba_river,_Baracoa_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6114745",
+   "name": "Agabama River",
+   "label": "Agabama River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-07",
+   "country": "CU",
+   "lat": 21.6667,
+   "lon": -79.8261,
+   "rarity": "Common",
+   "fame": 606,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "The river begins in the Santa Clara Mountains and runs 118 km between the Escambray Mountains to the west and Sierra de Sancti Spíritus to the east.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Agabama River",
+    "url": "https://en.wikipedia.org/wiki/Agabama_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6114745.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-36005_-_View_of_Cuba_-_Trinidad_(Sancti_Spiritus_province).jpg"
+   }
+  },
+  {
+   "id": "wd:Q23795153",
+   "name": "río Jiquiabo",
+   "label": "río Jiquiabo",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.6867,
+   "lon": -80.25,
+   "rarity": "Common",
+   "fame": 54,
+   "facts": {
+    "elevation_m": 39,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A river in Villa Clara.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23795153.webp"
+   }
+  },
+  {
+   "id": "wd:Q23795385",
+   "name": "Guayabo Falls",
+   "label": "Guayabo Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.5694,
+   "lon": -75.7362,
+   "rarity": "Common",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 390,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A waterfall in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23795385.webp",
+    "author": "Irám René GD",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salto_del_Guayabo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5034279",
+   "name": "Canímar River",
+   "label": "Canímar River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 23.0,
+   "lon": -81.4667,
+   "rarity": "Common",
+   "fame": 828,
+   "facts": {
+    "elevation_m": 86,
+    "length_km": 12,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "It reaches the sea at Matanzas, south-est side of the Matanzas Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canímar River",
+    "url": "https://en.wikipedia.org/wiki/Can%C3%ADmar_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5034279.webp",
+    "author": "Emmanuel Huybrechts from Laval, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scenes_of_Cuba_(K5_02450)_(5978306602).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5759295",
+   "name": "Cayo Sotavento",
+   "label": "Cayo Sotavento",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 23.0617,
+   "lon": -80.1592,
+   "rarity": "Common",
+   "fame": 174,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "An island in Villa Clara.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5759295.webp"
+   }
+  },
+  {
+   "id": "gn:3567669",
+   "name": "Bartolomé Masó",
+   "label": "Bartolomé Masó",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.1666,
+   "lon": -76.944,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 53024,
+    "elevation_m": 63,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "A community of 53,024 people in Granma.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3567669.webp"
+   }
+  },
+  {
+   "id": "gn:3539093",
+   "name": "San Luis",
+   "label": "San Luis (Santiago de Cuba)",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-13",
+   "country": "CU",
+   "lat": 20.1881,
+   "lon": -75.8503,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 67293,
+    "elevation_m": 201,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A community of 67,293 people in Santiago de Cuba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3539093.webp"
+   }
+  },
+  {
+   "id": "gn:3542167",
+   "name": "Río Cauto",
+   "label": "Río Cauto",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.5598,
+   "lon": -76.9167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 23737,
+    "elevation_m": 12,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 23,737 people in Granma.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3542167.webp"
+   }
+  },
+  {
+   "id": "gn:3557801",
+   "name": "Guanajay",
+   "label": "Guanajay",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-15",
+   "country": "CU",
+   "lat": 22.9261,
+   "lon": -82.6869,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 25258,
+    "elevation_m": 109,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "A community of 25,258 people in Artemisa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3557801.webp"
+   }
+  },
+  {
+   "id": "gn:3533753",
+   "name": "Yara",
+   "label": "Yara",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.2742,
+   "lon": -76.9523,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 28944,
+    "elevation_m": 25,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 28,944 people in Granma.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3533753.webp"
+   }
+  },
+  {
+   "id": "gn:3533826",
+   "name": "Yaguajay",
+   "label": "Yaguajay",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-07",
+   "country": "CU",
+   "lat": 22.3269,
+   "lon": -79.2369,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 42218,
+    "elevation_m": 22,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "A community of 42,218 people in Sancti Spíritus.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3533826.webp"
+   }
+  },
+  {
+   "id": "gn:3535775",
+   "name": "Soroa",
+   "label": "Soroa",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-15",
+   "country": "CU",
+   "lat": 22.7984,
+   "lon": -83.0125,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7205,
+    "elevation_m": 247,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "A community of 7,205 people in Artemisa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3535775.webp",
+    "author": "BenjiPill",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-06_-_Cuba,_Soroa_05.jpg"
+   }
+  },
+  {
+   "id": "gn:3548529",
+   "name": "Madruga",
+   "label": "Madruga",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-16",
+   "country": "CU",
+   "lat": 22.9098,
+   "lon": -81.8566,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 33798,
+    "elevation_m": 150,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "A community of 33,798 people in Mayabeque.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3548529.webp"
+   }
+  },
+  {
+   "id": "gn:3550002",
+   "name": "Leader",
+   "label": "Leader",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.0333,
+   "lon": -82.25,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5612,
+    "elevation_m": 99,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 5,612 people in Havana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3550002.webp"
+   }
+  },
+  {
+   "id": "gn:3551184",
+   "name": "La Sierpe",
+   "label": "La Sierpe",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-07",
+   "country": "CU",
+   "lat": 21.7717,
+   "lon": -79.2678,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 16937,
+    "elevation_m": 41,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 16,937 people in Sancti Spíritus.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3551184.webp"
+   }
+  },
+  {
+   "id": "gn:3541446",
+   "name": "Sagua de Tánamo",
+   "label": "Sagua de Tánamo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.5828,
+   "lon": -75.2412,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 18282,
+    "elevation_m": 26,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 18,282 people in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3541446.webp"
+   }
+  },
+  {
+   "id": "gn:3563609",
+   "name": "Condado",
+   "label": "Condado",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-07",
+   "country": "CU",
+   "lat": 21.876,
+   "lon": -79.8401,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 38248,
+    "elevation_m": 36,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "A community of 38,248 people in Sancti Spíritus.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3563609.webp"
+   }
+  },
+  {
+   "id": "wd:Q12597",
+   "name": "Malecón",
+   "label": "Malecón",
+   "type": "built",
+   "kind": "boulevard",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1417,
+   "lon": -82.3681,
+   "rarity": "Epic",
+   "fame": 22164,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 8.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Malecón is a broad esplanade, roadway, and seawall that stretches for 8 km along the coast in Havana, Cuba, from the mouth of Havana Harbor in Old Havana.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Malecón, Havana",
+    "url": "https://en.wikipedia.org/wiki/Malec%C3%B3n%2C_Havana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q12597.webp",
+    "author": "Lukas Mathis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Havana_malecon_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5426832",
+   "name": "FOCSA Building",
+   "label": "FOCSA Building",
+   "type": "built",
+   "kind": "apartment building",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1429,
+   "lon": -82.3841,
+   "rarity": "Epic",
+   "fame": 16830,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "At 121 meters, it was the tallest building in Cuba for nearly 7 decades until the construction of the Torre K in 2025.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "FOCSA Building",
+    "url": "https://en.wikipedia.org/wiki/FOCSA_Building",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5426832.webp",
+    "author": "Hmaglione10",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edificio_Focsa-La_Habana-Cuba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369326",
+   "name": "Estadio Latinoamericano",
+   "label": "Estadio Latinoamericano",
+   "type": "built",
+   "kind": "stadium",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1183,
+   "lon": -82.3761,
+   "rarity": "Epic",
+   "fame": 20802,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is primarily used for baseball, and is the second largest baseball stadium in the world by capacity.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Latinoamericano",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Latinoamericano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369326.webp",
+    "author": "Goodgirl",
+    "licence": "CC BY-SA 2.0 de",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Habana_-_Estadio_Latinoamericano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q910189",
+   "name": "Castillo de San Pedro de la Roca",
+   "label": "Castillo de San Pedro de la Roca",
+   "type": "built",
+   "kind": "fortress",
+   "region": "CU-13",
+   "country": "CU",
+   "lat": 19.9687,
+   "lon": -75.8703,
+   "rarity": "Epic",
+   "fame": 6372,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.9,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "About 6 miles southwest of the city centre, it overlooks the bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castillo de San Pedro de la Roca",
+    "url": "https://en.wikipedia.org/wiki/Castillo_de_San_Pedro_de_la_Roca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q910189.webp",
+    "author": "Glogg, Peter, Switzerland",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castillo_del_Morro_by_Glogg_4.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7541375",
+   "name": "Sloppy Joe's Bar, Havana",
+   "label": "Sloppy Joe's Bar, Havana",
+   "type": "built",
+   "kind": "historic building",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1395,
+   "lon": -82.358,
+   "rarity": "Epic",
+   "fame": 6036,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The bar reopened in 2013 after being closed for 48 years.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sloppy Joe's Bar, Havana",
+    "url": "https://en.wikipedia.org/wiki/Sloppy_Joe%27s_Bar%2C_Havana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7541375.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Havana_-_Sloppy_Joe%27s_Bar.jpg"
+   }
+  },
+  {
+   "id": "wd:Q635199",
+   "name": "Morro Castle",
+   "label": "Morro Castle",
+   "type": "built",
+   "kind": "fortress",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1504,
+   "lon": -82.3567,
+   "rarity": "Epic",
+   "fame": 9900,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Castillo de los Tres Reyes del Morro, also known as Castillo del Morro, is a fortress guarding the entrance to the Havana harbor.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castillo de los Tres Reyes Del Morro",
+    "url": "https://en.wikipedia.org/wiki/Castillo_de_los_Tres_Reyes_Del_Morro",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q635199.webp",
+    "author": "Dr. Anthony R. Picciolo, NOAA NODC",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:El_Moro_Havanna_Cuba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4886470",
+   "name": "Hotel Habana Riviera",
+   "label": "Hotel Habana Riviera",
+   "type": "built",
+   "kind": "hotel",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1397,
+   "lon": -82.404,
+   "rarity": "Epic",
+   "fame": 11406,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Hotel Habana Riviera, originally known as the Havana Riviera.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hotel Habana Riviera",
+    "url": "https://en.wikipedia.org/wiki/Hotel_Habana_Riviera",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4886470.webp",
+    "author": "Leandro Neumann Ciuffo",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Riviera_(525406392).jpg"
+   }
+  },
+  {
+   "id": "wd:Q6058329",
+   "name": "Palace of the Revolution",
+   "label": "Palace of the Revolution",
+   "type": "built",
+   "kind": "building",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1207,
+   "lon": -82.3873,
+   "rarity": "Epic",
+   "fame": 25968,
+   "facts": {
+    "elevation_m": 37,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Palace of the Revolution, is a palace in Havana, Cuba within the Plaza de la Revolución that serves as the house of the Cuban government and the First…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palace of the Revolution",
+    "url": "https://en.wikipedia.org/wiki/Palace_of_the_Revolution",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6058329.webp"
+   }
+  },
+  {
+   "id": "wd:Q253103",
+   "name": "Playa Girón",
+   "label": "Playa Girón",
+   "type": "built",
+   "kind": "beach",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 22.0667,
+   "lon": -81.0333,
+   "rarity": "Epic",
+   "fame": 17250,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Note: \"Playa Girón\" is also the title of a song included in the album \"Días y Flores\", by Silvio Rodriguez.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Playa Girón",
+    "url": "https://en.wikipedia.org/wiki/Playa_Gir%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q253103.webp",
+    "author": "Bibit",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playagiron.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15043487",
+   "name": "Havana Cathedral",
+   "label": "Havana Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1414,
+   "lon": -82.3519,
+   "rarity": "Epic",
+   "fame": 16464,
+   "facts": {
+    "elevation_m": 12,
+    "length_km": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Havana Cathedral is one of eleven Catholic cathedrals on the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Havana Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Havana_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15043487.webp",
+    "author": "Velvet",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Havane_cathedrale_face.JPG"
+   }
+  },
+  {
+   "id": "wd:Q134282525",
+   "name": "Pico La Bayamesa National Park",
+   "label": "Pico La Bayamesa National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.0333,
+   "lon": -76.5833,
+   "rarity": "Epic",
+   "fame": 318,
+   "facts": {
+    "elevation_m": 1240,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "It is located in the Sierra Maestra in Granma and Santiago de Cuba provinces.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pico La Bayamesa National Park",
+    "url": "https://en.wikipedia.org/wiki/Pico_La_Bayamesa_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q134282525.webp"
+   }
+  },
+  {
+   "id": "wd:Q48153",
+   "name": "Alexander von Humboldt National Park",
+   "label": "Alexander von Humboldt National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.4967,
+   "lon": -74.8579,
+   "rarity": "Epic",
+   "fame": 4656,
+   "facts": {
+    "elevation_m": 821,
+    "area_km2": 711,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "It is named after the German scientist Alexander von Humboldt who visited the island in 1800 and 1801.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alejandro de Humboldt National Park",
+    "url": "https://en.wikipedia.org/wiki/Alejandro_de_Humboldt_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q48153.webp"
+   }
+  },
+  {
+   "id": "wd:Q1145743",
+   "name": "Pico Turquino",
+   "label": "Pico Turquino",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CU-13",
+   "country": "CU",
+   "lat": 19.9894,
+   "lon": -76.8358,
+   "rarity": "Epic",
+   "fame": 21348,
+   "facts": {
+    "elevation_m": 1974,
+    "prominence_m": 1974,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "Pico Turquino, sometimes erroneously spelled as Pico Torquino, is the highest point in Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pico Turquino",
+    "url": "https://en.wikipedia.org/wiki/Pico_Turquino",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1145743.webp",
+    "author": "Oliver Rühl at de.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:PicoTurquino.jpg"
+   }
+  },
+  {
+   "id": "wd:Q704637",
+   "name": "Ernst Thälmann Island",
+   "label": "Ernst Thälmann Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 22.0291,
+   "lon": -81.3924,
+   "rarity": "Epic",
+   "fame": 45390,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 7.5,
+    "length_km": 15,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Ernst Thälmann Island or Ernst Thälmann Cay is a 15 km long and 500 m wide island in the Gulf of Cazones.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ernst Thälmann Island",
+    "url": "https://en.wikipedia.org/wiki/Ernst_Th%C3%A4lmann_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q704637.webp",
+    "author": "Koard, Peter",
+    "licence": "CC BY-SA 3.0 de",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-L0619-026,_Castro,_Landkarte_Kubas_%C3%BCberreicht.jpg"
+   }
+  },
+  {
+   "id": "wd:Q208035",
+   "name": "Guantánamo Bay",
+   "label": "Guantánamo Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 19.925,
+   "lon": -75.15,
+   "rarity": "Epic",
+   "fame": 176940,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Guantánamo Bay is a bay in Guantánamo Province at the southeastern end of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guantánamo Bay",
+    "url": "https://en.wikipedia.org/wiki/Guant%C3%A1namo_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q208035.webp",
+    "author": "Lithiumpilz",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_sky_over_Guantanamo_Bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14228860",
+   "name": "Parque Nacional La Güira",
+   "label": "Parque Nacional La Güira",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.701,
+   "lon": -83.368,
+   "rarity": "Epic",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 333,
+    "temp_c": 23.8
+   },
+   "flavour": {
+    "text": "A national park in Pinar del Río.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14228860.webp",
+    "author": "Rob Oo from NL",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Surrounded_(49572863751).jpg"
+   }
+  },
+  {
+   "id": "wd:Q208508",
+   "name": "Bay of Pigs",
+   "label": "Bay of Pigs",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 22.2167,
+   "lon": -81.1667,
+   "rarity": "Epic",
+   "fame": 56076,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "The Bay of Pigs is an inlet of the Gulf of Cazones, located on the southern coast of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bay of Pigs",
+    "url": "https://en.wikipedia.org/wiki/Bay_of_Pigs",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q208508.webp",
+    "author": "Vgenecr at Dutch Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Varkensbaai2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5406557",
+   "name": "Ciénaga de Lanier National Park",
+   "label": "Ciénaga de Lanier National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CU-99",
+   "country": "CU",
+   "lat": 21.6006,
+   "lon": -82.8,
+   "rarity": "Epic",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "A national park in Isla de la Juventud.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5406557.webp",
+    "author": "Friman",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_de_la_Juventud_-_Crocodile_area.JPG"
+   }
+  },
+  {
+   "id": "wd:Q115027",
+   "name": "Isla de la Juventud",
+   "label": "Isla de la Juventud",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-99",
+   "country": "CU",
+   "lat": 21.75,
+   "lon": -82.85,
+   "rarity": "Epic",
+   "fame": 82188,
+   "facts": {
+    "elevation_m": 20,
+    "area_km2": 2419,
+    "length_km": 70,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Isla de la Juventud is the second-largest Cuban island and the seventh-largest island in the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla de la Juventud",
+    "url": "https://en.wikipedia.org/wiki/Isla_de_la_Juventud",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q115027.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_de_la_Juventud.jpg"
+   }
+  },
+  {
+   "id": "wd:Q909755",
+   "name": "Desembarco del Granma National Park",
+   "label": "Desembarco del Granma National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 19.8833,
+   "lon": -77.6333,
+   "rarity": "Epic",
+   "fame": 2826,
+   "facts": {
+    "elevation_m": 107,
+    "area_km2": 326,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Desembarco del Granma National Park is a national park in south-western Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Desembarco del Granma National Park",
+    "url": "https://en.wikipedia.org/wiki/Desembarco_del_Granma_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q909755.webp",
+    "author": "VIChapayev at Wikitravel",
+    "licence": "CC BY-SA 1.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cascada_en_El_Nicho.jpg"
+   }
+  },
+  {
+   "id": "gn:3563908",
+   "name": "Cojímar",
+   "label": "Cojímar",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1648,
+   "lon": -82.3012,
+   "rarity": "Epic",
+   "fame": 12378,
+   "facts": {
+    "population": 20390,
+    "elevation_m": 14,
+    "area_km2": 4.2,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The town was the residence of the American author Ernest Hemingway, who lived there for a time and kept his fishing boat, the Pilar, in the town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cojímar",
+    "url": "https://en.wikipedia.org/wiki/Coj%C3%ADmar",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3563908.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fuerte_de_Cojimar,_Cojimar,_Cuba_LCCN2010638895.tif"
+   }
+  },
+  {
+   "id": "gn:3568312",
+   "name": "Artemisa",
+   "label": "Artemisa",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-15",
+   "country": "CU",
+   "lat": 22.8137,
+   "lon": -82.7581,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 68073,
+    "elevation_m": 43,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 68,073 people in Artemisa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3568312.webp"
+   }
+  },
+  {
+   "id": "gn:3535498",
+   "name": "Tarará",
+   "label": "Tarará",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1745,
+   "lon": -82.2065,
+   "rarity": "Epic",
+   "fame": 4458,
+   "facts": {
+    "population": 4512,
+    "elevation_m": 16,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "It is about 19 km east of the city centre and west of other beaches including Santa Maria del Mar and Guanabo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tarará",
+    "url": "https://en.wikipedia.org/wiki/Tarar%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3535498.webp",
+    "author": "Alexander Berezhnoy",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TARARA._(District_of_Havana,_Cuba)._-_panoramio_(14).jpg"
+   }
+  },
+  {
+   "id": "gn:3547398",
+   "name": "Matanzas",
+   "label": "Matanzas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 23.0439,
+   "lon": -81.5828,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 146733,
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 146,733 people in Matanzas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3547398.webp"
+   }
+  },
+  {
+   "id": "gn:3566067",
+   "name": "Camagüey",
+   "label": "Camagüey",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-09",
+   "country": "CU",
+   "lat": 21.3808,
+   "lon": -77.9169,
+   "rarity": "Epic",
+   "fame": 49686,
+   "facts": {
+    "population": 347562,
+    "elevation_m": 102,
+    "area_km2": 1106,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Camagüey is a city and municipality in central Cuba and the nation's third-largest city with more than 333,000 inhabitants.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Camagüey",
+    "url": "https://en.wikipedia.org/wiki/Camag%C3%BCey",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3566067.webp",
+    "author": "Danleo",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Camaguey_rooftops_2.jpg"
+   }
+  },
+  {
+   "id": "gn:3544091",
+   "name": "Pinar del Río",
+   "label": "Pinar del Río",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.4165,
+   "lon": -83.6966,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 186990,
+    "elevation_m": 55,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A community of 186,990 people in Pinar del Río.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3544091.webp"
+   }
+  },
+  {
+   "id": "gn:3539560",
+   "name": "San José de las Lajas",
+   "label": "San José de las Lajas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-16",
+   "country": "CU",
+   "lat": 22.9612,
+   "lon": -82.1515,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 54847,
+    "elevation_m": 138,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A community of 54,847 people in Mayabeque.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3539560.webp"
+   }
+  },
+  {
+   "id": "gn:3537906",
+   "name": "Santa Clara",
+   "label": "Santa Clara",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.4071,
+   "lon": -79.9658,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 250512,
+    "elevation_m": 132,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "A community of 250,512 people in Villa Clara.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3537906.webp"
+   }
+  },
+  {
+   "id": "gn:3556969",
+   "name": "Holguín",
+   "label": "Holguín",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.8872,
+   "lon": -76.2631,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 319102,
+    "elevation_m": 146,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 319,102 people in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3556969.webp"
+   }
+  },
+  {
+   "id": "gn:3545867",
+   "name": "Nueva Gerona",
+   "label": "Nueva Gerona",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-99",
+   "country": "CU",
+   "lat": 21.8876,
+   "lon": -82.8066,
+   "rarity": "Epic",
+   "fame": 18360,
+   "facts": {
+    "population": 20264,
+    "elevation_m": 10,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Nueva Gerona is a Cuban city, capital of the Isla de la Juventud special municipality and province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nueva Gerona",
+    "url": "https://en.wikipedia.org/wiki/Nueva_Gerona",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3545867.webp",
+    "author": "Friman",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Presidio_Modelo.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5027702",
+   "name": "Camp X-Ray",
+   "label": "Camp X-Ray",
+   "type": "built",
+   "kind": "detention center",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 19.9382,
+   "lon": -75.097,
+   "rarity": "Legendary",
+   "fame": 33372,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Camp X-Ray was a temporary detention facility at the Guantanamo Bay detention camp of Joint Task Force 160 on board the United States Naval Station Guantanamo…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Camp X-Ray",
+    "url": "https://en.wikipedia.org/wiki/Camp_X-Ray",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5027702.webp"
+   }
+  },
+  {
+   "id": "wd:Q2915936",
+   "name": "Hotel Nacional de Cuba",
+   "label": "Hotel Nacional de Cuba",
+   "type": "built",
+   "kind": "hotel",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1431,
+   "lon": -82.3806,
+   "rarity": "Legendary",
+   "fame": 30042,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Located on the sea front of Vedado district, it stands on Taganana Hill, offering commanding views of the sea and the city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hotel Nacional de Cuba",
+    "url": "https://en.wikipedia.org/wiki/Hotel_Nacional_de_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2915936.webp",
+    "author": "Jongleur100",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Hotelnacionale.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1352908",
+   "name": "El Capitolio",
+   "label": "El Capitolio",
+   "type": "built",
+   "kind": "capitol building",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1353,
+   "lon": -82.3594,
+   "rarity": "Legendary",
+   "fame": 36996,
+   "facts": {
+    "elevation_m": 8.0,
+    "area_km2": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The National Capitol of Cuba, also known as Capitolio Nacional de La Habana, and often simply referred to as El Capitolio, is a public edifice in Havana.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Capitol of Cuba",
+    "url": "https://en.wikipedia.org/wiki/National_Capitol_of_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1352908.webp",
+    "author": "Yomangani",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Capitolio_full.jpg"
+   }
+  },
+  {
+   "id": "gn:3553478",
+   "name": "Havana",
+   "label": "Havana",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.133,
+   "lon": -82.383,
+   "rarity": "Legendary",
+   "fame": 442170,
+   "facts": {
+    "population": 2163824,
+    "elevation_m": 41,
+    "area_km2": 728,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Havana is the capital and largest city of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Havana",
+    "url": "https://en.wikipedia.org/wiki/Havana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3553478.webp",
+    "author": "Christopher Michel",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuba_libre_(6941395159).jpg"
+   }
+  },
+  {
+   "id": "wd:Q28225576",
+   "name": "Parque Central, Havana",
+   "label": "Parque Central, Havana",
+   "type": "built",
+   "kind": "urban park",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1375,
+   "lon": -82.3587,
+   "rarity": "Rare",
+   "fame": 2952,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Parque Central, Havana is one of the best known and central sites of the city of Havana, Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parque Central, Havana",
+    "url": "https://en.wikipedia.org/wiki/Parque_Central%2C_Havana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28225576.webp",
+    "author": "Jorge Royan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Havana_-_Cuba_-_3953.jpg"
+   }
+  },
+  {
+   "id": "wd:Q11942020",
+   "name": "Plaza de San Francisco",
+   "label": "Plaza de San Francisco",
+   "type": "built",
+   "kind": "square",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1376,
+   "lon": -82.3486,
+   "rarity": "Rare",
+   "fame": 1110,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Plaza de San Francisco de Asís is a public square in the district of Old Havana, Havana, Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plaza de San Francisco de Asís",
+    "url": "https://en.wikipedia.org/wiki/Plaza_de_San_Francisco_de_As%C3%ADs",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11942020.webp",
+    "author": "Emmanuel Huybrechts from Laval, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scenes_of_Cuba_(K5_02244)_(5981298549).jpg"
+   }
+  },
+  {
+   "id": "wd:Q13382101",
+   "name": "Estadio Cándido González",
+   "label": "Estadio Cándido González",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "CU-09",
+   "country": "CU",
+   "lat": 21.3786,
+   "lon": -77.9114,
+   "rarity": "Rare",
+   "fame": 996,
+   "facts": {
+    "elevation_m": 92,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is primarily used for baseball and serves as the home field for the Toros de Camagüey, a team in the Cuban National Series.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Cándido González",
+    "url": "https://en.wikipedia.org/wiki/Estadio_C%C3%A1ndido_Gonz%C3%A1lez",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q13382101.webp",
+    "author": "Ramon.rovirosa",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camag%C3%BCey_Cuba_Baseball_Stadium_2012.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1076178",
+   "name": "Moncada Barracks",
+   "label": "Moncada Barracks",
+   "type": "built",
+   "kind": "Monumento Nacional de Cuba",
+   "region": "CU-13",
+   "country": "CU",
+   "lat": 20.0264,
+   "lon": -75.8192,
+   "rarity": "Rare",
+   "fame": 4974,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "A Monumento Nacional de Cuba in Santiago de Cuba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1076178.webp",
+    "author": "Gearink",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuartel_Moncada_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5910227",
+   "name": "San Francisco de Paula Church",
+   "label": "San Francisco de Paula Church",
+   "type": "built",
+   "kind": "church",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.131,
+   "lon": -82.3488,
+   "rarity": "Rare",
+   "fame": 1338,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Iglesia de San Francisco de Paula, Havana is part of the ecclesiastical heritage of Havana.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church of San Francisco de Paula, Havana",
+    "url": "https://en.wikipedia.org/wiki/Church_of_San_Francisco_de_Paula%2C_Havana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5910227.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_y_hospital_San_Francisco_de_Paula,_Havana.jpg"
+   }
+  },
+  {
+   "id": "wd:Q55634437",
+   "name": "Surgidero de Batabanó Lighthouse",
+   "label": "Surgidero de Batabanó Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "CU-16",
+   "country": "CU",
+   "lat": 22.6877,
+   "lon": -82.2977,
+   "rarity": "Rare",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 2.0,
+    "height_m": 28,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Surgidero de Batabanó Lighthouse is a Cuban lighthouse located in Surgidero de Batabanó, a village and the port of Batabanó, Mayabeque Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Surgidero de Batabanó Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Surgidero_de_Bataban%C3%B3_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q55634437.webp",
+    "author": "Mmoyaq",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3_mar%C3%ADtima_Surgidero_de_Bataban%C3%B3.JPG"
+   }
+  },
+  {
+   "id": "wd:Q25933232",
+   "name": "St. Eugene's Cathedral, Ciego de Ávila",
+   "label": "St. Eugene's Cathedral, Ciego de Ávila",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 21.8414,
+   "lon": -78.7603,
+   "rarity": "Rare",
+   "fame": 720,
+   "facts": {
+    "elevation_m": 49,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "St. Eugene's Cathedral, also called the Cathedral of Saint Eugene of the Palma or simply Cathedral of Ciego de Ávila.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Eugene's Cathedral, Ciego de Ávila",
+    "url": "https://en.wikipedia.org/wiki/St._Eugene%27s_Cathedral%2C_Ciego_de_%C3%81vila",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25933232.webp",
+    "author": "Elvis Tanda",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_San_Eugenio_Ciego_de_Avila.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16892952",
+   "name": "José Martí Anti-Imperialist Platform",
+   "label": "José Martí Anti-Imperialist Platform",
+   "type": "built",
+   "kind": "monument",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.146,
+   "lon": -82.387,
+   "rarity": "Rare",
+   "fame": 2706,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The José Martí Anti-Imperialist Platform is a public event venue located in the Plaza de la Dignidad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "José Martí Anti-Imperialist Platform",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mart%C3%AD_Anti-Imperialist_Platform",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16892952.webp",
+    "author": "Elemaki",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Tribuna_antiimperialista_en_La_Habana.JPG"
+   }
+  },
+  {
+   "id": "wd:Q11942010",
+   "name": "Plaza de Armas, Havana",
+   "label": "Plaza de Armas, Havana",
+   "type": "built",
+   "kind": "Plaza de Armas",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1402,
+   "lon": -82.3495,
+   "rarity": "Rare",
+   "fame": 2586,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Plaza de Armas is the oldest town square in Habana Vieja.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plaza de Armas (Havana)",
+    "url": "https://en.wikipedia.org/wiki/Plaza_de_Armas_%28Havana%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11942010.webp",
+    "author": "Eric Marshall",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1272732",
+   "name": "Pesquero beach",
+   "label": "Pesquero beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 21.1003,
+   "lon": -75.9339,
+   "rarity": "Rare",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A beach in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1272732.webp",
+    "author": "Irám René GD",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_pesquero_holguin_cuba_009.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3878527",
+   "name": "Border gates at the Guantanamo Bay Naval Base",
+   "label": "Border gates at the Guantanamo Bay Naval Base",
+   "type": "built",
+   "kind": "border checkpoint",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 19.9737,
+   "lon": -75.0868,
+   "rarity": "Rare",
+   "fame": 1200,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "A border checkpoint in Guantánamo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3878527.webp"
+   }
+  },
+  {
+   "id": "wd:Q1289259",
+   "name": "Palacio de Valle",
+   "label": "Palacio de Valle",
+   "type": "built",
+   "kind": "historic house",
+   "region": "CU-06",
+   "country": "CU",
+   "lat": 22.1213,
+   "lon": -80.4515,
+   "rarity": "Rare",
+   "fame": 2094,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "The Palacio del Valle is a historic villa in Cienfuegos, Cuba, built by the Italian architect Alfredo Colli, from 1913 to 1917.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palacio del Valle",
+    "url": "https://en.wikipedia.org/wiki/Palacio_del_Valle",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1289259.webp",
+    "author": "Dieter Mueller, dino1948",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cienfuegos_maurische_Villa.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2933019",
+   "name": "Sierra de los Órganos",
+   "label": "Sierra de los Órganos",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.6167,
+   "lon": -83.7167,
+   "rarity": "Rare",
+   "fame": 2208,
+   "facts": {
+    "elevation_m": 617,
+    "temp_c": 23.8
+   },
+   "flavour": {
+    "text": "Along with the Sierra del Rosario, it is part of the Guaniguanico mountain range.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra de los Órganos",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_los_%C3%93rganos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2933019.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sierra_de_los_%C3%93rganos_vers_Vinales.jpg"
+   }
+  },
+  {
+   "id": "wd:Q8061174",
+   "name": "Yumurí River",
+   "label": "Yumurí River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 23.0485,
+   "lon": -81.5728,
+   "rarity": "Rare",
+   "fame": 1518,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Yumurí is a river in Cuba, which drains into Bahia de Matanzas, an arm of the Straits of Florida in the historic provincial capital of Matanzas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yumurí River",
+    "url": "https://en.wikipedia.org/wiki/Yumur%C3%AD_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q8061174.webp",
+    "author": "Raf24",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yumury.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2592558",
+   "name": "Almendares River",
+   "label": "Almendares River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.0212,
+   "lon": -82.367,
+   "rarity": "Rare",
+   "fame": 3162,
+   "facts": {
+    "elevation_m": 47,
+    "length_km": 47,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It originates from the east of Tapaste and flows into the Straits of Florida.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Almendares River",
+    "url": "https://en.wikipedia.org/wiki/Almendares_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2592558.webp",
+    "author": "enrique1363",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Almendares_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1052027",
+   "name": "Cayo Largo del Sur",
+   "label": "Cayo Largo del Sur",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-99",
+   "country": "CU",
+   "lat": 21.6061,
+   "lon": -81.5167,
+   "rarity": "Rare",
+   "fame": 8322,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 38,
+    "length_km": 25,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Cayo Largo del Sur, or simply Cayo Largo, is a small resort island in Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Largo del Sur",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Largo_del_Sur",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1052027.webp",
+    "author": "Panther",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scooters_at_the_Cayo_Largo_airport.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1324721",
+   "name": "El Yunque, Cuba",
+   "label": "El Yunque, Cuba",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 20.3522,
+   "lon": -74.5739,
+   "rarity": "Rare",
+   "fame": 1560,
+   "facts": {
+    "elevation_m": 575,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "El Yunque is a 575-metre-high mountain located 7 km west of Baracoa and the Baracoa Bay in Cuba's Guantanamo Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Yunque (Cuba)",
+    "url": "https://en.wikipedia.org/wiki/El_Yunque_%28Cuba%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1324721.webp",
+    "author": "Bass-Mann at Dutch Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Yunque_Baracoa_Cuba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1286641",
+   "name": "Laguna de Leche",
+   "label": "Laguna de Leche",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 22.2092,
+   "lon": -78.6214,
+   "rarity": "Rare",
+   "fame": 2514,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 67,
+    "length_km": 0.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Laguna de Leche is the largest natural freshwater lake in Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Laguna de Leche",
+    "url": "https://en.wikipedia.org/wiki/Laguna_de_Leche",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1286641.webp",
+    "author": "Lagaly de",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuba_Laguna_de_la_Leche.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1052009",
+   "name": "Cayo Guillermo",
+   "label": "Cayo Guillermo",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 22.595,
+   "lon": -78.6664,
+   "rarity": "Rare",
+   "fame": 4068,
+   "facts": {
+    "elevation_m": 3.0,
+    "area_km2": 15,
+    "length_km": 8.5,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "It is located on the northern coast of Cuba, between the Bay of Dogs and the Atlantic Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Guillermo",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Guillermo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1052009.webp",
+    "author": "Lizardosalazartibau",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_PIlar_III.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1052002",
+   "name": "Cayo Levisa",
+   "label": "Cayo Levisa",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.8844,
+   "lon": -83.5242,
+   "rarity": "Rare",
+   "fame": 2262,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 1.5,
+    "length_km": 4.2,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Accessible only through boats from Palma Rubia, the white sand beaches on its north coast attract tourism.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Levisa",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Levisa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1052002.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mangrove_auf_Cayo_Levisa,_Kuba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1857877",
+   "name": "Mayabeque River",
+   "label": "Mayabeque River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-16",
+   "country": "CU",
+   "lat": 22.6741,
+   "lon": -82.1469,
+   "rarity": "Rare",
+   "fame": 1488,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 53,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Mayabeque River is a river of western Cuba, considered the largest in the southwestern watershed of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mayabeque River",
+    "url": "https://en.wikipedia.org/wiki/Mayabeque_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1857877.webp",
+    "author": "Sandy Alvarez Pérez",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:RioMayab.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1366819",
+   "name": "Escambray Mountains",
+   "label": "Escambray Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CU-06",
+   "country": "CU",
+   "lat": 21.9847,
+   "lon": -80.1325,
+   "rarity": "Rare",
+   "fame": 11382,
+   "facts": {
+    "elevation_m": 1140,
+    "length_km": 80,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "The Escambray Mountains are a mountain range in the central region of Cuba, in the provinces of Sancti Spíritus, Cienfuegos and Villa Clara.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Escambray Mountains",
+    "url": "https://en.wikipedia.org/wiki/Escambray_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1366819.webp",
+    "author": "Lezumbalaberenjena at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:11_Sierra_Escambray_VC.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2180983",
+   "name": "Toa river",
+   "label": "Toa river",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-14",
+   "country": "CU",
+   "lat": 20.3908,
+   "lon": -74.5308,
+   "rarity": "Rare",
+   "fame": 2688,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 131,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "This river is 131 kilometers long and has 72 tributaries.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Toa river",
+    "url": "https://en.wikipedia.org/wiki/Toa_river",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2180983.webp"
+   }
+  },
+  {
+   "id": "wd:Q472849",
+   "name": "Cauto River",
+   "label": "Cauto River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 20.5955,
+   "lon": -77.1741,
+   "rarity": "Rare",
+   "fame": 7230,
+   "facts": {
+    "elevation_m": 10,
+    "length_km": 343,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Cauto River or Río Cauto is the longest river in Cuba, as well as the longest river in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cauto River",
+    "url": "https://en.wikipedia.org/wiki/Cauto_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q472849.webp",
+    "author": "Not home",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Rio-cauto-cuba.JPG"
+   }
+  },
+  {
+   "id": "gn:3566134",
+   "name": "Calimete",
+   "label": "Calimete",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-04",
+   "country": "CU",
+   "lat": 22.5342,
+   "lon": -80.9111,
+   "rarity": "Rare",
+   "fame": 1122,
+   "facts": {
+    "population": 23255,
+    "elevation_m": 23,
+    "area_km2": 958,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It was founded in 1867 by José Antonio Castañeda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calimete",
+    "url": "https://en.wikipedia.org/wiki/Calimete",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3566134.webp"
+   }
+  },
+  {
+   "id": "gn:3565244",
+   "name": "Luis Arcos Bergnes",
+   "label": "Luis Arcos Bergnes",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.5038,
+   "lon": -79.8148,
+   "rarity": "Rare",
+   "fame": 438,
+   "facts": {
+    "population": 2279,
+    "elevation_m": 66,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "With a population of 2,279 it is considered a village.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Luis Arcos Bergnes, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Luis_Arcos_Bergnes%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3565244.webp",
+    "author": "Eric Marshall",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camajuani,_Cuba_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3557823",
+   "name": "Guanabo",
+   "label": "Guanabo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1683,
+   "lon": -82.1374,
+   "rarity": "Rare",
+   "fame": 3300,
+   "facts": {
+    "population": 5087,
+    "elevation_m": 8.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Guanabo is a beach town in the Ciudad de la Habana Province of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guanabo",
+    "url": "https://en.wikipedia.org/wiki/Guanabo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3557823.webp",
+    "author": "Alexander Berezhnoy",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuba,_Guanabo._2013_-_panoramio_(15).jpg"
+   }
+  },
+  {
+   "id": "gn:3547976",
+   "name": "Manicaragua",
+   "label": "Manicaragua",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.1502,
+   "lon": -79.9787,
+   "rarity": "Rare",
+   "fame": 1938,
+   "facts": {
+    "population": 41532,
+    "elevation_m": 144,
+    "area_km2": 986,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "It is located in the Escambray Mountains at the southern part of Villa Clara, bordering the provinces of Cienfuegos to the west and Sancti Spíritus to the east.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Manicaragua",
+    "url": "https://en.wikipedia.org/wiki/Manicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3547976.webp",
+    "author": "Lezumbalaberenjena",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Parroquial_%22Nuestra_Se%C3%B1ora_del_Carmen%22_de_Manicaragua.jpg"
+   }
+  },
+  {
+   "id": "gn:3754915",
+   "name": "Jimaguayú",
+   "label": "Jimaguayú",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-09",
+   "country": "CU",
+   "lat": 21.2419,
+   "lon": -77.8257,
+   "rarity": "Rare",
+   "fame": 1134,
+   "facts": {
+    "population": 21169,
+    "elevation_m": 117,
+    "area_km2": 799,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Jimaguayú is a municipality and town in the Camagüey Province of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jimaguayú",
+    "url": "https://en.wikipedia.org/wiki/Jimaguay%C3%BA",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3754915.webp",
+    "author": "Rob Oo from NL",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camag%C3%BCey,_Cuba.jpg"
+   }
+  },
+  {
+   "id": "gn:3536259",
+   "name": "Sibanicú",
+   "label": "Sibanicú",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-09",
+   "country": "CU",
+   "lat": 21.2363,
+   "lon": -77.5256,
+   "rarity": "Rare",
+   "fame": 1386,
+   "facts": {
+    "population": 16856,
+    "elevation_m": 92,
+    "area_km2": 745,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Sibanicú is a municipality and town in the Camagüey Province of Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sibanicú",
+    "url": "https://en.wikipedia.org/wiki/Sibanic%C3%BA",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3536259.webp",
+    "author": "Christian Pirkl",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sibanic%C3%BA_DSC01281.jpg"
+   }
+  },
+  {
+   "id": "gn:3564394",
+   "name": "Chambas",
+   "label": "Chambas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 22.1927,
+   "lon": -78.9141,
+   "rarity": "Rare",
+   "fame": 1302,
+   "facts": {
+    "population": 24114,
+    "elevation_m": 34,
+    "area_km2": 769,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "It has a population of 39,085 inhabitants, with a density of 54.5 inhabitants per square kilometer, lower than the provincial average.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chambas",
+    "url": "https://en.wikipedia.org/wiki/Chambas",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3564394.webp"
+   }
+  },
+  {
+   "id": "gn:3544171",
+   "name": "Pilón",
+   "label": "Pilón",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-12",
+   "country": "CU",
+   "lat": 19.9055,
+   "lon": -77.3215,
+   "rarity": "Rare",
+   "fame": 1380,
+   "facts": {
+    "population": 28752,
+    "elevation_m": 12,
+    "area_km2": 462,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It is located on the southern coast of Cuba, in an inlet of the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pilón, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Pil%C3%B3n%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3544171.webp",
+    "author": "Óðinn",
+    "licence": "CC BY-SA 2.5 ca",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Costa_del_mar_Caribe_en_Pil%C3%B3n.jpg"
+   }
+  },
+  {
+   "id": "gn:3556078",
+   "name": "Jobabo",
+   "label": "Jobabo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-10",
+   "country": "CU",
+   "lat": 20.9098,
+   "lon": -77.2845,
+   "rarity": "Rare",
+   "fame": 1320,
+   "facts": {
+    "population": 49403,
+    "elevation_m": 50,
+    "area_km2": 885,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is located in the southern part of the province, 34 km south of Las Tunas, the provincial capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jobabo",
+    "url": "https://en.wikipedia.org/wiki/Jobabo",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3556078.webp"
+   }
+  },
+  {
+   "id": "gn:3567823",
+   "name": "Baraguá",
+   "label": "Baraguá",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 21.6822,
+   "lon": -78.6257,
+   "rarity": "Rare",
+   "fame": 1782,
+   "facts": {
+    "population": 15268,
+    "elevation_m": 9.0,
+    "area_km2": 728,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Its administrative seat is located in the town of Gaspar.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Baraguá",
+    "url": "https://en.wikipedia.org/wiki/Baragu%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3567823.webp",
+    "author": "carlos adan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gaspar,_Cuba_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3564084",
+   "name": "Ciro Redondo",
+   "label": "Ciro Redondo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-08",
+   "country": "CU",
+   "lat": 22.0192,
+   "lon": -78.7036,
+   "rarity": "Rare",
+   "fame": 1362,
+   "facts": {
+    "population": 29560,
+    "elevation_m": 44,
+    "area_km2": 588,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It is located halfway between the cities of Ciego de Ávila and Morón and was named after Ciro Redondo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ciro Redondo",
+    "url": "https://en.wikipedia.org/wiki/Ciro_Redondo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3564084.webp",
+    "author": "ricardosmp @ Mapillary",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciro_Redondo_-_Mapillary_(2981018672173910).jpg"
+   }
+  },
+  {
+   "id": "gn:3566573",
+   "name": "Cabañas",
+   "label": "Cabañas",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-15",
+   "country": "CU",
+   "lat": 22.9794,
+   "lon": -82.9221,
+   "rarity": "Rare",
+   "fame": 1398,
+   "facts": {
+    "population": 5894,
+    "elevation_m": 7.0,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "Cabañas is a village and consejo popular of the municipality of Mariel, in the Artemisa Province, on the northeast coast in western Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cabañas, Cuba",
+    "url": "https://en.wikipedia.org/wiki/Caba%C3%B1as%2C_Cuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3566573.webp",
+    "author": "Thousand*Fingers",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Caba%C3%B1as(Cuba).jpeg"
+   }
+  },
+  {
+   "id": "gn:3556077",
+   "name": "Jobabo",
+   "label": "Jobabo (Holguín)",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-11",
+   "country": "CU",
+   "lat": 20.9692,
+   "lon": -76.2994,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 17804,
+    "elevation_m": 93,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 17,804 people in Holguín.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3556077.webp"
+   }
+  },
+  {
+   "id": "gn:3539092",
+   "name": "San Luis",
+   "label": "San Luis (Pinar del Río)",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-01",
+   "country": "CU",
+   "lat": 22.2783,
+   "lon": -83.7609,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6690,
+    "elevation_m": 22,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 6,690 people in Pinar del Río.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3539092.webp"
+   }
+  },
+  {
+   "id": "gn:3543913",
+   "name": "Playa Baracoa",
+   "label": "Playa Baracoa (Artemisa)",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-15",
+   "country": "CU",
+   "lat": 23.046,
+   "lon": -82.5672,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7000,
+    "elevation_m": 10,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 7,000 people in Artemisa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3543913.webp"
+   }
+  },
+  {
+   "id": "wd:Q5759207",
+   "name": "Cayo Loco",
+   "label": "Cayo Loco",
+   "type": "nature",
+   "kind": "island",
+   "region": "CU-06",
+   "country": "CU",
+   "lat": 22.1508,
+   "lon": -80.4558,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "An island in Cienfuegos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5759207.webp"
+   }
+  },
+  {
+   "id": "gn:3536640",
+   "name": "Santo Domingo",
+   "label": "Santo Domingo",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-05",
+   "country": "CU",
+   "lat": 22.5867,
+   "lon": -80.2426,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 45476,
+    "elevation_m": 51,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 45,476 people in Villa Clara.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3536640.webp"
+   }
+  },
+  {
+   "id": "gn:3540667",
+   "name": "Sancti Spíritus",
+   "label": "Sancti Spíritus",
+   "type": "town",
+   "kind": "town",
+   "region": "CU-07",
+   "country": "CU",
+   "lat": 21.9343,
+   "lon": -79.4398,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 127069,
+    "elevation_m": 57,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 127,069 people in Sancti Spíritus.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3540667.webp"
+   }
+  },
+  {
+   "id": "wd:Q126945093",
+   "name": "Church of the Holy Guardian Angel",
+   "label": "Church of the Holy Guardian Angel",
+   "type": "built",
+   "kind": "Catholic church building",
+   "region": "CU-03",
+   "country": "CU",
+   "lat": 23.1417,
+   "lon": -82.3558,
+   "rarity": "Rare",
+   "fame": 624,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A Catholic church building in Havana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q126945093.webp",
+    "author": "Tacorontey",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_del_Santo_Angel,_La_Habana_Vieja.jpg"
+   }
+  }
+ ]
+}

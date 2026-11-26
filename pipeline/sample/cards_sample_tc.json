@@ -1,0 +1,805 @@
+{
+ "note": "Sample of the Turks and Caicos Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q843866",
+   "name": "Pine Cay",
+   "label": "Pine Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.8712,
+   "lon": -72.0935,
+   "rarity": "Common",
+   "fame": 1530,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 2.8,
+    "length_km": 2.7,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Pine Cay is an 800-acre privately owned island occupied by 38 homeowners and a small exclusive resort called Pine Cay in the Turks and Caicos Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pine Cay",
+    "url": "https://en.wikipedia.org/wiki/Pine_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q843866.webp"
+   }
+  },
+  {
+   "id": "wd:Q132149",
+   "name": "West Caicos",
+   "label": "West Caicos",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.6667,
+   "lon": -72.4583,
+   "rarity": "Common",
+   "fame": 3216,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 23,
+    "length_km": 12,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "West Caicos has an area of 11 square miles, and has been uninhabited for over a century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "West Caicos",
+    "url": "https://en.wikipedia.org/wiki/West_Caicos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q132149.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS015_-_View_of_West_Caicos.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1814473",
+   "name": "South Caicos",
+   "label": "South Caicos",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.5094,
+   "lon": -71.5178,
+   "rarity": "Common",
+   "fame": 5610,
+   "facts": {
+    "elevation_m": -1.0,
+    "area_km2": 24,
+    "length_km": 9.9,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "South Caicos is the seventh-largest island in the Turks and Caicos archipelago, with a land area of 21.2 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "South Caicos",
+    "url": "https://en.wikipedia.org/wiki/South_Caicos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1814473.webp",
+    "author": "Dirk2112",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cockburn-harbor-south-caicos.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1475037",
+   "name": "Middle Caicos",
+   "label": "Middle Caicos",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.7882,
+   "lon": -71.7345,
+   "rarity": "Common",
+   "fame": 4146,
+   "facts": {
+    "elevation_m": 6.0,
+    "area_km2": 136,
+    "length_km": 25,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Middle Caicos is the largest island in the Turks and Caicos Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Middle Caicos",
+    "url": "https://en.wikipedia.org/wiki/Middle_Caicos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1475037.webp",
+    "author": "Dirk2112",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ocean_View_from_Middle_Caicos.jpg"
+   }
+  },
+  {
+   "id": "wd:Q302702",
+   "name": "Ambergris Cay",
+   "label": "Ambergris Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.3015,
+   "lon": -71.6316,
+   "rarity": "Common",
+   "fame": 5268,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 4.3,
+    "length_km": 5.1,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is located within the Turks and Caicos Islands and has been owned privately since 1811.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ambergris Cay",
+    "url": "https://en.wikipedia.org/wiki/Ambergris_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q302702.webp",
+    "author": "NASA/Chris Hadfield",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Big_and_Little_Ambergris_Cay_from_ISS.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1184457",
+   "name": "Dellis Cay",
+   "label": "Dellis Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.899,
+   "lon": -72.071,
+   "rarity": "Common",
+   "fame": 792,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 2.3,
+    "length_km": 2.4,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Dellis Cay is a 560-acre private island located in the Turks and Caicos Islands",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dellis Cay",
+    "url": "https://en.wikipedia.org/wiki/Dellis_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1184457.webp"
+   }
+  },
+  {
+   "id": "wd:Q1232322",
+   "name": "Long Cay",
+   "label": "Long Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.4662,
+   "lon": -71.5585,
+   "rarity": "Common",
+   "fame": 2172,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 21,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "BS"
+   ],
+   "flavour": {
+    "text": "Long Cay is an 8-square-mile island in the Bahamas in an atoll that includes Acklins Island and Crooked Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Long Cay",
+    "url": "https://en.wikipedia.org/wiki/Long_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1232322.webp",
+    "author": "stevestevens",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:American_Flamingo_(Phoenicopterus_ruber),_Long_Cay,_Crooked_Island,_Bahamas_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q426843",
+   "name": "Salt Cay",
+   "label": "Salt Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.325,
+   "lon": -71.2083,
+   "rarity": "Common",
+   "fame": 3966,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 7.1,
+    "length_km": 5.6,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Salt Cay is the second largest of the Turks Islands, one of the two island groups forming of the British territory of the Turks and Caicos Islands in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salt Cay, Turks Islands",
+    "url": "https://en.wikipedia.org/wiki/Salt_Cay%2C_Turks_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q426843.webp",
+    "author": "Thudfinger",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salt_Cay_Turk_%26_Caicos_aerial_Curacao_March_2024.jpg"
+   }
+  },
+  {
+   "id": "wd:Q921616",
+   "name": "East Caicos",
+   "label": "East Caicos",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.7025,
+   "lon": -71.4981,
+   "rarity": "Common",
+   "fame": 2520,
+   "facts": {
+    "elevation_m": 6.0,
+    "area_km2": 90,
+    "length_km": 13,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "East Caicos is the fourth-largest island in the Turks and Caicos Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "East Caicos",
+    "url": "https://en.wikipedia.org/wiki/East_Caicos",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q921616.webp"
+   }
+  },
+  {
+   "id": "wd:Q1136756",
+   "name": "Cotton Cay",
+   "label": "Cotton Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.3633,
+   "lon": -71.1544,
+   "rarity": "Common",
+   "fame": 1512,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 1.1,
+    "length_km": 2.1,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Cotton Cay is an uninhabited island located in the Turks and Caicos Islands, about 2.7 km northeast of Salt Cay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cotton Cay",
+    "url": "https://en.wikipedia.org/wiki/Cotton_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1136756.webp"
+   }
+  },
+  {
+   "id": "wd:Q174861",
+   "name": "North Caicos",
+   "label": "North Caicos",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.8914,
+   "lon": -71.9461,
+   "rarity": "Common",
+   "fame": 3660,
+   "facts": {
+    "elevation_m": 3.0,
+    "area_km2": 116,
+    "length_km": 22,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "North Caicos is the second-largest island in the Turks and Caicos Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "North Caicos",
+    "url": "https://en.wikipedia.org/wiki/North_Caicos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q174861.webp",
+    "author": "Dirk2112",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shore_of_North_Caicos.jpg"
+   }
+  },
+  {
+   "id": "gn:3576922",
+   "name": "The Bight Settlements",
+   "label": "The Bight Settlements",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.7796,
+   "lon": -72.2042,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2288,
+    "elevation_m": 15,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 2,288 people in Turks and Caicos Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576922.webp"
+   }
+  },
+  {
+   "id": "gn:3577043",
+   "name": "Blue Hills Settlements",
+   "label": "Blue Hills Settlements",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.8066,
+   "lon": -72.2766,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1156,
+    "elevation_m": 9.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 1,156 people in Turks and Caicos Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577043.webp"
+   }
+  },
+  {
+   "id": "gn:11703857",
+   "name": "Providenciales",
+   "label": "Providenciales (Turks and Caicos Islands)",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.7825,
+   "lon": -72.2521,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 23769,
+    "elevation_m": 18,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 23,769 people in Turks and Caicos Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11703857.webp"
+   }
+  },
+  {
+   "id": "gn:11201380",
+   "name": "Wheeland",
+   "label": "Wheeland",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.814,
+   "lon": -72.2821,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3210,
+    "elevation_m": 10,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 3,210 people in Turks and Caicos Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11201380.webp"
+   }
+  },
+  {
+   "id": "gn:3577004",
+   "name": "Five Cays Settlement",
+   "label": "Five Cays Settlement",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.7571,
+   "lon": -72.2677,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3592,
+    "elevation_m": 9.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 3,592 people in Turks and Caicos Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577004.webp"
+   }
+  },
+  {
+   "id": "gn:3576979",
+   "name": "Kew",
+   "label": "Kew",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.9134,
+   "lon": -71.9926,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1477,
+    "elevation_m": 12,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 1,477 people in Turks and Caicos Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576979.webp"
+   }
+  },
+  {
+   "id": "gn:3576994",
+   "name": "Cockburn Town",
+   "label": "Cockburn Town",
+   "type": "town",
+   "kind": "town",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.4612,
+   "lon": -71.1419,
+   "rarity": "Legendary",
+   "fame": 42210,
+   "facts": {
+    "population": 3720,
+    "elevation_m": 7.0,
+    "area_km2": 17,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Cockburn Town is the capital of the Turks and Caicos Islands, spreading across most of Grand Turk.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cockburn Town",
+    "url": "https://en.wikipedia.org/wiki/Cockburn_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576994.webp",
+    "author": "Balou46",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TC-grand-turk-cockburn-strand.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24470370",
+   "name": "Our Lady of Divine Providence Catholic Church, Providenciales",
+   "label": "Our Lady of Divine Providence Catholic Church, Providenciales",
+   "type": "built",
+   "kind": "church",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.782,
+   "lon": -72.2528,
+   "rarity": "Rare",
+   "fame": 324,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Our Lady of Divine Providence Church, Providenciales is a Catholic place of worship on Providenciales, an island of Turks and Caicos in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of Divine Providence Church, Providenciales",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Divine_Providence_Church%2C_Providenciales",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24470370.webp",
+    "author": "LittleT889",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Divine_Providence_Church,_Providenciales.jpg"
+   }
+  },
+  {
+   "id": "wd:Q13525311",
+   "name": "Grand Turk Lighthouse",
+   "label": "Grand Turk Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.5116,
+   "lon": -71.1335,
+   "rarity": "Rare",
+   "fame": 1752,
+   "facts": {
+    "elevation_m": 14,
+    "height_m": 18,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The 60-foot-tall structure, overlooking North Creek, was completed by British architect Alexander Gordon in 1852 to alert sailors of the shallow reef.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Turk Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Grand_Turk_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q13525311.webp",
+    "author": "TampAGS , for AGS Media",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Historic_Lighthouse_Park_on_Grand_Turk.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1354743",
+   "name": "TCIFA National Academy",
+   "label": "TCIFA National Academy",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.773,
+   "lon": -72.212,
+   "rarity": "Rare",
+   "fame": 2118,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "TCIFA National Academy",
+    "url": "https://en.wikipedia.org/wiki/TCIFA_National_Academy",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1354743.webp",
+    "author": "LittleT889",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TCIFA_National_Academy.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24469905",
+   "name": "Holy Cross Church, Cockburn Town",
+   "label": "Holy Cross Church, Cockburn Town",
+   "type": "built",
+   "kind": "church",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.4543,
+   "lon": -71.1443,
+   "rarity": "Rare",
+   "fame": 204,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Holy Cross Church is a religious building that is affiliated with the Catholic Church and is located in Osborne Road in the city of Cockburn Town the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holy Cross Church, Cockburn Town",
+    "url": "https://en.wikipedia.org/wiki/Holy_Cross_Church%2C_Cockburn_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24469905.webp",
+    "author": "federicodebetto @ Mapillary",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Holy_Cross_Church,_Cockburn_Town_-_Mapillary_(1023948852570690).jpg"
+   }
+  },
+  {
+   "id": "wd:Q843871",
+   "name": "Parrot Cay",
+   "label": "Parrot Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.9322,
+   "lon": -72.0581,
+   "rarity": "Rare",
+   "fame": 10638,
+   "facts": {
+    "elevation_m": 6.0,
+    "area_km2": 10,
+    "length_km": 4.4,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The island contains about 1,000 acres of land, a mile-long beach and features a high-end beach resort with 61 rooms.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parrot Cay",
+    "url": "https://en.wikipedia.org/wiki/Parrot_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q843871.webp",
+    "author": "DrooRadley",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parrot_Cay_sunset.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1616654",
+   "name": "Providenciales",
+   "label": "Providenciales",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.7775,
+   "lon": -72.2622,
+   "rarity": "Rare",
+   "fame": 38778,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 98,
+    "length_km": 23,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Providenciales is an island in the northwest Caicos Islands, part of the Turks and Caicos Islands, a British Overseas Territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Providenciales",
+    "url": "https://en.wikipedia.org/wiki/Providenciales",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1616654.webp",
+    "author": "Tim Sackton",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Turtle_Cove_Providenciales_Beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1473924",
+   "name": "Grand Turk",
+   "label": "Grand Turk",
+   "type": "nature",
+   "kind": "island",
+   "region": "TC",
+   "country": "TC",
+   "lat": 21.4722,
+   "lon": -71.1389,
+   "rarity": "Rare",
+   "fame": 44064,
+   "facts": {
+    "elevation_m": 24,
+    "area_km2": 18,
+    "length_km": 9.7,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Grand Turk is an island in the Turks and Caicos Islands, a British Overseas Territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Turk Island",
+    "url": "https://en.wikipedia.org/wiki/Grand_Turk_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1473924.webp",
+    "author": "Jersyko at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Turk_beach.JPG"
+   }
+  }
+ ]
+}

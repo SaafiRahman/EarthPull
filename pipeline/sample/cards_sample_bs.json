@@ -1,0 +1,2203 @@
+{
+ "note": "Sample of the Bahamas card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q21713612",
+   "name": "August Cay",
+   "label": "August Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-EG",
+   "country": "BS",
+   "lat": 26.65,
+   "lon": -77.9,
+   "rarity": "Common",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It is located in the East Grand Bahama District, in the northern part of the country, 190 km north of Nassau, the capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "August Cay",
+    "url": "https://en.wikipedia.org/wiki/August_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21713612.webp"
+   }
+  },
+  {
+   "id": "wd:Q4815624",
+   "name": "Athol Island",
+   "label": "Athol Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0833,
+   "lon": -77.2667,
+   "rarity": "Common",
+   "fame": 1704,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Athol Island is a small island in the Bahamas, which lies 0.75 miles east of Paradise Island, which lies directly off of New Providence island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Athol Island",
+    "url": "https://en.wikipedia.org/wiki/Athol_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4815624.webp"
+   }
+  },
+  {
+   "id": "wd:Q6746195",
+   "name": "Man Island",
+   "label": "Man Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-NE",
+   "country": "BS",
+   "lat": 25.5667,
+   "lon": -76.65,
+   "rarity": "Common",
+   "fame": 840,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Man Island is located in a group of islands that form a natural harbor and the largest island in this chain is Harbour Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Man Island (Bahamas)",
+    "url": "https://en.wikipedia.org/wiki/Man_Island_%28Bahamas%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6746195.webp"
+   }
+  },
+  {
+   "id": "wd:Q1859950",
+   "name": "Rum Cay",
+   "label": "Rum Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-RC",
+   "country": "BS",
+   "lat": 23.6739,
+   "lon": -74.8711,
+   "rarity": "Common",
+   "fame": 6390,
+   "facts": {
+    "elevation_m": 6.0,
+    "area_km2": 78,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "It is located at Lat.: N23 42' 30\" – Long.: W 74 50' 00\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rum Cay",
+    "url": "https://en.wikipedia.org/wiki/Rum_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1859950.webp"
+   }
+  },
+  {
+   "id": "wd:Q5599274",
+   "name": "Great Guana Cay",
+   "label": "Great Guana Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-CO",
+   "country": "BS",
+   "lat": 26.678,
+   "lon": -77.129,
+   "rarity": "Common",
+   "fame": 4170,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "It is narrow and measures about 7 miles long.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Guana Cay",
+    "url": "https://en.wikipedia.org/wiki/Great_Guana_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5599274.webp",
+    "author": "Gregor Julien Straube",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Guana_Cay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6667352",
+   "name": "Loggerhead Creek",
+   "label": "Loggerhead Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "BS-NS",
+   "country": "BS",
+   "lat": 25.1,
+   "lon": -78.1833,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The Loggerhead Creek is a tidal stream in North Andros the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Loggerhead Creek",
+    "url": "https://en.wikipedia.org/wiki/Loggerhead_Creek",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6667352.webp"
+   }
+  },
+  {
+   "id": "wd:Q10362659",
+   "name": "Timber Creek",
+   "label": "Timber Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "BS-NS",
+   "country": "BS",
+   "lat": 24.7333,
+   "lon": -78.3167,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Timber Creek is a tidal creek in North Andros, the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Timber Creek (Bahamas)",
+    "url": "https://en.wikipedia.org/wiki/Timber_Creek_%28Bahamas%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q10362659.webp"
+   }
+  },
+  {
+   "id": "wd:Q6746110",
+   "name": "Man-O-War Cay",
+   "label": "Man-O-War Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-CO",
+   "country": "BS",
+   "lat": 26.5986,
+   "lon": -77.0062,
+   "rarity": "Common",
+   "fame": 5220,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "As of the 2010 census, the island has a population of 215 residents.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Man-O-War Cay",
+    "url": "https://en.wikipedia.org/wiki/Man-O-War_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6746110.webp",
+    "author": "Rüdiger Stehn from Kiel, Deutschland",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahamas_1989_(469)_Abaco_Man-O-War_Cay_(24323200994).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5137680",
+   "name": "Coakley Cay",
+   "label": "Coakley Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-EX",
+   "country": "BS",
+   "lat": 23.4419,
+   "lon": -76.0092,
+   "rarity": "Common",
+   "fame": 432,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Coakley Cay in the Exuma Islands of the Bahamas is an 340 acres cay, located west of Great Exuma.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coakley Cay",
+    "url": "https://en.wikipedia.org/wiki/Coakley_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5137680.webp"
+   }
+  },
+  {
+   "id": "wd:Q5250123",
+   "name": "Deep Creek",
+   "label": "Deep Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "BS-NS",
+   "country": "BS",
+   "lat": 24.7667,
+   "lon": -78.3,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Deep Creek is a tidal creek in North Andros, the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Deep Creek (Bahamas)",
+    "url": "https://en.wikipedia.org/wiki/Deep_Creek_%28Bahamas%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5250123.webp"
+   }
+  },
+  {
+   "id": "wd:Q14214044",
+   "name": "Lee Stocking Island",
+   "label": "Lee Stocking Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-EX",
+   "country": "BS",
+   "lat": 23.7672,
+   "lon": -76.0956,
+   "rarity": "Common",
+   "fame": 816,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Lee Stocking Island is an island in the Bahamas, located in the district of Exuma.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lee Stocking Island",
+    "url": "https://en.wikipedia.org/wiki/Lee_Stocking_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14214044.webp",
+    "author": "Kenneth Sams",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Front_side_of_Lee_Stocking_Island_(Williams_Cay)_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21713890",
+   "name": "Diamond Cay",
+   "label": "Diamond Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-BY",
+   "country": "BS",
+   "lat": 25.4,
+   "lon": -77.8833,
+   "rarity": "Common",
+   "fame": 216,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "It is located in the south Berry Islands region of the Bahamas, and is within the South Berry Islands Marine Reserve.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Diamond Cay (Bahamas)",
+    "url": "https://en.wikipedia.org/wiki/Diamond_Cay_%28Bahamas%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21713890.webp"
+   }
+  },
+  {
+   "id": "gn:3572443",
+   "name": "Eight Mile Rock",
+   "label": "Eight Mile Rock",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-WG",
+   "country": "BS",
+   "lat": 26.5167,
+   "lon": -78.7833,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 9640,
+    "elevation_m": 0.0,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "A community of 9,640 people in West Grand Bahama.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572443.webp"
+   }
+  },
+  {
+   "id": "gn:10793775",
+   "name": "Freetown",
+   "label": "Freetown",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-SE",
+   "country": "BS",
+   "lat": 24.7789,
+   "lon": -76.2771,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3137,
+    "elevation_m": 6.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 3,137 people in South Eleuthera.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_10793775.webp"
+   }
+  },
+  {
+   "id": "gn:3571971",
+   "name": "Lucaya",
+   "label": "Lucaya",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-FP",
+   "country": "BS",
+   "lat": 26.5333,
+   "lon": -78.6667,
+   "rarity": "Common",
+   "fame": 3750,
+   "facts": {
+    "population": 46525,
+    "elevation_m": 7.0,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Lucaya is a suburb of Freeport, Bahamas, a city on the island of Grand Bahama, approximately 105 mi east-northeast of Fort Lauderdale, Florida.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lucaya, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Lucaya%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3571971.webp",
+    "author": "Ksaraf",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sheraton_Grand_Bahamas_Panorama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q43079731",
+   "name": "Queen’s Staircase",
+   "label": "Queen’s Staircase",
+   "type": "built",
+   "kind": "stairs",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0738,
+   "lon": -77.3378,
+   "rarity": "Epic",
+   "fame": 12804,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It was carved out of solid limestone by 600 slaves between 1793 and 1794 to create a direct route from Fort Fincastle to Nassau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Queen's Staircase",
+    "url": "https://en.wikipedia.org/wiki/Queen%27s_Staircase",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q43079731.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen%27s_staircase,_Nassau,_Bahamas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q600140",
+   "name": "Compass Point Studios",
+   "label": "Compass Point Studios",
+   "type": "built",
+   "kind": "recording studio",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0642,
+   "lon": -77.4783,
+   "rarity": "Epic",
+   "fame": 29148,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Compass Point Studios was a music recording studio in the Bahamas, established in 1977 by Chris Blackwell, founder and owner of Island Records.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Compass Point Studios",
+    "url": "https://en.wikipedia.org/wiki/Compass_Point_Studios",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q600140.webp",
+    "author": "Christine Puccio from Oakland",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Compas_Point_Studio_(14949011761).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2722966",
+   "name": "Atlantis Paradise Island",
+   "label": "Atlantis Paradise Island",
+   "type": "built",
+   "kind": "resort",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.085,
+   "lon": -77.3208,
+   "rarity": "Epic",
+   "fame": 65436,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The resort spans 154-acre which includes a waterpark, marine habitat, and other recreational facilities.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Atlantis Paradise Island",
+    "url": "https://en.wikipedia.org/wiki/Atlantis_Paradise_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2722966.webp",
+    "author": "Don Ramey Logan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Royal_Tower_Atlantis_Paradise_Island_photo_Don_Ramey_Logan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q590296",
+   "name": "Thomas Robinson Stadium",
+   "label": "Thomas Robinson Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0556,
+   "lon": -77.3587,
+   "rarity": "Epic",
+   "fame": 8400,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The largest stadium in the country, it is used primarily for soccer matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thomas Robinson Stadium",
+    "url": "https://en.wikipedia.org/wiki/Thomas_Robinson_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q590296.webp"
+   }
+  },
+  {
+   "id": "wd:Q25058094",
+   "name": "Conception Island National Park",
+   "label": "Conception Island National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS-LI",
+   "country": "BS",
+   "lat": 23.48,
+   "lon": -75.05,
+   "rarity": "Epic",
+   "fame": 546,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The park, which covers Conception Bank, lies between Cat Island to the north and Rum Cay to the south.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Conception Island National Park",
+    "url": "https://en.wikipedia.org/wiki/Conception_Island_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25058094.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:COAST_GUARD_CUTTER_EAGLE_DVIDS1072275.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6013390",
+   "name": "Inagua National Park",
+   "label": "Inagua National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS-IN",
+   "country": "BS",
+   "lat": 21.082,
+   "lon": -73.372,
+   "rarity": "Epic",
+   "fame": 1536,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "It was established in 1965 and has an area of 220,000 acres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Inagua National Park",
+    "url": "https://en.wikipedia.org/wiki/Inagua_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6013390.webp",
+    "author": "Wilson44691 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NorthShoreGreatInagua.jpg"
+   }
+  },
+  {
+   "id": "wd:Q60768004",
+   "name": "Walker's Cay National Park",
+   "label": "Walker's Cay National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS-WG",
+   "country": "BS",
+   "lat": 27.2815,
+   "lon": -78.3877,
+   "rarity": "Epic",
+   "fame": 384,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "The park was established in 2002, and has an area of 3,840 acres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Walker's Cay National Park",
+    "url": "https://en.wikipedia.org/wiki/Walker%27s_Cay_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q60768004.webp"
+   }
+  },
+  {
+   "id": "wd:Q1141700",
+   "name": "Eleuthera",
+   "label": "Eleuthera",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-CE",
+   "country": "BS",
+   "lat": 25.1347,
+   "lon": -76.1442,
+   "rarity": "Epic",
+   "fame": 72756,
+   "facts": {
+    "elevation_m": 61,
+    "area_km2": 518,
+    "length_km": 177,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Eleuthera, locally known as Lutra, refers both to a single island in the archipelagic state of the Commonwealth of the Bahamas and to its associated group of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Eleuthera",
+    "url": "https://en.wikipedia.org/wiki/Eleuthera",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1141700.webp",
+    "author": "Trish Hartmann from Tampa, Florida, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_scene_at_Current,_Eleuthera_(8222670396).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1999825",
+   "name": "Norman's Cay",
+   "label": "Norman's Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-BP",
+   "country": "BS",
+   "lat": 24.6167,
+   "lon": -76.8167,
+   "rarity": "Epic",
+   "fame": 77736,
+   "facts": {
+    "elevation_m": 11,
+    "area_km2": 3.0,
+    "length_km": 6.8,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Norman's Cay is a small Bahamian island in the Exumas, a chain of islands south and east of Nassau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Norman's Cay",
+    "url": "https://en.wikipedia.org/wiki/Norman%27s_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1999825.webp"
+   }
+  },
+  {
+   "id": "wd:Q108695672",
+   "name": "Primeval Forest National Park",
+   "label": "Primeval Forest National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0139,
+   "lon": -77.5169,
+   "rarity": "Epic",
+   "fame": 738,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Primeval Forest National Park is a small national park located on southwestern New Providence Island in The Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Primeval Forest National Park",
+    "url": "https://en.wikipedia.org/wiki/Primeval_Forest_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q108695672.webp",
+    "author": "RoadTripWarrior",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Primeval_Forest_National_Park_Sign.jpg"
+   }
+  },
+  {
+   "id": "wd:Q108607527",
+   "name": "Clifton Heritage National Park",
+   "label": "Clifton Heritage National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.013,
+   "lon": -77.55,
+   "rarity": "Epic",
+   "fame": 1194,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It is managed by the Clifton Heritage Authority and has an area of 208 acres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Clifton Heritage National Park",
+    "url": "https://en.wikipedia.org/wiki/Clifton_Heritage_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q108607527.webp"
+   }
+  },
+  {
+   "id": "wd:Q858513",
+   "name": "New Providence",
+   "label": "New Providence",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.03,
+   "lon": -77.405,
+   "rarity": "Epic",
+   "fame": 103494,
+   "facts": {
+    "elevation_m": 6.0,
+    "area_km2": 207,
+    "length_km": 30,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "New Providence is the most populous island in the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "New Providence",
+    "url": "https://en.wikipedia.org/wiki/New_Providence",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q858513.webp"
+   }
+  },
+  {
+   "id": "wd:Q60768114",
+   "name": "Blue Holes National Park",
+   "label": "Blue Holes National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS-NS",
+   "country": "BS",
+   "lat": 24.7896,
+   "lon": -77.9448,
+   "rarity": "Epic",
+   "fame": 1080,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The park was established in 2002 and has an area of 40,000 acres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blue Holes National Park",
+    "url": "https://en.wikipedia.org/wiki/Blue_Holes_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q60768114.webp"
+   }
+  },
+  {
+   "id": "wd:Q60768312",
+   "name": "Moriah Harbour Cay National Park",
+   "label": "Moriah Harbour Cay National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BS-EX",
+   "country": "BS",
+   "lat": 23.498,
+   "lon": -75.712,
+   "rarity": "Epic",
+   "fame": 570,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The reserve was established in 2002 and, after expansion in 2015, has an area of 16,800 acres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moriah Harbour Cay National Park",
+    "url": "https://en.wikipedia.org/wiki/Moriah_Harbour_Cay_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q60768312.webp",
+    "author": "Craig Talbert",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moriah_Harbor_Cay_National_Park_(52527641694).jpg"
+   }
+  },
+  {
+   "id": "gn:3572640",
+   "name": "Clarence Town",
+   "label": "Clarence Town",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-LI",
+   "country": "BS",
+   "lat": 23.1,
+   "lon": -74.9833,
+   "rarity": "Epic",
+   "fame": 2382,
+   "facts": {
+    "population": 1752,
+    "elevation_m": 20,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Clarence Town is a town in The Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Clarence Town",
+    "url": "https://en.wikipedia.org/wiki/Clarence_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3572640.webp",
+    "author": "Rüdiger Stehn from Kiel, Deutschland",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahamas_1989_(623)_Long_Island_Clarence_Town_(25433228330).jpg"
+   }
+  },
+  {
+   "id": "gn:3571913",
+   "name": "Marsh Harbour",
+   "label": "Marsh Harbour",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-CO",
+   "country": "BS",
+   "lat": 26.5412,
+   "lon": -77.0636,
+   "rarity": "Epic",
+   "fame": 21078,
+   "facts": {
+    "population": 5314,
+    "elevation_m": 4.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Marsh Harbour is a town in Abaco Islands, Bahamas, with a population of 6,283 as of 2012.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marsh Harbour",
+    "url": "https://en.wikipedia.org/wiki/Marsh_Harbour",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3571913.webp"
+   }
+  },
+  {
+   "id": "gn:3572796",
+   "name": "Black Point",
+   "label": "Black Point",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-BP",
+   "country": "BS",
+   "lat": 24.0905,
+   "lon": -76.3913,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 414,
+    "elevation_m": 1.0,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A community of 414 people in Black Point.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572796.webp"
+   }
+  },
+  {
+   "id": "gn:3571523",
+   "name": "San Andros",
+   "label": "San Andros",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-NS",
+   "country": "BS",
+   "lat": 25.0667,
+   "lon": -78.05,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 7800,
+    "elevation_m": 15,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 7,800 people in North Andros.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3571523.webp"
+   }
+  },
+  {
+   "id": "gn:3571898",
+   "name": "Matthew Town",
+   "label": "Matthew Town",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-IN",
+   "country": "BS",
+   "lat": 20.9498,
+   "lon": -73.6735,
+   "rarity": "Epic",
+   "fame": 8238,
+   "facts": {
+    "population": 452,
+    "elevation_m": 11,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Matthew Town is the chief and only settlement on Great Inagua Island in the far south of the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Matthew Town",
+    "url": "https://en.wikipedia.org/wiki/Matthew_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3571898.webp",
+    "author": "Mark A. Wilson (Department of Geology, The College of Wooster)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Matthew_Town,_Great_Inagua,_Bahamas.jpg"
+   }
+  },
+  {
+   "id": "gn:3572375",
+   "name": "Freeport",
+   "label": "Freeport",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-FP",
+   "country": "BS",
+   "lat": 26.5333,
+   "lon": -78.7,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 26910,
+    "elevation_m": 6.0,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "A community of 26,910 people in Freeport.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572375.webp"
+   }
+  },
+  {
+   "id": "gn:3572716",
+   "name": "Bullocks Harbour",
+   "label": "Bullocks Harbour",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-BY",
+   "country": "BS",
+   "lat": 25.7521,
+   "lon": -77.8689,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 342,
+    "elevation_m": 8.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 342 people in Berry Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572716.webp"
+   }
+  },
+  {
+   "id": "gn:3572627",
+   "name": "Cockburn Town",
+   "label": "Cockburn Town",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-SS",
+   "country": "BS",
+   "lat": 24.0518,
+   "lon": -74.5314,
+   "rarity": "Epic",
+   "fame": 5208,
+   "facts": {
+    "population": 831,
+    "elevation_m": 10,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "In the town there is an airport, museum, administrator's office, post office, clinic, telecommunication station, and electricity generators.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cockburn Town, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Cockburn_Town%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572627.webp"
+   }
+  },
+  {
+   "id": "gn:3571224",
+   "name": "West End",
+   "label": "West End",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-WG",
+   "country": "BS",
+   "lat": 26.6871,
+   "lon": -78.977,
+   "rarity": "Epic",
+   "fame": 3402,
+   "facts": {
+    "population": 12724,
+    "elevation_m": 5.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "West End is the oldest town and westernmost settlement on the Bahamian island of Grand Bahama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "West End, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/West_End%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3571224.webp"
+   }
+  },
+  {
+   "id": "gn:3572940",
+   "name": "Abraham’s Bay",
+   "label": "Abraham’s Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-MG",
+   "country": "BS",
+   "lat": 22.3667,
+   "lon": -72.9667,
+   "rarity": "Epic",
+   "fame": 2742,
+   "facts": {
+    "population": 235,
+    "elevation_m": 7.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is located on the south side of Mayaguana Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Abraham's Bay",
+    "url": "https://en.wikipedia.org/wiki/Abraham%27s_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572940.webp"
+   }
+  },
+  {
+   "id": "gn:3571824",
+   "name": "Nassau",
+   "label": "Nassau",
+   "type": "town",
+   "kind": "town",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0582,
+   "lon": -77.3431,
+   "rarity": "Legendary",
+   "fame": 364596,
+   "facts": {
+    "population": 227940,
+    "elevation_m": 5.0,
+    "area_km2": 207,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Nassau is the capital and largest city of the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nassau, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Nassau%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3571824.webp",
+    "author": "Der-wuppertaler",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BHA_Nassau,_Paradise_Island,_Atlantis_Bridge_001.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28375049",
+   "name": "Elbow Cay lighthouse",
+   "label": "Elbow Cay lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "BS-CO",
+   "country": "BS",
+   "lat": 26.5397,
+   "lon": -76.9621,
+   "rarity": "Rare",
+   "fame": 1452,
+   "facts": {
+    "elevation_m": 8.0,
+    "height_m": 27,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Elbow Reef Lighthouse is one of the last operational kerosene-fueled lighthouses in the world.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Elbow Reef Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Elbow_Reef_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28375049.webp",
+    "author": "Colombiano",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lighthouse_Elbow_cay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17020956",
+   "name": "St. Andrew's Presbyterian Kirk",
+   "label": "St. Andrew's Presbyterian Kirk",
+   "type": "built",
+   "kind": "church",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.076,
+   "lon": -77.3434,
+   "rarity": "Rare",
+   "fame": 504,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "St. Andrew's Presbyterian Kirk is a historic church in downtown Nassau, Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Andrews Presbyterian Kirk",
+    "url": "https://en.wikipedia.org/wiki/St._Andrews_Presbyterian_Kirk",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17020956.webp",
+    "author": "Bryn31",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Andrews_Kirk.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4355404",
+   "name": "Grand Bahama Stadium",
+   "label": "Grand Bahama Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "BS-WG",
+   "country": "BS",
+   "lat": 26.5434,
+   "lon": -78.676,
+   "rarity": "Rare",
+   "fame": 426,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "The stadium is mostly used for football and athletics.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Bahama Sports Complex",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bahama_Sports_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4355404.webp"
+   }
+  },
+  {
+   "id": "wd:Q108502158",
+   "name": "Jamaa' Ahlus Sunnah Bahamas Mosque",
+   "label": "Jamaa' Ahlus Sunnah Bahamas Mosque",
+   "type": "built",
+   "kind": "mosque",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0237,
+   "lon": -77.3714,
+   "rarity": "Rare",
+   "fame": 828,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Jamaa' Ahlus Sunnah Bahamas Mosque is a mosque in Nassau, New Providence, in The Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jamaa' Ahlus Sunnah Bahamas Mosque",
+    "url": "https://en.wikipedia.org/wiki/Jamaa%27_Ahlus_Sunnah_Bahamas_Mosque",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q108502158.webp"
+   }
+  },
+  {
+   "id": "wd:Q106090931",
+   "name": "Bahamian Parliament Building",
+   "label": "Bahamian Parliament Building",
+   "type": "built",
+   "kind": "parliament building",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0775,
+   "lon": -77.3406,
+   "rarity": "Rare",
+   "fame": 2814,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Bahamian Parliament Building is the home of the House of Assembly of the Parliament of the Bahamas, located in Parliament Square, Bay Street.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bahamian Parliament Building",
+    "url": "https://en.wikipedia.org/wiki/Bahamian_Parliament_Building",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q106090931.webp",
+    "author": "UpstateNYer",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BahamianParliamentPanorama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5471701",
+   "name": "Fort Montagu",
+   "label": "Fort Montagu",
+   "type": "built",
+   "kind": "fort",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0737,
+   "lon": -77.3066,
+   "rarity": "Rare",
+   "fame": 4698,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Peter Henry Bruce oversaw the construction of the fort that began in 1741 to defend the British possession from Spanish invaders.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Montagu",
+    "url": "https://en.wikipedia.org/wiki/Fort_Montagu",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471701.webp",
+    "author": "Oscar Flowers",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Montagu_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21713748",
+   "name": "Cable Beach",
+   "label": "Cable Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0736,
+   "lon": -77.4067,
+   "rarity": "Rare",
+   "fame": 5286,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Cable Beach is a beach, resort destination, and populated place on the northern coast of New Providence Island in the Bahamas west of Nassau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cable Beach, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Cable_Beach%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21713748.webp",
+    "author": "Rüdiger Stehn from Kiel, Deutschland",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahamas_1988_(059)_New_Providence_Cable_Beach_(22762816374).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5470909",
+   "name": "Fort Charlotte",
+   "label": "Fort Charlotte",
+   "type": "built",
+   "kind": "building",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.077,
+   "lon": -77.3587,
+   "rarity": "Rare",
+   "fame": 6342,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Fort Charlotte is a British-colonial era fort built on a hill overlooking the harbour of Nassau, the capital and largest city of the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Charlotte (Nassau)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Charlotte_%28Nassau%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5470909.webp",
+    "author": "Ahodges7",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Charlotte,_Nassau,_The_Bahamas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q58956395",
+   "name": "Egg Island Lighthouse",
+   "label": "Egg Island Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "BS-SW",
+   "country": "BS",
+   "lat": 25.4983,
+   "lon": -76.8819,
+   "rarity": "Rare",
+   "fame": 222,
+   "facts": {
+    "elevation_m": 16,
+    "height_m": 18,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Egg Island Lighthouse is a lighthouse on Egg Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Egg Island Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Egg_Island_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q58956395.webp",
+    "author": "European Space Agency",
+    "licence": "CC BY-SA 3.0 igo",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Egg_Island,_Bahamas_ESA391953.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7367591",
+   "name": "Roscow A. L. Davies Soccer Field",
+   "label": "Roscow A. L. Davies Soccer Field",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0542,
+   "lon": -77.3603,
+   "rarity": "Rare",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It is currently used mostly for soccer matches and is a part of the larger Baillou Hills Sporting Complex.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roscow A. L. Davies Soccer Field",
+    "url": "https://en.wikipedia.org/wiki/Roscow_A._L._Davies_Soccer_Field",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7367591.webp"
+   }
+  },
+  {
+   "id": "wd:Q24297157",
+   "name": "French Cloisters, Paradise Island",
+   "label": "French Cloisters, Paradise Island",
+   "type": "built",
+   "kind": "built structure",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0805,
+   "lon": -77.3101,
+   "rarity": "Rare",
+   "fame": 1194,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "French cloister is situated in the northern Bahamas, on Paradise Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "French Cloister at Versailles Gardens",
+    "url": "https://en.wikipedia.org/wiki/French_Cloister_at_Versailles_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24297157.webp",
+    "author": "Rüdiger Stehn from Kiel, Deutschland",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahamas_1988_(272)_Paradise_Island_Versailler_Garten_und_Kloster_(23500355594).jpg"
+   }
+  },
+  {
+   "id": "wd:Q28376329",
+   "name": "Great Isaac Lighthouse",
+   "label": "Great Isaac Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "BS-BI",
+   "country": "BS",
+   "lat": 26.0283,
+   "lon": -79.0894,
+   "rarity": "Rare",
+   "fame": 6060,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Erected in 1859, it is located about 20 miles NNE of the Bimini Islands, and accessible only by boat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Isaac Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Great_Isaac_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28376329.webp",
+    "author": "Michael S. King",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Isaac_Cay,_Bahamas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4929318",
+   "name": "Blue Lagoon Island",
+   "label": "Blue Lagoon Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0983,
+   "lon": -77.2711,
+   "rarity": "Rare",
+   "fame": 8874,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 0.4,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Blue Lagoon Island is a private island located 5 km from Nassau, Bahamas, and serves as a local tourist attraction.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blue Lagoon Island",
+    "url": "https://en.wikipedia.org/wiki/Blue_Lagoon_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4929318.webp",
+    "author": "Dolphins",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6941213",
+   "name": "Musha Cay",
+   "label": "Musha Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-BP",
+   "country": "BS",
+   "lat": 23.8833,
+   "lon": -76.25,
+   "rarity": "Rare",
+   "fame": 9120,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "It is located 85 miles southeast of Nassau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Musha Cay",
+    "url": "https://en.wikipedia.org/wiki/Musha_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6941213.webp"
+   }
+  },
+  {
+   "id": "wd:Q2154808",
+   "name": "Rose Island",
+   "label": "Rose Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0875,
+   "lon": -77.2194,
+   "rarity": "Rare",
+   "fame": 7800,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Rose Island is a small island in the Bahamas that lies 5 kilometres east of Paradise Island, which lies directly off of New Providence Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rose Island, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Rose_Island%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2154808.webp",
+    "author": "Scarpy",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rose_Island_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3249446",
+   "name": "Green Turtle Cay",
+   "label": "Green Turtle Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-NO",
+   "country": "BS",
+   "lat": 26.7667,
+   "lon": -77.3167,
+   "rarity": "Rare",
+   "fame": 8292,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "Green Turtle Cay is one of the barrier islands off mainland Great Abaco, The Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Green Turtle Cay",
+    "url": "https://en.wikipedia.org/wiki/Green_Turtle_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3249446.webp",
+    "author": "Rüdiger Stehn from Kiel, Deutschland",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahamas_1989_(409)_Abaco_New_Plymouth,_Green_Turtle_Cay_(24679794082).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1140993",
+   "name": "Crooked Island",
+   "label": "Crooked Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-CK",
+   "country": "BS",
+   "lat": 22.75,
+   "lon": -74.2,
+   "rarity": "Rare",
+   "fame": 8622,
+   "facts": {
+    "elevation_m": 6.0,
+    "area_km2": 148,
+    "length_km": 37,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Crooked Island is an island and district, part of a group of Bahamian islands defining a large, shallow lagoon called the Bight of Acklins.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crooked Island, Bahamas",
+    "url": "https://en.wikipedia.org/wiki/Crooked_Island%2C_Bahamas",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1140993.webp"
+   }
+  },
+  {
+   "id": "wd:Q866345",
+   "name": "Grand Bahama",
+   "label": "Grand Bahama",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-EG",
+   "country": "BS",
+   "lat": 26.65,
+   "lon": -78.3167,
+   "rarity": "Rare",
+   "fame": 33618,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 1096,
+    "length_km": 154,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Grand Bahama is the northernmost of the islands of the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Bahama",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bahama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q866345.webp",
+    "author": "NASA Original uploader was Darwinek at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_bahama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3181503",
+   "name": "Paradise Island",
+   "label": "Paradise Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS",
+   "country": "BS",
+   "lat": 25.0833,
+   "lon": -77.3333,
+   "rarity": "Rare",
+   "fame": 49158,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 2.8,
+    "length_km": 6.3,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The island, with an area of 277 hectares, is just off the shore of the city of Nassau, which is itself on the northern edge of the island of New Providence.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Paradise Island",
+    "url": "https://en.wikipedia.org/wiki/Paradise_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3181503.webp",
+    "author": "JK Liu",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paradise_Island_2026-09-09.jpg"
+   }
+  },
+  {
+   "id": "wd:Q999988",
+   "name": "Castaway Cay",
+   "label": "Castaway Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-SO",
+   "country": "BS",
+   "lat": 26.0833,
+   "lon": -77.5333,
+   "rarity": "Rare",
+   "fame": 65022,
+   "facts": {
+    "elevation_m": 1.5,
+    "area_km2": 4.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Disney's Castaway Cay is a private island in the Bahamas which serves as an exclusive port for the Disney Cruise Line ships.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castaway Cay",
+    "url": "https://en.wikipedia.org/wiki/Castaway_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q999988.webp",
+    "author": "Warfieldian",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CastawayCayFlyingDutchman.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5600038",
+   "name": "Great Stirrup Cay",
+   "label": "Great Stirrup Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-BY",
+   "country": "BS",
+   "lat": 25.8333,
+   "lon": -77.9,
+   "rarity": "Rare",
+   "fame": 45408,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Norwegian Cruise Line purchased the island from the Belcher Oil Company in 1977 and developed it into a private island for their cruise ship passengers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Stirrup Cay",
+    "url": "https://en.wikipedia.org/wiki/Great_Stirrup_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5600038.webp",
+    "author": "Ekem",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greatstrirrupcay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q845540",
+   "name": "San Salvador Island",
+   "label": "San Salvador Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-SS",
+   "country": "BS",
+   "lat": 24.035,
+   "lon": -74.4975,
+   "rarity": "Rare",
+   "fame": 61308,
+   "facts": {
+    "elevation_m": 12,
+    "area_km2": 163,
+    "length_km": 19,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "San Salvador Island, previously Watling's Island, is an island and district of the Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Salvador Island",
+    "url": "https://en.wikipedia.org/wiki/San_Salvador_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q845540.webp",
+    "author": "Jstuby at en.wikipedia",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Grahams_Harbour_1.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1540098",
+   "name": "Mayaguana",
+   "label": "Mayaguana",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-MG",
+   "country": "BS",
+   "lat": 22.3758,
+   "lon": -72.9083,
+   "rarity": "Rare",
+   "fame": 11238,
+   "facts": {
+    "elevation_m": 7.0,
+    "area_km2": 280,
+    "length_km": 44,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Mayaguana is the easternmost island and district of The Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mayaguana",
+    "url": "https://en.wikipedia.org/wiki/Mayaguana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1540098.webp",
+    "author": "User: (WT-shared) Waustindavis at wts wikivoyage",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Mayaguana_IMGP0335.jpg"
+   }
+  },
+  {
+   "id": "wd:Q10769613",
+   "name": "Elbow Cay",
+   "label": "Elbow Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "BS-CO",
+   "country": "BS",
+   "lat": 26.5268,
+   "lon": -76.9681,
+   "rarity": "Rare",
+   "fame": 7500,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Its main village of Hope Town surrounds a protected harbor with a noted red-and-white-striped one-hundred-and-twenty-foot-tall lighthouse built in 1863.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Elbow Cay",
+    "url": "https://en.wikipedia.org/wiki/Elbow_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q10769613.webp",
+    "author": "Dmadeo",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hopetown-lighthouse.jpg"
+   }
+  },
+  {
+   "id": "gn:7535668",
+   "name": "Treasure Cay",
+   "label": "Treasure Cay",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-NO",
+   "country": "BS",
+   "lat": 26.6769,
+   "lon": -77.2858,
+   "rarity": "Rare",
+   "fame": 5190,
+   "facts": {
+    "population": 1187,
+    "elevation_m": 6.0,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "It has a population of 1,187 as of the 2010 Bahamian census.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Treasure Cay",
+    "url": "https://en.wikipedia.org/wiki/Treasure_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_7535668.webp",
+    "author": "Oscar Flowers",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Treasure_Cay_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3572906",
+   "name": "Andros Town",
+   "label": "Andros Town",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-NS",
+   "country": "BS",
+   "lat": 24.705,
+   "lon": -77.7691,
+   "rarity": "Rare",
+   "fame": 5280,
+   "facts": {
+    "population": 2455,
+    "elevation_m": 14,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Andros Town is a town in North Andros on Andros in The Bahamas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Andros Town",
+    "url": "https://en.wikipedia.org/wiki/Andros_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572906.webp"
+   }
+  },
+  {
+   "id": "gn:11694815",
+   "name": "Grand Cay",
+   "label": "Grand Cay (North Abaco)",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-NO",
+   "country": "BS",
+   "lat": 27.2198,
+   "lon": -78.3277,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 383,
+    "elevation_m": 0.0,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "A community of 383 people in North Abaco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11694815.webp"
+   }
+  },
+  {
+   "id": "gn:3571650",
+   "name": "Port Nelson",
+   "label": "Port Nelson",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-RC",
+   "country": "BS",
+   "lat": 23.6497,
+   "lon": -74.8416,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 91,
+    "elevation_m": 4.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 91 people in Rum Cay.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3571650.webp"
+   }
+  },
+  {
+   "id": "gn:3571275",
+   "name": "Upper Bogue",
+   "label": "Upper Bogue",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-NE",
+   "country": "BS",
+   "lat": 25.45,
+   "lon": -76.6667,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 190,
+    "elevation_m": 9.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 190 people in North Eleuthera.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3571275.webp"
+   }
+  },
+  {
+   "id": "gn:3572110",
+   "name": "Kemps Bay",
+   "label": "Kemps Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-SA",
+   "country": "BS",
+   "lat": 24.027,
+   "lon": -77.5334,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 273,
+    "elevation_m": 6.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 273 people in South Andros.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572110.webp"
+   }
+  },
+  {
+   "id": "gn:3572165",
+   "name": "Hope Town",
+   "label": "Hope Town",
+   "type": "town",
+   "kind": "town",
+   "region": "BS-CO",
+   "country": "BS",
+   "lat": 26.5386,
+   "lon": -76.9574,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 458,
+    "elevation_m": 6.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 458 people in Central Abaco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3572165.webp"
+   }
+  }
+ ]
+}

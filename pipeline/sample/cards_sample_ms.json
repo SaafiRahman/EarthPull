@@ -1,0 +1,222 @@
+{
+ "note": "Sample of the Montserrat card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q845239",
+   "name": "Soufrière Hills",
+   "label": "Soufrière Hills",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MS-A",
+   "country": "MS",
+   "lat": 16.7167,
+   "lon": -62.1833,
+   "rarity": "Common",
+   "fame": 54252,
+   "facts": {
+    "elevation_m": 1050,
+    "prominence_m": 1050,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Soufrière Hills is an active, complex stratovolcano with many lava domes forming its summit on the Caribbean island of Montserrat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Soufrière Hills",
+    "url": "https://en.wikipedia.org/wiki/Soufri%C3%A8re_Hills",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q845239.webp",
+    "author": "CommonismNow",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Soufriere_Hills.jpg"
+   }
+  },
+  {
+   "id": "gn:7266440",
+   "name": "Brades",
+   "label": "Brades",
+   "type": "town",
+   "kind": "town",
+   "region": "MS-P",
+   "country": "MS",
+   "lat": 16.7918,
+   "lon": -62.2106,
+   "rarity": "Common",
+   "fame": 34476,
+   "facts": {
+    "population": 1000,
+    "elevation_m": 52,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Brades is a town and the seat of government of Montserrat since 1998 with an approximate population of 1,000.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brades",
+    "url": "https://en.wikipedia.org/wiki/Brades",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_7266440.webp",
+    "author": "Mike Schinkel from Atlanta, GA, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:WelcomeCenterBrades.jpg"
+   }
+  },
+  {
+   "id": "wd:Q881312",
+   "name": "Blakes Estate Stadium",
+   "label": "Blakes Estate Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "MS-P",
+   "country": "MS",
+   "lat": 16.7839,
+   "lon": -62.1863,
+   "rarity": "Epic",
+   "fame": 4584,
+   "facts": {
+    "elevation_m": 206,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "On 2 April 2002, the officially named MFA Inc.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blakes Estate Stadium",
+    "url": "https://en.wikipedia.org/wiki/Blakes_Estate_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q881312.webp"
+   }
+  },
+  {
+   "id": "wd:Q24514447",
+   "name": "St. Martin de Porres Church, Salem",
+   "label": "St. Martin de Porres Church, Salem",
+   "type": "built",
+   "kind": "church",
+   "region": "MS-P",
+   "country": "MS",
+   "lat": 16.7497,
+   "lon": -62.2224,
+   "rarity": "Rare",
+   "fame": 342,
+   "facts": {
+    "elevation_m": 116,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The St. Martin de Porres Church is a religious building of the Catholic Church located in the town of Salem, on the Caribbean island of Montserrat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Martin de Porres Church, Salem",
+    "url": "https://en.wikipedia.org/wiki/St._Martin_de_Porres_Church%2C_Salem",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24514447.webp"
+   }
+  },
+  {
+   "id": "wd:Q7404155",
+   "name": "Salem Oval",
+   "label": "Salem Oval",
+   "type": "built",
+   "kind": "stadium",
+   "region": "MS-P",
+   "country": "MS",
+   "lat": 16.7477,
+   "lon": -62.2224,
+   "rarity": "Rare",
+   "fame": 864,
+   "facts": {
+    "elevation_m": 112,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Salem Oval is a cricket ground located in the village of Salem, Montserrat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salem Oval",
+    "url": "https://en.wikipedia.org/wiki/Salem_Oval",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7404155.webp"
+   }
+  },
+  {
+   "id": "wd:Q6906590",
+   "name": "Montserrat Volcano Observatory",
+   "label": "Montserrat Volcano Observatory",
+   "type": "built",
+   "kind": "volcano observatory",
+   "region": "MS-P",
+   "country": "MS",
+   "lat": 16.7487,
+   "lon": -62.2128,
+   "rarity": "Rare",
+   "fame": 3558,
+   "facts": {
+    "elevation_m": 242,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Montserrat Volcano Observatory is a volcano observatory which is located on the Caribbean island of Montserrat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Montserrat Volcano Observatory",
+    "url": "https://en.wikipedia.org/wiki/Montserrat_Volcano_Observatory",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6906590.webp",
+    "author": "David Stanley from Nanaimo, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Montserrat_Volcano_Observatory.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24514734",
+   "name": "St. Patrick's Church, Lookout",
+   "label": "St. Patrick's Church, Lookout",
+   "type": "built",
+   "kind": "church",
+   "region": "MS-P",
+   "country": "MS",
+   "lat": 16.7886,
+   "lon": -62.188,
+   "rarity": "Rare",
+   "fame": 282,
+   "facts": {
+    "elevation_m": 175,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The St. Patrick's Church is a religious building of the Catholic Church which is located in the town of Lookout on the Caribbean island of Montserrat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Patrick's Church, Lookout",
+    "url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Church%2C_Lookout",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24514734.webp"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2863 @@
+{
+ "note": "Sample of the El Salvador card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q24263800",
+   "name": "Titihuapa River",
+   "label": "Titihuapa River",
+   "type": "nature",
+   "kind": "river",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.7498,
+   "lon": -88.5311,
+   "rarity": "Common",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 49,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "In 2004 excavations along the bank discovered petroglyphs.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Titihuapa River",
+    "url": "https://en.wikipedia.org/wiki/Titihuapa_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24263800.webp"
+   }
+  },
+  {
+   "id": "wd:Q780752",
+   "name": "Chinameca",
+   "label": "Chinameca (mountain)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.478,
+   "lon": -88.33,
+   "rarity": "Common",
+   "fame": 2562,
+   "facts": {
+    "elevation_m": 1300,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "It lies north of San Miguel volcano and rises over the town of Chinameca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chinameca (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Chinameca_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q780752.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ChinamecaVolcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6126982",
+   "name": "Jalponga River",
+   "label": "Jalponga River",
+   "type": "nature",
+   "kind": "river",
+   "region": "SV-PA",
+   "country": "SV",
+   "lat": 13.3667,
+   "lon": -88.95,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Jalponga River is a river in La Paz Department, El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jalponga River",
+    "url": "https://en.wikipedia.org/wiki/Jalponga_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6126982.webp"
+   }
+  },
+  {
+   "id": "wd:Q5921522",
+   "name": "Isla Conchagua",
+   "label": "Isla Conchagua",
+   "type": "nature",
+   "kind": "island",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.3833,
+   "lon": -88.2667,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 264,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "An island in San Miguel.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5921522.webp"
+   }
+  },
+  {
+   "id": "wd:Q15733001",
+   "name": "Laguna Verde",
+   "label": "Laguna Verde",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-AH",
+   "country": "SV",
+   "lat": 13.8902,
+   "lon": -89.7816,
+   "rarity": "Common",
+   "fame": 750,
+   "facts": {
+    "elevation_m": 1814,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "A mountain in Ahuachapán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15733001.webp"
+   }
+  },
+  {
+   "id": "wd:Q124748155",
+   "name": "Isla Tasajera",
+   "label": "Isla Tasajera",
+   "type": "nature",
+   "kind": "island",
+   "region": "SV-PA",
+   "country": "SV",
+   "lat": 13.2833,
+   "lon": -88.8667,
+   "rarity": "Common",
+   "fame": 498,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in La Paz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124748155.webp",
+    "author": "jlpino",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calaiza_en_La_Herradura_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3467062",
+   "name": "Laguna Cuzcachapa",
+   "label": "Laguna Cuzcachapa",
+   "type": "nature",
+   "kind": "lake",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9831,
+   "lon": -89.6707,
+   "rarity": "Common",
+   "fame": 1146,
+   "facts": {
+    "elevation_m": 700,
+    "area_km2": 1.0,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "A lake in Santa Ana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3467062.webp"
+   }
+  },
+  {
+   "id": "wd:Q6477193",
+   "name": "Lake Olomega",
+   "label": "Lake Olomega",
+   "type": "nature",
+   "kind": "lake",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.3167,
+   "lon": -88.0667,
+   "rarity": "Common",
+   "fame": 2808,
+   "facts": {
+    "elevation_m": 65,
+    "area_km2": 24,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Lake Olomega is a large lake in the southeastern part of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Olomega",
+    "url": "https://en.wikipedia.org/wiki/Lake_Olomega",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6477193.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Olomega_lrg.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2661950",
+   "name": "Usulután",
+   "label": "Usulután (near Santiago de María)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-US",
+   "country": "SV",
+   "lat": 13.4189,
+   "lon": -88.4708,
+   "rarity": "Common",
+   "fame": 3744,
+   "facts": {
+    "elevation_m": 1449,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "Usulután is a stratovolcano in central El Salvador, rising above the coastal plain between the San Vicente and San Miguel volcanoes.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Usulután (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Usulut%C3%A1n_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2661950.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Usulut%C3%A1nVolcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2881644",
+   "name": "Isla Madre Sal",
+   "label": "Isla Madre Sal",
+   "type": "nature",
+   "kind": "island",
+   "region": "SV-US",
+   "country": "SV",
+   "lat": 13.2167,
+   "lon": -88.5,
+   "rarity": "Common",
+   "fame": 306,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Usulután.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2881644.webp",
+    "author": "Metztli",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Madre_Sal.JPG"
+   }
+  },
+  {
+   "id": "wd:Q15391882",
+   "name": "Isla Martín Pérez",
+   "label": "Isla Martín Pérez",
+   "type": "nature",
+   "kind": "island",
+   "region": "SV-UN",
+   "country": "SV",
+   "lat": 13.2836,
+   "lon": -87.7399,
+   "rarity": "Common",
+   "fame": 390,
+   "facts": {
+    "elevation_m": 39,
+    "area_km2": 2.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "An island in La Unión.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15391882.webp"
+   }
+  },
+  {
+   "id": "wd:Q3042754",
+   "name": "Tecapa",
+   "label": "Tecapa",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-US",
+   "country": "SV",
+   "lat": 13.494,
+   "lon": -88.502,
+   "rarity": "Common",
+   "fame": 2484,
+   "facts": {
+    "elevation_m": 1593,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Tecapa is a complex stratovolcano in central El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tecapa",
+    "url": "https://en.wikipedia.org/wiki/Tecapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3042754.webp",
+    "author": "Lee Siebert",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tecapa_volcano.jpg"
+   }
+  },
+  {
+   "id": "gn:3583429",
+   "name": "San Pablo Tacachico",
+   "label": "San Pablo Tacachico",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.9756,
+   "lon": -89.34,
+   "rarity": "Common",
+   "fame": 3882,
+   "facts": {
+    "population": 3033,
+    "elevation_m": 317,
+    "area_km2": 129,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "San Pablo Tacachico is a municipality in the La Libertad department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Pablo Tacachico",
+    "url": "https://en.wikipedia.org/wiki/San_Pablo_Tacachico",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3583429.webp"
+   }
+  },
+  {
+   "id": "gn:3583065",
+   "name": "Tacuba",
+   "label": "Tacuba",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-AH",
+   "country": "SV",
+   "lat": 13.9011,
+   "lon": -89.9297,
+   "rarity": "Common",
+   "fame": 3282,
+   "facts": {
+    "population": 5055,
+    "elevation_m": 681,
+    "area_km2": 150,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "Tacuba is a district in the Ahuachapán Department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tacuba",
+    "url": "https://en.wikipedia.org/wiki/Tacuba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583065.webp",
+    "author": "feinteriano",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tacuba,_El_Salvador_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3587064",
+   "name": "Chapeltique",
+   "label": "Chapeltique",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.6333,
+   "lon": -88.2667,
+   "rarity": "Common",
+   "fame": 2304,
+   "facts": {
+    "population": 3159,
+    "elevation_m": 186,
+    "area_km2": 104,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Chapeltique is a municipality in the San Miguel department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chapeltique",
+    "url": "https://en.wikipedia.org/wiki/Chapeltique",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3587064.webp"
+   }
+  },
+  {
+   "id": "gn:3582954",
+   "name": "Texistepeque",
+   "label": "Texistepeque",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 14.1333,
+   "lon": -89.5,
+   "rarity": "Common",
+   "fame": 3330,
+   "facts": {
+    "population": 2401,
+    "elevation_m": 416,
+    "area_km2": 179,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Texistepeque is a local district in the municipality of Santa Ana Norte in the Santa Ana department of western El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Texistepeque",
+    "url": "https://en.wikipedia.org/wiki/Texistepeque",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3582954.webp"
+   }
+  },
+  {
+   "id": "gn:3584714",
+   "name": "Lolotique",
+   "label": "Lolotique",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.55,
+   "lon": -88.35,
+   "rarity": "Common",
+   "fame": 3540,
+   "facts": {
+    "population": 2654,
+    "elevation_m": 527,
+    "area_km2": 94,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "Lolotique is a municipality in the San Miguel department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lolotique",
+    "url": "https://en.wikipedia.org/wiki/Lolotique",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3584714.webp"
+   }
+  },
+  {
+   "id": "gn:3584212",
+   "name": "Olocuilta",
+   "label": "Olocuilta",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-PA",
+   "country": "SV",
+   "lat": 13.5697,
+   "lon": -89.1172,
+   "rarity": "Common",
+   "fame": 5526,
+   "facts": {
+    "population": 6324,
+    "elevation_m": 485,
+    "area_km2": 90,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Olocuilta is a municipality in the La Paz department of El Salvador, just a few kilometers down the highway from Santo Tomás.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Olocuilta",
+    "url": "https://en.wikipedia.org/wiki/Olocuilta",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3584212.webp",
+    "author": "Ll1324",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Olocuilta,_pupuserias,_del_noche.jpg"
+   }
+  },
+  {
+   "id": "gn:3586983",
+   "name": "Ciudad Barrios",
+   "label": "Ciudad Barrios",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.7667,
+   "lon": -88.2667,
+   "rarity": "Common",
+   "fame": 7230,
+   "facts": {
+    "population": 8491,
+    "elevation_m": 847,
+    "area_km2": 68,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Ciudad Barrios is a district in the San Miguel department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ciudad Barrios",
+    "url": "https://en.wikipedia.org/wiki/Ciudad_Barrios",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3586983.webp"
+   }
+  },
+  {
+   "id": "gn:3587037",
+   "name": "Chinameca",
+   "label": "Chinameca",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.5,
+   "lon": -88.35,
+   "rarity": "Common",
+   "fame": 4542,
+   "facts": {
+    "population": 8646,
+    "elevation_m": 718,
+    "area_km2": 77,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "The Chinameca Volcano rises over the town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chinameca, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Chinameca%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587037.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ChinamecaVolcano.jpg"
+   }
+  },
+  {
+   "id": "gn:3584260",
+   "name": "Nueva Guadalupe",
+   "label": "Nueva Guadalupe",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.5333,
+   "lon": -88.35,
+   "rarity": "Common",
+   "fame": 1710,
+   "facts": {
+    "population": 5798,
+    "elevation_m": 495,
+    "area_km2": 23,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "Nueva Guadalupe is a district in the San Miguel department of El Salvador, with nearly 9000 inhabitants in 2018.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nueva Guadalupe",
+    "url": "https://en.wikipedia.org/wiki/Nueva_Guadalupe",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3584260.webp"
+   }
+  },
+  {
+   "id": "gn:3586985",
+   "name": "Ciudad Arce",
+   "label": "Ciudad Arce",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.8403,
+   "lon": -89.4472,
+   "rarity": "Common",
+   "fame": 5220,
+   "facts": {
+    "population": 10095,
+    "elevation_m": 554,
+    "area_km2": 87,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "It is approximately 25 kilometres northwest of the national capital, San Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ciudad Arce",
+    "url": "https://en.wikipedia.org/wiki/Ciudad_Arce",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3586985.webp",
+    "author": "Ll1324",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciudad_Arce_Central_y_Alcaldia_2012.jpg"
+   }
+  },
+  {
+   "id": "gn:3585401",
+   "name": "Juayúa",
+   "label": "Juayúa",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SO",
+   "country": "SV",
+   "lat": 13.8414,
+   "lon": -89.7456,
+   "rarity": "Common",
+   "fame": 6810,
+   "facts": {
+    "population": 9936,
+    "elevation_m": 1037,
+    "area_km2": 103,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "It is a small town up in the mountains, founded in 1577.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juayúa",
+    "url": "https://en.wikipedia.org/wiki/Juay%C3%BAa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3585401.webp",
+    "author": "ClauH0288",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PANORAMICA_PLAZA_CENTRAL_JUAYUA_1.jpg"
+   }
+  },
+  {
+   "id": "gn:3585653",
+   "name": "Guatajiagua",
+   "label": "Guatajiagua",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-MO",
+   "country": "SV",
+   "lat": 13.6667,
+   "lon": -88.2,
+   "rarity": "Common",
+   "fame": 2466,
+   "facts": {
+    "population": 5273,
+    "elevation_m": 288,
+    "area_km2": 71,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Guatajiagua is a district in the Morazán department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guatajiagua",
+    "url": "https://en.wikipedia.org/wiki/Guatajiagua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3585653.webp"
+   }
+  },
+  {
+   "id": "wd:Q6057757",
+   "name": "National Palace",
+   "label": "National Palace",
+   "type": "built",
+   "kind": "building of public administration",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6977,
+   "lon": -89.192,
+   "rarity": "Epic",
+   "fame": 15816,
+   "facts": {
+    "elevation_m": 659,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "The current National Palace of El Salvador, located in San Salvador, the capital city of the country of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Palace (El Salvador)",
+    "url": "https://en.wikipedia.org/wiki/National_Palace_%28El_Salvador%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6057757.webp",
+    "author": "Jose Quintanilla",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional_en_San_Salvador.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2382357",
+   "name": "Estadio Óscar Quiteño",
+   "label": "Estadio Óscar Quiteño",
+   "type": "built",
+   "kind": "stadium",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9764,
+   "lon": -89.569,
+   "rarity": "Epic",
+   "fame": 6222,
+   "facts": {
+    "elevation_m": 711,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "Estadio Óscar Quiteño is a multi-purpose stadium in Santa Ana, El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Óscar Quiteño",
+    "url": "https://en.wikipedia.org/wiki/Estadio_%C3%93scar_Quite%C3%B1o",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2382357.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Oscar_A._Quite%C3%B1o.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1035271",
+   "name": "Cara Sucia",
+   "label": "Cara Sucia",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-AH",
+   "country": "SV",
+   "lat": 13.7792,
+   "lon": -90.0358,
+   "rarity": "Epic",
+   "fame": 6762,
+   "facts": {
+    "elevation_m": 41,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "Cara Sucia is a Mesoamerican archaeological site on the Pacific coastal plain of western El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cara Sucia (Mesoamerican site)",
+    "url": "https://en.wikipedia.org/wiki/Cara_Sucia_%28Mesoamerican_site%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1035271.webp"
+   }
+  },
+  {
+   "id": "wd:Q5047867",
+   "name": "Casa Presidencial",
+   "label": "Casa Presidencial",
+   "type": "built",
+   "kind": "building",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.6851,
+   "lon": -89.24,
+   "rarity": "Epic",
+   "fame": 11160,
+   "facts": {
+    "elevation_m": 801,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Casa Presidencial, or \"Presidential House\" in the Spanish language, is the President of El Salvador's official residence and his offices.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Casa Presidencial (El Salvador)",
+    "url": "https://en.wikipedia.org/wiki/Casa_Presidencial_%28El_Salvador%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5047867.webp",
+    "author": "Efegé",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antiguacapres_01.JPG"
+   }
+  },
+  {
+   "id": "wd:Q27985",
+   "name": "Joya de Cerén",
+   "label": "Joya de Cerén",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.8275,
+   "lon": -89.3562,
+   "rarity": "Epic",
+   "fame": 22656,
+   "facts": {
+    "elevation_m": 447,
+    "area_km2": 0.1,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "Joya de Cerén is an archaeological site in La Libertad Department, El Salvador, containing the remains of a pre-Columbian Maya farming village.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Joya de Cerén",
+    "url": "https://en.wikipedia.org/wiki/Joya_de_Cer%C3%A9n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27985.webp",
+    "author": "Mariordo (Mario Roberto Duran Ortiz)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ES_Joya_Ceren_05_2012_Estructura_9_Area_2_Tamazcal_wide_angle_1479.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2942929",
+   "name": "Metropolitan Cathedral of San Salvador",
+   "label": "Metropolitan Cathedral of San Salvador",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6986,
+   "lon": -89.1911,
+   "rarity": "Epic",
+   "fame": 12258,
+   "facts": {
+    "elevation_m": 658,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "The Metropolitan Cathedral of the Holy Savior is the cathedral church of the Catholic Archdiocese of San Salvador in San Salvador, El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Metropolitan Cathedral of San Salvador",
+    "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2942929.webp",
+    "author": "Rômulo Gama Ferreira from Vitória-ES",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Salvador_-_El_Salvador_(50899440617).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369159",
+   "name": "Estadio Cuscatlán",
+   "label": "Estadio Cuscatlán",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6811,
+   "lon": -89.2223,
+   "rarity": "Epic",
+   "fame": 21906,
+   "facts": {
+    "elevation_m": 764,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It can hold 53,400 spectators, making it the Association Football stadium with the largest spectator capacity in Central America and the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cuscatlán Stadium",
+    "url": "https://en.wikipedia.org/wiki/Cuscatl%C3%A1n_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369159.webp",
+    "author": "Arne Müseler",
+    "licence": "CC BY-SA 3.0 de",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:El-salvador_san-salvador_Estadio-Cuscatl%C3%A1n_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q690372",
+   "name": "Tazumal",
+   "label": "Tazumal",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9796,
+   "lon": -89.6744,
+   "rarity": "Epic",
+   "fame": 20880,
+   "facts": {
+    "elevation_m": 723,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "Tazumal is a pre-Columbian archeological site and architectural complex located within the archeological zone of Chalchuapa, in western El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tazumal",
+    "url": "https://en.wikipedia.org/wiki/Tazumal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q690372.webp",
+    "author": "ARamirez69",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Tazumal,_Chalchuapa.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2412387",
+   "name": "Estadio Jorge \"El Mágico\" González",
+   "label": "Estadio Jorge \"El Mágico\" González",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6983,
+   "lon": -89.2154,
+   "rarity": "Epic",
+   "fame": 24372,
+   "facts": {
+    "elevation_m": 712,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It is named after Salvadoran star player Mágico González.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Jorge \"El Mágico\" González",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Jorge_%22El_M%C3%A1gico%22_Gonz%C3%A1lez",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2412387.webp",
+    "author": "Arne Müseler",
+    "licence": "CC BY-SA 3.0 de",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:El-salvador_san-salvador_Estadio-Jorge-Gonz%C3%A1lez_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5051807",
+   "name": "Santa Ana Cathedral, El Salvador",
+   "label": "Santa Ana Cathedral, El Salvador",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.995,
+   "lon": -89.5555,
+   "rarity": "Epic",
+   "fame": 10188,
+   "facts": {
+    "elevation_m": 640,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "The Cathedral of Our Lady Saint Anne, is a neo-Gothic cathedral located next to Parque Libertad in Santa Ana, El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Ana Cathedral, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Santa_Ana_Cathedral%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5051807.webp",
+    "author": "ARamirez69",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_de_Santa_Ana.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5350834",
+   "name": "El Boqueron National Park",
+   "label": "El Boqueron National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.7333,
+   "lon": -89.2833,
+   "rarity": "Epic",
+   "fame": 4818,
+   "facts": {
+    "elevation_m": 1504,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "El Boquerón National Park (Spanish: Parque Nacional El Boquerón.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Boquerón National Park",
+    "url": "https://en.wikipedia.org/wiki/El_Boquer%C3%B3n_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5350834.webp",
+    "author": "House1090",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boquer%C3%B3n_and_Boquer%C3%B3ncito.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1049338",
+   "name": "Santa Ana Volcano",
+   "label": "Santa Ana Volcano",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "SV-SO",
+   "country": "SV",
+   "lat": 13.8528,
+   "lon": -89.63,
+   "rarity": "Epic",
+   "fame": 29772,
+   "facts": {
+    "elevation_m": 2381,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "At 2,381 metres above sea level, it is the highest volcano in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Ana Volcano",
+    "url": "https://en.wikipedia.org/wiki/Santa_Ana_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1049338.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Ana_Volcano.USAF.C-130.1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5351426",
+   "name": "El Imposible National Park",
+   "label": "El Imposible National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "SV-AH",
+   "country": "SV",
+   "lat": 13.8417,
+   "lon": -89.9575,
+   "rarity": "Epic",
+   "fame": 5346,
+   "facts": {
+    "elevation_m": 528,
+    "area_km2": 38,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "Established on January 1, 1989, it covers 38.20 km² within the Apaneca llamatepec mountain range, with elevations ranging from 250 to 1,425 m above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Imposible National Park",
+    "url": "https://en.wikipedia.org/wiki/El_Imposible_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5351426.webp",
+    "author": "ElmerGuevara",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mirador_Reserva_Natural_El_Imposible.JPG"
+   }
+  },
+  {
+   "id": "wd:Q14638420",
+   "name": "Lake Ilopango",
+   "label": "Lake Ilopango",
+   "type": "nature",
+   "kind": "lake",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6667,
+   "lon": -89.05,
+   "rarity": "Epic",
+   "fame": 29700,
+   "facts": {
+    "elevation_m": 440,
+    "area_km2": 72,
+    "length_km": 11,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "Lake Ilopango is a crater lake which fills an 8 by 11 km: 70.5 km2 volcanic caldera in central El Salvador, on the borders of the San Salvador, La Paz.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Ilopango",
+    "url": "https://en.wikipedia.org/wiki/Lake_Ilopango",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14638420.webp",
+    "author": "Lee Siebert (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ilopango_caldera.jpg"
+   }
+  },
+  {
+   "id": "wd:Q25047797",
+   "name": "Los Volcanes National Park",
+   "label": "Los Volcanes National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.8272,
+   "lon": -89.6233,
+   "rarity": "Epic",
+   "fame": 4920,
+   "facts": {
+    "elevation_m": 2031,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "Parque Nacional Los Volcanes, also known as Cerro Verde National Park, is a large national park in El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Los Volcanes National Park",
+    "url": "https://en.wikipedia.org/wiki/Los_Volcanes_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25047797.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Complejo_Los_Volcanes.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2577068",
+   "name": "San Salvador Volcano",
+   "label": "San Salvador Volcano",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.7339,
+   "lon": -89.2939,
+   "rarity": "Epic",
+   "fame": 26436,
+   "facts": {
+    "elevation_m": 1893,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "The crater has been nearly filled with a relatively newer edifice, the Boquerón volcano.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Salvador (volcano)",
+    "url": "https://en.wikipedia.org/wiki/San_Salvador_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2577068.webp",
+    "author": "Rick Wunderman, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:SanSalvadorVolcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6905054",
+   "name": "Montecristo National Park",
+   "label": "Montecristo National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 14.3824,
+   "lon": -89.3884,
+   "rarity": "Epic",
+   "fame": 4038,
+   "facts": {
+    "elevation_m": 2418,
+    "area_km2": 20,
+    "temp_c": 20.7
+   },
+   "flavour": {
+    "text": "Montecristo National Park is located in the north-western tip of El Salvador, a country in Central America known for its wildlife diversity.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Montecristo National Park",
+    "url": "https://en.wikipedia.org/wiki/Montecristo_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6905054.webp",
+    "author": "ElmerGuevara",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Espacio_Libre_Parque_Montecristo.JPG"
+   }
+  },
+  {
+   "id": "gn:3583446",
+   "name": "San Miguel",
+   "label": "San Miguel",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.4826,
+   "lon": -88.1821,
+   "rarity": "Epic",
+   "fame": 29790,
+   "facts": {
+    "population": 247126,
+    "elevation_m": 130,
+    "area_km2": 594,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "It is the country's third most populous city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Miguel, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/San_Miguel%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583446.webp",
+    "author": "Ezecr1s305",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_ES_Photomontage.jpg"
+   }
+  },
+  {
+   "id": "gn:3583178",
+   "name": "San Vicente",
+   "label": "San Vicente",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SV",
+   "country": "SV",
+   "lat": 13.6411,
+   "lon": -88.7846,
+   "rarity": "Epic",
+   "fame": 10662,
+   "facts": {
+    "population": 41504,
+    "elevation_m": 405,
+    "area_km2": 267,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It was founded by 50 Spanish families in 1635 under the Tempisque tree, which is still standing today.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Vicente, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/San_Vicente%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583178.webp",
+    "author": "BelenM",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_Central_de_San_Vicente.JPG"
+   }
+  },
+  {
+   "id": "gn:3587091",
+   "name": "Chalatenango",
+   "label": "Chalatenango",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CH",
+   "country": "SV",
+   "lat": 14.0414,
+   "lon": -88.9395,
+   "rarity": "Epic",
+   "fame": 12930,
+   "facts": {
+    "population": 19364,
+    "elevation_m": 400,
+    "area_km2": 132,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "Chalatenango is a city and district in the Chalatenango department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chalatenango, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Chalatenango%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587091.webp",
+    "author": "Ernesto561",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Chalatenango.jpg"
+   }
+  },
+  {
+   "id": "gn:3583747",
+   "name": "San Francisco",
+   "label": "San Francisco",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-MO",
+   "country": "SV",
+   "lat": 13.6941,
+   "lon": -88.1041,
+   "rarity": "Epic",
+   "fame": 6786,
+   "facts": {
+    "population": 16152,
+    "elevation_m": 249,
+    "area_km2": 60,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "It is the capital of the Morazán department in El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Francisco Gotera, Morazán",
+    "url": "https://en.wikipedia.org/wiki/San_Francisco_Gotera%2C_Moraz%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583747.webp",
+    "author": "davidjoviera",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_San_Francisco_Gotera_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3587426",
+   "name": "Ahuachapán",
+   "label": "Ahuachapán",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-AH",
+   "country": "SV",
+   "lat": 13.924,
+   "lon": -89.8434,
+   "rarity": "Epic",
+   "fame": 15990,
+   "facts": {
+    "population": 34102,
+    "elevation_m": 770,
+    "area_km2": 245,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "The district, including the city, covers an area of 244.84 km2 and as of 2007 has a population of 110,511 people.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ahuachapán",
+    "url": "https://en.wikipedia.org/wiki/Ahuachap%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587426.webp",
+    "author": "YessicaGuerra19",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ahuachapan_Parroquia_Nuestra_Se%C3%B1ora_de_la_Asuncion.jpg"
+   }
+  },
+  {
+   "id": "gn:3583158",
+   "name": "Sensuntepeque",
+   "label": "Sensuntepeque",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CA",
+   "country": "SV",
+   "lat": 13.8758,
+   "lon": -88.6273,
+   "rarity": "Epic",
+   "fame": 7992,
+   "facts": {
+    "population": 20386,
+    "elevation_m": 702,
+    "area_km2": 306,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "It is the capital of the department and principal town in the area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sensuntepeque",
+    "url": "https://en.wikipedia.org/wiki/Sensuntepeque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583158.webp",
+    "author": "feinteriano",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barrio_Los_Remedios,_Sensuntepeque,_El_Salvador_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:3582883",
+   "name": "Usulután",
+   "label": "Usulután",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-US",
+   "country": "SV",
+   "lat": 13.3447,
+   "lon": -88.4399,
+   "rarity": "Epic",
+   "fame": 14742,
+   "facts": {
+    "population": 51910,
+    "elevation_m": 100,
+    "area_km2": 140,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "Usulután is the fifth largest city in El Salvador, and capital of the Usulután Department in the south-east of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Usulután",
+    "url": "https://en.wikipedia.org/wiki/Usulut%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582883.webp",
+    "author": "Zero changes",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciudad_de_Usulut%C3%A1n.jpg"
+   }
+  },
+  {
+   "id": "gn:3583334",
+   "name": "Santa Ana",
+   "label": "Santa Ana",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9883,
+   "lon": -89.5568,
+   "rarity": "Epic",
+   "fame": 29664,
+   "facts": {
+    "population": 176661,
+    "elevation_m": 645,
+    "area_km2": 400,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "Santa Ana is the second largest city in El Salvador, after the capital of San Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Ana, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Santa_Ana%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583334.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ES_Santa_Ana_06_2011_2543.jpg"
+   }
+  },
+  {
+   "id": "gn:3584772",
+   "name": "La Unión",
+   "label": "La Unión",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-UN",
+   "country": "SV",
+   "lat": 13.3392,
+   "lon": -87.8433,
+   "rarity": "Epic",
+   "fame": 13818,
+   "facts": {
+    "population": 26807,
+    "elevation_m": 10,
+    "area_km2": 144,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "La Unión is a municipality in La Unión Department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Unión, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/La_Uni%C3%B3n%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3584772.webp",
+    "author": "Roy Rivers",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Union_-_panoramio_(3).jpg"
+   }
+  },
+  {
+   "id": "gn:3586977",
+   "name": "Cojutepeque",
+   "label": "Cojutepeque",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CU",
+   "country": "SV",
+   "lat": 13.7197,
+   "lon": -88.9331,
+   "rarity": "Epic",
+   "fame": 9648,
+   "facts": {
+    "population": 48411,
+    "elevation_m": 836,
+    "area_km2": 31,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "Cojutepeque is the capital city of El Salvador's Cuscatlán department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cojutepeque",
+    "url": "https://en.wikipedia.org/wiki/Cojutepeque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3586977.webp",
+    "author": "Ll1324",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Entrada_de_Cojutepeque,_El_Salvador.jpg"
+   }
+  },
+  {
+   "id": "wd:Q124613662",
+   "name": "Bitcoin City",
+   "label": "Bitcoin City",
+   "type": "built",
+   "kind": "planned community",
+   "region": "SV-UN",
+   "country": "SV",
+   "lat": 13.25,
+   "lon": -87.8333,
+   "rarity": "Legendary",
+   "fame": 41742,
+   "facts": {
+    "elevation_m": 303,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "The planned city is intended to be a tax haven, and to use geothermal energy to power Bitcoin mining.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bitcoin City",
+    "url": "https://en.wikipedia.org/wiki/Bitcoin_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124613662.webp",
+    "author": "Casa Presidencial El Salvador",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Nayib_Bukele_and_Fernando_Romero.jpg"
+   }
+  },
+  {
+   "id": "gn:3583361",
+   "name": "San Salvador",
+   "label": "San Salvador",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6893,
+   "lon": -89.1872,
+   "rarity": "Legendary",
+   "fame": 264792,
+   "facts": {
+    "population": 525990,
+    "elevation_m": 653,
+    "area_km2": 72,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "San Salvador is the capital and largest city of El Salvador and of its eponymous department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Salvador",
+    "url": "https://en.wikipedia.org/wiki/San_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583361.webp",
+    "author": "Frankjh",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monumento_al_Salvador_del_Mundo_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495658",
+   "name": "Estadio Jorge \"Calero\" Suárez",
+   "label": "Estadio Jorge \"Calero\" Suárez",
+   "type": "built",
+   "kind": "stadium",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 14.3321,
+   "lon": -89.449,
+   "rarity": "Rare",
+   "fame": 900,
+   "facts": {
+    "elevation_m": 471,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "It is the largest stadium in Metapán, and is used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Jorge \"Calero\" Suárez",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Jorge_%22Calero%22_Su%C3%A1rez",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3495658.webp"
+   }
+  },
+  {
+   "id": "wd:Q3388840",
+   "name": "Casa Blanca, El Salvador",
+   "label": "Casa Blanca, El Salvador",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9889,
+   "lon": -89.6721,
+   "rarity": "Rare",
+   "fame": 4602,
+   "facts": {
+    "elevation_m": 710,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "Casa Blanca is a pre-Columbian Maya archeological site within the Chalchuapa archaeological zone in the department of Santa Ana, El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Casa Blanca, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Casa_Blanca%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3388840.webp",
+    "author": "Arkhael",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_Blanca_(sitio_precolombino).jpg"
+   }
+  },
+  {
+   "id": "wd:Q6461526",
+   "name": "La Capilla 515",
+   "label": "La Capilla 515",
+   "type": "built",
+   "kind": "building",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.686,
+   "lon": -89.2435,
+   "rarity": "Rare",
+   "fame": 606,
+   "facts": {
+    "elevation_m": 815,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It is one of the tallest apartment structures in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Capilla 515",
+    "url": "https://en.wikipedia.org/wiki/La_Capilla_515",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6461526.webp",
+    "author": "Xtremesv",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:New_Residential_Buildings_San_Salvador.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5243466",
+   "name": "Quelepa",
+   "label": "Quelepa",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.5294,
+   "lon": -88.2217,
+   "rarity": "Rare",
+   "fame": 4734,
+   "facts": {
+    "elevation_m": 176,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Generally considered to have been settled by the Lenca people, the site was founded around 400 BC in the Late Preclassic period.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quelepa",
+    "url": "https://en.wikipedia.org/wiki/Quelepa",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5243466.webp"
+   }
+  },
+  {
+   "id": "wd:Q3433688",
+   "name": "Cerrón Grande Dam",
+   "label": "Cerrón Grande Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "SV-CA",
+   "country": "SV",
+   "lat": 13.9386,
+   "lon": -88.9015,
+   "rarity": "Rare",
+   "fame": 2976,
+   "facts": {
+    "elevation_m": 216,
+    "area_km2": 135,
+    "length_km": 0.8,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "The Cerrón Grande Hydroelectric Dam spans the Lempa River 78 km north of San Salvador in the municipalities of Potonico, and Jutiapa in El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerrón Grande Dam",
+    "url": "https://en.wikipedia.org/wiki/Cerr%C3%B3n_Grande_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3433688.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Presa_Cerron_Grande_El_Salvador.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6023143",
+   "name": "Monumento a la Revolución (El Salvador)",
+   "label": "Monumento a la Revolución (El Salvador)",
+   "type": "built",
+   "kind": "monument",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.6925,
+   "lon": -89.2418,
+   "rarity": "Rare",
+   "fame": 1332,
+   "facts": {
+    "elevation_m": 826,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "A monument in La Libertad.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6023143.webp",
+    "author": "Juan Nosiglia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Revoluci%C3%B3n_(El_Salvador).JPG"
+   }
+  },
+  {
+   "id": "wd:Q5400334",
+   "name": "Estadio Luis Amílcar Moreno",
+   "label": "Estadio Luis Amílcar Moreno",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "SV-MO",
+   "country": "SV",
+   "lat": 13.7,
+   "lon": -88.1,
+   "rarity": "Rare",
+   "fame": 648,
+   "facts": {
+    "elevation_m": 268,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "It is currently the home for Fuerte San Francisco, used mostly for football matches and was the home stadium of C.D. Vista Hermosa.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Luis Amílcar Moreno",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Luis_Am%C3%ADlcar_Moreno",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5400334.webp",
+    "author": "Romelux c",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Furia_Verde_el_Estadio.JPG"
+   }
+  },
+  {
+   "id": "wd:Q24824937",
+   "name": "Catedral de Zacatecoluca",
+   "label": "Catedral de Zacatecoluca",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "SV-PA",
+   "country": "SV",
+   "lat": 13.5089,
+   "lon": -88.8695,
+   "rarity": "Rare",
+   "fame": 1602,
+   "facts": {
+    "elevation_m": 210,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "The Our Lady of the Poor Cathedral also known as the Zacatecoluca Cathedral, is the main church of the Catholic Diocese of Zacatecoluca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of the Poor Cathedral, Zacatecoluca",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Poor_Cathedral%2C_Zacatecoluca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24824937.webp",
+    "author": "CarlosCT86",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_de_Zacatecoluca.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15297660",
+   "name": "Teatro Nacional Francisco Gavidia",
+   "label": "Teatro Nacional Francisco Gavidia",
+   "type": "built",
+   "kind": "theatre building",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.4823,
+   "lon": -88.1741,
+   "rarity": "Rare",
+   "fame": 438,
+   "facts": {
+    "elevation_m": 118,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "A theatre building in San Miguel.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15297660.webp",
+    "author": "Steven Aguilera",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_Francisco_Gavidia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9064566",
+   "name": "Puerto La Unión",
+   "label": "Puerto La Unión",
+   "type": "built",
+   "kind": "port",
+   "region": "SV-UN",
+   "country": "SV",
+   "lat": 13.3335,
+   "lon": -87.821,
+   "rarity": "Rare",
+   "fame": 1170,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 28.1
+   },
+   "flavour": {
+    "text": "A port in La Unión.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9064566.webp",
+    "author": "CEPA",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_La_Uni%C3%B3n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5769252",
+   "name": "Cihuatán",
+   "label": "Cihuatán",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.9812,
+   "lon": -89.1651,
+   "rarity": "Rare",
+   "fame": 5412,
+   "facts": {
+    "elevation_m": 320,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "It was a large urban center situated at the southernmost extent of the Mesoamerican cultural area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cihuatán",
+    "url": "https://en.wikipedia.org/wiki/Cihuat%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5769252.webp",
+    "author": "ElmerGuevara",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piramide_Cihuatan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5413746",
+   "name": "Monumento al Mar",
+   "label": "Monumento al Mar",
+   "type": "built",
+   "kind": "monument",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.7107,
+   "lon": -89.2038,
+   "rarity": "Rare",
+   "fame": 528,
+   "facts": {
+    "elevation_m": 691,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "A monument in San Salvador.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5413746.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuente9.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1511554",
+   "name": "Lempa River",
+   "label": "Lempa River",
+   "type": "nature",
+   "kind": "river",
+   "region": "SV-SV",
+   "country": "SV",
+   "lat": 13.2561,
+   "lon": -88.8261,
+   "rarity": "Rare",
+   "fame": 12516,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 422,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "GT",
+    "HN"
+   ],
+   "flavour": {
+    "text": "It is a transboundary river shared by El Salvador, Guatemala and Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lempa River",
+    "url": "https://en.wikipedia.org/wiki/Lempa_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1511554.webp",
+    "author": "mario pleitez",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lempa_River.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1062664",
+   "name": "San Miguel",
+   "label": "San Miguel (near San Rafael Oriente)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-SM",
+   "country": "SV",
+   "lat": 13.4339,
+   "lon": -88.2692,
+   "rarity": "Rare",
+   "fame": 15024,
+   "facts": {
+    "elevation_m": 2129,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "San Miguel is a stratovolcano in central-eastern El Salvador, approximately 15 kilometres southwest of the city of San Miguel.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Miguel (volcano)",
+    "url": "https://en.wikipedia.org/wiki/San_Miguel_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1062664.webp",
+    "author": "Gump Stump",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_(Chaparrastique)_Volcano_El_Salvador.JPG"
+   }
+  },
+  {
+   "id": "wd:Q74214",
+   "name": "Cerro El Pital",
+   "label": "Cerro El Pital",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-CH",
+   "country": "SV",
+   "lat": 14.3833,
+   "lon": -89.1167,
+   "rarity": "Rare",
+   "fame": 19350,
+   "facts": {
+    "elevation_m": 2730,
+    "prominence_m": 1530,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "Located approximately 12 km from the town of La Palma, it rises to 2,730 m above sea level, making it the highest point in El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro El Pital",
+    "url": "https://en.wikipedia.org/wiki/Cerro_El_Pital",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q74214.webp",
+    "author": "ElmerGuevara",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_El_Pital,_Chalatenango.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1072131",
+   "name": "San Vicente",
+   "label": "San Vicente (mountain)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-PA",
+   "country": "SV",
+   "lat": 13.595,
+   "lon": -88.8369,
+   "rarity": "Rare",
+   "fame": 10524,
+   "facts": {
+    "elevation_m": 2173,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "It is located next to the town of San Vicente and is the second highest volcano in El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Vicente (volcano)",
+    "url": "https://en.wikipedia.org/wiki/San_Vicente_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1072131.webp",
+    "author": "Kristal Dorion, (U.S. Geological Survey)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_vicente_els.jpg"
+   }
+  },
+  {
+   "id": "wd:Q30665778",
+   "name": "Lake Suchitlán",
+   "label": "Lake Suchitlán",
+   "type": "nature",
+   "kind": "lake",
+   "region": "SV-CU",
+   "country": "SV",
+   "lat": 14.0,
+   "lon": -89.0306,
+   "rarity": "Rare",
+   "fame": 8130,
+   "facts": {
+    "elevation_m": 238,
+    "area_km2": 135,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "The Cerrón Grande Reservoir, also known locally as Lake Suchitlán, is a reservoir in northern El Salvador and the largest body of fresh water in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerrón Grande Reservoir",
+    "url": "https://en.wikipedia.org/wiki/Cerr%C3%B3n_Grande_Reservoir",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q30665778.webp",
+    "author": "JMRAFFi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago_Suchitlan_desde_Suchitoto.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2661919",
+   "name": "Conchagua",
+   "label": "Conchagua (mountain)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "SV-UN",
+   "country": "SV",
+   "lat": 13.275,
+   "lon": -87.845,
+   "rarity": "Rare",
+   "fame": 5766,
+   "facts": {
+    "elevation_m": 1225,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Conchagua consists of two overlapping stratovolcanoes in a single conical edifice.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Conchagua (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Conchagua_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2661919.webp",
+    "author": "Rick Wunderman, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ConchaguaVolcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q137953",
+   "name": "Ilopango",
+   "label": "Ilopango",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.6667,
+   "lon": -89.05,
+   "rarity": "Rare",
+   "fame": 4986,
+   "facts": {
+    "elevation_m": 442,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A volcano in San Salvador.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q137953.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:SalvadorVolcanoEngraving.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3045228",
+   "name": "Coatepeque Caldera",
+   "label": "Coatepeque Caldera",
+   "type": "nature",
+   "kind": "lake",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.87,
+   "lon": -89.55,
+   "rarity": "Rare",
+   "fame": 25278,
+   "facts": {
+    "elevation_m": 746,
+    "area_km2": 39,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "The caldera was formed during a series of rhyolitic explosive eruptions from a group of stratovolcanoes between about 72,000 and 57,000 years ago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coatepeque Caldera",
+    "url": "https://en.wikipedia.org/wiki/Coatepeque_Caldera",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3045228.webp",
+    "author": "European Union, Copernicus Sentinel-2 imagery",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:LakeCoatepequeElSalvador_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1049619",
+   "name": "Izalco",
+   "label": "Izalco (volcano)",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "SV-SO",
+   "country": "SV",
+   "lat": 13.8131,
+   "lon": -89.6333,
+   "rarity": "Rare",
+   "fame": 18012,
+   "facts": {
+    "elevation_m": 1952,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "Izalco is an active stratovolcano on the southern flank of the Santa Ana Volcano in western El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Izalco (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Izalco_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1049619.webp",
+    "author": "Angela Rucker, USAID",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Green_Izalco_Volcano.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1800414",
+   "name": "Lake Güija",
+   "label": "Lake Güija",
+   "type": "nature",
+   "kind": "lake",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 14.2667,
+   "lon": -89.5167,
+   "rarity": "Rare",
+   "fame": 8538,
+   "facts": {
+    "elevation_m": 430,
+    "area_km2": 45,
+    "length_km": 12,
+    "temp_c": 24.8
+   },
+   "also_in": [
+    "GT"
+   ],
+   "flavour": {
+    "text": "The lake is situated on the border between Guatemala and El Salvador and has an area of 45 km2, of which approximately 32 km2 lies in El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Güija",
+    "url": "https://en.wikipedia.org/wiki/Lake_G%C3%BCija",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1800414.webp",
+    "author": "Giuseppina Kysar, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_Diego_volcano.jpg"
+   }
+  },
+  {
+   "id": "gn:3583981",
+   "name": "Quezaltepeque",
+   "label": "Quezaltepeque",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.8312,
+   "lon": -89.2722,
+   "rarity": "Rare",
+   "fame": 9480,
+   "facts": {
+    "population": 28886,
+    "elevation_m": 443,
+    "area_km2": 125,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Quezaltepeque is a municipality in the La Libertad department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quezaltepeque, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/Quezaltepeque%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583981.webp",
+    "author": "Argoel2",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuente_en_Parque_de_Quezaltepeque.jpg"
+   }
+  },
+  {
+   "id": "gn:3583096",
+   "name": "Soyapango",
+   "label": "Soyapango",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.7102,
+   "lon": -89.1399,
+   "rarity": "Rare",
+   "fame": 14964,
+   "facts": {
+    "population": 329708,
+    "elevation_m": 634,
+    "area_km2": 30,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "Soyapango is the country's largest municipality with 284,700 residents.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Soyapango",
+    "url": "https://en.wikipedia.org/wiki/Soyapango",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583096.webp",
+    "author": "Linkmaster88 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Soyapango.jpg"
+   }
+  },
+  {
+   "id": "gn:3583090",
+   "name": "Suchitoto",
+   "label": "Suchitoto",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CU",
+   "country": "SV",
+   "lat": 13.9381,
+   "lon": -89.0278,
+   "rarity": "Rare",
+   "fame": 12840,
+   "facts": {
+    "population": 5735,
+    "elevation_m": 391,
+    "area_km2": 329,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "Suchitoto is a district in the Cuscatlán Department, El Salvador that has seen continuous human habitation long before Spanish colonization.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Suchitoto",
+    "url": "https://en.wikipedia.org/wiki/Suchitoto",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3583090.webp",
+    "author": "ElmerGuevara",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_De_Suchitoto..JPG"
+   }
+  },
+  {
+   "id": "gn:3587345",
+   "name": "Apopa",
+   "label": "Apopa",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SS",
+   "country": "SV",
+   "lat": 13.8072,
+   "lon": -89.1792,
+   "rarity": "Rare",
+   "fame": 9894,
+   "facts": {
+    "population": 112158,
+    "elevation_m": 434,
+    "area_km2": 52,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Apopa is a district in the San Salvador department of El Salvador.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Apopa",
+    "url": "https://en.wikipedia.org/wiki/Apopa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587345.webp",
+    "author": "Ll1324",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Apopa_Alcaldia_San_Salvador_El_Salvador_2012.jpg"
+   }
+  },
+  {
+   "id": "gn:3587498",
+   "name": "Acajutla",
+   "label": "Acajutla",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SO",
+   "country": "SV",
+   "lat": 13.5928,
+   "lon": -89.8275,
+   "rarity": "Rare",
+   "fame": 12480,
+   "facts": {
+    "population": 22763,
+    "elevation_m": 26,
+    "area_km2": 167,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "As a city, Acajutla is one of seventeen such districts in Sonsonate.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Acajutla",
+    "url": "https://en.wikipedia.org/wiki/Acajutla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587498.webp",
+    "author": "Roberto Alas",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barrio_El_Campamento_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:3587086",
+   "name": "Chalchuapa",
+   "label": "Chalchuapa",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.9867,
+   "lon": -89.6811,
+   "rarity": "Rare",
+   "fame": 11712,
+   "facts": {
+    "population": 32282,
+    "elevation_m": 710,
+    "area_km2": 166,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "The city of Chalchuapa is in a wide valley at 650 meters above sea level, and watered by the Pampe River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chalchuapa",
+    "url": "https://en.wikipedia.org/wiki/Chalchuapa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3587086.webp",
+    "author": "YessicaGuerra19",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chalchuapa_Iglesia_Santiago_Apostol,_El_Salvador.jpg"
+   }
+  },
+  {
+   "id": "gn:3585473",
+   "name": "Izalco",
+   "label": "Izalco",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SO",
+   "country": "SV",
+   "lat": 13.7447,
+   "lon": -89.6731,
+   "rarity": "Rare",
+   "fame": 8832,
+   "facts": {
+    "population": 19197,
+    "elevation_m": 422,
+    "area_km2": 176,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Volcan Izalco is an icon of the country of El Salvador, a very young volcano on the flank of Santa Ana volcano.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Izalco",
+    "url": "https://en.wikipedia.org/wiki/Izalco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3585473.webp",
+    "author": "David Stanley from Nanaimo, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_in_Izalco_(7185454976).jpg"
+   }
+  },
+  {
+   "id": "gn:3585157",
+   "name": "La Libertad",
+   "label": "La Libertad",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-LI",
+   "country": "SV",
+   "lat": 13.4883,
+   "lon": -89.3222,
+   "rarity": "Rare",
+   "fame": 10362,
+   "facts": {
+    "population": 16855,
+    "elevation_m": 13,
+    "area_km2": 162,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It had a population of 35,997 inhabitants in 2007 according to the official census of that year.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Libertad, El Salvador",
+    "url": "https://en.wikipedia.org/wiki/La_Libertad%2C_El_Salvador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3585157.webp",
+    "author": "feinteriano",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MALECON_DEL_PUERTO_DE_LA_LIBERTAD._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3584384",
+   "name": "Metapán",
+   "label": "Metapán",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 14.3333,
+   "lon": -89.45,
+   "rarity": "Rare",
+   "fame": 9576,
+   "facts": {
+    "population": 19143,
+    "elevation_m": 471,
+    "area_km2": 668,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "Metapán is situated in the northern part of the department, bordering Honduras and Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Metapán",
+    "url": "https://en.wikipedia.org/wiki/Metap%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3584384.webp",
+    "author": "Alex Martínez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Colonial_Metapan.jpg"
+   }
+  },
+  {
+   "id": "gn:3583009",
+   "name": "Tecoluca",
+   "label": "Tecoluca",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CU",
+   "country": "SV",
+   "lat": 13.7892,
+   "lon": -89.0053,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2781,
+    "elevation_m": 758,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 2,781 people in Cuscatlán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3583009.webp"
+   }
+  },
+  {
+   "id": "wd:Q2895032",
+   "name": "Isla Zacatillo",
+   "label": "Isla Zacatillo",
+   "type": "nature",
+   "kind": "island",
+   "region": "SV-UN",
+   "country": "SV",
+   "lat": 13.305,
+   "lon": -87.7622,
+   "rarity": "Common",
+   "fame": 1134,
+   "facts": {
+    "elevation_m": 108,
+    "area_km2": 4.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "An island in La Unión.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2895032.webp"
+   }
+  },
+  {
+   "id": "gn:3583471",
+   "name": "San Martín",
+   "label": "San Martín",
+   "type": "town",
+   "kind": "town",
+   "region": "SV-CU",
+   "country": "SV",
+   "lat": 13.7833,
+   "lon": -88.9167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 39361,
+    "elevation_m": 622,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "A community of 39,361 people in Cuscatlán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3583471.webp"
+   }
+  },
+  {
+   "id": "wd:Q1056001",
+   "name": "Cerro Verde",
+   "label": "Cerro Verde",
+   "type": "nature",
+   "kind": "hill",
+   "region": "SV-SA",
+   "country": "SV",
+   "lat": 13.8264,
+   "lon": -89.6226,
+   "rarity": "Common",
+   "fame": 4164,
+   "facts": {
+    "elevation_m": 2030,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "A hill in Santa Ana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1056001.webp",
+    "author": "Dead.rabbit",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Verde_from_Santa_Ana_Volcano.jpg"
+   }
+  }
+ ]
+}

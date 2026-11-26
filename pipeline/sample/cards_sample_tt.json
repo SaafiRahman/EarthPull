@@ -1,0 +1,1981 @@
+{
+ "note": "Sample of the Trinidad and Tobago card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5046092",
+   "name": "Carrera Island",
+   "label": "Carrera Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6667,
+   "lon": -61.6167,
+   "rarity": "Common",
+   "fame": 1332,
+   "facts": {
+    "elevation_m": 8.0,
+    "area_km2": 0.1,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Carrera Island is one of the two Diego Islands in the Gulf of Paria, Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carrera Island",
+    "url": "https://en.wikipedia.org/wiki/Carrera_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5046092.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Chaguaramas_Carrera_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17111281",
+   "name": "Southern Range",
+   "label": "Southern Range",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "TT-PRT",
+   "country": "TT",
+   "lat": 10.1167,
+   "lon": -61.3333,
+   "rarity": "Common",
+   "fame": 666,
+   "facts": {
+    "elevation_m": 50,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "On the island of Trinidad, the Southern Range is a discontinuous chain of low hills along the southern coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Southern Range",
+    "url": "https://en.wikipedia.org/wiki/Southern_Range",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17111281.webp"
+   }
+  },
+  {
+   "id": "wd:Q739745",
+   "name": "Gaspar Grande",
+   "label": "Gaspar Grande",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6667,
+   "lon": -61.65,
+   "rarity": "Common",
+   "fame": 1398,
+   "facts": {
+    "elevation_m": 121,
+    "area_km2": 1.3,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The island is 1.29 km2 in area and lies 12 km west of Port of Spain.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gaspar Grande",
+    "url": "https://en.wikipedia.org/wiki/Gaspar_Grande",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q739745.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Chaguaramas_Centipede_Island_%2B_Gaspar_Grande.jpg"
+   }
+  },
+  {
+   "id": "wd:Q869470",
+   "name": "Craig Island",
+   "label": "Craig Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6614,
+   "lon": -61.5981,
+   "rarity": "Common",
+   "fame": 642,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is one of “The Five Islands” group of six small islands lying west of Port of Spain in the Gulf of Paria.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Craig Island",
+    "url": "https://en.wikipedia.org/wiki/Craig_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q869470.webp",
+    "author": "-- R45 talk!",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Craig_Island,_Trinidad_and_Tobago.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1128916",
+   "name": "Lenagan Island",
+   "label": "Lenagan Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6613,
+   "lon": -61.5993,
+   "rarity": "Common",
+   "fame": 408,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "At only 0.27 hectares, it is one of The Five Islands lying west of the Port of Spain in the Gulf of Paria.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lenagan Island",
+    "url": "https://en.wikipedia.org/wiki/Lenagan_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1128916.webp"
+   }
+  },
+  {
+   "id": "wd:Q3392826",
+   "name": "Gasparillo Island",
+   "label": "Gasparillo Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6763,
+   "lon": -61.6532,
+   "rarity": "Common",
+   "fame": 1038,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 0.0,
+    "length_km": 0.2,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is one of the Bocas Islands, which lie in the Bocas del Dragón between the main island of Trinidad and Venezuela.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gasparillo Island",
+    "url": "https://en.wikipedia.org/wiki/Gasparillo_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3392826.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Chaguaramas_Centipede_Island_%2B_Gaspar_Grande.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2838819",
+   "name": "Trinity Hills",
+   "label": "Trinity Hills",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "TT-RCM",
+   "country": "TT",
+   "lat": 10.1167,
+   "lon": -61.1167,
+   "rarity": "Common",
+   "fame": 1428,
+   "facts": {
+    "elevation_m": 163,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Trinity Hills are a range of hills in southeastern Trinidad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trinity Hills",
+    "url": "https://en.wikipedia.org/wiki/Trinity_Hills",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2838819.webp"
+   }
+  },
+  {
+   "id": "wd:Q5434803",
+   "name": "Faralon Rock",
+   "label": "Faralon Rock",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-SFO",
+   "country": "TT",
+   "lat": 10.2756,
+   "lon": -61.485,
+   "rarity": "Common",
+   "fame": 756,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located in the Gulf of Paria just off the coast of San Fernando.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Faralon Rock",
+    "url": "https://en.wikipedia.org/wiki/Faralon_Rock",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5434803.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_San_Fernando_Farallon_Rock_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4151227",
+   "name": "Guaracara River",
+   "label": "Guaracara River",
+   "type": "nature",
+   "kind": "river",
+   "region": "TT-SFO",
+   "country": "TT",
+   "lat": 10.3,
+   "lon": -61.4667,
+   "rarity": "Common",
+   "fame": 546,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Guaracara River, located in south Trinidad, runs westward approximately 30 km long, out of the Central Range and drains into the Gulf of Paria.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guaracara River",
+    "url": "https://en.wikipedia.org/wiki/Guaracara_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4151227.webp"
+   }
+  },
+  {
+   "id": "wd:Q5378702",
+   "name": "Englishman's Bay",
+   "label": "Englishman's Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "TT-WTO",
+   "country": "TT",
+   "lat": 11.2833,
+   "lon": -60.6833,
+   "rarity": "Common",
+   "fame": 1272,
+   "facts": {
+    "elevation_m": 125,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Although the bay draws fewer beach-goers that Tobago's western beaches do, it is considered one of the island's most beautiful.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Englishman's Bay",
+    "url": "https://en.wikipedia.org/wiki/Englishman%27s_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5378702.webp",
+    "author": "Dnamolecule",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Englishmans_bay_tobago_dec_2008.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7161399",
+   "name": "Pelican Island",
+   "label": "Pelican Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6612,
+   "lon": -61.595,
+   "rarity": "Common",
+   "fame": 384,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is the fourth largest of “The Five Islands” group of six small islands lying west of Port of Spain in the Gulf of Paria.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pelican Island (Trinidad and Tobago)",
+    "url": "https://en.wikipedia.org/wiki/Pelican_Island_%28Trinidad_and_Tobago%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7161399.webp",
+    "author": "-- R45 talk!",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelican_Island,_Trinidad_and_Tobago.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5575304",
+   "name": "Goat Island",
+   "label": "Goat Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-ETO",
+   "country": "TT",
+   "lat": 11.3,
+   "lon": -60.5167,
+   "rarity": "Common",
+   "fame": 1320,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is located off the coast of Speyside, between Tobago and Little Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Goat Island (Trinidad and Tobago)",
+    "url": "https://en.wikipedia.org/wiki/Goat_Island_%28Trinidad_and_Tobago%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5575304.webp",
+    "author": "The original uploader was Jimfbleak at English Wikipedia .",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Little_Tobago_from_Blue_Waters_Inn.jpg"
+   }
+  },
+  {
+   "id": "gn:3574069",
+   "name": "Mucurapo",
+   "label": "Mucurapo",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6625,
+   "lon": -61.537,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4342,
+    "elevation_m": 3.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "A community of 4,342 people in Port of Spain.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574069.webp"
+   }
+  },
+  {
+   "id": "gn:3575039",
+   "name": "Arouca",
+   "label": "Arouca",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.6288,
+   "lon": -61.3349,
+   "rarity": "Common",
+   "fame": 2634,
+   "facts": {
+    "population": 12054,
+    "elevation_m": 31,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Arouca is a town in the East–West Corridor of Trinidad and Tobago located 19 km east of Port of Spain, along the Eastern Main Road.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arouca, Trinidad and Tobago",
+    "url": "https://en.wikipedia.org/wiki/Arouca%2C_Trinidad_and_Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575039.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Arouca_2.jpg"
+   }
+  },
+  {
+   "id": "gn:3574773",
+   "name": "Claxton Bay",
+   "label": "Claxton Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.3664,
+   "lon": -61.4599,
+   "rarity": "Common",
+   "fame": 1596,
+   "facts": {
+    "population": 5679,
+    "elevation_m": 14,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Olympic cyclist Hylton Mitchell was born here.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Claxton Bay",
+    "url": "https://en.wikipedia.org/wiki/Claxton_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574773.webp"
+   }
+  },
+  {
+   "id": "gn:3573935",
+   "name": "Petit Valley",
+   "label": "Petit Valley",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6997,
+   "lon": -61.5472,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8140,
+    "elevation_m": 66,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 8,140 people in Diego Martin Regional Corporation.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573935.webp"
+   }
+  },
+  {
+   "id": "gn:3574895",
+   "name": "California",
+   "label": "California",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.4092,
+   "lon": -61.4729,
+   "rarity": "Common",
+   "fame": 1872,
+   "facts": {
+    "population": 3012,
+    "elevation_m": 12,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "California is a neighbourhood located south of Downtown Couva, within the Couva–Tabaquite–Talparo regional corporation, Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "California, Trinidad and Tobago",
+    "url": "https://en.wikipedia.org/wiki/California%2C_Trinidad_and_Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574895.webp"
+   }
+  },
+  {
+   "id": "gn:3574524",
+   "name": "Gasparillo",
+   "label": "Gasparillo",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.317,
+   "lon": -61.426,
+   "rarity": "Common",
+   "fame": 1680,
+   "facts": {
+    "population": 9925,
+    "elevation_m": 13,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It lies east of Pointe-à-Pierre and northeast of San Fernando.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gasparillo",
+    "url": "https://en.wikipedia.org/wiki/Gasparillo",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574524.webp"
+   }
+  },
+  {
+   "id": "gn:3573989",
+   "name": "Paradise",
+   "label": "Paradise",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.653,
+   "lon": -61.363,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 15067,
+    "elevation_m": 77,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 15,067 people in Tunapuna-Piarco Regional Corporation.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573989.webp"
+   }
+  },
+  {
+   "id": "gn:3574194",
+   "name": "Marabella",
+   "label": "Marabella",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-SFO",
+   "country": "TT",
+   "lat": 10.3062,
+   "lon": -61.4467,
+   "rarity": "Common",
+   "fame": 5208,
+   "facts": {
+    "population": 26700,
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Early 19th-century maps highlighted it as Marabella Junction because of the railway intersection to Williamsville and other central areas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marabella",
+    "url": "https://en.wikipedia.org/wiki/Marabella",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3574194.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:STAPP_030_San_Fernando_Marabella.jpg"
+   }
+  },
+  {
+   "id": "gn:3573650",
+   "name": "Tabaquite",
+   "label": "Tabaquite",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.3882,
+   "lon": -61.297,
+   "rarity": "Common",
+   "fame": 810,
+   "facts": {
+    "population": 3314,
+    "elevation_m": 100,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Tabaquite is a town in central Trinidad, north of Rio Claro and west of the Navet Dam.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tabaquite",
+    "url": "https://en.wikipedia.org/wiki/Tabaquite",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573650.webp"
+   }
+  },
+  {
+   "id": "gn:3574659",
+   "name": "Debe",
+   "label": "Debe",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-PED",
+   "country": "TT",
+   "lat": 10.2085,
+   "lon": -61.4527,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3127,
+    "elevation_m": 19,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 3,127 people in Penal-Debe Regional Corporation.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3574659.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:STAPP_060_Debe.jpg"
+   }
+  },
+  {
+   "id": "gn:3574116",
+   "name": "Mon Repos",
+   "label": "Mon Repos",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-SFO",
+   "country": "TT",
+   "lat": 10.2798,
+   "lon": -61.4459,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 56380,
+    "elevation_m": 37,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 56,380 people in San Fernando.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574116.webp"
+   }
+  },
+  {
+   "id": "gn:3573638",
+   "name": "Talparo",
+   "label": "Talparo",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.5,
+   "lon": -61.2667,
+   "rarity": "Common",
+   "fame": 708,
+   "facts": {
+    "population": 1661,
+    "elevation_m": 55,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is located in west-central Trinidad, and is administered by the Couva–Tabaquite–Talparo Regional Corporation.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Talparo",
+    "url": "https://en.wikipedia.org/wiki/Talparo",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573638.webp"
+   }
+  },
+  {
+   "id": "wd:Q27964107",
+   "name": "Temple in the Sea",
+   "label": "Temple in the Sea",
+   "type": "built",
+   "kind": "Hindu temple",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.4817,
+   "lon": -61.4755,
+   "rarity": "Epic",
+   "fame": 6564,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Temple in the Sea, officially known as the Sewdass Sadhu Shiva Mandir, is a Hindu mandir in Waterloo, Carapichaima, Couva–Tabaquite–Talparo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Temple in the Sea",
+    "url": "https://en.wikipedia.org/wiki/Temple_in_the_Sea",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27964107.webp",
+    "author": "neiljs",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Waterloo_Temple,_Trinidad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4964442",
+   "name": "Brian Lara Cricket Academy",
+   "label": "Brian Lara Cricket Academy",
+   "type": "built",
+   "kind": "stadium",
+   "region": "TT-PRT",
+   "country": "TT",
+   "lat": 10.2964,
+   "lon": -61.4312,
+   "rarity": "Epic",
+   "fame": 6738,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Brian Lara Cricket Academy is a multi-purpose stadium in Tarouba, San Fernando, Trinidad and Tobago, that was completed and inaugurated in 2017.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brian Lara Cricket Academy",
+    "url": "https://en.wikipedia.org/wiki/Brian_Lara_Cricket_Academy",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4964442.webp",
+    "author": "Badbez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brian_Lara_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q702811",
+   "name": "Hasely Crawford Stadium",
+   "label": "Hasely Crawford Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6615,
+   "lon": -61.533,
+   "rarity": "Epic",
+   "fame": 12390,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Hasely Crawford Stadium, formerly the National Stadium, is located in Port of Spain, Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hasely Crawford Stadium",
+    "url": "https://en.wikipedia.org/wiki/Hasely_Crawford_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q702811.webp",
+    "author": "Chris Fitzpatrick",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HCStadium2013.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2223408",
+   "name": "Queen's Park Oval, Port of Spain",
+   "label": "Queen's Park Oval, Port of Spain",
+   "type": "built",
+   "kind": "stadium",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6674,
+   "lon": -61.5237,
+   "rarity": "Epic",
+   "fame": 13410,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Queen's Park Oval is a sports stadium in Port of Spain, Trinidad and Tobago, used mostly for cricket matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Queen's Park Oval",
+    "url": "https://en.wikipedia.org/wiki/Queen%27s_Park_Oval",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2223408.webp",
+    "author": "Dominic Sayers from London, England",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Queens_Park_Oval_Trinidad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4816474",
+   "name": "Atlantic LNG",
+   "label": "Atlantic LNG",
+   "type": "built",
+   "kind": "liquefaction terminal",
+   "region": "TT-PTF",
+   "country": "TT",
+   "lat": 10.1839,
+   "lon": -61.6936,
+   "rarity": "Epic",
+   "fame": 4956,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Atlantic LNG Company of Trinidad and Tobago is a liquefied natural gas producing company operating a liquefied natural gas plant in Point Fortin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Atlantic LNG",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_LNG",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4816474.webp"
+   }
+  },
+  {
+   "id": "wd:Q128323",
+   "name": "Trinidad",
+   "label": "Trinidad",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.4606,
+   "lon": -61.2486,
+   "rarity": "Epic",
+   "fame": 197082,
+   "facts": {
+    "elevation_m": 940,
+    "area_km2": 4768,
+    "length_km": 140,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Trinidad is the largest and most populous island of the Republic of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trinidad",
+    "url": "https://en.wikipedia.org/wiki/Trinidad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q128323.webp",
+    "author": "Kalamazadkhan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quinam_bay,_Columbus_Channel,_South_Coast,_Trinidad_%26_Tobago.jpg"
+   }
+  },
+  {
+   "id": "gn:3573576",
+   "name": "Tunapuna",
+   "label": "Tunapuna",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.6524,
+   "lon": -61.3888,
+   "rarity": "Epic",
+   "fame": 4848,
+   "facts": {
+    "population": 17758,
+    "elevation_m": 55,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Tunapuna is a town in the East–West Corridor of the island of Trinidad, in Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tunapuna",
+    "url": "https://en.wikipedia.org/wiki/Tunapuna",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573576.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Tunapuna_%2B_Trincity.jpg"
+   }
+  },
+  {
+   "id": "gn:3574309",
+   "name": "Laventille",
+   "label": "Laventille",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-SJL",
+   "country": "TT",
+   "lat": 10.6492,
+   "lon": -61.4989,
+   "rarity": "Epic",
+   "fame": 6906,
+   "facts": {
+    "population": 21000,
+    "elevation_m": 28,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is administered by the San Juan–Laventille Regional Corporation.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Laventille",
+    "url": "https://en.wikipedia.org/wiki/Laventille",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3574309.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Port_of_Spain_3.jpg"
+   }
+  },
+  {
+   "id": "gn:3574724",
+   "name": "Couva",
+   "label": "Couva",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.4225,
+   "lon": -61.4675,
+   "rarity": "Epic",
+   "fame": 9708,
+   "facts": {
+    "population": 5178,
+    "elevation_m": 15,
+    "area_km2": 68,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Couva is a town in west-central Trinidad, south of Port of Spain and Chaguanas and north of San Fernando and Point Fortin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Couva",
+    "url": "https://en.wikipedia.org/wiki/Couva",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3574724.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_National_Aquatic_Centre.jpg"
+   }
+  },
+  {
+   "id": "gn:3573882",
+   "name": "Princes Town",
+   "label": "Princes Town",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-PRT",
+   "country": "TT",
+   "lat": 10.2718,
+   "lon": -61.371,
+   "rarity": "Epic",
+   "fame": 6630,
+   "facts": {
+    "population": 10000,
+    "elevation_m": 69,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Princes Town is a town within an eponymous region, located on south-Central Trinidad island in Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Princes Town",
+    "url": "https://en.wikipedia.org/wiki/Princes_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573882.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Princestownpoui.jpg"
+   }
+  },
+  {
+   "id": "gn:3575051",
+   "name": "Arima",
+   "label": "Arima",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-ARI",
+   "country": "TT",
+   "lat": 10.6374,
+   "lon": -61.2823,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 35000,
+    "elevation_m": 62,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 35,000 people in Arima.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575051.webp"
+   }
+  },
+  {
+   "id": "gn:3574810",
+   "name": "Chaguanas",
+   "label": "Chaguanas",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-CHA",
+   "country": "TT",
+   "lat": 10.5167,
+   "lon": -61.4167,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 67433,
+    "elevation_m": 18,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 67,433 people in Chaguanas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574810.webp"
+   }
+  },
+  {
+   "id": "gn:3573703",
+   "name": "Scarborough",
+   "label": "Scarborough",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-WTO",
+   "country": "TT",
+   "lat": 11.1823,
+   "lon": -60.7353,
+   "rarity": "Epic",
+   "fame": 7194,
+   "facts": {
+    "population": 17000,
+    "elevation_m": 9.0,
+    "area_km2": 10,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Scarborough is a major town of the island of Tobago as well as the eleventh-most-populous in Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Scarborough, Trinidad and Tobago",
+    "url": "https://en.wikipedia.org/wiki/Scarborough%2C_Trinidad_and_Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573703.webp",
+    "author": "Anneli Salo",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Street_C_IMG_2883.JPG"
+   }
+  },
+  {
+   "id": "gn:3573738",
+   "name": "San Fernando",
+   "label": "San Fernando",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-SFO",
+   "country": "TT",
+   "lat": 10.2797,
+   "lon": -61.4684,
+   "rarity": "Epic",
+   "fame": 32634,
+   "facts": {
+    "population": 55419,
+    "elevation_m": 28,
+    "area_km2": 19,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "San Fernando, officially the City of San Fernando, is the most populous city and second most populous municipality in Trinidad and Tobago, after Chaguanas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Fernando, Trinidad and Tobago",
+    "url": "https://en.wikipedia.org/wiki/San_Fernando%2C_Trinidad_and_Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573738.webp",
+    "author": "Belchman9006",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palmiste_Mansions_121.JPG"
+   }
+  },
+  {
+   "id": "gn:3573840",
+   "name": "Rio Claro",
+   "label": "Rio Claro",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-RCM",
+   "country": "TT",
+   "lat": 10.3059,
+   "lon": -61.1756,
+   "rarity": "Epic",
+   "fame": 2652,
+   "facts": {
+    "population": 35650,
+    "elevation_m": 45,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Rio Claro is the largest town in southeastern Trinidad, in Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rio Claro, Trinidad and Tobago",
+    "url": "https://en.wikipedia.org/wiki/Rio_Claro%2C_Trinidad_and_Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573840.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Rio_Claro_St._Theresa%27s_RC_Church.jpg"
+   }
+  },
+  {
+   "id": "gn:3573681",
+   "name": "Siparia",
+   "label": "Siparia",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-SIP",
+   "country": "TT",
+   "lat": 10.1453,
+   "lon": -61.5074,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 8568,
+    "elevation_m": 61,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 8,568 people in Siparia Regional Corporation.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573681.webp"
+   }
+  },
+  {
+   "id": "gn:3573890",
+   "name": "Port of Spain",
+   "label": "Port of Spain",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6667,
+   "lon": -61.5189,
+   "rarity": "Legendary",
+   "fame": 213648,
+   "facts": {
+    "population": 49031,
+    "elevation_m": 21,
+    "area_km2": 12,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Port of Spain is the capital and chief port of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port of Spain",
+    "url": "https://en.wikipedia.org/wiki/Port_of_Spain",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573890.webp",
+    "author": "Itrydisrespxtsmtsep",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:POS_SKYLINE_2024_BEAUTIFUL_EVAN-P_2024_10-8.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3188292",
+   "name": "Arima Velodrome",
+   "label": "Arima Velodrome",
+   "type": "built",
+   "kind": "velodrome",
+   "region": "TT-ARI",
+   "country": "TT",
+   "lat": 10.637,
+   "lon": -61.284,
+   "rarity": "Rare",
+   "fame": 750,
+   "facts": {
+    "elevation_m": 61,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The velodrome is an open outdoor velodrome serving the Borough of Arima and its suburbs.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arima Velodrome",
+    "url": "https://en.wikipedia.org/wiki/Arima_Velodrome",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3188292.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Arima_Velodrome_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7759880",
+   "name": "The Red House",
+   "label": "The Red House",
+   "type": "built",
+   "kind": "building",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6531,
+   "lon": -61.5117,
+   "rarity": "Rare",
+   "fame": 3750,
+   "facts": {
+    "elevation_m": 11,
+    "height_m": 34,
+    "length_km": 0.2,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Red House is the seat of Parliament in Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Red House (Trinidad and Tobago)",
+    "url": "https://en.wikipedia.org/wiki/Red_House_%28Trinidad_and_Tobago%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7759880.webp",
+    "author": "Random 00021 at English Wikipedia - Anthony Mendenhall",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:POS_Redhouse.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5471973",
+   "name": "Fort San Andres",
+   "label": "Fort San Andres",
+   "type": "built",
+   "kind": "fixed construction",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6478,
+   "lon": -61.5106,
+   "rarity": "Rare",
+   "fame": 558,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Fort San Andres is the last surviving fortification from the period of the Spanish Occupation of Trinidad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort San Andres",
+    "url": "https://en.wikipedia.org/wiki/Fort_San_Andres",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471973.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_PoS_Fort_San_Andres_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q108581912",
+   "name": "Iere Village Mosque",
+   "label": "Iere Village Mosque",
+   "type": "built",
+   "kind": "mosque",
+   "region": "TT-PRT",
+   "country": "TT",
+   "lat": 10.2859,
+   "lon": -61.3874,
+   "rarity": "Rare",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 58,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Iere Village Mosque is a mosque in Iere, Princes Town, Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Iere Village Mosque",
+    "url": "https://en.wikipedia.org/wiki/Iere_Village_Mosque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q108581912.webp",
+    "author": "954coolieboy at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Trinidad1stMasjid.JPG"
+   }
+  },
+  {
+   "id": "wd:Q757535",
+   "name": "Ato Boldon Stadium",
+   "label": "Ato Boldon Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "TT-CTT",
+   "country": "TT",
+   "lat": 10.4247,
+   "lon": -61.4172,
+   "rarity": "Rare",
+   "fame": 3114,
+   "facts": {
+    "elevation_m": 30,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is currently the home ground of Central and Club Sando.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ato Boldon Stadium",
+    "url": "https://en.wikipedia.org/wiki/Ato_Boldon_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q757535.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Ato_Boldon_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24248931",
+   "name": "Old Cathedral of St. Joseph, Trinidad and Tobago",
+   "label": "Old Cathedral of St. Joseph, Trinidad and Tobago",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.6539,
+   "lon": -61.4137,
+   "rarity": "Rare",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 40,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The St. Joseph R.C. Church is a religious building that is affiliated with the Catholic Church and is located on the street Abercromby of the town of St.…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Joseph Church (Trinidad and Tobago)",
+    "url": "https://en.wikipedia.org/wiki/St._Joseph_Church_%28Trinidad_and_Tobago%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24248931.webp",
+    "author": "Thomas Abercrombie Trant",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Captain_thomas_abercrombie_trant_church_at_st_josephs_trinidad_st_jose110119).jpg"
+   }
+  },
+  {
+   "id": "wd:Q16825924",
+   "name": "Cathedral of the Immaculate Conception, Port of Spain",
+   "label": "Cathedral of the Immaculate Conception, Port of Spain",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6619,
+   "lon": -61.5314,
+   "rarity": "Rare",
+   "fame": 1242,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is the seat of the Archdiocese of Port of Spain.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of the Immaculate Conception (Port of Spain)",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Immaculate_Conception_%28Port_of_Spain%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16825924.webp",
+    "author": "1Parishioner",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_Basilica_of_the_Immaculate_Conception_(Port_of_Spain).JPG"
+   }
+  },
+  {
+   "id": "wd:Q7418109",
+   "name": "Sangre Grande Regional Complex",
+   "label": "Sangre Grande Regional Complex",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "TT-SGE",
+   "country": "TT",
+   "lat": 10.5992,
+   "lon": -61.1307,
+   "rarity": "Rare",
+   "fame": 192,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sangre Grande Regional Complex",
+    "url": "https://en.wikipedia.org/wiki/Sangre_Grande_Regional_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7418109.webp"
+   }
+  },
+  {
+   "id": "wd:Q5267455",
+   "name": "Devil's Woodyard",
+   "label": "Devil's Woodyard",
+   "type": "built",
+   "kind": "mud volcano",
+   "region": "TT-PRT",
+   "country": "TT",
+   "lat": 10.2643,
+   "lon": -61.3049,
+   "rarity": "Rare",
+   "fame": 1086,
+   "facts": {
+    "elevation_m": 86,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Devil's Woodyard is one of the most visited locations of Trinidad's many mud volcanoes.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Devil's Woodyard",
+    "url": "https://en.wikipedia.org/wiki/Devil%27s_Woodyard",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5267455.webp",
+    "author": "Chad Mohammed ( 954coolieboy at English Wikipedia )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Devil%27s_Woodyard_Dec,2007.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1806068",
+   "name": "Larry Gomes Stadium",
+   "label": "Larry Gomes Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "TT-ARI",
+   "country": "TT",
+   "lat": 10.6165,
+   "lon": -61.2825,
+   "rarity": "Rare",
+   "fame": 1356,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Larry Gomes Stadium, located in Malabar, Arima, Trinidad and Tobago, is named for West Indies cricketer Larry Gomes.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Larry Gomes Stadium",
+    "url": "https://en.wikipedia.org/wiki/Larry_Gomes_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1806068.webp",
+    "author": "Trinidad and Tobago Cadet Force",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Larry_Gomes_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7526756",
+   "name": "Sir Frank Worrell Memorial Ground",
+   "label": "Sir Frank Worrell Memorial Ground",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.6513,
+   "lon": -61.3985,
+   "rarity": "Rare",
+   "fame": 510,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Sir Frank Worrell Memorial Ground is a cricket stadium in Saint Augustine, Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sir Frank Worrell Memorial Ground",
+    "url": "https://en.wikipedia.org/wiki/Sir_Frank_Worrell_Memorial_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7526756.webp"
+   }
+  },
+  {
+   "id": "wd:Q16844445",
+   "name": "Holy Trinity Cathedral, Port of Spain",
+   "label": "Holy Trinity Cathedral, Port of Spain",
+   "type": "built",
+   "kind": "Anglican or Episcopal cathedral",
+   "region": "TT-POS",
+   "country": "TT",
+   "lat": 10.6615,
+   "lon": -61.533,
+   "rarity": "Rare",
+   "fame": 3216,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Holy Trinity Cathedral is an Anglican Cathedral in Port of Spain, the capital of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holy Trinity Cathedral, Port of Spain",
+    "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral%2C_Port_of_Spain",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16844445.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_PoS_Cathedral_of_the_Holy_Trinity_(back_view).jpg"
+   }
+  },
+  {
+   "id": "wd:Q185111",
+   "name": "Tobago",
+   "label": "Tobago",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-ETO",
+   "country": "TT",
+   "lat": 11.25,
+   "lon": -60.667,
+   "rarity": "Rare",
+   "fame": 123846,
+   "facts": {
+    "elevation_m": 600,
+    "area_km2": 300,
+    "length_km": 41,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is 35 kilometres northeast of the larger island of Trinidad and about 160 kilometres off Venezuela's northeastern coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tobago",
+    "url": "https://en.wikipedia.org/wiki/Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q185111.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Castara_village_Beach1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1056103",
+   "name": "El Cerro del Aripo",
+   "label": "El Cerro del Aripo",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.7167,
+   "lon": -61.25,
+   "rarity": "Rare",
+   "fame": 5610,
+   "facts": {
+    "elevation_m": 940,
+    "prominence_m": 940,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "El Cerro del Aripo, at 940 metres, is the highest point in the Republic of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Cerro del Aripo",
+    "url": "https://en.wikipedia.org/wiki/El_Cerro_del_Aripo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1056103.webp",
+    "author": "Jimfbleak at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Asa_Wright_Center_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q77021",
+   "name": "Chacachacare",
+   "label": "Chacachacare",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.6833,
+   "lon": -61.75,
+   "rarity": "Rare",
+   "fame": 6294,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 3.6,
+    "length_km": 16,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The island is 360 hectares in area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chacachacare",
+    "url": "https://en.wikipedia.org/wiki/Chacachacare",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q77021.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Chacachacare_dry_forest_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7058903",
+   "name": "Northern Range",
+   "label": "Northern Range",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.7333,
+   "lon": -61.25,
+   "rarity": "Rare",
+   "fame": 3180,
+   "facts": {
+    "elevation_m": 940,
+    "length_km": 90,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Northern Range is the range of tall hills across north Trinidad, the major island in the Republic of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Northern Range",
+    "url": "https://en.wikipedia.org/wiki/Northern_Range",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7058903.webp",
+    "author": "Jimfbleak at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Asa_Wright_Center_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2915498",
+   "name": "Little Tobago",
+   "label": "Little Tobago",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-ETO",
+   "country": "TT",
+   "lat": 11.2992,
+   "lon": -60.5014,
+   "rarity": "Rare",
+   "fame": 2712,
+   "facts": {
+    "elevation_m": 96,
+    "area_km2": 1.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Little Tobago is a small island off the north-eastern coast of Tobago, and part of the Republic of Trinidad and Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Tobago",
+    "url": "https://en.wikipedia.org/wiki/Little_Tobago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2915498.webp",
+    "author": "Jimfbleak at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:1012littletobago.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3392371",
+   "name": "Monos",
+   "label": "Monos",
+   "type": "nature",
+   "kind": "island",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.695,
+   "lon": -61.69,
+   "rarity": "Rare",
+   "fame": 2268,
+   "facts": {
+    "elevation_m": 355,
+    "area_km2": 3.9,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is one of the \"Bocas Islands\", which lie in the Bocas del Dragón between Trinidad and Venezuela.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monos",
+    "url": "https://en.wikipedia.org/wiki/Monos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3392371.webp",
+    "author": "Grueslayer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TnT_Chaguaramas_Monos_%2B_Chacachacare_%2B_Venezuela.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5045524",
+   "name": "Caroni River",
+   "label": "Caroni River",
+   "type": "nature",
+   "kind": "river",
+   "region": "TT-SJL",
+   "country": "TT",
+   "lat": 10.6167,
+   "lon": -61.5,
+   "rarity": "Rare",
+   "fame": 1512,
+   "facts": {
+    "elevation_m": 11,
+    "length_km": 40,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Caroni River is the largest river in Trinidad and Tobago, running for 40 km from its origins in the Northern Range on the island of Trinidad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caroni River (Trinidad and Tobago)",
+    "url": "https://en.wikipedia.org/wiki/Caroni_River_%28Trinidad_and_Tobago%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5045524.webp",
+    "author": "Michel-Jean Cazabon",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Michel_Jean_Cazabon_-_Caroni_River,_Trinidad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5352297",
+   "name": "El Tucuche",
+   "label": "El Tucuche",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "TT-TUP",
+   "country": "TT",
+   "lat": 10.7333,
+   "lon": -61.4167,
+   "rarity": "Rare",
+   "fame": 2196,
+   "facts": {
+    "elevation_m": 936,
+    "prominence_m": 504,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "El Tucuche is the second highest peak in Trinidad's Northern Range and is noted for its interesting pyramidal shape.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Tucuche",
+    "url": "https://en.wikipedia.org/wiki/El_Tucuche",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5352297.webp",
+    "author": "bndawn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Tucuche_45.jpg"
+   }
+  },
+  {
+   "id": "gn:3574636",
+   "name": "Diego Martin",
+   "label": "Diego Martin",
+   "type": "town",
+   "kind": "town",
+   "region": "TT-DMN",
+   "country": "TT",
+   "lat": 10.7208,
+   "lon": -61.5662,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 25370,
+    "elevation_m": 61,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 25,370 people in Diego Martin Regional Corporation.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3574636.webp"
+   }
+  }
+ ]
+}

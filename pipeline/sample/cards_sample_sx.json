@@ -1,0 +1,797 @@
+{
+ "note": "Sample of the Sint Maarten card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q2029788",
+   "name": "Little Bay",
+   "label": "Little Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0189,
+   "lon": -63.0623,
+   "rarity": "Common",
+   "fame": 294,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A bay in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2029788.webp",
+    "author": "Funnylittlebirdie",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Maarten_Little_Bay_With_clouds.jpg"
+   }
+  },
+  {
+   "id": "wd:Q114231661",
+   "name": "Mullet Pond",
+   "label": "Mullet Pond",
+   "type": "nature",
+   "kind": "lake",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0475,
+   "lon": -63.1217,
+   "rarity": "Common",
+   "fame": 84,
+   "facts": {
+    "elevation_m": -2.0,
+    "area_km2": 0.3,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A lake in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q114231661.webp"
+   }
+  },
+  {
+   "id": "wd:Q113564267",
+   "name": "Hen & Chickens",
+   "label": "Hen & Chickens",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0091,
+   "lon": -63.0084,
+   "rarity": "Common",
+   "fame": 366,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "An island in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q113564267.webp"
+   }
+  },
+  {
+   "id": "wd:Q113571037",
+   "name": "Fort Hill, Sint Maarten",
+   "label": "Fort Hill, Sint Maarten",
+   "type": "nature",
+   "kind": "hill",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0259,
+   "lon": -63.0599,
+   "rarity": "Common",
+   "fame": 54,
+   "facts": {
+    "elevation_m": 217,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A hill in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113571037.webp",
+    "author": "Boy Lawson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collectie_Nationaal_Museum_van_Wereldculturen_TM-20017539_Little_Bay_Hotel_Sint_Maarten_Boy_Lawson_(Fotograaf).jpg"
+   }
+  },
+  {
+   "id": "wd:Q113570636",
+   "name": "Naked Boy Hill",
+   "label": "Naked Boy Hill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0393,
+   "lon": -63.0314,
+   "rarity": "Common",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 270,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A mountain in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113570636.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Collectie_NMvWereldculturen,_TM-60037075,_Panoramafoto_%27Gezicht_vanaf_Naked_Boy_Hill_over_de_zoutpannen,_Philipsburg_en_de_Grote_Baai%27,_fotograaf_niet_bekend,_1915-1921.jpg"
+   }
+  },
+  {
+   "id": "wd:Q107337472",
+   "name": "Mount Flagstaff",
+   "label": "Mount Flagstaff",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0644,
+   "lon": -63.0528,
+   "rarity": "Common",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 370,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A mountain in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q107337472.webp"
+   }
+  },
+  {
+   "id": "wd:Q8118701",
+   "name": "Sentry Hill",
+   "label": "Sentry Hill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0406,
+   "lon": -63.0719,
+   "rarity": "Common",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 340,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A mountain in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q8118701.webp"
+   }
+  },
+  {
+   "id": "wd:Q5990360",
+   "name": "Molly Beday",
+   "label": "Molly Beday",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0219,
+   "lon": -62.9992,
+   "rarity": "Common",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "An island in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5990360.webp",
+    "author": "Derek Hatfield from Peterborough, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Princess_Caribbean_Cruise_-_Day_4_(2415851419)_(cropped_to_Molly_Beday).jpg"
+   }
+  },
+  {
+   "id": "wd:Q114222593",
+   "name": "Cow & Calf",
+   "label": "Cow & Calf",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0167,
+   "lon": -63.0167,
+   "rarity": "Common",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "An island in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q114222593.webp"
+   }
+  },
+  {
+   "id": "gn:3513522",
+   "name": "Lower Prince’s Quarter",
+   "label": "Lower Prince’s Quarter",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "SX",
+   "lat": 18.0499,
+   "lon": -63.0379,
+   "rarity": "Common",
+   "fame": 9606,
+   "facts": {
+    "population": 8000,
+    "elevation_m": 40,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It has a population of 8,143, making it the largest settlement on the island of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lower Prince's Quarter",
+    "url": "https://en.wikipedia.org/wiki/Lower_Prince%27s_Quarter",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513522.webp",
+    "author": "Remy Gumbs (shady P)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Unnamed2_-_panoramio_(1239).jpg"
+   }
+  },
+  {
+   "id": "gn:10793920",
+   "name": "Little Bay",
+   "label": "Little Bay (Sint Maarten)",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0264,
+   "lon": -63.0646,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5581,
+    "elevation_m": 10,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 5,581 people in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_10793920.webp"
+   }
+  },
+  {
+   "id": "gn:3513794",
+   "name": "Cul de Sac",
+   "label": "Cul de Sac",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0485,
+   "lon": -63.0651,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8467,
+    "elevation_m": 24,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 8,467 people in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3513794.webp"
+   }
+  },
+  {
+   "id": "gn:6985411",
+   "name": "Koolbaai",
+   "label": "Koolbaai",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0405,
+   "lon": -63.084,
+   "rarity": "Common",
+   "fame": 360,
+   "facts": {
+    "population": 6000,
+    "elevation_m": 16,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 6,000 people in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6985411.webp",
+    "author": "Remy Gumbs (shady P)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelican_Key,_Koolbaai,_Sint_Maarten_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:3513144",
+   "name": "Upper Prince’s Quarter",
+   "label": "Upper Prince’s Quarter",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0328,
+   "lon": -63.0307,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4020,
+    "elevation_m": 124,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 4,020 people in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3513144.webp"
+   }
+  },
+  {
+   "id": "wd:Q922921",
+   "name": "Maho Beach",
+   "label": "Maho Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0392,
+   "lon": -63.1203,
+   "rarity": "Epic",
+   "fame": 43692,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Maho Beach is a beach on the Dutch side of the Caribbean island of Saint Martin, in the territory of Sint Maarten.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maho Beach",
+    "url": "https://en.wikipedia.org/wiki/Maho_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q922921.webp",
+    "author": "Todd Neville from Scottsdale, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:American_757_on_final_approach_at_St_Maarten_Airport.jpg"
+   }
+  },
+  {
+   "id": "gn:3513392",
+   "name": "Philipsburg",
+   "label": "Philipsburg",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.026,
+   "lon": -63.0458,
+   "rarity": "Legendary",
+   "fame": 46104,
+   "facts": {
+    "population": 1400,
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Philipsburg is the main town and capital of Sint Maarten, a constituent country of the Kingdom of the Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Philipsburg, Sint Maarten",
+    "url": "https://en.wikipedia.org/wiki/Philipsburg%2C_Sint_Maarten",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513392.webp",
+    "author": "Clavius66",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Philipsburg_and_the_Great_Bay,_Sint_Maarten,_Caribbean.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23712762",
+   "name": "St. Martin of Tours' Church, Sint Maarten",
+   "label": "St. Martin of Tours' Church, Sint Maarten",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.025,
+   "lon": -63.0476,
+   "rarity": "Rare",
+   "fame": 1452,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The St. Martin of Tours' Church is a religious building is located at 51 Voorstraat, Voorstraat, in the city of Philipsburg.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Martin of Tours' Church, Sint Maarten",
+    "url": "https://en.wikipedia.org/wiki/St._Martin_of_Tours%27_Church%2C_Sint_Maarten",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23712762.webp",
+    "author": "Richie Diesterheft from Chicago, IL, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Martin_of_Tours_Roman_Catholic_Church_(6545946259).jpg"
+   }
+  },
+  {
+   "id": "wd:Q14207198",
+   "name": "Cupecoy Beach",
+   "label": "Cupecoy Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0506,
+   "lon": -63.1319,
+   "rarity": "Rare",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A beach in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14207198.webp",
+    "author": "Paul Sableman",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cupecoy_Bay_(15695045673).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5470723",
+   "name": "Fort Amsterdam",
+   "label": "Fort Amsterdam",
+   "type": "built",
+   "kind": "fort",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0148,
+   "lon": -63.0595,
+   "rarity": "Rare",
+   "fame": 4230,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Fort Amsterdam is a historic fortress on the island of Saint Martin, near the Sint Maarten town of Philipsburg.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Amsterdam (Sint Maarten)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Amsterdam_%28Sint_Maarten%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5470723.webp",
+    "author": "alljengi from Edinburgh",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lord_Sheffield_in_Little_Bay,_St_Maarten,_Oct_2014_(15037894784).jpg"
+   }
+  },
+  {
+   "id": "wd:Q113574535",
+   "name": "Kim Sha Beach",
+   "label": "Kim Sha Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0329,
+   "lon": -63.0932,
+   "rarity": "Rare",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A beach in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113574535.webp",
+    "author": "alljengi",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_from_Kim_Sha_Beach,_Simpson_Bay,_St_Maarten,_Oct_2014_(15756096886).jpg"
+   }
+  },
+  {
+   "id": "wd:Q23712889",
+   "name": "Mary Star of the Sea Church",
+   "label": "Mary Star of the Sea Church",
+   "type": "built",
+   "kind": "church",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0387,
+   "lon": -63.0974,
+   "rarity": "Rare",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Mary Star of the Sea Church is a religious building of the Catholic Church located in the town of Simpson Bay in St. Maarten in the Dutch part of the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mary Star of the Sea Church, Simpson Bay",
+    "url": "https://en.wikipedia.org/wiki/Mary_Star_of_the_Sea_Church%2C_Simpson_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23712889.webp",
+    "author": "LittleT889",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_Star_of_the_Sea_Church,_Simpson_Bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1560950",
+   "name": "Raoul Illidge Sports Complex",
+   "label": "Raoul Illidge Sports Complex",
+   "type": "built",
+   "kind": "stadium",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0287,
+   "lon": -63.0667,
+   "rarity": "Rare",
+   "fame": 1830,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Raoul Illidge Sports Complex",
+    "url": "https://en.wikipedia.org/wiki/Raoul_Illidge_Sports_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1560950.webp"
+   }
+  },
+  {
+   "id": "wd:Q113556164",
+   "name": "Mullet Bay Beach",
+   "label": "Mullet Bay Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0459,
+   "lon": -63.126,
+   "rarity": "Rare",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A beach in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113556164.webp",
+    "author": "alljengi from Edinburgh",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mullet_Bay,_St_Maarten,_Oct_2014_(15740985106).jpg"
+   }
+  },
+  {
+   "id": "wd:Q65143603",
+   "name": "Concordia Monument (1948)",
+   "label": "Concordia Monument (1948)",
+   "type": "built",
+   "kind": "monument",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0472,
+   "lon": -63.0864,
+   "rarity": "Rare",
+   "fame": 36,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A monument in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q65143603.webp",
+    "author": "Ymnes",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monument_Treaty_of_23rd_March_1648_-_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q104864004",
+   "name": "Pelikan Rock, Sint Maarten",
+   "label": "Pelikan Rock, Sint Maarten",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0178,
+   "lon": -63.0181,
+   "rarity": "Rare",
+   "fame": 510,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Pelikan Rock is a small rocky islet, about 1 hectare in area, lying to the south-east of the coast of the island of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pelikan Rock, Sint Maarten",
+    "url": "https://en.wikipedia.org/wiki/Pelikan_Rock%2C_Sint_Maarten",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q104864004.webp",
+    "author": "Frank Schulenburg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brown_pelican_in_flight_(Bodega_Bay).jpg"
+   }
+  },
+  {
+   "id": "wd:Q14851280",
+   "name": "Great Salt Pond",
+   "label": "Great Salt Pond",
+   "type": "nature",
+   "kind": "lake",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.0316,
+   "lon": -63.0516,
+   "rarity": "Rare",
+   "fame": 1608,
+   "facts": {
+    "elevation_m": -2.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Great Salt Pond is a 188 ha 465 acres water body in the country of Sint Maarten on the island of Saint Martin in the Dutch Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Salt Pond, Sint Maarten",
+    "url": "https://en.wikipedia.org/wiki/Great_Salt_Pond%2C_Sint_Maarten",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14851280.webp",
+    "author": "Boy Lawson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collectie_Nationaal_Museum_van_Wereldculturen_TM-20017489_Gezicht_op_de_zoutpannen_%27Salt_Pond%27_en_de_hoofdstad_Philipsburg_Philipsburg_Boy_Lawson_(Fotograaf).jpg"
+   }
+  },
+  {
+   "id": "wd:Q25596",
+   "name": "Saint Martin",
+   "label": "Saint Martin",
+   "type": "nature",
+   "kind": "island",
+   "region": "NL-SX",
+   "country": "SX",
+   "lat": 18.06,
+   "lon": -63.05,
+   "rarity": "Rare",
+   "fame": 437556,
+   "facts": {
+    "elevation_m": 424,
+    "area_km2": 87,
+    "length_km": 14,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Saint Martin is an island in Leeward Islands of the Lesser Antilles in the northeastern Caribbean, approximately 300 km east of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Martin (island)",
+    "url": "https://en.wikipedia.org/wiki/Saint_Martin_%28island%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q25596.webp"
+   }
+  }
+ ]
+}

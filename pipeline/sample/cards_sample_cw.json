@@ -1,0 +1,1419 @@
+{
+ "note": "Sample of the Curaçao card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q3107360",
+   "name": "El Indjan",
+   "label": "El Indjan",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2065,
+   "lon": -69.0511,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 71,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "A mountain in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3107360.webp"
+   }
+  },
+  {
+   "id": "wd:Q12299400",
+   "name": "Schottegat",
+   "label": "Schottegat",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1197,
+   "lon": -68.9226,
+   "rarity": "Common",
+   "fame": 1044,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A bay in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q12299400.webp"
+   }
+  },
+  {
+   "id": "wd:Q1933285",
+   "name": "Blue Bay, Curaçao",
+   "label": "Blue Bay, Curaçao",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1344,
+   "lon": -68.9847,
+   "rarity": "Common",
+   "fame": 6366,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Blue Bay is a beach on the Caribbean island of Curaçao, located close to the fishermen's village of Sint-Michiel to the north-west of Willemstad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blue Bay, Curaçao",
+    "url": "https://en.wikipedia.org/wiki/Blue_Bay%2C_Cura%C3%A7ao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1933285.webp",
+    "author": "Frank Jania",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Bay_-_Curacao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2179773",
+   "name": "Sint Anna Bay",
+   "label": "Sint Anna Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1097,
+   "lon": -68.9326,
+   "rarity": "Common",
+   "fame": 2598,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Sint Anna Bay is a deep channel approximately one mile long and up to 1,000 feet wide, located on the island of Curaçao between the two parts of Willemstad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sint Anna Bay",
+    "url": "https://en.wikipedia.org/wiki/Sint_Anna_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2179773.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Curacaobridges.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15882603",
+   "name": "Tafelberg",
+   "label": "Tafelberg",
+   "type": "nature",
+   "kind": "hill",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.07,
+   "lon": -68.8325,
+   "rarity": "Common",
+   "fame": 3942,
+   "facts": {
+    "elevation_m": 122,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Tafelberg is a large flat-topped hill in Curaçao, an island state in the Dutch Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tafelberg (Curaçao)",
+    "url": "https://en.wikipedia.org/wiki/Tafelberg_%28Cura%C3%A7ao%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15882603.webp",
+    "author": "Rchard",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tafelberg_Curacao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22090124",
+   "name": "Sint Michielsberg",
+   "label": "Sint Michielsberg",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1508,
+   "lon": -68.9872,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 77,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A mountain in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22090124.webp",
+    "author": "WillemVanA",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sint_Michielsberg_Cura%C3%A7ao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q96291351",
+   "name": "Fuikbaai",
+   "label": "Fuikbaai",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.0561,
+   "lon": -68.8371,
+   "rarity": "Common",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A bay in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q96291351.webp",
+    "author": "Willem van de Poll",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:De_fosfaatfabriek_van_de_mijnmaatschappij_Cura%C3%A7ao_aan_de_Fuikbaai,_Bestanddeelnr_252-2961.jpg"
+   }
+  },
+  {
+   "id": "wd:Q531980",
+   "name": "Caracas Bay",
+   "label": "Caracas Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.0728,
+   "lon": -68.8667,
+   "rarity": "Common",
+   "fame": 1854,
+   "facts": {
+    "elevation_m": 27,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A bay in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q531980.webp",
+    "author": "Willem van de Poll",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Het_schip_de_Mauretania_in_de_Caracasbaai_op_Cura%C3%A7ao,_Bestanddeelnr_252-7326.jpg"
+   }
+  },
+  {
+   "id": "wd:Q95422917",
+   "name": "Sint Michielsbaai",
+   "label": "Sint Michielsbaai",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1471,
+   "lon": -69.0004,
+   "rarity": "Common",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.6
+   },
+   "flavour": {
+    "text": "A bay in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q95422917.webp",
+    "author": "WillemVanA",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sint_Michielsbaai_en_Boka_Sint_Michiel,_Cura%C3%A7ao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3920494",
+   "name": "Jan Thielbaai",
+   "label": "Jan Thielbaai",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.075,
+   "lon": -68.8797,
+   "rarity": "Common",
+   "fame": 1698,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A bay in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3920494.webp",
+    "author": "dronepicr",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jan_Thiel_beach_Curacao_(34750571162).jpg"
+   }
+  },
+  {
+   "id": "gn:13308488",
+   "name": "Bandabou",
+   "label": "Bandabou",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2718,
+   "lon": -69.0653,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 13125,
+    "elevation_m": 15,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "A community of 13,125 people in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13308488.webp"
+   }
+  },
+  {
+   "id": "gn:3513221",
+   "name": "Sint Michiel Liber",
+   "label": "Sint Michiel Liber",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.15,
+   "lon": -68.9833,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5138,
+    "elevation_m": 21,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A community of 5,138 people in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3513221.webp"
+   }
+  },
+  {
+   "id": "gn:3513861",
+   "name": "Brievengat",
+   "label": "Brievengat",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.15,
+   "lon": -68.9,
+   "rarity": "Common",
+   "fame": 2274,
+   "facts": {
+    "population": 4695,
+    "elevation_m": 33,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "It is located to the north of the centre of the capital, Willemstad, and to the east of the Hato International Airport.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brievengat",
+    "url": "https://en.wikipedia.org/wiki/Brievengat",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513861.webp",
+    "author": "Technische Fred at Dutch Wikipedia",
+    "licence": "CC BY 2.5 nl",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5/nl/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Plantagehuis_Brievengat.JPG"
+   }
+  },
+  {
+   "id": "gn:13632006",
+   "name": "Tera Kora",
+   "label": "Tera Kora",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2236,
+   "lon": -69.0287,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4388,
+    "elevation_m": 66,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "A community of 4,388 people in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13632006.webp"
+   }
+  },
+  {
+   "id": "gn:6692389",
+   "name": "St. Michiel",
+   "label": "St. Michiel",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1433,
+   "lon": -68.9949,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5732,
+    "elevation_m": 29,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A community of 5,732 people in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6692389.webp"
+   }
+  },
+  {
+   "id": "gn:3513761",
+   "name": "Dorp Soto",
+   "label": "Dorp Soto",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2775,
+   "lon": -69.1125,
+   "rarity": "Common",
+   "fame": 2166,
+   "facts": {
+    "population": 2233,
+    "elevation_m": 14,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "It is located close to Santa Marta Bay, a deep indentation in the island's northwest coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Soto, Curaçao",
+    "url": "https://en.wikipedia.org/wiki/Soto%2C_Cura%C3%A7ao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513761.webp",
+    "author": "Hans van Bockel",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Landhuis_Klein_Santa_Martha.jpg"
+   }
+  },
+  {
+   "id": "gn:3513264",
+   "name": "Santa Rosa",
+   "label": "Santa Rosa",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1167,
+   "lon": -68.8833,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5198,
+    "elevation_m": 34,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A community of 5,198 people in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3513264.webp"
+   }
+  },
+  {
+   "id": "wd:Q2239182",
+   "name": "Queen Juliana Bridge",
+   "label": "Queen Juliana Bridge",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1111,
+   "lon": -68.9317,
+   "rarity": "Epic",
+   "fame": 13620,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 56,
+    "length_km": 0.5,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Queen Juliana Bridge is a four-lane road bridge across St. Anna Bay in Willemstad, the capital of Caribbean island country Curaçao.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Queen Juliana Bridge",
+    "url": "https://en.wikipedia.org/wiki/Queen_Juliana_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2239182.webp",
+    "author": "Hullie at Dutch Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Willemstad_brug.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2368514",
+   "name": "Playa Porto Marie",
+   "label": "Playa Porto Marie",
+   "type": "built",
+   "kind": "beach",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2192,
+   "lon": -69.0864,
+   "rarity": "Epic",
+   "fame": 7980,
+   "facts": {
+    "elevation_m": 19,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "Playa Porto Marie is a beach on the Caribbean island of Curaçao, located near the village of Sint Willibrordus, at the Porto Marie Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Playa Porto Marie",
+    "url": "https://en.wikipedia.org/wiki/Playa_Porto_Marie",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2368514.webp",
+    "author": "LoganP25",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_Porto_Marie.jpg"
+   }
+  },
+  {
+   "id": "wd:Q182945",
+   "name": "Queen Emma Bridge",
+   "label": "Queen Emma Bridge",
+   "type": "built",
+   "kind": "footbridge",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1061,
+   "lon": -68.9353,
+   "rarity": "Epic",
+   "fame": 19950,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "It connects the Punda and Otrobanda quarters of the capital city, Willemstad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Queen Emma Bridge",
+    "url": "https://en.wikipedia.org/wiki/Queen_Emma_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q182945.webp",
+    "author": "Quistnix",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Pontjesbrug_Willemstad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5194634",
+   "name": "Curaçao synagogue",
+   "label": "Curaçao synagogue",
+   "type": "built",
+   "kind": "synagogue",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.105,
+   "lon": -68.9325,
+   "rarity": "Epic",
+   "fame": 7824,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "The Mikvé Israel-Emanuel Synagogue is a Reconstructionist Jewish congregation and synagogue, located at Hanchi di Snoa 29, Punda, in the city of Willemstad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Curaçao Synagogue",
+    "url": "https://en.wikipedia.org/wiki/Cura%C3%A7ao_Synagogue",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5194634.webp",
+    "author": "Dolly442",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cura%C3%A7ao_synagogue1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q104587192",
+   "name": "Plaza Hotel Curaçao",
+   "label": "Plaza Hotel Curaçao",
+   "type": "built",
+   "kind": "hotel",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1038,
+   "lon": -68.9349,
+   "rarity": "Epic",
+   "fame": 10488,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "It was constructed in the Waterfort, and opened on 12 October 1957 as Hotel Curaçao Intercontinental.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plaza Hotel Curaçao",
+    "url": "https://en.wikipedia.org/wiki/Plaza_Hotel_Cura%C3%A7ao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q104587192.webp",
+    "author": "Hardscarf",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_Hotel_Cura%C3%A7ao_-_voorgevel.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2489901",
+   "name": "Grote Knip",
+   "label": "Grote Knip",
+   "type": "built",
+   "kind": "beach",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.3517,
+   "lon": -69.1517,
+   "rarity": "Epic",
+   "fame": 14538,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "Grote Knip is a beach on the Caribbean island of Curaçao, located at the western side of the island, between the villages of Westpunt and Lagun.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grote Knip",
+    "url": "https://en.wikipedia.org/wiki/Grote_Knip",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2489901.webp",
+    "author": "Matthew T Rader",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grote_Knip_in_Curacao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2424320",
+   "name": "Fort Amsterdam",
+   "label": "Fort Amsterdam",
+   "type": "built",
+   "kind": "fort",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.105,
+   "lon": -68.9347,
+   "rarity": "Epic",
+   "fame": 8178,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "It was constructed in 1634 by the Dutch West India Company and served not only as a military fort but also as the headquarters of the WIC.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Amsterdam (Curaçao)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Amsterdam_%28Cura%C3%A7ao%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2424320.webp",
+    "author": "Niels Karsdorp, Dh3201",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Amsterdam.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2048884",
+   "name": "Playa Kalki",
+   "label": "Playa Kalki",
+   "type": "built",
+   "kind": "beach",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.3756,
+   "lon": -69.1578,
+   "rarity": "Epic",
+   "fame": 6798,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "Playa Kalki is a beach on the Caribbean island of Curaçao, also known as Alice in Wonderland due to mushroom-shaped coral formations.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Playa Kalki",
+    "url": "https://en.wikipedia.org/wiki/Playa_Kalki",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2048884.webp",
+    "author": "Charles Hoffman",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_Kalki,_Cura%C3%A7ao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2447760",
+   "name": "Christoffelpark",
+   "label": "Christoffelpark",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.3333,
+   "lon": -69.1167,
+   "rarity": "Epic",
+   "fame": 2616,
+   "facts": {
+    "elevation_m": 121,
+    "area_km2": 20,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "Christoffelpark is a national park, protected nature area and tourist attraction at the north-western end of the island of Curaçao surrounding Christoffelberg.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Christoffelpark",
+    "url": "https://en.wikipedia.org/wiki/Christoffelpark",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2447760.webp",
+    "author": "Lswarte",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gezicht_op_de_noordkust_met_Boka_Grandi.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1914604",
+   "name": "Shete Boka National Park",
+   "label": "Shete Boka National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.3675,
+   "lon": -69.1171,
+   "rarity": "Epic",
+   "fame": 1014,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "A national park in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1914604.webp",
+    "author": "Lswarte",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boka_Pistol_in_het_Nationaal_Park_Shete_Boka.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1637216",
+   "name": "Ergilio Hato Stadium",
+   "label": "Ergilio Hato Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1527,
+   "lon": -68.8875,
+   "rarity": "Legendary",
+   "fame": 19962,
+   "facts": {
+    "elevation_m": 25,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "It is also known as Sentro Deportivo Korsou and is the island's largest stadium, with a capacity of 15,000 spectators.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ergilio Hato Stadium",
+    "url": "https://en.wikipedia.org/wiki/Ergilio_Hato_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1637216.webp",
+    "author": "Burgbernd",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stadion_Ergilio_Hato.jpg"
+   }
+  },
+  {
+   "id": "gn:3513090",
+   "name": "Willemstad",
+   "label": "Willemstad",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1225,
+   "lon": -68.8864,
+   "rarity": "Legendary",
+   "fame": 192492,
+   "facts": {
+    "population": 125000,
+    "elevation_m": 1.0,
+    "area_km2": 144,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Willemstad is the capital and largest city of Curaçao, an island in the southern Caribbean Sea that is a constituent country of the Kingdom of the Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Willemstad",
+    "url": "https://en.wikipedia.org/wiki/Willemstad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513090.webp",
+    "author": "Coolcaesar",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Handelskade_in_Willemstad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q113501274",
+   "name": "Fortkerk",
+   "label": "Fortkerk",
+   "type": "built",
+   "kind": "church",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1045,
+   "lon": -68.9344,
+   "rarity": "Rare",
+   "fame": 1362,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "The Fort Church is a church of the United Protestant Community located in the court of Fort Amsterdam in Willemstad, Curaçao.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Church, Curaçao",
+    "url": "https://en.wikipedia.org/wiki/Fort_Church%2C_Cura%C3%A7ao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113501274.webp",
+    "author": "Charles Hoffman from New York, United States",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Amsterdam_and_United_Protestant_Church,_Willemstad_(4387073786).jpg"
+   }
+  },
+  {
+   "id": "wd:Q140194708",
+   "name": "Leonard B. Smith Bridge",
+   "label": "Leonard B. Smith Bridge",
+   "type": "built",
+   "kind": "double-beam drawbridge",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1069,
+   "lon": -68.9329,
+   "rarity": "Rare",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A double-beam drawbridge in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q140194708.webp",
+    "author": "Pi3.124",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Smith_brug_over_the_Waaigat.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3156661",
+   "name": "Fort Sint Michiel",
+   "label": "Fort Sint Michiel",
+   "type": "built",
+   "kind": "fort",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1454,
+   "lon": -68.9989,
+   "rarity": "Rare",
+   "fame": 378,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A fort in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3156661.webp"
+   }
+  },
+  {
+   "id": "wd:Q88080200",
+   "name": "Landhuis Bloemhof",
+   "label": "Landhuis Bloemhof",
+   "type": "built",
+   "kind": "mansion",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1196,
+   "lon": -68.901,
+   "rarity": "Rare",
+   "fame": 1272,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "The house was built in 1735 as Landhuis Nooitgedacht.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Landhuis Bloemhof",
+    "url": "https://en.wikipedia.org/wiki/Landhuis_Bloemhof",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q88080200.webp",
+    "author": "Kattiel",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oude_ingang_van_Landhuis_Bloemhof.jpg"
+   }
+  },
+  {
+   "id": "wd:Q113493740",
+   "name": "Cas Abao",
+   "label": "Cas Abao",
+   "type": "built",
+   "kind": "beach",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.232,
+   "lon": -69.0938,
+   "rarity": "Rare",
+   "fame": 462,
+   "facts": {
+    "elevation_m": 30,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "A beach in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113493740.webp",
+    "author": "Charles Hoffman from New York, United States",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_Cas_Abao,_Cura%C3%A7ao_(4384119620).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2470694",
+   "name": "Playa Lagun",
+   "label": "Playa Lagun",
+   "type": "built",
+   "kind": "beach",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.3181,
+   "lon": -69.1503,
+   "rarity": "Rare",
+   "fame": 6504,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "Playa Lagun is a beach on Curaçao, located near the village of Lagún.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Playa Lagun",
+    "url": "https://en.wikipedia.org/wiki/Playa_Lagun",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2470694.webp",
+    "author": "LASZLO ILYES from Cleveland, Ohio, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Visitors_Descend..._(5203431481).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2709006",
+   "name": "Wilhelmina of the Netherlands Bridge",
+   "label": "Wilhelmina of the Netherlands Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1061,
+   "lon": -68.9317,
+   "rarity": "Rare",
+   "fame": 972,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A bridge in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2709006.webp",
+    "author": "Niels Karsdorp Dh3201",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Koningin_Wilhelminabrug.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6103445",
+   "name": "Isla",
+   "label": "Isla",
+   "type": "built",
+   "kind": "oil refinery",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1343,
+   "lon": -68.9332,
+   "rarity": "Rare",
+   "fame": 5586,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "The Isla Refinery was a Royal Dutch Shell refinery built in 1915 in the deep-water harbor of Curaçao called Schottegat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Refinery",
+    "url": "https://en.wikipedia.org/wiki/Isla_Refinery",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6103445.webp",
+    "author": "Laika ac from USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laika_ac_Isla_Oil_Refinery_(11693638543).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5027351",
+   "name": "Fort Beekenburg",
+   "label": "Fort Beekenburg",
+   "type": "built",
+   "kind": "fort",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.0725,
+   "lon": -68.862,
+   "rarity": "Rare",
+   "fame": 2682,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A fort in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5027351.webp",
+    "author": "Nhoutum",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_beekenburg.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3961530",
+   "name": "Fort Piscadera",
+   "label": "Fort Piscadera",
+   "type": "built",
+   "kind": "fort",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1218,
+   "lon": -68.9686,
+   "rarity": "Rare",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A fort in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3961530.webp",
+    "author": "Suzanne1987",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piscadera_Fort.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5413044",
+   "name": "Curaçao Sea Aquarium",
+   "label": "Curaçao Sea Aquarium",
+   "type": "built",
+   "kind": "public aquarium",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.0841,
+   "lon": -68.8965,
+   "rarity": "Rare",
+   "fame": 696,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A public aquarium in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5413044.webp",
+    "author": "-JvL-",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Feeding_stingrays_at_the_Cura%C3%A7ao_Sea_Aquarium_2018.jpg"
+   }
+  },
+  {
+   "id": "wd:Q113512795",
+   "name": "Santa Barbara, Curaçao",
+   "label": "Santa Barbara, Curaçao",
+   "type": "built",
+   "kind": "resort",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.0676,
+   "lon": -68.8425,
+   "rarity": "Rare",
+   "fame": 1050,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A resort in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113512795.webp",
+    "author": "dronepicr",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Barbara_Curacaco_(34750566432).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2048674",
+   "name": "Daaibooi",
+   "label": "Daaibooi",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2122,
+   "lon": -69.0844,
+   "rarity": "Rare",
+   "fame": 8970,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "Daaibooi is a beach on the Caribbean island of Curaçao, located close to the village of Sint Willibrordus, a 30 minutes drive to the north-west of Willemstad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Daaibooi",
+    "url": "https://en.wikipedia.org/wiki/Daaibooi",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2048674.webp",
+    "author": "Mingo Hagen",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Daaibooi.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1430850",
+   "name": "Christoffelberg",
+   "label": "Christoffelberg",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.3369,
+   "lon": -69.1233,
+   "rarity": "Rare",
+   "fame": 14550,
+   "facts": {
+    "elevation_m": 375,
+    "prominence_m": 372,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "The Christoffelberg, also known as Mt Christoffel or Mt St Christoffel, named after Saint Christopher, is the highest point on Curaçao.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Christoffelberg",
+    "url": "https://en.wikipedia.org/wiki/Christoffelberg",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1430850.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MT._CHRISTOFFEL_IN_CHRISTOFFEL_PARK.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1366804",
+   "name": "Klein Curaçao",
+   "label": "Klein Curaçao",
+   "type": "nature",
+   "kind": "island",
+   "region": "CW",
+   "country": "CW",
+   "lat": 11.9908,
+   "lon": -68.6431,
+   "rarity": "Rare",
+   "fame": 36522,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 1.7,
+    "length_km": 2.9,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "Klein Curaçao is a 1.7-square-kilometre uninhabited island belonging to, and lying 10 km south-east of, Curaçao.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Klein Curaçao",
+    "url": "https://en.wikipedia.org/wiki/Klein_Cura%C3%A7ao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1366804.webp",
+    "author": "Dronepicr",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Klein_Curacao_(aerial_view).jpg"
+   }
+  },
+  {
+   "id": "gn:3513936",
+   "name": "Barber",
+   "label": "Barber",
+   "type": "town",
+   "kind": "town",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.2901,
+   "lon": -69.0739,
+   "rarity": "Rare",
+   "fame": 2502,
+   "facts": {
+    "population": 2424,
+    "elevation_m": 25,
+    "temp_c": 27.7
+   },
+   "flavour": {
+    "text": "It is located inland from the north coast, to the southeast of Christoffelberg, at a major road junction.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barber, Curaçao",
+    "url": "https://en.wikipedia.org/wiki/Barber%2C_Cura%C3%A7ao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513936.webp",
+    "author": "Margo Groenewoud",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Landhuis_Ascension.jpg"
+   }
+  },
+  {
+   "id": "wd:Q63565038",
+   "name": "Landhuis Brievengat",
+   "label": "Landhuis Brievengat",
+   "type": "built",
+   "kind": "building",
+   "region": "CW",
+   "country": "CW",
+   "lat": 12.1497,
+   "lon": -68.9,
+   "rarity": "Rare",
+   "fame": 858,
+   "facts": {
+    "elevation_m": 29,
+    "temp_c": 27.8
+   },
+   "flavour": {
+    "text": "A building in Curaçao.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q63565038.webp",
+    "author": "Technische Fred at Dutch Wikipedia",
+    "licence": "CC BY 2.5 nl",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5/nl/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Plantagehuis_Brievengat.JPG"
+   }
+  }
+ ]
+}

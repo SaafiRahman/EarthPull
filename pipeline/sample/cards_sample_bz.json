@@ -1,0 +1,2803 @@
+{
+ "note": "Sample of the Belize card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q21870703",
+   "name": "Haulover Creek",
+   "label": "Haulover Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4941,
+   "lon": -88.1858,
+   "rarity": "Common",
+   "fame": 966,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Haulover Creek is a coastal stream that runs through the center of Belize City and discharges into the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Haulover Creek",
+    "url": "https://en.wikipedia.org/wiki/Haulover_Creek",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21870703.webp"
+   }
+  },
+  {
+   "id": "wd:Q2166742",
+   "name": "Barton Creek",
+   "label": "Barton Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.2144,
+   "lon": -88.9508,
+   "rarity": "Common",
+   "fame": 1968,
+   "facts": {
+    "elevation_m": 65,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Barton Creek is the name of a small river and the area it flows through in Cayo District, Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barton Creek (Belize)",
+    "url": "https://en.wikipedia.org/wiki/Barton_Creek_%28Belize%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2166742.webp",
+    "author": "Tom Eppenberger Jr.",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BartonCreekBZE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5577246",
+   "name": "Goff's Caye",
+   "label": "Goff's Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.3489,
+   "lon": -88.0372,
+   "rarity": "Common",
+   "fame": 1494,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It sits right on the edge of the Belize Barrier Reef with waters to the south and east being only 0.6 to 3 metres deep.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Goff's Caye",
+    "url": "https://en.wikipedia.org/wiki/Goff%27s_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5577246.webp",
+    "author": "Napnet at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Goffs_caye_island.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7058224",
+   "name": "Northern Caye",
+   "label": "Northern Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4448,
+   "lon": -87.5044,
+   "rarity": "Common",
+   "fame": 594,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "The former Lighthouse Reef Resort catered to scuba diving enthusiasts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Northern Caye",
+    "url": "https://en.wikipedia.org/wiki/Northern_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7058224.webp",
+    "author": "Serge Melki from Indianapolis, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Getting_to_lighthouse_island_(4905962577).jpg"
+   }
+  },
+  {
+   "id": "wd:Q21867007",
+   "name": "Honey Camp Lagoon",
+   "label": "Honey Camp Lagoon",
+   "type": "nature",
+   "kind": "lake",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 18.0433,
+   "lon": -88.4383,
+   "rarity": "Common",
+   "fame": 408,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The lagoon is located in the district of Orange Walk and is approximately 9 miles away from the nearest town Orange Walk Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Honey Camp Lagoon",
+    "url": "https://en.wikipedia.org/wiki/Honey_Camp_Lagoon",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21867007.webp"
+   }
+  },
+  {
+   "id": "wd:Q16885775",
+   "name": "Corozal Bay",
+   "label": "Corozal Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3667,
+   "lon": -88.35,
+   "rarity": "Common",
+   "fame": 462,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Several resort areas are located on the coast of the bay, most notably Corozal Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Corozal Bay",
+    "url": "https://en.wikipedia.org/wiki/Corozal_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16885775.webp"
+   }
+  },
+  {
+   "id": "wd:Q4906231",
+   "name": "Big Rock Falls",
+   "label": "Big Rock Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.0352,
+   "lon": -88.9808,
+   "rarity": "Common",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 348,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Big Rock Falls is a 150-foot waterfall on Privassion River, in the Mountain Pine Ridge Forest Reserve of the Cayo District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Big Rock Falls",
+    "url": "https://en.wikipedia.org/wiki/Big_Rock_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4906231.webp",
+    "author": "Michael Lazarev ( Asmadeus )",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Big_Rock_Falls.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3496880",
+   "name": "South Stann Creek",
+   "label": "South Stann Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.7167,
+   "lon": -88.3,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The administrative division, Stann Creek District, is named after the river.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "South Stann Creek",
+    "url": "https://en.wikipedia.org/wiki/South_Stann_Creek",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3496880.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Cockscombstanncreekcmh.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7811458",
+   "name": "Tobacco Caye",
+   "label": "Tobacco Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.8983,
+   "lon": -88.0619,
+   "rarity": "Common",
+   "fame": 2106,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Tobacco Caye is a tiny island in Belize, about 10 miles east of Dangriga.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tobacco Caye",
+    "url": "https://en.wikipedia.org/wiki/Tobacco_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7811458.webp",
+    "author": "Kaldari",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Tobacco_Caye_2019.jpg"
+   }
+  },
+  {
+   "id": "wd:Q630746",
+   "name": "Macal River",
+   "label": "Macal River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 16.9558,
+   "lon": -88.7672,
+   "rarity": "Common",
+   "fame": 1458,
+   "facts": {
+    "elevation_m": 56,
+    "length_km": 320,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "Sites along the river include the ancient Mayan town of Cahal Pech and the Belize Botanic Gardens.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Macal River",
+    "url": "https://en.wikipedia.org/wiki/Macal_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q630746.webp",
+    "author": "Kaldari",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Macal_River_at_San_Ignacio_2019.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7797037",
+   "name": "Thousand Foot Falls",
+   "label": "Thousand Foot Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.057,
+   "lon": -88.8482,
+   "rarity": "Common",
+   "fame": 1134,
+   "facts": {
+    "elevation_m": 604,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Thousand Foot Falls, also known as Hidden Valley Falls, is a waterfall and the centerpiece of a Belizean natural monument in Cayo District, Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thousand Foot Falls",
+    "url": "https://en.wikipedia.org/wiki/Thousand_Foot_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7797037.webp"
+   }
+  },
+  {
+   "id": "wd:Q5620930",
+   "name": "Moho River",
+   "label": "Moho River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.0598,
+   "lon": -88.8519,
+   "rarity": "Common",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.3
+   },
+   "also_in": [
+    "GT"
+   ],
+   "flavour": {
+    "text": "The river is navigable year round between Santa Teresa and the mouth.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moho River",
+    "url": "https://en.wikipedia.org/wiki/Moho_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5620930.webp",
+    "author": "vår resa",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moho_river_in_Belize_02.jpg"
+   }
+  },
+  {
+   "id": "gn:3581226",
+   "name": "San Andres",
+   "label": "San Andres",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3892,
+   "lon": -88.4094,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1243,
+    "elevation_m": 16,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,243 people in Corozal.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581226.webp"
+   }
+  },
+  {
+   "id": "gn:3580799",
+   "name": "Xaibe",
+   "label": "Xaibe",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3865,
+   "lon": -88.4339,
+   "rarity": "Common",
+   "fame": 744,
+   "facts": {
+    "population": 1783,
+    "elevation_m": 12,
+    "area_km2": 23,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Xaibe is a small rural settlement in the country of Belize mainly consisting of people from the Yucatec Maya ethnicity.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Xaibe",
+    "url": "https://en.wikipedia.org/wiki/Xaibe",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580799.webp"
+   }
+  },
+  {
+   "id": "gn:3581222",
+   "name": "San Antonio",
+   "label": "San Antonio (Toledo)",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.2436,
+   "lon": -89.0242,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1447,
+    "elevation_m": 89,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "A community of 1,447 people in Toledo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581222.webp"
+   }
+  },
+  {
+   "id": "gn:13286695",
+   "name": "St. Matthew's",
+   "label": "St. Matthew's",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.2743,
+   "lon": -88.6443,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1398,
+    "elevation_m": 44,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "A community of 1,398 people in Cayo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13286695.webp"
+   }
+  },
+  {
+   "id": "gn:3582262",
+   "name": "Cristo Rey",
+   "label": "Cristo Rey",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1314,
+   "lon": -89.055,
+   "rarity": "Common",
+   "fame": 468,
+   "facts": {
+    "population": 1254,
+    "elevation_m": 75,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Cristo Rey is a village in the\tCayo District\tof\tcentral interior\tBelize, situated on the east bank of the Macal River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cristo Rey, Cayo",
+    "url": "https://en.wikipedia.org/wiki/Cristo_Rey%2C_Cayo",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3582262.webp"
+   }
+  },
+  {
+   "id": "gn:3581178",
+   "name": "San Lazaro",
+   "label": "San Lazaro",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 18.0385,
+   "lon": -88.6632,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1210,
+    "elevation_m": 25,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 1,210 people in Orange Walk.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581178.webp"
+   }
+  },
+  {
+   "id": "gn:3581984",
+   "name": "Guinea Grass",
+   "label": "Guinea Grass",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 17.967,
+   "lon": -88.5984,
+   "rarity": "Common",
+   "fame": 1020,
+   "facts": {
+    "population": 3821,
+    "elevation_m": 10,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "According to the 2000 census, Guinea Grass had a population of 2,510 people, and by 2010 the figures showed a population of 3,500.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guinea Grass",
+    "url": "https://en.wikipedia.org/wiki/Guinea_Grass",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581984.webp"
+   }
+  },
+  {
+   "id": "gn:3581143",
+   "name": "Santa Elena",
+   "label": "Santa Elena",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1614,
+   "lon": -89.0546,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8587,
+    "elevation_m": 94,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 8,587 people in Cayo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581143.webp"
+   }
+  },
+  {
+   "id": "gn:3582373",
+   "name": "Chunox",
+   "label": "Chunox",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.2979,
+   "lon": -88.3575,
+   "rarity": "Common",
+   "fame": 534,
+   "facts": {
+    "population": 1821,
+    "elevation_m": 6.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is primarily an agricultural community surrounded by sugar cane fields, and is located on the east bank of Laguna Seca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chunox",
+    "url": "https://en.wikipedia.org/wiki/Chunox",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3582373.webp"
+   }
+  },
+  {
+   "id": "gn:3581498",
+   "name": "Paraiso",
+   "label": "Paraiso",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.4078,
+   "lon": -88.3942,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1267,
+    "elevation_m": 13,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,267 people in Corozal.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581498.webp"
+   }
+  },
+  {
+   "id": "gn:3581185",
+   "name": "San Jose Palmar",
+   "label": "San Jose Palmar",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 18.062,
+   "lon": -88.5635,
+   "rarity": "Common",
+   "fame": 324,
+   "facts": {
+    "population": 2146,
+    "elevation_m": 12,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The official name of the village is San Jose \"Nuevo\" Palmar.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Jose Palmar",
+    "url": "https://en.wikipedia.org/wiki/San_Jose_Palmar",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581185.webp"
+   }
+  },
+  {
+   "id": "gn:13286649",
+   "name": "Indian Creek",
+   "label": "Indian Creek",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 17.7522,
+   "lon": -88.7192,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1080,
+    "elevation_m": 50,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 1,080 people in Orange Walk.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13286649.webp"
+   }
+  },
+  {
+   "id": "wd:Q1035336",
+   "name": "Caracol",
+   "label": "Caracol",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 16.7639,
+   "lon": -89.1176,
+   "rarity": "Epic",
+   "fame": 33708,
+   "facts": {
+    "elevation_m": 531,
+    "temp_c": 23.4
+   },
+   "flavour": {
+    "text": "Caracol is a large ancient Maya archaeological site, located in what is now the Cayo District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caracol",
+    "url": "https://en.wikipedia.org/wiki/Caracol",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1035336.webp",
+    "author": "Devon Jones",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Caracol-Temple.jpg"
+   }
+  },
+  {
+   "id": "wd:Q529147",
+   "name": "Lubaantun",
+   "label": "Lubaantun",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.2811,
+   "lon": -88.965,
+   "rarity": "Epic",
+   "fame": 5256,
+   "facts": {
+    "elevation_m": 49,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Lubaantun is a pre-Columbian ruined city of the Maya civilization in southern Belize, Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lubaantun",
+    "url": "https://en.wikipedia.org/wiki/Lubaantun",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q529147.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lubaantun-structure.jpg"
+   }
+  },
+  {
+   "id": "wd:Q446176",
+   "name": "Altun Ha",
+   "label": "Altun Ha",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.7646,
+   "lon": -88.3475,
+   "rarity": "Epic",
+   "fame": 11670,
+   "facts": {
+    "elevation_m": 11,
+    "area_km2": 0.4,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Altun Ha is the name given to the ruins of an ancient Maya city in Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Altun Ha",
+    "url": "https://en.wikipedia.org/wiki/Altun_Ha",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q446176.webp",
+    "author": "Michael Lazarev ( Asmadeus )",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Altun_Ha_Belize.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1083004",
+   "name": "Nim Li Punit",
+   "label": "Nim Li Punit",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.3167,
+   "lon": -88.8,
+   "rarity": "Epic",
+   "fame": 4470,
+   "facts": {
+    "elevation_m": 37,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Nim Li Punit is a Maya Classic Period site in the Toledo District of the nation of Belize, located 50 kilometres north of the town of Punta Gorda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nim Li Punit",
+    "url": "https://en.wikipedia.org/wiki/Nim_Li_Punit",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1083004.webp",
+    "author": "C Michael Hogan",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Nim_Li_Punit_ballcourt.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1056179",
+   "name": "Cerros",
+   "label": "Cerros",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3583,
+   "lon": -88.352,
+   "rarity": "Epic",
+   "fame": 2898,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Cerros is an Eastern Lowland Maya archaeological site in northern Belize that functioned from the Late Preclassic to the Postclassic period.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerros",
+    "url": "https://en.wikipedia.org/wiki/Cerros",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1056179.webp",
+    "author": "HJPD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerros1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q344570",
+   "name": "Actun Tunichil Muknal",
+   "label": "Actun Tunichil Muknal",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1141,
+   "lon": -88.8624,
+   "rarity": "Epic",
+   "fame": 27528,
+   "facts": {
+    "elevation_m": 125,
+    "area_km2": 1.8,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Actun Tunichil Muknal, also known locally as ATM, is a cave in Belize, near San Ignacio, Cayo District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Actun Tunichil Muknal",
+    "url": "https://en.wikipedia.org/wiki/Actun_Tunichil_Muknal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q344570.webp",
+    "author": "Peter Andersen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Actun_Tunichil_Muknal.jpg"
+   }
+  },
+  {
+   "id": "wd:Q968562",
+   "name": "Lamanai",
+   "label": "Lamanai",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 17.7643,
+   "lon": -88.6525,
+   "rarity": "Epic",
+   "fame": 16314,
+   "facts": {
+    "elevation_m": 28,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Lamanai is a Mesoamerican archaeological site, and was once a major city of the Maya civilization, located in the north of Belize, in Orange Walk District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lamanai",
+    "url": "https://en.wikipedia.org/wiki/Lamanai",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q968562.webp",
+    "author": "Urbanarcheology",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Templeofthejaguar.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5588870",
+   "name": "Government House, Belize",
+   "label": "Government House, Belize",
+   "type": "built",
+   "kind": "fixed construction",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4883,
+   "lon": -88.1867,
+   "rarity": "Epic",
+   "fame": 3042,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is said to have been built to plans by the British architect Christopher Wren with a combination of Caribbean vernacular and English urban architecture.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Government House, Belize",
+    "url": "https://en.wikipedia.org/wiki/Government_House%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5588870.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GOVERNMENT_HOUSE,_BELIZE_CITY,_BELIZE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q968463",
+   "name": "Cahal Pech",
+   "label": "Cahal Pech",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1556,
+   "lon": -89.0611,
+   "rarity": "Epic",
+   "fame": 6960,
+   "facts": {
+    "elevation_m": 138,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Cahal Pech is a Maya site located near the town of San Ignacio in the Cayo District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cahal Pech",
+    "url": "https://en.wikipedia.org/wiki/Cahal_Pech",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q968463.webp",
+    "author": "The original uploader was Aquaimages at English Wikipedia .",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Cahal_Pech_Belize.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28225725",
+   "name": "Billy Barquedier National Park",
+   "label": "Billy Barquedier National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 17.0215,
+   "lon": -88.4402,
+   "rarity": "Epic",
+   "fame": 450,
+   "facts": {
+    "elevation_m": 260,
+    "area_km2": 6.6,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The Billy Barquedier National Park is a national park in Belize, located between 16.5–19 miles on the Hummingbird Highway in Stann Creek District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Billy Barquedier National Park",
+    "url": "https://en.wikipedia.org/wiki/Billy_Barquedier_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28225725.webp",
+    "author": "Belizod",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Jaguar_Trail,_Billy_Barquedier_National_Park,_Belize.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14209011",
+   "name": "Five Blues Lake National Park",
+   "label": "Five Blues Lake National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.135,
+   "lon": -88.58,
+   "rarity": "Epic",
+   "fame": 576,
+   "facts": {
+    "elevation_m": 65,
+    "area_km2": 16,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Five Blues Lake National Park is a 10-acre parcel of tropical forest in Belize, which is enclosed by over 4,000 acres of limestone hills.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Five Blues Lake National Park",
+    "url": "https://en.wikipedia.org/wiki/Five_Blues_Lake_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q14209011.webp"
+   }
+  },
+  {
+   "id": "wd:Q457186",
+   "name": "Ambergris Caye",
+   "label": "Ambergris Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 18.0139,
+   "lon": -87.931,
+   "rarity": "Epic",
+   "fame": 30288,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 64,
+    "length_km": 40,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Ambergris Caye is the largest island of Belize, located northeast of the country's mainland, in the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ambergris Caye",
+    "url": "https://en.wikipedia.org/wiki/Ambergris_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q457186.webp",
+    "author": "danakosko",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Pedro,_Belize_by_danakosko,_March_2008.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5101755",
+   "name": "Chiquibul National Park",
+   "label": "Chiquibul National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 16.7103,
+   "lon": -88.9375,
+   "rarity": "Epic",
+   "fame": 1704,
+   "facts": {
+    "elevation_m": 523,
+    "area_km2": 1068,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "Chiquibul National Park is Belize's largest national park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chiquibul National Park",
+    "url": "https://en.wikipedia.org/wiki/Chiquibul_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5101755.webp"
+   }
+  },
+  {
+   "id": "wd:Q1051967",
+   "name": "Caye Caulker",
+   "label": "Caye Caulker",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.7425,
+   "lon": -88.025,
+   "rarity": "Epic",
+   "fame": 24972,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 3.9,
+    "length_km": 8.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Caye Caulker is a small limestone coral island off the coast of Belize in the Caribbean Sea measuring about 5 miles by less than 1 mile.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caye Caulker",
+    "url": "https://en.wikipedia.org/wiki/Caye_Caulker",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1051967.webp",
+    "author": "P199",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:CayeCaulker2004.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7156798",
+   "name": "Payne's Creek National Park",
+   "label": "Payne's Creek National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.327,
+   "lon": -88.577,
+   "rarity": "Epic",
+   "fame": 612,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 147,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The government of Belize created the park in 1994 in response to petitioning from community groups in the Monkey River and Punta Negra areas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Payne's Creek National Park",
+    "url": "https://en.wikipedia.org/wiki/Payne%27s_Creek_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7156798.webp",
+    "author": "Chris H from England",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pinus_hondurensis,_Payne%27s_Creek_National_Park,_Belize_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14215140",
+   "name": "Mayflower Bocawina National Park",
+   "label": "Mayflower Bocawina National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.9167,
+   "lon": -88.3833,
+   "rarity": "Epic",
+   "fame": 696,
+   "facts": {
+    "elevation_m": 118,
+    "area_km2": 29,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "This national park boasts a vast quantity of flora and fauna.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mayflower Bocawina National Park",
+    "url": "https://en.wikipedia.org/wiki/Mayflower_Bocawina_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q14215140.webp"
+   }
+  },
+  {
+   "id": "wd:Q7588335",
+   "name": "St. Herman's Blue Hole National Park",
+   "label": "St. Herman's Blue Hole National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.156,
+   "lon": -88.685,
+   "rarity": "Epic",
+   "fame": 1578,
+   "facts": {
+    "elevation_m": 120,
+    "area_km2": 2.7,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "St. Herman's Blue Hole National Park is a national park located just off the Hummingbird Highway in Cayo District, 12 miles southeast of Belmopan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Herman's Blue Hole National Park",
+    "url": "https://en.wikipedia.org/wiki/St._Herman%27s_Blue_Hole_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7588335.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Herman%27s_Blue_Hole.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24260883",
+   "name": "Elijio Panti National Park",
+   "label": "Elijio Panti National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.0228,
+   "lon": -89.0609,
+   "rarity": "Epic",
+   "fame": 570,
+   "facts": {
+    "elevation_m": 96,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Elijio Panti National Park nests within the buffer zone areas of Cristo Rey.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Elijio Panti National Park",
+    "url": "https://en.wikipedia.org/wiki/Elijio_Panti_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24260883.webp"
+   }
+  },
+  {
+   "id": "wd:Q7424622",
+   "name": "Sarstoon-Temash National Park",
+   "label": "Sarstoon-Temash National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 15.9425,
+   "lon": -88.999,
+   "rarity": "Epic",
+   "fame": 660,
+   "facts": {
+    "elevation_m": 13,
+    "area_km2": 169,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Sarstoon-Temash is the southernmost national park in Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sarstoon-Temash National Park",
+    "url": "https://en.wikipedia.org/wiki/Sarstoon-Temash_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7424622.webp"
+   }
+  },
+  {
+   "id": "gn:3581514",
+   "name": "Orange Walk",
+   "label": "Orange Walk",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 18.0812,
+   "lon": -88.5633,
+   "rarity": "Epic",
+   "fame": 13650,
+   "facts": {
+    "population": 15298,
+    "elevation_m": 16,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Orange Walk is the fourth largest town in Belize, with a population of about 13,400.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Orange Walk Town",
+    "url": "https://en.wikipedia.org/wiki/Orange_Walk_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581514.webp",
+    "author": "Pgbk87",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OWtownBZE.JPG"
+   }
+  },
+  {
+   "id": "gn:3581398",
+   "name": "Punta Gorda",
+   "label": "Punta Gorda",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.0983,
+   "lon": -88.8097,
+   "rarity": "Epic",
+   "fame": 7416,
+   "facts": {
+    "population": 5406,
+    "elevation_m": 8.0,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Punta Gorda, declared a town on Monday, 21 January 1895, known locally as P.G., is the capital and largest town of Toledo District in southern Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Punta Gorda, Belize",
+    "url": "https://en.wikipedia.org/wiki/Punta_Gorda%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581398.webp",
+    "author": "Pgbk87",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PGTOWNSQUARE.JPG"
+   }
+  },
+  {
+   "id": "gn:3582677",
+   "name": "Belize City",
+   "label": "Belize City",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4995,
+   "lon": -88.1976,
+   "rarity": "Epic",
+   "fame": 111006,
+   "facts": {
+    "population": 65222,
+    "elevation_m": 6.0,
+    "area_km2": 36,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Belize City is the largest city in Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belize City",
+    "url": "https://en.wikipedia.org/wiki/Belize_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582677.webp",
+    "author": "Studentbz",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Belize_City_Aerial_Shots.jpg"
+   }
+  },
+  {
+   "id": "gn:3582305",
+   "name": "Corozal",
+   "label": "Corozal",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3938,
+   "lon": -88.3885,
+   "rarity": "Epic",
+   "fame": 11238,
+   "facts": {
+    "population": 9815,
+    "elevation_m": 5.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Corozal is located about 84 miles north of Belize City, and 9 miles from the border with Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Corozal Town",
+    "url": "https://en.wikipedia.org/wiki/Corozal_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582305.webp",
+    "author": "Jon from London, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_of_Corozal_Town,_Belize.jpg"
+   }
+  },
+  {
+   "id": "gn:3581164",
+   "name": "San Pedro",
+   "label": "San Pedro",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.916,
+   "lon": -87.9659,
+   "rarity": "Epic",
+   "fame": 25572,
+   "facts": {
+    "population": 17429,
+    "elevation_m": 4.0,
+    "area_km2": 71,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "San Pedro is a town on the southern part of the island of Ambergris Caye in the Belize District of the nation of Belize, in Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Pedro Town",
+    "url": "https://en.wikipedia.org/wiki/San_Pedro_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581164.webp"
+   }
+  },
+  {
+   "id": "gn:3582228",
+   "name": "Dangriga",
+   "label": "Dangriga",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.9697,
+   "lon": -88.2331,
+   "rarity": "Epic",
+   "fame": 9678,
+   "facts": {
+    "population": 9927,
+    "elevation_m": 7.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Dangriga, formerly known as Stann Creek Town, is a town in southern Belize, located on the Caribbean coast at the mouth of the North Stann Creek River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dangriga",
+    "url": "https://en.wikipedia.org/wiki/Dangriga",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582228.webp",
+    "author": "Rick's Pics (Montreal)",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dangriga,_Belize_-_2009_-_towards_the_Sea.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1646630",
+   "name": "Xunantunich",
+   "label": "Xunantunich",
+   "type": "built",
+   "kind": "Maya site in Belize‎",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.0902,
+   "lon": -89.1422,
+   "rarity": "Legendary",
+   "fame": 52878,
+   "facts": {
+    "elevation_m": 152,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Xunantunich is an ancient Maya archaeological site in western Belize, about 70 miles west of Belize City, in the Cayo District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Xunantunich",
+    "url": "https://en.wikipedia.org/wiki/Xunantunich",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1646630.webp",
+    "author": "Denis Barthel",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xunantunich_Belize_1_19.jpg"
+   }
+  },
+  {
+   "id": "gn:3582672",
+   "name": "Belmopan",
+   "label": "Belmopan",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.2538,
+   "lon": -88.764,
+   "rarity": "Legendary",
+   "fame": 85236,
+   "facts": {
+    "population": 13381,
+    "elevation_m": 56,
+    "area_km2": 33,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Belmopan is the capital city of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belmopan",
+    "url": "https://en.wikipedia.org/wiki/Belmopan",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582672.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Belmopan_Parliament.jpg"
+   }
+  },
+  {
+   "id": "wd:Q686239",
+   "name": "Isidoro Beaton Stadium",
+   "label": "Isidoro Beaton Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.2522,
+   "lon": -88.7864,
+   "rarity": "Rare",
+   "fame": 834,
+   "facts": {
+    "elevation_m": 44,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "It is used mostly for football matches and is the home stadium of the Belizean football clubs Belmopan Blaze and Belmopan Bandits.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isidoro Beaton Stadium",
+    "url": "https://en.wikipedia.org/wiki/Isidoro_Beaton_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q686239.webp"
+   }
+  },
+  {
+   "id": "wd:Q540295",
+   "name": "Uxbenka",
+   "label": "Uxbenka",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.2367,
+   "lon": -89.0783,
+   "rarity": "Rare",
+   "fame": 918,
+   "facts": {
+    "elevation_m": 225,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "Uxbenka is a pre-Columbian Mesoamerican archaeological site located in Belize's southernmost district of Toledo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Uxbenka",
+    "url": "https://en.wikipedia.org/wiki/Uxbenka",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q540295.webp",
+    "author": "Elelicht",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Uxbenka_B-Gruppe.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7455147",
+   "name": "Serpon Sugar Mill",
+   "label": "Serpon Sugar Mill",
+   "type": "built",
+   "kind": "Archaeological reserve",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.8259,
+   "lon": -88.3443,
+   "rarity": "Rare",
+   "fame": 672,
+   "facts": {
+    "elevation_m": 28,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Serpon Sugar Mill is an historical site in Belize, consisting of the remnants of a steam-powered sugar mill whose construction in 1865 marked the beginning of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Serpon Sugar Mill",
+    "url": "https://en.wikipedia.org/wiki/Serpon_Sugar_Mill",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7455147.webp",
+    "author": "Nosferattus",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Serpon_Sugar_Mill_Welcome_Sign.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5685301",
+   "name": "Hawkesworth Bridge",
+   "label": "Hawkesworth Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1568,
+   "lon": -89.0683,
+   "rarity": "Rare",
+   "fame": 822,
+   "facts": {
+    "elevation_m": 53,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Built in 1949 and imported from Middlesbrough, England, it crosses the Macal River linking San Ignacio to its sister-town Santa Elena.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hawkesworth Bridge",
+    "url": "https://en.wikipedia.org/wiki/Hawkesworth_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5685301.webp",
+    "author": "DavidLey",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Hawksworth_Bridge.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1837919",
+   "name": "Chan Chich Airstrip",
+   "label": "Chan Chich Airstrip",
+   "type": "built",
+   "kind": "airstrip",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 17.5667,
+   "lon": -89.0469,
+   "rarity": "Rare",
+   "fame": 294,
+   "facts": {
+    "elevation_m": 115,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Chan Chich Airstrip is an airport serving the Chan Chich Lodge and the Gallon Jug Estate in the Orange Walk District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chan Chich Airstrip",
+    "url": "https://en.wikipedia.org/wiki/Chan_Chich_Airstrip",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1837919.webp"
+   }
+  },
+  {
+   "id": "wd:Q4163413",
+   "name": "St. John's Cathedral",
+   "label": "St. John's Cathedral",
+   "type": "built",
+   "kind": "Anglican or Episcopal cathedral",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4886,
+   "lon": -88.1878,
+   "rarity": "Rare",
+   "fame": 2640,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is the oldest Anglican Church in Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. John's Cathedral (Belize City)",
+    "url": "https://en.wikipedia.org/wiki/St._John%27s_Cathedral_%28Belize_City%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4163413.webp",
+    "author": "Adam Buhler from Lawrence, KS, United States",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._John%27s_Anglican_Church,_Belize_City.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7110822",
+   "name": "Our Lady of Guadalupe Co-Cathedral",
+   "label": "Our Lady of Guadalupe Co-Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.2486,
+   "lon": -88.7636,
+   "rarity": "Rare",
+   "fame": 378,
+   "facts": {
+    "elevation_m": 66,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "It serves as a co-cathedral of the Roman Catholic Diocese of Belize City-Belmopan with the Holy Redeemer Cathedral in Belize City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of Guadalupe Co-Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Guadalupe_Co-Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7110822.webp"
+   }
+  },
+  {
+   "id": "wd:Q15919222",
+   "name": "Port of Belize",
+   "label": "Port of Belize",
+   "type": "built",
+   "kind": "port",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4847,
+   "lon": -88.1836,
+   "rarity": "Rare",
+   "fame": 1596,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Port of Belize, located in Belize City, is the principal port of Belize and receives nearly all of the country's commercial activity.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port of Belize",
+    "url": "https://en.wikipedia.org/wiki/Port_of_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15919222.webp"
+   }
+  },
+  {
+   "id": "wd:Q1881252",
+   "name": "MCC Grounds",
+   "label": "MCC Grounds",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.5044,
+   "lon": -88.1892,
+   "rarity": "Rare",
+   "fame": 582,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Marylebone Cricket Club Grounds is a Belizean football stadium, located on the Northside of Belize City, Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "MCC Grounds (stadium)",
+    "url": "https://en.wikipedia.org/wiki/MCC_Grounds_%28stadium%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1881252.webp"
+   }
+  },
+  {
+   "id": "wd:Q6388889",
+   "name": "Kendall Bridge",
+   "label": "Kendall Bridge",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.8153,
+   "lon": -88.3783,
+   "rarity": "Rare",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "The project was funded by the Government of Belize and the Caribbean Bank.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kendall Bridge",
+    "url": "https://en.wikipedia.org/wiki/Kendall_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6388889.webp"
+   }
+  },
+  {
+   "id": "wd:Q6463877",
+   "name": "La Milpa",
+   "label": "La Milpa",
+   "type": "built",
+   "kind": "ancient city",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 17.7833,
+   "lon": -88.95,
+   "rarity": "Rare",
+   "fame": 1290,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "La Milpa is an archaeological site and an ancient Maya city within the Three River region of Northwest Belize bordering Mexico and Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Milpa",
+    "url": "https://en.wikipedia.org/wiki/La_Milpa",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6463877.webp"
+   }
+  },
+  {
+   "id": "wd:Q427979",
+   "name": "Belize Botanic Gardens",
+   "label": "Belize Botanic Gardens",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.0833,
+   "lon": -89.0667,
+   "rarity": "Rare",
+   "fame": 462,
+   "facts": {
+    "elevation_m": 74,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The Belize Botanic Gardens is a collection of native and exotic plants growing on 45 acres in the Cayo district of western Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belize Botanic Gardens",
+    "url": "https://en.wikipedia.org/wiki/Belize_Botanic_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q427979.webp"
+   }
+  },
+  {
+   "id": "wd:Q765910",
+   "name": "Victoria Peak",
+   "label": "Victoria Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.8,
+   "lon": -88.6,
+   "rarity": "Rare",
+   "fame": 2634,
+   "facts": {
+    "elevation_m": 1120,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "Victoria Peak within the Maya Mountains is the second highest mountain in Belize, at a height of 1,120 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Victoria Peak (Belize)",
+    "url": "https://en.wikipedia.org/wiki/Victoria_Peak_%28Belize%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q765910.webp"
+   }
+  },
+  {
+   "id": "wd:Q815650",
+   "name": "Belize River",
+   "label": "Belize River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1784,
+   "lon": -89.0802,
+   "rarity": "Rare",
+   "fame": 4236,
+   "facts": {
+    "elevation_m": 9.0,
+    "length_km": 290,
+    "temp_c": 25.1
+   },
+   "also_in": [
+    "GT"
+   ],
+   "flavour": {
+    "text": "The Belize River runs 290 kilometres through the center of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belize River",
+    "url": "https://en.wikipedia.org/wiki/Belize_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q815650.webp",
+    "author": "1000Faces at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:BelizeRiverShot.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5055296",
+   "name": "Caye Chapel",
+   "label": "Caye Chapel",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.6958,
+   "lon": -88.0425,
+   "rarity": "Rare",
+   "fame": 2994,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Caye Chapel is a small, private island in Belize, 16 miles north-northeast of Belize City and 3 miles south of Caye Caulker.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caye Chapel",
+    "url": "https://en.wikipedia.org/wiki/Caye_Chapel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5055296.webp",
+    "author": "Emerald Photos (greenjinjo)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caye_Chapel_from_Airplane.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q7588103",
+   "name": "St. George's Caye",
+   "label": "St. George's Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.5531,
+   "lon": -88.0739,
+   "rarity": "Rare",
+   "fame": 2364,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 4.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is part of the Belize District of Belize, Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. George's Caye",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7588103.webp",
+    "author": "Kent Wang",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._George%27s_Caye_2,_Belize.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5641714",
+   "name": "Half Moon Caye",
+   "label": "Half Moon Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.2047,
+   "lon": -87.5364,
+   "rarity": "Rare",
+   "fame": 2988,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 0.2,
+    "length_km": 1.2,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Half Moon Caye is an island and natural monument of Belize located at the southeast corner of Lighthouse Reef Atoll.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Half Moon Caye",
+    "url": "https://en.wikipedia.org/wiki/Half_Moon_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5641714.webp",
+    "author": "anoldent from Asheville, NC, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BZECAYE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28225729",
+   "name": "Harvest Caye",
+   "label": "Harvest Caye",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.4783,
+   "lon": -88.4039,
+   "rarity": "Rare",
+   "fame": 7164,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The caye features wildlife exhibitions including a blue morpho butterfly house.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Harvest Caye",
+    "url": "https://en.wikipedia.org/wiki/Harvest_Caye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28225729.webp",
+    "author": "Lucas EDVK",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harvest_Caye.jpg"
+   }
+  },
+  {
+   "id": "wd:Q998959",
+   "name": "Chetumal Bay",
+   "label": "Chetumal Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3333,
+   "lon": -88.0833,
+   "rarity": "Rare",
+   "fame": 3372,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "MX"
+   ],
+   "flavour": {
+    "text": "It is located in northern Belize and southeastern Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chetumal Bay",
+    "url": "https://en.wikipedia.org/wiki/Chetumal_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q998959.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Gulf_of_Honduras.jpg"
+   }
+  },
+  {
+   "id": "wd:Q47490",
+   "name": "Doyle's Delight",
+   "label": "Doyle's Delight",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 16.5,
+   "lon": -89.05,
+   "rarity": "Rare",
+   "fame": 4854,
+   "facts": {
+    "elevation_m": 1124,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Doyle's Delight is the highest peak in Belize at 1,124 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Doyle's Delight",
+    "url": "https://en.wikipedia.org/wiki/Doyle%27s_Delight",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q47490.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Doyle%27s_Delight.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2892597",
+   "name": "Cayo Espanto",
+   "label": "Cayo Espanto",
+   "type": "nature",
+   "kind": "island",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 17.9472,
+   "lon": -88.1225,
+   "rarity": "Rare",
+   "fame": 4200,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is one of the approximately 450 islands of the Belize Barrier Reef.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Espanto",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Espanto",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2892597.webp",
+    "author": "Mike's Birds from Riverside, CA, US",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cayo_Espanto_(40131618590).jpg"
+   }
+  },
+  {
+   "id": "wd:Q765874",
+   "name": "Maya Mountains",
+   "label": "Maya Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 16.5015,
+   "lon": -89.0463,
+   "rarity": "Rare",
+   "fame": 4710,
+   "facts": {
+    "elevation_m": 1124,
+    "temp_c": 22.7
+   },
+   "also_in": [
+    "GT"
+   ],
+   "flavour": {
+    "text": "The Maya Mountains are a mountain range located in Belize and eastern Guatemala, in Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maya Mountains",
+    "url": "https://en.wikipedia.org/wiki/Maya_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q765874.webp",
+    "author": "drterdal",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maya_Mountains,_Cayo_District,_Belize.jpg"
+   }
+  },
+  {
+   "id": "gn:3581813",
+   "name": "Little Belize",
+   "label": "Little Belize",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.198,
+   "lon": -88.4079,
+   "rarity": "Rare",
+   "fame": 1752,
+   "facts": {
+    "population": 2888,
+    "elevation_m": 10,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Little Belize is a colony of conservative Plautdietsch-speaking \"Russian\" Mennonites, known as \"Old Colony Mennonites\", in the Corozal District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Belize",
+    "url": "https://en.wikipedia.org/wiki/Little_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3581813.webp"
+   }
+  },
+  {
+   "id": "gn:3581447",
+   "name": "Placencia",
+   "label": "Placencia",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.5142,
+   "lon": -88.3665,
+   "rarity": "Rare",
+   "fame": 10458,
+   "facts": {
+    "population": 4300,
+    "elevation_m": 11,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Placencia is a small village located in the Stann Creek District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Placencia",
+    "url": "https://en.wikipedia.org/wiki/Placencia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581447.webp",
+    "author": "Nagyman",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maya_Beach,_Placencia,_Belize.jpg"
+   }
+  },
+  {
+   "id": "gn:3582514",
+   "name": "Burrell Boom",
+   "label": "Burrell Boom",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.5693,
+   "lon": -88.4053,
+   "rarity": "Rare",
+   "fame": 1050,
+   "facts": {
+    "population": 2615,
+    "elevation_m": 11,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Burrell Boom is on the Belize River twenty miles above Belize City, Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Burrell Boom",
+    "url": "https://en.wikipedia.org/wiki/Burrell_Boom",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582514.webp",
+    "author": "Rogerblench",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anchor_and_chain,_the_original_%27Boom%27_of_Burrell_Boom.JPG"
+   }
+  },
+  {
+   "id": "gn:3582524",
+   "name": "Bullet Tree Falls",
+   "label": "Bullet Tree Falls",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.168,
+   "lon": -89.111,
+   "rarity": "Rare",
+   "fame": 1242,
+   "facts": {
+    "population": 3932,
+    "elevation_m": 69,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It lies approximately five kilometers northwest of San Ignacio.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bullet Tree Falls",
+    "url": "https://en.wikipedia.org/wiki/Bullet_Tree_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3582524.webp",
+    "author": "Kaldari",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bullet_Tree_Falls_bus_stop.jpg"
+   }
+  },
+  {
+   "id": "gn:3581851",
+   "name": "Ladyville",
+   "label": "Ladyville",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.5543,
+   "lon": -88.29,
+   "rarity": "Rare",
+   "fame": 3480,
+   "facts": {
+    "population": 7655,
+    "elevation_m": 3.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Ladyville is the largest village in the country of Belize, eight miles northwest of Belize City in the Belize District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ladyville",
+    "url": "https://en.wikipedia.org/wiki/Ladyville",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581851.webp",
+    "author": "LittleT889",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ladyville.jpg"
+   }
+  },
+  {
+   "id": "gn:3581968",
+   "name": "Hattieville",
+   "label": "Hattieville",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-BZ",
+   "country": "BZ",
+   "lat": 17.4478,
+   "lon": -88.3936,
+   "rarity": "Rare",
+   "fame": 1314,
+   "facts": {
+    "population": 2184,
+    "elevation_m": 6.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is located at 17N 88W, at an elevation of 196 feet above mean sea level, and has a population of about 1,300 people.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hattieville",
+    "url": "https://en.wikipedia.org/wiki/Hattieville",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581968.webp",
+    "author": "Jan Pešula",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Hattieville_center.JPG"
+   }
+  },
+  {
+   "id": "gn:3581089",
+   "name": "Seine Bight Village",
+   "label": "Seine Bight Village",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.5694,
+   "lon": -88.3649,
+   "rarity": "Rare",
+   "fame": 1062,
+   "facts": {
+    "population": 1895,
+    "elevation_m": 8.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is located 2+1⁄2 miles south of Maya Beach Village and North of the village of Placencia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Seine Bight",
+    "url": "https://en.wikipedia.org/wiki/Seine_Bight",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581089.webp",
+    "author": "Channdaman",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Welcome_to_Seine_Bight_Village.jpg"
+   }
+  },
+  {
+   "id": "gn:3581112",
+   "name": "Sarteneja",
+   "label": "Sarteneja",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.3533,
+   "lon": -88.1454,
+   "rarity": "Rare",
+   "fame": 2652,
+   "facts": {
+    "population": 3550,
+    "elevation_m": 4.0,
+    "area_km2": 90,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Sarteneja is the largest fishing community and the second largest village in Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sarteneja",
+    "url": "https://en.wikipedia.org/wiki/Sarteneja",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581112.webp",
+    "author": "Jennifer Williams from Cameron, NC, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sarteneja,_Belize,_Central_America.jpg"
+   }
+  },
+  {
+   "id": "gn:3581922",
+   "name": "Hopkins",
+   "label": "Hopkins",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-SC",
+   "country": "BZ",
+   "lat": 16.8631,
+   "lon": -88.2844,
+   "rarity": "Rare",
+   "fame": 6036,
+   "facts": {
+    "population": 1767,
+    "elevation_m": 9.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Hopkins is a coastal village in eastern Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hopkins, Belize",
+    "url": "https://en.wikipedia.org/wiki/Hopkins%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581922.webp",
+    "author": "Flickr user Walter Rodriguez",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Almond_Beach,_Hopkins,_Stann_Creek,_Belize.jpg"
+   }
+  },
+  {
+   "id": "gn:3581194",
+   "name": "San Ignacio",
+   "label": "San Ignacio",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1588,
+   "lon": -89.0696,
+   "rarity": "Rare",
+   "fame": 13026,
+   "facts": {
+    "population": 21229,
+    "elevation_m": 60,
+    "area_km2": 6.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "San Ignacio and Santa Elena are towns in western Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Ignacio, Belize",
+    "url": "https://en.wikipedia.org/wiki/San_Ignacio%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581194.webp",
+    "author": "Kaldari",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Igancio_Belize_2016.jpg"
+   }
+  },
+  {
+   "id": "gn:13118144",
+   "name": "Armenia",
+   "label": "Armenia",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.1553,
+   "lon": -88.7464,
+   "rarity": "Rare",
+   "fame": 1170,
+   "facts": {
+    "population": 2421,
+    "elevation_m": 184,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "Armenia is a village in the Cayo District of Belize, along the nation's Hummingbird Highway south of the capital, Belmopan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Armenia, Belize",
+    "url": "https://en.wikipedia.org/wiki/Armenia%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13118144.webp"
+   }
+  },
+  {
+   "id": "gn:3581066",
+   "name": "Shipyard",
+   "label": "Shipyard",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-OW",
+   "country": "BZ",
+   "lat": 17.8938,
+   "lon": -88.6545,
+   "rarity": "Rare",
+   "fame": 2760,
+   "facts": {
+    "population": 4070,
+    "elevation_m": 20,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Shipyard, also called Shipyard Colony, is a Mennonite settlement that is also an administrative village in the Orange Walk District of Belize.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Shipyard, Belize",
+    "url": "https://en.wikipedia.org/wiki/Shipyard%2C_Belize",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581066.webp",
+    "author": "Sipyardbelize",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ploughing_at_Shipyard_Belize.jpg"
+   }
+  },
+  {
+   "id": "gn:3581166",
+   "name": "San Pedro",
+   "label": "San Pedro (Toledo)",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-TOL",
+   "country": "BZ",
+   "lat": 16.2715,
+   "lon": -88.9544,
+   "rarity": "Common",
+   "fame": 606,
+   "facts": {
+    "population": 1454,
+    "elevation_m": 35,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "San Pedro Columbia is a village in Toledo District, Belize, located about two miles from the ancient Maya ruins of Lubaantun.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Pedro Columbia",
+    "url": "https://en.wikipedia.org/wiki/San_Pedro_Columbia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3581166.webp",
+    "author": "Elelicht",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Pedro_Columbia.JPG"
+   }
+  },
+  {
+   "id": "gn:3580986",
+   "name": "Spanish Lookout",
+   "label": "Spanish Lookout",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CY",
+   "country": "BZ",
+   "lat": 17.2628,
+   "lon": -89.0092,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3108,
+    "elevation_m": 105,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 3,108 people in Cayo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580986.webp"
+   }
+  },
+  {
+   "id": "gn:3582487",
+   "name": "Caledonia",
+   "label": "Caledonia",
+   "type": "town",
+   "kind": "town",
+   "region": "BZ-CZL",
+   "country": "BZ",
+   "lat": 18.2274,
+   "lon": -88.4775,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1373,
+    "elevation_m": 8.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,373 people in Corozal.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3582487.webp"
+   }
+  }
+ ]
+}

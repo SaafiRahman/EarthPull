@@ -1,0 +1,1306 @@
+{
+ "note": "Sample of the Grenada card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5599886",
+   "name": "Great River of Grand Bacolet",
+   "label": "Great River of Grand Bacolet",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-02",
+   "country": "GD",
+   "lat": 12.0667,
+   "lon": -61.6333,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 76,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Great River of Grand Bacolet is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great River of Grand Bacolet",
+    "url": "https://en.wikipedia.org/wiki/Great_River_of_Grand_Bacolet",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5599886.webp"
+   }
+  },
+  {
+   "id": "wd:Q15241096",
+   "name": "La Chaussée River",
+   "label": "La Chaussée River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-02",
+   "country": "GD",
+   "lat": 12.0167,
+   "lon": -61.6667,
+   "rarity": "Common",
+   "fame": 48,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The La Chaussée River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Chaussée River",
+    "url": "https://en.wikipedia.org/wiki/La_Chauss%C3%A9e_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15241096.webp"
+   }
+  },
+  {
+   "id": "wd:Q4940929",
+   "name": "Bon Accord River",
+   "label": "Bon Accord River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0667,
+   "lon": -61.7333,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 103,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Bon Accord River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bon Accord River",
+    "url": "https://en.wikipedia.org/wiki/Bon_Accord_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4940929.webp"
+   }
+  },
+  {
+   "id": "wd:Q7337274",
+   "name": "River Claire",
+   "label": "River Claire",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-05",
+   "country": "GD",
+   "lat": 12.1833,
+   "lon": -61.7,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 72,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is located in the smallest parish on the island, the Saint Mark Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "River Claire (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/River_Claire_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7337274.webp"
+   }
+  },
+  {
+   "id": "wd:Q15222060",
+   "name": "Great Crayfish River",
+   "label": "Great Crayfish River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-05",
+   "country": "GD",
+   "lat": 12.2,
+   "lon": -61.6833,
+   "rarity": "Common",
+   "fame": 72,
+   "facts": {
+    "elevation_m": 234,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Great Crayfish River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Crayfish River",
+    "url": "https://en.wikipedia.org/wiki/Great_Crayfish_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15222060.webp"
+   }
+  },
+  {
+   "id": "wd:Q5300204",
+   "name": "Douce River",
+   "label": "Douce River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.1,
+   "lon": -61.7333,
+   "rarity": "Common",
+   "fame": 66,
+   "facts": {
+    "elevation_m": 207,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Douce River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Douce River (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/Douce_River_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5300204.webp"
+   }
+  },
+  {
+   "id": "wd:Q5594329",
+   "name": "Grand Bras River",
+   "label": "Grand Bras River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-01",
+   "country": "GD",
+   "lat": 12.1333,
+   "lon": -61.6333,
+   "rarity": "Common",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 42,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Grand Bras River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Bras River",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bras_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5594329.webp"
+   }
+  },
+  {
+   "id": "wd:Q15198023",
+   "name": "Beauséjour River",
+   "label": "Beauséjour River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0833,
+   "lon": -61.75,
+   "rarity": "Common",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 186,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Beauséjour River is a river in Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Beauséjour River",
+    "url": "https://en.wikipedia.org/wiki/Beaus%C3%A9jour_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15198023.webp"
+   }
+  },
+  {
+   "id": "wd:Q6816907",
+   "name": "Menere River",
+   "label": "Menere River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-02",
+   "country": "GD",
+   "lat": 12.05,
+   "lon": -61.6333,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Menere River is a river of Grenada, North America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Menere River",
+    "url": "https://en.wikipedia.org/wiki/Menere_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6816907.webp"
+   }
+  },
+  {
+   "id": "wd:Q5599737",
+   "name": "Great Palmiste River",
+   "label": "Great Palmiste River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-04",
+   "country": "GD",
+   "lat": 12.1333,
+   "lon": -61.7333,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 243,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It's in the west part of the country, 9 kilometers north of Saint George.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Palmiste River",
+    "url": "https://en.wikipedia.org/wiki/Great_Palmiste_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5599737.webp"
+   }
+  },
+  {
+   "id": "wd:Q4920333",
+   "name": "Black Bay River",
+   "label": "Black Bay River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-04",
+   "country": "GD",
+   "lat": 12.1167,
+   "lon": -61.75,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 66,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Black Bay River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Black Bay River (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/Black_Bay_River_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4920333.webp"
+   }
+  },
+  {
+   "id": "wd:Q5316088",
+   "name": "Duquesne River",
+   "label": "Duquesne River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.2167,
+   "lon": -61.6667,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 187,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Duquesne River is a river of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Duquesne River",
+    "url": "https://en.wikipedia.org/wiki/Duquesne_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5316088.webp"
+   }
+  },
+  {
+   "id": "gn:3580257",
+   "name": "Grand Roy",
+   "label": "Grand Roy",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-04",
+   "country": "GD",
+   "lat": 12.1322,
+   "lon": -61.7454,
+   "rarity": "Common",
+   "fame": 792,
+   "facts": {
+    "population": 2400,
+    "elevation_m": 21,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is located on the island's west coast, in the Parish of St. John, to the north of Marigot on the road to Gouyave.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Roy",
+    "url": "https://en.wikipedia.org/wiki/Grand_Roy",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580257.webp"
+   }
+  },
+  {
+   "id": "gn:3579837",
+   "name": "Upper La Taste",
+   "label": "Upper La Taste",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.193,
+   "lon": -61.6181,
+   "rarity": "Common",
+   "fame": 174,
+   "facts": {
+    "population": 1300,
+    "elevation_m": 65,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is located towards the northern end of the island, along the eastern coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Upper La Taste",
+    "url": "https://en.wikipedia.org/wiki/Upper_La_Taste",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579837.webp"
+   }
+  },
+  {
+   "id": "wd:Q3537142",
+   "name": "National Cricket Stadium",
+   "label": "National Cricket Stadium",
+   "type": "built",
+   "kind": "cricket field",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0591,
+   "lon": -61.7521,
+   "rarity": "Epic",
+   "fame": 5460,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Ten years later, Grenada played against Lord Hawke's touring team.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Cricket Stadium (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/National_Cricket_Stadium_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3537142.webp",
+    "author": "Madmack",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grenadacricket.jpg"
+   }
+  },
+  {
+   "id": "wd:Q967714",
+   "name": "Petite Martinique",
+   "label": "Petite Martinique",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.5164,
+   "lon": -61.3844,
+   "rarity": "Epic",
+   "fame": 8172,
+   "facts": {
+    "elevation_m": 197,
+    "area_km2": 2.4,
+    "length_km": 1.9,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "Petite Martinique is one of the islands of Carriacou and Petite Martinique, which is part of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petite Martinique",
+    "url": "https://en.wikipedia.org/wiki/Petite_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q967714.webp",
+    "author": "Filmmtl",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Petit_martinique_Carriacou.jpg"
+   }
+  },
+  {
+   "id": "wd:Q795647",
+   "name": "Carriacou Island",
+   "label": "Carriacou Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4667,
+   "lon": -61.45,
+   "rarity": "Epic",
+   "fame": 33864,
+   "facts": {
+    "elevation_m": 291,
+    "area_km2": 34,
+    "length_km": 11,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "The name is derived from the Kalinago language Kayryouacou.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carriacou",
+    "url": "https://en.wikipedia.org/wiki/Carriacou",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q795647.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Hillsborough_Carriacou.jpg"
+   }
+  },
+  {
+   "id": "wd:Q525281",
+   "name": "Mount Saint Catherine",
+   "label": "Mount Saint Catherine",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GD-04",
+   "country": "GD",
+   "lat": 12.1622,
+   "lon": -61.6753,
+   "rarity": "Epic",
+   "fame": 3756,
+   "facts": {
+    "elevation_m": 840,
+    "prominence_m": 840,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Mount Saint Catherine is an extensively weathered stratovolcano mountain and tallest peak on the Caribbean island of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Saint Catherine (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/Mount_Saint_Catherine_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q525281.webp",
+    "author": "Tranquilometro",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mount_Saint_Catherine_Summit.jpg"
+   }
+  },
+  {
+   "id": "gn:3579833",
+   "name": "Victoria",
+   "label": "Victoria",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-05",
+   "country": "GD",
+   "lat": 12.1902,
+   "lon": -61.7068,
+   "rarity": "Epic",
+   "fame": 1170,
+   "facts": {
+    "population": 2256,
+    "elevation_m": 70,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It has a population of 2256, and is the fourth largest town in Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Victoria, Grenada",
+    "url": "https://en.wikipedia.org/wiki/Victoria%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579833.webp"
+   }
+  },
+  {
+   "id": "gn:3580215",
+   "name": "Hillsborough",
+   "label": "Hillsborough",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4829,
+   "lon": -61.456,
+   "rarity": "Epic",
+   "fame": 1116,
+   "facts": {
+    "population": 1000,
+    "elevation_m": 8.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Hillsborough is the largest town on the island of Carriacou, Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hillsborough, Carriacou",
+    "url": "https://en.wikipedia.org/wiki/Hillsborough%2C_Carriacou",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580215.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Hillsborough_Carriacou.jpg"
+   }
+  },
+  {
+   "id": "gn:3580236",
+   "name": "Grenville",
+   "label": "Grenville",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-01",
+   "country": "GD",
+   "lat": 12.1228,
+   "lon": -61.625,
+   "rarity": "Epic",
+   "fame": 3150,
+   "facts": {
+    "population": 2476,
+    "elevation_m": 15,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Grenville is the third largest town in Grenada, after St. George's and Gouyave and it is the capital of the largest parish, Saint Andrew.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grenville, Grenada",
+    "url": "https://en.wikipedia.org/wiki/Grenville%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580236.webp",
+    "author": "madmack66",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grenville,_Grenada.jpg"
+   }
+  },
+  {
+   "id": "gn:3580279",
+   "name": "Gouyave",
+   "label": "Gouyave",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-04",
+   "country": "GD",
+   "lat": 12.1646,
+   "lon": -61.7296,
+   "rarity": "Epic",
+   "fame": 3186,
+   "facts": {
+    "population": 3378,
+    "elevation_m": 19,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Gouyave is the capital and largest town in the parish of St John, Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gouyave",
+    "url": "https://en.wikipedia.org/wiki/Gouyave",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580279.webp",
+    "author": "Smithyboy2012",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gouyave_town_aerial_view.jpg"
+   }
+  },
+  {
+   "id": "gn:3579931",
+   "name": "Saint David’s",
+   "label": "Saint David’s",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-02",
+   "country": "GD",
+   "lat": 12.049,
+   "lon": -61.6688,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 1321,
+    "elevation_m": 179,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 1,321 people in Saint David.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3579931.webp"
+   }
+  },
+  {
+   "id": "gn:3579891",
+   "name": "Sauteurs",
+   "label": "Sauteurs",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.2183,
+   "lon": -61.6392,
+   "rarity": "Epic",
+   "fame": 2082,
+   "facts": {
+    "population": 1320,
+    "elevation_m": 46,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Sauteurs is a fishing town in the Saint Patrick Parish, Grenada and is the sixth-largest town on the island of Grenada, with a population of about 1,300.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sauteurs",
+    "url": "https://en.wikipedia.org/wiki/Sauteurs",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579891.webp",
+    "author": "Kylekieran ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Welcome_to_Sauteurs%22_sign.jpg"
+   }
+  },
+  {
+   "id": "gn:3579925",
+   "name": "Saint George's",
+   "label": "Saint George's",
+   "type": "town",
+   "kind": "town",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0529,
+   "lon": -61.7523,
+   "rarity": "Legendary",
+   "fame": 51996,
+   "facts": {
+    "population": 7500,
+    "elevation_m": 6.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "St. George's is the capital and largest city of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. George's, Grenada",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579925.webp",
+    "author": "P. Hughes",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grenada_-_St._George.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1545643",
+   "name": "Kirani James Athletic Stadium",
+   "label": "Kirani James Athletic Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.06,
+   "lon": -61.7536,
+   "rarity": "Rare",
+   "fame": 3594,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kirani James Athletic Stadium",
+    "url": "https://en.wikipedia.org/wiki/Kirani_James_Athletic_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1545643.webp"
+   }
+  },
+  {
+   "id": "wd:Q23831971",
+   "name": "Immaculate Conception Cathedral",
+   "label": "Immaculate Conception Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0534,
+   "lon": -61.7521,
+   "rarity": "Rare",
+   "fame": 864,
+   "facts": {
+    "elevation_m": 49,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Immaculate Conception Cathedral is a religious building belonging to the Catholic Church and is located on Church Street beside York House in the town of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Immaculate Conception Cathedral, St. George's",
+    "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_St._George%27s",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23831971.webp",
+    "author": "Anneli Salo",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Immaculate_Conception_C_IMG_0519.JPG"
+   }
+  },
+  {
+   "id": "wd:Q107073485",
+   "name": "New Parliament Building",
+   "label": "New Parliament Building",
+   "type": "built",
+   "kind": "parliament building",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0538,
+   "lon": -61.7454,
+   "rarity": "Rare",
+   "fame": 1512,
+   "facts": {
+    "elevation_m": 109,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The New Parliament Building in St. George's, Grenada, is the home of the Parliament of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "New Parliament Building, Grenada",
+    "url": "https://en.wikipedia.org/wiki/New_Parliament_Building%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q107073485.webp",
+    "author": "ZJREYN",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parliament_of_Grenada.jpg"
+   }
+  },
+  {
+   "id": "wd:Q65129375",
+   "name": "Fort George",
+   "label": "Fort George",
+   "type": "built",
+   "kind": "fort",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0492,
+   "lon": -61.7539,
+   "rarity": "Rare",
+   "fame": 3090,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The fort overlooks the harbour of the capital St. George's and was built by the French between 1706 and 1710, as Fort Royal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort George, Grenada",
+    "url": "https://en.wikipedia.org/wiki/Fort_George%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q65129375.webp",
+    "author": "cwi.aida",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Georges_Grenada_Fort_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23832060",
+   "name": "St. Patrick's Church",
+   "label": "St. Patrick's Church",
+   "type": "built",
+   "kind": "church",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4806,
+   "lon": -61.4615,
+   "rarity": "Rare",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "The St. Patrick's Church is a religious building belonging to the Catholic Church and is located in the town of Hillsborough the main town of the island of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Patrick's Church, Carriacou",
+    "url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Church%2C_Carriacou",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23832060.webp"
+   }
+  },
+  {
+   "id": "wd:Q7634867",
+   "name": "Sugar Loaf Island",
+   "label": "Sugar Loaf Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.23,
+   "lon": -61.606,
+   "rarity": "Rare",
+   "fame": 540,
+   "facts": {
+    "elevation_m": 37,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Sugar Loaf Island is a small, privately owned island that is located a few hundred metres off the coast of the northeast corner of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sugar Loaf Island (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/Sugar_Loaf_Island_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7634867.webp"
+   }
+  },
+  {
+   "id": "wd:Q3469809",
+   "name": "Saline Island",
+   "label": "Saline Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4333,
+   "lon": -61.4667,
+   "rarity": "Rare",
+   "fame": 816,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.3,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "There is a single watchman living in a 2 bedroom house.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saline Island",
+    "url": "https://en.wikipedia.org/wiki/Saline_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3469809.webp"
+   }
+  },
+  {
+   "id": "wd:Q24679916",
+   "name": "Glover Island",
+   "label": "Glover Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 11.987,
+   "lon": -61.7865,
+   "rarity": "Rare",
+   "fame": 396,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Glover Island is a small islet off the southern peninsula of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Glover Island, Grenada",
+    "url": "https://en.wikipedia.org/wiki/Glover_Island%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24679916.webp"
+   }
+  },
+  {
+   "id": "wd:Q389978",
+   "name": "Ronde Island",
+   "label": "Ronde Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.304,
+   "lon": -61.5865,
+   "rarity": "Rare",
+   "fame": 3138,
+   "facts": {
+    "elevation_m": 112,
+    "area_km2": 8.1,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Ronde Island, Grenada is a 2,000-acre private island in the Lesser Antilles chain of the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ronde Island",
+    "url": "https://en.wikipedia.org/wiki/Ronde_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q389978.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS036-E-10080_-_View_of_the_Lesser_Antilles_(cropped_to_Ronde_area).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5599867",
+   "name": "Great River",
+   "label": "Great River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GD-01",
+   "country": "GD",
+   "lat": 12.1333,
+   "lon": -61.6,
+   "rarity": "Rare",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Great River is the longest river on the island of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great River (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/Great_River_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5599867.webp"
+   }
+  },
+  {
+   "id": "wd:Q24679870",
+   "name": "Calivigny Island",
+   "label": "Calivigny Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 11.9959,
+   "lon": -61.7276,
+   "rarity": "Rare",
+   "fame": 2790,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "It is also 0.438 miles east of Hog Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calivigny Island",
+    "url": "https://en.wikipedia.org/wiki/Calivigny_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24679870.webp",
+    "author": "Stefan_und_Bille",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grenada_South_Flight_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24679069",
+   "name": "Tyrell Bay",
+   "label": "Tyrell Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4578,
+   "lon": -61.4886,
+   "rarity": "Rare",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "It is the site of the island's only port, and thus the site where the ferry to St. George's and other islands docks.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tyrell Bay",
+    "url": "https://en.wikipedia.org/wiki/Tyrell_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24679069.webp",
+    "author": "Diane Holmes",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carriacou_Sunset_(148322985).jpeg"
+   }
+  },
+  {
+   "id": "wd:Q3593061",
+   "name": "Diamond Island",
+   "label": "Diamond Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.3333,
+   "lon": -61.5833,
+   "rarity": "Rare",
+   "fame": 906,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.2,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Diamond Island is a small islet belonging to Grenada in the Grenadines archipelago of the Lesser Antilles, part of the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Diamond Island (Grenadines)",
+    "url": "https://en.wikipedia.org/wiki/Diamond_Island_%28Grenadines%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3593061.webp"
+   }
+  },
+  {
+   "id": "wd:Q3217904",
+   "name": "Large Island",
+   "label": "Large Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4,
+   "lon": -61.5,
+   "rarity": "Rare",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "It is an uninhabited island and forms part of Carriacou and Petite Martinique, a dependency of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Large Island",
+    "url": "https://en.wikipedia.org/wiki/Large_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3217904.webp"
+   }
+  },
+  {
+   "id": "wd:Q5594534",
+   "name": "Grand Etang Lake",
+   "label": "Grand Etang Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "GD-03",
+   "country": "GD",
+   "lat": 12.0833,
+   "lon": -61.7,
+   "rarity": "Rare",
+   "fame": 306,
+   "facts": {
+    "elevation_m": 550,
+    "area_km2": 0.1,
+    "length_km": 0.4,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The volcano, which is responsible for the formation of the island of Grenada, has been dormant for the last 12,000 years.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Etang (Grenada)",
+    "url": "https://en.wikipedia.org/wiki/Grand_Etang_%28Grenada%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5594534.webp",
+    "author": "Bgabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GREN-grand-etang-see.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5017538",
+   "name": "Caille Island",
+   "label": "Caille Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-06",
+   "country": "GD",
+   "lat": 12.2861,
+   "lon": -61.5819,
+   "rarity": "Rare",
+   "fame": 972,
+   "facts": {
+    "elevation_m": 23,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Caille Island is a 155-acre private island situated 4 miles off the northern end of the Caribbean island of Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caille Island",
+    "url": "https://en.wikipedia.org/wiki/Caille_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5017538.webp"
+   }
+  },
+  {
+   "id": "wd:Q55612114",
+   "name": "Frigate Island",
+   "label": "Frigate Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GD-10",
+   "country": "GD",
+   "lat": 12.4142,
+   "lon": -61.4775,
+   "rarity": "Rare",
+   "fame": 948,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Frigate Island is a small islet between Grenada and Carriacou.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Frigate Island, Grenada",
+    "url": "https://en.wikipedia.org/wiki/Frigate_Island%2C_Grenada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q55612114.webp",
+    "author": "madmack66",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frigate_Island,_The_Grenadines.jpg"
+   }
+  }
+ ]
+}

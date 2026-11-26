@@ -72,7 +72,9 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] (done 2026-11-24) Every step takes --country and writes to data/interim/<CC>/; English plus the local Wikipedia instead of English + French. Scripts lost their `_ca` suffix; the old Canada-only scripts and the throwaway preview exporter were removed
   - [x] (done 2026-11-24) Rerun Canada through `run.py CA` and compare: **12,789 cards** (was 12,882). 116 gone: 112 border landmarks now homed in the US, Greenland or Saint Pierre by their point (Rocky Mountains, Lake Superior, Adirondacks, Ambassador Bridge) plus the known Ottawa-village town swaps; 23 added (town swaps, a few landmarks). Rarity changed for 68 cards
   - [x] (done 2026-11-25) Run the US through `run.py`: **55,851 cards** (30,804 Common, 20,037 Rare, 4,364 Epic, 645 Legendary, 1 Mythic: Rocky Mountains), 51 regions, 39.8 MB. Took ~21 h with crashes and a 7 h stall; ~10 h of real work
-  - [ ] Run Mexico and the rest of North America through `run.py`
+  - [x] (done 2026-11-26) Run Mexico and the rest of North America through `run.py`: all 41 countries and territories done, **86,389 cards** (US 56,493, Canada 12,863, Mexico 10,366, the other 38 together 6,667)
+  - [ ] Mythics for Mexico (none yet; candidates Teotihuacan, Chichén Itzá, Mexico City, Estadio Azteca, Popocatépetl) and decide whether small countries get any
+  - [ ] Translate the ~4,300 Spanish, French and Dutch flavour lines (Mexico 3,755) into English: plan first
   - [x] (done 2026-11-25) Fill in US terrain heights Open-Meteo's quota cut off: the rerun got them all. A local elevation grid is still needed for the world
   - [ ] Before going past North America: switch to bulk data (developer, 2026-11-25). The pipeline asks APIs one place at a time (~0.6 s a card; the US is ~10 h clean, the world would be ~70-130 h). Use Wikimedia's monthly page-view dump files instead of one request per article, and the Wikidata dump or bigger bulk queries for names, facts and elevation; run mini-maps in parallel. Downloads are tens of GB
   - Sizes found 2026-11-24: GeoNames towns US 17,348, MX 8,944, CA 3,009 (32,498 in North America); US natural landmarks with an English article ~23,900; US structures in 3+ languages ~26,400; Mexico natural landmarks ~650
@@ -94,3 +96,4 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
 - [ ] Turn Point Light (a Washington lighthouse) is a Canadian card: Wikidata gives it Canada only and Natural Earth's border puts its point in BC (found 2026-11-24)
 - [ ] Rocky Mountains Mythic now belongs to the US card pool (its point is in Idaho): check Mythics when the US runs
 - [ ] Mount Uniacke (Nova Scotia): the town and the mountain share one Wikidata item; the duplicate rule kept only the mountain. Check which is right (found 2026-11-25)
+- [ ] Caribbean Netherlands (Bonaire, Sint Eustatius, Saba) has only 8 cards (towns) and no landmarks: its items are located in the islands, not in "Caribbean Netherlands" (found 2026-11-25)

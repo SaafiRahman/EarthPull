@@ -1,0 +1,3494 @@
+{
+ "note": "Sample of the Puerto Rico card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q7386466",
+   "name": "Río Ángeles",
+   "label": "Río Ángeles",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2758,
+   "lon": -66.833,
+   "rarity": "Common",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 367,
+    "temp_c": 22.7
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The river has its source in the Cordillera Central, in the Buenos Aires barrio of Lares.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ángeles River",
+    "url": "https://en.wikipedia.org/wiki/%C3%81ngeles_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386466.webp"
+   }
+  },
+  {
+   "id": "wd:Q7386384",
+   "name": "Río Pitahaya",
+   "label": "Río Pitahaya",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3722,
+   "lon": -65.7107,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 25.6
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Pitahaya is a river located in Pitahaya, a barrio of Luquillo, in Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pitahaya River",
+    "url": "https://en.wikipedia.org/wiki/Pitahaya_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7386384.webp",
+    "author": "The Eloquent Peasant",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Pitahaya_en_Sector_Casa_Blanca_en_Barrio_Pitahaya_en_Luquillo,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7386314",
+   "name": "Río Hondo",
+   "label": "Río Hondo (near Bayamón)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4024,
+   "lon": -66.1577,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Río Hondo is a river of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hondo River (Bayamón, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Hondo_River_%28Bayam%C3%B3n%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386314.webp"
+   }
+  },
+  {
+   "id": "wd:Q34854694",
+   "name": "Sierra de Jájome",
+   "label": "Sierra de Jájome",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.048,
+   "lon": -66.1663,
+   "rarity": "Common",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 643,
+    "temp_c": 23.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Sierra de Jájome is a mountain massif of the Sierra de Cayey located in the municipalities of Cayey, Guayama and Salinas in southeastern Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra de Jájome",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_J%C3%A1jome",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q34854694.webp",
+    "author": "StarlightFTW",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cayey_Jajome.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15222232",
+   "name": "Río Guayanés",
+   "label": "Río Guayanés (near Peñuelas)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0505,
+   "lon": -66.7207,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 42,
+    "temp_c": 23.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The river is the source of a local Romeo and Juliet-like legend.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guayanés River (Peñuelas, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Guayan%C3%A9s_River_%28Pe%C3%B1uelas%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15222232.webp",
+    "author": "Ligocsicnarf89",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_P%C3%BAblica_de_Pe%C3%B1uelas_(2025).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7386258",
+   "name": "Río Cubuy",
+   "label": "Río Cubuy (near Río Blanco)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2522,
+   "lon": -65.7857,
+   "rarity": "Common",
+   "fame": 240,
+   "facts": {
+    "elevation_m": 191,
+    "temp_c": 24.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Cubuy River is a river of Puerto Rico located in El Yunque National Forest.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cubuy River (Naguabo, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Cubuy_River_%28Naguabo%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7386258.webp",
+    "author": "Yuisa Rios",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:FEMA_-_PR_DR4339_2617_-_Boulders_block_access_in_Cubuy,_Naguabo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7386425",
+   "name": "Río Veguitas",
+   "label": "Río Veguitas",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2022,
+   "lon": -66.5796,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 535,
+    "temp_c": 22.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Veguitas River is a river of Jayuya, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Veguitas River",
+    "url": "https://en.wikipedia.org/wiki/Veguitas_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386425.webp"
+   }
+  },
+  {
+   "id": "wd:Q15208580",
+   "name": "Cerro Doña Juana",
+   "label": "Cerro Doña Juana",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1718,
+   "lon": -66.4809,
+   "rarity": "Common",
+   "fame": 366,
+   "facts": {
+    "elevation_m": 1058,
+    "prominence_m": 1058,
+    "temp_c": 22.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Cerro Doña Juana is the highest peak in the municipality of Orocovis, Puerto Rico, rising to 1,058 meters above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Doña Juana",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Do%C3%B1a_Juana",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15208580.webp"
+   }
+  },
+  {
+   "id": "wd:Q60774409",
+   "name": "Cerro del Vigía",
+   "label": "Cerro del Vigía",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0189,
+   "lon": -66.6203,
+   "rarity": "Common",
+   "fame": 492,
+   "facts": {
+    "elevation_m": 104,
+    "temp_c": 24.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "A tourist destination, it is home to Museo Castillo Serrallés, Cruceta del Vigía, and the former Hotel Ponce Intercontinental.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro del Vigía",
+    "url": "https://en.wikipedia.org/wiki/Cerro_del_Vig%C3%ADa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q60774409.webp",
+    "author": "Tito Caraballo",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_del_Vigia,_desde_Ave._Las_Americas_y_Calle_Virgilio_Biaggi,_Bo._Canas_Urbano,_Ponce,_PR_(DSC01256).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7386450",
+   "name": "Río de la Ciénaga",
+   "label": "Río de la Ciénaga",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1555,
+   "lon": -66.7143,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 527,
+    "temp_c": 23.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Río de la Ciénaga is a river of Adjuntas, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río de la Ciénaga",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_de_la_Ci%C3%A9naga",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386450.webp"
+   }
+  },
+  {
+   "id": "wd:Q85751337",
+   "name": "Cerro del Diablo",
+   "label": "Cerro del Diablo",
+   "type": "nature",
+   "kind": "hill",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1033,
+   "lon": -66.6347,
+   "rarity": "Common",
+   "fame": 306,
+   "facts": {
+    "elevation_m": 680,
+    "temp_c": 24.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Cerro del Diablo is a mountain in the municipality of Ponce, Puerto Rico, located north-northwest of the city of Ponce.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro del Diablo",
+    "url": "https://en.wikipedia.org/wiki/Cerro_del_Diablo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q85751337.webp",
+    "author": "Roca Ruiz",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_del_Diablo,_Bo._Tibes,_Ponce,_Puerto_Rico,_visto_desde_la_PR-10,_mirando_al_este_(DSC01738).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7386315",
+   "name": "Río Hondo",
+   "label": "Río Hondo (near Comerío)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2036,
+   "lon": -66.2396,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 210,
+    "temp_c": 23.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Hondo River is a river of Comerío municipality, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hondo River (Comerío, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Hondo_River_%28Comer%C3%ADo%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7386315.webp",
+    "author": "Yarfpr",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Hondo,_Comer%C3%ADo,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "gn:4566512",
+   "name": "Parcelas Nuevas",
+   "label": "Parcelas Nuevas",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1402,
+   "lon": -66.1724,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1628,
+    "elevation_m": 433,
+    "area_km2": 1.7,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 1,628 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566512.webp"
+   }
+  },
+  {
+   "id": "gn:4566477",
+   "name": "Palmarejo",
+   "label": "Palmarejo (Puerto Rico, near Lajas)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0402,
+   "lon": -67.0768,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1169,
+    "elevation_m": 39,
+    "area_km2": 0.9,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "A community of 1,169 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566477.webp"
+   }
+  },
+  {
+   "id": "gn:4565032",
+   "name": "G. L. Garcia",
+   "label": "G. L. Garcia",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1275,
+   "lon": -66.1041,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1798,
+    "elevation_m": 442,
+    "area_km2": 2.0,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "A community of 1,798 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565032.webp"
+   }
+  },
+  {
+   "id": "gn:4565760",
+   "name": "La Fermina",
+   "label": "La Fermina",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1755,
+   "lon": -65.8535,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3177,
+    "elevation_m": 120,
+    "area_km2": 2.5,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A community of 3,177 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565760.webp"
+   }
+  },
+  {
+   "id": "gn:4565780",
+   "name": "La Luisa",
+   "label": "La Luisa",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4488,
+   "lon": -66.5099,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2887,
+    "elevation_m": 13,
+    "area_km2": 2.5,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 2,887 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565780.webp"
+   }
+  },
+  {
+   "id": "gn:4566498",
+   "name": "Palomas",
+   "label": "Palomas (Puerto Rico, near Yauco)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0136,
+   "lon": -66.8732,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2321,
+    "elevation_m": 33,
+    "area_km2": 1.3,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "A community of 2,321 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566498.webp"
+   }
+  },
+  {
+   "id": "gn:4563816",
+   "name": "Coco",
+   "label": "Coco",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0072,
+   "lon": -66.2593,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5803,
+    "elevation_m": 40,
+    "area_km2": 4.4,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 5,803 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4563816.webp"
+   }
+  },
+  {
+   "id": "gn:4568527",
+   "name": "Vázquez",
+   "label": "Vázquez",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0658,
+   "lon": -66.2385,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2297,
+    "elevation_m": 162,
+    "area_km2": 3.8,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 2,297 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568527.webp"
+   }
+  },
+  {
+   "id": "gn:4564026",
+   "name": "Coto Laurel",
+   "label": "Coto Laurel",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0497,
+   "lon": -66.5513,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3606,
+    "elevation_m": 69,
+    "area_km2": 1.0,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "A community of 3,606 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4564026.webp"
+   }
+  },
+  {
+   "id": "gn:4566814",
+   "name": "Playita Cortada",
+   "label": "Playita Cortada",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.985,
+   "lon": -66.4391,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1677,
+    "elevation_m": 3.0,
+    "area_km2": 5.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 1,677 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566814.webp"
+   }
+  },
+  {
+   "id": "gn:4566723",
+   "name": "Piedra Gorda",
+   "label": "Piedra Gorda",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4341,
+   "lon": -66.8877,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1927,
+    "elevation_m": 164,
+    "area_km2": 1.8,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 1,927 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566723.webp"
+   }
+  },
+  {
+   "id": "gn:4567586",
+   "name": "Ramos",
+   "label": "Ramos",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3397,
+   "lon": -65.7127,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2004,
+    "elevation_m": 58,
+    "area_km2": 2.8,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 2,004 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4567586.webp"
+   }
+  },
+  {
+   "id": "wd:Q1638733",
+   "name": "La Fortaleza",
+   "label": "La Fortaleza",
+   "type": "built",
+   "kind": "fortification",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4641,
+   "lon": -66.1192,
+   "rarity": "Epic",
+   "fame": 27978,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "La Fortaleza, also known as Palacio de Santa Catalina, is the official residence and workplace of the Governor of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Fortaleza",
+    "url": "https://en.wikipedia.org/wiki/La_Fortaleza",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1638733.webp",
+    "author": "Jano Ťažký",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LaFortaleza_SanJuan_PuertoRico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7414520",
+   "name": "San José Church",
+   "label": "San José Church",
+   "type": "built",
+   "kind": "Catholic church building",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4675,
+   "lon": -66.1185,
+   "rarity": "Epic",
+   "fame": 14298,
+   "facts": {
+    "elevation_m": 30,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "San José Church, located in Old San Juan, the historic colonial zone of the capital of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San José Church",
+    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7414520.webp",
+    "author": "OliverZena",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Catholic_Church_-_San_Juan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369267",
+   "name": "Hiram Bithorn Stadium",
+   "label": "Hiram Bithorn Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4167,
+   "lon": -66.0731,
+   "rarity": "Epic",
+   "fame": 47616,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Hiram Bithorn Stadium, popularly known as the Bithorn, is the largest multi-purpose baseball stadium in Puerto Rico since opening in 1962.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hiram Bithorn Stadium",
+    "url": "https://en.wikipedia.org/wiki/Hiram_Bithorn_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369267.webp",
+    "author": "Rahola Photo Supply, San Juan (publisher)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan_-_Bithorn_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1171030",
+   "name": "Juan Ramón Loubriel Stadium",
+   "label": "Juan Ramón Loubriel Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3933,
+   "lon": -66.1508,
+   "rarity": "Epic",
+   "fame": 22008,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is best known as the former home of the Puerto Rico Islanders of the North American Soccer League and current home of the Bayamón FC of the Liga Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juan Ramón Loubriel Stadium",
+    "url": "https://en.wikipedia.org/wiki/Juan_Ram%C3%B3n_Loubriel_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1171030.webp",
+    "author": "Sebastian Perez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Orangestarsultra.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5159134",
+   "name": "Condado Vanderbilt Hotel",
+   "label": "Condado Vanderbilt Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4586,
+   "lon": -66.0761,
+   "rarity": "Epic",
+   "fame": 8148,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Condado Vanderbilt Hotel is a historic luxury hotel built in 1919 and located on Ashford Avenue in the district of Condado in San Juan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Condado Vanderbilt Hotel",
+    "url": "https://en.wikipedia.org/wiki/Condado_Vanderbilt_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5159134.webp",
+    "author": "Pomeroyc",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Condado_Vanderbilt_Hotel_From_Driveway.JPG"
+   }
+  },
+  {
+   "id": "wd:Q281149",
+   "name": "San Juan National Historic Site",
+   "label": "San Juan National Historic Site",
+   "type": "built",
+   "kind": "National Historic Site",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4675,
+   "lon": -66.1103,
+   "rarity": "Epic",
+   "fame": 8598,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "San Juan National Historic Site in the Old San Juan section of San Juan, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan National Historic Site",
+    "url": "https://en.wikipedia.org/wiki/San_Juan_National_Historic_Site",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q281149.webp",
+    "author": "http://en.wikipedia.org/wiki/User:Jmoliver",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Felipe_del_Morro_view_across_bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q108837997",
+   "name": "Cathedral of Rum",
+   "label": "Cathedral of Rum",
+   "type": "built",
+   "kind": "distillery",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4605,
+   "lon": -66.1423,
+   "rarity": "Epic",
+   "fame": 9852,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Cathedral of Rum in Cataño, Puerto Rico is the world's largest rum distillery.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of Rum",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_Rum",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q108837997.webp",
+    "author": "Henry Mestre",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bacardi_building_in_Cata%C3%B1o,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7231319",
+   "name": "Porta Coeli",
+   "label": "Porta Coeli",
+   "type": "built",
+   "kind": "Catholic church building",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0844,
+   "lon": -67.0444,
+   "rarity": "Epic",
+   "fame": 6288,
+   "facts": {
+    "elevation_m": 76,
+    "temp_c": 25.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Porta Coeli, \"Latin for \"Heaven Gate\", is the name given today to the former Church and Convent of Santo Domingo de Porta Coeli.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Porta Coeli (Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Porta_Coeli_%28Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7231319.webp",
+    "author": "Jmoliver",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Porta_Coeli_in_San_Germ%C3%A1n_(Puerto_Rico).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3656765",
+   "name": "Caparra",
+   "label": "Caparra",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.405,
+   "lon": -66.1142,
+   "rarity": "Epic",
+   "fame": 8112,
+   "facts": {
+    "elevation_m": 39,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Caparra is an archaeological site containing the remains of the village of Caparra, the first European settlement in the main island of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caparra Archaeological Site",
+    "url": "https://en.wikipedia.org/wiki/Caparra_Archaeological_Site",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3656765.webp",
+    "author": "Original uploader was Marine 69-71 at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ponce_de_Leon_house.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7053035",
+   "name": "Normandie Hotel",
+   "label": "Normandie Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4644,
+   "lon": -66.0875,
+   "rarity": "Epic",
+   "fame": 12180,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Normandie Hotel is a historic building located in the Isleta de San Juan, in San Juan, Puerto Rico which opened on October 10, 1942 as a hotel.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Normandie Hotel",
+    "url": "https://en.wikipedia.org/wiki/Normandie_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7053035.webp",
+    "author": "Javierpuertorico at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan,_PR_05.jpg"
+   }
+  },
+  {
+   "id": "wd:Q49388936",
+   "name": "Puerto Mosquito",
+   "label": "Puerto Mosquito",
+   "type": "nature",
+   "kind": "bay",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1019,
+   "lon": -65.4458,
+   "rarity": "Epic",
+   "fame": 8742,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Puerto Mosquito Bioluminescent Bay, or Mosquito Bio Bay, is a bay in the island of Vieques famous for its bioluminescence produced by the dinoflagellate…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puerto Mosquito",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Mosquito",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q49388936.webp",
+    "author": "Edgar Torres",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mosquito_bay,_Bioluminescent_bay,_Vieques_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q82988",
+   "name": "Caja de Muertos",
+   "label": "Caja de Muertos",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.8947,
+   "lon": -66.5199,
+   "rarity": "Epic",
+   "fame": 7110,
+   "facts": {
+    "elevation_m": 52,
+    "area_km2": 1.5,
+    "length_km": 2.8,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Caja de Muertos is an uninhabited island off the southern coast of the main island of Puerto Rico, in the municipality of Ponce.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caja de Muertos Island",
+    "url": "https://en.wikipedia.org/wiki/Caja_de_Muertos_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q82988.webp",
+    "author": "Tito Caraballo",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Caja_de_Muertos,_Ponce_Puerto_Rico,_mirando_hacia_el_Sureste_(DSC03707).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2714342",
+   "name": "Cerro de Punta",
+   "label": "Cerro de Punta",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1725,
+   "lon": -66.5919,
+   "rarity": "Epic",
+   "fame": 21840,
+   "facts": {
+    "elevation_m": 1338,
+    "prominence_m": 1338,
+    "temp_c": 22.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Cerro de Punta or Cerro Punta is the highest peak in Puerto Rico, rising to 1,338 meters above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro de Punta",
+    "url": "https://en.wikipedia.org/wiki/Cerro_de_Punta",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2714342.webp",
+    "author": "Ratzer1",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Punta_Puerto_Rico.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1115648",
+   "name": "Cordillera Central",
+   "label": "Cordillera Central",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1725,
+   "lon": -66.5919,
+   "rarity": "Epic",
+   "fame": 10716,
+   "facts": {
+    "elevation_m": 1338,
+    "temp_c": 22.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Cordillera Central is the only mountain range in the main island of Puerto Rico, consisting of three subranges: the western-central Cordillera Central.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cordillera Central (Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Cordillera_Central_%28Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1115648.webp",
+    "author": "Ratzer1",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Punta_Puerto_Rico.JPG"
+   }
+  },
+  {
+   "id": "wd:Q775056",
+   "name": "Culebra",
+   "label": "Culebra",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3167,
+   "lon": -65.2903,
+   "rarity": "Epic",
+   "fame": 53616,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is spread over the historic and administrative center of Culebra Pueblo and 5 barrios, and its residents are known as culebrenses.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Culebra, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Culebra%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q775056.webp",
+    "author": "Joelmaners at English Wikipedia",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cayo_Luis_Pena.jpg"
+   }
+  },
+  {
+   "id": "wd:Q94899",
+   "name": "Isla de Mona",
+   "label": "Isla de Mona",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0813,
+   "lon": -67.8913,
+   "rarity": "Epic",
+   "fame": 30012,
+   "facts": {
+    "elevation_m": 95,
+    "area_km2": 57,
+    "length_km": 11,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Mona Island is the third-largest island of the Puerto Rican archipelago, after the main island of Puerto Rico and Vieques.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla de Mona",
+    "url": "https://en.wikipedia.org/wiki/Isla_de_Mona",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q94899.webp",
+    "author": "R Torres",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_de_Mona,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6081522",
+   "name": "Isla de Cabras",
+   "label": "Isla de Cabras",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4708,
+   "lon": -66.1363,
+   "rarity": "Epic",
+   "fame": 5436,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The ruins of a 19th-century leprosy colony and a WWII fort are located in the islet, which also houses a police firing range since 1950.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla de Cabras",
+    "url": "https://en.wikipedia.org/wiki/Isla_de_Cabras",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6081522.webp",
+    "author": "Jaro Nemčok",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_de_Cabras,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5064940",
+   "name": "Cerro Las Tetas",
+   "label": "Cerro Las Tetas",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0933,
+   "lon": -66.2314,
+   "rarity": "Epic",
+   "fame": 9072,
+   "facts": {
+    "elevation_m": 842,
+    "temp_c": 23.6
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Cerro Las Tetas, nicknamed Las Tetas de Cayey but officially Las Piedras del Collado, are two mountain peaks located in the municipality of Salinas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Las Tetas",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Las_Tetas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5064940.webp",
+    "author": "Roca Ruiz",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Las_Tetas_(in_Salinas,_PR)_as_seen_from_PR-52_NB_Rest_area_at_km_49.0_(DSC00798).jpg"
+   }
+  },
+  {
+   "id": "wd:Q60159",
+   "name": "Isla Palominos",
+   "label": "Isla Palominos",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3486,
+   "lon": -65.5679,
+   "rarity": "Epic",
+   "fame": 5808,
+   "facts": {
+    "elevation_m": 43,
+    "area_km2": 0.4,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Palominos Island, most commonly known as Palomino, is a small island located off the coast of the barrio of Cabezas in the municipality of Fajardo in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palominos Island",
+    "url": "https://en.wikipedia.org/wiki/Palominos_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q60159.webp",
+    "author": "Jaro Nemčok",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Palomino.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1200572",
+   "name": "Desecheo Island",
+   "label": "Desecheo Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3843,
+   "lon": -67.4811,
+   "rarity": "Epic",
+   "fame": 11802,
+   "facts": {
+    "elevation_m": 87,
+    "area_km2": 1.5,
+    "length_km": 1.7,
+    "temp_c": 25.8
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Desecheo is a small uninhabited island of the archipelago of Puerto Rico in the northeast of the Mona Passage.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Desecheo Island",
+    "url": "https://en.wikipedia.org/wiki/Desecheo_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1200572.webp",
+    "author": "US Fish & Wildlife Service",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Desecheo_FWS.jpg"
+   }
+  },
+  {
+   "id": "gn:4562529",
+   "name": "Aibonito",
+   "label": "Aibonito",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.14,
+   "lon": -66.266,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 8947,
+    "elevation_m": 604,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 8,947 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4562529.webp"
+   }
+  },
+  {
+   "id": "gn:4568451",
+   "name": "Trujillo Alto",
+   "label": "Trujillo Alto",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3547,
+   "lon": -66.0074,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 75243,
+    "elevation_m": 20,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 75,243 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568451.webp"
+   }
+  },
+  {
+   "id": "gn:4564991",
+   "name": "Florida",
+   "label": "Florida",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3624,
+   "lon": -66.5613,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 5652,
+    "elevation_m": 192,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 5,652 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4564991.webp"
+   }
+  },
+  {
+   "id": "gn:4566652",
+   "name": "Patillas",
+   "label": "Patillas",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0064,
+   "lon": -66.0157,
+   "rarity": "Epic",
+   "fame": 7770,
+   "facts": {
+    "population": 4247,
+    "elevation_m": 20,
+    "area_km2": 154,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "Patillas is a beach town and municipality of Puerto Rico located in the southeastern coast, south of San Lorenzo; west of Yabucoa and Maunabo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Patillas, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Patillas%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4566652.webp",
+    "author": "Oquendo from Freeport, NY",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Patillas_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "gn:4568917",
+   "name": "Yauco",
+   "label": "Yauco",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.035,
+   "lon": -66.8499,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 20295,
+    "elevation_m": 40,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "A community of 20,295 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568917.webp"
+   }
+  },
+  {
+   "id": "gn:4562768",
+   "name": "Barceloneta",
+   "label": "Barceloneta",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4505,
+   "lon": -66.5385,
+   "rarity": "Epic",
+   "fame": 9660,
+   "facts": {
+    "population": 22322,
+    "elevation_m": 3.0,
+    "area_km2": 94,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Barceloneta is a town and municipality in Puerto Rico located in the north region, bordering the Atlantic Ocean, north of Florida, east of Arecibo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barceloneta, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Barceloneta%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4562768.webp",
+    "author": "The Eloquent Peasant",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estatuas_en_Paseo_de_los_Veteranos_en_Barceloneta,_Puerto_Rico_02.jpg"
+   }
+  },
+  {
+   "id": "gn:4566880",
+   "name": "Ponce",
+   "label": "Ponce",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0103,
+   "lon": -66.624,
+   "rarity": "Epic",
+   "fame": 2028,
+   "facts": {
+    "population": 137491,
+    "elevation_m": 15,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "The Ponce Historic Zone is a historic district in downtown Ponce, Puerto Rico, consisting of buildings.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ponce Historic Zone",
+    "url": "https://en.wikipedia.org/wiki/Ponce_Historic_Zone",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4566880.webp",
+    "author": "The original uploader was Jmoliver at English Wikipedia .",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_de_Bombas-Ponce_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "gn:4565346",
+   "name": "Hatillo",
+   "label": "Hatillo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4863,
+   "lon": -66.8255,
+   "rarity": "Epic",
+   "fame": 8550,
+   "facts": {
+    "population": 5622,
+    "elevation_m": 7.0,
+    "area_km2": 152,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Hatillo is a town and municipality located in Puerto Rico's north coast, bordered by the Atlantic Ocean to the north, Lares and Utuado to the south.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hatillo, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Hatillo%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4565346.webp",
+    "author": "Oscar Rohena (Oscalito, source )",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Festival_de_las_Mascaras_en_Hatillo,_Puerto_Rico_fokuso.jpg"
+   }
+  },
+  {
+   "id": "gn:4563298",
+   "name": "Cataño",
+   "label": "Cataño",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4413,
+   "lon": -66.1182,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 28093,
+    "elevation_m": 3.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 28,093 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4563298.webp"
+   }
+  },
+  {
+   "id": "gn:4562600",
+   "name": "Añasco",
+   "label": "Añasco",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2827,
+   "lon": -67.1396,
+   "rarity": "Epic",
+   "fame": 22308,
+   "facts": {
+    "population": 6136,
+    "elevation_m": 9.0,
+    "area_km2": 116,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Añasco, named after one of its settlers, Don Luis de Añasco, is a town and municipality of Puerto Rico located on the west coast of the island bordering the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Añasco, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/A%C3%B1asco%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4562600.webp",
+    "author": "cavenaghi9",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_del_R%C3%ADo_Grande_de_A%C3%B1asco.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2889550",
+   "name": "José Miguel Agrelot Coliseum",
+   "label": "José Miguel Agrelot Coliseum",
+   "type": "built",
+   "kind": "arena",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4277,
+   "lon": -66.0614,
+   "rarity": "Legendary",
+   "fame": 56610,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The José Miguel Agrelot Coliseum of Puerto Rico is the largest multi-purpose indoor arena in Puerto Rico since opening in 2004.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "José Miguel Agrelot Coliseum",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Miguel_Agrelot_Coliseum",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2889550.webp",
+    "author": "Mtmelendez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Coliseum_of_PR.JPG"
+   }
+  },
+  {
+   "id": "wd:Q550502",
+   "name": "Castillo San Felipe del Morro",
+   "label": "Castillo San Felipe del Morro",
+   "type": "built",
+   "kind": "fort",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4711,
+   "lon": -66.1244,
+   "rarity": "Legendary",
+   "fame": 77784,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Castillo San Felipe del Morro, most commonly known as El Morro, is a large fortress and citadel in the Old San Juan historic quarter of San Juan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castillo San Felipe del Morro",
+    "url": "https://en.wikipedia.org/wiki/Castillo_San_Felipe_del_Morro",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q550502.webp",
+    "author": "Joshua Wood",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castillo_San_Felipe_del_Morro3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q102327045",
+   "name": "Arecibo Observatory",
+   "label": "Arecibo Observatory",
+   "type": "built",
+   "kind": "astronomical observatory",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3467,
+   "lon": -66.7533,
+   "rarity": "Legendary",
+   "fame": 144282,
+   "facts": {
+    "elevation_m": 498,
+    "temp_c": 24.6
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Arecibo Observatory, also known as the National Astronomy and Ionosphere Center and formerly known as the Arecibo Ionosphere Observatory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arecibo Observatory",
+    "url": "https://en.wikipedia.org/wiki/Arecibo_Observatory",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q102327045.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arecibo_radio_telescope_SJU_06_2019_6144.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3850219",
+   "name": "Roosevelt Roads Naval Station",
+   "label": "Roosevelt Roads Naval Station",
+   "type": "built",
+   "kind": "airbase",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2451,
+   "lon": -65.6434,
+   "rarity": "Legendary",
+   "fame": 56472,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Roosevelt Roads Naval Station includes José Aponte de la Torre Airport, a public use airport.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roosevelt Roads Naval Station",
+    "url": "https://en.wikipedia.org/wiki/Roosevelt_Roads_Naval_Station",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3850219.webp",
+    "author": "U.S. Navy",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Naval_Station_Roosevelt_Roads,_Puerto_Rico,_on_19_May_1997_(970519-N-8977R-001).jpg"
+   }
+  },
+  {
+   "id": "wd:Q737624",
+   "name": "Vieques",
+   "label": "Vieques",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1253,
+   "lon": -65.4323,
+   "rarity": "Legendary",
+   "fame": 86598,
+   "facts": {
+    "elevation_m": 37,
+    "area_km2": 136,
+    "length_km": 33,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Vieques, officially the Isla de Vieques, is an island and municipality of Puerto Rico, comprising the Spanish Virgin Islands together with Culebra.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vieques, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Vieques%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q737624.webp",
+    "author": "U.S. Fish and Wildlife Service",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Vieques_from_air.jpg"
+   }
+  },
+  {
+   "id": "gn:4568127",
+   "name": "San Juan",
+   "label": "San Juan",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4663,
+   "lon": -66.1057,
+   "rarity": "Legendary",
+   "fame": 398892,
+   "facts": {
+    "population": 418140,
+    "elevation_m": 7.0,
+    "area_km2": 120,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "San Juan is the capital city and most populous municipality in Puerto Rico, an unincorporated territory and insular area of the United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/San_Juan%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4568127.webp",
+    "author": "James Willamor from Raleigh, NC, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Juan,_Puerto_Rico_(2529298606).jpg"
+   }
+  },
+  {
+   "id": "wd:Q113297051",
+   "name": "Río Piedras Mosque",
+   "label": "Río Piedras Mosque",
+   "type": "built",
+   "kind": "mosque",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3992,
+   "lon": -66.045,
+   "rarity": "Rare",
+   "fame": 744,
+   "facts": {
+    "elevation_m": 27,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Río Piedras Mosque, also known as the Puerto Rico Islamic Center, is a mosque in Río Piedras, San Juan, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Piedras Mosque",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Piedras_Mosque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113297051.webp",
+    "author": "Dr. Houssain Kettani",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:RioPiedras1.JPG"
+   }
+  },
+  {
+   "id": "wd:Q97495318",
+   "name": "Edificio Aboy",
+   "label": "Edificio Aboy",
+   "type": "built",
+   "kind": "house",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4561,
+   "lon": -66.0814,
+   "rarity": "Rare",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is located in Miramar, an area of Santurce, which is a barrio of San Juan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Edificio Aboy",
+    "url": "https://en.wikipedia.org/wiki/Edificio_Aboy",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q97495318.webp",
+    "author": "Jodleon5",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aboy_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4776756",
+   "name": "Antonio López",
+   "label": "Antonio López",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.48,
+   "lon": -66.2306,
+   "rarity": "Rare",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.6
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "SS Antonio López was a merchant steamship that was built in Scotland in 1882 for the Spanish Compañía Transatlántica Española.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "SS Antonio López",
+    "url": "https://en.wikipedia.org/wiki/SS_Antonio_L%C3%B3pez",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4776756.webp"
+   }
+  },
+  {
+   "id": "wd:Q113349562",
+   "name": "Marqués de la Serna Bridge",
+   "label": "Marqués de la Serna Bridge",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4028,
+   "lon": -66.1558,
+   "rarity": "Rare",
+   "fame": 300,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Marqués de la Serna Bridge, also known as Bayamón Bridge and Bridge #379, is a historic rolled iron segmented arch bridge that crosses the Bayamón River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marqués de la Serna Bridge",
+    "url": "https://en.wikipedia.org/wiki/Marqu%C3%A9s_de_la_Serna_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q113349562.webp",
+    "author": "Osvaldo Ocasio",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_Marqu%C3%A9s_de_la_Serna,_Bayam%C3%B3n,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7203619",
+   "name": "Plaza Las Delicias",
+   "label": "Plaza Las Delicias",
+   "type": "built",
+   "kind": "park",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0116,
+   "lon": -66.614,
+   "rarity": "Rare",
+   "fame": 1818,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 24.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Plaza Las Delicias is the main plaza in the city of Ponce, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plaza Las Delicias",
+    "url": "https://en.wikipedia.org/wiki/Plaza_Las_Delicias",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7203619.webp",
+    "author": "Roca Ruiz",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_Degetau_at_Plaza_Las_Delicias,_Barrio_Segundo,_Ponce,_Puerto_Rico_(IMG_3754).jpg"
+   }
+  },
+  {
+   "id": "wd:Q6700223",
+   "name": "Luis A. Canena Márquez Stadium",
+   "label": "Luis A. Canena Márquez Stadium",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4372,
+   "lon": -67.1464,
+   "rarity": "Rare",
+   "fame": 846,
+   "facts": {
+    "elevation_m": 113,
+    "temp_c": 24.9
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Luis A. Canena Marquez Stadium is a baseball stadium located in Aguadilla, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Luis A. Canena Marquez Stadium",
+    "url": "https://en.wikipedia.org/wiki/Luis_A._Canena_Marquez_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6700223.webp"
+   }
+  },
+  {
+   "id": "wd:Q5116679",
+   "name": "San Ramón Nonato Church",
+   "label": "San Ramón Nonato Church",
+   "type": "built",
+   "kind": "Catholic church building",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.055,
+   "lon": -66.5058,
+   "rarity": "Rare",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 24.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The San Ramón Nonato Church, officially named Church of San Juan Bautista y San Ramón Nonato.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Iglesia San Ramón Nonato",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_San_Ram%C3%B3n_Nonato",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5116679.webp",
+    "author": "Ian Poellet",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Juan_Bautista_y_San_Ramon_Nonato_-_Juana_Diaz_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7691962",
+   "name": "Tapia Theater",
+   "label": "Tapia Theater",
+   "type": "built",
+   "kind": "opera house",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4656,
+   "lon": -66.1119,
+   "rarity": "Rare",
+   "fame": 2316,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Teatro Alejandro Tapia y Rivera, is the oldest free-standing drama stage building located in San Juan, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Teatro Tapia",
+    "url": "https://en.wikipedia.org/wiki/Teatro_Tapia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7691962.webp",
+    "author": "Bjoertvedt",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Tapia_-_San_Juan_IMG_2003_calle_tetuan.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6906941",
+   "name": "Monumento al Jíbaro Puertorriqueño",
+   "label": "Monumento al Jíbaro Puertorriqueño",
+   "type": "built",
+   "kind": "monument",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0716,
+   "lon": -66.2172,
+   "rarity": "Rare",
+   "fame": 2556,
+   "facts": {
+    "elevation_m": 468,
+    "temp_c": 23.6
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Monumento al Jíbaro Puertorriqueño is a monument built by the Government of Puerto Rico to honor the Puerto Rican jíbaro.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monumento al Jíbaro Puertorriqueño",
+    "url": "https://en.wikipedia.org/wiki/Monumento_al_J%C3%ADbaro_Puertorrique%C3%B1o",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6906941.webp",
+    "author": "CaravaggioFan",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Jibaro_Monument.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7260562",
+   "name": "Punta Tuna Light",
+   "label": "Punta Tuna Light",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9883,
+   "lon": -65.8854,
+   "rarity": "Rare",
+   "fame": 834,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 15,
+    "temp_c": 25.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Punta Tuna Light is a historic lighthouse located in the southeast of the town of Maunabo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Punta Tuna Light",
+    "url": "https://en.wikipedia.org/wiki/Punta_Tuna_Light",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7260562.webp",
+    "author": "DeeFabian",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Punta_Tuna_Lighthouse.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5507219",
+   "name": "Vieques Fort",
+   "label": "Vieques Fort",
+   "type": "built",
+   "kind": "fort",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1477,
+   "lon": -65.4391,
+   "rarity": "Rare",
+   "fame": 996,
+   "facts": {
+    "elevation_m": 28,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "El Fortín Conde de Mirasol, also known as Fuerte de Vieques, is a fort built in 1845 located in the town of Isabel Segunda in Vieques.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fortín Conde de Mirasol",
+    "url": "https://en.wikipedia.org/wiki/Fort%C3%ADn_Conde_de_Mirasol",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5507219.webp",
+    "author": "Jaro Nemčok",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fortin_Conde_de_Mirasol_Vieques_PR.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4774853",
+   "name": "Antiguo Cuartel Militar Español de Ponce",
+   "label": "Antiguo Cuartel Militar Español de Ponce",
+   "type": "built",
+   "kind": "academy of fine arts",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0152,
+   "lon": -66.6084,
+   "rarity": "Rare",
+   "fame": 654,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 24.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Antiguo Cuartel Militar Español de Ponce or El Castillo is the only structure directly related to the events of the land defense of Puerto Rico during the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antiguo Cuartel Militar Español de Ponce",
+    "url": "https://en.wikipedia.org/wiki/Antiguo_Cuartel_Militar_Espa%C3%B1ol_de_Ponce",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4774853.webp",
+    "author": "Ian Poellet",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antiguo_Cuartel_Militar_Espanol_de_Ponce_-_Ponce_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3816148",
+   "name": "Isla Cardona",
+   "label": "Isla Cardona",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9572,
+   "lon": -66.6349,
+   "rarity": "Rare",
+   "fame": 1506,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Isla Cardona, also known as Sor Isolina Ferré Island, is a small.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Cardona",
+    "url": "https://en.wikipedia.org/wiki/Isla_Cardona",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3816148.webp",
+    "author": "Roca Ruiz",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cardona_Island_Light_at_Port_of_Ponce,_PR,_as_seen_from_Isla_de_Gatas_(IMG_3693).jpg"
+   }
+  },
+  {
+   "id": "wd:Q252435",
+   "name": "Isla de Ratones",
+   "label": "Isla de Ratones (near Puerto Real)",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1169,
+   "lon": -67.1883,
+   "rarity": "Rare",
+   "fame": 1728,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.9
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The island is a popular spot for snorkeling and swimming.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla de Ratones (Cabo Rojo, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Isla_de_Ratones_%28Cabo_Rojo%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q252435.webp"
+   }
+  },
+  {
+   "id": "wd:Q5039729",
+   "name": "Carite Lake",
+   "label": "Carite Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0766,
+   "lon": -66.1057,
+   "rarity": "Rare",
+   "fame": 990,
+   "facts": {
+    "elevation_m": 547,
+    "temp_c": 23.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Lake Carite is a reservoir of the La Plata River located in the municipality of Guayama on the main island of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carite Lake",
+    "url": "https://en.wikipedia.org/wiki/Carite_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5039729.webp"
+   }
+  },
+  {
+   "id": "wd:Q17630133",
+   "name": "Sierra de Cayey",
+   "label": "Sierra de Cayey",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1147,
+   "lon": -66.0329,
+   "rarity": "Rare",
+   "fame": 2256,
+   "facts": {
+    "elevation_m": 468,
+    "temp_c": 23.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Sierra de Cayey is one of three subranges of the Cordillera Central mountain range in the main island of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra de Cayey",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_Cayey",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17630133.webp",
+    "author": "Ligocsicnarf89",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021sierradecayeydesdegurabo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q77644",
+   "name": "Isla de Ratones",
+   "label": "Isla de Ratones (near Tallaboa)",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.953,
+   "lon": -66.681,
+   "rarity": "Rare",
+   "fame": 978,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 25.8
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The island is part of barrio Canas in the municipality of Ponce.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla de Ratones (Ponce, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Isla_de_Ratones_%28Ponce%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q77644.webp",
+    "author": "Tito Caraballo",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Ratones_(vista_desde_el_Hotel_Ponce_Holiday_Inn),_Ponce,_PR_(DSC05629).jpg"
+   }
+  },
+  {
+   "id": "wd:Q31795753",
+   "name": "Sierra Bermeja",
+   "label": "Sierra Bermeja",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9983,
+   "lon": -67.1106,
+   "rarity": "Rare",
+   "fame": 2064,
+   "facts": {
+    "elevation_m": 198,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It forms the southern boundary of the Lajas Valley and it is bordered by La Parguera in the Caribbean Sea coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra Bermeja",
+    "url": "https://en.wikipedia.org/wiki/Sierra_Bermeja",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31795753.webp",
+    "author": "Jerjes Medina Albino",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sierra_Bermeja_Cabo_Rojo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5613336",
+   "name": "Río Guajataca",
+   "label": "Río Guajataca",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3786,
+   "lon": -66.9179,
+   "rarity": "Rare",
+   "fame": 726,
+   "facts": {
+    "elevation_m": 196,
+    "length_km": 41,
+    "temp_c": 24.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is located on the northwest coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guajataca River",
+    "url": "https://en.wikipedia.org/wiki/Guajataca_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5613336.webp",
+    "author": "Yarfpr",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Guajataca,_San_Sebasti%C3%A1n,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6115539",
+   "name": "Río Piedras",
+   "label": "Río Piedras",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4379,
+   "lon": -66.0804,
+   "rarity": "Rare",
+   "fame": 1908,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The river gives its name to Río Piedras, a former town and municipality, today a district of San Juan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Piedras River (San Juan, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Piedras_River_%28San_Juan%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6115539.webp",
+    "author": "Moebiusuibeom-en",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_R%C3%ADo_Piedras.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6081527",
+   "name": "Isla de Jueyes",
+   "label": "Isla de Jueyes",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9592,
+   "lon": -66.5897,
+   "rarity": "Rare",
+   "fame": 840,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Isla de Jueyes are a group of three small uninhabited islands off the southern coast of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla de Jueyes",
+    "url": "https://en.wikipedia.org/wiki/Isla_de_Jueyes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6081527.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_de_Jueyes,_tomada_mirando_hacia_el_sureste_desde_la_torre_de_observacion_de_La_Guancha_en_Barrio_Playa,_Ponce,_PR_(CIMG3812C).jpg"
+   }
+  },
+  {
+   "id": "wd:Q23132578",
+   "name": "Isla Mata la Gata",
+   "label": "Isla Mata la Gata",
+   "type": "nature",
+   "kind": "island",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.96,
+   "lon": -67.0383,
+   "rarity": "Rare",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Closest access from the island is by boat from the coastal village of La Parguera, in Lajas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Mata la Gata",
+    "url": "https://en.wikipedia.org/wiki/Isla_Mata_la_Gata",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23132578.webp",
+    "author": "The Eloquent Peasant",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_and_boats_in_Lajas,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5192899",
+   "name": "Río Culebrinas",
+   "label": "Río Culebrinas",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4058,
+   "lon": -67.1769,
+   "rarity": "Rare",
+   "fame": 906,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 55,
+    "temp_c": 25.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It originates in southwestern Lares for 25 miles till it empties into the Mona Passage south of downtown Aguadilla.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Culebrinas River",
+    "url": "https://en.wikipedia.org/wiki/Culebrinas_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5192899.webp",
+    "author": "Ligocsicnarf89",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Culebrinas_IMG_0850.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5969149",
+   "name": "Tortuguero Lagoon",
+   "label": "Tortuguero Lagoon",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4633,
+   "lon": -66.4414,
+   "rarity": "Rare",
+   "fame": 1986,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Tortuguero Lagoon is a large freshwater lagoon located in the municipalities of Manatí and Vega Baja, in the northern coast of the island of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tortuguero Lagoon",
+    "url": "https://en.wikipedia.org/wiki/Tortuguero_Lagoon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5969149.webp",
+    "author": "Josefito123",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reserva_Natural_Laguna_Tortuguero_20260502_081340.jpg"
+   }
+  },
+  {
+   "id": "gn:4568074",
+   "name": "San Antonio",
+   "label": "San Antonio",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4488,
+   "lon": -66.3027,
+   "rarity": "Rare",
+   "fame": 228,
+   "facts": {
+    "population": 6456,
+    "elevation_m": 7.0,
+    "area_km2": 4.9,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "San Antonio is a comunidad in Higuillar which is one of the 6 barrios of Dorado, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Antonio (Higuillar)",
+    "url": "https://en.wikipedia.org/wiki/San_Antonio_%28Higuillar%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568074.webp"
+   }
+  },
+  {
+   "id": "gn:4568347",
+   "name": "Stella",
+   "label": "Stella",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3219,
+   "lon": -67.2468,
+   "rarity": "Rare",
+   "fame": 462,
+   "facts": {
+    "population": 1293,
+    "elevation_m": 2.0,
+    "area_km2": 0.9,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Stella is a community in Pueblo barrio and Calvache barrio, in the municipality of Rincón, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stella, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Stella%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568347.webp"
+   }
+  },
+  {
+   "id": "gn:4564861",
+   "name": "Esperanza",
+   "label": "Esperanza",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0972,
+   "lon": -65.4707,
+   "rarity": "Rare",
+   "fame": 2346,
+   "facts": {
+    "population": 1092,
+    "elevation_m": 5.0,
+    "area_km2": 3.3,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It was the location of Hacienda Casa del Frances, a historic site listed on the U.S. National Register of Historic Places.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Esperanza, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Esperanza%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4564861.webp",
+    "author": "ReggaeMan567",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Street_of_Esperanza,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "gn:4562483",
+   "name": "Aceitunas",
+   "label": "Aceitunas",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4433,
+   "lon": -67.0649,
+   "rarity": "Rare",
+   "fame": 738,
+   "facts": {
+    "population": 1688,
+    "elevation_m": 176,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The land area of this subdivision is 5.36 square miles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aceitunas",
+    "url": "https://en.wikipedia.org/wiki/Aceitunas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4562483.webp",
+    "author": "Jmundo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Visittomoca.jpg"
+   }
+  },
+  {
+   "id": "gn:4565796",
+   "name": "La Parguera",
+   "label": "La Parguera",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.975,
+   "lon": -67.0466,
+   "rarity": "Rare",
+   "fame": 1512,
+   "facts": {
+    "population": 1141,
+    "elevation_m": 8.0,
+    "area_km2": 0.7,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,141 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565796.webp"
+   }
+  },
+  {
+   "id": "gn:4568253",
+   "name": "Santo Domingo",
+   "label": "Santo Domingo",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0633,
+   "lon": -66.7524,
+   "rarity": "Rare",
+   "fame": 54,
+   "facts": {
+    "population": 3633,
+    "elevation_m": 136,
+    "area_km2": 5.7,
+    "temp_c": 23.3
+   },
+   "flavour": {
+    "text": "Santo Domingo is a barrio in the municipality of Peñuelas, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santo Domingo, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Santo_Domingo%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568253.webp"
+   }
+  },
+  {
+   "id": "gn:4563124",
+   "name": "Candelero Arriba",
+   "label": "Candelero Arriba",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1019,
+   "lon": -65.8368,
+   "rarity": "Rare",
+   "fame": 348,
+   "facts": {
+    "population": 1346,
+    "elevation_m": 81,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Candelero Arriba is a barrio in the municipality of Humacao, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Candelero Arriba",
+    "url": "https://en.wikipedia.org/wiki/Candelero_Arriba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4563124.webp",
+    "author": "yasmapaz & ace_heart",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eclipse_as_seen_from_Candelero_Arriba,_Humacao,_Puerto_Rico.jpg"
+   }
+  },
+  {
+   "id": "gn:4566485",
+   "name": "Palmer",
+   "label": "Palmer",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3705,
+   "lon": -65.7741,
+   "rarity": "Rare",
+   "fame": 624,
+   "facts": {
+    "population": 1205,
+    "elevation_m": 18,
+    "area_km2": 0.5,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Palmer is a small settlement and sector in the barrio Mameyes II of Río Grande, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palmer, Río Grande, Puerto Rico",
+    "url": "https://en.wikipedia.org/wiki/Palmer%2C_R%C3%ADo_Grande%2C_Puerto_Rico",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4566485.webp",
+    "author": "G. Edward Johnson",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palmer_Puerto_Rico_Post_Office_2021-08-07_12-35-25_1.jpg"
+   }
+  },
+  {
+   "id": "gn:4564028",
+   "name": "Coto Norte",
+   "label": "Coto Norte",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4308,
+   "lon": -66.4399,
+   "rarity": "Rare",
+   "fame": 414,
+   "facts": {
+    "population": 1381,
+    "elevation_m": 79,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Coto Norte is a rural barrio with an urban zone in the municipality of Manatí, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coto Norte",
+    "url": "https://en.wikipedia.org/wiki/Coto_Norte",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4564028.webp",
+    "author": "Yarfpr",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carretera_PR-149,_Manat%C3%AD,_Puerto_Rico_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:4568367",
+   "name": "Tallaboa",
+   "label": "Tallaboa",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.995,
+   "lon": -66.7163,
+   "rarity": "Rare",
+   "fame": 186,
+   "facts": {
+    "population": 1150,
+    "elevation_m": 14,
+    "area_km2": 2.9,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 1,150 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568367.webp"
+   }
+  },
+  {
+   "id": "gn:4568399",
+   "name": "Tierras Nuevas Poniente",
+   "label": "Tierras Nuevas Poniente",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4619,
+   "lon": -66.4885,
+   "rarity": "Rare",
+   "fame": 546,
+   "facts": {
+    "population": 2366,
+    "elevation_m": 23,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Tierras Nuevas Poniente is a rural barrio in the municipality of Manatí, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tierras Nuevas Poniente",
+    "url": "https://en.wikipedia.org/wiki/Tierras_Nuevas_Poniente",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4568399.webp",
+    "author": "Edgar Torres",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Secluded_beach_at_sunset,_Manati,_PR_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7386273",
+   "name": "Río Duey",
+   "label": "Río Duey (near Sabana Eneas)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.1172,
+   "lon": -67.0738,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 25.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Duey River is a river located in San Germán, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Duey River (San Germán, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Duey_River_%28San_Germ%C3%A1n%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386273.webp"
+   }
+  },
+  {
+   "id": "wd:Q7386270",
+   "name": "Río Duey",
+   "label": "Río Duey (near Yauco)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.0527,
+   "lon": -66.851,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 56,
+    "temp_c": 24.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Duey River is a river in Yauco, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Duey River (Yauco, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Duey_River_%28Yauco%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386270.webp"
+   }
+  },
+  {
+   "id": "wd:Q7386390",
+   "name": "Río Prieto",
+   "label": "Río Prieto (near Río Blanco)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2533,
+   "lon": -65.7846,
+   "rarity": "Common",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 218,
+    "temp_c": 24.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Prieto River is a river of Naguabo, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Prieto River (Naguabo, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Prieto_River_%28Naguabo%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386390.webp"
+   }
+  },
+  {
+   "id": "wd:Q7386285",
+   "name": "Río Grande",
+   "label": "Río Grande (near Rincón)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3755,
+   "lon": -67.2393,
+   "rarity": "Common",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Río Grande is a river of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Grande (Aguada, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande_%28Aguada%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386285.webp"
+   }
+  },
+  {
+   "id": "wd:Q7386257",
+   "name": "Río Cubuy",
+   "label": "Río Cubuy (near Benitez)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2894,
+   "lon": -65.8796,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 287,
+    "temp_c": 24.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Cubuy River is a river of Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cubuy River (Canóvanas, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Cubuy_River_%28Can%C3%B3vanas%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386257.webp"
+   }
+  },
+  {
+   "id": "wd:Q7386199",
+   "name": "Río Blanco",
+   "label": "Río Blanco (near Lares)",
+   "type": "nature",
+   "kind": "river",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.2533,
+   "lon": -66.9075,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 479,
+    "temp_c": 23.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Blanco River is a river located in barrio La Torre in Lares, and also in the municipalities of San Sebastián and Adjuntas, Puerto Rico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blanco River (Lares, Puerto Rico)",
+    "url": "https://en.wikipedia.org/wiki/Blanco_River_%28Lares%2C_Puerto_Rico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7386199.webp"
+   }
+  },
+  {
+   "id": "gn:4568350",
+   "name": "Suárez",
+   "label": "Suárez",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4302,
+   "lon": -65.8535,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2276,
+    "elevation_m": 3.0,
+    "area_km2": 0.6,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 2,276 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4568350.webp"
+   }
+  },
+  {
+   "id": "gn:4567574",
+   "name": "Rafael Gonzalez",
+   "label": "Rafael Gonzalez",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.4275,
+   "lon": -66.7868,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2325,
+    "elevation_m": 128,
+    "area_km2": 1.1,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "A community of 2,325 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4567574.webp"
+   }
+  },
+  {
+   "id": "gn:4565689",
+   "name": "Jobos",
+   "label": "Jobos",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 17.9552,
+   "lon": -66.1654,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3475,
+    "elevation_m": 7.0,
+    "area_km2": 1.4,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 3,475 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4565689.webp"
+   }
+  },
+  {
+   "id": "gn:4566270",
+   "name": "Moca",
+   "label": "Moca",
+   "type": "town",
+   "kind": "town",
+   "region": "US-PR",
+   "country": "PR",
+   "lat": 18.3947,
+   "lon": -67.1132,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 4964,
+    "elevation_m": 40,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "A community of 4,964 people in Puerto Rico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4566270.webp"
+   }
+  }
+ ]
+}

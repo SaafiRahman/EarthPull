@@ -1,0 +1,1891 @@
+{
+ "note": "Sample of the Martinique card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q27729049",
+   "name": "îlet Tartane",
+   "label": "îlet Tartane",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7567,
+   "lon": -60.92,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27729049.webp"
+   }
+  },
+  {
+   "id": "wd:Q27729118",
+   "name": "Petit Îlet",
+   "label": "Petit Îlet",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5505,
+   "lon": -61.0059,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27729118.webp"
+   }
+  },
+  {
+   "id": "wd:Q7338917",
+   "name": "Rivière Capot",
+   "label": "Rivière Capot",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.853,
+   "lon": -61.0846,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It flows into the Caribbean Sea near Basse-Pointe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Capot",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Capot",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7338917.webp"
+   }
+  },
+  {
+   "id": "wd:Q27729649",
+   "name": "Morne Genty",
+   "label": "Morne Genty",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4821,
+   "lon": -61.0641,
+   "rarity": "Common",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 399,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A mountain in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27729649.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Genty_depuis_Petite_Anse.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7338927",
+   "name": "Rivière Salée",
+   "label": "Rivière Salée",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5513,
+   "lon": -60.9986,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It flows into the Caribbean Sea near the town Rivière-Salée.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Salée",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Sal%C3%A9e",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7338927.webp"
+   }
+  },
+  {
+   "id": "wd:Q22248610",
+   "name": "îlet Petite Grenade",
+   "label": "îlet Petite Grenade",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5677,
+   "lon": -60.8368,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22248610.webp"
+   }
+  },
+  {
+   "id": "wd:Q27729574",
+   "name": "îlet Chevalier",
+   "label": "îlet Chevalier",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4307,
+   "lon": -60.8299,
+   "rarity": "Common",
+   "fame": 504,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27729574.webp",
+    "author": "Patrifor",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ilet_Chevalier1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22248597",
+   "name": "îlet Hardy",
+   "label": "îlet Hardy",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4175,
+   "lon": -60.8327,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22248597.webp"
+   }
+  },
+  {
+   "id": "wd:Q27729577",
+   "name": "Morne Clochette",
+   "label": "Morne Clochette",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4784,
+   "lon": -61.0569,
+   "rarity": "Common",
+   "fame": 240,
+   "facts": {
+    "elevation_m": 324,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A mountain in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27729577.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Clochette_depuis_le_site_du_Cap_110.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22248607",
+   "name": "îlet Petit Dupré",
+   "label": "îlet Petit Dupré",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4593,
+   "lon": -60.8873,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22248607.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Petit_%C3%8Elet_Duprey.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22217772",
+   "name": "îlet Frégate",
+   "label": "îlet Frégate",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6064,
+   "lon": -60.8645,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22217772.webp"
+   }
+  },
+  {
+   "id": "wd:Q22248584",
+   "name": "îlet à Aigrettes",
+   "label": "îlet à Aigrettes",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4172,
+   "lon": -60.8401,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q22248584.webp"
+   }
+  },
+  {
+   "id": "gn:3570785",
+   "name": "Ducos",
+   "label": "Ducos",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5753,
+   "lon": -60.9745,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 17394,
+    "elevation_m": 62,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 17,394 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570785.webp"
+   }
+  },
+  {
+   "id": "gn:3570501",
+   "name": "L'Ajoupa-Bouillon",
+   "label": "L'Ajoupa-Bouillon",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8209,
+   "lon": -61.1175,
+   "rarity": "Common",
+   "fame": 3048,
+   "facts": {
+    "population": 1815,
+    "elevation_m": 314,
+    "area_km2": 12,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "L'Ajoupa-Bouillon, commonly known as L'Ajoupa, is a commune and town in the French overseas department and region, and island, of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "L'Ajoupa-Bouillon",
+    "url": "https://en.wikipedia.org/wiki/L%27Ajoupa-Bouillon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570501.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_l%27Immacul%C3%A9e-Conception_de_L%27Ajoupa-Bouillon_3.jpg"
+   }
+  },
+  {
+   "id": "gn:3570446",
+   "name": "La Trinité",
+   "label": "La Trinité",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7381,
+   "lon": -60.9632,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 15040,
+    "elevation_m": 6.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 15,040 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570446.webp"
+   }
+  },
+  {
+   "id": "gn:3570392",
+   "name": "Le Vauclin",
+   "label": "Le Vauclin",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5454,
+   "lon": -60.8383,
+   "rarity": "Common",
+   "fame": 5832,
+   "facts": {
+    "population": 7812,
+    "elevation_m": 8.0,
+    "area_km2": 39,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Le Vauclin is a commune in the French overseas department and region, and island of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Vauclin",
+    "url": "https://en.wikipedia.org/wiki/Le_Vauclin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570392.webp",
+    "author": "Olivier.jarfas",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le-vauclin-fruits-and-vegetables-market.jpg"
+   }
+  },
+  {
+   "id": "gn:3569928",
+   "name": "Sainte-Luce",
+   "label": "Sainte-Luce",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4685,
+   "lon": -60.9214,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 9196,
+    "elevation_m": 6.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 9,196 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3569928.webp"
+   }
+  },
+  {
+   "id": "gn:3570423",
+   "name": "Le Morne-Rouge",
+   "label": "Le Morne-Rouge",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7761,
+   "lon": -61.1356,
+   "rarity": "Common",
+   "fame": 9678,
+   "facts": {
+    "population": 5469,
+    "elevation_m": 459,
+    "area_km2": 38,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Le Morne-Rouge is a commune and town in the French overseas department and island of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Morne-Rouge",
+    "url": "https://en.wikipedia.org/wiki/Le_Morne-Rouge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570423.webp",
+    "author": "Radosław Botev",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Morne-Rouge_Martinique.jpg"
+   }
+  },
+  {
+   "id": "gn:3569970",
+   "name": "Rivière-Pilote",
+   "label": "Rivière-Pilote",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4874,
+   "lon": -60.9026,
+   "rarity": "Common",
+   "fame": 6156,
+   "facts": {
+    "population": 13359,
+    "elevation_m": 19,
+    "area_km2": 36,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Rivière-Pilote is a town and commune in the French overseas department of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière-Pilote",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re-Pilote",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3569970.webp",
+    "author": "Tux-Man",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89comus%C3%A9e_de_Martinique_001.jpg"
+   }
+  },
+  {
+   "id": "gn:3570426",
+   "name": "Le Marin",
+   "label": "Le Marin",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4716,
+   "lon": -60.8699,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7943,
+    "elevation_m": 28,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 7,943 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570426.webp"
+   }
+  },
+  {
+   "id": "gn:3570427",
+   "name": "Le Lorrain",
+   "label": "Le Lorrain",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8326,
+   "lon": -61.0555,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8341,
+    "elevation_m": 13,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A community of 8,341 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570427.webp"
+   }
+  },
+  {
+   "id": "gn:3569926",
+   "name": "Sainte-Marie",
+   "label": "Sainte-Marie",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7835,
+   "lon": -60.9923,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 20380,
+    "elevation_m": 14,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 20,380 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3569926.webp"
+   }
+  },
+  {
+   "id": "gn:3570584",
+   "name": "Le Gros-Morne",
+   "label": "Le Gros-Morne",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7,
+   "lon": -61.0,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 11025,
+    "elevation_m": 132,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 11,025 people in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3570584.webp"
+   }
+  },
+  {
+   "id": "gn:3570410",
+   "name": "Saint-Esprit",
+   "label": "Saint-Esprit",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.55,
+   "lon": -60.9333,
+   "rarity": "Common",
+   "fame": 5526,
+   "facts": {
+    "population": 8508,
+    "elevation_m": 103,
+    "area_km2": 23,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Saint-Esprit is a commune in the French overseas department and region of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Esprit, Martinique",
+    "url": "https://en.wikipedia.org/wiki/Saint-Esprit%2C_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570410.webp",
+    "author": "WCOMFR",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SAINT_ESPRIT_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q282333",
+   "name": "Stade Pierre-Aliker",
+   "label": "Stade Pierre-Aliker",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6033,
+   "lon": -61.0462,
+   "rarity": "Epic",
+   "fame": 4428,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches, as the home of the Club Colonial and the Martinique national football team.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stade Pierre-Aliker",
+    "url": "https://en.wikipedia.org/wiki/Stade_Pierre-Aliker",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q282333.webp"
+   }
+  },
+  {
+   "id": "wd:Q2002341",
+   "name": "Co-Cathedral of Our Lady of Assumption, Saint-Pierre",
+   "label": "Co-Cathedral of Our Lady of Assumption, Saint-Pierre",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7405,
+   "lon": -61.1756,
+   "rarity": "Epic",
+   "fame": 3456,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The Co-Cathedral of Our Lady of Assumption or simply Cathedral of Our Lady of the Assumption, is the co-cathedral church of the Archdiocese of Fort-de-France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Co-Cathedral of Our Lady of Assumption, Saint-Pierre",
+    "url": "https://en.wikipedia.org/wiki/Co-Cathedral_of_Our_Lady_of_Assumption%2C_Saint-Pierre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2002341.webp",
+    "author": "Concord",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame-de-l%27Assomption_de_Saint-Pierre_02_2015_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3078054",
+   "name": "Fort Saint Louis",
+   "label": "Fort Saint Louis",
+   "type": "built",
+   "kind": "fort",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5999,
+   "lon": -61.0664,
+   "rarity": "Epic",
+   "fame": 13722,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The modern-day Fort Saint Louis is both an active naval base and a listed historic site of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Saint Louis (Martinique)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Saint_Louis_%28Martinique%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3078054.webp"
+   }
+  },
+  {
+   "id": "wd:Q940137",
+   "name": "Fort-de-France Cathedral",
+   "label": "Fort-de-France Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6042,
+   "lon": -61.07,
+   "rarity": "Epic",
+   "fame": 5874,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It was built in the late 19th-century in the Romanesque Revival style and serves as the cathedral of the Roman Catholic Archdiocese of Fort-de-France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Louis Cathedral, Fort-de-France",
+    "url": "https://en.wikipedia.org/wiki/St._Louis_Cathedral%2C_Fort-de-France",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q940137.webp",
+    "author": "Pierre PONCHEL",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint_Louis.jpg"
+   }
+  },
+  {
+   "id": "wd:Q973233",
+   "name": "Balata Garden",
+   "label": "Balata Garden",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6903,
+   "lon": -61.0158,
+   "rarity": "Epic",
+   "fame": 6198,
+   "facts": {
+    "elevation_m": 106,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Balata Garden is a private botanical garden located on the Route de Balata about 10 km outside of Fort-de-France, Martinique, French West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Balata Garden",
+    "url": "https://en.wikipedia.org/wiki/Balata_Garden",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q973233.webp",
+    "author": "Mica",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jardin_Balata_1.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3077848",
+   "name": "Fort Desaix",
+   "label": "Fort Desaix",
+   "type": "built",
+   "kind": "fort",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6333,
+   "lon": -61.0833,
+   "rarity": "Epic",
+   "fame": 4164,
+   "facts": {
+    "elevation_m": 114,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The fort was built from 1768 to 1772 and sits on a hill, Morne Garnier, overlooking what was then Fort Royal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Desaix",
+    "url": "https://en.wikipedia.org/wiki/Fort_Desaix",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3077848.webp"
+   }
+  },
+  {
+   "id": "wd:Q16040133",
+   "name": "îlet Sainte-Marie",
+   "label": "îlet Sainte-Marie",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7878,
+   "lon": -60.9889,
+   "rarity": "Epic",
+   "fame": 10152,
+   "facts": {
+    "elevation_m": 3.0,
+    "area_km2": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16040133.webp",
+    "author": "Agena.p",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Tombolo_sainte_marie_martinique.JPG"
+   }
+  },
+  {
+   "id": "wd:Q262662",
+   "name": "Diamond Rock",
+   "label": "Diamond Rock",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4431,
+   "lon": -61.0389,
+   "rarity": "Epic",
+   "fame": 25902,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.1,
+    "length_km": 0.3,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Diamond Rock is a 175-meter-high basalt island located south of \"Grande Anse du Diamant\" before arriving from the south at Fort-de-France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Diamond Rock",
+    "url": "https://en.wikipedia.org/wiki/Diamond_Rock",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q262662.webp",
+    "author": "Apmarles",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diamond_Rock.jpg"
+   }
+  },
+  {
+   "id": "wd:Q76309",
+   "name": "Mount Pelée",
+   "label": "Mount Pelée",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8131,
+   "lon": -61.1656,
+   "rarity": "Epic",
+   "fame": 146328,
+   "facts": {
+    "elevation_m": 1397,
+    "prominence_m": 1397,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Mount Pelée or Mont Pelée is an active stratovolcano at the northern end of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Pelée",
+    "url": "https://en.wikipedia.org/wiki/Mount_Pel%C3%A9e",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q76309.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:La_Pel%C3%A9e_vue_du_Carbet.jpg"
+   }
+  },
+  {
+   "id": "gn:3570675",
+   "name": "Fort-de-France",
+   "label": "Fort-de-France",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6037,
+   "lon": -61.0742,
+   "rarity": "Legendary",
+   "fame": 139770,
+   "facts": {
+    "population": 89995,
+    "elevation_m": 5.0,
+    "area_km2": 44,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Fort-de-France is a commune and the capital city of Martinique, an overseas department and region of France located in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort-de-France",
+    "url": "https://en.wikipedia.org/wiki/Fort-de-France",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570675.webp",
+    "author": "Scott S Bateman",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort-de-france-harbor.jpg"
+   }
+  },
+  {
+   "id": "wd:Q56439525",
+   "name": "Église du Sacré-Cœur de Balata",
+   "label": "Église du Sacré-Cœur de Balata",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6492,
+   "lon": -61.0789,
+   "rarity": "Rare",
+   "fame": 2028,
+   "facts": {
+    "elevation_m": 275,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q56439525.webp",
+    "author": "Jean-Louis Lascoux",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sacr%C3%A9-coeur-balata-FdF.JPG"
+   }
+  },
+  {
+   "id": "wd:Q22995364",
+   "name": "Église Saint-Henri des Anses-d'Arlet",
+   "label": "Église Saint-Henri des Anses-d'Arlet",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4909,
+   "lon": -61.0802,
+   "rarity": "Rare",
+   "fame": 1008,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22995364.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Les_Anses-d%27Arlet_-_%C3%89glise_Saint-Henri_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2315810",
+   "name": "Église Saint-Étienne du Marin",
+   "label": "Église Saint-Étienne du Marin",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4701,
+   "lon": -60.8722,
+   "rarity": "Rare",
+   "fame": 504,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2315810.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Marin_-_%C3%89glise_Saint-%C3%89tienne_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6077186",
+   "name": "Place Bertin",
+   "label": "Place Bertin",
+   "type": "built",
+   "kind": "square",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7413,
+   "lon": -61.1764,
+   "rarity": "Rare",
+   "fame": 462,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A square in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6077186.webp",
+    "author": "Jean & Nathalie",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Martinique_-_Saint-Pierre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2416156",
+   "name": "Théâtre de Saint-Pierre",
+   "label": "Théâtre de Saint-Pierre",
+   "type": "built",
+   "kind": "theatre building",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7469,
+   "lon": -61.1759,
+   "rarity": "Rare",
+   "fame": 1482,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It was a famous center of culture in the West Indies for over a century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Théâtre de Saint-Pierre",
+    "url": "https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_Saint-Pierre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2416156.webp",
+    "author": "Mica",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Theatre_Saint_Pierre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16782621",
+   "name": "Église Sainte-Catherine de Grand'Rivière",
+   "label": "Église Sainte-Catherine de Grand'Rivière",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8736,
+   "lon": -61.1806,
+   "rarity": "Rare",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16782621.webp",
+    "author": "Aristoi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Sainte-Catherine_de_Grand%27Rivi%C3%A8re_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22957334",
+   "name": "église Notre-Dame de Sainte-Anne",
+   "label": "église Notre-Dame de Sainte-Anne",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4351,
+   "lon": -60.8807,
+   "rarity": "Rare",
+   "fame": 576,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22957334.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Notre-Dame_de_Sainte-Anne.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22980903",
+   "name": "église Notre-Dame-du-Rosaire de Fort-de-France",
+   "label": "église Notre-Dame-du-Rosaire de Fort-de-France",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6322,
+   "lon": -61.0544,
+   "rarity": "Rare",
+   "fame": 366,
+   "facts": {
+    "elevation_m": 211,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22980903.webp",
+    "author": "WCOMFR Mireille GRUMBERG",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FORT_DE_FRANCE_EGLISE_ND_DU_ROSAIRE_REDOUTE.jpg"
+   }
+  },
+  {
+   "id": "wd:Q13518190",
+   "name": "Palais des arts et des cultures de Fort-de-France",
+   "label": "Palais des arts et des cultures de Fort-de-France",
+   "type": "built",
+   "kind": "courthouse",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6052,
+   "lon": -61.0695,
+   "rarity": "Rare",
+   "fame": 480,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A courthouse in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q13518190.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ancien_palais_de_justice_de_Fort-de-France.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2967869",
+   "name": "Château Dubuc",
+   "label": "Château Dubuc",
+   "type": "built",
+   "kind": "plantation house",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7682,
+   "lon": -60.8899,
+   "rarity": "Rare",
+   "fame": 2304,
+   "facts": {
+    "elevation_m": 19,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A plantation house in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2967869.webp",
+    "author": "Jmp48",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Dubuc.JPG"
+   }
+  },
+  {
+   "id": "wd:Q16964648",
+   "name": "Église de l'Immaculée-Conception de L'Ajoupa-Bouillon",
+   "label": "Église de l'Immaculée-Conception de L'Ajoupa-Bouillon",
+   "type": "built",
+   "kind": "church",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.8256,
+   "lon": -61.1139,
+   "rarity": "Rare",
+   "fame": 192,
+   "facts": {
+    "elevation_m": 245,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A church in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16964648.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_de_l%27Immacul%C3%A9e-Conception_de_L%27Ajoupa-Bouillon_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15958345",
+   "name": "Our Lady Church",
+   "label": "Our Lady Church",
+   "type": "built",
+   "kind": "church building",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7755,
+   "lon": -61.1356,
+   "rarity": "Rare",
+   "fame": 912,
+   "facts": {
+    "elevation_m": 457,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A church building in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15958345.webp",
+    "author": "UHF",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ND_D%C3%A9livrande_Morne-Rouge_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2918173",
+   "name": "îlet Madame",
+   "label": "îlet Madame",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6704,
+   "lon": -60.8828,
+   "rarity": "Rare",
+   "fame": 744,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2918173.webp",
+    "author": "Tux-Man",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ilet_Madame_001.jpg"
+   }
+  },
+  {
+   "id": "wd:Q22248707",
+   "name": "La Table du Diable",
+   "label": "La Table du Diable",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.3926,
+   "lon": -60.864,
+   "rarity": "Rare",
+   "fame": 576,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q22248707.webp",
+    "author": "Maxime ✈ from Le François , Martinique",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ilet_Cabrit_%2B_Table_du_Diable_(16368083659).jpg"
+   }
+  },
+  {
+   "id": "wd:Q16040009",
+   "name": "îlet Chancel",
+   "label": "îlet Chancel",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6931,
+   "lon": -60.8889,
+   "rarity": "Rare",
+   "fame": 2574,
+   "facts": {
+    "elevation_m": 52,
+    "area_km2": 0.7,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16040009.webp",
+    "author": "0x010C",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cabanon_sur_l%27%C3%AElet_Chancel.JPG"
+   }
+  },
+  {
+   "id": "wd:Q27728995",
+   "name": "îlet Ramiers",
+   "label": "îlet Ramiers",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5333,
+   "lon": -61.0833,
+   "rarity": "Rare",
+   "fame": 906,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27728995.webp"
+   }
+  },
+  {
+   "id": "wd:Q921987",
+   "name": "Carbet Mountains",
+   "label": "Carbet Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6982,
+   "lon": -61.1138,
+   "rarity": "Rare",
+   "fame": 5766,
+   "facts": {
+    "elevation_m": 1197,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Carbet Mountains are a massif of volcanic origin on the Caribbean island of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carbet Mountains",
+    "url": "https://en.wikipedia.org/wiki/Carbet_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q921987.webp",
+    "author": "Ze Moudong",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pitons.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q27729691",
+   "name": "Morne Larcher",
+   "label": "Morne Larcher",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4642,
+   "lon": -61.0554,
+   "rarity": "Rare",
+   "fame": 3060,
+   "facts": {
+    "elevation_m": 478,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A mountain in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27729691.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Larcher_et_Croix_du_Diamant.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27729651",
+   "name": "Morne Gommier",
+   "label": "Morne Gommier",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4644,
+   "lon": -60.8998,
+   "rarity": "Rare",
+   "fame": 552,
+   "facts": {
+    "elevation_m": 291,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A mountain in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27729651.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Gommier_depuis_le_point_de_vue.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5649034",
+   "name": "Rivière Roxelane",
+   "label": "Rivière Roxelane",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7479,
+   "lon": -61.1791,
+   "rarity": "Rare",
+   "fame": 618,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 7.9,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It flows into the Caribbean Sea in Saint-Pierre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roxelane (river)",
+    "url": "https://en.wikipedia.org/wiki/Roxelane_%28river%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5649034.webp",
+    "author": "Edit. Russou, Fort-de-France",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:La_Roxelane_vue_du_Pont_Roche.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5470690",
+   "name": "Fort-de-France Bay",
+   "label": "Fort-de-France Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5667,
+   "lon": -61.05,
+   "rarity": "Rare",
+   "fame": 1542,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is named after Martinique's capital, Fort-de-France, located north of the bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort-de-France Bay",
+    "url": "https://en.wikipedia.org/wiki/Fort-de-France_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5470690.webp",
+    "author": "Jmp48",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FDF_et_pitons_du_Carbet.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3272065",
+   "name": "Lézarde",
+   "label": "Lézarde",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6008,
+   "lon": -61.0192,
+   "rarity": "Rare",
+   "fame": 882,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 36,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It flows into the Caribbean Sea near Le Lamentin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lézarde (Martinique)",
+    "url": "https://en.wikipedia.org/wiki/L%C3%A9zarde_%28Martinique%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3272065.webp",
+    "author": "Peter Denimal",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_L%C3%A9zarde_River_looking_upstream_to_the_north_on_the_D3_district_road_at_Durocher,_Le_Lamentin,_Martinique,_26.04.2017.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27728633",
+   "name": "Anse Trabaud",
+   "label": "Anse Trabaud",
+   "type": "nature",
+   "kind": "bay",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.4117,
+   "lon": -60.8467,
+   "rarity": "Rare",
+   "fame": 606,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A bay in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27728633.webp",
+    "author": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anse_Trabaud_-_vue_en_direction_de_la_Pointe_d%27Enfer.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5574034",
+   "name": "Rivière Blanche",
+   "label": "Rivière Blanche",
+   "type": "nature",
+   "kind": "river",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6713,
+   "lon": -60.9975,
+   "rarity": "Rare",
+   "fame": 1242,
+   "facts": {
+    "elevation_m": 63,
+    "length_km": 20,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It flows into the Lézarde north of Le Lamentin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Blanche (Martinique)",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Blanche_%28Martinique%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5574034.webp",
+    "author": "www.sklepik-maja.com",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bouliki_riviere_blanche_Saint-Joseph,martinique_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3570396",
+   "name": "Les Trois-Îlets",
+   "label": "Les Trois-Îlets",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.5391,
+   "lon": -61.0335,
+   "rarity": "Rare",
+   "fame": 14910,
+   "facts": {
+    "population": 5657,
+    "elevation_m": 19,
+    "area_km2": 29,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Les Trois-Îlets is a town and commune in the French overseas department and region of Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Les Trois-Îlets",
+    "url": "https://en.wikipedia.org/wiki/Les_Trois-%C3%8Elets",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570396.webp",
+    "author": "Radosław Botev",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Trois-Ilets_church.jpg"
+   }
+  },
+  {
+   "id": "gn:3570428",
+   "name": "Le Lamentin",
+   "label": "Le Lamentin",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6134,
+   "lon": -60.9996,
+   "rarity": "Rare",
+   "fame": 21186,
+   "facts": {
+    "population": 40581,
+    "elevation_m": 10,
+    "area_km2": 62,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "With its area of 62.32 km2, it is the town with the largest area in Martinique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Lamentin",
+    "url": "https://en.wikipedia.org/wiki/Le_Lamentin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570428.webp",
+    "author": "Yann 2986",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aeroport_Aime_Cesaire.jpg"
+   }
+  },
+  {
+   "id": "gn:3569907",
+   "name": "Saint-Pierre",
+   "label": "Saint-Pierre",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7431,
+   "lon": -61.1754,
+   "rarity": "Rare",
+   "fame": 50628,
+   "facts": {
+    "population": 4125,
+    "elevation_m": 19,
+    "area_km2": 39,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Saint-Pierre is a town and commune of France's Caribbean overseas department of Martinique, founded in 1635 by Pierre Belain d'Esnambuc.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Pierre, Martinique",
+    "url": "https://en.wikipedia.org/wiki/Saint-Pierre%2C_Martinique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3569907.webp",
+    "author": "lb:user:Zinneke",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint-Pierre_(Martinique)_avec_Montage_Pel%C3%A9e.JPG"
+   }
+  },
+  {
+   "id": "gn:3570429",
+   "name": "Le François",
+   "label": "Le François",
+   "type": "town",
+   "kind": "town",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.6151,
+   "lon": -60.9031,
+   "rarity": "Rare",
+   "fame": 10692,
+   "facts": {
+    "population": 19682,
+    "elevation_m": 14,
+    "area_km2": 54,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Le François is a town and commune in the arrondissement of Le Marin on Martinique, 22 km from the island capital of Fort-de-France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le François",
+    "url": "https://en.wikipedia.org/wiki/Le_Fran%C3%A7ois",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3570429.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:France-Martinique-Le_Francois.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27729641",
+   "name": "îlet du Galion",
+   "label": "îlet du Galion",
+   "type": "nature",
+   "kind": "island",
+   "region": "FR-MQ",
+   "country": "MQ",
+   "lat": 14.7308,
+   "lon": -60.9355,
+   "rarity": "Common",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "An island in Martinique.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27729641.webp"
+   }
+  }
+ ]
+}

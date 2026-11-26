@@ -1,0 +1,2600 @@
+{
+ "note": "Sample of the Honduras card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q7513107",
+   "name": "Sigre River",
+   "label": "Sigre River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 15.8019,
+   "lon": -84.6,
+   "rarity": "Common",
+   "fame": 234,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "It flows into the Brus Lagoon, which itself lies adjacent to the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sigre River",
+    "url": "https://en.wikipedia.org/wiki/Sigre_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7513107.webp"
+   }
+  },
+  {
+   "id": "wd:Q16490530",
+   "name": "Bobel Cay",
+   "label": "Bobel Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 15.0833,
+   "lon": -82.6667,
+   "rarity": "Common",
+   "fame": 516,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Bobel Cay is an island in Honduras, located around 500km off the east coast of the South American continent.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bobel Cay",
+    "url": "https://en.wikipedia.org/wiki/Bobel_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16490530.webp"
+   }
+  },
+  {
+   "id": "wd:Q25280619",
+   "name": "Cuyamel River",
+   "label": "Cuyamel River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.6667,
+   "lon": -88.1833,
+   "rarity": "Common",
+   "fame": 744,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Cuyamel River flows past the city of Cuyamel, Honduras and into an off branch of the Motagua River that marks the boundary between Honduras and Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cuyamel River",
+    "url": "https://en.wikipedia.org/wiki/Cuyamel_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25280619.webp",
+    "author": "JVC3ETA",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuyamel_7890.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6960730",
+   "name": "Nakunta River",
+   "label": "Nakunta River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 15.1975,
+   "lon": -83.7626,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Nakunta River is a river in the Gracias a Dios Department of Honduras that exits into the Caratasca Lagoon a few miles south of Puerto Lempira.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nakunta River",
+    "url": "https://en.wikipedia.org/wiki/Nakunta_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6960730.webp"
+   }
+  },
+  {
+   "id": "wd:Q16491536",
+   "name": "Cordillera Nombre de Dios",
+   "label": "Cordillera Nombre de Dios",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.6667,
+   "lon": -86.6667,
+   "rarity": "Common",
+   "fame": 714,
+   "facts": {
+    "elevation_m": 2436,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "A mountain range in Atlántida.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16491536.webp"
+   }
+  },
+  {
+   "id": "wd:Q16918504",
+   "name": "Humuya River",
+   "label": "Humuya River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-CM",
+   "country": "HN",
+   "lat": 14.4539,
+   "lon": -87.653,
+   "rarity": "Common",
+   "fame": 1128,
+   "facts": {
+    "elevation_m": 558,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "The Humuya River is a river in Honduras which passes through Santa Rita, Yoro, and then flows into the Ulúa River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Humuya River",
+    "url": "https://en.wikipedia.org/wiki/Humuya_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16918504.webp",
+    "author": "Dennis Garcia",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SantaLucia_Honduras.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7205915",
+   "name": "Plátano River",
+   "label": "Plátano River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 15.8772,
+   "lon": -84.7028,
+   "rarity": "Common",
+   "fame": 1878,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 100,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "The Plátano River is a river in Honduras which runs through the Río Plátano Biosphere Reserve.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plátano River",
+    "url": "https://en.wikipedia.org/wiki/Pl%C3%A1tano_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7205915.webp",
+    "author": "Hjvannes at Dutch Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_platano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1052032",
+   "name": "Cayo Sur",
+   "label": "Cayo Sur",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 15.0667,
+   "lon": -82.5,
+   "rarity": "Common",
+   "fame": 642,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Cayo Sur is a uninhabited Caribbean island less than two hectares in size, located near the border of Honduras and Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Sur",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Sur",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1052032.webp"
+   }
+  },
+  {
+   "id": "wd:Q16579937",
+   "name": "Isla Morat",
+   "label": "Isla Morat",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-IB",
+   "country": "HN",
+   "lat": 16.4,
+   "lon": -86.1833,
+   "rarity": "Common",
+   "fame": 420,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "An island in Bay Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16579937.webp"
+   }
+  },
+  {
+   "id": "wd:Q25276854",
+   "name": "Isla Inglesera",
+   "label": "Isla Inglesera",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-VA",
+   "country": "HN",
+   "lat": 13.3144,
+   "lon": -87.7039,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 37,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "An island in Valle.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q25276854.webp"
+   }
+  },
+  {
+   "id": "wd:Q16490732",
+   "name": "Cerro Congolón",
+   "label": "Cerro Congolón",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.1877,
+   "lon": -88.5522,
+   "rarity": "Common",
+   "fame": 828,
+   "facts": {
+    "elevation_m": 2123,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "Cerro Congolón or \"Montaña Congolón\" is a mountain located in the Lempira Department of Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Congolón",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Congol%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16490732.webp"
+   }
+  },
+  {
+   "id": "wd:Q46067",
+   "name": "Isla Zacate Grande",
+   "label": "Isla Zacate Grande",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-VA",
+   "country": "HN",
+   "lat": 13.3358,
+   "lon": -87.6278,
+   "rarity": "Common",
+   "fame": 2280,
+   "facts": {
+    "elevation_m": 640,
+    "prominence_m": 640,
+    "area_km2": 50,
+    "length_km": 7.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "The volcano forms a 7 by 10 km island in the Gulf of Fonseca and has seven satellite cones, including Guegensi Island located 3 km from Zacate Grande.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Zacate Grande",
+    "url": "https://en.wikipedia.org/wiki/Isla_Zacate_Grande",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q46067.webp",
+    "author": "Rick Wunderman",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Zacate_Grande.jpg"
+   }
+  },
+  {
+   "id": "gn:3607930",
+   "name": "La Estancia",
+   "label": "La Estancia (Yoro)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-YO",
+   "country": "HN",
+   "lat": 15.2833,
+   "lon": -87.55,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1668,
+    "elevation_m": 778,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "A community of 1,668 people in Yoro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3607930.webp"
+   }
+  },
+  {
+   "id": "gn:3600841",
+   "name": "Teupasenti",
+   "label": "Teupasenti",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-EP",
+   "country": "HN",
+   "lat": 14.2167,
+   "lon": -86.7,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 43477,
+    "elevation_m": 773,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 43,477 people in El Paraíso.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3600841.webp"
+   }
+  },
+  {
+   "id": "gn:3601925",
+   "name": "San Luis de Planes",
+   "label": "San Luis de Planes",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-SB",
+   "country": "HN",
+   "lat": 14.976,
+   "lon": -88.1251,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1111,
+    "elevation_m": 1331,
+    "temp_c": 20.0
+   },
+   "flavour": {
+    "text": "A community of 1,111 people in Santa Bárbara.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3601925.webp"
+   }
+  },
+  {
+   "id": "gn:3614218",
+   "name": "Cane",
+   "label": "Cane",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LP",
+   "country": "HN",
+   "lat": 14.2793,
+   "lon": -87.6579,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3859,
+    "elevation_m": 652,
+    "temp_c": 22.8
+   },
+   "flavour": {
+    "text": "A community of 3,859 people in La Paz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3614218.webp"
+   }
+  },
+  {
+   "id": "gn:3615352",
+   "name": "Aguanqueterique",
+   "label": "Aguanqueterique",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LP",
+   "country": "HN",
+   "lat": 13.9514,
+   "lon": -87.6633,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4807,
+    "elevation_m": 400,
+    "temp_c": 21.7
+   },
+   "flavour": {
+    "text": "A community of 4,807 people in La Paz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3615352.webp"
+   }
+  },
+  {
+   "id": "gn:3600357",
+   "name": "Victoria",
+   "label": "Victoria (Yoro, near San José del Boquerón)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-YO",
+   "country": "HN",
+   "lat": 15.5038,
+   "lon": -87.8263,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2884,
+    "elevation_m": 23,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "A community of 2,884 people in Yoro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3600357.webp"
+   }
+  },
+  {
+   "id": "gn:3611088",
+   "name": "El Ocote",
+   "label": "El Ocote",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-YO",
+   "country": "HN",
+   "lat": 15.4167,
+   "lon": -86.5667,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1908,
+    "elevation_m": 581,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A community of 1,908 people in Yoro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3611088.webp"
+   }
+  },
+  {
+   "id": "gn:3603267",
+   "name": "Prieta",
+   "label": "Prieta",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CL",
+   "country": "HN",
+   "lat": 15.5806,
+   "lon": -86.1366,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1103,
+    "elevation_m": 55,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 1,103 people in Colón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3603267.webp"
+   }
+  },
+  {
+   "id": "gn:3608692",
+   "name": "Jícaro Galán",
+   "label": "Jícaro Galán",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-VA",
+   "country": "HN",
+   "lat": 13.5317,
+   "lon": -87.4389,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1370,
+    "elevation_m": 55,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 1,370 people in Valle.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3608692.webp"
+   }
+  },
+  {
+   "id": "gn:3601989",
+   "name": "San Juan Guarita",
+   "label": "San Juan Guarita",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.1833,
+   "lon": -88.8167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2678,
+    "elevation_m": 815,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "A community of 2,678 people in Lempira.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3601989.webp"
+   }
+  },
+  {
+   "id": "gn:3614249",
+   "name": "Cañaveral",
+   "label": "Cañaveral",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 14.984,
+   "lon": -88.0249,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2137,
+    "elevation_m": 510,
+    "temp_c": 20.0
+   },
+   "flavour": {
+    "text": "A community of 2,137 people in Cortés.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3614249.webp"
+   }
+  },
+  {
+   "id": "gn:3611481",
+   "name": "El Juncal",
+   "label": "El Juncal",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-YO",
+   "country": "HN",
+   "lat": 15.5006,
+   "lon": -86.4308,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1286,
+    "elevation_m": 180,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A community of 1,286 people in Yoro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3611481.webp"
+   }
+  },
+  {
+   "id": "wd:Q1369538",
+   "name": "Estadio Olímpico Metropolitano",
+   "label": "Estadio Olímpico Metropolitano",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.4701,
+   "lon": -88.0068,
+   "rarity": "Epic",
+   "fame": 12312,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and also has facilities for athletics.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Olímpico Metropolitano",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Metropolitano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369538.webp",
+    "author": "Ipaz0185",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Aficion.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1438892",
+   "name": "Fortaleza de San Fernando",
+   "label": "Fortaleza de San Fernando",
+   "type": "built",
+   "kind": "fortification",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.7789,
+   "lon": -88.0403,
+   "rarity": "Epic",
+   "fame": 9312,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The fortress remains relatively intact, and is a major tourist attraction in Omoa.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fortaleza de San Fernando",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza_de_San_Fernando",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1438892.webp",
+    "author": "Luis Alfredo Romero",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Omoa_Fortress_in_2023.jpg"
+   }
+  },
+  {
+   "id": "wd:Q20081333",
+   "name": "Choluteca Bridge",
+   "label": "Choluteca Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "HN-CH",
+   "country": "HN",
+   "lat": 13.3115,
+   "lon": -87.1914,
+   "rarity": "Epic",
+   "fame": 24354,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": 28.6
+   },
+   "flavour": {
+    "text": "Choluteca, Honduras has two bridges that cross the Choluteca River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Choluteca Bridge",
+    "url": "https://en.wikipedia.org/wiki/Choluteca_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20081333.webp",
+    "author": "Intimaralem85",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_Choluteca_Bridge.jpg"
+   }
+  },
+  {
+   "id": "wd:Q619322",
+   "name": "Estadio Nacional Jose de la Paz Herrera",
+   "label": "Estadio Nacional Jose de la Paz Herrera",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "HN-FM",
+   "country": "HN",
+   "lat": 14.0984,
+   "lon": -87.204,
+   "rarity": "Epic",
+   "fame": 13680,
+   "facts": {
+    "elevation_m": 953,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "It is used mostly for association football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chelato Uclés National Stadium",
+    "url": "https://en.wikipedia.org/wiki/Chelato_Ucl%C3%A9s_National_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q619322.webp"
+   }
+  },
+  {
+   "id": "wd:Q1242251",
+   "name": "El Cajón Dam",
+   "label": "El Cajón Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.0333,
+   "lon": -87.75,
+   "rarity": "Epic",
+   "fame": 10620,
+   "facts": {
+    "elevation_m": 393,
+    "length_km": 0.4,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "The dam impounds the Comayagua River, which derives its large volume from two large tributaries, the Humuya River and the Sulaco River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Cajón Dam (Honduras)",
+    "url": "https://en.wikipedia.org/wiki/El_Caj%C3%B3n_Dam_%28Honduras%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1242251.webp",
+    "author": "Dwwhyd",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:El_Cajon_Dam_Honduras.jpg"
+   }
+  },
+  {
+   "id": "wd:Q747620",
+   "name": "Soto Cano Air Base",
+   "label": "Soto Cano Air Base",
+   "type": "built",
+   "kind": "airbase",
+   "region": "HN-CM",
+   "country": "HN",
+   "lat": 14.382,
+   "lon": -87.6133,
+   "rarity": "Epic",
+   "fame": 25206,
+   "facts": {
+    "elevation_m": 628,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "It houses 1,200–1,500 U.S. troops and is also used by the Honduran Air Force academy.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Soto Cano Air Base",
+    "url": "https://en.wikipedia.org/wiki/Soto_Cano_Air_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q747620.webp",
+    "author": "Oscar Elvir Vasquez",
+    "licence": "GFDL 1.2",
+    "licence_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "page": "https://commons.wikimedia.org/wiki/File:CASA_C-101_Aviojet,_Honduras_-_Air_Force_JP7663636.jpg"
+   }
+  },
+  {
+   "id": "wd:Q619348",
+   "name": "Estadio General Francisco Morazán",
+   "label": "Estadio General Francisco Morazán",
+   "type": "built",
+   "kind": "stadium",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.5075,
+   "lon": -88.0334,
+   "rarity": "Epic",
+   "fame": 9828,
+   "facts": {
+    "elevation_m": 109,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "The Francisco Morazán Stadium is one of the three stadiums available to the city of San Pedro Sula, Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio General Francisco Morazán",
+    "url": "https://en.wikipedia.org/wiki/Estadio_General_Francisco_Moraz%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q619348.webp",
+    "author": "JVC3ETA",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morazan_Stadium_Platense_Olimpia_2015.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1685981",
+   "name": "Jeanette Kawas National Park",
+   "label": "Jeanette Kawas National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.85,
+   "lon": -87.6667,
+   "rarity": "Epic",
+   "fame": 4410,
+   "facts": {
+    "elevation_m": 11,
+    "area_km2": 782,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Jeannette Kawas National Park is a national park located in the municipality of Tela, on the northern Caribbean coast of the Atlántida department of Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jeannette Kawas National Park",
+    "url": "https://en.wikipedia.org/wiki/Jeannette_Kawas_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1685981.webp",
+    "author": "Ricky Ng-Adam",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Jeannette_Kawas_Punta_Sal_Beach_Near_Entrance_of_Sendero_Los_Curumos.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6464048",
+   "name": "La Muralla National Park",
+   "label": "La Muralla National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-OL",
+   "country": "HN",
+   "lat": 15.1397,
+   "lon": -86.67,
+   "rarity": "Epic",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 1262,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "It was established on 1 January 1993. and covers an area of approximately 13,708.35 ha and a buffer zone of 13,195.05 ha for a total area of 26,903.48 ha.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Muralla National Park",
+    "url": "https://en.wikipedia.org/wiki/La_Muralla_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6464048.webp"
+   }
+  },
+  {
+   "id": "wd:Q5035412",
+   "name": "Capiro Calentura National Park",
+   "label": "Capiro Calentura National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-CL",
+   "country": "HN",
+   "lat": 15.8772,
+   "lon": -85.935,
+   "rarity": "Epic",
+   "fame": 1116,
+   "facts": {
+    "elevation_m": 1005,
+    "area_km2": 50,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "It was established in 1992 and covers an area of 81 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Capiro Calentura National Park",
+    "url": "https://en.wikipedia.org/wiki/Capiro_Calentura_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5035412.webp"
+   }
+  },
+  {
+   "id": "wd:Q5064854",
+   "name": "Cerro Azul de Copán National Park",
+   "label": "Cerro Azul de Copán National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 15.1283,
+   "lon": -88.9103,
+   "rarity": "Epic",
+   "fame": 612,
+   "facts": {
+    "elevation_m": 1230,
+    "temp_c": 21.8
+   },
+   "flavour": {
+    "text": "It was established on 1 January 1987 and covers an area of 154.6 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Azul de Copán National Park",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Azul_de_Cop%C3%A1n_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5064854.webp"
+   }
+  },
+  {
+   "id": "wd:Q1572113",
+   "name": "Utila",
+   "label": "Utila",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-IB",
+   "country": "HN",
+   "lat": 16.0972,
+   "lon": -86.9372,
+   "rarity": "Epic",
+   "fame": 31026,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 42,
+    "length_km": 11,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Utila is the smallest of Honduras' major Bay Islands, after Roatán and Guanaja, in a region that marks the south end of the Mesoamerican Barrier Reef System.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Utila",
+    "url": "https://en.wikipedia.org/wiki/Utila",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1572113.webp",
+    "author": "Rythie",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Utila_Hondoras_beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2054002",
+   "name": "Pico Bonito National Park",
+   "label": "Pico Bonito National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.6097,
+   "lon": -86.8722,
+   "rarity": "Epic",
+   "fame": 6462,
+   "facts": {
+    "elevation_m": 1015,
+    "area_km2": 1073,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "It was established on January 1, 1987 and covers an area of 564.30 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pico Bonito National Park",
+    "url": "https://en.wikipedia.org/wiki/Pico_Bonito_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2054002.webp",
+    "author": "Vega-Cesar",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pico_Bonito.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6904514",
+   "name": "Montaña Santa Bárbara National Park",
+   "label": "Montaña Santa Bárbara National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-SB",
+   "country": "HN",
+   "lat": 14.9156,
+   "lon": -88.1317,
+   "rarity": "Epic",
+   "fame": 1344,
+   "facts": {
+    "elevation_m": 2607,
+    "temp_c": 20.0
+   },
+   "flavour": {
+    "text": "It was established on 1 January 1987 and covers an area of 121.3 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Montaña Santa Bárbara National Park",
+    "url": "https://en.wikipedia.org/wiki/Monta%C3%B1a_Santa_B%C3%A1rbara_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6904514.webp",
+    "author": "Mayron McKewy Mejía",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amazilia_luciae.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1305720",
+   "name": "Lake Yojoa",
+   "label": "Lake Yojoa",
+   "type": "nature",
+   "kind": "lake",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 14.8772,
+   "lon": -87.9806,
+   "rarity": "Epic",
+   "fame": 18096,
+   "facts": {
+    "elevation_m": 700,
+    "area_km2": 90,
+    "length_km": 16,
+    "temp_c": 23.1
+   },
+   "flavour": {
+    "text": "Lake Yojoa is the largest lake in Honduras with a surface area of 79 square kilometers and an average depth of 15 meters.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Yojoa",
+    "url": "https://en.wikipedia.org/wiki/Lake_Yojoa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1305720.webp",
+    "author": "Frank Domínguez 15",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yojoa_Lake.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5057521",
+   "name": "Celaque National Park",
+   "label": "Celaque National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.5356,
+   "lon": -88.7072,
+   "rarity": "Epic",
+   "fame": 6474,
+   "facts": {
+    "elevation_m": 2578,
+    "area_km2": 266,
+    "temp_c": 17.3
+   },
+   "flavour": {
+    "text": "It was established on 5 August 1987 and covers an area of 266.31 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Celaque National Park",
+    "url": "https://en.wikipedia.org/wiki/Celaque_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5057521.webp",
+    "author": "ETXEVERZ",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Celaque_desde_Talgua_(Noroeste).JPG"
+   }
+  },
+  {
+   "id": "wd:Q9055966",
+   "name": "Pico Pijol National Park",
+   "label": "Pico Pijol National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HN-YO",
+   "country": "HN",
+   "lat": 15.1972,
+   "lon": -87.5831,
+   "rarity": "Epic",
+   "fame": 708,
+   "facts": {
+    "elevation_m": 1344,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "It was established on 1 January 1987 and covers an area of 122.1 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pico Pijol National Park",
+    "url": "https://en.wikipedia.org/wiki/Pico_Pijol_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q9055966.webp"
+   }
+  },
+  {
+   "id": "gn:3613175",
+   "name": "Corozal",
+   "label": "Corozal",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.8,
+   "lon": -86.7167,
+   "rarity": "Epic",
+   "fame": 546,
+   "facts": {
+    "population": 2261,
+    "elevation_m": 0.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The majority of Corozal's population belongs to the Garifuna ethnic group.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Corozal, Honduras",
+    "url": "https://en.wikipedia.org/wiki/Corozal%2C_Honduras",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3613175.webp"
+   }
+  },
+  {
+   "id": "gn:3601691",
+   "name": "Santa Bárbara",
+   "label": "Santa Bárbara",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-SB",
+   "country": "HN",
+   "lat": 14.9222,
+   "lon": -88.2376,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 15119,
+    "elevation_m": 239,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 15,119 people in Santa Bárbara.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3601691.webp"
+   }
+  },
+  {
+   "id": "gn:3610051",
+   "name": "El Triunfo de la Cruz",
+   "label": "El Triunfo de la Cruz",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.7667,
+   "lon": -87.4333,
+   "rarity": "Epic",
+   "fame": 1170,
+   "facts": {
+    "population": 2190,
+    "elevation_m": 144,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 2,190 people in Atlántida.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3610051.webp"
+   }
+  },
+  {
+   "id": "gn:3607986",
+   "name": "La Entrada",
+   "label": "La Entrada",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 15.0638,
+   "lon": -88.7463,
+   "rarity": "Epic",
+   "fame": 2742,
+   "facts": {
+    "population": 14739,
+    "elevation_m": 508,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "It is the capital of the municipality of Nueva Arcadia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Entrada",
+    "url": "https://en.wikipedia.org/wiki/La_Entrada",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3607986.webp"
+   }
+  },
+  {
+   "id": "gn:3613394",
+   "name": "Cofradía",
+   "label": "Cofradía",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.4,
+   "lon": -88.15,
+   "rarity": "Epic",
+   "fame": 2610,
+   "facts": {
+    "population": 20353,
+    "elevation_m": 111,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Cofradía is a town in northwestern Honduras, in the Naco Valley, with a population of 45,430 making it the second largest city in San Pedro Sula Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cofradía, Cortés",
+    "url": "https://en.wikipedia.org/wiki/Cofrad%C3%ADa%2C_Cort%C3%A9s",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3613394.webp"
+   }
+  },
+  {
+   "id": "gn:3603167",
+   "name": "Puerto Castilla",
+   "label": "Puerto Castilla",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CL",
+   "country": "HN",
+   "lat": 16.0167,
+   "lon": -85.9667,
+   "rarity": "Epic",
+   "fame": 2490,
+   "facts": {
+    "population": 1220,
+    "elevation_m": 7.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Puerto Castilla is a village in the Colón Department of Honduras located approximately 20 kilometres north of Trujillo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puerto Castilla, Honduras",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Castilla%2C_Honduras",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3603167.webp",
+    "author": "Hjvannes",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dole_at_Puerto_Castilla_Honduras.jpg"
+   }
+  },
+  {
+   "id": "gn:3602736",
+   "name": "Coxen Hole",
+   "label": "Coxen Hole",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-IB",
+   "country": "HN",
+   "lat": 16.3155,
+   "lon": -86.5397,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 7514,
+    "elevation_m": 4.0,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "A community of 7,514 people in Bay Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3602736.webp"
+   }
+  },
+  {
+   "id": "gn:3601782",
+   "name": "San Pedro Sula",
+   "label": "San Pedro Sula",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.5059,
+   "lon": -88.0259,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 801259,
+    "elevation_m": 90,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "A community of 801,259 people in Cortés.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3601782.webp",
+    "author": "Gervaldez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panoramica_general_sps_05.jpg"
+   }
+  },
+  {
+   "id": "gn:3604522",
+   "name": "Nacaome",
+   "label": "Nacaome",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-VA",
+   "country": "HN",
+   "lat": 13.5392,
+   "lon": -87.4891,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 13929,
+    "elevation_m": 37,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 13,929 people in Valle.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3604522.webp"
+   }
+  },
+  {
+   "id": "gn:3600165",
+   "name": "Yuscarán",
+   "label": "Yuscarán",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-EP",
+   "country": "HN",
+   "lat": 13.9444,
+   "lon": -86.8524,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 2371,
+    "elevation_m": 958,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "A community of 2,371 people in El Paraíso.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3600165.webp",
+    "author": "chamo estudio",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yuscaran_Honduras_square.jpg"
+   }
+  },
+  {
+   "id": "wd:Q214827",
+   "name": "Copán",
+   "label": "Copán",
+   "type": "built",
+   "kind": "ancient city",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 14.838,
+   "lon": -89.1424,
+   "rarity": "Legendary",
+   "fame": 96270,
+   "facts": {
+    "elevation_m": 612,
+    "area_km2": 0.2,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "Copán is an archaeological site of the Maya civilization in the Copán Department of western Honduras, not far from the border with Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Copán",
+    "url": "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q214827.webp",
+    "author": "Nosferattus",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Cop%C3%A1n_Stela_B.jpg"
+   }
+  },
+  {
+   "id": "gn:3600949",
+   "name": "Tegucigalpa",
+   "label": "Tegucigalpa",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-FM",
+   "country": "HN",
+   "lat": 14.0818,
+   "lon": -87.2068,
+   "rarity": "Legendary",
+   "fame": 231840,
+   "facts": {
+    "population": 850848,
+    "elevation_m": 944,
+    "area_km2": 202,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "Tegucigalpa is the capital and largest city of Honduras along with its sister city, Comayagüela.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tegucigalpa",
+    "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3600949.webp",
+    "author": "Luis Alfredo Romero",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_historico_de_Tegucigalpa_y_Comayag%C3%BCela.jpg"
+   }
+  },
+  {
+   "id": "gn:3600232",
+   "name": "Yarumela",
+   "label": "Yarumela",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LP",
+   "country": "HN",
+   "lat": 14.3358,
+   "lon": -87.6456,
+   "rarity": "Legendary",
+   "fame": 5916,
+   "facts": {
+    "population": 3059,
+    "elevation_m": 603,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "Yarumela also known as El Chircal, is one of the archeological sites located in Honduras and based around the Middle Formative era in Mesoamerican history.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yarumela",
+    "url": "https://en.wikipedia.org/wiki/Yarumela",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3600232.webp",
+    "author": "Luis Alfredo Romero",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yacimiento_arquelogico_de_Yarumela.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495698",
+   "name": "Estadio León Gómez",
+   "label": "Estadio León Gómez",
+   "type": "built",
+   "kind": "stadium",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.7798,
+   "lon": -87.4504,
+   "rarity": "Rare",
+   "fame": 516,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio León Gómez",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Le%C3%B3n_G%C3%B3mez",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3495698.webp"
+   }
+  },
+  {
+   "id": "wd:Q5870536",
+   "name": "San Cristóbal fortress (Honduras)",
+   "label": "San Cristóbal fortress (Honduras)",
+   "type": "built",
+   "kind": "fortification",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.5885,
+   "lon": -88.5844,
+   "rarity": "Rare",
+   "fame": 2838,
+   "facts": {
+    "elevation_m": 811,
+    "temp_c": 21.3
+   },
+   "flavour": {
+    "text": "The San Cristóbal fortress is located in the city of Gracias, department of Lempira, built on a small hill above the city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Cristóbal fortress (Honduras)",
+    "url": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_fortress_%28Honduras%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5870536.webp",
+    "author": "Mónica J. Mora",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuerte_San_Crist%C3%B3bal_Gracias_Honduras_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495799",
+   "name": "Estadio Nilmo Edwards",
+   "label": "Estadio Nilmo Edwards",
+   "type": "built",
+   "kind": "stadium",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.7861,
+   "lon": -86.7859,
+   "rarity": "Rare",
+   "fame": 3396,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Estadio Ceibeño is a multi-purpose stadium in La Ceiba, Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Nilmo Edwards",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Nilmo_Edwards",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495799.webp",
+    "author": "Cdvictoriahn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaiba_Brava_2006.jpg"
+   }
+  },
+  {
+   "id": "wd:Q85866300",
+   "name": "Caxa Real (Honduras)",
+   "label": "Caxa Real (Honduras)",
+   "type": "built",
+   "kind": "building",
+   "region": "HN-CM",
+   "country": "HN",
+   "lat": 14.4611,
+   "lon": -87.6402,
+   "rarity": "Rare",
+   "fame": 1488,
+   "facts": {
+    "elevation_m": 582,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "The Caxa Real, also known as the \"Casa de la Moneda\", is an old warehouse in Comayagua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caxa Real (Honduras)",
+    "url": "https://en.wikipedia.org/wiki/Caxa_Real_%28Honduras%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q85866300.webp",
+    "author": "Luis Alfredo Romero",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fachada_original_de_la_Caxa_Real_de_Honduras.jpg"
+   }
+  },
+  {
+   "id": "wd:Q8777565",
+   "name": "Hieroglyphic Stairway",
+   "label": "Hieroglyphic Stairway",
+   "type": "built",
+   "kind": "monument",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 14.8225,
+   "lon": -89.145,
+   "rarity": "Rare",
+   "fame": 2196,
+   "facts": {
+    "elevation_m": 732,
+    "temp_c": 21.1
+   },
+   "flavour": {
+    "text": "A monument in Copán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q8777565.webp",
+    "author": "Peter Andersen ( talk )",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Stela_M_and_the_Hieroglyphic_Stairway_on_the_archeological_site_of_Cop%C3%A1n,_a_mayan_city.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5864169",
+   "name": "Santa Bárbara fortress",
+   "label": "Santa Bárbara fortress",
+   "type": "built",
+   "kind": "fortification",
+   "region": "HN-CL",
+   "country": "HN",
+   "lat": 15.9211,
+   "lon": -85.9526,
+   "rarity": "Rare",
+   "fame": 2406,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Fortress of Santa Bárbara, also known as El Castillo, is located in the city of Trujillo in the department of Colón, Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Bárbara fortress",
+    "url": "https://en.wikipedia.org/wiki/Santa_B%C3%A1rbara_fortress",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5864169.webp",
+    "author": "stanleyatala",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CA%C3%91ONES_FORTALEZA_SANTA_BARBARA_-_panoramio_-_stanleyatala.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3034164",
+   "name": "Estadio Excélsior",
+   "label": "Estadio Excélsior",
+   "type": "built",
+   "kind": "stadium",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.8469,
+   "lon": -87.9378,
+   "rarity": "Rare",
+   "fame": 1500,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and is the home stadium of Platense.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Excélsior",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Exc%C3%A9lsior",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3034164.webp"
+   }
+  },
+  {
+   "id": "wd:Q109285479",
+   "name": "Rio Amarillo",
+   "label": "Rio Amarillo",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 14.8894,
+   "lon": -89.0031,
+   "rarity": "Rare",
+   "fame": 696,
+   "facts": {
+    "elevation_m": 725,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "Rio Amarillo also known as La Castellona or La Canteada, is an archaeological site of the Mayan civilization located in the department of Copan in Honduras…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rio Amarillo (Mayan site)",
+    "url": "https://en.wikipedia.org/wiki/Rio_Amarillo_%28Mayan_site%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q109285479.webp"
+   }
+  },
+  {
+   "id": "wd:Q28584665",
+   "name": "Immaculate Conception Cathedral, Juticalpa",
+   "label": "Immaculate Conception Cathedral, Juticalpa",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "HN-OL",
+   "country": "HN",
+   "lat": 14.6711,
+   "lon": -86.2182,
+   "rarity": "Rare",
+   "fame": 804,
+   "facts": {
+    "elevation_m": 392,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "The Immaculate Conception Cathedral is a Catholic Church located in the city of Juticalpa, in the department of Olancho.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Immaculate Conception Cathedral, Juticalpa",
+    "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Juticalpa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28584665.webp",
+    "author": "Dennis Garcia",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Juticalpa.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6683012",
+   "name": "Los Naranjos",
+   "label": "Los Naranjos",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 14.9415,
+   "lon": -88.0227,
+   "rarity": "Rare",
+   "fame": 7482,
+   "facts": {
+    "elevation_m": 644,
+    "temp_c": 20.0
+   },
+   "flavour": {
+    "text": "Los Naranjos is the name for an archaeological region in western Honduras which belongs to the Lenca culture.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Los Naranjos, Honduras",
+    "url": "https://en.wikipedia.org/wiki/Los_Naranjos%2C_Honduras",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6683012.webp",
+    "author": "Luis Alfredo Romero",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mosnticulo_de_los_anranjos.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6732501",
+   "name": "Maguen David Synagogue",
+   "label": "Maguen David Synagogue",
+   "type": "built",
+   "kind": "synagogue",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.5058,
+   "lon": -88.0358,
+   "rarity": "Rare",
+   "fame": 1212,
+   "facts": {
+    "elevation_m": 117,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "The Maguen David Synagogue is a Conservative Jewish congregation and synagogue, located in San Pedro Sula, in the Cortés department of Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maguen David Synagogue",
+    "url": "https://en.wikipedia.org/wiki/Maguen_David_Synagogue",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6732501.webp",
+    "author": "NYC2TLV",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maguen_David_Synagogue.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1161062",
+   "name": "Estadio Carlos Miranda",
+   "label": "Estadio Carlos Miranda",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "HN-CM",
+   "country": "HN",
+   "lat": 14.4538,
+   "lon": -87.6568,
+   "rarity": "Rare",
+   "fame": 1410,
+   "facts": {
+    "elevation_m": 563,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and is the home stadium of Hispano FC.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Carlos Miranda",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Carlos_Miranda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1161062.webp"
+   }
+  },
+  {
+   "id": "wd:Q5159484",
+   "name": "Conejo Island",
+   "label": "Conejo Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-VA",
+   "country": "HN",
+   "lat": 13.3478,
+   "lon": -87.7428,
+   "rarity": "Rare",
+   "fame": 9768,
+   "facts": {
+    "elevation_m": 11,
+    "area_km2": 0.0,
+    "temp_c": 28.1
+   },
+   "also_in": [
+    "SV"
+   ],
+   "flavour": {
+    "text": "Conejo Island, in Spanish Isla Conejo, meaning \"rabbit island\", lies in the Gulf of Fonseca and is disputed between El Salvador and Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Conejo Island",
+    "url": "https://en.wikipedia.org/wiki/Conejo_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5159484.webp",
+    "author": "NOAA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:GOF_Photo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3492681",
+   "name": "Patuca River",
+   "label": "Patuca River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 15.7833,
+   "lon": -84.25,
+   "rarity": "Rare",
+   "fame": 4560,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 500,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Patuca is a river in northeastern Honduras, formed southeast of Juticalpa by the merger of the Guayape and Guayambre rivers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Patuca River",
+    "url": "https://en.wikipedia.org/wiki/Patuca_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3492681.webp",
+    "author": "Marcio Martínez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Patuca_medio_e_ind%C3%ADgena_Miskito.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2419404",
+   "name": "Ulúa River",
+   "label": "Ulúa River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.9186,
+   "lon": -87.7194,
+   "rarity": "Rare",
+   "fame": 5310,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 358,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Ulúa River valley is famed for its ornate calcite vessels that date from the Mayan times.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ulúa River",
+    "url": "https://en.wikipedia.org/wiki/Ul%C3%BAa_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2419404.webp",
+    "author": "Image provided by Dr. Cheng-Chien Liu, National Cheng-Kung University (NCKU) and Dr. An-Ming Wu of the National Space Organization (NSPO) of Taiwan. Image processing also provided by Emil Cherrington, Water Center for the Humid Tropics of Latin America & the Caribbean (CATHALAC).",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Democracy_Bridge_Damaged_by_Earthquake.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6799017",
+   "name": "Sierra del Merendón",
+   "label": "Sierra del Merendón",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 14.6658,
+   "lon": -88.9816,
+   "rarity": "Rare",
+   "fame": 4404,
+   "facts": {
+    "elevation_m": 2400,
+    "temp_c": 21.3
+   },
+   "also_in": [
+    "GT"
+   ],
+   "flavour": {
+    "text": "Its south-western border is marked by the Lempa River valley, its northern border by the Motagua River valley.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra del Merendón",
+    "url": "https://en.wikipedia.org/wiki/Sierra_del_Merend%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6799017.webp",
+    "author": "Mario A. Torres",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sierra_del_Merendon_en_Honduras_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2193528",
+   "name": "Choluteca River",
+   "label": "Choluteca River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-CH",
+   "country": "HN",
+   "lat": 13.0914,
+   "lon": -87.3733,
+   "rarity": "Rare",
+   "fame": 5556,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 349,
+    "temp_c": 28.4
+   },
+   "flavour": {
+    "text": "The mouth of the river—located among wetland—is near the coastal town of Cedeño, on the Gulf of Fonseca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Choluteca River",
+    "url": "https://en.wikipedia.org/wiki/Choluteca_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2193528.webp",
+    "author": "Brbigam at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cholutecariver.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1324660",
+   "name": "Tiger Island",
+   "label": "Tiger Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "HN-VA",
+   "country": "HN",
+   "lat": 13.2656,
+   "lon": -87.6378,
+   "rarity": "Rare",
+   "fame": 9504,
+   "facts": {
+    "elevation_m": 783,
+    "prominence_m": 783,
+    "area_km2": 20,
+    "length_km": 5.9,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "El Tigre is an island located in the Gulf of Fonseca, a body of water on the Pacific coast of Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tiger Island",
+    "url": "https://en.wikipedia.org/wiki/Tiger_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1324660.webp",
+    "author": "Alfredobi",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_del_Tigre_vista_desde_Coyolito.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2114596",
+   "name": "Goascorán River",
+   "label": "Goascorán River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-LP",
+   "country": "HN",
+   "lat": 13.9642,
+   "lon": -87.6971,
+   "rarity": "Rare",
+   "fame": 2808,
+   "facts": {
+    "elevation_m": 329,
+    "length_km": 130,
+    "temp_c": 23.8
+   },
+   "also_in": [
+    "SV"
+   ],
+   "flavour": {
+    "text": "It rises in the La Sierra mountain ridge in Honduras and flows southward along the El Salvador-Honduras border for about 75 miles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Goascorán River",
+    "url": "https://en.wikipedia.org/wiki/Goascor%C3%A1n_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2114596.webp",
+    "author": "Soman",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Salvadorborder009.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5758249",
+   "name": "Pulhapanzak",
+   "label": "Pulhapanzak",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.0252,
+   "lon": -88.0024,
+   "rarity": "Rare",
+   "fame": 7458,
+   "facts": {
+    "elevation_m": 307,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "A waterfall in Cortés.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5758249.webp",
+    "author": "Apoxyomenus",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cataratas_de_Pulhapanzak.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1055875",
+   "name": "Cerro Las Minas",
+   "label": "Cerro Las Minas",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.5342,
+   "lon": -88.68,
+   "rarity": "Rare",
+   "fame": 8166,
+   "facts": {
+    "elevation_m": 2849,
+    "prominence_m": 2069,
+    "temp_c": 17.3
+   },
+   "flavour": {
+    "text": "Cerro Las Minas is the highest mountain in Honduras.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Las Minas",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Las_Minas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1055875.webp",
+    "author": "ETXEVERZ",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Celaque.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1468689",
+   "name": "Coco River",
+   "label": "Coco River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HN-GD",
+   "country": "HN",
+   "lat": 14.9972,
+   "lon": -83.1392,
+   "rarity": "Rare",
+   "fame": 10278,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 780,
+    "temp_c": 25.7
+   },
+   "also_in": [
+    "NI"
+   ],
+   "flavour": {
+    "text": "It is the longest river that runs entirely within the Central American Isthmus with a total length of 841 km.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coco River",
+    "url": "https://en.wikipedia.org/wiki/Coco_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1468689.webp",
+    "author": "NASA/GSFC/METI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cape_Gracias_a_Dios.jpg"
+   }
+  },
+  {
+   "id": "gn:3601733",
+   "name": "San Sebastián",
+   "label": "San Sebastián (Comayagua)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CM",
+   "country": "HN",
+   "lat": 14.2458,
+   "lon": -87.6398,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1471,
+    "elevation_m": 653,
+    "temp_c": 22.8
+   },
+   "flavour": {
+    "text": "A community of 1,471 people in Comayagua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3601733.webp"
+   }
+  },
+  {
+   "id": "gn:3601707",
+   "name": "Santa Ana",
+   "label": "Santa Ana (Atlántida)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-AT",
+   "country": "HN",
+   "lat": 15.65,
+   "lon": -87.0667,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3579,
+    "elevation_m": 25,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 3,579 people in Atlántida.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3601707.webp"
+   }
+  },
+  {
+   "id": "gn:3602603",
+   "name": "Salamá",
+   "label": "Salamá (Olancho)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-OL",
+   "country": "HN",
+   "lat": 14.8333,
+   "lon": -86.5833,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2820,
+    "elevation_m": 670,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "A community of 2,820 people in Olancho.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3602603.webp"
+   }
+  },
+  {
+   "id": "gn:3603224",
+   "name": "Pueblo Nuevo",
+   "label": "Pueblo Nuevo (Copán)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CP",
+   "country": "HN",
+   "lat": 15.0,
+   "lon": -88.75,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1053,
+    "elevation_m": 724,
+    "temp_c": 22.3
+   },
+   "flavour": {
+    "text": "A community of 1,053 people in Copán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3603224.webp"
+   }
+  },
+  {
+   "id": "gn:3601732",
+   "name": "San Sebastián",
+   "label": "San Sebastián (Lempira)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.25,
+   "lon": -88.5,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10857,
+    "elevation_m": 1706,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "A community of 10,857 people in Lempira.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3601732.webp"
+   }
+  },
+  {
+   "id": "gn:3610675",
+   "name": "El Porvenir",
+   "label": "El Porvenir (Cortés)",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-CR",
+   "country": "HN",
+   "lat": 15.8333,
+   "lon": -87.9333,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2940,
+    "elevation_m": 5.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 2,940 people in Cortés.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3610675.webp"
+   }
+  },
+  {
+   "id": "gn:3600951",
+   "name": "Teguajinal",
+   "label": "Teguajinal",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-YO",
+   "country": "HN",
+   "lat": 15.3667,
+   "lon": -86.6,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1117,
+    "elevation_m": 904,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A community of 1,117 people in Yoro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3600951.webp"
+   }
+  },
+  {
+   "id": "gn:3602852",
+   "name": "Reitoca",
+   "label": "Reitoca",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-FM",
+   "country": "HN",
+   "lat": 13.8258,
+   "lon": -87.4653,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1094,
+    "elevation_m": 304,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A community of 1,094 people in Francisco Morazán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3602852.webp"
+   }
+  },
+  {
+   "id": "gn:3606097",
+   "name": "La Virtud",
+   "label": "La Virtud",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.0614,
+   "lon": -88.6948,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1315,
+    "elevation_m": 291,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "A community of 1,315 people in Lempira.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3606097.webp"
+   }
+  },
+  {
+   "id": "gn:3603604",
+   "name": "Piraera",
+   "label": "Piraera",
+   "type": "town",
+   "kind": "town",
+   "region": "HN-LE",
+   "country": "HN",
+   "lat": 14.0667,
+   "lon": -88.4667,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 14124,
+    "elevation_m": 819,
+    "temp_c": 23.3
+   },
+   "flavour": {
+    "text": "A community of 14,124 people in Lempira.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3603604.webp"
+   }
+  }
+ ]
+}

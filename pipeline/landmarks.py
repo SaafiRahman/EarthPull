@@ -61,6 +61,8 @@ NATURE_CLASSES = {
     "Q162602": "island", "Q207524": "island", "Q1065592": "island", "Q202199": "island",
     "Q1132248": "glacier", "Q878077": "glacier", "Q46966": "glacier", "Q5474230": "glacier",
     "Q1896949": "national park", "Q46831": "mountain range",
+    # Volcano types (2026-11-25: Popocatépetl is only a "stratovolcano"; Mount Rainier got in as a mountain).
+    "Q169358": "volcano", "Q212057": "volcano", "Q1197120": "volcano", "Q332614": "volcano",
 }
 
 # Built items are excluded if ANY of their class labels contains one of these words.
@@ -111,7 +113,20 @@ BUILT_QUERY = PREFIXES + """SELECT DISTINCT ?i WHERE {
   ?i wdt:P17 ?ctry ; wikibase:sitelinks ?sl ; wdt:P625 ?loc . FILTER(?sl >= %(min)d)
   ?i wdt:P31/wdt:P279* wd:Q811430 .
 }"""
+# Territories: Wikidata often gives the parent country (France for Guadeloupe, the UK for Montserrat, the
+# Netherlands for Bonaire), so they found nothing by country (2026-11-25). They are also asked by "located in"
+# (P131, any depth); the point still decides the home country.
+TERRITORIES = {"PR", "VI", "GL", "AW", "CW", "SX", "BQ", "GP", "MQ", "BL", "MF", "PM", "KY", "TC", "VG", "AI", "MS", "BM"}
+NATURE_IN = NATURE_QUERY.replace("wdt:P17 wd:%(country)s", "wdt:P131+ wd:%(country)s")
+BUILT_IN = BUILT_QUERY.replace("?i wdt:P17 ?ctry", "?i wdt:P131+ ?ctry")
 BUILT_ONE = BUILT_QUERY.replace("VALUES ?ctry { %(countries)s }\n  ?i wdt:P17 ?ctry", "?i wdt:P17 wd:%(country)s")
+# Archaeological sites and ancient cities are not "structures" in Wikidata, so the building query never found
+# Chichén Itzá, Tikal or Palenque (2026-11-25). Asked for directly, all countries at once (a small set).
+ARCH_CLASSES = {"Q839954": "archaeological site", "Q15661340": "ancient city"}
+ARCH_QUERY = PREFIXES + """SELECT DISTINCT ?i WHERE {
+  VALUES ?cls { %(classes)s } VALUES ?ctry { %(countries)s }
+  ?i wdt:P31 ?cls ; wdt:P17 ?ctry ; wikibase:sitelinks ?sl ; wdt:P625 ?loc . FILTER(?sl >= %(min)d)
+}"""
 WD_API = "https://www.wikidata.org/w/api.php"
 ENT_CACHE = ROOT / "data" / "raw" / "wd_entities.json"
 METRE, FOOT = "http://www.wikidata.org/entity/Q11573", "http://www.wikidata.org/entity/Q3710"
@@ -276,6 +291,8 @@ def nature() -> pd.DataFrame:
                 got += one(allc)
             except RuntimeError:
                 got += [r for q in NATURE_CLASSES for r in one(f"wd:{q}")]
+            if c.code in TERRITORIES:
+                got += query(NATURE_IN % {"classes": allc, "country": c.qid, "wiki": wiki}, WDQS)
         rows += got
         print(f"  nature {c.code}: {len({r['i'] for r in got}):,} items", flush=True)
     ids = pd.DataFrame(rows).assign(qid=lambda d: d["i"].map(_qid), cls=lambda d: d["cls"].map(_qid))
@@ -310,12 +327,18 @@ def built() -> pd.DataFrame:
     # (429, then minutes of refusals, 2026-11-24), so: the three big countries alone, everyone else together.
     qids = []
     rest = [c for c in COUNTRIES.values() if c.code not in BIG]
-    for name, group in [(c, [COUNTRIES[c]]) for c in sorted(BIG)] + [("the rest", rest)]:
+    terr = [c for c in rest if c.code in TERRITORIES]
+    for name, group in [(c, [COUNTRIES[c]]) for c in sorted(BIG)] + [("the rest", rest), ("territories", terr)]:
         q = (BUILT_ONE % {"country": group[0].qid, "min": MIN_SITELINKS} if len(group) == 1 else
-             BUILT_QUERY % {"countries": " ".join(f"wd:{c.qid}" for c in group), "min": MIN_SITELINKS})
+             (BUILT_IN if name == "territories" else BUILT_QUERY)
+             % {"countries": " ".join(f"wd:{c.qid}" for c in group), "min": MIN_SITELINKS})
         got = query(q, ENDPOINT)
         qids += [_qid(r["i"]) for r in got]
         print(f"  built {name}: {len(got):,}", flush=True)
+    got = query(ARCH_QUERY % {"classes": " ".join(f"wd:{q}" for q in ARCH_CLASSES), "min": MIN_SITELINKS,
+                              "countries": " ".join(f"wd:{c.qid}" for c in COUNTRIES.values())}, WDQS)
+    qids += [_qid(r["i"]) for r in got]
+    print(f"  archaeological sites: {len(got):,}", flush=True)
     df = tidy(sorted(set(qids)))
     names = class_labels({c for l in df["p31"] for c in l})
     df["classes"] = df["p31"].map(lambda l: sorted({names[c] for c in l if names.get(c)}))

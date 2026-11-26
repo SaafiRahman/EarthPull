@@ -1,0 +1,1288 @@
+{
+ "note": "Sample of the Aruba card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q6980890",
+   "name": "Palm Island",
+   "label": "Palm Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4697,
+   "lon": -69.9846,
+   "rarity": "Common",
+   "fame": 2658,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 0.1,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "De Palm Island is a small private island near Aruba, Kingdom of the Netherlands, serving as a tourist attraction.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palm Island, Aruba",
+    "url": "https://en.wikipedia.org/wiki/Palm_Island%2C_Aruba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6980890.webp",
+    "author": "James Martins",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Balashi_De_Palm_Island_Ferry_Terminal_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q100605687",
+   "name": "Oranjestad Reef Islands",
+   "label": "Oranjestad Reef Islands",
+   "type": "nature",
+   "kind": "island",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5094,
+   "lon": -70.0392,
+   "rarity": "Common",
+   "fame": 354,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 9.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "The Oranjestad Reef Islands lie just off the western coast of the island of Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oranjestad Reef Islands",
+    "url": "https://en.wikipedia.org/wiki/Oranjestad_Reef_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q100605687.webp",
+    "author": "Anefo",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Luchtopname._Oranjestad,_Aruba.,_Bestanddeelnr_935-1225.jpg"
+   }
+  },
+  {
+   "id": "wd:Q594885",
+   "name": "Mount Jamanota",
+   "label": "Mount Jamanota",
+   "type": "nature",
+   "kind": "hill",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4872,
+   "lon": -69.9403,
+   "rarity": "Common",
+   "fame": 5916,
+   "facts": {
+    "elevation_m": 188,
+    "prominence_m": 188,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "Jamanota is a hill situated within Aruba's Arikok National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jamanota",
+    "url": "https://en.wikipedia.org/wiki/Jamanota",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q594885.webp",
+    "author": "Kashiunti-aua",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sero_Jamanota,_Aruba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2346379",
+   "name": "Daimari",
+   "label": "Daimari",
+   "type": "nature",
+   "kind": "bay",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5303,
+   "lon": -69.9397,
+   "rarity": "Common",
+   "fame": 318,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "Daimari is a bay on the northern coast of Aruba, on the north end of Arikok National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Daimari",
+    "url": "https://en.wikipedia.org/wiki/Daimari",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2346379.webp",
+    "author": "James Martins",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ARIKOK_NATIONAL_PARK_-_DAIMARI_BAY_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21972950",
+   "name": "Paardenbaai",
+   "label": "Paardenbaai",
+   "type": "nature",
+   "kind": "bay",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5099,
+   "lon": -70.0362,
+   "rarity": "Common",
+   "fame": 1608,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "Paardenbaai or Port of Oranjestad is the main seaport for passengers in Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Paardenbaai",
+    "url": "https://en.wikipedia.org/wiki/Paardenbaai",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21972950.webp",
+    "author": "James Martins",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aruba_Oranjestad_Paardenbaai_Bay_Lagoon_L.G._Smith_Blvd._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4784359",
+   "name": "Arashi, Aruba",
+   "label": "Arashi, Aruba",
+   "type": "nature",
+   "kind": "bay",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.6,
+   "lon": -70.05,
+   "rarity": "Common",
+   "fame": 5238,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "It is located near the settlement of Malmok and the California Lighthouse.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arashi Beach",
+    "url": "https://en.wikipedia.org/wiki/Arashi_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4784359.webp",
+    "author": "SIryn",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20190428_Arashi_beach_Aruba_-_overview.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17156261",
+   "name": "Renaissance Island",
+   "label": "Renaissance Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5003,
+   "lon": -70.0289,
+   "rarity": "Common",
+   "fame": 678,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 0.5,
+    "length_km": 3.8,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "An island in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17156261.webp",
+    "author": "James Martins",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aruba_Renaissance_island_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3577102",
+   "name": "Santa Cruz",
+   "label": "Santa Cruz",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5095,
+   "lon": -69.9809,
+   "rarity": "Common",
+   "fame": 3864,
+   "facts": {
+    "population": 15236,
+    "elevation_m": 34,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "The town is connected by Highway 7 from west to east and Highway 4 from north to south.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Cruz, Aruba",
+    "url": "https://en.wikipedia.org/wiki/Santa_Cruz%2C_Aruba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577102.webp",
+    "author": "Willem van de Poll",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Divi-diviboom_op_Aruba_bij_Santa_Cruz,_Bestanddeelnr_252-1673.jpg"
+   }
+  },
+  {
+   "id": "gn:3577150",
+   "name": "Paradera",
+   "label": "Paradera",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5351,
+   "lon": -70.0069,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 13834,
+    "elevation_m": 42,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A community of 13,834 people in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577150.webp"
+   }
+  },
+  {
+   "id": "gn:3577159",
+   "name": "Noord",
+   "label": "Noord",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.566,
+   "lon": -70.032,
+   "rarity": "Common",
+   "fame": 6996,
+   "facts": {
+    "population": 24193,
+    "elevation_m": 11,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "This town is known for its low rise and high rise hotels, restaurants, beaches, malls, the California Lighthouse, and other places of attraction.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Noord",
+    "url": "https://en.wikipedia.org/wiki/Noord",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577159.webp",
+    "author": "Hannah GR Harsveld",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LighthouseArubaHHarsveld_02.jpg"
+   }
+  },
+  {
+   "id": "gn:9179507",
+   "name": "Malmok",
+   "label": "Malmok",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.6009,
+   "lon": -70.0506,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5637,
+    "elevation_m": 9.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A community of 5,637 people in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_9179507.webp"
+   }
+  },
+  {
+   "id": "gn:3577136",
+   "name": "Pos Chiquito",
+   "label": "Pos Chiquito",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.465,
+   "lon": -69.9623,
+   "rarity": "Common",
+   "fame": 984,
+   "facts": {
+    "population": 5259,
+    "elevation_m": 8.0,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "It is located on the main road between Oranjestad and San Nicolaas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pos Chiquito",
+    "url": "https://en.wikipedia.org/wiki/Pos_Chiquito",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577136.webp",
+    "author": "Foundation53",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AH..._WHO_LOOKING_SO_SWEET.jpg"
+   }
+  },
+  {
+   "id": "gn:3577107",
+   "name": "Savaneta",
+   "label": "Savaneta",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4503,
+   "lon": -69.9381,
+   "rarity": "Common",
+   "fame": 4716,
+   "facts": {
+    "population": 11955,
+    "elevation_m": 13,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "Until 1797, it was the island's capital city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Savaneta",
+    "url": "https://en.wikipedia.org/wiki/Savaneta",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577107.webp",
+    "author": "Caribiana",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maristella_(Aruba)_17_07_19_142000.jpeg"
+   }
+  },
+  {
+   "id": "gn:3577072",
+   "name": "Tanki Leendert",
+   "label": "Tanki Leendert",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5391,
+   "lon": -70.02,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 21500,
+    "elevation_m": 26,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A community of 21,500 people in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577072.webp"
+   }
+  },
+  {
+   "id": "wd:Q2208973",
+   "name": "Alto Vista Chapel",
+   "label": "Alto Vista Chapel",
+   "type": "built",
+   "kind": "chapel",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5759,
+   "lon": -70.0109,
+   "rarity": "Epic",
+   "fame": 7944,
+   "facts": {
+    "elevation_m": 27,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "Alto Vista Chapel is a small Catholic chapel that stands on the hills above the north shore of the sea and to the northeast of the town of Noord.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alto Vista Chapel",
+    "url": "https://en.wikipedia.org/wiki/Alto_Vista_Chapel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2208973.webp",
+    "author": "Erik Cleves Kristensen",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alto_Vista_Chapel,_Aruba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1121555",
+   "name": "Guillermo Prospero Trinidad Stadium",
+   "label": "Guillermo Prospero Trinidad Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5131,
+   "lon": -70.0236,
+   "rarity": "Epic",
+   "fame": 4590,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "It is Aruba's national football stadium, named after Guillermo Trinidad, a politician from the same neighbourhood.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trinidad Stadium",
+    "url": "https://en.wikipedia.org/wiki/Trinidad_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1121555.webp",
+    "author": "Xrevbc",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trinidad_Stadium_Aruba_Pitch.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2279321",
+   "name": "California Lighthouse",
+   "label": "California Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.6134,
+   "lon": -70.0524,
+   "rarity": "Epic",
+   "fame": 9444,
+   "facts": {
+    "elevation_m": 19,
+    "height_m": 30,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "The California Lighthouse, known by locals as Faro stands tall on a limestone plateau at Hudishibana.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "California Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/California_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2279321.webp",
+    "author": "Aruba Paradise Photos",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:California_Lighthouse_by_Day.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2684679",
+   "name": "Marinierskazerne Savaneta",
+   "label": "Marinierskazerne Savaneta",
+   "type": "built",
+   "kind": "barracks",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4436,
+   "lon": -69.9359,
+   "rarity": "Epic",
+   "fame": 3660,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "A barracks in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2684679.webp",
+    "author": "Arno-1979",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PoortMSKSavaneta.jpg"
+   }
+  },
+  {
+   "id": "wd:Q280262",
+   "name": "Baby Beach",
+   "label": "Baby Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4138,
+   "lon": -69.8796,
+   "rarity": "Epic",
+   "fame": 7902,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "It's in the Mangle Cora locality, near the village of Seroe Colorado, on the southwest side of the southeast end of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Baby Beach, Aruba",
+    "url": "https://en.wikipedia.org/wiki/Baby_Beach%2C_Aruba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q280262.webp",
+    "author": "Rickzwart Rick Zwart",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Baby_Beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5325023",
+   "name": "Eagle Beach",
+   "label": "Eagle Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5492,
+   "lon": -70.0579,
+   "rarity": "Epic",
+   "fame": 9186,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "The neighbourhood is famous for its many low-rise resorts and wide public beach.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Eagle Beach",
+    "url": "https://en.wikipedia.org/wiki/Eagle_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5325023.webp",
+    "author": "Rickzwart Rick Zwart",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mangrove_tree_(Conocarpus_erectus)_Aruba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6976737",
+   "name": "Palm Beach",
+   "label": "Palm Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5667,
+   "lon": -70.0333,
+   "rarity": "Epic",
+   "fame": 6954,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A shopping district adjacent to the hotels was finished in 2009 and includes two large malls called Paseo Herencia and Palm Beach Plaza Mall.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palm Beach, Aruba",
+    "url": "https://en.wikipedia.org/wiki/Palm_Beach%2C_Aruba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6976737.webp",
+    "author": "Bjørn Christian Tørrissen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palm-Beach-Aruba-2013.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2028082",
+   "name": "Arikok National Park",
+   "label": "Arikok National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4988,
+   "lon": -69.9265,
+   "rarity": "Epic",
+   "fame": 7638,
+   "facts": {
+    "elevation_m": 70,
+    "area_km2": 34,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "Arikok National Park, covering 7,907 acres in the northeastern region of Aruba, was officially established in 2000.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arikok National Park",
+    "url": "https://en.wikipedia.org/wiki/Arikok_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2028082.webp",
+    "author": "$Mathe94$",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arikok_NP.jpg"
+   }
+  },
+  {
+   "id": "wd:Q576959",
+   "name": "MS Antilla",
+   "label": "MS Antilla",
+   "type": "built",
+   "kind": "recreational dive site",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.6019,
+   "lon": -70.0578,
+   "rarity": "Legendary",
+   "fame": 16776,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 0.1,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "SS Antilla was a Hamburg America Line cargo ship that was launched in 1939 and scuttled in 1940.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "SS Antilla (1939)",
+    "url": "https://en.wikipedia.org/wiki/SS_Antilla_%281939%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q576959.webp",
+    "author": "unbekannt, Foto aus dem Jahr 1939",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Antilla.jpg"
+   }
+  },
+  {
+   "id": "gn:3577154",
+   "name": "Oranjestad",
+   "label": "Oranjestad",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.524,
+   "lon": -70.027,
+   "rarity": "Legendary",
+   "fame": 69096,
+   "facts": {
+    "population": 29998,
+    "elevation_m": 5.0,
+    "area_km2": 23,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "Oranjestad, the capital and most populous of Aruba's eight regions, is located on the southwestern coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oranjestad",
+    "url": "https://en.wikipedia.org/wiki/Oranjestad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577154.webp",
+    "author": "Bgabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ARUBA-oranjestad-hafen-1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q25702513",
+   "name": "Arend Petroleum Company",
+   "label": "Arend Petroleum Company",
+   "type": "built",
+   "kind": "building",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5337,
+   "lon": -70.0534,
+   "rarity": "Rare",
+   "fame": 1884,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "The Arend Petroleum Company Ltd. was originally established in 1927 as \"Compania Mexicana de Petrol el Aquila\" on the island of Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arend Petroleum Company",
+    "url": "https://en.wikipedia.org/wiki/Arend_Petroleum_Company",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25702513.webp",
+    "author": "Caribiana",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arend_Petroleummij_17_47_34_873000.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q42586317",
+   "name": "Geel huisje (Yellow house)",
+   "label": "Geel huisje (Yellow house)",
+   "type": "built",
+   "kind": "building",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.521,
+   "lon": -70.0399,
+   "rarity": "Rare",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A building in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q42586317.webp",
+    "author": "Lizavanh",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yellow_House.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7592456",
+   "name": "St Ann's Church",
+   "label": "St Ann's Church",
+   "type": "built",
+   "kind": "church",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5625,
+   "lon": -70.0313,
+   "rarity": "Rare",
+   "fame": 1896,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "St Ann's Church is a Roman Catholic Church located along the northern portion of Aruba island within the Catholic Diocese of Willemstad.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St Ann's Church, Aruba",
+    "url": "https://en.wikipedia.org/wiki/St_Ann%27s_Church%2C_Aruba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7592456.webp",
+    "author": "Roger Wollstadt from Sarasota, Florida",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aruba_-_St._Anna_Church.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5309004",
+   "name": "Druif Beach",
+   "label": "Druif Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.532,
+   "lon": -70.057,
+   "rarity": "Rare",
+   "fame": 960,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "Druif Beach, is situated in Oranjestad, Aruba and spans approximately 300 metres in length.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Druif Beach",
+    "url": "https://en.wikipedia.org/wiki/Druif_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5309004.webp",
+    "author": "Jason Boldero from UK",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Druif_Beach,_Aruba,_Dutch_Antilles_(29110203071).jpg"
+   }
+  },
+  {
+   "id": "wd:Q134238838",
+   "name": "Aruba First Mosque",
+   "label": "Aruba First Mosque",
+   "type": "built",
+   "kind": "mosque",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4748,
+   "lon": -69.9567,
+   "rarity": "Rare",
+   "fame": 726,
+   "facts": {
+    "elevation_m": 34,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "The Aruba First Mosque is located in Village of Savaneta, Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aruba First Mosque",
+    "url": "https://en.wikipedia.org/wiki/Aruba_First_Mosque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q134238838.webp",
+    "author": "Caribiana",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:First_Aruban_mosque.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q96573429",
+   "name": "De Olde Molen",
+   "label": "De Olde Molen",
+   "type": "built",
+   "kind": "smock mill",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5632,
+   "lon": -70.0473,
+   "rarity": "Rare",
+   "fame": 1620,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "De Olde Molen, also known as Old Dutch Windmill, The Mill, or Alte Mühle is a non-operational octagonal smock mill with a stage reconstructed in 1961 in…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "De Olde Molen",
+    "url": "https://en.wikipedia.org/wiki/De_Olde_Molen",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q96573429.webp",
+    "author": "Boy Lawson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collectie_Nationaal_Museum_van_Wereldculturen_TM-20029584_Windmolen_%27De_Olde_Molen%27_Aruba_Boy_Lawson_(Fotograaf).jpg"
+   }
+  },
+  {
+   "id": "wd:Q16796617",
+   "name": "Juwana Morto",
+   "label": "Juwana Morto",
+   "type": "built",
+   "kind": "building",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4478,
+   "lon": -69.8866,
+   "rarity": "Rare",
+   "fame": 486,
+   "facts": {
+    "elevation_m": 36,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "Juwana Morto is former coastal artillery battery on the island of Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juwana Morto",
+    "url": "https://en.wikipedia.org/wiki/Juwana_Morto",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16796617.webp",
+    "author": "JohnathanBaena",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Commandopost.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4785386",
+   "name": "Archaeological Museum of Aruba",
+   "label": "Archaeological Museum of Aruba",
+   "type": "built",
+   "kind": "archaeological museum",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5209,
+   "lon": -70.0382,
+   "rarity": "Rare",
+   "fame": 666,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 0.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "The collections cover from 2500 BCE to the 19th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Archaeological Museum Aruba",
+    "url": "https://en.wikipedia.org/wiki/National_Archaeological_Museum_Aruba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4785386.webp",
+    "author": "Natalie Liao Jen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Archaeological_Museum_Panorama_(1),_Oranjestad,_ARUBA.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2637656",
+   "name": "Fontein",
+   "label": "Fontein",
+   "type": "built",
+   "kind": "brook",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4929,
+   "lon": -69.9062,
+   "rarity": "Rare",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "A brook in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2637656.webp"
+   }
+  },
+  {
+   "id": "wd:Q18618761",
+   "name": "Watertower San Nicolas",
+   "label": "Watertower San Nicolas",
+   "type": "built",
+   "kind": "cultural property",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4359,
+   "lon": -69.9091,
+   "rarity": "Rare",
+   "fame": 636,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "It was built in 1939 to relieve the water shortage in Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Water Tower San Nicolas",
+    "url": "https://en.wikipedia.org/wiki/Water_Tower_San_Nicolas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q18618761.webp",
+    "author": "Zuzari 11",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Watertower_San_Nicolas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q122460530",
+   "name": "Kerki Protestant Piedra Plat",
+   "label": "Kerki Protestant Piedra Plat",
+   "type": "built",
+   "kind": "church",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5222,
+   "lon": -69.9893,
+   "rarity": "Rare",
+   "fame": 294,
+   "facts": {
+    "elevation_m": 35,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "A church in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q122460530.webp",
+    "author": "SMFA",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kerki_Protestant_at_Piedra_Plat.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q123923779",
+   "name": "Vader Piet Wind Farm",
+   "label": "Vader Piet Wind Farm",
+   "type": "built",
+   "kind": "wind farm",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4741,
+   "lon": -69.8911,
+   "rarity": "Rare",
+   "fame": 918,
+   "facts": {
+    "elevation_m": 29,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "It is the first wind farm in the territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vader Piet Wind Farm",
+    "url": "https://en.wikipedia.org/wiki/Vader_Piet_Wind_Farm",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q123923779.webp",
+    "author": "Misty Johnson",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Windpark_Vaderpiet.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2455906",
+   "name": "Hooiberg",
+   "label": "Hooiberg",
+   "type": "nature",
+   "kind": "hill",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.517,
+   "lon": -69.995,
+   "rarity": "Rare",
+   "fame": 13476,
+   "facts": {
+    "elevation_m": 165,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "Hooiberg is a distinctively shaped, 165 m conical hill located at the heart of the island of Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hooiberg",
+    "url": "https://en.wikipedia.org/wiki/Hooiberg",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2455906.webp",
+    "author": "Bjørn Christian Tørrissen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aruba-Hooiberg-2013.JPG"
+   }
+  },
+  {
+   "id": "gn:3577089",
+   "name": "San Nicolas",
+   "label": "San Nicolas",
+   "type": "town",
+   "kind": "town",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.4362,
+   "lon": -69.9071,
+   "rarity": "Rare",
+   "fame": 31638,
+   "facts": {
+    "population": 14175,
+    "elevation_m": 14,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "San Nicolas is 19 kilometres southeast of Oranjestad, and is Aruba's second largest city.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Nicolaas",
+    "url": "https://en.wikipedia.org/wiki/San_Nicolaas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577089.webp",
+    "author": "Seagullbayaruba, Carlos Naranjo",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:01Nicolaas_Store.jpg"
+   }
+  },
+  {
+   "id": "wd:Q18618757",
+   "name": "Watertower Oranjestad",
+   "label": "Watertower Oranjestad",
+   "type": "built",
+   "kind": "cultural property",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5211,
+   "lon": -70.0339,
+   "rarity": "Rare",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A cultural property in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q18618757.webp",
+    "author": "Liza van Hofwegen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Watertoren_Aruba.jpg"
+   }
+  },
+  {
+   "id": "wd:Q42586321",
+   "name": "School 1888",
+   "label": "School 1888",
+   "type": "built",
+   "kind": "building",
+   "region": "AW",
+   "country": "AW",
+   "lat": 12.5188,
+   "lon": -70.0362,
+   "rarity": "Rare",
+   "fame": 84,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 28.0
+   },
+   "flavour": {
+    "text": "A building in Aruba.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q42586321.webp",
+    "author": "Natalie Liao Jen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:School_1888_(3),_Oranjestad,_ARUBA.JPG"
+   }
+  }
+ ]
+}

@@ -1,0 +1,570 @@
+{
+ "note": "Sample of the Saint Martin card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q1571601",
+   "name": "Île Tintamarre",
+   "label": "Île Tintamarre",
+   "type": "nature",
+   "kind": "island",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.1194,
+   "lon": -62.9806,
+   "rarity": "Common",
+   "fame": 6306,
+   "facts": {
+    "elevation_m": 15,
+    "area_km2": 1.2,
+    "length_km": 2.5,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "The island has no human occupants, but has been inhabited in the past.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île Tintamarre",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_Tintamarre",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1571601.webp"
+   }
+  },
+  {
+   "id": "wd:Q27572564",
+   "name": "Petite Clef",
+   "label": "Petite Clef",
+   "type": "nature",
+   "kind": "island",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.1039,
+   "lon": -63.0215,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "An island in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27572564.webp",
+    "author": "Michael A. Orlando",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caribbean_Sea_beach_on_Saint_Martin_in_January_2012_(2)_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28040396",
+   "name": "Creole Rock",
+   "label": "Creole Rock",
+   "type": "nature",
+   "kind": "island",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.1219,
+   "lon": -63.0552,
+   "rarity": "Common",
+   "fame": 978,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.2,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Creole Rock is a small islet in the Caribbean Sea off the coast of the island of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Creole Rock",
+    "url": "https://en.wikipedia.org/wiki/Creole_Rock",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28040396.webp",
+    "author": "Florian-Zet",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rocher_Creole.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21427420",
+   "name": "Pinel Island",
+   "label": "Pinel Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.1056,
+   "lon": -63.0157,
+   "rarity": "Common",
+   "fame": 4356,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Pinel Island, also known as Îlet Pinel, is a small Caribbean island off the french coast of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pinel Island",
+    "url": "https://en.wikipedia.org/wiki/Pinel_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21427420.webp",
+    "author": "SV Zanshin",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:French_Cul_de_Sac_looking_down_into_the_Baie_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28040382",
+   "name": "Rocher de l'Anse Marcel",
+   "label": "Rocher de l'Anse Marcel",
+   "type": "nature",
+   "kind": "island",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.12,
+   "lon": -63.0473,
+   "rarity": "Common",
+   "fame": 60,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "An island in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q28040382.webp"
+   }
+  },
+  {
+   "id": "gn:3578556",
+   "name": "Colombier",
+   "label": "Colombier",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0719,
+   "lon": -63.0601,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3335,
+    "elevation_m": 72,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 3,335 people in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578556.webp"
+   }
+  },
+  {
+   "id": "gn:3578434",
+   "name": "Saint-James",
+   "label": "Saint-James",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0645,
+   "lon": -63.0855,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1739,
+    "elevation_m": 8.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 1,739 people in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578434.webp"
+   }
+  },
+  {
+   "id": "gn:6984577",
+   "name": "Concordia",
+   "label": "Concordia",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0649,
+   "lon": -63.0779,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6102,
+    "elevation_m": 23,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 6,102 people in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6984577.webp"
+   }
+  },
+  {
+   "id": "gn:6984545",
+   "name": "Sandy Ground",
+   "label": "Sandy Ground",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-SX",
+   "country": "MF",
+   "lat": 18.0585,
+   "lon": -63.0994,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3493,
+    "elevation_m": 4.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 3,493 people in Sint Maarten.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6984545.webp"
+   }
+  },
+  {
+   "id": "gn:6984581",
+   "name": "Agrément",
+   "label": "Agrément",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0751,
+   "lon": -63.0783,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1876,
+    "elevation_m": 9.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 1,876 people in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_6984581.webp"
+   }
+  },
+  {
+   "id": "gn:3578557",
+   "name": "Quartier d’Orléans",
+   "label": "Quartier d’Orléans",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0691,
+   "lon": -63.0354,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3385,
+    "elevation_m": 12,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 3,385 people in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3578557.webp"
+   }
+  },
+  {
+   "id": "gn:13535720",
+   "name": "Oyster Pond",
+   "label": "Oyster Pond",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0595,
+   "lon": -63.0163,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1830,
+    "elevation_m": 1.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 1,830 people in Saint Martin.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13535720.webp"
+   }
+  },
+  {
+   "id": "gn:3578851",
+   "name": "Marigot",
+   "label": "Marigot",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0682,
+   "lon": -63.083,
+   "rarity": "Legendary",
+   "fame": 31128,
+   "facts": {
+    "population": 5700,
+    "elevation_m": 9.0,
+    "area_km2": 53,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Marigot is the main town and capital in the French Collectivity of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marigot, Saint Martin",
+    "url": "https://en.wikipedia.org/wiki/Marigot%2C_Saint_Martin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3578851.webp",
+    "author": "Original uploader was Darwinek at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Marigot_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28653426",
+   "name": "St. Martin of Tours' Church, Marigot",
+   "label": "St. Martin of Tours' Church, Marigot",
+   "type": "built",
+   "kind": "church",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0694,
+   "lon": -63.0841,
+   "rarity": "Rare",
+   "fame": 834,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "St. Martin of Tours Church is a Roman Catholic parish of the Diocese of Basse-Terre located on rue du Fort Louis in the city of Marigot.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Martin of Tours' Church, Marigot",
+    "url": "https://en.wikipedia.org/wiki/St._Martin_of_Tours%27_Church%2C_Marigot",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28653426.webp",
+    "author": "Richie Diesterheft from Chicago, IL, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eglise_Catholique_de_Marigot_(6546099035).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2325818",
+   "name": "Stade Alberic Richards",
+   "label": "Stade Alberic Richards",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0616,
+   "lon": -63.0919,
+   "rarity": "Rare",
+   "fame": 1026,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stade Alberic Richards",
+    "url": "https://en.wikipedia.org/wiki/Stade_Alberic_Richards",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2325818.webp",
+    "author": "Remy Gumbs (shady P)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stade_Alberic_Richard_%C3%A0_Saint-Martin_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3077924",
+   "name": "Fort Louis",
+   "label": "Fort Louis",
+   "type": "built",
+   "kind": "fort",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0708,
+   "lon": -63.0854,
+   "rarity": "Rare",
+   "fame": 6372,
+   "facts": {
+    "elevation_m": 40,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is located in Marigot, the capital of the French side of the island, overlooking Marigot Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Louis (Saint Martin)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Louis_%28Saint_Martin%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3077924.webp"
+   }
+  },
+  {
+   "id": "wd:Q28653516",
+   "name": "Mary Star of the Sea Church, Grand Case",
+   "label": "Mary Star of the Sea Church, Grand Case",
+   "type": "built",
+   "kind": "church",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.1011,
+   "lon": -63.057,
+   "rarity": "Rare",
+   "fame": 618,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Mary Star of the Sea Church or Grand Case Catholic Church is a religious building affiliated to the Catholic Church located in Grand Case in the territorial…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mary Star of the Sea Church, Grand Case",
+    "url": "https://en.wikipedia.org/wiki/Mary_Star_of_the_Sea_Church%2C_Grand_Case",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28653516.webp",
+    "author": "Gilbert Bochenek",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Case-Catholic_Church-St-Martin-France.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5919800",
+   "name": "Pic Paradis",
+   "label": "Pic Paradis",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.0753,
+   "lon": -63.06,
+   "rarity": "Rare",
+   "fame": 6732,
+   "facts": {
+    "elevation_m": 424,
+    "prominence_m": 424,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Pic Paradis or Pic du Paradis is the highest point in a chain of hills in the Collectivity of Saint Martin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pic Paradis",
+    "url": "https://en.wikipedia.org/wiki/Pic_Paradis",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5919800.webp",
+    "author": "Emile Traendlin",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pic_Paradis.jpg"
+   }
+  },
+  {
+   "id": "gn:3579247",
+   "name": "Grand-Case",
+   "label": "Grand-Case",
+   "type": "town",
+   "kind": "town",
+   "region": "MF",
+   "country": "MF",
+   "lat": 18.1048,
+   "lon": -63.0536,
+   "rarity": "Rare",
+   "fame": 6912,
+   "facts": {
+    "population": 6333,
+    "elevation_m": 6.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It lies on the Anguilla Channel, on the west coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Case",
+    "url": "https://en.wikipedia.org/wiki/Grand_Case",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579247.webp",
+    "author": "Filbar29",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Case.JPG"
+   }
+  }
+ ]
+}

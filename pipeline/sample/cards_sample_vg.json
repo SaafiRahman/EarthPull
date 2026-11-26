@@ -1,0 +1,1057 @@
+{
+ "note": "Sample of the British Virgin Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q3395287",
+   "name": "Great Thatch",
+   "label": "Great Thatch",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.3833,
+   "lon": -64.7167,
+   "rarity": "Common",
+   "fame": 1188,
+   "facts": {
+    "elevation_m": 134,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is one of the westernmost islands in the territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Thatch",
+    "url": "https://en.wikipedia.org/wiki/Great_Thatch",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3395287.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Thatch_ruin_-_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3326161",
+   "name": "Ginger Island",
+   "label": "Ginger Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.3934,
+   "lon": -64.4778,
+   "rarity": "Common",
+   "fame": 2562,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is one of the last undeveloped privately held islands in the territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ginger Island",
+    "url": "https://en.wikipedia.org/wiki/Ginger_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3326161.webp",
+    "author": "Katka Nemčoková",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20090821_175228_Ginger_Island_BVI.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7161393",
+   "name": "Pelican Island",
+   "label": "Pelican Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.3329,
+   "lon": -64.6259,
+   "rarity": "Common",
+   "fame": 930,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Pelican Island is an uninhabited island in the southwestern corner of the British Virgin Islands in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pelican Island (British Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/Pelican_Island_%28British_Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7161393.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Pelican_Island,_BVI.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2550546",
+   "name": "Moskito Island(BVI)",
+   "label": "Moskito Island(BVI)",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.5106,
+   "lon": -64.3939,
+   "rarity": "Common",
+   "fame": 8970,
+   "facts": {
+    "elevation_m": 74,
+    "area_km2": 0.5,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Moskito Island is an island off the coast of Virgin Gorda and has long been a favourite for scuba divers and sailors.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mosquito Island",
+    "url": "https://en.wikipedia.org/wiki/Mosquito_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2550546.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Mosquito_Island,_BVI.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5502699",
+   "name": "Frenchman's Cay",
+   "label": "Frenchman's Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.383,
+   "lon": -64.7,
+   "rarity": "Common",
+   "fame": 690,
+   "facts": {
+    "elevation_m": 94,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is located 2 km southeast from Great Thatch and is located just east of Little Thatch by a distance of approximately 400 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Frenchman's Cay",
+    "url": "https://en.wikipedia.org/wiki/Frenchman%27s_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5502699.webp"
+   }
+  },
+  {
+   "id": "wd:Q368672",
+   "name": "Peter Island",
+   "label": "Peter Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.3559,
+   "lon": -64.5711,
+   "rarity": "Common",
+   "fame": 12048,
+   "facts": {
+    "elevation_m": 83,
+    "area_km2": 7.2,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is about 5 miles south-west from Road Town, Tortola.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Peter Island",
+    "url": "https://en.wikipedia.org/wiki/Peter_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q368672.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Peter_Island,_BVI.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1551288",
+   "name": "Norman Island",
+   "label": "Norman Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.318,
+   "lon": -64.6092,
+   "rarity": "Common",
+   "fame": 11052,
+   "facts": {
+    "elevation_m": 72,
+    "area_km2": 2.5,
+    "length_km": 4.3,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is one of a number of islands reputed to be the inspiration for Robert Louis Stevenson's pirate novel Treasure Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Norman Island",
+    "url": "https://en.wikipedia.org/wiki/Norman_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1551288.webp",
+    "author": "Legis at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Norman_Island_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5329335",
+   "name": "East Seal Dog Island",
+   "label": "East Seal Dog Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.5067,
+   "lon": -64.4323,
+   "rarity": "Common",
+   "fame": 366,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is located in a smaller sub-group of islands referred to as the Dog Islands, or more commonly, \"The Dogs\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "East Seal Dog Island",
+    "url": "https://en.wikipedia.org/wiki/East_Seal_Dog_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5329335.webp"
+   }
+  },
+  {
+   "id": "wd:Q6652288",
+   "name": "Little Tobago",
+   "label": "Little Tobago",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4333,
+   "lon": -64.85,
+   "rarity": "Common",
+   "fame": 486,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Little Tobago is an uninhabited island of the British Virgin Islands in the Caribbean, located, along with sister island Great Tobago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Tobago, British Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Little_Tobago%2C_British_Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6652288.webp",
+    "author": "Gruepig",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tobagos_BVI,_2018.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6650556",
+   "name": "Little Jost Van Dyke",
+   "label": "Little Jost Van Dyke",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4536,
+   "lon": -64.7208,
+   "rarity": "Common",
+   "fame": 1212,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is a small island near the larger Jost Van Dyke.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Jost Van Dyke",
+    "url": "https://en.wikipedia.org/wiki/Little_Jost_Van_Dyke",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6650556.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karibik_-_Brit._Jungferninseln_-_Jost_van_Dyke_%E2%80%93_and_Little_Jost_van_Dyke_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3335711",
+   "name": "Nanny Cay",
+   "label": "Nanny Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4,
+   "lon": -64.6333,
+   "rarity": "Common",
+   "fame": 900,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is made up of three cays originally known as Big Cay, Little Cay and Miss Peggy Cay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nanny Cay",
+    "url": "https://en.wikipedia.org/wiki/Nanny_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3335711.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karibik_-_Brit._Jungferninseln_-_Pleasent_Valley_and_Hannah_%E2%80%93_Nanny_Cay_and_Sea_Cow_Bay_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2893661",
+   "name": "Beef Island",
+   "label": "Beef Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.45,
+   "lon": -64.5333,
+   "rarity": "Common",
+   "fame": 8706,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is located to the east of Tortola, and the two islands are connected by the Queen Elizabeth Bridge.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Beef Island",
+    "url": "https://en.wikipedia.org/wiki/Beef_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2893661.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Beef_Island,_BVI.jpg"
+   }
+  },
+  {
+   "id": "gn:3577369",
+   "name": "Spanish Town",
+   "label": "Spanish Town",
+   "type": "town",
+   "kind": "town",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4481,
+   "lon": -64.4347,
+   "rarity": "Common",
+   "fame": 3450,
+   "facts": {
+    "population": 3800,
+    "elevation_m": 5.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Spanish Town on southern Virgin Gorda is the second largest town on the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Spanish Town, British Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Spanish_Town%2C_British_Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577369.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karibik_-_Brit._Jungferninseln_-_BVI_-_Virgin_Gorda_-_the_Airport_is_right_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7715805",
+   "name": "The Baths",
+   "label": "The Baths",
+   "type": "built",
+   "kind": "beach",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4294,
+   "lon": -64.4454,
+   "rarity": "Epic",
+   "fame": 16368,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Baths is a national park and beach area on the island of Virgin Gorda among the British Virgin Islands in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Baths",
+    "url": "https://en.wikipedia.org/wiki/The_Baths",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7715805.webp",
+    "author": "Jaro Nemčok",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TheBaths_VirginGorda_BVI.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7591542",
+   "name": "St. Phillip's Church",
+   "label": "St. Phillip's Church",
+   "type": "built",
+   "kind": "church",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.416,
+   "lon": -64.5951,
+   "rarity": "Epic",
+   "fame": 1986,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "St. Phillip's Anglican Church, also known as the African Church, in the Kingstown area of Tortola in British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Phillip's Anglican Church (British Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/St._Phillip%27s_Anglican_Church_%28British_Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7591542.webp",
+    "author": "Legis at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:St_Phillips_Church,_Tortola.jpg"
+   }
+  },
+  {
+   "id": "wd:Q827604",
+   "name": "Tortola",
+   "label": "Tortola",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4167,
+   "lon": -64.5833,
+   "rarity": "Epic",
+   "fame": 96300,
+   "facts": {
+    "elevation_m": 244,
+    "area_km2": 56,
+    "length_km": 19,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Tortola is the largest and most populated island of the British Virgin Islands, a group of islands that form part of the archipelago of the Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tortola",
+    "url": "https://en.wikipedia.org/wiki/Tortola",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q827604.webp",
+    "author": "Photo: Henry A-W ( Henry aw 23:34, 10 July 2006 (UTC))",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Roadtown,_Tortola.jpg"
+   }
+  },
+  {
+   "id": "wd:Q54976435",
+   "name": "Sage Mountain National Park",
+   "label": "Sage Mountain National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4,
+   "lon": -64.65,
+   "rarity": "Epic",
+   "fame": 2106,
+   "facts": {
+    "elevation_m": 332,
+    "area_km2": 0.3,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is named after the highest peak of the island of Tortola, Mount Sage.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Sage National Park",
+    "url": "https://en.wikipedia.org/wiki/Mount_Sage_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q54976435.webp",
+    "author": "Photo: Henry A-W ( Henry aw 23:34, 10 July 2006 (UTC))",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Tortola.jpg"
+   }
+  },
+  {
+   "id": "gn:3577430",
+   "name": "Road Town",
+   "label": "Road Town",
+   "type": "town",
+   "kind": "town",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4269,
+   "lon": -64.6208,
+   "rarity": "Legendary",
+   "fame": 35550,
+   "facts": {
+    "population": 8449,
+    "elevation_m": 9.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Road Town, located on Tortola, is the capital and largest town of the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Road Town",
+    "url": "https://en.wikipedia.org/wiki/Road_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577430.webp",
+    "author": "Photo: Henry A-W ( Henry aw 23:34, 10 July 2006 (UTC))",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Roadtown,_Tortola.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7339420",
+   "name": "Road Town Fort",
+   "label": "Road Town Fort",
+   "type": "built",
+   "kind": "fort",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4203,
+   "lon": -64.6184,
+   "rarity": "Rare",
+   "fame": 408,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Road Town Fort is a colonial fort which was erected on Russell Hill in Road Town, Tortola in the British Virgin Islands above the town's main wharf.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Road Town Fort",
+    "url": "https://en.wikipedia.org/wiki/Road_Town_Fort",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7339420.webp",
+    "author": "Legis at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Road_Town_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23681919",
+   "name": "St. Ursula's Church, The Valley",
+   "label": "St. Ursula's Church, The Valley",
+   "type": "built",
+   "kind": "church",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4463,
+   "lon": -64.4365,
+   "rarity": "Rare",
+   "fame": 552,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "St. Ursula's Church is a Catholic church in The Valley on the island of Virgin Gorda in the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Ursula's Church, The Valley",
+    "url": "https://en.wikipedia.org/wiki/St._Ursula%27s_Church%2C_The_Valley",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23681919.webp"
+   }
+  },
+  {
+   "id": "wd:Q5588873",
+   "name": "Government House",
+   "label": "Government House",
+   "type": "built",
+   "kind": "building",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4215,
+   "lon": -64.616,
+   "rarity": "Rare",
+   "fame": 1956,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Government House, located in Road Town, Tortola, is the official residence of the governor of the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Government House, British Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Government_House%2C_British_Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5588873.webp",
+    "author": "Martina Jackso",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_Government_House.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7339337",
+   "name": "Road Harbour",
+   "label": "Road Harbour",
+   "type": "built",
+   "kind": "port",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4333,
+   "lon": -64.6167,
+   "rarity": "Rare",
+   "fame": 888,
+   "facts": {
+    "elevation_m": 148,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Road Harbour, located in Road Town, Tortola, is the commercial seaport of the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Road Harbour",
+    "url": "https://en.wikipedia.org/wiki/Road_Harbour",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7339337.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karibik_-_Brit._Jungferninseln_-_Road_Town_-_Harbor_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q278390",
+   "name": "A.O. Shirley Recreation Ground",
+   "label": "A.O. Shirley Recreation Ground",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4264,
+   "lon": -64.6208,
+   "rarity": "Rare",
+   "fame": 1278,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and usually hosts the British Virgin Islands national football team's games.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "A. O. Shirley Recreation Ground",
+    "url": "https://en.wikipedia.org/wiki/A._O._Shirley_Recreation_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q278390.webp"
+   }
+  },
+  {
+   "id": "wd:Q7992397",
+   "name": "Whelk Point Fort",
+   "label": "Whelk Point Fort",
+   "type": "built",
+   "kind": "fort",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4207,
+   "lon": -64.5702,
+   "rarity": "Rare",
+   "fame": 240,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The fort fell into disrepair and ruin, and relatively little of the original structure remains.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Whelk Point Fort",
+    "url": "https://en.wikipedia.org/wiki/Whelk_Point_Fort",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7992397.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Welk_Point_Fort_5.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23681839",
+   "name": "St. William's Church, Road Town",
+   "label": "St. William's Church, Road Town",
+   "type": "built",
+   "kind": "church",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4216,
+   "lon": -64.6188,
+   "rarity": "Rare",
+   "fame": 432,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "St. William's Church is a Catholic church in Road Town, the capital of the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. William's Church, Road Town",
+    "url": "https://en.wikipedia.org/wiki/St._William%27s_Church%2C_Road_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23681839.webp"
+   }
+  },
+  {
+   "id": "wd:Q5471213",
+   "name": "Fort George",
+   "label": "Fort George",
+   "type": "built",
+   "kind": "fort",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.426,
+   "lon": -64.607,
+   "rarity": "Rare",
+   "fame": 570,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Fort George is a colonial fort which was erected on the northeast edge of Road Town, Tortola in the British Virgin Islands above Baugher's Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort George, Tortola",
+    "url": "https://en.wikipedia.org/wiki/Fort_George%2C_Tortola",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471213.webp",
+    "author": "Legis at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_George_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5471877",
+   "name": "Fort Purcell",
+   "label": "Fort Purcell",
+   "type": "built",
+   "kind": "fort",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.3934,
+   "lon": -64.6511,
+   "rarity": "Rare",
+   "fame": 456,
+   "facts": {
+    "elevation_m": 59,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Fort Purcell is a ruined fort near Pockwood Pond on the island of Tortola in the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Purcell",
+    "url": "https://en.wikipedia.org/wiki/Fort_Purcell",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471877.webp",
+    "author": "Colin Riegels / Legis at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Purcell,_Tortola_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5470908",
+   "name": "Fort Charlotte",
+   "label": "Fort Charlotte",
+   "type": "built",
+   "kind": "fort",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.4135,
+   "lon": -64.6233,
+   "rarity": "Rare",
+   "fame": 564,
+   "facts": {
+    "elevation_m": 277,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The fort was named after Queen Charlotte.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Charlotte, Tortola",
+    "url": "https://en.wikipedia.org/wiki/Fort_Charlotte%2C_Tortola",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5470908.webp",
+    "author": "Legis at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Charlotte,_Tortola_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q519873",
+   "name": "Anegada",
+   "label": "Anegada",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.7313,
+   "lon": -64.3287,
+   "rarity": "Rare",
+   "fame": 20688,
+   "facts": {
+    "elevation_m": 8.5,
+    "area_km2": 39,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Anegada is the northernmost of the British Virgin Islands, a group of islands that form part of the archipelago of the Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Anegada",
+    "url": "https://en.wikipedia.org/wiki/Anegada",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q519873.webp",
+    "author": "Walker Mangum. Original uploader was Nwmangum at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:AnegadaWestEndAerial.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1139293",
+   "name": "Virgin Gorda",
+   "label": "Virgin Gorda",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.47,
+   "lon": -64.4,
+   "rarity": "Rare",
+   "fame": 23046,
+   "facts": {
+    "elevation_m": 117,
+    "area_km2": 21,
+    "length_km": 16,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Virgin Gorda is the third-largest and second-most populous island of the British Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Virgin Gorda",
+    "url": "https://en.wikipedia.org/wiki/Virgin_Gorda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1139293.webp",
+    "author": "Jcljules",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:VirginGordaOverview.jpg"
+   }
+  },
+  {
+   "id": "wd:Q747129",
+   "name": "Necker Island",
+   "label": "Necker Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.5269,
+   "lon": -64.3596,
+   "rarity": "Rare",
+   "fame": 90516,
+   "facts": {
+    "elevation_m": 16,
+    "area_km2": 0.3,
+    "length_km": 0.8,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The island is entirely owned by Sir Richard Branson, chairman of the Virgin Group, and is part of the Virgin Limited Edition portfolio of luxury properties.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Necker Island (British Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/Necker_Island_%28British_Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q747129.webp",
+    "author": "-- Legis ( talk - contribs )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Necker_Island,_BVI.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1330151",
+   "name": "Jost Van Dyke",
+   "label": "Jost Van Dyke",
+   "type": "nature",
+   "kind": "island",
+   "region": "VG",
+   "country": "VG",
+   "lat": 18.45,
+   "lon": -64.7333,
+   "rarity": "Rare",
+   "fame": 18696,
+   "facts": {
+    "elevation_m": 321,
+    "area_km2": 8.0,
+    "length_km": 6.5,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Jost Van Dyke is the smallest of the four main islands of the British Virgin Islands, measuring roughly 8 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jost Van Dyke",
+    "url": "https://en.wikipedia.org/wiki/Jost_Van_Dyke",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1330151.webp",
+    "author": "Cemerp",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:White_Bay_Jost_Van_Dyke.jpg"
+   }
+  }
+ ]
+}

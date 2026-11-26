@@ -1,0 +1,3108 @@
+{
+ "note": "Sample of the Costa Rica card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q12156520",
+   "name": "Cerro Caraigres",
+   "label": "Cerro Caraigres",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.7167,
+   "lon": -84.1333,
+   "rarity": "Common",
+   "fame": 1584,
+   "facts": {
+    "elevation_m": 2082,
+    "temp_c": 18.1
+   },
+   "flavour": {
+    "text": "A mountain in San José.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q12156520.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Caraigres._Costa_Rica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q23735177",
+   "name": "Cerro Tortuguero",
+   "label": "Cerro Tortuguero",
+   "type": "nature",
+   "kind": "hill",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.584,
+   "lon": -83.5275,
+   "rarity": "Common",
+   "fame": 1158,
+   "facts": {
+    "elevation_m": 119,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Tortuguero Volcano, also known as Tortuguero Hill, is an extinct volcano located 5.5 kilometres WNW from Tortuguero, Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tortuguero Volcano",
+    "url": "https://en.wikipedia.org/wiki/Tortuguero_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23735177.webp",
+    "author": "The Casual Tellurian",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Tortuguero.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4784120",
+   "name": "Aranjuez River",
+   "label": "Aranjuez River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.9859,
+   "lon": -84.8186,
+   "rarity": "Common",
+   "fame": 588,
+   "facts": {
+    "elevation_m": 14,
+    "length_km": 45,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Aranjuez is a river in Costa Rica that has its source in the mountains and crosses the Guatusos province of Puntarenas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aranjuez River",
+    "url": "https://en.wikipedia.org/wiki/Aranjuez_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4784120.webp",
+    "author": "Hiram Montiel Calder…",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ca%C3%B1%C3%B3n_del_R%C3%ADo_Aranjuez_-_panoramio_-_Hiram_Montiel_Calder%E2%80%A6_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2091698",
+   "name": "Volcán Tenorio",
+   "label": "Volcán Tenorio",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.6728,
+   "lon": -85.015,
+   "rarity": "Common",
+   "fame": 4188,
+   "facts": {
+    "elevation_m": 1916,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "Tenorio Volcano is an inactive andesitic stratovolcano in the southeasternmost part of the Cordillera de Guanacaste volcanic mountain range in northwestern…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tenorio Volcano",
+    "url": "https://en.wikipedia.org/wiki/Tenorio_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2091698.webp",
+    "author": "Cindy Stine, USGS",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tenorio_volcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23738548",
+   "name": "Parismina River",
+   "label": "Parismina River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.2898,
+   "lon": -83.3437,
+   "rarity": "Common",
+   "fame": 696,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Parismina River is a river in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parismina River",
+    "url": "https://en.wikipedia.org/wiki/Parismina_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23738548.webp",
+    "author": "World Wide Gifts",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Costa_Rica_-_Caribbean_Sea_-_Parismina_(Eco-Tourism)_-_06.jpg"
+   }
+  },
+  {
+   "id": "wd:Q90696032",
+   "name": "Pozo Verde",
+   "label": "Pozo Verde",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.2624,
+   "lon": -84.3558,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 1930,
+    "temp_c": 19.4
+   },
+   "flavour": {
+    "text": "Lake Pozo Verde, is a lake of volcanic origin in San Carlos, Alajuela province, Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Pozo Verde",
+    "url": "https://en.wikipedia.org/wiki/Lake_Pozo_Verde",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q90696032.webp"
+   }
+  },
+  {
+   "id": "wd:Q7061728",
+   "name": "Nosara River",
+   "label": "Nosara River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 9.9658,
+   "lon": -85.6778,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 54,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Nosara River is a river in the village of Nosara, Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nosara River",
+    "url": "https://en.wikipedia.org/wiki/Nosara_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7061728.webp",
+    "author": "Di (they-them)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Nosara_estaci%C3%B3n_lluviosa.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4815846",
+   "name": "Atirro River",
+   "label": "Atirro River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.9148,
+   "lon": -83.6909,
+   "rarity": "Common",
+   "fame": 258,
+   "facts": {
+    "elevation_m": 703,
+    "temp_c": 18.9
+   },
+   "flavour": {
+    "text": "Atirro River is a river of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Atirro River",
+    "url": "https://en.wikipedia.org/wiki/Atirro_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4815846.webp"
+   }
+  },
+  {
+   "id": "wd:Q4958313",
+   "name": "Brava",
+   "label": "Brava",
+   "type": "nature",
+   "kind": "island",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.7057,
+   "lon": -83.6887,
+   "rarity": "Common",
+   "fame": 786,
+   "facts": {
+    "elevation_m": 7.0,
+    "area_km2": 44,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is a fluvial island near the border with Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brava, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Brava%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4958313.webp"
+   }
+  },
+  {
+   "id": "wd:Q48781684",
+   "name": "Laguna de Río Cuarto",
+   "label": "Laguna de Río Cuarto",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.3569,
+   "lon": -84.2164,
+   "rarity": "Common",
+   "fame": 2196,
+   "facts": {
+    "elevation_m": 381,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is the deepest natural lake in Costa Rica at 66-metre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Río Cuarto",
+    "url": "https://en.wikipedia.org/wiki/Lake_R%C3%ADo_Cuarto",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q48781684.webp"
+   }
+  },
+  {
+   "id": "wd:Q2984377",
+   "name": "Colorado River",
+   "label": "Colorado River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.7969,
+   "lon": -83.5897,
+   "rarity": "Common",
+   "fame": 1056,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 96,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Colorado River, or the Rio Colorado, in Costa Rica is a distributary of the San Juan River which flows 96 kilometres towards the Caribbean in the northern…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colorado River (Costa Rica)",
+    "url": "https://en.wikipedia.org/wiki/Colorado_River_%28Costa_Rica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2984377.webp",
+    "author": "Carlos Baquero",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barra_del_Colorado_Waterway.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7396278",
+   "name": "Sabogal River",
+   "label": "Sabogal River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.9833,
+   "lon": -84.7333,
+   "rarity": "Common",
+   "fame": 192,
+   "facts": {
+    "elevation_m": 36,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is one of the main tributaries of the Frio River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sabogal River",
+    "url": "https://en.wikipedia.org/wiki/Sabogal_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7396278.webp"
+   }
+  },
+  {
+   "id": "gn:3624057",
+   "name": "Cot",
+   "label": "Cot",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.8947,
+   "lon": -83.8745,
+   "rarity": "Common",
+   "fame": 1302,
+   "facts": {
+    "population": 6784,
+    "elevation_m": 1842,
+    "area_km2": 15,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "Cot is a district of the Oreamuno canton, in the Cartago province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cot District",
+    "url": "https://en.wikipedia.org/wiki/Cot_District",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624057.webp"
+   }
+  },
+  {
+   "id": "gn:3622382",
+   "name": "Pital",
+   "label": "Pital",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.4506,
+   "lon": -84.2741,
+   "rarity": "Common",
+   "fame": 2526,
+   "facts": {
+    "population": 2046,
+    "elevation_m": 161,
+    "area_km2": 379,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Pital is a district of the San Carlos canton, in the Alajuela province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pital, San Carlos",
+    "url": "https://en.wikipedia.org/wiki/Pital%2C_San_Carlos",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3622382.webp"
+   }
+  },
+  {
+   "id": "gn:3623112",
+   "name": "La Suiza",
+   "label": "La Suiza",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.8506,
+   "lon": -83.6169,
+   "rarity": "Common",
+   "fame": 1278,
+   "facts": {
+    "population": 2434,
+    "elevation_m": 611,
+    "area_km2": 161,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "La Suiza is a district of the Turrialba canton, in the Cartago province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Suiza District",
+    "url": "https://en.wikipedia.org/wiki/La_Suiza_District",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623112.webp"
+   }
+  },
+  {
+   "id": "gn:3621524",
+   "name": "Santiago",
+   "label": "Santiago (San José)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.8464,
+   "lon": -84.3143,
+   "rarity": "Common",
+   "fame": 1554,
+   "facts": {
+    "population": 8292,
+    "elevation_m": 1109,
+    "area_km2": 35,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "Santiago is a district and head city of the Puriscal canton, in the San José province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santiago District, Puriscal",
+    "url": "https://en.wikipedia.org/wiki/Santiago_District%2C_Puriscal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621524.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Santiago_de_Puriscal._Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "gn:3624848",
+   "name": "Aserrí",
+   "label": "Aserrí",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.8614,
+   "lon": -84.0927,
+   "rarity": "Common",
+   "fame": 2436,
+   "facts": {
+    "population": 25874,
+    "elevation_m": 1338,
+    "area_km2": 15,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "Aserrí is a district of the Aserrí canton, in the San José province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aserrí District",
+    "url": "https://en.wikipedia.org/wiki/Aserr%C3%AD_District",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3624848.webp",
+    "author": "Erodrigufer",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Panoramic_view_Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "gn:3621440",
+   "name": "Siquirres",
+   "label": "Siquirres",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.0975,
+   "lon": -83.5066,
+   "rarity": "Common",
+   "fame": 1686,
+   "facts": {
+    "population": 18231,
+    "elevation_m": 69,
+    "area_km2": 184,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "It is a center of commerce and has most of the services for the area's locals.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Siquirres",
+    "url": "https://en.wikipedia.org/wiki/Siquirres",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621440.webp",
+    "author": "Ll1324",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Siquirres,_Costa_Rica,_Entrance.jpg"
+   }
+  },
+  {
+   "id": "gn:3624730",
+   "name": "Batán",
+   "label": "Batán",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.0835,
+   "lon": -83.3341,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4584,
+    "elevation_m": 18,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 4,584 people in Limón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624730.webp"
+   }
+  },
+  {
+   "id": "gn:3622895",
+   "name": "Matina",
+   "label": "Matina",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.0836,
+   "lon": -83.2843,
+   "rarity": "Common",
+   "fame": 1170,
+   "facts": {
+    "population": 2315,
+    "elevation_m": 10,
+    "area_km2": 351,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Matina is a district of the Matina canton, in the Limón province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Matina District",
+    "url": "https://en.wikipedia.org/wiki/Matina_District",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3622895.webp"
+   }
+  },
+  {
+   "id": "gn:3621817",
+   "name": "San Juan",
+   "label": "San Juan (Alajuela)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.1025,
+   "lon": -84.3169,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7729,
+    "elevation_m": 1090,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "A community of 7,729 people in Alajuela.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621817.webp"
+   }
+  },
+  {
+   "id": "gn:3623258",
+   "name": "La Cruz",
+   "label": "La Cruz",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 11.0738,
+   "lon": -85.6327,
+   "rarity": "Common",
+   "fame": 1890,
+   "facts": {
+    "population": 4319,
+    "elevation_m": 241,
+    "area_km2": 344,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is located in the north of the country, near the border with Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Cruz, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/La_Cruz%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623258.webp"
+   }
+  },
+  {
+   "id": "gn:3623454",
+   "name": "Hojancha",
+   "label": "Hojancha",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.0581,
+   "lon": -85.4181,
+   "rarity": "Common",
+   "fame": 702,
+   "facts": {
+    "population": 1823,
+    "elevation_m": 355,
+    "area_km2": 70,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Hojancha is a district of the Hojancha canton, in the Guanacaste province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hojancha District",
+    "url": "https://en.wikipedia.org/wiki/Hojancha_District",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623454.webp"
+   }
+  },
+  {
+   "id": "gn:3624908",
+   "name": "Ángeles",
+   "label": "Ángeles",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-H",
+   "country": "CR",
+   "lat": 9.9886,
+   "lon": -84.0592,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1355,
+    "elevation_m": 1200,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "A community of 1,355 people in Heredia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624908.webp"
+   }
+  },
+  {
+   "id": "wd:Q5614364",
+   "name": "Guayabo National Monument",
+   "label": "Guayabo National Monument",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.9724,
+   "lon": -83.6914,
+   "rarity": "Epic",
+   "fame": 7440,
+   "facts": {
+    "elevation_m": 1135,
+    "temp_c": 18.9
+   },
+   "flavour": {
+    "text": "Guayabo National Monument, is an archaeological site near the city of Turrialba, within the Central Conservation Area in the Cartago Province, Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guayabo National Monument",
+    "url": "https://en.wikipedia.org/wiki/Guayabo_National_Monument",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5614364.webp",
+    "author": "Lutz Maertens",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Guayabo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2522000",
+   "name": "Estadio Nacional de Costa Rica",
+   "label": "Estadio Nacional de Costa Rica",
+   "type": "built",
+   "kind": "stadium",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9364,
+   "lon": -84.1078,
+   "rarity": "Epic",
+   "fame": 24180,
+   "facts": {
+    "elevation_m": 1117,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "It was the first modern sporting and events arena to be built in Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Costa Rica National Stadium (2011)",
+    "url": "https://en.wikipedia.org/wiki/Costa_Rica_National_Stadium_%282011%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2522000.webp",
+    "author": "MadriCR",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Nacional_de_Costa_Rica,_2011.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369050",
+   "name": "Estadio Alejandro Morera Soto",
+   "label": "Estadio Alejandro Morera Soto",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0217,
+   "lon": -84.2092,
+   "rarity": "Epic",
+   "fame": 16374,
+   "facts": {
+    "elevation_m": 971,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "The Estadio Alejandro Morera Soto is a football stadium in El Llano neighborhood of Alajuela, Costa Rica, which is the home of Liga Deportiva Alajuelense.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Alejandro Morera Soto",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Alejandro_Morera_Soto",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369050.webp",
+    "author": "JuanJoséLP from Alajuela, Costa Rica",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Morera_Soto.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1138822",
+   "name": "National Theatre of Costa Rica",
+   "label": "National Theatre of Costa Rica",
+   "type": "built",
+   "kind": "opera house",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9332,
+   "lon": -84.077,
+   "rarity": "Epic",
+   "fame": 13866,
+   "facts": {
+    "elevation_m": 1163,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "The National Theatre of Costa Rica is Costa Rica's national theatre, located in the central section of San José.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Theatre of Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1138822.webp",
+    "author": "Mariordo ((Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_CRI_07_2019_8963.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1657264",
+   "name": "Estadio José Rafael Fello Meza Ivankovich",
+   "label": "Estadio José Rafael Fello Meza Ivankovich",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.8585,
+   "lon": -83.9187,
+   "rarity": "Epic",
+   "fame": 6168,
+   "facts": {
+    "elevation_m": 1422,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and is the home stadium of C.S. Cartaginés.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio José Rafael Fello Meza Ivankovich",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Jos%C3%A9_Rafael_Fello_Meza_Ivankovich",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1657264.webp",
+    "author": "Cartago CR",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_A%C3%A9rea_del_Estadio_Jos%C3%A9_Rafael_Fello_Meza_Ivancovich_2016_Ortogonal.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3445644",
+   "name": "Nuestra Señora de los Ángeles",
+   "label": "Nuestra Señora de los Ángeles",
+   "type": "built",
+   "kind": "church",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.8639,
+   "lon": -83.9128,
+   "rarity": "Epic",
+   "fame": 12852,
+   "facts": {
+    "elevation_m": 1428,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "The Basílica de Nuestra Señora de los Ángeles is a Roman Catholic basilica in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basilica of Our Lady of the Angels, Cartago",
+    "url": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_the_Angels%2C_Cartago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3445644.webp",
+    "author": "Bernard Gagnon",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Basilica_of_Our_Lady_of_the_Angels,_Cartago_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369626",
+   "name": "Estadio Ricardo Saprissa Aymá",
+   "label": "Estadio Ricardo Saprissa Aymá",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CR-H",
+   "country": "CR",
+   "lat": 9.9654,
+   "lon": -84.0755,
+   "rarity": "Epic",
+   "fame": 16656,
+   "facts": {
+    "elevation_m": 1170,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "Estadio Ricardo Saprissa Aymá is a football stadium in San Juan de Tibás, with a seating capacity of 23,112.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Ricardo Saprissa Aymá",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Ricardo_Saprissa_Aym%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369626.webp",
+    "author": "Kevin959503",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_Montero_Giralt.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6825031",
+   "name": "Metropolitan Cathedral of San José",
+   "label": "Metropolitan Cathedral of San José",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9328,
+   "lon": -84.0788,
+   "rarity": "Epic",
+   "fame": 5892,
+   "facts": {
+    "elevation_m": 1166,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "The original cathedral was built in 1802 but was destroyed by an earthquake.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Metropolitan Cathedral of San José",
+    "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_Jos%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6825031.webp",
+    "author": "Andy Rusch",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_in_San_Jose,_Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1189526",
+   "name": "Arenal Volcano National Park",
+   "label": "Arenal Volcano National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.4631,
+   "lon": -84.7031,
+   "rarity": "Epic",
+   "fame": 7380,
+   "facts": {
+    "elevation_m": 1619,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "Arenal Volcano National Park is a Costa Rican national park in the central part of the country, part of the Arenal Huetar Norte Conservation Area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arenal Volcano National Park",
+    "url": "https://en.wikipedia.org/wiki/Arenal_Volcano_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1189526.webp",
+    "author": "Grez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Volcan_Arenal_Costa_Rica_0065.JPG"
+   }
+  },
+  {
+   "id": "wd:Q602120",
+   "name": "Tortuguero National Park",
+   "label": "Tortuguero National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.4232,
+   "lon": -83.4967,
+   "rarity": "Epic",
+   "fame": 9534,
+   "facts": {
+    "elevation_m": 8.0,
+    "area_km2": 312,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is situated within the Tortuguero Conservation Area of the northeastern part of the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tortuguero National Park",
+    "url": "https://en.wikipedia.org/wiki/Tortuguero_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q602120.webp",
+    "author": "Lars0001",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tortuguero_caribbean_coast.jpg"
+   }
+  },
+  {
+   "id": "wd:Q773878",
+   "name": "Poás Volcano National Park",
+   "label": "Poás Volcano National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.2014,
+   "lon": -84.2418,
+   "rarity": "Epic",
+   "fame": 12888,
+   "facts": {
+    "elevation_m": 2280,
+    "area_km2": 66,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "Poás Volcano National Park is a national park in Costa Rica that covers an area of approximately 65 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Poás Volcano National Park",
+    "url": "https://en.wikipedia.org/wiki/Po%C3%A1s_Volcano_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q773878.webp",
+    "author": "Peter Andersen",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Poas_crater.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4552264",
+   "name": "Tapantí National Park",
+   "label": "Tapantí National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.7706,
+   "lon": -83.7997,
+   "rarity": "Epic",
+   "fame": 2658,
+   "facts": {
+    "elevation_m": 1234,
+    "area_km2": 583,
+    "temp_c": 18.3
+   },
+   "flavour": {
+    "text": "Tapantí - Cerro de la Muerte Massif National Park,, is a national park in the Central Conservation Area of Costa Rica located on the edge of the Talamanca…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tapantí National Park",
+    "url": "https://en.wikipedia.org/wiki/Tapant%C3%AD_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4552264.webp",
+    "author": "Mardochaios",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tapanti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4552273",
+   "name": "Turrialba Volcano National Park",
+   "label": "Turrialba Volcano National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 10.03,
+   "lon": -83.77,
+   "rarity": "Epic",
+   "fame": 1122,
+   "facts": {
+    "elevation_m": 3070,
+    "temp_c": 19.2
+   },
+   "flavour": {
+    "text": "Turrialba Volcano National Park, or in Spanish the Parque Nacional Volcan Turrialba is a national park in the Central Conservation Area of Costa Rica that…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Turrialba Volcano National Park",
+    "url": "https://en.wikipedia.org/wiki/Turrialba_Volcano_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4552273.webp",
+    "author": "Fbolanos",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Turrialba_Volcano_cone_Sept_2005_.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4175950",
+   "name": "Juan Castro Blanco National Park",
+   "label": "Juan Castro Blanco National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.2857,
+   "lon": -84.3293,
+   "rarity": "Epic",
+   "fame": 2454,
+   "facts": {
+    "elevation_m": 1922,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "Parque Nacional Juan Castro Blanco is a national park in the Arenal Huetar Norte Conservation Area in Alajuela Province in northern Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juan Castro Blanco National Park",
+    "url": "https://en.wikipedia.org/wiki/Juan_Castro_Blanco_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4175950.webp"
+   }
+  },
+  {
+   "id": "wd:Q1757413",
+   "name": "Braulio Carrillo National Park",
+   "label": "Braulio Carrillo National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 10.1599,
+   "lon": -83.9744,
+   "rarity": "Epic",
+   "fame": 4596,
+   "facts": {
+    "elevation_m": 606,
+    "area_km2": 476,
+    "temp_c": 19.4
+   },
+   "flavour": {
+    "text": "Braulio Carrillo National Park is a national park in Heredia Province, Cartago Province, Limón Province and San José Province, in central Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Braulio Carrillo National Park",
+    "url": "https://en.wikipedia.org/wiki/Braulio_Carrillo_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1757413.webp",
+    "author": "Nulldevice at English Wikipedia",
+    "licence": "GFDL",
+    "licence_url": "http://www.gnu.org/copyleft/fdl.html",
+    "page": "https://commons.wikimedia.org/wiki/File:BraulioCarrillo1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4552189",
+   "name": "La Cangreja National Park",
+   "label": "La Cangreja National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.717,
+   "lon": -84.373,
+   "rarity": "Epic",
+   "fame": 1116,
+   "facts": {
+    "elevation_m": 878,
+    "area_km2": 25,
+    "temp_c": 23.3
+   },
+   "flavour": {
+    "text": "La Cangreja National Park, until 2002 the Cerro de la Cangreja Protected Zone, is a National Park in the Puriscal Canton of San José Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Cangreja National Park",
+    "url": "https://en.wikipedia.org/wiki/La_Cangreja_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4552189.webp",
+    "author": "Ricardo Calvo Aguilar",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nature_in_Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6062995",
+   "name": "Cocos Island National Park",
+   "label": "Cocos Island National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 5.5333,
+   "lon": -87.0667,
+   "rarity": "Epic",
+   "fame": 2490,
+   "facts": {
+    "elevation_m": 341,
+    "area_km2": 1971,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A national park in Puntarenas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6062995.webp",
+    "author": "J RAWLS",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_del_Coco-chatham_beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5280758",
+   "name": "Diriá National Park",
+   "label": "Diriá National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.1731,
+   "lon": -85.5936,
+   "rarity": "Epic",
+   "fame": 1386,
+   "facts": {
+    "elevation_m": 130,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Diriá National Park, until 2004 Diriá National Forest Wildlife Refuge, is a national park south of Santa Cruz in the Guanacaste Province in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Diriá National Park",
+    "url": "https://en.wikipedia.org/wiki/Diri%C3%A1_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5280758.webp"
+   }
+  },
+  {
+   "id": "gn:3623076",
+   "name": "Liberia",
+   "label": "Liberia",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.6352,
+   "lon": -85.4378,
+   "rarity": "Epic",
+   "fame": 40512,
+   "facts": {
+    "population": 45380,
+    "elevation_m": 148,
+    "area_km2": 563,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Liberia is a district and the largest city in the Guanacaste Province of Costa Rica, 215 kilometres northwest of the national capital, San José.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Liberia, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Liberia%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3623076.webp",
+    "author": "Emw",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_Inmaculada_Concepcion_de_Maria,_Liberia,_Costa_Rica.JPG"
+   }
+  },
+  {
+   "id": "gn:3622247",
+   "name": "Limón",
+   "label": "Limón",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 9.9907,
+   "lon": -83.036,
+   "rarity": "Epic",
+   "fame": 43260,
+   "facts": {
+    "population": 63081,
+    "elevation_m": 29,
+    "area_km2": 59,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Limón, also known as Puerto Limón, is the capital city of both the province and canton of the same name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Limón",
+    "url": "https://en.wikipedia.org/wiki/Lim%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3622247.webp",
+    "author": "AndSalx95",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lim%C3%B3n_-_Catedral.jpg"
+   }
+  },
+  {
+   "id": "gn:3624955",
+   "name": "Alajuela",
+   "label": "Alajuela",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0172,
+   "lon": -84.2127,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 47494,
+    "elevation_m": 955,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "A community of 47,494 people in Alajuela.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3624955.webp"
+   }
+  },
+  {
+   "id": "gn:3622228",
+   "name": "Puntarenas",
+   "label": "Puntarenas",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.9769,
+   "lon": -84.8379,
+   "rarity": "Epic",
+   "fame": 25806,
+   "facts": {
+    "population": 35650,
+    "elevation_m": 1.0,
+    "area_km2": 47,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "As the seat of the Municipality of Puntarenas canton, it is awarded the title of city, which comprises the Puntarenas, Chacarita and El Roble districts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puntarenas",
+    "url": "https://en.wikipedia.org/wiki/Puntarenas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3622228.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_Puntarenas.jpg"
+   }
+  },
+  {
+   "id": "gn:6619864",
+   "name": "Tamarindo",
+   "label": "Tamarindo",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.2991,
+   "lon": -85.8411,
+   "rarity": "Epic",
+   "fame": 36180,
+   "facts": {
+    "population": 6375,
+    "elevation_m": 11,
+    "area_km2": 126,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Tamarindo is a district of the Santa Cruz canton, in the Guanacaste province of Costa Rica, located on the Nicoya Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tamarindo, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Tamarindo%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_6619864.webp",
+    "author": "Tamarindowiki",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Costa_Rica_Playa_Tamarindo_and_Rivermouth_2007_Aerial_Photograph_Tamarindowiki_01.JPG"
+   }
+  },
+  {
+   "id": "gn:3624370",
+   "name": "Cartago",
+   "label": "Cartago",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.8637,
+   "lon": -83.9195,
+   "rarity": "Epic",
+   "fame": 30840,
+   "facts": {
+    "population": 26594,
+    "elevation_m": 1440,
+    "area_km2": 4.0,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "Cartago is the head city of Cartago canton of the Cartago Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cartago, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Cartago%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3624370.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basilica_Virgen_de_los_Angeles_CRI_07_2018_0316.jpg"
+   }
+  },
+  {
+   "id": "gn:3623486",
+   "name": "Heredia",
+   "label": "Heredia",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-H",
+   "country": "CR",
+   "lat": 9.9987,
+   "lon": -84.1159,
+   "rarity": "Epic",
+   "fame": 6774,
+   "facts": {
+    "population": 21947,
+    "elevation_m": 1173,
+    "area_km2": 2.9,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "It is 10 kilometers to the north of the country's capital, San José.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Heredia (district)",
+    "url": "https://en.wikipedia.org/wiki/Heredia_%28district%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3623486.webp",
+    "author": "Axxis10",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fortin_y_anfiteatro.JPG"
+   }
+  },
+  {
+   "id": "wd:Q282275",
+   "name": "Stone spheres of Costa Rica",
+   "label": "Stone spheres of Costa Rica",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 8.9114,
+   "lon": -83.4775,
+   "rarity": "Legendary",
+   "fame": 66348,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "The stone spheres of Costa Rica are an assortment of over 300 petrospheres in Costa Rica, on the Diquís Delta and on Isla del Caño.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stone spheres of Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q282275.webp",
+    "author": "Axxis10",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_de_las_Esferas_de_Costa_Rica.JPG"
+   }
+  },
+  {
+   "id": "gn:3621849",
+   "name": "San José",
+   "label": "San José",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9339,
+   "lon": -84.0849,
+   "rarity": "Legendary",
+   "fame": 233274,
+   "facts": {
+    "population": 335007,
+    "elevation_m": 1133,
+    "area_km2": 45,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "San José is the capital and largest city of Costa Rica, and the capital of San José Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San José, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621849.webp",
+    "author": "Xlionheartx",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cityscape_of_San_Jos%C3%A9,_Costa_Rica_(253552473).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1656772",
+   "name": "Estadio Eladio Rosabal Cordero",
+   "label": "Estadio Eladio Rosabal Cordero",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CR-H",
+   "country": "CR",
+   "lat": 9.9996,
+   "lon": -84.1231,
+   "rarity": "Rare",
+   "fame": 5544,
+   "facts": {
+    "elevation_m": 1140,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "Estadio Eladio Rosabal Cordero was a multi-purpose stadium in Heredia, Costa Rica, and was the home stadium of the Costa Rican First Division team.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Eladio Rosabal Cordero Stadium (1949)",
+    "url": "https://en.wikipedia.org/wiki/Eladio_Rosabal_Cordero_Stadium_%281949%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1656772.webp",
+    "author": "Estebanjch",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Rosabal_Cordero.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27430732",
+   "name": "Our Lady of the Pillar Cathedral, Alajuela",
+   "label": "Our Lady of the Pillar Cathedral, Alajuela",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0167,
+   "lon": -84.2129,
+   "rarity": "Rare",
+   "fame": 1398,
+   "facts": {
+    "elevation_m": 953,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "The Our Lady of the Pillar Cathedral also called Alajuela Cathedral or Cathedral of Virgin of the Pillar.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alajuela Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Alajuela_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27430732.webp",
+    "author": "Padre Sixto",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral,_Alajuela.JPG"
+   }
+  },
+  {
+   "id": "wd:Q20968419",
+   "name": "Our Lady of Mount Carmel Cathedral, Puntarenas",
+   "label": "Our Lady of Mount Carmel Cathedral, Puntarenas",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.9777,
+   "lon": -84.8349,
+   "rarity": "Rare",
+   "fame": 972,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Our Lady of Mount Carmel Cathedral or Puntarenas Cathedral is a temple of the Roman Catholic church located in the city of Puntarenas canton of Puntarenas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puntarenas Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Puntarenas_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20968419.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Puntarenas._Costa_Rica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3495614",
+   "name": "Estadio Carlos Roldan",
+   "label": "Estadio Carlos Roldan",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0917,
+   "lon": -84.4763,
+   "rarity": "Rare",
+   "fame": 840,
+   "facts": {
+    "elevation_m": 1071,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and is the home stadium of Asociación Deportiva Ramonense.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Guillermo Vargas Roldán",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Guillermo_Vargas_Rold%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495614.webp",
+    "author": "7C7",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Guillermo_Vargas_Rold%C3%A1n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21159726",
+   "name": "Reventazón Dam",
+   "label": "Reventazón Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.0656,
+   "lon": -83.5802,
+   "rarity": "Rare",
+   "fame": 1254,
+   "facts": {
+    "elevation_m": 167,
+    "length_km": 0.5,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "The Reventazón Dam is a concrete-face rock-fill dam on the Reventazón River about 8 km southwest of Siquirres in Limón Province, Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Reventazón Dam",
+    "url": "https://en.wikipedia.org/wiki/Reventaz%C3%B3n_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21159726.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Represa_Hidroel%C3%A9ctrica_Reventaz%C3%B3n,_Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5290721",
+   "name": "Dominical",
+   "label": "Dominical",
+   "type": "built",
+   "kind": "beach",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.25,
+   "lon": -83.8667,
+   "rarity": "Rare",
+   "fame": 4242,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Dominical is a beach-front town in Bahía Ballena District, of the Osa canton in the province of Puntarenas in Costa Rica, approximately 45 km south of Quepos.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dominical, Puntarenas",
+    "url": "https://en.wikipedia.org/wiki/Dominical%2C_Puntarenas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5290721.webp",
+    "author": "User:Jdlrobson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lead_Photo_For_Dominical0-8794135402422398.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1026433",
+   "name": "Caldera",
+   "label": "Caldera",
+   "type": "built",
+   "kind": "port",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.9433,
+   "lon": -84.7167,
+   "rarity": "Rare",
+   "fame": 4974,
+   "facts": {
+    "elevation_m": 87,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Caldera Port, is the main freight port in the Pacific side of Costa Rica, located in the Esparza canton of the Puntarenas province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caldera Port",
+    "url": "https://en.wikipedia.org/wiki/Caldera_Port",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1026433.webp",
+    "author": "Mariordo (Mario Duran Ortiz)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CRI_04_2013_Puerto_Caldera_6322.JPG"
+   }
+  },
+  {
+   "id": "wd:Q10378012",
+   "name": "Tambor",
+   "label": "Tambor",
+   "type": "built",
+   "kind": "beach",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.7341,
+   "lon": -85.0116,
+   "rarity": "Rare",
+   "fame": 2316,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Tambor is a town in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tambor, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Tambor%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q10378012.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_Tambor._Costa_Rica_(18).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495669",
+   "name": "Estadio Juan Gobán",
+   "label": "Estadio Juan Gobán",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 9.9911,
+   "lon": -83.0331,
+   "rarity": "Rare",
+   "fame": 882,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "An association football venue in Limón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495669.webp",
+    "author": "JuanJoséLP from Alajuela, Costa Rica",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Juan_Gob%C3%A1n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3357547",
+   "name": "Melico Salazar Theatre",
+   "label": "Melico Salazar Theatre",
+   "type": "built",
+   "kind": "theatre building",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9335,
+   "lon": -84.0794,
+   "rarity": "Rare",
+   "fame": 2418,
+   "facts": {
+    "elevation_m": 1167,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "The Melico Salazar Theatre is located in San José, Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Melico Salazar Theatre",
+    "url": "https://en.wikipedia.org/wiki/Melico_Salazar_Theatre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3357547.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Popular_Melico_Salazar.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6063251",
+   "name": "Parque Zoológico Nacional Simón Bolívar",
+   "label": "Parque Zoológico Nacional Simón Bolívar",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9389,
+   "lon": -84.0725,
+   "rarity": "Rare",
+   "fame": 2886,
+   "facts": {
+    "elevation_m": 1155,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "It is the oldest botanical garden and zoo in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parque Zoológico Nacional Simón Bolívar",
+    "url": "https://en.wikipedia.org/wiki/Parque_Zool%C3%B3gico_Nacional_Sim%C3%B3n_Bol%C3%ADvar",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6063251.webp",
+    "author": "Rodtico21",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cebus_capucinus._Zool%C3%B3gico_Sim%C3%B3n_Bol%C3%ADvar._Costa_Rica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q27430494",
+   "name": "Our Lady of Carmel Cathedral, Cartago",
+   "label": "Our Lady of Carmel Cathedral, Cartago",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.8653,
+   "lon": -83.9226,
+   "rarity": "Rare",
+   "fame": 594,
+   "facts": {
+    "elevation_m": 1441,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "The Our Lady of Carmel Cathedral also called Cartago Cathedral is a religious building belonging to the Catholic Church and is located in the city of Cartago…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of Carmel Cathedral, Cartago",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Carmel_Cathedral%2C_Cartago",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27430494.webp"
+   }
+  },
+  {
+   "id": "wd:Q1122340",
+   "name": "Rincón de la Vieja Volcano",
+   "label": "Rincón de la Vieja Volcano",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.83,
+   "lon": -85.3239,
+   "rarity": "Rare",
+   "fame": 11400,
+   "facts": {
+    "elevation_m": 1916,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "Rincón de la Vieja is an active andesitic complex volcano in north-western Costa Rica, about 23 km from Liberia, in the province of Guanacaste.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rincón de la Vieja Volcano",
+    "url": "https://en.wikipedia.org/wiki/Rinc%C3%B3n_de_la_Vieja_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1122340.webp",
+    "author": "cyph3r [2]",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guanacaste_National_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23741984",
+   "name": "Laguna de Hule",
+   "label": "Laguna de Hule",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.2953,
+   "lon": -84.2089,
+   "rarity": "Rare",
+   "fame": 4278,
+   "facts": {
+    "elevation_m": 727,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "Lake Hule, which translates to Lake of Rubber, due to the abundance of rubber trees nearby.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Hule",
+    "url": "https://en.wikipedia.org/wiki/Lake_Hule",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q23741984.webp",
+    "author": "Apega71",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laguna_de_Hule.jpg"
+   }
+  },
+  {
+   "id": "wd:Q31938",
+   "name": "Lake Arenal",
+   "label": "Lake Arenal",
+   "type": "nature",
+   "kind": "lake",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.5333,
+   "lon": -84.9333,
+   "rarity": "Rare",
+   "fame": 15780,
+   "facts": {
+    "elevation_m": 600,
+    "area_km2": 86,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "It is the largest lake in Costa Rica at 85 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Arenal",
+    "url": "https://en.wikipedia.org/wiki/Lake_Arenal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31938.webp",
+    "author": "Grez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lac_Arenal_Costa_Rica_025.JPG"
+   }
+  },
+  {
+   "id": "wd:Q4391501",
+   "name": "Cerro de la Muerte",
+   "label": "Cerro de la Muerte",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.5667,
+   "lon": -83.75,
+   "rarity": "Rare",
+   "fame": 11094,
+   "facts": {
+    "elevation_m": 3451,
+    "temp_c": 11.9
+   },
+   "flavour": {
+    "text": "Cerro de la Muerte is a mountain peak in a massif in Costa Rica, it is located within the Tapantí — Cerro de la Muerte Massif National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro de la Muerte",
+    "url": "https://en.wikipedia.org/wiki/Cerro_de_la_Muerte",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4391501.webp",
+    "author": "Lsobrado",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro-de-la-muerte.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1969482",
+   "name": "Poás Volcano",
+   "label": "Poás Volcano",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.1978,
+   "lon": -84.2303,
+   "rarity": "Rare",
+   "fame": 18366,
+   "facts": {
+    "elevation_m": 2708,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "The Poás Volcano, is an active 2,697-metre stratovolcano in central Costa Rica located within Poas Volcano National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Poás Volcano",
+    "url": "https://en.wikipedia.org/wiki/Po%C3%A1s_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1969482.webp",
+    "author": "Peter Andersen",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Poas_crater.jpg"
+   }
+  },
+  {
+   "id": "wd:Q957600",
+   "name": "Cordillera de Talamanca",
+   "label": "Cordillera de Talamanca",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.5,
+   "lon": -83.6,
+   "rarity": "Rare",
+   "fame": 13008,
+   "facts": {
+    "elevation_m": 3820,
+    "temp_c": 17.0
+   },
+   "also_in": [
+    "PA"
+   ],
+   "flavour": {
+    "text": "Much of the range and the area around it is included in La Amistad International Park, which also is shared between the two countries.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cordillera de Talamanca",
+    "url": "https://en.wikipedia.org/wiki/Cordillera_de_Talamanca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q957600.webp",
+    "author": "Dennis from Bethany, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cataract_on_the_Rio_Savegre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1733093",
+   "name": "Miravalles Volcano",
+   "label": "Miravalles Volcano",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.7473,
+   "lon": -85.1509,
+   "rarity": "Rare",
+   "fame": 4950,
+   "facts": {
+    "elevation_m": 2028,
+    "prominence_m": 1533,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "The Miravalles Volcano is an andesitic stratovolcano within the Miravalles Protected Zone, a nature reserve in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Miravalles Volcano",
+    "url": "https://en.wikipedia.org/wiki/Miravalles_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1733093.webp",
+    "author": "William Melson (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Miravalles_volcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3377609",
+   "name": "Pacuare River",
+   "label": "Pacuare River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.2195,
+   "lon": -83.2807,
+   "rarity": "Rare",
+   "fame": 4416,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 108,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Pacuare River, or the Río Pacuare, in Costa Rica has its source in the Cordillera de Talamanca and flows approximately 108 kilometres to the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pacuare River",
+    "url": "https://en.wikipedia.org/wiki/Pacuare_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3377609.webp",
+    "author": "Grez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Pacuare_Costa_Rica_002.JPG"
+   }
+  },
+  {
+   "id": "wd:Q264925",
+   "name": "Tárcoles River",
+   "label": "Tárcoles River",
+   "type": "nature",
+   "kind": "river",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.7863,
+   "lon": -84.6412,
+   "rarity": "Rare",
+   "fame": 7788,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 111,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "The Tárcoles River, also called the Grande de Tárcoles River or the Río Grande de Tarcoles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tárcoles River",
+    "url": "https://en.wikipedia.org/wiki/T%C3%A1rcoles_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q264925.webp",
+    "author": "Abel Apaza",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_T%C3%A1rcoles_en_Costa_Rica_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q37316",
+   "name": "La Paz Waterfall",
+   "label": "La Paz Waterfall",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "CR-H",
+   "country": "CR",
+   "lat": 10.2017,
+   "lon": -84.1615,
+   "rarity": "Rare",
+   "fame": 4236,
+   "facts": {
+    "elevation_m": 37,
+    "height_m": 37,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "In Spanish, it is known as Catarata de La Paz.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Paz Waterfall (Costa Rica)",
+    "url": "https://en.wikipedia.org/wiki/La_Paz_Waterfall_%28Costa_Rica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q37316.webp",
+    "author": "Erebus555",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Paz_Waterfall,_Costa_Rica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q182214",
+   "name": "Caño Island",
+   "label": "Caño Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 8.7058,
+   "lon": -83.8786,
+   "rarity": "Rare",
+   "fame": 6936,
+   "facts": {
+    "elevation_m": 109,
+    "area_km2": 3.0,
+    "length_km": 3.2,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is on the Pacific Ocean side of Costa Rica, 10 miles west of Punta Llorona on Península de Osa.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla del Caño",
+    "url": "https://en.wikipedia.org/wiki/Isla_del_Ca%C3%B1o",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q182214.webp",
+    "author": "Peter Andersen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Isla_del_Cano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1674027",
+   "name": "Isla Calero",
+   "label": "Isla Calero",
+   "type": "nature",
+   "kind": "island",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.8495,
+   "lon": -83.6231,
+   "rarity": "Rare",
+   "fame": 4968,
+   "facts": {
+    "elevation_m": 27,
+    "area_km2": 152,
+    "length_km": 25,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Isla Calero is the largest island in Costa Rica, as well as along the San Juan River, which marks the border between Nicaragua and Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Calero",
+    "url": "https://en.wikipedia.org/wiki/Isla_Calero",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1674027.webp",
+    "author": "Axxis10",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_laguna_portillo_desde_isla_calero.JPG"
+   }
+  },
+  {
+   "id": "gn:3623656",
+   "name": "Golfito",
+   "label": "Golfito",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 8.6033,
+   "lon": -83.1134,
+   "rarity": "Rare",
+   "fame": 7008,
+   "facts": {
+    "population": 6777,
+    "elevation_m": 39,
+    "area_km2": 356,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Golfito is a district and port town of the Golfito canton, in the Puntarenas province of Costa Rica, located on the southern Pacific Coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Golfito",
+    "url": "https://en.wikipedia.org/wiki/Golfito",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3623656.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:DirkvdM_golfito-1.jpg"
+   }
+  },
+  {
+   "id": "gn:3621138",
+   "name": "Uvita",
+   "label": "Uvita",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.1704,
+   "lon": -83.7395,
+   "rarity": "Rare",
+   "fame": 17532,
+   "facts": {
+    "population": 3000,
+    "elevation_m": 63,
+    "temp_c": 23.3
+   },
+   "flavour": {
+    "text": "Uvita de Osa, is a small town in southern Costa Rica, on a section of coastline known as the Bahía Ballena.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Uvita (Costa Rica)",
+    "url": "https://en.wikipedia.org/wiki/Uvita_%28Costa_Rica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621138.webp",
+    "author": "Melissa Guadalupe Huertas",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_over_Playa_Uvita,_Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "gn:3621630",
+   "name": "Santa Ana",
+   "label": "Santa Ana",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.9326,
+   "lon": -84.1826,
+   "rarity": "Rare",
+   "fame": 5310,
+   "facts": {
+    "population": 8029,
+    "elevation_m": 909,
+    "area_km2": 5.4,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "The city acts as seat to the municipal government of the Santa Ana Canton.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Ana, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Santa_Ana%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621630.webp",
+    "author": "User:Gabriel P Chacon",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Ana_de_noche._Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "gn:3621990",
+   "name": "Sámara",
+   "label": "Sámara",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 9.8815,
+   "lon": -85.5281,
+   "rarity": "Rare",
+   "fame": 4836,
+   "facts": {
+    "population": 1071,
+    "elevation_m": 10,
+    "area_km2": 109,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Sámara is a district of the Nicoya canton, in the Guanacaste province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sámara",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A1mara",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621990.webp",
+    "author": "Haakon S. Krohn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:S%C3%A1mara.jpg"
+   }
+  },
+  {
+   "id": "gn:3621184",
+   "name": "Turrialba",
+   "label": "Turrialba",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-C",
+   "country": "CR",
+   "lat": 9.9037,
+   "lon": -83.6836,
+   "rarity": "Rare",
+   "fame": 7146,
+   "facts": {
+    "population": 28955,
+    "elevation_m": 674,
+    "area_km2": 57,
+    "temp_c": 18.9
+   },
+   "flavour": {
+    "text": "Turrialba is a district of the Turrialba canton, in the Cartago province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Turrialba (district)",
+    "url": "https://en.wikipedia.org/wiki/Turrialba_%28district%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621184.webp",
+    "author": "Dalabulu",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Municipalidad_de_Turrialba.JPG"
+   }
+  },
+  {
+   "id": "gn:3622190",
+   "name": "Quesada",
+   "label": "Quesada",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.3266,
+   "lon": -84.432,
+   "rarity": "Rare",
+   "fame": 8376,
+   "facts": {
+    "population": 27310,
+    "elevation_m": 616,
+    "area_km2": 143,
+    "temp_c": 19.4
+   },
+   "flavour": {
+    "text": "It is the head city of the canton of San Carlos.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quesada, San Carlos",
+    "url": "https://en.wikipedia.org/wiki/Quesada%2C_San_Carlos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3622190.webp",
+    "author": "Manuel A. Aguilar C.",
+    "licence": "CC BY-SA 3.0 cr",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/cr/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St._Charles_Borromeo_in_Ciudad_Quesada.jpg"
+   }
+  },
+  {
+   "id": "gn:3621644",
+   "name": "San Ramón",
+   "label": "San Ramón",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.088,
+   "lon": -84.4702,
+   "rarity": "Rare",
+   "fame": 8424,
+   "facts": {
+    "population": 10765,
+    "elevation_m": 1061,
+    "area_km2": 1.3,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "The central municipality of San Ramón covers an area of 1.29 km2 and has a population of 10,710.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Ramón, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/San_Ram%C3%B3n%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621644.webp",
+    "author": "belemita@gmail.com",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_ramon_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3623716",
+   "name": "La Fortuna",
+   "label": "La Fortuna",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.4709,
+   "lon": -84.6453,
+   "rarity": "Rare",
+   "fame": 16290,
+   "facts": {
+    "population": 3010,
+    "elevation_m": 256,
+    "area_km2": 230,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "La Fortuna is a district of the San Carlos canton, in the Alajuela province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Fortuna, San Carlos",
+    "url": "https://en.wikipedia.org/wiki/La_Fortuna%2C_San_Carlos",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3623716.webp",
+    "author": "Beate Schröder-Wettwer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arenal-Vukan_und_der_Ort_La_Fortuna.jpg"
+   }
+  },
+  {
+   "id": "gn:3621889",
+   "name": "San Isidro",
+   "label": "San Isidro",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-SJ",
+   "country": "CR",
+   "lat": 9.3674,
+   "lon": -83.6971,
+   "rarity": "Rare",
+   "fame": 15018,
+   "facts": {
+    "population": 34877,
+    "elevation_m": 713,
+    "area_km2": 192,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "San Isidro de El General is the first district of the canton of Pérez Zeledón, in the southern part of the province of San José in Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Isidro de El General",
+    "url": "https://en.wikipedia.org/wiki/San_Isidro_de_El_General",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621889.webp",
+    "author": "Mark Cowell",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Province,_San_Isidro_de_El_General,_Costa_Rica_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3623369",
+   "name": "Jacó",
+   "label": "Jacó",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.615,
+   "lon": -84.6298,
+   "rarity": "Rare",
+   "fame": 17568,
+   "facts": {
+    "population": 4085,
+    "elevation_m": 10,
+    "area_km2": 141,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Jacó has a black sand beach that is 4 km long and is popular among surfers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jacó, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/Jac%C3%B3%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623369.webp"
+   }
+  },
+  {
+   "id": "gn:3622716",
+   "name": "Nicoya",
+   "label": "Nicoya",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.1504,
+   "lon": -85.4509,
+   "rarity": "Rare",
+   "fame": 13590,
+   "facts": {
+    "population": 15313,
+    "elevation_m": 128,
+    "area_km2": 311,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Nicoya is a district and head city of the Nicoya canton, in the Guanacaste province of Costa Rica, located on the Nicoya Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nicoya",
+    "url": "https://en.wikipedia.org/wiki/Nicoya",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3622716.webp"
+   }
+  },
+  {
+   "id": "gn:3621501",
+   "name": "San Vito",
+   "label": "San Vito",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 8.8208,
+   "lon": -82.9709,
+   "rarity": "Rare",
+   "fame": 7806,
+   "facts": {
+    "population": 3981,
+    "elevation_m": 994,
+    "area_km2": 75,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "It is located about 271 kilometres southeast of the capital San José, and close to the Panama border.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Vito, Costa Rica",
+    "url": "https://en.wikipedia.org/wiki/San_Vito%2C_Costa_Rica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621501.webp"
+   }
+  },
+  {
+   "id": "gn:3621520",
+   "name": "Santiago",
+   "label": "Santiago (Alajuela)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0228,
+   "lon": -84.4442,
+   "rarity": "Common",
+   "fame": 366,
+   "facts": {
+    "population": 2107,
+    "elevation_m": 1083,
+    "area_km2": 8.0,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "Santiago is a district of the Palmares canton, in the Alajuela province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santiago District, Palmares",
+    "url": "https://en.wikipedia.org/wiki/Santiago_District%2C_Palmares",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621520.webp"
+   }
+  },
+  {
+   "id": "gn:3623715",
+   "name": "La Fortuna",
+   "label": "La Fortuna (Guanacaste)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.6743,
+   "lon": -85.1996,
+   "rarity": "Common",
+   "fame": 1296,
+   "facts": {
+    "population": 1774,
+    "elevation_m": 437,
+    "area_km2": 163,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "La Fortuna is a district of the Bagaces canton, in the Guanacaste province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Fortuna, Bagaces Cantón",
+    "url": "https://en.wikipedia.org/wiki/La_Fortuna%2C_Bagaces_Cant%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623715.webp"
+   }
+  },
+  {
+   "id": "gn:3621841",
+   "name": "San José",
+   "label": "San José (Alajuela)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.9519,
+   "lon": -85.1357,
+   "rarity": "Common",
+   "fame": 732,
+   "facts": {
+    "population": 31430,
+    "elevation_m": 50,
+    "area_km2": 285,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "San José, also known as Pizote, is a district of the Upala canton in the Alajuela province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San José District, Upala",
+    "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_District%2C_Upala",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621841.webp"
+   }
+  },
+  {
+   "id": "gn:3621683",
+   "name": "San Rafael",
+   "label": "San Rafael (Heredia)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-H",
+   "country": "CR",
+   "lat": 10.0182,
+   "lon": -84.0947,
+   "rarity": "Common",
+   "fame": 846,
+   "facts": {
+    "population": 8887,
+    "elevation_m": 1303,
+    "area_km2": 1.3,
+    "temp_c": 17.4
+   },
+   "flavour": {
+    "text": "San Rafael is a district of the San Rafael canton, in the Heredia province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Rafael District, San Rafael",
+    "url": "https://en.wikipedia.org/wiki/San_Rafael_District%2C_San_Rafael",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3621683.webp",
+    "author": "Victor Quirós A",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Rafael_de_Heredia,_Costa_Rica.jpg"
+   }
+  },
+  {
+   "id": "gn:3621679",
+   "name": "San Rafael",
+   "label": "San Rafael (Alajuela)",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-A",
+   "country": "CR",
+   "lat": 10.0644,
+   "lon": -84.4736,
+   "rarity": "Common",
+   "fame": 534,
+   "facts": {
+    "population": 3624,
+    "elevation_m": 1074,
+    "area_km2": 31,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "San Rafael is a district of the San Ramón canton, in the Alajuela province of Costa Rica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Rafael District, San Ramón",
+    "url": "https://en.wikipedia.org/wiki/San_Rafael_District%2C_San_Ram%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3621679.webp"
+   }
+  },
+  {
+   "id": "wd:Q23737030",
+   "name": "Santa Elena Bay",
+   "label": "Santa Elena Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.92,
+   "lon": -85.7994,
+   "rarity": "Common",
+   "fame": 276,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A bay in Guanacaste.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23737030.webp"
+   }
+  },
+  {
+   "id": "gn:3622765",
+   "name": "Nandayure",
+   "label": "Nandayure",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-G",
+   "country": "CR",
+   "lat": 10.0333,
+   "lon": -85.2,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1649,
+    "elevation_m": 11,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,649 people in Guanacaste.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3622765.webp"
+   }
+  },
+  {
+   "id": "gn:3623580",
+   "name": "Guápiles",
+   "label": "Guápiles",
+   "type": "town",
+   "kind": "town",
+   "region": "CR-L",
+   "country": "CR",
+   "lat": 10.2168,
+   "lon": -83.7848,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 19092,
+    "elevation_m": 254,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 19,092 people in Limón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3623580.webp"
+   }
+  },
+  {
+   "id": "wd:Q23745401",
+   "name": "Isla Cedros",
+   "label": "Isla Cedros",
+   "type": "nature",
+   "kind": "island",
+   "region": "CR-P",
+   "country": "CR",
+   "lat": 9.8464,
+   "lon": -84.8783,
+   "rarity": "Common",
+   "fame": 948,
+   "facts": {
+    "elevation_m": 55,
+    "area_km2": 0.5,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "An island in Puntarenas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23745401.webp"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2402 @@
+{
+ "note": "Sample of the Greenland card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q24842590",
+   "name": "Hubbard Gletscher",
+   "label": "Hubbard Gletscher",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 77.5661,
+   "lon": -67.7556,
+   "rarity": "Common",
+   "fame": 336,
+   "facts": {
+    "elevation_m": 216,
+    "temp_c": -14.4
+   },
+   "flavour": {
+    "text": "Administratively it belongs to the Avannaata municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hubbard Glacier (Greenland)",
+    "url": "https://en.wikipedia.org/wiki/Hubbard_Glacier_%28Greenland%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24842590.webp"
+   }
+  },
+  {
+   "id": "wd:Q2096957",
+   "name": "Pisissarfik",
+   "label": "Pisissarfik",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.45,
+   "lon": -50.5833,
+   "rarity": "Common",
+   "fame": 486,
+   "facts": {
+    "elevation_m": 1220,
+    "temp_c": -2.4
+   },
+   "flavour": {
+    "text": "The mountain plays a major role in the Inuit mythology of Pisissarfik.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pisissarfik",
+    "url": "https://en.wikipedia.org/wiki/Pisissarfik",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2096957.webp",
+    "author": "aron of Kangeq (1822-1869)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Pisissarfik.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5473637",
+   "name": "Foster Bay",
+   "label": "Foster Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 73.25,
+   "lon": -21.5,
+   "rarity": "Common",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -8.4
+   },
+   "flavour": {
+    "text": "Administratively it belongs to the NE Greenland National Park area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Foster Bay",
+    "url": "https://en.wikipedia.org/wiki/Foster_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5473637.webp"
+   }
+  },
+  {
+   "id": "wd:Q7634866",
+   "name": "Sugar Loaf Island",
+   "label": "Sugar Loaf Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 74.0167,
+   "lon": -56.9708,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 278,
+    "temp_c": -9.0
+   },
+   "flavour": {
+    "text": "The island is a single flooded mountain of 376 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sugar Loaf Island",
+    "url": "https://en.wikipedia.org/wiki/Sugar_Loaf_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7634866.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sugar-Loaf-Island.jpg"
+   }
+  },
+  {
+   "id": "wd:Q29345718",
+   "name": "Qeqertarsuaq Island",
+   "label": "Qeqertarsuaq Island (near Qasigiannguit)",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 71.5667,
+   "lon": -53.1667,
+   "rarity": "Common",
+   "fame": 84,
+   "facts": {
+    "elevation_m": 368,
+    "area_km2": 265,
+    "temp_c": -10.3
+   },
+   "flavour": {
+    "text": "Nearby islands are Illorsuit Island and Upernivik Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qeqertarsuaq Island (Karrat Fjord)",
+    "url": "https://en.wikipedia.org/wiki/Qeqertarsuaq_Island_%28Karrat_Fjord%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q29345718.webp"
+   }
+  },
+  {
+   "id": "wd:Q5499330",
+   "name": "Frederikshaab Glacier",
+   "label": "Frederikshaab Glacier",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 62.6167,
+   "lon": -49.7833,
+   "rarity": "Common",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 647,
+    "temp_c": -3.1
+   },
+   "flavour": {
+    "text": "It flows from the Greenland ice sheet and melts into various ponds and channels at its mouth that empty into Davis Strait.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Frederikshåb Glacier",
+    "url": "https://en.wikipedia.org/wiki/Frederiksh%C3%A5b_Glacier",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5499330.webp"
+   }
+  },
+  {
+   "id": "wd:Q1133831",
+   "name": "Qeqertarsuatsiaq Island",
+   "label": "Qeqertarsuatsiaq Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 70.4167,
+   "lon": -54.8833,
+   "rarity": "Common",
+   "fame": 402,
+   "facts": {
+    "elevation_m": 469,
+    "area_km2": 109,
+    "temp_c": -7.2
+   },
+   "flavour": {
+    "text": "Qeqertarsuatsiaq Island is an isolated and uninhabited island in the Avannaata municipality, in Baffin Bay off the western shore of Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qeqertarsuatsiaq Island",
+    "url": "https://en.wikipedia.org/wiki/Qeqertarsuatsiaq_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1133831.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Qeqertarsuatsiaq-island.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24842535",
+   "name": "Dodge Glacier",
+   "label": "Dodge Glacier",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 78.1667,
+   "lon": -72.6667,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 110,
+    "temp_c": -11.7
+   },
+   "flavour": {
+    "text": "Administratively it belongs to the Avannaata municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dodge Glacier",
+    "url": "https://en.wikipedia.org/wiki/Dodge_Glacier",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24842535.webp",
+    "author": "Austin Post",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Dodge_Glacier,_Calving_Ice_Cap_Distributary,_July_24,_1964_(GLACIERS_1702).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7069732",
+   "name": "Nunatakassaup Sermia",
+   "label": "Nunatakassaup Sermia (near Uummannaq)",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 74.625,
+   "lon": -56.3333,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -9.9
+   },
+   "flavour": {
+    "text": "It drains the Greenland ice sheet westwards into Melville Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nunatakassaup Sermia",
+    "url": "https://en.wikipedia.org/wiki/Nunatakassaup_Sermia",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7069732.webp"
+   }
+  },
+  {
+   "id": "wd:Q24842568",
+   "name": "Granville Fjord",
+   "label": "Granville Fjord",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 76.8725,
+   "lon": -70.0192,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -13.9
+   },
+   "flavour": {
+    "text": "Granville Fjord is a fjord in Avannaata municipality, Northwest Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Granville Fjord",
+    "url": "https://en.wikipedia.org/wiki/Granville_Fjord",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24842568.webp"
+   }
+  },
+  {
+   "id": "wd:Q23784991",
+   "name": "Sutherland Island",
+   "label": "Sutherland Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 78.15,
+   "lon": -72.9,
+   "rarity": "Common",
+   "fame": 216,
+   "facts": {
+    "elevation_m": 90,
+    "temp_c": -11.5
+   },
+   "flavour": {
+    "text": "Sutherland Island is an island in Baffin Bay, in Avannaata municipality, off the NW shores of Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sutherland Island",
+    "url": "https://en.wikipedia.org/wiki/Sutherland_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23784991.webp"
+   }
+  },
+  {
+   "id": "wd:Q24840264",
+   "name": "Bertelsen Glacier",
+   "label": "Bertelsen Glacier",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 83.35,
+   "lon": -27.25,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 288,
+    "temp_c": 0.0
+   },
+   "flavour": {
+    "text": "Administratively it belongs to the Northeast Greenland National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bertelsen Glacier",
+    "url": "https://en.wikipedia.org/wiki/Bertelsen_Glacier",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24840264.webp"
+   }
+  },
+  {
+   "id": "gn:3426193",
+   "name": "Uummannaq",
+   "label": "Uummannaq",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 70.6744,
+   "lon": -52.1255,
+   "rarity": "Common",
+   "fame": 19494,
+   "facts": {
+    "population": 1407,
+    "elevation_m": 15,
+    "area_km2": 10,
+    "temp_c": -4.7
+   },
+   "flavour": {
+    "text": "With 1,407 inhabitants in 2020, it is the eighth-largest town in Greenland, and is home to the country's most northerly ferry terminal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Uummannaq",
+    "url": "https://en.wikipedia.org/wiki/Uummannaq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3426193.webp",
+    "author": "JuBo14",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Uummannaq.jpg"
+   }
+  },
+  {
+   "id": "gn:3421982",
+   "name": "Maniitsoq",
+   "label": "Maniitsoq",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 65.4151,
+   "lon": -52.8982,
+   "rarity": "Common",
+   "fame": 10644,
+   "facts": {
+    "population": 2534,
+    "elevation_m": 9.0,
+    "area_km2": 8.5,
+    "temp_c": -2.5
+   },
+   "flavour": {
+    "text": "With 2,534 inhabitants as of 2020, it is the sixth-largest town in Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maniitsoq",
+    "url": "https://en.wikipedia.org/wiki/Maniitsoq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3421982.webp",
+    "author": "visitgreenland",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Heilmann_Lyberth,_Maniitsoq-1.jpg"
+   }
+  },
+  {
+   "id": "gn:3421765",
+   "name": "Nanortalik",
+   "label": "Nanortalik",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 60.1417,
+   "lon": -45.2407,
+   "rarity": "Common",
+   "fame": 16416,
+   "facts": {
+    "population": 1185,
+    "elevation_m": 9.0,
+    "area_km2": 10,
+    "temp_c": 1.9
+   },
+   "flavour": {
+    "text": "With 1,072 inhabitants as of 2024, it is the eleventh-largest town in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nanortalik",
+    "url": "https://en.wikipedia.org/wiki/Nanortalik",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3421765.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nanortalik1.jpg"
+   }
+  },
+  {
+   "id": "gn:3424607",
+   "name": "Tasiilaq",
+   "label": "Tasiilaq",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 65.6145,
+   "lon": -37.6368,
+   "rarity": "Common",
+   "fame": 31068,
+   "facts": {
+    "population": 1985,
+    "elevation_m": 23,
+    "temp_c": -2.4
+   },
+   "flavour": {
+    "text": "Tasiilaq, formerly Ammassalik or Angmagssalik, is a town on Ammassalik Island in southeastern Greenland, within the municipality of Sermersooq.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tasiilaq",
+    "url": "https://en.wikipedia.org/wiki/Tasiilaq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3424607.webp",
+    "author": "Helene Brochmann",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tasiilaq,_view_of_the_middle_of_the_town.jpg"
+   }
+  },
+  {
+   "id": "gn:3418910",
+   "name": "Upernavik",
+   "label": "Upernavik",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 72.7836,
+   "lon": -56.1493,
+   "rarity": "Common",
+   "fame": 14022,
+   "facts": {
+    "population": 1129,
+    "elevation_m": 36,
+    "area_km2": 4.2,
+    "temp_c": -8.0
+   },
+   "flavour": {
+    "text": "Upernavik is a small town in the Avannaata municipality in northwestern Greenland, located on a small island of the same name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Upernavik",
+    "url": "https://en.wikipedia.org/wiki/Upernavik",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3418910.webp",
+    "author": "Magnus Hansen, son of Kim Hansen",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Upernavik_town_aerial_1_2007-07-11.jpg"
+   }
+  },
+  {
+   "id": "gn:3421719",
+   "name": "Narsaq",
+   "label": "Narsaq",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 60.913,
+   "lon": -46.0506,
+   "rarity": "Common",
+   "fame": 13308,
+   "facts": {
+    "population": 1346,
+    "elevation_m": 82,
+    "temp_c": 0.1
+   },
+   "flavour": {
+    "text": "Narsaq, formerly Nordprøven, is a town in Kujalleq, Greenland, Kingdom of Denmark on the shores of Tunulliarfik Fjord.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Narsaq",
+    "url": "https://en.wikipedia.org/wiki/Narsaq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3421719.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Narsaq-from-Qaaqarsuaq.jpg"
+   }
+  },
+  {
+   "id": "gn:3420768",
+   "name": "Qasigiannguit",
+   "label": "Qasigiannguit",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 68.8193,
+   "lon": -51.1922,
+   "rarity": "Common",
+   "fame": 5880,
+   "facts": {
+    "population": 1081,
+    "elevation_m": 13,
+    "area_km2": 2.8,
+    "temp_c": -4.3
+   },
+   "flavour": {
+    "text": "Qasigiannguit, also known as Christianshåb, is a town located in western Greenland on the southeastern shore of Disko Bay in the Qeqertalik municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qasigiannguit",
+    "url": "https://en.wikipedia.org/wiki/Qasigiannguit",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3420768.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Qasigiannguit-aerial.jpg"
+   }
+  },
+  {
+   "id": "gn:3421193",
+   "name": "Paamiut",
+   "label": "Paamiut",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 61.994,
+   "lon": -49.6678,
+   "rarity": "Common",
+   "fame": 11796,
+   "facts": {
+    "population": 1308,
+    "elevation_m": 1.0,
+    "area_km2": 18,
+    "temp_c": 0.1
+   },
+   "flavour": {
+    "text": "Paamiut, also known as Frederikshåb, is a town in southwestern Greenland in the Sermersooq municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Paamiut",
+    "url": "https://en.wikipedia.org/wiki/Paamiut",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3421193.webp",
+    "author": "Clemensfranz",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paamiut_Zentrum.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1635061",
+   "name": "Nuuk Stadium",
+   "label": "Nuuk Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1808,
+   "lon": -51.7325,
+   "rarity": "Epic",
+   "fame": 9444,
+   "facts": {
+    "elevation_m": 43,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nuuk Stadium",
+    "url": "https://en.wikipedia.org/wiki/Nuuk_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1635061.webp",
+    "author": "Henrik Karll",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuuk_Stadium_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q12318725",
+   "name": "Thule Site J",
+   "label": "Thule Site J",
+   "type": "built",
+   "kind": "building",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 76.5694,
+   "lon": -68.2933,
+   "rarity": "Epic",
+   "fame": 9828,
+   "facts": {
+    "elevation_m": 361,
+    "temp_c": -12.4
+   },
+   "flavour": {
+    "text": "Thule Site J is a United States Space Force radar station in Greenland near Pituffik Space Base for missile warning and spacecraft tracking.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thule Site J",
+    "url": "https://en.wikipedia.org/wiki/Thule_Site_J",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q12318725.webp",
+    "author": "Service Depicted: Air Force Camera Operator: MSGT GLEN D. PLUMMER",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Thule_BMEWS.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1703519",
+   "name": "Church of Hvalsey",
+   "label": "Church of Hvalsey",
+   "type": "built",
+   "kind": "church ruin",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 60.8281,
+   "lon": -45.7804,
+   "rarity": "Epic",
+   "fame": 21384,
+   "facts": {
+    "elevation_m": 6.0,
+    "length_km": 0.0,
+    "temp_c": 0.4
+   },
+   "flavour": {
+    "text": "The best preserved Norse ruins in Greenland, the church was also the location of the last written record of the Greenlandic Norse, a wedding in September 1408.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hvalsey Church",
+    "url": "https://en.wikipedia.org/wiki/Hvalsey_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1703519.webp",
+    "author": "Visit Greenland",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_Hvalsey_-_Ella_Groedem_54_-_ilovegreenland.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1817250",
+   "name": "Qilakitsoq",
+   "label": "Qilakitsoq",
+   "type": "built",
+   "kind": "abandoned hamlet",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 70.6086,
+   "lon": -52.1819,
+   "rarity": "Epic",
+   "fame": 12870,
+   "facts": {
+    "elevation_m": 127,
+    "temp_c": -10.9
+   },
+   "flavour": {
+    "text": "It is the location of the discovery of eight mummified corpses from the Thule period.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qilakitsoq",
+    "url": "https://en.wikipedia.org/wiki/Qilakitsoq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1817250.webp",
+    "author": "Choffa",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Qilakitsoq_I-1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q798672",
+   "name": "Brattahlíð",
+   "label": "Brattahlíð",
+   "type": "built",
+   "kind": "ruins",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 61.156,
+   "lon": -45.516,
+   "rarity": "Epic",
+   "fame": 17826,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": -0.2
+   },
+   "flavour": {
+    "text": "Brattahlíð, often anglicised as Brattahlid, was Erik the Red's estate in the Eastern Settlement Viking colony he established in south-western Greenland toward…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brattahlíð",
+    "url": "https://en.wikipedia.org/wiki/Brattahl%C3%AD%C3%B0",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q798672.webp"
+   }
+  },
+  {
+   "id": "wd:Q131520504",
+   "name": "Pituffik Space Base",
+   "label": "Pituffik Space Base",
+   "type": "built",
+   "kind": "space force base",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 76.5311,
+   "lon": -68.7031,
+   "rarity": "Epic",
+   "fame": 147438,
+   "facts": {
+    "elevation_m": 68,
+    "temp_c": -11.5
+   },
+   "flavour": {
+    "text": "Pituffik Space Base, formerly Thule Air Base, is a United States Space Force base located on the northwest coast of Greenland in the Kingdom of Denmark under…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pituffik Space Base",
+    "url": "https://en.wikipedia.org/wiki/Pituffik_Space_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q131520504.webp",
+    "author": "TSGT Lee E. Schading / U.S. Air Force",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Thule_Air_Base_aerial_view.jpg"
+   }
+  },
+  {
+   "id": "wd:Q14759900",
+   "name": "Greenland's Grand Canyon",
+   "label": "Greenland's Grand Canyon",
+   "type": "nature",
+   "kind": "canyon",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 79.0,
+   "lon": -46.0,
+   "rarity": "Epic",
+   "fame": 5466,
+   "facts": {
+    "elevation_m": 2308,
+    "length_km": 750,
+    "temp_c": -25.5
+   },
+   "flavour": {
+    "text": "The Grand Canyon of Greenland is a tentative canyon of record length discovered underneath the Greenland ice sheet as reported in the journal Science on 30…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Canyon (Greenland)",
+    "url": "https://en.wikipedia.org/wiki/Grand_Canyon_%28Greenland%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q14759900.webp"
+   }
+  },
+  {
+   "id": "wd:Q299062",
+   "name": "ATOW1996",
+   "label": "ATOW1996",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 83.6763,
+   "lon": -30.6441,
+   "rarity": "Epic",
+   "fame": 7266,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "length_km": 0.0,
+    "temp_c": -2.7
+   },
+   "flavour": {
+    "text": "ATOW1996 was one of the places formerly considered as a potential northernmost documented points of land on Earth.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "ATOW1996",
+    "url": "https://en.wikipedia.org/wiki/ATOW1996",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q299062.webp"
+   }
+  },
+  {
+   "id": "wd:Q7056846",
+   "name": "North Star Bay",
+   "label": "North Star Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 76.55,
+   "lon": -68.8275,
+   "rarity": "Epic",
+   "fame": 4074,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -11.5
+   },
+   "flavour": {
+    "text": "North Star Bay, also known as Thule Harbor and Wolstenholme Bay, is at the mouth of Wolstenholme Fjord in north-west Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "North Star Bay",
+    "url": "https://en.wikipedia.org/wiki/North_Star_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7056846.webp",
+    "author": "USAF",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Thule_air_base_above.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q1970121",
+   "name": "Skaergaard intrusion",
+   "label": "Skaergaard intrusion",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 68.1683,
+   "lon": -31.7169,
+   "rarity": "Epic",
+   "fame": 3846,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": -6.8
+   },
+   "flavour": {
+    "text": "The Skaergaard intrusion is a layered igneous intrusion in the Kangerlussuaq area of East Greenland and is composed of various rocks and minerals including…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Skaergaard intrusion",
+    "url": "https://en.wikipedia.org/wiki/Skaergaard_intrusion",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1970121.webp",
+    "author": "C. Tegner",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skaergaard_Layered_Igneous_Intrusion_in_Greenland.jpg"
+   }
+  },
+  {
+   "id": "wd:Q825709",
+   "name": "Gunnbjørn Fjeld",
+   "label": "Gunnbjørn Fjeld",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 68.9195,
+   "lon": -29.8985,
+   "rarity": "Epic",
+   "fame": 38928,
+   "facts": {
+    "elevation_m": 3694,
+    "prominence_m": 3694,
+    "temp_c": -17.9
+   },
+   "flavour": {
+    "text": "Gunnbjørn Fjeld is the highest mountain in Greenland, north of the Arctic Circle, and the highest point in North America not on the mainland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gunnbjørn Fjeld",
+    "url": "https://en.wikipedia.org/wiki/Gunnbj%C3%B8rn_Fjeld",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q825709.webp",
+    "author": "Maxim Bouev",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:GunnbjornFromAboveABC.jpg"
+   }
+  },
+  {
+   "id": "wd:Q770424",
+   "name": "Jakobshavn Glacier",
+   "label": "Jakobshavn Glacier",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 69.1667,
+   "lon": -49.8333,
+   "rarity": "Epic",
+   "fame": 7758,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -8.1
+   },
+   "flavour": {
+    "text": "It is located near the Greenlandic town of Ilulissat and ends at the sea in the Ilulissat Icefjord.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jakobshavn Glacier",
+    "url": "https://en.wikipedia.org/wiki/Jakobshavn_Glacier",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q770424.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Greenland_Ilulissat-20.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1135227",
+   "name": "Disko Bay",
+   "label": "Disko Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 69.0,
+   "lon": -52.0,
+   "rarity": "Epic",
+   "fame": 13074,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -4.0
+   },
+   "flavour": {
+    "text": "The bay constitutes a wide southeastern inlet of Baffin Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Disko Bay",
+    "url": "https://en.wikipedia.org/wiki/Disko_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1135227.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Disko-bay-rays.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1228827",
+   "name": "Disko Island",
+   "label": "Disko Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 69.75,
+   "lon": -53.5,
+   "rarity": "Epic",
+   "fame": 23934,
+   "facts": {
+    "elevation_m": 1919,
+    "area_km2": 8612,
+    "length_km": 160,
+    "temp_c": -10.2
+   },
+   "flavour": {
+    "text": "It has an area of 8,578 km2, making it the second largest island of Greenland, and one of the 100 largest islands in the world.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Disko Island",
+    "url": "https://en.wikipedia.org/wiki/Disko_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1228827.webp",
+    "author": "Makemake at German Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Qeqertarsuaq.JPG"
+   }
+  },
+  {
+   "id": "wd:Q309276",
+   "name": "Northeast Greenland National Park",
+   "label": "Northeast Greenland National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 77.2,
+   "lon": -37.5,
+   "rarity": "Epic",
+   "fame": 45228,
+   "facts": {
+    "elevation_m": 2429,
+    "temp_c": -25.4
+   },
+   "flavour": {
+    "text": "Northeast Greenland National Park is the world's largest national park and the 10th largest protected area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Northeast Greenland National Park",
+    "url": "https://en.wikipedia.org/wiki/Northeast_Greenland_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q309276.webp",
+    "author": "Jerzy Strzelecki",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Franz_Josef_Fjord,_glacier.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2529799",
+   "name": "Ella Island",
+   "label": "Ella Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 72.85,
+   "lon": -25.0,
+   "rarity": "Epic",
+   "fame": 3792,
+   "facts": {
+    "elevation_m": 498,
+    "temp_c": -8.8
+   },
+   "flavour": {
+    "text": "It was established in 1941 to enforce Danish sovereignty in Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ella Island",
+    "url": "https://en.wikipedia.org/wiki/Ella_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2529799.webp",
+    "author": "Håvard Berland",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ella_Island,_East_Greenland,_august_2007.jpg"
+   }
+  },
+  {
+   "id": "gn:3424901",
+   "name": "Aasiaat",
+   "label": "Aasiaat",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 68.7087,
+   "lon": -52.8637,
+   "rarity": "Epic",
+   "fame": 16662,
+   "facts": {
+    "population": 3005,
+    "elevation_m": 1.0,
+    "area_km2": 4000,
+    "temp_c": -4.5
+   },
+   "flavour": {
+    "text": "Aasiaat, also known as Egedesminde, is a town in the Qeqertalik municipality in western Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aasiaat",
+    "url": "https://en.wikipedia.org/wiki/Aasiaat",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3424901.webp",
+    "author": "Vaido Otsar",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aasiaat_2016_06.jpg"
+   }
+  },
+  {
+   "id": "gn:3423146",
+   "name": "Ilulissat",
+   "label": "Ilulissat",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 69.2198,
+   "lon": -51.0986,
+   "rarity": "Epic",
+   "fame": 56106,
+   "facts": {
+    "population": 4413,
+    "elevation_m": 11,
+    "area_km2": 11,
+    "temp_c": -4.4
+   },
+   "flavour": {
+    "text": "Ilulissat, also known as Jakobshavn or Jacobshavn, is the municipal seat and largest town of the Avannaata municipality in western Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ilulissat",
+    "url": "https://en.wikipedia.org/wiki/Ilulissat",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3423146.webp",
+    "author": "Vincent van Zeijst",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greenland_1,_Harbour_of_Ilulissat.jpg"
+   }
+  },
+  {
+   "id": "gn:3420846",
+   "name": "Qaqortoq",
+   "label": "Qaqortoq",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 60.7184,
+   "lon": -46.0356,
+   "rarity": "Epic",
+   "fame": 44034,
+   "facts": {
+    "population": 3224,
+    "elevation_m": 24,
+    "area_km2": 19,
+    "temp_c": 0.9
+   },
+   "flavour": {
+    "text": "Qaqortoq, also known as Julianehåb, is the capital city of the Kujalleq municipality in southern Greenland, located near Cape Thorvaldsen.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qaqortoq",
+    "url": "https://en.wikipedia.org/wiki/Qaqortoq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3420846.webp",
+    "author": "Alankomaat",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Qaqortoq2008.JPG"
+   }
+  },
+  {
+   "id": "gn:3419842",
+   "name": "Sisimiut",
+   "label": "Sisimiut",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 66.9395,
+   "lon": -53.6735,
+   "rarity": "Epic",
+   "fame": 46248,
+   "facts": {
+    "population": 5227,
+    "elevation_m": 2.0,
+    "area_km2": 34,
+    "temp_c": -4.9
+   },
+   "flavour": {
+    "text": "Sisimiut, also known by its Danish name Holsteinsborg, is the capital and largest city of the Qeqqata municipality, and the second-largest city in Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sisimiut",
+    "url": "https://en.wikipedia.org/wiki/Sisimiut",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3419842.webp",
+    "author": "Chmee2 / Valtameri",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Houses_in_Sisimiut_in_2010_(7).JPG"
+   }
+  },
+  {
+   "id": "wd:Q681389",
+   "name": "Hans Island",
+   "label": "Hans Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 80.8264,
+   "lon": -66.4583,
+   "rarity": "Legendary",
+   "fame": 155778,
+   "facts": {
+    "elevation_m": 130,
+    "area_km2": 1.2,
+    "length_km": 1.4,
+    "temp_c": 0.0
+   },
+   "also_in": [
+    "CA"
+   ],
+   "flavour": {
+    "text": "Hans Island is an island in the centre of the Kennedy Channel of the Nares Strait in the high Arctic region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hans Island",
+    "url": "https://en.wikipedia.org/wiki/Hans_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q681389.webp"
+   }
+  },
+  {
+   "id": "wd:Q826471",
+   "name": "Kaffeklubben Island",
+   "label": "Kaffeklubben Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 83.6617,
+   "lon": -30.61,
+   "rarity": "Legendary",
+   "fame": 79854,
+   "facts": {
+    "elevation_m": 30,
+    "length_km": 1.0,
+    "temp_c": -3.3
+   },
+   "flavour": {
+    "text": "It is less than a kilometer long, about a quarter kilometer wide and is composed of glacial till.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kaffeklubben Island",
+    "url": "https://en.wikipedia.org/wiki/Kaffeklubben_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q826471.webp",
+    "author": "Not mentioned at the source",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaffeklubben_island_aerial_photo.jpg"
+   }
+  },
+  {
+   "id": "gn:3421319",
+   "name": "Nuuk",
+   "label": "Nuuk",
+   "type": "town",
+   "kind": "town",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1835,
+   "lon": -51.7216,
+   "rarity": "Legendary",
+   "fame": 320142,
+   "facts": {
+    "population": 14798,
+    "elevation_m": 5.0,
+    "area_km2": 686,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "Nuuk is the capital and most populous city of Greenland, an autonomous territory of Denmark.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nuuk",
+    "url": "https://en.wikipedia.org/wiki/Nuuk",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3421319.webp",
+    "author": "patano",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuuk_-_capital_of_Greenland_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5135044",
+   "name": "Narsarsuaq Air Base",
+   "label": "Narsarsuaq Air Base",
+   "type": "built",
+   "kind": "airbase",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 61.1667,
+   "lon": -45.4333,
+   "rarity": "Rare",
+   "fame": 8088,
+   "facts": {
+    "elevation_m": 34,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "Bluie West One, later known as Narsarsuaq Air Base and Narsarsuaq Airport, was built on a glacial moraine at what is now the village of Narsarsuaq.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Narsarsuaq Air Base",
+    "url": "https://en.wikipedia.org/wiki/Narsarsuaq_Air_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5135044.webp",
+    "author": "USAAF",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NarsarssuakAB-Greenland-1942.jpg"
+   }
+  },
+  {
+   "id": "wd:Q84737718",
+   "name": "Ilulissat Art Museum",
+   "label": "Ilulissat Art Museum",
+   "type": "built",
+   "kind": "art museum",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 69.2198,
+   "lon": -51.0951,
+   "rarity": "Rare",
+   "fame": 954,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": -4.4
+   },
+   "flavour": {
+    "text": "The Ilulissat Art Museum is an art museum in Ilulissat, Avannaata Municipality, Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ilulissat Art Museum",
+    "url": "https://en.wikipedia.org/wiki/Ilulissat_Art_Museum",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q84737718.webp"
+   }
+  },
+  {
+   "id": "wd:Q38251739",
+   "name": "Garðar Cathedral ruins",
+   "label": "Garðar Cathedral ruins",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 60.9873,
+   "lon": -45.4232,
+   "rarity": "Rare",
+   "fame": 8994,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": -0.1
+   },
+   "flavour": {
+    "text": "Garðar Cathedral, known formally as the Cathedral of Saint Nicholas, was a Roman Catholic cathedral church located in Garðar, situated in Igaliku, Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Garðar Cathedral Ruins",
+    "url": "https://en.wikipedia.org/wiki/Gar%C3%B0ar_Cathedral_Ruins",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q38251739.webp",
+    "author": "Svickova",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Igaliku_Ruinen.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5117004",
+   "name": "Church of Our Saviour",
+   "label": "Church of Our Saviour",
+   "type": "built",
+   "kind": "church",
+   "region": "GL-KU",
+   "country": "GL",
+   "lat": 60.7185,
+   "lon": -46.0404,
+   "rarity": "Rare",
+   "fame": 762,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 0.9
+   },
+   "flavour": {
+    "text": "The Church of Our Savior is a wooden Lutheran church in Qaqortoq, the largest town in southern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church of Our Saviour (Qaqortoq)",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Our_Saviour_%28Qaqortoq%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5117004.webp",
+    "author": "Charele",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_temple_%C3%A0_Qaqortoq,_Groenland.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6349986",
+   "name": "Kalaaliaraq Market",
+   "label": "Kalaaliaraq Market",
+   "type": "built",
+   "kind": "building",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1786,
+   "lon": -51.7425,
+   "rarity": "Rare",
+   "fame": 2070,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "It is the largest fresh food market in Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kalaaliaraq Market",
+    "url": "https://en.wikipedia.org/wiki/Kalaaliaraq_Market",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6349986.webp",
+    "author": "Oliver Schauf",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nuuk_-_fisch_und_wild_markt.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3398532",
+   "name": "Port of Nuuk",
+   "label": "Port of Nuuk",
+   "type": "built",
+   "kind": "port",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1708,
+   "lon": -51.7208,
+   "rarity": "Rare",
+   "fame": 2382,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "Nuuk Port and Harbour is the largest port in Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nuuk Port and Harbour",
+    "url": "https://en.wikipedia.org/wiki/Nuuk_Port_and_Harbour",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3398532.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuuk-port.jpg"
+   }
+  },
+  {
+   "id": "wd:Q48553",
+   "name": "Nuuk Center",
+   "label": "Nuuk Center",
+   "type": "built",
+   "kind": "shopping center",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1778,
+   "lon": -51.7389,
+   "rarity": "Rare",
+   "fame": 6966,
+   "facts": {
+    "elevation_m": 24,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "The mall, which is the first shopping mall in Greenland, was inaugurated on July 27, 2012.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nuuk Center",
+    "url": "https://en.wikipedia.org/wiki/Nuuk_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q48553.webp",
+    "author": "Kenny McFly",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuuk_Center_(1)_(Kenny_McFly).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3056467",
+   "name": "Hans Egede Church",
+   "label": "Hans Egede Church",
+   "type": "built",
+   "kind": "parish church",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1735,
+   "lon": -51.7369,
+   "rarity": "Rare",
+   "fame": 984,
+   "facts": {
+    "elevation_m": 34,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "This church was consecrated on the 250-year anniversary of the founding of Hans Egede's mission.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hans Egede Church",
+    "url": "https://en.wikipedia.org/wiki/Hans_Egede_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3056467.webp",
+    "author": "David Stanley from Nanaimo, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hans_Egede_Church_(25831675992).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1533937",
+   "name": "Godthåbhallen",
+   "label": "Godthåbhallen",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1781,
+   "lon": -51.7277,
+   "rarity": "Rare",
+   "fame": 1998,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": -1.6
+   },
+   "flavour": {
+    "text": "It is the home of the Greenland men's national handball team.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Godthåbhallen",
+    "url": "https://en.wikipedia.org/wiki/Godth%C3%A5bhallen",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1533937.webp",
+    "author": "Egggeo",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Godthabhallen.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2388385",
+   "name": "Taseralik Culture Center",
+   "label": "Taseralik Culture Center",
+   "type": "built",
+   "kind": "building",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 66.9375,
+   "lon": -53.6506,
+   "rarity": "Rare",
+   "fame": 648,
+   "facts": {
+    "elevation_m": 48,
+    "temp_c": -4.9
+   },
+   "flavour": {
+    "text": "Taseralik Culture Center is a cultural centre in Sisimiut, a town in western Greenland, the second-largest town in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Taseralik Culture Center",
+    "url": "https://en.wikipedia.org/wiki/Taseralik_Culture_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2388385.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taseralik-sisimiut.jpg"
+   }
+  },
+  {
+   "id": "wd:Q51220211",
+   "name": "Blue Church in Sisimiut",
+   "label": "Blue Church in Sisimiut",
+   "type": "built",
+   "kind": "church",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 66.9385,
+   "lon": -53.6714,
+   "rarity": "Rare",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": -4.9
+   },
+   "flavour": {
+    "text": "A church in Qeqqata.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q51220211.webp",
+    "author": "Chmee2",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_church_in_Sisimiut_(3).JPG"
+   }
+  },
+  {
+   "id": "wd:Q11295073",
+   "name": "Eqqissinerup oqaluffia",
+   "label": "Eqqissinerup oqaluffia",
+   "type": "built",
+   "kind": "church",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 61.9939,
+   "lon": -49.6672,
+   "rarity": "Rare",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 0.1
+   },
+   "flavour": {
+    "text": "A church in Sermersooq.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11295073.webp",
+    "author": "Clemensfranz",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paamiut_Kirche.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7454986",
+   "name": "Sermitsiaq",
+   "label": "Sermitsiaq (near Maniitsoq)",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.3,
+   "lon": -51.45,
+   "rarity": "Rare",
+   "fame": 576,
+   "facts": {
+    "elevation_m": 804,
+    "temp_c": -2.4
+   },
+   "flavour": {
+    "text": "Sermitsiaq Island is an uninhabited island in the Sermersooq municipality in southwestern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sermitsiaq Island",
+    "url": "https://en.wikipedia.org/wiki/Sermitsiaq_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7454986.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sermitsiaq-aerial.jpg"
+   }
+  },
+  {
+   "id": "wd:Q957169",
+   "name": "Humboldt Glacier",
+   "label": "Humboldt Glacier",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 79.5,
+   "lon": -63.0,
+   "rarity": "Rare",
+   "fame": 1200,
+   "facts": {
+    "elevation_m": 677,
+    "temp_c": -17.9
+   },
+   "flavour": {
+    "text": "Humboldt Glacier, is one of the major glaciers in northern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Humboldt Glacier",
+    "url": "https://en.wikipedia.org/wiki/Humboldt_Glacier",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q957169.webp",
+    "author": "NASA Earth Observatory",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Humboldt_tmo_2008243.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24727788",
+   "name": "Wolstenholme Island",
+   "label": "Wolstenholme Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 76.4,
+   "lon": -70.3667,
+   "rarity": "Rare",
+   "fame": 690,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -9.7
+   },
+   "flavour": {
+    "text": "Wolstenholme Island is an island in Baffin Bay, in Avannaata municipality, off northwestern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wolstenholme Island",
+    "url": "https://en.wikipedia.org/wiki/Wolstenholme_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24727788.webp"
+   }
+  },
+  {
+   "id": "wd:Q963317",
+   "name": "Milne Land",
+   "label": "Milne Land",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 70.6833,
+   "lon": -26.75,
+   "rarity": "Rare",
+   "fame": 1992,
+   "facts": {
+    "elevation_m": 2200,
+    "area_km2": 3913,
+    "length_km": 113,
+    "temp_c": -14.0
+   },
+   "flavour": {
+    "text": "It is the third largest island of Greenland, after the main island of Greenland and Disko Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Milne Land",
+    "url": "https://en.wikipedia.org/wiki/Milne_Land",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q963317.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Milne_Land_NASA.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1141861",
+   "name": "Crozier Island",
+   "label": "Crozier Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 80.4953,
+   "lon": -67.2178,
+   "rarity": "Rare",
+   "fame": 1800,
+   "facts": {
+    "elevation_m": 185,
+    "area_km2": 4.0,
+    "length_km": 3.1,
+    "temp_c": -14.3
+   },
+   "flavour": {
+    "text": "Crozier Island is one of three islands located in the Kennedy Channel section of the Nares Strait in the high Arctic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crozier Island",
+    "url": "https://en.wikipedia.org/wiki/Crozier_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1141861.webp"
+   }
+  },
+  {
+   "id": "wd:Q517799",
+   "name": "Geographical Society Island",
+   "label": "Geographical Society Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 72.9333,
+   "lon": -23.0833,
+   "rarity": "Rare",
+   "fame": 1272,
+   "facts": {
+    "elevation_m": 1730,
+    "area_km2": 1717,
+    "length_km": 95,
+    "temp_c": -9.8
+   },
+   "flavour": {
+    "text": "Geographical Society Island is an island off Foster Bay in northeastern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Geographical Society Island",
+    "url": "https://en.wikipedia.org/wiki/Geographical_Society_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q517799.webp",
+    "author": "Enrico Blasutto",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_photographs_of_Greenland_ENBLA07.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3620848",
+   "name": "Appat Island",
+   "label": "Appat Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 70.9181,
+   "lon": -51.95,
+   "rarity": "Rare",
+   "fame": 2604,
+   "facts": {
+    "elevation_m": 1685,
+    "area_km2": 211,
+    "length_km": 23,
+    "temp_c": -7.3
+   },
+   "flavour": {
+    "text": "Appat Island is an uninhabited island in the Avannaata municipality in northwestern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Appat Island",
+    "url": "https://en.wikipedia.org/wiki/Appat_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3620848.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Appat-from-ukkusissat.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3361265",
+   "name": "Palasip Qaqqaa",
+   "label": "Palasip Qaqqaa",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 66.9653,
+   "lon": -53.7222,
+   "rarity": "Rare",
+   "fame": 1770,
+   "facts": {
+    "elevation_m": 544,
+    "temp_c": -4.9
+   },
+   "flavour": {
+    "text": "It is located on the mainland of Greenland on the coast of Davis Strait, immediately to the north of Sisimiut Airport.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palasip Qaqqaa",
+    "url": "https://en.wikipedia.org/wiki/Palasip_Qaqqaa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3361265.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palasip-Qaqqaa.jpg"
+   }
+  },
+  {
+   "id": "wd:Q11958373",
+   "name": "Antarctic Haven",
+   "label": "Antarctic Haven",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 72.0333,
+   "lon": -23.1167,
+   "rarity": "Rare",
+   "fame": 906,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -7.8
+   },
+   "flavour": {
+    "text": "Antarctic Haven is a bay in King Christian X Land, Northeastern Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antarctic Haven",
+    "url": "https://en.wikipedia.org/wiki/Antarctic_Haven",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11958373.webp",
+    "author": "Jerzy Strzelecki",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greenland,_Antarctic_Havn_(js)1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3870468",
+   "name": "Nasaasaaq",
+   "label": "Nasaasaaq",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 66.9264,
+   "lon": -53.5528,
+   "rarity": "Rare",
+   "fame": 786,
+   "facts": {
+    "elevation_m": 784,
+    "prominence_m": 784,
+    "temp_c": -4.9
+   },
+   "flavour": {
+    "text": "It is located on the mainland of Greenland, immediately to the southeast of Sisimiut on the northern coast of Amerloq Fjord, a tributary of Davis Strait.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nasaasaaq",
+    "url": "https://en.wikipedia.org/wiki/Nasaasaaq",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3870468.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nasaasaaq.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2336534",
+   "name": "Melville Bay",
+   "label": "Melville Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 75.75,
+   "lon": -61.0,
+   "rarity": "Rare",
+   "fame": 2508,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 10500,
+    "temp_c": -11.7
+   },
+   "flavour": {
+    "text": "Located to the north of the Upernavik Archipelago, it opens to the south-west into Baffin Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Melville Bay",
+    "url": "https://en.wikipedia.org/wiki/Melville_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2336534.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Melville-bay-hunting-boat.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3802900",
+   "name": "Sverdrup Island",
+   "label": "Sverdrup Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-UO",
+   "country": "GL",
+   "lat": 82.9,
+   "lon": -46.6,
+   "rarity": "Rare",
+   "fame": 654,
+   "facts": {
+    "elevation_m": 1317,
+    "area_km2": 436,
+    "temp_c": -17.0
+   },
+   "flavour": {
+    "text": "Sverdrup Island is an uninhabited island in the far north of Greenland, in the Northeast Greenland National Park area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sverdrup Island (Greenland)",
+    "url": "https://en.wikipedia.org/wiki/Sverdrup_Island_%28Greenland%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3802900.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Greenland.A2004208.1810.250m.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24828783",
+   "name": "Nordenskiold Glacier",
+   "label": "Nordenskiold Glacier (near Qasigiannguit)",
+   "type": "nature",
+   "kind": "glacier",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 68.3333,
+   "lon": -51.1667,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 85,
+    "temp_c": -4.9
+   },
+   "flavour": {
+    "text": "Nordenskiöld Glacier, is a large glacier in Qeqertalik Municipality, on the Western coast of Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nordenskiöld Glacier, West Greenland",
+    "url": "https://en.wikipedia.org/wiki/Nordenski%C3%B6ld_Glacier%2C_West_Greenland",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24828783.webp"
+   }
+  },
+  {
+   "id": "wd:Q25206134",
+   "name": "Qeqertarsuaq Island",
+   "label": "Qeqertarsuaq Island (near Upernavik)",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 73.8667,
+   "lon": -55.85,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": -8.1
+   },
+   "flavour": {
+    "text": "It is located in Baffin Bay in the Kangerlussuaq Icefjord of the Upernavik Archipelago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qeqertarsuaq Island (Kangerlussuaq Icefjord)",
+    "url": "https://en.wikipedia.org/wiki/Qeqertarsuaq_Island_%28Kangerlussuaq_Icefjord%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q25206134.webp"
+   }
+  },
+  {
+   "id": "wd:Q2038090",
+   "name": "Sermitsiaq",
+   "label": "Sermitsiaq (near Nuuk)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.3,
+   "lon": -51.5,
+   "rarity": "Rare",
+   "fame": 2772,
+   "facts": {
+    "elevation_m": 1210,
+    "temp_c": -2.4
+   },
+   "flavour": {
+    "text": "Sermitsiaq is a 1,210-metre-tall Greenlandic mountain in the district of Nuuk in Sermersooq Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sermitsiaq (mountain)",
+    "url": "https://en.wikipedia.org/wiki/Sermitsiaq_%28mountain%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2038090.webp",
+    "author": "Algkalv ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sermitsiaq-aerial.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7903552",
+   "name": "Uummannaq",
+   "label": "Uummannaq (mountain)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 70.7131,
+   "lon": -52.1311,
+   "rarity": "Rare",
+   "fame": 972,
+   "facts": {
+    "elevation_m": 1170,
+    "prominence_m": 1170,
+    "temp_c": -4.7
+   },
+   "flavour": {
+    "text": "Uummannaq is a 1,170-metre-high, prominent, isolated mountain in western Greenland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Uummannaq (mountain)",
+    "url": "https://en.wikipedia.org/wiki/Uummannaq_%28mountain%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7903552.webp",
+    "author": "Oiving",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Uummannaq_distance_BIG.jpg"
+   }
+  },
+  {
+   "id": "wd:Q12300744",
+   "name": "Agssaussat",
+   "label": "Agssaussat",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-QE",
+   "country": "GL",
+   "lat": 65.8833,
+   "lon": -52.1167,
+   "rarity": "Common",
+   "fame": 36,
+   "facts": {
+    "elevation_m": 1724,
+    "temp_c": -9.2
+   },
+   "flavour": {
+    "text": "A mountain in Qeqqata.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q12300744.webp"
+   }
+  },
+  {
+   "id": "wd:Q3815475",
+   "name": "Kingittorsuaq",
+   "label": "Kingittorsuaq",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GL-SM",
+   "country": "GL",
+   "lat": 64.1226,
+   "lon": -51.5735,
+   "rarity": "Common",
+   "fame": 216,
+   "facts": {
+    "elevation_m": 1120,
+    "temp_c": -2.1
+   },
+   "flavour": {
+    "text": "A mountain in Sermersooq.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3815475.webp",
+    "author": "Laketown",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kingittorsuaq_(Sermersooq).jpg"
+   }
+  },
+  {
+   "id": "wd:Q11336573",
+   "name": "Akunnaap Nunaa",
+   "label": "Akunnaap Nunaa",
+   "type": "nature",
+   "kind": "island",
+   "region": "GL-QA",
+   "country": "GL",
+   "lat": 68.7383,
+   "lon": -52.395,
+   "rarity": "Common",
+   "fame": 24,
+   "facts": {
+    "elevation_m": 36,
+    "temp_c": -4.6
+   },
+   "flavour": {
+    "text": "An island in Qaasuitsup.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q11336573.webp"
+   }
+  }
+ ]
+}

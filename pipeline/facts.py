@@ -174,6 +174,10 @@ def main():
 
     wd = wikidata_facts(sorted(df["qid"].dropna().unique()), cache)
     df = df.merge(wd, on="qid", how="left")
+    # Small countries can have a fact that is empty on every card, which pandas keeps as None objects and then
+    # can't compare or sort (Belize, Saint Lucia, 2026-11-25): make every fact a number column.
+    for col in [c for c in df.columns if c.endswith(("_m", "_km", "_km2", "_wd"))]:
+        df[col] = pd.to_numeric(df[col], errors="coerce").astype("float64")
     # Elevation: towns keep GeoNames; landmarks prefer Wikidata's unit-converted value, because step 3 took
     # P2044 without its unit and some peaks came through in feet (Mount Root "12,887 m").
     town = df["type"] == "town"

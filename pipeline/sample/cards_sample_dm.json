@@ -1,0 +1,1803 @@
+{
+ "note": "Sample of the Dominica card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5127451",
+   "name": "Clarke's River",
+   "label": "Clarke's River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.3667,
+   "lon": -61.2833,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 193,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Clarke's River is a river on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Clarke's River",
+    "url": "https://en.wikipedia.org/wiki/Clarke%27s_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5127451.webp"
+   }
+  },
+  {
+   "id": "wd:Q5253069",
+   "name": "Delaford River",
+   "label": "Delaford River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.6333,
+   "lon": -61.4167,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Delaford River is a river on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Delaford River",
+    "url": "https://en.wikipedia.org/wiki/Delaford_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5253069.webp"
+   }
+  },
+  {
+   "id": "wd:Q6740778",
+   "name": "Malabuka River",
+   "label": "Malabuka River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.2333,
+   "lon": -61.3,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "The Malabuka River is a river on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Malabuka River",
+    "url": "https://en.wikipedia.org/wiki/Malabuka_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6740778.webp"
+   }
+  },
+  {
+   "id": "wd:Q7402152",
+   "name": "Saint Sauveur River",
+   "label": "Saint Sauveur River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.4,
+   "lon": -61.2667,
+   "rarity": "Common",
+   "fame": 84,
+   "facts": {
+    "elevation_m": 167,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "The Saint Sauveur River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Sauveur River",
+    "url": "https://en.wikipedia.org/wiki/Saint_Sauveur_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7402152.webp"
+   }
+  },
+  {
+   "id": "wd:Q6791654",
+   "name": "Matthieu River",
+   "label": "Matthieu River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-06",
+   "country": "DM",
+   "lat": 15.4514,
+   "lon": -61.3802,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 478,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Matthieu River is a river on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Matthieu River",
+    "url": "https://en.wikipedia.org/wiki/Matthieu_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6791654.webp"
+   }
+  },
+  {
+   "id": "wd:Q7337452",
+   "name": "River Gillon",
+   "label": "River Gillon",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.2667,
+   "lon": -61.3833,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The River Gillon is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "River Gillon",
+    "url": "https://en.wikipedia.org/wiki/River_Gillon",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7337452.webp"
+   }
+  },
+  {
+   "id": "wd:Q18350480",
+   "name": "Loubiere River",
+   "label": "Loubiere River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.2694,
+   "lon": -61.3686,
+   "rarity": "Common",
+   "fame": 72,
+   "facts": {
+    "elevation_m": 371,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Loubiere River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Loubiere River",
+    "url": "https://en.wikipedia.org/wiki/Loubiere_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q18350480.webp"
+   }
+  },
+  {
+   "id": "wd:Q7337535",
+   "name": "River Jack",
+   "label": "River Jack",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.2667,
+   "lon": -61.2667,
+   "rarity": "Common",
+   "fame": 72,
+   "facts": {
+    "elevation_m": 404,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "The River Jack is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "River Jack",
+    "url": "https://en.wikipedia.org/wiki/River_Jack",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7337535.webp"
+   }
+  },
+  {
+   "id": "wd:Q7427815",
+   "name": "Savane River",
+   "label": "Savane River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.25,
+   "lon": -61.2667,
+   "rarity": "Common",
+   "fame": 48,
+   "facts": {
+    "elevation_m": 89,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "The Savane River is a river on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Savane River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Savane_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7427815.webp"
+   }
+  },
+  {
+   "id": "wd:Q5300203",
+   "name": "Douce River",
+   "label": "Douce River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.6,
+   "lon": -61.35,
+   "rarity": "Common",
+   "fame": 66,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Douce River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Douce River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Douce_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5300203.webp"
+   }
+  },
+  {
+   "id": "wd:Q4864677",
+   "name": "Barry River",
+   "label": "Barry River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5667,
+   "lon": -61.45,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 66,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Barry River is a river in the Saint John Parish of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barry River",
+    "url": "https://en.wikipedia.org/wiki/Barry_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4864677.webp"
+   }
+  },
+  {
+   "id": "wd:Q426137",
+   "name": "Beauplan River",
+   "label": "Beauplan River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.537,
+   "lon": -61.4084,
+   "rarity": "Common",
+   "fame": 72,
+   "facts": {
+    "elevation_m": 579,
+    "length_km": 8.4,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Administratively, it is located in Saint Andrew Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Beauplan River",
+    "url": "https://en.wikipedia.org/wiki/Beauplan_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q426137.webp"
+   }
+  },
+  {
+   "id": "gn:3575612",
+   "name": "Salisbury",
+   "label": "Salisbury",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-06",
+   "country": "DM",
+   "lat": 15.4369,
+   "lon": -61.4364,
+   "rarity": "Common",
+   "fame": 756,
+   "facts": {
+    "population": 1413,
+    "elevation_m": 54,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Salisbury is a town on the west coast of the small Caribbean island nation of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salisbury, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Salisbury%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575612.webp"
+   }
+  },
+  {
+   "id": "gn:3575733",
+   "name": "Mahaut",
+   "label": "Mahaut",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-10",
+   "country": "DM",
+   "lat": 15.3636,
+   "lon": -61.397,
+   "rarity": "Common",
+   "fame": 954,
+   "facts": {
+    "population": 2369,
+    "elevation_m": 20,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Mahaut is a village on the west coast of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mahaut, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Mahaut%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575733.webp",
+    "author": "Jean & Nathalie",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominica_-_Mahaut.jpg"
+   }
+  },
+  {
+   "id": "gn:3575882",
+   "name": "Calibishie",
+   "label": "Calibishie",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.593,
+   "lon": -61.349,
+   "rarity": "Common",
+   "fame": 1782,
+   "facts": {
+    "population": 1020,
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Calibishie is a village in Dominica, located on the north-east coast of the island, immediately to the east of the village of Hampstead.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calibishie",
+    "url": "https://en.wikipedia.org/wiki/Calibishie",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575882.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calibishie_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "gn:3575870",
+   "name": "Castle Bruce",
+   "label": "Castle Bruce",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.444,
+   "lon": -61.2572,
+   "rarity": "Common",
+   "fame": 1176,
+   "facts": {
+    "population": 1387,
+    "elevation_m": 81,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "It is the largest settlement in St. David Parish, with a population of 1,339.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castle Bruce",
+    "url": "https://en.wikipedia.org/wiki/Castle_Bruce",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575870.webp",
+    "author": "Jean & Nathalie",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominica_-_Castle_Bruce.jpg"
+   }
+  },
+  {
+   "id": "gn:3575565",
+   "name": "Woodford Hill",
+   "label": "Woodford Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.5809,
+   "lon": -61.3315,
+   "rarity": "Common",
+   "fame": 612,
+   "facts": {
+    "population": 1063,
+    "elevation_m": 64,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Woodford Hill was an estate extending from Eden River to L’anse Noire.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Woodford Hill, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Woodford_Hill%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575565.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Woodford_Hill_Bay_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "gn:3575755",
+   "name": "La Plaine",
+   "label": "La Plaine",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.3277,
+   "lon": -61.2475,
+   "rarity": "Common",
+   "fame": 648,
+   "facts": {
+    "population": 1332,
+    "elevation_m": 87,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "The village is built upon a broad, gently sloping plain created by a prehistoric pyroclastic flow from the Grand Soufrière Hills volcano.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Plaine, Dominica",
+    "url": "https://en.wikipedia.org/wiki/La_Plaine%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575755.webp"
+   }
+  },
+  {
+   "id": "wd:Q1354676",
+   "name": "Windsor Park",
+   "label": "Windsor Park",
+   "type": "built",
+   "kind": "stadium",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.3019,
+   "lon": -61.3842,
+   "rarity": "Epic",
+   "fame": 5868,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It serves as the country's national stadium and is used mostly for cricket and association football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Windsor Park (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Windsor_Park_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1354676.webp",
+    "author": "SDGibbons",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Windsor_Park_Roseau_Dominica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1638549",
+   "name": "Morne Diablotins",
+   "label": "Morne Diablotins",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.5033,
+   "lon": -61.3972,
+   "rarity": "Epic",
+   "fame": 7920,
+   "facts": {
+    "elevation_m": 1447,
+    "prominence_m": 1447,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Morne Diablotins is the highest mountain on the Caribbean island of Dominica, and the island's largest and highest volcano.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne Diablotins",
+    "url": "https://en.wikipedia.org/wiki/Morne_Diablotins",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1638549.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Diablotins.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5015852",
+   "name": "Cabrits National Park",
+   "label": "Cabrits National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.586,
+   "lon": -61.473,
+   "rarity": "Epic",
+   "fame": 1548,
+   "facts": {
+    "elevation_m": 60,
+    "area_km2": 215,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Cabrits National Park is on a peninsula at the north end of the Caribbean island of Dominica, north of Portsmouth.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cabrits National Park",
+    "url": "https://en.wikipedia.org/wiki/Cabrits_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5015852.webp",
+    "author": "Dillngerforce",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Tanetane-Dominica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6021427",
+   "name": "Indian River",
+   "label": "Indian River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5667,
+   "lon": -61.4667,
+   "rarity": "Epic",
+   "fame": 1752,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It flows to the Caribbean Sea between the town of Portsmouth and the village of Glanvillia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Indian River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Indian_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6021427.webp",
+    "author": "Kay von der Küste",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Auf_dem_Indian_River.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6912732",
+   "name": "Morne Diablotin National Park",
+   "label": "Morne Diablotin National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.5,
+   "lon": -61.4,
+   "rarity": "Epic",
+   "fame": 726,
+   "facts": {
+    "elevation_m": 1323,
+    "area_km2": 36,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Morne Diablotin National Park is a national park in the northern mountain ranges of Dominica, an island nation in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne Diablotin National Park",
+    "url": "https://en.wikipedia.org/wiki/Morne_Diablotin_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6912732.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Diablotins.jpg"
+   }
+  },
+  {
+   "id": "wd:Q629436",
+   "name": "Morne Trois Pitons National Park",
+   "label": "Morne Trois Pitons National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.2667,
+   "lon": -61.2833,
+   "rarity": "Epic",
+   "fame": 4374,
+   "facts": {
+    "elevation_m": 699,
+    "area_km2": 69,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Morne Trois Pitons National Park is a national park in Dominica established in July 1975, the first to be legally established in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne Trois Pitons National Park",
+    "url": "https://en.wikipedia.org/wiki/Morne_Trois_Pitons_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q629436.webp",
+    "author": "Nelro ( talk )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Valley_of_desolation.jpg"
+   }
+  },
+  {
+   "id": "gn:3575656",
+   "name": "Pont Cassé",
+   "label": "Pont Cassé",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-10",
+   "country": "DM",
+   "lat": 15.3667,
+   "lon": -61.35,
+   "rarity": "Epic",
+   "fame": 600,
+   "facts": {
+    "population": 702,
+    "elevation_m": 595,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Pont Cassé is situated in the Saint Paul Parish in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pont Cassé",
+    "url": "https://en.wikipedia.org/wiki/Pont_Cass%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575656.webp"
+   }
+  },
+  {
+   "id": "gn:3575660",
+   "name": "Pointe Michel",
+   "label": "Pointe Michel",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-07",
+   "country": "DM",
+   "lat": 15.2598,
+   "lon": -61.3745,
+   "rarity": "Epic",
+   "fame": 1254,
+   "facts": {
+    "population": 1202,
+    "elevation_m": 57,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is located to the south of the capital, Roseau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pointe Michel",
+    "url": "https://en.wikipedia.org/wiki/Pointe_Michel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575660.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Soufri%C3%A8re_Bay,_Dominica_002.jpg"
+   }
+  },
+  {
+   "id": "gn:3575721",
+   "name": "Marigot",
+   "label": "Marigot",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.5374,
+   "lon": -61.282,
+   "rarity": "Epic",
+   "fame": 2754,
+   "facts": {
+    "population": 2669,
+    "elevation_m": 84,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Marigot is the largest settlement of Saint Andrew Parish in northeastern Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marigot, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Marigot%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575721.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calibishie_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "gn:3575639",
+   "name": "Rosalie",
+   "label": "Rosalie",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.3667,
+   "lon": -61.2667,
+   "rarity": "Epic",
+   "fame": 492,
+   "facts": {
+    "population": 802,
+    "elevation_m": 75,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "It is located in Saint David Parish at the northern end of Rosalie Bay, on the central east coast of the island, close to the mouth of the Rosalie River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rosalie, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Rosalie%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575639.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosalie,_Dominica_001.jpg"
+   }
+  },
+  {
+   "id": "gn:3575568",
+   "name": "Wesley",
+   "label": "Wesley",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.5667,
+   "lon": -61.3167,
+   "rarity": "Epic",
+   "fame": 1704,
+   "facts": {
+    "population": 1933,
+    "elevation_m": 90,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It situated between the old estates of Eden and Londonderry and 1 1/2 miles southeast of Woodford Hill.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wesley, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Wesley%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575568.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wesley_coast_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "gn:3575857",
+   "name": "Colihaut",
+   "label": "Colihaut",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-11",
+   "country": "DM",
+   "lat": 15.4848,
+   "lon": -61.4622,
+   "rarity": "Epic",
+   "fame": 846,
+   "facts": {
+    "population": 890,
+    "elevation_m": 11,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Colihaut is a coastal village in northern Dominica within Saint Peter Parish midway between the towns of Roseau and Portsmouth.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colihaut",
+    "url": "https://en.wikipedia.org/wiki/Colihaut",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575857.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Colihaut,_Dominica_001.jpg"
+   }
+  },
+  {
+   "id": "gn:3575899",
+   "name": "Berekua",
+   "label": "Berekua",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.2333,
+   "lon": -61.3167,
+   "rarity": "Epic",
+   "fame": 1620,
+   "facts": {
+    "population": 2608,
+    "elevation_m": 288,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "It has a population of 2,288 as of 2010, and is the largest settlement in St. Patrick Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Bay, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bay%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575899.webp"
+   }
+  },
+  {
+   "id": "gn:3575654",
+   "name": "Portsmouth",
+   "label": "Portsmouth",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5829,
+   "lon": -61.4559,
+   "rarity": "Epic",
+   "fame": 6702,
+   "facts": {
+    "population": 3633,
+    "elevation_m": 1.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Portsmouth is the second largest town in Dominica, with 3,630 inhabitants.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portsmouth, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Portsmouth%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575654.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Portsmouth_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "gn:3575602",
+   "name": "Soufrière",
+   "label": "Soufrière",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-08",
+   "country": "DM",
+   "lat": 15.2337,
+   "lon": -61.3588,
+   "rarity": "Epic",
+   "fame": 1230,
+   "facts": {
+    "population": 1416,
+    "elevation_m": 34,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is the capital of Saint Mark Parish and has a population of 973 people.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Soufrière, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Soufri%C3%A8re%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575602.webp",
+    "author": "Nelro at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Soufriere_Church_high_res.jpg"
+   }
+  },
+  {
+   "id": "gn:3575624",
+   "name": "Saint Joseph",
+   "label": "Saint Joseph",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-06",
+   "country": "DM",
+   "lat": 15.4061,
+   "lon": -61.4237,
+   "rarity": "Epic",
+   "fame": 744,
+   "facts": {
+    "population": 2184,
+    "elevation_m": 1.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Saint Joseph is the chief settlement of Dominica's St. Joseph Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Joseph, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Saint_Joseph%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575624.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Joseph_Parish_Church,_Dominica.jpg"
+   }
+  },
+  {
+   "id": "gn:3575635",
+   "name": "Roseau",
+   "label": "Roseau",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.3017,
+   "lon": -61.3881,
+   "rarity": "Legendary",
+   "fame": 47682,
+   "facts": {
+    "population": 16571,
+    "elevation_m": 11,
+    "area_km2": 5.4,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Roseau is the capital and largest city of Dominica, with a population of 14,725 as of 2011.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roseau",
+    "url": "https://en.wikipedia.org/wiki/Roseau",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575635.webp",
+    "author": "Ted Rufus Ross",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:RoseauWide..jpg"
+   }
+  },
+  {
+   "id": "wd:Q5472431",
+   "name": "Fort Young Hotel",
+   "label": "Fort Young Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.2956,
+   "lon": -61.3864,
+   "rarity": "Rare",
+   "fame": 1272,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Fort Young Hotel is a hotel on the quayside of Roseau, Dominica, in the southern part of the capital next to Garraway Hotel, Dominica Museum.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Young Hotel",
+    "url": "https://en.wikipedia.org/wiki/Fort_Young_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5472431.webp",
+    "author": "Ted Rufus Ross , cropped by Blofeld",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Young_Hotel.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16532117",
+   "name": "Benjamin's Park",
+   "label": "Benjamin's Park",
+   "type": "built",
+   "kind": "stadium",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5747,
+   "lon": -61.4544,
+   "rarity": "Rare",
+   "fame": 450,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The venue's primary use is as a cricket ground, and it has held home matches for the Windward Islands, as well as several matches in regional tournaments.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Benjamin's Park",
+    "url": "https://en.wikipedia.org/wiki/Benjamin%27s_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16532117.webp"
+   }
+  },
+  {
+   "id": "wd:Q4245116",
+   "name": "Roseau Cathedral",
+   "label": "Roseau Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.2975,
+   "lon": -61.3853,
+   "rarity": "Rare",
+   "fame": 2190,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Cathedral of Our Lady of Fair Haven of Roseau, originally known in French as Église de Notre-Dame du Bon Port du Mouillage de Roseau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roseau Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Roseau_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4245116.webp",
+    "author": "Nelro ( talk )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Roseau_Cathedral.jpg"
+   }
+  },
+  {
+   "id": "wd:Q107463043",
+   "name": "Al Ansaar Mosque",
+   "label": "Al Ansaar Mosque",
+   "type": "built",
+   "kind": "mosque",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5552,
+   "lon": -61.4589,
+   "rarity": "Rare",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Al Ansaar Mosque is a mosque in Portsmouth, Saint John Parish, Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Al Ansaar Mosque",
+    "url": "https://en.wikipedia.org/wiki/Al_Ansaar_Mosque",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q107463043.webp"
+   }
+  },
+  {
+   "id": "wd:Q5523817",
+   "name": "Garraway Hotel",
+   "label": "Garraway Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.2956,
+   "lon": -61.3869,
+   "rarity": "Rare",
+   "fame": 564,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It lies between the Fort Young Hotel and right next to The Dominica Museum.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Garraway Hotel",
+    "url": "https://en.wikipedia.org/wiki/Garraway_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5523817.webp"
+   }
+  },
+  {
+   "id": "wd:Q3456644",
+   "name": "Dominica Botanical Gardens",
+   "label": "Dominica Botanical Gardens",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.3012,
+   "lon": -61.3819,
+   "rarity": "Rare",
+   "fame": 1584,
+   "facts": {
+    "elevation_m": 25,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Dominica Botanic Gardens is located on the Caribbean island-nation of Dominica, in the capital of Roseau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dominica Botanical Gardens",
+    "url": "https://en.wikipedia.org/wiki/Dominica_Botanical_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3456644.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Anolis_oculatus_at_Roseau-a01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q65123003",
+   "name": "Fort Shirley",
+   "label": "Fort Shirley",
+   "type": "built",
+   "kind": "fort",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5834,
+   "lon": -61.4734,
+   "rarity": "Rare",
+   "fame": 1566,
+   "facts": {
+    "elevation_m": 71,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "It was built by the British in 1765, and was named for Sir Thomas Shirley.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Shirley (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Shirley_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q65123003.webp",
+    "author": "Kaspar C from Barbados",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mountain_top_view_of_Fort_Shirley,Cabritts_-Dominica_(3235003959).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1535776",
+   "name": "Morne Watt",
+   "label": "Morne Watt",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "DM-09",
+   "country": "DM",
+   "lat": 15.307,
+   "lon": -61.305,
+   "rarity": "Rare",
+   "fame": 1086,
+   "facts": {
+    "elevation_m": 1224,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Morne Watt or Watt Mountain is a mountain consisting of one or more stratovolcanoes at the south end of Dominica in the eastern Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne Watt",
+    "url": "https://en.wikipedia.org/wiki/Morne_Watt",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1535776.webp",
+    "author": "Lee Siebert (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_Watt.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5176139",
+   "name": "Coulibistrie River",
+   "label": "Coulibistrie River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-06",
+   "country": "DM",
+   "lat": 15.45,
+   "lon": -61.4667,
+   "rarity": "Rare",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It flows from the interior westward through a deep valley, and empties into the Caribbean Sea north of Batalie Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coulibistrie River",
+    "url": "https://en.wikipedia.org/wiki/Coulibistrie_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5176139.webp"
+   }
+  },
+  {
+   "id": "wd:Q6784465",
+   "name": "Massacre River",
+   "label": "Massacre River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-10",
+   "country": "DM",
+   "lat": 15.35,
+   "lon": -61.4,
+   "rarity": "Rare",
+   "fame": 522,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Massacre River is a river on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Massacre River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Massacre_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6784465.webp"
+   }
+  },
+  {
+   "id": "wd:Q3018552",
+   "name": "Roseau River",
+   "label": "Roseau River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-04",
+   "country": "DM",
+   "lat": 15.3,
+   "lon": -61.4,
+   "rarity": "Rare",
+   "fame": 570,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 20,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Roseau River is one of the major rivers in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roseau River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Roseau_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3018552.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roseau_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5183036",
+   "name": "Crayfish River",
+   "label": "Crayfish River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.5,
+   "lon": -61.2667,
+   "rarity": "Rare",
+   "fame": 342,
+   "facts": {
+    "elevation_m": 201,
+    "length_km": 2.0,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "The Crayfish River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crayfish River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Crayfish_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5183036.webp"
+   }
+  },
+  {
+   "id": "wd:Q7828868",
+   "name": "Toulaman River",
+   "label": "Toulaman River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.55,
+   "lon": -61.3,
+   "rarity": "Rare",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 43,
+    "length_km": 15,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It empties into the sea on the northeastern coast, north of Marigot.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Toulaman River",
+    "url": "https://en.wikipedia.org/wiki/Toulaman_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7828868.webp"
+   }
+  },
+  {
+   "id": "wd:Q7124463",
+   "name": "Pagua River",
+   "label": "Pagua River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.5167,
+   "lon": -61.2667,
+   "rarity": "Rare",
+   "fame": 300,
+   "facts": {
+    "elevation_m": 84,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "The Pagua River is one of the longest rivers on the Caribbean island of Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pagua River",
+    "url": "https://en.wikipedia.org/wiki/Pagua_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7124463.webp",
+    "author": "Hans Hillewaert",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pagua_Bay_from_south_(Dominica).jpg"
+   }
+  },
+  {
+   "id": "wd:Q12771972",
+   "name": "Morne aux Diables",
+   "label": "Morne aux Diables",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "DM-02",
+   "country": "DM",
+   "lat": 15.6125,
+   "lon": -61.436,
+   "rarity": "Rare",
+   "fame": 1272,
+   "facts": {
+    "elevation_m": 861,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Morne aux Diables, also known as Devil's Peak, is a volcano on the island of Dominica and the volcanic formation is the northernmost peak on the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne aux Diables",
+    "url": "https://en.wikipedia.org/wiki/Morne_aux_Diables",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q12771972.webp",
+    "author": "Lee Siebert (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Morne_aux_Diables.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7190503",
+   "name": "Picard River",
+   "label": "Picard River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-05",
+   "country": "DM",
+   "lat": 15.5667,
+   "lon": -61.4667,
+   "rarity": "Rare",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Picard River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Picard River",
+    "url": "https://en.wikipedia.org/wiki/Picard_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7190503.webp"
+   }
+  },
+  {
+   "id": "wd:Q4882320",
+   "name": "Belfast River",
+   "label": "Belfast River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-10",
+   "country": "DM",
+   "lat": 15.3667,
+   "lon": -61.4167,
+   "rarity": "Rare",
+   "fame": 174,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Parts of the river flow at near-boiling temperatures due to geothermal activity near the river's midpoint.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belfast River (Dominica)",
+    "url": "https://en.wikipedia.org/wiki/Belfast_River_%28Dominica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4882320.webp"
+   }
+  },
+  {
+   "id": "wd:Q74598",
+   "name": "Layou River",
+   "label": "Layou River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-06",
+   "country": "DM",
+   "lat": 15.394,
+   "lon": -61.426,
+   "rarity": "Rare",
+   "fame": 702,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 8.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It is the longest and deepest river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Layou River",
+    "url": "https://en.wikipedia.org/wiki/Layou_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q74598.webp",
+    "author": "Jean & Nathalie",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Layou_River.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5050008",
+   "name": "Castle Bruce River",
+   "label": "Castle Bruce River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.4333,
+   "lon": -61.2667,
+   "rarity": "Rare",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 73,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "The Castle Bruce River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castle Bruce River",
+    "url": "https://en.wikipedia.org/wiki/Castle_Bruce_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5050008.webp"
+   }
+  },
+  {
+   "id": "gn:3575717",
+   "name": "Massacre",
+   "label": "Massacre",
+   "type": "town",
+   "kind": "town",
+   "region": "DM-10",
+   "country": "DM",
+   "lat": 15.3468,
+   "lon": -61.3916,
+   "rarity": "Rare",
+   "fame": 2088,
+   "facts": {
+    "population": 1552,
+    "elevation_m": 39,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It is located on the central west coast of the island, to the north of the capital, Roseau, on the Massacre River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Massacre, Dominica",
+    "url": "https://en.wikipedia.org/wiki/Massacre%2C_Dominica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575717.webp",
+    "author": "Picture taken by me in October 2008.",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Wall_painting_massacre_dominica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6733557",
+   "name": "Mahaut River",
+   "label": "Mahaut River (near Castle Bruce)",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-03",
+   "country": "DM",
+   "lat": 15.4667,
+   "lon": -61.25,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 149,
+    "length_km": 2.4,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "The Mahaut River rises on the western slopes of Morne Trois Pitons.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mahaut River (St. David)",
+    "url": "https://en.wikipedia.org/wiki/Mahaut_River_%28St._David%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6733557.webp"
+   }
+  },
+  {
+   "id": "wd:Q6733558",
+   "name": "Mahaut River",
+   "label": "Mahaut River (near Massacre)",
+   "type": "nature",
+   "kind": "river",
+   "region": "DM-10",
+   "country": "DM",
+   "lat": 15.35,
+   "lon": -61.4,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Mahaut River is a river in Dominica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mahaut River (St. Paul)",
+    "url": "https://en.wikipedia.org/wiki/Mahaut_River_%28St._Paul%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6733558.webp"
+   }
+  }
+ ]
+}

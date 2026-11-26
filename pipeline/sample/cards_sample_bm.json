@@ -1,0 +1,1283 @@
+{
+ "note": "Sample of the Bermuda card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q1746701",
+   "name": "Little Sound, Bermuda",
+   "label": "Little Sound, Bermuda",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.2619,
+   "lon": -64.8506,
+   "rarity": "Common",
+   "fame": 246,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "The Little Sound in Bermuda is a small part of the Great Sound.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Sound",
+    "url": "https://en.wikipedia.org/wiki/Little_Sound",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1746701.webp"
+   }
+  },
+  {
+   "id": "wd:Q28233289",
+   "name": "Tucker's Island",
+   "label": "Tucker's Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.2833,
+   "lon": -64.8833,
+   "rarity": "Common",
+   "fame": 618,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "Tucker's Island was joined by infilling to nearby Morgan's Island, and the two were connected to the Main Island by a narrow infilling, creating a peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tucker's Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Tucker%27s_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q28233289.webp"
+   }
+  },
+  {
+   "id": "wd:Q5166544",
+   "name": "Convict's Bay",
+   "label": "Convict's Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3803,
+   "lon": -64.6737,
+   "rarity": "Common",
+   "fame": 570,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Convicts' Bay is a bay located in St. George's Harbour on the eastern side of St. George's Town on St. George's Island, Bermuda, and near to Ordnance Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Convict's Bay, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Convict%27s_Bay%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5166544.webp"
+   }
+  },
+  {
+   "id": "wd:Q7994244",
+   "name": "White's Island",
+   "label": "White's Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-PAG",
+   "country": "BM",
+   "lat": 32.2881,
+   "lon": -64.7847,
+   "rarity": "Common",
+   "fame": 516,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "White's Island is an island located in Hamilton Harbour in Hamilton, Bermuda, the only island directly adjoined on all sides by the harbour.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "White's Island",
+    "url": "https://en.wikipedia.org/wiki/White%27s_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7994244.webp",
+    "author": "Aodhdubh",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:White%27s_Island,_Paget_Parish,_Bermuda.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5456136",
+   "name": "Five Star Island",
+   "label": "Five Star Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SOU",
+   "country": "BM",
+   "lat": 32.25,
+   "lon": -64.85,
+   "rarity": "Common",
+   "fame": 906,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "It was owned by the Wilson family from the 17th to 19th century, and was then known as Wilson's Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Five Star Island",
+    "url": "https://en.wikipedia.org/wiki/Five_Star_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5456136.webp",
+    "author": "Snowysusan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Five_star_005.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5519208",
+   "name": "Gibbet Island",
+   "label": "Gibbet Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-HAM",
+   "country": "BM",
+   "lat": 32.3231,
+   "lon": -64.7442,
+   "rarity": "Common",
+   "fame": 1380,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "It is located at the mouth of Flatt's Inlet which leads to Harrington Sound.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gibbet Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Gibbet_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5519208.webp"
+   }
+  },
+  {
+   "id": "wd:Q1619574",
+   "name": "Hinson's Island",
+   "label": "Hinson's Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-PAG",
+   "country": "BM",
+   "lat": 32.2825,
+   "lon": -64.8028,
+   "rarity": "Common",
+   "fame": 1434,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 0.2,
+    "length_km": 0.6,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Hinson's Island is an island in Bermuda with a population above 50.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hinson's Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Hinson%27s_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1619574.webp",
+    "author": "David Broad",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bermuda_-_Hamilton_Harbour_-_panoramio_-_David_Broad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4928674",
+   "name": "Bluck's Island",
+   "label": "Bluck's Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-WAR",
+   "country": "BM",
+   "lat": 32.2861,
+   "lon": -64.8103,
+   "rarity": "Common",
+   "fame": 1038,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "It lies in the harbor of Hamilton in Warwick Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bluck's Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Bluck%27s_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4928674.webp"
+   }
+  },
+  {
+   "id": "wd:Q5116556",
+   "name": "Church Bay",
+   "label": "Church Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BM-SOU",
+   "country": "BM",
+   "lat": 32.2492,
+   "lon": -64.8472,
+   "rarity": "Common",
+   "fame": 792,
+   "facts": {
+    "elevation_m": 23,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "It serves as a popular snorkelling destination for locals.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church Bay, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Church_Bay%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5116556.webp"
+   }
+  },
+  {
+   "id": "wd:Q7974622",
+   "name": "Watford Island",
+   "label": "Watford Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.3061,
+   "lon": -64.8566,
+   "rarity": "Common",
+   "fame": 348,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "Watford Island is an island of Bermuda, which has an area of 4 acres and is part of Sandys Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Watford Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Watford_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7974622.webp"
+   }
+  },
+  {
+   "id": "wd:Q7359515",
+   "name": "Rogue Island",
+   "label": "Rogue Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3644,
+   "lon": -64.7089,
+   "rarity": "Common",
+   "fame": 222,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Rogue Island is an island of Bermuda that is a nature reserve.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rogue Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Rogue_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7359515.webp"
+   }
+  },
+  {
+   "id": "wd:Q845670",
+   "name": "Boaz Island",
+   "label": "Boaz Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.3061,
+   "lon": -64.8564,
+   "rarity": "Common",
+   "fame": 1440,
+   "facts": {
+    "elevation_m": 10,
+    "area_km2": 0.2,
+    "length_km": 0.9,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "Boaz Island, formerly known as Gate's Island or Yates Island, is one of the six main islands of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Boaz Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Boaz_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q845670.webp"
+   }
+  },
+  {
+   "id": "gn:13353868",
+   "name": "Paget Parish",
+   "label": "Paget Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-PAG",
+   "country": "BM",
+   "lat": 32.2802,
+   "lon": -64.7833,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5702,
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 5,702 people in Paget Parish.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353868.webp"
+   }
+  },
+  {
+   "id": "gn:13353865",
+   "name": "Smith's Parish",
+   "label": "Smith's Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-SMI",
+   "country": "BM",
+   "lat": 32.3139,
+   "lon": -64.739,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5406,
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 5,406 people in Smith's Parish.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353865.webp"
+   }
+  },
+  {
+   "id": "gn:13353864",
+   "name": "Devonshire Parish",
+   "label": "Devonshire Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-DEV",
+   "country": "BM",
+   "lat": 32.3058,
+   "lon": -64.7575,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7330,
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 7,330 people in Devonshire.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353864.webp"
+   }
+  },
+  {
+   "id": "gn:13353870",
+   "name": "Southampton Parish",
+   "label": "Southampton Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-SOU",
+   "country": "BM",
+   "lat": 32.2516,
+   "lon": -64.8547,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6633,
+    "elevation_m": 1.0,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "A community of 6,633 people in Southampton.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353870.webp"
+   }
+  },
+  {
+   "id": "gn:13353871",
+   "name": "Sandys Parish",
+   "label": "Sandys Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.2964,
+   "lon": -64.8693,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7653,
+    "elevation_m": 1.0,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "A community of 7,653 people in Sandys Parish.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353871.webp"
+   }
+  },
+  {
+   "id": "gn:13353866",
+   "name": "Hamilton Parish",
+   "label": "Hamilton Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-HAM",
+   "country": "BM",
+   "lat": 32.3422,
+   "lon": -64.7302,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5862,
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 5,862 people in Hamilton.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353866.webp"
+   }
+  },
+  {
+   "id": "gn:13353867",
+   "name": "St George's Parish",
+   "label": "St George's Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3725,
+   "lon": -64.6976,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5659,
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 5,659 people in Saint George.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353867.webp"
+   }
+  },
+  {
+   "id": "gn:13353869",
+   "name": "Warwick Parish",
+   "label": "Warwick Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-WAR",
+   "country": "BM",
+   "lat": 32.2657,
+   "lon": -64.8092,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8615,
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A community of 8,615 people in Warwick.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13353869.webp"
+   }
+  },
+  {
+   "id": "wd:Q3015996",
+   "name": "Naval Air Station Bermuda",
+   "label": "Naval Air Station Bermuda",
+   "type": "built",
+   "kind": "airbase",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3642,
+   "lon": -64.6786,
+   "rarity": "Epic",
+   "fame": 8496,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 22.2
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It operated from several locations and under different names during this period.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Naval Air Station Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Naval_Air_Station_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3015996.webp",
+    "author": "PH1 Doolittle, USN",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NAS_Bermuda_aerial_view02_1993.JPEG"
+   }
+  },
+  {
+   "id": "wd:Q3398678",
+   "name": "Royal Naval Dockyard, Bermuda",
+   "label": "Royal Naval Dockyard, Bermuda",
+   "type": "built",
+   "kind": "Royal Navy Dockyard",
+   "region": "BM-PEM",
+   "country": "BM",
+   "lat": 32.3264,
+   "lon": -64.8333,
+   "rarity": "Epic",
+   "fame": 22308,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "HMD Bermuda was the principal base of the Royal Navy in the Western Atlantic between American independence and the Cold War.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Royal Naval Dockyard, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Royal_Naval_Dockyard%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3398678.webp",
+    "author": "SeanMD80 ( talk ) ( Uploads )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:BermudaDockyard2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7733114",
+   "name": "The Fairmont Hamilton Princess",
+   "label": "The Fairmont Hamilton Princess",
+   "type": "built",
+   "kind": "hotel",
+   "region": "BM-HA",
+   "country": "BM",
+   "lat": 32.2906,
+   "lon": -64.7925,
+   "rarity": "Epic",
+   "fame": 5934,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "The Hamilton Princess & Beach Club, A Fairmont Managed Hotel is one of the grandest and most famous hotels in Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hamilton Princess & Beach Club",
+    "url": "https://en.wikipedia.org/wiki/Hamilton_Princess_%26_Beach_Club",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7733114.webp",
+    "author": "Seán Pòl Ó Creachmhaoil ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Princess_Hotel_in_Pembroke_Bermuda_on_17_July_2006.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6421145",
+   "name": "Town Hill",
+   "label": "Town Hill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BM-SMI",
+   "country": "BM",
+   "lat": 32.3167,
+   "lon": -64.7333,
+   "rarity": "Epic",
+   "fame": 5148,
+   "facts": {
+    "elevation_m": 79,
+    "prominence_m": 79,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Town Hill is the highest point on the island of Bermuda at 79 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Town Hill, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Town_Hill%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6421145.webp"
+   }
+  },
+  {
+   "id": "gn:3573197",
+   "name": "Hamilton",
+   "label": "Hamilton",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-HA",
+   "country": "BM",
+   "lat": 32.2949,
+   "lon": -64.783,
+   "rarity": "Legendary",
+   "fame": 133932,
+   "facts": {
+    "population": 902,
+    "elevation_m": 22,
+    "area_km2": 0.7,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Hamilton is the capital city of the British Overseas Territory of Bermuda, and the main settlement of Pembroke Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hamilton, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Hamilton%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573197.webp",
+    "author": "JoeyBagODonuts",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Front_Street,_Hamilton,_Bermuda.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7591334",
+   "name": "St. Peter's Church, St. George's",
+   "label": "St. Peter's Church, St. George's",
+   "type": "built",
+   "kind": "church",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3816,
+   "lon": -64.6776,
+   "rarity": "Rare",
+   "fame": 3990,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Their Majesties Chappell, St. Peter's Church, in St. George's, Bermuda, is the oldest surviving Anglican church in continuous use outside the British Isles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Peter's Church, St. George's",
+    "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Church%2C_St._George%27s",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7591334.webp",
+    "author": "JoeyBagODonuts",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Church,_Bermuda,_Front.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4304533",
+   "name": "Somerset Bridge, Bermuda",
+   "label": "Somerset Bridge, Bermuda",
+   "type": "built",
+   "kind": "drawbridge",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.2786,
+   "lon": -64.8766,
+   "rarity": "Rare",
+   "fame": 5658,
+   "facts": {
+    "elevation_m": 1.0,
+    "length_km": 0.0,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "Somerset Bridge is a small bridge in Bermuda connecting Somerset Island with the mainland in the western parish of Sandys.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Somerset Bridge, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Somerset_Bridge%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4304533.webp",
+    "author": "dbking from Washington, DC",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Somerset_Bridge,_Bermuda_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17510883",
+   "name": "Fort Victoria",
+   "label": "Fort Victoria",
+   "type": "built",
+   "kind": "coastal battery",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3907,
+   "lon": -64.6744,
+   "rarity": "Rare",
+   "fame": 1086,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Fort Victoria is a disused British Army fort, built to house coastal artillery atop Retreat Hill, within St. George's Garrison.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Victoria, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Fort_Victoria%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17510883.webp"
+   }
+  },
+  {
+   "id": "wd:Q1983313",
+   "name": "Cathedral of the Most Holy Trinity",
+   "label": "Cathedral of the Most Holy Trinity",
+   "type": "built",
+   "kind": "Anglican or Episcopal cathedral",
+   "region": "BM-PEM",
+   "country": "BM",
+   "lat": 32.2945,
+   "lon": -64.7833,
+   "rarity": "Rare",
+   "fame": 2616,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "The Cathedral of the Most Holy Trinity is an Anglican cathedral located on Church Street in the City of Hamilton, in Pembroke Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of the Most Holy Trinity, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Most_Holy_Trinity%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1983313.webp"
+   }
+  },
+  {
+   "id": "wd:Q5905967",
+   "name": "Horseshoe Bay",
+   "label": "Horseshoe Bay",
+   "type": "built",
+   "kind": "beach",
+   "region": "BM-SOU",
+   "country": "BM",
+   "lat": 32.2522,
+   "lon": -64.8217,
+   "rarity": "Rare",
+   "fame": 5748,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "As a tourist spot, it lies on the main island's south coast, in the parish of Southampton.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Horseshoe Bay, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Horseshoe_Bay%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5905967.webp",
+    "author": "Ekem",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Horseshoebay.Bermuda.JPG"
+   }
+  },
+  {
+   "id": "wd:Q822067",
+   "name": "Bermuda National Stadium",
+   "label": "Bermuda National Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "BM-DEV",
+   "country": "BM",
+   "lat": 32.3006,
+   "lon": -64.7697,
+   "rarity": "Rare",
+   "fame": 5280,
+   "facts": {
+    "elevation_m": 36,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "The Bermuda National Stadium is a multi-purpose sports complex in Devonshire Parish, just to the east of the capital, Hamilton.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bermuda National Stadium",
+    "url": "https://en.wikipedia.org/wiki/Bermuda_National_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q822067.webp"
+   }
+  },
+  {
+   "id": "wd:Q4892604",
+   "name": "Bermuda Aquarium, Museum and Zoo",
+   "label": "Bermuda Aquarium, Museum and Zoo",
+   "type": "built",
+   "kind": "museum",
+   "region": "BM-HAM",
+   "country": "BM",
+   "lat": 32.3234,
+   "lon": -64.7371,
+   "rarity": "Rare",
+   "fame": 2586,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "The Bermuda Aquarium, Museum and Zoo is a facility located in Flatts Village, Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bermuda Aquarium, Museum and Zoo",
+    "url": "https://en.wikipedia.org/wiki/Bermuda_Aquarium%2C_Museum_and_Zoo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4892604.webp",
+    "author": "Robyn Fleming",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Galapagos_tortoise_at_the_Bermuda_Aquarium_%26_Zoo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7760009",
+   "name": "The Reefs Hotel & Club",
+   "label": "The Reefs Hotel & Club",
+   "type": "built",
+   "kind": "hotel",
+   "region": "BM-SOU",
+   "country": "BM",
+   "lat": 32.2489,
+   "lon": -64.8392,
+   "rarity": "Rare",
+   "fame": 966,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "The Reefs Hotel & Club, commonly known as The Reefs, is a luxury four-star resort hotel in Southampton Parish, Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Reefs Hotel & Club",
+    "url": "https://en.wikipedia.org/wiki/The_Reefs_Hotel_%26_Club",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7760009.webp",
+    "author": "The Reefs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Reefs_Hotel_%26_Club,_Bermuda_resort.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5558969",
+   "name": "Gibbs Hill Lighthouse",
+   "label": "Gibbs Hill Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "BM-SOU",
+   "country": "BM",
+   "lat": 32.2528,
+   "lon": -64.8347,
+   "rarity": "Rare",
+   "fame": 3432,
+   "facts": {
+    "elevation_m": 59,
+    "height_m": 36,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "Manufactured in 1844 by Cottam and Hallen of Cornwall Road, Lambeth; in their works within sight of Waterloo Bridge Erected by the Royal Engineers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gibbs Hill Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Gibbs_Hill_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5558969.webp",
+    "author": "dbking",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gibbs_Hill_Lighthouse.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15238500",
+   "name": "Kindley Air Force Base",
+   "label": "Kindley Air Force Base",
+   "type": "built",
+   "kind": "airbase",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3642,
+   "lon": -64.6786,
+   "rarity": "Rare",
+   "fame": 5316,
+   "facts": {
+    "elevation_m": 3.7,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Kindley Air Force Base was a United States Air Force base in Bermuda from 1948–1970.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kindley Air Force Base",
+    "url": "https://en.wikipedia.org/wiki/Kindley_Air_Force_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15238500.webp",
+    "author": "PH1 Doolittle, USN",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NAS_Bermuda_aerial_view02_1993.JPEG"
+   }
+  },
+  {
+   "id": "wd:Q7921139",
+   "name": "Verdmont",
+   "label": "Verdmont",
+   "type": "built",
+   "kind": "historic house",
+   "region": "BM-SMI",
+   "country": "BM",
+   "lat": 32.3088,
+   "lon": -64.7409,
+   "rarity": "Rare",
+   "fame": 960,
+   "facts": {
+    "elevation_m": 39,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Verdmont, located at 6 Verdmont Lane, off Sayle Road, at the top of Collector’s Hill, in Smith's Parish, Bermuda is a historic house built c.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Verdmont",
+    "url": "https://en.wikipedia.org/wiki/Verdmont",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7921139.webp",
+    "author": "P. Hughes",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Verdmont_House,_Bermuda.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5052374",
+   "name": "Cathedral of Saint Theresa of Lisieux",
+   "label": "Cathedral of Saint Theresa of Lisieux",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "BM-PEM",
+   "country": "BM",
+   "lat": 32.2973,
+   "lon": -64.7848,
+   "rarity": "Rare",
+   "fame": 1422,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "The Cathedral of Saint Theresa of Lisieux, or the Cathedral of Saint Theresa of the Little Flower, normally referred to as St. Theresa's Cathedral.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of Saint Theresa of Lisieux",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_Saint_Theresa_of_Lisieux",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5052374.webp",
+    "author": "Concord",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Theresa%27s_Cathedral_exterior.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5167712",
+   "name": "Cooper's Island",
+   "label": "Cooper's Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SGE",
+   "country": "BM",
+   "lat": 32.3536,
+   "lon": -64.66,
+   "rarity": "Rare",
+   "fame": 1488,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "Cooper's Island is part of the chain which makes up Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cooper's Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Cooper%27s_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5167712.webp"
+   }
+  },
+  {
+   "id": "wd:Q21790512",
+   "name": "Ireland Island",
+   "label": "Ireland Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-SAN",
+   "country": "BM",
+   "lat": 32.32,
+   "lon": -64.8417,
+   "rarity": "Rare",
+   "fame": 3474,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.4,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "Ireland Island is the north-westernmost island in the chain which comprises Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ireland Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Ireland_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21790512.webp"
+   }
+  },
+  {
+   "id": "wd:Q4056645",
+   "name": "Agar's Island",
+   "label": "Agar's Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BM-PEM",
+   "country": "BM",
+   "lat": 32.2936,
+   "lon": -64.8097,
+   "rarity": "Rare",
+   "fame": 2208,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Agar's Island is an island of Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Agar's Island, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/Agar%27s_Island%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4056645.webp",
+    "author": "David Broad",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bermuda_-_mansion_on_Agar%27s_Island_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1549037",
+   "name": "Great Sound",
+   "label": "Great Sound",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BM-WAR",
+   "country": "BM",
+   "lat": 32.2875,
+   "lon": -64.8369,
+   "rarity": "Rare",
+   "fame": 2100,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 22.1
+   },
+   "flavour": {
+    "text": "The Great Sound is large ocean inlet located in Bermuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Sound",
+    "url": "https://en.wikipedia.org/wiki/Great_Sound",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1549037.webp"
+   }
+  },
+  {
+   "id": "gn:3573061",
+   "name": "Saint George",
+   "label": "Saint George",
+   "type": "town",
+   "kind": "town",
+   "region": "BM-SG",
+   "country": "BM",
+   "lat": 32.3817,
+   "lon": -64.6781,
+   "rarity": "Rare",
+   "fame": 40722,
+   "facts": {
+    "population": 1896,
+    "elevation_m": 16,
+    "area_km2": 2.6,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "St. George's, located on the island and within the parish of the same names, settled in 1612.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. George's, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s%2C_Bermuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573061.webp"
+   }
+  }
+ ]
+}

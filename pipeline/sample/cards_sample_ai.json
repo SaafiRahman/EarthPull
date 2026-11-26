@@ -1,0 +1,414 @@
+{
+ "note": "Sample of the Anguilla card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5459742",
+   "name": "Flirt Rocks",
+   "label": "Flirt Rocks",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2667,
+   "lon": -63.1833,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Flirt Rocks are two small, uninhabited, rocky islets off of Anguilla, in the Leeward Islands of the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Flirt Rocks",
+    "url": "https://en.wikipedia.org/wiki/Flirt_Rocks",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5459742.webp"
+   }
+  },
+  {
+   "id": "wd:Q3003173",
+   "name": "Crocus Hill",
+   "label": "Crocus Hill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2119,
+   "lon": -63.0706,
+   "rarity": "Common",
+   "fame": 2616,
+   "facts": {
+    "elevation_m": 65,
+    "prominence_m": 65,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Crocus Hill is the highest point of Anguilla, a British overseas territory in the Caribbean, with an elevation of 73 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crocus Hill",
+    "url": "https://en.wikipedia.org/wiki/Crocus_Hill",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3003173.webp"
+   }
+  },
+  {
+   "id": "wd:Q2628897",
+   "name": "Dog Island",
+   "label": "Dog Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2783,
+   "lon": -63.2533,
+   "rarity": "Common",
+   "fame": 6324,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 2.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Dog Island is an uninhabited small island of 207 ha located approximately 13 km to the north-west of Anguilla, a British Overseas Territory in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dog Island, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/Dog_Island%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2628897.webp"
+   }
+  },
+  {
+   "id": "wd:Q7963002",
+   "name": "Wallblake House",
+   "label": "Wallblake House",
+   "type": "built",
+   "kind": "building",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2094,
+   "lon": -63.0547,
+   "rarity": "Epic",
+   "fame": 4764,
+   "facts": {
+    "elevation_m": 35,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Wallblake House is a heritage plantation house and museum annex in The Valley, Anguilla in the northeastern Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wallblake House",
+    "url": "https://en.wikipedia.org/wiki/Wallblake_House",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7963002.webp",
+    "author": "Josveek Huligar (permission given in e-mail)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wallblake_House,_The_Valley.jpg"
+   }
+  },
+  {
+   "id": "gn:3573473",
+   "name": "East End Village",
+   "label": "East End Village",
+   "type": "town",
+   "kind": "town",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2333,
+   "lon": -63.0,
+   "rarity": "Epic",
+   "fame": 714,
+   "facts": {
+    "population": 671,
+    "elevation_m": 6.0,
+    "area_km2": 5.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "East End is one of the fourteen Districts of Anguilla.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "East End, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/East_End%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573473.webp"
+   }
+  },
+  {
+   "id": "gn:3573407",
+   "name": "Sandy Ground Village",
+   "label": "Sandy Ground Village",
+   "type": "town",
+   "kind": "town",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2012,
+   "lon": -63.09,
+   "rarity": "Epic",
+   "fame": 1092,
+   "facts": {
+    "population": 274,
+    "elevation_m": 4.0,
+    "area_km2": 1.1,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The long curved beach is backed by high cliffs and a disused salt pond.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sandy Ground, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/Sandy_Ground%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3573407.webp"
+   }
+  },
+  {
+   "id": "gn:3573496",
+   "name": "Blowing Point Village",
+   "label": "Blowing Point Village",
+   "type": "town",
+   "kind": "town",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.1765,
+   "lon": -63.0938,
+   "rarity": "Epic",
+   "fame": 1164,
+   "facts": {
+    "population": 942,
+    "elevation_m": 10,
+    "area_km2": 5.2,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It is home to Anguilla's ferry terminal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blowing Point, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/Blowing_Point%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573496.webp",
+    "author": "Patrick Hawks from Sint Maarten",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anguilla_Ferry_Arrivals.jpg"
+   }
+  },
+  {
+   "id": "gn:11205445",
+   "name": "Sandy Hill",
+   "label": "Sandy Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.221,
+   "lon": -63.0133,
+   "rarity": "Epic",
+   "fame": 432,
+   "facts": {
+    "population": 636,
+    "elevation_m": 18,
+    "area_km2": 6.6,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Sandy Hill is one of the fourteen Districts of Anguilla.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sandy Hill, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/Sandy_Hill%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11205445.webp"
+   }
+  },
+  {
+   "id": "gn:3573374",
+   "name": "The Valley",
+   "label": "The Valley",
+   "type": "town",
+   "kind": "town",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.217,
+   "lon": -63.0578,
+   "rarity": "Legendary",
+   "fame": 33390,
+   "facts": {
+    "population": 2035,
+    "elevation_m": 7.0,
+    "area_km2": 2.7,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Valley is the capital of Anguilla, one of its fourteen districts, and the main town on the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Valley, Anguilla",
+    "url": "https://en.wikipedia.org/wiki/The_Valley%2C_Anguilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3573374.webp",
+    "author": "Josveek Huligar (permission given in e-mail)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wallblake_House,_The_Valley.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24691673",
+   "name": "St. Gerard Church, The Valley",
+   "label": "St. Gerard Church, The Valley",
+   "type": "built",
+   "kind": "church",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2101,
+   "lon": -63.0544,
+   "rarity": "Rare",
+   "fame": 726,
+   "facts": {
+    "elevation_m": 30,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "St. Gerard Church is a religious building located in the town of The Valley, capital of the British overseas territory of Anguilla, in the Lesser Antilles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Gerard Church, The Valley",
+    "url": "https://en.wikipedia.org/wiki/St._Gerard_Church%2C_The_Valley",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24691673.webp"
+   }
+  },
+  {
+   "id": "wd:Q5034429",
+   "name": "Cap Juluca Hotel",
+   "label": "Cap Juluca Hotel",
+   "type": "built",
+   "kind": "hotel",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.1657,
+   "lon": -63.1447,
+   "rarity": "Rare",
+   "fame": 1122,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Cap Juluca is named for the rainbow spirit of the Arawak, Anguilla's earliest inhabitants.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belmond Cap Juluca",
+    "url": "https://en.wikipedia.org/wiki/Belmond_Cap_Juluca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5034429.webp",
+    "author": "tiarescott from Beverly Hills, California, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cap_Juluca_-_Anguilla.jpg"
+   }
+  },
+  {
+   "id": "wd:Q571349",
+   "name": "Ronald Webster Park",
+   "label": "Ronald Webster Park",
+   "type": "built",
+   "kind": "built structure",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.2169,
+   "lon": -63.051,
+   "rarity": "Rare",
+   "fame": 1134,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Ronald Webster Park is a sports venue in The Valley, Anguilla.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ronald Webster Park",
+    "url": "https://en.wikipedia.org/wiki/Ronald_Webster_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q571349.webp"
+   }
+  },
+  {
+   "id": "wd:Q3739815",
+   "name": "Sombrero Lighthouse",
+   "label": "Sombrero Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "AI",
+   "country": "AI",
+   "lat": 18.5875,
+   "lon": -63.4253,
+   "rarity": "Rare",
+   "fame": 648,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Sombrero Lighthouse is a lighthouse that marks the Anegada Passage, which is the route from Europe into the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sombrero Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Sombrero_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3739815.webp",
+    "author": "User:Welkinridge , upload to Commons: Herrick",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Sombrero_light1.jpg"
+   }
+  }
+ ]
+}

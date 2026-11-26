@@ -1,0 +1,2439 @@
+{
+ "note": "Sample of the Haiti card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5595294",
+   "name": "Grande-Anse River",
+   "label": "Grande-Anse River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.6188,
+   "lon": -74.1265,
+   "rarity": "Common",
+   "fame": 834,
+   "facts": {
+    "elevation_m": 72,
+    "length_km": 70,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The Grande-Anse River flows through western Haiti and empties into the Gulf of Gonâve at the city of Jérémie.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grande-Anse River",
+    "url": "https://en.wikipedia.org/wiki/Grande-Anse_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5595294.webp",
+    "author": "Bruno Le Bansais",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_Grande_Anse_Ha%C3%AFti_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17634862",
+   "name": "Massif de Terre Neuve",
+   "label": "Massif de Terre Neuve",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.6667,
+   "lon": -72.8333,
+   "rarity": "Common",
+   "fame": 234,
+   "facts": {
+    "elevation_m": 1093,
+    "length_km": 50,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "A mountain range in Artibonite.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17634862.webp"
+   }
+  },
+  {
+   "id": "wd:Q7338932",
+   "name": "Rivière de Cavaillon",
+   "label": "Rivière de Cavaillon",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.2333,
+   "lon": -73.6833,
+   "rarity": "Common",
+   "fame": 348,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 30,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Rivière de Cavaillon is a river of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière de Cavaillon",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_de_Cavaillon",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7338932.webp"
+   }
+  },
+  {
+   "id": "wd:Q17621739",
+   "name": "baie de Fort-Liberté",
+   "label": "baie de Fort-Liberté",
+   "type": "nature",
+   "kind": "bay",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6728,
+   "lon": -71.8404,
+   "rarity": "Common",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A bay in Nord-Est.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17621739.webp"
+   }
+  },
+  {
+   "id": "wd:Q2797523",
+   "name": "Morne Bois-Pin",
+   "label": "Morne Bois-Pin",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.35,
+   "lon": -72.2333,
+   "rarity": "Common",
+   "fame": 300,
+   "facts": {
+    "elevation_m": 2235,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "Morne Bois-Pin is the fourth highest mountain in Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne Bois-Pin",
+    "url": "https://en.wikipedia.org/wiki/Morne_Bois-Pin",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2797523.webp"
+   }
+  },
+  {
+   "id": "wd:Q1952095",
+   "name": "Les Trois Rivières",
+   "label": "Les Trois Rivières",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 19.95,
+   "lon": -72.8667,
+   "rarity": "Common",
+   "fame": 774,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 150,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It then passes through the cities of Plaisance and Pilate.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Les Trois Rivières",
+    "url": "https://en.wikipedia.org/wiki/Les_Trois_Rivi%C3%A8res",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1952095.webp",
+    "author": "Alex Proimos from Sydney, Australia",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bus_scolaire_sur_le_fleuve_Trois_Rivi%C3%A8res_%C3%A0_Ha%C3%AFti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17373148",
+   "name": "Baie des Moustiques",
+   "label": "Baie des Moustiques",
+   "type": "nature",
+   "kind": "bay",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 19.9156,
+   "lon": -72.9608,
+   "rarity": "Common",
+   "fame": 402,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A bay in Nord-Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17373148.webp"
+   }
+  },
+  {
+   "id": "wd:Q17638275",
+   "name": "Rivière Torbeck",
+   "label": "Rivière Torbeck",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.17,
+   "lon": -73.817,
+   "rarity": "Common",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 10,
+    "length_km": 15,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A river in Sud.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17638275.webp"
+   }
+  },
+  {
+   "id": "wd:Q7338939",
+   "name": "Rivière des Côtes de Fer",
+   "label": "Rivière des Côtes de Fer",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-SE",
+   "country": "HT",
+   "lat": 18.1833,
+   "lon": -73.0,
+   "rarity": "Common",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 26,
+    "length_km": 40,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "The Rivière des Côtes de Fer is a river in Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière des Côtes de Fer",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_des_C%C3%B4tes_de_Fer",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7338939.webp"
+   }
+  },
+  {
+   "id": "wd:Q17382828",
+   "name": "Rivière Victorine",
+   "label": "Rivière Victorine",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.1667,
+   "lon": -71.8,
+   "rarity": "Common",
+   "fame": 24,
+   "facts": {
+    "elevation_m": 366,
+    "length_km": 15,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A river in Centre.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17382828.webp"
+   }
+  },
+  {
+   "id": "wd:Q17332988",
+   "name": "Rivière Blanche",
+   "label": "Rivière Blanche (near Thomazeau)",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.6075,
+   "lon": -72.0556,
+   "rarity": "Common",
+   "fame": 456,
+   "facts": {
+    "elevation_m": 20,
+    "length_km": 100,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Downstream, one arm is channeled towards the Étang Saumâtre, another joined the Canal Boucanbrou and the Trou Caïman.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Blanche (Ouest)",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Blanche_%28Ouest%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17332988.webp"
+   }
+  },
+  {
+   "id": "wd:Q7338922",
+   "name": "Rivière Locaine",
+   "label": "Rivière Locaine",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.0667,
+   "lon": -71.7333,
+   "rarity": "Common",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 298,
+    "length_km": 45,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Rivière Lociane or L'Océane is a river of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Lociane",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Lociane",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7338922.webp"
+   }
+  },
+  {
+   "id": "gn:3722239",
+   "name": "Les Irois",
+   "label": "Les Irois",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.4049,
+   "lon": -74.4528,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2265,
+    "elevation_m": 14,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A community of 2,265 people in Grand'Anse.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3722239.webp"
+   }
+  },
+  {
+   "id": "gn:3727287",
+   "name": "Kotdefè",
+   "label": "Kotdefè",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SE",
+   "country": "HT",
+   "lat": 18.1887,
+   "lon": -73.0029,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2393,
+    "elevation_m": 9.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 2,393 people in Sud-Est.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3727287.webp"
+   }
+  },
+  {
+   "id": "gn:3731132",
+   "name": "Anse à Galets",
+   "label": "Anse à Galets",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.8345,
+   "lon": -72.8664,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7178,
+    "elevation_m": 22,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 7,178 people in Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731132.webp"
+   }
+  },
+  {
+   "id": "gn:3719008",
+   "name": "Petite Anse",
+   "label": "Petite Anse",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 19.6301,
+   "lon": -73.155,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1539,
+    "elevation_m": 6.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "A community of 1,539 people in Nord-Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3719008.webp"
+   }
+  },
+  {
+   "id": "gn:3718707",
+   "name": "Plaine du Nord",
+   "label": "Plaine du Nord",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.6771,
+   "lon": -72.2697,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2492,
+    "elevation_m": 20,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 2,492 people in Nord.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718707.webp"
+   }
+  },
+  {
+   "id": "gn:3728054",
+   "name": "Cerca la Source",
+   "label": "Cerca la Source",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.167,
+   "lon": -71.7901,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2792,
+    "elevation_m": 370,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "A community of 2,792 people in Centre.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3728054.webp"
+   }
+  },
+  {
+   "id": "gn:3718975",
+   "name": "Petite Rivière de Nippes",
+   "label": "Petite Rivière de Nippes",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NI",
+   "country": "HT",
+   "lat": 18.4761,
+   "lon": -73.2349,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1794,
+    "elevation_m": 15,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "A community of 1,794 people in Nippes.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718975.webp"
+   }
+  },
+  {
+   "id": "gn:3718411",
+   "name": "Port-Margot",
+   "label": "Port-Margot",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.7518,
+   "lon": -72.4301,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3070,
+    "elevation_m": 37,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 3,070 people in Nord.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718411.webp"
+   }
+  },
+  {
+   "id": "gn:3722124",
+   "name": "Lenbe",
+   "label": "Lenbe",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.706,
+   "lon": -72.4034,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 32645,
+    "elevation_m": 34,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 32,645 people in Nord.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3722124.webp"
+   }
+  },
+  {
+   "id": "gn:3718666",
+   "name": "Plaisance",
+   "label": "Plaisance",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.598,
+   "lon": -72.4699,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4152,
+    "elevation_m": 387,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "A community of 4,152 people in Nord.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718666.webp"
+   }
+  },
+  {
+   "id": "gn:3716669",
+   "name": "Thomassique",
+   "label": "Thomassique",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.0821,
+   "lon": -71.8385,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4857,
+    "elevation_m": 294,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 4,857 people in Centre.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3716669.webp"
+   }
+  },
+  {
+   "id": "gn:3731123",
+   "name": "Anse-à-Veau",
+   "label": "Anse-à-Veau",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.5011,
+   "lon": -73.3449,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1731,
+    "elevation_m": 16,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 1,731 people in Grand'Anse.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731123.webp"
+   }
+  },
+  {
+   "id": "wd:Q1798978",
+   "name": "La Navidad",
+   "label": "La Navidad",
+   "type": "built",
+   "kind": "fort",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6906,
+   "lon": -72.0158,
+   "rarity": "Epic",
+   "fame": 53100,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "La Navidad was a Spanish fort that Christopher Columbus and his crew built on the northwest coast of Hispaniola in 1492 from the remains of the Spanish ship…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Navidad",
+    "url": "https://en.wikipedia.org/wiki/La_Navidad",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1798978.webp",
+    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Vida_y_viajes_de_Cristobal_Col%C3%B3n,_1851_Construcci%C3%B3n_de_la_fortaleza_de_La_Navidad_(3819531625).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3365701",
+   "name": "Hotel Oloffson",
+   "label": "Hotel Oloffson",
+   "type": "built",
+   "kind": "hotel",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5294,
+   "lon": -72.3375,
+   "rarity": "Epic",
+   "fame": 11232,
+   "facts": {
+    "elevation_m": 57,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The architecture was late-19th century tropical gingerbread house, a French-origin tropical mansion design.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hotel Oloffson",
+    "url": "https://en.wikipedia.org/wiki/Hotel_Oloffson",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3365701.webp",
+    "author": "Ketounette",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Oloffson_mars_2007.JPG"
+   }
+  },
+  {
+   "id": "wd:Q206194",
+   "name": "Citadelle Laferrière",
+   "label": "Citadelle Laferrière",
+   "type": "built",
+   "kind": "World Heritage Site",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.5736,
+   "lon": -72.2439,
+   "rarity": "Epic",
+   "fame": 44838,
+   "facts": {
+    "elevation_m": 910,
+    "area_km2": 0.0,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "The Citadelle Laferrière, commonly known as La Citadelle, is a large early-19th-century fortress located in Milot in Nord, Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Citadelle Laferrière",
+    "url": "https://en.wikipedia.org/wiki/Citadelle_Laferri%C3%A8re",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q206194.webp",
+    "author": "SPC Gibran Torres, United States Army",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Citadelle_Laferri%C3%A8re_Aerial_View.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1246231",
+   "name": "Labadee",
+   "label": "Labadee",
+   "type": "built",
+   "kind": "human settlement",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.7864,
+   "lon": -72.2456,
+   "rarity": "Epic",
+   "fame": 31848,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Labadee is a private resort located on the northern coast of Haiti within the arrondissement of Cap-Haïtien in the Nord department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Labadee",
+    "url": "https://en.wikipedia.org/wiki/Labadee",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1246231.webp",
+    "author": "Ahodges7",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Labadee,_Haiti_Aug_2002.JPG"
+   }
+  },
+  {
+   "id": "wd:Q930795",
+   "name": "Sans-Souci Palace",
+   "label": "Sans-Souci Palace",
+   "type": "built",
+   "kind": "World Heritage Site",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.6047,
+   "lon": -72.2186,
+   "rarity": "Epic",
+   "fame": 38754,
+   "facts": {
+    "elevation_m": 128,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "The Palace of Sans-Souci, or Sans-Souci Palace, was the principal royal residence of Henry I, King of Haiti, better known as Henri Christophe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sans-Souci Palace",
+    "url": "https://en.wikipedia.org/wiki/Sans-Souci_Palace",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q930795.webp",
+    "author": "Rémi Kaupp",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sans-Souci_Palace_front.jpg"
+   }
+  },
+  {
+   "id": "wd:Q755784",
+   "name": "Stade Sylvio Cator",
+   "label": "Stade Sylvio Cator",
+   "type": "built",
+   "kind": "multi-purpose stadium",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5361,
+   "lon": -72.3425,
+   "rarity": "Epic",
+   "fame": 20646,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is currently used primarily for association football matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stade Sylvio Cator",
+    "url": "https://en.wikipedia.org/wiki/Stade_Sylvio_Cator",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q755784.webp",
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Joel Carlson",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100117-N-4275C-190_Haitian_citizens_seek_refuge_at_the_Stade_Sylvio_Cator,_the_national_soccer_stadium,_in_Port-au-Prince,_Haiti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q140775977",
+   "name": "parc national urbain de Martissant",
+   "label": "parc national urbain de Martissant",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5256,
+   "lon": -72.3617,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 52,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A national park in Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q140775977.webp"
+   }
+  },
+  {
+   "id": "wd:Q292606",
+   "name": "Île à Vache",
+   "label": "Île à Vache",
+   "type": "nature",
+   "kind": "island",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.0714,
+   "lon": -73.63,
+   "rarity": "Epic",
+   "fame": 13890,
+   "facts": {
+    "elevation_m": 43,
+    "area_km2": 52,
+    "length_km": 18,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "It lies in the Baie de Cayes about 6.5 miles off the coast of the country's southwest peninsula, roughly between the town of Les Cayes and Pointe l'Abacou.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île-à-Vache",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele-%C3%A0-Vache",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q292606.webp",
+    "author": "marie-chantalle",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ile-a-Vache_-_Haiti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24204928",
+   "name": "Deux Mamelles National Park",
+   "label": "Deux Mamelles National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.4458,
+   "lon": -74.2444,
+   "rarity": "Epic",
+   "fame": 552,
+   "facts": {
+    "elevation_m": 1224,
+    "area_km2": 23,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It is located on the Tiburon Peninsula of Haiti, just west of a line connecting Les Anglais to the south and Jérémie to the north.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Deux Mamelles National Park",
+    "url": "https://en.wikipedia.org/wiki/Deux_Mamelles_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24204928.webp",
+    "author": "Angela268",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cloud_forest_on_Deux_Mamelles_SBH_3327_copy.jpg"
+   }
+  },
+  {
+   "id": "wd:Q268282",
+   "name": "Gonâve Island",
+   "label": "Gonâve Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.8333,
+   "lon": -73.0833,
+   "rarity": "Epic",
+   "fame": 36888,
+   "facts": {
+    "elevation_m": 194,
+    "area_km2": 743,
+    "length_km": 56,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "It is the largest of the Hispaniolan satellite islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gonâve Island",
+    "url": "https://en.wikipedia.org/wiki/Gon%C3%A2ve_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q268282.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Gonave.jpg"
+   }
+  },
+  {
+   "id": "wd:Q25359",
+   "name": "Navassa Island",
+   "label": "Navassa Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.4027,
+   "lon": -75.0126,
+   "rarity": "Epic",
+   "fame": 128994,
+   "facts": {
+    "elevation_m": 69,
+    "area_km2": 5.2,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Navassa Island is an uninhabited island in the Windward Passage of the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Navassa Island",
+    "url": "https://en.wikipedia.org/wiki/Navassa_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25359.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Navassa_ISS014.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24204927",
+   "name": "Grande Colline National Park",
+   "label": "Grande Colline National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.4042,
+   "lon": -74.1028,
+   "rarity": "Epic",
+   "fame": 558,
+   "facts": {
+    "elevation_m": 1759,
+    "area_km2": 1510,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "The park was established on 23 July 2014 with an area of 1,510 hectares, centred around five peaks within the Grande Colline mountain range.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grande Colline National Park",
+    "url": "https://en.wikipedia.org/wiki/Grande_Colline_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24204927.webp",
+    "author": "Angela268",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Colline.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24204916",
+   "name": "Grand Bois National Park",
+   "label": "Grand Bois National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.3711,
+   "lon": -74.3014,
+   "rarity": "Epic",
+   "fame": 774,
+   "facts": {
+    "elevation_m": 1239,
+    "area_km2": 3.7,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "It was established on September 23, 2015, by Haitian president, Michel Martelly.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Bois National Park",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bois_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24204916.webp",
+    "author": "Angela268",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Bois_valley.jpg"
+   }
+  },
+  {
+   "id": "wd:Q75828301",
+   "name": "parc national Forêt des Pins",
+   "label": "parc national Forêt des Pins",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.335,
+   "lon": -71.9764,
+   "rarity": "Epic",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 2234,
+    "area_km2": 188,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "A national park in Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q75828301.webp"
+   }
+  },
+  {
+   "id": "wd:Q2540203",
+   "name": "Pic Macaya National Park",
+   "label": "Pic Macaya National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.3714,
+   "lon": -74.0203,
+   "rarity": "Epic",
+   "fame": 2142,
+   "facts": {
+    "elevation_m": 1401,
+    "area_km2": 20,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "Pic Macaya National Park is one of two largest national parks of the Republic of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pic Macaya National Park",
+    "url": "https://en.wikipedia.org/wiki/Pic_Macaya_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2540203.webp"
+   }
+  },
+  {
+   "id": "wd:Q12125635",
+   "name": "National History Park",
+   "label": "National History Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.5736,
+   "lon": -72.2439,
+   "rarity": "Epic",
+   "fame": 3036,
+   "facts": {
+    "elevation_m": 783,
+    "area_km2": 253,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "It was declared as a UNESCO World Heritage Site in 1982.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National History Park",
+    "url": "https://en.wikipedia.org/wiki/National_History_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q12125635.webp",
+    "author": "Rémi Kaupp",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Sans-Souci_Palace_back.jpg"
+   }
+  },
+  {
+   "id": "gn:3728097",
+   "name": "Les Cayes",
+   "label": "Les Cayes",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.192,
+   "lon": -73.7495,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 125799,
+    "elevation_m": 1.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 125,799 people in Sud.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3728097.webp"
+   }
+  },
+  {
+   "id": "gn:3725364",
+   "name": "Fond des Blancs",
+   "label": "Fond des Blancs",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.2778,
+   "lon": -73.1273,
+   "rarity": "Epic",
+   "fame": 4842,
+   "facts": {
+    "population": 2653,
+    "elevation_m": 303,
+    "area_km2": 0.7,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Fond-des-Blancs is a communal section located in the Sud department of Haiti in the Aquin Arrondissement.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fond-des-Blancs",
+    "url": "https://en.wikipedia.org/wiki/Fond-des-Blancs",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3725364.webp"
+   }
+  },
+  {
+   "id": "gn:3723593",
+   "name": "Jérémie",
+   "label": "Jérémie",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.65,
+   "lon": -74.1167,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 97503,
+    "elevation_m": 12,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 97,503 people in Grand'Anse.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3723593.webp"
+   }
+  },
+  {
+   "id": "gn:3725170",
+   "name": "Fort Liberté",
+   "label": "Fort Liberté",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6625,
+   "lon": -71.8351,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 11465,
+    "elevation_m": 1.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 11,465 people in Nord-Est.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3725170.webp"
+   }
+  },
+  {
+   "id": "gn:3724696",
+   "name": "Gonaïves",
+   "label": "Gonaïves",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.4475,
+   "lon": -72.6893,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 84961,
+    "elevation_m": 5.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 84,961 people in Artibonite.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3724696.webp"
+   }
+  },
+  {
+   "id": "gn:3723841",
+   "name": "Hinche",
+   "label": "Hinche",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.1409,
+   "lon": -72.0119,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 18590,
+    "elevation_m": 230,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "A community of 18,590 people in Centre.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3723841.webp"
+   }
+  },
+  {
+   "id": "gn:3723779",
+   "name": "Jacmel",
+   "label": "Jacmel",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SE",
+   "country": "HT",
+   "lat": 18.2357,
+   "lon": -72.5369,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 137966,
+    "elevation_m": 29,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A community of 137,966 people in Sud-Est.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3723779.webp"
+   }
+  },
+  {
+   "id": "gn:3718420",
+   "name": "Port-de-Paix",
+   "label": "Port-de-Paix",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 19.9398,
+   "lon": -72.8304,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 306217,
+    "elevation_m": 11,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 306,217 people in Nord-Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718420.webp"
+   }
+  },
+  {
+   "id": "gn:3720824",
+   "name": "Miragoâne",
+   "label": "Miragoâne",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NI",
+   "country": "HT",
+   "lat": 18.446,
+   "lon": -73.0896,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 89202,
+    "elevation_m": 6.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "A community of 89,202 people in Nippes.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3720824.webp"
+   }
+  },
+  {
+   "id": "gn:3727135",
+   "name": "Croix-des-Bouquets",
+   "label": "Croix-des-Bouquets",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5768,
+   "lon": -72.2262,
+   "rarity": "Epic",
+   "fame": 306,
+   "facts": {
+    "population": 229127,
+    "elevation_m": 69,
+    "area_km2": 635,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Croix-des-Bouquets is a town in the Croix-des-Bouquets commune in the Croix-des-Bouquets Arrondissement, in the Ouest department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Croix-des-Bouquets (town)",
+    "url": "https://en.wikipedia.org/wiki/Croix-des-Bouquets_%28town%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3727135.webp"
+   }
+  },
+  {
+   "id": "gn:3718426",
+   "name": "Port-au-Prince",
+   "label": "Port-au-Prince",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5435,
+   "lon": -72.3388,
+   "rarity": "Legendary",
+   "fame": 0,
+   "facts": {
+    "population": 1234742,
+    "elevation_m": 27,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 1,234,742 people in Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718426.webp"
+   }
+  },
+  {
+   "id": "wd:Q2885443",
+   "name": "Péligre Dam",
+   "label": "Péligre Dam",
+   "type": "built",
+   "kind": "gravity dam",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 18.9,
+   "lon": -72.0394,
+   "rarity": "Rare",
+   "fame": 2874,
+   "facts": {
+    "elevation_m": 136,
+    "length_km": 0.3,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The Péligre Dam is a gravity dam located off the Centre department on the Artibonite River of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Péligre Dam",
+    "url": "https://en.wikipedia.org/wiki/P%C3%A9ligre_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2885443.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Lac_Peligre_Haiti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q11737318",
+   "name": "Our Lady of the Assumption Cathedral, Cap-Haïtien",
+   "label": "Our Lady of the Assumption Cathedral, Cap-Haïtien",
+   "type": "built",
+   "kind": "church",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.761,
+   "lon": -72.2007,
+   "rarity": "Rare",
+   "fame": 2244,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Our Lady of the Assumption Cathedral also called Cap-Haïtien Cathedral Is the name that receives a temple affiliated to the Catholic Church that is…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of the Assumption Cathedral, Cap-Haïtien",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Assumption_Cathedral%2C_Cap-Ha%C3%AFtien",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11737318.webp",
+    "author": "Rémi Kaupp",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Cap-Haitien.jpg"
+   }
+  },
+  {
+   "id": "wd:Q63400225",
+   "name": "Cathedral of Sainte-Anne d'Anse-à-Veau",
+   "label": "Cathedral of Sainte-Anne d'Anse-à-Veau",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "HT-NI",
+   "country": "HT",
+   "lat": 18.5026,
+   "lon": -73.345,
+   "rarity": "Rare",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A cathedral in Nippes.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q63400225.webp"
+   }
+  },
+  {
+   "id": "wd:Q24204915",
+   "name": "Le Marron Inconnu",
+   "label": "Le Marron Inconnu",
+   "type": "built",
+   "kind": "slavery memorial",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5446,
+   "lon": -72.3377,
+   "rarity": "Rare",
+   "fame": 9864,
+   "facts": {
+    "elevation_m": 19,
+    "height_m": 2.4,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Le Marron Inconnu de Port au prince, shortened as Le Marron Inconnu, also called Neg Marron or Nèg Mawon, is a bronze statue of a runaway slave.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Le Marron Inconnu",
+    "url": "https://en.wikipedia.org/wiki/Le_Marron_Inconnu",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24204915.webp",
+    "author": "| Kristina Just",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Marron_Inconnu,_Haiti_2012.jpg"
+   }
+  },
+  {
+   "id": "wd:Q63385063",
+   "name": "Cathedral of the Immaculate Conception of Hinche",
+   "label": "Cathedral of the Immaculate Conception of Hinche",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 19.1458,
+   "lon": -72.0092,
+   "rarity": "Rare",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 239,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "A cathedral in Centre.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q63385063.webp"
+   }
+  },
+  {
+   "id": "wd:Q16535221",
+   "name": "Centre Sportif de Carrefour",
+   "label": "Centre Sportif de Carrefour",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5361,
+   "lon": -72.4066,
+   "rarity": "Rare",
+   "fame": 246,
+   "facts": {
+    "elevation_m": 58,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A sports venue in Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16535221.webp"
+   }
+  },
+  {
+   "id": "wd:Q57780",
+   "name": "St. Joseph's Cathedral, Fort-Liberté",
+   "label": "St. Joseph's Cathedral, Fort-Liberté",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.6666,
+   "lon": -71.8403,
+   "rarity": "Rare",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The St. Joseph's Cathedral also called Fort-Liberté Cathedral is a religious building belonging to the Catholic Church and is located in the city of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Joseph's Cathedral, Fort-Liberté",
+    "url": "https://en.wikipedia.org/wiki/St._Joseph%27s_Cathedral%2C_Fort-Libert%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q57780.webp"
+   }
+  },
+  {
+   "id": "wd:Q16303839",
+   "name": "Marché en Fer",
+   "label": "Marché en Fer",
+   "type": "built",
+   "kind": "building",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.5515,
+   "lon": -72.3431,
+   "rarity": "Rare",
+   "fame": 2700,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Marché en Fer or Marché de Fer also known as the Marché Hyppolite and the Marché Vallières is a public market in Haiti’s capital, Port‑au‑Prince.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marché en Fer",
+    "url": "https://en.wikipedia.org/wiki/March%C3%A9_en_Fer",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16303839.webp",
+    "author": "book by Jacques Nicolas Léger, photo uncredited",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Central_Market,_Port-au-Prince.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2151262",
+   "name": "Fort de Rocher",
+   "label": "Fort de Rocher",
+   "type": "built",
+   "kind": "fort",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 20.0089,
+   "lon": -72.7117,
+   "rarity": "Rare",
+   "fame": 6846,
+   "facts": {
+    "elevation_m": 143,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "It was built and utilized by buccaneers as the primary defense of the island to prevent encroachment of Spanish forces.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort de Rocher",
+    "url": "https://en.wikipedia.org/wiki/Fort_de_Rocher",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2151262.webp"
+   }
+  },
+  {
+   "id": "wd:Q2310187",
+   "name": "Parc Levelt",
+   "label": "Parc Levelt",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.1081,
+   "lon": -72.6959,
+   "rarity": "Rare",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Parc Levelt is a football stadium in Saint-Marc, Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parc Levelt",
+    "url": "https://en.wikipedia.org/wiki/Parc_Levelt",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2310187.webp"
+   }
+  },
+  {
+   "id": "wd:Q28599190",
+   "name": "Our Lady of the Assumption Cathedral, Les Cayes",
+   "label": "Our Lady of the Assumption Cathedral, Les Cayes",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.193,
+   "lon": -73.7479,
+   "rarity": "Rare",
+   "fame": 576,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Our Lady of the Assumption Cathedral also called Les Cayes Cathedral Is the name given to a religious building of the Catholic Church located in the city…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of the Assumption Cathedral, Les Cayes",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Assumption_Cathedral%2C_Les_Cayes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28599190.webp",
+    "author": "Unknown author",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_Les_Cayes_Haiti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7136383",
+   "name": "Parc St. Victor",
+   "label": "Parc St. Victor",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.7536,
+   "lon": -72.2075,
+   "rarity": "Rare",
+   "fame": 1662,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is the home stadium of AS Capoise, Real Hope FA and Fica of the Ligue Haïtienne.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parc Saint-Victor",
+    "url": "https://en.wikipedia.org/wiki/Parc_Saint-Victor",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7136383.webp"
+   }
+  },
+  {
+   "id": "wd:Q2659710",
+   "name": "Pic Macaya",
+   "label": "Pic Macaya",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.3825,
+   "lon": -74.025,
+   "rarity": "Rare",
+   "fame": 2508,
+   "facts": {
+    "elevation_m": 2347,
+    "prominence_m": 2097,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "Pic Macaya is the second-highest mountain in Haiti, rising to an elevation of 2,347 metres above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pic Macaya",
+    "url": "https://en.wikipedia.org/wiki/Pic_Macaya",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2659710.webp"
+   }
+  },
+  {
+   "id": "wd:Q112205034",
+   "name": "Thomazeau Volcano",
+   "label": "Thomazeau Volcano",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.68,
+   "lon": -72.08,
+   "rarity": "Rare",
+   "fame": 1578,
+   "facts": {
+    "elevation_m": 617,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Thomazeau Volcano or the Thomazeau cinder cones, is a group of extinct cinder cones outside of Thomazeau, Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thomazeau Volcano",
+    "url": "https://en.wikipedia.org/wiki/Thomazeau_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q112205034.webp"
+   }
+  },
+  {
+   "id": "wd:Q2887443",
+   "name": "Bassin Bleu",
+   "label": "Bassin Bleu",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "HT-SE",
+   "country": "HT",
+   "lat": 18.2342,
+   "lon": -72.5881,
+   "rarity": "Rare",
+   "fame": 2190,
+   "facts": {
+    "elevation_m": 275,
+    "height_m": 10,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Bassin Bleu is located 12 kilometres northwest of the city of Jacmel, in the Sud-Est department of Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bassin Bleu (Jacmel)",
+    "url": "https://en.wikipedia.org/wiki/Bassin_Bleu_%28Jacmel%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2887443.webp",
+    "author": "HOPE Art",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bassin_Bleu,_Haiti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1971319",
+   "name": "Pic la Selle",
+   "label": "Pic la Selle",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.3667,
+   "lon": -71.9833,
+   "rarity": "Rare",
+   "fame": 9726,
+   "facts": {
+    "elevation_m": 2674,
+    "prominence_m": 2650,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "Pic la Selle, also called Morne La Selle, is the highest peak in Haiti at 2,574 metres above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pic la Selle",
+    "url": "https://en.wikipedia.org/wiki/Pic_la_Selle",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1971319.webp",
+    "author": "Yohann-benmalek",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pic_La_Selle,_point_culminant_d%27Ha%C3%AFti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q944185",
+   "name": "Dajabón River",
+   "label": "Dajabón River",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-NE",
+   "country": "HT",
+   "lat": 19.7019,
+   "lon": -71.7586,
+   "rarity": "Rare",
+   "fame": 9672,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 55,
+    "temp_c": 26.6
+   },
+   "also_in": [
+    "DO"
+   ],
+   "flavour": {
+    "text": "The Dajabón River is a river which forms the northernmost part of the international border between the Dominican Republic and Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dajabón River",
+    "url": "https://en.wikipedia.org/wiki/Dajab%C3%B3n_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q944185.webp",
+    "author": "Fran Afonso from Islas Canarias",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frontera_Dajab%C3%B3n_-_Ouanaminthe._Fran_Afonso_(9710562817).jpg"
+   }
+  },
+  {
+   "id": "wd:Q974158",
+   "name": "Cayemites",
+   "label": "Cayemites",
+   "type": "nature",
+   "kind": "island",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.6167,
+   "lon": -73.75,
+   "rarity": "Rare",
+   "fame": 2610,
+   "facts": {
+    "elevation_m": 41,
+    "area_km2": 45,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "The Cayemites are a pair of islands located in the Gulf of Gonâve off the coast of southwest Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Les Cayemites",
+    "url": "https://en.wikipedia.org/wiki/Les_Cayemites",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q974158.webp",
+    "author": "Bruno Le Bansais",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iles_Cay%C3%A9mite.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3038517",
+   "name": "Lake Péligre",
+   "label": "Lake Péligre",
+   "type": "nature",
+   "kind": "lake",
+   "region": "HT-CE",
+   "country": "HT",
+   "lat": 18.9083,
+   "lon": -72.0,
+   "rarity": "Rare",
+   "fame": 1506,
+   "facts": {
+    "elevation_m": 171,
+    "area_km2": 48,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Lake Péligre is the second largest lake in Haiti, and is located in the Centre department.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Péligre",
+    "url": "https://en.wikipedia.org/wiki/Lake_P%C3%A9ligre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3038517.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Lac_Peligre_Haiti.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3297666",
+   "name": "Massif des Montagnes Noires",
+   "label": "Massif des Montagnes Noires",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.0833,
+   "lon": -72.25,
+   "rarity": "Rare",
+   "fame": 1362,
+   "facts": {
+    "elevation_m": 1793,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "The Montagnes Noires are a range of mountains in central Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Montagnes Noires, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Montagnes_Noires%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3297666.webp"
+   }
+  },
+  {
+   "id": "wd:Q3116170",
+   "name": "Massif de la Hotte",
+   "label": "Massif de la Hotte",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.3831,
+   "lon": -74.0256,
+   "rarity": "Rare",
+   "fame": 2484,
+   "facts": {
+    "elevation_m": 2347,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "The Massif de la Hotte is a mountain range in southwestern Haiti, on the Tiburon Peninsula west of the Petit-Goâve-Jacmel fault.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Massif de la Hotte",
+    "url": "https://en.wikipedia.org/wiki/Massif_de_la_Hotte",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3116170.webp"
+   }
+  },
+  {
+   "id": "wd:Q2384085",
+   "name": "Chaîne de la Selle",
+   "label": "Chaîne de la Selle",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.3667,
+   "lon": -71.9833,
+   "rarity": "Rare",
+   "fame": 2148,
+   "facts": {
+    "elevation_m": 2680,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "Chaîne de la Selle is a mountain range in Haiti, on the island of Hispaniola.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chaîne de la Selle",
+    "url": "https://en.wikipedia.org/wiki/Cha%C3%AEne_de_la_Selle",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2384085.webp"
+   }
+  },
+  {
+   "id": "wd:Q26225095",
+   "name": "Caye Sable",
+   "label": "Caye Sable",
+   "type": "nature",
+   "kind": "island",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.7,
+   "lon": -72.7667,
+   "rarity": "Rare",
+   "fame": 11454,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Caye Sable is a cay of Haiti located in the Anse-à-Galets commune, about 50 kilometres west of Port-au-Prince.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caye Sable",
+    "url": "https://en.wikipedia.org/wiki/Caye_Sable",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q26225095.webp"
+   }
+  },
+  {
+   "id": "wd:Q3207215",
+   "name": "Lake Miragoâne",
+   "label": "Lake Miragoâne",
+   "type": "nature",
+   "kind": "lake",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.4039,
+   "lon": -73.0497,
+   "rarity": "Rare",
+   "fame": 972,
+   "facts": {
+    "elevation_m": 17,
+    "area_km2": 25,
+    "length_km": 10,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "It is one of the largest natural freshwater lakes in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Miragoâne",
+    "url": "https://en.wikipedia.org/wiki/Lake_Mirago%C3%A2ne",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3207215.webp",
+    "author": "Rency Inson Michel",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Etang_de_Miragoane_Haiti.jpg"
+   }
+  },
+  {
+   "id": "gn:3718431",
+   "name": "Port-à-Piment",
+   "label": "Port-à-Piment",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.2496,
+   "lon": -74.0971,
+   "rarity": "Rare",
+   "fame": 114,
+   "facts": {
+    "population": 3819,
+    "elevation_m": 12,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "In 2009, the commune had a population of 17,207.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port-à-Piment, Port-à-Piment, Haiti",
+    "url": "https://en.wikipedia.org/wiki/Port-%C3%A0-Piment%2C_Port-%C3%A0-Piment%2C_Haiti",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3718431.webp"
+   }
+  },
+  {
+   "id": "wd:Q17354049",
+   "name": "Rivière Blanche",
+   "label": "Rivière Blanche (near Désarmes)",
+   "type": "nature",
+   "kind": "river",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 18.9333,
+   "lon": -72.3167,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 114,
+    "length_km": 15,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Rivière Blanche is a river in Haiti in Artibonite of the Dessalines Arrondissement.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rivière Blanche (Artibonite)",
+    "url": "https://en.wikipedia.org/wiki/Rivi%C3%A8re_Blanche_%28Artibonite%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17354049.webp"
+   }
+  },
+  {
+   "id": "gn:3731087",
+   "name": "Arcahaie",
+   "label": "Arcahaie (Nord-Ouest)",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-NO",
+   "country": "HT",
+   "lat": 19.8167,
+   "lon": -72.9167,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4119,
+    "elevation_m": 189,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "A community of 4,119 people in Nord-Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731087.webp"
+   }
+  },
+  {
+   "id": "gn:3724439",
+   "name": "Grande Rivière du Nord",
+   "label": "Grande Rivière du Nord (Nord)",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-ND",
+   "country": "HT",
+   "lat": 19.5774,
+   "lon": -72.1687,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8836,
+    "elevation_m": 69,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 8,836 people in Nord.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3724439.webp"
+   }
+  },
+  {
+   "id": "gn:3731088",
+   "name": "Arcahaie",
+   "label": "Arcahaie (Ouest)",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-OU",
+   "country": "HT",
+   "lat": 18.7702,
+   "lon": -72.5123,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 130306,
+    "elevation_m": 15,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 130,306 people in Ouest.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731088.webp"
+   }
+  },
+  {
+   "id": "gn:3724145",
+   "name": "Gros Morne",
+   "label": "Gros Morne",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-AR",
+   "country": "HT",
+   "lat": 19.6708,
+   "lon": -72.6781,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7294,
+    "elevation_m": 219,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "A community of 7,294 people in Artibonite.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3724145.webp"
+   }
+  },
+  {
+   "id": "gn:3731095",
+   "name": "Aquin",
+   "label": "Aquin",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-SD",
+   "country": "HT",
+   "lat": 18.2797,
+   "lon": -73.3943,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5246,
+    "elevation_m": 11,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 5,246 people in Sud.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3731095.webp"
+   }
+  },
+  {
+   "id": "gn:3727055",
+   "name": "Dame-Marie",
+   "label": "Dame-Marie",
+   "type": "town",
+   "kind": "town",
+   "region": "HT-GA",
+   "country": "HT",
+   "lat": 18.5611,
+   "lon": -74.4217,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6036,
+    "elevation_m": 17,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A community of 6,036 people in Grand'Anse.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3727055.webp"
+   }
+  }
+ ]
+}

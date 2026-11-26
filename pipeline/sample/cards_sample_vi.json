@@ -1,0 +1,1632 @@
+{
+ "note": "Sample of the United States Virgin Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5454484",
+   "name": "Fish Bay Gut",
+   "label": "Fish Bay Gut",
+   "type": "nature",
+   "kind": "river",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3228,
+   "lon": -64.7653,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Fish Bay Gut is a stream in the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fish Bay Gut",
+    "url": "https://en.wikipedia.org/wiki/Fish_Bay_Gut",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5454484.webp"
+   }
+  },
+  {
+   "id": "wd:Q5121037",
+   "name": "Cinnamon Bay",
+   "label": "Cinnamon Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3547,
+   "lon": -64.7583,
+   "rarity": "Common",
+   "fame": 2154,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Cinnamon Bay is a body of water and a beach on St. John island, within Virgin Islands National Park, in the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cinnamon Bay",
+    "url": "https://en.wikipedia.org/wiki/Cinnamon_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5121037.webp",
+    "author": "John Kernan",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cinnamon_Bay.JPG"
+   }
+  },
+  {
+   "id": "wd:Q20828408",
+   "name": "Henley Cay",
+   "label": "Henley Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3536,
+   "lon": -64.7932,
+   "rarity": "Common",
+   "fame": 480,
+   "facts": {
+    "elevation_m": 19,
+    "area_km2": 0.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The cay is 300 yards in diameter and the largest and southernmost of the Durloe Cays in the Virgin Islands National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Henley Cay",
+    "url": "https://en.wikipedia.org/wiki/Henley_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20828408.webp",
+    "author": "Fred Hsu ( Wikipedia:User:Fred Hsu on en.wikipedia )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caneel_Bay_Sunset_by_Turtle_Point_Trail_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6689922",
+   "name": "Lovango Cay",
+   "label": "Lovango Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3625,
+   "lon": -64.8039,
+   "rarity": "Common",
+   "fame": 3228,
+   "facts": {
+    "elevation_m": 56,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Lovango Cay is a private island in the district of St. John, in the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lovango Cay, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Lovango_Cay%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6689922.webp",
+    "author": "Gruepig",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grass_MIngo,_and_Lovango_Cays,_2011.jpg"
+   }
+  },
+  {
+   "id": "wd:Q20828423",
+   "name": "Trunk Cay",
+   "label": "Trunk Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3553,
+   "lon": -64.7689,
+   "rarity": "Common",
+   "fame": 588,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It has an elevation of 48 feet and is situated only 200 feet from Trunk Bay Beach.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trunk Cay, United States Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Trunk_Cay%2C_United_States_Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20828423.webp",
+    "author": "Fred Hsu ( Wikipedia:User:Fred Hsu on en.wikipedia )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_John_Trunk_Bay_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16852570",
+   "name": "Carvel Rock",
+   "label": "Carvel Rock",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3697,
+   "lon": -64.7943,
+   "rarity": "Common",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 12,
+    "area_km2": 0.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is visited by boats as a scuba diving site, but its sheer cliffs and lack of a beach mean that landing would be practically impossible.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carvel Rock (United States Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/Carvel_Rock_%28United_States_Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16852570.webp",
+    "author": "MartinezMD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carvel_Rock.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1501538",
+   "name": "Savana Island",
+   "label": "Savana Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3408,
+   "lon": -65.0782,
+   "rarity": "Common",
+   "fame": 1122,
+   "facts": {
+    "elevation_m": 34,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Savana Island is an islet of the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Savana Island, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Savana_Island%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1501538.webp",
+    "author": "Gruepig",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Savana_Island,_USVI,_2005.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6035332",
+   "name": "Inner Brass",
+   "label": "Inner Brass",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3831,
+   "lon": -64.9708,
+   "rarity": "Common",
+   "fame": 660,
+   "facts": {
+    "elevation_m": 34,
+    "area_km2": 0.5,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Inner Brass Island is a 130-acre undeveloped tropical Caribbean island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Inner Brass, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Inner_Brass%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6035332.webp",
+    "author": "Turn685",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Inner_Brass_and_Outer_Brass_Island.jpg"
+   }
+  },
+  {
+   "id": "wd:Q20828414",
+   "name": "Steven Cay",
+   "label": "Steven Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3306,
+   "lon": -64.8072,
+   "rarity": "Common",
+   "fame": 546,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Steven Cay is a small scrub-covered and rocky Caribbean island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Steven Cay, United States Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Steven_Cay%2C_United_States_Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20828414.webp",
+    "author": "Gruepig",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steven_Cay_and_St_John,_2010.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7711334",
+   "name": "Thatch Cay",
+   "label": "Thatch Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3591,
+   "lon": -64.861,
+   "rarity": "Common",
+   "fame": 1698,
+   "facts": {
+    "elevation_m": 92,
+    "area_km2": 0.9,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Thatch Cay is a small, uninhabited 230 acre island one-half mile off the northeastern coast of Saint Thomas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Thatch Cay, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Thatch_Cay%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7711334.webp",
+    "author": "U.S. Army Corps of Engineers",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Rainbow_over_Thatch_Cay_in_TuTu_Bay_in_St._Thomas,_USVI.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7856175",
+   "name": "Turpentine Run",
+   "label": "Turpentine Run",
+   "type": "nature",
+   "kind": "river",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3211,
+   "lon": -64.8778,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Turpentine Run is a stream in the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Turpentine Run",
+    "url": "https://en.wikipedia.org/wiki/Turpentine_Run",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7856175.webp",
+    "author": "LittleT889",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Turpentine_Run.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7111960",
+   "name": "Outer Brass",
+   "label": "Outer Brass",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3947,
+   "lon": -64.9711,
+   "rarity": "Common",
+   "fame": 558,
+   "facts": {
+    "elevation_m": 124,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The island is a wildlife sanctuary administered by the U.S. Virgin Islands territorial government.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Outer Brass, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Outer_Brass%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7111960.webp",
+    "author": "Turn685",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Inner_Brass_and_Outer_Brass_Island.jpg"
+   }
+  },
+  {
+   "id": "gn:4795186",
+   "name": "Altona",
+   "label": "Altona",
+   "type": "town",
+   "kind": "town",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3389,
+   "lon": -64.9488,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1316,
+    "elevation_m": 6.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,316 people in United States Virgin Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4795186.webp"
+   }
+  },
+  {
+   "id": "gn:4796736",
+   "name": "Tutu",
+   "label": "Tutu",
+   "type": "town",
+   "kind": "town",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3388,
+   "lon": -64.8865,
+   "rarity": "Common",
+   "fame": 1584,
+   "facts": {
+    "population": 5519,
+    "elevation_m": 60,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Tutu, also known as Estate Tutu is one of the seven administrative subdistricts on Saint Thomas island in the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tutu, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Tutu%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4796736.webp",
+    "author": "LittleT889",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tutu,_U.S._Virgin_Islands.jpg"
+   }
+  },
+  {
+   "id": "gn:4795479",
+   "name": "Christiansted",
+   "label": "Christiansted",
+   "type": "town",
+   "kind": "town",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7468,
+   "lon": -64.7056,
+   "rarity": "Common",
+   "fame": 21078,
+   "facts": {
+    "population": 1866,
+    "elevation_m": 3.0,
+    "area_km2": 1.3,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Christiansted is the largest town on Saint Croix, one of the main islands of the United States Virgin Islands, a territory of the United States of America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Christiansted, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Christiansted%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4795479.webp"
+   }
+  },
+  {
+   "id": "wd:Q15267245",
+   "name": "Point Udall",
+   "label": "Point Udall",
+   "type": "built",
+   "kind": "architectural landmark",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7553,
+   "lon": -64.5656,
+   "rarity": "Epic",
+   "fame": 8118,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": 26.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Point Udall is at the east end of St. Croix in the U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Point Udall (U.S. Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/Point_Udall_%28U.S._Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15267245.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:PointUdall-Millennium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q999352",
+   "name": "Buck Island Reef National Monument",
+   "label": "Buck Island Reef National Monument",
+   "type": "built",
+   "kind": "National Monument of the United States",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7892,
+   "lon": -64.6248,
+   "rarity": "Epic",
+   "fame": 5892,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 0.7,
+    "temp_c": 26.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Buck Island Reef National Monument protects Buck Island, a small, uninhabited 176-acre island about 1.5 miles north of the northeast coast of Saint Croix.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Buck Island Reef National Monument",
+    "url": "https://en.wikipedia.org/wiki/Buck_Island_Reef_National_Monument",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q999352.webp",
+    "author": "Jaro Nemčok",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Buck_Island_Reef_National_Monument_Acanthurus_coeruleus.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2968446",
+   "name": "Blackbeard's Castle",
+   "label": "Blackbeard's Castle",
+   "type": "built",
+   "kind": "tower",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3438,
+   "lon": -64.9296,
+   "rarity": "Epic",
+   "fame": 14694,
+   "facts": {
+    "elevation_m": 51,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Blackbeard's Castle is one of five National Historic Landmarks in the U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blackbeard's Castle",
+    "url": "https://en.wikipedia.org/wiki/Blackbeard%27s_Castle",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2968446.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:USVI_St._Thomas_-_Charlotte_Amalie_-_Blackbeard_Castle.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5559107",
+   "name": "Gibney Beach",
+   "label": "Gibney Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3525,
+   "lon": -64.7764,
+   "rarity": "Epic",
+   "fame": 8394,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The beach's names originate from Nancy Flagg Gibney and J. Robert Oppenheimer and their families, the owners of the beach in the mid-20th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gibney Beach",
+    "url": "https://en.wikipedia.org/wiki/Gibney_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5559107.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:A_view_from_the_ocean_on_Gibney_Beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5917063",
+   "name": "Limetree Bay Refinery",
+   "label": "Limetree Bay Refinery",
+   "type": "built",
+   "kind": "oil refinery",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7044,
+   "lon": -64.7553,
+   "rarity": "Epic",
+   "fame": 9468,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The refinery was a joint venture between Hess Corporation and PDVSA.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hovensa",
+    "url": "https://en.wikipedia.org/wiki/Hovensa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5917063.webp",
+    "author": "Cumulus Clouds",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:HOVENSA_refinery-06.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16899626",
+   "name": "St. Thomas Synagogue",
+   "label": "St. Thomas Synagogue",
+   "type": "built",
+   "kind": "synagogue",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3428,
+   "lon": -64.9327,
+   "rarity": "Epic",
+   "fame": 6138,
+   "facts": {
+    "elevation_m": 55,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "St. Thomas Synagogue, officially Congregation Beracha Veshalom Oogemiluth Hasadim or The Hebrew Congregation of St. Thomas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Thomas Synagogue",
+    "url": "https://en.wikipedia.org/wiki/St._Thomas_Synagogue",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16899626.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Synagogue_of_Beracha_Veshalom_Vegemiluth_Hasidim,_Krystalgade_16A_and_B,_Charlotte_Amalie,_St._Thomas,_VI_HABS_VI,3-CHAM,3-4.tif"
+   }
+  },
+  {
+   "id": "wd:Q491005",
+   "name": "Virgin Islands National Park",
+   "label": "Virgin Islands National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3381,
+   "lon": -64.7333,
+   "rarity": "Epic",
+   "fame": 19806,
+   "facts": {
+    "elevation_m": 392,
+    "area_km2": 60,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Virgin Islands National Park is a national park of the United States preserving about 60% of the land area of Saint John, U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Virgin Islands National Park",
+    "url": "https://en.wikipedia.org/wiki/Virgin_Islands_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q491005.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Virgin_Islands_National_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q642481",
+   "name": "Saint Croix",
+   "label": "Saint Croix",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.732,
+   "lon": -64.748,
+   "rarity": "Epic",
+   "fame": 180420,
+   "facts": {
+    "elevation_m": 33,
+    "area_km2": 215,
+    "length_km": 45,
+    "temp_c": 26.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Saint Croix is an island in the Caribbean, and a county and constituent district of the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Croix",
+    "url": "https://en.wikipedia.org/wiki/Saint_Croix",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q642481.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:St_croix_usvi.jpg"
+   }
+  },
+  {
+   "id": "wd:Q463937",
+   "name": "Saint Thomas",
+   "label": "Saint Thomas",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3333,
+   "lon": -64.9167,
+   "rarity": "Epic",
+   "fame": 276024,
+   "facts": {
+    "elevation_m": 306,
+    "area_km2": 81,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Saint Thomas is one of the U.S. Virgin Islands in the Caribbean Sea, and a constituent district of the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Thomas, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Saint_Thomas%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q463937.webp",
+    "author": "Fred Hsu ( Wikipedia:User:Fred Hsu on en.wikipedia )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Thomas_Marriott_Pacquereau_Bay_1.jpg"
+   }
+  },
+  {
+   "id": "gn:4795577",
+   "name": "Cruz Bay",
+   "label": "Cruz Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3313,
+   "lon": -64.7938,
+   "rarity": "Epic",
+   "fame": 4764,
+   "facts": {
+    "population": 2743,
+    "elevation_m": 6.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Cruz Bay, U.S. Virgin Islands is the main census-designated place on the island of Saint John in the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cruz Bay, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Cruz_Bay%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4795577.webp",
+    "author": "Fred Hsu ( Wikipedia:User:Fred Hsu on en.wikipedia )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_John_Cruz_Bay_3.jpg"
+   }
+  },
+  {
+   "id": "gn:4795467",
+   "name": "Charlotte Amalie",
+   "label": "Charlotte Amalie",
+   "type": "town",
+   "kind": "town",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3419,
+   "lon": -64.9307,
+   "rarity": "Legendary",
+   "fame": 79362,
+   "facts": {
+    "population": 20000,
+    "elevation_m": 6.0,
+    "area_km2": 3.1,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Charlotte Amalie, on Saint Thomas, is the capital and largest town of the U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charlotte Amalie, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Charlotte_Amalie%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4795467.webp",
+    "author": "Sunil Pereira",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_St._Thomas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q67184210",
+   "name": "Bethlehem Soccer Stadium",
+   "label": "Bethlehem Soccer Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7254,
+   "lon": -64.798,
+   "rarity": "Rare",
+   "fame": 3000,
+   "facts": {
+    "elevation_m": 32,
+    "temp_c": 26.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Bethlehem Soccer Stadium is an association football stadium in Upper Bethlehem, St. Croix, United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bethlehem Soccer Stadium",
+    "url": "https://en.wikipedia.org/wiki/Bethlehem_Soccer_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q67184210.webp"
+   }
+  },
+  {
+   "id": "wd:Q5053011",
+   "name": "Catherineberg Sugar Mill Ruins",
+   "label": "Catherineberg Sugar Mill Ruins",
+   "type": "built",
+   "kind": "historic site",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3467,
+   "lon": -64.7614,
+   "rarity": "Rare",
+   "fame": 2040,
+   "facts": {
+    "elevation_m": 277,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Catherineberg Sugar Mill Ruins is an historic site located in the Virgin Islands National Park, east of Cruz Bay on Saint John, U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Catherineberg Sugar Mill Ruins",
+    "url": "https://en.wikipedia.org/wiki/Catherineberg_Sugar_Mill_Ruins",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5053011.webp",
+    "author": "FloNight (Sydney Poore) and Russell Poore",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catherineberg_Sugar_Mill_Ruins;_Saint_John,_United_States_Virgin_Islands.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4681034",
+   "name": "Addelita Cancryn Junior High School Ground",
+   "label": "Addelita Cancryn Junior High School Ground",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3369,
+   "lon": -64.9476,
+   "rarity": "Rare",
+   "fame": 852,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Addelita Cancryn Junior High School Ground was a cricket ground located in Charlotte Amalie, the capital of the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Addelita Cancryn Junior High School Ground",
+    "url": "https://en.wikipedia.org/wiki/Addelita_Cancryn_Junior_High_School_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4681034.webp"
+   }
+  },
+  {
+   "id": "wd:Q7008632",
+   "name": "New Herrnhut Moravian Church",
+   "label": "New Herrnhut Moravian Church",
+   "type": "built",
+   "kind": "church",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3367,
+   "lon": -64.9019,
+   "rarity": "Rare",
+   "fame": 672,
+   "facts": {
+    "elevation_m": 85,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "New Herrnhut Moravian Church is a historic Moravian church in Saint Thomas, U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "New Herrnhut Moravian Church",
+    "url": "https://en.wikipedia.org/wiki/New_Herrnhut_Moravian_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7008632.webp"
+   }
+  },
+  {
+   "id": "wd:Q4241290",
+   "name": "Christiansted National Historic Site",
+   "label": "Christiansted National Historic Site",
+   "type": "built",
+   "kind": "National Historic Site",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7469,
+   "lon": -64.7022,
+   "rarity": "Rare",
+   "fame": 2838,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Christiansted National Historic Site commemorates urban colonial development of the Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Christiansted National Historic Site",
+    "url": "https://en.wikipedia.org/wiki/Christiansted_National_Historic_Site",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4241290.webp",
+    "author": "Christine Hawks",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stcroixhistoricchristiansted.jpg"
+   }
+  },
+  {
+   "id": "wd:Q24326879",
+   "name": "St. Anne Chapel, Frenchtown",
+   "label": "St. Anne Chapel, Frenchtown",
+   "type": "built",
+   "kind": "chapel",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.338,
+   "lon": -64.9428,
+   "rarity": "Rare",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The St. Anne Chapel is a Catholic chapel in Frenchtown, Saint Thomas, U.S. Virgin Islands, in the Diocese of St. Thomas in the Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Anne Chapel, Frenchtown",
+    "url": "https://en.wikipedia.org/wiki/St._Anne_Chapel%2C_Frenchtown",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24326879.webp",
+    "author": "Farragutful",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Anne%27s_Chapel_-_Frenchtown.JPG"
+   }
+  },
+  {
+   "id": "wd:Q20830831",
+   "name": "St. John's Episcopal Church",
+   "label": "St. John's Episcopal Church",
+   "type": "built",
+   "kind": "church",
+   "region": "VI",
+   "country": "VI",
+   "lat": 17.7429,
+   "lon": -64.7077,
+   "rarity": "Rare",
+   "fame": 930,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.4
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Although most of the current building dates to 1868, a church has been located on the site since the 18th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. John's Episcopal Church (Christiansted, U.S. Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/St._John%27s_Episcopal_Church_%28Christiansted%2C_U.S._Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20830831.webp",
+    "author": "Jack Delano",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Christiansted,_Saint_Croix,_Virgin_Islands_1a33961v.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6780533",
+   "name": "Mary Point Estate",
+   "label": "Mary Point Estate",
+   "type": "built",
+   "kind": "estate",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3678,
+   "lon": -64.7419,
+   "rarity": "Rare",
+   "fame": 510,
+   "facts": {
+    "elevation_m": 56,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Mary Point Estate is a historic property located on the north coast of Saint John, United States Virgin Islands on Mary's Point.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mary Point Estate",
+    "url": "https://en.wikipedia.org/wiki/Mary_Point_Estate",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6780533.webp",
+    "author": "Frederik C. Gjessing for Historic American Buildings Survey",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_Point_Estate;_Saint_John,_United_States_Virgin_Islands.jpg"
+   }
+  },
+  {
+   "id": "wd:Q30624697",
+   "name": "Fortsberg",
+   "label": "Fortsberg",
+   "type": "built",
+   "kind": "fort",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3458,
+   "lon": -64.7056,
+   "rarity": "Rare",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 80,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "A fort was first built on this site in 1717, however the original fort was demolished, and the current fort was built in 1760.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fortsberg",
+    "url": "https://en.wikipedia.org/wiki/Fortsberg",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q30624697.webp",
+    "author": "Jack Boucher",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:HABS_Frederiks_Fort_St_John_USVI.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1773741",
+   "name": "Fort Christian",
+   "label": "Fort Christian",
+   "type": "built",
+   "kind": "fort",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3408,
+   "lon": -64.9297,
+   "rarity": "Rare",
+   "fame": 5772,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It currently holds the St. Thomas Museum, which holds artifacts and art of the Dano-Norwegian period.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Christian",
+    "url": "https://en.wikipedia.org/wiki/Fort_Christian",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1773741.webp",
+    "author": "Martin Lie, Trondheim, Norge/Norway",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:USVI_St._Thomas_Charlotte_Amalie_Fort_Christian.JPG"
+   }
+  },
+  {
+   "id": "wd:Q24326870",
+   "name": "Our Lady of Mount Carmel Church, Cruz Bay",
+   "label": "Our Lady of Mount Carmel Church, Cruz Bay",
+   "type": "built",
+   "kind": "church",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3302,
+   "lon": -64.7955,
+   "rarity": "Rare",
+   "fame": 216,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "The Our Lady of Mount Carmel Church is a religious building belonging to the Catholic Church and is located in the town of Cruz Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of Mount Carmel Church, Cruz Bay",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Mount_Carmel_Church%2C_Cruz_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24326870.webp",
+    "author": "Farragutful",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Mount_Carmel_Church_-_St._John%27s,_USVI_02.JPG"
+   }
+  },
+  {
+   "id": "wd:Q386154",
+   "name": "Virgin Islands Coral Reef National Monument",
+   "label": "Virgin Islands Coral Reef National Monument",
+   "type": "built",
+   "kind": "National Monument of the United States",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3061,
+   "lon": -64.7269,
+   "rarity": "Rare",
+   "fame": 1656,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is administered by the National Park Service through Virgin Islands National Park, while remaining a distinct unit of the National Park System.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Virgin Islands Coral Reef National Monument",
+    "url": "https://en.wikipedia.org/wiki/Virgin_Islands_Coral_Reef_National_Monument",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q386154.webp"
+   }
+  },
+  {
+   "id": "wd:Q679803",
+   "name": "Water Island",
+   "label": "Water Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3208,
+   "lon": -64.9513,
+   "rarity": "Rare",
+   "fame": 18864,
+   "facts": {
+    "elevation_m": 38,
+    "area_km2": 2.0,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Water Island is a minor island in the United States Virgin Islands, an American territory located in the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Water Island, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Water_Island%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q679803.webp",
+    "author": "Jim Wilkinson",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Honeymoon_beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q31911398",
+   "name": "Dog Island",
+   "label": "Dog Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.2958,
+   "lon": -64.8158,
+   "rarity": "Rare",
+   "fame": 5424,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Dog Island is a small, uninhabited island located east-southeast of Little Saint James island in the U.S. Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dog Island, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Dog_Island%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31911398.webp",
+    "author": "CH L",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dog_Island,_U.S._Virgin_Islands.jpg"
+   }
+  },
+  {
+   "id": "wd:Q849441",
+   "name": "Saint John",
+   "label": "Saint John",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3397,
+   "lon": -64.7496,
+   "rarity": "Rare",
+   "fame": 102810,
+   "facts": {
+    "elevation_m": 121,
+    "area_km2": 51,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Saint John is one of the Virgin Islands in the Caribbean Sea and a constituent district of the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint John, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Saint_John%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q849441.webp",
+    "author": "Galen S. Swint",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Virgin_Islands_National_Park_Reef_Bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3005470",
+   "name": "Crown Mountain",
+   "label": "Crown Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3572,
+   "lon": -64.9747,
+   "rarity": "Rare",
+   "fame": 5406,
+   "facts": {
+    "elevation_m": 473,
+    "prominence_m": 474,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Crown Mountain is located on the island of Saint Thomas, U.S. Virgin Islands and is the highest point of the United States Virgin Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crown Mountain (United States Virgin Islands)",
+    "url": "https://en.wikipedia.org/wiki/Crown_Mountain_%28United_States_Virgin_Islands%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3005470.webp",
+    "author": "Skyrunner75",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crown_Mountain_from_Charlotte_Amalie.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6730108",
+   "name": "Magens Bay",
+   "label": "Magens Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.366,
+   "lon": -64.93,
+   "rarity": "Rare",
+   "fame": 13152,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Magens Bay is a bay and beach park in the Northside region on Saint Thomas, United States Virgin Islands, in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Magens Bay",
+    "url": "https://en.wikipedia.org/wiki/Magens_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6730108.webp",
+    "author": "dbking",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Magens_Bay,_St._Thomas,_USVI.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5599902",
+   "name": "Great Saint James",
+   "label": "Great Saint James",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3097,
+   "lon": -64.8289,
+   "rarity": "Rare",
+   "fame": 98142,
+   "facts": {
+    "elevation_m": 18,
+    "area_km2": 0.7,
+    "temp_c": 26.1
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Great Saint James is a private island in the United States Virgin Islands, located off the east end of St. Thomas and belonging to subdistrict East End.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Saint James",
+    "url": "https://en.wikipedia.org/wiki/Great_Saint_James",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5599902.webp",
+    "author": "Gruepig",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Saint_James,_2010.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4573739",
+   "name": "Trunk Bay",
+   "label": "Trunk Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3525,
+   "lon": -64.7697,
+   "rarity": "Rare",
+   "fame": 9690,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Trunk Bay is part of the Virgin Islands National Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trunk Bay",
+    "url": "https://en.wikipedia.org/wiki/Trunk_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4573739.webp",
+    "author": "Ben Whitney",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:StJohnTrunkBay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3128196",
+   "name": "Hassel Island",
+   "label": "Hassel Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VI",
+   "country": "VI",
+   "lat": 18.3289,
+   "lon": -64.9333,
+   "rarity": "Rare",
+   "fame": 3828,
+   "facts": {
+    "elevation_m": 30,
+    "area_km2": 0.6,
+    "temp_c": 26.5
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "Hassel Island is a small island of the U.S. Virgin Islands, a United States territory located in the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hassel Island, U.S. Virgin Islands",
+    "url": "https://en.wikipedia.org/wiki/Hassel_Island%2C_U.S._Virgin_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3128196.webp",
+    "author": "Smallbones",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Hassel_Island_USVI.JPG"
+   }
+  }
+ ]
+}

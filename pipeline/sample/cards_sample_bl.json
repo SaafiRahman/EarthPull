@@ -1,0 +1,628 @@
+{
+ "note": "Sample of the Saint Barthélemy card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q20662937",
+   "name": "La Tortue",
+   "label": "La Tortue",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9197,
+   "lon": -62.7981,
+   "rarity": "Common",
+   "fame": 1002,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Its highest point is 35 metres above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Tortue, Saint Barthélemy",
+    "url": "https://en.wikipedia.org/wiki/La_Tortue%2C_Saint_Barth%C3%A9lemy",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20662937.webp",
+    "author": "Starus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_panoramique_-_Octobre_2009.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21790647",
+   "name": "Boulanger Island",
+   "label": "Boulanger Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9556,
+   "lon": -62.8906,
+   "rarity": "Common",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21790647.webp"
+   }
+  },
+  {
+   "id": "wd:Q17347083",
+   "name": "Île Frégate",
+   "label": "Île Frégate",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9397,
+   "lon": -62.8342,
+   "rarity": "Common",
+   "fame": 1074,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Île Frégate is a small, uninhabited island in the Caribbean Sea located off the north coast of Saint Barthélemy, an overseas collectivity of France.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île Frégate",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_Fr%C3%A9gate",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17347083.webp",
+    "author": "Starus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_a%C3%A9rienne_-_Octobre_2009.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28040370",
+   "name": "île Petit Jean",
+   "label": "île Petit Jean",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9217,
+   "lon": -62.8791,
+   "rarity": "Common",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28040370.webp",
+    "author": "Starus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_a%C3%A9rienne_-_Octobre_2009_(cropped_to_%C3%8Ele_Petit_Jean).jpg"
+   }
+  },
+  {
+   "id": "wd:Q21790649",
+   "name": "île Coco",
+   "label": "île Coco",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8734,
+   "lon": -62.8149,
+   "rarity": "Common",
+   "fame": 324,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "An island in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21790649.webp",
+    "author": "David Broad",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_best_beach_in_the_world_-_Saline_Beach_on_St._Barthelemy_FWI_-_panoramio_(1)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wd:Q6174577",
+   "name": "île Chevreau",
+   "label": "île Chevreau",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9375,
+   "lon": -62.8506,
+   "rarity": "Common",
+   "fame": 1068,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is a part of the French Antilles, and the westernmost of a series of islands north of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île Chevreau",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_Chevreau",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6174577.webp",
+    "author": "Starus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_a%C3%A9rienne_-_Octobre_2009.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21790677",
+   "name": "Pain de Sucre",
+   "label": "Pain de Sucre",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8969,
+   "lon": -62.8764,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21790677.webp",
+    "author": "David Broad",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pain_de_Sucre,_Gustavia,_St._Barthelemy_FWI_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q21790678",
+   "name": "île Pelé",
+   "label": "île Pelé",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9564,
+   "lon": -62.8698,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "An island in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21790678.webp"
+   }
+  },
+  {
+   "id": "wd:Q3585551",
+   "name": "Church of Our Lady of the Assumption, Lorient",
+   "label": "Church of Our Lady of the Assumption, Lorient",
+   "type": "built",
+   "kind": "church",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9054,
+   "lon": -62.8238,
+   "rarity": "Epic",
+   "fame": 1740,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Church of Our Lady of the Assumption is a Catholic church that was built around 1850, located on the island of Saint-Barthélemy, in the district of Lorient.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church of Our Lady of the Assumption, Lorient",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_of_the_Assumption%2C_Lorient",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3585551.webp",
+    "author": "William Ellison",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Barths_Lorient_Eglise_1.JPG"
+   }
+  },
+  {
+   "id": "gn:3579132",
+   "name": "Gustavia",
+   "label": "Gustavia",
+   "type": "town",
+   "kind": "town",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8962,
+   "lon": -62.8498,
+   "rarity": "Legendary",
+   "fame": 34644,
+   "facts": {
+    "population": 5988,
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Gustavia is the main town and capital of the island of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gustavia",
+    "url": "https://en.wikipedia.org/wiki/Gustavia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3579132.webp",
+    "author": "Originally uploaded at en.wikipedia by en:User:Evaneggers as en:Image:Stb.jpg",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Gustavia_Harbor,_Saint-Barth%C3%A9lemy.jpg"
+   }
+  },
+  {
+   "id": "wd:Q65150705",
+   "name": "Fort Karl",
+   "label": "Fort Karl",
+   "type": "built",
+   "kind": "fort",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8941,
+   "lon": -62.8503,
+   "rarity": "Rare",
+   "fame": 1452,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It was built by the Swedish in 1789 and was named for Karl XIII.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Karl",
+    "url": "https://en.wikipedia.org/wiki/Fort_Karl",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q65150705.webp",
+    "author": "CareAhLine",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Grounds_of_Fort_Karl,_Saint_Barth%C3%A9lemy,_2026_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3378242",
+   "name": "Gustavia Lighthouse",
+   "label": "Gustavia Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9011,
+   "lon": -62.8515,
+   "rarity": "Rare",
+   "fame": 810,
+   "facts": {
+    "elevation_m": 33,
+    "height_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Gustavia Lighthouse is a 20th-century lighthouse located in Gustavia, the capital of Saint Barthélemy in the French West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gustavia Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Gustavia_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3378242.webp",
+    "author": "digitalfilmphoto",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gustaviaphare2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3585473",
+   "name": "Church of Our Lady of the Assumption, Gustavia",
+   "label": "Church of Our Lady of the Assumption, Gustavia",
+   "type": "built",
+   "kind": "church",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8947,
+   "lon": -62.8483,
+   "rarity": "Rare",
+   "fame": 1518,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Church of Our Lady of the Assumption or the Catholic Church of Gustavia is a religious building dating from the nineteenth century and is located in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Church of Our Lady of the Assumption, Gustavia",
+    "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_of_the_Assumption%2C_Gustavia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3585473.webp",
+    "author": "William Ellison",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Barths_Gustavia_Eglise_Catholique_1.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2979491",
+   "name": "Clocher suédois de Gustavia",
+   "label": "Clocher suédois de Gustavia",
+   "type": "built",
+   "kind": "bell tower",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8954,
+   "lon": -62.8477,
+   "rarity": "Rare",
+   "fame": 324,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A bell tower in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2979491.webp",
+    "author": "William Ellison",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Barths_Gustavia_Clocher_Suedois_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q16632773",
+   "name": "Stade de Saint-Jean",
+   "label": "Stade de Saint-Jean",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.902,
+   "lon": -62.8417,
+   "rarity": "Rare",
+   "fame": 1188,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Stade de Saint-Jean is a multi-purpose stadium in the Saint-Jean quarter of Saint Barthélemy, an overseas collectivity of France in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stade de Saint-Jean",
+    "url": "https://en.wikipedia.org/wiki/Stade_de_Saint-Jean",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16632773.webp"
+   }
+  },
+  {
+   "id": "wd:Q124134854",
+   "name": "Fort Oscar",
+   "label": "Fort Oscar",
+   "type": "built",
+   "kind": "fort",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8973,
+   "lon": -62.8536,
+   "rarity": "Rare",
+   "fame": 1470,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It sits at an elevation of 136 feet, overlooking the Gustavia harbor.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Oscar",
+    "url": "https://en.wikipedia.org/wiki/Fort_Oscar",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124134854.webp",
+    "author": "David Stanley from Nanaimo, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fort_Oscar_(47352756192).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2891728",
+   "name": "Swedish battery of Fort Gustav III",
+   "label": "Swedish battery of Fort Gustav III",
+   "type": "built",
+   "kind": "fort",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9013,
+   "lon": -62.8522,
+   "rarity": "Rare",
+   "fame": 996,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located in Gustavia on the island of Saint Barthélemy, a dependency of France in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Swedish battery of Fort Gustav III",
+    "url": "https://en.wikipedia.org/wiki/Swedish_battery_of_Fort_Gustav_III",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2891728.webp",
+    "author": "MikeSchinkel on Flickr.com , MikeSchinkel.com",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PhareGustavia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3279858",
+   "name": "Maison du Gouverneur (Saint-Barthélemy)",
+   "label": "Maison du Gouverneur (Saint-Barthélemy)",
+   "type": "built",
+   "kind": "house",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8984,
+   "lon": -62.8495,
+   "rarity": "Rare",
+   "fame": 282,
+   "facts": {
+    "elevation_m": 17,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A house in Saint Barthélemy.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3279858.webp",
+    "author": "William Ellison",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Barths_Gustavia_Maison_du_Gouverneur_1.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5643258",
+   "name": "île Fourchue",
+   "label": "île Fourchue",
+   "type": "nature",
+   "kind": "island",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.9583,
+   "lon": -62.9,
+   "rarity": "Rare",
+   "fame": 2844,
+   "facts": {
+    "elevation_m": 103,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Île Fourchue, also known as Île Fourche, is an island between Saint-Barthélemy and Saint Martin, belonging to the Collectivity of Saint Barthélemy.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île Fourchue",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_Fourchue",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5643258.webp",
+    "author": "Hansottowirtz at English Wikipedia / chrisbox2",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_Fourchue.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3055081",
+   "name": "Morne du Vitet",
+   "label": "Morne du Vitet",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BL",
+   "country": "BL",
+   "lat": 17.8992,
+   "lon": -62.8064,
+   "rarity": "Rare",
+   "fame": 1494,
+   "facts": {
+    "elevation_m": 286,
+    "prominence_m": 286,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Morne de Vitet is the highest point of Saint Barthélemy, an overseas collectivity of France located in the Caribbean, with an elevation of 286 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne de Vitet",
+    "url": "https://en.wikipedia.org/wiki/Morne_de_Vitet",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3055081.webp",
+    "author": "Starus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Barth_-_Vue_a%C3%A9rienne_(Anse_de_Lorient)_-_Octobre_2009.jpg"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1339 @@
+{
+ "note": "Sample of the Saint Vincent and the Grenadines card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5148074",
+   "name": "Colonarie River",
+   "label": "Colonarie River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2333,
+   "lon": -61.1167,
+   "rarity": "Common",
+   "fame": 234,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 8.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Colonarie River is the longest river in Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colonarie River",
+    "url": "https://en.wikipedia.org/wiki/Colonarie_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5148074.webp"
+   }
+  },
+  {
+   "id": "wd:Q5004055",
+   "name": "Byera River",
+   "label": "Byera River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2562,
+   "lon": -61.1184,
+   "rarity": "Common",
+   "fame": 66,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Byera River is a river of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Byera River",
+    "url": "https://en.wikipedia.org/wiki/Byera_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5004055.webp"
+   }
+  },
+  {
+   "id": "wd:Q5594324",
+   "name": "Grand Bonhomme",
+   "label": "Grand Bonhomme",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "VC-05",
+   "country": "VC",
+   "lat": 13.2333,
+   "lon": -61.2333,
+   "rarity": "Common",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 973,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Grand Bonhomme is a mountain in the south of the island of Saint Vincent in Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Bonhomme",
+    "url": "https://en.wikipedia.org/wiki/Grand_Bonhomme",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5594324.webp"
+   }
+  },
+  {
+   "id": "wd:Q5193957",
+   "name": "Cumberland River",
+   "label": "Cumberland River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-05",
+   "country": "VC",
+   "lat": 13.25,
+   "lon": -61.25,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 376,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "The Cumberland River is a river of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cumberland River (St. Vincent)",
+    "url": "https://en.wikipedia.org/wiki/Cumberland_River_%28St._Vincent%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5193957.webp"
+   }
+  },
+  {
+   "id": "wd:Q5595069",
+   "name": "Grand Sable River",
+   "label": "Grand Sable River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.25,
+   "lon": -61.1167,
+   "rarity": "Common",
+   "fame": 180,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The Grand Sable River is a river of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Sable River",
+    "url": "https://en.wikipedia.org/wiki/Grand_Sable_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5595069.webp"
+   }
+  },
+  {
+   "id": "wd:Q7178398",
+   "name": "Petite Canouan",
+   "label": "Petite Canouan",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.7217,
+   "lon": -61.3233,
+   "rarity": "Common",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 47,
+    "area_km2": 0.1,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Petite Canouan is one of the Grenadines, a chain of small islands which lie between the larger Caribbean islands of Saint Vincent and Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petit Canouan",
+    "url": "https://en.wikipedia.org/wiki/Petit_Canouan",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7178398.webp"
+   }
+  },
+  {
+   "id": "wd:Q8048027",
+   "name": "Yambou River",
+   "label": "Yambou River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1642,
+   "lon": -61.1437,
+   "rarity": "Common",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "It is located in the valley of Yambou and is one of the main rivers of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yambou River",
+    "url": "https://en.wikipedia.org/wiki/Yambou_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q8048027.webp"
+   }
+  },
+  {
+   "id": "wd:Q7178403",
+   "name": "Petite Mustique",
+   "label": "Petite Mustique",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.8391,
+   "lon": -61.1948,
+   "rarity": "Common",
+   "fame": 3174,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "About 100 acres in size, Petite Mustique is located 2 miles northeast of Savan and 1 mile south of the larger island of Mustique.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petite Mustique",
+    "url": "https://en.wikipedia.org/wiki/Petite_Mustique",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7178403.webp"
+   }
+  },
+  {
+   "id": "wd:Q4982388",
+   "name": "Buccament River",
+   "label": "Buccament River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-05",
+   "country": "VC",
+   "lat": 13.1833,
+   "lon": -61.2833,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It rises on the western slopes of Grand Bonhomme, flowing west to reach the Caribbean Sea close to the town of Layou.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Buccament River",
+    "url": "https://en.wikipedia.org/wiki/Buccament_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4982388.webp"
+   }
+  },
+  {
+   "id": "wd:Q7278477",
+   "name": "Rabacca Dry River",
+   "label": "Rabacca Dry River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2833,
+   "lon": -61.1167,
+   "rarity": "Common",
+   "fame": 330,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is a seasonal river and will only flow like a normal when there is heavy rainfall.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rabacca Dry River",
+    "url": "https://en.wikipedia.org/wiki/Rabacca_Dry_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7278477.webp",
+    "author": "W. Westall, after John Herbert Caddy",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:The_Rabacca_or_Dry_River_Soufriere_Mountain_in_the_distance_St._Vincent._Engraved_by_W._Westall.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27342109",
+   "name": "Saint Elairs Cay",
+   "label": "Saint Elairs Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.9805,
+   "lon": -61.2412,
+   "rarity": "Common",
+   "fame": 192,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "It belongs to the island State of Saint Vincent and the Grenadines and lies between the islands of Bequia and Petit Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Elairs Cay",
+    "url": "https://en.wikipedia.org/wiki/Saint_Elairs_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27342109.webp"
+   }
+  },
+  {
+   "id": "wd:Q7963083",
+   "name": "Wallilabou River",
+   "label": "Wallilabou River",
+   "type": "nature",
+   "kind": "river",
+   "region": "VC-03",
+   "country": "VC",
+   "lat": 13.2656,
+   "lon": -61.2589,
+   "rarity": "Common",
+   "fame": 426,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It rises in the Grand Bonhomme Mountains in the centre of the island and flows northwest to reach the Caribbean Sea north of Barrouallie.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wallilabou River",
+    "url": "https://en.wikipedia.org/wiki/Wallilabou_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7963083.webp",
+    "author": "Edmund Otis Hovey",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:General_View_of_Wallibou_River_YORYM-TA0011.jpg"
+   }
+  },
+  {
+   "id": "gn:12535728",
+   "name": "Petit Bordel",
+   "label": "Petit Bordel",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-03",
+   "country": "VC",
+   "lat": 13.2871,
+   "lon": -61.2446,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1084,
+    "elevation_m": 43,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 1,084 people in Saint David.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_12535728.webp"
+   }
+  },
+  {
+   "id": "gn:3577839",
+   "name": "Questelles",
+   "label": "Questelles",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-02",
+   "country": "VC",
+   "lat": 13.1762,
+   "lon": -61.2489,
+   "rarity": "Common",
+   "fame": 516,
+   "facts": {
+    "population": 1163,
+    "elevation_m": 107,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Questelles is a coastal community in Saint Andrew Parish, Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Questelles",
+    "url": "https://en.wikipedia.org/wiki/Questelles",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577839.webp"
+   }
+  },
+  {
+   "id": "gn:3577955",
+   "name": "Biabou",
+   "label": "Biabou",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.1943,
+   "lon": -61.139,
+   "rarity": "Common",
+   "fame": 546,
+   "facts": {
+    "population": 1050,
+    "elevation_m": 24,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is located to the northeast of the capital, Kingstown, on the coast road linking the capital with Georgetown in the island's northeast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Biabou",
+    "url": "https://en.wikipedia.org/wiki/Biabou",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577955.webp"
+   }
+  },
+  {
+   "id": "gn:3577944",
+   "name": "Byera Village",
+   "label": "Byera Village",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2564,
+   "lon": -61.1195,
+   "rarity": "Common",
+   "fame": 420,
+   "facts": {
+    "population": 1365,
+    "elevation_m": 9.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Byera Village is a historic settlement in Saint Vincent and the Grenadines.It is located in Charlotte Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Byera Village",
+    "url": "https://en.wikipedia.org/wiki/Byera_Village",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577944.webp"
+   }
+  },
+  {
+   "id": "gn:3577893",
+   "name": "Greiggs",
+   "label": "Greiggs",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2113,
+   "lon": -61.1628,
+   "rarity": "Common",
+   "fame": 438,
+   "facts": {
+    "population": 1476,
+    "elevation_m": 202,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is located to the northwest of Biabou and northeast of Richland Park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Greiggs",
+    "url": "https://en.wikipedia.org/wiki/Greiggs",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577893.webp"
+   }
+  },
+  {
+   "id": "gn:13526719",
+   "name": "Diamond",
+   "label": "Diamond",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1408,
+   "lon": -61.168,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1971,
+    "elevation_m": 14,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 1,971 people in Saint George.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13526719.webp"
+   }
+  },
+  {
+   "id": "gn:3577869",
+   "name": "New Montrose",
+   "label": "New Montrose",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-02",
+   "country": "VC",
+   "lat": 13.1634,
+   "lon": -61.2314,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1598,
+    "elevation_m": 58,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 1,598 people in Saint Andrew.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577869.webp"
+   }
+  },
+  {
+   "id": "gn:3577855",
+   "name": "Peruvian Vale",
+   "label": "Peruvian Vale",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.1771,
+   "lon": -61.1436,
+   "rarity": "Common",
+   "fame": 348,
+   "facts": {
+    "population": 1060,
+    "elevation_m": 20,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is located to the east of the capital, Kingstown, at the northern end of Argyle Beach.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Peruvian Vale",
+    "url": "https://en.wikipedia.org/wiki/Peruvian_Vale",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577855.webp"
+   }
+  },
+  {
+   "id": "gn:3748724",
+   "name": "Redemption",
+   "label": "Redemption",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-02",
+   "country": "VC",
+   "lat": 13.1644,
+   "lon": -61.2294,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1875,
+    "elevation_m": 58,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 1,875 people in Saint Andrew.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3748724.webp"
+   }
+  },
+  {
+   "id": "gn:13526721",
+   "name": "Friendly Village",
+   "label": "Friendly Village",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2282,
+   "lon": -61.1282,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1074,
+    "elevation_m": 48,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 1,074 people in Charlotte.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13526721.webp"
+   }
+  },
+  {
+   "id": "wd:Q697149",
+   "name": "Arnos Vale Stadium",
+   "label": "Arnos Vale Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1419,
+   "lon": -61.2118,
+   "rarity": "Epic",
+   "fame": 7572,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "The multi-use ground – part of Arnos Vale Sports Complex – is situated next to and to the west of the Arnos Vale Playing Field.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arnos Vale Stadium",
+    "url": "https://en.wikipedia.org/wiki/Arnos_Vale_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q697149.webp",
+    "author": "Sonyroy",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arnos_vale_ground.jpg"
+   }
+  },
+  {
+   "id": "wd:Q607357",
+   "name": "Mustique",
+   "label": "Mustique",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.8667,
+   "lon": -61.1833,
+   "rarity": "Epic",
+   "fame": 128502,
+   "facts": {
+    "elevation_m": 32,
+    "area_km2": 5.7,
+    "length_km": 4.8,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "It is part of the Grenadines, a chain of islands in the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mustique",
+    "url": "https://en.wikipedia.org/wiki/Mustique",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q607357.webp",
+    "author": "NASA/Tim Kopra",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS-47_Mustique_Island,_Grenadines_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gn:3577900",
+   "name": "Georgetown",
+   "label": "Georgetown",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-01",
+   "country": "VC",
+   "lat": 13.2805,
+   "lon": -61.1185,
+   "rarity": "Epic",
+   "fame": 3060,
+   "facts": {
+    "population": 1680,
+    "elevation_m": 13,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is the largest city in Charlotte Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Georgetown, Saint Vincent and the Grenadines",
+    "url": "https://en.wikipedia.org/wiki/Georgetown%2C_Saint_Vincent_and_the_Grenadines",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577900.webp",
+    "author": "Diego Tirira from Quito, Ecuador",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SV_Georgetown_1010_(3)_(17074764999).jpg"
+   }
+  },
+  {
+   "id": "gn:3577962",
+   "name": "Barrouallie",
+   "label": "Barrouallie",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-05",
+   "country": "VC",
+   "lat": 13.2368,
+   "lon": -61.2728,
+   "rarity": "Epic",
+   "fame": 2052,
+   "facts": {
+    "population": 1000,
+    "elevation_m": 19,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Barrouallie was established by French settlers in 1719, the first European colony on St. Vincent.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barrouallie",
+    "url": "https://en.wikipedia.org/wiki/Barrouallie",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577962.webp",
+    "author": "Tempest Anderson",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Barrualli,_Saint_Vincent_YORYM-TA0135.jpg"
+   }
+  },
+  {
+   "id": "gn:3577933",
+   "name": "Chateaubelair",
+   "label": "Chateaubelair",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-03",
+   "country": "VC",
+   "lat": 13.2907,
+   "lon": -61.2404,
+   "rarity": "Epic",
+   "fame": 1392,
+   "facts": {
+    "population": 735,
+    "elevation_m": 9.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "Chateaubelair is a town on the Leeward coast of the Caribbean island of Saint Vincent, the main island of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chateaubelair",
+    "url": "https://en.wikipedia.org/wiki/Chateaubelair",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3577933.webp"
+   }
+  },
+  {
+   "id": "gn:3577879",
+   "name": "Layou",
+   "label": "Layou",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-02",
+   "country": "VC",
+   "lat": 13.2018,
+   "lon": -61.2701,
+   "rarity": "Epic",
+   "fame": 1572,
+   "facts": {
+    "population": 140,
+    "elevation_m": 12,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It has two quarries, a post office, a police station and a library.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Layou",
+    "url": "https://en.wikipedia.org/wiki/Layou",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577879.webp",
+    "author": "Ulises Icardi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Layou_desde_el_mar.jpg"
+   }
+  },
+  {
+   "id": "gn:3577844",
+   "name": "Port Elizabeth",
+   "label": "Port Elizabeth",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 13.011,
+   "lon": -61.2355,
+   "rarity": "Epic",
+   "fame": 3144,
+   "facts": {
+    "population": 839,
+    "elevation_m": 10,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "The town was named after Princess Elizabeth in 1937 to commemorate the coronation of her parents.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port Elizabeth, Saint Vincent and the Grenadines",
+    "url": "https://en.wikipedia.org/wiki/Port_Elizabeth%2C_Saint_Vincent_and_the_Grenadines",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577844.webp",
+    "author": "Joyce Hill, uploaded by en:User:John Hill",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_Elizabeth,_Bequia.jpg"
+   }
+  },
+  {
+   "id": "gn:3577887",
+   "name": "Kingstown",
+   "label": "Kingstown",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1553,
+   "lon": -61.2274,
+   "rarity": "Legendary",
+   "fame": 42648,
+   "facts": {
+    "population": 24518,
+    "elevation_m": 9.0,
+    "area_km2": 4.9,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Kingstown is the capital and largest city of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kingstown",
+    "url": "https://en.wikipedia.org/wiki/Kingstown",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3577887.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Vincent,_Karibik_-_Kingstown_City_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q28448431",
+   "name": "Fort Charlotte",
+   "label": "Fort Charlotte",
+   "type": "built",
+   "kind": "fort",
+   "region": "VC-02",
+   "country": "VC",
+   "lat": 13.1579,
+   "lon": -61.2421,
+   "rarity": "Rare",
+   "fame": 1974,
+   "facts": {
+    "elevation_m": 155,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Fort Charlotte is a British-colonial era fort, built on a hill overlooking the harbour of Kingstown, Saint Vincent.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Charlotte, Saint Vincent",
+    "url": "https://en.wikipedia.org/wiki/Fort_Charlotte%2C_Saint_Vincent",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28448431.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrance_to_Fort_Charlotte,_Kingstown,_St._Vincent.jpg"
+   }
+  },
+  {
+   "id": "wd:Q31839495",
+   "name": "Fort Duvernette",
+   "label": "Fort Duvernette",
+   "type": "built",
+   "kind": "fort",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1281,
+   "lon": -61.2039,
+   "rarity": "Rare",
+   "fame": 1062,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "It sits atop a 190-foot tall basalt volcanic plug off Young Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Duvernette",
+    "url": "https://en.wikipedia.org/wiki/Fort_Duvernette",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31839495.webp",
+    "author": "madmack66",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Young_Island_St._Vincent_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wd:Q28653599",
+   "name": "Assumption Cathedral, Kingstown",
+   "label": "Assumption Cathedral, Kingstown",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1588,
+   "lon": -61.2277,
+   "rarity": "Rare",
+   "fame": 1380,
+   "facts": {
+    "elevation_m": 17,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "The Assumption Cathedral, also called Catholic Cathedral of Kingstown or Cathedral of Our Lady of the Assumption or simply St. Mary's Cathedral.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Assumption Cathedral, Kingstown",
+    "url": "https://en.wikipedia.org/wiki/Assumption_Cathedral%2C_Kingstown",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28653599.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Vincent,_Karibik_-_St._Mary%27s_R.C._School_%5E_St._Mary%27s_R.C._Cathedral_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4948422",
+   "name": "Botanic Gardens St. Vincent",
+   "label": "Botanic Gardens St. Vincent",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1667,
+   "lon": -61.2333,
+   "rarity": "Rare",
+   "fame": 1812,
+   "facts": {
+    "elevation_m": 163,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "The Saint Vincent and the Grenadines Botanic Gardens is located in Kingstown, Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Vincent and the Grenadines Botanic Gardens",
+    "url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines_Botanic_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4948422.webp"
+   }
+  },
+  {
+   "id": "wd:Q2522793",
+   "name": "Victoria Park",
+   "label": "Victoria Park",
+   "type": "built",
+   "kind": "stadium",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1583,
+   "lon": -61.2294,
+   "rarity": "Rare",
+   "fame": 714,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "It is used as the stadium of Avenues United FC matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Victoria Park (Kingstown)",
+    "url": "https://en.wikipedia.org/wiki/Victoria_Park_%28Kingstown%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2522793.webp"
+   }
+  },
+  {
+   "id": "wd:Q257857",
+   "name": "Bequia",
+   "label": "Bequia",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 13.015,
+   "lon": -61.23,
+   "rarity": "Rare",
+   "fame": 38628,
+   "facts": {
+    "elevation_m": 148,
+    "area_km2": 18,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "Bequia is the second-largest island in the Grenadines at 7 square miles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bequia",
+    "url": "https://en.wikipedia.org/wiki/Bequia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q257857.webp",
+    "author": "David Stanley from Nanaimo, Canada.",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Admiralty_Bay_on_Bequia,_Saint_Vincent_and_the_Grenadines_(49797161858).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2117248",
+   "name": "Tobago Cays",
+   "label": "Tobago Cays",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.6333,
+   "lon": -61.35,
+   "rarity": "Rare",
+   "fame": 8664,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.2,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "The Tobago Cays are an archipelago located in the Southern Grenadines of Saint Vincent and the Grenadines comprising five small islands and extensive coral…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tobago Cays",
+    "url": "https://en.wikipedia.org/wiki/Tobago_Cays",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2117248.webp",
+    "author": "Stefan Schäfer, Lich",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tobagocays2018.jpg"
+   }
+  },
+  {
+   "id": "wd:Q26544",
+   "name": "La Soufrière",
+   "label": "La Soufrière",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "VC-03",
+   "country": "VC",
+   "lat": 13.3333,
+   "lon": -61.1833,
+   "rarity": "Rare",
+   "fame": 21552,
+   "facts": {
+    "elevation_m": 1220,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "La Soufrière or Soufrière Saint Vincent is an active volcano on the Caribbean island of Saint Vincent in Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Soufrière (Saint Vincent)",
+    "url": "https://en.wikipedia.org/wiki/La_Soufri%C3%A8re_%28Saint_Vincent%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q26544.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Soufriere.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1914529",
+   "name": "Mayreau",
+   "label": "Mayreau",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.65,
+   "lon": -61.3833,
+   "rarity": "Rare",
+   "fame": 6978,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 4.0,
+    "length_km": 2.8,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "Mayreau is the smallest inhabited island of the Grenadines, with an area of about 0.46 sq. miles and a population of about 271.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mayreau",
+    "url": "https://en.wikipedia.org/wiki/Mayreau",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1914529.webp",
+    "author": "David Stanley from Nanaimo, Canada.",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salt_Whistle_Bay_on_Mayreau_Island,_St._Vincent_and_the_Grenadines_(49999427636).jpg"
+   }
+  },
+  {
+   "id": "wd:Q647143",
+   "name": "Canouan",
+   "label": "Canouan",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.7167,
+   "lon": -61.3333,
+   "rarity": "Rare",
+   "fame": 36234,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 76,
+    "length_km": 6.1,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "It is a small island, measuring only 5.6 by 2 km, and has a surface of 7.6 km2.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canouan",
+    "url": "https://en.wikipedia.org/wiki/Canouan",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q647143.webp",
+    "author": "Jason Pratt from Pittsburgh, PA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plane_Landing_at_Canouan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q379656",
+   "name": "Saint Vincent",
+   "label": "Saint Vincent",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-05",
+   "country": "VC",
+   "lat": 13.25,
+   "lon": -61.2,
+   "rarity": "Rare",
+   "fame": 39408,
+   "facts": {
+    "elevation_m": 587,
+    "area_km2": 345,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It is the largest island of the country Saint Vincent and the Grenadines and is located in the Caribbean Sea, between Saint Lucia and Grenada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Vincent (Saint Vincent and the Grenadines)",
+    "url": "https://en.wikipedia.org/wiki/Saint_Vincent_%28Saint_Vincent_and_the_Grenadines%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q379656.webp",
+    "author": "David Stanley from Nanaimo, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salt_Whistle_Bay_(49996126521).jpg"
+   }
+  },
+  {
+   "id": "wd:Q536311",
+   "name": "Union Island",
+   "label": "Union Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "VC-06",
+   "country": "VC",
+   "lat": 12.6,
+   "lon": -61.4333,
+   "rarity": "Rare",
+   "fame": 11064,
+   "facts": {
+    "elevation_m": 93,
+    "area_km2": 8.0,
+    "length_km": 4.5,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "Union Island is part of the nation of Saint Vincent and the Grenadines.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Union Island",
+    "url": "https://en.wikipedia.org/wiki/Union_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q536311.webp",
+    "author": "Acp",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Unionisland.jpg"
+   }
+  },
+  {
+   "id": "gn:3748746",
+   "name": "Calliaqua",
+   "label": "Calliaqua",
+   "type": "town",
+   "kind": "town",
+   "region": "VC-04",
+   "country": "VC",
+   "lat": 13.1287,
+   "lon": -61.1918,
+   "rarity": "Rare",
+   "fame": 2322,
+   "facts": {
+    "population": 24205,
+    "elevation_m": 18,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "It is located in the far south of the main island of Saint Vincent, close to the island's southernmost point.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calliaqua",
+    "url": "https://en.wikipedia.org/wiki/Calliaqua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3748746.webp"
+   }
+  }
+ ]
+}

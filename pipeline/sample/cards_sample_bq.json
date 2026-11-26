@@ -1,0 +1,257 @@
+{
+ "note": "Sample of the Caribbean Netherlands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "gn:3513765",
+   "name": "Dorp Rincon",
+   "label": "Dorp Rincon",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.2376,
+   "lon": -68.3306,
+   "rarity": "Common",
+   "fame": 9090,
+   "facts": {
+    "population": 1875,
+    "elevation_m": 64,
+    "temp_c": 28.2
+   },
+   "flavour": {
+    "text": "Rincon is one of the two towns in Bonaire, a special municipality of the Kingdom of the Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rincon, Bonaire",
+    "url": "https://en.wikipedia.org/wiki/Rincon%2C_Bonaire",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513765.webp",
+    "author": "Dave Bezaire",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rincon,_Bonaire.jpg"
+   }
+  },
+  {
+   "id": "gn:3513767",
+   "name": "Dorp Nikiboko",
+   "label": "Dorp Nikiboko",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1444,
+   "lon": -68.2612,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3475,
+    "elevation_m": 3.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "A community of 3,475 people in Bonaire.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3513767.webp"
+   }
+  },
+  {
+   "id": "gn:3513768",
+   "name": "Dorp Antriol",
+   "label": "Dorp Antriol",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1663,
+   "lon": -68.2704,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3811,
+    "elevation_m": 12,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "A community of 3,811 people in Bonaire.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3513768.webp"
+   }
+  },
+  {
+   "id": "gn:3513760",
+   "name": "Dorp Tera Kora",
+   "label": "Dorp Tera Kora",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.1373,
+   "lon": -68.2604,
+   "rarity": "Common",
+   "fame": 864,
+   "facts": {
+    "population": 1186,
+    "elevation_m": 1.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "A community of 1,186 people in Bonaire.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513760.webp",
+    "author": "Brian and Shannon",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_Resort_Bonaire_hotel.jpg"
+   }
+  },
+  {
+   "id": "gn:3513146",
+   "name": "Upper Hell's Gate",
+   "label": "Upper Hell's Gate",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.643,
+   "lon": -63.2265,
+   "rarity": "Common",
+   "fame": 5976,
+   "facts": {
+    "population": 2810,
+    "elevation_m": 195,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Locally, it is divided into Upper Hell's Gate and Lower Hell's Gate.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Zion's Hill",
+    "url": "https://en.wikipedia.org/wiki/Zion%27s_Hill",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513146.webp",
+    "author": "Carl Pruneau",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saba_Hell%27s_Gate.jpg"
+   }
+  },
+  {
+   "id": "gn:3513173",
+   "name": "The Bottom",
+   "label": "The Bottom",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ2",
+   "country": "BQ",
+   "lat": 17.6265,
+   "lon": -63.2497,
+   "rarity": "Epic",
+   "fame": 36486,
+   "facts": {
+    "population": 488,
+    "elevation_m": 222,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Bottom is the capital and largest town of the island of Saba, the Caribbean Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Bottom",
+    "url": "https://en.wikipedia.org/wiki/The_Bottom",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513173.webp",
+    "author": "Simonwwong",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Saba_School_of_Medicine.jpg"
+   }
+  },
+  {
+   "id": "gn:3513426",
+   "name": "Oranjestad",
+   "label": "Oranjestad",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ3",
+   "country": "BQ",
+   "lat": 17.483,
+   "lon": -62.9864,
+   "rarity": "Epic",
+   "fame": 24468,
+   "facts": {
+    "population": 1097,
+    "elevation_m": 43,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Oranjestad is a small town of 1,038 inhabitants; it is the capital and largest town of the island of Sint Eustatius in the Caribbean Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oranjestad, Sint Eustatius",
+    "url": "https://en.wikipedia.org/wiki/Oranjestad%2C_Sint_Eustatius",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513426.webp",
+    "author": "Walter Hellebrand",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lower_Town_Sint_Eustatius.jpg"
+   }
+  },
+  {
+   "id": "gn:3513563",
+   "name": "Kralendijk",
+   "label": "Kralendijk",
+   "type": "town",
+   "kind": "town",
+   "region": "NL-BQ1",
+   "country": "BQ",
+   "lat": 12.15,
+   "lon": -68.2667,
+   "rarity": "Legendary",
+   "fame": 42228,
+   "facts": {
+    "population": 10620,
+    "elevation_m": 4.0,
+    "temp_c": 28.3
+   },
+   "flavour": {
+    "text": "Kralendijk is the capital and the main port of the island of Bonaire in the Caribbean Netherlands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kralendijk",
+    "url": "https://en.wikipedia.org/wiki/Kralendijk",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3513563.webp",
+    "author": "Bgabel",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BONAIRE-kralendijk-hafen-2.jpg"
+   }
+  }
+ ]
+}

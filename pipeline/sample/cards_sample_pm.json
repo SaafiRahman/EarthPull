@@ -1,0 +1,647 @@
+{
+ "note": "Sample of the Saint Pierre and Miquelon card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q104902395",
+   "name": "pointe Plate",
+   "label": "pointe Plate",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.8224,
+   "lon": -56.4021,
+   "rarity": "Common",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 7.0,
+    "length_km": 0.3,
+    "temp_c": 5.0
+   },
+   "flavour": {
+    "text": "An island in Saint Pierre and Miquelon.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q104902395.webp",
+    "author": "Orlando Apesteguy",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pointe_Plate_Saint-Pierre-et-Miquelon_2016.jpg"
+   }
+  },
+  {
+   "id": "wd:Q104923405",
+   "name": "Enfant Perdu de l'Île Verte",
+   "label": "Enfant Perdu de l'Île Verte",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.8559,
+   "lon": -56.0909,
+   "rarity": "Common",
+   "fame": 474,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 5.7
+   },
+   "also_in": [
+    "CA"
+   ],
+   "flavour": {
+    "text": "L'Enfant Perdu de l'Île Verte is an uninhabited Canadian islet in the northwest Atlantic Ocean.",
+    "source": "wikipedia",
+    "lang": "fr",
+    "title": "Enfant Perdu de l'Île Verte",
+    "url": "https://fr.wikipedia.org/wiki/Enfant_Perdu_de_l%27%C3%8Ele_Verte",
+    "translated": true
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q104923405.webp",
+    "author": "Yu210148 at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ile_Vert_Newfoundland_in_Background.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1995858",
+   "name": "Grand Colombier",
+   "label": "Grand Colombier",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.8227,
+   "lon": -56.1654,
+   "rarity": "Common",
+   "fame": 1626,
+   "facts": {
+    "elevation_m": 149,
+    "area_km2": 0.4,
+    "length_km": 1.3,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "The main type of vegetation on the island are ferns and graminoids.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Colombier",
+    "url": "https://en.wikipedia.org/wiki/Grand_Colombier",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1995858.webp",
+    "author": "Duda12345",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Colombier_from_St_Pierre_Island.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1876756",
+   "name": "Île aux Pigeons",
+   "label": "Île aux Pigeons",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7967,
+   "lon": -56.1319,
+   "rarity": "Common",
+   "fame": 1068,
+   "facts": {
+    "elevation_m": 25,
+    "area_km2": 0.0,
+    "length_km": 0.3,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "Île aux Pigeons is a small uninhabited island located about 2 kilometres off the coast of Saint-Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île aux Pigeons",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Pigeons",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1876756.webp",
+    "author": "Yu210148 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Transmision_tower_st_pierre.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2558167",
+   "name": "ile aux Vainqueurs",
+   "label": "ile aux Vainqueurs",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7906,
+   "lon": -56.1283,
+   "rarity": "Common",
+   "fame": 1104,
+   "facts": {
+    "elevation_m": 29,
+    "area_km2": 0.2,
+    "length_km": 0.7,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "Île aux Vainqueurs is a small uninhabited island located about 2 kilometres off the coast of Saint-Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île aux Vainqueurs",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Vainqueurs",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2558167.webp",
+    "author": "Doc Searls from Santa Barbara, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sainte-Pierre_aerial.jpg"
+   }
+  },
+  {
+   "id": "wd:Q31247267",
+   "name": "Tête de Galantry",
+   "label": "Tête de Galantry",
+   "type": "nature",
+   "kind": "hill",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7648,
+   "lon": -56.1578,
+   "rarity": "Common",
+   "fame": 42,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "A hill in Saint Pierre and Miquelon.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31247267.webp",
+    "author": "Ken Eckert",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Hilltop,_St._Pierre_(near_Newfoundland,_Canada).jpg"
+   }
+  },
+  {
+   "id": "wd:Q2644671",
+   "name": "Petit Colombier",
+   "label": "Petit Colombier",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.8261,
+   "lon": -56.1581,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "length_km": 0.1,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "An island in Saint Pierre and Miquelon.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2644671.webp"
+   }
+  },
+  {
+   "id": "wd:Q2894731",
+   "name": "Belle Rivière",
+   "label": "Belle Rivière",
+   "type": "nature",
+   "kind": "river",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.8203,
+   "lon": -56.3117,
+   "rarity": "Common",
+   "fame": 864,
+   "facts": {
+    "elevation_m": 155,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "The Belle River is the largest river in the French overseas collectivity of Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Belle River (Saint Pierre and Miquelon)",
+    "url": "https://en.wikipedia.org/wiki/Belle_River_%28Saint_Pierre_and_Miquelon%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2894731.webp",
+    "author": "Murzabov",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pont_sur_belle_rivi%C3%A8re.jpg"
+   }
+  },
+  {
+   "id": "wd:Q31247303",
+   "name": "Le Trépied",
+   "label": "Le Trépied",
+   "type": "nature",
+   "kind": "hill",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.8008,
+   "lon": -56.1822,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 192,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "A hill in Saint Pierre and Miquelon.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q31247303.webp"
+   }
+  },
+  {
+   "id": "wd:Q104915803",
+   "name": "étang du Cap Noir",
+   "label": "étang du Cap Noir",
+   "type": "nature",
+   "kind": "lake",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7686,
+   "lon": -56.168,
+   "rarity": "Common",
+   "fame": 48,
+   "facts": {
+    "elevation_m": 3.0,
+    "length_km": 0.8,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "A lake in Saint Pierre and Miquelon.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q104915803.webp"
+   }
+  },
+  {
+   "id": "wd:Q3593266",
+   "name": "île aux Chevaux",
+   "label": "île aux Chevaux",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.9994,
+   "lon": -56.3096,
+   "rarity": "Common",
+   "fame": 546,
+   "facts": {
+    "elevation_m": 7.0,
+    "length_km": 0.2,
+    "temp_c": 5.3
+   },
+   "flavour": {
+    "text": "Île aux Chevaux is an island in Saint Pierre and Miquelon, a French territory off the southern coast of Newfoundland, Canada.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île aux Chevaux",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Chevaux",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3593266.webp",
+    "author": "Shawn from Airdrie, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ile_Miquelon_(6101182238).jpg"
+   }
+  },
+  {
+   "id": "gn:3424941",
+   "name": "Miquelon",
+   "label": "Miquelon",
+   "type": "town",
+   "kind": "town",
+   "region": "PM",
+   "country": "PM",
+   "lat": 47.0975,
+   "lon": -56.3814,
+   "rarity": "Epic",
+   "fame": 540,
+   "facts": {
+    "population": 1141,
+    "elevation_m": 4.0,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "Miquelon-Langlade is the larger but less populated of the two communes making up the French overseas collectivity of Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Miquelon, Miquelon-Langlade",
+    "url": "https://en.wikipedia.org/wiki/Miquelon%2C_Miquelon-Langlade",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3424941.webp",
+    "author": "Marc A. Cormier",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Miquelon_shore.jpg"
+   }
+  },
+  {
+   "id": "gn:3424934",
+   "name": "Saint-Pierre",
+   "label": "Saint-Pierre",
+   "type": "town",
+   "kind": "town",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7791,
+   "lon": -56.1773,
+   "rarity": "Legendary",
+   "fame": 99912,
+   "facts": {
+    "population": 6200,
+    "elevation_m": 30,
+    "area_km2": 25,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "Saint-Pierre is the capital of the French collectivité d'outre-mer of Saint Pierre and Miquelon, off the coast of the Canadian island of Newfoundland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint-Pierre, Saint Pierre and Miquelon",
+    "url": "https://en.wikipedia.org/wiki/Saint-Pierre%2C_Saint_Pierre_and_Miquelon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3424934.webp",
+    "author": "miquelon",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:3dansleportdestpierre2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7208335",
+   "name": "Pointe aux Cannon Battery",
+   "label": "Pointe aux Cannon Battery",
+   "type": "built",
+   "kind": "fortification",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7808,
+   "lon": -56.1694,
+   "rarity": "Rare",
+   "fame": 804,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "The Pointe aux Canons Battery was a historic fort located on the island of Saint Pierre in the French territorial collectivity of Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pointe aux Cannon Battery",
+    "url": "https://en.wikipedia.org/wiki/Pointe_aux_Cannon_Battery",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7208335.webp",
+    "author": "Yu210148 at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cannons_that_Defended_the_Harbour_Against_The_English.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3580369",
+   "name": "Our Lady of Ardilliers Church, Miquelon",
+   "label": "Our Lady of Ardilliers Church, Miquelon",
+   "type": "built",
+   "kind": "church",
+   "region": "PM",
+   "country": "PM",
+   "lat": 47.1005,
+   "lon": -56.3778,
+   "rarity": "Rare",
+   "fame": 1236,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "Our Lady of Ardilliers Church is a Catholic church located in Miquelon-Langlade, in the archipelago of Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of Ardilliers Church, Miquelon",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Ardilliers_Church%2C_Miquelon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3580369.webp",
+    "author": "Murzabov",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eglise_de_Miquelon.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2942441",
+   "name": "Saint-Pierre Cathedral",
+   "label": "Saint-Pierre Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7811,
+   "lon": -56.1722,
+   "rarity": "Rare",
+   "fame": 3474,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "St. Pierre Cathedral is an early 20th-century church that served as the cathedral of the Roman Catholic Vicariate Apostolic of Iles Saint Pierre and Miquelon…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Pierre Cathedral, Saint-Pierre",
+    "url": "https://en.wikipedia.org/wiki/St._Pierre_Cathedral%2C_Saint-Pierre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2942441.webp",
+    "author": "John R. Bopp",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St_Pierre_and_Miquelon.jpg"
+   }
+  },
+  {
+   "id": "wd:Q11598398",
+   "name": "Centre Culturel et Sportif",
+   "label": "Centre Culturel et Sportif",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7751,
+   "lon": -56.1781,
+   "rarity": "Rare",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "It is currently used mostly for rugby, futsal matches and athletics.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Centre Culturel et Sportif",
+    "url": "https://en.wikipedia.org/wiki/Centre_Culturel_et_Sportif",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q11598398.webp"
+   }
+  },
+  {
+   "id": "wd:Q3051597",
+   "name": "Morne de la Grande Montagne",
+   "label": "Morne de la Grande Montagne",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PM",
+   "country": "PM",
+   "lat": 47.0469,
+   "lon": -56.3064,
+   "rarity": "Rare",
+   "fame": 1752,
+   "facts": {
+    "elevation_m": 240,
+    "prominence_m": 240,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "Morne de la Grande Montagne is the highest point of Saint Pierre and Miquelon, an overseas collectivity of France located in the Atlantic Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morne de la Grande Montagne",
+    "url": "https://en.wikipedia.org/wiki/Morne_de_la_Grande_Montagne",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3051597.webp"
+   }
+  },
+  {
+   "id": "wd:Q292246",
+   "name": "L'Ile-aux-Marins",
+   "label": "L'Ile-aux-Marins",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7861,
+   "lon": -56.1486,
+   "rarity": "Rare",
+   "fame": 10266,
+   "facts": {
+    "elevation_m": 35,
+    "area_km2": 0.7,
+    "length_km": 1.7,
+    "temp_c": 5.4
+   },
+   "flavour": {
+    "text": "Île-aux-Marins is a small uninhabited island located off the coast of Saint-Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Île-aux-Marins",
+    "url": "https://en.wikipedia.org/wiki/%C3%8Ele-aux-Marins",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q292246.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ile_aux_marines,_SPM.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3031658",
+   "name": "Saint Pierre Island",
+   "label": "Saint Pierre Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "PM",
+   "country": "PM",
+   "lat": 46.7833,
+   "lon": -56.2,
+   "rarity": "Rare",
+   "fame": 33354,
+   "facts": {
+    "elevation_m": 207,
+    "area_km2": 25,
+    "length_km": 7.5,
+    "temp_c": 5.2
+   },
+   "flavour": {
+    "text": "Saint Pierre Island, also spelt as Saint-Pierre Island, is one of the three main islands of Saint Pierre and Miquelon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Pierre Island",
+    "url": "https://en.wikipedia.org/wiki/Saint_Pierre_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3031658.webp",
+    "author": "Doc Searls from Santa Barbara, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sainte-Pierre_aerial.jpg"
+   }
+  }
+ ]
+}

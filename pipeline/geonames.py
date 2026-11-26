@@ -159,7 +159,7 @@ def main():
     print(f"\nRandom sample of {args.sample}:")
     cols = ["geonameid", "name", "region", "feature_code", "population", "elevation", "dem", "latitude", "longitude"]
     with pd.option_context("display.width", 200, "display.max_columns", 20):
-        print(gdf.sample(args.sample, random_state=1)[cols].to_string(index=False))
+        print(gdf.sample(min(args.sample, len(gdf)), random_state=1)[cols].to_string(index=False))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1767 @@
+{
+ "note": "Sample of the Saint Lucia card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5031146",
+   "name": "Canaries River",
+   "label": "Canaries River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.9,
+   "lon": -61.0667,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 79,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The Canaries River is a river on the island of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canaries River",
+    "url": "https://en.wikipedia.org/wiki/Canaries_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5031146.webp"
+   }
+  },
+  {
+   "id": "wd:Q6465704",
+   "name": "La Verdure River",
+   "label": "La Verdure River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9333,
+   "lon": -61.0833,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The La Verdure River is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Verdure River",
+    "url": "https://en.wikipedia.org/wiki/La_Verdure_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6465704.webp"
+   }
+  },
+  {
+   "id": "wd:Q5548768",
+   "name": "Ger River",
+   "label": "Ger River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-08",
+   "country": "LC",
+   "lat": 13.7833,
+   "lon": -60.9,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Ger River is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ger River",
+    "url": "https://en.wikipedia.org/wiki/Ger_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5548768.webp"
+   }
+  },
+  {
+   "id": "wd:Q5595357",
+   "name": "Grande Rivière de l'Anse la Raye",
+   "label": "Grande Rivière de l'Anse la Raye",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9333,
+   "lon": -61.05,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 88,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The Grande Rivière de l'Anse la Raye is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grande Rivière de l'Anse la Raye",
+    "url": "https://en.wikipedia.org/wiki/Grande_Rivi%C3%A8re_de_l%27Anse_la_Raye",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5595357.webp"
+   }
+  },
+  {
+   "id": "wd:Q7846373",
+   "name": "Trou Sallé River",
+   "label": "Trou Sallé River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0793,
+   "lon": -60.92,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Trou Sallé River is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trou Sallé River",
+    "url": "https://en.wikipedia.org/wiki/Trou_Sall%C3%A9_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7846373.webp"
+   }
+  },
+  {
+   "id": "wd:Q7846372",
+   "name": "Trou Grauval River",
+   "label": "Trou Grauval River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-04",
+   "country": "LC",
+   "lat": 14.05,
+   "lon": -60.8833,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Trou Grauval River is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trou Grauval River",
+    "url": "https://en.wikipedia.org/wiki/Trou_Grauval_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7846372.webp"
+   }
+  },
+  {
+   "id": "wd:Q7846370",
+   "name": "Trou Barbet River",
+   "label": "Trou Barbet River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-03",
+   "country": "LC",
+   "lat": 13.7833,
+   "lon": -61.05,
+   "rarity": "Common",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Trou Barbet River is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trou Barbet River",
+    "url": "https://en.wikipedia.org/wiki/Trou_Barbet_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7846370.webp"
+   }
+  },
+  {
+   "id": "wd:Q5464958",
+   "name": "Fond d'Or River",
+   "label": "Fond d'Or River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-05",
+   "country": "LC",
+   "lat": 13.9167,
+   "lon": -60.8833,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It rises in the centre of the island, flowing north and then east to its mouth in Fond d'Or Bay, close to the village of Dennery on the central east coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fond d'Or River",
+    "url": "https://en.wikipedia.org/wiki/Fond_d%27Or_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5464958.webp",
+    "author": "Ian Mackenzie",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fond_d%27Or_Bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1033110",
+   "name": "Canelles River",
+   "label": "Canelles River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-08",
+   "country": "LC",
+   "lat": 13.7667,
+   "lon": -60.9,
+   "rarity": "Common",
+   "fame": 174,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It flows southeast from the central highlands in the south of the island, reaching the Atlantic Ocean to the south of the town of Micoud.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canelles River",
+    "url": "https://en.wikipedia.org/wiki/Canelles_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1033110.webp"
+   }
+  },
+  {
+   "id": "wd:Q5050768",
+   "name": "Castries River",
+   "label": "Castries River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0167,
+   "lon": -60.9833,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 23,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Castries River is a river in Castries Quarter on the island country of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castries River",
+    "url": "https://en.wikipedia.org/wiki/Castries_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5050768.webp",
+    "author": "Gerd Fahrenhorst",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castries_River_2019.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6745682",
+   "name": "Mamin River",
+   "label": "Mamin River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.8667,
+   "lon": -61.0667,
+   "rarity": "Common",
+   "fame": 114,
+   "facts": {
+    "elevation_m": 153,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The Mamin River is a river of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mamin River",
+    "url": "https://en.wikipedia.org/wiki/Mamin_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6745682.webp"
+   }
+  },
+  {
+   "id": "wd:Q4850698",
+   "name": "Balembouche River",
+   "label": "Balembouche River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-07",
+   "country": "LC",
+   "lat": 13.75,
+   "lon": -61.0167,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Balembouche River is a coastal river in Laborie Quarter, Saint Lucia that flows into the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Balembouche River",
+    "url": "https://en.wikipedia.org/wiki/Balembouche_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4850698.webp",
+    "author": "Balenbouche",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Balenbouche_020.jpg"
+   }
+  },
+  {
+   "id": "gn:3576791",
+   "name": "Ciceron",
+   "label": "Ciceron",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 13.9901,
+   "lon": -61.0081,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2471,
+    "elevation_m": 78,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 2,471 people in Castries Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576791.webp"
+   }
+  },
+  {
+   "id": "gn:3576551",
+   "name": "Morne Doudon",
+   "label": "Morne Doudon",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0099,
+   "lon": -60.9724,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1176,
+    "elevation_m": 211,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,176 people in Castries Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576551.webp"
+   }
+  },
+  {
+   "id": "gn:3576885",
+   "name": "Balata",
+   "label": "Balata",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.014,
+   "lon": -60.956,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1812,
+    "elevation_m": 37,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,812 people in Castries Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576885.webp"
+   }
+  },
+  {
+   "id": "gn:3576821",
+   "name": "Cantonement",
+   "label": "Cantonement",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7526,
+   "lon": -60.9753,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1105,
+    "elevation_m": 59,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,105 people in Vieux Fort Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576821.webp"
+   }
+  },
+  {
+   "id": "gn:3576637",
+   "name": "La Resource",
+   "label": "La Resource",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7446,
+   "lon": -60.9577,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1521,
+    "elevation_m": 20,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,521 people in Vieux Fort Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576637.webp"
+   }
+  },
+  {
+   "id": "gn:3576781",
+   "name": "Corinthe",
+   "label": "Corinthe",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0453,
+   "lon": -60.9607,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1576,
+    "elevation_m": 25,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,576 people in Gros Islet Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576781.webp"
+   }
+  },
+  {
+   "id": "gn:11954745",
+   "name": "Beauséjour",
+   "label": "Beauséjour",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0754,
+   "lon": -60.9442,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1685,
+    "elevation_m": 39,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,685 people in Gros Islet Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11954745.webp"
+   }
+  },
+  {
+   "id": "gn:3576854",
+   "name": "Bisee",
+   "label": "Bisee",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0243,
+   "lon": -60.9744,
+   "rarity": "Common",
+   "fame": 564,
+   "facts": {
+    "population": 12980,
+    "elevation_m": 48,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "With a population of 12,980, it is the second largest town in Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bisée",
+    "url": "https://en.wikipedia.org/wiki/Bis%C3%A9e",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576854.webp"
+   }
+  },
+  {
+   "id": "gn:11955884",
+   "name": "Pierrot",
+   "label": "Pierrot",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7711,
+   "lon": -60.9439,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1457,
+    "elevation_m": 183,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,457 people in Vieux Fort Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11955884.webp"
+   }
+  },
+  {
+   "id": "gn:3576836",
+   "name": "Cabiche",
+   "label": "Cabiche",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.004,
+   "lon": -60.9478,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1169,
+    "elevation_m": 193,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,169 people in Castries Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576836.webp"
+   }
+  },
+  {
+   "id": "gn:3576888",
+   "name": "Augier",
+   "label": "Augier",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7632,
+   "lon": -60.9789,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1850,
+    "elevation_m": 94,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,850 people in Vieux Fort Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576888.webp"
+   }
+  },
+  {
+   "id": "gn:3576895",
+   "name": "Anse Ger",
+   "label": "Anse Ger",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-08",
+   "country": "LC",
+   "lat": 13.7978,
+   "lon": -60.9164,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1471,
+    "elevation_m": 64,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,471 people in Micoud Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576895.webp"
+   }
+  },
+  {
+   "id": "wd:Q813440",
+   "name": "Daren Sammy Cricket Ground",
+   "label": "Daren Sammy Cricket Ground",
+   "type": "built",
+   "kind": "cricket field",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0706,
+   "lon": -60.9314,
+   "rarity": "Epic",
+   "fame": 8634,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Daren Sammy Cricket Ground, previously the Beausejour Cricket Ground, is a cricket ground located near Gros Islet.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Daren Sammy Cricket Ground",
+    "url": "https://en.wikipedia.org/wiki/Daren_Sammy_Cricket_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q813440.webp",
+    "author": "Timothy Barton (timtranslates.com)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beausejour_Stadium_Cricket_St_Lucia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1356963",
+   "name": "George Odlum Stadium",
+   "label": "George Odlum Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7541,
+   "lon": -60.9442,
+   "rarity": "Epic",
+   "fame": 4626,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Named after Saint Lucian politician George Odlum.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "George Odlum Stadium",
+    "url": "https://en.wikipedia.org/wiki/George_Odlum_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1356963.webp"
+   }
+  },
+  {
+   "id": "wd:Q7193299",
+   "name": "Pigeon Island",
+   "label": "Pigeon Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0935,
+   "lon": -60.9647,
+   "rarity": "Epic",
+   "fame": 8124,
+   "facts": {
+    "elevation_m": 36,
+    "area_km2": 0.2,
+    "length_km": 0.7,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "In 1979 it was named a national park and again in 1992 it became a national landmark under the control of the Saint Lucia National Trust.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pigeon Island (Saint Lucia)",
+    "url": "https://en.wikipedia.org/wiki/Pigeon_Island_%28Saint_Lucia%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7193299.webp",
+    "author": "P. Hughes",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Lucia_-_Pigeon_Island.jpg"
+   }
+  },
+  {
+   "id": "wd:Q639487",
+   "name": "Pitons",
+   "label": "Pitons",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.8071,
+   "lon": -61.0704,
+   "rarity": "Epic",
+   "fame": 30084,
+   "facts": {
+    "elevation_m": 786,
+    "area_km2": 29,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Pitons are two mountainous volcanic plugs, volcanic spires, located in Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pitons (Saint Lucia)",
+    "url": "https://en.wikipedia.org/wiki/Pitons_%28Saint_Lucia%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q639487.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Pitonpair.JPG"
+   }
+  },
+  {
+   "id": "gn:3576765",
+   "name": "Dennery",
+   "label": "Dennery",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-05",
+   "country": "LC",
+   "lat": 13.9141,
+   "lon": -60.8913,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 12589,
+    "elevation_m": 19,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 12,589 people in Dennery Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576765.webp",
+    "author": "Mjr74",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Dennery.jpg"
+   }
+  },
+  {
+   "id": "gn:3576569",
+   "name": "Micoud",
+   "label": "Micoud",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-08",
+   "country": "LC",
+   "lat": 13.8167,
+   "lon": -60.9,
+   "rarity": "Epic",
+   "fame": 1224,
+   "facts": {
+    "population": 3406,
+    "elevation_m": 11,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Micoud is a village of around 2,700 inhabitants on the south-east coast of Saint Lucia in the Micoud District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Micoud, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Micoud%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576569.webp"
+   }
+  },
+  {
+   "id": "gn:3576894",
+   "name": "Anse La Raye",
+   "label": "Anse La Raye",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9462,
+   "lon": -61.0388,
+   "rarity": "Epic",
+   "fame": 1752,
+   "facts": {
+    "population": 1256,
+    "elevation_m": 99,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Anse La Raye or Anse-La-Raye is the largest town and seat of the Anse la Raye District of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Anse La Raye",
+    "url": "https://en.wikipedia.org/wiki/Anse_La_Raye",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576894.webp",
+    "author": "Mjr74",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Anse_la_Raye_fused_copy.jpg"
+   }
+  },
+  {
+   "id": "gn:3576442",
+   "name": "Soufrière",
+   "label": "Soufrière",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.8562,
+   "lon": -61.0566,
+   "rarity": "Epic",
+   "fame": 11628,
+   "facts": {
+    "population": 2918,
+    "elevation_m": 12,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The town and the surrounding district has a population of 7,935.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Soufrière, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Soufri%C3%A8re%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576442.webp",
+    "author": "Gzdavidwong at Chinese Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Soufri%C3%A8re,_St_Lucia,_2007.jpg"
+   }
+  },
+  {
+   "id": "gn:3576686",
+   "name": "Gros Islet",
+   "label": "Gros Islet",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0667,
+   "lon": -60.95,
+   "rarity": "Epic",
+   "fame": 7614,
+   "facts": {
+    "population": 25210,
+    "elevation_m": 58,
+    "area_km2": 102,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Gros Islet is a community near the northern tip of the island country of Saint Lucia, in the Gros Islet Quarter.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gros Islet",
+    "url": "https://en.wikipedia.org/wiki/Gros_Islet",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576686.webp",
+    "author": "Lii",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:At_the_top_of_Pigeon_Island.jpg"
+   }
+  },
+  {
+   "id": "gn:3576795",
+   "name": "Choiseul",
+   "label": "Choiseul",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-03",
+   "country": "LC",
+   "lat": 13.7727,
+   "lon": -61.0493,
+   "rarity": "Epic",
+   "fame": 1542,
+   "facts": {
+    "population": 6098,
+    "elevation_m": 21,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Choiseul was originally known as Anse Citron, and an independent parish was established in 1765.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Choiseul, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Choiseul%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576795.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maisons_%C3%A0_Choiseul_(Sainte-Lucie).jpg"
+   }
+  },
+  {
+   "id": "gn:3576663",
+   "name": "Laborie",
+   "label": "Laborie",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-07",
+   "country": "LC",
+   "lat": 13.75,
+   "lon": -60.9833,
+   "rarity": "Epic",
+   "fame": 1476,
+   "facts": {
+    "population": 6701,
+    "elevation_m": 20,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It was originally called l'Islet a Caret after the Loggerhead sea turtles that were found in the area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Laborie",
+    "url": "https://en.wikipedia.org/wiki/Laborie",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576663.webp"
+   }
+  },
+  {
+   "id": "gn:3576414",
+   "name": "Vieux Fort",
+   "label": "Vieux Fort",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7167,
+   "lon": -60.95,
+   "rarity": "Epic",
+   "fame": 5256,
+   "facts": {
+    "population": 4574,
+    "elevation_m": 76,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is named after a fort that used to watch out over Saint Vincent toward the south.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vieux Fort, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Vieux_Fort%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576414.webp",
+    "author": "Enrevseluj",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rue_de_Vieux-Fort_et_%C3%A9glise_anglicane_St-Paul_(Sainte-Lucie).jpg"
+   }
+  },
+  {
+   "id": "gn:3576812",
+   "name": "Castries",
+   "label": "Castries",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 13.9957,
+   "lon": -61.0061,
+   "rarity": "Legendary",
+   "fame": 53562,
+   "facts": {
+    "population": 20000,
+    "elevation_m": 119,
+    "area_km2": 79,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Castries is the capital and largest city of Saint Lucia, an island country in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Castries",
+    "url": "https://en.wikipedia.org/wiki/Castries",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576812.webp",
+    "author": "UpstateNYer",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CastriesStLucia.JPG"
+   }
+  },
+  {
+   "id": "wd:Q4770555",
+   "name": "Anse Mamin",
+   "label": "Anse Mamin",
+   "type": "built",
+   "kind": "beach",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.8706,
+   "lon": -61.0795,
+   "rarity": "Rare",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Anse Mamin is a bay on the coast with a small black sand beach in Soufrière District, Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Anse Mamin",
+    "url": "https://en.wikipedia.org/wiki/Anse_Mamin",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4770555.webp",
+    "author": "XeresNelro",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anse_Mamin,_St._Lucia_,3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1651626",
+   "name": "Mindoo Philip Park",
+   "label": "Mindoo Philip Park",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0042,
+   "lon": -60.9846,
+   "rarity": "Rare",
+   "fame": 864,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is a training and competition venue for cricket, association football, rugby and track and field, among other sports.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mindoo Phillip Park",
+    "url": "https://en.wikipedia.org/wiki/Mindoo_Phillip_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1651626.webp"
+   }
+  },
+  {
+   "id": "wd:Q27439089",
+   "name": "Roseau Dam",
+   "label": "Roseau Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9003,
+   "lon": -60.988,
+   "rarity": "Rare",
+   "fame": 648,
+   "facts": {
+    "elevation_m": 93,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "The John Compton Dam, formerly known as the Roseau Dam, is a concrete-face rock-fill dam on the Roseau River in the small community of Millet in central Saint…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "John Compton Dam",
+    "url": "https://en.wikipedia.org/wiki/John_Compton_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27439089.webp"
+   }
+  },
+  {
+   "id": "wd:Q5588888",
+   "name": "Government House",
+   "label": "Government House",
+   "type": "built",
+   "kind": "mansion",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0054,
+   "lon": -60.9983,
+   "rarity": "Rare",
+   "fame": 1776,
+   "facts": {
+    "elevation_m": 133,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Government House is the official residence of the governor-general of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Government House, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Government_House%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5588888.webp",
+    "author": "Pi3.124",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Government_House,_St._Lucia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5052198",
+   "name": "Cathedral Basilica of the Immaculate Conception in Castries",
+   "label": "Cathedral Basilica of the Immaculate Conception in Castries",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0091,
+   "lon": -60.9901,
+   "rarity": "Rare",
+   "fame": 2994,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Minor Basilica of the Immaculate Conception, is a cathedral built in 1897 which is located in the centre of three well known streets: Peynier Street.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral Basilica of the Immaculate Conception, Castries",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_the_Immaculate_Conception%2C_Castries",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5052198.webp",
+    "author": "Edgar El",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castries_-_Cathedral_Basilica_of_the_Immaculate_Conception_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1657518",
+   "name": "Beane Air Force Base",
+   "label": "Beane Air Force Base",
+   "type": "built",
+   "kind": "airbase",
+   "region": "LC-11",
+   "country": "LC",
+   "lat": 13.7331,
+   "lon": -60.9525,
+   "rarity": "Rare",
+   "fame": 1152,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "also_in": [
+    "US"
+   ],
+   "flavour": {
+    "text": "It is now the site of Hewanorra International Airport.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Beane Air Force Base",
+    "url": "https://en.wikipedia.org/wiki/Beane_Air_Force_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1657518.webp"
+   }
+  },
+  {
+   "id": "wd:Q5477354",
+   "name": "St. Lucia Botanical Gardens",
+   "label": "St. Lucia Botanical Gardens",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.8525,
+   "lon": -61.0483,
+   "rarity": "Rare",
+   "fame": 1716,
+   "facts": {
+    "elevation_m": 40,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "St. Lucia Botanical Gardens, also known as the Diamond Botanical Gardens.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Lucia Botanical Gardens",
+    "url": "https://en.wikipedia.org/wiki/St._Lucia_Botanical_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5477354.webp",
+    "author": "XeresNelro",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diamond_Falls,_Diamond_Botanical_Gardens,_Soufriere,_Saint_Lucia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7928894",
+   "name": "Vigie Beach",
+   "label": "Vigie Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0247,
+   "lon": -60.9847,
+   "rarity": "Rare",
+   "fame": 1218,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Vigie Beach is located 2 km north of Castries District, Saint Lucia, running parallel and immediately adjacent to the George F. L. Charles Airport.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Vigie Beach",
+    "url": "https://en.wikipedia.org/wiki/Vigie_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7928894.webp",
+    "author": "ROxBo at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Vigie_Beach,_Saint_Lucia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23979525",
+   "name": "St. Joseph the Worker Church, Gros Islet",
+   "label": "St. Joseph the Worker Church, Gros Islet",
+   "type": "built",
+   "kind": "church",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0819,
+   "lon": -60.9527,
+   "rarity": "Rare",
+   "fame": 336,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The St. Joseph the Worker Church is a religious building belonging to the Catholic Church and is located in the town of Gros Islet in the district of the same…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Joseph the Worker Church, Gros Islet",
+    "url": "https://en.wikipedia.org/wiki/St._Joseph_the_Worker_Church%2C_Gros_Islet",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23979525.webp"
+   }
+  },
+  {
+   "id": "wd:Q5262425",
+   "name": "Derek Walcott Square",
+   "label": "Derek Walcott Square",
+   "type": "built",
+   "kind": "square",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0086,
+   "lon": -60.9906,
+   "rarity": "Rare",
+   "fame": 972,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Derek Walcott Square is a public square and park located in central Castries, Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Derek Walcott Square",
+    "url": "https://en.wikipedia.org/wiki/Derek_Walcott_Square",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5262425.webp",
+    "author": "Gene93k",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Derek_Walcott_Square_-_bandstand2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1128510",
+   "name": "Cul de Sac River",
+   "label": "Cul de Sac River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 13.9833,
+   "lon": -61.0,
+   "rarity": "Rare",
+   "fame": 540,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is one of the longest rivers in Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cul de Sac River",
+    "url": "https://en.wikipedia.org/wiki/Cul_de_Sac_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1128510.webp",
+    "author": "Mjr74",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cul_de_Sac_2010.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1811114",
+   "name": "Mount Gimie",
+   "label": "Mount Gimie",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.8635,
+   "lon": -61.0111,
+   "rarity": "Rare",
+   "fame": 4698,
+   "facts": {
+    "elevation_m": 952,
+    "prominence_m": 950,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Mount Gimie is the tallest mountain on the island of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Gimie",
+    "url": "https://en.wikipedia.org/wiki/Mount_Gimie",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1811114.webp",
+    "author": "MMinkenberg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mt._Gimie.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6763299",
+   "name": "Marigot Bay",
+   "label": "Marigot Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9662,
+   "lon": -61.024,
+   "rarity": "Rare",
+   "fame": 5628,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Marigot Bay is located on the western coast of the Caribbean island country of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Marigot Bay",
+    "url": "https://en.wikipedia.org/wiki/Marigot_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6763299.webp",
+    "author": "Charles J. Sharp",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marigot_Bay,_St._Lucia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3412754",
+   "name": "Qualibou",
+   "label": "Qualibou",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "LC-10",
+   "country": "LC",
+   "lat": 13.838,
+   "lon": -61.046,
+   "rarity": "Rare",
+   "fame": 3282,
+   "facts": {
+    "elevation_m": 777,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Qualibou, also known as the Soufrière Volcanic Center, is a 3.5 × 5 km-wide caldera on the island of Saint Lucia that formed between 32,000 and 39,000 years…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Qualibou",
+    "url": "https://en.wikipedia.org/wiki/Qualibou",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3412754.webp",
+    "author": "Trent Foley from Dallas, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_north_from_Gros_Piton.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5258088",
+   "name": "Dennery River",
+   "label": "Dennery River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-09",
+   "country": "LC",
+   "lat": 13.9,
+   "lon": -60.8833,
+   "rarity": "Rare",
+   "fame": 348,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "The Dennery River is the river on the southern end of the fishing village of Dennery on the island of Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dennery River",
+    "url": "https://en.wikipedia.org/wiki/Dennery_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5258088.webp"
+   }
+  },
+  {
+   "id": "wd:Q5103497",
+   "name": "Choc Bay",
+   "label": "Choc Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 14.0333,
+   "lon": -60.9667,
+   "rarity": "Rare",
+   "fame": 414,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Choc Bay is a bay in Gros Islet Quarter on the island nation of Saint Lucia; it is along the northwestern coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Choc Bay",
+    "url": "https://en.wikipedia.org/wiki/Choc_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5103497.webp"
+   }
+  },
+  {
+   "id": "wd:Q7427391",
+   "name": "Sault Falls",
+   "label": "Sault Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "LC-09",
+   "country": "LC",
+   "lat": 13.8954,
+   "lon": -60.9355,
+   "rarity": "Rare",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 107,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Sault Falls is a 15-to-20-metre high waterfall near Dennery in Saint Lucia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sault Falls",
+    "url": "https://en.wikipedia.org/wiki/Sault_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7427391.webp"
+   }
+  },
+  {
+   "id": "wd:Q7368052",
+   "name": "Roseau River",
+   "label": "Roseau River",
+   "type": "nature",
+   "kind": "river",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.95,
+   "lon": -61.0167,
+   "rarity": "Rare",
+   "fame": 732,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It flows north and then west from the central highlands in the south of the island, reaching the Caribbean Sea to the north of the town of Anse la Raye.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Roseau River (Saint Lucia)",
+    "url": "https://en.wikipedia.org/wiki/Roseau_River_%28Saint_Lucia%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7368052.webp"
+   }
+  },
+  {
+   "id": "wd:Q7356852",
+   "name": "Rodney Bay",
+   "label": "Rodney Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "LC-06",
+   "country": "LC",
+   "lat": 14.0833,
+   "lon": -60.9667,
+   "rarity": "Rare",
+   "fame": 5958,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Gros Islet is one of the ten districts in the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rodney Bay",
+    "url": "https://en.wikipedia.org/wiki/Rodney_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7356852.webp",
+    "author": "Vlad Podvorny",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodney_Bay_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3576830",
+   "name": "Canaries",
+   "label": "Canaries",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-01",
+   "country": "LC",
+   "lat": 13.9022,
+   "lon": -61.0646,
+   "rarity": "Rare",
+   "fame": 1428,
+   "facts": {
+    "population": 1862,
+    "elevation_m": 12,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Canaries is a populated place located on the West Coast of Saint Lucia in the Canaries Quarter.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Canaries, Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Canaries%2C_Saint_Lucia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576830.webp",
+    "author": "Mjr74",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Canaries.JPG"
+   }
+  },
+  {
+   "id": "gn:9072631",
+   "name": "Bocage",
+   "label": "Bocage",
+   "type": "town",
+   "kind": "town",
+   "region": "LC-02",
+   "country": "LC",
+   "lat": 13.9889,
+   "lon": -60.972,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1420,
+    "elevation_m": 135,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 1,420 people in Castries Quarter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_9072631.webp"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2607 @@
+{
+ "note": "Sample of the Jamaica card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5054915",
+   "name": "Cave River",
+   "label": "Cave River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-06",
+   "country": "JM",
+   "lat": 18.2,
+   "lon": -77.35,
+   "rarity": "Common",
+   "fame": 270,
+   "facts": {
+    "elevation_m": 538,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "The Cave River is a river of Jamaica, located in Clarendon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cave River",
+    "url": "https://en.wikipedia.org/wiki/Cave_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5054915.webp"
+   }
+  },
+  {
+   "id": "wd:Q6905077",
+   "name": "Montego River",
+   "label": "Montego River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-08",
+   "country": "JM",
+   "lat": 18.4667,
+   "lon": -77.9333,
+   "rarity": "Common",
+   "fame": 240,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "The Montego River is a river of Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Montego River",
+    "url": "https://en.wikipedia.org/wiki/Montego_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6905077.webp"
+   }
+  },
+  {
+   "id": "wd:Q5015252",
+   "name": "Cabarita River",
+   "label": "Cabarita River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-10",
+   "country": "JM",
+   "lat": 18.2167,
+   "lon": -78.1667,
+   "rarity": "Common",
+   "fame": 342,
+   "facts": {
+    "elevation_m": 7.0,
+    "length_km": 397,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "The Cabarita River, originally the Cabaritta, is a river in Jamaica, located in Westmoreland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cabarita River",
+    "url": "https://en.wikipedia.org/wiki/Cabarita_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5015252.webp",
+    "author": "Popular Graphic Arts",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:A_view_in_the_island_of_Jamaica,_of_the_bridge_crossing_the_Cabaritta_River,_on_the_estate_of_William_Beckford_Esqr_LCCN2003670408.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7959454",
+   "name": "Wag Water River",
+   "label": "Wag Water River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.2667,
+   "lon": -76.7833,
+   "rarity": "Common",
+   "fame": 408,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "The Wag Water River is one of Jamaica's rivers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wag Water River",
+    "url": "https://en.wikipedia.org/wiki/Wag_Water_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7959454.webp"
+   }
+  },
+  {
+   "id": "wd:Q7099215",
+   "name": "Oracabessa River",
+   "label": "Oracabessa River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.4,
+   "lon": -76.95,
+   "rarity": "Common",
+   "fame": 246,
+   "facts": {
+    "elevation_m": 24,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The Oracabessa River is a river of Jamaica, located in the Parish of Saint Mary.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oracabessa River",
+    "url": "https://en.wikipedia.org/wiki/Oracabessa_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7099215.webp"
+   }
+  },
+  {
+   "id": "wd:Q7099517",
+   "name": "Orange Bay",
+   "label": "Orange Bay (bay)",
+   "type": "nature",
+   "kind": "bay",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.3667,
+   "lon": -78.3144,
+   "rarity": "Common",
+   "fame": 480,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Orange Bay is a small bay in Hanover Parish, Jamaica to the north of the resort town of Negril.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Orange Bay (Hanover Parish)",
+    "url": "https://en.wikipedia.org/wiki/Orange_Bay_%28Hanover_Parish%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7099517.webp"
+   }
+  },
+  {
+   "id": "wd:Q7568017",
+   "name": "South Negril River",
+   "label": "South Negril River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-10",
+   "country": "JM",
+   "lat": 18.28,
+   "lon": -78.3479,
+   "rarity": "Common",
+   "fame": 396,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 28.4
+   },
+   "flavour": {
+    "text": "The South Negril River is a river in Westmoreland, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "South Negril River",
+    "url": "https://en.wikipedia.org/wiki/South_Negril_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7568017.webp"
+   }
+  },
+  {
+   "id": "wd:Q6696436",
+   "name": "Lucea West River",
+   "label": "Lucea West River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.4333,
+   "lon": -78.1667,
+   "rarity": "Common",
+   "fame": 150,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "The Lucea West River is a river of Jamaica that borders the town of Lucea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lucea West River",
+    "url": "https://en.wikipedia.org/wiki/Lucea_West_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6696436.webp"
+   }
+  },
+  {
+   "id": "wd:Q7573291",
+   "name": "Spanish River",
+   "label": "Spanish River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.2333,
+   "lon": -76.6167,
+   "rarity": "Common",
+   "fame": 354,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "It flows from south to north, the height of its delta is 0-40m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Spanish River (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Spanish_River_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7573291.webp"
+   }
+  },
+  {
+   "id": "wd:Q5899436",
+   "name": "Hope River",
+   "label": "Hope River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 17.95,
+   "lon": -76.7167,
+   "rarity": "Common",
+   "fame": 552,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It flows from 15 miles north of Kingston and then forms a delta at Kingston.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hope River (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Hope_River_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5899436.webp"
+   }
+  },
+  {
+   "id": "wd:Q4971914",
+   "name": "Broad River",
+   "label": "Broad River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-11",
+   "country": "JM",
+   "lat": 18.0333,
+   "lon": -77.85,
+   "rarity": "Common",
+   "fame": 168,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It flows into the Black River at the Great Morass in St. Elizabeth.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Broad River (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Broad_River_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4971914.webp"
+   }
+  },
+  {
+   "id": "wd:Q5614343",
+   "name": "Guava River",
+   "label": "Guava River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.1054,
+   "lon": -76.4579,
+   "rarity": "Common",
+   "fame": 246,
+   "facts": {
+    "elevation_m": 71,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "The Guava River rises just north of the Grand Ridge of the Blue Mountains on the border of Portland Parish in Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guava River",
+    "url": "https://en.wikipedia.org/wiki/Guava_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5614343.webp"
+   }
+  },
+  {
+   "id": "gn:3490368",
+   "name": "Gayle",
+   "label": "Gayle",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.3264,
+   "lon": -77.0097,
+   "rarity": "Common",
+   "fame": 384,
+   "facts": {
+    "population": 3305,
+    "elevation_m": 262,
+    "temp_c": 22.5
+   },
+   "flavour": {
+    "text": "Gayle had a population of 3,238 as of 2009.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gayle, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Gayle%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3490368.webp"
+   }
+  },
+  {
+   "id": "gn:3490293",
+   "name": "Gordon Town",
+   "label": "Gordon Town",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 18.0358,
+   "lon": -76.7178,
+   "rarity": "Common",
+   "fame": 1572,
+   "facts": {
+    "population": 1088,
+    "elevation_m": 353,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "It has a population of 1,067 as of 2009.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gordon Town, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Gordon_Town%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3490293.webp",
+    "author": "John Cleary",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:J.W._Cleary_-_Gordon_Town,_Jamaica_3008885726.jpg"
+   }
+  },
+  {
+   "id": "gn:3488977",
+   "name": "Porus",
+   "label": "Porus",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-12",
+   "country": "JM",
+   "lat": 18.0354,
+   "lon": -77.4117,
+   "rarity": "Common",
+   "fame": 1350,
+   "facts": {
+    "population": 5923,
+    "elevation_m": 128,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "Porus is a village in Manchester, Jamaica, that overlooks a plain to the south, with hills behind it to the north.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Porus, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Porus%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3488977.webp"
+   }
+  },
+  {
+   "id": "gn:3489555",
+   "name": "Maroon Town",
+   "label": "Maroon Town",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-08",
+   "country": "JM",
+   "lat": 18.3446,
+   "lon": -77.7954,
+   "rarity": "Common",
+   "fame": 3108,
+   "facts": {
+    "population": 3085,
+    "elevation_m": 441,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It has a population of 3,122 as of 2009.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maroon Town, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Maroon_Town%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489555.webp"
+   }
+  },
+  {
+   "id": "gn:3488479",
+   "name": "Southfield",
+   "label": "Southfield",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-11",
+   "country": "JM",
+   "lat": 17.8878,
+   "lon": -77.6671,
+   "rarity": "Common",
+   "fame": 972,
+   "facts": {
+    "population": 2695,
+    "elevation_m": 582,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Southfield is a farming town on the southern ridge of the Santa Cruz Mountains in St Elizabeth, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Southfield, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Southfield%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3488479.webp"
+   }
+  },
+  {
+   "id": "gn:3491055",
+   "name": "Cascade",
+   "label": "Cascade",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.3975,
+   "lon": -78.1034,
+   "rarity": "Common",
+   "fame": 360,
+   "facts": {
+    "population": 1232,
+    "elevation_m": 329,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Reggae musician Jah Cure grew up in Cascade.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cascade, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Cascade%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3491055.webp"
+   }
+  },
+  {
+   "id": "gn:3491465",
+   "name": "Barbican",
+   "label": "Barbican",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.4504,
+   "lon": -78.1014,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10337,
+    "elevation_m": 12,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 10,337 people in Hanover.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3491465.webp"
+   }
+  },
+  {
+   "id": "gn:3490106",
+   "name": "Hayes",
+   "label": "Hayes",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-13",
+   "country": "JM",
+   "lat": 17.8757,
+   "lon": -77.2371,
+   "rarity": "Common",
+   "fame": 780,
+   "facts": {
+    "population": 9701,
+    "elevation_m": 38,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Hayes is a settlement in Jamaica covering an area of 90.7 km2 and is located in the parish of Clarendon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hayes, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Hayes%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3490106.webp"
+   }
+  },
+  {
+   "id": "gn:3489888",
+   "name": "Kellits",
+   "label": "Kellits",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-13",
+   "country": "JM",
+   "lat": 18.1728,
+   "lon": -77.2308,
+   "rarity": "Common",
+   "fame": 576,
+   "facts": {
+    "population": 2631,
+    "elevation_m": 550,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "It has a population of 2,658 as of 2009.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kellits, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Kellits%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489888.webp"
+   }
+  },
+  {
+   "id": "gn:3488834",
+   "name": "Richmond",
+   "label": "Richmond",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.2548,
+   "lon": -76.888,
+   "rarity": "Common",
+   "fame": 726,
+   "facts": {
+    "population": 2046,
+    "elevation_m": 191,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Richmond is a market town in Saint Mary parish, in the north-east of Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Richmond, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Richmond%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3488834.webp"
+   }
+  },
+  {
+   "id": "gn:3490758",
+   "name": "Darliston",
+   "label": "Darliston",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-10",
+   "country": "JM",
+   "lat": 18.2373,
+   "lon": -77.9763,
+   "rarity": "Common",
+   "fame": 852,
+   "facts": {
+    "population": 2076,
+    "elevation_m": 422,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "Darliston is a town in Westmoreland Parish in western Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Darliston",
+    "url": "https://en.wikipedia.org/wiki/Darliston",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3490758.webp"
+   }
+  },
+  {
+   "id": "gn:3491556",
+   "name": "Annotto Bay",
+   "label": "Annotto Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.2717,
+   "lon": -76.7652,
+   "rarity": "Common",
+   "fame": 2484,
+   "facts": {
+    "population": 5504,
+    "elevation_m": 5.0,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "It was once an active port on the north side.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Annotto Bay",
+    "url": "https://en.wikipedia.org/wiki/Annotto_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3491556.webp"
+   }
+  },
+  {
+   "id": "wd:Q6129978",
+   "name": "James Bond Beach",
+   "label": "James Bond Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.4061,
+   "lon": -76.9481,
+   "rarity": "Epic",
+   "fame": 10098,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "James Bond Beach sits on a small peninsula at Oracabessa Bay, approximately 10 miles or 16 kilometres from the Jamaican north coast town of Ocho Rios.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "James Bond Beach",
+    "url": "https://en.wikipedia.org/wiki/James_Bond_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6129978.webp",
+    "author": "Banjoman1",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:JamesBondBeach3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4992991",
+   "name": "Hedonism Resorts",
+   "label": "Hedonism Resorts",
+   "type": "built",
+   "kind": "building",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.338,
+   "lon": -78.3409,
+   "rarity": "Epic",
+   "fame": 35868,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 28.4
+   },
+   "flavour": {
+    "text": "Hedonism II is an adults-only vacation resort in Jamaica known for its sexually liberal culture.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hedonism Resorts",
+    "url": "https://en.wikipedia.org/wiki/Hedonism_Resorts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4992991.webp",
+    "author": "JohannVanbeek",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hedonism_II_Nude_Beach_Swinger_Social_Network.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1370745",
+   "name": "Sabina Park",
+   "label": "Sabina Park",
+   "type": "built",
+   "kind": "cricket field",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.9779,
+   "lon": -76.7826,
+   "rarity": "Epic",
+   "fame": 15234,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is the home of the Jamaica cricket team and is the only Test cricket ground in Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sabina Park",
+    "url": "https://en.wikipedia.org/wiki/Sabina_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1370745.webp",
+    "author": "Jamaica1962",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sabina_Park.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5451838",
+   "name": "Firefly Estate",
+   "label": "Firefly Estate",
+   "type": "built",
+   "kind": "historic house museum",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.3931,
+   "lon": -76.8972,
+   "rarity": "Epic",
+   "fame": 15528,
+   "facts": {
+    "elevation_m": 91,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The Firefly Estate, located 10 km east of Oracabessa, Jamaica, was the Caribbean home of Sir Noël Coward and is the site of his grave.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Firefly Estate",
+    "url": "https://en.wikipedia.org/wiki/Firefly_Estate",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5451838.webp",
+    "author": "Banjoman1",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NoelCowardFirefly.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1661072",
+   "name": "Independence Park",
+   "label": "Independence Park",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 18.0019,
+   "lon": -76.7717,
+   "rarity": "Epic",
+   "fame": 18834,
+   "facts": {
+    "elevation_m": 91,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "Independence Park is a sports and cultural complex in Kingston, Jamaica built for the 1966 British Empire and Commonwealth Games.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Independence Park (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Independence_Park_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1661072.webp"
+   }
+  },
+  {
+   "id": "wd:Q3699493",
+   "name": "Rose Hall, Montego Bay",
+   "label": "Rose Hall, Montego Bay",
+   "type": "built",
+   "kind": "built structure",
+   "region": "JM-08",
+   "country": "JM",
+   "lat": 18.5167,
+   "lon": -77.8193,
+   "rarity": "Epic",
+   "fame": 23772,
+   "facts": {
+    "elevation_m": 36,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is located in Montego Bay, Jamaica with a panoramic view of the coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rose Hall, Montego Bay",
+    "url": "https://en.wikipedia.org/wiki/Rose_Hall%2C_Montego_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3699493.webp",
+    "author": "Don Ramey Logan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rose_Hall_Jamaica_Photo_Don_Ramey_Logan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4930049",
+   "name": "Blue and John Crow Mountains National Park",
+   "label": "Blue and John Crow Mountains National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.0775,
+   "lon": -76.5711,
+   "rarity": "Epic",
+   "fame": 2886,
+   "facts": {
+    "elevation_m": 1453,
+    "area_km2": 1224,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "The park covers 495.2 km2 and accounts for 4.5% of Jamaica's land surface.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blue and John Crow Mountains National Park",
+    "url": "https://en.wikipedia.org/wiki/Blue_and_John_Crow_Mountains_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4930049.webp",
+    "author": "Wolmadrian",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Mountains,_Jamaica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q885798",
+   "name": "Blue Mountain Peak",
+   "label": "Blue Mountain Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.0467,
+   "lon": -76.5792,
+   "rarity": "Epic",
+   "fame": 11580,
+   "facts": {
+    "elevation_m": 2256,
+    "prominence_m": 2256,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "Blue Mountain Peak is Jamaica's highest mountain, rising to 2,256 metres, and is the tallest peak in the Caribbean outside of Hispaniola.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blue Mountain Peak",
+    "url": "https://en.wikipedia.org/wiki/Blue_Mountain_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q885798.webp",
+    "author": "Joerggo ( Diskussion )",
+    "licence": "Copyrighted free use",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Mountain_Peak.jpg"
+   }
+  },
+  {
+   "id": "wd:Q885808",
+   "name": "Blue Mountains",
+   "label": "Blue Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.1,
+   "lon": -76.6667,
+   "rarity": "Epic",
+   "fame": 21390,
+   "facts": {
+    "elevation_m": 2256,
+    "length_km": 39,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "The Blue Mountains are the longest mountain range in Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Blue Mountains (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Blue_Mountains_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q885808.webp",
+    "author": "Wolmadrian",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Mountains,_Jamaica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1266226",
+   "name": "Dunn's River Falls",
+   "label": "Dunn's River Falls",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "JM-06",
+   "country": "JM",
+   "lat": 18.4158,
+   "lon": -77.1381,
+   "rarity": "Epic",
+   "fame": 13956,
+   "facts": {
+    "elevation_m": 56,
+    "height_m": 55,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Dunn's River Falls is a famous waterfall near Ocho Rios, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dunn's River Falls",
+    "url": "https://en.wikipedia.org/wiki/Dunn%27s_River_Falls",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1266226.webp",
+    "author": "Breakyunit at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunns_River_Falls_climb.JPG"
+   }
+  },
+  {
+   "id": "gn:3488613",
+   "name": "Savanna-la-Mar",
+   "label": "Savanna-la-Mar",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-10",
+   "country": "JM",
+   "lat": 18.2189,
+   "lon": -78.1332,
+   "rarity": "Epic",
+   "fame": 10224,
+   "facts": {
+    "population": 16553,
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Savanna-la-Mar is the chief town and capital of Westmoreland Parish, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Savanna-la-Mar",
+    "url": "https://en.wikipedia.org/wiki/Savanna-la-Mar",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3488613.webp",
+    "author": "Gzzz",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Great_George_Street,_Savanna-la-Mar_1990_(2).jpg"
+   }
+  },
+  {
+   "id": "gn:3489577",
+   "name": "Mandeville",
+   "label": "Mandeville",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-12",
+   "country": "JM",
+   "lat": 18.0417,
+   "lon": -77.5071,
+   "rarity": "Epic",
+   "fame": 21810,
+   "facts": {
+    "population": 47115,
+    "elevation_m": 609,
+    "temp_c": 23.5
+   },
+   "flavour": {
+    "text": "Mandeville is the capital and largest town in the parish of Manchester in the county of Middlesex, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mandeville, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Mandeville%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489577.webp",
+    "author": "Op. Deo at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Mandeville-panorama.jpg"
+   }
+  },
+  {
+   "id": "gn:3489005",
+   "name": "Port Antonio",
+   "label": "Port Antonio",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.1789,
+   "lon": -76.4522,
+   "rarity": "Epic",
+   "fame": 20316,
+   "facts": {
+    "population": 14400,
+    "elevation_m": 2.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Port Antonio is the capital of the parish of Portland on the northeastern coast of Jamaica, about 100 km from Kingston.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port Antonio",
+    "url": "https://en.wikipedia.org/wiki/Port_Antonio",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489005.webp",
+    "author": "Chaoleonard",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_antonio2.JPG"
+   }
+  },
+  {
+   "id": "gn:3490520",
+   "name": "Falmouth",
+   "label": "Falmouth",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-07",
+   "country": "JM",
+   "lat": 18.4936,
+   "lon": -77.6559,
+   "rarity": "Epic",
+   "fame": 16308,
+   "facts": {
+    "population": 7779,
+    "elevation_m": 5.0,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Falmouth is the chief town and capital of the parish of Trelawny in Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Falmouth, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Falmouth%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3490520.webp",
+    "author": "Derek Hatfield from Peterborough, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Falmouth_(6213610441).jpg"
+   }
+  },
+  {
+   "id": "gn:3488980",
+   "name": "Port Royal",
+   "label": "Port Royal",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.9374,
+   "lon": -76.8406,
+   "rarity": "Epic",
+   "fame": 188964,
+   "facts": {
+    "population": 3327,
+    "elevation_m": 4.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Port Royal is a small town located at the end of the Palisadoes, at the mouth of Kingston Harbour, in southeastern Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port Royal",
+    "url": "https://en.wikipedia.org/wiki/Port_Royal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3488980.webp",
+    "author": "Raychristofer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Port_Royal_Jamaica.JPG"
+   }
+  },
+  {
+   "id": "gn:3489440",
+   "name": "Morant Bay",
+   "label": "Morant Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-03",
+   "country": "JM",
+   "lat": 17.8815,
+   "lon": -76.4093,
+   "rarity": "Epic",
+   "fame": 5610,
+   "facts": {
+    "population": 9368,
+    "elevation_m": 22,
+    "temp_c": 24.7
+   },
+   "flavour": {
+    "text": "Morant Bay is a town in southeastern Jamaica and the capital of the parish of St. Thomas, located about 40 kilometres east of Kingston, the capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Morant Bay",
+    "url": "https://en.wikipedia.org/wiki/Morant_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489440.webp"
+   }
+  },
+  {
+   "id": "gn:3488465",
+   "name": "Spanish Town",
+   "label": "Spanish Town",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.9911,
+   "lon": -76.9574,
+   "rarity": "Epic",
+   "fame": 59610,
+   "facts": {
+    "population": 145018,
+    "elevation_m": 31,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Spanish Town is the capital and the largest town in the parish of St. Catherine in the historic county of Middlesex, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Spanish Town",
+    "url": "https://en.wikipedia.org/wiki/Spanish_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3488465.webp",
+    "author": "Photo by Not home ( talk ); Not home at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St.-Jago-de-la-Vega.JPG"
+   }
+  },
+  {
+   "id": "gn:3489657",
+   "name": "Lucea",
+   "label": "Lucea",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-09",
+   "country": "JM",
+   "lat": 18.4509,
+   "lon": -78.1736,
+   "rarity": "Epic",
+   "fame": 6060,
+   "facts": {
+    "population": 7377,
+    "elevation_m": 12,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Lucea is a coastal town in Jamaica and the capital of the parish of Hanover.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lucea, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Lucea%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489657.webp",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:%22Lucea_and_Dolphin_Head,_Jamaica%22,_early_20th_century_(imp-cswc-GB-237-CSWC47-LS12-020).jpg"
+   }
+  },
+  {
+   "id": "gn:3489523",
+   "name": "May Pen",
+   "label": "May Pen",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-13",
+   "country": "JM",
+   "lat": 17.9645,
+   "lon": -77.2451,
+   "rarity": "Epic",
+   "fame": 9108,
+   "facts": {
+    "population": 44755,
+    "elevation_m": 81,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "May Pen is the capital and largest town in the parish of Clarendon in Middlesex County, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "May Pen",
+    "url": "https://en.wikipedia.org/wiki/May_Pen",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489523.webp"
+   }
+  },
+  {
+   "id": "gn:3488985",
+   "name": "Port Maria",
+   "label": "Port Maria",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.3685,
+   "lon": -76.8895,
+   "rarity": "Epic",
+   "fame": 3822,
+   "facts": {
+    "population": 7906,
+    "elevation_m": 2.0,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Port Maria is the capital town of the Jamaican parish of Saint Mary.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Port Maria",
+    "url": "https://en.wikipedia.org/wiki/Port_Maria",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3488985.webp",
+    "author": "De Geo",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Street_Port_Maria_Jamaica_1988.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3773063",
+   "name": "Goldeneye",
+   "label": "Goldeneye",
+   "type": "built",
+   "kind": "historic house",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.4108,
+   "lon": -76.9436,
+   "rarity": "Legendary",
+   "fame": 98298,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Goldeneye is the original name of novelist Ian Fleming's estate on Oracabessa Bay on the northern coastline of Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Goldeneye (estate)",
+    "url": "https://en.wikipedia.org/wiki/Goldeneye_%28estate%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3773063.webp",
+    "author": "Banjoman1",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GoldeneyeEstate.jpg"
+   }
+  },
+  {
+   "id": "gn:3489854",
+   "name": "Kingston",
+   "label": "Kingston",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.997,
+   "lon": -76.7936,
+   "rarity": "Legendary",
+   "fame": 256356,
+   "facts": {
+    "population": 937700,
+    "elevation_m": 65,
+    "area_km2": 22,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Kingston is the capital and largest city of Jamaica, located on the southeastern coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kingston, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Kingston%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489854.webp"
+   }
+  },
+  {
+   "id": "wd:Q7459956",
+   "name": "Shaare Shalom Synagogue",
+   "label": "Shaare Shalom Synagogue",
+   "type": "built",
+   "kind": "synagogue",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.9751,
+   "lon": -76.7901,
+   "rarity": "Rare",
+   "fame": 2088,
+   "facts": {
+    "elevation_m": 23,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "The Sha'are Shalom Synagogue, officially the Kahal Kadosh Sha'are Shalom, also known as the United Congregation of Israelites.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sha'are Shalom Synagogue",
+    "url": "https://en.wikipedia.org/wiki/Sha%27are_Shalom_Synagogue",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7459956.webp"
+   }
+  },
+  {
+   "id": "wd:Q48784815",
+   "name": "Sevilla la Nueva",
+   "label": "Sevilla la Nueva",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "JM-06",
+   "country": "JM",
+   "lat": 18.438,
+   "lon": -77.214,
+   "rarity": "Rare",
+   "fame": 2886,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "Sevilla la Nueva or New Seville was the first permanent European settlement in Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sevilla la Nueva (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Sevilla_la_Nueva_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q48784815.webp"
+   }
+  },
+  {
+   "id": "wd:Q21057426",
+   "name": "Holy Trinity Cathedral",
+   "label": "Holy Trinity Cathedral",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.9754,
+   "lon": -76.7848,
+   "rarity": "Rare",
+   "fame": 2346,
+   "facts": {
+    "elevation_m": 24,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is located between North Street and George Headley Drive.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holy Trinity Cathedral (Kingston)",
+    "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral_%28Kingston%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21057426.webp"
+   }
+  },
+  {
+   "id": "wd:Q3557089",
+   "name": "Harbour View Stadium",
+   "label": "Harbour View Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 17.9564,
+   "lon": -76.7172,
+   "rarity": "Rare",
+   "fame": 1542,
+   "facts": {
+    "elevation_m": 26,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It was built by Carvel Stewart and Harbour View Football Club in the 1990s, as a part of the club's effort to transform into a truly professional organization.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Harbour View Stadium",
+    "url": "https://en.wikipedia.org/wiki/Harbour_View_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3557089.webp"
+   }
+  },
+  {
+   "id": "wd:Q7205390",
+   "name": "Plumb Point Lighthouse",
+   "label": "Plumb Point Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 17.9287,
+   "lon": -76.7782,
+   "rarity": "Rare",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 2.0,
+    "height_m": 21,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Plumb Point Lighthouse is an active 19th century heritage lighthouse, located on the Palisadoes a narrow peninsular that connects Port Royal to the mainland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plumb Point Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Plumb_Point_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7205390.webp",
+    "author": "Plumb_Point_Lighthouse_from_the_Northeast.jpg : Chris Davis derivative work: -Arb. ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pumb_Point_Lighthouse_from_NE_closeup.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15223847",
+   "name": "Hibbert House",
+   "label": "Hibbert House",
+   "type": "built",
+   "kind": "house",
+   "region": "JM-01",
+   "country": "JM",
+   "lat": 17.9736,
+   "lon": -76.7907,
+   "rarity": "Rare",
+   "fame": 1128,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Hibbert House, also known as Headquarters House, is the head office of the Jamaica National Heritage Trust.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hibbert House",
+    "url": "https://en.wikipedia.org/wiki/Hibbert_House",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15223847.webp",
+    "author": "Dan Livesay",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Hibbert_House_02.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5055390",
+   "name": "Caymanas Park",
+   "label": "Caymanas Park",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.9897,
+   "lon": -76.8751,
+   "rarity": "Rare",
+   "fame": 2058,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Caymanas Park is Jamaica's only race track.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Caymanas Park",
+    "url": "https://en.wikipedia.org/wiki/Caymanas_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5055390.webp",
+    "author": "Gwyneth Davidson",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:AtTheTrackMarbleRace.jpg"
+   }
+  },
+  {
+   "id": "wd:Q108607397",
+   "name": "Mahdi Mosque",
+   "label": "Mahdi Mosque",
+   "type": "built",
+   "kind": "mosque",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.946,
+   "lon": -77.0767,
+   "rarity": "Rare",
+   "fame": 756,
+   "facts": {
+    "elevation_m": 23,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The Mahdi Mosque is an Ahmadiyya mosque in Old Harbour, Saint Catherine Parish, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mahdi Mosque, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Mahdi_Mosque%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q108607397.webp",
+    "author": "alislam.org",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Masjid_Mahdi,_Jamaica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6672249",
+   "name": "Long Bay Beach",
+   "label": "Long Bay Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "JM-12",
+   "country": "JM",
+   "lat": 17.8539,
+   "lon": -77.4414,
+   "rarity": "Rare",
+   "fame": 678,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.4
+   },
+   "flavour": {
+    "text": "Long Bay Beach is the site of the Annual Long Bay Gala, held on Independence Day August 6th each year.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Long Bay Beach",
+    "url": "https://en.wikipedia.org/wiki/Long_Bay_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6672249.webp"
+   }
+  },
+  {
+   "id": "wd:Q5518668",
+   "name": "Galina Lighthouse",
+   "label": "Galina Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.4101,
+   "lon": -76.8925,
+   "rarity": "Rare",
+   "fame": 336,
+   "facts": {
+    "elevation_m": 0.0,
+    "height_m": 13,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A solar-powered lens is mounted on a small platform at the top.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Galina Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Galina_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5518668.webp"
+   }
+  },
+  {
+   "id": "wd:Q3556881",
+   "name": "Reggae Beach",
+   "label": "Reggae Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.4215,
+   "lon": -77.0441,
+   "rarity": "Rare",
+   "fame": 1668,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Reggae Beach was a 250-acre property which was located in Jamaica, midway between Ocho Rios and Oracabessa.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Reggae Beach",
+    "url": "https://en.wikipedia.org/wiki/Reggae_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3556881.webp",
+    "author": "38chad",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reggae_beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6673007",
+   "name": "Long Mile Cave",
+   "label": "Long Mile Cave",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "JM-07",
+   "country": "JM",
+   "lat": 18.3768,
+   "lon": -77.6441,
+   "rarity": "Rare",
+   "fame": 534,
+   "facts": {
+    "elevation_m": 129,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Long Mile Cave, sometimes known locally as Pick'ny Mama Cave or Hell's Gate Cave.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Long Mile Cave",
+    "url": "https://en.wikipedia.org/wiki/Long_Mile_Cave",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6673007.webp"
+   }
+  },
+  {
+   "id": "wd:Q2154401",
+   "name": "Rio Minho",
+   "label": "Rio Minho",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-13",
+   "country": "JM",
+   "lat": 17.7787,
+   "lon": -77.2869,
+   "rarity": "Rare",
+   "fame": 3072,
+   "facts": {
+    "elevation_m": 1.0,
+    "length_km": 92,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Rio Minho is the longest river in Jamaica at 92.8 kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rio Minho",
+    "url": "https://en.wikipedia.org/wiki/Rio_Minho",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2154401.webp"
+   }
+  },
+  {
+   "id": "wd:Q5599255",
+   "name": "Great Goat Island",
+   "label": "Great Goat Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.8667,
+   "lon": -77.05,
+   "rarity": "Rare",
+   "fame": 2460,
+   "facts": {
+    "elevation_m": 89,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Along with Little Goat Island located northwest of it, these two cays make up the Goat Islands, which are within the Portland Bight Protected Area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Goat Island",
+    "url": "https://en.wikipedia.org/wiki/Great_Goat_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5599255.webp"
+   }
+  },
+  {
+   "id": "wd:Q6227775",
+   "name": "John Crow Mountains",
+   "label": "John Crow Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.0535,
+   "lon": -76.3546,
+   "rarity": "Rare",
+   "fame": 2130,
+   "facts": {
+    "elevation_m": 1143,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "The John Crow Mountains are a range of mountains in eastern Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "John Crow Mountains",
+    "url": "https://en.wikipedia.org/wiki/John_Crow_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6227775.webp",
+    "author": "Wolmadrian",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Mountains,_Jamaica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6774348",
+   "name": "Martha Brae River",
+   "label": "Martha Brae River",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-07",
+   "country": "JM",
+   "lat": 18.4833,
+   "lon": -77.6333,
+   "rarity": "Rare",
+   "fame": 1902,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "It is located in Trelawny on the north coast of Jamaica, towards the western edge, about 10 kilometres south of Falmouth which is in Trelawny Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Martha Brae River",
+    "url": "https://en.wikipedia.org/wiki/Martha_Brae_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6774348.webp"
+   }
+  },
+  {
+   "id": "wd:Q3241039",
+   "name": "Lime Cay",
+   "label": "Lime Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 17.9184,
+   "lon": -76.82,
+   "rarity": "Rare",
+   "fame": 2010,
+   "facts": {
+    "elevation_m": 13,
+    "area_km2": 0.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Lime Cay is the main islet off the shore of Port Royal Cays, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lime Cay",
+    "url": "https://en.wikipedia.org/wiki/Lime_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3241039.webp"
+   }
+  },
+  {
+   "id": "wd:Q6982640",
+   "name": "Navy Island, Jamaica",
+   "label": "Navy Island, Jamaica",
+   "type": "nature",
+   "kind": "island",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.1876,
+   "lon": -76.4533,
+   "rarity": "Rare",
+   "fame": 2484,
+   "facts": {
+    "elevation_m": 18,
+    "area_km2": 0.3,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "Navy Island is a small uninhabited island off the coast of Port Antonio in Portland Parish, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Navy Island, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Navy_Island%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6982640.webp"
+   }
+  },
+  {
+   "id": "wd:Q15257999",
+   "name": "Juan de Bolas Mountain",
+   "label": "Juan de Bolas Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 18.0706,
+   "lon": -77.1268,
+   "rarity": "Rare",
+   "fame": 1158,
+   "facts": {
+    "elevation_m": 836,
+    "temp_c": 23.8
+   },
+   "flavour": {
+    "text": "Juan de Bolas Mountain in Saint Catherine, Jamaica is named after Juan de Bolas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juan de Bolas Mountain",
+    "url": "https://en.wikipedia.org/wiki/Juan_de_Bolas_Mountain",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15257999.webp"
+   }
+  },
+  {
+   "id": "wd:Q880496",
+   "name": "Black River",
+   "label": "Black River (river)",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-11",
+   "country": "JM",
+   "lat": 18.0217,
+   "lon": -77.8469,
+   "rarity": "Rare",
+   "fame": 3066,
+   "facts": {
+    "elevation_m": 3.0,
+    "length_km": 53,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The Black River is one of the longest rivers in Jamaica, at a length of 53.4 km.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Black River (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Black_River_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q880496.webp",
+    "author": "Johannes49 at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wildlife_on_Black_River,_Jamaica.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2154356",
+   "name": "Rio Cobre",
+   "label": "Rio Cobre",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.984,
+   "lon": -76.8597,
+   "rarity": "Rare",
+   "fame": 2340,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 51,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Its source is in the Rose Hall Mountain in the north-east of Saint Catherine Parish, the headwaters being a writhing of unnamed, seasonally dry tributaries.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rio Cobre",
+    "url": "https://en.wikipedia.org/wiki/Rio_Cobre",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2154356.webp"
+   }
+  },
+  {
+   "id": "wd:Q7335204",
+   "name": "Rio Grande",
+   "label": "Rio Grande",
+   "type": "nature",
+   "kind": "river",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.2,
+   "lon": -76.5167,
+   "rarity": "Rare",
+   "fame": 1620,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "One of the largest rivers in Jamaica, it was named \"Big River\" by the Spanish, who controlled Jamaica in the 15th and 16th centuries.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rio Grande (Jamaica)",
+    "url": "https://en.wikipedia.org/wiki/Rio_Grande_%28Jamaica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7335204.webp",
+    "author": "Michael L. Dorn",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Farming_on_the_slopes_of_the_John_Crow.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5391040",
+   "name": "Sandals Cay",
+   "label": "Sandals Cay",
+   "type": "nature",
+   "kind": "island",
+   "region": "JM-08",
+   "country": "JM",
+   "lat": 18.5218,
+   "lon": -77.8819,
+   "rarity": "Rare",
+   "fame": 3084,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Sandals Cay is part of the privately owned Sandals Royal Caribbean all-inclusive resort in Montego Bay, Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sandals Cay",
+    "url": "https://en.wikipedia.org/wiki/Sandals_Cay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5391040.webp"
+   }
+  },
+  {
+   "id": "wd:Q6650171",
+   "name": "Little Goat Island",
+   "label": "Little Goat Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "JM-13",
+   "country": "JM",
+   "lat": 17.53,
+   "lon": -77.04,
+   "rarity": "Rare",
+   "fame": 1272,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Little Goat Island along with Great Goat Island are the cays that make up the Goat Islands, located less than a mile off the coast of Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Goat Island",
+    "url": "https://en.wikipedia.org/wiki/Little_Goat_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6650171.webp"
+   }
+  },
+  {
+   "id": "gn:3489239",
+   "name": "Ocho Rios",
+   "label": "Ocho Rios",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-06",
+   "country": "JM",
+   "lat": 18.4076,
+   "lon": -77.1031,
+   "rarity": "Rare",
+   "fame": 41892,
+   "facts": {
+    "population": 26503,
+    "elevation_m": 6.0,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Ocho Rios is a town in the parish of Saint Ann on the north coast of Jamaica, and is more widely referred to as Ochi by locals.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ocho Rios",
+    "url": "https://en.wikipedia.org/wiki/Ocho_Rios",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489239.webp",
+    "author": "Standish77 at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ochi.jpg"
+   }
+  },
+  {
+   "id": "gn:3488981",
+   "name": "Portmore",
+   "label": "Portmore",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.971,
+   "lon": -76.8869,
+   "rarity": "Rare",
+   "fame": 9804,
+   "facts": {
+    "population": 102861,
+    "elevation_m": 7.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "It primarily serves as a commuter town for the capital city of Kingston.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Portmore, Saint Catherine",
+    "url": "https://en.wikipedia.org/wiki/Portmore%2C_Saint_Catherine",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3488981.webp",
+    "author": "Raw9345",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:AscotHighlawn.JPG"
+   }
+  },
+  {
+   "id": "gn:3489445",
+   "name": "Moore Town",
+   "label": "Moore Town",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.0777,
+   "lon": -76.4258,
+   "rarity": "Rare",
+   "fame": 4530,
+   "facts": {
+    "population": 1119,
+    "elevation_m": 113,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "Moore Town is a Maroon settlement located in the Blue Mountains and John Crow Mountains of Portland, Jamaica, accessible by road from Port Antonio.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moore Town, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Moore_Town%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489445.webp",
+    "author": "Diego Tirira from Quito, Ecuador",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:JM_Moore_Town_1010_(6)_(17070794889).jpg"
+   }
+  },
+  {
+   "id": "gn:3489760",
+   "name": "Linstead",
+   "label": "Linstead",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 18.1368,
+   "lon": -77.0317,
+   "rarity": "Rare",
+   "fame": 3756,
+   "facts": {
+    "population": 20660,
+    "elevation_m": 119,
+    "temp_c": 23.8
+   },
+   "flavour": {
+    "text": "It is located 12 miles NNW of Spanish Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Linstead",
+    "url": "https://en.wikipedia.org/wiki/Linstead",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489760.webp"
+   }
+  },
+  {
+   "id": "gn:3487943",
+   "name": "Sherwood Content",
+   "label": "Sherwood Content",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-07",
+   "country": "JM",
+   "lat": 18.3912,
+   "lon": -77.6283,
+   "rarity": "Rare",
+   "fame": 13152,
+   "facts": {
+    "population": 1499,
+    "elevation_m": 208,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "It consists of two adjoining villages, Sherwood and Content.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sherwood Content",
+    "url": "https://en.wikipedia.org/wiki/Sherwood_Content",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3487943.webp"
+   }
+  },
+  {
+   "id": "gn:3488726",
+   "name": "Runaway Bay",
+   "label": "Runaway Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-06",
+   "country": "JM",
+   "lat": 18.4596,
+   "lon": -77.3357,
+   "rarity": "Rare",
+   "fame": 6192,
+   "facts": {
+    "population": 12358,
+    "elevation_m": 13,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Runaway Bay is a town in Saint Ann Parish on the northern coast of Jamaica and is considered one of the most naturally beautiful places on the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Runaway Bay, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Runaway_Bay%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3488726.webp"
+   }
+  },
+  {
+   "id": "gn:3489331",
+   "name": "Negril",
+   "label": "Negril",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-10",
+   "country": "JM",
+   "lat": 18.2684,
+   "lon": -78.3481,
+   "rarity": "Rare",
+   "fame": 22950,
+   "facts": {
+    "population": 13779,
+    "elevation_m": 73,
+    "temp_c": 28.4
+   },
+   "flavour": {
+    "text": "Negril is a small, widely dispersed beach resort and town located in Westmoreland and Hanover parishes at the far western part of Jamaica.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Negril",
+    "url": "https://en.wikipedia.org/wiki/Negril",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489331.webp",
+    "author": "wardyboy400",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Local_town_(8489041759).jpg"
+   }
+  },
+  {
+   "id": "gn:3489200",
+   "name": "Oracabessa",
+   "label": "Oracabessa",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-05",
+   "country": "JM",
+   "lat": 18.4032,
+   "lon": -76.9464,
+   "rarity": "Rare",
+   "fame": 12378,
+   "facts": {
+    "population": 4100,
+    "elevation_m": 42,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "The main street is a narrow promenade with a number of well-maintained buildings in the early 20th-century Jamaican vernacular tradition.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oracabessa",
+    "url": "https://en.wikipedia.org/wiki/Oracabessa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3489200.webp",
+    "author": "Banjoman1",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GoldeneyeEstate.jpg"
+   }
+  },
+  {
+   "id": "gn:3490716",
+   "name": "Discovery Bay",
+   "label": "Discovery Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-06",
+   "country": "JM",
+   "lat": 18.4587,
+   "lon": -77.4,
+   "rarity": "Rare",
+   "fame": 4644,
+   "facts": {
+    "population": 8257,
+    "elevation_m": 29,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "The city is also known locally as Dry Harbour, and gives its name to the Dry Harbour Mountains in St. Ann.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Discovery Bay, Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Discovery_Bay%2C_Jamaica",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3490716.webp",
+    "author": "CaptJayRuffins",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ColumbusParkHighwayMarke20231003_124700.jpg"
+   }
+  },
+  {
+   "id": "wd:Q108414913",
+   "name": "Orange Bay",
+   "label": "Orange Bay (near Buff Bay)",
+   "type": "nature",
+   "kind": "bay",
+   "region": "JM-04",
+   "country": "JM",
+   "lat": 18.2267,
+   "lon": -76.6111,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The name is shared by a small village on the shore of the bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Orange Bay (Portland Parish)",
+    "url": "https://en.wikipedia.org/wiki/Orange_Bay_%28Portland_Parish%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q108414913.webp"
+   }
+  },
+  {
+   "id": "gn:3489225",
+   "name": "Old Harbour Bay",
+   "label": "Old Harbour Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-14",
+   "country": "JM",
+   "lat": 17.9092,
+   "lon": -77.0972,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 7912,
+    "elevation_m": 5.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 7,912 people in Saint Catherine.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3489225.webp"
+   }
+  },
+  {
+   "id": "gn:3490273",
+   "name": "Grange Hill",
+   "label": "Grange Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-10",
+   "country": "JM",
+   "lat": 18.3106,
+   "lon": -78.1843,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10429,
+    "elevation_m": 23,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "A community of 10,429 people in Westmoreland.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3490273.webp"
+   }
+  },
+  {
+   "id": "gn:3488236",
+   "name": "Tower Hill",
+   "label": "Tower Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-02",
+   "country": "JM",
+   "lat": 18.0128,
+   "lon": -76.651,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 12184,
+    "elevation_m": 924,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "A community of 12,184 people in Saint Andrew.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3488236.webp"
+   }
+  },
+  {
+   "id": "gn:10400280",
+   "name": "Barrett Town",
+   "label": "Barrett Town",
+   "type": "town",
+   "kind": "town",
+   "region": "JM-08",
+   "country": "JM",
+   "lat": 18.5149,
+   "lon": -77.8018,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 17169,
+    "elevation_m": 53,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A community of 17,169 people in Saint James.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_10400280.webp"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1465 @@
+{
+ "note": "Sample of the Barbados card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5474139",
+   "name": "Foul Bay",
+   "label": "Foul Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-10",
+   "country": "BB",
+   "lat": 13.1,
+   "lon": -59.45,
+   "rarity": "Common",
+   "fame": 612,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Foul Bay refers to a bay, beach, and village in Saint Philip Parish, alongside the southeast coast of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Foul Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Foul_Bay%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5474139.webp",
+    "author": "The National Archives UK",
+    "licence": "No restrictions",
+    "licence_url": "https://www.flickr.com/commons/usage/",
+    "page": "https://commons.wikimedia.org/wiki/File:Barbados_Flip_(3079693839).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5503103",
+   "name": "Freshwater Bay, Barbados",
+   "label": "Freshwater Bay, Barbados",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.1333,
+   "lon": -59.6167,
+   "rarity": "Common",
+   "fame": 198,
+   "facts": {
+    "elevation_m": 81,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Freshwater Bay is located between Paynes Bay and Carlisle Bay in Bridgetown, in the southwest of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Freshwater Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Freshwater_Bay%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5503103.webp"
+   }
+  },
+  {
+   "id": "wd:Q5054886",
+   "name": "Cave Bay",
+   "label": "Cave Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-10",
+   "country": "BB",
+   "lat": 13.1167,
+   "lon": -59.4167,
+   "rarity": "Common",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Cave Bay is located on the southeast coast of Barbados, between Long Bay and Bottom Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cave Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Cave_Bay%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5054886.webp",
+    "author": "Johnmartindavies",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Small_beach_next_to_Sharks_hole.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6214218",
+   "name": "Joes River (Barbabos)",
+   "label": "Joes River (Barbabos)",
+   "type": "nature",
+   "kind": "river",
+   "region": "BB-06",
+   "country": "BB",
+   "lat": 13.2173,
+   "lon": -59.5271,
+   "rarity": "Common",
+   "fame": 258,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Joes River is a river of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Joes River",
+    "url": "https://en.wikipedia.org/wiki/Joes_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6214218.webp"
+   }
+  },
+  {
+   "id": "wd:Q4978383",
+   "name": "Bruce Vale River",
+   "label": "Bruce Vale River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BB-02",
+   "country": "BB",
+   "lat": 13.25,
+   "lon": -59.55,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Bruce Vale River is a river of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bruce Vale River",
+    "url": "https://en.wikipedia.org/wiki/Bruce_Vale_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4978383.webp"
+   }
+  },
+  {
+   "id": "wd:Q8030833",
+   "name": "Women's Bay",
+   "label": "Women's Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0478,
+   "lon": -59.515,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Woman's Bay, also known as Women's Bay and Silver Sands, is located in Christ Church Parish in the south of the island of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Woman's Bay",
+    "url": "https://en.wikipedia.org/wiki/Woman%27s_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q8030833.webp"
+   }
+  },
+  {
+   "id": "wd:Q6672244",
+   "name": "Long Bay",
+   "label": "Long Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0667,
+   "lon": -59.4833,
+   "rarity": "Common",
+   "fame": 246,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Long Bay is located on the southeast coast of Barbados, between Crane Bay and Cave Bay.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Long Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Long_Bay%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6672244.webp"
+   }
+  },
+  {
+   "id": "wd:Q7081546",
+   "name": "Oistins Bay",
+   "label": "Oistins Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.05,
+   "lon": -59.55,
+   "rarity": "Common",
+   "fame": 432,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Oistins Bay is a hamlet located southeast of Carlisle Bay, close to the southernmost point of Barbados, South Point.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oistins Bay",
+    "url": "https://en.wikipedia.org/wiki/Oistins_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7081546.webp"
+   }
+  },
+  {
+   "id": "wd:Q5163170",
+   "name": "Conset Bay",
+   "label": "Conset Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-10",
+   "country": "BB",
+   "lat": 13.1833,
+   "lon": -59.4667,
+   "rarity": "Common",
+   "fame": 312,
+   "facts": {
+    "elevation_m": 29,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Near the community of St. Marks, it lies off the southeastern shoreline of the Parish of St. John.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Conset Bay",
+    "url": "https://en.wikipedia.org/wiki/Conset_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5163170.webp",
+    "author": "Johnmartindavies",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Conset_Bay_the_Boat_Yard.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6021421",
+   "name": "Indian River",
+   "label": "Indian River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.1,
+   "lon": -59.6167,
+   "rarity": "Common",
+   "fame": 282,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It was located in the Spring Garden area, in the parish of St. Michael.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Indian River (Barbados)",
+    "url": "https://en.wikipedia.org/wiki/Indian_River_%28Barbados%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6021421.webp"
+   }
+  },
+  {
+   "id": "wd:Q5068861",
+   "name": "Chalky Mount",
+   "label": "Chalky Mount",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BB-06",
+   "country": "BB",
+   "lat": 13.2175,
+   "lon": -59.5508,
+   "rarity": "Common",
+   "fame": 612,
+   "facts": {
+    "elevation_m": 220,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Chalky Mount is a rugged picturesque range of hills in Saint Andrew, Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chalky Mount",
+    "url": "https://en.wikipedia.org/wiki/Chalky_Mount",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5068861.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bathsheba,_Barbados_08.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4949108",
+   "name": "Bottom Bay",
+   "label": "Bottom Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-10",
+   "country": "BB",
+   "lat": 13.1364,
+   "lon": -59.4247,
+   "rarity": "Common",
+   "fame": 666,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Bottom Bay is a bay located in Saint Philip, Barbados, with Palmetto Bay to the north, and Cave Bay, Crane Beach and Sam Lord's Castle to the south.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bottom Bay",
+    "url": "https://en.wikipedia.org/wiki/Bottom_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4949108.webp",
+    "author": "gemteck1 from Seattle, Washington, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bottom_Bay_(375362563).jpg"
+   }
+  },
+  {
+   "id": "gn:3373419",
+   "name": "White Hill",
+   "label": "White Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-06",
+   "country": "BB",
+   "lat": 13.2137,
+   "lon": -59.5811,
+   "rarity": "Common",
+   "fame": 48,
+   "facts": {
+    "population": 5139,
+    "elevation_m": 266,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "St. Andrew is one of eleven parishes of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "White Hill, Barbados",
+    "url": "https://en.wikipedia.org/wiki/White_Hill%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3373419.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Andrew,_Barbados_011.jpg"
+   }
+  },
+  {
+   "id": "gn:3373515",
+   "name": "Six Cross Roads",
+   "label": "Six Cross Roads",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.1177,
+   "lon": -59.477,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1005,
+    "elevation_m": 34,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "A community of 1,005 people in Christ Church.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3373515.webp"
+   }
+  },
+  {
+   "id": "gn:3373805",
+   "name": "Hastings",
+   "label": "Hastings",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0751,
+   "lon": -59.5969,
+   "rarity": "Common",
+   "fame": 1302,
+   "facts": {
+    "population": 1500,
+    "elevation_m": 9.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Hastings is a small village and beach resort in the parish of Christ Church, Barbados on the island's south-western coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hastings, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Hastings%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3373805.webp",
+    "author": "BathyMetrix",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Hastings_Beach_-Feb.2026.jpg"
+   }
+  },
+  {
+   "id": "gn:3373689",
+   "name": "Mile and a Quarter",
+   "label": "Mile and a Quarter",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-09",
+   "country": "BB",
+   "lat": 13.266,
+   "lon": -59.6221,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1382,
+    "elevation_m": 85,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 1,382 people in Saint Peter.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3373689.webp"
+   }
+  },
+  {
+   "id": "wd:Q1067956",
+   "name": "Chase Vault",
+   "label": "Chase Vault",
+   "type": "built",
+   "kind": "burial vault",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0653,
+   "lon": -59.5382,
+   "rarity": "Epic",
+   "fame": 14814,
+   "facts": {
+    "elevation_m": 26,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Chase Vault is a burial vault in the cemetery of the Christ Church Parish Church in Oistins, Christ Church, Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chase Vault",
+    "url": "https://en.wikipedia.org/wiki/Chase_Vault",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1067956.webp",
+    "author": "BathyMetrix",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Chase_Vault_-Barbados_-2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2975704",
+   "name": "Nidhe Israel Synagogue",
+   "label": "Nidhe Israel Synagogue",
+   "type": "built",
+   "kind": "synagogue",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0994,
+   "lon": -59.6152,
+   "rarity": "Epic",
+   "fame": 4374,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Nidḥe Israel Synagogue is a Conservative Jewish congregation and synagogue, located on Synagogue Lane in Bridgetown, Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nidhe Israel Synagogue",
+    "url": "https://en.wikipedia.org/wiki/Nidhe_Israel_Synagogue",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2975704.webp",
+    "author": "NYC2TLV",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nidhe_Israel_Synagogue.JPG"
+   }
+  },
+  {
+   "id": "wd:Q167042",
+   "name": "Kensington Oval",
+   "label": "Kensington Oval",
+   "type": "built",
+   "kind": "stadium",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.105,
+   "lon": -59.6225,
+   "rarity": "Epic",
+   "fame": 27420,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is the pre-eminent sporting facility on the island and is primarily used for cricket.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kensington Oval",
+    "url": "https://en.wikipedia.org/wiki/Kensington_Oval",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q167042.webp",
+    "author": "subzi73",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kensington_Oval_yes.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17104883",
+   "name": "St. Nicholas Abbey",
+   "label": "St. Nicholas Abbey",
+   "type": "built",
+   "kind": "distillery",
+   "region": "BB-02",
+   "country": "BB",
+   "lat": 13.2775,
+   "lon": -59.592,
+   "rarity": "Epic",
+   "fame": 8370,
+   "facts": {
+    "elevation_m": 189,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Colonel Benjamin Berringer built the house in 1658.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St Nicholas Abbey",
+    "url": "https://en.wikipedia.org/wiki/St_Nicholas_Abbey",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17104883.webp",
+    "author": "Pontificalibus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:StNicholasAbbey.jpg"
+   }
+  },
+  {
+   "id": "wd:Q12058894",
+   "name": "State House, Barbados",
+   "label": "State House, Barbados",
+   "type": "built",
+   "kind": "city hall",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.1012,
+   "lon": -59.5996,
+   "rarity": "Epic",
+   "fame": 3936,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The State House is the official residence and office of the president of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "State House, Barbados",
+    "url": "https://en.wikipedia.org/wiki/State_House%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q12058894.webp",
+    "author": "CaribDigita",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Government_House,_Government_Hill,_Barbados-001.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7270058",
+   "name": "Queen's Park, Bridgetown",
+   "label": "Queen's Park, Bridgetown",
+   "type": "nature",
+   "kind": "national park",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0983,
+   "lon": -59.6091,
+   "rarity": "Epic",
+   "fame": 498,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The park was the former home of the Commander of the British Troops stationed in Barbados for the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Queen's Park, Bridgetown (Barbados)",
+    "url": "https://en.wikipedia.org/wiki/Queen%27s_Park%2C_Bridgetown_%28Barbados%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7270058.webp",
+    "author": "LittleT889",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen%27s_Park,_Bridgetown_(Barbados).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1854502",
+   "name": "Mount Hillaby",
+   "label": "Mount Hillaby",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "BB-11",
+   "country": "BB",
+   "lat": 13.2111,
+   "lon": -59.5833,
+   "rarity": "Epic",
+   "fame": 5934,
+   "facts": {
+    "elevation_m": 340,
+    "prominence_m": 340,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The peak of Mount Hillaby is the highest point on the Eastern Caribbean island of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Hillaby",
+    "url": "https://en.wikipedia.org/wiki/Mount_Hillaby",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1854502.webp"
+   }
+  },
+  {
+   "id": "gn:3373831",
+   "name": "Greenland",
+   "label": "Greenland",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-06",
+   "country": "BB",
+   "lat": 13.2581,
+   "lon": -59.5776,
+   "rarity": "Epic",
+   "fame": 420,
+   "facts": {
+    "population": 623,
+    "elevation_m": 32,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Greenland is a village in the parish of Saint Andrew in Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Greenland, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Greenland%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3373831.webp"
+   }
+  },
+  {
+   "id": "gn:3373477",
+   "name": "Crane",
+   "label": "Crane",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-10",
+   "country": "BB",
+   "lat": 13.1049,
+   "lon": -59.4486,
+   "rarity": "Epic",
+   "fame": 966,
+   "facts": {
+    "population": 935,
+    "elevation_m": 24,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Opened in 1887, it is reportedly the oldest continuously operating resort in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "The Crane, Barbados",
+    "url": "https://en.wikipedia.org/wiki/The_Crane%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3373477.webp",
+    "author": "Johnmartindavies",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Foul_Bay_Beach_from_South_West.JPG"
+   }
+  },
+  {
+   "id": "gn:3373652",
+   "name": "Oistins",
+   "label": "Oistins",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0707,
+   "lon": -59.5464,
+   "rarity": "Epic",
+   "fame": 5064,
+   "facts": {
+    "population": 2285,
+    "elevation_m": 37,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is situated centrally along the coastline of the parish of Christ Church, and is the parish capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oistins",
+    "url": "https://en.wikipedia.org/wiki/Oistins",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3373652.webp",
+    "author": "The original uploader was ROxBo at English Wikipedia .",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Miami_Beach,_Barbados.jpg"
+   }
+  },
+  {
+   "id": "gn:3374083",
+   "name": "Bathsheba",
+   "label": "Bathsheba",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-05",
+   "country": "BB",
+   "lat": 13.2113,
+   "lon": -59.526,
+   "rarity": "Epic",
+   "fame": 4410,
+   "facts": {
+    "population": 1765,
+    "elevation_m": 69,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Bathsheba is the main fishing village in the parish of Saint Joseph with some 5,000 inhabitants on the east coastline of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bathsheba, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Bathsheba%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3374083.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bathsheba,_Barbados_08.jpg"
+   }
+  },
+  {
+   "id": "gn:3373790",
+   "name": "Holetown",
+   "label": "Holetown",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-04",
+   "country": "BB",
+   "lat": 13.1867,
+   "lon": -59.6381,
+   "rarity": "Epic",
+   "fame": 7164,
+   "facts": {
+    "population": 1350,
+    "elevation_m": -1.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Holetown is located in the parish of Saint James on the sheltered west coast of the island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holetown",
+    "url": "https://en.wikipedia.org/wiki/Holetown",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3373790.webp",
+    "author": "CaribDigita",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Holetown,_Saint_James,_Barbados-001.jpg"
+   }
+  },
+  {
+   "id": "gn:3373505",
+   "name": "Speightstown",
+   "label": "Speightstown",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-09",
+   "country": "BB",
+   "lat": 13.2507,
+   "lon": -59.644,
+   "rarity": "Epic",
+   "fame": 9138,
+   "facts": {
+    "population": 3634,
+    "elevation_m": 9.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Speightstown, also known as Little Bristol, is the second largest town in Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Speightstown",
+    "url": "https://en.wikipedia.org/wiki/Speightstown",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3373505.webp"
+   }
+  },
+  {
+   "id": "gn:3374036",
+   "name": "Bridgetown",
+   "label": "Bridgetown",
+   "type": "town",
+   "kind": "town",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.1073,
+   "lon": -59.6202,
+   "rarity": "Legendary",
+   "fame": 133680,
+   "facts": {
+    "population": 98511,
+    "elevation_m": 10,
+    "area_km2": 39,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Bridgetown is the capital and largest city of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bridgetown",
+    "url": "https://en.wikipedia.org/wiki/Bridgetown",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3374036.webp",
+    "author": "P.Lechien",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bridgetown_aerial.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6827268",
+   "name": "Miami Beach, Barbados",
+   "label": "Miami Beach, Barbados",
+   "type": "built",
+   "kind": "beach",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0597,
+   "lon": -59.5397,
+   "rarity": "Rare",
+   "fame": 1584,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located on the south coast of the island, with usually calm waters and brilliant sunset views.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Miami Beach, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Miami_Beach%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6827268.webp",
+    "author": "The original uploader was ROxBo at English Wikipedia .",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Miami_Beach,_Barbados.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2169130",
+   "name": "Andromeda Botanic Gardens",
+   "label": "Andromeda Botanic Gardens",
+   "type": "built",
+   "kind": "botanical garden",
+   "region": "BB-05",
+   "country": "BB",
+   "lat": 13.2073,
+   "lon": -59.5181,
+   "rarity": "Rare",
+   "fame": 948,
+   "facts": {
+    "elevation_m": 89,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Andromeda Botanic Gardens is an organic 8-acre botanical garden and a historic cultural attraction in the village of Bathsheba, Saint Joseph in Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Andromeda Botanic Gardens",
+    "url": "https://en.wikipedia.org/wiki/Andromeda_Botanic_Gardens",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2169130.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Andromeda_Botanical_Gardens_04.jpg"
+   }
+  },
+  {
+   "id": "wd:Q807307",
+   "name": "Barbados National Stadium",
+   "label": "Barbados National Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.12,
+   "lon": -59.605,
+   "rarity": "Rare",
+   "fame": 2622,
+   "facts": {
+    "elevation_m": 42,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Occupying a 22-acre site, it was officially opened on 23 October 1970 by Prince Charles.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barbados National Stadium",
+    "url": "https://en.wikipedia.org/wiki/Barbados_National_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q807307.webp",
+    "author": "xrevbc",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barbados_National_Stadium_Pitch.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21003601",
+   "name": "St. Patrick's Cathedral, Bridgetown",
+   "label": "St. Patrick's Cathedral, Bridgetown",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0917,
+   "lon": -59.6092,
+   "rarity": "Rare",
+   "fame": 1518,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "St. Patrick's Cathedral, located in Bridgetown, Barbados, is the seat of the Roman Catholic Diocese of Bridgetown.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Patrick's Cathedral, Bridgetown",
+    "url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Cathedral%2C_Bridgetown",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21003601.webp"
+   }
+  },
+  {
+   "id": "wd:Q1077978",
+   "name": "Christ Church Parish Church",
+   "label": "Christ Church Parish Church",
+   "type": "built",
+   "kind": "church",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0653,
+   "lon": -59.5382,
+   "rarity": "Rare",
+   "fame": 732,
+   "facts": {
+    "elevation_m": 26,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The current Christ Church Parish Church located in Church Hill, Christ Church, Barbados was built in 1935 and is the fifth parish church on the site.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Christ Church Parish Church",
+    "url": "https://en.wikipedia.org/wiki/Christ_Church_Parish_Church",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1077978.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Christchurchparishchurch.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5077000",
+   "name": "Charles Duncan O'Neal Bridge",
+   "label": "Charles Duncan O'Neal Bridge",
+   "type": "built",
+   "kind": "road bridge",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0962,
+   "lon": -59.6129,
+   "rarity": "Rare",
+   "fame": 222,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is one of two bridges over the Careenage, the other being the Chamberlain Bridge, although unlike the Charles Duncan Bridge it does not take traffic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charles Duncan O'Neal Bridge",
+    "url": "https://en.wikipedia.org/wiki/Charles_Duncan_O%27Neal_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5077000.webp",
+    "author": "CaribDigita",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Charles_Duncan_O%27Neal,_Bridgetown-1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5052210",
+   "name": "Cathedral Church of Saint Michael and All Angels, Barbados",
+   "label": "Cathedral Church of Saint Michael and All Angels, Barbados",
+   "type": "built",
+   "kind": "Anglican or Episcopal cathedral",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0978,
+   "lon": -59.6124,
+   "rarity": "Rare",
+   "fame": 3090,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Cathedral Church of Saint Michael and All Angels, is an Anglican church located on St. Michael's Row, two blocks east of National Heroes Square.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral Church of Saint Michael and All Angels",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_Church_of_Saint_Michael_and_All_Angels",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5052210.webp",
+    "author": "Sachiko Haraguchi",
+    "licence": "CC BY-SA 3.0 igo",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Historic_Bridgetown_and_its_Garrison-115165.jpg"
+   }
+  },
+  {
+   "id": "wd:Q25112645",
+   "name": "Usain Bolt Sports Complex",
+   "label": "Usain Bolt Sports Complex",
+   "type": "built",
+   "kind": "stadium",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.1377,
+   "lon": -59.6333,
+   "rarity": "Rare",
+   "fame": 978,
+   "facts": {
+    "elevation_m": 33,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Usain Bolt Sports Complex is a sports venue at the Cavehill campus of the University of the West Indies in Barbados consisting of an IAAF certified track and…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Usain Bolt Sports Complex",
+    "url": "https://en.wikipedia.org/wiki/Usain_Bolt_Sports_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q25112645.webp"
+   }
+  },
+  {
+   "id": "wd:Q5002016",
+   "name": "Bussa Emancipation Statue",
+   "label": "Bussa Emancipation Statue",
+   "type": "built",
+   "kind": "memorial",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.105,
+   "lon": -59.5801,
+   "rarity": "Rare",
+   "fame": 2220,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located in Barbados, east of Bridgetown at centre of the J.T.C. Ramsay roundabout formed at the junction of the ABC Highway and Highway 5.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Emancipation Statue",
+    "url": "https://en.wikipedia.org/wiki/Emancipation_Statue",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5002016.webp"
+   }
+  },
+  {
+   "id": "wd:Q65121129",
+   "name": "Wildey Turf",
+   "label": "Wildey Turf",
+   "type": "built",
+   "kind": "stadium",
+   "region": "BB-01",
+   "country": "BB",
+   "lat": 13.0916,
+   "lon": -59.573,
+   "rarity": "Rare",
+   "fame": 3036,
+   "facts": {
+    "elevation_m": 80,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Wildey Turf is a football stadium at the Sir Garfield Sobers Sports Complex, Wildey, Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Wildey Turf",
+    "url": "https://en.wikipedia.org/wiki/Wildey_Turf",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q65121129.webp"
+   }
+  },
+  {
+   "id": "wd:Q21746124",
+   "name": "Heywoods Beach",
+   "label": "Heywoods Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "BB-09",
+   "country": "BB",
+   "lat": 13.25,
+   "lon": -59.6333,
+   "rarity": "Rare",
+   "fame": 498,
+   "facts": {
+    "elevation_m": 50,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Heywoods Beach is a beach in Saint Peter, Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Heywoods Beach",
+    "url": "https://en.wikipedia.org/wiki/Heywoods_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21746124.webp",
+    "author": "Dawid Glawdzin",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barbados_-_panoramio_-_Dawid_Glawdzin.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5856466",
+   "name": "Harrison Point Lighthouse",
+   "label": "Harrison Point Lighthouse",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "BB-07",
+   "country": "BB",
+   "lat": 13.3085,
+   "lon": -59.6482,
+   "rarity": "Rare",
+   "fame": 744,
+   "facts": {
+    "elevation_m": 26,
+    "height_m": 26,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Harrison Point Lighthouse is a lighthouse located in the northern Parish of Saint Lucy, Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Harrison Point Lighthouse",
+    "url": "https://en.wikipedia.org/wiki/Harrison_Point_Lighthouse",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5856466.webp",
+    "author": "Postdlf",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Lucy,_Barbados_017.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5164145",
+   "name": "Constitution River",
+   "label": "Constitution River",
+   "type": "nature",
+   "kind": "river",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0961,
+   "lon": -59.6144,
+   "rarity": "Rare",
+   "fame": 1464,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The western end of the river runs through the centre of Bridgetown in Saint Michael.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Constitution River",
+    "url": "https://en.wikipedia.org/wiki/Constitution_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5164145.webp",
+    "author": "CaribDigita",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Constitution_River_and_the_Fairchild_Street_Bus_Terminal.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2879612",
+   "name": "Carlisle Bay",
+   "label": "Carlisle Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-08",
+   "country": "BB",
+   "lat": 13.0833,
+   "lon": -59.6167,
+   "rarity": "Rare",
+   "fame": 4620,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The island nation's capital, Bridgetown, is situated on this bay which has been turned into a marine park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Carlisle Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Carlisle_Bay%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2879612.webp",
+    "author": "User:JZimmerman (WMF)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carlisle_Bay_Beach.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q7156847",
+   "name": "Paynes Bay",
+   "label": "Paynes Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "BB-04",
+   "country": "BB",
+   "lat": 13.1667,
+   "lon": -59.6333,
+   "rarity": "Rare",
+   "fame": 1566,
+   "facts": {
+    "elevation_m": 26,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Paynes Bay, sometimes called the \"Platinum Coast\", is located on the west coast of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Paynes Bay, Barbados",
+    "url": "https://en.wikipedia.org/wiki/Paynes_Bay%2C_Barbados",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7156847.webp",
+    "author": "Boutboul",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Paynes_Bay_view.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1143499",
+   "name": "Culpepper Island",
+   "label": "Culpepper Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "BB-10",
+   "country": "BB",
+   "lat": 13.1658,
+   "lon": -59.4433,
+   "rarity": "Rare",
+   "fame": 1632,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Culpepper Island is an uninhabited islet in the Atlantic Ocean located 30 metres off the coast of Barbados.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Culpepper Island",
+    "url": "https://en.wikipedia.org/wiki/Culpepper_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1143499.webp",
+    "author": "Johnmartindavies",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eastpoint_Lighthouse_from_the_northern_end_of_Cobblers_Reef.jpg"
+   }
+  }
+ ]
+}

@@ -118,7 +118,7 @@ def facts_line(r) -> str:
     if r.type == "town":
         return (f"A community of {int(r.population):,} people in {r.province}." if pd.notna(r.population)
                 else f"A community in {r.province}.")
-    kind = KIND_LABEL.get(r.kind, str(r.kind).split(",")[0])
+    kind = KIND_LABEL.get(r.kind, str(r.kind).split(",")[0]).strip() or ("landmark" if r.type == "built" else "place")
     return f"{'An' if kind[0].lower() in 'aeiou' else 'A'} {kind} in {r.province}."
 
 

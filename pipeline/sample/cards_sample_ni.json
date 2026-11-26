@@ -1,0 +1,2197 @@
+{
+ "note": "Sample of the Nicaragua card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q30322496",
+   "name": "Calala Island",
+   "label": "Calala Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 12.4379,
+   "lon": -83.4323,
+   "rarity": "Common",
+   "fame": 4428,
+   "facts": {
+    "elevation_m": 13,
+    "area_km2": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Calala Island is a private island located in the Caribbean Sea, forming part of an archipelago of islands known as the Pearl Cays, off the coast of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Calala Island",
+    "url": "https://en.wikipedia.org/wiki/Calala_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q30322496.webp"
+   }
+  },
+  {
+   "id": "wd:Q4388398",
+   "name": "Cordillera dariense",
+   "label": "Cordillera dariense",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "NI-JI",
+   "country": "NI",
+   "lat": 13.4987,
+   "lon": -85.4941,
+   "rarity": "Common",
+   "fame": 1866,
+   "facts": {
+    "elevation_m": 824,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "Cordillera Isabelia or Cordillera Isabella in Jinotega, is the northern portion of the central mountain range in Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cordillera Isabelia",
+    "url": "https://en.wikipedia.org/wiki/Cordillera_Isabelia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4388398.webp",
+    "author": "Richard Salgado",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_Isabelia,_Vista_desde_LAS_QUEBRADAS,_Siuna,_R.A.C.C.N._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6086795",
+   "name": "Río Prinzapolka",
+   "label": "Río Prinzapolka",
+   "type": "nature",
+   "kind": "river",
+   "region": "NI-AN",
+   "country": "NI",
+   "lat": 13.4058,
+   "lon": -83.5673,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A river in North Caribbean Coast.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6086795.webp"
+   }
+  },
+  {
+   "id": "wd:Q6442551",
+   "name": "Bocana de Río Kukra",
+   "label": "Bocana de Río Kukra",
+   "type": "nature",
+   "kind": "bay",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 11.9,
+   "lon": -83.8167,
+   "rarity": "Common",
+   "fame": 318,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It lies in the southeast of the country and is inhabited by two Rama communities and various mestizo settler communities.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kukra River",
+    "url": "https://en.wikipedia.org/wiki/Kukra_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6442551.webp",
+    "author": "Trainiac from Australia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Banana_plantation_(48645522158).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5921733",
+   "name": "Isla Maderas Negras",
+   "label": "Isla Maderas Negras",
+   "type": "nature",
+   "kind": "island",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.5741,
+   "lon": -87.2659,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "An island in Chinandega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5921733.webp"
+   }
+  },
+  {
+   "id": "wd:Q2997146",
+   "name": "Cordillera Los Maribios",
+   "label": "Cordillera Los Maribios",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.56,
+   "lon": -86.78,
+   "rarity": "Common",
+   "fame": 1998,
+   "facts": {
+    "elevation_m": 282,
+    "length_km": 60,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It is a volcanic range comprised most notably by San Cristóbal 1745 m, Pilas 983 m, Telica 1060 m, Cerro Negro 450 m, and Momotombo 1258 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cordillera de los Maribios",
+    "url": "https://en.wikipedia.org/wiki/Cordillera_de_los_Maribios",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2997146.webp",
+    "author": "Christopher Sayan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_Los_Maribios.jpg"
+   }
+  },
+  {
+   "id": "wd:Q147245",
+   "name": "Volcán Zapatera",
+   "label": "Volcán Zapatera",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "NI-GR",
+   "country": "NI",
+   "lat": 11.73,
+   "lon": -85.82,
+   "rarity": "Common",
+   "fame": 2514,
+   "facts": {
+    "elevation_m": 639,
+    "area_km2": 52,
+    "length_km": 10,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It forms the island of Isla Zapatera in the Lake Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Zapatera",
+    "url": "https://en.wikipedia.org/wiki/Zapatera",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q147245.webp"
+   }
+  },
+  {
+   "id": "wd:Q1138311",
+   "name": "Fortaleza El Coyotepe",
+   "label": "Fortaleza El Coyotepe",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-MS",
+   "country": "NI",
+   "lat": 11.996,
+   "lon": -86.0983,
+   "rarity": "Common",
+   "fame": 3204,
+   "facts": {
+    "elevation_m": 370,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A mountain in Masaya.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1138311.webp",
+    "author": "AxeEffect",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coyotepe.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5397377",
+   "name": "Bluefields River",
+   "label": "Bluefields River",
+   "type": "nature",
+   "kind": "river",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 12.0868,
+   "lon": -83.7492,
+   "rarity": "Common",
+   "fame": 2190,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 89,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is 89 kilometres long and it empties into the Caribbean Sea near Bluefields in the South Caribbean Coast Autonomous Region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Escondido River (Nicaragua)",
+    "url": "https://en.wikipedia.org/wiki/Escondido_River_%28Nicaragua%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5397377.webp"
+   }
+  },
+  {
+   "id": "wd:Q5506742",
+   "name": "Río Frío",
+   "label": "Río Frío",
+   "type": "nature",
+   "kind": "river",
+   "region": "NI-SJ",
+   "country": "NI",
+   "lat": 11.1174,
+   "lon": -84.7763,
+   "rarity": "Common",
+   "fame": 2154,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 26.2
+   },
+   "also_in": [
+    "CR"
+   ],
+   "flavour": {
+    "text": "The last few kilometers it passes through Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Frío River (Costa Rica)",
+    "url": "https://en.wikipedia.org/wiki/Fr%C3%ADo_River_%28Costa_Rica%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5506742.webp",
+    "author": "David Berkowitz",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frio_river,_Costa_Rica-2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7421023",
+   "name": "Río Sapoá",
+   "label": "Río Sapoá",
+   "type": "nature",
+   "kind": "river",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.2535,
+   "lon": -85.6081,
+   "rarity": "Common",
+   "fame": 750,
+   "facts": {
+    "elevation_m": 31,
+    "temp_c": 26.3
+   },
+   "also_in": [
+    "CR"
+   ],
+   "flavour": {
+    "text": "With headwaters in the Guanacaste National Park, it flows north and crosses into Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sapoá River",
+    "url": "https://en.wikipedia.org/wiki/Sapo%C3%A1_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7421023.webp"
+   }
+  },
+  {
+   "id": "wd:Q2091580",
+   "name": "Volcán Las Pilas",
+   "label": "Volcán Las Pilas",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.495,
+   "lon": -86.688,
+   "rarity": "Common",
+   "fame": 960,
+   "facts": {
+    "elevation_m": 1088,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Part of a 30-km-long volcanic massif, Las Pilas has a series of well-preserved flank vents surrounding a central cone.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Las Pilas",
+    "url": "https://en.wikipedia.org/wiki/Las_Pilas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2091580.webp",
+    "author": "Lee Siebert (Smithsonian Institution)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Pilas_volcanic_complex.jpg"
+   }
+  },
+  {
+   "id": "gn:3617569",
+   "name": "Moyogalpa",
+   "label": "Moyogalpa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.5401,
+   "lon": -85.698,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3940,
+    "elevation_m": 20,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 3,940 people in Rivas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617569.webp"
+   }
+  },
+  {
+   "id": "gn:3828262",
+   "name": "Ciudad Sandino",
+   "label": "Ciudad Sandino",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1589,
+   "lon": -86.3442,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 50000,
+    "elevation_m": 105,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "A community of 50,000 people in Managua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3828262.webp"
+   }
+  },
+  {
+   "id": "gn:3620473",
+   "name": "Villa El Carmen",
+   "label": "Villa El Carmen",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 11.9801,
+   "lon": -86.5057,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5219,
+    "elevation_m": 107,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "A community of 5,219 people in Managua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3620473.webp"
+   }
+  },
+  {
+   "id": "gn:3616028",
+   "name": "Tisma",
+   "label": "Tisma",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MS",
+   "country": "NI",
+   "lat": 12.0819,
+   "lon": -86.0174,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5182,
+    "elevation_m": 53,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 5,182 people in Masaya.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616028.webp"
+   }
+  },
+  {
+   "id": "gn:3618954",
+   "name": "Jalapa",
+   "label": "Jalapa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-NS",
+   "country": "NI",
+   "lat": 13.9222,
+   "lon": -86.1235,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 24037,
+    "elevation_m": 686,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "A community of 24,037 people in Nueva Segovia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3618954.webp"
+   }
+  },
+  {
+   "id": "gn:3620544",
+   "name": "Camoapa",
+   "label": "Camoapa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-BO",
+   "country": "NI",
+   "lat": 12.3838,
+   "lon": -85.5128,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 16653,
+    "elevation_m": 530,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "A community of 16,653 people in Boaco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3620544.webp"
+   }
+  },
+  {
+   "id": "gn:3617565",
+   "name": "Mozonte",
+   "label": "Mozonte",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-NS",
+   "country": "NI",
+   "lat": 13.6603,
+   "lon": -86.4384,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2338,
+    "elevation_m": 697,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "A community of 2,338 people in Nueva Segovia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617565.webp"
+   }
+  },
+  {
+   "id": "gn:3617459",
+   "name": "Nueva Guinea",
+   "label": "Nueva Guinea",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 11.6876,
+   "lon": -84.4562,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 52929,
+    "elevation_m": 212,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A community of 52,929 people in South Caribbean Coast.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617459.webp"
+   }
+  },
+  {
+   "id": "gn:3616441",
+   "name": "Santa María",
+   "label": "Santa María",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-NS",
+   "country": "NI",
+   "lat": 13.7467,
+   "lon": -86.7093,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 720,
+    "elevation_m": 777,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "A community of 720 people in Nueva Segovia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616441.webp"
+   }
+  },
+  {
+   "id": "gn:3616597",
+   "name": "San Rafael del Norte",
+   "label": "San Rafael del Norte",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-JI",
+   "country": "NI",
+   "lat": 13.2125,
+   "lon": -86.1109,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5458,
+    "elevation_m": 1081,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "A community of 5,458 people in Jinotega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616597.webp"
+   }
+  },
+  {
+   "id": "gn:3620353",
+   "name": "Ciudad Antigua",
+   "label": "Ciudad Antigua",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-NS",
+   "country": "NI",
+   "lat": 13.6406,
+   "lon": -86.3081,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1787,
+    "elevation_m": 634,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "A community of 1,787 people in Nueva Segovia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3620353.webp"
+   }
+  },
+  {
+   "id": "gn:3617115",
+   "name": "Quezalguaque",
+   "label": "Quezalguaque",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.5068,
+   "lon": -86.9029,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1974,
+    "elevation_m": 98,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 1,974 people in León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617115.webp"
+   }
+  },
+  {
+   "id": "wd:Q1542099",
+   "name": "Old Cathedral of Managua",
+   "label": "Old Cathedral of Managua",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1563,
+   "lon": -86.2713,
+   "rarity": "Epic",
+   "fame": 7590,
+   "facts": {
+    "elevation_m": 53,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Old Cathedral of Managua, known as the Catedral de Santiago in Spanish, is a cathedral in Managua, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Old Cathedral of Managua",
+    "url": "https://en.wikipedia.org/wiki/Old_Cathedral_of_Managua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1542099.webp",
+    "author": "OswaldoFlores88",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antigua_catedral_de_Managua_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wd:Q3847804",
+   "name": "Fortress of the Immaculate Conception",
+   "label": "Fortress of the Immaculate Conception",
+   "type": "built",
+   "kind": "fortress",
+   "region": "NI-SJ",
+   "country": "NI",
+   "lat": 11.0192,
+   "lon": -84.3967,
+   "rarity": "Epic",
+   "fame": 6144,
+   "facts": {
+    "elevation_m": 32,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "The Fortress of the Immaculate Conception, is a fortification located on the southern bank of the San Juan River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fortress of the Immaculate Conception",
+    "url": "https://en.wikipedia.org/wiki/Fortress_of_the_Immaculate_Conception",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3847804.webp",
+    "author": "Hobbitschuster",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_castillo_fortress.jpg"
+   }
+  },
+  {
+   "id": "wd:Q48605",
+   "name": "León Cathedral",
+   "label": "León Cathedral",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.435,
+   "lon": -86.8781,
+   "rarity": "Epic",
+   "fame": 15600,
+   "facts": {
+    "elevation_m": 103,
+    "area_km2": 0.0,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "The Cathedral of the Assumption of Mary, also known as the \"Royal and Renowned Basilica Cathedral of the Assumption of the Blessed Virgin Mary\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "León Cathedral, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Le%C3%B3n_Cathedral%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q48605.webp",
+    "author": "Guillaume Baviere from Uppsala, Sweden",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicaragua_2017-03-13_(32976253324).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369488",
+   "name": "Nicaragua National Football Stadium",
+   "label": "Nicaragua National Football Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1092,
+   "lon": -86.2731,
+   "rarity": "Epic",
+   "fame": 8382,
+   "facts": {
+    "elevation_m": 187,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Nicaragua National Football Stadium in Managua, Nicaragua, is home to the Nicaragua national football team.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nicaragua National Football Stadium",
+    "url": "https://en.wikipedia.org/wiki/Nicaragua_National_Football_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369488.webp",
+    "author": "Agraysky",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicaragua_National_Football_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3268269",
+   "name": "Ancient footprints of Acahualinca",
+   "label": "Ancient footprints of Acahualinca",
+   "type": "built",
+   "kind": "archaeological find",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1601,
+   "lon": -86.2944,
+   "rarity": "Epic",
+   "fame": 9456,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Ancient footprints of Acahualinca exist in Managua, Nicaragua near the southern shore of Lake Managua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ancient footprints of Acahualinca",
+    "url": "https://en.wikipedia.org/wiki/Ancient_footprints_of_Acahualinca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3268269.webp",
+    "author": "Dr d12 at English Wikipedia ( Original text: Dr d12 )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:HuellasdeAcahualinca.jpg"
+   }
+  },
+  {
+   "id": "wd:Q537349",
+   "name": "Dennis Martínez National Stadium",
+   "label": "Dennis Martínez National Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1344,
+   "lon": -86.2693,
+   "rarity": "Epic",
+   "fame": 6558,
+   "facts": {
+    "elevation_m": 93,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Estadio Nacional Soberanía is located in Managua, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Nacional Soberanía",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Nacional_Soberan%C3%ADa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q537349.webp",
+    "author": "hsd291",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Nacional_Dennis_Martinez_.jpg"
+   }
+  },
+  {
+   "id": "wd:Q173862",
+   "name": "Lake Nicaragua",
+   "label": "Lake Nicaragua",
+   "type": "nature",
+   "kind": "lake",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.5742,
+   "lon": -85.3563,
+   "rarity": "Epic",
+   "fame": 92436,
+   "facts": {
+    "elevation_m": 32,
+    "area_km2": 8264,
+    "length_km": 148,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "With an elevation of 32.7 metres above sea level, the lake reaches a depth of 26 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Lake_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q173862.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS066-E-103300_-_View_of_Nicaragua.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6727157",
+   "name": "Volcán Maderas",
+   "label": "Volcán Maderas",
+   "type": "nature",
+   "kind": "national park",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.4453,
+   "lon": -85.5079,
+   "rarity": "Epic",
+   "fame": 228,
+   "facts": {
+    "elevation_m": 1198,
+    "area_km2": 26,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "The reserve contains Volcán Maderas, an extinct 1,394-meter volcano surrounded by a cloud forest.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán Maderas Natural Reserve",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Maderas_Natural_Reserve",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6727157.webp"
+   }
+  },
+  {
+   "id": "wd:Q3364508",
+   "name": "Saslaya National Park",
+   "label": "Saslaya National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "NI-AN",
+   "country": "NI",
+   "lat": 13.7605,
+   "lon": -84.9777,
+   "rarity": "Epic",
+   "fame": 216,
+   "facts": {
+    "elevation_m": 418,
+    "area_km2": 150,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A national park in North Caribbean Coast.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3364508.webp"
+   }
+  },
+  {
+   "id": "wd:Q1969102",
+   "name": "Masaya Volcano National Park",
+   "label": "Masaya Volcano National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "NI-MS",
+   "country": "NI",
+   "lat": 11.9833,
+   "lon": -86.15,
+   "rarity": "Epic",
+   "fame": 1302,
+   "facts": {
+    "elevation_m": 396,
+    "area_km2": 55,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A national park in Masaya.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1969102.webp",
+    "author": "Acana689",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cratervolcan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q11697925",
+   "name": "Parque nacional Volcán Mombacho",
+   "label": "Parque nacional Volcán Mombacho",
+   "type": "nature",
+   "kind": "national park",
+   "region": "NI-GR",
+   "country": "NI",
+   "lat": 11.8376,
+   "lon": -85.9509,
+   "rarity": "Epic",
+   "fame": 1434,
+   "facts": {
+    "elevation_m": 514,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A national park in Granada.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11697925.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mombacho_vulcano.JPG"
+   }
+  },
+  {
+   "id": "wd:Q950875",
+   "name": "Ometepe",
+   "label": "Ometepe",
+   "type": "nature",
+   "kind": "island",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.4984,
+   "lon": -85.6255,
+   "rarity": "Epic",
+   "fame": 28848,
+   "facts": {
+    "elevation_m": 1610,
+    "area_km2": 277,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Ometepe is an island formed by two volcanoes rising out of Lake Nicaragua, located in the Rivas Department of the Republic of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ometepe",
+    "url": "https://en.wikipedia.org/wiki/Ometepe",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q950875.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-33030_-_View_of_Nicaragua.jpg"
+   }
+  },
+  {
+   "id": "gn:3620680",
+   "name": "Bluefields",
+   "label": "Bluefields",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 12.0129,
+   "lon": -83.7645,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 44373,
+    "elevation_m": 11,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 44,373 people in South Caribbean Coast.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3620680.webp",
+    "author": "一井 潤一",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2015bluefieldsDSC_0195.jpg"
+   }
+  },
+  {
+   "id": "gn:3620674",
+   "name": "Boaco",
+   "label": "Boaco",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-BO",
+   "country": "NI",
+   "lat": 12.4726,
+   "lon": -85.6596,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 29046,
+    "elevation_m": 335,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "A community of 29,046 people in Boaco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3620674.webp"
+   }
+  },
+  {
+   "id": "gn:3618908",
+   "name": "Juigalpa",
+   "label": "Juigalpa",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.1059,
+   "lon": -85.3655,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 50000,
+    "elevation_m": 105,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 50,000 people in Chontales.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3618908.webp"
+   }
+  },
+  {
+   "id": "gn:3616911",
+   "name": "San Carlos",
+   "label": "San Carlos",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-SJ",
+   "country": "NI",
+   "lat": 11.1271,
+   "lon": -84.7779,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 13451,
+    "elevation_m": 29,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 13,451 people in Río San Juan.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616911.webp"
+   }
+  },
+  {
+   "id": "gn:3617154",
+   "name": "Puerto Cabezas",
+   "label": "Puerto Cabezas",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-AN",
+   "country": "NI",
+   "lat": 14.0351,
+   "lon": -83.3888,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 33635,
+    "elevation_m": 8.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 33,635 people in North Caribbean Coast.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617154.webp"
+   }
+  },
+  {
+   "id": "gn:3616730",
+   "name": "Grey Town",
+   "label": "Grey Town",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-SJ",
+   "country": "NI",
+   "lat": 10.9468,
+   "lon": -83.7347,
+   "rarity": "Epic",
+   "fame": 2166,
+   "facts": {
+    "population": 642,
+    "elevation_m": 6.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is located at the mouth of the San Juan River and serves as the administrative centre of the municipality of San Juan de Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Greytown, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Greytown%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616730.webp"
+   }
+  },
+  {
+   "id": "gn:3619194",
+   "name": "Estelí",
+   "label": "Estelí",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-ES",
+   "country": "NI",
+   "lat": 13.0929,
+   "lon": -86.3559,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 96422,
+    "elevation_m": 833,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "A community of 96,422 people in Estelí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3619194.webp"
+   }
+  },
+  {
+   "id": "gn:3617204",
+   "name": "Poneloya",
+   "label": "Poneloya",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.3783,
+   "lon": -87.0422,
+   "rarity": "Epic",
+   "fame": 1830,
+   "facts": {
+    "population": 4232,
+    "elevation_m": 6.0,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "It lies within the León Department and borders Las Peñitas, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Poneloya, Nicaragua",
+    "url": "https://en.wikipedia.org/wiki/Poneloya%2C_Nicaragua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3617204.webp",
+    "author": "Juan José Mendoza",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Poneloya,_Nicaragua_-_panoramio_(3).jpg"
+   }
+  },
+  {
+   "id": "gn:3618030",
+   "name": "León",
+   "label": "León",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.4353,
+   "lon": -86.8786,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 144538,
+    "elevation_m": 102,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "A community of 144,538 people in León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3618030.webp"
+   }
+  },
+  {
+   "id": "gn:3618929",
+   "name": "Jinotega",
+   "label": "Jinotega",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-JI",
+   "country": "NI",
+   "lat": 13.091,
+   "lon": -86.0023,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 55000,
+    "elevation_m": 1007,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "A community of 55,000 people in Jinotega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3618929.webp",
+    "author": "HeraldFrancisco NI",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jinotega_desde_el_Cerro_Cubulc%C3%A1n.jpg"
+   }
+  },
+  {
+   "id": "gn:3617763",
+   "name": "Managua",
+   "label": "Managua",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1328,
+   "lon": -86.2504,
+   "rarity": "Legendary",
+   "fame": 0,
+   "facts": {
+    "population": 973087,
+    "elevation_m": 108,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "A community of 973,087 people in Managua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617763.webp"
+   }
+  },
+  {
+   "id": "wd:Q97647104",
+   "name": "Church of la Recolección, León, Nicaragua",
+   "label": "Church of la Recolección, León, Nicaragua",
+   "type": "built",
+   "kind": "church",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.4376,
+   "lon": -86.877,
+   "rarity": "Rare",
+   "fame": 1260,
+   "facts": {
+    "elevation_m": 106,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "A church in León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q97647104.webp",
+    "author": "Sasha India",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_de_la_Recolecci%C3%B3n_(Leon,_Nicaragua)_(26664167655).jpg"
+   }
+  },
+  {
+   "id": "wd:Q16490501",
+   "name": "Catedral de Nuestra Señora de la Asunción",
+   "label": "Catedral de Nuestra Señora de la Asunción (near Juigalpa)",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.1066,
+   "lon": -85.3644,
+   "rarity": "Rare",
+   "fame": 402,
+   "facts": {
+    "elevation_m": 121,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Our Lady of the Assumption Cathedral Also Juigalpa Cathedral Is a cathedral of the Catholic Church in the city of Juigalpa, Chontales.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Our Lady of the Assumption Cathedral, Juigalpa",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Assumption_Cathedral%2C_Juigalpa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16490501.webp",
+    "author": "Zenia Nuñez",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Juigalpa_Catedral.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495611",
+   "name": "Estadio El Pericón",
+   "label": "Estadio El Pericón",
+   "type": "built",
+   "kind": "stadium",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 12.0131,
+   "lon": -83.7661,
+   "rarity": "Rare",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Glorias Costeñas Stadium is a multi-use stadium in Bluefields, South Caribbean Coast Autonomous Region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Glorias Costeñas",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Glorias_Coste%C3%B1as",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3495611.webp"
+   }
+  },
+  {
+   "id": "wd:Q795414",
+   "name": "Edificio Benjamín Zeledón",
+   "label": "Edificio Benjamín Zeledón",
+   "type": "built",
+   "kind": "built structure",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.1503,
+   "lon": -86.2725,
+   "rarity": "Rare",
+   "fame": 3000,
+   "facts": {
+    "elevation_m": 60,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "Edificio Benjamín Zeledón, is one of tallest buildings in Managua, capital of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Edificio Benjamín Zeledón",
+    "url": "https://en.wikipedia.org/wiki/Edificio_Benjam%C3%ADn_Zeled%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q795414.webp",
+    "author": "Isramael9",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ed._Benjam%C3%ADn_Zeled%C3%B3n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16800639",
+   "name": "Mancotal Dam",
+   "label": "Mancotal Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "NI-JI",
+   "country": "NI",
+   "lat": 13.245,
+   "lon": -85.9019,
+   "rarity": "Rare",
+   "fame": 264,
+   "facts": {
+    "elevation_m": 955,
+    "length_km": 0.3,
+    "temp_c": 21.0
+   },
+   "flavour": {
+    "text": "It forms Lake Apanás, the largest reservoir in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mancotal Dam",
+    "url": "https://en.wikipedia.org/wiki/Mancotal_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16800639.webp"
+   }
+  },
+  {
+   "id": "wd:Q131550211",
+   "name": "Convento de San Francisco",
+   "label": "Convento de San Francisco",
+   "type": "built",
+   "kind": "church building",
+   "region": "NI-GR",
+   "country": "NI",
+   "lat": 11.9322,
+   "lon": -85.952,
+   "rarity": "Rare",
+   "fame": 1200,
+   "facts": {
+    "elevation_m": 57,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A church building in Granada.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q131550211.webp",
+    "author": "nakashi",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Francis_Church_in_Granada,_Nicaragua_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1354024",
+   "name": "Estadio Cacique Diriangén",
+   "label": "Estadio Cacique Diriangén",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "NI-CA",
+   "country": "NI",
+   "lat": 11.8611,
+   "lon": -86.2436,
+   "rarity": "Rare",
+   "fame": 2958,
+   "facts": {
+    "elevation_m": 584,
+    "temp_c": 23.4
+   },
+   "flavour": {
+    "text": "Estadio Cacique Diriangén is a multi-purpose stadium in Diriamba, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Cacique Diriangén",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Cacique_Diriang%C3%A9n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1354024.webp",
+    "author": "Alejandro Jose Castro",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Cacique_Diriangen,_Diriamba..JPG"
+   }
+  },
+  {
+   "id": "wd:Q20656095",
+   "name": "Neil Armstrong Observatory",
+   "label": "Neil Armstrong Observatory",
+   "type": "built",
+   "kind": "observatory",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.0909,
+   "lon": -86.2227,
+   "rarity": "Rare",
+   "fame": 420,
+   "facts": {
+    "elevation_m": 227,
+    "temp_c": 25.5
+   },
+   "flavour": {
+    "text": "The Neil Armstrong Observatory was completed March 1, 2014, making Nicaragua the only country in Latin America with an astronomical observatory reserved for…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Neil Armstrong Observatory",
+    "url": "https://en.wikipedia.org/wiki/Neil_Armstrong_Observatory",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q20656095.webp"
+   }
+  },
+  {
+   "id": "wd:Q16800446",
+   "name": "Virgen Dam",
+   "label": "Virgen Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "NI-MT",
+   "country": "NI",
+   "lat": 12.7718,
+   "lon": -86.2351,
+   "rarity": "Rare",
+   "fame": 276,
+   "facts": {
+    "elevation_m": 444,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "The Virgen Dam is an embankment dam on the Viejo River near the town of El Hato de La Virgen in Matagalpa Department, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Virgen Dam",
+    "url": "https://en.wikipedia.org/wiki/Virgen_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16800446.webp"
+   }
+  },
+  {
+   "id": "wd:Q6126642",
+   "name": "Sanctuary of the Lord of Miracles",
+   "label": "Sanctuary of the Lord of Miracles",
+   "type": "built",
+   "kind": "religious building",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.8885,
+   "lon": -86.5391,
+   "rarity": "Rare",
+   "fame": 696,
+   "facts": {
+    "elevation_m": 171,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A religious building in León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6126642.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Sauce_Iglesia.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5350824",
+   "name": "El Bluff",
+   "label": "El Bluff",
+   "type": "built",
+   "kind": "port",
+   "region": "NI-AS",
+   "country": "NI",
+   "lat": 11.9947,
+   "lon": -83.6904,
+   "rarity": "Rare",
+   "fame": 1422,
+   "facts": {
+    "elevation_m": 64,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Bluff handles limited cargo and has basic piers.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Bluff",
+    "url": "https://en.wikipedia.org/wiki/El_Bluff",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5350824.webp"
+   }
+  },
+  {
+   "id": "wd:Q135976247",
+   "name": "Roberto Clemente Stadium",
+   "label": "Roberto Clemente Stadium",
+   "type": "built",
+   "kind": "stadium",
+   "region": "NI-MS",
+   "country": "NI",
+   "lat": 11.9754,
+   "lon": -86.1045,
+   "rarity": "Rare",
+   "fame": 702,
+   "facts": {
+    "elevation_m": 220,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Roberto Clemente Stadium is a baseball stadium in Masaya, Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Roberto Clemente",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Roberto_Clemente",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q135976247.webp"
+   }
+  },
+  {
+   "id": "wd:Q1067452",
+   "name": "Concepción",
+   "label": "Concepción",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.5333,
+   "lon": -85.6167,
+   "rarity": "Rare",
+   "fame": 10338,
+   "facts": {
+    "elevation_m": 1700,
+    "prominence_m": 1579,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Concepción, also known by its aboriginal name Omeyatecihua from the Nawat language, is one of two volcanoes that form the island of Ometepe.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Concepción (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Concepci%C3%B3n_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1067452.webp",
+    "author": "Martin Kulldorff",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moyogalpa_Puerto.jpg"
+   }
+  },
+  {
+   "id": "wd:Q575891",
+   "name": "Momotombo",
+   "label": "Momotombo",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.4247,
+   "lon": -86.5385,
+   "rarity": "Rare",
+   "fame": 11736,
+   "facts": {
+    "elevation_m": 1297,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It stands on the shores of Lake Managua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Momotombo",
+    "url": "https://en.wikipedia.org/wiki/Momotombo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q575891.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Momotombo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q607196",
+   "name": "Volcán San Cristóbal",
+   "label": "Volcán San Cristóbal",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.7035,
+   "lon": -87.0062,
+   "rarity": "Rare",
+   "fame": 8118,
+   "facts": {
+    "elevation_m": 1745,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "San Cristóbal Volcano, also known by its aboriginal name Tepemesquián from the Nawat language, is the highest volcano in Nicaragua at 1,745 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Cristóbal Volcano",
+    "url": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q607196.webp",
+    "author": "Ryan Ballantyne -- ryos 01:28, 18 June 2006 (UTC)",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:VolcanSanCristobal1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4745816",
+   "name": "Cordillera de Amerrisque",
+   "label": "Cordillera de Amerrisque",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "NI-CO",
+   "country": "NI",
+   "lat": 12.2,
+   "lon": -85.3167,
+   "rarity": "Rare",
+   "fame": 7254,
+   "facts": {
+    "elevation_m": 349,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "The Amerrisque Mountains are the central spine of Nicaragua and part of the Central American Range which extends throughout central Nicaragua for about 700 km…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Amerrisque Mountains",
+    "url": "https://en.wikipedia.org/wiki/Amerrisque_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4745816.webp"
+   }
+  },
+  {
+   "id": "wd:Q528654",
+   "name": "Cosigüina",
+   "label": "Cosigüina",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.971,
+   "lon": -87.5765,
+   "rarity": "Rare",
+   "fame": 5076,
+   "facts": {
+    "elevation_m": 872,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "It forms a large peninsula extending into the Gulf of Fonseca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cosigüina",
+    "url": "https://en.wikipedia.org/wiki/Cosig%C3%BCina",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q528654.webp",
+    "author": "Claude Humbert",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nicaragua_volcan_Cosig%C3%BCina_5.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1161204",
+   "name": "Río San Juan",
+   "label": "Río San Juan",
+   "type": "nature",
+   "kind": "river",
+   "region": "NI-SJ",
+   "country": "NI",
+   "lat": 10.8006,
+   "lon": -84.2108,
+   "rarity": "Rare",
+   "fame": 15090,
+   "facts": {
+    "elevation_m": 18,
+    "length_km": 192,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A large section of the border between Nicaragua and Costa Rica runs on the southern bank of the river.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan River (Nicaragua)",
+    "url": "https://en.wikipedia.org/wiki/San_Juan_River_%28Nicaragua%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1161204.webp"
+   }
+  },
+  {
+   "id": "wd:Q613424",
+   "name": "Volcán Masaya",
+   "label": "Volcán Masaya",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-MS",
+   "country": "NI",
+   "lat": 11.9822,
+   "lon": -86.1621,
+   "rarity": "Rare",
+   "fame": 26964,
+   "facts": {
+    "elevation_m": 635,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "Masaya, also known historically by its aboriginal name Popogatepe in Nawat, is a caldera located in Masaya, Nicaragua, 20 km south of the capital Managua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Masaya Volcano",
+    "url": "https://en.wikipedia.org/wiki/Masaya_Volcano",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q613424.webp",
+    "author": "Tabla",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Volcan_Masaya2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1537774",
+   "name": "Volcán Mombacho",
+   "label": "Volcán Mombacho",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-GR",
+   "country": "NI",
+   "lat": 11.8273,
+   "lon": -85.9599,
+   "rarity": "Rare",
+   "fame": 7350,
+   "facts": {
+    "elevation_m": 1345,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Mombacho Volcano Nature Reserve is one of 78 protected areas of Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mombacho",
+    "url": "https://en.wikipedia.org/wiki/Mombacho",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1537774.webp"
+   }
+  },
+  {
+   "id": "wd:Q272380",
+   "name": "Lake Managua",
+   "label": "Lake Managua",
+   "type": "nature",
+   "kind": "lake",
+   "region": "NI-MN",
+   "country": "NI",
+   "lat": 12.3333,
+   "lon": -86.4167,
+   "rarity": "Rare",
+   "fame": 21120,
+   "facts": {
+    "elevation_m": 39,
+    "area_km2": 1042,
+    "length_km": 58,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "At 1,042 km², it is approximately 65 kilometres long and 25 kilometres wide.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Managua",
+    "url": "https://en.wikipedia.org/wiki/Lake_Managua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q272380.webp",
+    "author": "Ryan Ballantyne -- ryos 21:39, 17 June 2006 (UTC)",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:LakeManagua_Tipitapa1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1156943",
+   "name": "Maderas",
+   "label": "Maderas",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-RI",
+   "country": "NI",
+   "lat": 11.4458,
+   "lon": -85.515,
+   "rarity": "Rare",
+   "fame": 4842,
+   "facts": {
+    "elevation_m": 1394,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "With a height of 1,394 metres, it is the smaller of the two volcanoes which make up the island of Ometepe in Lake Nicaragua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maderas",
+    "url": "https://en.wikipedia.org/wiki/Maderas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1156943.webp",
+    "author": "Wikiwanito",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Maderas_seen_from_the_South_by_ET.JPG"
+   }
+  },
+  {
+   "id": "wd:Q607078",
+   "name": "Volcán Cerro Negro",
+   "label": "Volcán Cerro Negro",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.5078,
+   "lon": -86.7033,
+   "rarity": "Rare",
+   "fame": 17562,
+   "facts": {
+    "elevation_m": 728,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Cerro Negro is an active volcano in the Cordillera de los Maribios mountain range in Nicaragua, about 10 km from the village of Malpaisillo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Negro",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Negro",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q607078.webp",
+    "author": "NicaPlease",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Negro_Volcano_Crater_Nicaragua_August_2011.jpg"
+   }
+  },
+  {
+   "id": "gn:3617147",
+   "name": "Momotombo",
+   "label": "Momotombo (León)",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.4049,
+   "lon": -86.6155,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3103,
+    "elevation_m": 45,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 3,103 people in León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3617147.webp"
+   }
+  },
+  {
+   "id": "gn:3616092",
+   "name": "Telica",
+   "label": "Telica (León)",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-LE",
+   "country": "NI",
+   "lat": 12.522,
+   "lon": -86.8594,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8776,
+    "elevation_m": 131,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 8,776 people in León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616092.webp"
+   }
+  },
+  {
+   "id": "gn:3616721",
+   "name": "San Juan de Río Coco",
+   "label": "San Juan de Río Coco",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-MD",
+   "country": "NI",
+   "lat": 13.5448,
+   "lon": -86.165,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3820,
+    "elevation_m": 822,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "A community of 3,820 people in Madriz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3616721.webp"
+   }
+  },
+  {
+   "id": "gn:3619267",
+   "name": "El Viejo",
+   "label": "El Viejo",
+   "type": "town",
+   "kind": "town",
+   "region": "NI-CI",
+   "country": "NI",
+   "lat": 12.6635,
+   "lon": -87.1666,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 53504,
+    "elevation_m": 49,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "A community of 53,504 people in Chinandega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3619267.webp"
+   }
+  }
+ ]
+}

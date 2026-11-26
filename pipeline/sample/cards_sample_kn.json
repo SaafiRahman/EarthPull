@@ -1,0 +1,1216 @@
+{
+ "note": "Sample of the Saint Kitts and Nevis card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q1269774",
+   "name": "Mount Liamuiga",
+   "label": "Mount Liamuiga",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "KN-06",
+   "country": "KN",
+   "lat": 17.3667,
+   "lon": -62.8,
+   "rarity": "Common",
+   "fame": 8364,
+   "facts": {
+    "elevation_m": 1156,
+    "prominence_m": 1156,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Mount Liamuiga is a 1,156-metre stratovolcano which forms the north-western part of the island of Saint Kitts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mount Liamuiga",
+    "url": "https://en.wikipedia.org/wiki/Mount_Liamuiga",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1269774.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS022-E-39042_-_View_of_the_Lesser_Antilles.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4928095",
+   "name": "Bloody River",
+   "label": "Bloody River",
+   "type": "nature",
+   "kind": "river",
+   "region": "KN-13",
+   "country": "KN",
+   "lat": 17.3031,
+   "lon": -62.7886,
+   "rarity": "Common",
+   "fame": 786,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Bloody River or Stone Fort River is a river or ghaut in Saint Kitts which starts from the South East Range.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bloody River",
+    "url": "https://en.wikipedia.org/wiki/Bloody_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4928095.webp"
+   }
+  },
+  {
+   "id": "wd:Q5504478",
+   "name": "Frigate Bay",
+   "label": "Frigate Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2667,
+   "lon": -62.6833,
+   "rarity": "Common",
+   "fame": 2160,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Frigate Bay is the name of two bays located close together on the island of Saint Kitts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Frigate Bay",
+    "url": "https://en.wikipedia.org/wiki/Frigate_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5504478.webp",
+    "author": "WilliamTorrillo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Frigate_Bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7587066",
+   "name": "St. Anthony's Peak",
+   "label": "St. Anthony's Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2453,
+   "lon": -62.6342,
+   "rarity": "Common",
+   "fame": 216,
+   "facts": {
+    "elevation_m": 234,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "St. Anthony's Peak is a peak on the island of Saint Kitts in Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Anthony's Peak",
+    "url": "https://en.wikipedia.org/wiki/St._Anthony%27s_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7587066.webp"
+   }
+  },
+  {
+   "id": "wd:Q7921002",
+   "name": "Verchild's Peak",
+   "label": "Verchild's Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "KN-01",
+   "country": "KN",
+   "lat": 17.35,
+   "lon": -62.7833,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "elevation_m": 612,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Verchild's Peak is a prominent mountain on the island of Saint Kitts in the country of Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Verchild's Peak",
+    "url": "https://en.wikipedia.org/wiki/Verchild%27s_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7921002.webp"
+   }
+  },
+  {
+   "id": "wd:Q892946",
+   "name": "Booby Island",
+   "label": "Booby Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2269,
+   "lon": -62.6104,
+   "rarity": "Common",
+   "fame": 2796,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.0,
+    "length_km": 0.1,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is found in the Narrows, the channel between the islands of Saint Kitts and Nevis, about midway between the two.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Booby Island (Saint Kitts and Nevis)",
+    "url": "https://en.wikipedia.org/wiki/Booby_Island_%28Saint_Kitts_and_Nevis%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q892946.webp"
+   }
+  },
+  {
+   "id": "wd:Q7087246",
+   "name": "Olivees Mountain",
+   "label": "Olivees Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "KN-14",
+   "country": "KN",
+   "lat": 17.3167,
+   "lon": -62.75,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 366,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Olivees Mountain is the third highest peak on the island of Saint Kitts in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Olivees Mountain",
+    "url": "https://en.wikipedia.org/wiki/Olivees_Mountain",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7087246.webp"
+   }
+  },
+  {
+   "id": "wd:Q18343420",
+   "name": "Kittitian Hill",
+   "label": "Kittitian Hill",
+   "type": "nature",
+   "kind": "hill",
+   "region": "KN-09",
+   "country": "KN",
+   "lat": 17.3875,
+   "lon": -62.8303,
+   "rarity": "Common",
+   "fame": 1230,
+   "facts": {
+    "elevation_m": 221,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It is set on the hillside with 400 acres of steep contours and flat coastal plain on the north coast between Mount Liamuiga and the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Kittitian Hill",
+    "url": "https://en.wikipedia.org/wiki/Kittitian_Hill",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q18343420.webp",
+    "author": "Johnmacullef",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kittitian_Hill_-_Forest.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q7567319",
+   "name": "South Friar's Bay",
+   "label": "South Friar's Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2667,
+   "lon": -62.6667,
+   "rarity": "Common",
+   "fame": 984,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is one of the two bays that stretch along the coast of the isthmus connecting the Southeast Peninsula, with the rest of the island of Saint Kitts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "South Friar's Bay",
+    "url": "https://en.wikipedia.org/wiki/South_Friar%27s_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7567319.webp",
+    "author": "Fred Hsu on en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_02_FRD_Caribbean_Cruise_South_Friars_Bay_S0767183.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7055456",
+   "name": "North Friar's Bay",
+   "label": "North Friar's Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2833,
+   "lon": -62.6667,
+   "rarity": "Common",
+   "fame": 120,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "North Friar's Bay is one of the two bays that stretch along the coast of the isthmus connecting the Southeast Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "North Friar's Bay",
+    "url": "https://en.wikipedia.org/wiki/North_Friar%27s_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7055456.webp",
+    "author": "David Stanley from Nanaimo, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Kitts_Peninsula_(49940014048).jpg"
+   }
+  },
+  {
+   "id": "wd:Q1982346",
+   "name": "Nevis Peak",
+   "label": "Nevis Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "KN-12",
+   "country": "KN",
+   "lat": 17.1528,
+   "lon": -62.5828,
+   "rarity": "Common",
+   "fame": 6450,
+   "facts": {
+    "elevation_m": 985,
+    "prominence_m": 985,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Nevis Peak is a potentially active volcano which is located in the centre of the island of Nevis of the Federation of Saint Kitts and Nevis in the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nevis Peak",
+    "url": "https://en.wikipedia.org/wiki/Nevis_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1982346.webp",
+    "author": "Jensonmorton at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nevispeak1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5599912",
+   "name": "Great Salt Pond",
+   "label": "Great Salt Pond",
+   "type": "nature",
+   "kind": "lake",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2333,
+   "lon": -62.65,
+   "rarity": "Common",
+   "fame": 828,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is located on the Southeast Peninsula of Saint Kitts, and is by Little Salt Pond to the west.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Salt Pond",
+    "url": "https://en.wikipedia.org/wiki/Great_Salt_Pond",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5599912.webp"
+   }
+  },
+  {
+   "id": "gn:3575186",
+   "name": "Sadlers",
+   "label": "Sadlers",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-06",
+   "country": "KN",
+   "lat": 17.4045,
+   "lon": -62.793,
+   "rarity": "Common",
+   "fame": 444,
+   "facts": {
+    "population": 1205,
+    "elevation_m": 47,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Saddlers is a town in Saint John Capesterre Parish, on Saint Kitts island in Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saddlers",
+    "url": "https://en.wikipedia.org/wiki/Saddlers",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575186.webp",
+    "author": "David Broad",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_at_Saddlers_on_St_Kitts_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3575240",
+   "name": "Old Road Town",
+   "label": "Old Road Town",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-13",
+   "country": "KN",
+   "lat": 17.3222,
+   "lon": -62.8034,
+   "rarity": "Common",
+   "fame": 1392,
+   "facts": {
+    "population": 1647,
+    "elevation_m": 18,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is in Saint Thomas Middle Island Parish, and just to the east of Middle Island town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Old Road Town",
+    "url": "https://en.wikipedia.org/wiki/Old_Road_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575240.webp"
+   }
+  },
+  {
+   "id": "wd:Q1640640",
+   "name": "Warner Park Sporting Complex",
+   "label": "Warner Park Sporting Complex",
+   "type": "built",
+   "kind": "stadium",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2986,
+   "lon": -62.7219,
+   "rarity": "Epic",
+   "fame": 9276,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It includes the Warner Park Stadium, which was one of the hosts for the 2007 Cricket World Cup.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Warner Park Sporting Complex",
+    "url": "https://en.wikipedia.org/wiki/Warner_Park_Sporting_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1640640.webp",
+    "author": "St Kitts & Nevis Government; permission: https://www.flickr.com/photos/skngov/14733563912",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Warner_Park_Cricket_Stadium.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4868078",
+   "name": "Co-Cathedral of Immaculate Conception, Basseterre",
+   "label": "Co-Cathedral of Immaculate Conception, Basseterre",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2964,
+   "lon": -62.7214,
+   "rarity": "Epic",
+   "fame": 1644,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The Basseterre Co-Cathedral of Immaculate Conception is a cathedral in the city of Basseterre, St. Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basseterre Co-Cathedral of Immaculate Conception",
+    "url": "https://en.wikipedia.org/wiki/Basseterre_Co-Cathedral_of_Immaculate_Conception",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4868078.webp",
+    "author": "Gertjan R.",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basseterre_Co-Cathedral_of_Immaculate_Conception_2.JPG"
+   }
+  },
+  {
+   "id": "wd:Q200521",
+   "name": "Brimstone Hill Fortress National Park",
+   "label": "Brimstone Hill Fortress National Park",
+   "type": "nature",
+   "kind": "hill",
+   "region": "KN-02",
+   "country": "KN",
+   "lat": 17.347,
+   "lon": -62.836,
+   "rarity": "Epic",
+   "fame": 9996,
+   "facts": {
+    "elevation_m": 212,
+    "area_km2": 0.2,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Brimstone Hill Fortress National Park is a UNESCO World Heritage Site, a well-preserved fortress on a hill on the island of St. Kitts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Brimstone Hill Fortress National Park",
+    "url": "https://en.wikipedia.org/wiki/Brimstone_Hill_Fortress_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q200521.webp",
+    "author": "Ukexpat",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BrimstoneHill01.jpg"
+   }
+  },
+  {
+   "id": "gn:3575479",
+   "name": "Charlestown",
+   "label": "Charlestown",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-10",
+   "country": "KN",
+   "lat": 17.1333,
+   "lon": -62.6167,
+   "rarity": "Epic",
+   "fame": 90978,
+   "facts": {
+    "population": 1538,
+    "elevation_m": 46,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Charlestown is the capital of the island of Nevis in the Federation of Saint Kitts and Nevis in the Leeward Islands of the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Charlestown, Nevis",
+    "url": "https://en.wikipedia.org/wiki/Charlestown%2C_Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575479.webp"
+   }
+  },
+  {
+   "id": "gn:3575458",
+   "name": "Cotton Ground",
+   "label": "Cotton Ground",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-12",
+   "country": "KN",
+   "lat": 17.1667,
+   "lon": -62.6167,
+   "rarity": "Epic",
+   "fame": 594,
+   "facts": {
+    "population": 381,
+    "elevation_m": 83,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is the capital of Saint Thomas Lowland Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cotton Ground",
+    "url": "https://en.wikipedia.org/wiki/Cotton_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575458.webp"
+   }
+  },
+  {
+   "id": "gn:3575296",
+   "name": "Market Shop",
+   "label": "Market Shop",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-04",
+   "country": "KN",
+   "lat": 17.1322,
+   "lon": -62.5727,
+   "rarity": "Epic",
+   "fame": 468,
+   "facts": {
+    "population": 2568,
+    "elevation_m": 220,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is the capital of the Saint George Gingerland Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Market Shop, Saint Kitts and Nevis",
+    "url": "https://en.wikipedia.org/wiki/Market_Shop%2C_Saint_Kitts_and_Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575296.webp"
+   }
+  },
+  {
+   "id": "gn:3575423",
+   "name": "Fig Tree",
+   "label": "Fig Tree",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-07",
+   "country": "KN",
+   "lat": 17.1262,
+   "lon": -62.6026,
+   "rarity": "Epic",
+   "fame": 708,
+   "facts": {
+    "population": 2922,
+    "elevation_m": 115,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is the capital of Saint John Figtree Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Figtree, Saint Kitts and Nevis",
+    "url": "https://en.wikipedia.org/wiki/Figtree%2C_Saint_Kitts_and_Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575423.webp"
+   }
+  },
+  {
+   "id": "gn:3575251",
+   "name": "Nicola Town",
+   "label": "Nicola Town",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-01",
+   "country": "KN",
+   "lat": 17.3796,
+   "lon": -62.7532,
+   "rarity": "Epic",
+   "fame": 558,
+   "facts": {
+    "population": 2059,
+    "elevation_m": 47,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Nichola Town is a town in the northeast of the island of Saint Kitts, in Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nichola Town",
+    "url": "https://en.wikipedia.org/wiki/Nichola_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575251.webp"
+   }
+  },
+  {
+   "id": "gn:3575156",
+   "name": "Sandy Point Town",
+   "label": "Sandy Point Town",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-02",
+   "country": "KN",
+   "lat": 17.3591,
+   "lon": -62.8486,
+   "rarity": "Epic",
+   "fame": 1746,
+   "facts": {
+    "population": 3140,
+    "elevation_m": 23,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Sandy Point is the second-largest town on the island of Saint Kitts, Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sandy Point Town",
+    "url": "https://en.wikipedia.org/wiki/Sandy_Point_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575156.webp",
+    "author": "Jensonmorton at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Sandy_point_town.jpg"
+   }
+  },
+  {
+   "id": "gn:3575115",
+   "name": "Trinity",
+   "label": "Trinity",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-14",
+   "country": "KN",
+   "lat": 17.3004,
+   "lon": -62.7758,
+   "rarity": "Epic",
+   "fame": 528,
+   "facts": {
+    "population": 1692,
+    "elevation_m": 41,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is located to the west of the capital Basseterre, on the main road to Old Road Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Trinity, Saint Kitts and Nevis",
+    "url": "https://en.wikipedia.org/wiki/Trinity%2C_Saint_Kitts_and_Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575115.webp"
+   }
+  },
+  {
+   "id": "gn:3575170",
+   "name": "Saint Paul’s",
+   "label": "Saint Paul’s",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-09",
+   "country": "KN",
+   "lat": 17.4061,
+   "lon": -62.8356,
+   "rarity": "Epic",
+   "fame": 642,
+   "facts": {
+    "population": 2460,
+    "elevation_m": 59,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Saint Paul Capisterre is a town in Saint Paul Capisterre Parish on the island of Saint Kitts in Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Paul Capisterre",
+    "url": "https://en.wikipedia.org/wiki/Saint_Paul_Capisterre",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575170.webp"
+   }
+  },
+  {
+   "id": "gn:3575292",
+   "name": "Middle Island",
+   "label": "Middle Island",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-13",
+   "country": "KN",
+   "lat": 17.3259,
+   "lon": -62.8105,
+   "rarity": "Epic",
+   "fame": 402,
+   "facts": {
+    "population": 2332,
+    "elevation_m": 14,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Middle Island is a town located on the west coast of Saint Kitts island, in Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Middle Island, Saint Kitts and Nevis",
+    "url": "https://en.wikipedia.org/wiki/Middle_Island%2C_Saint_Kitts_and_Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3575292.webp"
+   }
+  },
+  {
+   "id": "gn:3575261",
+   "name": "Newcastle",
+   "label": "Newcastle",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-05",
+   "country": "KN",
+   "lat": 17.2,
+   "lon": -62.5833,
+   "rarity": "Epic",
+   "fame": 1032,
+   "facts": {
+    "population": 493,
+    "elevation_m": 27,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It is the capital of Saint James Windward Parish.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Newcastle, Saint Kitts and Nevis",
+    "url": "https://en.wikipedia.org/wiki/Newcastle%2C_Saint_Kitts_and_Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575261.webp",
+    "author": "Yusuke Toyoda",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vance_Amory_Airport_facade,_June_2006.jpg"
+   }
+  },
+  {
+   "id": "gn:3575551",
+   "name": "Basseterre",
+   "label": "Basseterre",
+   "type": "town",
+   "kind": "town",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2955,
+   "lon": -62.725,
+   "rarity": "Legendary",
+   "fame": 79386,
+   "facts": {
+    "population": 12920,
+    "elevation_m": -22,
+    "area_km2": 6.5,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Basseterre is the capital and largest city of Saint Kitts and Nevis with an estimated population of 14,000 in 2018.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basseterre",
+    "url": "https://en.wikipedia.org/wiki/Basseterre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575551.webp",
+    "author": "J. Stephen Conn",
+    "licence": "CC BY-SA 1.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basseterre.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q6016183",
+   "name": "Independence Square",
+   "label": "Independence Square",
+   "type": "built",
+   "kind": "square",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2961,
+   "lon": -62.7223,
+   "rarity": "Rare",
+   "fame": 1134,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It was named on the occasion of St. Kitts and Nevis achieving political independence on September 19, 1983.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Independence Square (Basseterre)",
+    "url": "https://en.wikipedia.org/wiki/Independence_Square_%28Basseterre%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6016183.webp",
+    "author": "Gertjan R.",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Independence_Square_with_fountain_and_Basseterre_Co-Cathedral_of_Immaculate_Conception.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7196352",
+   "name": "Pinney's Beach",
+   "label": "Pinney's Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "KN-12",
+   "country": "KN",
+   "lat": 17.1529,
+   "lon": -62.6288,
+   "rarity": "Rare",
+   "fame": 1578,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Pinney's Beach, also spelled Pinneys Beach, is a very long sandy beach on the western Caribbean coast of the island of Nevis, in Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pinney's Beach",
+    "url": "https://en.wikipedia.org/wiki/Pinney%27s_Beach",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7196352.webp",
+    "author": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nevis_Pinney%27s_Beach.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7588089",
+   "name": "St. George's Anglican Church",
+   "label": "St. George's Anglican Church",
+   "type": "built",
+   "kind": "church",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2962,
+   "lon": -62.7191,
+   "rarity": "Rare",
+   "fame": 1308,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "St. George's Anglican Church is an Anglican parish church and Pro-Cathedral in Basseterre, Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. George's Anglican Church (Basseterre)",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s_Anglican_Church_%28Basseterre%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7588089.webp",
+    "author": "J. Stephen Conn",
+    "licence": "CC BY-SA 1.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basseterre_st_georges_angl.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q24039674",
+   "name": "St. Theresa Church, Charlestown",
+   "label": "St. Theresa Church, Charlestown",
+   "type": "built",
+   "kind": "church",
+   "region": "KN-12",
+   "country": "KN",
+   "lat": 17.1431,
+   "lon": -62.6288,
+   "rarity": "Rare",
+   "fame": 420,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The St. Theresa Church and alternatively St. Theresa Parish, is a religious building of the Catholic church that is located in Main Road in the town of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Theresa Church, Charlestown",
+    "url": "https://en.wikipedia.org/wiki/St._Theresa_Church%2C_Charlestown",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24039674.webp"
+   }
+  },
+  {
+   "id": "wd:Q41575364",
+   "name": "National Museum of Saint Kitts",
+   "label": "National Museum of Saint Kitts",
+   "type": "built",
+   "kind": "former custom house",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2946,
+   "lon": -62.7237,
+   "rarity": "Rare",
+   "fame": 804,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "It is run by the St. Christopher National Trust.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Museum of Saint Kitts",
+    "url": "https://en.wikipedia.org/wiki/National_Museum_of_Saint_Kitts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q41575364.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karibik,_St._Kitts_-_The_National_Museum_of_St._Kitts_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4892058",
+   "name": "Berkeley Memorial",
+   "label": "Berkeley Memorial",
+   "type": "built",
+   "kind": "fountain",
+   "region": "KN-03",
+   "country": "KN",
+   "lat": 17.2953,
+   "lon": -62.7237,
+   "rarity": "Rare",
+   "fame": 1188,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The Berkeley Memorial stands in the centre of the Circus in Basseterre, Saint Kitts and Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Berkeley Memorial",
+    "url": "https://en.wikipedia.org/wiki/Berkeley_Memorial",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4892058.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:St.Kitts,_Berkeley_Fountain.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5470906",
+   "name": "Fort Charles",
+   "label": "Fort Charles",
+   "type": "built",
+   "kind": "fort",
+   "region": "KN-10",
+   "country": "KN",
+   "lat": 17.1328,
+   "lon": -62.6333,
+   "rarity": "Rare",
+   "fame": 1014,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Fort Charles is an abandoned British fort situated on the island of Nevis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort Charles (Nevis)",
+    "url": "https://en.wikipedia.org/wiki/Fort_Charles_%28Nevis%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5470906.webp",
+    "author": "Icelandic Hurricane at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:FortCharles.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5588886",
+   "name": "Government House, Saint Christopher and Nevis",
+   "label": "Government House, Saint Christopher and Nevis",
+   "type": "built",
+   "kind": "building of public administration",
+   "region": "KN-14",
+   "country": "KN",
+   "lat": 17.2989,
+   "lon": -62.7322,
+   "rarity": "Rare",
+   "fame": 564,
+   "facts": {
+    "elevation_m": 48,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Government House, also known as Springfield House, is the official residence of the governor-general of Saint Kitts and Nevis, currently Dame Marcella Liburd.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Government House, Basseterre",
+    "url": "https://en.wikipedia.org/wiki/Government_House%2C_Basseterre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5588886.webp",
+    "author": "Government of Saint Kitts and Nevis",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Government_House,_Basseterre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q207794",
+   "name": "Nevis",
+   "label": "Nevis",
+   "type": "nature",
+   "kind": "island",
+   "region": "KN-12",
+   "country": "KN",
+   "lat": 17.15,
+   "lon": -62.5833,
+   "rarity": "Rare",
+   "fame": 160890,
+   "facts": {
+    "elevation_m": 950,
+    "area_km2": 93,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Nevis is an island in the Caribbean Sea that forms part of the inner arc of the Leeward Islands chain of the West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nevis",
+    "url": "https://en.wikipedia.org/wiki/Nevis",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q207794.webp",
+    "author": "Brian Tibbets Btibbets at en.wikipedia (www.tibbets.org)",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nevis_2008.jpg"
+   }
+  },
+  {
+   "id": "wd:Q204989",
+   "name": "Saint Kitts",
+   "label": "Saint Kitts",
+   "type": "nature",
+   "kind": "island",
+   "region": "KN-14",
+   "country": "KN",
+   "lat": 17.3197,
+   "lon": -62.7472,
+   "rarity": "Rare",
+   "fame": 247362,
+   "facts": {
+    "elevation_m": 371,
+    "area_km2": 179,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "The west side of the island borders the Caribbean Sea, and the eastern coast faces the Atlantic Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Saint Kitts",
+    "url": "https://en.wikipedia.org/wiki/Saint_Kitts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q204989.webp",
+    "author": "Fred Hsu on en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_02_FRD_Caribbean_Cruise_S0577137.jpg"
+   }
+  }
+ ]
+}

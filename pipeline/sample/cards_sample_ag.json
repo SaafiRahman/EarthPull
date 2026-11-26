@@ -1,0 +1,1648 @@
+{
+ "note": "Sample of the Antigua and Barbuda card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q15856886",
+   "name": "Bethesda Dam",
+   "label": "Bethesda Dam",
+   "type": "nature",
+   "kind": "lake",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.044,
+   "lon": -61.7552,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Bethesda Dam is a reservoir in Saint Paul, Antigua and Barbuda near Bethesda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bethesda Dam",
+    "url": "https://en.wikipedia.org/wiki/Bethesda_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q15856886.webp"
+   }
+  },
+  {
+   "id": "wd:Q5167174",
+   "name": "Cooks Creek",
+   "label": "Cooks Creek",
+   "type": "nature",
+   "kind": "river",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1,
+   "lon": -61.8667,
+   "rarity": "Common",
+   "fame": 264,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Valley Road passes over the stream on Big Creek Bridge.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cooks Creek (Antigua)",
+    "url": "https://en.wikipedia.org/wiki/Cooks_Creek_%28Antigua%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5167174.webp"
+   }
+  },
+  {
+   "id": "wd:Q16318751",
+   "name": "Christian Cove",
+   "label": "Christian Cove",
+   "type": "nature",
+   "kind": "bay",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0414,
+   "lon": -61.7425,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is a part of Willoughby Bay, one of the island's largest bays.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Christian Cove",
+    "url": "https://en.wikipedia.org/wiki/Christian_Cove",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16318751.webp",
+    "author": "CROIX",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crossroads_Centre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6801990",
+   "name": "McKinnon's Pond",
+   "label": "McKinnon's Pond",
+   "type": "nature",
+   "kind": "lake",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.146,
+   "lon": -61.852,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "McKinnon's Pond is located just north of St. John's, Antigua and Barbuda, the largest city in the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "McKinnon's Pond",
+    "url": "https://en.wikipedia.org/wiki/McKinnon%27s_Pond",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6801990.webp",
+    "author": "CROIX",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:McKinnon%27s_Salt_Pond.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21052880",
+   "name": "Sage Hill",
+   "label": "Sage Hill",
+   "type": "nature",
+   "kind": "hill",
+   "region": "AG-05",
+   "country": "AG",
+   "lat": 17.0454,
+   "lon": -61.8385,
+   "rarity": "Common",
+   "fame": 156,
+   "facts": {
+    "elevation_m": 238,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Sage Hill is a mountain and the third highest point in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sage Hill (Antigua)",
+    "url": "https://en.wikipedia.org/wiki/Sage_Hill_%28Antigua%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21052880.webp"
+   }
+  },
+  {
+   "id": "wd:Q7235441",
+   "name": "Potworks Dam",
+   "label": "Potworks Dam",
+   "type": "nature",
+   "kind": "lake",
+   "region": "AG-07",
+   "country": "AG",
+   "lat": 17.0642,
+   "lon": -61.7486,
+   "rarity": "Common",
+   "fame": 426,
+   "facts": {
+    "elevation_m": 17,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "One of the most significant water treatment facilities on the island is located on the southern shore at the Delaps Water Treatment Plant.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Potworks Dam",
+    "url": "https://en.wikipedia.org/wiki/Potworks_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7235441.webp"
+   }
+  },
+  {
+   "id": "wd:Q21052629",
+   "name": "Monteros Hill",
+   "label": "Monteros Hill",
+   "type": "nature",
+   "kind": "hill",
+   "region": "AG-05",
+   "country": "AG",
+   "lat": 17.0841,
+   "lon": -61.8686,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 146,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Monteros Hill is located in the northern part of Saint Mary, Antigua and Barbuda, overlooking the Montero Plain.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monteros Hill",
+    "url": "https://en.wikipedia.org/wiki/Monteros_Hill",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21052629.webp"
+   }
+  },
+  {
+   "id": "wd:Q109461971",
+   "name": "Monks Hill",
+   "label": "Monks Hill",
+   "type": "nature",
+   "kind": "hill",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0308,
+   "lon": -61.7775,
+   "rarity": "Common",
+   "fame": 210,
+   "facts": {
+    "elevation_m": 193,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Monks Hill is located at the very eastern end of the Shekerley Mountains of Saint Paul, Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monks Hill (Antigua)",
+    "url": "https://en.wikipedia.org/wiki/Monks_Hill_%28Antigua%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q109461971.webp"
+   }
+  },
+  {
+   "id": "wd:Q21052054",
+   "name": "Cade Peak",
+   "label": "Cade Peak",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "AG-05",
+   "country": "AG",
+   "lat": 17.0287,
+   "lon": -61.8488,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 153,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Cades Peak is one of the Shekerley Mountains of Saint Mary, Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cades Peak",
+    "url": "https://en.wikipedia.org/wiki/Cades_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21052054.webp"
+   }
+  },
+  {
+   "id": "wd:Q21054832",
+   "name": "Shirley Heights",
+   "label": "Shirley Heights",
+   "type": "nature",
+   "kind": "hill",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0,
+   "lon": -61.75,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "elevation_m": 62,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A hill in Saint Paul.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21054832.webp"
+   }
+  },
+  {
+   "id": "wd:Q21052856",
+   "name": "Rendezvous Bay",
+   "label": "Rendezvous Bay",
+   "type": "nature",
+   "kind": "lake",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0108,
+   "lon": -61.8034,
+   "rarity": "Common",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Rendezvous Bay, sometimes referred to as Doig's, is an official historic site and former sugar estate on the border of Saint Paul and Saint Mary.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rendezvous Bay",
+    "url": "https://en.wikipedia.org/wiki/Rendezvous_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q21052856.webp"
+   }
+  },
+  {
+   "id": "wd:Q11683779",
+   "name": "Green Island",
+   "label": "Green Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-08",
+   "country": "AG",
+   "lat": 17.0705,
+   "lon": -61.6667,
+   "rarity": "Common",
+   "fame": 1278,
+   "facts": {
+    "elevation_m": 17,
+    "area_km2": 0.4,
+    "length_km": 2.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is a private island that has been owned by the Mill Reef Club since 1947.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Green Island (Antigua and Barbuda)",
+    "url": "https://en.wikipedia.org/wiki/Green_Island_%28Antigua_and_Barbuda%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q11683779.webp",
+    "author": "Andrew Moore",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_green_island_antigua_2015.jpg"
+   }
+  },
+  {
+   "id": "gn:13561025",
+   "name": "Sugar Factory",
+   "label": "Sugar Factory",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.0884,
+   "lon": -61.8175,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1051,
+    "elevation_m": 1.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,051 people in Saint John.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13561025.webp"
+   }
+  },
+  {
+   "id": "gn:13590585",
+   "name": "St. Peter Parish",
+   "label": "St. Peter Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-08",
+   "country": "AG",
+   "lat": 17.0849,
+   "lon": -61.7122,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5325,
+    "elevation_m": 1.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 5,325 people in Saint Philip.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13590585.webp"
+   }
+  },
+  {
+   "id": "gn:3576094",
+   "name": "New Winthorpes",
+   "label": "New Winthorpes",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-03",
+   "country": "AG",
+   "lat": 17.1457,
+   "lon": -61.8134,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1266,
+    "elevation_m": 63,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,266 people in Saint George.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576094.webp"
+   }
+  },
+  {
+   "id": "gn:13590587",
+   "name": "St. Philip Parish",
+   "label": "St. Philip Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-08",
+   "country": "AG",
+   "lat": 17.0543,
+   "lon": -61.7272,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3347,
+    "elevation_m": 1.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 3,347 people in Saint Philip.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13590587.webp"
+   }
+  },
+  {
+   "id": "gn:3576144",
+   "name": "Liberta",
+   "label": "Liberta",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0414,
+   "lon": -61.7905,
+   "rarity": "Common",
+   "fame": 1398,
+   "facts": {
+    "population": 2560,
+    "elevation_m": 69,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Liberta is a village located in Saint Paul, Antigua and Barbuda It had a population of 2,003 in 2011 over 3.94 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Liberta, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Liberta%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576144.webp",
+    "author": "Edgar El",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Barnabas_Anglican_Church_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3576050",
+   "name": "Potters Village",
+   "label": "Potters Village",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1134,
+   "lon": -61.8196,
+   "rarity": "Common",
+   "fame": 1152,
+   "facts": {
+    "population": 1433,
+    "elevation_m": 29,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located in the north of the island, to the east of the capital, St. John's and southwest of Piggotts.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Potters Village",
+    "url": "https://en.wikipedia.org/wiki/Potters_Village",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576050.webp",
+    "author": "CROIX",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Potters_Village_01.jpg"
+   }
+  },
+  {
+   "id": "gn:3575940",
+   "name": "Willikies",
+   "label": "Willikies",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-08",
+   "country": "AG",
+   "lat": 17.0868,
+   "lon": -61.7093,
+   "rarity": "Common",
+   "fame": 1434,
+   "facts": {
+    "population": 1270,
+    "elevation_m": 41,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Willikies is a small settlement in the parish of Saint Philip, located in the eastern part of Antigua island in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Willikies",
+    "url": "https://en.wikipedia.org/wiki/Willikies",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575940.webp",
+    "author": "CROIX",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wilikies_in_2023.jpg"
+   }
+  },
+  {
+   "id": "gn:13590583",
+   "name": "Barbuda Parish",
+   "label": "Barbuda Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-10",
+   "country": "AG",
+   "lat": 17.624,
+   "lon": -61.7765,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1634,
+    "elevation_m": 1.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "A community of 1,634 people in Barbuda.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13590583.webp"
+   }
+  },
+  {
+   "id": "wd:Q1937335",
+   "name": "Sir Vivian Richards Stadium",
+   "label": "Sir Vivian Richards Stadium",
+   "type": "built",
+   "kind": "cricket field",
+   "region": "AG-03",
+   "country": "AG",
+   "lat": 17.1033,
+   "lon": -61.7848,
+   "rarity": "Epic",
+   "fame": 14982,
+   "facts": {
+    "elevation_m": 7.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It was built for use in the 2007 Cricket World Cup where it hosted Super 8 matches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sir Vivian Richards Stadium",
+    "url": "https://en.wikipedia.org/wiki/Sir_Vivian_Richards_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1937335.webp",
+    "author": "Original uploader was ShattaAD at en.wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Sir_Vivian_Richards_Stadium_aerial_view_Oct_2006.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1435206",
+   "name": "Nelson's Dockyard",
+   "label": "Nelson's Dockyard",
+   "type": "built",
+   "kind": "harbor museum",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0083,
+   "lon": -61.7644,
+   "rarity": "Epic",
+   "fame": 16392,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Nelson's Dockyard is a cultural heritage site and marina in English Harbour, located in Saint Paul on the Caribbean island of Antigua, in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nelson's Dockyard",
+    "url": "https://en.wikipedia.org/wiki/Nelson%27s_Dockyard",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1435206.webp",
+    "author": "David Stanley",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nelson%27s_Dockyard.jpg"
+   }
+  },
+  {
+   "id": "wd:Q316390",
+   "name": "Antigua",
+   "label": "Antigua",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.085,
+   "lon": -61.8,
+   "rarity": "Epic",
+   "fame": 336204,
+   "facts": {
+    "elevation_m": 67,
+    "area_km2": 281,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is one of the Leeward Islands in the Caribbean region and the most populous island of the country of Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antigua",
+    "url": "https://en.wikipedia.org/wiki/Antigua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q316390.webp",
+    "author": "Calyponte",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antiguashoreline.jpg"
+   }
+  },
+  {
+   "id": "wd:Q238752",
+   "name": "Barbuda",
+   "label": "Barbuda",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-10",
+   "country": "AG",
+   "lat": 17.64,
+   "lon": -61.81,
+   "rarity": "Epic",
+   "fame": 70182,
+   "facts": {
+    "elevation_m": 122,
+    "area_km2": 161,
+    "length_km": 24,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Barbuda is an island and dependency located in the eastern Caribbean forming part of the twin-island state of Antigua and Barbuda as an autonomous entity.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q238752.webp",
+    "author": "Image Science and Analysis Laboratory, NASA-Johnson Space Center.",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Barbuda_ISS008-E-7945.jpg"
+   }
+  },
+  {
+   "id": "gn:3576260",
+   "name": "Falmouth",
+   "label": "Falmouth",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0274,
+   "lon": -61.7814,
+   "rarity": "Epic",
+   "fame": 1812,
+   "facts": {
+    "population": 619,
+    "elevation_m": 25,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Falmouth is a coastal port town located in Saint Paul Parish on the island of Antigua, in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Falmouth, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Falmouth%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576260.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:English_Harbour_and_Falmouth_Harbour_on_Antigua.jpg"
+   }
+  },
+  {
+   "id": "gn:3576236",
+   "name": "Freetown",
+   "label": "Freetown",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-08",
+   "country": "AG",
+   "lat": 17.0479,
+   "lon": -61.7033,
+   "rarity": "Epic",
+   "fame": 798,
+   "facts": {
+    "population": 623,
+    "elevation_m": 82,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located in the southeast of the island, on a peninsula between Willoughby Bay to the south and Nonsuch Bay to the north.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Freetown, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Freetown%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576236.webp"
+   }
+  },
+  {
+   "id": "gn:3576057",
+   "name": "Piggotts",
+   "label": "Piggotts",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-03",
+   "country": "AG",
+   "lat": 17.1167,
+   "lon": -61.8,
+   "rarity": "Epic",
+   "fame": 1854,
+   "facts": {
+    "population": 1878,
+    "elevation_m": 11,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Piggotts, also known as St. Mark's Village, is a village in Saint George Parish on Antigua island in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Piggotts",
+    "url": "https://en.wikipedia.org/wiki/Piggotts",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576057.webp",
+    "author": "CROIX",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Driving_in_Piggotts_near_Paynters.jpg"
+   }
+  },
+  {
+   "id": "gn:3576311",
+   "name": "Codrington",
+   "label": "Codrington",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-10",
+   "country": "AG",
+   "lat": 17.6394,
+   "lon": -61.8244,
+   "rarity": "Epic",
+   "fame": 792,
+   "facts": {
+    "population": 1325,
+    "elevation_m": 1.0,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Codrington is the only village on the island of Barbuda, which is part of the country of Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Codrington, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Codrington%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576311.webp",
+    "author": "Image Science and Analysis Laboratory, NASA-Johnson Space Center.",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Barbuda_ISS008-E-7945.jpg"
+   }
+  },
+  {
+   "id": "gn:13590582",
+   "name": "St. Paul Parish",
+   "label": "St. Paul Parish",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0234,
+   "lon": -61.7693,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 8128,
+    "elevation_m": 8.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 8,128 people in Saint Paul.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13590582.webp"
+   }
+  },
+  {
+   "id": "gn:3576361",
+   "name": "Bolands",
+   "label": "Bolands",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-05",
+   "country": "AG",
+   "lat": 17.0657,
+   "lon": -61.8747,
+   "rarity": "Epic",
+   "fame": 2550,
+   "facts": {
+    "population": 1657,
+    "elevation_m": 9.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Bolans is the largest settlement in Saint Mary, Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bolans",
+    "url": "https://en.wikipedia.org/wiki/Bolans",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576361.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antigua_-_Bolands_%E2%80%93_Jennings_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3576074",
+   "name": "Parham",
+   "label": "Parham",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-07",
+   "country": "AG",
+   "lat": 17.0968,
+   "lon": -61.7705,
+   "rarity": "Epic",
+   "fame": 1890,
+   "facts": {
+    "population": 969,
+    "elevation_m": 18,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Parham, officially known as the Town of Parham, is the capital of Saint Peter, the largest city in Saint Peter.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parham, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Parham%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576074.webp",
+    "author": "Dr. Thomas Liptak",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antigua_Parham_St._Peter%27s.jpg"
+   }
+  },
+  {
+   "id": "gn:3576022",
+   "name": "Saint John’s",
+   "label": "Saint John’s",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.121,
+   "lon": -61.8433,
+   "rarity": "Legendary",
+   "fame": 71502,
+   "facts": {
+    "population": 51737,
+    "elevation_m": 12,
+    "area_km2": 10,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "St. John's is the largest city in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. John's, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/St._John%27s%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576022.webp",
+    "author": "This image or media was taken or created by Matt H. Wade . To see his entire portfolio, click here . @ thatmattwade This image is protected by copyright ! If you would like to use it, please read this first.",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Johns_Antigua_2012.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4265706",
+   "name": "St. John's Cathedral",
+   "label": "St. John's Cathedral",
+   "type": "built",
+   "kind": "Anglican or Episcopal cathedral",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1227,
+   "lon": -61.8419,
+   "rarity": "Rare",
+   "fame": 4704,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "St. John's Cathedral also known as the Cathedral of St. John the Divine, the Cathedral Church of the Diocese of North Eastern Caribbean and Aruba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. John's Cathedral (Antigua and Barbuda)",
+    "url": "https://en.wikipedia.org/wiki/St._John%27s_Cathedral_%28Antigua_and_Barbuda%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4265706.webp",
+    "author": "D'Arcy Norman",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Exploring_st-_john%27s_antigua_-_5.jpg"
+   }
+  },
+  {
+   "id": "wd:Q139760576",
+   "name": "Office of the Prime Minister and Ministry of Foreign Affairs",
+   "label": "Office of the Prime Minister and Ministry of Foreign Affairs",
+   "type": "built",
+   "kind": "ministry",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1184,
+   "lon": -61.834,
+   "rarity": "Rare",
+   "fame": 438,
+   "facts": {
+    "elevation_m": 46,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Office of the Prime Minister and Ministry of Foreign Affairs is the headquarters of the executive branch of the Antiguan and Barbudan government.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Office of the Prime Minister and Ministry of Foreign Affairs",
+    "url": "https://en.wikipedia.org/wiki/Office_of_the_Prime_Minister_and_Ministry_of_Foreign_Affairs",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q139760576.webp",
+    "author": "Government of Antigua and Barbuda",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Office_of_the_Prime_Minister,_St._John%27s.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7598735",
+   "name": "Coolidge Cricket Ground",
+   "label": "Coolidge Cricket Ground",
+   "type": "built",
+   "kind": "cricket field",
+   "region": "AG-03",
+   "country": "AG",
+   "lat": 17.141,
+   "lon": -61.7948,
+   "rarity": "Rare",
+   "fame": 1998,
+   "facts": {
+    "elevation_m": 24,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Coolidge Cricket Ground is a cricket ground in Osbourn, Saint George Parish, Antigua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coolidge Cricket Ground",
+    "url": "https://en.wikipedia.org/wiki/Coolidge_Cricket_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7598735.webp"
+   }
+  },
+  {
+   "id": "wd:Q124310652",
+   "name": "Clarence House",
+   "label": "Clarence House",
+   "type": "built",
+   "kind": "historic house",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0101,
+   "lon": -61.7622,
+   "rarity": "Rare",
+   "fame": 492,
+   "facts": {
+    "elevation_m": 26,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is one of the Antigua Naval Dockyard and Related Archaeological Sites, a UNSECO World Heritage Site.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Clarence House, English Harbour",
+    "url": "https://en.wikipedia.org/wiki/Clarence_House%2C_English_Harbour",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q124310652.webp",
+    "author": "John R. Anjo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Antigua_-_Clarence_House.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5588898",
+   "name": "Government House",
+   "label": "Government House",
+   "type": "built",
+   "kind": "building",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1229,
+   "lon": -61.8406,
+   "rarity": "Rare",
+   "fame": 3786,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Government House is the official residence and office of the governor-general of Antigua and Barbuda in St. John's.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Government House, St. John's",
+    "url": "https://en.wikipedia.org/wiki/Government_House%2C_St._John%27s",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5588898.webp",
+    "author": "Ulises Icardi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_de_Gobierno_de_Antigua_y_Barbuda_(Saint_John%27s).jpg"
+   }
+  },
+  {
+   "id": "wd:Q575701",
+   "name": "Antigua Recreation Ground",
+   "label": "Antigua Recreation Ground",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1224,
+   "lon": -61.839,
+   "rarity": "Rare",
+   "fame": 8496,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Antigua Recreation Ground is the national stadium of Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antigua Recreation Ground",
+    "url": "https://en.wikipedia.org/wiki/Antigua_Recreation_Ground",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q575701.webp",
+    "author": "Z_dead from London, UK",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cricket_ground.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5471402",
+   "name": "Fort James",
+   "label": "Fort James",
+   "type": "built",
+   "kind": "fort",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1302,
+   "lon": -61.8638,
+   "rarity": "Rare",
+   "fame": 3342,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The fort was built to guard St. John's harbour and is one of the many forts built by the British in the 18th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fort James, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Fort_James%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5471402.webp",
+    "author": "JERRYE & ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FORT_JAMES,_ST._JOHN%27S,_ANTIGUA.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5188820",
+   "name": "Crossroads Centre",
+   "label": "Crossroads Centre",
+   "type": "built",
+   "kind": "rehab center",
+   "region": "AG-08",
+   "country": "AG",
+   "lat": 17.039,
+   "lon": -61.7258,
+   "rarity": "Rare",
+   "fame": 9690,
+   "facts": {
+    "elevation_m": 8.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Crossroads Centre is a substance-abuse rehabilitation centre for drug and alcohol addiction located near St. Philip's.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Crossroads Centre",
+    "url": "https://en.wikipedia.org/wiki/Crossroads_Centre",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5188820.webp",
+    "author": "CROIX",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crossroads_Centre.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5598777",
+   "name": "Great Bird Island",
+   "label": "Great Bird Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-07",
+   "country": "AG",
+   "lat": 17.1451,
+   "lon": -61.7242,
+   "rarity": "Rare",
+   "fame": 1314,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Measuring just 20 acres, it is smaller than most city parks.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Great Bird Island (Antigua and Barbuda)",
+    "url": "https://en.wikipedia.org/wiki/Great_Bird_Island_%28Antigua_and_Barbuda%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5598777.webp",
+    "author": "Mocolos",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Phaethon_aethereus.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5432586",
+   "name": "Falmouth Harbour",
+   "label": "Falmouth Harbour",
+   "type": "nature",
+   "kind": "bay",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0174,
+   "lon": -61.7724,
+   "rarity": "Rare",
+   "fame": 1740,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Falmouth Harbour is a horseshoe-shaped bay and natural harbour on the far southern coast of the island of Antigua in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Falmouth Harbour",
+    "url": "https://en.wikipedia.org/wiki/Falmouth_Harbour",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5432586.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:English_Harbour_and_Falmouth_Harbour_on_Antigua.jpg"
+   }
+  },
+  {
+   "id": "wd:Q21052575",
+   "name": "Maiden Island",
+   "label": "Maiden Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-03",
+   "country": "AG",
+   "lat": 17.1453,
+   "lon": -61.7632,
+   "rarity": "Rare",
+   "fame": 4236,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Maiden Island, also known as \"Maid Island\" or \"Maiden Islet,\" is a small private island which is part of the independent nation of Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maiden Island (Antigua and Barbuda)",
+    "url": "https://en.wikipedia.org/wiki/Maiden_Island_%28Antigua_and_Barbuda%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21052575.webp",
+    "author": "Reefball",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maiden_Island_Reef_Balls.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5273629",
+   "name": "Dickenson Bay",
+   "label": "Dickenson Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.159,
+   "lon": -61.85,
+   "rarity": "Rare",
+   "fame": 2034,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Dickenson Bay is located on the northwestern coast in Antigua, near McKinnon's.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dickenson Bay",
+    "url": "https://en.wikipedia.org/wiki/Dickenson_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5273629.webp",
+    "author": "Paul Kowalow",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dickinson_bay_beach_antigua.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7242702",
+   "name": "Prickly Pear Island",
+   "label": "Prickly Pear Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.1758,
+   "lon": -61.7981,
+   "rarity": "Rare",
+   "fame": 2550,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Prickly Pear Island is an islet approximately 650 metres off the north shore coast of Hodges Bay on the much larger island of Antigua, West Indies.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Prickly Pear Island",
+    "url": "https://en.wikipedia.org/wiki/Prickly_Pear_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7242702.webp",
+    "author": "derivative work: Commander Keane ( talk ) Prickly_Pear_Island,_BVI.JPG : -- Legis ( talk - contribs ) The original uploader was Legis at English Wikipedia .",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Prickly_Pear_Island,_BVI_(edit1).JPG"
+   }
+  },
+  {
+   "id": "wd:Q457261",
+   "name": "Redonda",
+   "label": "Redonda",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-11",
+   "country": "AG",
+   "lat": 16.9383,
+   "lon": -62.345,
+   "rarity": "Rare",
+   "fame": 24000,
+   "facts": {
+    "elevation_m": 211,
+    "area_km2": 1.5,
+    "length_km": 1.4,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "The island is about 1.6 kilometres long, 0.5 kilometres wide, and is 296 metres high at its highest point.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Redonda",
+    "url": "https://en.wikipedia.org/wiki/Redonda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q457261.webp",
+    "author": "Addshore",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Redonda_by_sea_1,_2023.jpg"
+   }
+  },
+  {
+   "id": "wd:Q18214889",
+   "name": "Hell's Gate Island",
+   "label": "Hell's Gate Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-07",
+   "country": "AG",
+   "lat": 17.141,
+   "lon": -61.7219,
+   "rarity": "Rare",
+   "fame": 1458,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is known for its unique natural formation of a narrow channel, called Hell's Gate, that runs between the island and the mainland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hell's Gate Island",
+    "url": "https://en.wikipedia.org/wiki/Hell%27s_Gate_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q18214889.webp"
+   }
+  },
+  {
+   "id": "wd:Q1718336",
+   "name": "Mount Obama",
+   "label": "Mount Obama",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "AG-05",
+   "country": "AG",
+   "lat": 17.05,
+   "lon": -61.85,
+   "rarity": "Rare",
+   "fame": 7224,
+   "facts": {
+    "elevation_m": 402,
+    "prominence_m": 402,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Boggy Peak is a mountain located in the southwest of Antigua, a constituent island of the archipelagic country of Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Boggy Peak",
+    "url": "https://en.wikipedia.org/wiki/Boggy_Peak",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1718336.webp",
+    "author": "dearinaima",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boggy_Peak.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6672641",
+   "name": "Long Island",
+   "label": "Long Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "AG-07",
+   "country": "AG",
+   "lat": 17.155,
+   "lon": -61.7533,
+   "rarity": "Rare",
+   "fame": 4446,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is located off the northern tip of the Crabbs Peninsula, about 2.5 kilometres from Dutchman Bay on Antigua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Long Island (Antigua and Barbuda)",
+    "url": "https://en.wikipedia.org/wiki/Long_Island_%28Antigua_and_Barbuda%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6672641.webp",
+    "author": "CROIX",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jumby_Bay.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7493250",
+   "name": "Shekerley Mountains",
+   "label": "Shekerley Mountains",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "AG-05",
+   "country": "AG",
+   "lat": 17.0477,
+   "lon": -61.8548,
+   "rarity": "Rare",
+   "fame": 4194,
+   "facts": {
+    "elevation_m": 329,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Shekerley Mountains are a low mountain range in southwestern Antigua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Shekerley Mountains",
+    "url": "https://en.wikipedia.org/wiki/Shekerley_Mountains",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7493250.webp",
+    "author": "dearinaima",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boggy_Peak.JPG"
+   }
+  },
+  {
+   "id": "gn:3575975",
+   "name": "Swetes",
+   "label": "Swetes",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-06",
+   "country": "AG",
+   "lat": 17.0504,
+   "lon": -61.8009,
+   "rarity": "Rare",
+   "fame": 3474,
+   "facts": {
+    "population": 1837,
+    "elevation_m": 66,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The village had a population of 1,720 in 2011 and covered a land area of 4.09 square kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Swetes",
+    "url": "https://en.wikipedia.org/wiki/Swetes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3575975.webp",
+    "author": "Banja-Frans Mulder",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antigua_-_Swetes,_Tyrells_Roman_Catholic_Church_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3576397",
+   "name": "All Saints",
+   "label": "All Saints",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-07",
+   "country": "AG",
+   "lat": 17.0667,
+   "lon": -61.793,
+   "rarity": "Rare",
+   "fame": 4026,
+   "facts": {
+    "population": 2526,
+    "elevation_m": 60,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "All Saints is the second largest settlement in Antigua and Barbuda, with a population of 3,812 as of 2011.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "All Saints, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/All_Saints%2C_Antigua_and_Barbuda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3576397.webp",
+    "author": "CROIX",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:All_Saints,_Antigua_2023.jpg"
+   }
+  }
+ ]
+}

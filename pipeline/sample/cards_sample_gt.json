@@ -1,0 +1,2752 @@
+{
+ "note": "Sample of the Guatemala card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q10362259",
+   "name": "Michatoya River",
+   "label": "Michatoya River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 14.2683,
+   "lon": -90.7288,
+   "rarity": "Common",
+   "fame": 510,
+   "facts": {
+    "elevation_m": 203,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It begins in the town of Amatitlán, flowing out of the lake of the same name, through the towns of Palín, Masagua, and into the Pacific Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Michatoya River",
+    "url": "https://en.wikipedia.org/wiki/Michatoya_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q10362259.webp"
+   }
+  },
+  {
+   "id": "wd:Q973897",
+   "name": "Petexbatún",
+   "label": "Petexbatún",
+   "type": "nature",
+   "kind": "lake",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.4324,
+   "lon": -90.1873,
+   "rarity": "Common",
+   "fame": 1116,
+   "facts": {
+    "elevation_m": 110,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "It is near Sayaxché, located in the southern area of the Guatemalan department of Petén.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petexbatún Lake",
+    "url": "https://en.wikipedia.org/wiki/Petexbat%C3%BAn_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q973897.webp",
+    "author": "Clemens Schmillen",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Petexbatun.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7131639",
+   "name": "Pantaleón River",
+   "label": "Pantaleón River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 14.2044,
+   "lon": -91.1343,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "elevation_m": 75,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Its sources are located in the Sierra Madre mountain range, on the western slopes of the Volcán de Fuego in the departments of Chimaltenango and Escuintla.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pantaleón River",
+    "url": "https://en.wikipedia.org/wiki/Pantale%C3%B3n_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7131639.webp"
+   }
+  },
+  {
+   "id": "wd:Q6472987",
+   "name": "Laguna de Calderas",
+   "label": "Laguna de Calderas",
+   "type": "nature",
+   "kind": "lake",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.4111,
+   "lon": -90.5903,
+   "rarity": "Common",
+   "fame": 2382,
+   "facts": {
+    "elevation_m": 1782,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "It is located approximately 6 km south of Lake Amatitlán and 3 km north of the currently active vent of the Pacaya volcano.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Laguna de Calderas",
+    "url": "https://en.wikipedia.org/wiki/Laguna_de_Calderas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6472987.webp",
+    "author": "lamblukas",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_National_Calderas,_Laguna_Calderas,_Guatemala.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6728587",
+   "name": "Madre Vieja River",
+   "label": "Madre Vieja River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 14.0047,
+   "lon": -91.435,
+   "rarity": "Common",
+   "fame": 882,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Its sources are located in the Sierra Madre mountain range, on the border of the departments of El Quiché, Sololá, and Chimaltenango.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Madre Vieja River",
+    "url": "https://en.wikipedia.org/wiki/Madre_Vieja_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6728587.webp"
+   }
+  },
+  {
+   "id": "wd:Q3131268",
+   "name": "Ixtepeque",
+   "label": "Ixtepeque",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-JU",
+   "country": "GT",
+   "lat": 14.42,
+   "lon": -89.68,
+   "rarity": "Common",
+   "fame": 1470,
+   "facts": {
+    "elevation_m": 1292,
+    "temp_c": 22.8
+   },
+   "flavour": {
+    "text": "The peak of the volcano lies at an altitude of 1,292 m above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ixtepeque",
+    "url": "https://en.wikipedia.org/wiki/Ixtepeque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3131268.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ixtepeque.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5937883",
+   "name": "María Linda River",
+   "label": "María Linda River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 13.95,
+   "lon": -91.3,
+   "rarity": "Common",
+   "fame": 918,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Its sources are located south of Lake Amatitlán in the department of Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "María Linda River",
+    "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Linda_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5937883.webp"
+   }
+  },
+  {
+   "id": "wd:Q10362694",
+   "name": "Tzalá River",
+   "label": "Tzalá River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-SO",
+   "country": "GT",
+   "lat": 14.7435,
+   "lon": -91.1793,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 1571,
+    "temp_c": 15.5
+   },
+   "flavour": {
+    "text": "The Tzalá joins the Cuilco River through its tributary the Cabajchum River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tzalá River",
+    "url": "https://en.wikipedia.org/wiki/Tzal%C3%A1_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q10362694.webp"
+   }
+  },
+  {
+   "id": "wd:Q3065113",
+   "name": "Suchitan",
+   "label": "Suchitan",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-JU",
+   "country": "GT",
+   "lat": 14.3333,
+   "lon": -89.78,
+   "rarity": "Common",
+   "fame": 3228,
+   "facts": {
+    "elevation_m": 2042,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "Its highest point lies at an altitude of 1,716 m above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Suchitan",
+    "url": "https://en.wikipedia.org/wiki/Suchitan",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3065113.webp",
+    "author": "Lee Siebert, Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Suchit%C3%A1n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2661993",
+   "name": "Moyuta",
+   "label": "Moyuta",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-JU",
+   "country": "GT",
+   "lat": 14.03,
+   "lon": -90.1,
+   "rarity": "Common",
+   "fame": 1512,
+   "facts": {
+    "elevation_m": 1662,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "It is located near the town of Moyuta in Santa Rosa Department, and is situated at the southern edge of the Jaltapagua fault.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moyuta (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Moyuta_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2661993.webp",
+    "author": "Lee Siebert Smithsonian Institution",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Moyuta.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1773531",
+   "name": "Acomé River",
+   "label": "Acomé River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 13.9171,
+   "lon": -91.0883,
+   "rarity": "Common",
+   "fame": 336,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "It is a short coastal river in the southwest of the country, with a length of 58.5 kilometres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Acomé River",
+    "url": "https://en.wikipedia.org/wiki/Acom%C3%A9_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1773531.webp"
+   }
+  },
+  {
+   "id": "wd:Q4935898",
+   "name": "Bobos River",
+   "label": "Bobos River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.4194,
+   "lon": -88.8177,
+   "rarity": "Common",
+   "fame": 132,
+   "facts": {
+    "elevation_m": 49,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It rises in the Sierra de Caral, a small mountain range in the eastern department of Izabal, and runs a north-westerly course to join the Motagua River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bobos River (Guatemala)",
+    "url": "https://en.wikipedia.org/wiki/Bobos_River_%28Guatemala%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4935898.webp"
+   }
+  },
+  {
+   "id": "gn:3589671",
+   "name": "San Pablo Jocopilas",
+   "label": "San Pablo Jocopilas",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SU",
+   "country": "GT",
+   "lat": 14.5888,
+   "lon": -91.4519,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 20433,
+    "elevation_m": 661,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "A community of 20,433 people in Suchitepéquez.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589671.webp"
+   }
+  },
+  {
+   "id": "gn:3589669",
+   "name": "San Pablo La Laguna",
+   "label": "San Pablo La Laguna",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SO",
+   "country": "GT",
+   "lat": 14.7209,
+   "lon": -91.2724,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6186,
+    "elevation_m": 1666,
+    "temp_c": 15.5
+   },
+   "flavour": {
+    "text": "A community of 6,186 people in Sololá.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589669.webp"
+   }
+  },
+  {
+   "id": "gn:3587506",
+   "name": "Zunilito",
+   "label": "Zunilito",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SU",
+   "country": "GT",
+   "lat": 14.6126,
+   "lon": -91.5098,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2745,
+    "elevation_m": 787,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 2,745 people in Suchitepéquez.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3587506.webp"
+   }
+  },
+  {
+   "id": "gn:3590347",
+   "name": "San Carlos Sija",
+   "label": "San Carlos Sija",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QZ",
+   "country": "GT",
+   "lat": 14.9844,
+   "lon": -91.5491,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6831,
+    "elevation_m": 2646,
+    "temp_c": 12.4
+   },
+   "flavour": {
+    "text": "A community of 6,831 people in Quetzaltenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3590347.webp"
+   }
+  },
+  {
+   "id": "gn:3589072",
+   "name": "Santo Domingo Xenacoj",
+   "label": "Santo Domingo Xenacoj",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.6806,
+   "lon": -90.7001,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8791,
+    "elevation_m": 1835,
+    "temp_c": 17.8
+   },
+   "flavour": {
+    "text": "A community of 8,791 people in Sacatepéquez.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589072.webp"
+   }
+  },
+  {
+   "id": "gn:3588474",
+   "name": "Tectitán",
+   "label": "Tectitán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.3063,
+   "lon": -92.0605,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 743,
+    "elevation_m": 2210,
+    "temp_c": 14.2
+   },
+   "flavour": {
+    "text": "A community of 743 people in Huehuetenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3588474.webp"
+   }
+  },
+  {
+   "id": "gn:3590389",
+   "name": "San Benito",
+   "label": "San Benito",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.9168,
+   "lon": -89.919,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 30764,
+    "elevation_m": 135,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 30,764 people in Petén.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3590389.webp"
+   }
+  },
+  {
+   "id": "gn:3590788",
+   "name": "Río Hondo",
+   "label": "Río Hondo",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-ZA",
+   "country": "GT",
+   "lat": 15.045,
+   "lon": -89.5852,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5997,
+    "elevation_m": 192,
+    "temp_c": 22.6
+   },
+   "flavour": {
+    "text": "A community of 5,997 people in Zacapa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3590788.webp"
+   }
+  },
+  {
+   "id": "gn:3589643",
+   "name": "San Pedro Carchá",
+   "label": "San Pedro Carchá",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-AV",
+   "country": "GT",
+   "lat": 15.4774,
+   "lon": -90.311,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 16353,
+    "elevation_m": 1283,
+    "temp_c": 17.2
+   },
+   "flavour": {
+    "text": "A community of 16,353 people in Alta Verapaz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589643.webp"
+   }
+  },
+  {
+   "id": "gn:3597722",
+   "name": "Dolores",
+   "label": "Dolores",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.5118,
+   "lon": -89.417,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10604,
+    "elevation_m": 428,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "A community of 10,604 people in Petén.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3597722.webp"
+   }
+  },
+  {
+   "id": "gn:3590424",
+   "name": "San Antonio Palopó",
+   "label": "San Antonio Palopó",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SO",
+   "country": "GT",
+   "lat": 14.6923,
+   "lon": -91.1164,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3588,
+    "elevation_m": 1577,
+    "temp_c": 14.6
+   },
+   "flavour": {
+    "text": "A community of 3,588 people in Sololá.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3590424.webp"
+   }
+  },
+  {
+   "id": "gn:3589454",
+   "name": "Santa Catarina Palopó",
+   "label": "Santa Catarina Palopó",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SO",
+   "country": "GT",
+   "lat": 14.7233,
+   "lon": -91.1343,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2948,
+    "elevation_m": 1591,
+    "temp_c": 14.6
+   },
+   "flavour": {
+    "text": "A community of 2,948 people in Sololá.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589454.webp"
+   }
+  },
+  {
+   "id": "wd:Q14474061",
+   "name": "Puerto Quetzal",
+   "label": "Puerto Quetzal",
+   "type": "built",
+   "kind": "port",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 13.9206,
+   "lon": -90.7878,
+   "rarity": "Epic",
+   "fame": 11532,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "Puerto Quetzal is Guatemala's largest Pacific Ocean port.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puerto Quetzal",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Quetzal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q14474061.webp",
+    "author": "User:Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_Quetzal_and_Volcano_Fuego.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3025641",
+   "name": "Estadio Cementos Progreso",
+   "label": "Estadio Cementos Progreso",
+   "type": "built",
+   "kind": "stadium",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.6761,
+   "lon": -90.4885,
+   "rarity": "Epic",
+   "fame": 14988,
+   "facts": {
+    "elevation_m": 1447,
+    "temp_c": 21.5
+   },
+   "flavour": {
+    "text": "It is also known popularly as Estadio La Pedrera in reference to its location in the neighborhood of the same name in the Zone 6 of the Guatemalan capital.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cementos Progreso Stadium",
+    "url": "https://en.wikipedia.org/wiki/Cementos_Progreso_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3025641.webp",
+    "author": "Oscarin200",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Cementos_Progreso_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q588048",
+   "name": "Saint Thomas of Castilla",
+   "label": "Saint Thomas of Castilla",
+   "type": "built",
+   "kind": "city",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.7,
+   "lon": -88.6167,
+   "rarity": "Epic",
+   "fame": 11430,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Santo Tomás de Castilla, officially known as Mátías de Gálvez though it popularly retains its former name, is a port city in the Izabal Department, Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santo Tomás de Castilla",
+    "url": "https://en.wikipedia.org/wiki/Santo_Tom%C3%A1s_de_Castilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q588048.webp",
+    "author": "roger4336 (Roger Wollstadt)",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Tomas_de_Castilla_-_container_port.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1540906",
+   "name": "Yaxha",
+   "label": "Yaxha",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.0722,
+   "lon": -89.4,
+   "rarity": "Epic",
+   "fame": 16452,
+   "facts": {
+    "elevation_m": 264,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Yaxha is a Mesoamerican archaeological site in the northeast of the Petén Basin in modern-day Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yaxha",
+    "url": "https://en.wikipedia.org/wiki/Yaxha",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1540906.webp",
+    "author": "Marie Carianna",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:YaxhaNorthAcropolis.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1266746",
+   "name": "Puerto San José",
+   "label": "Puerto San José",
+   "type": "built",
+   "kind": "port",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 13.9333,
+   "lon": -90.8167,
+   "rarity": "Epic",
+   "fame": 10218,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "It has a population of 23,887, making it the largest town on the nation's Pacific coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puerto San José",
+    "url": "https://en.wikipedia.org/wiki/Puerto_San_Jos%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1266746.webp",
+    "author": "User:Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_Quetzal_at_dawn.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1509537",
+   "name": "Takalik Abaj",
+   "label": "Takalik Abaj",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-RE",
+   "country": "GT",
+   "lat": 14.6458,
+   "lon": -91.7361,
+   "rarity": "Epic",
+   "fame": 17922,
+   "facts": {
+    "elevation_m": 653,
+    "area_km2": 0.1,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "It was formerly known as Abaj Takalik; its ancient name may have been Kooja.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Takalik Abaj",
+    "url": "https://en.wikipedia.org/wiki/Takalik_Abaj",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1509537.webp",
+    "author": "Simon Burchell",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Takalik_Abaj_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q139979",
+   "name": "Zaculeu",
+   "label": "Zaculeu",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.3338,
+   "lon": -91.4927,
+   "rarity": "Epic",
+   "fame": 14454,
+   "facts": {
+    "elevation_m": 1869,
+    "temp_c": 11.6
+   },
+   "flavour": {
+    "text": "Zaculeu or Saqulew is a pre-Columbian Maya archaeological site in the highlands of western Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Zaculeu",
+    "url": "https://en.wikipedia.org/wiki/Zaculeu",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q139979.webp",
+    "author": "Infrogmation of New Orleans",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zaculeu_Temple_House_1979.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2031261",
+   "name": "Piedras Negras",
+   "label": "Piedras Negras",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.1667,
+   "lon": -91.2625,
+   "rarity": "Epic",
+   "fame": 12738,
+   "facts": {
+    "elevation_m": 117,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Piedras Negras is the modern name for an ancient, ruined city of the pre-Columbian Maya civilization located on the north bank of the Usumacinta River in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Piedras Negras (Maya site)",
+    "url": "https://en.wikipedia.org/wiki/Piedras_Negras_%28Maya_site%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2031261.webp",
+    "author": "Authenticmaya",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Piedrasnegrastrono.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6076801",
+   "name": "Pyramid of La Danta",
+   "label": "Pyramid of La Danta",
+   "type": "built",
+   "kind": "pyramid",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.7517,
+   "lon": -89.9027,
+   "rarity": "Epic",
+   "fame": 18846,
+   "facts": {
+    "elevation_m": 326,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A pyramid in Petén.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6076801.webp",
+    "author": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Guatemala_1828_-_La_Danta_at_the_Mayan_site_of_El_Mirador.jpg"
+   }
+  },
+  {
+   "id": "wd:Q263509",
+   "name": "Iximche",
+   "label": "Iximche",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-CM",
+   "country": "GT",
+   "lat": 14.7358,
+   "lon": -90.9962,
+   "rarity": "Epic",
+   "fame": 26124,
+   "facts": {
+    "elevation_m": 2274,
+    "temp_c": 14.9
+   },
+   "flavour": {
+    "text": "Iximche was the capital of the Late Postclassic Kaqchikel Maya kingdom from 1470 until its abandonment in 1524.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Iximche",
+    "url": "https://en.wikipedia.org/wiki/Iximche",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q263509.webp",
+    "author": "Colocho",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Iximch%C3%A9.JPG"
+   }
+  },
+  {
+   "id": "wd:Q859376",
+   "name": "Volcán de Fuego",
+   "label": "Volcán de Fuego",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 14.4747,
+   "lon": -90.8808,
+   "rarity": "Epic",
+   "fame": 146400,
+   "facts": {
+    "elevation_m": 3765,
+    "temp_c": 21.0
+   },
+   "flavour": {
+    "text": "Fuego lies on the borders of Chimaltenango, Escuintla and Sacatepéquez departments.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán de Fuego",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Fuego",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q859376.webp",
+    "author": "Scottydude",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_de_Fuego_and_Acatenango.jpg"
+   }
+  },
+  {
+   "id": "wd:Q338192",
+   "name": "Acatenango",
+   "label": "Acatenango",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.5008,
+   "lon": -90.8758,
+   "rarity": "Epic",
+   "fame": 61620,
+   "facts": {
+    "elevation_m": 3976,
+    "prominence_m": 1835,
+    "temp_c": 15.6
+   },
+   "flavour": {
+    "text": "It is part of the mountain range of the Sierra Madre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Acatenango",
+    "url": "https://en.wikipedia.org/wiki/Acatenango",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q338192.webp",
+    "author": "Javier Ruata",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Volcan_de_Fuego_y_Acatenango.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1850670",
+   "name": "Semuc Champey",
+   "label": "Semuc Champey",
+   "type": "nature",
+   "kind": "national park",
+   "region": "GT-AV",
+   "country": "GT",
+   "lat": 15.5333,
+   "lon": -89.9611,
+   "rarity": "Epic",
+   "fame": 28398,
+   "facts": {
+    "elevation_m": 400,
+    "area_km2": 18,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "Semuc Champey is a natural enclave in the department of Alta Verapaz, Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Semuc Champey",
+    "url": "https://en.wikipedia.org/wiki/Semuc_Champey",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1850670.webp",
+    "author": "Lucía García González",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Semuc_Champey_natural_wonder.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1327687",
+   "name": "Volcán de Agua",
+   "label": "Volcán de Agua",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.465,
+   "lon": -90.7428,
+   "rarity": "Epic",
+   "fame": 43716,
+   "facts": {
+    "elevation_m": 3760,
+    "temp_c": 20.4
+   },
+   "flavour": {
+    "text": "Volcán de Agua is an extinct stratovolcano located in the departments of Sacatepéquez and Escuintla in Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán de Agua",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Agua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1327687.webp",
+    "author": "Photo by Infrogmation , 1980.",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VolcanAguaPascuas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q15640816",
+   "name": "Rio Dulce National Park",
+   "label": "Rio Dulce National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.7475,
+   "lon": -88.8722,
+   "rarity": "Epic",
+   "fame": 318,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A national park in Izabal.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q15640816.webp",
+    "author": "seperezu",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Desde_el_puente_hacia_la_entrada_del_rio._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16616244",
+   "name": "Parque Nacional Laguna Lachuá",
+   "label": "Parque Nacional Laguna Lachuá",
+   "type": "nature",
+   "kind": "national park",
+   "region": "GT-AV",
+   "country": "GT",
+   "lat": 15.9191,
+   "lon": -90.6731,
+   "rarity": "Epic",
+   "fame": 762,
+   "facts": {
+    "elevation_m": 169,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A national park in Alta Verapaz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16616244.webp"
+   }
+  },
+  {
+   "id": "wd:Q204657",
+   "name": "Santa María",
+   "label": "Santa María",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "GT-QZ",
+   "country": "GT",
+   "lat": 14.7558,
+   "lon": -91.5519,
+   "rarity": "Epic",
+   "fame": 40722,
+   "facts": {
+    "elevation_m": 3772,
+    "temp_c": 16.0
+   },
+   "flavour": {
+    "text": "Santa María Volcano is a large active volcano in the western highlands of Guatemala, in the Quetzaltenango Department near the city of Quetzaltenango.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa María (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q204657.webp",
+    "author": "The original uploader was Worldtraveller at English Wikipedia .",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Santiaguito_from_Santamaria.jpg"
+   }
+  },
+  {
+   "id": "wd:Q818467",
+   "name": "Volcán Tajumulco",
+   "label": "Volcán Tajumulco",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 15.0333,
+   "lon": -91.9,
+   "rarity": "Epic",
+   "fame": 42234,
+   "facts": {
+    "elevation_m": 4203,
+    "prominence_m": 3980,
+    "temp_c": 13.4
+   },
+   "flavour": {
+    "text": "It is the highest mountain in Central America at 4,203 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán Tajumulco",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Tajumulco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q818467.webp",
+    "author": "JoePhoto",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tajumulco_volcano_01.jpg"
+   }
+  },
+  {
+   "id": "gn:3590616",
+   "name": "Salamá",
+   "label": "Salamá",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-BV",
+   "country": "GT",
+   "lat": 15.1021,
+   "lon": -90.3191,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 65275,
+    "elevation_m": 936,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "A community of 65,275 people in Baja Verapaz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3590616.webp"
+   }
+  },
+  {
+   "id": "gn:3595803",
+   "name": "Escuintla",
+   "label": "Escuintla",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 14.301,
+   "lon": -90.7882,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 156313,
+    "elevation_m": 349,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 156,313 people in Escuintla.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3595803.webp"
+   }
+  },
+  {
+   "id": "gn:3598572",
+   "name": "Chimaltenango",
+   "label": "Chimaltenango",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-CM",
+   "country": "GT",
+   "lat": 14.6588,
+   "lon": -90.8216,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 96985,
+    "elevation_m": 1795,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "A community of 96,985 people in Chimaltenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3598572.webp"
+   }
+  },
+  {
+   "id": "gn:3587587",
+   "name": "Zacapa",
+   "label": "Zacapa",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-ZA",
+   "country": "GT",
+   "lat": 14.9687,
+   "lon": -89.5273,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 60424,
+    "elevation_m": 232,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 60,424 people in Zacapa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3587587.webp"
+   }
+  },
+  {
+   "id": "gn:3592609",
+   "name": "Mazatenango",
+   "label": "Mazatenango",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SU",
+   "country": "GT",
+   "lat": 14.5341,
+   "lon": -91.5031,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 77431,
+    "elevation_m": 373,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "A community of 77,431 people in Suchitepéquez.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3592609.webp"
+   }
+  },
+  {
+   "id": "gn:3596421",
+   "name": "Guastatoya",
+   "label": "Guastatoya",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-PR",
+   "country": "GT",
+   "lat": 14.8544,
+   "lon": -90.0699,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 24831,
+    "elevation_m": 520,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 24,831 people in El Progreso.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3596421.webp"
+   }
+  },
+  {
+   "id": "gn:3595725",
+   "name": "Flores",
+   "label": "Flores",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.9226,
+   "lon": -89.8994,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 20464,
+    "elevation_m": 121,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 20,464 people in Petén.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3595725.webp"
+   }
+  },
+  {
+   "id": "gn:3598119",
+   "name": "Cobán",
+   "label": "Cobán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-AV",
+   "country": "GT",
+   "lat": 15.4703,
+   "lon": -90.3745,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 212047,
+    "elevation_m": 1326,
+    "temp_c": 18.3
+   },
+   "flavour": {
+    "text": "A community of 212,047 people in Alta Verapaz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3598119.webp"
+   }
+  },
+  {
+   "id": "gn:3588258",
+   "name": "Totonicapán",
+   "label": "Totonicapán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-TO",
+   "country": "GT",
+   "lat": 14.9119,
+   "lon": -91.3605,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 103952,
+    "elevation_m": 2499,
+    "temp_c": 12.7
+   },
+   "flavour": {
+    "text": "A community of 103,952 people in Totonicapán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3588258.webp"
+   }
+  },
+  {
+   "id": "gn:11449731",
+   "name": "Nuevo León",
+   "label": "Nuevo León",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.7937,
+   "lon": -91.0924,
+   "rarity": "Epic",
+   "fame": 222,
+   "facts": {
+    "population": 10000,
+    "elevation_m": 200,
+    "area_km2": 2000,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "A community of 10,000 people in Huehuetenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_11449731.webp",
+    "author": "New Lyon",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuevo_Le%C3%B3n_(Guatemala).jpg"
+   }
+  },
+  {
+   "id": "wd:Q504904",
+   "name": "El Mirador",
+   "label": "El Mirador",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.7551,
+   "lon": -89.9204,
+   "rarity": "Legendary",
+   "fame": 125574,
+   "facts": {
+    "elevation_m": 299,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "El Mirador is a large pre-Columbian Middle and Late Preclassic Maya settlement, located in the north of the modern department of El Petén, Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Mirador",
+    "url": "https://en.wikipedia.org/wiki/El_Mirador",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q504904.webp",
+    "author": "Konjiki1",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Pir%C3%A1mide_de_la_Danta,_Pet%C3%A9n.jpg"
+   }
+  },
+  {
+   "id": "wd:Q181172",
+   "name": "Tikal",
+   "label": "Tikal",
+   "type": "built",
+   "kind": "ancient city",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.2221,
+   "lon": -89.6236,
+   "rarity": "Legendary",
+   "fame": 243828,
+   "facts": {
+    "elevation_m": 303,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Tikal is the ruin of an ancient city, which was likely to have been called Yax Mutal, found in a rainforest in Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tikal",
+    "url": "https://en.wikipedia.org/wiki/Tikal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q181172.webp",
+    "author": "Mundo Maya",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tikal_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q318422",
+   "name": "Quiriguá",
+   "label": "Quiriguá",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.2694,
+   "lon": -89.0403,
+   "rarity": "Legendary",
+   "fame": 27582,
+   "facts": {
+    "elevation_m": 83,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "It is a medium-sized site covering approximately 3 square kilometres along the lower Motagua River, with the ceremonial center about 1 km from the north bank.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Quiriguá",
+    "url": "https://en.wikipedia.org/wiki/Quirigu%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q318422.webp",
+    "author": "S2RD2",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Escultura_de_Quirigu%C3%A1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2185890",
+   "name": "Tikal Temple I",
+   "label": "Tikal Temple I",
+   "type": "built",
+   "kind": "Mesoamerican pyramid",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.2221,
+   "lon": -89.6231,
+   "rarity": "Legendary",
+   "fame": 46920,
+   "facts": {
+    "elevation_m": 302,
+    "height_m": 45,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Tikal Temple I is the designation given to one of the major structures at Tikal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tikal Temple I",
+    "url": "https://en.wikipedia.org/wiki/Tikal_Temple_I",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2185890.webp",
+    "author": "Raymond Ostertag",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Tikal_Temple1_2006_08_11.JPG"
+   }
+  },
+  {
+   "id": "gn:3598132",
+   "name": "Guatemala City",
+   "label": "Guatemala City",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.6407,
+   "lon": -90.5133,
+   "rarity": "Legendary",
+   "fame": 0,
+   "facts": {
+    "population": 994938,
+    "elevation_m": 1508,
+    "temp_c": 18.7
+   },
+   "flavour": {
+    "text": "A community of 994,938 people in Guatemala.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3598132.webp"
+   }
+  },
+  {
+   "id": "gn:3598129",
+   "name": "Ciudad Tecún Umán",
+   "label": "Ciudad Tecún Umán",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 14.6774,
+   "lon": -92.1404,
+   "rarity": "Legendary",
+   "fame": 5364,
+   "facts": {
+    "population": 11432,
+    "elevation_m": 29,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "A community of 11,432 people in San Marcos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3598129.webp",
+    "author": "AlejandroLinaresGarcia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PlazachurchTecun.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2894409",
+   "name": "Arroyo de Piedra",
+   "label": "Arroyo de Piedra",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.46,
+   "lon": -90.26,
+   "rarity": "Rare",
+   "fame": 774,
+   "facts": {
+    "elevation_m": 120,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Arroyo de Piedra is a pre-Columbian Maya archaeological site in Guatemala located approximately 2-3 km east/northeast of Dos Pilas and 3 km west of Tamarindito.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arroyo de Piedra",
+    "url": "https://en.wikipedia.org/wiki/Arroyo_de_Piedra",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2894409.webp"
+   }
+  },
+  {
+   "id": "wd:Q27431047",
+   "name": "Holy Cross Cathedral, Santa Cruz del Quiché",
+   "label": "Holy Cross Cathedral, Santa Cruz del Quiché",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "GT-QC",
+   "country": "GT",
+   "lat": 15.0298,
+   "lon": -91.1488,
+   "rarity": "Rare",
+   "fame": 762,
+   "facts": {
+    "elevation_m": 2024,
+    "temp_c": 15.8
+   },
+   "flavour": {
+    "text": "The Holy Cross Cathedral also called Santa Cruz del Quiché Cathedral is a religious building that is located in the town of Santa Cruz del Quiché.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Holy Cross Cathedral, Santa Cruz del Quiché",
+    "url": "https://en.wikipedia.org/wiki/Holy_Cross_Cathedral%2C_Santa_Cruz_del_Quich%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27431047.webp",
+    "author": "AmaretoCR",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santa_Cruz_del_Quiche.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495680",
+   "name": "Estadio Julián Tesucún",
+   "label": "Estadio Julián Tesucún",
+   "type": "built",
+   "kind": "stadium",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.9819,
+   "lon": -89.9039,
+   "rarity": "Rare",
+   "fame": 636,
+   "facts": {
+    "elevation_m": 196,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches, on club level by C.D. Heredia of the Liga Nacional de Fútbol de Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Julián Tesucún Stadium",
+    "url": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Tesuc%C3%BAn_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495680.webp",
+    "author": "halfret",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Julian_Tesuc%C3%BAn.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2942367",
+   "name": "Antigua Guatemala Cathedral",
+   "label": "Antigua Guatemala Cathedral",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.5567,
+   "lon": -90.7329,
+   "rarity": "Rare",
+   "fame": 9894,
+   "facts": {
+    "elevation_m": 1534,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "Parish of San José, located in the city of Antigua Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Antigua Guatemala Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Antigua_Guatemala_Cathedral",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2942367.webp",
+    "author": "Rialfver at Dutch Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Guatemala_176.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3925745",
+   "name": "Punta de Chimino",
+   "label": "Punta de Chimino",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.4322,
+   "lon": -90.1922,
+   "rarity": "Rare",
+   "fame": 750,
+   "facts": {
+    "elevation_m": 145,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Punta de Chimino is a Maya archaeological site in the Petexbatún region of the department of Petén in Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Punta de Chimino",
+    "url": "https://en.wikipedia.org/wiki/Punta_de_Chimino",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3925745.webp"
+   }
+  },
+  {
+   "id": "wd:Q1770492",
+   "name": "Naachtun",
+   "label": "Naachtun",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.7941,
+   "lon": -89.7285,
+   "rarity": "Rare",
+   "fame": 3984,
+   "facts": {
+    "elevation_m": 311,
+    "temp_c": 25.0
+   },
+   "also_in": [
+    "MX"
+   ],
+   "flavour": {
+    "text": "Naachtun is an archaeological site of the pre-Columbian Maya civilization.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Naachtun",
+    "url": "https://en.wikipedia.org/wiki/Naachtun",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1770492.webp",
+    "author": "Konjiki1",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Naachtun_site_mayan.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3495820",
+   "name": "Estadio Pensativo",
+   "label": "Estadio Pensativo",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.5675,
+   "lon": -90.7381,
+   "rarity": "Rare",
+   "fame": 4080,
+   "facts": {
+    "elevation_m": 1538,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "The venue is home to Liga Nacional club Antigua, and has a maximum capacity of 10,000 spectators.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pensativo Stadium",
+    "url": "https://en.wikipedia.org/wiki/Pensativo_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3495820.webp",
+    "author": "Simon814161",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Juan_chang_soccer.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5741162",
+   "name": "Hermano Pedro's Hospital",
+   "label": "Hermano Pedro's Hospital",
+   "type": "built",
+   "kind": "building",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.5606,
+   "lon": -90.7411,
+   "rarity": "Rare",
+   "fame": 1584,
+   "facts": {
+    "elevation_m": 1534,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "It is dedicated to Peter of Saint Joseph Betancur.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hospital de San Pedro, Antigua Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Hospital_de_San_Pedro%2C_Antigua_Guatemala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5741162.webp",
+    "author": "Hans Birger Nilsen",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Hermano_Pedro_(1)_(38596549290).jpg"
+   }
+  },
+  {
+   "id": "wd:Q17434090",
+   "name": "Mapa en Relieve de Guatemala",
+   "label": "Mapa en Relieve de Guatemala",
+   "type": "built",
+   "kind": "building",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.6605,
+   "lon": -90.5086,
+   "rarity": "Rare",
+   "fame": 5166,
+   "facts": {
+    "elevation_m": 1479,
+    "temp_c": 18.7
+   },
+   "flavour": {
+    "text": "The Relief Map of Guatemala is a huge relief map of Guatemala erected at ground level on two scales: 1: 10,000 for the horizontal extension and 1: 2,000 for…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Relief map of Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Relief_map_of_Guatemala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17434090.webp",
+    "author": "Nerdoguate",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maparelieve3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16243140",
+   "name": "Tikal Temple 33",
+   "label": "Tikal Temple 33",
+   "type": "built",
+   "kind": "Mesoamerican pyramid",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.2225,
+   "lon": -89.6235,
+   "rarity": "Rare",
+   "fame": 3234,
+   "facts": {
+    "elevation_m": 308,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "Tikal Temple 33 was a 33-metre-high ancient Maya funerary pyramid located in the North Acropolis of the great Maya city of Tikal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tikal Temple 33",
+    "url": "https://en.wikipedia.org/wiki/Tikal_Temple_33",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16243140.webp",
+    "author": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_archer10_(Dennis)_-_Guatemala-1596.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6058370",
+   "name": "Palace of the Captain Generals",
+   "label": "Palace of the Captain Generals",
+   "type": "built",
+   "kind": "monument",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.5559,
+   "lon": -90.7338,
+   "rarity": "Rare",
+   "fame": 4722,
+   "facts": {
+    "elevation_m": 1533,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "It serves as the headquarters of the Guatemala Institute of Tourism, the Antigua Tourism Association, National Police and the Sacatepquez Department government.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palacio de los Capitanes Generales, Antigua Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Palacio_de_los_Capitanes_Generales%2C_Antigua_Guatemala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6058370.webp",
+    "author": "Infrogmation",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AntiguaSquareGovPalace79.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1426042",
+   "name": "La Corona",
+   "label": "La Corona",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 17.5197,
+   "lon": -90.3722,
+   "rarity": "Rare",
+   "fame": 3912,
+   "facts": {
+    "elevation_m": 156,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "La Corona is the name given by archaeologists to an ancient Maya court residence in Guatemala's Petén department that was discovered in 1996.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Corona",
+    "url": "https://en.wikipedia.org/wiki/La_Corona",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1426042.webp",
+    "author": "Adrian Hernandez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Corona_Relieve_Juego_de_Pelota.jpg"
+   }
+  },
+  {
+   "id": "wd:Q753924",
+   "name": "Pacaya",
+   "label": "Pacaya",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 14.3808,
+   "lon": -90.6011,
+   "rarity": "Rare",
+   "fame": 38010,
+   "facts": {
+    "elevation_m": 2552,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "Pacaya is an active complex volcano in Guatemala, which first erupted approximately 23,000 years ago and has erupted at least 23 times since the Spanish…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pacaya",
+    "url": "https://en.wikipedia.org/wiki/Pacaya",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q753924.webp",
+    "author": "USGS",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Pacaya_erupting_in_1976.jpg"
+   }
+  },
+  {
+   "id": "wd:Q138637",
+   "name": "Lake Izabal",
+   "label": "Lake Izabal",
+   "type": "nature",
+   "kind": "lake",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.5,
+   "lon": -89.1667,
+   "rarity": "Rare",
+   "fame": 9528,
+   "facts": {
+    "elevation_m": 1.0,
+    "area_km2": 590,
+    "length_km": 45,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Lake Izabal, also known as the Golfo Dulce, is the largest lake in Guatemala with a surface area of 672 km2 and a maximum depth of 18 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Izabal",
+    "url": "https://en.wikipedia.org/wiki/Lake_Izabal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q138637.webp",
+    "author": "Willyman",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Festung_am_Lago_Izabal,Guatemala.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1660972",
+   "name": "Sierra de los Cuchumatanes",
+   "label": "Sierra de los Cuchumatanes",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.4164,
+   "lon": -91.3469,
+   "rarity": "Rare",
+   "fame": 11190,
+   "facts": {
+    "elevation_m": 3837,
+    "area_km2": 16350,
+    "length_km": 400,
+    "temp_c": 11.6
+   },
+   "flavour": {
+    "text": "The Sierra de los Cuchumatanes, in western Guatemala, is the highest non-volcanic mountain range in Central America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra de los Cuchumatanes",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_los_Cuchumatanes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1660972.webp",
+    "author": "Christian Van Der Henst S.",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sierra_de_los_Cuchumatanes01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5730441",
+   "name": "Laguna de Ayarza",
+   "label": "Laguna de Ayarza",
+   "type": "nature",
+   "kind": "lake",
+   "region": "GT-SR",
+   "country": "GT",
+   "lat": 14.4167,
+   "lon": -90.1167,
+   "rarity": "Rare",
+   "fame": 7992,
+   "facts": {
+    "elevation_m": 1409,
+    "area_km2": 14,
+    "temp_c": 18.0
+   },
+   "flavour": {
+    "text": "The lake has a surface area of 14 km2 and a maximum depth of 230 m.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Laguna de Ayarza",
+    "url": "https://en.wikipedia.org/wiki/Laguna_de_Ayarza",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5730441.webp",
+    "author": "Daniel chavez castro",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago_de_Ayarza,Ayarza,Santa_Rosa,_Guatemala._-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1575468",
+   "name": "Volcán San Pedro",
+   "label": "Volcán San Pedro",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "GT-SO",
+   "country": "GT",
+   "lat": 14.6558,
+   "lon": -91.2658,
+   "rarity": "Rare",
+   "fame": 6870,
+   "facts": {
+    "elevation_m": 3018,
+    "temp_c": 19.2
+   },
+   "flavour": {
+    "text": "Volcán San Pedro is a 3,020-metre stratovolcano on the shores of Lago de Atitlán, in the Sololá Department of southern Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán San Pedro",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_San_Pedro",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1575468.webp",
+    "author": "Uspn",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Atitlan-Volcan-San-Pedro.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6164654",
+   "name": "Santiaguito",
+   "label": "Santiaguito",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "GT-QZ",
+   "country": "GT",
+   "lat": 14.7394,
+   "lon": -91.5681,
+   "rarity": "Rare",
+   "fame": 11970,
+   "facts": {
+    "elevation_m": 2535,
+    "temp_c": 16.0
+   },
+   "flavour": {
+    "text": "A mountain in Quetzaltenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6164654.webp",
+    "author": "Alefarfan",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Volcan-Santiaguito-Quetzaltenango-Guatemala.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1726738",
+   "name": "Chixoy River",
+   "label": "Chixoy River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.4797,
+   "lon": -90.5436,
+   "rarity": "Rare",
+   "fame": 4986,
+   "facts": {
+    "elevation_m": 108,
+    "length_km": 400,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The Chixoy River or Río Chixoy is a river in Guatemala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chixoy River",
+    "url": "https://en.wikipedia.org/wiki/Chixoy_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1726738.webp",
+    "author": "Fernandoreyespalencia",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Chixoy.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3308988",
+   "name": "Laguna Lachuá",
+   "label": "Laguna Lachuá",
+   "type": "nature",
+   "kind": "lake",
+   "region": "GT-AV",
+   "country": "GT",
+   "lat": 15.9167,
+   "lon": -90.6667,
+   "rarity": "Rare",
+   "fame": 5112,
+   "facts": {
+    "elevation_m": 173,
+    "area_km2": 4.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The lake is near circular in shape and is probably a cenote or doline.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lachuá Lake",
+    "url": "https://en.wikipedia.org/wiki/Lachu%C3%A1_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3308988.webp",
+    "author": "Chixoy",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Lagunalachu%C3%A0.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1880965",
+   "name": "Volcán Tolimán",
+   "label": "Volcán Tolimán",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "GT-SO",
+   "country": "GT",
+   "lat": 14.6125,
+   "lon": -91.1892,
+   "rarity": "Rare",
+   "fame": 4266,
+   "facts": {
+    "elevation_m": 3158,
+    "temp_c": 19.2
+   },
+   "flavour": {
+    "text": "Part of the Sierra Madre mountain range, the volcano has an elevation of 3,158 m and was formed near the southern margin of the Pleistocene Atitlán III caldera.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tolimán (volcano)",
+    "url": "https://en.wikipedia.org/wiki/Tolim%C3%A1n_%28volcano%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1880965.webp",
+    "author": "gringologue from Antigua, Guatemala",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toliman_Volcano.jpg"
+   }
+  },
+  {
+   "id": "wd:Q746425",
+   "name": "Sierra de las Minas",
+   "label": "Sierra de las Minas",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "GT-IZ",
+   "country": "GT",
+   "lat": 15.25,
+   "lon": -89.5,
+   "rarity": "Rare",
+   "fame": 5274,
+   "facts": {
+    "elevation_m": 3015,
+    "area_km2": 4300,
+    "length_km": 130,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "It is 15–30 km wide and bordered by the valleys of the Polochic River in the north and the Motagua River in the south.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra de las Minas",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_las_Minas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q746425.webp",
+    "author": "Malene Thyssen (User Malene )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Margaykat_Leopardus_wiedii.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1948509",
+   "name": "Suchiate River",
+   "label": "Suchiate River",
+   "type": "nature",
+   "kind": "river",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 14.53,
+   "lon": -92.2267,
+   "rarity": "Rare",
+   "fame": 7260,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 161,
+    "temp_c": 27.8
+   },
+   "also_in": [
+    "MX"
+   ],
+   "flavour": {
+    "text": "Its name comes from the Nahuatl name Xochiatl meaning \"flower-water\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Suchiate River",
+    "url": "https://en.wikipedia.org/wiki/Suchiate_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1948509.webp",
+    "author": "Fernando Reyes",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frontera_guatemala_mexico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1752870",
+   "name": "Volcán Tacaná",
+   "label": "Volcán Tacaná",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 15.1334,
+   "lon": -92.1058,
+   "rarity": "Rare",
+   "fame": 21774,
+   "facts": {
+    "elevation_m": 4064,
+    "prominence_m": 1030,
+    "temp_c": 18.3
+   },
+   "flavour": {
+    "text": "Volcán Tacaná is the second highest peak in Central America at 4,060 metres, located in the Sierra Madre de Chiapas of western Guatemala and southern Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán Tacaná",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Tacan%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1752870.webp",
+    "author": "v. hess, photographer, editor Uploaded by Victrav at en.wikipedia",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Volcal-tucan.jpg"
+   }
+  },
+  {
+   "id": "gn:3594422",
+   "name": "La Libertad",
+   "label": "La Libertad (Petén)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-PE",
+   "country": "GT",
+   "lat": 16.7885,
+   "lon": -90.117,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8646,
+    "elevation_m": 186,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "A community of 8,646 people in Petén.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3594422.webp"
+   }
+  },
+  {
+   "id": "gn:3589468",
+   "name": "Santa Bárbara",
+   "label": "Santa Bárbara (Huehuetenango)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-HU",
+   "country": "GT",
+   "lat": 15.3162,
+   "lon": -91.6328,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 888,
+    "elevation_m": 2435,
+    "temp_c": 16.7
+   },
+   "flavour": {
+    "text": "A community of 888 people in Huehuetenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589468.webp"
+   }
+  },
+  {
+   "id": "gn:3599793",
+   "name": "Almolonga",
+   "label": "Almolonga (Quetzaltenango)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QZ",
+   "country": "GT",
+   "lat": 14.8159,
+   "lon": -91.4946,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 12299,
+    "elevation_m": 2261,
+    "temp_c": 14.4
+   },
+   "flavour": {
+    "text": "A community of 12,299 people in Quetzaltenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3599793.webp"
+   }
+  },
+  {
+   "id": "gn:3591060",
+   "name": "Puerto San José",
+   "label": "Puerto San José (Escuintla)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-ES",
+   "country": "GT",
+   "lat": 13.9222,
+   "lon": -90.8191,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 23887,
+    "elevation_m": 5.0,
+    "temp_c": 27.4
+   },
+   "flavour": {
+    "text": "A community of 23,887 people in Escuintla.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3591060.webp"
+   }
+  },
+  {
+   "id": "gn:3589626",
+   "name": "San Pedro Sacatepéquez",
+   "label": "San Pedro Sacatepéquez (San Marcos)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-SM",
+   "country": "GT",
+   "lat": 14.9681,
+   "lon": -91.7617,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 40021,
+    "elevation_m": 2321,
+    "temp_c": 13.8
+   },
+   "flavour": {
+    "text": "A community of 40,021 people in San Marcos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3589626.webp"
+   }
+  },
+  {
+   "id": "gn:3600008",
+   "name": "Acatenango",
+   "label": "Acatenango (Chimaltenango)",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-CM",
+   "country": "GT",
+   "lat": 14.5545,
+   "lon": -90.9437,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 12136,
+    "elevation_m": 1563,
+    "temp_c": 15.6
+   },
+   "flavour": {
+    "text": "A community of 12,136 people in Chimaltenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3600008.webp"
+   }
+  },
+  {
+   "id": "gn:3598655",
+   "name": "Chichicastenango",
+   "label": "Chichicastenango",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-QC",
+   "country": "GT",
+   "lat": 14.9433,
+   "lon": -91.1112,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 141567,
+    "elevation_m": 2077,
+    "temp_c": 14.8
+   },
+   "flavour": {
+    "text": "A community of 141,567 people in Quiché.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3598655.webp"
+   }
+  },
+  {
+   "id": "gn:3587543",
+   "name": "Zaragoza",
+   "label": "Zaragoza",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-CM",
+   "country": "GT",
+   "lat": 14.6497,
+   "lon": -90.8903,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 24022,
+    "elevation_m": 2062,
+    "temp_c": 15.6
+   },
+   "flavour": {
+    "text": "A community of 24,022 people in Chimaltenango.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3587543.webp"
+   }
+  },
+  {
+   "id": "gn:3593500",
+   "name": "La Unión",
+   "label": "La Unión",
+   "type": "town",
+   "kind": "town",
+   "region": "GT-ZA",
+   "country": "GT",
+   "lat": 14.9666,
+   "lon": -89.2902,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3682,
+    "elevation_m": 902,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "A community of 3,682 people in Zacapa.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3593500.webp"
+   }
+  }
+ ]
+}

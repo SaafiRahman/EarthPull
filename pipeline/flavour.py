@@ -158,7 +158,7 @@ def main():
     print("By type (%):", (df.groupby("type")["flavour"].agg(lambda s: (s != "").mean() * 100)).round(0).to_dict())
     print("Language:", df.loc[has, "flavour_lang"].value_counts().to_dict(), "| cut with …:", int(df["flavour"].str.endswith("…").sum()))
     for t in ("town", "nature", "built"):
-        s = df[(df["type"] == t) & has].sample(8, random_state=3)
+        s = df[(df["type"] == t) & has].pipe(lambda x: x.sample(min(8, len(x)), random_state=3))
         print(f"\n{t}:\n" + "\n".join(f"  {n}: {f}" for n, f in zip(s["name"], s["flavour"])))
     top = df[has].nlargest(8, "fame")
     print("\nMost famous:\n" + "\n".join(f"  {n}: {f}" for n, f in zip(top["name"], top["flavour"])))

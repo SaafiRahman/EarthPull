@@ -1,0 +1,2865 @@
+{
+ "note": "Sample of the Dominican Republic card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5921449",
+   "name": "Isla Cabritos",
+   "label": "Isla Cabritos",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-10",
+   "country": "DO",
+   "lat": 18.4864,
+   "lon": -71.6829,
+   "rarity": "Common",
+   "fame": 1464,
+   "facts": {
+    "elevation_m": -25,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "An island in Independencia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5921449.webp"
+   }
+  },
+  {
+   "id": "wd:Q7414610",
+   "name": "San Juan River",
+   "label": "San Juan River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.6667,
+   "lon": -71.0667,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 284,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "The San Juan River is a river of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Juan River (Dominican Republic)",
+    "url": "https://en.wikipedia.org/wiki/San_Juan_River_%28Dominican_Republic%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7414610.webp"
+   }
+  },
+  {
+   "id": "wd:Q141922812",
+   "name": "Manzanillo Bay",
+   "label": "Manzanillo Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.7075,
+   "lon": -71.7364,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A bay in Monte Cristi.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q141922812.webp"
+   }
+  },
+  {
+   "id": "wd:Q2284502",
+   "name": "Moto Sierra de Neiba",
+   "label": "Moto Sierra de Neiba",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "DO-03",
+   "country": "DO",
+   "lat": 18.6358,
+   "lon": -71.5219,
+   "rarity": "Common",
+   "fame": 1128,
+   "facts": {
+    "elevation_m": 2249,
+    "area_km2": 183,
+    "temp_c": 22.2
+   },
+   "flavour": {
+    "text": "A mountain in Baoruco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2284502.webp",
+    "author": "Tim Ross",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:07-05-11LagoEnriquilloDR.jpg"
+   }
+  },
+  {
+   "id": "wd:Q8061044",
+   "name": "Yuma River",
+   "label": "Yuma River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.379,
+   "lon": -68.604,
+   "rarity": "Common",
+   "fame": 426,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "The Yuma River is a river of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yuma River (Dominican Republic)",
+    "url": "https://en.wikipedia.org/wiki/Yuma_River_%28Dominican_Republic%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q8061044.webp",
+    "author": "Miguel Discart",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yuma_River.jpg"
+   }
+  },
+  {
+   "id": "wd:Q16892896",
+   "name": "Jima River",
+   "label": "Jima River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 19.1694,
+   "lon": -70.3819,
+   "rarity": "Common",
+   "fame": 222,
+   "facts": {
+    "elevation_m": 54,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "The Rincón Reservoir lies along the river.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jima River",
+    "url": "https://en.wikipedia.org/wiki/Jima_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16892896.webp"
+   }
+  },
+  {
+   "id": "wd:Q16627237",
+   "name": "Jimenoa River",
+   "label": "Jimenoa River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 19.1535,
+   "lon": -70.6435,
+   "rarity": "Common",
+   "fame": 522,
+   "facts": {
+    "elevation_m": 491,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "A river in La Vega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16627237.webp",
+    "author": "Glenn M. Harden",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Rio_Jimenoa_looking_west_downstream,_June_2010_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5921483",
+   "name": "Isla Cerro Gordo",
+   "label": "Isla Cerro Gordo",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.6667,
+   "lon": -71.3,
+   "rarity": "Common",
+   "fame": 192,
+   "facts": {
+    "elevation_m": 38,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "An island in Monte Cristi.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5921483.webp"
+   }
+  },
+  {
+   "id": "wd:Q141527864",
+   "name": "Río Yuma",
+   "label": "Río Yuma",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.3878,
+   "lon": -68.6082,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "elevation_m": 23,
+    "length_km": 60,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "A river in La Altagracia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q141527864.webp",
+    "author": "Lebob",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Embouchure_Rio_Yuma.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2049917",
+   "name": "Cordillera Septentrional",
+   "label": "Cordillera Septentrional",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "DO-18",
+   "country": "DO",
+   "lat": 19.614,
+   "lon": -70.729,
+   "rarity": "Common",
+   "fame": 4512,
+   "facts": {
+    "elevation_m": 1222,
+    "temp_c": 23.8
+   },
+   "flavour": {
+    "text": "The Cordillera Septentrional is a mountain range that runs parallel to the north coast of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cordillera Septentrional",
+    "url": "https://en.wikipedia.org/wiki/Cordillera_Septentrional",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2049917.webp"
+   }
+  },
+  {
+   "id": "wd:Q2066227",
+   "name": "Pedernales River",
+   "label": "Pedernales River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-16",
+   "country": "DO",
+   "lat": 18.0317,
+   "lon": -71.759,
+   "rarity": "Common",
+   "fame": 396,
+   "facts": {
+    "elevation_m": 2.0,
+    "length_km": 40,
+    "temp_c": 25.6
+   },
+   "also_in": [
+    "HT"
+   ],
+   "flavour": {
+    "text": "The Pedernales River is a river that forms the southernmost part of the international boundary between the Dominican Republic and Haiti.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pedernales River (Hispaniola)",
+    "url": "https://en.wikipedia.org/wiki/Pedernales_River_%28Hispaniola%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2066227.webp"
+   }
+  },
+  {
+   "id": "wd:Q5969134",
+   "name": "Laguna Rincón",
+   "label": "Laguna Rincón",
+   "type": "nature",
+   "kind": "lake",
+   "region": "DO-04",
+   "country": "DO",
+   "lat": 18.2823,
+   "lon": -71.2456,
+   "rarity": "Common",
+   "fame": 684,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A lake in Barahona.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5969134.webp"
+   }
+  },
+  {
+   "id": "gn:3495159",
+   "name": "Paya",
+   "label": "Paya",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-17",
+   "country": "DO",
+   "lat": 18.262,
+   "lon": -70.2956,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6916,
+    "elevation_m": 47,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 6,916 people in Peravia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3495159.webp"
+   }
+  },
+  {
+   "id": "gn:3505778",
+   "name": "Fantino",
+   "label": "Fantino",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-24",
+   "country": "DO",
+   "lat": 19.1215,
+   "lon": -70.2997,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10024,
+    "elevation_m": 56,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 10,024 people in Sánchez Ramírez.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3505778.webp"
+   }
+  },
+  {
+   "id": "gn:3512128",
+   "name": "Bajos de Haina",
+   "label": "Bajos de Haina",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-21",
+   "country": "DO",
+   "lat": 18.4154,
+   "lon": -70.0332,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 66784,
+    "elevation_m": 36,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 66,784 people in San Cristóbal.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3512128.webp"
+   }
+  },
+  {
+   "id": "gn:3493271",
+   "name": "Salsipuedes",
+   "label": "Salsipuedes",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-19",
+   "country": "DO",
+   "lat": 19.4055,
+   "lon": -70.3799,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 11675,
+    "elevation_m": 252,
+    "temp_c": 24.2
+   },
+   "flavour": {
+    "text": "A community of 11,675 people in Hermanas Mirabal.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3493271.webp"
+   }
+  },
+  {
+   "id": "gn:3499748",
+   "name": "Licey al Medio",
+   "label": "Licey al Medio",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.4333,
+   "lon": -70.6,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6435,
+    "elevation_m": 199,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A community of 6,435 people in Santiago.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3499748.webp"
+   }
+  },
+  {
+   "id": "gn:3500370",
+   "name": "Las Matas de Farfán",
+   "label": "Las Matas de Farfán",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-22",
+   "country": "DO",
+   "lat": 18.8731,
+   "lon": -71.5166,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 21802,
+    "elevation_m": 451,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 21,802 people in San Juan.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3500370.webp"
+   }
+  },
+  {
+   "id": "gn:3500641",
+   "name": "Las Charcas",
+   "label": "Las Charcas",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.4503,
+   "lon": -70.6172,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4720,
+    "elevation_m": 68,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A community of 4,720 people in Azua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3500641.webp"
+   }
+  },
+  {
+   "id": "gn:3510874",
+   "name": "Cabrera",
+   "label": "Cabrera",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-14",
+   "country": "DO",
+   "lat": 19.6426,
+   "lon": -69.9049,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4947,
+    "elevation_m": 22,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "A community of 4,947 people in María Trinidad Sánchez.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3510874.webp"
+   }
+  },
+  {
+   "id": "gn:3498191",
+   "name": "Los Llanos",
+   "label": "Los Llanos",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-23",
+   "country": "DO",
+   "lat": 18.6203,
+   "lon": -69.4958,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5529,
+    "elevation_m": 45,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A community of 5,529 people in San Pedro de Macorís.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3498191.webp"
+   }
+  },
+  {
+   "id": "gn:3495111",
+   "name": "Pedro García",
+   "label": "Pedro García",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.592,
+   "lon": -70.6526,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1457,
+    "elevation_m": 454,
+    "temp_c": 23.4
+   },
+   "flavour": {
+    "text": "A community of 1,457 people in Santiago.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3495111.webp"
+   }
+  },
+  {
+   "id": "gn:3510083",
+   "name": "Castañuelas",
+   "label": "Castañuelas",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.7139,
+   "lon": -71.4988,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4209,
+    "elevation_m": 23,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 4,209 people in Monte Cristi.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3510083.webp"
+   }
+  },
+  {
+   "id": "gn:3506034",
+   "name": "El Valle",
+   "label": "El Valle",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-30",
+   "country": "DO",
+   "lat": 18.9757,
+   "lon": -69.3783,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5666,
+    "elevation_m": 42,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "A community of 5,666 people in Hato Mayor.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3506034.webp"
+   }
+  },
+  {
+   "id": "wd:Q770641",
+   "name": "Estadio Olímpico Félix Sánchez",
+   "label": "Estadio Olímpico Félix Sánchez",
+   "type": "built",
+   "kind": "multi-purpose stadium",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4805,
+   "lon": -69.9187,
+   "rarity": "Epic",
+   "fame": 19554,
+   "facts": {
+    "elevation_m": 50,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It is used mostly for football and track and field and as a music venue.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Olímpico Félix Sánchez",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_F%C3%A9lix_S%C3%A1nchez",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q770641.webp",
+    "author": "ThePapo309",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Olimpico_Drone.jpg"
+   }
+  },
+  {
+   "id": "wd:Q538953",
+   "name": "La Vega",
+   "label": "La Vega",
+   "type": "built",
+   "kind": "big city",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 19.2242,
+   "lon": -70.5283,
+   "rarity": "Epic",
+   "fame": 32208,
+   "facts": {
+    "elevation_m": 100,
+    "area_km2": 642,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "La Vega, officially Concepción de La Vega, is the third most populous city and a municipality of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Vega, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/La_Vega%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q538953.webp",
+    "author": "DRW2193",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_vega_01.JPG"
+   }
+  },
+  {
+   "id": "wd:Q668772",
+   "name": "Alcázar de Colón",
+   "label": "Alcázar de Colón",
+   "type": "built",
+   "kind": "fort",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4775,
+   "lon": -69.8828,
+   "rarity": "Epic",
+   "fame": 23688,
+   "facts": {
+    "elevation_m": 9.0,
+    "length_km": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Alcázar de Colón is the first fortified European palace built in the Americas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alcázar de Colón",
+    "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_Col%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q668772.webp",
+    "author": "Martin Falbisoner",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo_-_Alcazar_de_Colon_02.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6906955",
+   "name": "Monumento de Santiago",
+   "label": "Monumento de Santiago",
+   "type": "built",
+   "kind": "monument",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.4507,
+   "lon": -70.695,
+   "rarity": "Epic",
+   "fame": 21372,
+   "facts": {
+    "elevation_m": 223,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "It is the highest building in Santiago, and a major tourist attraction for the area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monumento de Santiago",
+    "url": "https://en.wikipedia.org/wiki/Monumento_de_Santiago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6906955.webp",
+    "author": "Casualknit at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Monument_to_the_Heroes_of_the_Restoration1.JPG"
+   }
+  },
+  {
+   "id": "wd:Q444485",
+   "name": "Altos de Chavón",
+   "label": "Altos de Chavón",
+   "type": "built",
+   "kind": "fixed construction",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.4215,
+   "lon": -68.8899,
+   "rarity": "Epic",
+   "fame": 19434,
+   "facts": {
+    "elevation_m": 74,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Altos de Chavón is a tourist attraction and recreation of a Mediterranean village located atop the Chavón River in La Romana, Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Altos de Chavón",
+    "url": "https://en.wikipedia.org/wiki/Altos_de_Chav%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q444485.webp",
+    "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominicana-Altos_de_Chavon.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3305377",
+   "name": "Palacio Nacional",
+   "label": "Palacio Nacional",
+   "type": "built",
+   "kind": "official residence",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4742,
+   "lon": -69.8978,
+   "rarity": "Epic",
+   "fame": 15276,
+   "facts": {
+    "elevation_m": 42,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Palacio Nacional is a building in Santo Domingo, that houses the offices of the executive branch of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Palace (Dominican Republic)",
+    "url": "https://en.wikipedia.org/wiki/National_Palace_%28Dominican_Republic%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3305377.webp",
+    "author": "Jean-Marc Astesana from Voisins le Bretonneux, France",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo_National_Palace.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2033262",
+   "name": "Casa de Campo, Dominican Republic",
+   "label": "Casa de Campo, Dominican Republic",
+   "type": "built",
+   "kind": "hotel",
+   "region": "DO-12",
+   "country": "DO",
+   "lat": 18.4,
+   "lon": -68.9167,
+   "rarity": "Epic",
+   "fame": 17808,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Casa de Campo is a Ponderosa-style tropical seaside residential community in La Romana on the southeast coast of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Casa de Campo, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Casa_de_Campo%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2033262.webp",
+    "author": "giggel",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominikanische_Republik,_La_Romana_%E2%80%93_Casa_de_Campo_Information_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2516819",
+   "name": "Fortaleza Ozama",
+   "label": "Fortaleza Ozama",
+   "type": "built",
+   "kind": "fortress",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4732,
+   "lon": -69.8817,
+   "rarity": "Epic",
+   "fame": 20916,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Ozama Fortress, also formerly known as the city wall's Homage tower, is one of the surviving sections of the Walls of Santo Domingo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Fortaleza Ozama",
+    "url": "https://en.wikipedia.org/wiki/Fortaleza_Ozama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2516819.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fortaleza_Ozama_RD_11_2017_6493.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5400466",
+   "name": "Estadio Quisqueya Juan Marichal",
+   "label": "Estadio Quisqueya Juan Marichal",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4882,
+   "lon": -69.9264,
+   "rarity": "Epic",
+   "fame": 12192,
+   "facts": {
+    "elevation_m": 51,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It is often used as a multi-purpose stadium.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Quisqueya Juan Marichal",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Quisqueya_Juan_Marichal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5400466.webp",
+    "author": "Calt2001",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_quisqueya_santo_domingo_dominican_republic_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9055961",
+   "name": "Jaragua National Park",
+   "label": "Jaragua National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-16",
+   "country": "DO",
+   "lat": 17.7892,
+   "lon": -71.499,
+   "rarity": "Epic",
+   "fame": 5034,
+   "facts": {
+    "elevation_m": 191,
+    "area_km2": 1374,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Jaragua National Park is a Dominican national park located in Pedernales Province, in the extreme southwest of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jaragua National Park",
+    "url": "https://en.wikipedia.org/wiki/Jaragua_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9055961.webp",
+    "author": "Tim Ross",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:CaribFlamingosLOviedo2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q585251",
+   "name": "Cotubanamá National Park",
+   "label": "Cotubanamá National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.2283,
+   "lon": -68.683,
+   "rarity": "Epic",
+   "fame": 5172,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 796,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Cotubanamá National Park is located on the lower southeastern coast of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cotubanamá National Park",
+    "url": "https://en.wikipedia.org/wiki/Cotubanam%C3%A1_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q585251.webp",
+    "author": "Melodygar",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Saona_III.jpg"
+   }
+  },
+  {
+   "id": "wd:Q25277",
+   "name": "Hispaniola",
+   "label": "Hispaniola",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-22",
+   "country": "DO",
+   "lat": 19.0,
+   "lon": -71.0,
+   "rarity": "Epic",
+   "fame": 537522,
+   "facts": {
+    "elevation_m": 3098,
+    "area_km2": 76420,
+    "temp_c": 17.2
+   },
+   "also_in": [
+    "HT"
+   ],
+   "flavour": {
+    "text": "It is the most populous island in the West Indies and the second-largest by land area, after Cuba.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hispaniola",
+    "url": "https://en.wikipedia.org/wiki/Hispaniola",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q25277.webp",
+    "author": "NASA/Expedition 20 crew",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS-20_Caribbean_island_of_Hispaniola_from_the_ISS.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5549649",
+   "name": "Nalga de Maco",
+   "label": "Nalga de Maco",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-07",
+   "country": "DO",
+   "lat": 19.2059,
+   "lon": -71.4972,
+   "rarity": "Epic",
+   "fame": 1026,
+   "facts": {
+    "elevation_m": 1526,
+    "area_km2": 166,
+    "temp_c": 21.0
+   },
+   "flavour": {
+    "text": "A national park in La Estrelleta.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5549649.webp"
+   }
+  },
+  {
+   "id": "wd:Q783742",
+   "name": "Pico Duarte",
+   "label": "Pico Duarte",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.0331,
+   "lon": -71.0053,
+   "rarity": "Epic",
+   "fame": 55194,
+   "facts": {
+    "elevation_m": 3101,
+    "prominence_m": 3101,
+    "temp_c": 13.4
+   },
+   "flavour": {
+    "text": "Pico Duarte is the highest peak in the Dominican Republic, on the island of Hispaniola and in all the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pico Duarte",
+    "url": "https://en.wikipedia.org/wiki/Pico_Duarte",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q783742.webp",
+    "author": "Adrian Michael",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pico_Duarte.jpg"
+   }
+  },
+  {
+   "id": "wd:Q132891238",
+   "name": "Anacaona National Park",
+   "label": "Anacaona National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.6,
+   "lon": -71.13,
+   "rarity": "Epic",
+   "fame": 366,
+   "facts": {
+    "elevation_m": 504,
+    "area_km2": 539,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Parque Nacional Anacaona is a protected area in the southwestern Dominican Republic, spanning 583.93 km² across the provinces of Barahona, Azua, San Juan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Anacaona National Park",
+    "url": "https://en.wikipedia.org/wiki/Anacaona_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q132891238.webp"
+   }
+  },
+  {
+   "id": "wd:Q118868654",
+   "name": "La Gran Sabana National Park",
+   "label": "La Gran Sabana National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-03",
+   "country": "DO",
+   "lat": 18.4,
+   "lon": -71.3833,
+   "rarity": "Epic",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 3.0,
+    "area_km2": 220,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "It lies east of Lake Enriquillo in the Hoya de Enriquillo lowland.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Gran Sabana National Park",
+    "url": "https://en.wikipedia.org/wiki/La_Gran_Sabana_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q118868654.webp"
+   }
+  },
+  {
+   "id": "wd:Q42090",
+   "name": "Los Haitises National Park",
+   "label": "Los Haitises National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-30",
+   "country": "DO",
+   "lat": 19.0439,
+   "lon": -69.5929,
+   "rarity": "Epic",
+   "fame": 17754,
+   "facts": {
+    "elevation_m": 228,
+    "area_km2": 632,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "Los Haitises National Park is a national park located on the remote northeast coast of the Dominican Republic that was established in 1976.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Los Haitises National Park",
+    "url": "https://en.wikipedia.org/wiki/Los_Haitises_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q42090.webp",
+    "author": "Anton Bielousov",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Los_Haitises_Park.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q6062999",
+   "name": "José Armando Bermúdez National Park",
+   "label": "José Armando Bermúdez National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-26",
+   "country": "DO",
+   "lat": 19.2883,
+   "lon": -71.4628,
+   "rarity": "Epic",
+   "fame": 2532,
+   "facts": {
+    "elevation_m": 863,
+    "temp_c": 21.0
+   },
+   "flavour": {
+    "text": "José Armando Bermúdez National Park is a Dominican Republic National Park spanning the northern slopes and central portions of the Central Mountain Range.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "José Armando Bermúdez National Park",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Armando_Berm%C3%BAdez_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6062999.webp",
+    "author": "siri bl",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Foggy_scenic_view_of_Dominican_Mountains,_Cordillera_Central.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6904743",
+   "name": "Monte Cristi National Park",
+   "label": "Monte Cristi National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.777,
+   "lon": -71.7023,
+   "rarity": "Epic",
+   "fame": 984,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Monte Cristi National Park is a national park on the Caribbean Island of Hispaniola that extends from the borders of Haiti to Punta Rucia in the Dominican…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monte Cristi National Park",
+    "url": "https://en.wikipedia.org/wiki/Monte_Cristi_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6904743.webp",
+    "author": "Joel Diplan",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Unnamed_Road,_Dominican_Republic_-_panoramio_(9).jpg"
+   }
+  },
+  {
+   "id": "gn:3504077",
+   "name": "Jimaní",
+   "label": "Jimaní",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-10",
+   "country": "DO",
+   "lat": 18.4877,
+   "lon": -71.8515,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 6567,
+    "elevation_m": 50,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "A community of 6,567 people in Independencia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3504077.webp"
+   }
+  },
+  {
+   "id": "gn:3512208",
+   "name": "Azua",
+   "label": "Azua",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.4532,
+   "lon": -70.7349,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 59139,
+    "elevation_m": 86,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 59,139 people in Azua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3512208.webp"
+   }
+  },
+  {
+   "id": "gn:3510969",
+   "name": "Cabarete",
+   "label": "Cabarete",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-18",
+   "country": "DO",
+   "lat": 19.7498,
+   "lon": -70.4083,
+   "rarity": "Epic",
+   "fame": 12468,
+   "facts": {
+    "population": 4094,
+    "elevation_m": 12,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Cabarete is a town in the Puerto Plata province of the Dominican Republic, noted for its tourism and beaches.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cabarete",
+    "url": "https://en.wikipedia.org/wiki/Cabarete",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3510969.webp",
+    "author": "Alex Proimos from Sydney, Australia",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cabarete,_Dominican_Republic_(8644953576).jpg"
+   }
+  },
+  {
+   "id": "gn:3495857",
+   "name": "Neiba",
+   "label": "Neiba",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-03",
+   "country": "DO",
+   "lat": 18.4898,
+   "lon": -71.4189,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 18670,
+    "elevation_m": 50,
+    "temp_c": 27.9
+   },
+   "flavour": {
+    "text": "A community of 18,670 people in Baoruco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3495857.webp"
+   }
+  },
+  {
+   "id": "gn:3500957",
+   "name": "La Romana",
+   "label": "La Romana",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-12",
+   "country": "DO",
+   "lat": 18.4233,
+   "lon": -68.9664,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 208437,
+    "elevation_m": 9.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 208,437 people in La Romana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3500957.webp"
+   }
+  },
+  {
+   "id": "gn:3495137",
+   "name": "Pedernales",
+   "label": "Pedernales",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-16",
+   "country": "DO",
+   "lat": 18.0356,
+   "lon": -71.7467,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 11072,
+    "elevation_m": 12,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 11,072 people in Pedernales.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3495137.webp"
+   }
+  },
+  {
+   "id": "gn:3493174",
+   "name": "San Fernando de Monte Cristi",
+   "label": "San Fernando de Monte Cristi",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.848,
+   "lon": -71.646,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 17001,
+    "elevation_m": 31,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 17,001 people in Monte Cristi.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3493174.webp"
+   }
+  },
+  {
+   "id": "gn:3512067",
+   "name": "Baní",
+   "label": "Baní",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-17",
+   "country": "DO",
+   "lat": 18.2797,
+   "lon": -70.3318,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 66709,
+    "elevation_m": 67,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "A community of 66,709 people in Peravia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3512067.webp"
+   }
+  },
+  {
+   "id": "gn:3512332",
+   "name": "Arroyo Salado",
+   "label": "Arroyo Salado",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-14",
+   "country": "DO",
+   "lat": 19.5,
+   "lon": -69.9,
+   "rarity": "Epic",
+   "fame": 1392,
+   "facts": {
+    "population": 1990,
+    "elevation_m": 6.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "It is very close to the town of Cabrera, and a short distance from Nagua.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arroyo Salado",
+    "url": "https://en.wikipedia.org/wiki/Arroyo_Salado",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3512332.webp"
+   }
+  },
+  {
+   "id": "gn:3493081",
+   "name": "San Juan de la Maguana",
+   "label": "San Juan de la Maguana",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-22",
+   "country": "DO",
+   "lat": 18.8064,
+   "lon": -71.2263,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 72950,
+    "elevation_m": 406,
+    "temp_c": 23.9
+   },
+   "flavour": {
+    "text": "A community of 72,950 people in San Juan.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3493081.webp"
+   }
+  },
+  {
+   "id": "wd:Q4868419",
+   "name": "Basílica Catedral Metropolitana Santa María de la Encarnación",
+   "label": "Basílica Catedral Metropolitana Santa María de la Encarnación",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.473,
+   "lon": -69.8839,
+   "rarity": "Legendary",
+   "fame": 55272,
+   "facts": {
+    "elevation_m": 20,
+    "height_m": 16,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Cathedral of the Americas, Cathedral of Santo Domingo, Cathedral Basilica of Santa María la Menor or Minor Basilica of Santa María de la Encarnación.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of Santo Domingo",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4868419.webp",
+    "author": "Georg Karl Ell",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominikanische_Republik_Santo_Domingo_Basilica_Catedral_Menor_de_Santa_Maria_02.jpg"
+   }
+  },
+  {
+   "id": "gn:3492908",
+   "name": "Santo Domingo",
+   "label": "Santo Domingo",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4719,
+   "lon": -69.8923,
+   "rarity": "Legendary",
+   "fame": 484134,
+   "facts": {
+    "population": 2201941,
+    "elevation_m": 24,
+    "area_km2": 1302,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Santo Domingo, officially known as Santo Domingo de Guzmán, is the capital and largest city of the Dominican Republic and the largest metropolitan area in the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santo Domingo",
+    "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3492908.webp",
+    "author": "Jjc09",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Santo_Domingo_(Dominican_Republic)_taken_atop_Novocentro_tower_viewing_the_city_to_the_southwest_2010.jpg"
+   }
+  },
+  {
+   "id": "wd:Q111414792",
+   "name": "Hard Rock Hotel & Casino Punta Cana - All Inclusive",
+   "label": "Hard Rock Hotel & Casino Punta Cana - All Inclusive",
+   "type": "built",
+   "kind": "hotel",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.7332,
+   "lon": -68.4828,
+   "rarity": "Rare",
+   "fame": 5370,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Hard Rock Hotel & Casino Punta Cana is an all-inclusive resort on the Macao Beach in the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hard Rock Hotel & Casino Punta Cana",
+    "url": "https://en.wikipedia.org/wiki/Hard_Rock_Hotel_%26_Casino_Punta_Cana",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q111414792.webp"
+   }
+  },
+  {
+   "id": "wd:Q5400308",
+   "name": "Estadio Julian Javier",
+   "label": "Estadio Julian Javier",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "DO-06",
+   "country": "DO",
+   "lat": 19.2824,
+   "lon": -70.2447,
+   "rarity": "Rare",
+   "fame": 3180,
+   "facts": {
+    "elevation_m": 101,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It is currently used mostly for baseball games and hosts the home games of Gigantes del Cibao and Atlético San Francisco of the Dominican football league.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Julian Javier",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Julian_Javier",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5400308.webp",
+    "author": "OzzyDiaz",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Julian_Javier.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5755447",
+   "name": "Casa del Cordón",
+   "label": "Casa del Cordón",
+   "type": "built",
+   "kind": "historic building",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4765,
+   "lon": -69.8841,
+   "rarity": "Rare",
+   "fame": 1752,
+   "facts": {
+    "elevation_m": 19,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A historic building in Nacional.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5755447.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_del_Cordon_CCSD_RD_11_2017_6568.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4868422",
+   "name": "Basílica Catedral Nuestra Señora de la Altagracia",
+   "label": "Basílica Catedral Nuestra Señora de la Altagracia",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "DO-11",
+   "country": "DO",
+   "lat": 18.6161,
+   "lon": -68.7169,
+   "rarity": "Rare",
+   "fame": 2298,
+   "facts": {
+    "elevation_m": 107,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Basilica-Cathedral of Our Lady of Altagracia is a Roman Catholic minor basilica and cathedral in the Dominican Republic dedicated to Our Lady of…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Basilica-Cathedral of Our Lady of Altagracia",
+    "url": "https://en.wikipedia.org/wiki/Basilica-Cathedral_of_Our_Lady_of_Altagracia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4868422.webp",
+    "author": "Celiovmota",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlicaHig%C3%BCey.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7139633",
+   "name": "Parque Colon",
+   "label": "Parque Colon",
+   "type": "built",
+   "kind": "square",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4734,
+   "lon": -69.8842,
+   "rarity": "Rare",
+   "fame": 8124,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Parque Colón is the central square of the Ciudad Colonial historic district of Santo Domingo, Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Parque Colón",
+    "url": "https://en.wikipedia.org/wiki/Parque_Col%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7139633.webp",
+    "author": "Siso84",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Parque_Colon.JPG"
+   }
+  },
+  {
+   "id": "wd:Q100507890",
+   "name": "Plaza España, Santo Domingo",
+   "label": "Plaza España, Santo Domingo",
+   "type": "built",
+   "kind": "square",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4769,
+   "lon": -69.8833,
+   "rarity": "Rare",
+   "fame": 2370,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Plaza de España, also known as the Plaza de la Hispanidad, is a public square located in the historic district of Ciudad Colonial, Santo Domingo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Plaza de España (Santo Domingo)",
+    "url": "https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a_%28Santo_Domingo%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q100507890.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CCSD_Plaza_Espa%C3%B1a_07_2017_4671.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7258505",
+   "name": "Juan Bosch bridge",
+   "label": "Juan Bosch bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4867,
+   "lon": -69.8826,
+   "rarity": "Rare",
+   "fame": 1740,
+   "facts": {
+    "elevation_m": 5.0,
+    "height_m": 63,
+    "length_km": 0.6,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Juan Bosch Bridge is a cable-stayed bridge of reinforced concrete that crosses the Ozama River and links the municipality of Santo Domingo Este with the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juan Bosch Bridge",
+    "url": "https://en.wikipedia.org/wiki/Juan_Bosch_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7258505.webp",
+    "author": "[2]",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_Juan_Bosch_en_direcci%C3%B3n_al_centro_de_la_ciudad.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6940459",
+   "name": "Museo Bellapart",
+   "label": "Museo Bellapart",
+   "type": "built",
+   "kind": "art museum",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.482,
+   "lon": -69.9253,
+   "rarity": "Rare",
+   "fame": 1110,
+   "facts": {
+    "elevation_m": 49,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Museo Bellapart is a free private art museum in Santo Domingo, Dominican Republic specifically in located at the corner of Av.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Museo Bellapart",
+    "url": "https://en.wikipedia.org/wiki/Museo_Bellapart",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6940459.webp"
+   }
+  },
+  {
+   "id": "wd:Q5400439",
+   "name": "Estadio Olímpico",
+   "label": "Estadio Olímpico",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 19.2287,
+   "lon": -70.5124,
+   "rarity": "Rare",
+   "fame": 1404,
+   "facts": {
+    "elevation_m": 93,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "It is currently used mostly for football matches and hosts the home games of Jarabacoa of the Liga Dominicana de Fútbol.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Olímpico (La Vega)",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_%28La_Vega%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5400439.webp"
+   }
+  },
+  {
+   "id": "wd:Q16895353",
+   "name": "Monción Dam",
+   "label": "Monción Dam",
+   "type": "built",
+   "kind": "embankment dam",
+   "region": "DO-26",
+   "country": "DO",
+   "lat": 19.4055,
+   "lon": -71.1191,
+   "rarity": "Rare",
+   "fame": 618,
+   "facts": {
+    "elevation_m": 282,
+    "length_km": 0.3,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "The Monción Dam is an earth-fill embankment dam on the Mao River near Monción in Santiago Rodríguez Province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monción Dam",
+    "url": "https://en.wikipedia.org/wiki/Monci%C3%B3n_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16895353.webp"
+   }
+  },
+  {
+   "id": "wd:Q141908499",
+   "name": "Manzanillo Port",
+   "label": "Manzanillo Port",
+   "type": "built",
+   "kind": "port",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.7051,
+   "lon": -71.7433,
+   "rarity": "Rare",
+   "fame": 768,
+   "facts": {
+    "elevation_m": 4.0,
+    "length_km": 0.2,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Manzanillo Port is located in Manzanillo, Monte Cristi Province, Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Manzanillo Port",
+    "url": "https://en.wikipedia.org/wiki/Manzanillo_Port",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q141908499.webp"
+   }
+  },
+  {
+   "id": "wd:Q5400137",
+   "name": "Estadio Cibao",
+   "label": "Estadio Cibao",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.4669,
+   "lon": -70.7089,
+   "rarity": "Rare",
+   "fame": 9846,
+   "facts": {
+    "elevation_m": 154,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "Currently, it is mostly used for baseball games and hosts the home games of the Águilas Cibaeñas in the Dominican Winter Baseball League.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Cibao",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Cibao",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5400137.webp",
+    "author": "Advancehg",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadiocibao.jpg"
+   }
+  },
+  {
+   "id": "wd:Q83788",
+   "name": "Cordillera Central",
+   "label": "Cordillera Central",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.0331,
+   "lon": -71.0053,
+   "rarity": "Rare",
+   "fame": 9180,
+   "facts": {
+    "elevation_m": 3098,
+    "temp_c": 13.4
+   },
+   "also_in": [
+    "HT"
+   ],
+   "flavour": {
+    "text": "The Cordillera Central is the highest mountain range in the Dominican Republic and in all of the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cordillera Central, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/Cordillera_Central%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q83788.webp",
+    "author": "Treeman",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cordillera_Central,_RD.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1674017",
+   "name": "Alto Velo Island",
+   "label": "Alto Velo Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-16",
+   "country": "DO",
+   "lat": 17.4756,
+   "lon": -71.6419,
+   "rarity": "Rare",
+   "fame": 5256,
+   "facts": {
+    "elevation_m": 101,
+    "area_km2": 1.0,
+    "length_km": 1.4,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Its maximum height is about 152 metres above sea level.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alto Velo Island",
+    "url": "https://en.wikipedia.org/wiki/Alto_Velo_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1674017.webp"
+   }
+  },
+  {
+   "id": "wd:Q1634730",
+   "name": "Ozama River",
+   "label": "Ozama River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-01",
+   "country": "DO",
+   "lat": 18.4667,
+   "lon": -69.8833,
+   "rarity": "Rare",
+   "fame": 10212,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 148,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It rises in the Loma Siete Cabezas mountain in the Sierra de Yamasá mountain range, close to the town of Villa Altagracia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ozama River",
+    "url": "https://en.wikipedia.org/wiki/Ozama_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1634730.webp",
+    "author": "Unknown author",
+    "licence": "GPL",
+    "licence_url": "http://www.gnu.org/licenses/gpl.html",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_ozama2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q477915",
+   "name": "Catalina Island",
+   "label": "Catalina Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-12",
+   "country": "DO",
+   "lat": 18.36,
+   "lon": -69.0047,
+   "rarity": "Rare",
+   "fame": 18138,
+   "facts": {
+    "elevation_m": 4.0,
+    "area_km2": 9.0,
+    "length_km": 4.6,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Catalina Island or Isla Catalina is a tropical island in the Caribbean Sea located 2.4 kilometres from the mainland on the south-east corner of the Dominican…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Catalina Island (Dominican Republic)",
+    "url": "https://en.wikipedia.org/wiki/Catalina_Island_%28Dominican_Republic%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q477915.webp",
+    "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominicana-Isla_Catalina2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1464758",
+   "name": "Lake Enriquillo",
+   "label": "Lake Enriquillo",
+   "type": "nature",
+   "kind": "lake",
+   "region": "DO-10",
+   "country": "DO",
+   "lat": 18.4856,
+   "lon": -71.6153,
+   "rarity": "Rare",
+   "fame": 28284,
+   "facts": {
+    "elevation_m": -46,
+    "area_km2": 375,
+    "length_km": 40,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Lake Enriquillo is a hypersaline lake in the Dominican Republic located in the southwestern region of the country.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Enriquillo",
+    "url": "https://en.wikipedia.org/wiki/Lake_Enriquillo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1464758.webp",
+    "author": "Juan Alberto Silver",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago_Enriquillo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1850466",
+   "name": "Yuna River",
+   "label": "Yuna River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-28",
+   "country": "DO",
+   "lat": 18.7878,
+   "lon": -70.4181,
+   "rarity": "Rare",
+   "fame": 5778,
+   "facts": {
+    "elevation_m": 1100,
+    "length_km": 138,
+    "temp_c": 20.8
+   },
+   "flavour": {
+    "text": "The Yuna River is the second longest river in the Dominican Republic, stretching for a length of 185.17 km.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yuna River",
+    "url": "https://en.wikipedia.org/wiki/Yuna_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1850466.webp",
+    "author": "Miyomis",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Yuna.JPG"
+   }
+  },
+  {
+   "id": "wd:Q2037402",
+   "name": "Samaná Bay",
+   "label": "Samaná Bay",
+   "type": "nature",
+   "kind": "bay",
+   "region": "DO-20",
+   "country": "DO",
+   "lat": 19.1667,
+   "lon": -69.4167,
+   "rarity": "Rare",
+   "fame": 7008,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 25.0
+   },
+   "flavour": {
+    "text": "The Yuna River flows into Samaná Bay, and it is located south of the town of Samaná and the Samaná Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Samaná Bay",
+    "url": "https://en.wikipedia.org/wiki/Saman%C3%A1_Bay",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2037402.webp",
+    "author": "-wuppertaler",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DOM_Santa_B%C3%A1rbara_de_Saman%C3%A1,_Bah%C3%ADa_de_Saman%C3%A1_0009.jpg"
+   }
+  },
+  {
+   "id": "wd:Q776071",
+   "name": "Yaque del Norte River",
+   "label": "Yaque del Norte River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.84,
+   "lon": -71.6869,
+   "rarity": "Rare",
+   "fame": 9594,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 296,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "The Yaque Del Norte River is the longest river in the Dominican Republic, as well as the second longest river on Hispaniola, behind the Artibonite River.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yaque del Norte River",
+    "url": "https://en.wikipedia.org/wiki/Yaque_del_Norte_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q776071.webp",
+    "author": "Starus",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Yaque_del_Norte_-_Jarabacoa.JPG"
+   }
+  },
+  {
+   "id": "wd:Q4208698",
+   "name": "Cayo Levantado",
+   "label": "Cayo Levantado",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-20",
+   "country": "DO",
+   "lat": 19.1664,
+   "lon": -69.2756,
+   "rarity": "Rare",
+   "fame": 13698,
+   "facts": {
+    "elevation_m": 24,
+    "area_km2": 1.0,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "Cayo Levantado is an island in Samaná Bay, located in the Samaná Province in the eastern region of Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayo Levantado",
+    "url": "https://en.wikipedia.org/wiki/Cayo_Levantado",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4208698.webp",
+    "author": "Jens Jäpel",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:DomRep_Bacardi_Insel.jpg"
+   }
+  },
+  {
+   "id": "wd:Q48245",
+   "name": "Artibonite River",
+   "label": "Artibonite River",
+   "type": "nature",
+   "kind": "river",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.0331,
+   "lon": -71.0053,
+   "rarity": "Rare",
+   "fame": 8532,
+   "facts": {
+    "elevation_m": 3050,
+    "length_km": 240,
+    "temp_c": 13.4
+   },
+   "also_in": [
+    "HT"
+   ],
+   "flavour": {
+    "text": "The Artibonite River is the longest river in Haiti, and the longest on the island of Hispaniola.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Artibonite River",
+    "url": "https://en.wikipedia.org/wiki/Artibonite_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q48245.webp",
+    "author": "Kendra Helmer, USAID",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Artibonite_River_in_Haiti_(2010).jpg"
+   }
+  },
+  {
+   "id": "wd:Q34765",
+   "name": "Beata Island",
+   "label": "Beata Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "DO-16",
+   "country": "DO",
+   "lat": 17.5783,
+   "lon": -71.5117,
+   "rarity": "Rare",
+   "fame": 6810,
+   "facts": {
+    "elevation_m": 41,
+    "area_km2": 27,
+    "length_km": 9.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Some 12 km southwest of it lies the smaller Alto Velo Island.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Beata Island",
+    "url": "https://en.wikipedia.org/wiki/Beata_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q34765.webp"
+   }
+  },
+  {
+   "id": "gn:3504033",
+   "name": "Joba Arriba",
+   "label": "Joba Arriba",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-09",
+   "country": "DO",
+   "lat": 19.5667,
+   "lon": -70.2667,
+   "rarity": "Rare",
+   "fame": 1134,
+   "facts": {
+    "population": 1471,
+    "elevation_m": 103,
+    "area_km2": 152,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "It is a municipal district of Gaspar Hernández.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Joba Arriba",
+    "url": "https://en.wikipedia.org/wiki/Joba_Arriba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3504033.webp",
+    "author": "Jobano88",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Joba_Arriba_Dominican_Republic_mountain_town.jpg"
+   }
+  },
+  {
+   "id": "gn:3491914",
+   "name": "Villarpando",
+   "label": "Villarpando",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-02",
+   "country": "DO",
+   "lat": 18.6586,
+   "lon": -71.0392,
+   "rarity": "Rare",
+   "fame": 264,
+   "facts": {
+    "population": 3016,
+    "elevation_m": 287,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "Villarpando is a town in the Azua province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Villarpando",
+    "url": "https://en.wikipedia.org/wiki/Villarpando",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3491914.webp"
+   }
+  },
+  {
+   "id": "gn:3508083",
+   "name": "El Carril",
+   "label": "El Carril",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-21",
+   "country": "DO",
+   "lat": 18.449,
+   "lon": -70.0279,
+   "rarity": "Rare",
+   "fame": 222,
+   "facts": {
+    "population": 2643,
+    "elevation_m": 60,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "El Carril is a town in the San Cristóbal province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Carril",
+    "url": "https://en.wikipedia.org/wiki/El_Carril",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3508083.webp"
+   }
+  },
+  {
+   "id": "gn:3506719",
+   "name": "El Palmar",
+   "label": "El Palmar",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-03",
+   "country": "DO",
+   "lat": 18.4114,
+   "lon": -71.2456,
+   "rarity": "Rare",
+   "fame": 264,
+   "facts": {
+    "population": 2445,
+    "elevation_m": 14,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "El Palmar is a town in the Baoruco province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Palmar, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/El_Palmar%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3506719.webp"
+   }
+  },
+  {
+   "id": "gn:3504793",
+   "name": "Hatillo Palma",
+   "label": "Hatillo Palma",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.6626,
+   "lon": -71.1941,
+   "rarity": "Rare",
+   "fame": 648,
+   "facts": {
+    "population": 3574,
+    "elevation_m": 74,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Hatillo Palma is a town in the Monte Cristi province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hatillo Palma",
+    "url": "https://en.wikipedia.org/wiki/Hatillo_Palma",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3504793.webp"
+   }
+  },
+  {
+   "id": "gn:3494655",
+   "name": "Pizarrete",
+   "label": "Pizarrete",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-17",
+   "country": "DO",
+   "lat": 18.2994,
+   "lon": -70.2265,
+   "rarity": "Rare",
+   "fame": 372,
+   "facts": {
+    "population": 2695,
+    "elevation_m": 57,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Pizarrete is a town in the Peravia province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pizarrete",
+    "url": "https://en.wikipedia.org/wiki/Pizarrete",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3494655.webp"
+   }
+  },
+  {
+   "id": "gn:3503910",
+   "name": "Juancho",
+   "label": "Juancho",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-16",
+   "country": "DO",
+   "lat": 17.8578,
+   "lon": -71.2931,
+   "rarity": "Rare",
+   "fame": 414,
+   "facts": {
+    "population": 1623,
+    "elevation_m": 12,
+    "temp_c": 24.9
+   },
+   "flavour": {
+    "text": "It is a municipal district of the municipality of Pedernales.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Juancho",
+    "url": "https://en.wikipedia.org/wiki/Juancho",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3503910.webp"
+   }
+  },
+  {
+   "id": "gn:3493769",
+   "name": "Río Grande",
+   "label": "Río Grande",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-18",
+   "country": "DO",
+   "lat": 19.6667,
+   "lon": -70.7667,
+   "rarity": "Rare",
+   "fame": 306,
+   "facts": {
+    "population": 20154,
+    "elevation_m": 397,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "Río Grande is a town in the Puerto Plata province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Grande, Dominican Republic",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande%2C_Dominican_Republic",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3493769.webp"
+   }
+  },
+  {
+   "id": "gn:3510553",
+   "name": "Cana Chapetón",
+   "label": "Cana Chapetón",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-15",
+   "country": "DO",
+   "lat": 19.607,
+   "lon": -71.2573,
+   "rarity": "Rare",
+   "fame": 330,
+   "facts": {
+    "population": 1758,
+    "elevation_m": 63,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Cana Chapetón is a town in the Monte Cristi province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cana Chapetón",
+    "url": "https://en.wikipedia.org/wiki/Cana_Chapet%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3510553.webp"
+   }
+  },
+  {
+   "id": "gn:3503256",
+   "name": "La Caya",
+   "label": "La Caya",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-27",
+   "country": "DO",
+   "lat": 19.6998,
+   "lon": -71.1208,
+   "rarity": "Rare",
+   "fame": 822,
+   "facts": {
+    "population": 1005,
+    "elevation_m": 173,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "The term \"la caya\" refers to a species of tree which grows in the region.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Caya",
+    "url": "https://en.wikipedia.org/wiki/La_Caya",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3503256.webp"
+   }
+  },
+  {
+   "id": "gn:3503338",
+   "name": "La Canela",
+   "label": "La Canela",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-25",
+   "country": "DO",
+   "lat": 19.4734,
+   "lon": -70.8163,
+   "rarity": "Rare",
+   "fame": 1050,
+   "facts": {
+    "population": 4026,
+    "elevation_m": 182,
+    "temp_c": 25.3
+   },
+   "flavour": {
+    "text": "A community of 4,026 people in Santiago.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3503338.webp"
+   }
+  },
+  {
+   "id": "gn:3494979",
+   "name": "Pescadería",
+   "label": "Pescadería",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-04",
+   "country": "DO",
+   "lat": 18.2677,
+   "lon": -71.1661,
+   "rarity": "Rare",
+   "fame": 210,
+   "facts": {
+    "population": 2116,
+    "elevation_m": 10,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Pescadería is a town in the Barahona province of the Dominican Republic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pescadería",
+    "url": "https://en.wikipedia.org/wiki/Pescader%C3%ADa",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3494979.webp"
+   }
+  },
+  {
+   "id": "gn:3509382",
+   "name": "La Vega",
+   "label": "La Vega (La Vega)",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 19.2203,
+   "lon": -70.531,
+   "rarity": "Epic",
+   "fame": 0,
+   "facts": {
+    "population": 102426,
+    "elevation_m": 82,
+    "temp_c": 24.8
+   },
+   "flavour": {
+    "text": "A community of 102,426 people in La Vega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3509382.webp"
+   }
+  },
+  {
+   "id": "gn:3496601",
+   "name": "Matanzas",
+   "label": "Matanzas",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-17",
+   "country": "DO",
+   "lat": 18.243,
+   "lon": -70.4177,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4124,
+    "elevation_m": 39,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 4,124 people in Peravia.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3496601.webp"
+   }
+  },
+  {
+   "id": "gn:3494863",
+   "name": "Piedra Blanca",
+   "label": "Piedra Blanca",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-28",
+   "country": "DO",
+   "lat": 18.8443,
+   "lon": -70.3169,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8531,
+    "elevation_m": 180,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 8,531 people in Monseñor Nouel.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3494863.webp"
+   }
+  },
+  {
+   "id": "gn:3492367",
+   "name": "Tireo Arriba",
+   "label": "Tireo Arriba",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-13",
+   "country": "DO",
+   "lat": 18.9354,
+   "lon": -70.6885,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3816,
+    "elevation_m": 1242,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "A community of 3,816 people in La Vega.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3492367.webp"
+   }
+  },
+  {
+   "id": "gn:3511336",
+   "name": "Boca Chica",
+   "label": "Boca Chica",
+   "type": "town",
+   "kind": "town",
+   "region": "DO-32",
+   "country": "DO",
+   "lat": 18.45,
+   "lon": -69.6,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 46300,
+    "elevation_m": 12,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 46,300 people in Santo Domingo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3511336.webp"
+   }
+  }
+ ]
+}

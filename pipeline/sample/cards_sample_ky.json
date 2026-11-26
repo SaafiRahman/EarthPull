@@ -1,0 +1,930 @@
+{
+ "note": "Sample of the Cayman Islands card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q16900424",
+   "name": "Sparrowhawk Hill",
+   "label": "Sparrowhawk Hill",
+   "type": "nature",
+   "kind": "hill",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.6833,
+   "lon": -80.0333,
+   "rarity": "Common",
+   "fame": 126,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Sparrowhawk Hill lies in the centre of Little Cayman, one of the Cayman Islands, a British Overseas Territory in the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sparrowhawk Hill",
+    "url": "https://en.wikipedia.org/wiki/Sparrowhawk_Hill",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16900424.webp",
+    "author": "Joachim Greiner",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LittleCayman.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1141722",
+   "name": "Little Cayman",
+   "label": "Little Cayman",
+   "type": "nature",
+   "kind": "island",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.6833,
+   "lon": -80.05,
+   "rarity": "Common",
+   "fame": 14016,
+   "facts": {
+    "elevation_m": 3.0,
+    "area_km2": 28,
+    "length_km": 16,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Little Cayman is one of three islands that make up the Cayman Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Little Cayman",
+    "url": "https://en.wikipedia.org/wiki/Little_Cayman",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1141722.webp",
+    "author": "original picture by NASA (ISS Astronaut); cropped by Benutzer:Zollwurf",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Little_Cayman_Island_ISS.jpg"
+   }
+  },
+  {
+   "id": "wd:Q516133",
+   "name": "Cayman Brac",
+   "label": "Cayman Brac",
+   "type": "nature",
+   "kind": "island",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.7139,
+   "lon": -79.8083,
+   "rarity": "Common",
+   "fame": 22542,
+   "facts": {
+    "elevation_m": 18,
+    "area_km2": 38,
+    "length_km": 19,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It lies in the Caribbean Sea about 145 km north-east of Grand Cayman and 8 km east of Little Cayman.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayman Brac",
+    "url": "https://en.wikipedia.org/wiki/Cayman_Brac",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q516133.webp",
+    "author": "original picture by NASA (ISS Astronaut); cropped by Benutzer:Zollwurf",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cayman_Brac_Island_ISS.jpg"
+   }
+  },
+  {
+   "id": "gn:3580647",
+   "name": "Half Moon Bay",
+   "label": "Half Moon Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2969,
+   "lon": -81.151,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6408,
+    "elevation_m": 8.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 6,408 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580647.webp"
+   }
+  },
+  {
+   "id": "gn:3580540",
+   "name": "Saint James",
+   "label": "Saint James",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2671,
+   "lon": -81.2889,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8735,
+    "elevation_m": 6.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 8,735 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580540.webp"
+   }
+  },
+  {
+   "id": "gn:3580701",
+   "name": "Coral Gables",
+   "label": "Coral Gables",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3733,
+   "lon": -81.4142,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3831,
+    "elevation_m": 7.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "A community of 3,831 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580701.webp"
+   }
+  },
+  {
+   "id": "gn:3580762",
+   "name": "Ally Land",
+   "label": "Ally Land",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.341,
+   "lon": -81.1194,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 9140,
+    "elevation_m": 10,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 9,140 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580762.webp"
+   }
+  },
+  {
+   "id": "gn:3580601",
+   "name": "Lower Valley",
+   "label": "Lower Valley",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2804,
+   "lon": -81.2843,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 10125,
+    "elevation_m": 6.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 10,125 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580601.webp"
+   }
+  },
+  {
+   "id": "gn:3580743",
+   "name": "Birch Tree Hill",
+   "label": "Birch Tree Hill",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3848,
+   "lon": -81.3999,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3920,
+    "elevation_m": 4.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "A community of 3,920 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580743.webp"
+   }
+  },
+  {
+   "id": "gn:3580637",
+   "name": "High Rock",
+   "label": "High Rock",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2947,
+   "lon": -81.132,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 5500,
+    "elevation_m": 3.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 5,500 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580637.webp"
+   }
+  },
+  {
+   "id": "gn:3580580",
+   "name": "Newlands",
+   "label": "Newlands",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2854,
+   "lon": -81.302,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 9409,
+    "elevation_m": 2.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 9,409 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580580.webp"
+   }
+  },
+  {
+   "id": "gn:3580562",
+   "name": "Omega Gardens",
+   "label": "Omega Gardens",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2924,
+   "lon": -81.3268,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 8589,
+    "elevation_m": 1.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 8,589 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580562.webp"
+   }
+  },
+  {
+   "id": "gn:3580650",
+   "name": "Gun Bay",
+   "label": "Gun Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3108,
+   "lon": -81.092,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 6483,
+    "elevation_m": 1.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 6,483 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580650.webp"
+   }
+  },
+  {
+   "id": "gn:3580533",
+   "name": "Sand Bluff",
+   "label": "Sand Bluff",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3179,
+   "lon": -81.088,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4446,
+    "elevation_m": 1.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "A community of 4,446 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580533.webp"
+   }
+  },
+  {
+   "id": "gn:3580754",
+   "name": "Battle Ground",
+   "label": "Battle Ground",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3766,
+   "lon": -81.3949,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3920,
+    "elevation_m": 5.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "A community of 3,920 people in Cayman Islands.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580754.webp"
+   }
+  },
+  {
+   "id": "wd:Q7457330",
+   "name": "Seven Mile Beach",
+   "label": "Seven Mile Beach",
+   "type": "built",
+   "kind": "beach",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.35,
+   "lon": -81.3833,
+   "rarity": "Epic",
+   "fame": 16680,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Seven Mile Beach is known for its beauty, receiving the honor of \"The Caribbean's Best Beach\" in 2015 from Caribbean Travel and Life Magazine.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Seven Mile Beach, Grand Cayman",
+    "url": "https://en.wikipedia.org/wiki/Seven_Mile_Beach%2C_Grand_Cayman",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7457330.webp",
+    "author": "RoadTripWarrior",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Resorts_on_Seven_Mile_Beach,_Grand_Cayman.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7877766",
+   "name": "Ugland House",
+   "label": "Ugland House",
+   "type": "built",
+   "kind": "building",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.292,
+   "lon": -81.3854,
+   "rarity": "Epic",
+   "fame": 15600,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Ugland House is a building located in George Town, Cayman Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ugland House",
+    "url": "https://en.wikipedia.org/wiki/Ugland_House",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7877766.webp",
+    "author": "Legis",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ugland_House.jpg"
+   }
+  },
+  {
+   "id": "gn:3580678",
+   "name": "East End",
+   "label": "East End",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3,
+   "lon": -81.1167,
+   "rarity": "Epic",
+   "fame": 1290,
+   "facts": {
+    "population": 1846,
+    "elevation_m": 8.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Located on south-east coast of Grand Cayman, in 2021 it had a population of 1,846.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "East End, Cayman Islands",
+    "url": "https://en.wikipedia.org/wiki/East_End%2C_Cayman_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580678.webp",
+    "author": "Dlpublic",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:East_End_Lighthouse.jpg"
+   }
+  },
+  {
+   "id": "gn:3580477",
+   "name": "West Bay",
+   "label": "West Bay",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.382,
+   "lon": -81.3928,
+   "rarity": "Epic",
+   "fame": 4038,
+   "facts": {
+    "population": 15335,
+    "elevation_m": 5.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "West Bay is a district located on the west side of the British Overseas Territory of the Cayman Islands in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "West Bay, Cayman Islands",
+    "url": "https://en.wikipedia.org/wiki/West_Bay%2C_Cayman_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580477.webp",
+    "author": "Balou46",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:KY-West_Bay-Kueste.jpg"
+   }
+  },
+  {
+   "id": "gn:3580733",
+   "name": "Bodden Town",
+   "label": "Bodden Town",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2765,
+   "lon": -81.2542,
+   "rarity": "Epic",
+   "fame": 4536,
+   "facts": {
+    "population": 14845,
+    "elevation_m": 6.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Bodden Town is the former capital of the Cayman Islands and the largest district in the territory.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bodden Town (village)",
+    "url": "https://en.wikipedia.org/wiki/Bodden_Town_%28village%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580733.webp",
+    "author": "Lhb1239",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Welcome_to_Bodden_Town,_Grand_Cayman.jpg"
+   }
+  },
+  {
+   "id": "gn:3580575",
+   "name": "North Side",
+   "label": "North Side",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3514,
+   "lon": -81.2085,
+   "rarity": "Epic",
+   "fame": 792,
+   "facts": {
+    "population": 1902,
+    "elevation_m": 1.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Located on the northern coast of Grand Cayman, in 2021 it had a population of 1,902.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "North Side, Cayman Islands",
+    "url": "https://en.wikipedia.org/wiki/North_Side%2C_Cayman_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3580575.webp"
+   }
+  },
+  {
+   "id": "gn:3580661",
+   "name": "George Town",
+   "label": "George Town",
+   "type": "town",
+   "kind": "town",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2866,
+   "lon": -81.3744,
+   "rarity": "Legendary",
+   "fame": 76854,
+   "facts": {
+    "population": 29370,
+    "elevation_m": 3.0,
+    "area_km2": 29,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "George Town is the capital and largest city in the Cayman Islands, located on Grand Cayman.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "George Town, Cayman Islands",
+    "url": "https://en.wikipedia.org/wiki/George_Town%2C_Cayman_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3580661.webp",
+    "author": "rh43",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Town,_Cayman_Islands_-_panoramio_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q111594898",
+   "name": "Jimmy Powell Oval",
+   "label": "Jimmy Powell Oval",
+   "type": "built",
+   "kind": "cricket field",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3807,
+   "lon": -81.4022,
+   "rarity": "Rare",
+   "fame": 852,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "Jimmy Powell Oval is a cricket ground in West Bay, Grand Cayman, near the city of George Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Jimmy Powell Oval",
+    "url": "https://en.wikipedia.org/wiki/Jimmy_Powell_Oval",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q111594898.webp"
+   }
+  },
+  {
+   "id": "wd:Q24514406",
+   "name": "Stella Maris Church, Cayman Brac",
+   "label": "Stella Maris Church, Cayman Brac",
+   "type": "built",
+   "kind": "church",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.7019,
+   "lon": -79.8603,
+   "rarity": "Rare",
+   "fame": 444,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "The Stella Maris Church is a Catholic church that is located in Alta Vista Drive on the island of Cayman Brac about 143 kilometers from the main island of the…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Stella Maris Church, Cayman Brac",
+    "url": "https://en.wikipedia.org/wiki/Stella_Maris_Church%2C_Cayman_Brac",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24514406.webp"
+   }
+  },
+  {
+   "id": "wd:Q1354037",
+   "name": "Truman Bodden Sports Complex",
+   "label": "Truman Bodden Sports Complex",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3,
+   "lon": -81.3833,
+   "rarity": "Rare",
+   "fame": 2142,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "It is named after Truman Bodden, a former Caymanian politician.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Truman Bodden Sports Complex",
+    "url": "https://en.wikipedia.org/wiki/Truman_Bodden_Sports_Complex",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1354037.webp"
+   }
+  },
+  {
+   "id": "wd:Q7667985",
+   "name": "T.E. McField Sports Centre",
+   "label": "T.E. McField Sports Centre",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2987,
+   "lon": -81.3767,
+   "rarity": "Rare",
+   "fame": 432,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "The T.E. Mcfield Sports Centre is a football stadium in George Town, Cayman Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "T.E. McField Sports Centre",
+    "url": "https://en.wikipedia.org/wiki/T.E._McField_Sports_Centre",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7667985.webp"
+   }
+  },
+  {
+   "id": "wd:Q85787898",
+   "name": "National Gallery of the Cayman Islands",
+   "label": "National Gallery of the Cayman Islands",
+   "type": "built",
+   "kind": "national gallery",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3157,
+   "lon": -81.3787,
+   "rarity": "Rare",
+   "fame": 480,
+   "facts": {
+    "elevation_m": 3.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "The National Gallery of the Cayman Islands is an art museum in George Town, in the Cayman Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Gallery of the Cayman Islands",
+    "url": "https://en.wikipedia.org/wiki/National_Gallery_of_the_Cayman_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q85787898.webp",
+    "author": "ARC Magazine",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ngci-building-cayman.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1255195",
+   "name": "Roman Catholic Mission Sui Iuris of Cayman Islands",
+   "label": "Roman Catholic Mission Sui Iuris of Cayman Islands",
+   "type": "built",
+   "kind": "mission sui iuris",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2767,
+   "lon": -81.3868,
+   "rarity": "Rare",
+   "fame": 1164,
+   "facts": {
+    "elevation_m": 5.0,
+    "area_km2": 264,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "The Mission sui iuris of the Cayman Islands is a mission sui iuris of the Latin Church of the Catholic Church in the Caribbean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mission sui iuris of the Cayman Islands",
+    "url": "https://en.wikipedia.org/wiki/Mission_sui_iuris_of_the_Cayman_Islands",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1255195.webp"
+   }
+  },
+  {
+   "id": "wd:Q24514385",
+   "name": "St. Ignatius Church, George Town",
+   "label": "St. Ignatius Church, George Town",
+   "type": "built",
+   "kind": "church",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.2766,
+   "lon": -81.3866,
+   "rarity": "Rare",
+   "fame": 474,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "It is on Walkers Road in the city of George Town on Grand Cayman Island in the British overseas territory of the Cayman Islands in the Caribbean Sea.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "St. Ignatius Church, George Town",
+    "url": "https://en.wikipedia.org/wiki/St._Ignatius_Church%2C_George_Town",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q24514385.webp"
+   }
+  },
+  {
+   "id": "wd:Q5328309",
+   "name": "East End Light",
+   "label": "East End Light",
+   "type": "built",
+   "kind": "lighthouse",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.3,
+   "lon": -81.1,
+   "rarity": "Rare",
+   "fame": 348,
+   "facts": {
+    "elevation_m": 7.0,
+    "height_m": 8.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "The East End Light is a lighthouse located at the east end of Grand Cayman island in the Cayman Islands.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "East End Light",
+    "url": "https://en.wikipedia.org/wiki/East_End_Light",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5328309.webp",
+    "author": "JERRYE AND ROY KLOTZ MD",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EAST_END_LIGHT_-_GRAND_CAYMAN_ISLAND.jpg"
+   }
+  },
+  {
+   "id": "wd:Q737765",
+   "name": "Grand Cayman",
+   "label": "Grand Cayman",
+   "type": "nature",
+   "kind": "island",
+   "region": "KY",
+   "country": "KY",
+   "lat": 19.33,
+   "lon": -81.24,
+   "rarity": "Rare",
+   "fame": 126096,
+   "facts": {
+    "elevation_m": 2.0,
+    "area_km2": 197,
+    "length_km": 35,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Grand Cayman is the largest of the three Cayman Islands and the location of the territory's capital, George Town.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Grand Cayman",
+    "url": "https://en.wikipedia.org/wiki/Grand_Cayman",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q737765.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_cayman.jpg"
+   }
+  }
+ ]
+}

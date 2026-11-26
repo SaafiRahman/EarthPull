@@ -80,7 +80,12 @@ def lookup_many(rows, lang: str = "fr") -> dict:
     """rows: iterable of (index, name, lat, lon). Returns {index: [matches]}."""
     cache = _load()
     try:
-        return {idx: lookup(name, lat, lon, cache, lang) for idx, name, lat, lon in rows}
+        out = {}
+        for n, (idx, name, lat, lon) in enumerate(rows, 1):
+            out[idx] = lookup(name, lat, lon, cache, lang)
+            if n % 250 == 0:  # progress, so a long run of lookups doesn't look like a stall
+                print(f"  checked {n:,}", flush=True)
+        return out
     finally:
         _save(cache)
 

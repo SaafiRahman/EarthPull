@@ -1,0 +1,3188 @@
+{
+ "note": "Sample of the Panama card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q6073294",
+   "name": "Petaquilla",
+   "label": "Petaquilla",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 8.9158,
+   "lon": -80.7401,
+   "rarity": "Common",
+   "fame": 852,
+   "facts": {
+    "elevation_m": 130,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Petaquilla is classified as: Orographic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Petaquilla",
+    "url": "https://en.wikipedia.org/wiki/Petaquilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6073294.webp"
+   }
+  },
+  {
+   "id": "wd:Q5184908",
+   "name": "Cricamola River",
+   "label": "Cricamola River",
+   "type": "nature",
+   "kind": "river",
+   "region": "PA-NB",
+   "country": "PA",
+   "lat": 8.98,
+   "lon": -81.92,
+   "rarity": "Common",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 3.0,
+    "length_km": 62,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "It drains into the southeast shore of Chiriquí Lagoon.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cricamola River",
+    "url": "https://en.wikipedia.org/wiki/Cricamola_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5184908.webp"
+   }
+  },
+  {
+   "id": "wd:Q1799249",
+   "name": "La Yeguada",
+   "label": "La Yeguada",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.47,
+   "lon": -80.82,
+   "rarity": "Common",
+   "fame": 2484,
+   "facts": {
+    "elevation_m": 1297,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "La Yeguada is a massive stratovolcano located in Veraguas Province, Panama, north of the Azuero Peninsula.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Yeguada",
+    "url": "https://en.wikipedia.org/wiki/La_Yeguada",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1799249.webp"
+   }
+  },
+  {
+   "id": "wd:Q7190482",
+   "name": "Picacho Mountain",
+   "label": "Picacho Mountain",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.6275,
+   "lon": -80.0483,
+   "rarity": "Common",
+   "fame": 1482,
+   "facts": {
+    "elevation_m": 927,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "It is located in San Carlos District on the western side of the Panamá Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Picacho Mountain",
+    "url": "https://en.wikipedia.org/wiki/Picacho_Mountain",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7190482.webp"
+   }
+  },
+  {
+   "id": "wd:Q5239089",
+   "name": "David River",
+   "label": "David River",
+   "type": "nature",
+   "kind": "river",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.76,
+   "lon": -82.7203,
+   "rarity": "Common",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 953,
+    "temp_c": 21.7
+   },
+   "flavour": {
+    "text": "It is part of the hydrological system of the region and is a geographical feature surrounding the city of David.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "David River (Panama)",
+    "url": "https://en.wikipedia.org/wiki/David_River_%28Panama%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5239089.webp"
+   }
+  },
+  {
+   "id": "wd:Q6115676",
+   "name": "San San River",
+   "label": "San San River",
+   "type": "nature",
+   "kind": "river",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.5311,
+   "lon": -82.517,
+   "rarity": "Common",
+   "fame": 360,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The San San River is a river of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San San River",
+    "url": "https://en.wikipedia.org/wiki/San_San_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6115676.webp",
+    "author": "Visiona",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%ADo-San-San,Bocas-del-Toro-Panam%C3%A1.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q31734424",
+   "name": "Macizo de Canajagua",
+   "label": "Macizo de Canajagua",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.5,
+   "lon": -80.25,
+   "rarity": "Common",
+   "fame": 102,
+   "facts": {
+    "elevation_m": 256,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A mountain range in Los Santos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q31734424.webp",
+    "author": "Luis.a.p.m.",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_del_Canajagua_desde_Las_Guabas.jpg"
+   }
+  },
+  {
+   "id": "wd:Q47510828",
+   "name": "Burica Island",
+   "label": "Burica Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.0175,
+   "lon": -82.8813,
+   "rarity": "Common",
+   "fame": 186,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 0.1,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "An island in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q47510828.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS016-E-20977_-_View_of_Panama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2881883",
+   "name": "Isla Abogado",
+   "label": "Isla Abogado",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.1992,
+   "lon": -79.86,
+   "rarity": "Common",
+   "fame": 48,
+   "facts": {
+    "elevation_m": 57,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "An island in Colón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q2881883.webp"
+   }
+  },
+  {
+   "id": "wd:Q5101932",
+   "name": "Chiriquí River",
+   "label": "Chiriquí River",
+   "type": "nature",
+   "kind": "river",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.3194,
+   "lon": -82.3372,
+   "rarity": "Common",
+   "fame": 708,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 130,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Chiriquí River is a river of Panama located at Chiriquí province at the districts of Boquete, David, Dolega, and Gualaca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chiriquí River",
+    "url": "https://en.wikipedia.org/wiki/Chiriqu%C3%AD_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5101932.webp",
+    "author": "EinfachFrankfurt1955",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Chiriqui_River_enters_the_Gulf_of_Chiriqui.jpg"
+   }
+  },
+  {
+   "id": "wd:Q23738528",
+   "name": "Cerro Pando",
+   "label": "Cerro Pando",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 8.9226,
+   "lon": -82.7119,
+   "rarity": "Common",
+   "fame": 486,
+   "facts": {
+    "elevation_m": 2468,
+    "temp_c": 16.9
+   },
+   "also_in": [
+    "CR"
+   ],
+   "flavour": {
+    "text": "A mountain in comarca Ngäbe-Buglé.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q23738528.webp"
+   }
+  },
+  {
+   "id": "wd:Q16848754",
+   "name": "Isla Gatun, Panama",
+   "label": "Isla Gatun, Panama",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.049,
+   "lon": -79.955,
+   "rarity": "Common",
+   "fame": 414,
+   "facts": {
+    "elevation_m": 25,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Isla Gatun is a private island located in the middle of the Panama Canal in the southwest of Gatun Lake.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Gatun, Panama",
+    "url": "https://en.wikipedia.org/wiki/Isla_Gatun%2C_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q16848754.webp"
+   }
+  },
+  {
+   "id": "gn:3706396",
+   "name": "Las Margaritas",
+   "label": "Las Margaritas",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.1918,
+   "lon": -79.0867,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4165,
+    "elevation_m": 29,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "A community of 4,165 people in Panamá.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3706396.webp"
+   }
+  },
+  {
+   "id": "gn:3710910",
+   "name": "Entradero",
+   "label": "Entradero",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.5667,
+   "lon": -80.2125,
+   "rarity": "Common",
+   "fame": 96,
+   "facts": {
+    "population": 1049,
+    "elevation_m": 318,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Entradero is a town in the Coclé province of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Entradero",
+    "url": "https://en.wikipedia.org/wiki/Entradero",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3710910.webp"
+   }
+  },
+  {
+   "id": "gn:3706727",
+   "name": "La Raya de Calobre",
+   "label": "La Raya de Calobre",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.2206,
+   "lon": -80.8256,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 233,
+    "elevation_m": 57,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "A community of 233 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3706727.webp"
+   }
+  },
+  {
+   "id": "gn:3701231",
+   "name": "Santa Cruz",
+   "label": "Santa Cruz (Chiriquí, near Lajas Adentro)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.2353,
+   "lon": -81.9127,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 386,
+    "elevation_m": 38,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 386 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701231.webp"
+   }
+  },
+  {
+   "id": "gn:3702882",
+   "name": "Piedras Gordas",
+   "label": "Piedras Gordas (Coclé)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.6389,
+   "lon": -80.5114,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 510,
+    "elevation_m": 434,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 510 people in Coclé.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3702882.webp"
+   }
+  },
+  {
+   "id": "gn:3710045",
+   "name": "El Retiro",
+   "label": "El Retiro",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.4772,
+   "lon": -80.1573,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 450,
+    "elevation_m": 165,
+    "temp_c": 27.0
+   },
+   "flavour": {
+    "text": "A community of 450 people in Coclé.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3710045.webp"
+   }
+  },
+  {
+   "id": "gn:3701227",
+   "name": "Santa Cruz",
+   "label": "Santa Cruz (Chiriquí, near Breñón)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.6463,
+   "lon": -82.7605,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 274,
+    "elevation_m": 666,
+    "temp_c": 24.5
+   },
+   "flavour": {
+    "text": "A community of 274 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701227.webp"
+   }
+  },
+  {
+   "id": "gn:3714658",
+   "name": "La Arenosa",
+   "label": "La Arenosa",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.0422,
+   "lon": -79.9496,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 319,
+    "elevation_m": 43,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 319 people in Colón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3714658.webp"
+   }
+  },
+  {
+   "id": "gn:3712643",
+   "name": "Cerro Plata",
+   "label": "Cerro Plata",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-NB",
+   "country": "PA",
+   "lat": 8.4773,
+   "lon": -81.5459,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 162,
+    "elevation_m": 845,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "A community of 162 people in Ngöbe-Buglé Comarca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3712643.webp"
+   }
+  },
+  {
+   "id": "gn:3712761",
+   "name": "Cerro Caña",
+   "label": "Cerro Caña",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-NB",
+   "country": "PA",
+   "lat": 8.3488,
+   "lon": -81.6154,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 319,
+    "elevation_m": 509,
+    "temp_c": 23.7
+   },
+   "flavour": {
+    "text": "A community of 319 people in Ngöbe-Buglé Comarca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3712761.webp"
+   }
+  },
+  {
+   "id": "gn:10179291",
+   "name": "Villa Lourdes",
+   "label": "Villa Lourdes",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.8098,
+   "lon": -80.4723,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 410,
+    "elevation_m": 90,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 410 people in Los Santos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_10179291.webp"
+   }
+  },
+  {
+   "id": "gn:3701239",
+   "name": "Santa Clara",
+   "label": "Santa Clara (Panamá)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0339,
+   "lon": -79.7534,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1410,
+    "elevation_m": 105,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 1,410 people in Panamá.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701239.webp"
+   }
+  },
+  {
+   "id": "wd:Q24959736",
+   "name": "Albrook Mall",
+   "label": "Albrook Mall",
+   "type": "built",
+   "kind": "shopping center",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9746,
+   "lon": -79.5523,
+   "rarity": "Epic",
+   "fame": 14568,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "As of July 2022 it was the 25th largest mall in the world and second largest in the Americas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Albrook Mall",
+    "url": "https://en.wikipedia.org/wiki/Albrook_Mall",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24959736.webp",
+    "author": "Djluny507",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Albrook_mall_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1298028",
+   "name": "Howard Air Force Base",
+   "label": "Howard Air Force Base",
+   "type": "built",
+   "kind": "airbase",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.915,
+   "lon": -79.5996,
+   "rarity": "Epic",
+   "fame": 14760,
+   "facts": {
+    "elevation_m": 16,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Howard Air Force Base is a former United States Air Force base located in Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Howard Air Force Base",
+    "url": "https://en.wikipedia.org/wiki/Howard_Air_Force_Base",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1298028.webp",
+    "author": "USAF Photo",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Howardafb-panama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7784787",
+   "name": "Atlantic Bridge",
+   "label": "Atlantic Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3081,
+   "lon": -79.9189,
+   "rarity": "Epic",
+   "fame": 14274,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 2.8,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Completed in 2019, it is the third bridge over the canal after the Bridge of the Americas and the Centennial Bridge, both on the Pacific side of the canal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Atlantic Bridge, Panama",
+    "url": "https://en.wikipedia.org/wiki/Atlantic_Bridge%2C_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7784787.webp",
+    "author": "Garcia.dennis",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_del_Atl%C3%A1ntico_del_Canal_de_Panam%C3%A1_.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5853834",
+   "name": "F&F Tower",
+   "label": "F&F Tower",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.983,
+   "lon": -79.5185,
+   "rarity": "Epic",
+   "fame": 25284,
+   "facts": {
+    "elevation_m": 18,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The F&F Tower is a 242.9-meter 52-story office skyscraper completed in 2011 in Panama City, Panama designed by Pinzon Lozano & Asociados Arquitectos.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "F&F Tower",
+    "url": "https://en.wikipedia.org/wiki/F%26F_Tower",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5853834.webp",
+    "author": "Rubydiazmendez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Revolution-tower.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1105400",
+   "name": "Coco Solo",
+   "label": "Coco Solo",
+   "type": "built",
+   "kind": "submarine base",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3726,
+   "lon": -79.8812,
+   "rarity": "Epic",
+   "fame": 24306,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Coco Solo was a United States Navy submarine base and naval air station near the Panama Canal, active from 1918 to the 1960s.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coco Solo",
+    "url": "https://en.wikipedia.org/wiki/Coco_Solo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1105400.webp",
+    "author": "USN",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:NS_Coco_Solo_Panama_1941_NAN7-64.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1034179",
+   "name": "Chagres and Fort San Lorenzo",
+   "label": "Chagres and Fort San Lorenzo",
+   "type": "built",
+   "kind": "fort",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3226,
+   "lon": -80.0024,
+   "rarity": "Epic",
+   "fame": 14454,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Chagres, once the chief Atlantic port on the isthmus of Panama, is now an abandoned village at the historical site of Fort San Lorenzo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chagres and Fort San Lorenzo",
+    "url": "https://en.wikipedia.org/wiki/Chagres_and_Fort_San_Lorenzo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1034179.webp",
+    "author": "Garcia.dennis",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toma_a%C3%A9rea_del_Fuerte_San_Lorenzo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3064689",
+   "name": "Palacio de las Garzas",
+   "label": "Palacio de las Garzas",
+   "type": "built",
+   "kind": "palace",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.954,
+   "lon": -79.5344,
+   "rarity": "Epic",
+   "fame": 9072,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Palacio de las Garzas is the governmental office and residence of the President of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palacio de las Garzas",
+    "url": "https://en.wikipedia.org/wiki/Palacio_de_las_Garzas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3064689.webp",
+    "author": "Anelita Cocoa Celis",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Una_ma%C3%B1ana_tranquila_en_el_Palacio_de_Las_Garzas.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1369622",
+   "name": "Estadio Rommel Fernández",
+   "label": "Estadio Rommel Fernández",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0358,
+   "lon": -79.4694,
+   "rarity": "Epic",
+   "fame": 16272,
+   "facts": {
+    "elevation_m": 14,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Rommel Fernández Gutiérrez Stadium, named after the Panamanian football star Rommel Fernández, is a multi-purpose stadium in Panama City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rommel Fernández Stadium",
+    "url": "https://en.wikipedia.org/wiki/Rommel_Fern%C3%A1ndez_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369622.webp",
+    "author": "123Hollic",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Rommel_Fern%C3%A1ndezA2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2356112",
+   "name": "Culebra Cut",
+   "label": "Culebra Cut",
+   "type": "built",
+   "kind": "cut",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0772,
+   "lon": -79.6753,
+   "rarity": "Epic",
+   "fame": 20982,
+   "facts": {
+    "elevation_m": 25,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The cut forms part of the Panama Canal, linking Gatun Lake, and thereby the Atlantic Ocean, to the Gulf of Panama and hence the Pacific Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Culebra Cut",
+    "url": "https://en.wikipedia.org/wiki/Culebra_Cut",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2356112.webp",
+    "author": "Jean-Philippe Boulet",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gold_Hill_and_Centennial_Bridge.JPG"
+   }
+  },
+  {
+   "id": "wd:Q747908",
+   "name": "Centennial Bridge, Panama",
+   "label": "Centennial Bridge, Panama",
+   "type": "built",
+   "kind": "cable-stayed bridge",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0301,
+   "lon": -79.6357,
+   "rarity": "Epic",
+   "fame": 14970,
+   "facts": {
+    "elevation_m": 25,
+    "height_m": 184,
+    "length_km": 1.1,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "It was built to supplement the overcrowded Bridge of the Americas and to replace it as the carrier of the Pan-American Highway.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Centennial Bridge, Panama",
+    "url": "https://en.wikipedia.org/wiki/Centennial_Bridge%2C_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q747908.webp",
+    "author": "Jean-Philippe Boulet",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centennial_Bridge_in_Panama.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1408661",
+   "name": "Chagres River",
+   "label": "Chagres River",
+   "type": "nature",
+   "kind": "river",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.08,
+   "lon": -79.68,
+   "rarity": "Epic",
+   "fame": 17310,
+   "facts": {
+    "elevation_m": 51,
+    "length_km": 125,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Chagres River, in central Panama, is the largest river in the Panama Canal's drainage basin.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chagres River",
+    "url": "https://en.wikipedia.org/wiki/Chagres_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1408661.webp",
+    "author": "Julian.watkins at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Chagres.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9055968",
+   "name": "Volcán Barú National Park",
+   "label": "Volcán Barú National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.8078,
+   "lon": -82.5428,
+   "rarity": "Epic",
+   "fame": 1062,
+   "facts": {
+    "elevation_m": 3387,
+    "area_km2": 143,
+    "temp_c": 18.0
+   },
+   "flavour": {
+    "text": "A national park in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9055968.webp",
+    "author": "Ariel Rodriguez-Vargas",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Amistad_Panama_Biosphere_Reserve_-_Parque_Nacional_Volcan_Baru_(a_core_zone)_39.JPG"
+   }
+  },
+  {
+   "id": "wd:Q9055955",
+   "name": "Altos de Campana National Park",
+   "label": "Altos de Campana National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.7137,
+   "lon": -79.9528,
+   "rarity": "Epic",
+   "fame": 3114,
+   "facts": {
+    "elevation_m": 607,
+    "area_km2": 48,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Altos de Campana National Park is Panama's first national park, established in 1966.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Altos de Campana National Park",
+    "url": "https://en.wikipedia.org/wiki/Altos_de_Campana_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9055955.webp",
+    "author": "Stefan Laube (user Tauchgurke )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Epiphylle.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17058160",
+   "name": "General Division Omar Torrijos Herrera National Park",
+   "label": "General Division Omar Torrijos Herrera National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 8.644,
+   "lon": -80.7061,
+   "rarity": "Epic",
+   "fame": 1440,
+   "facts": {
+    "elevation_m": 894,
+    "temp_c": 21.9
+   },
+   "flavour": {
+    "text": "A national park in Colón.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q17058160.webp"
+   }
+  },
+  {
+   "id": "wd:Q6062956",
+   "name": "Camino de Cruces National Park",
+   "label": "Camino de Cruces National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0311,
+   "lon": -79.5939,
+   "rarity": "Epic",
+   "fame": 1002,
+   "facts": {
+    "elevation_m": 46,
+    "area_km2": 48,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A national park in Panamá.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6062956.webp",
+    "author": "MusikAnimal",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Looking_east_toward_Camino_de_Cruces_National_Park_from_Ancon,_Panama_2013.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1751287",
+   "name": "Bastimentos Island National Marine Park",
+   "label": "Bastimentos Island National Marine Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.3,
+   "lon": -82.14,
+   "rarity": "Epic",
+   "fame": 2466,
+   "facts": {
+    "elevation_m": 51,
+    "area_km2": 130,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Isla Bastimentos National Marine Park is a marine park located in the Bocas del Toro Archipelago, Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Bastimentos National Marine Park",
+    "url": "https://en.wikipedia.org/wiki/Isla_Bastimentos_National_Marine_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1751287.webp",
+    "author": "Aaron O'Dea",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Bastimentos_La_Mochila.jpg"
+   }
+  },
+  {
+   "id": "wd:Q313637",
+   "name": "Gatun Lake",
+   "label": "Gatun Lake",
+   "type": "nature",
+   "kind": "lake",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.2,
+   "lon": -79.9,
+   "rarity": "Epic",
+   "fame": 39702,
+   "facts": {
+    "elevation_m": 26,
+    "area_km2": 436,
+    "length_km": 33,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "At approximately 26 m above sea level, it forms a major part of the Panama Canal, carrying ships 33 km of their transit across the Isthmus of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gatun Lake",
+    "url": "https://en.wikipedia.org/wiki/Gatun_Lake",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q313637.webp",
+    "author": "User:Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gatun_Lake.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5391812",
+   "name": "Cerro Hoya National Park",
+   "label": "Cerro Hoya National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 7.2833,
+   "lon": -80.7,
+   "rarity": "Epic",
+   "fame": 2754,
+   "facts": {
+    "elevation_m": 590,
+    "area_km2": 0.3,
+    "temp_c": 23.6
+   },
+   "flavour": {
+    "text": "Cerro Hoya National Park is a protected area in south-western Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro Hoya National Park",
+    "url": "https://en.wikipedia.org/wiki/Cerro_Hoya_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5391812.webp"
+   }
+  },
+  {
+   "id": "wd:Q741636",
+   "name": "Coiba",
+   "label": "Coiba",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 7.48,
+   "lon": -81.79,
+   "rarity": "Epic",
+   "fame": 14784,
+   "facts": {
+    "elevation_m": 163,
+    "area_km2": 503,
+    "temp_c": 25.4
+   },
+   "flavour": {
+    "text": "Coiba is the largest island in Central America, with an area of 494 km2, off the Pacific coast of the Panamanian province of Veraguas.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Coiba",
+    "url": "https://en.wikipedia.org/wiki/Coiba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q741636.webp",
+    "author": "Seibert",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coiba.JPG"
+   }
+  },
+  {
+   "id": "wd:Q16556348",
+   "name": "Sarigua National Park",
+   "label": "Sarigua National Park",
+   "type": "nature",
+   "kind": "national park",
+   "region": "PA-6",
+   "country": "PA",
+   "lat": 8.0238,
+   "lon": -80.4684,
+   "rarity": "Epic",
+   "fame": 4008,
+   "facts": {
+    "elevation_m": 25,
+    "temp_c": 27.5
+   },
+   "flavour": {
+    "text": "Sarigua National Park is a national park situated on the Azuero Peninsula in the Herrera Province of Panama, approximately 240 kilometres from Panama City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sarigua National Park",
+    "url": "https://en.wikipedia.org/wiki/Sarigua_National_Park",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16556348.webp",
+    "author": "Milton Villareal",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tronco_seco_La_Mochila.jpg"
+   }
+  },
+  {
+   "id": "gn:3703068",
+   "name": "Penonomé",
+   "label": "Penonomé",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.5189,
+   "lon": -80.3573,
+   "rarity": "Epic",
+   "fame": 8322,
+   "facts": {
+    "population": 16250,
+    "elevation_m": 90,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Penonomé is the capital of Penonomé District and of Coclé Province in Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Penonomé, Coclé",
+    "url": "https://en.wikipedia.org/wiki/Penonom%C3%A9%2C_Cocl%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3703068.webp",
+    "author": "Jaime Massot Hernández",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:02-004_San_Juan_Bautista_(2).jpg"
+   }
+  },
+  {
+   "id": "gn:3703876",
+   "name": "Nombre de Dios",
+   "label": "Nombre de Dios",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.5815,
+   "lon": -79.4685,
+   "rarity": "Epic",
+   "fame": 14706,
+   "facts": {
+    "population": 872,
+    "elevation_m": 5.0,
+    "area_km2": 144,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Nombre de Dios is a city and corregimiento in Santa Isabel District, Colón Province, Panama, on the Atlantic coast of Panama in the Colón Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nombre de Dios, Colón",
+    "url": "https://en.wikipedia.org/wiki/Nombre_de_Dios%2C_Col%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3703876.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Nombre_de_Dios_-_Project_Gutenberg_eText_19396.jpg"
+   }
+  },
+  {
+   "id": "gn:3715042",
+   "name": "Aguadulce",
+   "label": "Aguadulce",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.2415,
+   "lon": -80.5398,
+   "rarity": "Epic",
+   "fame": 6996,
+   "facts": {
+    "population": 8501,
+    "elevation_m": 23,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "It is the capital of Aguadulce District and it is located on the Pan-American Highway, near but not on the coast on the Bahia de Parita.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aguadulce, Coclé",
+    "url": "https://en.wikipedia.org/wiki/Aguadulce%2C_Cocl%C3%A9",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3715042.webp",
+    "author": "Firchain",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museosalazucar.jpg"
+   }
+  },
+  {
+   "id": "gn:3710114",
+   "name": "El Porvenir",
+   "label": "El Porvenir",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-KY",
+   "country": "PA",
+   "lat": 9.5528,
+   "lon": -78.9523,
+   "rarity": "Epic",
+   "fame": 6678,
+   "facts": {
+    "population": 10,
+    "elevation_m": 1.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Gaigirgordub, called El Porvenir until July 1, 2016, is the capital of the Panamanian comarca indígena of Guna Yala.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Gaigirgordub, Guna Yala",
+    "url": "https://en.wikipedia.org/wiki/Gaigirgordub%2C_Guna_Yala",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3710114.webp",
+    "author": "William Fish",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Porvenir.jpg"
+   }
+  },
+  {
+   "id": "gn:3701117",
+   "name": "Santiago de Veraguas",
+   "label": "Santiago de Veraguas",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.1,
+   "lon": -80.9833,
+   "rarity": "Epic",
+   "fame": 16854,
+   "facts": {
+    "population": 45355,
+    "elevation_m": 100,
+    "area_km2": 976,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "Santiago de Veraguas is the capital of the province of Veraguas, in the Republic of Panama, and the district or municipality of the same name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santiago de Veraguas",
+    "url": "https://en.wikipedia.org/wiki/Santiago_de_Veraguas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3701117.webp",
+    "author": "Apollo18",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_santiago_veraguas.jpg"
+   }
+  },
+  {
+   "id": "gn:3704327",
+   "name": "Metetí",
+   "label": "Metetí",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-5",
+   "country": "PA",
+   "lat": 8.4991,
+   "lon": -77.979,
+   "rarity": "Epic",
+   "fame": 9432,
+   "facts": {
+    "population": 2298,
+    "elevation_m": 55,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "Metetí is a town and corregimiento in Pinogana District, Darién Province, Panama with a population of 7,976 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Metetí",
+    "url": "https://en.wikipedia.org/wiki/Metet%C3%AD",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3704327.webp",
+    "author": "Josefito123",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panam%C3%A1_20230329_175652.jpg"
+   }
+  },
+  {
+   "id": "gn:3707058",
+   "name": "La Palma",
+   "label": "La Palma",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-5",
+   "country": "PA",
+   "lat": 8.405,
+   "lon": -78.1404,
+   "rarity": "Epic",
+   "fame": 25710,
+   "facts": {
+    "population": 1728,
+    "elevation_m": 4.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "La Palma is a town and corregimiento in Chepigana District, Darién Province, Panama with a population of 4,205 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Palma, Darién",
+    "url": "https://en.wikipedia.org/wiki/La_Palma%2C_Dari%C3%A9n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3707058.webp",
+    "author": "Mónica J. Mora",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Palma_Darien_Panama_03.jpg"
+   }
+  },
+  {
+   "id": "gn:3713959",
+   "name": "Bocas del Toro",
+   "label": "Bocas del Toro",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.3403,
+   "lon": -82.242,
+   "rarity": "Epic",
+   "fame": 16806,
+   "facts": {
+    "population": 5380,
+    "elevation_m": 3.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Bocas del Toro, also known colloquially as Bocas Town, is the capital of the Panamanian province of Bocas del Toro and the district of Bocas del Toro.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bocas Town, Bocas del Toro",
+    "url": "https://en.wikipedia.org/wiki/Bocas_Town%2C_Bocas_del_Toro",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3713959.webp",
+    "author": "Dronepicr",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bocas_del_Toro_Panama.jpg"
+   }
+  },
+  {
+   "id": "gn:8581466",
+   "name": "Unión Chocó",
+   "label": "Unión Chocó",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-EM",
+   "country": "PA",
+   "lat": 8.084,
+   "lon": -77.5351,
+   "rarity": "Epic",
+   "fame": 4248,
+   "facts": {
+    "population": 9497,
+    "elevation_m": 61,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "It is located in, and is the capital of, Cémaco District.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Unión Chocó",
+    "url": "https://en.wikipedia.org/wiki/Uni%C3%B3n_Choc%C3%B3",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_8581466.webp",
+    "author": "RouOrtega",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_Salud_de_Uni%C3%B3n_Chocoe.JPG"
+   }
+  },
+  {
+   "id": "gn:3711828",
+   "name": "Cristóbal",
+   "label": "Cristóbal",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3522,
+   "lon": -79.9044,
+   "rarity": "Epic",
+   "fame": 8928,
+   "facts": {
+    "population": 2366,
+    "elevation_m": 6.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "The corregimiento has a population of 49,422 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cristóbal, Colón",
+    "url": "https://en.wikipedia.org/wiki/Crist%C3%B3bal%2C_Col%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3711828.webp",
+    "author": "Cz ferenc at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cristobal_1104_Terminal_St_(Aug_1999).jpg"
+   }
+  },
+  {
+   "id": "wd:Q7350",
+   "name": "Panama Canal",
+   "label": "Panama Canal",
+   "type": "built",
+   "kind": "ship canal",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.12,
+   "lon": -79.75,
+   "rarity": "Legendary",
+   "fame": 929580,
+   "facts": {
+    "elevation_m": 26,
+    "length_km": 82,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The Panama Canal is an artificial 82-kilometer waterway in Panama that connects the Caribbean Sea in the Atlantic Ocean with the Pacific Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Panama Canal",
+    "url": "https://en.wikipedia.org/wiki/Panama_Canal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7350.webp",
+    "author": "User:Stan Shebs",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Gatun_Locks.jpg"
+   }
+  },
+  {
+   "id": "wd:Q712335",
+   "name": "Panamá Viejo",
+   "label": "Panamá Viejo",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0068,
+   "lon": -79.4851,
+   "rarity": "Legendary",
+   "fame": 46578,
+   "facts": {
+    "elevation_m": 13,
+    "area_km2": 0.3,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Panamá Viejo, also known as Panamá la Vieja, is the remaining part of the original Panama City, the former capital of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Panamá Viejo",
+    "url": "https://en.wikipedia.org/wiki/Panam%C3%A1_Viejo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q712335.webp",
+    "author": "Editorpana",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Torre_de_Panama_Viejo.jpg"
+   }
+  },
+  {
+   "id": "gn:3712076",
+   "name": "Colón",
+   "label": "Colón",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3603,
+   "lon": -79.9002,
+   "rarity": "Legendary",
+   "fame": 56922,
+   "facts": {
+    "population": 78000,
+    "elevation_m": 2.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Colón is a city and seaport in Panama, beside the Caribbean Sea, lying near the Atlantic entrance to the Panama Canal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colón, Panama",
+    "url": "https://en.wikipedia.org/wiki/Col%C3%B3n%2C_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3712076.webp",
+    "author": "Balou46",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CO-colon-2000-02.jpg"
+   }
+  },
+  {
+   "id": "gn:3703443",
+   "name": "Panama City",
+   "label": "Panama City",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9936,
+   "lon": -79.5197,
+   "rarity": "Legendary",
+   "fame": 375114,
+   "facts": {
+    "population": 408168,
+    "elevation_m": 17,
+    "area_km2": 275,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Panama City, also known as Panama, is the capital and largest city of the Republic of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Panama City",
+    "url": "https://en.wikipedia.org/wiki/Panama_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3703443.webp",
+    "author": "JAVR2020",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_nocturna_de_la_ciudad_de_Panam%C3%A1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5848043",
+   "name": "Estadio Juan Demóstenes Arosemena",
+   "label": "Estadio Juan Demóstenes Arosemena",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9697,
+   "lon": -79.5422,
+   "rarity": "Rare",
+   "fame": 2190,
+   "facts": {
+    "elevation_m": 9.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It hosts mainly baseball games and is the home stadium of Panamá Metro of the Panamanian Professional Baseball League.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Juan Demóstenes Arosemena",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Juan_Dem%C3%B3stenes_Arosemena",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5848043.webp"
+   }
+  },
+  {
+   "id": "wd:Q7531912",
+   "name": "Sitio Conte",
+   "label": "Sitio Conte",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.3724,
+   "lon": -80.4818,
+   "rarity": "Rare",
+   "fame": 2904,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 27.1
+   },
+   "flavour": {
+    "text": "It can best be described as a necropolis and a \"paradigmatic example of a ranked or chiefdom society\".",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sitio Conte",
+    "url": "https://en.wikipedia.org/wiki/Sitio_Conte",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7531912.webp",
+    "author": "Miguel Hermoso Cuesta",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cocl%C3%A9_Penn_04.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5747042",
+   "name": "Cancha de Entrenamiento Luis Tapia",
+   "label": "Cancha de Entrenamiento Luis Tapia",
+   "type": "built",
+   "kind": "stadium",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0338,
+   "lon": -79.4706,
+   "rarity": "Rare",
+   "fame": 1308,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Luis Ernesto \"Cascarita\" Tapia Court, or Mini Rommel as it was known.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cancha de Entrenamiento Luis Tapia",
+    "url": "https://en.wikipedia.org/wiki/Cancha_de_Entrenamiento_Luis_Tapia",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5747042.webp",
+    "author": "123Hollic",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mini_Rommel.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6150028",
+   "name": "Balboa Tower",
+   "label": "Balboa Tower",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9761,
+   "lon": -79.5277,
+   "rarity": "Rare",
+   "fame": 564,
+   "facts": {
+    "elevation_m": 10,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Completed in 2002, the tower stands at 138 m tall with 33 floors, and is the current 52nd tallest building in Panama City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Torre Balboa",
+    "url": "https://en.wikipedia.org/wiki/Torre_Balboa",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6150028.webp",
+    "author": "123Hollic",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Balboa_Towers.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3744705",
+   "name": "Figali Convention Center",
+   "label": "Figali Convention Center",
+   "type": "built",
+   "kind": "convention center",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9397,
+   "lon": -79.5465,
+   "rarity": "Rare",
+   "fame": 4014,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Figali Convention Center is an indoor sports arena, in Fort Amador, Panama City, Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Figali Convention Center",
+    "url": "https://en.wikipedia.org/wiki/Figali_Convention_Center",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q3744705.webp"
+   }
+  },
+  {
+   "id": "wd:Q6048383",
+   "name": "Ocean One",
+   "label": "Ocean One",
+   "type": "built",
+   "kind": "building",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0086,
+   "lon": -79.4753,
+   "rarity": "Rare",
+   "fame": 780,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Built between 2005 and 2008, the tower stands at 208 m tall with 54 floors and is the 20th tallest building in Panama City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ocean One Panama City",
+    "url": "https://en.wikipedia.org/wiki/Ocean_One_Panama_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6048383.webp",
+    "author": "123Hollic",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ocean-One.jpg"
+   }
+  },
+  {
+   "id": "wd:Q17635508",
+   "name": "Mystic Point Panama",
+   "label": "Mystic Point Panama",
+   "type": "built",
+   "kind": "building",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9811,
+   "lon": -79.5225,
+   "rarity": "Rare",
+   "fame": 714,
+   "facts": {
+    "elevation_m": 20,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Mystic Point Towers is a mixed-use skyscraper complex in the Punta Pacifica district of Panama City, Panama, in the proximity of the Corredor Sur highway.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mystic Point Panama",
+    "url": "https://en.wikipedia.org/wiki/Mystic_Point_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q17635508.webp",
+    "author": "123Hollic",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mystic_Point.jpg"
+   }
+  },
+  {
+   "id": "wd:Q9082179",
+   "name": "National Theatre of Panama",
+   "label": "National Theatre of Panama",
+   "type": "built",
+   "kind": "cultural property",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9528,
+   "lon": -79.5332,
+   "rarity": "Rare",
+   "fame": 4068,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The National Theatre of Panama is located in the old city of Panama, next to the church of San Francisco and the Plaza Bolívar.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "National Theatre of Panama",
+    "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q9082179.webp",
+    "author": "Carlos Siu",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_-_Flickr_-_Chito.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6023029",
+   "name": "Goethals Monument",
+   "label": "Goethals Monument",
+   "type": "built",
+   "kind": "cultural property",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9585,
+   "lon": -79.5556,
+   "rarity": "Rare",
+   "fame": 1710,
+   "facts": {
+    "elevation_m": 11,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Goethals Monument in a monument in Panama City, Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Goethals Monument",
+    "url": "https://en.wikipedia.org/wiki/Goethals_Monument",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6023029.webp",
+    "author": "Gary Amberths from Panama",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monumento_a_Goethals_-_Flickr_-_GaryAmberths.jpg"
+   }
+  },
+  {
+   "id": "wd:Q11824187",
+   "name": "Ailigandí Airport",
+   "label": "Ailigandí Airport",
+   "type": "built",
+   "kind": "airstrip",
+   "region": "PA-KY",
+   "country": "PA",
+   "lat": 9.2167,
+   "lon": -78.0167,
+   "rarity": "Rare",
+   "fame": 450,
+   "facts": {
+    "elevation_m": 17,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "The airstrip is onshore, approximately 400 metres southeast of Ailigandí island and is reached by boat.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ailigandí Airport",
+    "url": "https://en.wikipedia.org/wiki/Ailigand%C3%AD_Airport",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q11824187.webp"
+   }
+  },
+  {
+   "id": "wd:Q20024732",
+   "name": "Panama Museum of Contemporary Art",
+   "label": "Panama Museum of Contemporary Art",
+   "type": "built",
+   "kind": "art museum",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9609,
+   "lon": -79.543,
+   "rarity": "Rare",
+   "fame": 1740,
+   "facts": {
+    "elevation_m": 22,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "The Museum of Contemporary Art of Panama, popularly called MAC Panamá, is the only museum of contemporary art that exists in Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Panama Museum of Contemporary Art",
+    "url": "https://en.wikipedia.org/wiki/Panama_Museum_of_Contemporary_Art",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20024732.webp",
+    "author": "MACPanama",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_de_Arte_Contempor%C3%A1neo_de_Panam%C3%A1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3058818",
+   "name": "Estadio Nacional de Panamá",
+   "label": "Estadio Nacional de Panamá",
+   "type": "built",
+   "kind": "stadium",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.0413,
+   "lon": -79.5453,
+   "rarity": "Rare",
+   "fame": 4470,
+   "facts": {
+    "elevation_m": 70,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "The stadium has a capacity of 27,000 and was built in 1999.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Rod Carew National Stadium",
+    "url": "https://en.wikipedia.org/wiki/Rod_Carew_National_Stadium",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3058818.webp",
+    "author": "Jose Gonzalez",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodcarew.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1113143",
+   "name": "Colón Island",
+   "label": "Colón Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.3898,
+   "lon": -82.2715,
+   "rarity": "Rare",
+   "fame": 6210,
+   "facts": {
+    "elevation_m": 48,
+    "area_km2": 61,
+    "length_km": 14,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Colón Island is the northernmost and main island in the Bocas del Toro Archipelago located in Bocas del Toro Province, Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Colón Island",
+    "url": "https://en.wikipedia.org/wiki/Col%C3%B3n_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1113143.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Col%C3%B3n_La_Mochila.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3311345",
+   "name": "Isla Grande",
+   "label": "Isla Grande",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.6333,
+   "lon": -79.5667,
+   "rarity": "Rare",
+   "fame": 3690,
+   "facts": {
+    "elevation_m": 56,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "Isla Grande is a small island and corregimiento in Portobelo District, Colón Province, Panama, off the Caribbean coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Grande",
+    "url": "https://en.wikipedia.org/wiki/Isla_Grande",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3311345.webp",
+    "author": "Garcia.dennis",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cristo_negro_-_Isla_Grande_-_Col%C3%B3n_-_Panam%C3%A1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4117163",
+   "name": "Cayos Zapatilla",
+   "label": "Cayos Zapatilla",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.2545,
+   "lon": -82.0373,
+   "rarity": "Rare",
+   "fame": 3006,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "Cayos Zapatilla is a group of two uninhabited islands located east of Isla Bastimentos in the Bocas del Toro Archipelago of Bocas del Toro Province, Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cayos Zapatilla",
+    "url": "https://en.wikipedia.org/wiki/Cayos_Zapatilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4117163.webp",
+    "author": "Dronepicr",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nationalpark_Zapatilla_Panama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5580670",
+   "name": "Bahía de Mosquítia",
+   "label": "Bahía de Mosquítia",
+   "type": "nature",
+   "kind": "bay",
+   "region": "PA-NB",
+   "country": "PA",
+   "lat": 9.0,
+   "lon": -81.25,
+   "rarity": "Rare",
+   "fame": 5010,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "Golfo de los Mosquitos, also called Mosquito Gulf, is a gulf of the Caribbean Sea on the north coast of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Golfo de los Mosquitos",
+    "url": "https://en.wikipedia.org/wiki/Golfo_de_los_Mosquitos",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5580670.webp"
+   }
+  },
+  {
+   "id": "wd:Q3479953",
+   "name": "Serranía del Darién",
+   "label": "Serranía del Darién",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "PA-EM",
+   "country": "PA",
+   "lat": 8.1667,
+   "lon": -77.3,
+   "rarity": "Rare",
+   "fame": 8736,
+   "facts": {
+    "elevation_m": 1875,
+    "length_km": 35,
+    "temp_c": 23.0
+   },
+   "flavour": {
+    "text": "The Serranía del Darién is a small mountain range on the border between Colombia and Panama in the area called the Darién Gap.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Serranía del Darién",
+    "url": "https://en.wikipedia.org/wiki/Serran%C3%ADa_del_Dari%C3%A9n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3479953.webp",
+    "author": "David Broad",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Darien_Gap_on_Pacific_Coast_of_Panama_-_panoramio_(3).jpg"
+   }
+  },
+  {
+   "id": "wd:Q808962",
+   "name": "Barro Colorado Island",
+   "label": "Barro Colorado Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.15,
+   "lon": -79.85,
+   "rarity": "Rare",
+   "fame": 10488,
+   "facts": {
+    "elevation_m": 162,
+    "area_km2": 15,
+    "length_km": 3.0,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Barro Colorado Island is located in the man-made Gatun Lake in the middle of the Panama Canal.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Barro Colorado Island",
+    "url": "https://en.wikipedia.org/wiki/Barro_Colorado_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q808962.webp"
+   }
+  },
+  {
+   "id": "wd:Q2562929",
+   "name": "Contadora Island",
+   "label": "Contadora Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.6333,
+   "lon": -79.0333,
+   "rarity": "Rare",
+   "fame": 12780,
+   "facts": {
+    "elevation_m": 18,
+    "area_km2": 3.0,
+    "temp_c": 26.9
+   },
+   "flavour": {
+    "text": "It has an area of 1.39 km2, which makes it the 11th largest island of the archipelago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Contadora Island",
+    "url": "https://en.wikipedia.org/wiki/Contadora_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2562929.webp",
+    "author": "Aworld196",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Main_Boulevardmin_Contadora.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2072445",
+   "name": "Bastimentos Island",
+   "label": "Bastimentos Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-1",
+   "country": "PA",
+   "lat": 9.35,
+   "lon": -82.2,
+   "rarity": "Rare",
+   "fame": 6762,
+   "facts": {
+    "elevation_m": 19,
+    "area_km2": 62,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Bastimentos Island is an island with eponymous town, and corregimiento located in the Bocas del Toro District and archipelago of Bocas del Toro Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Bastimentos Island",
+    "url": "https://en.wikipedia.org/wiki/Bastimentos_Island",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2072445.webp",
+    "author": "Dronepicr",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bastimentos_Panama_3.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1367364",
+   "name": "Escudo de Veraguas",
+   "label": "Escudo de Veraguas",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-NB",
+   "country": "PA",
+   "lat": 9.1,
+   "lon": -81.55,
+   "rarity": "Rare",
+   "fame": 8196,
+   "facts": {
+    "elevation_m": 23,
+    "area_km2": 4.3,
+    "length_km": 4.0,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Despite its name, it is not part of the province of Veraguas, but rather Bocas del Toro.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Escudo de Veraguas",
+    "url": "https://en.wikipedia.org/wiki/Isla_Escudo_de_Veraguas",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1367364.webp"
+   }
+  },
+  {
+   "id": "wd:Q1364359",
+   "name": "Chucunaque River",
+   "label": "Chucunaque River",
+   "type": "nature",
+   "kind": "river",
+   "region": "PA-5",
+   "country": "PA",
+   "lat": 8.1253,
+   "lon": -77.7447,
+   "rarity": "Rare",
+   "fame": 3966,
+   "facts": {
+    "elevation_m": 1.0,
+    "length_km": 231,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "It is a tributary of the Tuira River in the Darién Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chucunaque River",
+    "url": "https://en.wikipedia.org/wiki/Chucunaque_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1364359.webp",
+    "author": "User:Janibeth Miranda",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CuencaRioChucunaque.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5202432",
+   "name": "Cébaco",
+   "label": "Cébaco",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 7.5403,
+   "lon": -81.1556,
+   "rarity": "Rare",
+   "fame": 3192,
+   "facts": {
+    "elevation_m": 114,
+    "area_km2": 80,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Cébaco island lies off the Pacific Coast of the Republic of Panama, in Montijo District, Veraguas Province.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cébaco",
+    "url": "https://en.wikipedia.org/wiki/C%C3%A9baco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5202432.webp",
+    "author": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:ISS006-E-7601_-_View_of_Panama.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2574926",
+   "name": "Isla del Rey",
+   "label": "Isla del Rey",
+   "type": "nature",
+   "kind": "island",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.3915,
+   "lon": -78.9084,
+   "rarity": "Rare",
+   "fame": 6804,
+   "facts": {
+    "elevation_m": 146,
+    "area_km2": 234,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Isla del Rey is the largest island in the Pearl Islands in the Gulf of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla del Rey, Panama",
+    "url": "https://en.wikipedia.org/wiki/Isla_del_Rey%2C_Panama",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2574926.webp",
+    "author": "Kenvanportbc at English Wikipedia",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:3713051",
+   "name": "Capellanía",
+   "label": "Capellanía",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.3022,
+   "lon": -80.5533,
+   "rarity": "Rare",
+   "fame": 720,
+   "facts": {
+    "population": 2252,
+    "elevation_m": 32,
+    "temp_c": 27.2
+   },
+   "flavour": {
+    "text": "It has a land area of 102.3 square kilometres and had a population of 4,512 as of 2010, giving it a population density of 44.1 inhabitants per square kilometre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Capellanía",
+    "url": "https://en.wikipedia.org/wiki/Capellan%C3%ADa",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3713051.webp"
+   }
+  },
+  {
+   "id": "gn:3712505",
+   "name": "Chepo",
+   "label": "Chepo",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 9.1702,
+   "lon": -79.1008,
+   "rarity": "Rare",
+   "fame": 3108,
+   "facts": {
+    "population": 12912,
+    "elevation_m": 19,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Chepo is a town and corregimiento in Chepo District, Panamá Province, Panama with a population of 20,420 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chepo, Panamá Province",
+    "url": "https://en.wikipedia.org/wiki/Chepo%2C_Panam%C3%A1_Province",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3712505.webp"
+   }
+  },
+  {
+   "id": "gn:3703833",
+   "name": "Nuevo Arraiján",
+   "label": "Nuevo Arraiján",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-8",
+   "country": "PA",
+   "lat": 8.9264,
+   "lon": -79.7202,
+   "rarity": "Rare",
+   "fame": 1074,
+   "facts": {
+    "population": 14920,
+    "elevation_m": 14,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Nuevo Arraiján is a town in Arraiján District in the Panamá Oeste Province of Panama.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Nuevo Arraiján",
+    "url": "https://en.wikipedia.org/wiki/Nuevo_Arraij%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3703833.webp",
+    "author": "Rae3099",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nuevo_Arraij%C3%A1n_2.jpg"
+   }
+  },
+  {
+   "id": "gn:3715111",
+   "name": "Agua Buena",
+   "label": "Agua Buena",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.8368,
+   "lon": -80.3996,
+   "rarity": "Rare",
+   "fame": 618,
+   "facts": {
+    "population": 1012,
+    "elevation_m": 65,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "Agua Buena is a corregimiento in Los Santos District, Los Santos Province, Panama with a population of 1,117 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Agua Buena",
+    "url": "https://en.wikipedia.org/wiki/Agua_Buena",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3715111.webp"
+   }
+  },
+  {
+   "id": "gn:3715156",
+   "name": "Achutupo",
+   "label": "Achutupo",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-KY",
+   "country": "PA",
+   "lat": 9.1983,
+   "lon": -77.9873,
+   "rarity": "Rare",
+   "fame": 1146,
+   "facts": {
+    "population": 1753,
+    "elevation_m": 5.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Achutupo is an island town in the San Blas archipelago of Panama, located.7 kilometres off the Kuna Yala comarca coast.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Assudub",
+    "url": "https://en.wikipedia.org/wiki/Assudub",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3715156.webp",
+    "author": "Mónica J. Mora",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isla_Perro_en_la_Comarca_Guna_Yala.JPG"
+   }
+  },
+  {
+   "id": "gn:3711240",
+   "name": "El Caño",
+   "label": "El Caño",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.4078,
+   "lon": -80.5172,
+   "rarity": "Rare",
+   "fame": 1380,
+   "facts": {
+    "population": 1129,
+    "elevation_m": 22,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "It has a land area of 86 square kilometres and had a population of 3,351 as of 2010, giving it a population density of 38.9 inhabitants per square kilometre.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Caño",
+    "url": "https://en.wikipedia.org/wiki/El_Ca%C3%B1o",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3711240.webp"
+   }
+  },
+  {
+   "id": "gn:3703786",
+   "name": "Ocú",
+   "label": "Ocú",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-6",
+   "country": "PA",
+   "lat": 7.9452,
+   "lon": -80.7773,
+   "rarity": "Rare",
+   "fame": 1734,
+   "facts": {
+    "population": 3939,
+    "elevation_m": 132,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "Ocú is a town and corregimiento in Ocú District, Herrera Province, Panama with a population of 7,006 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ocú",
+    "url": "https://en.wikipedia.org/wiki/Oc%C3%BA",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3703786.webp"
+   }
+  },
+  {
+   "id": "gn:3713873",
+   "name": "Boquerón",
+   "label": "Boquerón",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.5077,
+   "lon": -82.5707,
+   "rarity": "Rare",
+   "fame": 1416,
+   "facts": {
+    "population": 1658,
+    "elevation_m": 207,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "Boquerón is a corregimiento in Boquerón District, Chiriquí Province, Panama, near the volcano of Volcán Barú.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Boquerón, Chiriquí",
+    "url": "https://en.wikipedia.org/wiki/Boquer%C3%B3n%2C_Chiriqu%C3%AD",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3713873.webp"
+   }
+  },
+  {
+   "id": "gn:3702384",
+   "name": "Puerto Pilón",
+   "label": "Puerto Pilón",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3632,
+   "lon": -79.7933,
+   "rarity": "Rare",
+   "fame": 1014,
+   "facts": {
+    "population": 8754,
+    "elevation_m": 22,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Puerto Pilón is a corregimiento in Colón District, Colón Province, Panama with a population of 16,517 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puerto Pilón",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Pil%C3%B3n",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3702384.webp"
+   }
+  },
+  {
+   "id": "gn:3707752",
+   "name": "La Espigadilla",
+   "label": "La Espigadilla",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.8878,
+   "lon": -80.3889,
+   "rarity": "Rare",
+   "fame": 474,
+   "facts": {
+    "population": 1172,
+    "elevation_m": 47,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "La Espigadilla is a corregimiento in Los Santos District, Los Santos Province, Panama with a population of 1,675 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Espigadilla",
+    "url": "https://en.wikipedia.org/wiki/La_Espigadilla",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3707752.webp"
+   }
+  },
+  {
+   "id": "gn:3703745",
+   "name": "Olá",
+   "label": "Olá",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-2",
+   "country": "PA",
+   "lat": 8.4202,
+   "lon": -80.6505,
+   "rarity": "Rare",
+   "fame": 1836,
+   "facts": {
+    "population": 384,
+    "elevation_m": 119,
+    "temp_c": 26.7
+   },
+   "flavour": {
+    "text": "Olá is a corregimiento in Olá District, Coclé Province, Panama with a population of 1,419 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Olá",
+    "url": "https://en.wikipedia.org/wiki/Ol%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3703745.webp"
+   }
+  },
+  {
+   "id": "gn:3712884",
+   "name": "Cativá",
+   "label": "Cativá",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-3",
+   "country": "PA",
+   "lat": 9.3622,
+   "lon": -79.8323,
+   "rarity": "Rare",
+   "fame": 1554,
+   "facts": {
+    "population": 29607,
+    "elevation_m": 12,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "Cativá is a corregimiento in Colón District, Colón Province, Panama, with a population of 34,558 as of 2010.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cativá",
+    "url": "https://en.wikipedia.org/wiki/Cativ%C3%A1",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3712884.webp"
+   }
+  },
+  {
+   "id": "gn:3706292",
+   "name": "Las Palmas",
+   "label": "Las Palmas (Veraguas)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.1362,
+   "lon": -81.4541,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1291,
+    "elevation_m": 295,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 1,291 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3706292.webp"
+   }
+  },
+  {
+   "id": "gn:3701704",
+   "name": "Sabana Grande",
+   "label": "Sabana Grande (Los Santos)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.8388,
+   "lon": -80.3659,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 521,
+    "elevation_m": 41,
+    "temp_c": 27.3
+   },
+   "flavour": {
+    "text": "A community of 521 people in Los Santos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701704.webp"
+   }
+  },
+  {
+   "id": "gn:3701484",
+   "name": "San Francisco",
+   "label": "San Francisco (Veraguas, near Quebrada de Oro)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.0584,
+   "lon": -81.3743,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1898,
+    "elevation_m": 65,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "A community of 1,898 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701484.webp"
+   }
+  },
+  {
+   "id": "gn:10347489",
+   "name": "El Porvenir",
+   "label": "El Porvenir (Chiriquí)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.232,
+   "lon": -81.8335,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 659,
+    "elevation_m": 45,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 659 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_10347489.webp"
+   }
+  },
+  {
+   "id": "gn:3710981",
+   "name": "El Cortezo",
+   "label": "El Cortezo (Los Santos)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-7",
+   "country": "PA",
+   "lat": 7.4291,
+   "lon": -80.6326,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 239,
+    "elevation_m": 153,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A community of 239 people in Los Santos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3710981.webp"
+   }
+  },
+  {
+   "id": "gn:3701240",
+   "name": "Santa Clara",
+   "label": "Santa Clara (Chiriquí)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.8348,
+   "lon": -82.7819,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1360,
+    "elevation_m": 1219,
+    "temp_c": 16.9
+   },
+   "flavour": {
+    "text": "A community of 1,360 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3701240.webp"
+   }
+  },
+  {
+   "id": "gn:3708853",
+   "name": "Guayabal",
+   "label": "Guayabal",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-4",
+   "country": "PA",
+   "lat": 8.6179,
+   "lon": -82.5791,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 220,
+    "elevation_m": 605,
+    "temp_c": 24.1
+   },
+   "flavour": {
+    "text": "A community of 220 people in Chiriquí.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3708853.webp"
+   }
+  },
+  {
+   "id": "gn:3714672",
+   "name": "Arenas",
+   "label": "Arenas",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 7.37,
+   "lon": -80.8595,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 97,
+    "elevation_m": 20,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "A community of 97 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3714672.webp"
+   }
+  },
+  {
+   "id": "gn:3713875",
+   "name": "Boquerón",
+   "label": "Boquerón (Veraguas)",
+   "type": "town",
+   "kind": "town",
+   "region": "PA-9",
+   "country": "PA",
+   "lat": 8.2435,
+   "lon": -80.8584,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 38,
+    "elevation_m": 69,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 38 people in Veraguas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3713875.webp"
+   }
+  }
+ ]
+}

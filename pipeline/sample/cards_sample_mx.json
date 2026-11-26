@@ -1,0 +1,3704 @@
+{
+ "note": "Sample of the Mexico card pool for front-end development; built by pipeline/export.py. Places from GeoNames (CC BY 4.0) and Wikidata (CC0). Flavour text from Wikipedia (CC BY-SA 4.0), credited per card. Photos from Wikimedia Commons, credited per card. Mini-maps drawn from Natural Earth. Temperature from WorldClim 2.1. Terrain height from Copernicus DEM via Open-Meteo.",
+ "cards": [
+  {
+   "id": "wd:Q5763304",
+   "name": "Cerro Zacatenco",
+   "label": "Cerro Zacatenco",
+   "type": "nature",
+   "kind": "hill",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.5106,
+   "lon": -99.1136,
+   "rarity": "Common",
+   "fame": 1296,
+   "facts": {
+    "elevation_m": 2550,
+    "temp_c": 16.0
+   },
+   "flavour": {
+    "text": "A hill in Mexico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5763304.webp",
+    "author": "Jef Triforce",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_Zacatenco.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7261240",
+   "name": "Purificación River",
+   "label": "Purificación River (near Emiliano Zapata)",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 19.3019,
+   "lon": -104.8978,
+   "rarity": "Common",
+   "fame": 222,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "The Purificación River is a river of Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Purificación River (Jalisco)",
+    "url": "https://en.wikipedia.org/wiki/Purificaci%C3%B3n_River_%28Jalisco%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7261240.webp"
+   }
+  },
+  {
+   "id": "wd:Q4813094",
+   "name": "Atengo River",
+   "label": "Atengo River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-NAY",
+   "country": "MX",
+   "lat": 21.9561,
+   "lon": -104.5197,
+   "rarity": "Common",
+   "fame": 276,
+   "facts": {
+    "elevation_m": 218,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "It is a tributary of the Huaynamota River in the southern Sierra Madre Occidental.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Atengo River",
+    "url": "https://en.wikipedia.org/wiki/Atengo_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q4813094.webp"
+   }
+  },
+  {
+   "id": "wd:Q7691712",
+   "name": "Teapa River",
+   "label": "Teapa River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 17.8231,
+   "lon": -92.8785,
+   "rarity": "Common",
+   "fame": 108,
+   "facts": {
+    "elevation_m": 15,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "The Teapa River is a river of Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Teapa River",
+    "url": "https://en.wikipedia.org/wiki/Teapa_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q7691712.webp"
+   }
+  },
+  {
+   "id": "wd:Q3755542",
+   "name": "Cerro de Algodón",
+   "label": "Cerro de Algodón",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 17.3078,
+   "lon": -95.9903,
+   "rarity": "Common",
+   "fame": 90,
+   "facts": {
+    "elevation_m": 1107,
+    "temp_c": 20.9
+   },
+   "flavour": {
+    "text": "A mountain in Oaxaca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3755542.webp",
+    "author": "Arcadio Buenaluna",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_de_algodon.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7132381",
+   "name": "Papagayo River",
+   "label": "Papagayo River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-GRO",
+   "country": "MX",
+   "lat": 16.6847,
+   "lon": -99.6107,
+   "rarity": "Common",
+   "fame": 1458,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "Its headwaters are in the Sierra Madre del Sur, and it drains southwards to empty into the Pacific Ocean southeast of the city of Acapulco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Papagayo River",
+    "url": "https://en.wikipedia.org/wiki/Papagayo_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7132381.webp",
+    "author": "jc_castaneda",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paisaje_de_la_Autopista_del_Sol_Mexico_-_Acapulco_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4694484",
+   "name": "Aguanaval River",
+   "label": "Aguanaval River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-ZAC",
+   "country": "MX",
+   "lat": 24.2502,
+   "lon": -102.886,
+   "rarity": "Common",
+   "fame": 2436,
+   "facts": {
+    "elevation_m": 1700,
+    "length_km": 1081,
+    "temp_c": 18.5
+   },
+   "flavour": {
+    "text": "The Aguanaval River is a river located in northcentral Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Aguanaval River",
+    "url": "https://en.wikipedia.org/wiki/Aguanaval_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4694484.webp",
+    "author": "Tereso Hernández",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Aguanaval_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1145914",
+   "name": "Isla Santa Cruz",
+   "label": "Isla Santa Cruz",
+   "type": "nature",
+   "kind": "island",
+   "region": "MX-BCS",
+   "country": "MX",
+   "lat": 25.285,
+   "lon": -110.7167,
+   "rarity": "Common",
+   "fame": 714,
+   "facts": {
+    "elevation_m": 416,
+    "area_km2": 13,
+    "length_km": 6.8,
+    "temp_c": 22.0
+   },
+   "flavour": {
+    "text": "Isla Santa Cruz, is an island in the Gulf of California, east of the Baja California Peninsula in Baja California Sur state.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Santa Cruz (Baja California Sur)",
+    "url": "https://en.wikipedia.org/wiki/Isla_Santa_Cruz_%28Baja_California_Sur%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1145914.webp"
+   }
+  },
+  {
+   "id": "wd:Q27823846",
+   "name": "Cerro El Pilón",
+   "label": "Cerro El Pilón",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.3728,
+   "lon": -100.0606,
+   "rarity": "Common",
+   "fame": 252,
+   "facts": {
+    "elevation_m": 1401,
+    "temp_c": 21.3
+   },
+   "flavour": {
+    "text": "A mountain in Nuevo León.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q27823846.webp"
+   }
+  },
+  {
+   "id": "wd:Q27778429",
+   "name": "Bahia Sargento",
+   "label": "Bahia Sargento",
+   "type": "nature",
+   "kind": "bay",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 29.2858,
+   "lon": -112.2778,
+   "rarity": "Common",
+   "fame": 48,
+   "facts": {
+    "elevation_m": 0.0,
+    "temp_c": 20.7
+   },
+   "flavour": {
+    "text": "A bay in Sonora.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27778429.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Baja_peninsula_(mexico)_250m.jpg"
+   }
+  },
+  {
+   "id": "wd:Q105881992",
+   "name": "Tolantongo Canyon",
+   "label": "Tolantongo Canyon",
+   "type": "nature",
+   "kind": "canyon",
+   "region": "MX-HID",
+   "country": "MX",
+   "lat": 20.6472,
+   "lon": -98.9642,
+   "rarity": "Common",
+   "fame": 468,
+   "facts": {
+    "elevation_m": 1084,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "A canyon in Hidalgo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q105881992.webp",
+    "author": "Carlos Adampol Galindo from DF, México",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tolantongo_(4128914420).jpg"
+   }
+  },
+  {
+   "id": "wd:Q24046127",
+   "name": "Pixquíac River",
+   "label": "Pixquíac River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 19.4358,
+   "lon": -96.9119,
+   "rarity": "Common",
+   "fame": 882,
+   "facts": {
+    "elevation_m": 1041,
+    "temp_c": 20.2
+   },
+   "flavour": {
+    "text": "A river in Veracruz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q24046127.webp",
+    "author": "Jgomezd",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_del_rio_Pixquiac.jpg"
+   }
+  },
+  {
+   "id": "gn:11096605",
+   "name": "La Compañia",
+   "label": "La Compañia",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 18.9708,
+   "lon": -97.7228,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2526,
+    "elevation_m": 2124,
+    "temp_c": 16.1
+   },
+   "flavour": {
+    "text": "A community of 2,526 people in Puebla.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_11096605.webp"
+   }
+  },
+  {
+   "id": "gn:3531268",
+   "name": "Chacalapa",
+   "label": "Chacalapa (Guerrero)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GRO",
+   "country": "MX",
+   "lat": 16.8075,
+   "lon": -98.4582,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1371,
+    "elevation_m": 538,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "A community of 1,371 people in Guerrero.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3531268.webp"
+   }
+  },
+  {
+   "id": "gn:4000152",
+   "name": "Las Cañas",
+   "label": "Las Cañas (Guanajuato)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 20.2952,
+   "lon": -101.4184,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1093,
+    "elevation_m": 1780,
+    "temp_c": 17.9
+   },
+   "flavour": {
+    "text": "A community of 1,093 people in Guanajuato.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4000152.webp"
+   }
+  },
+  {
+   "id": "gn:3530620",
+   "name": "Cintalapa",
+   "label": "Cintalapa",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-CHP",
+   "country": "MX",
+   "lat": 16.9236,
+   "lon": -91.3615,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1571,
+    "elevation_m": 491,
+    "temp_c": 22.8
+   },
+   "flavour": {
+    "text": "A community of 1,571 people in Chiapas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3530620.webp"
+   }
+  },
+  {
+   "id": "gn:8858402",
+   "name": "Belén Atzitzimititlán",
+   "label": "Belén Atzitzimititlán",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TLA",
+   "country": "MX",
+   "lat": 19.3469,
+   "lon": -98.19,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 3232,
+    "elevation_m": 2310,
+    "temp_c": 14.0
+   },
+   "flavour": {
+    "text": "A community of 3,232 people in Tlaxcala.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_8858402.webp",
+    "author": "Isaacvp",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gobenerment_building_on_Belen_Atzizimitl%C3%A1n,_in_Tlaxcala,_Mexico.jpg"
+   }
+  },
+  {
+   "id": "gn:4006206",
+   "name": "Francisco García Salinas",
+   "label": "Francisco García Salinas",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-ZAC",
+   "country": "MX",
+   "lat": 23.8122,
+   "lon": -103.1821,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1821,
+    "elevation_m": 1961,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "A community of 1,821 people in Zacatecas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4006206.webp"
+   }
+  },
+  {
+   "id": "gn:3518711",
+   "name": "San Juan Coatzospam",
+   "label": "San Juan Coatzospam",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 18.05,
+   "lon": -96.763,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1212,
+    "elevation_m": 1871,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "A community of 1,212 people in Oaxaca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3518711.webp"
+   }
+  },
+  {
+   "id": "gn:8858417",
+   "name": "Colonia los Cedros",
+   "label": "Colonia los Cedros",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.3117,
+   "lon": -99.5411,
+   "rarity": "Common",
+   "fame": 144,
+   "facts": {
+    "population": 3094,
+    "elevation_m": 2578,
+    "temp_c": 13.7
+   },
+   "flavour": {
+    "text": "A community of 3,094 people in State of Mexico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8858417.webp"
+   }
+  },
+  {
+   "id": "gn:3827437",
+   "name": "Zacamulpa Tlalmimilolpan",
+   "label": "Zacamulpa Tlalmimilolpan",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.3886,
+   "lon": -99.4458,
+   "rarity": "Common",
+   "fame": 216,
+   "facts": {
+    "population": 1776,
+    "elevation_m": 2805,
+    "temp_c": 12.2
+   },
+   "flavour": {
+    "text": "A community of 1,776 people in State of Mexico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3827437.webp"
+   }
+  },
+  {
+   "id": "gn:8858707",
+   "name": "La Escalera",
+   "label": "La Escalera",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 17.8436,
+   "lon": -92.5256,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2052,
+    "elevation_m": 23,
+    "temp_c": 26.8
+   },
+   "flavour": {
+    "text": "A community of 2,052 people in Tabasco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8858707.webp"
+   }
+  },
+  {
+   "id": "gn:8859671",
+   "name": "El Bellote (Miguel de la Madrid)",
+   "label": "El Bellote (Miguel de la Madrid)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 18.4253,
+   "lon": -93.1508,
+   "rarity": "Common",
+   "fame": 138,
+   "facts": {
+    "population": 1113,
+    "elevation_m": 1.0,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "A community of 1,113 people in Tabasco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8859671.webp"
+   }
+  },
+  {
+   "id": "gn:8859212",
+   "name": "Pezmatlán",
+   "label": "Pezmatlán",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.8466,
+   "lon": -97.4853,
+   "rarity": "Common",
+   "fame": 78,
+   "facts": {
+    "population": 1375,
+    "elevation_m": 1905,
+    "temp_c": 17.8
+   },
+   "flavour": {
+    "text": "A community of 1,375 people in Puebla.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8859212.webp"
+   }
+  },
+  {
+   "id": "wd:Q5117093",
+   "name": "Church of San Francisco",
+   "label": "Church of San Francisco (near Mexico City)",
+   "type": "built",
+   "kind": "church",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4334,
+   "lon": -99.1401,
+   "rarity": "Epic",
+   "fame": 10032,
+   "facts": {
+    "elevation_m": 2232,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "The Convent of San Francisco is located at the western end of Madero Street in the historic center of Mexico City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Convent of San Francisco, Madero Street, Mexico City",
+    "url": "https://en.wikipedia.org/wiki/Convent_of_San_Francisco%2C_Madero_Street%2C_Mexico_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5117093.webp",
+    "author": "ProtoplasmaKid",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Convento_de_San_Francisco_-_Ciudad_de_M%C3%A9xico_-_1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2352495",
+   "name": "El Tepozteco",
+   "label": "El Tepozteco",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-MOR",
+   "country": "MX",
+   "lat": 19.0009,
+   "lon": -99.1012,
+   "rarity": "Epic",
+   "fame": 20964,
+   "facts": {
+    "elevation_m": 2080,
+    "temp_c": 12.9
+   },
+   "flavour": {
+    "text": "It consists of a small temple to Tepoztēcatl, the Aztec god of the alcoholic beverage pulque.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Tepozteco",
+    "url": "https://en.wikipedia.org/wiki/El_Tepozteco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2352495.webp",
+    "author": "Asedzie",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Piramidedeltepozteco.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5088400",
+   "name": "Chautla Hacienda",
+   "label": "Chautla Hacienda",
+   "type": "built",
+   "kind": "",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.316,
+   "lon": -98.4711,
+   "rarity": "Epic",
+   "fame": 12678,
+   "facts": {
+    "elevation_m": 2285,
+    "temp_c": 15.7
+   },
+   "flavour": {
+    "text": "The Chautla Hacienda was a formerly vast extension of farmland located in the San Martin Texmelucan Valley in the state of Puebla.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chautla Hacienda",
+    "url": "https://en.wikipedia.org/wiki/Chautla_Hacienda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5088400.webp",
+    "author": "David de la Luz",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hacienda_de_Chautla,_in_the_state_of_Puebla,_Mexico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q130898",
+   "name": "Palace of Iturbide",
+   "label": "Palace of Iturbide",
+   "type": "built",
+   "kind": "art gallery",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4335,
+   "lon": -99.1391,
+   "rarity": "Epic",
+   "fame": 22206,
+   "facts": {
+    "elevation_m": 2242,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "The Palace of Iturbide is a large palatial residence located in the historic center of Mexico City at Madero Street #17.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Palace of Iturbide",
+    "url": "https://en.wikipedia.org/wiki/Palace_of_Iturbide",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q130898.webp",
+    "author": "José Luiz",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Facade_-_Palacio_de_Iturbide_-_Mexico_2024.jpg"
+   }
+  },
+  {
+   "id": "wd:Q805835",
+   "name": "Baluarte Bridge",
+   "label": "Baluarte Bridge",
+   "type": "built",
+   "kind": "cable-stayed bridge",
+   "region": "MX-DUR",
+   "country": "MX",
+   "lat": 23.5343,
+   "lon": -105.7596,
+   "rarity": "Epic",
+   "fame": 35316,
+   "facts": {
+    "elevation_m": 816,
+    "length_km": 1.1,
+    "temp_c": 17.4
+   },
+   "flavour": {
+    "text": "It is located between the municipalities of Concordia in Sinaloa and Pueblo Nuevo in Durango, along the Durango–Mazatlán highway, Mexico 40D.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Baluarte Bridge",
+    "url": "https://en.wikipedia.org/wiki/Baluarte_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q805835.webp",
+    "author": "Fotrogafo Especial",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_Baluarte_03.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7698848",
+   "name": "Templo Expiatorio del Santísimo Sacramento",
+   "label": "Templo Expiatorio del Santísimo Sacramento",
+   "type": "built",
+   "kind": "expiatory temple",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.6734,
+   "lon": -103.3591,
+   "rarity": "Epic",
+   "fame": 21972,
+   "facts": {
+    "elevation_m": 1558,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "The Templo Expiatorio del Santísimo Sacramento is a Catholic church dedicated to the Blessed Sacrament, located in Guadalajara, Jalisco, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Templo Expiatorio del Santísimo Sacramento",
+    "url": "https://en.wikipedia.org/wiki/Templo_Expiatorio_del_Sant%C3%ADsimo_Sacramento",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7698848.webp",
+    "author": "El Gran Dee",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Templo_Expiatorio_de_GDL.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1889286",
+   "name": "Alhóndiga de Granaditas",
+   "label": "Alhóndiga de Granaditas",
+   "type": "built",
+   "kind": "architectural heritage monument",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 21.0189,
+   "lon": -101.2581,
+   "rarity": "Epic",
+   "fame": 24804,
+   "facts": {
+    "elevation_m": 2005,
+    "area_km2": 0.0,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "This historic building was created to replace an old grain exchange near the city's river.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alhóndiga de Granaditas",
+    "url": "https://en.wikipedia.org/wiki/Alh%C3%B3ndiga_de_Granaditas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1889286.webp",
+    "author": "Juan Carlos Fonseca Mata",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alh%C3%B3ndiga_de_Granaditas_-_Guanajuato_capital,_GTO.jpg"
+   }
+  },
+  {
+   "id": "wd:Q213232",
+   "name": "Uxmal",
+   "label": "Uxmal",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 20.3594,
+   "lon": -89.7714,
+   "rarity": "Epic",
+   "fame": 65250,
+   "facts": {
+    "elevation_m": 56,
+    "area_km2": 38,
+    "temp_c": 25.6
+   },
+   "flavour": {
+    "text": "It was designated a UNESCO World Heritage Site along with the nearby ruins of Kabah, Sayil and Labna.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Uxmal",
+    "url": "https://en.wikipedia.org/wiki/Uxmal",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q213232.webp",
+    "author": "Adrian Hernandez",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panoramica_Uxmal.jpg"
+   }
+  },
+  {
+   "id": "wd:Q913166",
+   "name": "La Venta",
+   "label": "La Venta",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 18.1053,
+   "lon": -94.0317,
+   "rarity": "Epic",
+   "fame": 49764,
+   "facts": {
+    "elevation_m": 1.0,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "La Venta is a pre-Columbian archaeological site of the Olmec civilization located in the present-day Mexican state of Tabasco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "La Venta",
+    "url": "https://en.wikipedia.org/wiki/La_Venta",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q913166.webp",
+    "author": "Alfonsobouchot",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:La_Venta_Pir%C3%A1mide_cara_norte.jpg"
+   }
+  },
+  {
+   "id": "wd:Q60854014",
+   "name": "Chimalli Warrior",
+   "label": "Chimalli Warrior",
+   "type": "built",
+   "kind": "colossal statue",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.4131,
+   "lon": -98.9839,
+   "rarity": "Epic",
+   "fame": 15234,
+   "facts": {
+    "elevation_m": 2231,
+    "height_m": 55,
+    "temp_c": 16.4
+   },
+   "flavour": {
+    "text": "Guerrero Chimalli is an outdoor steel sculpture by Enrique \"Sebastián\" Carbajal, installed along Bordo de Xochiaca Avenue, in Chimalhuacán, State of Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guerrero Chimalli",
+    "url": "https://en.wikipedia.org/wiki/Guerrero_Chimalli",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q60854014.webp",
+    "author": "ProtoplasmaKid",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guerrero_Chimalli_-_2026_-_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q775138",
+   "name": "Sumidero Canyon",
+   "label": "Sumidero Canyon",
+   "type": "nature",
+   "kind": "canyon",
+   "region": "MX-CHP",
+   "country": "MX",
+   "lat": 16.85,
+   "lon": -93.1333,
+   "rarity": "Epic",
+   "fame": 36384,
+   "facts": {
+    "elevation_m": 1194,
+    "temp_c": 22.7
+   },
+   "flavour": {
+    "text": "Sumidero Canyon is a deep natural canyon located just north of the city of Chiapa de Corzo in the state of Chiapas, in southern Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sumidero Canyon",
+    "url": "https://en.wikipedia.org/wiki/Sumidero_Canyon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q775138.webp",
+    "author": "Tjeerd Wiersma from Amsterdam, The Netherlands",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canon_del_Sumideiro_2.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1014974",
+   "name": "Tepeyac Hill",
+   "label": "Tepeyac Hill",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4868,
+   "lon": -99.1158,
+   "rarity": "Epic",
+   "fame": 32232,
+   "facts": {
+    "elevation_m": 2270,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "Tepeyac or the Hill of Tepeyac, historically known by the names Tepeyacac and Tepeaquilla, is located inside Gustavo A. Madero.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tepeyac",
+    "url": "https://en.wikipedia.org/wiki/Tepeyac",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1014974.webp",
+    "author": "Eneas De Troya from Mexico City, México",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basilica_of_Our_Lady_of_Guadalupe,_Mexico.jpg"
+   }
+  },
+  {
+   "id": "wd:Q674485",
+   "name": "Copper Canyon",
+   "label": "Copper Canyon",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "MX-CHH",
+   "country": "MX",
+   "lat": 27.5161,
+   "lon": -107.7658,
+   "rarity": "Epic",
+   "fame": 63000,
+   "facts": {
+    "elevation_m": 1023,
+    "temp_c": 15.9
+   },
+   "flavour": {
+    "text": "Copper Canyon is a system of six distinct canyons in the Sierra Madre Occidental in the southwestern part of the state of Chihuahua in northwestern Mexico…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Copper Canyon",
+    "url": "https://en.wikipedia.org/wiki/Copper_Canyon",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q674485.webp",
+    "author": "Jesus Alejandro Guer…",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Piedra_bolada_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27803916",
+   "name": "Parque Nacional Maderas del Carmen",
+   "label": "Parque Nacional Maderas del Carmen",
+   "type": "nature",
+   "kind": "national park",
+   "region": "MX-COA",
+   "country": "MX",
+   "lat": 29.1492,
+   "lon": -102.6735,
+   "rarity": "Epic",
+   "fame": 3486,
+   "facts": {
+    "elevation_m": 1735,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "Maderas del Carmen is a biosphere reserve in the northern Mexican state of Coahuila.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Maderas del Carmen",
+    "url": "https://en.wikipedia.org/wiki/Maderas_del_Carmen",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27803916.webp",
+    "author": "Comisión Mexicana de Filmaciones from México D. F., México",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Boquillas_del_Carmen,_Coahuila_(22730773718).jpg"
+   }
+  },
+  {
+   "id": "wd:Q155246",
+   "name": "Hierve el Agua",
+   "label": "Hierve el Agua",
+   "type": "nature",
+   "kind": "waterfall",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 16.8655,
+   "lon": -96.276,
+   "rarity": "Epic",
+   "fame": 38100,
+   "facts": {
+    "elevation_m": 1742,
+    "temp_c": 19.4
+   },
+   "flavour": {
+    "text": "Hierve el Agua is a set of natural travertine rock formations in San Lorenzo Albarradas, Oaxaca, Mexico that resemble cascades of water.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hierve el Agua",
+    "url": "https://en.wikipedia.org/wiki/Hierve_el_Agua",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q155246.webp",
+    "author": "Adrián Cerón",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hierve_el_agua.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1778291",
+   "name": "Cerro de la Silla",
+   "label": "Cerro de la Silla",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.6278,
+   "lon": -100.2391,
+   "rarity": "Epic",
+   "fame": 48168,
+   "facts": {
+    "elevation_m": 1528,
+    "prominence_m": 1100,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "It is found covering territorial parts of the municipalities of Guadalupe, Monterrey and Juárez, in the state of Nuevo León.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro de la Silla",
+    "url": "https://en.wikipedia.org/wiki/Cerro_de_la_Silla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1778291.webp",
+    "author": "Carlos Valenzuela",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CerroDeLaSilla201806p1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q825347",
+   "name": "Colima",
+   "label": "Colima (near Cofradía)",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 19.5114,
+   "lon": -103.6181,
+   "rarity": "Epic",
+   "fame": 38148,
+   "facts": {
+    "elevation_m": 3850,
+    "prominence_m": 600,
+    "temp_c": 14.3
+   },
+   "flavour": {
+    "text": "The Volcán de Colima, 4,260 m, also known as Volcán de Fuego, is part of the Colima Volcanic Complex consisting of Volcán de Colima.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Volcán de Colima",
+    "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Colima",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q825347.webp",
+    "author": "NASA",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Colima_Landsat_image.jpg"
+   }
+  },
+  {
+   "id": "wd:Q20119933",
+   "name": "Cozumel Island",
+   "label": "Cozumel Island",
+   "type": "nature",
+   "kind": "island",
+   "region": "MX-ROO",
+   "country": "MX",
+   "lat": 20.4167,
+   "lon": -86.9167,
+   "rarity": "Epic",
+   "fame": 163824,
+   "facts": {
+    "elevation_m": 12,
+    "area_km2": 539,
+    "length_km": 45,
+    "temp_c": 26.3
+   },
+   "flavour": {
+    "text": "Cozumel is an island and municipality in the Caribbean Sea off the eastern coast of Mexico's Yucatán Peninsula, opposite Playa del Carmen.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cozumel",
+    "url": "https://en.wikipedia.org/wiki/Cozumel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q20119933.webp",
+    "author": "AMAPO",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cozumel_Aerial_View.jpg"
+   }
+  },
+  {
+   "id": "wd:Q238147",
+   "name": "Citlaltepetl",
+   "label": "Citlaltepetl",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.03,
+   "lon": -97.27,
+   "rarity": "Epic",
+   "fame": 172974,
+   "facts": {
+    "elevation_m": 5636,
+    "prominence_m": 4922,
+    "temp_c": 8.0
+   },
+   "flavour": {
+    "text": "Citlaltépetl, otherwise known as Pico de Orizaba, is an active volcano and the highest volcano in North America.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pico de Orizaba",
+    "url": "https://en.wikipedia.org/wiki/Pico_de_Orizaba",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q238147.webp",
+    "author": "México en Fotos",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pico_de_Orizaba_desde_Hidalgo,_Puebla.jpg"
+   }
+  },
+  {
+   "id": "wd:Q823391",
+   "name": "Cerro del Cubilete",
+   "label": "Cerro del Cubilete",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 21.012,
+   "lon": -101.369,
+   "rarity": "Epic",
+   "fame": 31854,
+   "facts": {
+    "elevation_m": 2579,
+    "temp_c": 17.5
+   },
+   "flavour": {
+    "text": "Approximately 30 miles southeast of Léon, it is said to be the geographical center of Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro del Cubilete",
+    "url": "https://en.wikipedia.org/wiki/Cerro_del_Cubilete",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q823391.webp",
+    "author": "Juan Carlos Fonseca Mata",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cristo_Rey_en_el_Cerro_del_Cubilete_-_Silao,_Guanajuato,_M%C3%A9xico.jpg"
+   }
+  },
+  {
+   "id": "gn:3530915",
+   "name": "Chicxulub Puerto",
+   "label": "Chicxulub Puerto",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 21.2962,
+   "lon": -89.5987,
+   "rarity": "Epic",
+   "fame": 21528,
+   "facts": {
+    "population": 6010,
+    "elevation_m": 1.0,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "According to the INEGI census conducted in 2020, the port town had a population of 7,591 inhabitants.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chicxulub Puerto",
+    "url": "https://en.wikipedia.org/wiki/Chicxulub_Puerto",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3530915.webp",
+    "author": "Josu Goñi Etxabe",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Chicxulub_Puerto_hondartza_2010.JPG"
+   }
+  },
+  {
+   "id": "gn:3988050",
+   "name": "Salvatierra",
+   "label": "Salvatierra",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 20.2161,
+   "lon": -100.8821,
+   "rarity": "Epic",
+   "fame": 13002,
+   "facts": {
+    "population": 37203,
+    "elevation_m": 1796,
+    "temp_c": 18.3
+   },
+   "flavour": {
+    "text": "Salvatierra is a Mexican city located in the valley of Huatzindeo in the lowlands of the state of Guanajuato.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Salvatierra, Guanajuato",
+    "url": "https://en.wikipedia.org/wiki/Salvatierra%2C_Guanajuato",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3988050.webp",
+    "author": "Djraffa84",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_Nuestra_Sant%C3%ADsima_Madre_de_la_Luz._Santuario_Diocesano_en_Salvatierra,_Gto..jpg"
+   }
+  },
+  {
+   "id": "gn:3981941",
+   "name": "Tepic",
+   "label": "Tepic",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-NAY",
+   "country": "MX",
+   "lat": 21.5073,
+   "lon": -104.8933,
+   "rarity": "Epic",
+   "fame": 51582,
+   "facts": {
+    "population": 332863,
+    "elevation_m": 950,
+    "area_km2": 1983,
+    "temp_c": 23.2
+   },
+   "flavour": {
+    "text": "Tepic is the capital and largest city of the western Mexican state of Nayarit, as well as the seat of the Tepic Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tepic",
+    "url": "https://en.wikipedia.org/wiki/Tepic",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3981941.webp",
+    "author": "Eduardo López",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collage_Tepic.jpg"
+   }
+  },
+  {
+   "id": "gn:3981984",
+   "name": "Tepatitlán de Morelos",
+   "label": "Tepatitlán de Morelos",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.8169,
+   "lon": -102.7635,
+   "rarity": "Epic",
+   "fame": 27840,
+   "facts": {
+    "population": 91959,
+    "elevation_m": 1825,
+    "area_km2": 25,
+    "temp_c": 18.4
+   },
+   "flavour": {
+    "text": "It is located in the area known as Los Altos de Jalisco, about 70 km east of state capital Guadalajara.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Tepatitlán",
+    "url": "https://en.wikipedia.org/wiki/Tepatitl%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3981984.webp",
+    "author": "José González Peña",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tepatitl%C3%A1n_de_Morelos_(20250425)1.jpg"
+   }
+  },
+  {
+   "id": "gn:3516225",
+   "name": "Taxco de Alarcón",
+   "label": "Taxco de Alarcón",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GRO",
+   "country": "MX",
+   "lat": 18.5571,
+   "lon": -99.6051,
+   "rarity": "Epic",
+   "fame": 44022,
+   "facts": {
+    "population": 50399,
+    "elevation_m": 1727,
+    "area_km2": 347,
+    "temp_c": 20.1
+   },
+   "flavour": {
+    "text": "Taxco de Alarcón is a small city and administrative center of Taxco de Alarcón municipality located in the Mexican state of Guerrero.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Taxco",
+    "url": "https://en.wikipedia.org/wiki/Taxco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3516225.webp",
+    "author": "María Quezada Aranda",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Prisca_en_medio_de_Taxco.JPG"
+   }
+  },
+  {
+   "id": "gn:3988594",
+   "name": "Río Grande",
+   "label": "Río Grande",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-ZAC",
+   "country": "MX",
+   "lat": 23.8273,
+   "lon": -103.0341,
+   "rarity": "Epic",
+   "fame": 10344,
+   "facts": {
+    "population": 32944,
+    "elevation_m": 1859,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "It serves as the municipal seat of the eponymous Río Grande Municipality.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Grande, Zacatecas",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande%2C_Zacatecas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3988594.webp",
+    "author": "Víctor Alfonso Guzmán Cervantes ( @FossyNet )",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:100_2335.jpg"
+   }
+  },
+  {
+   "id": "gn:4018761",
+   "name": "Allende",
+   "label": "Allende",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-COA",
+   "country": "MX",
+   "lat": 28.3412,
+   "lon": -100.8511,
+   "rarity": "Epic",
+   "fame": 19350,
+   "facts": {
+    "population": 20694,
+    "elevation_m": 385,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "The city serves as the administrative center for the surrounding municipality of Allende.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Allende, Coahuila",
+    "url": "https://en.wikipedia.org/wiki/Allende%2C_Coahuila",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4018761.webp",
+    "author": "MikSed",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centro_en_Allende,_Coahuila.jpg"
+   }
+  },
+  {
+   "id": "gn:3985604",
+   "name": "San Luis Río Colorado",
+   "label": "San Luis Río Colorado",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 32.4555,
+   "lon": -114.7704,
+   "rarity": "Epic",
+   "fame": 46218,
+   "facts": {
+    "population": 176685,
+    "elevation_m": 36,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "In the 2020 census, the city had a population of 176,685.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Luis Río Colorado",
+    "url": "https://en.wikipedia.org/wiki/San_Luis_R%C3%ADo_Colorado",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3985604.webp",
+    "author": "AyuntamientoSLRC",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia_inmaculada_concepci%C3%B3n_SLRC.jpg"
+   }
+  },
+  {
+   "id": "gn:4013085",
+   "name": "Compostela",
+   "label": "Compostela",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-NAY",
+   "country": "MX",
+   "lat": 21.2373,
+   "lon": -104.9006,
+   "rarity": "Epic",
+   "fame": 10998,
+   "facts": {
+    "population": 17573,
+    "elevation_m": 855,
+    "temp_c": 21.6
+   },
+   "flavour": {
+    "text": "A community of 17,573 people in Nayarit.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4013085.webp",
+    "author": "AlejandroLinaresGarcia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AsdeOros07.JPG"
+   }
+  },
+  {
+   "id": "gn:4005867",
+   "name": "Ciudad General Escobedo",
+   "label": "Ciudad General Escobedo",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.7966,
+   "lon": -100.3177,
+   "rarity": "Epic",
+   "fame": 14388,
+   "facts": {
+    "population": 454967,
+    "elevation_m": 499,
+    "area_km2": 207,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "General Escobedo, or simply Escobedo, is a city and municipality in Nuevo León, Mexico, that is part of the Monterrey Metropolitan area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "General Escobedo",
+    "url": "https://en.wikipedia.org/wiki/General_Escobedo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4005867.webp",
+    "author": "Jvr solid",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:PalacioMunicipalEsc.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1072510",
+   "name": "Chapultepec Castle",
+   "label": "Chapultepec Castle",
+   "type": "built",
+   "kind": "palace",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4206,
+   "lon": -99.1817,
+   "rarity": "Legendary",
+   "fame": 212010,
+   "facts": {
+    "elevation_m": 2266,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "Chapultepec Castle is located on top of Chapultepec Hill in Mexico City's Chapultepec park.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chapultepec Castle",
+    "url": "https://en.wikipedia.org/wiki/Chapultepec_Castle",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1072510.webp",
+    "author": "Own work",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_7.jpg"
+   }
+  },
+  {
+   "id": "wd:Q947870",
+   "name": "Torre Latinoamericana",
+   "label": "Torre Latinoamericana",
+   "type": "built",
+   "kind": "office building",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4339,
+   "lon": -99.1406,
+   "rarity": "Legendary",
+   "fame": 78816,
+   "facts": {
+    "elevation_m": 2232,
+    "height_m": 182,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "Its central location, height, and history make it one of the city's most important landmarks.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Torre Latinoamericana",
+    "url": "https://en.wikipedia.org/wiki/Torre_Latinoamericana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q947870.webp",
+    "author": "Thomas Ledl",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg"
+   }
+  },
+  {
+   "id": "wd:Q320454",
+   "name": "Estadio Azteca",
+   "label": "Estadio Azteca",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.3031,
+   "lon": -99.1506,
+   "rarity": "Legendary",
+   "fame": 647490,
+   "facts": {
+    "elevation_m": 2245,
+    "temp_c": 15.4
+   },
+   "flavour": {
+    "text": "At an elevation of 2,241 meters above sea level it is the official home of Club América of Liga MX and the Mexico national team.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Azteca",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Azteca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q320454.webp",
+    "author": "ProtoplasmaKid",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q928541",
+   "name": "Angel of Independence",
+   "label": "Angel of Independence",
+   "type": "built",
+   "kind": "monument",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4269,
+   "lon": -99.1675,
+   "rarity": "Legendary",
+   "fame": 125760,
+   "facts": {
+    "elevation_m": 2237,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "The Angel of Independence, most commonly known by the shortened name El Ángel and officially known as Monumento a la Independencia.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Angel of Independence",
+    "url": "https://en.wikipedia.org/wiki/Angel_of_Independence",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q928541.webp",
+    "author": "Carlos Valenzuela",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Angel_de_la_independencia170409.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1369097",
+   "name": "Ciudad de los Deportes Stadium",
+   "label": "Ciudad de los Deportes Stadium",
+   "type": "built",
+   "kind": "association football venue",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.3834,
+   "lon": -99.1782,
+   "rarity": "Legendary",
+   "fame": 100506,
+   "facts": {
+    "elevation_m": 2248,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "The facility is used for association football matches and for American football as well.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Ciudad de los Deportes",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Ciudad_de_los_Deportes",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1369097.webp",
+    "author": "ProtoplasmaKid",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Estadio_de_la_Ciudad_de_los_Deportes_02.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1347689",
+   "name": "Estadio GNP Seguros",
+   "label": "Estadio GNP Seguros",
+   "type": "built",
+   "kind": "multi-purpose hall",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4049,
+   "lon": -99.0959,
+   "rarity": "Legendary",
+   "fame": 145578,
+   "facts": {
+    "elevation_m": 2229,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "Estadio GNP Seguros, formerly known as Foro Sol, is a multipurpose stadium built in 1993 inside the Autódromo Hermanos Rodríguez in eastern Mexico City.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio GNP Seguros",
+    "url": "https://en.wikipedia.org/wiki/Estadio_GNP_Seguros",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1347689.webp",
+    "author": "ProtoplasmaKid",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2663377",
+   "name": "Frida Kahlo Museum",
+   "label": "Frida Kahlo Museum",
+   "type": "built",
+   "kind": "art museum",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.3551,
+   "lon": -99.1625,
+   "rarity": "Legendary",
+   "fame": 78762,
+   "facts": {
+    "elevation_m": 2248,
+    "area_km2": 0.0,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "The Frida Kahlo Museum, also known as The Blue House for the structure's cobalt-blue walls.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Frida Kahlo Museum",
+    "url": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2663377.webp",
+    "author": "Nachtwächter",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_Frida_Kahlo.JPG"
+   }
+  },
+  {
+   "id": "wd:Q464899",
+   "name": "Monte Albán",
+   "label": "Monte Albán",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 17.0439,
+   "lon": -96.7678,
+   "rarity": "Legendary",
+   "fame": 116964,
+   "facts": {
+    "elevation_m": 1914,
+    "area_km2": 4000,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "Monte Albán is a large pre-Columbian archaeological site in the Santa Cruz Xoxocotlán Municipality in the southern Mexican state of Oaxaca.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Monte Albán",
+    "url": "https://en.wikipedia.org/wiki/Monte_Alb%C3%A1n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q464899.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Monte_Alb%C3%A1n_archeological_site,_Oaxaca.jpg"
+   }
+  },
+  {
+   "id": "wd:Q13700",
+   "name": "Lake Texcoco",
+   "label": "Lake Texcoco",
+   "type": "nature",
+   "kind": "lake",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.5,
+   "lon": -98.99,
+   "rarity": "Legendary",
+   "fame": 235044,
+   "facts": {
+    "elevation_m": 2236,
+    "area_km2": 2000,
+    "temp_c": 16.4
+   },
+   "flavour": {
+    "text": "After the Spanish conquest, efforts to control flooding led to most of the lake being drained.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Lake Texcoco",
+    "url": "https://en.wikipedia.org/wiki/Lake_Texcoco",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q13700.webp"
+   }
+  },
+  {
+   "id": "wd:Q181157",
+   "name": "Popocatépetl",
+   "label": "Popocatépetl",
+   "type": "nature",
+   "kind": "volcano",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.0234,
+   "lon": -98.6234,
+   "rarity": "Legendary",
+   "fame": 205554,
+   "facts": {
+    "elevation_m": 5452,
+    "prominence_m": 3020,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "Popocatépetl is an active stratovolcano located in the states of Puebla, Morelos, and Mexico in central Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Popocatépetl",
+    "url": "https://en.wikipedia.org/wiki/Popocat%C3%A9petl",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q181157.webp",
+    "author": "Jakub Hejtmánek",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Mexico-Popocatepetl.jpg"
+   }
+  },
+  {
+   "id": "gn:3991328",
+   "name": "Puerto Vallarta",
+   "label": "Puerto Vallarta",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.617,
+   "lon": -105.2302,
+   "rarity": "Legendary",
+   "fame": 282648,
+   "facts": {
+    "population": 224166,
+    "elevation_m": 21,
+    "area_km2": 52,
+    "temp_c": 23.3
+   },
+   "flavour": {
+    "text": "Puerto Vallarta is a Mexican resort city on Bahía de Banderas of the Pacific coast of the Mexican state of Jalisco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Puerto Vallarta",
+    "url": "https://en.wikipedia.org/wiki/Puerto_Vallarta",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3991328.webp",
+    "author": "Microstar",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Collage_Puerto_Vallarta.jpg"
+   }
+  },
+  {
+   "id": "gn:3522210",
+   "name": "Pachuca de Soto",
+   "label": "Pachuca de Soto",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-HID",
+   "country": "MX",
+   "lat": 20.117,
+   "lon": -98.7333,
+   "rarity": "Legendary",
+   "fame": 95520,
+   "facts": {
+    "population": 256584,
+    "elevation_m": 2393,
+    "area_km2": 60,
+    "temp_c": 14.6
+   },
+   "flavour": {
+    "text": "Pachuca, formally known as Pachuca de Soto, is the capital and largest city of the east-central Mexican state of Hidalgo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Pachuca",
+    "url": "https://en.wikipedia.org/wiki/Pachuca",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3522210.webp",
+    "author": "Diego Delso",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reloj_Monumental,_Pachuca,_Hidalgo,_M%C3%A9xico,_2013-10-10,_DD_06.JPG"
+   }
+  },
+  {
+   "id": "gn:3533462",
+   "name": "Acapulco de Juárez",
+   "label": "Acapulco de Juárez",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GRO",
+   "country": "MX",
+   "lat": 16.8494,
+   "lon": -99.9089,
+   "rarity": "Legendary",
+   "fame": 252672,
+   "facts": {
+    "population": 658609,
+    "elevation_m": 16,
+    "area_km2": 1881,
+    "temp_c": 26.5
+   },
+   "flavour": {
+    "text": "Acapulco de Juárez, commonly called Acapulco, is a city and major seaport in the state of Guerrero on the Pacific coast of Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Acapulco",
+    "url": "https://en.wikipedia.org/wiki/Acapulco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3533462.webp",
+    "author": "Mitrush (montage)",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Acapulco_Collage_2013.jpg"
+   }
+  },
+  {
+   "id": "gn:3979770",
+   "name": "Zapopan",
+   "label": "Zapopan",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.7211,
+   "lon": -103.3874,
+   "rarity": "Legendary",
+   "fame": 183054,
+   "facts": {
+    "population": 1476491,
+    "elevation_m": 1565,
+    "area_km2": 200,
+    "temp_c": 20.3
+   },
+   "flavour": {
+    "text": "It is part of the Guadalajara Metropolitan Area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Zapopan",
+    "url": "https://en.wikipedia.org/wiki/Zapopan",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3979770.webp",
+    "author": "Another Believer",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zapopan,_Jalisco,_Mexico,_2021_-_012.jpg"
+   }
+  },
+  {
+   "id": "gn:3996069",
+   "name": "Mexicali",
+   "label": "Mexicali",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-BCN",
+   "country": "MX",
+   "lat": 32.6278,
+   "lon": -115.4545,
+   "rarity": "Legendary",
+   "fame": 197880,
+   "facts": {
+    "population": 1032686,
+    "elevation_m": 4.0,
+    "area_km2": 114,
+    "temp_c": 22.9
+   },
+   "flavour": {
+    "text": "Mexicali is the capital city of the Mexican state of Baja California.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Mexicali",
+    "url": "https://en.wikipedia.org/wiki/Mexicali",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3996069.webp",
+    "author": "el.mariano, Hlecuanda, El bart089, Usfirstgov",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MexicaliMontage.jpg"
+   }
+  },
+  {
+   "id": "gn:3992619",
+   "name": "Piedras Negras",
+   "label": "Piedras Negras",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-COA",
+   "country": "MX",
+   "lat": 28.7001,
+   "lon": -100.5235,
+   "rarity": "Legendary",
+   "fame": 86952,
+   "facts": {
+    "population": 150178,
+    "elevation_m": 223,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "Piedras Negras is a city and seat of the surrounding municipality of the same name in the Mexican state of Coahuila.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Piedras Negras, Coahuila",
+    "url": "https://en.wikipedia.org/wiki/Piedras_Negras%2C_Coahuila",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3992619.webp",
+    "author": "MikSed",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stella_nombre_Piedras_Negras,_Coahuila.jpg"
+   }
+  },
+  {
+   "id": "gn:3985344",
+   "name": "San Miguel de Allende",
+   "label": "San Miguel de Allende",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 20.9153,
+   "lon": -100.7439,
+   "rarity": "Legendary",
+   "fame": 226896,
+   "facts": {
+    "population": 174615,
+    "elevation_m": 1917,
+    "area_km2": 0.4,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "San Miguel de Allende is the principal city in the municipality of San Miguel de Allende, located in the far eastern part of Guanajuato, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Miguel de Allende",
+    "url": "https://en.wikipedia.org/wiki/San_Miguel_de_Allende",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3985344.webp",
+    "author": "https://www.flickr.com/photos/jiuguangw/",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Miguel_de_Allende_sky.jpg"
+   }
+  },
+  {
+   "id": "gn:4005270",
+   "name": "Guanajuato",
+   "label": "Guanajuato",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 21.0186,
+   "lon": -101.2591,
+   "rarity": "Legendary",
+   "fame": 94656,
+   "facts": {
+    "population": 72237,
+    "elevation_m": 2010,
+    "area_km2": 997,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "Several of its thoroughfares run partially or entirely underground.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Guanajuato (city)",
+    "url": "https://en.wikipedia.org/wiki/Guanajuato_%28city%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4005270.webp",
+    "author": "Anders Lagerås",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guanajuato30_guanajuato.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1324311",
+   "name": "El Meco",
+   "label": "El Meco",
+   "type": "built",
+   "kind": "Maya site in Mexico",
+   "region": "MX-ROO",
+   "country": "MX",
+   "lat": 21.2108,
+   "lon": -86.8042,
+   "rarity": "Rare",
+   "fame": 3960,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 26.1
+   },
+   "flavour": {
+    "text": "El Meco, anciently known as Beel'maan, is an archaeological Maya site located on the Caribbean coast of northern Quintana Roo, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Meco",
+    "url": "https://en.wikipedia.org/wiki/El_Meco",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1324311.webp",
+    "author": "Kirt Edblom from Albany, Oregon, United States",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Meco_Site_Cancun,_Mexico_(8950893633).jpg"
+   }
+  },
+  {
+   "id": "wd:Q28074882",
+   "name": "Puente Plateado",
+   "label": "Puente Plateado",
+   "type": "built",
+   "kind": "bridge",
+   "region": "MX-COA",
+   "country": "MX",
+   "lat": 25.546,
+   "lon": -103.4699,
+   "rarity": "Rare",
+   "fame": 600,
+   "facts": {
+    "elevation_m": 1126,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "A bridge in Coahuila.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q28074882.webp",
+    "author": "Gera vzqz92",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puente_plateado.JPG"
+   }
+  },
+  {
+   "id": "wd:Q6875750",
+   "name": "Misión Santo Tomás de Aquino",
+   "label": "Misión Santo Tomás de Aquino",
+   "type": "built",
+   "kind": "church building",
+   "region": "MX-BCN",
+   "country": "MX",
+   "lat": 31.5583,
+   "lon": -116.4139,
+   "rarity": "Rare",
+   "fame": 1230,
+   "facts": {
+    "elevation_m": 154,
+    "temp_c": 16.7
+   },
+   "flavour": {
+    "text": "Mission Santo Tomás de Aquino was founded in what is now Baja California on April 24, 1791 by the Dominican missionary José Loriente.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Misión Santo Tomás de Aquino",
+    "url": "https://en.wikipedia.org/wiki/Misi%C3%B3n_Santo_Tom%C3%A1s_de_Aquino",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q6875750.webp"
+   }
+  },
+  {
+   "id": "wd:Q21010040",
+   "name": "Hacienda Chichén",
+   "label": "Hacienda Chichén",
+   "type": "built",
+   "kind": "hotel",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 20.67,
+   "lon": -88.57,
+   "rarity": "Rare",
+   "fame": 1716,
+   "facts": {
+    "elevation_m": 35,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Hacienda Chichén is located within the ancient Maya city of Chichen Itza, in the county of Tinum, Yucatán, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hacienda Chichén",
+    "url": "https://en.wikipedia.org/wiki/Hacienda_Chich%C3%A9n",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q21010040.webp",
+    "author": "Gary Minnaert from Los Angeles, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:YucatanHoneymoon_170_(373764934).jpg"
+   }
+  },
+  {
+   "id": "wd:Q123720938",
+   "name": "Cathedral of Saint Joseph in Coatzacoalcos",
+   "label": "Cathedral of Saint Joseph in Coatzacoalcos",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 18.1463,
+   "lon": -94.416,
+   "rarity": "Rare",
+   "fame": 480,
+   "facts": {
+    "elevation_m": 12,
+    "temp_c": 26.0
+   },
+   "flavour": {
+    "text": "A Catholic cathedral in Veracruz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q123720938.webp",
+    "author": "Isaacvp",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_San_Jos%C3%A9,_Coatzacoalcos,_Veracruz_10.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5400226",
+   "name": "Estadio Gaspar Mass",
+   "label": "Estadio Gaspar Mass",
+   "type": "built",
+   "kind": "sports venue",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.7278,
+   "lon": -100.3133,
+   "rarity": "Rare",
+   "fame": 2316,
+   "facts": {
+    "elevation_m": 517,
+    "temp_c": 22.4
+   },
+   "flavour": {
+    "text": "Estadio Gaspar Mass is an artificial turf stadium in San Nicolás de los Garza, Mexico, a city in the Monterrey metropolitan area.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio Gaspar Mass",
+    "url": "https://en.wikipedia.org/wiki/Estadio_Gaspar_Mass",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5400226.webp"
+   }
+  },
+  {
+   "id": "wd:Q5552229",
+   "name": "Oaxaca México Temple",
+   "label": "Oaxaca México Temple",
+   "type": "built",
+   "kind": "temple",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 17.0416,
+   "lon": -96.7135,
+   "rarity": "Rare",
+   "fame": 1050,
+   "facts": {
+    "elevation_m": 1530,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "The Oaxaca Mexico Temple is the 74th operating temple of the Church of Jesus Christ of Latter-day Saints.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Oaxaca Mexico Temple",
+    "url": "https://en.wikipedia.org/wiki/Oaxaca_Mexico_Temple",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5552229.webp",
+    "author": "Henok Montoya",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oaxaca_Temple_by_Henok_Montoya.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5743365",
+   "name": "Heroica Escuela Naval Militar",
+   "label": "Heroica Escuela Naval Militar",
+   "type": "built",
+   "kind": "naval academy",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 19.0584,
+   "lon": -95.9835,
+   "rarity": "Rare",
+   "fame": 6606,
+   "facts": {
+    "elevation_m": 5.0,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "The Heroica Escuela Naval Militar is the officer training academy of the Mexican Navy.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Heroica Escuela Naval Militar",
+    "url": "https://en.wikipedia.org/wiki/Heroica_Escuela_Naval_Militar",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5743365.webp",
+    "author": "KABAYEK",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HEROICA_ESCUELA_NAVAL_MILITAR_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "wd:Q8187803",
+   "name": "Acueducto de Guadalupe",
+   "label": "Acueducto de Guadalupe",
+   "type": "built",
+   "kind": "aqueduct",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4933,
+   "lon": -99.115,
+   "rarity": "Rare",
+   "fame": 2898,
+   "facts": {
+    "elevation_m": 2241,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "An aqueduct in Mexico.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q8187803.webp",
+    "author": "Dge",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Acueducto_de_Guadalupe_02.JPG"
+   }
+  },
+  {
+   "id": "wd:Q16490490",
+   "name": "Castillo de Santa Cecilia",
+   "label": "Castillo de Santa Cecilia",
+   "type": "built",
+   "kind": "castle",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 21.03,
+   "lon": -101.2589,
+   "rarity": "Rare",
+   "fame": 654,
+   "facts": {
+    "elevation_m": 2082,
+    "temp_c": 15.3
+   },
+   "flavour": {
+    "text": "A castle in Guanajuato.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16490490.webp",
+    "author": "AlejandroLinaresGarcia",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CastillaSantaCecelia.JPG"
+   }
+  },
+  {
+   "id": "wd:Q951547",
+   "name": "Estadio de Béisbol Francisco I. Madero",
+   "label": "Estadio de Béisbol Francisco I. Madero",
+   "type": "built",
+   "kind": "stadium",
+   "region": "MX-COA",
+   "country": "MX",
+   "lat": 25.4337,
+   "lon": -100.9788,
+   "rarity": "Rare",
+   "fame": 4782,
+   "facts": {
+    "elevation_m": 1554,
+    "temp_c": 16.6
+   },
+   "flavour": {
+    "text": "It is primarily used for baseball and is the home field of the Saraperos de Saltillo.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Estadio de Béisbol Francisco I. Madero",
+    "url": "https://en.wikipedia.org/wiki/Estadio_de_B%C3%A9isbol_Francisco_I._Madero",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q951547.webp",
+    "author": "Mtn.riveraa",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parquemadero.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1133169",
+   "name": "Texcotzingo",
+   "label": "Texcotzingo",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.4971,
+   "lon": -98.8183,
+   "rarity": "Rare",
+   "fame": 4602,
+   "facts": {
+    "elevation_m": 2548,
+    "temp_c": 11.4
+   },
+   "flavour": {
+    "text": "Texcotzingo is claimed to be one of the first extant botanical gardens in the world, along with Moctezuma's gardens in Huastepec.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Texcotzingo",
+    "url": "https://en.wikipedia.org/wiki/Texcotzingo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1133169.webp",
+    "author": "Nq04 at English Wikipedia",
+    "licence": "CC BY 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:05-12-MX_Tetz_Ba%C3%B1o_Rey.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1080344",
+   "name": "Sierra de los Tuxtlas",
+   "label": "Sierra de los Tuxtlas",
+   "type": "nature",
+   "kind": "mountain range",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 18.45,
+   "lon": -94.95,
+   "rarity": "Rare",
+   "fame": 3960,
+   "facts": {
+    "elevation_m": 1731,
+    "temp_c": 23.1
+   },
+   "flavour": {
+    "text": "The Sierra de Los Tuxtlas are a volcanic belt and mountain range along the southeastern Veracruz Gulf coast in Eastern Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sierra de los Tuxtlas",
+    "url": "https://en.wikipedia.org/wiki/Sierra_de_los_Tuxtlas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1080344.webp",
+    "author": "Dongringo at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:San_martin1.jpg"
+   }
+  },
+  {
+   "id": "wd:Q27823094",
+   "name": "Cerro de Chipinque",
+   "label": "Cerro de Chipinque",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.6133,
+   "lon": -100.3519,
+   "rarity": "Rare",
+   "fame": 8886,
+   "facts": {
+    "elevation_m": 1145,
+    "temp_c": 18.8
+   },
+   "flavour": {
+    "text": "The Cerro de Chipinque is a mountain in the San Pedro Garza García, Monterrey and Santa Catarina municipalities; state of Nuevo León, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro de Chipinque",
+    "url": "https://en.wikipedia.org/wiki/Cerro_de_Chipinque",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q27823094.webp",
+    "author": "Valdezlopez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:La_m.JPG"
+   }
+  },
+  {
+   "id": "wd:Q3242376",
+   "name": "El Jorullo",
+   "label": "El Jorullo",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-MIC",
+   "country": "MX",
+   "lat": 18.972,
+   "lon": -101.718,
+   "rarity": "Rare",
+   "fame": 4302,
+   "facts": {
+    "elevation_m": 1330,
+    "temp_c": 24.0
+   },
+   "flavour": {
+    "text": "El Jorullo is a cinder cone volcano in Michoacán, central Mexico, on the southwest slope of the central plateau.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "El Jorullo",
+    "url": "https://en.wikipedia.org/wiki/El_Jorullo",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3242376.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Jorullo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5065013",
+   "name": "Cerro de las Mitras",
+   "label": "Cerro de las Mitras",
+   "type": "nature",
+   "kind": "mountain",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.7184,
+   "lon": -100.436,
+   "rarity": "Rare",
+   "fame": 10212,
+   "facts": {
+    "elevation_m": 1849,
+    "prominence_m": 1303,
+    "temp_c": 21.4
+   },
+   "flavour": {
+    "text": "The Cerro de las Mitras, is a mountain and a protected area in the Monterrey, San Pedro Garza García, Santa Catarina and García municipalities.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro de las Mitras",
+    "url": "https://en.wikipedia.org/wiki/Cerro_de_las_Mitras",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5065013.webp",
+    "author": "Aldo Dávalos",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro-mitras-desde-nido-aguiluchos.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2302661",
+   "name": "Río Grande de Santiago",
+   "label": "Río Grande de Santiago",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.3175,
+   "lon": -102.7911,
+   "rarity": "Rare",
+   "fame": 12192,
+   "facts": {
+    "elevation_m": 1523,
+    "length_km": 433,
+    "temp_c": 19.9
+   },
+   "flavour": {
+    "text": "It flows westwards from Lake Chapala via Ocotlán through the states of Jalisco and Nayarit to empty into the Pacific Ocean.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Río Grande de Santiago",
+    "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande_de_Santiago",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2302661.webp",
+    "author": "https://www.flickr.com/photos/cfrausto/",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_Santiago.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1889886",
+   "name": "Yaqui River",
+   "label": "Yaqui River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 27.6673,
+   "lon": -110.612,
+   "rarity": "Rare",
+   "fame": 10008,
+   "facts": {
+    "elevation_m": 0.0,
+    "length_km": 680,
+    "temp_c": 24.6
+   },
+   "flavour": {
+    "text": "It was formerly known as the Rio del Norte.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Yaqui River",
+    "url": "https://en.wikipedia.org/wiki/Yaqui_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1889886.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Ovi%C3%A1chic.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1317381",
+   "name": "Isla Ángel de la Guarda",
+   "label": "Isla Ángel de la Guarda",
+   "type": "nature",
+   "kind": "island",
+   "region": "MX-BCN",
+   "country": "MX",
+   "lat": 29.26,
+   "lon": -113.3703,
+   "rarity": "Rare",
+   "fame": 13944,
+   "facts": {
+    "elevation_m": 262,
+    "area_km2": 945,
+    "length_km": 69,
+    "temp_c": 21.0
+   },
+   "flavour": {
+    "text": "Isla Ángel de la Guarda, also called Archangel Island, is a large uninhabited island in the Gulf of California east of Bahía de los Ángeles in northwestern…",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Isla Ángel de la Guarda",
+    "url": "https://en.wikipedia.org/wiki/Isla_%C3%81ngel_de_la_Guarda",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1317381.webp",
+    "author": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iles_de_Basse-Californie_Nord.jpg"
+   }
+  },
+  {
+   "id": "wd:Q35252599",
+   "name": "Río Santa Catarina",
+   "label": "Río Santa Catarina",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-NLE",
+   "country": "MX",
+   "lat": 25.5289,
+   "lon": -99.9008,
+   "rarity": "Rare",
+   "fame": 6792,
+   "facts": {
+    "elevation_m": 277,
+    "temp_c": 22.5
+   },
+   "flavour": {
+    "text": "The Santa Catarina River is a river and a State Protected Natural Area in Nuevo León, Mexico; a tributary of the San Juan River and the Rio Grande.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Santa Catarina River (Mexico)",
+    "url": "https://en.wikipedia.org/wiki/Santa_Catarina_River_%28Mexico%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q35252599.webp",
+    "author": "Aldo Dávalos",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rio_santa_catarina_la_huasteca.jpg"
+   }
+  },
+  {
+   "id": "wd:Q2179140",
+   "name": "Moctezuma River",
+   "label": "Moctezuma River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 21.9675,
+   "lon": -98.5631,
+   "rarity": "Rare",
+   "fame": 4452,
+   "facts": {
+    "elevation_m": 6.0,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "It is a tributary of the Pánuco River and flows through the Mexican states of Hidalgo, Querétaro, and San Luis Potosí.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Moctezuma River",
+    "url": "https://en.wikipedia.org/wiki/Moctezuma_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2179140.webp",
+    "author": "Marco Roura",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xajha-170121-203.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5763373",
+   "name": "La Campana Hill",
+   "label": "La Campana Hill",
+   "type": "nature",
+   "kind": "hill",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 29.0733,
+   "lon": -110.9507,
+   "rarity": "Rare",
+   "fame": 3576,
+   "facts": {
+    "elevation_m": 327,
+    "temp_c": 23.1
+   },
+   "flavour": {
+    "text": "This place is an excellent viewpoint for tourists, because from the rocky hilltop you can see an almost complete panoramic view of the City of the Sun.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cerro de la Campana",
+    "url": "https://en.wikipedia.org/wiki/Cerro_de_la_Campana",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5763373.webp",
+    "author": "Metamario",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cerro_de_la_Campana_HMO.jpg"
+   }
+  },
+  {
+   "id": "wd:Q3699213",
+   "name": "Cuexcomate",
+   "label": "Cuexcomate",
+   "type": "nature",
+   "kind": "hill",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.0706,
+   "lon": -98.2353,
+   "rarity": "Rare",
+   "fame": 19812,
+   "facts": {
+    "elevation_m": 13,
+    "temp_c": 16.7
+   },
+   "flavour": {
+    "text": "The sinter cone that the geyser built up around its vent is 13 metres tall and has a diameter of 23 metres.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cuexcomate",
+    "url": "https://en.wikipedia.org/wiki/Cuexcomate",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q3699213.webp",
+    "author": "Poromiami",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuexcomate_Completo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1534710",
+   "name": "Sonora River",
+   "label": "Sonora River",
+   "type": "nature",
+   "kind": "river",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 28.8532,
+   "lon": -111.9908,
+   "rarity": "Rare",
+   "fame": 5316,
+   "facts": {
+    "elevation_m": 0.0,
+    "area_km2": 28950,
+    "length_km": 402,
+    "temp_c": 21.7
+   },
+   "flavour": {
+    "text": "It lies on the Pacific slope of the Mexican state of Sonora and it runs into the Gulf of California.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Sonora River",
+    "url": "https://en.wikipedia.org/wiki/Sonora_River",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q1534710.webp"
+   }
+  },
+  {
+   "id": "gn:3516048",
+   "name": "Temax",
+   "label": "Temax",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 21.1506,
+   "lon": -88.9394,
+   "rarity": "Rare",
+   "fame": 1320,
+   "facts": {
+    "population": 6239,
+    "elevation_m": 12,
+    "temp_c": 25.7
+   },
+   "flavour": {
+    "text": "As of 2010, the town has a population of 6,239.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Temax",
+    "url": "https://en.wikipedia.org/wiki/Temax",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3516048.webp",
+    "author": "Inri",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Temax,_Yucat%C3%A1n_(02).jpg"
+   }
+  },
+  {
+   "id": "gn:3518617",
+   "name": "San Juan Tepa",
+   "label": "San Juan Tepa",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-HID",
+   "country": "MX",
+   "lat": 20.2158,
+   "lon": -99.0655,
+   "rarity": "Rare",
+   "fame": 852,
+   "facts": {
+    "population": 5932,
+    "elevation_m": 2018,
+    "temp_c": 16.3
+   },
+   "flavour": {
+    "text": "A community of 5,932 people in Hidalgo.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3518617.webp"
+   }
+  },
+  {
+   "id": "gn:4004394",
+   "name": "Indaparapeo",
+   "label": "Indaparapeo",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MIC",
+   "country": "MX",
+   "lat": 19.7897,
+   "lon": -100.9685,
+   "rarity": "Rare",
+   "fame": 1776,
+   "facts": {
+    "population": 6791,
+    "elevation_m": 1904,
+    "temp_c": 15.8
+   },
+   "flavour": {
+    "text": "A community of 6,791 people in Michoacán.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4004394.webp",
+    "author": "KevinJIK",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Indaparapeo.jpg"
+   }
+  },
+  {
+   "id": "gn:3532639",
+   "name": "Atempan",
+   "label": "Atempan",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 19.8394,
+   "lon": -97.4586,
+   "rarity": "Rare",
+   "fame": 684,
+   "facts": {
+    "population": 6457,
+    "elevation_m": 1960,
+    "temp_c": 17.8
+   },
+   "flavour": {
+    "text": "A community of 6,457 people in Puebla.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3532639.webp",
+    "author": "Ehécatl Cabrera",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vendedor_de_verduras.jpg"
+   }
+  },
+  {
+   "id": "gn:3523414",
+   "name": "Mazatepec",
+   "label": "Mazatepec (Puebla)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-PUE",
+   "country": "MX",
+   "lat": 20.017,
+   "lon": -97.4189,
+   "rarity": "Rare",
+   "fame": 786,
+   "facts": {
+    "population": 1587,
+    "elevation_m": 645,
+    "temp_c": 22.5
+   },
+   "flavour": {
+    "text": "A community of 1,587 people in Puebla.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3523414.webp",
+    "author": "Saúl Muñoz Viveros",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mazatepec_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3994182",
+   "name": "Onavas",
+   "label": "Onavas",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 28.4609,
+   "lon": -109.5286,
+   "rarity": "Rare",
+   "fame": 1608,
+   "facts": {
+    "population": 361,
+    "elevation_m": 188,
+    "temp_c": 24.3
+   },
+   "flavour": {
+    "text": "Ónavas is a small town surrounded by Onavas Municipality in the southeast of the Mexican state of Sonora.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ónavas",
+    "url": "https://en.wikipedia.org/wiki/%C3%93navas",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3994182.webp",
+    "author": "Gildardo Quijada flo…",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IGLESIA_DE_ONAVAS_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "gn:3515188",
+   "name": "Totontepec Villa de Morelos",
+   "label": "Totontepec Villa de Morelos",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 17.2568,
+   "lon": -96.0276,
+   "rarity": "Rare",
+   "fame": 666,
+   "facts": {
+    "population": 1684,
+    "elevation_m": 1843,
+    "area_km2": 319,
+    "temp_c": 17.2
+   },
+   "flavour": {
+    "text": "A community of 1,684 people in Oaxaca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3515188.webp",
+    "author": "Rod.romz",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_de_Totontepec_Villa_de_Morelos.jpg"
+   }
+  },
+  {
+   "id": "gn:3974602",
+   "name": "San Rafael",
+   "label": "San Rafael (Chihuahua)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-CHH",
+   "country": "MX",
+   "lat": 27.4893,
+   "lon": -107.8897,
+   "rarity": "Rare",
+   "fame": 936,
+   "facts": {
+    "population": 2160,
+    "elevation_m": 2282,
+    "temp_c": 16.5
+   },
+   "flavour": {
+    "text": "A community of 2,160 people in Chihuahua.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3974602.webp",
+    "author": "MikSed",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:San_Rafael,_Chihuahua.jpg"
+   }
+  },
+  {
+   "id": "gn:4022970",
+   "name": "Victoria",
+   "label": "Victoria",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-GUA",
+   "country": "MX",
+   "lat": 21.2119,
+   "lon": -100.2165,
+   "rarity": "Rare",
+   "fame": 2046,
+   "facts": {
+    "population": 2564,
+    "elevation_m": 1722,
+    "temp_c": 17.7
+   },
+   "flavour": {
+    "text": "Victoria is a Mexican city located in the Northeast region of the state of Guanajuato, within the Sierra Gorda range.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Victoria, Guanajuato",
+    "url": "https://en.wikipedia.org/wiki/Victoria%2C_Guanajuato",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4022970.webp",
+    "author": "Juan Carlos Fonseca Mata",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_San_Juan_Bautista_-_Victoria,_Guanajuato.jpg"
+   }
+  },
+  {
+   "id": "gn:4014305",
+   "name": "Chilapa",
+   "label": "Chilapa",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-NAY",
+   "country": "MX",
+   "lat": 22.0323,
+   "lon": -105.2296,
+   "rarity": "Rare",
+   "fame": 1128,
+   "facts": {
+    "population": 1953,
+    "elevation_m": 17,
+    "temp_c": 26.2
+   },
+   "flavour": {
+    "text": "Chilapa is a settlement in the municipality of Rosamorada in the state of Nayarit, Mexico, 80 kilometres north of the city of Tepic.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Chilapa, Nayarit",
+    "url": "https://en.wikipedia.org/wiki/Chilapa%2C_Nayarit",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4014305.webp",
+    "author": "Vmgc2809",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CHILAPA,NAYARIT.jpg"
+   }
+  },
+  {
+   "id": "gn:4006532",
+   "name": "Esqueda",
+   "label": "Esqueda",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-SON",
+   "country": "MX",
+   "lat": 30.7275,
+   "lon": -109.5878,
+   "rarity": "Rare",
+   "fame": 2574,
+   "facts": {
+    "population": 6749,
+    "elevation_m": 1199,
+    "temp_c": 17.6
+   },
+   "flavour": {
+    "text": "A community of 6,749 people in Sonora.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_4006532.webp",
+    "author": "Francisco.martinezp",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cruz_Roja_Delegaci%C3%B3n_Esqueda_Sonora.jpg"
+   }
+  },
+  {
+   "id": "gn:3526928",
+   "name": "Hueypoxtla",
+   "label": "Hueypoxtla",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MEX",
+   "country": "MX",
+   "lat": 19.9109,
+   "lon": -99.0758,
+   "rarity": "Rare",
+   "fame": 4122,
+   "facts": {
+    "population": 3989,
+    "elevation_m": 2266,
+    "area_km2": 80,
+    "temp_c": 15.4
+   },
+   "flavour": {
+    "text": "It serves as the municipal seat of the surrounding municipality of the same name.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Hueypoxtla",
+    "url": "https://en.wikipedia.org/wiki/Hueypoxtla",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/gn_3526928.webp",
+    "author": "Jose Antonio Hernandez Quezada PJAHQ",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hueypoxtla_Campo_de_Beisbol_fotografia_Aerea_PJAHQ_(1).jpg"
+   }
+  },
+  {
+   "id": "gn:3816575",
+   "name": "Vicente Guerrero",
+   "label": "Vicente Guerrero (Chiapas, near Ricardo Flores Magón)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-CHP",
+   "country": "MX",
+   "lat": 16.4388,
+   "lon": -92.7124,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1997,
+    "elevation_m": 491,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 1,997 people in Chiapas.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3816575.webp"
+   }
+  },
+  {
+   "id": "gn:4029500",
+   "name": "Jesús María",
+   "label": "Jesús María (Querétaro)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-QUE",
+   "country": "MX",
+   "lat": 20.6222,
+   "lon": -100.2562,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2978,
+    "elevation_m": 1900,
+    "temp_c": 17.5
+   },
+   "flavour": {
+    "text": "A community of 2,978 people in Querétaro.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4029500.webp"
+   }
+  },
+  {
+   "id": "gn:8858606",
+   "name": "Loma Bonita",
+   "label": "Loma Bonita (Morelos)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-MOR",
+   "country": "MX",
+   "lat": 18.9314,
+   "lon": -99.1756,
+   "rarity": "Common",
+   "fame": 162,
+   "facts": {
+    "population": 2332,
+    "elevation_m": 1491,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "A community of 2,332 people in Morelos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8858606.webp"
+   }
+  },
+  {
+   "id": "gn:3518695",
+   "name": "San Juan del Río",
+   "label": "San Juan del Río (Oaxaca, near San Lorenzo Albarradas)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 16.8829,
+   "lon": -96.1607,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1231,
+    "elevation_m": 1200,
+    "temp_c": 18.4
+   },
+   "flavour": {
+    "text": "A community of 1,231 people in Oaxaca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3518695.webp"
+   }
+  },
+  {
+   "id": "gn:3985574",
+   "name": "San Marcos",
+   "label": "San Marcos (Jalisco, near Zapotitán de Hidalgo)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-JAL",
+   "country": "MX",
+   "lat": 20.319,
+   "lon": -103.5341,
+   "rarity": "Common",
+   "fame": 600,
+   "facts": {
+    "population": 1249,
+    "elevation_m": 1358,
+    "temp_c": 19.8
+   },
+   "flavour": {
+    "text": "A community of 1,249 people in Jalisco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3985574.webp"
+   }
+  },
+  {
+   "id": "gn:3815333",
+   "name": "Los Pilares",
+   "label": "Los Pilares (Tlaxcala)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TLA",
+   "country": "MX",
+   "lat": 19.2716,
+   "lon": -97.947,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1280,
+    "elevation_m": 2691,
+    "temp_c": 12.8
+   },
+   "flavour": {
+    "text": "A community of 1,280 people in Tlaxcala.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3815333.webp"
+   }
+  },
+  {
+   "id": "gn:3517220",
+   "name": "Santa María Petapa",
+   "label": "Santa María Petapa",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-OAX",
+   "country": "MX",
+   "lat": 16.8204,
+   "lon": -95.119,
+   "rarity": "Common",
+   "fame": 234,
+   "facts": {
+    "population": 2322,
+    "elevation_m": 245,
+    "temp_c": 25.2
+   },
+   "flavour": {
+    "text": "A community of 2,322 people in Oaxaca.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3517220.webp"
+   }
+  },
+  {
+   "id": "gn:8859798",
+   "name": "Álvaro Obregón 2da. Sección (El Lechugal)",
+   "label": "Álvaro Obregón 2da. Sección (El Lechugal)",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 18.3929,
+   "lon": -92.7912,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1059,
+    "elevation_m": 6.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 1,059 people in Tabasco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_8859798.webp"
+   }
+  },
+  {
+   "id": "gn:3825061",
+   "name": "Xoteapan",
+   "label": "Xoteapan",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-VER",
+   "country": "MX",
+   "lat": 18.4338,
+   "lon": -95.2656,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2033,
+    "elevation_m": 187,
+    "temp_c": 25.1
+   },
+   "flavour": {
+    "text": "A community of 2,033 people in Veracruz.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3825061.webp"
+   }
+  },
+  {
+   "id": "gn:3516509",
+   "name": "Soyataco",
+   "label": "Soyataco",
+   "type": "town",
+   "kind": "town",
+   "region": "MX-TAB",
+   "country": "MX",
+   "lat": 18.2097,
+   "lon": -93.0744,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4046,
+    "elevation_m": 9.0,
+    "temp_c": 26.4
+   },
+   "flavour": {
+    "text": "A community of 4,046 people in Tabasco.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_3516509.webp"
+   }
+  }
+ ]
+}

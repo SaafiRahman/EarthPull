@@ -217,7 +217,7 @@ def main():
     clean.to_parquet(d / "pool_clean.parquet")
 
     print(f"\nDropped {len(gone):,} of {len(df):,} -> {len(clean):,} cards in {(d / 'pool_clean.parquet').relative_to(ROOT).as_posix()}")
-    kinds = gone["reason"].str.extract(r"^(article redirects|Wikidata|hand fix|duplicate)")[0].fillna("category")
+    kinds = gone["reason"].astype(str).str.extract(r"^(article redirects|Wikidata|hand fix|duplicate)")[0].fillna("category")
     print("By check:", kinds.value_counts().to_dict(), "| by type:", gone["type"].value_counts().to_dict())
     top = gone.sort_values("fame", ascending=False).head(40)
     print("Most famous dropped:\n" + "\n".join(f"  {n} [{t}] {f / 1e3:.0f}k: {why}" for n, t, f, why
