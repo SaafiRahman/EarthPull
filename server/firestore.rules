@@ -1,0 +1,33 @@
+rules_version = '2';
+// Players only read. Every write (packs, serial counters, pulls, hometown) goes through Cloud Functions, which use
+// the Admin SDK and are not bound by these rules.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Your own pack stock and profile
+    match /pack_state/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+    // Your own pulls only (friends' maps come later, through a function that checks the friendship)
+    match /pulls/{pullId} {
+      allow read: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+    // How many copies of each numbered card exist is public ("#7 of 10 claimed")
+    // Who owns which copy stays private (serial documents carry the owner's uid); only functions read them
+    match /serials/{serialId} {
+      allow read, write: if false;
+    }
+    match /mintCounts/{cardId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -96,8 +96,12 @@ Started 2026-11-23, in parallel with the open Phase 0 name and domain tasks. Can
   - [x] (done 2026-11-26) First version built: Vite + React + TypeScript + Tailwind + MapLibre (OpenFreeMap dark tiles). Typechecks and builds; game logic tested on the real pool (odds match over 100,000 pulls, each Mythic pulled once, Legendary serials stay within /10, refills cap at 3, hometown card lands within 50 km). Run: `cd web && npm run dev`, open http://localhost:5173
   - [x] (done 2026-11-26) Automated playthrough with puppeteer-core driving the installed Chrome (`web/scripts/playthrough.mjs`, screenshots to `minimap-previews/playthrough/`). Found and fixed: flipped cards stayed face down (entrance animation overrode the flip), the MapLibre worker failed to load under Vite pre-bundling, last card oversized on phones, phone footer too tall. Now no console errors
   - [ ] Developer plays it and gives feedback; cards need a redesign (developer, 2026-11-26)
-  - [ ] Photo credits can be messy (Fort Knox: "Work permit Original author= Cliff"): clean the Commons author field in `images.py`
+  - [ ] (in progress 2026-11-26) Photo credits can be messy (Fort Knox: "Work permit Original author= Cliff"): clean the Commons author field in `images.py`
   - [ ] Statue of Liberty shows New Jersey (its point is in NJ waters): hand-fix regions for border landmarks
+
+- Plan while the developer is away (2026-11-26, design on hold until they're home): 1) data clean-up, 2) Phase 2 server logic against the Firebase emulator, 3) clean-machine pipeline test
+  - [x] (done 2026-11-26) Phase 2 server logic in `server/` (Cloud Functions `openPack`, `setHometown`; Firestore rules; tests on the emulator with `npm test` in `server/functions`). 10/10 tests pass: 500 simultaneous claims on a Legendary give serials 1-10 once, a Mythic claims once, 500 players opening packs at once get no duplicate serials, sold-out pools fill with Commons, 3-pack limit and refill, hometown card within 50 km, rules block reads of others' data and all client writes. Minting redesigned after the load test (see [[Architecture#Minting a numbered copy]])
+  - [ ] Hook the web demo up to the functions (sign-in, call `openPack`) once the developer creates the Firebase project
 
 **Gate to Phase 2 (updated 2026-11-24; all but the clean-machine run met 2026-11-26):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 

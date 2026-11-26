@@ -34,25 +34,25 @@ Everything that decides what a player pulled runs on the server.
 - Card thumbnails are copied into Firebase Storage rather than linked live from Wikimedia.
 - The world map is cached as pre-built tiles or an aggregated layer, refreshed every minute, instead of querying every pull live.
 
-## The minting transaction
-When two people pull the last copy at the same moment, only one may get it. This runs in a Firestore transaction inside a Cloud Function:
+## Minting a numbered copy
+When two people pull the last copy at the same moment, only one may get it. **Updated 2026-11-26** after a load test against the Firestore emulator (code in `server/functions/src/packs.ts`, tests in `server/functions/test/`).
+
+**Each copy is its own document, `serials/{cardId}_{n}`, claimed with `create()`.** Firestore lets exactly one `create()` of a document succeed, so a serial can never be handed out twice, and nobody waits on a lock. A claim that loses tries the next number, up to the cap; when every number up to the cap exists, the card is minted out and the slot re-rolls. `mintCounts/{cardId}.minted` is a running total, bumped with `FieldValue.increment(1)` after each successful claim, and tells the next claim where to start.
 
 ```typescript
-const serial = await db.runTransaction(async (tx) => {
-  const ref = db.doc(`mintCounts/${cardId}`);
-  const snap = await tx.get(ref);
-  const minted = snap.exists ? snap.data()!.minted : 0;
-  if (cap !== null && minted >= cap) return null; // minted out
-  tx.set(ref, { minted: minted + 1 }, { merge: true });
-  tx.create(db.collection("pulls").doc(), { uid, cardId, serial: minted + 1, at: FieldValue.serverTimestamp() });
-  return minted + 1;
-});
+const start = (await counter.get()).data()?.minted ?? 0
+for (let n = start + 1; n <= cap; n++) {
+  try { await db.doc(`serials/${card.id}_${n}`).create({ cardId: card.id, serial: n, uid }) }
+  catch (e) { if (e.code === ALREADY_EXISTS) continue; throw e }  // someone got n first
+  await counter.set({ minted: FieldValue.increment(1), cap }, { merge: true })
+  return n
+}
+return null  // minted out
 ```
 
-- If two players hit the same card at once, Firestore retries one transaction with fresh data, so serials never repeat.
-- A `null` result means the card just minted out, and the function re-rolls that slot.
-- One counter document per card can take only about one write per second, which is plenty for numbered cards. Commons have no serials, so they skip the counter entirely.
-- This is the main interview story (see [[Resume & Metrics]]).
+**Why not the original design** (one transaction that reads and bumps a counter per card): with 500 players claiming the same Legendary at once, transactions on that one document hit "lock timeout" and 60-second deadlines instead of queueing; retries with backoff didn't save it (the test ran 34 minutes and still failed). The document-per-serial version passes the same test, plus 500 players opening packs at once on the full pool, in about 24 seconds total. **This is the interview story** (see [[Resume & Metrics]]): the first design looked right on paper and failed under a load test; the fix moves uniqueness from a lock to document identity.
+
+Other server pieces: the pack stock (`pack_state/{uid}`) is taken in a per-player transaction (no contention between players); pulls are written in one batch; security rules let players read only their own state and pulls, everyone read `mintCounts`, and nobody write anything (all writes go through Cloud Functions with the Admin SDK). Serial documents stay private because they carry the owner's uid.
 
 ## Data flow
 1. The [[Data Pipeline]] builds the card pool and images offline and uploads them to Cloud Storage.
