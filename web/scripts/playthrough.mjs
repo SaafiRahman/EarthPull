@@ -28,7 +28,7 @@ const clickText = async (page, text, selector = 'button') => {
 // Tear the pack open: a real drag across the top strip, or a tap
 const tearPack = async (page, { swipe = false, shotName } = {}) => {
   const pack = await page.waitForSelector('.pack')
-  await sleep(500)
+  await sleep(1300) // the pack flies in and lands first
   if (shotName) await shot(page, shotName)
   const b = await pack.boundingBox()
   if (swipe) {
@@ -50,7 +50,7 @@ const tearPack = async (page, { swipe = false, shotName } = {}) => {
   } else {
     await pack.click()
   }
-  await sleep(2600)
+  await sleep(3500)
 }
 
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ['--hide-scrollbars'] })

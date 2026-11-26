@@ -1,6 +1,7 @@
 // The booster pack (pack opening, step a, 2026-11-26): a sealed foil pack in the leather-and-gold theme with
 // crimped edges, a gold dot map drawn from the card pool's real places, and the compass pin. Swipe across the top
 // to tear it open, or tap it (it tears itself). The pulls are already decided when the pack appears, like TCG Pocket.
+import gsap from 'gsap'
 import { useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent } from 'react'
 import { CompassPin } from './CardBack'
 import type { Pool } from './data'
@@ -117,8 +118,9 @@ function PackArt({ pool, kind, id }: { pool: Pool; kind: Kind; id: string }) {
 }
 
 /**
- * The pack, ready to tear. Calls `onOpened` once the strip has flown off. The strip and the body are the same art
- * clipped at the tear line, so the rip lines up exactly.
+ * The pack, ready to tear. Build-up while tearing (the pack trembles harder, light leaks from the cut, a hum rises),
+ * then a squeeze and a pop: the pack pinches in for a split second and bursts, and `onTorn` fires on the pop. The
+ * strip and the body are the same art clipped at the tear line, so the rip lines up exactly.
  */
 export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kind; onTorn: () => void }) {
   const id = useId().replace(/:/g, '')
@@ -126,22 +128,35 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
   const drag = useRef<{ x: number; y: number; moved: boolean; lastCrinkle: number } | null>(null)
   const [progress, setProgress] = useState(0)
   const [torn, setTorn] = useState(false)
+  const locked = useRef(false) // the tear is complete: no more dragging
 
   const tear = () => {
-    if (torn) return
+    if (locked.current) return
+    locked.current = true
     setProgress(1)
-    setTorn(true)
-    sfx.rip()
-    onTorn()
+    sfx.humStop()
+    const el = box.current
+    const burst = () => { setTorn(true); sfx.rip(); sfx.pop(); onTorn() }
+    if (!el || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { burst(); return }
+    delete el.dataset.straining
+    // Squeeze, then pop
+    gsap.timeline()
+      .to(el, { scaleX: 0.9, scaleY: 0.95, duration: 0.14, ease: 'power2.in' })
+      .add(burst)
+      .to(el, { scaleX: 1.07, scaleY: 1.05, duration: 0.08, ease: 'power2.out' })
+      .to(el, { scaleX: 1, scaleY: 1, duration: 0.5, ease: 'elastic.out(1, 0.45)' })
   }
   const autoTear = () => {
-    if (torn) return
+    if (locked.current) return
     sfx.unlock()
+    if (box.current) box.current.dataset.straining = '1'
     const start = performance.now()
     const step = (now: number) => {
-      const p = Math.min(1, (now - start) / 320)
-      setProgress(p)
-      if (Math.random() < 0.5) sfx.crinkle()
+      const p = Math.min(1, (now - start) / 520)
+      const eased = p * p // slow start, then faster: a build-up even for a tap
+      setProgress(eased)
+      sfx.hum(eased)
+      if (Math.random() < 0.4) sfx.crinkle()
       if (p < 1) requestAnimationFrame(step); else tear()
     }
     requestAnimationFrame(step)
@@ -156,6 +171,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
     sfx.unlock()
     e.currentTarget.setPointerCapture(e.pointerId)
     drag.current = { ...rel(e), moved: false, lastCrinkle: 0 }
+    if (box.current) box.current.dataset.straining = '1'
   }
   const move = (e: PointerEvent<HTMLDivElement>) => {
     const p = rel(e)
@@ -174,6 +190,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
     if (!d.moved) return
     const prog = Math.max(0, Math.min(1, p.x))
     setProgress((cur) => Math.max(cur, prog))
+    sfx.hum(Math.max(progress, prog))
     const now = performance.now()
     if (now - d.lastCrinkle > 45) { sfx.crinkle(); d.lastCrinkle = now }
     if (prog > 0.92) { drag.current = null; tear() }
@@ -181,10 +198,12 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
   const up = () => {
     const d = drag.current
     drag.current = null
-    if (!d || torn) return
-    if (!d.moved) autoTear()
-    else if (progress > 0.6) tear()
-    else setProgress(0)
+    if (!d || locked.current) return
+    if (!d.moved) { autoTear(); return }
+    if (progress > 0.6) { tear(); return }
+    sfx.humStop()
+    if (box.current) delete box.current.dataset.straining
+    setProgress(0)
   }
 
   const leave = () => {
@@ -209,11 +228,13 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
         <div className="pack-glow" />
         <div className="pack-floor" />
         <div className="pack-float absolute inset-0">
+        <div className="pack-shake absolute inset-0">
         <div className="pack-tilt absolute inset-0">
           <svg viewBox={`0 0 ${W} ${H}`} className="pack-body absolute inset-0 h-full w-full" aria-hidden><PackArt pool={pool} kind={kind} id={`b${id}`} /></svg>
           <svg viewBox={`0 0 ${W} ${H}`} className="pack-strip absolute inset-0 h-full w-full" aria-hidden><PackArt pool={pool} kind={kind} id={`s${id}`} /></svg>
           <div className="pack-sheen pointer-events-none absolute inset-0" />
           <div className="pack-spec pointer-events-none absolute inset-0" />
+          <div className="pack-leak pointer-events-none absolute inset-x-0" />
           <div className="pack-cut pointer-events-none absolute left-0 h-[3px]" />
           {torn ? BITS.map((b, i) => (
             <span key={i} className="pack-bit" style={{
@@ -221,6 +242,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
               background: b.gold ? '#f3d27e' : '#ffffff', '--dx': `${b.dx}px`, '--dy': `${b.dy}px`, '--rot': `${b.rot}deg`,
             } as CSSProperties} />
           )) : null}
+        </div>
         </div>
         </div>
         {torn ? <div className="pack-flash pointer-events-none" /> : null}

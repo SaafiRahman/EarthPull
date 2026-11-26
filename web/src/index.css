@@ -122,6 +122,21 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   100% { transform: translate(190px, -170px) rotate(-70deg); opacity: 0; }
 }
 .pack-torn .pack-cut { opacity: 0; transition: opacity .2s; }
+/* Build-up: the pack trembles harder as the cut gets further, and light leaks out of the cut */
+.pack[data-straining] .pack-shake { animation: pack-shake .07s linear infinite; }
+@keyframes pack-shake {
+  0% { transform: translate(calc(var(--prog) * 1.6px), 0) rotate(calc(var(--prog) * .35deg)); }
+  25% { transform: translate(calc(var(--prog) * -1.4px), calc(var(--prog) * 1px)); }
+  50% { transform: translate(calc(var(--prog) * 1.2px), calc(var(--prog) * -1px)) rotate(calc(var(--prog) * -.35deg)); }
+  75% { transform: translate(calc(var(--prog) * -1.6px), calc(var(--prog) * .5px)); }
+  100% { transform: translate(calc(var(--prog) * 1.6px), 0) rotate(calc(var(--prog) * .35deg)); }
+}
+.pack-leak {
+  top: var(--cut); height: 70px; margin-top: -35px;
+  background: radial-gradient(ellipse 60% 50% at calc(var(--prog) * 50%) 50%, rgba(255,236,180,.75), rgba(226,184,90,.25) 45%, transparent 70%);
+  opacity: calc(var(--prog) * .9); mix-blend-mode: screen;
+}
+.pack-torn .pack-leak { opacity: 0; transition: opacity .3s; }
 /* Once torn, the foil light covers only what is left of the pack, not the cards coming out of it */
 .pack-torn .pack-sheen, .pack-torn .pack-spec { clip-path: inset(var(--cut) 0 5.7% 0); }
 .pack-bit {

@@ -47,7 +47,7 @@ try {
   await clickText(page, 'Open a pack')
   // The pack floats in; swipe across its top like a player would
   const pack = await page.waitForSelector('.pack')
-  await sleep(1400)
+  await sleep(1600)
   const b = await pack.boundingBox()
   const y = b.y + b.height * 0.11
   await page.mouse.move(b.x + 4, y)
@@ -57,7 +57,7 @@ try {
     await sleep(22)
   }
   await page.mouse.up()
-  await sleep(2000)
+  await sleep(3200)
   const cards = await page.$$('button.flip')
   for (let i = 0; i < cards.length; i++) {
     await cards[i].click()

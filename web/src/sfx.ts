@@ -68,9 +68,59 @@ function bell(freq: number, at: number, dur: number, vol: number, type: Oscillat
   }
 }
 
+/** A short low thump (the pack landing, the burst). */
+function thump(f0: number, f1: number, dur: number, vol: number, at = 0) {
+  const a = audio(); if (!a) return
+  const t = a.ctx.currentTime + at
+  const o = a.ctx.createOscillator(), g = a.ctx.createGain()
+  o.type = 'sine'
+  o.frequency.setValueAtTime(f0, t); o.frequency.exponentialRampToValueAtTime(f1, t + dur)
+  g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol, t + 0.008); g.gain.exponentialRampToValueAtTime(0.0001, t + dur)
+  o.connect(g).connect(a.out)
+  o.start(t); o.stop(t + dur + 0.05)
+}
+
+// Rising hum while the pack is being torn: two detuned saws through a low-pass filter that opens with progress
+let hum: { oscs: OscillatorNode[]; filter: BiquadFilterNode; gain: GainNode } | null = null
+
 export const sfx = {
   /** Unlock audio on the first tap so later sounds play on time. */
   unlock() { audio() },
+  /** Start or update the build-up hum; `p` is tear progress, 0 to 1. */
+  hum(p: number) {
+    const a = audio(); if (!a) return
+    const t = a.ctx.currentTime
+    if (!hum) {
+      const filter = a.ctx.createBiquadFilter(), gain = a.ctx.createGain()
+      filter.type = 'lowpass'; filter.Q.value = 4
+      gain.gain.setValueAtTime(0.0001, t)
+      const oscs = [0, 7].map((detune) => {
+        const o = a.ctx.createOscillator()
+        o.type = 'sawtooth'; o.detune.value = detune
+        o.connect(filter); o.start(t)
+        return o
+      })
+      filter.connect(gain).connect(a.out)
+      hum = { oscs, filter, gain }
+    }
+    hum.oscs.forEach((o) => o.frequency.setTargetAtTime(70 + p * 150, t, 0.05))
+    hum.filter.frequency.setTargetAtTime(300 + p * 2200, t, 0.05)
+    hum.gain.gain.setTargetAtTime(0.025 + p * 0.06, t, 0.05)
+  },
+  /** Fade the hum out (tear finished or let go). */
+  humStop() {
+    if (!hum || !ctx) return
+    const h = hum, t = ctx.currentTime
+    hum = null
+    h.gain.gain.setTargetAtTime(0.0001, t, 0.04)
+    h.oscs.forEach((o) => o.stop(t + 0.3))
+  },
+  /** The pack landing in the middle of the screen. */
+  land() { thump(150, 55, 0.22, 0.4); sweep(900, 300, 0.12, 0.08, 1) },
+  /** The burst after the squeeze: a deep thump under a bright crack. */
+  pop() { thump(180, 40, 0.4, 0.55); sweep(5000, 1500, 0.18, 0.25, 0.7) },
+  /** A card snapping into its place in the row. */
+  tick(i = 0) { thump(900 + i * 60, 500, 0.06, 0.18); sweep(6000, 3000, 0.03, 0.08, 2) },
   /** Foil crinkle while the finger drags across the pack. */
   crinkle() { sweep(3500 + Math.random() * 2500, 2500, 0.06, 0.08, 3) },
   /** The pack tearing open: a rough rip, then the strip flying off. */

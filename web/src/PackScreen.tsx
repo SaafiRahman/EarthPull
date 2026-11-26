@@ -40,34 +40,74 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const cardEls = useRef<(HTMLButtonElement | null)[]>([])
   const opening = useRef<gsap.core.Timeline | null>(null)
 
-  // The cards come out of the torn pack: they start inside it (behind the pack, just under the tear), slide up out
-  // of the opening while the pack drops away, then fly from there to their places in the row.
+  const summonFrom = useRef<DOMRect | null>(null)
+  const stackEls = useRef<(HTMLDivElement | null)[]>([])
+  const localIcon = useRef<HTMLDivElement>(null)
+  const calm = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  // Summon: the pack lifts off the home-screen stack (or the local pack's sticker), flies to the middle and lands
+  // with a bump. It can't be torn until it has landed.
+  useGSAP(() => {
+    if (!pulls || phase !== 'pack') return
+    const wrap = packWrap.current, packEl = wrap?.querySelector<HTMLElement>('.pack')
+    if (!wrap || !packEl || calm()) return
+    const pr = packEl.getBoundingClientRect(), fr = summonFrom.current
+    const from = fr
+      ? { x: fr.left + fr.width / 2 - (pr.left + pr.width / 2), y: fr.top + fr.height / 2 - (pr.top + pr.height / 2), scale: fr.width / pr.width }
+      : { x: 0, y: -260, scale: 0.6 }
+    wrap.style.pointerEvents = 'none'
+    gsap.timeline({ onComplete: () => { wrap.style.pointerEvents = '' } })
+      .from(packEl, { ...from, rotation: -12, duration: 0.55, ease: 'power3.out' })
+      .add(() => sfx.land())
+      .to(packEl, { scaleX: 1.06, scaleY: 0.93, duration: 0.08, transformOrigin: '50% 100%', ease: 'power2.out' })
+      .to(packEl, { scaleX: 1, scaleY: 1, duration: 0.5, ease: 'elastic.out(1, 0.4)' })
+  }, { dependencies: [pulls], scope: stage })
+
+  // After the pop: the cards shoot up out of the pack in a fan while the pack drops away, hang in the air for a beat,
+  // then snap into their places in the row one by one, each with a tick and a small bounce.
   useGSAP(() => {
     if (phase !== 'opening' || !pulls) return
     const cards = cardEls.current.slice(0, pulls.length).filter(Boolean) as HTMLButtonElement[]
     const packEl = packWrap.current?.querySelector('.pack')
     const finish = () => { gsap.set(cards, { clearProps: 'transform,zIndex,visibility,opacity' }); setPhase('cards') }
-    if (!packEl || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { finish(); return }
-    const pr = packEl.getBoundingClientRect()
-    const from = cards.map((el) => {
+    if (!packEl || calm()) { finish(); return }
+    const pr = packEl.getBoundingClientRect(), mid = (cards.length - 1) / 2
+    const from = cards.map((el, i) => {
       const r = el.getBoundingClientRect()
       const scale = (pr.width * 0.74) / r.width
       const h = r.height * scale
       const insideTop = pr.top + pr.height * 0.19 // just under the tear line, hidden behind the pack
-      return { x: pr.left + pr.width / 2 - (r.left + r.width / 2), y: insideTop + h / 2 - (r.top + r.height / 2), scale, rise: h * 0.5 }
+      const x = pr.left + pr.width / 2 - (r.left + r.width / 2), y = insideTop + h / 2 - (r.top + r.height / 2)
+      // The fan hangs over the middle of the pack, outer cards a little lower: an arc, like a hand of cards
+      return { x, y, scale, fanX: x + (i - mid) * pr.width * 0.32, fanY: y - pr.height * 0.27 + Math.abs(i - mid) ** 1.6 * 12, fanR: (i - mid) * 9 }
     })
     gsap.set(cards, {
-      x: (i) => from[i].x, y: (i) => from[i].y, scale: (i) => from[i].scale, rotation: (i) => (i - 2) * 1.5,
+      x: (i) => from[i].x, y: (i) => from[i].y, scale: (i) => from[i].scale, rotation: 0,
       autoAlpha: 1, zIndex: (i) => 10 - i, transformOrigin: '50% 50%',
     })
-    opening.current = gsap.timeline({ onComplete: finish })
-      .to(cards, { y: (i) => from[i].y - from[i].rise, duration: 0.55, ease: 'power3.out', stagger: { each: 0.05, from: 'end' } }, 0.08)
-      .to(packWrap.current, { y: '+=340', rotation: 6, autoAlpha: 0, duration: 0.65, ease: 'power2.in' }, 0.45)
-      .add(() => pulls.forEach((_, i) => sfx.slide(i)), 0.75)
-      .to(cards, { x: 0, y: 0, scale: 1, rotation: 0, duration: 0.8, ease: 'back.out(1.2)', stagger: 0.07 }, 0.75)
+    const tl = gsap.timeline({ onComplete: finish })
+    // The pop: a small screen shake, cards burst up into a fan, the pack falls away
+    tl.fromTo(stage.current, { x: 0, y: 0 }, { keyframes: { x: [-7, 6, -4, 3, 0], y: [4, -3, 2, -1, 0] }, duration: 0.32, ease: 'none' }, 0)
+      .add(() => sfx.slide(0), 0)
+      .to(cards, { x: (i) => from[i].fanX, y: (i) => from[i].fanY, rotation: (i) => from[i].fanR, duration: 0.42, ease: 'back.out(1.7)', stagger: 0.025 }, 0)
+      .to(packWrap.current, { y: '+=380', rotation: 8, autoAlpha: 0, duration: 0.55, ease: 'power2.in' }, 0.12)
+      // A beat in the air
+      .to(cards, { y: (i) => from[i].fanY - 10, duration: 0.5, ease: 'sine.inOut' }, 0.45)
+    // Snap, snap, snap
+    cards.forEach((el, i) => {
+      const t = 1.0 + i * 0.13
+      tl.to(el, { x: 0, y: 0, scale: 1, rotation: 0, duration: 0.3, ease: 'power3.in' }, t)
+        .add(() => sfx.tick(i), t + 0.3)
+        .to(el, { scaleX: 1.04, scaleY: 0.95, duration: 0.06, transformOrigin: '50% 100%', ease: 'power2.out' }, t + 0.3)
+        .to(el, { scaleX: 1, scaleY: 1, duration: 0.3, ease: 'back.out(3)' }, t + 0.36)
+    })
+    opening.current = tl
   }, { dependencies: [phase], scope: stage })
 
   const start = (k: Kind) => {
+    const fromEl = k === 'local' ? localIcon.current : stackEls.current[state.packs - 1]
+    summonFrom.current = fromEl?.getBoundingClientRect() ?? null
+    sfx.unlock()
     const p = onOpen(k)
     if (!p.length) return
     setKind(k)
@@ -150,7 +190,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     <div className="mx-auto flex max-w-xl flex-col items-center gap-6 px-4 py-10 text-center">
       <div className="flex gap-3" aria-label={`${state.packs} of ${MAX_PACKS} packs`}>
         {Array.from({ length: MAX_PACKS }, (_, i) => (
-          <div key={i} className={`aspect-[5/7] w-20 ${i < state.packs ? '' : 'opacity-25 grayscale'}`}><CardBack tier="Common" /></div>
+          <div key={i} ref={(el) => { stackEls.current[i] = el }} className={`aspect-[5/7] w-20 ${i < state.packs ? '' : 'opacity-25 grayscale'}`}><CardBack tier="Common" /></div>
         ))}
       </div>
       <div>
@@ -173,7 +213,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
       <button onClick={onAddPack} className="text-xs text-muted underline">Demo: add a pack now</button>
 
       <section className="mt-2 flex w-full items-center gap-4 rounded-2xl border border-local/40 bg-wine-deep/50 p-4 text-left" aria-label="Local pack">
-        <div className="w-20 shrink-0">
+        <div ref={localIcon} className="w-20 shrink-0">
           <StampSticker stamp={{ kind: 'local', place: here?.label ?? 'Near you', date: now }} inline />
         </div>
         <div className="flex min-w-0 flex-1 flex-col gap-1.5">
