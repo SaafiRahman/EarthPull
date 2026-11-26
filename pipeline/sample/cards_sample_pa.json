@@ -1386,7 +1386,7 @@
    "rarity": "Epic",
    "fame": 8322,
    "facts": {
-    "population": 16250,
+    "population": 21748,
     "elevation_m": 90,
     "temp_c": 26.5
    },
@@ -1420,7 +1420,7 @@
    "rarity": "Epic",
    "fame": 14706,
    "facts": {
-    "population": 872,
+    "population": 1130,
     "elevation_m": 5.0,
     "area_km2": 144,
     "temp_c": 26.4
@@ -1523,7 +1523,7 @@
    "rarity": "Epic",
    "fame": 16854,
    "facts": {
-    "population": 45355,
+    "population": 109605,
     "elevation_m": 100,
     "area_km2": 976,
     "temp_c": 26.9
@@ -1592,7 +1592,7 @@
    "rarity": "Epic",
    "fame": 25710,
    "facts": {
-    "population": 1728,
+    "population": 4205,
     "elevation_m": 4.0,
     "temp_c": 26.4
    },
@@ -1762,7 +1762,7 @@
    "rarity": "Legendary",
    "fame": 56922,
    "facts": {
-    "population": 78000,
+    "population": 241817,
     "elevation_m": 2.0,
     "temp_c": 26.8
    },
@@ -1796,7 +1796,7 @@
    "rarity": "Legendary",
    "fame": 375114,
    "facts": {
-    "population": 408168,
+    "population": 1540000,
     "elevation_m": 17,
     "area_km2": 275,
     "temp_c": 26.6
@@ -2711,7 +2711,7 @@
     "temp_c": 26.9
    },
    "flavour": {
-    "text": "The population according to the 2000 census was 3,397.",
+    "text": "The district covers a total area of 280 km2.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Pocrí District",
@@ -2959,7 +2959,7 @@
    "rarity": "Rare",
    "fame": 5808,
    "facts": {
-    "population": 1568,
+    "population": 4828,
     "elevation_m": 1958,
     "temp_c": 15.9
    },

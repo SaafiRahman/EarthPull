@@ -425,7 +425,7 @@
    "rarity": "Common",
    "fame": 1368,
    "facts": {
-    "population": 14000,
+    "population": 17755,
     "elevation_m": 1377,
     "area_km2": 3.8,
     "temp_c": 19.8
@@ -456,7 +456,7 @@
    "rarity": "Common",
    "fame": 2772,
    "facts": {
-    "population": 11853,
+    "population": 16433,
     "elevation_m": 1044,
     "area_km2": 15,
     "temp_c": 20.8
@@ -487,7 +487,7 @@
    "rarity": "Common",
    "fame": 1302,
    "facts": {
-    "population": 6784,
+    "population": 10739,
     "elevation_m": 1842,
     "area_km2": 15,
     "temp_c": 16.5
@@ -570,7 +570,7 @@
    "rarity": "Common",
    "fame": 702,
    "facts": {
-    "population": 1823,
+    "population": 3900,
     "elevation_m": 355,
     "area_km2": 70,
     "temp_c": 25.6
@@ -601,7 +601,7 @@
    "rarity": "Common",
    "fame": 2802,
    "facts": {
-    "population": 11680,
+    "population": 22619,
     "elevation_m": 383,
     "area_km2": 555,
     "temp_c": 20.3
@@ -632,7 +632,7 @@
    "rarity": "Common",
    "fame": 948,
    "facts": {
-    "population": 5248,
+    "population": 7785,
     "elevation_m": 95,
     "area_km2": 73,
     "temp_c": 26.1
@@ -1365,7 +1365,7 @@
    "rarity": "Epic",
    "fame": 40512,
    "facts": {
-    "population": 45380,
+    "population": 65922,
     "elevation_m": 148,
     "area_km2": 563,
     "temp_c": 26.9
@@ -1400,7 +1400,7 @@
    "rarity": "Epic",
    "fame": 43260,
    "facts": {
-    "population": 63081,
+    "population": 71514,
     "elevation_m": 29,
     "area_km2": 59,
     "temp_c": 25.7
@@ -1470,7 +1470,7 @@
    "rarity": "Epic",
    "fame": 25806,
    "facts": {
-    "population": 35650,
+    "population": 41528,
     "elevation_m": 1.0,
     "area_km2": 47,
     "temp_c": 26.3
@@ -1505,7 +1505,7 @@
    "rarity": "Epic",
    "fame": 36180,
    "facts": {
-    "population": 6375,
+    "population": 7132,
     "elevation_m": 11,
     "area_km2": 126,
     "temp_c": 27.3
@@ -1540,7 +1540,7 @@
    "rarity": "Epic",
    "fame": 30840,
    "facts": {
-    "population": 26594,
+    "population": 22775,
     "elevation_m": 1440,
     "area_km2": 4.0,
     "temp_c": 16.5
@@ -1575,7 +1575,7 @@
    "rarity": "Epic",
    "fame": 6774,
    "facts": {
-    "population": 21947,
+    "population": 16686,
     "elevation_m": 1173,
     "area_km2": 2.9,
     "temp_c": 19.8
@@ -2471,7 +2471,7 @@
    "rarity": "Rare",
    "fame": 4362,
    "facts": {
-    "population": 10430,
+    "population": 7480,
     "elevation_m": 1332,
     "area_km2": 2.3,
     "temp_c": 16.5
@@ -2541,7 +2541,7 @@
    "rarity": "Rare",
    "fame": 8424,
    "facts": {
-    "population": 10765,
+    "population": 7725,
     "elevation_m": 1061,
     "area_km2": 1.3,
     "temp_c": 20.8
@@ -2576,7 +2576,7 @@
    "rarity": "Rare",
    "fame": 7008,
    "facts": {
-    "population": 6777,
+    "population": 11060,
     "elevation_m": 39,
     "area_km2": 356,
     "temp_c": 26.3
@@ -2681,7 +2681,7 @@
    "rarity": "Rare",
    "fame": 5352,
    "facts": {
-    "population": 9687,
+    "population": 17274,
     "elevation_m": 801,
     "area_km2": 40,
     "temp_c": 21.9
@@ -2716,7 +2716,7 @@
    "rarity": "Rare",
    "fame": 15018,
    "facts": {
-    "population": 34877,
+    "population": 45324,
     "elevation_m": 713,
     "area_km2": 192,
     "temp_c": 20.6
@@ -2751,7 +2751,7 @@
    "rarity": "Rare",
    "fame": 4836,
    "facts": {
-    "population": 1071,
+    "population": 3536,
     "elevation_m": 10,
     "area_km2": 109,
     "temp_c": 26.2
@@ -2786,7 +2786,7 @@
    "rarity": "Rare",
    "fame": 7806,
    "facts": {
-    "population": 3981,
+    "population": 12734,
     "elevation_m": 994,
     "area_km2": 75,
     "temp_c": 22.1
@@ -2817,7 +2817,7 @@
    "rarity": "Rare",
    "fame": 8376,
    "facts": {
-    "population": 27310,
+    "population": 46975,
     "elevation_m": 616,
     "area_km2": 143,
     "temp_c": 19.4
@@ -2852,7 +2852,7 @@
    "rarity": "Common",
    "fame": 366,
    "facts": {
-    "population": 2107,
+    "population": 3104,
     "elevation_m": 1083,
     "area_km2": 8.0,
     "temp_c": 20.8
@@ -2883,7 +2883,7 @@
    "rarity": "Common",
    "fame": 1296,
    "facts": {
-    "population": 1774,
+    "population": 2310,
     "elevation_m": 437,
     "area_km2": 163,
     "temp_c": 23.0
@@ -2914,7 +2914,7 @@
    "rarity": "Common",
    "fame": 732,
    "facts": {
-    "population": 31430,
+    "population": 11094,
     "elevation_m": 50,
     "area_km2": 285,
     "temp_c": 26.4
@@ -2945,7 +2945,7 @@
    "rarity": "Common",
    "fame": 846,
    "facts": {
-    "population": 8887,
+    "population": 8981,
     "elevation_m": 1303,
     "area_km2": 1.3,
     "temp_c": 17.4
@@ -3006,7 +3006,7 @@
    "rarity": "Common",
    "fame": 534,
    "facts": {
-    "population": 3624,
+    "population": 10328,
     "elevation_m": 1074,
     "area_km2": 31,
     "temp_c": 20.8

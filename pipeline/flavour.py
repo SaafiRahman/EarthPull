@@ -106,8 +106,13 @@ def trim(s: str) -> str:
     return cut.rstrip(",;:–- ") + "…"
 
 
+# Census lines ("The population was 2,037 at the 2020 census.") say less than the card's population fact and can
+# contradict it (developer, 2026-11-26). "census-designated place" is fine.
+CENSUS = re.compile(r"\bcensus\b(?!-)|\bcenso\b|\brecensement\b", re.I)
+
+
 def flavour(text: str) -> str:
-    ss = [s for s in sentences(text) if len(s) >= 25]
+    ss = [s for s in sentences(text) if len(s) >= 25 and not CENSUS.search(s)]
     if not ss:
         return ""
     first = ss[0]

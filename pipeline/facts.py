@@ -1,7 +1,10 @@
 """Step 6: real facts for every card (developer, 2026-11-23: facts instead of 1-100 stats).
 
 Facts collected (each may be empty when no source has it):
-  population      towns: GeoNames (step 1)
+  population      towns: Wikidata P1082, the statement with the latest date (P585); else GeoNames (step 1).
+                  Towns linked through their municipality (towns.py admin twins) keep GeoNames, since the
+                  item's population is the whole municipality's. Developer, 2026-11-26: GeoNames was older
+                  than Wikipedia's census figure (Royal City 2,220 vs 1,776).
   elevation_m     Wikidata P2044 or GeoNames; else terrain height at the point (Open-Meteo elevation API)
   height_m        Wikidata P2048 (buildings, towers, waterfalls)
   prominence_m    Wikidata P2660 (mountains)
@@ -22,6 +25,7 @@ import json
 import time
 from pathlib import Path
 
+import geopandas as gpd
 import numpy as np
 import pandas as pd
 import rasterio
@@ -83,6 +87,34 @@ def pick(statements: list, conv: dict):
         if v.get("unit") in conv:
             return float(v["amount"]) * conv[v["unit"]]
     return None
+
+
+def latest_population(statements: list):
+    """(population, year) from the P1082 statement with the latest point in time; preferred rank breaks ties."""
+    best = None
+    for st in statements:
+        v = st["mainsnak"].get("datavalue")
+        if st.get("rank") == "deprecated" or not v:
+            continue
+        when = st.get("qualifiers", {}).get("P585", [{}])[0].get("datavalue", {}).get("value", {}).get("time", "")
+        key = (when[1:5] if when else "0000", st.get("rank") == "preferred")
+        if best is None or key > best[0]:
+            best = (key, float(v["value"]["amount"]))
+    return (best[1], int(best[0][0]) or None) if best else (None, None)
+
+
+def wikidata_population(qids: list[str], cache: dict) -> dict[str, tuple]:
+    todo = [q for q in qids if f"p|{q}" not in cache]
+    for i in range(0, len(todo), 50):
+        ents = get("https://www.wikidata.org/w/api.php", method="POST",
+                   data={"action": "wbgetentities", "ids": "|".join(todo[i:i + 50]), "props": "claims", "format": "json"})["entities"]
+        for q, e in ents.items():
+            cache[f"p|{q}"] = latest_population(e.get("claims", {}).get("P1082", []))
+        if i % 2500 == 0:
+            print(f"  Wikidata population {i + 50:,}/{len(todo):,}", flush=True)
+            CACHE.write_text(json.dumps(cache), encoding="utf-8")
+    CACHE.write_text(json.dumps(cache), encoding="utf-8")
+    return {q: tuple(cache[f"p|{q}"]) for q in qids}
 
 
 def wikidata_facts(qids: list[str], cache: dict) -> pd.DataFrame:
@@ -185,6 +217,18 @@ def main():
     df["elevation_m"] = elev.where(town, df["elevation_wd"].astype("Float64").fillna(elev))
     df["elevation_source"] = np.where(town, "geonames", np.where(df["elevation_wd"].notna(), "wikidata", "step 3"))
     df["elevation_source"] = df["elevation_source"].where(df["elevation_m"].notna(), None)
+    # Population: Wikidata's latest figure for towns linked to their own item (see the docstring).
+    twin = df["id"].str.removeprefix("gn:").map(gpd.read_parquet(d / "towns.parquet").set_index("geonameid")["via_twin"])
+    own = town & df["qid"].notna() & (twin != True)
+    pop = wikidata_population(sorted(df.loc[own, "qid"].unique()), cache)
+    wd_pop = df["qid"].map(lambda q: pop.get(q, (None, None))[0]).where(own)
+    # More than 4x off GeoNames is almost always a wrong figure on the item, not growth (2026-11-26: Veracruz city
+    # had the state's 8.1 million; the hamlet of Brookhaven NY its town's 486,000). Keep GeoNames then.
+    gn = df["population"].where(df["population"] > 0)
+    wd_pop = wd_pop.where(gn.isna() | ((wd_pop / gn).between(0.25, 4)))
+    df["population_source"] = np.where(wd_pop.notna(), "wikidata", np.where(town & df["population"].notna(), "geonames", None))
+    df["population"] = wd_pop.fillna(df["population"]).where(town)
+    print(f"Population from Wikidata for {int(wd_pop.notna().sum()):,} of {int(town.sum()):,} towns")
     clear_bad(df)
     miss = df["elevation_m"].isna()
     print(f"Terrain height for {int(miss.sum()):,} cards without an elevation")

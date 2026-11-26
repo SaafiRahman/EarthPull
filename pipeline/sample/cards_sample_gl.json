@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 320142,
    "facts": {
-    "population": 14798,
+    "population": 18326,
     "elevation_m": 5.0,
     "area_km2": 686,
     "temp_c": -1.6
@@ -554,7 +554,7 @@
    "rarity": "Common",
    "fame": 14022,
    "facts": {
-    "population": 1129,
+    "population": 1092,
     "elevation_m": 36,
     "area_km2": 4.2,
     "temp_c": -8.0
@@ -1216,7 +1216,7 @@
    "rarity": "Epic",
    "fame": 16662,
    "facts": {
-    "population": 3005,
+    "population": 3069,
     "elevation_m": 1.0,
     "area_km2": 4000,
     "temp_c": -4.5
@@ -1251,7 +1251,7 @@
    "rarity": "Epic",
    "fame": 56106,
    "facts": {
-    "population": 4413,
+    "population": 4737,
     "elevation_m": 11,
     "area_km2": 11,
     "temp_c": -4.4
@@ -1286,7 +1286,7 @@
    "rarity": "Epic",
    "fame": 44034,
    "facts": {
-    "population": 3224,
+    "population": 3050,
     "elevation_m": 24,
     "area_km2": 19,
     "temp_c": 0.9
@@ -1321,7 +1321,7 @@
    "rarity": "Epic",
    "fame": 46248,
    "facts": {
-    "population": 5227,
+    "population": 5582,
     "elevation_m": 2.0,
     "area_km2": 34,
     "temp_c": -4.9

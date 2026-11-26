@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 398892,
    "facts": {
-    "population": 418140,
+    "population": 342259,
     "elevation_m": 7.0,
     "area_km2": 120,
     "temp_c": 26.1
@@ -462,13 +462,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1656,
+    "population": 791,
     "elevation_m": 41,
     "area_km2": 0.8,
     "temp_c": 24.6
    },
    "flavour": {
-    "text": "A community of 1,656 people in Puerto Rico.",
+    "text": "A community of 791 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -489,13 +489,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1132,
+    "population": 665,
     "elevation_m": 45,
     "area_km2": 1.5,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 1,132 people in Puerto Rico.",
+    "text": "A community of 665 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -516,13 +516,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1024,
+    "population": 890,
     "elevation_m": 99,
     "area_km2": 0.3,
     "temp_c": 24.2
    },
    "flavour": {
-    "text": "A community of 1,024 people in Puerto Rico.",
+    "text": "A community of 890 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -543,13 +543,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1087,
+    "population": 970,
     "elevation_m": 243,
     "area_km2": 1.5,
     "temp_c": 23.6
    },
    "flavour": {
-    "text": "A community of 1,087 people in Puerto Rico.",
+    "text": "A community of 970 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -570,13 +570,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2705,
+    "population": 2224,
     "elevation_m": 30,
     "area_km2": 1.7,
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "A community of 2,705 people in Puerto Rico.",
+    "text": "A community of 2,224 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -597,13 +597,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1742,
+    "population": 1416,
     "elevation_m": 591,
     "area_km2": 2.2,
     "temp_c": 23.1
    },
    "flavour": {
-    "text": "A community of 1,742 people in Puerto Rico.",
+    "text": "A community of 1,416 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -624,13 +624,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1713,
+    "population": 1118,
     "elevation_m": 33,
     "area_km2": 0.4,
     "temp_c": 24.4
    },
    "flavour": {
-    "text": "A community of 1,713 people in Puerto Rico.",
+    "text": "A community of 1,118 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -651,13 +651,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 3209,
+    "population": 3175,
     "elevation_m": 5.0,
     "area_km2": 2.5,
     "temp_c": 24.0
    },
    "flavour": {
-    "text": "A community of 3,209 people in Puerto Rico.",
+    "text": "A community of 3,175 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -678,13 +678,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 3499,
+    "population": 2239,
     "elevation_m": 31,
     "area_km2": 7.1,
     "temp_c": 26.1
    },
    "flavour": {
-    "text": "A community of 3,499 people in Puerto Rico.",
+    "text": "A community of 2,239 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -705,13 +705,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1739,
+    "population": 1303,
     "elevation_m": 45,
     "area_km2": 2.6,
     "temp_c": 25.8
    },
    "flavour": {
-    "text": "A community of 1,739 people in Puerto Rico.",
+    "text": "A community of 1,303 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -732,13 +732,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1863,
+    "population": 1639,
     "elevation_m": 183,
     "area_km2": 4.0,
     "temp_c": 24.6
    },
    "flavour": {
-    "text": "A community of 1,863 people in Puerto Rico.",
+    "text": "A community of 1,639 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -759,13 +759,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1516,
+    "population": 1152,
     "elevation_m": 111,
     "area_km2": 0.7,
     "temp_c": 24.9
    },
    "flavour": {
-    "text": "A community of 1,516 people in Puerto Rico.",
+    "text": "A community of 1,152 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -3089,13 +3089,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1798,
+    "population": 1543,
     "elevation_m": 442,
     "area_km2": 2.0,
     "temp_c": 23.0
    },
    "flavour": {
-    "text": "A community of 1,798 people in Puerto Rico.",
+    "text": "A community of 1,543 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -3116,13 +3116,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1677,
+    "population": 1475,
     "elevation_m": 3.0,
     "area_km2": 5.0,
     "temp_c": 26.3
    },
    "flavour": {
-    "text": "A community of 1,677 people in Puerto Rico.",
+    "text": "A community of 1,475 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {
@@ -3143,13 +3143,13 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1481,
+    "population": 1118,
     "elevation_m": 82,
     "area_km2": 0.7,
     "temp_c": 24.5
    },
    "flavour": {
-    "text": "A community of 1,481 people in Puerto Rico.",
+    "text": "A community of 1,118 people in Puerto Rico.",
     "source": "facts"
    },
    "image": {

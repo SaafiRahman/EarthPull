@@ -593,7 +593,7 @@
    "rarity": "Epic",
    "fame": 1170,
    "facts": {
-    "population": 2256,
+    "population": 2000,
     "elevation_m": 70,
     "temp_c": 25.9
    },
@@ -751,7 +751,7 @@
    "rarity": "Epic",
    "fame": 2082,
    "facts": {
-    "population": 1320,
+    "population": 1300,
     "elevation_m": 46,
     "temp_c": 26.5
    },

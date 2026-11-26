@@ -844,135 +844,102 @@
    }
   },
   {
-   "id": "wd:Q3025641",
-   "name": "Estadio Cementos Progreso",
-   "label": "Estadio Cementos Progreso",
+   "id": "wd:Q3050285",
+   "name": "Estadio El Trébol",
+   "label": "Estadio El Trébol",
    "type": "built",
-   "kind": "stadium",
+   "kind": "association football venue",
    "region": "GT-GU",
    "country": "GT",
-   "lat": 14.6761,
-   "lon": -90.4885,
+   "lat": 14.6169,
+   "lon": -90.5347,
    "rarity": "Epic",
-   "fame": 14988,
+   "fame": 14610,
    "facts": {
-    "elevation_m": 1447,
-    "temp_c": 21.5
+    "elevation_m": 1522,
+    "temp_c": 18.7
    },
    "flavour": {
-    "text": "It is also known popularly as Estadio La Pedrera in reference to its location in the neighborhood of the same name in the Zone 6 of the Guatemalan capital.",
+    "text": "It serves as the training venue and home ground for Liga Nacional club Municipal, one of the most traditional clubs in the country.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Cementos Progreso Stadium",
-    "url": "https://en.wikipedia.org/wiki/Cementos_Progreso_Stadium",
+    "title": "Manuel Felipe Carrera Stadium",
+    "url": "https://en.wikipedia.org/wiki/Manuel_Felipe_Carrera_Stadium",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3025641.webp",
-    "author": "Oscarin200",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Cementos_Progreso_3.jpg"
+    "file": "images/photo/wd_Q3050285.webp",
+    "author": "Rob!n Osorio",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Manuel_Felipe_Carrera_%C2%ABEl_tr%C3%A9bol%C2%BB.jpg"
    }
   },
   {
-   "id": "wd:Q588048",
-   "name": "Saint Thomas of Castilla",
-   "label": "Saint Thomas of Castilla",
-   "type": "built",
-   "kind": "city",
-   "region": "GT-IZ",
-   "country": "GT",
-   "lat": 15.7,
-   "lon": -88.6167,
-   "rarity": "Epic",
-   "fame": 11430,
-   "facts": {
-    "elevation_m": 2.0,
-    "temp_c": 25.8
-   },
-   "flavour": {
-    "text": "Santo Tomás de Castilla, officially known as Mátías de Gálvez though it popularly retains its former name, is a port city in the Izabal Department, Guatemala.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Santo Tomás de Castilla",
-    "url": "https://en.wikipedia.org/wiki/Santo_Tom%C3%A1s_de_Castilla",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q588048.webp",
-    "author": "roger4336 (Roger Wollstadt)",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Santo_Tomas_de_Castilla_-_container_port.jpg"
-   }
-  },
-  {
-   "id": "wd:Q1540906",
-   "name": "Yaxha",
-   "label": "Yaxha",
+   "id": "wd:Q1081581",
+   "name": "Kaminaljuyu",
+   "label": "Kaminaljuyu",
    "type": "built",
    "kind": "archaeological site",
-   "region": "GT-PE",
+   "region": "GT-GU",
    "country": "GT",
-   "lat": 17.0722,
-   "lon": -89.4,
+   "lat": 14.6328,
+   "lon": -90.5491,
    "rarity": "Epic",
-   "fame": 16452,
+   "fame": 22854,
    "facts": {
-    "elevation_m": 264,
-    "temp_c": 24.8
+    "elevation_m": 1549,
+    "temp_c": 18.7
    },
    "flavour": {
-    "text": "Yaxha is a Mesoamerican archaeological site in the northeast of the Petén Basin in modern-day Guatemala.",
+    "text": "Debate continues about its size, integration, and role in the surrounding Valley of Guatemala and the Southern Maya area.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Yaxha",
-    "url": "https://en.wikipedia.org/wiki/Yaxha",
+    "title": "Kaminaljuyu",
+    "url": "https://en.wikipedia.org/wiki/Kaminaljuyu",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1540906.webp",
-    "author": "Marie Carianna",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:YaxhaNorthAcropolis.jpg"
+    "file": "images/photo/wd_Q1081581.webp",
+    "author": "Simon Burchell",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaminaljuyu_11.jpg"
    }
   },
   {
-   "id": "wd:Q1266746",
-   "name": "Puerto San José",
-   "label": "Puerto San José",
+   "id": "wd:Q6446470",
+   "name": "La Merced Church",
+   "label": "La Merced Church",
    "type": "built",
-   "kind": "port",
-   "region": "GT-ES",
+   "kind": "church",
+   "region": "GT-SA",
    "country": "GT",
-   "lat": 13.9333,
-   "lon": -90.8167,
+   "lat": 14.5617,
+   "lon": -90.7343,
    "rarity": "Epic",
-   "fame": 10218,
+   "fame": 16176,
    "facts": {
-    "elevation_m": 3.0,
-    "temp_c": 27.4
+    "elevation_m": 1536,
+    "temp_c": 16.8
    },
    "flavour": {
-    "text": "It has a population of 23,887, making it the largest town on the nation's Pacific coast.",
+    "text": "The architect Juan de Dios Estrada was in charge of its construction from 1749.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Puerto San José",
-    "url": "https://en.wikipedia.org/wiki/Puerto_San_Jos%C3%A9",
+    "title": "Iglesia de La Merced, Antigua Guatemala",
+    "url": "https://en.wikipedia.org/wiki/Iglesia_de_La_Merced%2C_Antigua_Guatemala",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1266746.webp",
-    "author": "User:Stan Shebs",
+    "file": "images/photo/wd_Q6446470.webp",
+    "author": "Rambling Traveler derivative work: MrPanyGoff",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Puerto_Quetzal_at_dawn.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:La_Merced_Church_Antigua_Guatemala_2.jpg"
    }
   },
   {
@@ -1010,69 +977,36 @@
    }
   },
   {
-   "id": "wd:Q139979",
-   "name": "Zaculeu",
-   "label": "Zaculeu",
-   "type": "built",
-   "kind": "archaeological site",
-   "region": "GT-HU",
-   "country": "GT",
-   "lat": 15.3338,
-   "lon": -91.4927,
-   "rarity": "Epic",
-   "fame": 14454,
-   "facts": {
-    "elevation_m": 1869,
-    "temp_c": 11.6
-   },
-   "flavour": {
-    "text": "Zaculeu or Saqulew is a pre-Columbian Maya archaeological site in the highlands of western Guatemala.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Zaculeu",
-    "url": "https://en.wikipedia.org/wiki/Zaculeu",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q139979.webp",
-    "author": "Infrogmation of New Orleans",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Zaculeu_Temple_House_1979.jpg"
-   }
-  },
-  {
-   "id": "wd:Q2031261",
-   "name": "Piedras Negras",
-   "label": "Piedras Negras",
+   "id": "wd:Q1540906",
+   "name": "Yaxha",
+   "label": "Yaxha",
    "type": "built",
    "kind": "archaeological site",
    "region": "GT-PE",
    "country": "GT",
-   "lat": 17.1667,
-   "lon": -91.2625,
+   "lat": 17.0722,
+   "lon": -89.4,
    "rarity": "Epic",
-   "fame": 12738,
+   "fame": 16452,
    "facts": {
-    "elevation_m": 117,
-    "temp_c": 25.3
+    "elevation_m": 264,
+    "temp_c": 24.8
    },
    "flavour": {
-    "text": "Piedras Negras is the modern name for an ancient, ruined city of the pre-Columbian Maya civilization located on the north bank of the Usumacinta River in the…",
+    "text": "Yaxha is a Mesoamerican archaeological site in the northeast of the Petén Basin in modern-day Guatemala.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Piedras Negras (Maya site)",
-    "url": "https://en.wikipedia.org/wiki/Piedras_Negras_%28Maya_site%29",
+    "title": "Yaxha",
+    "url": "https://en.wikipedia.org/wiki/Yaxha",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2031261.webp",
-    "author": "Authenticmaya",
-    "licence": "CC BY-SA 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Piedrasnegrastrono.jpg"
+    "file": "images/photo/wd_Q1540906.webp",
+    "author": "Marie Carianna",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:YaxhaNorthAcropolis.jpg"
    }
   },
   {
@@ -1135,6 +1069,73 @@
     "licence": "Public domain",
     "licence_url": null,
     "page": "https://commons.wikimedia.org/wiki/File:Iximch%C3%A9.JPG"
+   }
+  },
+  {
+   "id": "wd:Q7419266",
+   "name": "Santa Catalina Arch",
+   "label": "Santa Catalina Arch",
+   "type": "built",
+   "kind": "bridge",
+   "region": "GT-SA",
+   "country": "GT",
+   "lat": 14.5596,
+   "lon": -90.7341,
+   "rarity": "Epic",
+   "fame": 16992,
+   "facts": {
+    "elevation_m": 1537,
+    "length_km": 0.0,
+    "temp_c": 16.8
+   },
+   "flavour": {
+    "text": "The Santa Catalina Arch is one of the distinguishable landmarks in Antigua Guatemala, Guatemala, located on 5th Avenue North.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Arco de Santa Catalina",
+    "url": "https://en.wikipedia.org/wiki/Arco_de_Santa_Catalina",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7419266.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:GT056-Antigua_ArchHorz.jpeg"
+   }
+  },
+  {
+   "id": "wd:Q2942341",
+   "name": "Cathedral of Guatemala City",
+   "label": "Cathedral of Guatemala City",
+   "type": "built",
+   "kind": "Catholic cathedral",
+   "region": "GT-GU",
+   "country": "GT",
+   "lat": 14.6417,
+   "lon": -90.512,
+   "rarity": "Epic",
+   "fame": 11238,
+   "facts": {
+    "elevation_m": 1503,
+    "temp_c": 18.7
+   },
+   "flavour": {
+    "text": "The Holy Church Cathedral Metropolitan Basilica of Santiago de Guatemala also Metropolitan Cathedral, officially Catedral Primada Metropolitana de Santiago.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of Guatemala City",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_Guatemala_City",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q2942341.webp",
+    "author": "Fernando Reyes Palencia from Guatemala, Guatemala",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CatedralGuatemala.jpg"
    }
   },
   {
@@ -2162,36 +2163,36 @@
    }
   },
   {
-   "id": "wd:Q17434090",
-   "name": "Mapa en Relieve de Guatemala",
-   "label": "Mapa en Relieve de Guatemala",
+   "id": "wd:Q652792",
+   "name": "Mixco Viejo",
+   "label": "Mixco Viejo",
    "type": "built",
-   "kind": "building",
+   "kind": "archaeological site",
    "region": "GT-GU",
    "country": "GT",
-   "lat": 14.6605,
-   "lon": -90.5086,
+   "lat": 14.8717,
+   "lon": -90.6642,
    "rarity": "Rare",
-   "fame": 5166,
+   "fame": 9546,
    "facts": {
-    "elevation_m": 1479,
-    "temp_c": 18.7
+    "elevation_m": 874,
+    "temp_c": 20.7
    },
    "flavour": {
-    "text": "The Relief Map of Guatemala is a huge relief map of Guatemala erected at ground level on two scales: 1: 10,000 for the horizontal extension and 1: 2,000 for…",
+    "text": "Mixco Viejo, occasionally called Jilotepeque Viejo, is an archaeological site in the north east of the Chimaltenango department of Guatemala.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Relief map of Guatemala",
-    "url": "https://en.wikipedia.org/wiki/Relief_map_of_Guatemala",
+    "title": "Mixco Viejo",
+    "url": "https://en.wikipedia.org/wiki/Mixco_Viejo",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q17434090.webp",
-    "author": "Nerdoguate",
+    "file": "images/photo/wd_Q652792.webp",
+    "author": "Simon Burchell",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Maparelieve3.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mixco_Viejo_1.JPG"
    }
   },
   {
@@ -2753,7 +2754,7 @@
     "temp_c": 25.6
    },
    "flavour": {
-    "text": "It covers an area of 112 km2, and had 29,926 inhabitants at the 2002 Census; the latest official estimate was 59,486 people.",
+    "text": "San Benito is a municipality in the El Petén department of Guatemala.",
     "source": "wikipedia",
     "lang": "en",
     "title": "San Benito, Guatemala",
@@ -2924,7 +2925,7 @@
     "temp_c": 25.4
    },
    "flavour": {
-    "text": "According to the 2018 census, the town of Coatepeque had a population of 37,330.",
+    "text": "Coatepeque, also known as Village of gardenias, is a town and municipality in the Quetzaltenango department of Guatemala.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Coatepeque, Quetzaltenango",

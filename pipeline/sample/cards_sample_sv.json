@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 264792,
    "facts": {
-    "population": 525990,
+    "population": 330543,
     "elevation_m": 653,
     "area_km2": 72,
     "temp_c": 22.6
@@ -466,7 +466,7 @@
    "rarity": "Common",
    "fame": 2304,
    "facts": {
-    "population": 3159,
+    "population": 11295,
     "elevation_m": 186,
     "area_km2": 104,
     "temp_c": 25.3
@@ -594,7 +594,7 @@
    "rarity": "Common",
    "fame": 7230,
    "facts": {
-    "population": 8491,
+    "population": 23256,
     "elevation_m": 847,
     "area_km2": 68,
     "temp_c": 22.6
@@ -625,7 +625,7 @@
    "rarity": "Common",
    "fame": 4542,
    "facts": {
-    "population": 8646,
+    "population": 24142,
     "elevation_m": 718,
     "area_km2": 77,
     "temp_c": 23.9
@@ -660,7 +660,7 @@
    "rarity": "Common",
    "fame": 1710,
    "facts": {
-    "population": 5798,
+    "population": 7747,
     "elevation_m": 495,
     "area_km2": 23,
     "temp_c": 24.2
@@ -726,7 +726,7 @@
    "rarity": "Common",
    "fame": 6810,
    "facts": {
-    "population": 9936,
+    "population": 24344,
     "elevation_m": 1037,
     "area_km2": 103,
     "temp_c": 21.5
@@ -761,7 +761,7 @@
    "rarity": "Common",
    "fame": 2466,
    "facts": {
-    "population": 5273,
+    "population": 10237,
     "elevation_m": 288,
     "area_km2": 71,
     "temp_c": 22.6
@@ -1354,7 +1354,7 @@
    "rarity": "Epic",
    "fame": 29790,
    "facts": {
-    "population": 247126,
+    "population": 232887,
     "elevation_m": 130,
     "area_km2": 594,
     "temp_c": 24.7
@@ -1389,7 +1389,7 @@
    "rarity": "Epic",
    "fame": 10662,
    "facts": {
-    "population": 41504,
+    "population": 52461,
     "elevation_m": 405,
     "area_km2": 267,
     "temp_c": 24.5
@@ -1424,7 +1424,7 @@
    "rarity": "Epic",
    "fame": 12930,
    "facts": {
-    "population": 19364,
+    "population": 30679,
     "elevation_m": 400,
     "area_km2": 132,
     "temp_c": 23.6
@@ -1459,7 +1459,7 @@
    "rarity": "Epic",
    "fame": 6786,
    "facts": {
-    "population": 16152,
+    "population": 20330,
     "elevation_m": 249,
     "area_km2": 60,
     "temp_c": 24.1
@@ -1494,7 +1494,7 @@
    "rarity": "Epic",
    "fame": 15990,
    "facts": {
-    "population": 34102,
+    "population": 127301,
     "elevation_m": 770,
     "area_km2": 245,
     "temp_c": 23.5
@@ -1529,7 +1529,7 @@
    "rarity": "Epic",
    "fame": 7992,
    "facts": {
-    "population": 20386,
+    "population": 35916,
     "elevation_m": 702,
     "area_km2": 306,
     "temp_c": 24.3
@@ -1564,7 +1564,7 @@
    "rarity": "Epic",
    "fame": 14742,
    "facts": {
-    "population": 51910,
+    "population": 66125,
     "elevation_m": 100,
     "area_km2": 140,
     "temp_c": 23.9
@@ -1599,7 +1599,7 @@
    "rarity": "Epic",
    "fame": 29664,
    "facts": {
-    "population": 176661,
+    "population": 250760,
     "elevation_m": 645,
     "area_km2": 400,
     "temp_c": 21.6
@@ -1634,7 +1634,7 @@
    "rarity": "Epic",
    "fame": 13818,
    "facts": {
-    "population": 26807,
+    "population": 40129,
     "elevation_m": 10,
     "area_km2": 144,
     "temp_c": 26.9
@@ -1669,7 +1669,7 @@
    "rarity": "Epic",
    "fame": 9648,
    "facts": {
-    "population": 48411,
+    "population": 46839,
     "elevation_m": 836,
     "area_km2": 31,
     "temp_c": 23.2
@@ -2450,7 +2450,7 @@
    "rarity": "Rare",
    "fame": 9480,
    "facts": {
-    "population": 28886,
+    "population": 62572,
     "elevation_m": 443,
     "area_km2": 125,
     "temp_c": 22.6
@@ -2485,7 +2485,7 @@
    "rarity": "Rare",
    "fame": 14964,
    "facts": {
-    "population": 329708,
+    "population": 230255,
     "elevation_m": 634,
     "area_km2": 30,
     "temp_c": 23.6
@@ -2520,7 +2520,7 @@
    "rarity": "Rare",
    "fame": 12840,
    "facts": {
-    "population": 5735,
+    "population": 22716,
     "elevation_m": 391,
     "area_km2": 329,
     "temp_c": 24.0
@@ -2555,7 +2555,7 @@
    "rarity": "Rare",
    "fame": 9894,
    "facts": {
-    "population": 112158,
+    "population": 129083,
     "elevation_m": 434,
     "area_km2": 52,
     "temp_c": 22.6
@@ -2590,7 +2590,7 @@
    "rarity": "Rare",
    "fame": 12480,
    "facts": {
-    "population": 22763,
+    "population": 55307,
     "elevation_m": 26,
     "area_km2": 167,
     "temp_c": 26.8
@@ -2625,7 +2625,7 @@
    "rarity": "Rare",
    "fame": 11712,
    "facts": {
-    "population": 32282,
+    "population": 74025,
     "elevation_m": 710,
     "area_km2": 166,
     "temp_c": 21.5
@@ -2695,13 +2695,13 @@
    "rarity": "Rare",
    "fame": 10362,
    "facts": {
-    "population": 16855,
+    "population": 44761,
     "elevation_m": 13,
     "area_km2": 162,
     "temp_c": 26.2
    },
    "flavour": {
-    "text": "It had a population of 35,997 inhabitants in 2007 according to the official census of that year.",
+    "text": "It is one of the main tourist attractions in the country.",
     "source": "wikipedia",
     "lang": "en",
     "title": "La Libertad, El Salvador",
@@ -2730,7 +2730,7 @@
    "rarity": "Rare",
    "fame": 9576,
    "facts": {
-    "population": 19143,
+    "population": 63763,
     "elevation_m": 471,
     "area_km2": 668,
     "temp_c": 24.3

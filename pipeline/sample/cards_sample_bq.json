@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 42228,
    "facts": {
-    "population": 10620,
+    "population": 12531,
     "elevation_m": 4.0,
     "temp_c": 28.3
    },
@@ -198,7 +198,7 @@
    "rarity": "Epic",
    "fame": 36486,
    "facts": {
-    "population": 488,
+    "population": 495,
     "elevation_m": 222,
     "temp_c": 25.0
    },
@@ -232,7 +232,7 @@
    "rarity": "Epic",
    "fame": 24468,
    "facts": {
-    "population": 1097,
+    "population": 1021,
     "elevation_m": 43,
     "temp_c": 26.1
    },

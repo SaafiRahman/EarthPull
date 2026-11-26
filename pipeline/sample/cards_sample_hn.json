@@ -407,12 +407,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1040,
+    "population": 1099,
     "elevation_m": 1672,
     "temp_c": 20.4
    },
    "flavour": {
-    "text": "A community of 1,040 people in La Paz.",
+    "text": "A community of 1,099 people in La Paz.",
     "source": "facts"
    },
    "image": {
@@ -494,12 +494,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1117,
+    "population": 1065,
     "elevation_m": 904,
     "temp_c": 25.3
    },
    "flavour": {
-    "text": "A community of 1,117 people in Yoro.",
+    "text": "A community of 1,065 people in Yoro.",
     "source": "facts"
    },
    "image": {
@@ -577,12 +577,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1314,
+    "population": 1459,
     "elevation_m": 625,
     "temp_c": 22.6
    },
    "flavour": {
-    "text": "A community of 1,314 people in Yoro.",
+    "text": "A community of 1,459 people in Yoro.",
     "source": "facts"
    },
    "image": {
@@ -717,12 +717,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1370,
+    "population": 1833,
     "elevation_m": 55,
     "temp_c": 27.1
    },
    "flavour": {
-    "text": "A community of 1,370 people in Valle.",
+    "text": "A community of 1,833 people in Valle.",
     "source": "facts"
    },
    "image": {
@@ -2789,7 +2789,7 @@
    "rarity": "Rare",
    "fame": 2490,
    "facts": {
-    "population": 1220,
+    "population": 1335,
     "elevation_m": 7.0,
     "temp_c": 27.4
    },
@@ -2880,12 +2880,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1430,
+    "population": 1551,
     "elevation_m": 864,
     "temp_c": 23.0
    },
    "flavour": {
-    "text": "A community of 1,430 people in El Paraíso.",
+    "text": "A community of 1,551 people in El Paraíso.",
     "source": "facts"
    },
    "image": {
@@ -2932,12 +2932,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1101,
+    "population": 1675,
     "elevation_m": 601,
     "temp_c": 21.9
    },
    "flavour": {
-    "text": "A community of 1,101 people in Comayagua.",
+    "text": "A community of 1,675 people in Comayagua.",
     "source": "facts"
    },
    "image": {
@@ -3015,12 +3015,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1522,
+    "population": 2023,
     "elevation_m": 1251,
     "temp_c": 20.0
    },
    "flavour": {
-    "text": "A community of 1,522 people in Comayagua.",
+    "text": "A community of 2,023 people in Comayagua.",
     "source": "facts"
    },
    "image": {
@@ -3041,12 +3041,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1048,
+    "population": 1185,
     "elevation_m": 793,
     "temp_c": 22.3
    },
    "flavour": {
-    "text": "A community of 1,048 people in Copán.",
+    "text": "A community of 1,185 people in Copán.",
     "source": "facts"
    },
    "image": {

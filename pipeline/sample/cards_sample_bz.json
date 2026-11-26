@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 111006,
    "facts": {
-    "population": 65222,
+    "population": 63999,
     "elevation_m": 6.0,
     "area_km2": 36,
     "temp_c": 26.2
@@ -603,7 +603,7 @@
     "temp_c": 26.0
    },
    "flavour": {
-    "text": "According to the 2000 census, Guinea Grass had a population of 2,510 people, and by 2010 the figures showed a population of 3,500.",
+    "text": "The population is made up of mostly Mestizos, Creoles, and East Indians.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Guinea Grass",
@@ -1386,7 +1386,7 @@
    "rarity": "Epic",
    "fame": 25572,
    "facts": {
-    "population": 17429,
+    "population": 15456,
     "elevation_m": 4.0,
     "area_km2": 71,
     "temp_c": 26.8
@@ -1451,7 +1451,7 @@
    "rarity": "Epic",
    "fame": 13650,
    "facts": {
-    "population": 15298,
+    "population": 14553,
     "elevation_m": 16,
     "temp_c": 25.8
    },
@@ -1586,7 +1586,7 @@
    "rarity": "Legendary",
    "fame": 85236,
    "facts": {
-    "population": 13381,
+    "population": 20754,
     "elevation_m": 56,
     "area_km2": 33,
     "temp_c": 25.4
@@ -2354,7 +2354,7 @@
    "rarity": "Rare",
    "fame": 10458,
    "facts": {
-    "population": 4300,
+    "population": 1586,
     "elevation_m": 11,
     "temp_c": 26.2
    },
@@ -2558,7 +2558,7 @@
    "rarity": "Rare",
    "fame": 2652,
    "facts": {
-    "population": 3550,
+    "population": 1874,
     "elevation_m": 4.0,
     "area_km2": 90,
     "temp_c": 26.4
@@ -2627,7 +2627,7 @@
    "rarity": "Rare",
    "fame": 13026,
    "facts": {
-    "population": 21229,
+    "population": 26151,
     "elevation_m": 60,
     "area_km2": 6.0,
     "temp_c": 24.8

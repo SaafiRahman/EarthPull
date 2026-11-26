@@ -156,6 +156,7 @@ def admin_twins(t: pd.DataFrame, code: str, local: str | None) -> pd.DataFrame:
     place and as the municipality (an admin area) of the same name, and Wikidata hung the real article on the
     municipality's GeoNames ID (2026-11-26: Port-au-Prince, Santiago de Cuba, La Romana had fame 0). For those
     towns, take the article of the same-named admin area within TWIN_KM."""
+    t["via_twin"] = False  # facts.py leaves these towns on GeoNames population: the item is the municipality
     bare = t.index[t["enwiki"].isna() & t["lwiki"].isna()]
     if not len(bare):
         return t
@@ -194,6 +195,7 @@ def admin_twins(t: pd.DataFrame, code: str, local: str | None) -> pd.DataFrame:
         g = next((x for x in gs if x in hit), None)
         if g:
             t.loc[i, ["qid", "enwiki", "lwiki"]] = hit[g]
+            t.loc[i, "via_twin"] = True
             n += 1
     print(f"Admin twins with an article: {n:,} of {len(bare):,} towns without one")
     return t

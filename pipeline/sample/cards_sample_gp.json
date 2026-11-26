@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 93528,
    "facts": {
-    "population": 15181,
+    "population": 15040,
     "elevation_m": 3.0,
     "area_km2": 2.7,
     "temp_c": 26.6
@@ -387,7 +387,7 @@
    "rarity": "Common",
    "fame": 11688,
    "facts": {
-    "population": 22692,
+    "population": 23014,
     "elevation_m": 8.0,
     "area_km2": 83,
     "temp_c": 26.4
@@ -575,7 +575,7 @@
    "rarity": "Common",
    "fame": 10134,
    "facts": {
-    "population": 19821,
+    "population": 17684,
     "elevation_m": 17,
     "area_km2": 103,
     "temp_c": 24.5
@@ -645,7 +645,7 @@
    "rarity": "Common",
    "fame": 6360,
    "facts": {
-    "population": 5705,
+    "population": 5096,
     "elevation_m": 12,
     "area_km2": 24,
     "temp_c": 23.5
@@ -680,7 +680,7 @@
    "rarity": "Common",
    "fame": 7032,
    "facts": {
-    "population": 7728,
+    "population": 7077,
     "elevation_m": 7.0,
     "area_km2": 59,
     "temp_c": 23.5
@@ -750,7 +750,7 @@
    "rarity": "Common",
    "fame": 6846,
    "facts": {
-    "population": 5146,
+    "population": 4412,
     "elevation_m": 17,
     "area_km2": 62,
     "temp_c": 26.6
@@ -1339,7 +1339,7 @@
    "rarity": "Legendary",
    "fame": 59550,
    "facts": {
-    "population": 11472,
+    "population": 9417,
     "elevation_m": 11,
     "area_km2": 5.8,
     "temp_c": 25.4
@@ -2091,7 +2091,7 @@
    "rarity": "Rare",
    "fame": 22014,
    "facts": {
-    "population": 30837,
+    "population": 30924,
     "elevation_m": 18,
     "area_km2": 46,
     "temp_c": 26.6
@@ -2122,7 +2122,7 @@
    "rarity": "Rare",
    "fame": 24558,
    "facts": {
-    "population": 3792,
+    "population": 3710,
     "elevation_m": 9.0,
     "area_km2": 31,
     "temp_c": 25.0
@@ -2157,7 +2157,7 @@
    "rarity": "Rare",
    "fame": 46134,
    "facts": {
-    "population": 53514,
+    "population": 51055,
     "elevation_m": 20,
     "area_km2": 81,
     "temp_c": 26.6
@@ -2188,7 +2188,7 @@
    "rarity": "Rare",
    "fame": 14808,
    "facts": {
-    "population": 28698,
+    "population": 27757,
     "elevation_m": 24,
     "area_km2": 45,
     "temp_c": 26.4

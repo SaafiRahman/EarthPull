@@ -452,7 +452,7 @@
    "rarity": "Common",
    "fame": 6018,
    "facts": {
-    "population": 1339,
+    "population": 1800,
     "elevation_m": 11,
     "area_km2": 283,
     "temp_c": 2.6
@@ -492,7 +492,7 @@
     "temp_c": 4.6
    },
    "flavour": {
-    "text": "It is one of the major population centres within Bécancour's extensive territory, with 1,673 inhabitants counted in Gentilly at the 2016 population census.",
+    "text": "Gentilly, known as Saint-Édouard-de-Gentilly until 1900, is a village now part of Bécancour, Quebec, Canada.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Gentilly, Quebec",
@@ -556,7 +556,7 @@
    "rarity": "Common",
    "fame": 11478,
    "facts": {
-    "population": 1225,
+    "population": 1082,
     "elevation_m": 1.0,
     "area_km2": 424,
     "temp_c": -12.2
@@ -647,7 +647,7 @@
    "rarity": "Common",
    "fame": 4230,
    "facts": {
-    "population": 2420,
+    "population": 3021,
     "elevation_m": 71,
     "area_km2": 90,
     "temp_c": 5.9
@@ -892,139 +892,135 @@
    }
   },
   {
-   "id": "wd:Q12062076",
-   "name": "Moses-Saunders Power Dam",
-   "label": "Moses-Saunders Power Dam",
+   "id": "wd:Q3816636",
+   "name": "Sherway Gardens",
+   "label": "Sherway Gardens",
    "type": "built",
-   "kind": "dam",
+   "kind": "shopping center",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 45.0064,
-   "lon": -74.795,
+   "lat": 43.6118,
+   "lon": -79.5571,
    "rarity": "Epic",
-   "fame": 11916,
+   "fame": 11808,
    "facts": {
-    "elevation_m": 70,
-    "temp_c": 6.2
+    "elevation_m": 118,
+    "temp_c": 8.3
    },
-   "also_in": [
-    "US"
-   ],
    "flavour": {
-    "text": "The Robert Moses-Robert H. Saunders Power Dam is a dam on the Saint Lawrence River straddling the border between the United States and Canada.",
+    "text": "CF Sherway Gardens is a shopping mall in the Etobicoke district of Toronto, Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Moses-Saunders Power Dam",
-    "url": "https://en.wikipedia.org/wiki/Moses-Saunders_Power_Dam",
+    "title": "Sherway Gardens",
+    "url": "https://en.wikipedia.org/wiki/Sherway_Gardens",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q12062076.webp",
-    "author": "ceedub13",
-    "licence": "CC BY 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:OPG_RH_Saunders_Dam-2.jpg"
+    "file": "images/photo/wd_Q3816636.webp",
+    "author": "Canmenwalker",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sherway_Gardens_Interior1_2021.jpg"
    }
   },
   {
-   "id": "wd:Q894652",
-   "name": "Montreal Botanical Garden",
-   "label": "Montreal Botanical Garden",
+   "id": "wd:Q7908095",
+   "name": "Ravenscrag",
+   "label": "Ravenscrag",
    "type": "built",
-   "kind": "botanical garden",
+   "kind": "mansion",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.5599,
-   "lon": -73.564,
+   "lat": 45.5059,
+   "lon": -73.5821,
    "rarity": "Epic",
-   "fame": 15792,
+   "fame": 15090,
    "facts": {
-    "elevation_m": 46,
-    "area_km2": 0.8,
+    "elevation_m": 110,
     "temp_c": 6.6
    },
    "flavour": {
-    "text": "The Montreal Botanical Garden is a large botanical garden in Montreal, Quebec, Canada comprising 75 hectares of thematic gardens and greenhouses.",
+    "text": "Ravenscrag is a historic mansion located in the Golden Square Mile in Montreal, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Montreal Botanical Garden",
-    "url": "https://en.wikipedia.org/wiki/Montreal_Botanical_Garden",
+    "title": "Ravenscrag, Montreal",
+    "url": "https://en.wikipedia.org/wiki/Ravenscrag%2C_Montreal",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q894652.webp",
-    "author": "GarrettRock at English Wikipedia",
+    "file": "images/photo/wd_Q7908095.webp",
+    "author": "Thomas1313",
     "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Botanical_Gardens_viii..JPG"
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maison_Hugh_Allan,_dite_Ravenscrag_16.jpg"
    }
   },
   {
-   "id": "wd:Q531487",
-   "name": "David Dunlap Observatory",
-   "label": "David Dunlap Observatory",
+   "id": "wd:Q6771542",
+   "name": "Markville Shopping Centre",
+   "label": "Markville Shopping Centre",
    "type": "built",
-   "kind": "astronomical observatory",
+   "kind": "shopping center",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.863,
-   "lon": -79.4227,
+   "lat": 43.869,
+   "lon": -79.288,
    "rarity": "Epic",
    "fame": 7944,
    "facts": {
-    "elevation_m": 224,
-    "temp_c": 7.0
+    "elevation_m": 186,
+    "temp_c": 7.1
    },
    "flavour": {
-    "text": "Established in 1935, it was owned and operated by the University of Toronto until 2008.",
+    "text": "CF Markville, also known as Markville Shopping Centre and Markville Mall in the Cadillac Fairview chain of malls.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "David Dunlap Observatory",
-    "url": "https://en.wikipedia.org/wiki/David_Dunlap_Observatory",
+    "title": "Markville Shopping Centre",
+    "url": "https://en.wikipedia.org/wiki/Markville_Shopping_Centre",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q531487.webp",
-    "author": "John H. Martin. This image cropped from original image and saved in jpeg format with compression level 5 (Paintshop Pro) July 14, 2006 by John H Martin.",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:Dunlap_Observatory.jpg"
+    "file": "images/photo/wd_Q6771542.webp",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:MarkvilleShoppingCentre.jpg"
    }
   },
   {
-   "id": "wd:Q3286125",
-   "name": "Manoir Richelieu",
-   "label": "Manoir Richelieu",
+   "id": "wd:Q21619155",
+   "name": "Notre-Dame-du-Cap Shrine",
+   "label": "Notre-Dame-du-Cap Shrine",
    "type": "built",
-   "kind": "hotel",
+   "kind": "national shrine",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 47.6206,
-   "lon": -70.1458,
+   "lat": 46.369,
+   "lon": -72.4977,
    "rarity": "Epic",
-   "fame": 9150,
+   "fame": 9114,
    "facts": {
-    "elevation_m": 46,
-    "temp_c": 3.3
+    "elevation_m": 15,
+    "temp_c": 4.5
    },
    "flavour": {
-    "text": "The hotel was first built in 1899 but then burned down in 1928.",
+    "text": "The title refers specifically to a statue of the Blessed Mother which is currently located in the Old Shrine.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Manoir Richelieu",
-    "url": "https://en.wikipedia.org/wiki/Manoir_Richelieu",
+    "title": "Our Lady of the Cape",
+    "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Cape",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3286125.webp",
-    "author": "Bernard Gagnon",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Manoir_Richelieu01.jpg"
+    "file": "images/photo/wd_Q21619155.webp",
+    "author": "Mario Groleau",
+    "licence": "Attribution",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Ndc_20060507_08.jpg"
    }
   },
   {
@@ -1095,36 +1091,36 @@
    }
   },
   {
-   "id": "wd:Q1151208",
-   "name": "Montreal City Hall",
-   "label": "Montreal City Hall",
+   "id": "wd:Q304838",
+   "name": "Olympic Park",
+   "label": "Olympic Park",
    "type": "built",
-   "kind": "city hall",
+   "kind": "Olympic Park",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.5087,
-   "lon": -73.5539,
+   "lat": 45.5597,
+   "lon": -73.5508,
    "rarity": "Epic",
-   "fame": 9906,
+   "fame": 9846,
    "facts": {
-    "elevation_m": 30,
+    "elevation_m": 28,
     "temp_c": 6.6
    },
    "flavour": {
-    "text": "The five-story Montreal City Hall is the seat of local government in Montreal, Quebec, Canada.",
+    "text": "The Montreal Olympic Park is a sports and entertainment precinct located in the Hochelaga-Maisonneuve neighbourhood of Montreal, Quebec.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Montreal City Hall",
-    "url": "https://en.wikipedia.org/wiki/Montreal_City_Hall",
+    "title": "Olympic Park (Montreal)",
+    "url": "https://en.wikipedia.org/wiki/Olympic_Park_%28Montreal%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1151208.webp",
-    "author": "Jean Gagnon",
+    "file": "images/photo/wd_Q304838.webp",
+    "author": "Bobjagendorf ( talk · contribs )",
     "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_de_Montreal_09.JPG"
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Montreal_Olympic_Stadium_aerial_view.jpg"
    }
   },
   {
@@ -1513,7 +1509,7 @@
    "rarity": "Epic",
    "fame": 201624,
    "facts": {
-    "population": 86106,
+    "population": 79470,
     "elevation_m": 30,
     "area_km2": 141,
     "temp_c": 5.7
@@ -1548,7 +1544,7 @@
    "rarity": "Epic",
    "fame": 110658,
    "facts": {
-    "population": 66573,
+    "population": 68002,
     "elevation_m": 258,
     "area_km2": 52,
     "temp_c": 0.6
@@ -1583,7 +1579,7 @@
    "rarity": "Epic",
    "fame": 155100,
    "facts": {
-    "population": 71808,
+    "population": 67575,
     "elevation_m": 30,
     "area_km2": 316,
     "temp_c": 5.8
@@ -1758,7 +1754,7 @@
    "rarity": "Epic",
    "fame": 111006,
    "facts": {
-    "population": 104986,
+    "population": 121436,
     "elevation_m": 325,
     "temp_c": 6.7
    },
@@ -1792,7 +1788,7 @@
    "rarity": "Epic",
    "fame": 100416,
    "facts": {
-    "population": 141397,
+    "population": 153524,
     "elevation_m": 114,
     "area_km2": 376,
     "temp_c": 10.2
@@ -2407,7 +2403,7 @@
     "temp_c": 10.5
    },
    "flavour": {
-    "text": "As the most populous city in the province, the 2021 Canadian census recorded 662,248 people in the city, up from 631,486 in 2016.",
+    "text": "The Greater Vancouver area had a population of 2.6 million in 2021, making it the third-largest metropolitan area in Canada after Toronto and Montreal.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Vancouver",
@@ -2436,7 +2432,7 @@
    "rarity": "Legendary",
    "fame": 1446018,
    "facts": {
-    "population": 1762949,
+    "population": 1895211,
     "elevation_m": 216,
     "area_km2": 498,
     "temp_c": 6.6
@@ -2506,7 +2502,7 @@
    "rarity": "Legendary",
    "fame": 634560,
    "facts": {
-    "population": 531902,
+    "population": 574482,
     "elevation_m": 54,
     "area_km2": 485,
     "temp_c": 4.8
@@ -2668,69 +2664,69 @@
    }
   },
   {
-   "id": "wd:Q3884309",
-   "name": "Mackenzie House",
-   "label": "Mackenzie House",
+   "id": "wd:Q7703321",
+   "name": "Terrasses de la Chaudière",
+   "label": "Terrasses de la Chaudière",
    "type": "built",
-   "kind": "historic house museum",
+   "kind": "tower block",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.6557,
-   "lon": -79.3783,
+   "lat": 45.4255,
+   "lon": -75.7212,
    "rarity": "Rare",
-   "fame": 4026,
+   "fame": 4002,
    "facts": {
-    "elevation_m": 93,
-    "temp_c": 8.5
+    "elevation_m": 59,
+    "temp_c": 5.9
    },
    "flavour": {
-    "text": "Mackenzie House is a historic building and museum located at 82 Bond Street within the Garden District in downtown Toronto, Ontario, Canada.",
+    "text": "The complex was built in 1978 as part of Prime Minister Pierre Trudeau's initiative to see more federal workers based in the Quebec side of the Ottawa River.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Mackenzie House",
-    "url": "https://en.wikipedia.org/wiki/Mackenzie_House",
+    "title": "Terrasses de la Chaudière",
+    "url": "https://en.wikipedia.org/wiki/Terrasses_de_la_Chaudi%C3%A8re",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q3884309.webp",
-    "author": "SimonP at English Wikipedia",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Mackenzie_House.JPG"
+    "file": "images/photo/wd_Q7703321.webp",
+    "author": "Harleyd613",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Terrasses_de_la_Chaudi%C3%A8re_aerial_photo.jpg"
    }
   },
   {
-   "id": "wd:Q7074252",
-   "name": "Oakville Centre for the Performing Arts",
-   "label": "Oakville Centre for the Performing Arts",
+   "id": "wd:Q4409745",
+   "name": "Barnum House",
+   "label": "Barnum House",
    "type": "built",
-   "kind": "performing arts center",
+   "kind": "house",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.4445,
-   "lon": -79.6717,
+   "lat": 43.9908,
+   "lon": -78.0436,
    "rarity": "Rare",
-   "fame": 762,
+   "fame": 756,
    "facts": {
-    "elevation_m": 87,
-    "temp_c": 8.3
+    "elevation_m": 114,
+    "temp_c": 8.1
    },
    "flavour": {
-    "text": "The Oakville Centre for the Performing Arts is a municipally run multi-use facility which opened in downtown Oakville, Ontario, Canada in 1977.",
+    "text": "The Barnum House was built between 1817 and 1819 by Eliakim Barnum, a United Empire Loyalist originally from Vermont.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Oakville Centre for the Performing Arts",
-    "url": "https://en.wikipedia.org/wiki/Oakville_Centre_for_the_Performing_Arts",
+    "title": "Barnum House",
+    "url": "https://en.wikipedia.org/wiki/Barnum_House",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7074252.webp",
-    "author": "Canmenwalker",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Oakville_Centre_for_the_Performing_Arts_2023.jpg"
+    "file": "images/photo/wd_Q4409745.webp",
+    "author": "Robert Taylor from Stirling, Canada",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barnum_House_Grafton_Ontario.jpg"
    }
   },
   {
@@ -2801,102 +2797,104 @@
    }
   },
   {
-   "id": "wd:Q16955728",
-   "name": "Deloitte Tower",
-   "label": "Deloitte Tower",
+   "id": "wd:Q2935991",
+   "name": "Chambly Canal",
+   "label": "Chambly Canal",
    "type": "built",
-   "kind": "building",
+   "kind": "canal",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 45.4964,
-   "lon": -73.5681,
+   "lat": 45.4482,
+   "lon": -73.2837,
    "rarity": "Rare",
-   "fame": 3978,
+   "fame": 3972,
    "facts": {
-    "elevation_m": 34,
-    "temp_c": 6.5
+    "elevation_m": 8.0,
+    "length_km": 19,
+    "temp_c": 6.1
    },
    "flavour": {
-    "text": "The Deloitte Tower is a 26-storey office building in Montreal, Quebec, Canada, located between Windsor Station and the Bell Centre.",
+    "text": "The Chambly Canal is a National Historic Site of Canada in the Province of Quebec, running along the Richelieu River past Saint-Jean-sur-Richelieu, Carignan.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Deloitte Tower",
-    "url": "https://en.wikipedia.org/wiki/Deloitte_Tower",
+    "title": "Chambly Canal",
+    "url": "https://en.wikipedia.org/wiki/Chambly_Canal",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q16955728.webp",
-    "author": "Mtlfiredude",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Deloitte3sep15.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3397262",
-   "name": "Chaudière Bridge",
-   "label": "Chaudière Bridge",
-   "type": "built",
-   "kind": "bridge",
-   "region": "CA-ON",
-   "country": "CA",
-   "lat": 45.4211,
-   "lon": -75.7186,
-   "rarity": "Rare",
-   "fame": 2088,
-   "facts": {
-    "elevation_m": 40,
-    "temp_c": 5.9
-   },
-   "flavour": {
-    "text": "The Chaudière Bridge crosses the Ottawa River about 1 km west of Parliament Hill, joining the communities of Gatineau, Quebec, and Ottawa, Ontario.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Chaudière Bridge",
-    "url": "https://en.wikipedia.org/wiki/Chaudi%C3%A8re_Bridge",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3397262.webp",
-    "author": "JustSomePics",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Chaudiere_Bridge_2013.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3349796",
-   "name": "Ogilvy",
-   "label": "Ogilvy",
-   "type": "built",
-   "kind": "department store",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 45.4978,
-   "lon": -73.5755,
-   "rarity": "Rare",
-   "fame": 7086,
-   "facts": {
-    "elevation_m": 52,
-    "temp_c": 6.5
-   },
-   "flavour": {
-    "text": "Holt Renfrew Ogilvy, formerly and still colloquially Ogilvy, is a luxury department store on Saint Catherine Street West in Montreal, Quebec, Canada.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Holt Renfrew Ogilvy",
-    "url": "https://en.wikipedia.org/wiki/Holt_Renfrew_Ogilvy",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3349796.webp",
-    "author": "Conrad Poirier",
+    "file": "images/photo/wd_Q2935991.webp",
+    "author": "Minoumi",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Display._Ogilvy%27s_Store_Window_BAnQ_P48S1P06788.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Canal_de_Chambly.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1762378",
+   "name": "Simcoe Place",
+   "label": "Simcoe Place",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "CA-ON",
+   "country": "CA",
+   "lat": 43.645,
+   "lon": -79.3858,
+   "rarity": "Rare",
+   "fame": 2076,
+   "facts": {
+    "elevation_m": 75,
+    "height_m": 148,
+    "temp_c": 8.5
+   },
+   "flavour": {
+    "text": "The tower is 148 metres metres with 33 floors.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Simcoe Place",
+    "url": "https://en.wikipedia.org/wiki/Simcoe_Place",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1762378.webp",
+    "author": "SimonP",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Simcoe_Place.JPG"
+   }
+  },
+  {
+   "id": "wd:Q1054144",
+   "name": "Centre Georges-Vézina",
+   "label": "Centre Georges-Vézina",
+   "type": "built",
+   "kind": "built structure",
+   "region": "CA-QC",
+   "country": "CA",
+   "lat": 48.4197,
+   "lon": -71.06,
+   "rarity": "Rare",
+   "fame": 7080,
+   "facts": {
+    "elevation_m": 86,
+    "temp_c": 2.5
+   },
+   "flavour": {
+    "text": "The arena was built in 1949 and features an Olympic-sized ice pad of 200' X 100'.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Centre Georges-Vézina",
+    "url": "https://en.wikipedia.org/wiki/Centre_Georges-V%C3%A9zina",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1054144.webp",
+    "author": "Chicoutimi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Centre_George-V%C3%A9zina_ext.jpg"
    }
   },
   {
@@ -2933,36 +2931,36 @@
    }
   },
   {
-   "id": "wd:Q5118031",
-   "name": "Church of the Redeemer",
-   "label": "Church of the Redeemer",
+   "id": "wd:Q5656723",
+   "name": "Hare Krishna Temple",
+   "label": "Hare Krishna Temple",
    "type": "built",
-   "kind": "church building",
+   "kind": "Hindu temple",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 43.6691,
-   "lon": -79.394,
+   "lat": 43.6769,
+   "lon": -79.3979,
    "rarity": "Rare",
    "fame": 1932,
    "facts": {
-    "elevation_m": 114,
+    "elevation_m": 127,
     "temp_c": 8.1
    },
    "flavour": {
-    "text": "The small church is prominently located at the intersection of Bloor Street and Avenue Road, near the Royal Ontario Museum.",
+    "text": "The Hare Krishna Temple is located at 243 Avenue Road in Toronto, Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Church of the Redeemer (Toronto)",
-    "url": "https://en.wikipedia.org/wiki/Church_of_the_Redeemer_%28Toronto%29",
+    "title": "Hare Krishna Temple, Toronto",
+    "url": "https://en.wikipedia.org/wiki/Hare_Krishna_Temple%2C_Toronto",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5118031.webp",
-    "author": "Dennis G. Jarvis",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:DSC09147_-_Church_of_the_Redeemer_(36384621704).jpg"
+    "file": "images/photo/wd_Q5656723.webp",
+    "author": "SimonP",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hare_Krishna,_Toronto.JPG"
    }
   },
   {
@@ -2999,37 +2997,36 @@
    }
   },
   {
-   "id": "wd:Q6671825",
-   "name": "Long-Sault Bridge",
-   "label": "Long-Sault Bridge",
+   "id": "wd:Q7842978",
+   "name": "Trinity Square",
+   "label": "Trinity Square",
    "type": "built",
-   "kind": "bridge",
+   "kind": "square",
    "region": "CA-ON",
    "country": "CA",
-   "lat": 45.6183,
-   "lon": -74.5978,
+   "lat": 43.6545,
+   "lon": -79.382,
    "rarity": "Rare",
-   "fame": 1632,
+   "fame": 1626,
    "facts": {
-    "elevation_m": 40,
-    "length_km": 0.7,
-    "temp_c": 5.3
+    "elevation_m": 87,
+    "temp_c": 8.5
    },
    "flavour": {
-    "text": "It crosses the Ottawa River via Chenail Island.",
+    "text": "Trinity Square is a public square in downtown Toronto, Ontario, Canada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Long-Sault Bridge",
-    "url": "https://en.wikipedia.org/wiki/Long-Sault_Bridge",
+    "title": "Trinity Square (Toronto)",
+    "url": "https://en.wikipedia.org/wiki/Trinity_Square_%28Toronto%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6671825.webp",
-    "author": "Pepper",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Pont_du_Long-Sault.jpg"
+    "file": "images/photo/wd_Q7842978.webp",
+    "author": "Ian Muttoo from Mississauga, Canada",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rays_of_autumn_light_in_Toronto.jpg"
    }
   },
   {
@@ -3439,7 +3436,7 @@
    "rarity": "Rare",
    "fame": 34248,
    "facts": {
-    "population": 69575,
+    "population": 95066,
     "elevation_m": 17,
     "area_km2": 52,
     "temp_c": 6.3
@@ -3508,13 +3505,13 @@
    "rarity": "Rare",
    "fame": 20850,
    "facts": {
-    "population": 12000,
+    "population": 13642,
     "elevation_m": 26,
     "area_km2": 15,
     "temp_c": 8.9
    },
    "flavour": {
-    "text": "As of the 2021 Census, Parksville's population was 13,642, representing a 9.5% increase over the 2016 Census.",
+    "text": "Parksville is a city on Vancouver Island in British Columbia, Canada.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Parksville, British Columbia",
@@ -3543,7 +3540,7 @@
    "rarity": "Rare",
    "fame": 18828,
    "facts": {
-    "population": 20491,
+    "population": 19564,
     "elevation_m": 36,
     "area_km2": 9.6,
     "temp_c": 6.2
@@ -3578,13 +3575,13 @@
    "rarity": "Rare",
    "fame": 20868,
    "facts": {
-    "population": 12660,
+    "population": 13745,
     "elevation_m": 271,
     "area_km2": 17,
     "temp_c": 3.3
    },
    "flavour": {
-    "text": "Winkler is a city in Manitoba, Canada, with a population of 13,745, making it the 4th largest city in Manitoba, as of the 2021 Canadian census.",
+    "text": "It is located in southern Manitoba, surrounded by the Rural Municipality of Stanley.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Winkler, Manitoba",
@@ -3644,7 +3641,7 @@
    "rarity": "Rare",
    "fame": 42012,
    "facts": {
-    "population": 23886,
+    "population": 22116,
     "elevation_m": 93,
     "temp_c": 6.6
    },
@@ -3678,7 +3675,7 @@
    "rarity": "Rare",
    "fame": 39330,
    "facts": {
-    "population": 34626,
+    "population": 64973,
     "elevation_m": 70,
     "area_km2": 487,
     "temp_c": 5.4
@@ -3782,7 +3779,7 @@
    "rarity": "Rare",
    "fame": 39522,
    "facts": {
-    "population": 15550,
+    "population": 28790,
     "elevation_m": 220,
     "area_km2": 168,
     "temp_c": 5.2
@@ -3817,7 +3814,7 @@
    "rarity": "Rare",
    "fame": 33882,
    "facts": {
-    "population": 13304,
+    "population": 13270,
     "elevation_m": 263,
     "area_km2": 25,
     "temp_c": 2.7
@@ -4027,107 +4024,107 @@
    }
   },
   {
-   "id": "gn:6065301",
-   "name": "Mannheim",
-   "label": "Mannheim",
+   "id": "gn:5927043",
+   "name": "Convoy Place",
+   "label": "Convoy Place",
    "type": "town",
    "kind": "town",
-   "region": "CA-ON",
+   "region": "CA-NS",
    "country": "CA",
-   "lat": 43.3981,
-   "lon": -80.5454,
+   "lat": 44.6679,
+   "lon": -63.6143,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1002,
-    "elevation_m": 347,
-    "temp_c": 6.7
+    "population": 5581,
+    "elevation_m": 70,
+    "temp_c": 6.4
    },
    "flavour": {
-    "text": "A community of 1,002 people in Ontario.",
+    "text": "A community of 5,581 people in Nova Scotia.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_6065301.webp"
+    "file": "images/minimap/gn_5927043.webp"
    }
   },
   {
-   "id": "wd:Q31772",
-   "name": "Moresby Island",
-   "label": "Moresby Island (near Prince Rupert)",
-   "type": "nature",
-   "kind": "island",
-   "region": "CA-BC",
+   "id": "gn:13592177",
+   "name": "Grand Lake",
+   "label": "Grand Lake",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
    "country": "CA",
-   "lat": 53.0789,
-   "lon": -132.1278,
-   "rarity": "Epic",
-   "fame": 10308,
-   "facts": {
-    "elevation_m": 541,
-    "area_km2": 2608,
-    "temp_c": 6.9
-   },
-   "flavour": {
-    "text": "An island in British Columbia.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/wd_Q31772.webp"
-   }
-  },
-  {
-   "id": "wd:Q15628940",
-   "name": "Rivière aux Eaux Mortes",
-   "label": "Rivière aux Eaux Mortes",
-   "type": "nature",
-   "kind": "river",
-   "region": "CA-QC",
-   "country": "CA",
-   "lat": 47.1139,
-   "lon": -72.6181,
+   "lat": 46.1126,
+   "lon": -65.9568,
    "rarity": "Common",
-   "fame": 234,
+   "fame": 0,
    "facts": {
-    "elevation_m": 161,
-    "length_km": 44,
-    "temp_c": 2.7
+    "population": 5725,
+    "elevation_m": 14,
+    "temp_c": 5.4
    },
    "flavour": {
-    "text": "A river in Quebec.",
+    "text": "A community of 5,725 people in New Brunswick.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q15628940.webp"
+    "file": "images/minimap/gn_13592177.webp"
    }
   },
   {
-   "id": "gn:6138974",
-   "name": "Saint-Raphaël",
-   "label": "Saint-Raphaël (Quebec)",
+   "id": "gn:13732472",
+   "name": "Notre-Dame-du-Portage",
+   "label": "Notre-Dame-du-Portage",
    "type": "town",
    "kind": "town",
    "region": "CA-QC",
    "country": "CA",
-   "lat": 46.2501,
-   "lon": -76.0161,
+   "lat": 47.7681,
+   "lon": -69.6075,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1113,
-    "elevation_m": 179,
-    "temp_c": 3.9
+    "population": 1296,
+    "elevation_m": 46,
+    "temp_c": 3.3
    },
    "flavour": {
-    "text": "A community of 1,113 people in Quebec.",
+    "text": "A community of 1,296 people in Quebec.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_6138974.webp"
+    "file": "images/minimap/gn_13732472.webp"
+   }
+  },
+  {
+   "id": "gn:13592145",
+   "name": "Vallée-des-Rivières",
+   "label": "Vallée-des-Rivières",
+   "type": "town",
+   "kind": "town",
+   "region": "CA-NB",
+   "country": "CA",
+   "lat": 47.2151,
+   "lon": -67.9607,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 4250,
+    "elevation_m": 152,
+    "temp_c": 3.0
+   },
+   "flavour": {
+    "text": "A community of 4,250 people in New Brunswick.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13592145.webp"
    }
   }
  ]

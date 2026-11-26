@@ -519,13 +519,13 @@
    "rarity": "Common",
    "fame": 630,
    "facts": {
-    "population": 3646,
+    "population": 2137,
     "elevation_m": 9.0,
     "area_km2": 3.3,
     "temp_c": 22.7
    },
    "flavour": {
-    "text": "The population was 2,137 at the 2020 US census, down from 3,646 at the 2010 US Census.",
+    "text": "It is part of the North Port–Bradenton–Sarasota, Florida Metropolitan Statistical Area.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Desoto Lakes, Florida",
@@ -550,13 +550,13 @@
    "rarity": "Common",
    "fame": 4746,
    "facts": {
-    "population": 760,
+    "population": 745,
     "elevation_m": 238,
     "area_km2": 7.4,
     "temp_c": 13.9
    },
    "flavour": {
-    "text": "The population was 745 at the 2020 census.",
+    "text": "Gainesville is a city in Ozark County, Missouri, United States.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Gainesville, Missouri",
@@ -585,7 +585,7 @@
    "rarity": "Common",
    "fame": 15960,
    "facts": {
-    "population": 12807,
+    "population": 15861,
     "elevation_m": 239,
     "area_km2": 155,
     "temp_c": 15.5
@@ -616,7 +616,7 @@
    "rarity": "Common",
    "fame": 1956,
    "facts": {
-    "population": 2270,
+    "population": 2276,
     "elevation_m": 309,
     "area_km2": 3.3,
     "temp_c": 9.0
@@ -651,7 +651,7 @@
    "rarity": "Common",
    "fame": 2118,
    "facts": {
-    "population": 1574,
+    "population": 1751,
     "elevation_m": 112,
     "area_km2": 7.6,
     "temp_c": 17.3
@@ -686,7 +686,7 @@
    "rarity": "Common",
    "fame": 1764,
    "facts": {
-    "population": 6766,
+    "population": 8200,
     "elevation_m": 14,
     "area_km2": 12,
     "temp_c": 17.3
@@ -717,13 +717,13 @@
    "rarity": "Common",
    "fame": 2226,
    "facts": {
-    "population": 2634,
+    "population": 2657,
     "elevation_m": 132,
     "area_km2": 1.8,
     "temp_c": 7.8
    },
    "flavour": {
-    "text": "The population was 2,689 at the 2010 census.",
+    "text": "The village of Yorkville is in the southeastern part of the town of Whitestown, adjacent to the city of Utica.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Yorkville, Oneida County, New York",
@@ -748,13 +748,13 @@
    "rarity": "Common",
    "fame": 5682,
    "facts": {
-    "population": 2379,
+    "population": 2214,
     "elevation_m": 397,
     "area_km2": 5.0,
     "temp_c": 6.8
    },
    "flavour": {
-    "text": "The population was 2,214 at the 2020 census.",
+    "text": "The city was named for J. B. Redfield, a railroad official.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Redfield, South Dakota",
@@ -783,13 +783,13 @@
    "rarity": "Common",
    "fame": 396,
    "facts": {
-    "population": 5575,
+    "population": 2008,
     "elevation_m": 42,
     "area_km2": 6.4,
     "temp_c": 23.3
    },
    "flavour": {
-    "text": "The population was 2,008 at the 2020 United States Census.",
+    "text": "It is part of the McAllen–Edinburg–Mission Metropolitan Statistical Area.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Palmview South, Texas",
@@ -818,7 +818,7 @@
    "rarity": "Common",
    "fame": 12954,
    "facts": {
-    "population": 8191,
+    "population": 8465,
     "elevation_m": 222,
     "area_km2": 25,
     "temp_c": 9.5
@@ -849,13 +849,13 @@
    "rarity": "Common",
    "fame": 4554,
    "facts": {
-    "population": 3695,
+    "population": 4969,
     "elevation_m": 225,
     "area_km2": 36,
     "temp_c": 15.7
    },
    "flavour": {
-    "text": "At the 2010 census the population was 3,585, up from 1,131 in 2000.",
+    "text": "It annexed the former town of Branchville in 2007.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Odenville, Alabama",
@@ -884,7 +884,7 @@
    "rarity": "Common",
    "fame": 3102,
    "facts": {
-    "population": 3341,
+    "population": 3266,
     "elevation_m": 256,
     "area_km2": 4.4,
     "temp_c": 9.8
@@ -907,335 +907,339 @@
    }
   },
   {
-   "id": "wd:Q1942904",
-   "name": "Mohonk Mountain House",
-   "label": "Mohonk Mountain House",
+   "id": "wd:Q3090780",
+   "name": "Full Throttle",
+   "label": "Full Throttle",
    "type": "built",
-   "kind": "hotel",
-   "region": "US-NY",
+   "kind": "launched roller coaster",
+   "region": "US-CA",
    "country": "US",
-   "lat": 41.7686,
-   "lon": -74.1556,
+   "lat": 34.4232,
+   "lon": -118.5972,
    "rarity": "Epic",
-   "fame": 34506,
+   "fame": 13314,
    "facts": {
-    "elevation_m": 378,
-    "temp_c": 9.5
+    "elevation_m": 356,
+    "height_m": 49,
+    "length_km": 0.7,
+    "temp_c": 17.2
    },
    "flavour": {
-    "text": "The Mohonk Mountain House, also known as Lake Mohonk Mountain House or simply Lake Mohonk.",
+    "text": "Full Throttle is a launched roller coaster located in Six Flags Plaza at Six Flags Magic Mountain in Valencia, California.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Mohonk Mountain House",
-    "url": "https://en.wikipedia.org/wiki/Mohonk_Mountain_House",
+    "title": "Full Throttle (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Full_Throttle_%28roller_coaster%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1942904.webp",
-    "author": "Fred Hsu on en.wikipedia",
+    "file": "images/photo/wd_Q3090780.webp",
+    "author": "METRO96",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Mohonk_Mountain_House_2011_View_of_Mohonk_Guest_Rooms_from_One_Hiking_Trail_FRD_3205.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:SFMM-_Full_Throttle.JPG"
    }
   },
   {
-   "id": "wd:Q41677406",
-   "name": "Green Bank Observatory",
-   "label": "Green Bank Observatory",
+   "id": "wd:Q15210318",
+   "name": "Church of the Good Shepherd (Beverly Hills, California)",
+   "label": "Church of the Good Shepherd (Beverly Hills, California)",
    "type": "built",
-   "kind": "astronomical observatory",
-   "region": "US-WV",
+   "kind": "church",
+   "region": "US-CA",
    "country": "US",
-   "lat": 38.4379,
-   "lon": -79.8362,
+   "lat": 34.0694,
+   "lon": -118.4075,
    "rarity": "Epic",
-   "fame": 25758,
+   "fame": 26244,
    "facts": {
-    "elevation_m": 818,
-    "temp_c": 8.4
+    "elevation_m": 87,
+    "temp_c": 17.5
    },
    "flavour": {
-    "text": "The Green Bank Observatory is an astronomical observatory located in the National Radio Quiet Zone in Green Bank, West Virginia.",
+    "text": "The Church of the Good Shepherd is a historic Catholic church at 504 North Roxbury Drive in Beverly Hills, California.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Green Bank Observatory",
-    "url": "https://en.wikipedia.org/wiki/Green_Bank_Observatory",
+    "title": "Church of the Good Shepherd (Beverly Hills, California)",
+    "url": "https://en.wikipedia.org/wiki/Church_of_the_Good_Shepherd_%28Beverly_Hills%2C_California%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q41677406.webp",
-    "author": "Jarek Tuszyński",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Green_Banks_-_GBT_4.jpg"
+    "file": "images/photo/wd_Q15210318.webp",
+    "author": "Alexis Doine",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_the_Good_Shepherd_(Beverly_Hills,_California),_August_2024.JPG"
    }
   },
   {
-   "id": "wd:Q4905727",
-   "name": "Big Four Bridge",
-   "label": "Big Four Bridge",
+   "id": "wd:Q2182804",
+   "name": "Palisades Tahoe",
+   "label": "Palisades Tahoe",
    "type": "built",
-   "kind": "bicycle bridge",
-   "region": "US-KY",
+   "kind": "ski resort",
+   "region": "US-CA",
    "country": "US",
-   "lat": 38.2656,
-   "lon": -85.7389,
+   "lat": 39.1882,
+   "lon": -120.2639,
    "rarity": "Epic",
-   "fame": 14562,
+   "fame": 23736,
    "facts": {
-    "elevation_m": 122,
-    "length_km": 0.8,
-    "temp_c": 13.7
+    "elevation_m": 2410,
+    "temp_c": 5.3
    },
    "flavour": {
-    "text": "The Big Four Bridge is a six-span truss bridge that crosses the Ohio River, connecting Louisville, Kentucky, and Jeffersonville, Indiana.",
+    "text": "Palisades Tahoe is a ski resort in the Western United States, located in Olympic Valley, California, northwest of Tahoe City in the Sierra Nevada range.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Big Four Bridge",
-    "url": "https://en.wikipedia.org/wiki/Big_Four_Bridge",
+    "title": "Palisades Tahoe",
+    "url": "https://en.wikipedia.org/wiki/Palisades_Tahoe",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q4905727.webp",
-    "author": "Nyttend",
+    "file": "images/photo/wd_Q2182804.webp",
+    "author": "Jonnyboyca at English Wikipedia",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Big_Four_Bridge,_western_side.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:TheVillageatSquawValley-exterior.jpg"
    }
   },
   {
-   "id": "wd:Q1587879",
-   "name": "Harvard Stadium",
-   "label": "Harvard Stadium",
+   "id": "wd:Q15249539",
+   "name": "Mary E. Surratt Boarding House",
+   "label": "Mary E. Surratt Boarding House",
    "type": "built",
-   "kind": "stadium",
-   "region": "US-MA",
+   "kind": "townhouse",
+   "region": "US-DC",
    "country": "US",
-   "lat": 42.3667,
-   "lon": -71.1268,
+   "lat": 38.8996,
+   "lon": -77.0205,
    "rarity": "Epic",
-   "fame": 39990,
+   "fame": 12006,
    "facts": {
-    "elevation_m": 9.0,
-    "temp_c": 10.0
+    "elevation_m": 14,
+    "area_km2": 0.0,
+    "temp_c": 13.5
    },
    "flavour": {
-    "text": "Owned and operated by Harvard University, it is home to the Harvard Crimson football program and can seat just over 25,000 spectators.",
+    "text": "The Mary E. Surratt Boarding House in Washington, D.C. was the site of meetings of conspirators to kidnap and subsequently to assassinate U.S. President…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Harvard Stadium",
-    "url": "https://en.wikipedia.org/wiki/Harvard_Stadium",
+    "title": "Mary E. Surratt Boarding House",
+    "url": "https://en.wikipedia.org/wiki/Mary_E._Surratt_Boarding_House",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1587879.webp",
-    "author": "Nick Allen",
+    "file": "images/photo/wd_Q15249539.webp",
+    "author": "Difference engine",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Harvard_Stadium_aerial_axonometric.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_E._Surratt_Boarding_House.jpg"
    }
   },
   {
-   "id": "wd:Q14706613",
-   "name": "James B. Duke House",
-   "label": "James B. Duke House",
+   "id": "wd:Q1293993",
+   "name": "Mike O'Callaghan–Pat Tillman Memorial Bridge",
+   "label": "Mike O'Callaghan–Pat Tillman Memorial Bridge",
    "type": "built",
-   "kind": "mansion",
-   "region": "US-NY",
+   "kind": "arch bridge",
+   "region": "US-NV",
    "country": "US",
-   "lat": 40.7764,
-   "lon": -73.9639,
+   "lat": 36.0125,
+   "lon": -114.7414,
    "rarity": "Epic",
-   "fame": 14088,
+   "fame": 52476,
    "facts": {
-    "elevation_m": 37,
-    "temp_c": 12.1
-   },
-   "flavour": {
-    "text": "The James B. Duke House is a mansion at 1 East 78th Street, on the northeast corner of Fifth Avenue, on the Upper East Side of Manhattan in New York City.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "James B. Duke House",
-    "url": "https://en.wikipedia.org/wiki/James_B._Duke_House",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q14706613.webp",
-    "author": "Gryffindor",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:James_B_Duke_House_001.JPG"
-   }
-  },
-  {
-   "id": "wd:Q16892967",
-   "name": "Jungle City Studios",
-   "label": "Jungle City Studios",
-   "type": "built",
-   "kind": "recording studio",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 40.7505,
-   "lon": -74.0037,
-   "rarity": "Epic",
-   "fame": 18306,
-   "facts": {
-    "elevation_m": 9.0,
-    "temp_c": 12.1
-   },
-   "flavour": {
-    "text": "Jungle City Studios is a recording studio owned and operated by Ann Mincieli, Alicia Keys's longtime engineer and studio coordinator.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Jungle City Studios",
-    "url": "https://en.wikipedia.org/wiki/Jungle_City_Studios",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q16892967.webp",
-    "author": "Walters-Storyk Design Group (WSDG)",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Jungle_City_Studios.jpeg"
-   }
-  },
-  {
-   "id": "wd:Q6907207",
-   "name": "Moody Gardens",
-   "label": "Moody Gardens",
-   "type": "built",
-   "kind": "botanical garden",
-   "region": "US-TX",
-   "country": "US",
-   "lat": 29.2741,
-   "lon": -94.8513,
-   "rarity": "Epic",
-   "fame": 15030,
-   "facts": {
-    "elevation_m": 1.0,
+    "elevation_m": 225,
+    "length_km": 0.6,
     "temp_c": 20.8
    },
    "flavour": {
-    "text": "Moody Gardens, established in 1986 by The Moody Foundation, is a non-profit attraction in Galveston, Texas.",
+    "text": "The Mike O'Callaghan–Pat Tillman Memorial Bridge is an arch bridge that spans the Colorado River between the U.S. states of Arizona and Nevada.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Moody Gardens",
-    "url": "https://en.wikipedia.org/wiki/Moody_Gardens",
+    "title": "Mike O'Callaghan–Pat Tillman Memorial Bridge",
+    "url": "https://en.wikipedia.org/wiki/Mike_O%27Callaghan%E2%80%93Pat_Tillman_Memorial_Bridge",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6907207.webp",
-    "author": "Own work",
-    "licence": "GFDL",
-    "licence_url": "http://www.gnu.org/copyleft/fdl.html",
-    "page": "https://commons.wikimedia.org/wiki/File:MoodyGardens.jpg"
-   }
-  },
-  {
-   "id": "wd:Q13689",
-   "name": "The Battery",
-   "label": "The Battery (near New York City)",
-   "type": "built",
-   "kind": "urban park",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 40.7036,
-   "lon": -74.0161,
-   "rarity": "Epic",
-   "fame": 65172,
-   "facts": {
-    "elevation_m": 1.0,
-    "area_km2": 0.1,
-    "temp_c": 12.1
-   },
-   "flavour": {
-    "text": "The Battery, formerly known as Battery Park, is a 25-acre public park located at the southern tip of Manhattan Island in New York City facing New York Harbor.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "The Battery (Manhattan)",
-    "url": "https://en.wikipedia.org/wiki/The_Battery_%28Manhattan%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q13689.webp",
-    "author": "Gryffindor",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Battery_Park.JPG"
-   }
-  },
-  {
-   "id": "wd:Q6175505",
-   "name": "Jefferson Hotel",
-   "label": "Jefferson Hotel",
-   "type": "built",
-   "kind": "hotel",
-   "region": "US-VA",
-   "country": "US",
-   "lat": 37.5442,
-   "lon": -77.4456,
-   "rarity": "Epic",
-   "fame": 12516,
-   "facts": {
-    "elevation_m": 57,
-    "temp_c": 14.7
-   },
-   "flavour": {
-    "text": "In 1969, it was listed on the National Register of Historic Places.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Jefferson Hotel (Richmond, Virginia)",
-    "url": "https://en.wikipedia.org/wiki/Jefferson_Hotel_%28Richmond%2C_Virginia%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q6175505.webp",
-    "author": "Mentes at English Wikipedia",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Jefferson_Hotel_Richmond_VA.jpg"
-   }
-  },
-  {
-   "id": "wd:Q20372160",
-   "name": "Fiserv Forum",
-   "label": "Fiserv Forum",
-   "type": "built",
-   "kind": "arena",
-   "region": "US-WI",
-   "country": "US",
-   "lat": 43.0451,
-   "lon": -87.9182,
-   "rarity": "Epic",
-   "fame": 59928,
-   "facts": {
-    "elevation_m": 182,
-    "temp_c": 8.5
-   },
-   "flavour": {
-    "text": "It is the home of the Milwaukee Bucks of the National Basketball Association and the Marquette Golden Eagles men's basketball team of Marquette University.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Fiserv Forum",
-    "url": "https://en.wikipedia.org/wiki/Fiserv_Forum",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q20372160.webp",
-    "author": "Michael Barera",
+    "file": "images/photo/wd_Q1293993.webp",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Milwaukee_July_2022_022_(Fiserv_Forum).jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Mike_O%27Callaghan%E2%80%93Pat_Tillman_Memorial_Bridge_09_2017_4768.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5500102",
+   "name": "Free State of Galveston",
+   "label": "Free State of Galveston",
+   "type": "built",
+   "kind": "seaside resort",
+   "region": "US-TX",
+   "country": "US",
+   "lat": 29.2811,
+   "lon": -94.8258,
+   "rarity": "Epic",
+   "fame": 18108,
+   "facts": {
+    "elevation_m": 2.0,
+    "temp_c": 20.9
+   },
+   "flavour": {
+    "text": "The Free State of Galveston was a satirical name given to the coastal city of Galveston in the U.S. state of Texas during the early-to-mid-20th century.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Free State of Galveston",
+    "url": "https://en.wikipedia.org/wiki/Free_State_of_Galveston",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5500102.webp",
+    "author": "Tichnor Bros. Inc. Boston Mass",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:BeachBoulevardGalvestonPostcard.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6674508",
+   "name": "Longwood",
+   "label": "Longwood (near Natchez)",
+   "type": "built",
+   "kind": "villa",
+   "region": "US-MS",
+   "country": "US",
+   "lat": 31.5367,
+   "lon": -91.4047,
+   "rarity": "Epic",
+   "fame": 14892,
+   "facts": {
+    "elevation_m": 69,
+    "temp_c": 18.6
+   },
+   "flavour": {
+    "text": "Longwood, also known as Nutt's Folly, is a historic antebellum octagonal mansion located at 140 Lower Woodville Road in Natchez, Mississippi, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Longwood (Natchez, Mississippi)",
+    "url": "https://en.wikipedia.org/wiki/Longwood_%28Natchez%2C_Mississippi%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6674508.webp",
+    "author": "Carol M. Highsmith",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Longwood_by_Highsmith_01.jpg"
+   }
+  },
+  {
+   "id": "wd:Q4479814",
+   "name": "West Baden Springs Hotel",
+   "label": "West Baden Springs Hotel",
+   "type": "built",
+   "kind": "hotel building",
+   "region": "US-IN",
+   "country": "US",
+   "lat": 38.5672,
+   "lon": -86.6181,
+   "rarity": "Epic",
+   "fame": 22308,
+   "facts": {
+    "elevation_m": 162,
+    "temp_c": 12.2
+   },
+   "flavour": {
+    "text": "The West Baden Springs Hotel, formerly the West Baden Inn, is part of the French Lick Resort and is a national historic landmark hotel in West Baden Springs.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "West Baden Springs Hotel",
+    "url": "https://en.wikipedia.org/wiki/West_Baden_Springs_Hotel",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q4479814.webp",
+    "author": "Nyttend",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:West_Baden_Springs_Hotel_dome_at_dawn.jpg"
+   }
+  },
+  {
+   "id": "wd:Q655014",
+   "name": "Cathedral of Saint Paul, National Shrine of the Apostle Paul",
+   "label": "Cathedral of Saint Paul, National Shrine of the Apostle Paul",
+   "type": "built",
+   "kind": "cathedral",
+   "region": "US-MN",
+   "country": "US",
+   "lat": 44.9469,
+   "lon": -93.1089,
+   "rarity": "Epic",
+   "fame": 41028,
+   "facts": {
+    "elevation_m": 277,
+    "height_m": 93,
+    "length_km": 0.1,
+    "temp_c": 7.5
+   },
+   "flavour": {
+    "text": "It is the co-cathedral of the Archdiocese of Saint Paul and Minneapolis, along with the Basilica of Saint Mary in Minneapolis.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral of Saint Paul (Minnesota)",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_of_Saint_Paul_%28Minnesota%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q655014.webp",
+    "author": "AlexiusHoratius",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_Paul_(Minnesota)_5.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7076384",
+   "name": "Ochre Court",
+   "label": "Ochre Court",
+   "type": "built",
+   "kind": "villa",
+   "region": "US-RI",
+   "country": "US",
+   "lat": 41.4738,
+   "lon": -71.2989,
+   "rarity": "Epic",
+   "fame": 19530,
+   "facts": {
+    "elevation_m": 21,
+    "temp_c": 10.3
+   },
+   "flavour": {
+    "text": "Commissioned by Ogden Goelet, it was built at a cost of $4.5 million in 1892.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Ochre Court",
+    "url": "https://en.wikipedia.org/wiki/Ochre_Court",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7076384.webp",
+    "author": "Dennis Heller",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ochre_Court,_Newport.jpg"
    }
   },
   {
@@ -1587,13 +1591,13 @@
    "rarity": "Epic",
    "fame": 76476,
    "facts": {
-    "population": 39520,
+    "population": 43505,
     "elevation_m": 11,
     "area_km2": 83,
     "temp_c": 10.5
    },
    "flavour": {
-    "text": "The population was 43,505 at the 2020 census and an estimated 44,122 in 2021, making it the largest city on the Kitsap Peninsula.",
+    "text": "Bremerton is home to Puget Sound Naval Shipyard and the Bremerton Annex of Naval Base Kitsap.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Bremerton, Washington",
@@ -1622,7 +1626,7 @@
    "rarity": "Epic",
    "fame": 100830,
    "facts": {
-    "population": 70475,
+    "population": 74553,
     "elevation_m": 17,
     "area_km2": 63,
     "temp_c": 12.7
@@ -1657,7 +1661,7 @@
    "rarity": "Epic",
    "fame": 228456,
    "facts": {
-    "population": 201020,
+    "population": 196543,
     "elevation_m": 159,
     "area_km2": 79,
     "temp_c": 18.6
@@ -1692,7 +1696,7 @@
    "rarity": "Epic",
    "fame": 94050,
    "facts": {
-    "population": 235429,
+    "population": 249422,
     "elevation_m": 3.0,
     "area_km2": 909,
     "temp_c": 15.7
@@ -1727,7 +1731,7 @@
    "rarity": "Epic",
    "fame": 112938,
    "facts": {
-    "population": 6774,
+    "population": 6673,
     "elevation_m": 13,
     "area_km2": 6.3,
     "temp_c": 12.0
@@ -1762,7 +1766,7 @@
    "rarity": "Epic",
    "fame": 194466,
    "facts": {
-    "population": 12019,
+    "population": 13179,
     "elevation_m": 2198,
     "area_km2": 29,
     "temp_c": 9.5
@@ -1797,7 +1801,7 @@
    "rarity": "Epic",
    "fame": 111510,
    "facts": {
-    "population": 1924,
+    "population": 1725,
     "elevation_m": 328,
     "area_km2": 4.4,
     "temp_c": 16.6
@@ -1832,13 +1836,13 @@
    "rarity": "Epic",
    "fame": 94158,
    "facts": {
-    "population": 7131,
+    "population": 7107,
     "elevation_m": 3.0,
     "area_km2": 17,
     "temp_c": 25.2
    },
    "flavour": {
-    "text": "As of the 2020 census, the village had a population of 7,107, up from 6,119 in 2010.",
+    "text": "Islamorada is an incorporated village in Monroe County, Florida, United States.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Islamorada, Florida",
@@ -1867,7 +1871,7 @@
    "rarity": "Epic",
    "fame": 248430,
    "facts": {
-    "population": 46838,
+    "population": 48864,
     "elevation_m": 182,
     "area_km2": 85,
     "temp_c": 12.3
@@ -1902,13 +1906,13 @@
    "rarity": "Epic",
    "fame": 127086,
    "facts": {
-    "population": 16476,
+    "population": 15217,
     "elevation_m": 277,
     "area_km2": 20,
     "temp_c": 20.5
    },
    "flavour": {
-    "text": "The population was 15,217 at the 2020 census, down from 15,751 in 2010.",
+    "text": "It is the principal city in the Uvalde, Texas Micropolitan Statistical Area.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Uvalde, Texas",
@@ -1925,69 +1929,69 @@
    }
   },
   {
-   "id": "wd:Q1345100",
-   "name": "Kryptos",
-   "label": "Kryptos",
+   "id": "wd:Q1166157",
+   "name": "Toyota Center",
+   "label": "Toyota Center",
    "type": "built",
-   "kind": "ciphertext",
-   "region": "US-VA",
+   "kind": "arena",
+   "region": "US-TX",
    "country": "US",
-   "lat": 38.9523,
-   "lon": -77.1458,
+   "lat": 29.7508,
+   "lon": -95.3622,
    "rarity": "Legendary",
-   "fame": 154704,
+   "fame": 71526,
    "facts": {
-    "elevation_m": 75,
-    "temp_c": 13.5
+    "elevation_m": 38,
+    "temp_c": 20.9
    },
    "flavour": {
-    "text": "Kryptos is a sculpture by the American artist Jim Sanborn located on the grounds of the Central Intelligence Agency headquarters.",
+    "text": "It is named after the Japanese automobile manufacturer Toyota.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Kryptos",
-    "url": "https://en.wikipedia.org/wiki/Kryptos",
+    "title": "Toyota Center",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Center",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1345100.webp",
-    "author": "Jim Sanborn",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kryptos_sculptor.jpg"
+    "file": "images/photo/wd_Q1166157.webp",
+    "author": "Ed Uthman from Houston, TX, USA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toyota_Center_entr.jpg"
    }
   },
   {
-   "id": "wd:Q2956557",
-   "name": "Loretto Chapel",
-   "label": "Loretto Chapel",
+   "id": "wd:Q461382",
+   "name": "Karl G. Jansky Very Large Array",
+   "label": "Karl G. Jansky Very Large Array",
    "type": "built",
-   "kind": "chapel",
+   "kind": "combined facility",
    "region": "US-NM",
    "country": "US",
-   "lat": 35.6856,
-   "lon": -105.938,
+   "lat": 34.0787,
+   "lon": -107.6177,
    "rarity": "Legendary",
-   "fame": 173232,
+   "fame": 84984,
    "facts": {
-    "elevation_m": 2134,
-    "temp_c": 8.8
+    "elevation_m": 2124,
+    "temp_c": 9.3
    },
    "flavour": {
-    "text": "The Loretto Chapel is a former Roman Catholic church in Santa Fe, New Mexico, United States, that is now a privately owned museum and a wedding chapel.",
+    "text": "The Karl G. Jansky Very Large Array is a centimeter-wavelength radio astronomy observatory in the southwestern United States built in the 1970s.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Loretto Chapel",
-    "url": "https://en.wikipedia.org/wiki/Loretto_Chapel",
+    "title": "Very Large Array",
+    "url": "https://en.wikipedia.org/wiki/Very_Large_Array",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q2956557.webp",
-    "author": "User:Camerafiend",
+    "file": "images/photo/wd_Q461382.webp",
+    "author": "user:Hajor",
     "licence": "CC BY-SA 3.0",
     "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Loretto_Chapel_Ext.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:USA.NM.VeryLargeArray.02.jpg"
    }
   },
   {
@@ -2025,69 +2029,70 @@
    }
   },
   {
-   "id": "wd:Q1110789",
-   "name": "KeyBank Center",
-   "label": "KeyBank Center",
+   "id": "wd:Q371973",
+   "name": "Bill Gates's house",
+   "label": "Bill Gates's house",
    "type": "built",
-   "kind": "arena",
-   "region": "US-NY",
+   "kind": "earth shelter",
+   "region": "US-WA",
    "country": "US",
-   "lat": 42.875,
-   "lon": -78.8764,
+   "lat": 47.6278,
+   "lon": -122.242,
    "rarity": "Legendary",
-   "fame": 69258,
+   "fame": 76206,
    "facts": {
-    "elevation_m": 186,
-    "temp_c": 8.8
+    "elevation_m": 11,
+    "temp_c": 10.9
    },
    "flavour": {
-    "text": "Originally known as Marine Midland Arena, the venue has since been named HSBC Arena and First Niagara Center.",
+    "text": "Bill Gates designed and owns a 66,000-square-foot mansion that is on Lake Washington in Medina, Washington.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "KeyBank Center",
-    "url": "https://en.wikipedia.org/wiki/KeyBank_Center",
+    "title": "Bill Gates's house",
+    "url": "https://en.wikipedia.org/wiki/Bill_Gates%27s_house",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1110789.webp",
-    "author": "Andre Carrotflower",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:KeyBank_Center_side_view_from_Main_Street_at_Prime_Street,_Buffalo,_New_York_-_20210725.jpg"
+    "file": "images/photo/wd_Q371973.webp",
+    "author": "Jeff Wilcox",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Residence_of_Bill_Gates.jpg"
    }
   },
   {
-   "id": "wd:Q16251517",
-   "name": "Highmark Stadium",
-   "label": "Highmark Stadium",
+   "id": "wd:Q2631701",
+   "name": "Central Park Tower",
+   "label": "Central Park Tower",
    "type": "built",
-   "kind": "stadium",
+   "kind": "supertall building",
    "region": "US-NY",
    "country": "US",
-   "lat": 42.773,
-   "lon": -78.7922,
+   "lat": 40.7663,
+   "lon": -73.9809,
    "rarity": "Legendary",
-   "fame": 276264,
+   "fame": 260904,
    "facts": {
-    "elevation_m": 231,
-    "temp_c": 8.2
+    "elevation_m": 67,
+    "height_m": 472,
+    "temp_c": 12.1
    },
    "flavour": {
-    "text": "It opened in 2026, serving as the home field of the Buffalo Bills of the National Football League.",
+    "text": "Central Park Tower is a residential supertall skyscraper at 217 West 57th Street, along Billionaires' Row.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Highmark Stadium",
-    "url": "https://en.wikipedia.org/wiki/Highmark_Stadium",
+    "title": "Central Park Tower",
+    "url": "https://en.wikipedia.org/wiki/Central_Park_Tower",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q16251517.webp",
-    "author": "James161723",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:New_Highmark_Stadium_construction,_2025.webp"
+    "file": "images/photo/wd_Q2631701.webp",
+    "author": "GrissJr",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CentralParkTowerSep20.jpg"
    }
   },
   {
@@ -2120,70 +2125,70 @@
    }
   },
   {
-   "id": "wd:Q1066676",
-   "name": "Plaza Hotel",
-   "label": "Plaza Hotel",
+   "id": "wd:Q941908",
+   "name": "3 World Trade Center",
+   "label": "3 World Trade Center",
    "type": "built",
-   "kind": "hotel",
+   "kind": "skyscraper",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.7645,
-   "lon": -73.9744,
+   "lat": 40.7109,
+   "lon": -74.0116,
    "rarity": "Legendary",
-   "fame": 211290,
+   "fame": 76506,
    "facts": {
-    "elevation_m": 40,
-    "height_m": 76,
+    "elevation_m": 1.0,
+    "height_m": 329,
     "temp_c": 12.1
    },
    "flavour": {
-    "text": "Its primary address is 768 Fifth Avenue, though the residential entrance is One Central Park South.",
+    "text": "3 World Trade Center is a skyscraper constructed as part of the new World Trade Center in Lower Manhattan, New York City.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Plaza Hotel",
-    "url": "https://en.wikipedia.org/wiki/Plaza_Hotel",
+    "title": "3 World Trade Center",
+    "url": "https://en.wikipedia.org/wiki/3_World_Trade_Center",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1066676.webp",
-    "author": "Yarl",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:New_York_-_Manhattan_-_Plaza_Hotel.jpg"
+    "file": "images/photo/wd_Q941908.webp",
+    "author": "dconvertini",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Looking_up_at_3_and_4_World_Trade_Center_(straightened,_cropped,_3).jpg"
    }
   },
   {
-   "id": "wd:Q135556408",
-   "name": "Hard Rock Las Vegas",
-   "label": "Hard Rock Las Vegas",
+   "id": "wd:Q1309059",
+   "name": "Wynn Las Vegas",
+   "label": "Wynn Las Vegas",
    "type": "built",
-   "kind": "casino hotel",
+   "kind": "casino",
    "region": "US-NV",
    "country": "US",
-   "lat": 36.1211,
-   "lon": -115.1753,
+   "lat": 36.1275,
+   "lon": -115.1678,
    "rarity": "Legendary",
-   "fame": 99972,
+   "fame": 98346,
    "facts": {
-    "elevation_m": 653,
+    "elevation_m": 635,
     "temp_c": 18.8
    },
    "flavour": {
-    "text": "Hard Rock Las Vegas is a casino hotel resort under construction at the center of the Las Vegas Strip in Paradise, Nevada.",
+    "text": "Wynn Las Vegas, often simply referred to as Wynn, is a luxury resort and casino located on the Las Vegas Strip in Paradise, Nevada, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Hard Rock Las Vegas",
-    "url": "https://en.wikipedia.org/wiki/Hard_Rock_Las_Vegas",
+    "title": "Wynn Las Vegas",
+    "url": "https://en.wikipedia.org/wiki/Wynn_Las_Vegas",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q135556408.webp",
-    "author": "Dialh",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Las_Vegas_under_construction.jpg"
+    "file": "images/photo/wd_Q1309059.webp",
+    "author": "Alexander Migl",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Vegas_Wynn_P4220706.jpg"
    }
   },
   {
@@ -2477,7 +2482,7 @@
    "rarity": "Legendary",
    "fame": 1453122,
    "facts": {
-    "population": 1573916,
+    "population": 1603797,
     "elevation_m": 12,
     "area_km2": 370,
     "temp_c": 12.7
@@ -2512,7 +2517,7 @@
    "rarity": "Legendary",
    "fame": 418680,
    "facts": {
-    "population": 66881,
+    "population": 68408,
     "elevation_m": 19,
     "area_km2": 180,
     "temp_c": 8.0
@@ -2582,7 +2587,7 @@
    "rarity": "Legendary",
    "fame": 631404,
    "facts": {
-    "population": 1009833,
+    "population": 949611,
     "elevation_m": 5.0,
     "area_km2": 2265,
     "temp_c": 20.8
@@ -2617,7 +2622,7 @@
    "rarity": "Legendary",
    "fame": 785340,
    "facts": {
-    "population": 911311,
+    "population": 964784,
     "elevation_m": 229,
     "area_km2": 796,
     "temp_c": 15.7
@@ -2652,7 +2657,7 @@
    "rarity": "Legendary",
    "fame": 396174,
    "facts": {
-    "population": 93220,
+    "population": 93076,
     "elevation_m": 32,
     "area_km2": 22,
     "temp_c": 17.5
@@ -2745,400 +2750,391 @@
    }
   },
   {
-   "id": "wd:Q5332692",
-   "name": "Echo Dam",
-   "label": "Echo Dam",
+   "id": "wd:Q6799881",
+   "name": "McAlester Arboretum",
+   "label": "McAlester Arboretum",
    "type": "built",
-   "kind": "dam",
-   "region": "US-UT",
+   "kind": "botanical garden",
+   "region": "US-MO",
    "country": "US",
-   "lat": 40.966,
-   "lon": -111.43,
+   "lat": 38.9482,
+   "lon": -92.3298,
    "rarity": "Rare",
-   "fame": 630,
+   "fame": 426,
    "facts": {
-    "elevation_m": 1691,
-    "temp_c": 6.2
+    "elevation_m": 221,
+    "temp_c": 12.3
    },
    "flavour": {
-    "text": "Echo Dam is a dam in Summit County, Utah, standing about six miles north of Coalville and creating Echo Reservoir.",
+    "text": "Peace Park also known as McAlester Arboretum is a park and arboretum located on the University of Missouri campus in Columbia, Missouri, United States.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Echo Dam",
-    "url": "https://en.wikipedia.org/wiki/Echo_Dam",
+    "title": "Peace Park (Missouri)",
+    "url": "https://en.wikipedia.org/wiki/Peace_Park_%28Missouri%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5332692.webp",
-    "author": "Mr. Satterly",
-    "licence": "WTFPL",
-    "licence_url": "http://www.wtfpl.net/about/",
-    "page": "https://commons.wikimedia.org/wiki/File:Echo_Reservoir_and_Echo_Dam_seen_from_Interstate_80_in_Summit_County,_Utah.jpg"
-   }
-  },
-  {
-   "id": "wd:Q8022291",
-   "name": "Willow Creek Dam",
-   "label": "Willow Creek Dam (near Granby)",
-   "type": "built",
-   "kind": "dam",
-   "region": "US-CO",
-   "country": "US",
-   "lat": 40.1475,
-   "lon": -105.942,
-   "rarity": "Rare",
-   "fame": 336,
-   "facts": {
-    "elevation_m": 2478,
-    "temp_c": 2.9
-   },
-   "flavour": {
-    "text": "Willow Creek Dam is a dam in Grand County, Colorado.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Willow Creek Dam (Colorado)",
-    "url": "https://en.wikipedia.org/wiki/Willow_Creek_Dam_%28Colorado%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q8022291.webp",
-    "author": "Jeffrey Beall",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Willow_Creek_Dam_(Colorado).JPG"
-   }
-  },
-  {
-   "id": "wd:Q7727655",
-   "name": "The Summit at Danbury",
-   "label": "The Summit at Danbury",
-   "type": "built",
-   "kind": "fixed construction",
-   "region": "US-CT",
-   "country": "US",
-   "lat": 41.382,
-   "lon": -73.5302,
-   "rarity": "Rare",
-   "fame": 5454,
-   "facts": {
-    "elevation_m": 217,
-    "temp_c": 9.6
-   },
-   "flavour": {
-    "text": "The Summit at Danbury, formerly known as the Matrix Corporate Center and before that as the Union Carbide Corporate Center.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "The Summit at Danbury",
-    "url": "https://en.wikipedia.org/wiki/The_Summit_at_Danbury",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7727655.webp",
-    "author": "United States Geological Survey (USGS)",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:UnionCarbideHQ.jpg"
-   }
-  },
-  {
-   "id": "wd:Q7985109",
-   "name": "West End Wheelmen's Club",
-   "label": "West End Wheelmen's Club",
-   "type": "built",
-   "kind": "clubhouse",
-   "region": "US-PA",
-   "country": "US",
-   "lat": 41.24,
-   "lon": -75.8964,
-   "rarity": "Rare",
-   "fame": 288,
-   "facts": {
-    "elevation_m": 166,
-    "temp_c": 9.0
-   },
-   "flavour": {
-    "text": "West End Wheelmen's Club, also known as the Franklin Club and Knights of Columbus, is a historic clubhouse located at Wilkes-Barre, Luzerne County.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "West End Wheelmen's Club",
-    "url": "https://en.wikipedia.org/wiki/West_End_Wheelmen%27s_Club",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7985109.webp",
-    "author": "Smallbones",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Wheelmans_1_Wilkes-Barre_LuzCo_PA.JPG"
-   }
-  },
-  {
-   "id": "wd:Q368771",
-   "name": "House VI",
-   "label": "House VI",
-   "type": "built",
-   "kind": "single-family detached home",
-   "region": "US-CT",
-   "country": "US",
-   "lat": 41.8327,
-   "lon": -73.3214,
-   "rarity": "Rare",
-   "fame": 5298,
-   "facts": {
-    "elevation_m": 283,
-    "temp_c": 8.2
-   },
-   "flavour": {
-    "text": "House VI, or the Frank Residence, is a building in Cornwall, Connecticut, designed by Peter Eisenman, completed in 1975.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "House VI",
-    "url": "https://en.wikipedia.org/wiki/House_VI",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q368771.webp",
-    "author": "Pedro Xing",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:House_VI_024.JPG"
-   }
-  },
-  {
-   "id": "wd:Q7334216",
-   "name": "Riley Lucas Bartholomew House",
-   "label": "Riley Lucas Bartholomew House",
-   "type": "built",
-   "kind": "single-family detached home",
-   "region": "US-MN",
-   "country": "US",
-   "lat": 44.8778,
-   "lon": -93.2881,
-   "rarity": "Rare",
-   "fame": 468,
-   "facts": {
-    "elevation_m": 260,
-    "temp_c": 7.6
-   },
-   "flavour": {
-    "text": "The Riley Lucas Bartholomew House is a historic house museum in Richfield, Minnesota, United States.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Riley Lucas Bartholomew House",
-    "url": "https://en.wikipedia.org/wiki/Riley_Lucas_Bartholomew_House",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7334216.webp",
-    "author": "McGhiever",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Riley_Lucas_Bartholomew_House_2017.jpg"
-   }
-  },
-  {
-   "id": "wd:Q64106522",
-   "name": "The Eugene",
-   "label": "The Eugene",
-   "type": "built",
-   "kind": "skyscraper",
-   "region": "US-NY",
-   "country": "US",
-   "lat": 40.7519,
-   "lon": -73.9979,
-   "rarity": "Rare",
-   "fame": 2814,
-   "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 12.1
-   },
-   "flavour": {
-    "text": "The Eugene, located at 435 West 31st Street, is a residential tower that is part of the Manhattan West project, and broke ground in December 2014.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "The Eugene",
-    "url": "https://en.wikipedia.org/wiki/The_Eugene",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q64106522.webp",
-    "author": "Greaper37",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Manhattan_West_.jpg"
-   }
-  },
-  {
-   "id": "wd:Q3845321",
-   "name": "Memphis Tennessee Temple",
-   "label": "Memphis Tennessee Temple",
-   "type": "built",
-   "kind": "temple",
-   "region": "US-TN",
-   "country": "US",
-   "lat": 35.2408,
-   "lon": -89.8393,
-   "rarity": "Rare",
-   "fame": 1164,
-   "facts": {
-    "elevation_m": 100,
-    "temp_c": 16.1
-   },
-   "flavour": {
-    "text": "The Memphis Tennessee Temple is the 80th operating temple of the Church of Jesus Christ of Latter-day Saints.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Memphis Tennessee Temple",
-    "url": "https://en.wikipedia.org/wiki/Memphis_Tennessee_Temple",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q3845321.webp",
-    "author": "Dmm1169 ( talk )",
+    "file": "images/photo/wd_Q6799881.webp",
+    "author": "Grey Wanderer",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Memphis_Tennessee_Temple_01.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Monkey_house_at_peace_park.jpg"
    }
   },
   {
-   "id": "wd:Q7440263",
-   "name": "Seacliff State Beach",
-   "label": "Seacliff State Beach",
+   "id": "wd:Q7626122",
+   "name": "Sts. Peter and Paul Church",
+   "label": "Sts. Peter and Paul Church",
    "type": "built",
-   "kind": "California state beach",
-   "region": "US-CA",
+   "kind": "church",
+   "region": "US-AK",
    "country": "US",
-   "lat": 36.9722,
-   "lon": -121.914,
+   "lat": 57.1242,
+   "lon": -170.2825,
    "rarity": "Rare",
-   "fame": 2772,
+   "fame": 1794,
    "facts": {
-    "elevation_m": 11,
-    "temp_c": 14.0
+    "elevation_m": 3.0,
+    "temp_c": 2.3
    },
    "flavour": {
-    "text": "It is located off Highway 1 on State Park Drive, about 5 miles south of Santa Cruz.",
+    "text": "The current church, built in 1907, was listed on the National Register of Historic Places in 1980.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Seacliff State Beach",
-    "url": "https://en.wikipedia.org/wiki/Seacliff_State_Beach",
+    "title": "Sts. Peter and Paul Church (St. Paul Island, Alaska)",
+    "url": "https://en.wikipedia.org/wiki/Sts._Peter_and_Paul_Church_%28St._Paul_Island%2C_Alaska%29",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q7440263.webp",
-    "author": "Prg",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Seacliff_at_sunset.jpg"
+    "file": "images/photo/wd_Q7626122.webp",
+    "author": "Saint_Paul_Island,_Alaska_3.jpg : Jim Greenhill from Arlington and Durango, USA derivative work: Charvex ( talk )",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sts_Peter_and_Paul_Church_Saint_Paul_Island,_Alaska.jpg"
    }
   },
   {
-   "id": "wd:Q5501246",
-   "name": "Freeway Park",
-   "label": "Freeway Park",
+   "id": "wd:Q23018143",
+   "name": "Pike Island Locks and Dam",
+   "label": "Pike Island Locks and Dam",
    "type": "built",
-   "kind": "urban park",
-   "region": "US-WA",
+   "kind": "gravity dam",
+   "region": "US-OH",
    "country": "US",
-   "lat": 47.6097,
-   "lon": -122.331,
+   "lat": 40.1504,
+   "lon": -80.7034,
    "rarity": "Rare",
-   "fame": 4914,
+   "fame": 1074,
    "facts": {
-    "elevation_m": 56,
-    "temp_c": 10.9
+    "elevation_m": 196,
+    "temp_c": 10.7
    },
    "flavour": {
-    "text": "Freeway Park, officially known as Jim Ellis Freeway Park, is an urban park in Seattle, Washington, United States.",
+    "text": "Pike Island Lock and Dam is the fifth lock and dam on the Ohio River, located in Yorkville, Ohio 84 miles downstream of Pittsburgh.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Freeway Park",
-    "url": "https://en.wikipedia.org/wiki/Freeway_Park",
+    "title": "Pike Island Locks and Dam",
+    "url": "https://en.wikipedia.org/wiki/Pike_Island_Locks_and_Dam",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q5501246.webp",
-    "author": "Joe Mabel",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Parkour-04-4-perspective_corrected.jpg"
+    "file": "images/photo/wd_Q23018143.webp",
+    "author": "Army corps of engineers",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Pike_Island_Locks_and_Dam.jpeg"
    }
   },
   {
-   "id": "wd:Q134087867",
-   "name": "Sunset Dunes",
-   "label": "Sunset Dunes",
+   "id": "wd:Q6164234",
+   "name": "Houses at 26, 28 and 30 Jones Street",
+   "label": "Houses at 26, 28 and 30 Jones Street",
    "type": "built",
-   "kind": "urban park",
-   "region": "US-CA",
-   "country": "US",
-   "lat": 37.751,
-   "lon": -122.5087,
-   "rarity": "Rare",
-   "fame": 6468,
-   "facts": {
-    "elevation_m": 0.0,
-    "area_km2": 0.2,
-    "temp_c": 13.8
-   },
-   "flavour": {
-    "text": "Sunset Dunes is a 2 mi long public urban park next to Ocean Beach on the West Side of San Francisco, California.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sunset Dunes",
-    "url": "https://en.wikipedia.org/wiki/Sunset_Dunes",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q134087867.webp",
-    "author": "BriefEdits",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Sunset_Dunes_park,_sign,_San_Francisco_(May_2025).jpg"
-   }
-  },
-  {
-   "id": "wd:Q30624313",
-   "name": "Jackie Robinson Park",
-   "label": "Jackie Robinson Park",
-   "type": "built",
-   "kind": "park",
+   "kind": "terrace of houses",
    "region": "US-NY",
    "country": "US",
-   "lat": 40.8267,
-   "lon": -73.9411,
+   "lat": 40.7318,
+   "lon": -74.0028,
    "rarity": "Rare",
-   "fame": 3204,
+   "fame": 546,
    "facts": {
-    "elevation_m": 41,
+    "elevation_m": 12,
     "temp_c": 12.1
    },
    "flavour": {
-    "text": "Jackie Robinson Park is a public park in the Hamilton Heights and Harlem neighborhoods of Manhattan in New York City.",
+    "text": "26, 28, and 30 Jones Street are three historic Greek Revival-style rowhouses on Jones Street in the Greenwich Village neighborhood of Manhattan in New York…",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Jackie Robinson Park",
-    "url": "https://en.wikipedia.org/wiki/Jackie_Robinson_Park",
+    "title": "26, 28, and 30 Jones Street",
+    "url": "https://en.wikipedia.org/wiki/26%2C_28%2C_and_30_Jones_Street",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q30624313.webp",
-    "author": "Secret Egypt",
+    "file": "images/photo/wd_Q6164234.webp",
+    "author": "Pubdog ( talk )",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Houses_at_26,_28_and_30_Jones_Street_Jun_10.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5578981",
+   "name": "Golda's Mill",
+   "label": "Golda's Mill",
+   "type": "built",
+   "kind": "watermill",
+   "region": "US-OK",
+   "country": "US",
+   "lat": 35.8594,
+   "lon": -94.7647,
+   "rarity": "Rare",
+   "fame": 486,
+   "facts": {
+    "elevation_m": 266,
+    "temp_c": 14.9
+   },
+   "flavour": {
+    "text": "It was built in about 1882 by Dr. Nicholas Bitting on the site of an older mill.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Golda's Mill",
+    "url": "https://en.wikipedia.org/wiki/Golda%27s_Mill",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5578981.webp",
+    "author": "Don C Hodges",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Inside_Jackie_Robinson_Park.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:Golda%27s_Mill_near_Stilwell,_Oklahoma.jpg"
+   }
+  },
+  {
+   "id": "wd:Q6815429",
+   "name": "Memorial Hall",
+   "label": "Memorial Hall (near Kansas City)",
+   "type": "built",
+   "kind": "auditorium",
+   "region": "US-KS",
+   "country": "US",
+   "lat": 39.1124,
+   "lon": -94.6276,
+   "rarity": "Rare",
+   "fame": 5184,
+   "facts": {
+    "elevation_m": 262,
+    "temp_c": 13.0
+   },
+   "flavour": {
+    "text": "The 3,500-seat auditorium, which has a permanent stage, is used for public assemblies, concerts and sporting events.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Memorial Hall (Kansas City, Kansas)",
+    "url": "https://en.wikipedia.org/wiki/Memorial_Hall_%28Kansas_City%2C_Kansas%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6815429.webp",
+    "author": "Nja1985",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Memorial_Building_(front).JPG"
+   }
+  },
+  {
+   "id": "wd:Q8022343",
+   "name": "Willow Park Stable",
+   "label": "Willow Park Stable",
+   "type": "built",
+   "kind": "stable",
+   "region": "US-CO",
+   "country": "US",
+   "lat": 40.4336,
+   "lon": -105.7331,
+   "rarity": "Rare",
+   "fame": 282,
+   "facts": {
+    "elevation_m": 3300,
+    "temp_c": -0.5
+   },
+   "flavour": {
+    "text": "The Willow Park Stable in Rocky Mountain National Park was designed by National Park Service landscape architect Daniel Ray Hull and built in 1926.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Willow Park Stable",
+    "url": "https://en.wikipedia.org/wiki/Willow_Park_Stable",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q8022343.webp"
+   }
+  },
+  {
+   "id": "wd:Q6505710",
+   "name": "Layton Bridge",
+   "label": "Layton Bridge",
+   "type": "built",
+   "kind": "bridge",
+   "region": "US-PA",
+   "country": "US",
+   "lat": 40.0892,
+   "lon": -79.7303,
+   "rarity": "Rare",
+   "fame": 1152,
+   "facts": {
+    "elevation_m": 242,
+    "temp_c": 10.5
+   },
+   "flavour": {
+    "text": "Originally built for the Washington Run Railroad, construction began 1893 and was completed in 1899.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Layton Bridge",
+    "url": "https://en.wikipedia.org/wiki/Layton_Bridge",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q6505710.webp",
+    "author": "PennDOT",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Layton_Bridge.jpg"
+   }
+  },
+  {
+   "id": "wd:Q7092888",
+   "name": "One Maritime Plaza",
+   "label": "One Maritime Plaza",
+   "type": "built",
+   "kind": "skyscraper",
+   "region": "US-CA",
+   "country": "US",
+   "lat": 37.7956,
+   "lon": -122.3992,
+   "rarity": "Rare",
+   "fame": 6306,
+   "facts": {
+    "elevation_m": 4.0,
+    "temp_c": 14.1
+   },
+   "flavour": {
+    "text": "One Maritime Plaza is an office tower located in San Francisco's Financial District near the Embarcadero Center towers on Clay and Front Streets.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "One Maritime Plaza",
+    "url": "https://en.wikipedia.org/wiki/One_Maritime_Plaza",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7092888.webp",
+    "author": "Blackguard SF",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:One_Maritime_Plaza,_San_Francisco.jpg"
+   }
+  },
+  {
+   "id": "wd:Q130783869",
+   "name": "Alcove",
+   "label": "Alcove",
+   "type": "built",
+   "kind": "building",
+   "region": "US-TN",
+   "country": "US",
+   "lat": 36.1614,
+   "lon": -86.7847,
+   "rarity": "Rare",
+   "fame": 798,
+   "facts": {
+    "elevation_m": 153,
+    "temp_c": 14.9
+   },
+   "flavour": {
+    "text": "Construction started in 2021 and finished in 2023 after originally being proposed in 2020.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Alcove (Nashville)",
+    "url": "https://en.wikipedia.org/wiki/Alcove_%28Nashville%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q130783869.webp",
+    "author": "Wobbanight",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Alcove_Nashville.jpg"
+   }
+  },
+  {
+   "id": "wd:Q64214446",
+   "name": "First Security Bank Building",
+   "label": "First Security Bank Building",
+   "type": "built",
+   "kind": "bank building",
+   "region": "US-UT",
+   "country": "US",
+   "lat": 40.76,
+   "lon": -111.8897,
+   "rarity": "Rare",
+   "fame": 618,
+   "facts": {
+    "elevation_m": 1302,
+    "temp_c": 11.2
+   },
+   "flavour": {
+    "text": "The First Security Bank Building in Salt Lake City, Utah, is a 12-story International Style commercial structure built in 1954.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "First Security Bank Building",
+    "url": "https://en.wikipedia.org/wiki/First_Security_Bank_Building",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q64214446.webp",
+    "author": "Tamanoeconomico",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:First_Security_Bank_Building_(1).jpg"
+   }
+  },
+  {
+   "id": "wd:Q5284760",
+   "name": "Dix Dam",
+   "label": "Dix Dam",
+   "type": "built",
+   "kind": "dam",
+   "region": "US-KY",
+   "country": "US",
+   "lat": 37.7853,
+   "lon": -84.7039,
+   "rarity": "Rare",
+   "fame": 1320,
+   "facts": {
+    "elevation_m": 223,
+    "temp_c": 12.9
+   },
+   "flavour": {
+    "text": "It was constructed to generate hydroelectricity and prevent flooding of the Kentucky River but is better known for creating Herrington Lake.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Dix Dam",
+    "url": "https://en.wikipedia.org/wiki/Dix_Dam",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5284760.webp"
    }
   },
   {
@@ -3546,7 +3542,7 @@
    "rarity": "Rare",
    "fame": 26892,
    "facts": {
-    "population": 2883,
+    "population": 3020,
     "elevation_m": 477,
     "area_km2": 4.9,
     "temp_c": 11.1
@@ -3581,7 +3577,7 @@
    "rarity": "Rare",
    "fame": 18618,
    "facts": {
-    "population": 1283,
+    "population": 1243,
     "elevation_m": 3.0,
     "area_km2": 13,
     "temp_c": 12.7
@@ -3616,13 +3612,13 @@
    "rarity": "Rare",
    "fame": 28224,
    "facts": {
-    "population": 32681,
+    "population": 31334,
     "elevation_m": 323,
     "area_km2": 22,
     "temp_c": 17.6
    },
    "flavour": {
-    "text": "The population was 31,334 at the 2020 census.",
+    "text": "La Verne is a suburban city in the San Gabriel Valley of Los Angeles County, California, United States.",
     "source": "wikipedia",
     "lang": "en",
     "title": "La Verne, California",
@@ -3651,7 +3647,7 @@
    "rarity": "Rare",
    "fame": 27600,
    "facts": {
-    "population": 66504,
+    "population": 64591,
     "elevation_m": 81,
     "area_km2": 142,
     "temp_c": 16.8
@@ -3686,13 +3682,13 @@
    "rarity": "Rare",
    "fame": 67170,
    "facts": {
-    "population": 7414,
+    "population": 6489,
     "elevation_m": 834,
     "area_km2": 93,
     "temp_c": 16.6
    },
    "flavour": {
-    "text": "The population was 6,489 at the 2020 census.",
+    "text": "At approximately 2,700 feet above sea level, Joshua Tree and its surrounding communities are located in the High Desert of California.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Joshua Tree, California",
@@ -3721,7 +3717,7 @@
    "rarity": "Rare",
    "fame": 30906,
    "facts": {
-    "population": 6323,
+    "population": 6302,
     "elevation_m": 5.0,
     "area_km2": 61,
     "temp_c": 19.9
@@ -3756,13 +3752,13 @@
    "rarity": "Rare",
    "fame": 16512,
    "facts": {
-    "population": 6876,
+    "population": 6582,
     "elevation_m": 167,
     "area_km2": 10.0,
     "temp_c": 11.5
    },
    "flavour": {
-    "text": "The population was 6,582 at the 2020 census.",
+    "text": "Milford is a city in Clermont and Hamilton counties in the U.S. state of Ohio.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Milford, Ohio",
@@ -3791,7 +3787,7 @@
    "rarity": "Rare",
    "fame": 63744,
    "facts": {
-    "population": 108484,
+    "population": 109501,
     "elevation_m": 117,
     "area_km2": 42,
     "temp_c": 18.3
@@ -3826,13 +3822,13 @@
    "rarity": "Rare",
    "fame": 34944,
    "facts": {
-    "population": 2645,
+    "population": 2775,
     "elevation_m": 639,
     "area_km2": 5.1,
     "temp_c": 6.5
    },
    "flavour": {
-    "text": "The population was 2,775 at the 2020 census.",
+    "text": "Libby is a city in northwestern Montana, United States and the county seat of Lincoln County.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Libby, Montana",
@@ -3861,7 +3857,7 @@
    "rarity": "Rare",
    "fame": 58530,
    "facts": {
-    "population": 19808,
+    "population": 20441,
     "elevation_m": 18,
     "area_km2": 51,
     "temp_c": 9.5
@@ -3896,13 +3892,13 @@
    "rarity": "Rare",
    "fame": 42552,
    "facts": {
-    "population": 11131,
+    "population": 15014,
     "elevation_m": 2.0,
     "area_km2": 81,
     "temp_c": 19.9
    },
    "flavour": {
-    "text": "As of the 2020 census, the population was 15,014.",
+    "text": "Gulf Shores is a resort city in Baldwin County, Alabama, United States.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Gulf Shores, Alabama",
@@ -3931,7 +3927,7 @@
    "rarity": "Rare",
    "fame": 27612,
    "facts": {
-    "population": 12653,
+    "population": 12830,
     "elevation_m": 14,
     "area_km2": 6.9,
     "temp_c": 14.0
@@ -3954,305 +3950,296 @@
    }
   },
   {
-   "id": "gn:4488954",
-   "name": "Rose Hill",
-   "label": "Rose Hill (North Carolina)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-NC",
-   "country": "US",
-   "lat": 34.8282,
-   "lon": -78.023,
-   "rarity": "Common",
-   "fame": 4212,
-   "facts": {
-    "population": 1665,
-    "elevation_m": 30,
-    "area_km2": 3.7,
-    "temp_c": 16.6
-   },
-   "flavour": {
-    "text": "At the 2020 census, the population was 1,371.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Rose Hill, North Carolina",
-    "url": "https://en.wikipedia.org/wiki/Rose_Hill%2C_North_Carolina",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4488954.webp",
-    "author": "Indy beetle",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Rose_Hill,_North_Carolina.jpg"
-   }
-  },
-  {
-   "id": "gn:4254999",
-   "name": "Brookville",
-   "label": "Brookville (Indiana)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-IN",
-   "country": "US",
-   "lat": 39.4231,
-   "lon": -85.0127,
-   "rarity": "Common",
-   "fame": 10200,
-   "facts": {
-    "population": 2566,
-    "elevation_m": 203,
-    "area_km2": 4.0,
-    "temp_c": 11.0
-   },
-   "flavour": {
-    "text": "The town is the county seat of and the largest community entirely within Franklin County.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Brookville, Indiana",
-    "url": "https://en.wikipedia.org/wiki/Brookville%2C_Indiana",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_4254999.webp",
-    "author": "Derek Jensen ( Tysto )",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Brookville-indiana-from-above.jpg"
-   }
-  },
-  {
-   "id": "wd:Q96405047",
-   "name": "Saw Kill",
-   "label": "Saw Kill (near Lake Katrine)",
+   "id": "wd:Q5050162",
+   "name": "Castle Island",
+   "label": "Castle Island (near Ault Field)",
    "type": "nature",
-   "kind": "river",
-   "region": "US-NY",
+   "kind": "island",
+   "region": "US-WA",
    "country": "US",
-   "lat": 41.9812,
-   "lon": -74.0082,
+   "lat": 48.4211,
+   "lon": -122.8219,
    "rarity": "Common",
-   "fame": 672,
+   "fame": 432,
    "facts": {
-    "elevation_m": 44,
-    "temp_c": 9.4
+    "elevation_m": 27,
+    "temp_c": 10.1
    },
    "flavour": {
-    "text": "Saw Kill is a 19.7-mile-long main tributary that drains into Esopus Creek on the Hudson’s west bank.",
+    "text": "It is located just off the southern tip of Lopez Island.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Saw Kill (Esopus Creek tributary)",
-    "url": "https://en.wikipedia.org/wiki/Saw_Kill_%28Esopus_Creek_tributary%29",
+    "title": "Castle Island (Washington)",
+    "url": "https://en.wikipedia.org/wiki/Castle_Island_%28Washington%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5050162.webp"
+   }
+  },
+  {
+   "id": "gn:4426884",
+   "name": "Forest",
+   "label": "Forest (Mississippi)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-MS",
+   "country": "US",
+   "lat": 32.3646,
+   "lon": -89.4742,
+   "rarity": "Common",
+   "fame": 12960,
+   "facts": {
+    "population": 5430,
+    "elevation_m": 145,
+    "area_km2": 34,
+    "temp_c": 17.3
+   },
+   "flavour": {
+    "text": "Forest is a city in and the county seat of Scott County, Mississippi, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Forest, Mississippi",
+    "url": "https://en.wikipedia.org/wiki/Forest%2C_Mississippi",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q96405047.webp",
-    "author": "Jackmiller5510",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Saw_kill_river_(west).jpg"
+    "file": "images/photo/gn_4426884.webp",
+    "author": "Larry D. Moore",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Forest_Mississippi_City_Hall_2015.jpg"
    }
   },
   {
-   "id": "wd:Q27985862",
-   "name": "Simpson Branch",
-   "label": "Simpson Branch (near Montgomery City)",
+   "id": "gn:5312844",
+   "name": "San Carlos",
+   "label": "San Carlos (Arizona, near Peridot)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-AZ",
+   "country": "US",
+   "lat": 33.3456,
+   "lon": -110.455,
+   "rarity": "Common",
+   "fame": 5100,
+   "facts": {
+    "population": 3987,
+    "elevation_m": 801,
+    "area_km2": 22,
+    "temp_c": 17.6
+   },
+   "flavour": {
+    "text": "San Carlos is a census-designated place in Gila County, Arizona, United States.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "San Carlos, Arizona",
+    "url": "https://en.wikipedia.org/wiki/San_Carlos%2C_Arizona",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_5312844.webp"
+   }
+  },
+  {
+   "id": "wd:Q27985708",
+   "name": "Pine Creek",
+   "label": "Pine Creek (near Pea Ridge)",
    "type": "nature",
    "kind": "river",
    "region": "US-MO",
    "country": "US",
-   "lat": 38.8734,
-   "lon": -91.5854,
+   "lat": 36.574,
+   "lon": -94.1402,
    "rarity": "Common",
    "fame": 36,
    "facts": {
-    "elevation_m": 187,
-    "temp_c": 12.2
+    "elevation_m": 320,
+    "temp_c": 13.6
    },
    "flavour": {
-    "text": "Simpson Branch is a stream in Montgomery County in the U.S. state of Missouri.",
+    "text": "Pine Creek is a stream in McDonald County in the U.S. state of Missouri.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Simpson Branch (Loutre River tributary)",
-    "url": "https://en.wikipedia.org/wiki/Simpson_Branch_%28Loutre_River_tributary%29",
+    "title": "Pine Creek (Big Sugar Creek tributary)",
+    "url": "https://en.wikipedia.org/wiki/Pine_Creek_%28Big_Sugar_Creek_tributary%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q27985862.webp"
+    "file": "images/minimap/wd_Q27985708.webp"
    }
   },
   {
-   "id": "wd:Q7958765",
-   "name": "Wells Fargo Tower",
-   "label": "Wells Fargo Tower (near Baltimore)",
-   "type": "built",
-   "kind": "skyscraper",
-   "region": "US-MD",
-   "country": "US",
-   "lat": 39.29,
-   "lon": -76.6136,
-   "rarity": "Rare",
-   "fame": 612,
-   "facts": {
-    "elevation_m": 31,
-    "temp_c": 13.5
-   },
-   "flavour": {
-    "text": "The Wells Fargo Tower, formerly known as the First Union Signet Tower, Wachovia Tower, and Union Trust Building, is a commercial high-rise in Baltimore.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Wells Fargo Tower (Baltimore)",
-    "url": "https://en.wikipedia.org/wiki/Wells_Fargo_Tower_%28Baltimore%29",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q7958765.webp",
-    "author": "TastyPoutine",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Balt.jpg"
-   }
-  },
-  {
-   "id": "wd:Q34914249",
-   "name": "Willow Creek",
-   "label": "Willow Creek (near Ainsworth)",
+   "id": "wd:Q17039901",
+   "name": "Little Ogeechee River",
+   "label": "Little Ogeechee River (near Montgomery)",
    "type": "nature",
    "kind": "river",
-   "region": "US-NE",
+   "region": "US-GA",
    "country": "US",
-   "lat": 42.5772,
-   "lon": -99.6933,
+   "lat": 31.8917,
+   "lon": -81.0947,
    "rarity": "Common",
-   "fame": 90,
+   "fame": 366,
    "facts": {
-    "elevation_m": 676,
-    "temp_c": 9.3
+    "elevation_m": 0.0,
+    "temp_c": 19.3
    },
    "flavour": {
-    "text": "Willow Creek is a 12.92 mi long second-order tributary to Long Pine Creek in Brown County, Nebraska.",
+    "text": "The Little Ogeechee River in Chatham County is one of two rivers by that name in the U.S. state of Georgia.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Willow Creek (Long Pine Creek tributary)",
-    "url": "https://en.wikipedia.org/wiki/Willow_Creek_%28Long_Pine_Creek_tributary%29",
+    "title": "Little Ogeechee River (Chatham County)",
+    "url": "https://en.wikipedia.org/wiki/Little_Ogeechee_River_%28Chatham_County%29",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q34914249.webp"
+    "file": "images/minimap/wd_Q17039901.webp"
    }
   },
   {
-   "id": "wd:Q6477166",
-   "name": "Ocheda Lake",
-   "label": "Ocheda Lake",
+   "id": "wd:Q7109390",
+   "name": "Otter Island",
+   "label": "Otter Island (near Washburn)",
    "type": "nature",
-   "kind": "lake",
-   "region": "US-MN",
+   "kind": "island",
+   "region": "US-WI",
    "country": "US",
-   "lat": 43.5692,
-   "lon": -95.6081,
+   "lat": 46.9961,
+   "lon": -90.6911,
    "rarity": "Common",
-   "fame": 360,
+   "fame": 336,
    "facts": {
-    "elevation_m": 474,
-    "area_km2": 7.8,
-    "temp_c": 6.8
+    "elevation_m": 236,
+    "temp_c": 4.9
    },
    "flavour": {
-    "text": "A lake in Minnesota.",
+    "text": "Otter Island is one of the Apostle Islands in Northern Wisconsin, in Lake Superior, and is part of the Apostle Islands National Lakeshore.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Otter Island (Wisconsin)",
+    "url": "https://en.wikipedia.org/wiki/Otter_Island_%28Wisconsin%29",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q7109390.webp",
+    "author": "I, the copyright holder of this work, hereby publish it under the following license:",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Otter_Island_Apostle_Islands_National_Lakeshore.jpg"
+   }
+  },
+  {
+   "id": "wd:Q5609476",
+   "name": "Grindstone Lake",
+   "label": "Grindstone Lake (near Little Round Lake)",
+   "type": "nature",
+   "kind": "lake",
+   "region": "US-WI",
+   "country": "US",
+   "lat": 45.9333,
+   "lon": -91.4167,
+   "rarity": "Common",
+   "fame": 762,
+   "facts": {
+    "elevation_m": 391,
+    "temp_c": 4.9
+   },
+   "flavour": {
+    "text": "A lake in Wisconsin.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q6477166.webp",
-    "author": "USGS",
+    "file": "images/photo/wd_Q5609476.webp",
+    "author": "John Thompson Johntwiki",
     "licence": "Public domain",
     "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Ocheda.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File:GrindstoneLake_Wisconsin_USA.jpg"
    }
   },
   {
-   "id": "gn:4166047",
-   "name": "Nocatee",
-   "label": "Nocatee",
+   "id": "gn:5326305",
+   "name": "Barstow Heights",
+   "label": "Barstow Heights",
    "type": "town",
    "kind": "town",
-   "region": "US-FL",
+   "region": "US-CA",
    "country": "US",
-   "lat": 27.1603,
-   "lon": -81.8823,
-   "rarity": "Common",
-   "fame": 1080,
-   "facts": {
-    "population": 4524,
-    "elevation_m": 13,
-    "temp_c": 22.7
-   },
-   "flavour": {
-    "text": "A community of 4,524 people in Florida.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_4166047.webp"
-   }
-  },
-  {
-   "id": "gn:5200195",
-   "name": "Mayfield",
-   "label": "Mayfield (Pennsylvania, near Scottdale)",
-   "type": "town",
-   "kind": "town",
-   "region": "US-PA",
-   "country": "US",
-   "lat": 40.1362,
-   "lon": -79.5978,
+   "lat": 34.8697,
+   "lon": -117.0562,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1717,
-    "elevation_m": 333,
-    "temp_c": 10.3
+    "population": 24202,
+    "elevation_m": 780,
+    "temp_c": 18.2
    },
    "flavour": {
-    "text": "A community of 1,717 people in Pennsylvania.",
+    "text": "A community of 24,202 people in California.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_5200195.webp"
+    "file": "images/minimap/gn_5326305.webp"
    }
   },
   {
-   "id": "gn:4903976",
-   "name": "North Peoria",
-   "label": "North Peoria",
+   "id": "gn:4792867",
+   "name": "West Lynchburg",
+   "label": "West Lynchburg",
    "type": "town",
    "kind": "town",
-   "region": "US-IL",
+   "region": "US-VA",
    "country": "US",
-   "lat": 40.7175,
-   "lon": -89.5843,
+   "lat": 37.4032,
+   "lon": -79.1781,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 113004,
-    "elevation_m": 193,
-    "temp_c": 10.5
+    "population": 65517,
+    "elevation_m": 226,
+    "temp_c": 13.4
    },
    "flavour": {
-    "text": "A community of 113,004 people in Illinois.",
+    "text": "A community of 65,517 people in Virginia.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_4903976.webp"
+    "file": "images/minimap/gn_4792867.webp"
+   }
+  },
+  {
+   "id": "gn:4326534",
+   "name": "Greenwood",
+   "label": "Greenwood (Louisiana, near Merrydale)",
+   "type": "town",
+   "kind": "town",
+   "region": "US-LA",
+   "country": "US",
+   "lat": 30.5449,
+   "lon": -91.1068,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 2508,
+    "elevation_m": 19,
+    "temp_c": 19.3
+   },
+   "flavour": {
+    "text": "A community of 2,508 people in Louisiana.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_4326534.webp"
    }
   }
  ]

@@ -394,58 +394,6 @@
    }
   },
   {
-   "id": "gn:13561025",
-   "name": "Sugar Factory",
-   "label": "Sugar Factory",
-   "type": "town",
-   "kind": "town",
-   "region": "AG-04",
-   "country": "AG",
-   "lat": 17.0884,
-   "lon": -61.8175,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1051,
-    "elevation_m": 1.0,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 1,051 people in Saint John.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13561025.webp"
-   }
-  },
-  {
-   "id": "gn:13590585",
-   "name": "St. Peter Parish",
-   "label": "St. Peter Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "AG-08",
-   "country": "AG",
-   "lat": 17.0849,
-   "lon": -61.7122,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5325,
-    "elevation_m": 1.0,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 5,325 people in Saint Philip.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13590585.webp"
-   }
-  },
-  {
    "id": "gn:3576094",
    "name": "New Winthorpes",
    "label": "New Winthorpes",
@@ -472,32 +420,6 @@
    }
   },
   {
-   "id": "gn:13590587",
-   "name": "St. Philip Parish",
-   "label": "St. Philip Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "AG-08",
-   "country": "AG",
-   "lat": 17.0543,
-   "lon": -61.7272,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 3347,
-    "elevation_m": 1.0,
-    "temp_c": 26.6
-   },
-   "flavour": {
-    "text": "A community of 3,347 people in Saint Philip.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13590587.webp"
-   }
-  },
-  {
    "id": "gn:3576144",
    "name": "Liberta",
    "label": "Liberta",
@@ -510,7 +432,7 @@
    "rarity": "Common",
    "fame": 1398,
    "facts": {
-    "population": 2560,
+    "population": 3408,
     "elevation_m": 69,
     "temp_c": 26.6
    },
@@ -532,6 +454,32 @@
    }
   },
   {
+   "id": "gn:13561025",
+   "name": "Sugar Factory",
+   "label": "Sugar Factory",
+   "type": "town",
+   "kind": "town",
+   "region": "AG-04",
+   "country": "AG",
+   "lat": 17.0884,
+   "lon": -61.8175,
+   "rarity": "Common",
+   "fame": 0,
+   "facts": {
+    "population": 1051,
+    "elevation_m": 1.0,
+    "temp_c": 26.6
+   },
+   "flavour": {
+    "text": "A community of 1,051 people in Saint John.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/gn_13561025.webp"
+   }
+  },
+  {
    "id": "gn:3576050",
    "name": "Potters Village",
    "label": "Potters Village",
@@ -544,7 +492,7 @@
    "rarity": "Common",
    "fame": 1152,
    "facts": {
-    "population": 1433,
+    "population": 3471,
     "elevation_m": 29,
     "temp_c": 26.6
    },
@@ -597,32 +545,6 @@
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wilikies_in_2023.jpg"
-   }
-  },
-  {
-   "id": "gn:13590583",
-   "name": "Barbuda Parish",
-   "label": "Barbuda Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "AG-10",
-   "country": "AG",
-   "lat": 17.624,
-   "lon": -61.7765,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 1634,
-    "elevation_m": 1.0,
-    "temp_c": 26.7
-   },
-   "flavour": {
-    "text": "A community of 1,634 people in Barbuda.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13590583.webp"
    }
   },
   {
@@ -727,67 +649,71 @@
    }
   },
   {
-   "id": "gn:3576260",
-   "name": "Falmouth",
-   "label": "Falmouth",
+   "id": "gn:3576074",
+   "name": "Parham",
+   "label": "Parham",
    "type": "town",
    "kind": "town",
-   "region": "AG-06",
+   "region": "AG-07",
    "country": "AG",
-   "lat": 17.0274,
-   "lon": -61.7814,
+   "lat": 17.0968,
+   "lon": -61.7705,
    "rarity": "Epic",
-   "fame": 1812,
+   "fame": 1890,
    "facts": {
-    "population": 619,
-    "elevation_m": 25,
+    "population": 969,
+    "elevation_m": 18,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "Falmouth is a coastal port town located in Saint Paul Parish on the island of Antigua, in Antigua and Barbuda.",
+    "text": "Parham, officially known as the Town of Parham, is the capital of Saint Peter, the largest city in Saint Peter.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Falmouth, Antigua and Barbuda",
-    "url": "https://en.wikipedia.org/wiki/Falmouth%2C_Antigua_and_Barbuda",
+    "title": "Parham, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Parham%2C_Antigua_and_Barbuda",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_3576260.webp",
-    "author": "Unknown author",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:English_Harbour_and_Falmouth_Harbour_on_Antigua.jpg"
+    "file": "images/photo/gn_3576074.webp",
+    "author": "Dr. Thomas Liptak",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antigua_Parham_St._Peter%27s.jpg"
    }
   },
   {
-   "id": "gn:3576236",
-   "name": "Freetown",
-   "label": "Freetown",
+   "id": "gn:3576311",
+   "name": "Codrington",
+   "label": "Codrington",
    "type": "town",
    "kind": "town",
-   "region": "AG-08",
+   "region": "AG-10",
    "country": "AG",
-   "lat": 17.0479,
-   "lon": -61.7033,
+   "lat": 17.6394,
+   "lon": -61.8244,
    "rarity": "Epic",
-   "fame": 798,
+   "fame": 792,
    "facts": {
-    "population": 623,
-    "elevation_m": 82,
-    "temp_c": 26.6
+    "population": 1252,
+    "elevation_m": 1.0,
+    "temp_c": 26.7
    },
    "flavour": {
-    "text": "It is located in the southeast of the island, on a peninsula between Willoughby Bay to the south and Nonsuch Bay to the north.",
+    "text": "Codrington is the only village on the island of Barbuda, which is part of the country of Antigua and Barbuda.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Freetown, Antigua and Barbuda",
-    "url": "https://en.wikipedia.org/wiki/Freetown%2C_Antigua_and_Barbuda",
+    "title": "Codrington, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Codrington%2C_Antigua_and_Barbuda",
     "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3576236.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3576311.webp",
+    "author": "Image Science and Analysis Laboratory, NASA-Johnson Space Center.",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Barbuda_ISS008-E-7945.jpg"
    }
   },
   {
@@ -825,63 +751,37 @@
    }
   },
   {
-   "id": "gn:3576311",
-   "name": "Codrington",
-   "label": "Codrington",
-   "type": "town",
-   "kind": "town",
-   "region": "AG-10",
-   "country": "AG",
-   "lat": 17.6394,
-   "lon": -61.8244,
-   "rarity": "Epic",
-   "fame": 792,
-   "facts": {
-    "population": 1325,
-    "elevation_m": 1.0,
-    "temp_c": 26.7
-   },
-   "flavour": {
-    "text": "Codrington is the only village on the island of Barbuda, which is part of the country of Antigua and Barbuda.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Codrington, Antigua and Barbuda",
-    "url": "https://en.wikipedia.org/wiki/Codrington%2C_Antigua_and_Barbuda",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3576311.webp",
-    "author": "Image Science and Analysis Laboratory, NASA-Johnson Space Center.",
-    "licence": "Public domain",
-    "licence_url": null,
-    "page": "https://commons.wikimedia.org/wiki/File:Barbuda_ISS008-E-7945.jpg"
-   }
-  },
-  {
-   "id": "gn:13590582",
-   "name": "St. Paul Parish",
-   "label": "St. Paul Parish",
+   "id": "gn:3576260",
+   "name": "Falmouth",
+   "label": "Falmouth",
    "type": "town",
    "kind": "town",
    "region": "AG-06",
    "country": "AG",
-   "lat": 17.0234,
-   "lon": -61.7693,
+   "lat": 17.0274,
+   "lon": -61.7814,
    "rarity": "Epic",
-   "fame": 0,
+   "fame": 1812,
    "facts": {
-    "population": 8128,
-    "elevation_m": 8.0,
+    "population": 619,
+    "elevation_m": 25,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "A community of 8,128 people in Saint Paul.",
-    "source": "facts"
+    "text": "Falmouth is a coastal port town located in Saint Paul Parish on the island of Antigua, in Antigua and Barbuda.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Falmouth, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Falmouth%2C_Antigua_and_Barbuda",
+    "translated": false
    },
    "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13590582.webp"
+    "kind": "photo",
+    "file": "images/photo/gn_3576260.webp",
+    "author": "Unknown author",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:English_Harbour_and_Falmouth_Harbour_on_Antigua.jpg"
    }
   },
   {
@@ -919,37 +819,33 @@
    }
   },
   {
-   "id": "gn:3576074",
-   "name": "Parham",
-   "label": "Parham",
+   "id": "gn:3576236",
+   "name": "Freetown",
+   "label": "Freetown",
    "type": "town",
    "kind": "town",
-   "region": "AG-07",
+   "region": "AG-08",
    "country": "AG",
-   "lat": 17.0968,
-   "lon": -61.7705,
+   "lat": 17.0479,
+   "lon": -61.7033,
    "rarity": "Epic",
-   "fame": 1890,
+   "fame": 798,
    "facts": {
-    "population": 969,
-    "elevation_m": 18,
+    "population": 623,
+    "elevation_m": 82,
     "temp_c": 26.6
    },
    "flavour": {
-    "text": "Parham, officially known as the Town of Parham, is the capital of Saint Peter, the largest city in Saint Peter.",
+    "text": "It is located in the southeast of the island, on a peninsula between Willoughby Bay to the south and Nonsuch Bay to the north.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Parham, Antigua and Barbuda",
-    "url": "https://en.wikipedia.org/wiki/Parham%2C_Antigua_and_Barbuda",
+    "title": "Freetown, Antigua and Barbuda",
+    "url": "https://en.wikipedia.org/wiki/Freetown%2C_Antigua_and_Barbuda",
     "translated": false
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3576074.webp",
-    "author": "Dr. Thomas Liptak",
-    "licence": "CC BY 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Antigua_Parham_St._Peter%27s.jpg"
+    "kind": "minimap",
+    "file": "images/minimap/gn_3576236.webp"
    }
   },
   {
@@ -965,7 +861,7 @@
    "rarity": "Legendary",
    "fame": 71502,
    "facts": {
-    "population": 51737,
+    "population": 21394,
     "elevation_m": 12,
     "area_km2": 10,
     "temp_c": 26.5
@@ -1623,7 +1519,7 @@
    "rarity": "Rare",
    "fame": 4026,
    "facts": {
-    "population": 2526,
+    "population": 3812,
     "elevation_m": 60,
     "temp_c": 26.6
    },

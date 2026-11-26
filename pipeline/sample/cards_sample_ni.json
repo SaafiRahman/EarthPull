@@ -2754,12 +2754,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 7836,
+    "population": 3868,
     "elevation_m": 425,
     "temp_c": 23.7
    },
    "flavour": {
-    "text": "A community of 7,836 people in Jinotega.",
+    "text": "A community of 3,868 people in Jinotega.",
     "source": "facts"
    },
    "image": {

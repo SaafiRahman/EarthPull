@@ -11,6 +11,12 @@ work worldwide:
      "Destroyed ..." (and the same words in French, Spanish, Dutch and Danish) drop it only when there is also an end date (Wikidata P576,
      or a "... disestablishments" category):
      a replaced bridge's article sits in its old bridge's category (Port Mann Bridge).
+  3b. Article text, built cards: the English intro says the card itself was demolished, torn down or dismantled
+     ("It was demolished in 1987."), unless it was rebuilt, moved or kept a facade (developer, 2026-11-26: Terminal
+     Bridge got through the category rule because it has no end date).
+  3c. Towns that are parishes (Barbuda Parish, Bermuda's nine parishes): districts, not towns; the island or the
+     real town is its own card (developer, 2026-11-26).
+  3d. Not places, any landmark: experiments and abandoned projects (developer, 2026-11-26). Military bases stay.
   4. pipeline/overrides.csv: hand fixes (keep or drop by card id) for what the rules get wrong.
 Not used: fire categories (most burned churches and halls were rebuilt: Notre-Dame Basilica, Montreal
 City Hall), "under construction" (it will exist), and an end date (P576) alone, which is also set for
@@ -31,6 +37,7 @@ import pandas as pd
 import requests
 
 from countries import get, interim
+from flavour import CACHE as EXTRACTS_CACHE, extracts
 
 ROOT = Path(__file__).parent
 INTERIM = ROOT / "data" / "interim"
@@ -43,6 +50,7 @@ GONE_WORDS = re.compile(r"\b(destroyed|demolished|proposed|unbuilt|cancell?ed)\b
 CAT_NEVER = re.compile(r"\b(unbuilt|cancell?ed|non réalisé|no construid|nunca construid|cancelad|niet gebouwd|aldrig opført)", re.I)
 CAT_GONE = re.compile(r"\b(demolished|destroyed|détruit|démoli|demolid|destruid|desaparecid|gesloopt|verwoest|nedrevne|ødelagte)", re.I)
 NATURE_GONE = re.compile(r"(undersea|submarine|seamount|paleolake|former lake|prehistoric lake)", re.I)
+NOT_A_PLACE = re.compile(r"\bexperiment\b|balloon-borne|abandoned project", re.I)
 CAT_SKIP = re.compile(r"\b(fire|arson|burn|incendie|incendio|brand)", re.I)
 
 session = requests.Session()
@@ -140,6 +148,27 @@ def wikidata_gone(qids: list[str], cache: dict, words: re.Pattern = GONE_WORDS) 
             out[q] = hit
     return out
 
+DEM_TEXT = re.compile(r"\b(was|were|has been) (later |eventually |subsequently |finally |completely |then )?"
+                      r"(demolished|torn down|razed|dismantled|scrapped)\b", re.I)
+DEM_SAVED = re.compile(r"replica|fa[cç]ade|rebuilt|reopen|relocat|reconstruct|moved|sold|preserved|remains|still"
+                       r"|replaced by the (current|present)|new building|new \w+ on the site", re.I)
+DEM_OTHER = re.compile(r"\b(which|that|its|parts?|portions?|wings?|predecessor|prior|previous|original|former|several"
+                       r"|number|other|adjacent|nearby|old|earlier|first|some|many|buildings|houses|homes)\b", re.I)
+DEM_NOUN = re.compile(r"The (\w+ ){0,2}(building|bridge|hotel|church|house|mansion|tower|arena|stadium|coaster|ride|fort"
+                      r"|canal|track|speedway|structure|light|lighthouse|theatre|theater|mill|station|school|hall|sign)\b")
+
+
+def demolished_line(name: str, intro: str):
+    """The sentence of an English article's intro saying the card itself was demolished, if any."""
+    for s in re.split(r"(?<=[.!?])\s+", intro.split("\n")[0]):
+        m = DEM_TEXT.search(s)
+        if not m or DEM_SAVED.search(s):
+            continue
+        about_it = s.startswith(("It ", name, "The " + name)) or DEM_NOUN.match(s)
+        if about_it and not DEM_OTHER.search(s[:m.start()].replace(name, "")):
+            return s
+    return None
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -191,6 +220,24 @@ def main():
                     reasons.setdefault(r.id, cat)
                     break
 
+    # 3b. Built cards whose English intro says they were demolished
+    ex = json.loads(EXTRACTS_CACHE.read_text(encoding="utf-8")) if EXTRACTS_CACHE.exists() else {}
+    extracts("en", sorted(built["enwiki"].dropna().unique()), ex)
+    for r in built.itertuples():
+        line = demolished_line(r.name, ex.get(f"en|{r.enwiki}") or "") if isinstance(r.enwiki, str) else None
+        if line:
+            reasons.setdefault(r.id, f"article: {line[:120]}")
+
+    # 3c. Parishes listed as towns
+    for r in df[(df["type"] == "town") & df["name"].str.contains(r"\bParish$")].itertuples():
+        reasons.setdefault(r.id, "parish, not a town")
+
+    # 3d. Not places: experiments (a balloon telescope, a neutrino detector) and abandoned projects (developer,
+    # 2026-11-26: "experiments can go"; military bases stay)
+    for r in df[df["type"] != "town"].itertuples():
+        if isinstance(r.kind, str) and NOT_A_PLACE.search(r.kind):
+            reasons.setdefault(r.id, f"not a place: {r.kind}")
+
     # 4. Hand fixes for what the rules get wrong (keep wins over every rule).
     fixes = pd.read_csv(ROOT / "overrides.csv", comment="#")
     for f in fixes.itertuples():
@@ -217,7 +264,7 @@ def main():
     clean.to_parquet(d / "pool_clean.parquet")
 
     print(f"\nDropped {len(gone):,} of {len(df):,} -> {len(clean):,} cards in {(d / 'pool_clean.parquet').relative_to(ROOT).as_posix()}")
-    kinds = gone["reason"].astype(str).str.extract(r"^(article redirects|Wikidata|hand fix|duplicate)")[0].fillna("category")
+    kinds = gone["reason"].astype(str).str.extract(r"^(article redirects|article|parish|not a place|Wikidata|hand fix|duplicate)")[0].fillna("category")
     print("By check:", kinds.value_counts().to_dict(), "| by type:", gone["type"].value_counts().to_dict())
     top = gone.sort_values("fame", ascending=False).head(40)
     print("Most famous dropped:\n" + "\n".join(f"  {n} [{t}] {f / 1e3:.0f}k: {why}" for n, t, f, why

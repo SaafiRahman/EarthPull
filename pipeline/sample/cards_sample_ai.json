@@ -14,7 +14,7 @@
    "rarity": "Mythic",
    "fame": 33390,
    "facts": {
-    "population": 2035,
+    "population": 1067,
     "elevation_m": 7.0,
     "area_km2": 2.7,
     "temp_c": 26.7
@@ -202,7 +202,7 @@
    "rarity": "Epic",
    "fame": 1092,
    "facts": {
-    "population": 274,
+    "population": 230,
     "elevation_m": 4.0,
     "area_km2": 1.1,
     "temp_c": 26.7
@@ -233,7 +233,7 @@
    "rarity": "Epic",
    "fame": 1164,
    "facts": {
-    "population": 942,
+    "population": 825,
     "elevation_m": 10,
     "area_km2": 5.2,
     "temp_c": 26.7

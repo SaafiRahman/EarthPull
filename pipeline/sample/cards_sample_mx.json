@@ -514,12 +514,12 @@
    "rarity": "Common",
    "fame": 318,
    "facts": {
-    "population": 1478,
+    "population": 1790,
     "elevation_m": 2575,
     "temp_c": 13.7
    },
    "flavour": {
-    "text": "A community of 1,478 people in State of Mexico.",
+    "text": "A community of 1,790 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
@@ -544,12 +544,12 @@
    "rarity": "Common",
    "fame": 48,
    "facts": {
-    "population": 2360,
+    "population": 2982,
     "elevation_m": 2265,
     "temp_c": 14.4
    },
    "flavour": {
-    "text": "A community of 2,360 people in State of Mexico.",
+    "text": "A community of 2,982 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
@@ -570,12 +570,12 @@
    "rarity": "Common",
    "fame": 84,
    "facts": {
-    "population": 1340,
+    "population": 1463,
     "elevation_m": 2574,
     "temp_c": 13.1
    },
    "flavour": {
-    "text": "A community of 1,340 people in State of Mexico.",
+    "text": "A community of 1,463 people in State of Mexico.",
     "source": "facts"
    },
    "image": {
@@ -596,12 +596,12 @@
    "rarity": "Common",
    "fame": 216,
    "facts": {
-    "population": 1617,
+    "population": 1891,
     "elevation_m": 1845,
     "temp_c": 18.5
    },
    "flavour": {
-    "text": "A community of 1,617 people in Puebla.",
+    "text": "A community of 1,891 people in Puebla.",
     "source": "facts"
    },
    "image": {
@@ -726,12 +726,12 @@
    "rarity": "Common",
    "fame": 174,
    "facts": {
-    "population": 5261,
+    "population": 4960,
     "elevation_m": 1788,
     "temp_c": 18.6
    },
    "flavour": {
-    "text": "A community of 5,261 people in San Luis Potosí.",
+    "text": "A community of 4,960 people in San Luis Potosí.",
     "source": "facts"
    },
    "image": {
@@ -1421,12 +1421,12 @@
    "rarity": "Epic",
    "fame": 21528,
    "facts": {
-    "population": 6010,
+    "population": 7591,
     "elevation_m": 1.0,
     "temp_c": 25.9
    },
    "flavour": {
-    "text": "According to the INEGI census conducted in 2020, the port town had a population of 7,591 inhabitants.",
+    "text": "Chicxulub Puerto is a small coastal town in Progreso Municipality in the Mexican state of Yucatán.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Chicxulub Puerto",
@@ -1455,7 +1455,7 @@
    "rarity": "Epic",
    "fame": 13002,
    "facts": {
-    "population": 37203,
+    "population": 35401,
     "elevation_m": 1796,
     "temp_c": 18.3
    },
@@ -1489,7 +1489,7 @@
    "rarity": "Epic",
    "fame": 31728,
    "facts": {
-    "population": 10187,
+    "population": 10935,
     "elevation_m": 1.0,
     "area_km2": 824,
     "temp_c": 25.7
@@ -1524,7 +1524,7 @@
    "rarity": "Epic",
    "fame": 26796,
    "facts": {
-    "population": 4324,
+    "population": 4266,
     "elevation_m": 5.0,
     "area_km2": 3.0,
     "temp_c": 25.5
@@ -1559,7 +1559,7 @@
    "rarity": "Epic",
    "fame": 47394,
    "facts": {
-    "population": 187251,
+    "population": 225728,
     "elevation_m": 1249,
     "temp_c": 20.9
    },
@@ -1593,7 +1593,7 @@
    "rarity": "Epic",
    "fame": 10344,
    "facts": {
-    "population": 32944,
+    "population": 35050,
     "elevation_m": 1859,
     "temp_c": 17.0
    },
@@ -1627,7 +1627,7 @@
    "rarity": "Epic",
    "fame": 8718,
    "facts": {
-    "population": 52233,
+    "population": 118337,
     "elevation_m": 1117,
     "temp_c": 21.3
    },
@@ -1661,7 +1661,7 @@
    "rarity": "Epic",
    "fame": 70452,
    "facts": {
-    "population": 62689,
+    "population": 62301,
     "elevation_m": 11,
     "temp_c": 22.1
    },
@@ -2094,7 +2094,7 @@
    "rarity": "Legendary",
    "fame": 625524,
    "facts": {
-    "population": 1385629,
+    "population": 1385621,
     "elevation_m": 1546,
     "area_km2": 145,
     "temp_c": 20.3
@@ -2129,7 +2129,7 @@
    "rarity": "Legendary",
    "fame": 94656,
    "facts": {
-    "population": 72237,
+    "population": 194500,
     "elevation_m": 2010,
     "area_km2": 997,
     "temp_c": 15.3
@@ -2234,7 +2234,7 @@
    "rarity": "Legendary",
    "fame": 197880,
    "facts": {
-    "population": 1032686,
+    "population": 1080000,
     "elevation_m": 4.0,
     "area_km2": 114,
     "temp_c": 22.9
@@ -2269,7 +2269,7 @@
    "rarity": "Legendary",
    "fame": 86952,
    "facts": {
-    "population": 150178,
+    "population": 173959,
     "elevation_m": 223,
     "temp_c": 21.4
    },
@@ -2303,7 +2303,7 @@
    "rarity": "Legendary",
    "fame": 149700,
    "facts": {
-    "population": 67408,
+    "population": 70760,
     "elevation_m": 13,
     "temp_c": 27.0
    },
@@ -2359,65 +2359,102 @@
    }
   },
   {
-   "id": "wd:Q1324311",
-   "name": "El Meco",
-   "label": "El Meco",
+   "id": "wd:Q16242141",
+   "name": "Ex Temple of Corpus Christi",
+   "label": "Ex Temple of Corpus Christi",
    "type": "built",
-   "kind": "Maya site in Mexico",
-   "region": "MX-ROO",
+   "kind": "temple",
+   "region": "MX-DIF",
    "country": "MX",
-   "lat": 21.2108,
-   "lon": -86.8042,
+   "lat": 19.4344,
+   "lon": -99.1437,
    "rarity": "Rare",
-   "fame": 3960,
+   "fame": 1830,
    "facts": {
-    "elevation_m": 2.0,
-    "temp_c": 26.1
+    "elevation_m": 2232,
+    "temp_c": 17.0
    },
    "flavour": {
-    "text": "El Meco, anciently known as Beel'maan, is an archaeological Maya site located on the Caribbean coast of northern Quintana Roo, Mexico.",
+    "text": "It is the only remaining part of the Convent of Corpus Christi, founded in 1724 for indigenous women and which was closed as part of the Reform Laws.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "El Meco",
-    "url": "https://en.wikipedia.org/wiki/El_Meco",
+    "title": "Corpus Christi Church, Mexico City",
+    "url": "https://en.wikipedia.org/wiki/Corpus_Christi_Church%2C_Mexico_City",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1324311.webp",
-    "author": "Kirt Edblom from Albany, Oregon, United States",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:El_Meco_Site_Cancun,_Mexico_(8950893633).jpg"
+    "file": "images/photo/wd_Q16242141.webp",
+    "author": "AlejandroPZ",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:TemploCorpusChristi(ArchivoGeneraldeNotar%C3%ADas)DF.jpg"
    }
   },
   {
-   "id": "wd:Q28074882",
-   "name": "Puente Plateado",
-   "label": "Puente Plateado",
+   "id": "wd:Q110307266",
+   "name": "Templo de Santa Teresa de Jesús",
+   "label": "Templo de Santa Teresa de Jesús",
    "type": "built",
-   "kind": "bridge",
-   "region": "MX-COA",
+   "kind": "temple",
+   "region": "MX-JAL",
    "country": "MX",
-   "lat": 25.546,
-   "lon": -103.4699,
+   "lat": 20.6764,
+   "lon": -103.3501,
    "rarity": "Rare",
-   "fame": 600,
+   "fame": 1848,
    "facts": {
-    "elevation_m": 1126,
-    "temp_c": 21.4
+    "elevation_m": 1555,
+    "temp_c": 20.3
    },
    "flavour": {
-    "text": "A bridge in Coahuila.",
-    "source": "facts"
+    "text": "Templo de Santa Teresa de Jesús is a church in Centro, Guadalajara, in the Mexican state of Jalisco.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Templo de Santa Teresa de Jesús",
+    "url": "https://en.wikipedia.org/wiki/Templo_de_Santa_Teresa_de_Jes%C3%BAs",
+    "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q28074882.webp",
-    "author": "Gera vzqz92",
+    "file": "images/photo/wd_Q110307266.webp",
+    "author": "Luisalvaz",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Templo_de_Santa_Teresa_de_Jes%C3%BAs,_Guadalajara,_Jal._01.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5758353",
+   "name": "Cathedral Basilica of Our Lady of Guadalupe",
+   "label": "Cathedral Basilica of Our Lady of Guadalupe",
+   "type": "built",
+   "kind": "basilica",
+   "region": "MX-COL",
+   "country": "MX",
+   "lat": 19.2431,
+   "lon": -103.7278,
+   "rarity": "Rare",
+   "fame": 1632,
+   "facts": {
+    "elevation_m": 491,
+    "temp_c": 25.9
+   },
+   "flavour": {
+    "text": "The Cathedral Basilica of Our Lady of Guadalupe Also Colima Cathedral is the name that receives the most important Catholic church of the city of Colima.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cathedral Basilica of Colima",
+    "url": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_Colima",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5758353.webp",
+    "author": "Salvador alc",
     "licence": "CC BY-SA 3.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Puente_plateado.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Colima.jpg"
    }
   },
   {
@@ -2450,284 +2487,251 @@
    }
   },
   {
-   "id": "wd:Q21010040",
-   "name": "Hacienda Chichén",
-   "label": "Hacienda Chichén",
+   "id": "wd:Q5556243",
+   "name": "Gheo-shih",
+   "label": "Gheo-shih",
    "type": "built",
-   "kind": "hotel",
-   "region": "MX-YUC",
+   "kind": "archaeological site",
+   "region": "MX-OAX",
    "country": "MX",
-   "lat": 20.67,
-   "lon": -88.57,
+   "lat": 16.9508,
+   "lon": -96.4211,
    "rarity": "Rare",
-   "fame": 1716,
+   "fame": 798,
    "facts": {
-    "elevation_m": 35,
-    "temp_c": 25.8
+    "elevation_m": 1878,
+    "temp_c": 19.2
    },
    "flavour": {
-    "text": "Hacienda Chichén is located within the ancient Maya city of Chichen Itza, in the county of Tinum, Yucatán, Mexico.",
+    "text": "Gheo-shih, which translates to “River of the Gourd Trees” in the Zapotec language.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Hacienda Chichén",
-    "url": "https://en.wikipedia.org/wiki/Hacienda_Chich%C3%A9n",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q21010040.webp",
-    "author": "Gary Minnaert from Los Angeles, USA",
-    "licence": "CC BY-SA 2.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:YucatanHoneymoon_170_(373764934).jpg"
-   }
-  },
-  {
-   "id": "wd:Q123720938",
-   "name": "Cathedral of Saint Joseph in Coatzacoalcos",
-   "label": "Cathedral of Saint Joseph in Coatzacoalcos",
-   "type": "built",
-   "kind": "Catholic cathedral",
-   "region": "MX-VER",
-   "country": "MX",
-   "lat": 18.1463,
-   "lon": -94.416,
-   "rarity": "Rare",
-   "fame": 480,
-   "facts": {
-    "elevation_m": 12,
-    "temp_c": 26.0
-   },
-   "flavour": {
-    "text": "A Catholic cathedral in Veracruz.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q123720938.webp",
-    "author": "Isaacvp",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_San_Jos%C3%A9,_Coatzacoalcos,_Veracruz_10.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5400226",
-   "name": "Estadio Gaspar Mass",
-   "label": "Estadio Gaspar Mass",
-   "type": "built",
-   "kind": "sports venue",
-   "region": "MX-NLE",
-   "country": "MX",
-   "lat": 25.7278,
-   "lon": -100.3133,
-   "rarity": "Rare",
-   "fame": 2316,
-   "facts": {
-    "elevation_m": 517,
-    "temp_c": 22.4
-   },
-   "flavour": {
-    "text": "Estadio Gaspar Mass is an artificial turf stadium in San Nicolás de los Garza, Mexico, a city in the Monterrey metropolitan area.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Estadio Gaspar Mass",
-    "url": "https://en.wikipedia.org/wiki/Estadio_Gaspar_Mass",
+    "title": "Gheo-shih",
+    "url": "https://en.wikipedia.org/wiki/Gheo-shih",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/wd_Q5400226.webp"
+    "file": "images/minimap/wd_Q5556243.webp"
    }
   },
   {
-   "id": "wd:Q5552229",
-   "name": "Oaxaca México Temple",
-   "label": "Oaxaca México Temple",
+   "id": "wd:Q16491630",
+   "name": "Christ sculpture in Taxco de Alarcón",
+   "label": "Christ sculpture in Taxco de Alarcón",
    "type": "built",
-   "kind": "temple",
-   "region": "MX-OAX",
+   "kind": "monument",
+   "region": "MX-GRO",
    "country": "MX",
-   "lat": 17.0416,
-   "lon": -96.7135,
+   "lat": 18.5606,
+   "lon": -99.6094,
    "rarity": "Rare",
-   "fame": 1050,
+   "fame": 2340,
    "facts": {
-    "elevation_m": 1530,
-    "temp_c": 20.6
+    "elevation_m": 2017,
+    "temp_c": 20.1
    },
    "flavour": {
-    "text": "The Oaxaca Mexico Temple is the 74th operating temple of the Church of Jesus Christ of Latter-day Saints.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Oaxaca Mexico Temple",
-    "url": "https://en.wikipedia.org/wiki/Oaxaca_Mexico_Temple",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5552229.webp",
-    "author": "Henok Montoya",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Oaxaca_Temple_by_Henok_Montoya.jpg"
-   }
-  },
-  {
-   "id": "wd:Q5743365",
-   "name": "Heroica Escuela Naval Militar",
-   "label": "Heroica Escuela Naval Militar",
-   "type": "built",
-   "kind": "naval academy",
-   "region": "MX-VER",
-   "country": "MX",
-   "lat": 19.0584,
-   "lon": -95.9835,
-   "rarity": "Rare",
-   "fame": 6606,
-   "facts": {
-    "elevation_m": 5.0,
-    "temp_c": 25.1
-   },
-   "flavour": {
-    "text": "The Heroica Escuela Naval Militar is the officer training academy of the Mexican Navy.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Heroica Escuela Naval Militar",
-    "url": "https://en.wikipedia.org/wiki/Heroica_Escuela_Naval_Militar",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q5743365.webp",
-    "author": "KABAYEK",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:HEROICA_ESCUELA_NAVAL_MILITAR_-_panoramio.jpg"
-   }
-  },
-  {
-   "id": "wd:Q8187803",
-   "name": "Acueducto de Guadalupe",
-   "label": "Acueducto de Guadalupe",
-   "type": "built",
-   "kind": "aqueduct",
-   "region": "MX-DIF",
-   "country": "MX",
-   "lat": 19.4933,
-   "lon": -99.115,
-   "rarity": "Rare",
-   "fame": 2898,
-   "facts": {
-    "elevation_m": 2241,
-    "temp_c": 17.0
-   },
-   "flavour": {
-    "text": "An aqueduct in Mexico.",
+    "text": "A monument in Guerrero.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q8187803.webp",
-    "author": "Dge",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Acueducto_de_Guadalupe_02.JPG"
-   }
-  },
-  {
-   "id": "wd:Q16490490",
-   "name": "Castillo de Santa Cecilia",
-   "label": "Castillo de Santa Cecilia",
-   "type": "built",
-   "kind": "castle",
-   "region": "MX-GUA",
-   "country": "MX",
-   "lat": 21.03,
-   "lon": -101.2589,
-   "rarity": "Rare",
-   "fame": 654,
-   "facts": {
-    "elevation_m": 2082,
-    "temp_c": 15.3
-   },
-   "flavour": {
-    "text": "A castle in Guanajuato.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/wd_Q16490490.webp",
+    "file": "images/photo/wd_Q16491630.webp",
     "author": "AlejandroLinaresGarcia",
     "licence": "CC BY-SA 4.0",
     "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:CastillaSantaCecelia.JPG"
+    "page": "https://commons.wikimedia.org/wiki/File:ChristSculptTaxco2.JPG"
    }
   },
   {
-   "id": "wd:Q951547",
-   "name": "Estadio de Béisbol Francisco I. Madero",
-   "label": "Estadio de Béisbol Francisco I. Madero",
+   "id": "wd:Q5758636",
+   "name": "Immaculate Conception Cathedral, Zamora de Hidalgo",
+   "label": "Immaculate Conception Cathedral, Zamora de Hidalgo",
    "type": "built",
-   "kind": "stadium",
-   "region": "MX-COA",
+   "kind": "Catholic cathedral",
+   "region": "MX-MIC",
    "country": "MX",
-   "lat": 25.4337,
-   "lon": -100.9788,
+   "lat": 19.9836,
+   "lon": -102.285,
    "rarity": "Rare",
-   "fame": 4782,
+   "fame": 4770,
    "facts": {
-    "elevation_m": 1554,
-    "temp_c": 16.6
+    "elevation_m": 1570,
+    "temp_c": 18.8
    },
    "flavour": {
-    "text": "It is primarily used for baseball and is the home field of the Saraperos de Saltillo.",
+    "text": "The Immaculate Conception Cathedral, also known as the Zamora de Hidalgo Cathedral.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Estadio de Béisbol Francisco I. Madero",
-    "url": "https://en.wikipedia.org/wiki/Estadio_de_B%C3%A9isbol_Francisco_I._Madero",
+    "title": "Zamora de Hidalgo Cathedral",
+    "url": "https://en.wikipedia.org/wiki/Zamora_de_Hidalgo_Cathedral",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q951547.webp",
-    "author": "Mtn.riveraa",
-    "licence": "CC BY 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Parquemadero.JPG"
+    "file": "images/photo/wd_Q5758636.webp",
+    "author": "Moadib",
+    "licence": "Public domain",
+    "licence_url": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_Zamora-Mich.jpg"
    }
   },
   {
-   "id": "wd:Q1133169",
-   "name": "Texcotzingo",
-   "label": "Texcotzingo",
+   "id": "wd:Q5925419",
+   "name": "Huandacareo",
+   "label": "Huandacareo (archaeological site)",
    "type": "built",
    "kind": "archaeological site",
-   "region": "MX-MEX",
+   "region": "MX-MIC",
    "country": "MX",
-   "lat": 19.4971,
-   "lon": -98.8183,
+   "lat": 19.9947,
+   "lon": -101.289,
    "rarity": "Rare",
-   "fame": 4602,
+   "fame": 1512,
    "facts": {
-    "elevation_m": 2548,
-    "temp_c": 11.4
+    "elevation_m": 1902,
+    "temp_c": 17.0
    },
    "flavour": {
-    "text": "Texcotzingo is claimed to be one of the first extant botanical gardens in the world, along with Moctezuma's gardens in Huastepec.",
+    "text": "Huandacareo is an archaeological zone located about 60 kilometers north of the city of Morelia, in the state of Michoacán.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Texcotzingo",
-    "url": "https://en.wikipedia.org/wiki/Texcotzingo",
+    "title": "Huandacareo",
+    "url": "https://en.wikipedia.org/wiki/Huandacareo",
     "translated": false
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/wd_Q1133169.webp",
-    "author": "Nq04 at English Wikipedia",
-    "licence": "CC BY 2.5",
-    "licence_url": "https://creativecommons.org/licenses/by/2.5",
-    "page": "https://commons.wikimedia.org/wiki/File:05-12-MX_Tetz_Ba%C3%B1o_Rey.jpg"
+    "file": "images/photo/wd_Q5925419.webp",
+    "author": "RG",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Huandacareo,_main_structure_and_sunken_patio.JPG"
+   }
+  },
+  {
+   "id": "wd:Q5926362",
+   "name": "Jardín Borda",
+   "label": "Jardín Borda",
+   "type": "built",
+   "kind": "garden",
+   "region": "MX-MOR",
+   "country": "MX",
+   "lat": 18.9211,
+   "lon": -99.2381,
+   "rarity": "Rare",
+   "fame": 3792,
+   "facts": {
+    "elevation_m": 1539,
+    "temp_c": 20.6
+   },
+   "flavour": {
+    "text": "A garden in Morelos.",
+    "source": "facts"
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q5926362.webp",
+    "author": "Unknown author",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Jardin_borda.jpg"
+   }
+  },
+  {
+   "id": "wd:Q49165512",
+   "name": "Angamuco",
+   "label": "Angamuco",
+   "type": "built",
+   "kind": "archaeological site",
+   "region": "MX-MIC",
+   "country": "MX",
+   "lat": 19.584,
+   "lon": -101.4949,
+   "rarity": "Rare",
+   "fame": 2256,
+   "facts": {
+    "elevation_m": 2161,
+    "temp_c": 16.3
+   },
+   "flavour": {
+    "text": "Angamuco is the name given to a major urban settlement of the Purépecha civilization, now in ruins hidden under vegetation.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Angamuco",
+    "url": "https://en.wikipedia.org/wiki/Angamuco",
+    "translated": false
+   },
+   "image": {
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q49165512.webp"
+   }
+  },
+  {
+   "id": "wd:Q16641532",
+   "name": "Torre Cuarzo",
+   "label": "Torre Cuarzo",
+   "type": "built",
+   "kind": "building",
+   "region": "MX-DIF",
+   "country": "MX",
+   "lat": 19.4342,
+   "lon": -99.1511,
+   "rarity": "Rare",
+   "fame": 3300,
+   "facts": {
+    "elevation_m": 2233,
+    "temp_c": 17.0
+   },
+   "flavour": {
+    "text": "Cuarzo Towers is a mixed-use skyscraper building complex in the Cuauhtémoc district of Mexico City, Mexico.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Cuarzo Towers",
+    "url": "https://en.wikipedia.org/wiki/Cuarzo_Towers",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q16641532.webp",
+    "author": "Conner02kent",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Torre_Cuarzo.jpg"
+   }
+  },
+  {
+   "id": "wd:Q1156198",
+   "name": "Balankanche",
+   "label": "Balankanche",
+   "type": "built",
+   "kind": "Maya site in Mexico",
+   "region": "MX-YUC",
+   "country": "MX",
+   "lat": 20.6586,
+   "lon": -88.535,
+   "rarity": "Rare",
+   "fame": 2490,
+   "facts": {
+    "elevation_m": 30,
+    "temp_c": 25.8
+   },
+   "flavour": {
+    "text": "Balankanche is an ancient Maya cave site lying at short distance from the archaeological Maya-Toltec city of Chichen Itza, Yucatan.",
+    "source": "wikipedia",
+    "lang": "en",
+    "title": "Balankanche",
+    "url": "https://en.wikipedia.org/wiki/Balankanche",
+    "translated": false
+   },
+   "image": {
+    "kind": "photo",
+    "file": "images/photo/wd_Q1156198.webp",
+    "author": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mexico-6755_-_Tlaloc_(4739916648).jpg"
    }
   },
   {
@@ -3172,7 +3176,7 @@
    "rarity": "Rare",
    "fame": 2736,
    "facts": {
-    "population": 5302,
+    "population": 5953,
     "elevation_m": 1731,
     "temp_c": 17.8
    },
@@ -3236,7 +3240,7 @@
    "rarity": "Rare",
    "fame": 1128,
    "facts": {
-    "population": 1953,
+    "population": 1808,
     "elevation_m": 17,
     "temp_c": 26.2
    },
@@ -3304,12 +3308,12 @@
    "rarity": "Rare",
    "fame": 1680,
    "facts": {
-    "population": 8612,
+    "population": 10083,
     "elevation_m": 2133,
     "temp_c": 16.6
    },
    "flavour": {
-    "text": "A community of 8,612 people in Zacatecas.",
+    "text": "A community of 10,083 people in Zacatecas.",
     "source": "facts"
    },
    "image": {
@@ -3334,7 +3338,7 @@
    "rarity": "Rare",
    "fame": 3528,
    "facts": {
-    "population": 796,
+    "population": 675,
     "elevation_m": 309,
     "temp_c": 21.8
    },
@@ -3364,7 +3368,7 @@
    "rarity": "Rare",
    "fame": 1092,
    "facts": {
-    "population": 15875,
+    "population": 16905,
     "elevation_m": 1893,
     "temp_c": 16.5
    },
@@ -3398,13 +3402,13 @@
    "rarity": "Rare",
    "fame": 4326,
    "facts": {
-    "population": 35219,
+    "population": 38780,
     "elevation_m": 1558,
     "area_km2": 12,
     "temp_c": 20.2
    },
    "flavour": {
-    "text": "A community of 35,219 people in Jalisco.",
+    "text": "A community of 38,780 people in Jalisco.",
     "source": "facts"
    },
    "image": {
@@ -3429,7 +3433,7 @@
    "rarity": "Rare",
    "fame": 3222,
    "facts": {
-    "population": 4999,
+    "population": 5001,
     "elevation_m": 16,
     "area_km2": 2.0,
     "temp_c": 26.5
@@ -3464,7 +3468,7 @@
    "rarity": "Rare",
    "fame": 6894,
    "facts": {
-    "population": 156191,
+    "population": 157998,
     "elevation_m": 2236,
     "temp_c": 16.0
    },
@@ -3498,7 +3502,7 @@
    "rarity": "Rare",
    "fame": 1116,
    "facts": {
-    "population": 2863,
+    "population": 3536,
     "elevation_m": 79,
     "temp_c": 27.0
    },
@@ -3528,12 +3532,12 @@
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 2362,
+    "population": 2790,
     "elevation_m": 2125,
     "temp_c": 13.3
    },
    "flavour": {
-    "text": "A community of 2,362 people in Veracruz.",
+    "text": "A community of 2,790 people in Veracruz.",
     "source": "facts"
    },
    "image": {
@@ -3676,119 +3680,111 @@
    }
   },
   {
-   "id": "gn:3821601",
-   "name": "Carrizalillo",
-   "label": "Carrizalillo",
+   "id": "gn:4027145",
+   "name": "Morelita",
+   "label": "Morelita",
    "type": "town",
    "kind": "town",
    "region": "MX-GRO",
    "country": "MX",
-   "lat": 17.8503,
-   "lon": -99.7126,
+   "lat": 18.2692,
+   "lon": -100.5642,
    "rarity": "Common",
    "fame": 0,
    "facts": {
-    "population": 1200,
-    "elevation_m": 1520,
-    "temp_c": 24.3
+    "population": 1214,
+    "elevation_m": 283,
+    "temp_c": 27.9
    },
    "flavour": {
-    "text": "A community of 1,200 people in Guerrero.",
+    "text": "A community of 1,214 people in Guerrero.",
     "source": "facts"
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_3821601.webp"
+    "file": "images/minimap/gn_4027145.webp"
    }
   },
   {
-   "id": "gn:3526681",
-   "name": "Ixtapan de la Sal",
-   "label": "Ixtapan de la Sal",
-   "type": "town",
-   "kind": "town",
+   "id": "wd:Q5791678",
+   "name": "Christ the King",
+   "label": "Christ the King",
+   "type": "built",
+   "kind": "colossal statue",
    "region": "MX-MEX",
    "country": "MX",
-   "lat": 18.8446,
-   "lon": -99.6756,
+   "lat": 19.5621,
+   "lon": -99.1844,
    "rarity": "Rare",
-   "fame": 6402,
+   "fame": 6654,
    "facts": {
-    "population": 17640,
-    "elevation_m": 1892,
-    "temp_c": 15.8
+    "elevation_m": 2308,
+    "height_m": 43,
+    "temp_c": 15.5
    },
    "flavour": {
-    "text": "A community of 17,640 people in State of Mexico.",
+    "text": "A colossal statue in State of Mexico.",
     "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3526681.webp",
-    "author": "Thelmadatter",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:PlazaChurchIxtapan.JPG"
+    "kind": "minimap",
+    "file": "images/minimap/wd_Q5791678.webp"
    }
   },
   {
-   "id": "gn:3514469",
-   "name": "Xocchel",
-   "label": "Xocchel",
+   "id": "gn:3822398",
+   "name": "Popolnah",
+   "label": "Popolnah",
    "type": "town",
    "kind": "town",
    "region": "MX-YUC",
    "country": "MX",
-   "lat": 20.833,
-   "lon": -89.1826,
+   "lat": 20.9935,
+   "lon": -87.5628,
    "rarity": "Common",
-   "fame": 666,
+   "fame": 672,
    "facts": {
-    "population": 3229,
-    "elevation_m": 15,
-    "temp_c": 25.7
+    "population": 3504,
+    "elevation_m": 17,
+    "temp_c": 25.3
    },
    "flavour": {
-    "text": "A community of 3,229 people in Yucatán.",
+    "text": "A community of 3,504 people in Yucatán.",
     "source": "facts"
    },
    "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_3514469.webp",
-    "author": "Inri",
-    "licence": "CC0",
-    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Xocchel,_Yucat%C3%A1n_(03).JPG"
+    "kind": "minimap",
+    "file": "images/minimap/gn_3822398.webp"
    }
   },
   {
-   "id": "gn:8858985",
-   "name": "La Candelaria Teotlalpan",
-   "label": "La Candelaria Teotlalpan",
+   "id": "gn:3522795",
+   "name": "Natívitas",
+   "label": "Natívitas",
    "type": "town",
    "kind": "town",
    "region": "MX-TLA",
    "country": "MX",
-   "lat": 19.3331,
-   "lon": -98.2256,
+   "lat": 19.2333,
+   "lon": -98.3147,
    "rarity": "Common",
-   "fame": 450,
+   "fame": 486,
    "facts": {
-    "population": 1585,
-    "elevation_m": 2244,
+    "population": 1421,
+    "elevation_m": 2199,
     "temp_c": 15.5
    },
    "flavour": {
-    "text": "A community of 1,585 people in Tlaxcala.",
+    "text": "A community of 1,421 people in Tlaxcala.",
     "source": "facts"
    },
    "image": {
     "kind": "photo",
-    "file": "images/photo/gn_8858985.webp",
-    "author": "Isaacvp",
-    "licence": "CC BY-SA 4.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Frontal_de_la_Iglesia_de_la_Candelaria_Teotlalpan,_Totolac,_Tlaxcala.jpg"
+    "file": "images/photo/gn_3522795.webp",
+    "author": "Isaac Vásquez",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parroquia_de_Santa_Mar%C3%ADa,_Nat%C3%ADvitas_Tlaxcala.jpg"
    }
   }
  ]

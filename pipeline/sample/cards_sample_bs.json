@@ -261,7 +261,7 @@
     "temp_c": 24.5
    },
    "flavour": {
-    "text": "As of the 2010 census, the island has a population of 215 residents.",
+    "text": "Man-O-War Cay is a small island in the Abaco region of the Bahamas.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Man-O-War Cay",
@@ -940,7 +940,7 @@
    "rarity": "Epic",
    "fame": 2382,
    "facts": {
-    "population": 1752,
+    "population": 1788,
     "elevation_m": 20,
     "temp_c": 25.8
    },
@@ -974,7 +974,7 @@
    "rarity": "Epic",
    "fame": 21078,
    "facts": {
-    "population": 5314,
+    "population": 6283,
     "elevation_m": 4.0,
     "temp_c": 24.5
    },
@@ -1056,7 +1056,7 @@
    "rarity": "Epic",
    "fame": 8238,
    "facts": {
-    "population": 452,
+    "population": 430,
     "elevation_m": 11,
     "temp_c": 26.0
    },
@@ -1142,7 +1142,7 @@
    "rarity": "Epic",
    "fame": 5208,
    "facts": {
-    "population": 831,
+    "population": 271,
     "elevation_m": 10,
     "temp_c": 25.5
    },
@@ -1172,7 +1172,7 @@
    "rarity": "Epic",
    "fame": 3402,
    "facts": {
-    "population": 12724,
+    "population": 13673,
     "elevation_m": 5.0,
     "temp_c": 24.5
    },
@@ -1202,7 +1202,7 @@
    "rarity": "Epic",
    "fame": 2742,
    "facts": {
-    "population": 235,
+    "population": 143,
     "elevation_m": 7.0,
     "temp_c": 26.1
    },
@@ -2023,7 +2023,7 @@
     "temp_c": 24.4
    },
    "flavour": {
-    "text": "It has a population of 1,187 as of the 2010 Bahamian census.",
+    "text": "Treasure Cay is a parcel of land connected to Great Abaco Island in the north of the Bahamas.",
     "source": "wikipedia",
     "lang": "en",
     "title": "Treasure Cay",
@@ -2052,7 +2052,7 @@
    "rarity": "Rare",
    "fame": 5280,
    "facts": {
-    "population": 2455,
+    "population": 2443,
     "elevation_m": 14,
     "temp_c": 25.0
    },

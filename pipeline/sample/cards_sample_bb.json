@@ -765,7 +765,7 @@
    "rarity": "Epic",
    "fame": 420,
    "facts": {
-    "population": 623,
+    "population": 508,
     "elevation_m": 32,
     "temp_c": 26.3
    },
@@ -829,7 +829,7 @@
    "rarity": "Epic",
    "fame": 5064,
    "facts": {
-    "population": 2285,
+    "population": 1471,
     "elevation_m": 37,
     "temp_c": 26.6
    },
@@ -863,7 +863,7 @@
    "rarity": "Epic",
    "fame": 4410,
    "facts": {
-    "population": 1765,
+    "population": 1521,
     "elevation_m": 69,
     "temp_c": 26.3
    },
@@ -897,7 +897,7 @@
    "rarity": "Epic",
    "fame": 7164,
    "facts": {
-    "population": 1350,
+    "population": 1595,
     "elevation_m": -1.0,
     "temp_c": 26.3
    },
@@ -931,7 +931,7 @@
    "rarity": "Epic",
    "fame": 9138,
    "facts": {
-    "population": 3634,
+    "population": 2192,
     "elevation_m": 9.0,
     "temp_c": 26.3
    },

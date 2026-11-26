@@ -401,235 +401,34 @@
    }
   },
   {
-   "id": "gn:13353868",
-   "name": "Paget Parish",
-   "label": "Paget Parish",
+   "id": "gn:3573061",
+   "name": "Saint George",
+   "label": "Saint George",
    "type": "town",
    "kind": "town",
-   "region": "BM-PAG",
+   "region": "BM-SG",
    "country": "BM",
-   "lat": 32.2802,
-   "lon": -64.7833,
+   "lat": 32.3817,
+   "lon": -64.6781,
    "rarity": "Common",
-   "fame": 5892,
+   "fame": 40722,
    "facts": {
-    "population": 5702,
-    "elevation_m": 1.0,
+    "population": 1896,
+    "elevation_m": 16,
+    "area_km2": 2.6,
     "temp_c": 22.2
    },
    "flavour": {
-    "text": "Paget Parish is one of the nine parishes of Bermuda.",
+    "text": "St. George's, located on the island and within the parish of the same names, settled in 1612.",
     "source": "wikipedia",
     "lang": "en",
-    "title": "Paget Parish",
-    "url": "https://en.wikipedia.org/wiki/Paget_Parish",
+    "title": "St. George's, Bermuda",
+    "url": "https://en.wikipedia.org/wiki/St._George%27s%2C_Bermuda",
     "translated": false
    },
    "image": {
     "kind": "minimap",
-    "file": "images/minimap/gn_13353868.webp"
-   }
-  },
-  {
-   "id": "gn:13353865",
-   "name": "Smith's Parish",
-   "label": "Smith's Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-SMI",
-   "country": "BM",
-   "lat": 32.3139,
-   "lon": -64.739,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5406,
-    "elevation_m": 1.0,
-    "temp_c": 22.2
-   },
-   "flavour": {
-    "text": "A community of 5,406 people in Smith's Parish.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353865.webp"
-   }
-  },
-  {
-   "id": "gn:13353864",
-   "name": "Devonshire Parish",
-   "label": "Devonshire Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-DEV",
-   "country": "BM",
-   "lat": 32.3058,
-   "lon": -64.7575,
-   "rarity": "Common",
-   "fame": 6144,
-   "facts": {
-    "population": 7330,
-    "elevation_m": 1.0,
-    "temp_c": 22.2
-   },
-   "flavour": {
-    "text": "Devonshire Parish is one of the nine parishes of Bermuda.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Devonshire Parish",
-    "url": "https://en.wikipedia.org/wiki/Devonshire_Parish",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353864.webp"
-   }
-  },
-  {
-   "id": "gn:13353870",
-   "name": "Southampton Parish",
-   "label": "Southampton Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-SOU",
-   "country": "BM",
-   "lat": 32.2516,
-   "lon": -64.8547,
-   "rarity": "Common",
-   "fame": 3612,
-   "facts": {
-    "population": 6633,
-    "elevation_m": 1.0,
-    "temp_c": 22.1
-   },
-   "flavour": {
-    "text": "Southampton Parish is one of the nine parishes of Bermuda.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Southampton Parish, Bermuda",
-    "url": "https://en.wikipedia.org/wiki/Southampton_Parish%2C_Bermuda",
-    "translated": false
-   },
-   "image": {
-    "kind": "photo",
-    "file": "images/photo/gn_13353870.webp",
-    "author": "The Reefs",
-    "licence": "CC BY-SA 3.0",
-    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Reefs_Hotel_%26_Club,_Bermuda_resort.jpg"
-   }
-  },
-  {
-   "id": "gn:13353871",
-   "name": "Sandys Parish",
-   "label": "Sandys Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-SAN",
-   "country": "BM",
-   "lat": 32.2964,
-   "lon": -64.8693,
-   "rarity": "Common",
-   "fame": 2460,
-   "facts": {
-    "population": 7653,
-    "elevation_m": 1.0,
-    "temp_c": 22.1
-   },
-   "flavour": {
-    "text": "Sandys Parish is one of the nine parishes of Bermuda.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Sandys Parish",
-    "url": "https://en.wikipedia.org/wiki/Sandys_Parish",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353871.webp"
-   }
-  },
-  {
-   "id": "gn:13353866",
-   "name": "Hamilton Parish",
-   "label": "Hamilton Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-HAM",
-   "country": "BM",
-   "lat": 32.3422,
-   "lon": -64.7302,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5862,
-    "elevation_m": 1.0,
-    "temp_c": 22.2
-   },
-   "flavour": {
-    "text": "A community of 5,862 people in Hamilton.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353866.webp"
-   }
-  },
-  {
-   "id": "gn:13353867",
-   "name": "St George's Parish",
-   "label": "St George's Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-SGE",
-   "country": "BM",
-   "lat": 32.3725,
-   "lon": -64.6976,
-   "rarity": "Common",
-   "fame": 0,
-   "facts": {
-    "population": 5659,
-    "elevation_m": 1.0,
-    "temp_c": 22.2
-   },
-   "flavour": {
-    "text": "A community of 5,659 people in Saint George.",
-    "source": "facts"
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353867.webp"
-   }
-  },
-  {
-   "id": "gn:13353869",
-   "name": "Warwick Parish",
-   "label": "Warwick Parish",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-WAR",
-   "country": "BM",
-   "lat": 32.2657,
-   "lon": -64.8092,
-   "rarity": "Common",
-   "fame": 7428,
-   "facts": {
-    "population": 8615,
-    "elevation_m": 1.0,
-    "temp_c": 22.2
-   },
-   "flavour": {
-    "text": "Warwick Parish is one of the nine parishes of Bermuda.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "Warwick Parish",
-    "url": "https://en.wikipedia.org/wiki/Warwick_Parish",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_13353869.webp"
+    "file": "images/minimap/gn_3573061.webp"
    }
   },
   {
@@ -1270,37 +1069,6 @@
    "image": {
     "kind": "minimap",
     "file": "images/minimap/wd_Q1549037.webp"
-   }
-  },
-  {
-   "id": "gn:3573061",
-   "name": "Saint George",
-   "label": "Saint George",
-   "type": "town",
-   "kind": "town",
-   "region": "BM-SG",
-   "country": "BM",
-   "lat": 32.3817,
-   "lon": -64.6781,
-   "rarity": "Rare",
-   "fame": 40722,
-   "facts": {
-    "population": 1896,
-    "elevation_m": 16,
-    "area_km2": 2.6,
-    "temp_c": 22.2
-   },
-   "flavour": {
-    "text": "St. George's, located on the island and within the parish of the same names, settled in 1612.",
-    "source": "wikipedia",
-    "lang": "en",
-    "title": "St. George's, Bermuda",
-    "url": "https://en.wikipedia.org/wiki/St._George%27s%2C_Bermuda",
-    "translated": false
-   },
-   "image": {
-    "kind": "minimap",
-    "file": "images/minimap/gn_3573061.webp"
    }
   }
  ]
