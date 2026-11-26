@@ -22,9 +22,19 @@ export interface IndexCard {
   lon: number
   kind: string
   image: string // path inside /export/, '' if none
+  facts: Fact[] // up to three, most telling first
+  num: number // collector number within the region (1 = most famous)
 }
 
-export interface Region { name: string; country: string; file: string }
+export type FactKey = 'population' | 'height_m' | 'elevation_m' | 'prominence_m' | 'length_km' | 'area_km2' | 'temp_c'
+export interface Fact { key: FactKey; value: number }
+const FACT_KEYS: Record<string, FactKey> = {
+  p: 'population', h: 'height_m', e: 'elevation_m', r: 'prominence_m', l: 'length_km', a: 'area_km2', t: 'temp_c',
+}
+const parseFacts = (s: string): Fact[] =>
+  s ? s.split(';').map((f) => ({ key: FACT_KEYS[f[0]], value: Number(f.slice(1)) })).filter((f) => f.key) : []
+
+export interface Region { name: string; country: string; file: string; count?: number }
 
 export interface Pool {
   cards: IndexCard[]
@@ -51,14 +61,15 @@ export interface CardDetail {
   image?: { kind: 'photo' | 'minimap'; file: string; author?: string; licence?: string; licence_url?: string; page?: string }
 }
 
-type Row = [string, string, number, string, string, number, number, string, string]
+type Row = [string, string, number, string, string, number, number, string, string, string?, number?]
 
 export async function loadPool(): Promise<Pool> {
   const res = await fetch('/data/index.json')
   if (!res.ok) throw new Error('The card index did not load. Run `npm run dev` from web/ so it gets built.')
   const raw = (await res.json()) as { cards: Row[]; regions: Record<string, Region>; countries: Record<string, string> }
-  const cards = raw.cards.map(([id, label, t, ty, region, lat, lon, kind, image]): IndexCard => ({
+  const cards = raw.cards.map(([id, label, t, ty, region, lat, lon, kind, image, facts, num]): IndexCard => ({
     id, label, tier: TIERS[t], type: TYPE_OF[ty] ?? 'nature', region, lat, lon, kind, image,
+    facts: parseFacts(facts ?? ''), num: num ?? 0,
   }))
   const byTier = Object.fromEntries(TIERS.map((t) => [t, [] as IndexCard[]])) as Record<Tier, IndexCard[]>
   for (const c of cards) byTier[c.tier].push(c)

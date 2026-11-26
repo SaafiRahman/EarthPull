@@ -23,17 +23,41 @@ if (!existsSync(EXPORT)) {
 const countryNames = {};
 for (const m of readFileSync(COUNTRIES_PY, "utf8").matchAll(/\("([A-Z]{2})",\s*"([^"]+)",\s*"Q\d+"/g)) countryNames[m[1]] = m[2];
 
-const regions = {}; // code -> { name, country, file }
+// Up to three facts for the card face's stats box, most telling first, packed as "p1776;e120;t7.8".
+const FACT_CODES = { population: "p", height_m: "h", elevation_m: "e", prominence_m: "r", length_km: "l", area_km2: "a", temp_c: "t" };
+const FACT_ORDER = {
+  town: ["population", "elevation_m", "area_km2", "temp_c"],
+  built: ["height_m", "length_km", "elevation_m", "temp_c"],
+  nature: ["elevation_m", "prominence_m", "length_km", "area_km2", "height_m", "temp_c"],
+};
+// Rivers, lakes and islands: their size says more than their height above the sea.
+const SIZE_FIRST = /river|creek|stream|lake|reservoir|bay|lagoon|island|archipelago|sound|strait|canal/;
+function packFacts(c) {
+  let order = FACT_ORDER[c.type] || FACT_ORDER.nature;
+  if (c.type === "nature" && SIZE_FIRST.test(c.kind || "")) order = ["length_km", "area_km2", "elevation_m", "temp_c"];
+  const out = [];
+  for (const k of order) {
+    const v = c.facts?.[k];
+    if (v == null || out.length >= 3) continue;
+    out.push(FACT_CODES[k] + (Math.abs(v) >= 100 ? Math.round(v) : Math.round(v * 10) / 10));
+  }
+  return out.join(";");
+}
+
+const regions = {}; // code -> { name, country, file, count }
 const rows = [];
 for (const cc of readdirSync(EXPORT).filter((d) => /^[A-Z]{2}$/.test(d)).sort()) {
   const idx = JSON.parse(readFileSync(join(EXPORT, cc, "index.json"), "utf8"));
   for (const r of idx.regions) {
-    regions[r.code] = { name: r.name, country: cc, file: `${cc}/${r.file}` };
     const data = JSON.parse(readFileSync(join(EXPORT, cc, r.file), "utf8"));
+    regions[r.code] = { name: r.name, country: cc, file: `${cc}/${r.file}`, count: data.cards.length };
+    // Collector number within the region, most famous first (like a set number: "NS 042/318").
+    const ranked = [...data.cards].sort((a, b) => (b.fame || 0) - (a.fame || 0) || a.id.localeCompare(b.id));
+    const num = new Map(ranked.map((c, i) => [c.id, i + 1]));
     for (const c of data.cards) {
-      // [id, label, rarity index, type letter, region code, lat, lon, kind, image path or ""]
+      // [id, label, rarity index, type letter, region code, lat, lon, kind, image path or "", facts, collector number]
       rows.push([c.id, c.label || c.name, TIERS.indexOf(c.rarity), TYPES[c.type] || "n", c.region, c.lat, c.lon,
-        c.kind || "", c.image?.file || ""]);
+        c.kind || "", c.image?.file || "", packFacts(c), num.get(c.id)]);
     }
   }
 }

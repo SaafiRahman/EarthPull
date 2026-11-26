@@ -55,6 +55,9 @@ Back to [[00 Home]]. Source for the game decisions: [[Roadmap]] (Decisions secti
 | 2026-11-23 | Worldwide ranking | Rank fame within each country, not against the whole world | Every country gets its own Legendaries and Epics, which suits local packs |
 | 2026-11-23 | Git | Commits only under the developer's own git identity, no AI attribution lines, pushes need the developer's OK | Developer's rule for this repo |
 
+| 2026-11-26 | Card style | Collectible TCG look, but no full art: the photo stays in a fixed window on every tier, and rarity shows in the frame (richer frame per tier, map-themed foil patterns, rarity symbols, stamped serial). See [[Card Design Research]] | Developer wants cards to feel like modern TCG rares; the photos are Commons pictures of every shape and quality, so full-bleed art "might look weird" |
+| 2026-11-26 | Card variants | A second roll on top of rarity, so any card can come in a rarer version (like Pokémon reverse holos and CS2 StatTrak). Start with **Foil** (about 1 in 20 cards, any tier; a foil Common gets its own number, starting cap /500; a foil numbered card keeps its normal serial) and the **Local stamp** (cards from a local pack get a stamp with the place and date pulled). Later: a StatTrak-style tracker (km travelled, days held or owners), foil pattern seeds with a few named rare patterns, special serials (#1, serials matching a fact about the place). Variant odds get published with the rarity odds; on the server the variant is rolled and stored in `openPack` | Developer agreed to all of them and chose Foil plus the Local stamp first. Gives the 70% of pulls that are Common a chance to be special |
+
 ## Open
 Each has the roadmap's recommendation.
 - [ ] **Minimum age.** Recommended: 13+, with a birth-year check at sign-up. Collecting emails from children under 13 brings extra legal requirements.
