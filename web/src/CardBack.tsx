@@ -58,7 +58,7 @@ export function LogoMark({ className = '' }: { className?: string }) {
   const id = useId().replace(/:/g, '')
   return (
     <svg viewBox="0 0 100 100" className={className} role="img" aria-label="Pull the Planet">
-      <CompassPin id={id} cx={50} hy={38} R={34} ty={96} hole={24} inside="#140b0f" shadow={false} />
+      <CompassPin id={id} cx={50} hy={38} R={34} ty={96} hole={24} inside="#0b0608" shadow={false} />
     </svg>
   )
 }
@@ -69,7 +69,7 @@ export function CardBack({ tier }: { tier: Tier }) {
   const style = { '--glow': TIER_GLOW[tier] } as CSSProperties
   const cx = W / 2, cy = 192, r = 70
   return (
-    <div className={`h-full w-full overflow-hidden rounded-[6%/4.3%] ${tier === 'Common' ? '' : 'glow'}`} style={style}>
+    <div className={`h-full w-full overflow-hidden rounded-[6%/4.3%] shadow-[0_10px_30px_-8px_rgba(0,0,0,.9)] ${tier === 'Common' ? '' : 'glow'}`} style={style}>
       <svg viewBox={`0 0 ${W} ${H}`} className="block h-full w-full" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Pull the Planet card, face down">
         <defs>
           <linearGradient id={`leather${id}`} x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#6b1a2b" /><stop offset=".55" stopColor={LEATHER} /><stop offset="1" stopColor="#350a15" /></linearGradient>
@@ -80,6 +80,8 @@ export function CardBack({ tier }: { tier: Tier }) {
         <rect width={W} height={H} fill={`url(#leather${id})`} />
         <rect width={W} height={H} filter={`url(#grain${id})`} />
         <rect x="9" y="9" width={W - 18} height={H - 18} rx="8" fill="none" stroke={GOLD_LINE} strokeOpacity=".35" strokeDasharray="2 3" />
+        {/* Gold edge, so the back stands out against the dark wine page */}
+        <rect x="1.5" y="1.5" width={W - 3} height={H - 3} rx="13" fill="none" stroke={`url(#gold${id})`} strokeWidth="3" opacity=".85" />
         <g filter={`url(#emboss${id})`}>
           <text x={cx} y={62} textAnchor="middle" fontFamily="Bricolage Grotesque, sans-serif" fontWeight="800" fontSize="17" letterSpacing="3.6" fill={`url(#gold${id})`}>PULL THE PLANET</text>
           <text x={cx} y={80} textAnchor="middle" fontFamily="Figtree, sans-serif" fontWeight="700" fontSize="7.5" letterSpacing="3" fill={`url(#gold${id})`}>WORLD COLLECTOR</text>
