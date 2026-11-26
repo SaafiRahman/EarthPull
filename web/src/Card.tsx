@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent } from 'react'
-import { imageUrl, loadDetail, regionName, type Fact, type IndexCard, type Pool, type Tier } from './data'
+import { FOIL_COMMON_CAP, imageUrl, loadDetail, regionName, type Fact, type IndexCard, type Pool, type Tier } from './data'
 
 export const TIER_COLOR: Record<Tier, string> = {
   Common: 'var(--color-common)',
@@ -8,9 +8,6 @@ export const TIER_COLOR: Record<Tier, string> = {
   Legendary: 'var(--color-legendary)',
   Mythic: 'var(--color-mythic)',
 }
-
-/** Starting cap for foil copies of a Common (Decisions 2026-11-26). Numbered tiers keep their normal serial. */
-export const FOIL_COMMON_CAP = 500
 
 const KIND_FALLBACK = { town: 'Town', nature: 'Place', built: 'Landmark' }
 
@@ -82,13 +79,13 @@ const MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', '
 const stampDate = (t: number) => { const d = new Date(t); return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}` }
 
 /** Round die-cut sticker on the photo: where and when this copy was pulled. */
-export function StampSticker({ stamp }: { stamp: Stamp }) {
+export function StampSticker({ stamp, inline = false }: { stamp: Stamp; inline?: boolean }) {
   const id = useId().replace(/:/g, '')
   const ring = stamp.kind === 'local' ? 'LOCAL PULL ✦ LOCAL PULL ✦ ' : 'HOMETOWN ✦ HOMETOWN ✦ '
   const place = stamp.place.length > 16 ? `${stamp.place.slice(0, 15)}…` : stamp.place
   const placeSize = place.length > 11 ? 8.5 : place.length > 8 ? 10 : 12
   return (
-    <svg viewBox="0 0 100 100" className={`tcg-stamp tcg-stamp-${stamp.kind}`} role="img"
+    <svg viewBox="0 0 100 100" className={`tcg-stamp tcg-stamp-${stamp.kind} ${inline ? 'tcg-stamp-inline' : ''}`} role="img"
       aria-label={`${stamp.kind === 'local' ? 'Local pull' : 'Hometown'}: ${stamp.place}, ${stampDate(stamp.date)}`}>
       <defs><path id={`r${id}`} d="M50 50m-34 0a34 34 0 1 1 68 0a34 34 0 1 1-68 0" /></defs>
       <circle cx="50" cy="50" r="47" fill="#fff" />
@@ -142,15 +139,14 @@ function useFlavour(pool: Pool, id: string, want: boolean): string | undefined {
  * not the photo: plain slate for Common, then contour lines (Rare), a lat/long grid (Epic), gold (Legendary) and a
  * moving rainbow (Mythic). A foil copy adds a holographic shine to the frame and text panel; the photo stays clean.
  */
-export function CardFace({ pool, card, serial, hometown, stamp, foil = false, size = 'md', showSerial = true }: {
-  pool: Pool; card: IndexCard; serial: number | null; hometown?: boolean; stamp?: Stamp; foil?: boolean
+export function CardFace({ pool, card, serial, stamp, foil = false, size = 'md', showSerial = true }: {
+  pool: Pool; card: IndexCard; serial: number | null; stamp?: Stamp; foil?: boolean
   size?: 'sm' | 'md' | 'lg'; showSerial?: boolean
 }) {
   const tilt = useTilt()
   const flavour = useFlavour(pool, card.id, size !== 'sm')
   const img = imageUrl(card.image)
   const isMap = card.image.includes('minimap')
-  const sticker = stamp ?? (hometown ? { kind: 'hometown' as const, place: 'Home', date: Date.now() } : undefined)
   const nameSize = card.label.length > 30 ? 'tcg-name-xs' : card.label.length > 20 ? 'tcg-name-sm' : ''
 
   return (
@@ -168,7 +164,7 @@ export function CardFace({ pool, card, serial, hometown, stamp, foil = false, si
             {img ? <img src={img} alt="" loading="lazy" /> : null}
             <div className="tcg-art-shade" />
             {card.tier === 'Mythic' ? <div className="tcg-ribbon">✦ Mythic · One of One ✦</div> : null}
-            {sticker ? <StampSticker stamp={sticker} /> : null}
+            {stamp ? <StampSticker stamp={stamp} /> : null}
           </div>
           <div className="tcg-type">
             <span className="tcg-kind">{kindLabel(card)} · {regionName(pool, card.region)}</span>

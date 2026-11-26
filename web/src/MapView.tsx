@@ -3,7 +3,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { CardModal } from './CardModal'
 import { TIERS, type Pool, type Tier } from './data'
-import type { GameState } from './game'
+import { stampOf, type GameState } from './game'
 import { ownedCards, type OwnedCard } from './Collection'
 
 // Free vector map styles from OpenFreeMap (no key). The player picks one; the choice is remembered in this browser.
@@ -29,7 +29,15 @@ const COMMON_ON_LIGHT = '#5d6678' // grey pins need more weight on pale maps
 export function MapView({ pool, state }: { pool: Pool; state: GameState }) {
   const el = useRef<HTMLDivElement>(null)
   const map = useRef<maplibregl.Map | null>(null)
-  const owned = useMemo(() => ownedCards(pool, state), [pool, state])
+  // One pin per place: the collection lists plain, foil and Local copies separately; the map shows the best one
+  const owned = useMemo(() => {
+    const best = new Map<string, OwnedCard>()
+    for (const o of ownedCards(pool, state)) {
+      const cur = best.get(o.card.id)
+      if (!cur || (o.foil && !cur.foil) || (o.foil === cur.foil && o.local && !cur.local)) best.set(o.card.id, o)
+    }
+    return [...best.values()]
+  }, [pool, state])
   const byId = useMemo(() => new Map(owned.map((o) => [o.card.id, o])), [owned])
   const [open, setOpen] = useState<OwnedCard | null>(null)
   const [style, setStyle] = useState<StyleId>(savedStyle)
@@ -126,7 +134,7 @@ export function MapView({ pool, state }: { pool: Pool; state: GameState }) {
           Open a pack and your places will appear here.
         </div>
       ) : null}
-      {open ? <CardModal pool={pool} card={open.card} serial={open.serial} hometown={open.hometown} copies={open.copies} onClose={() => setOpen(null)} /> : null}
+      {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stampOf(open, state)} copies={open.copies} onClose={() => setOpen(null)} /> : null}
     </div>
   )
 }

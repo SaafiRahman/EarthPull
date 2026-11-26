@@ -21,9 +21,10 @@ export default function App() {
   useEffect(() => { saveState(state) }, [state])
   useEffect(() => { const t = setInterval(() => setState((s) => refill(s)), 15000); return () => clearInterval(t) }, [])
 
-  const onOpen = useCallback(() => {
+  const [askHere, setAskHere] = useState(false)
+  const onOpen = useCallback((kind: 'normal' | 'local') => {
     if (!pool) return []
-    const { pulls, state: next } = openPack(pool, refill(state))
+    const { pulls, state: next } = openPack(pool, refill(state), Math.random, kind)
     setState(next)
     return pulls
   }, [pool, state])
@@ -57,7 +58,9 @@ export default function App() {
       <main className="min-h-0 flex-1 overflow-y-auto">
         {tab === 'packs' ? (
           <PackScreen pool={pool} state={state} onOpen={onOpen}
-            onAddPack={() => setState((s) => refill({ ...s, packs: Math.min(MAX_PACKS, s.packs + 1) }))} />
+            onAddPack={() => setState((s) => refill({ ...s, packs: Math.min(MAX_PACKS, s.packs + 1) }))}
+            onChangeHere={() => setAskHere(true)}
+            onResetLocal={() => setState((s) => ({ ...s, localDay: null }))} />
         ) : tab === 'collection' ? <Collection pool={pool} state={state} /> : <MapView pool={pool} state={state} />}
       </main>
       {tab !== 'map' ? (
@@ -71,6 +74,13 @@ export default function App() {
         <HometownPicker pool={pool}
           onPick={(h) => { setState((s) => ({ ...s, hometown: h })); setAskHome(false) }}
           onSkip={() => setAskHome(false)} />
+      ) : null}
+      {askHere ? (
+        <HometownPicker pool={pool} title="Where are you?"
+          blurb="Your local pack holds places near this town. In the real game this comes from your rough location; in the demo, pick any town to pretend you've travelled there."
+          skipLabel="Cancel"
+          onPick={(h) => { setState((s) => ({ ...s, here: h })); setAskHere(false) }}
+          onSkip={() => setAskHere(false)} />
       ) : null}
     </div>
   )

@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import { CardBack, CardFace, TIER_COLOR } from './Card'
+import { CardBack, CardFace, StampSticker, TIER_COLOR } from './Card'
 import { CardModal } from './CardModal'
 import type { Pool } from './data'
-import { MAX_PACKS, PACK_SIZE, type GameState, type Pulled } from './game'
+import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type GameState, type Pulled } from './game'
 
 function useNow(ms = 1000) {
   const [now, setNow] = useState(Date.now())
@@ -16,26 +16,37 @@ function countdown(ms: number): string {
   return h ? `${h}h ${String(m).padStart(2, '0')}m` : `${m}m ${String(sec).padStart(2, '0')}s`
 }
 
-export function PackScreen({ pool, state, onOpen, onAddPack }: {
-  pool: Pool; state: GameState; onOpen: () => Pulled[]; onAddPack: () => void
+type Kind = 'normal' | 'local'
+
+export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onResetLocal }: {
+  pool: Pool; state: GameState; onOpen: (kind: Kind) => Pulled[]; onAddPack: () => void
+  onChangeHere: () => void; onResetLocal: () => void
 }) {
   const now = useNow()
   const [pulls, setPulls] = useState<Pulled[] | null>(null)
+  const [kind, setKind] = useState<Kind>('normal')
+  const [openedAt, setOpenedAt] = useState(0)
   const [flipped, setFlipped] = useState<boolean[]>([])
   const [open, setOpen] = useState<Pulled | null>(null)
 
-  const start = () => {
-    const p = onOpen()
+  const start = (k: Kind) => {
+    const p = onOpen(k)
+    if (!p.length) return
+    setKind(k)
+    setOpenedAt(Date.now())
     setPulls(p)
     setFlipped(p.map(() => false))
   }
   const flip = (i: number) => setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
   const allFlipped = flipped.length > 0 && flipped.every(Boolean)
+  const stamp = (p: Pulled) => stampOf({ ...p, at: openedAt }, state)
 
   if (pulls) {
     const best = pulls[pulls.length - 1]
+    const foil = best.foil ? 'Foil ' : ''
     return (
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6">
+        {kind === 'local' ? <p className="font-display text-lg font-bold text-[#ff6b70]">Local pack · near {pulls[0].local}</p> : null}
         <p className="text-sm text-muted">{allFlipped ? 'Tap a card to look closer.' : 'Tap each card to flip it. The best is last.'}</p>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           {pulls.map((p, i) => (
@@ -44,22 +55,22 @@ export function PackScreen({ pool, state, onOpen, onAddPack }: {
               className={`flip rise aspect-[5/7] text-left ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
               style={{ animationDelay: `${i * 80}ms` }}
               onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
-              aria-label={flipped[i] ? `${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
+              aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
               <div className="flip-inner">
                 <div className="flip-face"><CardBack tier={p.card.tier} /></div>
                 <div className="flip-face flip-front">
-                  {flipped[i] ? <CardFace pool={pool} card={p.card} serial={p.serial} hometown={p.hometown} /> : null}
+                  {flipped[i] ? <CardFace pool={pool} card={p.card} serial={p.serial} foil={p.foil} stamp={stamp(p)} /> : null}
                 </div>
               </div>
             </button>
           ))}
         </div>
-        {flipped[pulls.length - 1] && best.serial != null ? (
+        {flipped[pulls.length - 1] && (best.serial != null || best.card.tier === 'Mythic') ? (
           <p className="serial-in font-display text-lg font-semibold" style={{ color: TIER_COLOR[best.card.tier] }}>
             {best.card.tier === 'Mythic'
               ? `You pulled the only ${best.card.label} card in the world.`
-              : `${best.card.label}: copy #${best.serial} of ${best.cap?.toLocaleString('en-US')}`}
+              : `${foil}${best.card.label}: copy #${best.serial} of ${best.cap?.toLocaleString('en-US')}`}
           </p>
         ) : null}
         <div className="flex gap-3">
@@ -69,12 +80,14 @@ export function PackScreen({ pool, state, onOpen, onAddPack }: {
             <button className="rounded-xl bg-accent px-6 py-2.5 font-semibold text-ground" onClick={() => setPulls(null)}>Done</button>
           )}
         </div>
-        {open ? <CardModal pool={pool} card={open.card} serial={open.serial} hometown={open.hometown} onClose={() => setOpen(null)} /> : null}
+        {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stamp(open)} onClose={() => setOpen(null)} /> : null}
       </div>
     )
   }
 
   const next = state.nextRefill ? state.nextRefill - now : null
+  const here = whereAmI(state)
+  const ready = localReady(state, now)
   return (
     <div className="mx-auto flex max-w-xl flex-col items-center gap-6 px-4 py-10 text-center">
       <div className="flex gap-3" aria-label={`${state.packs} of ${MAX_PACKS} packs`}>
@@ -94,12 +107,37 @@ export function PackScreen({ pool, state, onOpen, onAddPack }: {
       </div>
       <button
         disabled={!state.packs}
-        onClick={start}
+        onClick={() => start('normal')}
         className="rounded-2xl bg-accent px-10 py-4 font-display text-xl font-extrabold text-ground shadow-[0_0_40px_-8px_var(--color-accent)] transition hover:scale-[1.03] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:scale-100"
       >
         Open a pack
       </button>
       <button onClick={onAddPack} className="text-xs text-muted underline">Demo: add a pack now</button>
+
+      <section className="mt-2 flex w-full items-center gap-4 rounded-2xl border border-[#e5484d]/40 bg-[#e5484d]/[0.07] p-4 text-left" aria-label="Local pack">
+        <div className="w-20 shrink-0">
+          <StampSticker stamp={{ kind: 'local', place: here?.label ?? 'Near you', date: now }} inline />
+        </div>
+        <div className="flex min-w-0 flex-1 flex-col gap-1.5">
+          <h2 className="font-display text-lg font-extrabold">Today's local pack</h2>
+          {here ? (
+            <p className="text-sm text-muted">{PACK_SIZE} places near {here.label}, every card stamped Local. One a day.</p>
+          ) : (
+            <p className="text-sm text-muted">Pick where you are to get a pack of places near you, stamped Local.</p>
+          )}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            {!here ? (
+              <button onClick={onChangeHere} className="rounded-xl bg-[#e5484d] px-4 py-2 font-semibold text-white">Pick where you are</button>
+            ) : ready ? (
+              <button onClick={() => start('local')} className="rounded-xl bg-[#e5484d] px-4 py-2 font-semibold text-white transition hover:scale-[1.03]">Open local pack</button>
+            ) : (
+              <span className="text-sm">Next local pack in <span className="tabular-nums font-semibold">{countdown(nextLocalAt(now) - now)}</span></span>
+            )}
+            {here ? <button onClick={onChangeHere} className="text-xs text-muted underline">Demo: I'm somewhere else</button> : null}
+            {here && !ready ? <button onClick={onResetLocal} className="text-xs text-muted underline">Demo: new local pack now</button> : null}
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

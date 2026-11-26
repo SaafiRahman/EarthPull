@@ -301,6 +301,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   filter: drop-shadow(0 0.8cqw 1.2cqw rgba(0,0,0,.5));
   font-family: var(--font-display);
 }
+.tcg-stamp.tcg-stamp-inline { position: static; width: 100%; height: auto; }
 .tcg-stamp-local .tcg-stamp-ink { fill: #e5484d; }
 .tcg-stamp-hometown .tcg-stamp-ink { fill: #13a594; }
 

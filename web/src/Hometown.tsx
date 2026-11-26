@@ -5,7 +5,9 @@ import type { Hometown } from './game'
 const fold = (s: string) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
 /** First visit: pick a hometown so the first pack can hold a place near it. Only the town is stored, in this browser. */
-export function HometownPicker({ pool, onPick, onSkip }: { pool: Pool; onPick: (h: Hometown) => void; onSkip: () => void }) {
+export function HometownPicker({ pool, onPick, onSkip, title = "Where's home?", blurb, skipLabel = 'Skip, give me a random first pack' }: {
+  pool: Pool; onPick: (h: Hometown) => void; onSkip: () => void; title?: string; blurb?: string; skipLabel?: string
+}) {
   const [q, setQ] = useState('')
   const towns = useMemo(() => pool.cards.filter((c) => c.type === 'town').map((c) => ({ c, key: fold(c.label) })), [pool])
   const hits = useMemo(() => {
@@ -19,9 +21,9 @@ export function HometownPicker({ pool, onPick, onSkip }: { pool: Pool; onPick: (
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-ground/85 p-4 backdrop-blur-sm">
       <div className="rise w-full max-w-md rounded-2xl border border-line bg-panel p-6" role="dialog" aria-modal="true" aria-labelledby="ht-title">
-        <h2 id="ht-title" className="font-display text-2xl font-extrabold text-balance">Where's home?</h2>
+        <h2 id="ht-title" className="font-display text-2xl font-extrabold text-balance">{title}</h2>
         <p className="mt-1 text-sm text-muted">
-          Your first pack always holds a place within 50 km of your hometown. Pick any town in North America. It stays in this browser.
+          {blurb ?? 'Your first pack always holds a place within 50 km of your hometown. Pick any town in North America. It stays in this browser.'}
         </p>
         <input
           id="hometown-search" autoFocus value={q} onChange={(e) => setQ(e.target.value)}
@@ -43,7 +45,7 @@ export function HometownPicker({ pool, onPick, onSkip }: { pool: Pool; onPick: (
           ))}
           {q.trim().length >= 2 && !hits.length ? <li className="px-3 py-2 text-sm text-muted">No town by that name in the pool.</li> : null}
         </ul>
-        <button onClick={onSkip} className="mt-4 text-sm text-muted underline">Skip, give me a random first pack</button>
+        <button onClick={onSkip} className="mt-4 text-sm text-muted underline">{skipLabel}</button>
       </div>
     </div>
   )

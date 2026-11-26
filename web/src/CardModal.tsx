@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { CardFace } from './Card'
+import { CardFace, type Stamp } from './Card'
 import { countryName, loadDetail, type CardDetail, type IndexCard, type Pool } from './data'
 
 const FACTS: [string, string, (v: number) => string][] = [
@@ -12,8 +12,8 @@ const FACTS: [string, string, (v: number) => string][] = [
   ['temp_c', 'Avg temp', (v) => `${v.toFixed(1)} °C`],
 ]
 
-export function CardModal({ pool, card, serial, hometown, copies, onClose }: {
-  pool: Pool; card: IndexCard; serial: number | null; hometown?: boolean; copies?: number; onClose: () => void
+export function CardModal({ pool, card, serial, foil, stamp, copies, onClose }: {
+  pool: Pool; card: IndexCard; serial: number | null; foil?: boolean; stamp?: Stamp; copies?: number; onClose: () => void
 }) {
   const [detail, setDetail] = useState<CardDetail | undefined>()
   useEffect(() => {
@@ -35,12 +35,22 @@ export function CardModal({ pool, card, serial, hometown, copies, onClose }: {
       >
         <div className="flex flex-col gap-6 sm:flex-row">
           <div className="mx-auto aspect-[5/7] w-56 shrink-0 sm:w-64">
-            <CardFace pool={pool} card={card} serial={serial} hometown={hometown} size="lg" />
+            <CardFace pool={pool} card={card} serial={serial} foil={foil} stamp={stamp} size="lg" />
           </div>
           <div className="flex min-w-0 flex-1 flex-col gap-4">
             <div>
               <h2 className="font-display text-2xl font-semibold text-balance">{card.label}</h2>
-              <p className="text-sm text-muted">{countryName(pool, card.region)}{copies && copies > 1 ? ` · you own ${copies} copies` : ''}</p>
+              <p className="text-sm text-muted">
+                {countryName(pool, card.region)}{copies && copies > 1 ? ` · you own ${copies} copies` : ''}
+              </p>
+              {foil || stamp ? (
+                <p className="mt-1 text-sm font-semibold">
+                  {foil ? <span className="mr-3 bg-[linear-gradient(115deg,#ff7ac6,#ffd36e,#6effd8,#7aa8ff)] bg-clip-text text-transparent">Foil</span> : null}
+                  {stamp ? <span className={stamp.kind === 'local' ? 'text-[#ff6b70]' : 'text-accent'}>
+                    {stamp.kind === 'local' ? `Local pull in ${stamp.place}` : `Hometown card (${stamp.place})`}, {new Date(stamp.date).toLocaleDateString('en-CA', { day: 'numeric', month: 'short', year: 'numeric' })}
+                  </span> : null}
+                </p>
+              ) : null}
             </div>
             {detail?.flavour?.text ? (
               <p className="leading-relaxed">

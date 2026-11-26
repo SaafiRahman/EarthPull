@@ -77,9 +77,33 @@ try {
   }
   await shot(page, 'packs-after')
 
+  // Today's local pack (near the hometown), then pretend to travel and open another
+  await clickText(page, 'Open local pack')
+  await sleep(500)
+  await clickText(page, 'Reveal all')
+  await sleep(1800)
+  await shot(page, 'local-pack')
+  await clickText(page, 'Done')
+  await sleep(300)
+  await shot(page, 'local-used')
+  await clickText(page, "Demo: I'm somewhere else")
+  await page.type('#hometown-search', 'Toronto')
+  await sleep(300)
+  await page.click('[role="dialog"] ul button')
+  await clickText(page, 'Demo: new local pack now')
+  await clickText(page, 'Open local pack')
+  await sleep(500)
+  await clickText(page, 'Reveal all')
+  await sleep(1500)
+  await clickText(page, 'Done')
+
   await clickText(page, 'Collection')
   await sleep(1500)
   await shot(page, 'collection')
+  await page.select('#f-variant', 'local')
+  await sleep(800)
+  await shot(page, 'collection-local')
+  await page.select('#f-variant', '')
 
   await clickText(page, 'Map')
   await sleep(6000)
