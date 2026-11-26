@@ -265,17 +265,30 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   box-shadow: 0 0.4cqw 1cqw rgba(0,0,0,.4);
 }
 
-/* Foil: holographic light over the frame and text panel. The photo sits above it, so it stays clean. */
+/* Foil: a band of holographic light that moves with the pointer. It scales with rarity so the tier still reads first:
+   Common and Rare shine on the frame only and keep the frame's own colour (like a reverse holo); Epic and up shine
+   harder and over the text panel too. The photo always sits above it, so it stays clean. */
 .tcg-foil {
   z-index: 2;
   background:
-    linear-gradient(115deg, transparent 18%, rgba(255,90,200,.55) 32%, rgba(255,230,90,.5) 42%, rgba(90,255,215,.55) 52%, rgba(110,150,255,.55) 62%, rgba(210,120,255,.5) 72%, transparent 86%),
+    linear-gradient(115deg, transparent 30%, rgba(255,90,200,.55) 40%, rgba(255,230,90,.5) 46%, rgba(90,255,215,.55) 52%, rgba(110,150,255,.55) 58%, rgba(210,120,255,.5) 64%, transparent 74%),
     repeating-linear-gradient(55deg, rgba(255,255,255,.10) 0 0.5cqw, transparent 0.5cqw 2.2cqw);
   background-size: 260% 260%, auto;
   background-position: var(--mx) var(--my), 0 0;
-  mix-blend-mode: color-dodge; opacity: .55;
+  mix-blend-mode: var(--foil-blend, color-dodge); opacity: var(--foil-strength, .55);
   animation: foil-drift 7s ease-in-out infinite alternate;
 }
+.tcg-common { --foil-strength: .5; --foil-blend: soft-light; }
+.tcg-rare { --foil-strength: .6; --foil-blend: overlay; }
+.tcg-epic { --foil-strength: .5; }
+.tcg-legendary { --foil-strength: .55; }
+/* Frame only: cut the content area out of the foil layer */
+.tcg-common .tcg-foil, .tcg-rare .tcg-foil {
+  padding: 3.4cqw;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+}
+.tcg-common.tcg-is-foil .tcg-body, .tcg-rare.tcg-is-foil .tcg-body { background: var(--body); }
 .tcg[data-active] .tcg-foil, .tcg[data-active] .tcg-serial-foil { animation: none; }
 .tcg-is-foil .tcg-body { background: color-mix(in srgb, var(--body) 88%, transparent); }
 .tcg-is-foil .tcg-type, .tcg-is-foil .tcg-collector, .tcg-is-foil .tcg-facts dt { color: #d5dbe8; text-shadow: 0 1px 2px rgba(0,0,0,.6); }

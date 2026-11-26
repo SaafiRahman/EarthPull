@@ -1,5 +1,5 @@
 // Record one card from the preview page (/#cards) up close, with the pointer sweeping over it, as screencast frames.
-//   node scripts/record-card.mjs [tier] [outDir] [seconds]     e.g. node scripts/record-card.mjs Mythic
+//   node scripts/record-card.mjs [tier] [outDir] [seconds]     e.g. Mythic, or Common-foil for the foil row
 // Then: python scripts/frames-to-mp4.py <outDir> <video.mp4>
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import puppeteer from 'puppeteer-core'
@@ -21,16 +21,17 @@ try {
   // Hide everything except the first "Plain" card of that tier, and show it centred and large. The card stays inside
   // React's root, so pointer events (tilt and light) still reach it.
   const found = await page.evaluate((tier) => {
-    const card = [...document.querySelectorAll('section:first-of-type .tcg')].find((el) => el.classList.contains(`tcg-${tier.toLowerCase()}`))
+    const card = [...document.querySelectorAll(`section:nth-of-type(${tier.endsWith('-foil') ? 2 : 1}) .tcg`)].find((el) => el.classList.contains(`tcg-${tier.toLowerCase().replace('-foil', '')}`))
     if (!card) return false
     const cell = card.parentElement
-    document.querySelectorAll('section').forEach((s, i) => { if (i > 0) s.style.display = 'none' })
-    document.querySelector('section h2').style.display = 'none'
+    const keep = cell.closest('section')
+    document.querySelectorAll('section').forEach((s) => { if (s !== keep) s.style.display = 'none' })
+    keep.querySelector('h2').style.display = 'none'
     for (const c of cell.parentElement.children) if (c !== cell) c.style.display = 'none'
     cell.parentElement.style.cssText = 'display:grid;place-items:center;height:100vh'
     cell.style.cssText = 'width:400px;aspect-ratio:5/7'
     cell.id = 'solo'
-    document.querySelector('section').parentElement.style.padding = '0'
+    keep.parentElement.style.padding = '0'
     return true
   }, TIER)
   if (!found) throw new Error(`No ${TIER} card on /#cards`)
