@@ -122,6 +122,47 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   100% { transform: translate(190px, -170px) rotate(-70deg); opacity: 0; }
 }
 .pack-torn .pack-cut { opacity: 0; transition: opacity .2s; }
+/* ───── Rarity hint on the sealed pack (Epic and up only), and the fake-out upgrade ───── */
+.pack-rays { position: absolute; inset: -30% -45%; pointer-events: none; opacity: 0; transition: opacity .5s; }
+.pack-seams { opacity: 0; transition: opacity .5s; }
+.pack-hint-epic .pack-glow, .pack-hint-legendary .pack-glow, .pack-hint-mythic .pack-glow {
+  inset: -12% -38%;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--hint) 80%, transparent) 30%, color-mix(in srgb, var(--hint) 30%, transparent) 60%, transparent);
+  animation: hint-pulse 1.6s ease-in-out infinite;
+}
+@keyframes hint-pulse { 0%, 100% { opacity: .65; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+/* Light escaping along the crimped seams */
+.pack-hint-epic .pack-seams, .pack-hint-legendary .pack-seams, .pack-hint-mythic .pack-seams {
+  opacity: 1;
+  background:
+    linear-gradient(to bottom, transparent 4%, #fff 5.6%, var(--hint) 6.4%, transparent 9.5%),
+    linear-gradient(to top, transparent 4%, #fff 5.6%, var(--hint) 6.4%, transparent 9.5%);
+  mix-blend-mode: screen; filter: blur(2px) brightness(1.3);
+  animation: seam-flicker .9s steps(2, jump-none) infinite;
+}
+@keyframes seam-flicker { 0% { opacity: .75; } 100% { opacity: 1; } }
+/* Legendary and Mythic: slow turning rays behind the pack and an occasional rattle */
+.pack-hint-epic .pack-rays { opacity: .35; background: repeating-conic-gradient(from var(--ang), color-mix(in srgb, var(--hint) 55%, transparent) 0 5deg, transparent 5deg 30deg); -webkit-mask: radial-gradient(closest-side, #000 20%, transparent 70%); mask: radial-gradient(closest-side, #000 20%, transparent 70%); animation: mythic-spin 20s linear infinite; }
+.pack-hint-legendary .pack-rays, .pack-hint-mythic .pack-rays {
+  opacity: .8;
+  background: repeating-conic-gradient(from var(--ang), color-mix(in srgb, var(--hint) 60%, transparent) 0 6deg, transparent 6deg 22deg);
+  -webkit-mask: radial-gradient(closest-side, #000 20%, transparent 75%); mask: radial-gradient(closest-side, #000 20%, transparent 75%);
+  animation: mythic-spin 14s linear infinite;
+}
+.pack-hint-mythic .pack-rays {
+  background: repeating-conic-gradient(from var(--ang), #ff5f8f 0 5deg, transparent 5deg 15deg, #ffd66b 15deg 20deg, transparent 20deg 30deg, #5fd4c4 30deg 35deg, transparent 35deg 45deg, #a970f7 45deg 50deg, transparent 50deg 60deg);
+  opacity: .5;
+}
+.pack-hint-legendary .pack-shake, .pack-hint-mythic .pack-shake { animation: pack-rattle 2.6s ease-in-out infinite; }
+@keyframes pack-rattle {
+  0%, 78%, 100% { transform: none; }
+  81% { transform: translateX(-3px) rotate(-1.2deg); } 84% { transform: translateX(3px) rotate(1.2deg); }
+  87% { transform: translateX(-2px) rotate(-.8deg); } 90% { transform: translateX(2px) rotate(.6deg); } 93% { transform: none; }
+}
+/* Fake-out: a white flash as the glow jumps a tier */
+.pack-upgrading .pack-glow { animation: upgrade-flash .7s ease-out; }
+@keyframes upgrade-flash { 0% { opacity: 1; transform: scale(1); filter: brightness(1); } 25% { opacity: 1; transform: scale(1.6); filter: brightness(3); } 100% { opacity: .8; transform: scale(1); filter: brightness(1); } }
+
 /* Build-up: the pack trembles harder as the cut gets further, and light leaks out of the cut */
 .pack[data-straining] .pack-shake { animation: pack-shake .07s linear infinite; }
 @keyframes pack-shake {
@@ -133,7 +174,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 .pack-leak {
   top: var(--cut); height: 70px; margin-top: -35px;
-  background: radial-gradient(ellipse 60% 50% at calc(var(--prog) * 50%) 50%, rgba(255,236,180,.75), rgba(226,184,90,.25) 45%, transparent 70%);
+  background: radial-gradient(ellipse 60% 50% at calc(var(--prog) * 50%) 50%, rgba(255,240,210,.8), color-mix(in srgb, var(--hint) 45%, transparent) 45%, transparent 70%);
   opacity: calc(var(--prog) * .9); mix-blend-mode: screen;
 }
 .pack-torn .pack-leak { opacity: 0; transition: opacity .3s; }
@@ -146,6 +187,34 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @keyframes bit-fly { from { transform: translate(0, 0) rotate(0); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) rotate(var(--rot)); opacity: 0; } }
 
 .pack-torn .pack-float, .pack-torn .pack-floor { animation-play-state: paused; }
+
+/* ───── Walkout (Reveal.tsx) ───── */
+.rv-rays {
+  position: absolute; left: 50%; top: 50%; width: 170vmax; height: 170vmax; margin: -85vmax 0 0 -85vmax; pointer-events: none;
+  background: repeating-conic-gradient(from var(--ang), rgba(255,214,107,.55) 0 4deg, transparent 4deg 14deg);
+  -webkit-mask: radial-gradient(closest-side, #000 8%, transparent 62%); mask: radial-gradient(closest-side, #000 8%, transparent 62%);
+  animation: mythic-spin 16s linear infinite;
+}
+.rv-rays-mythic {
+  background: repeating-conic-gradient(from var(--ang), #ff5f8f 0 4deg, transparent 4deg 12deg, #ffd66b 12deg 16deg, transparent 16deg 24deg, #5fd4c4 24deg 28deg, transparent 28deg 36deg, #a970f7 36deg 40deg, transparent 40deg 48deg);
+}
+.rv-mythic-text { background: linear-gradient(100deg, #ff8fb1, #ffd66b, #7fe6d6, #b48cff, #ff8fb1); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: shimmer 3s linear infinite; }
+
+/* ───── Epic reveal: the card jumps, a purple shockwave and sparks ───── */
+.epic-pop { animation: epic-pop .55s cubic-bezier(.2,.9,.3,1.2); z-index: 3; }
+@keyframes epic-pop { 0% { transform: scale(1); } 30% { transform: scale(1.12) translateY(-10px); } 100% { transform: none; } }
+.epic-ring {
+  position: absolute; z-index: 5; left: 50%; top: 50%; width: 60%; aspect-ratio: 1; margin: -30% 0 0 -30%; border-radius: 50%; pointer-events: none;
+  border: 4px solid #c99bff; box-shadow: 0 0 30px 8px rgba(169,112,247,.8), inset 0 0 20px rgba(169,112,247,.6);
+  animation: epic-ring .7s ease-out forwards;
+}
+@keyframes epic-ring { from { transform: scale(.2); opacity: 1; } to { transform: scale(2.6); opacity: 0; } }
+.epic-spark {
+  position: absolute; z-index: 5; left: 50%; top: 50%; width: 7px; height: 7px; margin: -3.5px; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, #fff, #c99bff 55%, transparent 70%);
+  animation: epic-spark .75s cubic-bezier(.1,.7,.3,1) forwards;
+}
+@keyframes epic-spark { from { transform: translate(0, 0) scale(1.3); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) scale(.3); opacity: 0; } }
 
 /* Card flip */
 .flip { perspective: 1200px; }
@@ -206,9 +275,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rise { animation: rise 0.4s ease-out both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .pack-float, .pack-sheen, .pack-floor { animation: none; }
+  .pack-float, .pack-sheen, .pack-floor, .pack-rays, .pack-seams, .pack-glow, .pack-hint-legendary .pack-shake, .pack-hint-mythic .pack-shake { animation: none; }
   .flip-inner { transition: none; }
-  .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
+  .rv-rays, .epic-pop, .epic-ring, .epic-spark, .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }
 }
 

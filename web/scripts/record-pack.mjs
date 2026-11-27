@@ -62,7 +62,14 @@ try {
   await sleep(1500)
   for (const c of await page.$$('button.flip:not(.flipped)')) {
     await c.click()
-    await sleep(2600)
+    await sleep(1800)
+    // A Legendary or Mythic opens the walkout: let it play, then tap to go back
+    const walkout = await page.$('[role="dialog"][aria-label$="reveal"]')
+    if (walkout) {
+      await sleep(4500)
+      await walkout.click()
+      await sleep(900)
+    }
   }
   await sleep(1000)
   await cdp.send('Page.stopScreencast')

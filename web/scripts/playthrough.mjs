@@ -85,6 +85,14 @@ try {
   for (const c of await page.$$('button.flip:not(.flipped)')) {
     await c.click()
     await sleep(1600)
+    // A Legendary or Mythic opens the walkout: let it play, then tap to go back
+    const walkout = await page.$('[role="dialog"][aria-label$="reveal"]')
+    if (walkout) {
+      await sleep(3500)
+      await shot(page, 'walkout')
+      await walkout.click()
+      await sleep(900)
+    }
   }
   await shot(page, 'pack-revealed')
 

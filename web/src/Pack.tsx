@@ -4,7 +4,7 @@
 import gsap from 'gsap'
 import { useEffect, useId, useRef, useState, type CSSProperties, type PointerEvent } from 'react'
 import { CompassPin } from './CardBack'
-import type { Pool } from './data'
+import type { Pool, Tier } from './data'
 import { sfx } from './sfx'
 
 const W = 260, H = 420
@@ -122,12 +122,32 @@ function PackArt({ pool, kind, id }: { pool: Pool; kind: Kind; id: string }) {
  * then a squeeze and a pop: the pack pinches in for a split second and bursts, and `onTorn` fires on the pop. The
  * strip and the body are the same art clipped at the tear line, so the rip lines up exactly.
  */
-export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kind; onTorn: () => void }) {
+// The rarity hint (like Genshin's star colour): the pack shows the best card inside before it is opened.
+// Common and Rare packs give nothing away.
+const HINT_COLOR: Record<Tier, string> = { Common: '', Rare: '', Epic: '#a970f7', Legendary: '#ffcf5a', Mythic: '#ff5f8f' }
+
+export function Pack({ pool, kind = 'normal', onTorn, hint = 'Common', fakeFrom = null }: {
+  pool: Pool; kind?: Kind; onTorn: () => void
+  /** best card in the pack */ hint?: Tier
+  /** fake-out: the pack first shows this lower tier, then upgrades to `hint` partway through the tear */ fakeFrom?: Tier | null
+}) {
+  const [shown, setShown] = useState<Tier>(fakeFrom ?? hint)
+  const [upgrading, setUpgrading] = useState(false)
   const id = useId().replace(/:/g, '')
   const box = useRef<HTMLDivElement>(null)
   const drag = useRef<{ x: number; y: number; moved: boolean; lastCrinkle: number } | null>(null)
   const [progress, setProgress] = useState(0)
   const [torn, setTorn] = useState(false)
+
+  // The fake-out lands halfway through the tear: a flash, a rising run of notes, and the glow jumps a tier
+  useEffect(() => {
+    if (shown === hint || progress < 0.55) return
+    setShown(hint)
+    setUpgrading(true)
+    sfx.upgrade()
+    const t = window.setTimeout(() => setUpgrading(false), 700)
+    return () => clearTimeout(t)
+  }, [progress, shown, hint])
   const locked = useRef(false) // the tear is complete: no more dragging
 
   const tear = () => {
@@ -221,10 +241,11 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
     <div className="flex flex-col items-center gap-5">
       <div
         ref={box} role="button" tabIndex={0} aria-label="Pack: swipe across the top or tap to tear it open"
-        className={`pack relative aspect-[260/420] w-[min(62vw,280px)] touch-none select-none ${torn ? 'pack-torn' : ''}`}
+        className={`pack pack-hint-${shown.toLowerCase()} relative aspect-[260/420] w-[min(62vw,280px)] touch-none select-none ${torn ? 'pack-torn' : ''} ${upgrading ? 'pack-upgrading' : ''}`}
         onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerCancel={up} onPointerLeave={leave}
-        style={{ '--cut': `${cut}%`, '--prog': progress } as CSSProperties}
+        style={{ '--cut': `${cut}%`, '--prog': progress, '--hint': HINT_COLOR[shown] || '#ffe7b0' } as CSSProperties}
       >
+        <div className="pack-rays" />
         <div className="pack-glow" />
         <div className="pack-floor" />
         <div className="pack-float absolute inset-0">
@@ -234,6 +255,7 @@ export function Pack({ pool, kind = 'normal', onTorn }: { pool: Pool; kind?: Kin
           <svg viewBox={`0 0 ${W} ${H}`} className="pack-strip absolute inset-0 h-full w-full" aria-hidden><PackArt pool={pool} kind={kind} id={`s${id}`} /></svg>
           <div className="pack-sheen pointer-events-none absolute inset-0" />
           <div className="pack-spec pointer-events-none absolute inset-0" />
+          <div className="pack-seams pointer-events-none absolute inset-0" />
           <div className="pack-leak pointer-events-none absolute inset-x-0" />
           <div className="pack-cut pointer-events-none absolute left-0 h-[3px]" />
           {torn ? BITS.map((b, i) => (

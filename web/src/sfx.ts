@@ -115,6 +115,16 @@ export const sfx = {
     h.gain.gain.setTargetAtTime(0.0001, t, 0.04)
     h.oscs.forEach((o) => o.stop(t + 0.3))
   },
+  /** Fake-out: the pack's glow upgrades a tier mid-tear. A quick rising run of bright notes. */
+  upgrade() { [784, 988, 1175, 1568, 1976].forEach((f, i) => bell(f, i * 0.045, 0.5, 0.1)) },
+  /** Low rumble under the Legendary walkout. */
+  rumble(dur = 2.4) { sweep(160, 60, dur, 0.22, 0.6); thump(70, 40, dur, 0.18) },
+  /** One step of the walkout's build-up (country, region, kind): each a little higher. */
+  sting(step: number) { const f = [392, 494, 587][step] ?? 659; bell(f, 0, 0.9, 0.13); bell(f / 2, 0, 0.9, 0.08, 'triangle') },
+  /** The walkout's big reveal: a deep boom under a bright shimmer. */
+  boom() { thump(120, 30, 0.8, 0.6); sweep(7000, 2000, 0.6, 0.18, 0.5); sweep(300, 120, 0.5, 0.2, 0.7) },
+  /** Epic reveal: a shockwave whoosh. */
+  shock() { sweep(600, 2400, 0.25, 0.22, 1); thump(220, 80, 0.25, 0.3) },
   /** The pack landing in the middle of the screen. */
   land() { thump(150, 55, 0.22, 0.4); sweep(900, 300, 0.12, 0.08, 1) },
   /** The burst after the squeeze: a deep thump under a bright crack. */

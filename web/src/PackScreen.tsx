@@ -1,14 +1,33 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import { CardBack, CardFace, StampSticker, TIER_COLOR } from './Card'
 import { CardModal } from './CardModal'
-import type { Pool } from './data'
+import { TIERS, type Pool, type Tier } from './data'
 import { Pack } from './Pack'
+import { Reveal } from './Reveal'
 import { sfx } from './sfx'
 import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type GameState, type Pulled } from './game'
 
 gsap.registerPlugin(useGSAP)
+
+const bestTier = (pulls: Pulled[]): Tier => pulls.reduce<Tier>((b, p) => (TIERS.indexOf(p.card.tier) > TIERS.indexOf(b) ? p.card.tier : b), 'Common')
+
+/**
+ * Fake-out (developer, 2026-11-26): sometimes the sealed pack first shows a lower tier and upgrades mid-tear. It only
+ * ever goes up, so it can't disappoint: Epic packs sometimes look plain, Legendary ones purple, Mythic ones gold.
+ */
+function fakeOut(best: Tier): Tier | null {
+  const chance: Partial<Record<Tier, [number, Tier]>> = { Epic: [0.2, 'Rare'], Legendary: [0.35, 'Epic'], Mythic: [0.5, 'Legendary'] }
+  const c = chance[best]
+  return c && Math.random() < c[0] ? c[1] : null
+}
+
+// Directions the Epic sparks fly
+const SPARK_DIRS = Array.from({ length: 12 }, (_, i) => {
+  const a = (i / 12) * Math.PI * 2
+  return [Math.cos(a) * (90 + (i % 3) * 25), Math.sin(a) * (110 + (i % 2) * 30)] as const
+})
 
 function useNow(ms = 1000) {
   const [now, setNow] = useState(Date.now())
@@ -35,6 +54,9 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const [flipped, setFlipped] = useState<boolean[]>([])
   const [open, setOpen] = useState<Pulled | null>(null)
   const [phase, setPhase] = useState<'pack' | 'opening' | 'cards'>('pack')
+  const [fakeFrom, setFakeFrom] = useState<Tier | null>(null)
+  const [featured, setFeatured] = useState(-1) // card in the walkout
+  const [epicBurst, setEpicBurst] = useState(-1)
   const stage = useRef<HTMLDivElement>(null)
   const packWrap = useRef<HTMLDivElement>(null)
   const cardEls = useRef<(HTMLButtonElement | null)[]>([])
@@ -55,12 +77,17 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     const from = fr
       ? { x: fr.left + fr.width / 2 - (pr.left + pr.width / 2), y: fr.top + fr.height / 2 - (pr.top + pr.height / 2), scale: fr.width / pr.width }
       : { x: 0, y: -260, scale: 0.6 }
+    // No tearing until it has landed. Unblocked by a timer and on cleanup, not by the timeline's onComplete: React's
+    // development mode runs this twice and the first run's timeline is thrown away before it completes, which left
+    // the pack untouchable (found 2026-11-26).
     wrap.style.pointerEvents = 'none'
-    gsap.timeline({ onComplete: () => { wrap.style.pointerEvents = '' } })
+    const unblock = window.setTimeout(() => { wrap.style.pointerEvents = '' }, 1150)
+    gsap.timeline()
       .from(packEl, { ...from, rotation: -12, duration: 0.55, ease: 'power3.out' })
       .add(() => sfx.land())
       .to(packEl, { scaleX: 1.06, scaleY: 0.93, duration: 0.08, transformOrigin: '50% 100%', ease: 'power2.out' })
       .to(packEl, { scaleX: 1, scaleY: 1, duration: 0.5, ease: 'elastic.out(1, 0.4)' })
+    return () => { clearTimeout(unblock); wrap.style.pointerEvents = '' }
   }, { dependencies: [pulls], scope: stage })
 
   // After the pop: the cards shoot up out of the pack in a fan while the pack drops away, hang in the air for a beat,
@@ -69,7 +96,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     if (phase !== 'opening' || !pulls) return
     const cards = cardEls.current.slice(0, pulls.length).filter(Boolean) as HTMLButtonElement[]
     const packEl = packWrap.current?.querySelector('.pack')
-    const finish = () => { gsap.set(cards, { clearProps: 'transform,zIndex,visibility,opacity' }); setPhase('cards') }
+    const finish = () => { gsap.set(cards, { clearProps: 'transform,zIndex,visibility,opacity' }); gsap.set(stage.current, { clearProps: 'transform' }); setPhase('cards') }
     if (!packEl || calm()) { finish(); return }
     const pr = packEl.getBoundingClientRect(), mid = (cards.length - 1) / 2
     const from = cards.map((el, i) => {
@@ -114,13 +141,26 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     setOpenedAt(Date.now())
     setPulls(p)
     setFlipped(p.map(() => false))
+    setFakeFrom(fakeOut(bestTier(p)))
     setPhase('pack')
   }
+  const setOneFlipped = (i: number) => setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
   const flip = (i: number) => {
     if (!pulls || flipped[i]) return
+    const tier = pulls[i].card.tier
+    if (tier === 'Legendary' || tier === 'Mythic') { setFeatured(i); return } // the walkout
+    if (tier === 'Epic') {
+      // The card jumps, a purple shockwave and sparks, then it turns over
+      setEpicBurst(i)
+      sfx.shock()
+      window.setTimeout(() => { sfx.flip(); setOneFlipped(i) }, 160)
+      window.setTimeout(() => sfx.reveal(tier), 480)
+      window.setTimeout(() => setEpicBurst((b) => (b === i ? -1 : b)), 800)
+      return
+    }
     sfx.flip()
-    window.setTimeout(() => sfx.reveal(pulls[i].card.tier), 380)
-    setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
+    window.setTimeout(() => sfx.reveal(tier), 380)
+    setOneFlipped(i)
   }
   const revealAll = () => {
     if (!pulls) return
@@ -168,10 +208,16 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
             <button
               key={p.card.id}
               ref={(el) => { cardEls.current[i] = el }}
-              className={`flip relative aspect-[5/7] text-left ${spotlight === i ? 'spotlight' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
+              className={`flip relative aspect-[5/7] text-left ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
               onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
               aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
+              {epicBurst === i ? (
+                <>
+                  <span className="epic-ring" />
+                  {SPARK_DIRS.map(([dx, dy], k) => <span key={k} className="epic-spark" style={{ '--dx': `${dx}px`, '--dy': `${dy}px` } as CSSProperties} />)}
+                </>
+              ) : null}
               <div className="flip-inner">
                 <div className="flip-face"><CardBack tier={p.card.tier} /></div>
                 <div className="flip-face flip-front">
@@ -205,10 +251,14 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
         </div>
         {!ready ? (
           <div ref={packWrap} className="absolute inset-x-0 top-28 z-20 flex justify-center">
-            <Pack pool={pool} kind={kind} onTorn={() => setPhase('opening')} />
+            <Pack key={openedAt} pool={pool} kind={kind} hint={bestTier(pulls)} fakeFrom={fakeFrom} onTorn={() => setPhase('opening')} />
           </div>
         ) : null}
         {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stamp(open)} onClose={() => setOpen(null)} /> : null}
+        {featured >= 0 ? (
+          <Reveal pool={pool} pull={pulls[featured]} stamp={stamp(pulls[featured])}
+            onDone={() => { setOneFlipped(featured); setFeatured(-1) }} />
+        ) : null}
       </div>
     )
   }
