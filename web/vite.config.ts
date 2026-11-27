@@ -37,4 +37,7 @@ export default defineConfig({
   // Lets the developer open the dev server from a phone through a Cloudflare quick tunnel (random *.trycloudflare.com
   // address, started by hand with `cloudflared tunnel --url http://localhost:5173`)
   server: { allowedHosts: ['.trycloudflare.com'] },
+  // The phone link serves the release build (`vite build --watch` + `vite preview`): the development build stuttered
+  // on phones during the pack opening (2026-11-26)
+  preview: { allowedHosts: ['.trycloudflare.com'] },
 })

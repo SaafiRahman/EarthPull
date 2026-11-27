@@ -45,9 +45,15 @@ const SPARK_DIRS = Array.from({ length: 12 }, (_, i) => {
   return [Math.cos(a) * (90 + (i % 3) * 25), Math.sin(a) * (110 + (i % 2) * 30)] as const
 })
 
+/** The time, updated every `ms`; paused when `ms` is 0. */
 function useNow(ms = 1000) {
   const [now, setNow] = useState(Date.now())
-  useEffect(() => { const t = setInterval(() => setNow(Date.now()), ms); return () => clearInterval(t) }, [ms])
+  useEffect(() => {
+    if (!ms) return
+    setNow(Date.now())
+    const t = setInterval(() => setNow(Date.now()), ms)
+    return () => clearInterval(t)
+  }, [ms])
   return now
 }
 
@@ -63,8 +69,10 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   pool: Pool; state: GameState; onOpen: (kind: Kind) => Pulled[]; onAddPack: () => void
   onChangeHere: () => void; onResetLocal: () => void
 }) {
-  const now = useNow()
   const [pulls, setPulls] = useState<Pulled[] | null>(null)
+  // The clock is only for the countdowns on the home screen. It stays paused while a pack is open: each tick redrew
+  // the whole pack screen and caused a hitch every second on phones (found 2026-11-26)
+  const now = useNow(pulls ? 0 : 1000)
   const [kind, setKind] = useState<Kind>('normal')
   const [openedAt, setOpenedAt] = useState(0)
   const [flipped, setFlipped] = useState<boolean[]>([])
@@ -158,6 +166,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     setOpenedAt(Date.now())
     setPulls(p)
     setFlipped(p.map(() => false))
+    setCurrent(0)
     setFakeFrom(fakeOut(bestTier(p)))
     setPhase('pack')
   }
@@ -286,7 +295,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
       <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-3 overflow-x-clip px-4 py-3 sm:gap-6 sm:py-6 ${ready ? '' : 'min-h-[calc(100dvh-110px)] sm:min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
         <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{phone && !allFlipped ? 'Swipe through your cards. Tap a glowing one to reveal it.' : waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
-        <div ref={row} className={`-mx-4 -my-6 flex w-[calc(100%+2rem)] snap-x snap-mandatory gap-4 px-[calc(50vw-min(43vw,(100dvh-290px)*5/14))] py-6 sm:mx-0 sm:my-0 sm:py-0 sm:grid sm:w-full sm:grid-cols-3 sm:gap-3 sm:overflow-visible sm:px-0 lg:grid-cols-5 ${ready ? 'overflow-x-auto overscroll-x-contain [scrollbar-width:none]' : 'overflow-visible'}`}>
+        <div key={openedAt} ref={row} className={`-mx-4 -my-6 flex w-[calc(100%+2rem)] snap-x snap-mandatory gap-4 px-[calc(50vw-min(43vw,(100dvh-290px)*5/14))] py-6 sm:mx-0 sm:my-0 sm:py-0 sm:grid sm:w-full sm:grid-cols-3 sm:gap-3 sm:overflow-visible sm:px-0 lg:grid-cols-5 ${ready ? 'overflow-x-auto overscroll-x-contain [scrollbar-width:none]' : 'overflow-visible'}`}>
           {pulls.map((p, i) => (
             <button
               key={p.card.id}

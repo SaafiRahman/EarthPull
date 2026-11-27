@@ -2,7 +2,7 @@
 // wordmark, and the compass pin: a map pin whose head holds a four-point compass star. Every card is a pin on the map,
 // so the logo is one too. Earlier options (night Earth, nautical chart, topographic, passport crest, plain compass
 // rose) are recorded in vault/Card Design Research.md.
-import { useId, type CSSProperties } from 'react'
+import { memo, useId, type CSSProperties } from 'react'
 import type { Tier } from './data'
 
 // Face-down preview (N3TWORK's advice): only the top three tiers are highlighted, so a glow always means something.
@@ -70,7 +70,7 @@ const HIGHLIGHT: Record<Tier, string> = { Common: '', Rare: '', Epic: 'glow', Le
 const SPARKS = Array.from({ length: 10 }, (_, i) => ({ left: (i * 37) % 100, delay: (i * 0.29) % 2.2, size: 3 + (i % 3) }))
 
 /** Face-down card: the leather back, glowing in the rarity colour of what's inside (Epic and up only). */
-export function CardBack({ tier }: { tier: Tier }) {
+export const CardBack = memo(function CardBack({ tier }: { tier: Tier }) {
   const id = useId().replace(/:/g, '')
   const style = { '--glow': TIER_GLOW[tier] } as CSSProperties
   const cx = W / 2, cy = 192, r = 70
@@ -105,4 +105,4 @@ export function CardBack({ tier }: { tier: Tier }) {
     </div>
     </div>
   )
-}
+})

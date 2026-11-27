@@ -16,7 +16,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## Preview
 - North America demo (2026-11-26): `cd web && npm run dev`, then http://localhost:5173. See `web/README.md`.
-- On the developer's phone: a Cloudflare quick tunnel to the dev server (`%LOCALAPPDATA%\cloudflared\cloudflared.exe tunnel --url http://localhost:5173`). It prints a random *.trycloudflare.com address that changes on every start; nothing is uploaded and it only works while the PC and dev server run. Decided 2026-11-26 instead of publishing to pulltheplanet.com (developer: publishing "might be a bad idea"; the images are 3.2 GB in 87,000 files, over Cloudflare Pages' 20,000-file limit).
+- On the developer's phone (updated 2026-11-26): a Cloudflare quick tunnel to the release build, which is much smoother on phones than the development build. Run `npx vite build --watch` and `npx vite preview --port 4173` in `web/`, then `%LOCALAPPDATA%\cloudflared\cloudflared.exe tunnel --url http://localhost:4173`. It prints a random *.trycloudflare.com address that changes on every start; nothing is uploaded and it only works while the PC runs. Decided instead of publishing to pulltheplanet.com (developer: publishing "might be a bad idea"; the images are 3.2 GB in 87,000 files, over Cloudflare Pages' 20,000-file limit).
 - [Canada Card Pool](https://claude.ai/artifact/117bnRr4gnePifssV7qQMX): private map of every candidate card so far (built 2026-11-23). Only the developer can open it unless shared.
 
 ## Notes
