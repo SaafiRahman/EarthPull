@@ -11,6 +11,18 @@ import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type 
 
 gsap.registerPlugin(useGSAP)
 
+/** True on phone-width screens (below Tailwind's sm breakpoint). */
+function useIsPhone() {
+  const q = '(max-width: 639px)'
+  const [phone, setPhone] = useState(() => window.matchMedia(q).matches)
+  useEffect(() => {
+    const m = window.matchMedia(q), f = () => setPhone(m.matches)
+    m.addEventListener('change', f)
+    return () => m.removeEventListener('change', f)
+  }, [])
+  return phone
+}
+
 const bestTier = (pulls: Pulled[]): Tier => pulls.reduce<Tier>((b, p) => (TIERS.indexOf(p.card.tier) > TIERS.indexOf(b) ? p.card.tier : b), 'Common')
 
 /**
@@ -179,6 +191,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   // and its best card gets a short spotlight.
   useEffect(() => {
     if (phase !== 'cards' || !pulls) return
+    if (phone) return // on phones the card in view flips itself (below)
     const hasSpecial = pulls.some(special)
     const auto = pulls.map((p, i) => (hasSpecial && special(p) ? -1 : i)).filter((i) => i >= 0)
     const timers = auto.map((i, k) => window.setTimeout(() => {
@@ -195,21 +208,49 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   }, [phase, pulls])
   const stamp = (p: Pulled) => stampOf({ ...p, at: openedAt }, state)
 
+  // Phones: one big card at a time in a swipeable row (scroll snap). Each Common or Rare flips itself as it is
+  // swiped into the middle; special cards wait for a tap. The dots under the row follow the card in view.
+  const phone = useIsPhone()
+  const row = useRef<HTMLDivElement>(null)
+  const [current, setCurrent] = useState(0)
+  useEffect(() => {
+    if (!phone || phase !== 'cards' || !pulls || !row.current) return
+    const els = cardEls.current.slice(0, pulls.length).filter(Boolean) as HTMLButtonElement[]
+    const seen = new Set<number>()
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (!e.isIntersecting) continue
+        const i = els.indexOf(e.target as HTMLButtonElement)
+        setCurrent(i)
+        if (seen.has(i) || special(pulls[i])) continue
+        seen.add(i)
+        window.setTimeout(() => { sfx.flip(); window.setTimeout(() => sfx.reveal(pulls[i].card.tier), 380); setOneFlipped(i) }, 180)
+      }
+    }, { root: row.current, threshold: 0.7 })
+    els.forEach((el) => io.observe(el))
+    return () => io.disconnect()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phone, phase, pulls])
+  const goTo = (i: number) => cardEls.current[i]?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
+
   if (pulls) {
     const best = pulls[pulls.length - 1]
     const foil = best.foil ? 'Foil ' : ''
     const ready = phase === 'cards'
     return (
-      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
+      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 overflow-x-clip px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
-        <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
-        <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+        <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{phone && !allFlipped ? 'Swipe through your cards. Tap a glowing one to reveal it.' : waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
+        <div ref={row} className={`-mx-4 -my-6 flex w-[calc(100%+2rem)] snap-x snap-mandatory gap-4 px-[calc(50vw-min(43vw,(100dvh-310px)*5/14))] py-6 sm:mx-0 sm:my-0 sm:py-0 sm:grid sm:w-full sm:grid-cols-3 sm:gap-3 sm:overflow-visible sm:px-0 lg:grid-cols-5 ${ready ? 'overflow-x-auto overscroll-x-contain [scrollbar-width:none]' : 'overflow-visible'}`}>
           {pulls.map((p, i) => (
             <button
               key={p.card.id}
               ref={(el) => { cardEls.current[i] = el }}
-              className={`flip relative aspect-[5/7] text-left ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} ${i === pulls.length - 1 && pulls.length % 2 ? 'col-span-2 mx-auto w-[calc(50%-0.375rem)] sm:col-span-1 sm:w-full' : 'w-full'}`}
-              onClick={() => (flipped[i] ? setOpen(p) : flip(i))}
+              className={`flip relative aspect-[5/7] text-left ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} w-[min(86vw,(100dvh-310px)*5/7)] shrink-0 snap-center sm:w-full`}
+              onClick={() => {
+                if (phone && i !== current) { goTo(i); return } // a peeking card: bring it to the middle first
+                if (flipped[i]) setOpen(p); else flip(i)
+              }}
               aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
               {epicBurst === i ? (
@@ -227,6 +268,14 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
             </button>
           ))}
         </div>
+        {phone && ready ? (
+          <div className="-mt-2 flex items-center gap-2" aria-label={`Card ${current + 1} of ${pulls.length}`}>
+            {pulls.map((p, i) => (
+              <button key={i} onClick={() => goTo(i)} aria-label={`Card ${i + 1}`}
+                className={`h-2 rounded-full transition-all ${i === current ? 'w-6 bg-accent' : 'w-2 bg-line'} ${special(p) && !flipped[i] ? 'ring-2 ring-[#ffd66b]/70' : ''}`} />
+            ))}
+          </div>
+        ) : null}
         {ready && flipped[pulls.length - 1] && (best.serial != null || best.card.tier === 'Mythic') ? (
           <p className="serial-in font-display text-lg font-semibold" style={{ color: TIER_COLOR[best.card.tier] }}>
             {best.card.tier === 'Mythic'
