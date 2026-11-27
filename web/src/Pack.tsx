@@ -238,10 +238,10 @@ export function Pack({ pool, kind = 'normal', onTorn, hint = 'Common', fakeFrom 
 
   const cut = (TEAR_Y / H) * 100
   return (
-    <div className="flex flex-col items-center gap-5">
+    <div className="flex flex-col items-center gap-3 sm:gap-5">
       <div
         ref={box} role="button" tabIndex={0} aria-label="Pack: swipe across the top or tap to tear it open"
-        className={`pack pack-hint-${shown.toLowerCase()} relative aspect-[260/420] w-[min(62vw,280px)] touch-none select-none ${torn ? 'pack-torn' : ''} ${upgrading ? 'pack-upgrading' : ''}`}
+        className={`pack pack-hint-${shown.toLowerCase()} relative aspect-[260/420] w-[min(62vw,280px,(100dvh-230px)*0.62)] touch-none select-none ${torn ? 'pack-torn' : ''} ${upgrading ? 'pack-upgrading' : ''}`}
         onPointerDown={down} onPointerMove={move} onPointerUp={up} onPointerCancel={up} onPointerLeave={leave}
         style={{ '--cut': `${cut}%`, '--prog': progress, '--hint': HINT_COLOR[shown] || '#ffe7b0' } as CSSProperties}
       >

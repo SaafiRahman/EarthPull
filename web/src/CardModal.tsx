@@ -30,11 +30,11 @@ export function CardModal({ pool, card, serial, foil, stamp, copies, onClose }: 
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-ground/80 p-0 backdrop-blur-sm sm:items-center sm:p-6" onClick={onClose}>
       <div
         role="dialog" aria-modal="true" aria-label={card.label}
-        className="rise max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-t-2xl border border-line bg-panel p-5 sm:rounded-2xl"
+        className="rise flex max-h-[100dvh] w-full max-w-3xl flex-col overflow-hidden rounded-t-2xl border border-line bg-panel sm:max-h-[92vh] sm:rounded-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex flex-col gap-6 sm:flex-row">
-          <div className="mx-auto aspect-[5/7] w-56 shrink-0 sm:w-64">
+        <div className="flex min-h-0 flex-col gap-6 overflow-y-auto p-5 sm:flex-row">
+          <div className="mx-auto aspect-[5/7] w-[min(78vw,(100dvh-170px)*5/7)] shrink-0 sm:w-64">
             <CardFace pool={pool} card={card} serial={serial} foil={foil} stamp={stamp} size="lg" />
           </div>
           <div className="flex min-w-0 flex-1 flex-col gap-4">
@@ -87,7 +87,9 @@ export function CardModal({ pool, card, serial, foil, stamp, copies, onClose }: 
             ) : <p className="text-sm text-muted">Loading details…</p>}
           </div>
         </div>
-        <button onClick={onClose} className="mt-5 w-full rounded-xl border border-line py-2.5 font-semibold text-muted hover:text-ink">Close</button>
+        <div className="shrink-0 border-t border-line bg-panel p-3 pb-[max(.75rem,env(safe-area-inset-bottom))] sm:border-0 sm:p-5 sm:pt-0">
+          <button onClick={onClose} className="w-full rounded-xl border border-line py-2.5 font-semibold text-muted hover:text-ink">Close</button>
+        </div>
       </div>
     </div>
   )

@@ -99,6 +99,39 @@ export function StampSticker({ stamp, inline = false }: { stamp: Stamp; inline?:
   )
 }
 
+// ───── Tilt by motion sensor on phones (no hover there) ─────
+// One listener for the whole page writes the tilt to CSS variables on <html>; every large card reads them (small
+// collection cards don't, to keep long grids cheap). The rest position slowly re-centres on however the phone is held.
+let motionStarted = false
+let base: number | null = null, tx = 0, ty = 0, frame = 0
+const clamp1 = (v: number) => Math.max(-1, Math.min(1, v))
+function onOrient(e: DeviceOrientationEvent) {
+  if (e.beta == null || e.gamma == null) return
+  if (base == null) base = e.beta
+  base += (e.beta - base) * 0.015
+  tx = clamp1(e.gamma / 22)
+  ty = clamp1((e.beta - base) / 18)
+  if (!frame) frame = requestAnimationFrame(applyTilt)
+}
+function applyTilt() {
+  frame = 0
+  const st = document.documentElement.style
+  document.documentElement.classList.add('motion-tilt')
+  st.setProperty('--gmx', `${(50 + tx * 45).toFixed(1)}%`)
+  st.setProperty('--gmy', `${(40 + ty * 45).toFixed(1)}%`)
+  st.setProperty('--grx', `${(-ty * 10).toFixed(2)}deg`)
+  st.setProperty('--gry', `${(tx * 12).toFixed(2)}deg`)
+}
+/** Start listening to the motion sensor. Call from a tap: iPhones only allow it after asking, inside a user gesture. */
+export function startMotionTilt() {
+  if (motionStarted || !('DeviceOrientationEvent' in window) || !window.matchMedia('(pointer: coarse)').matches) return
+  motionStarted = true
+  const D = DeviceOrientationEvent as unknown as { requestPermission?: () => Promise<string> }
+  const listen = () => window.addEventListener('deviceorientation', onOrient)
+  if (typeof D.requestPermission === 'function') D.requestPermission().then((r) => { if (r === 'granted') listen() }).catch(() => {})
+  else listen()
+}
+
 /** Tilt and pointer-following light, set as CSS variables (no re-render per move). */
 function useTilt() {
   const ref = useRef<HTMLDivElement>(null)
@@ -152,7 +185,7 @@ export function CardFace({ pool, card, serial, stamp, foil: foilAsked = false, s
   const nameSize = card.label.length > 30 ? 'tcg-name-xs' : card.label.length > 20 ? 'tcg-name-sm' : ''
 
   return (
-    <div {...tilt} className={`tcg tcg-${card.tier.toLowerCase()} ${foil ? 'tcg-is-foil' : ''}`}
+    <div {...tilt} className={`tcg tcg-${size} tcg-${card.tier.toLowerCase()} ${foil ? 'tcg-is-foil' : ''}`}
       style={{ '--tier': TIER_COLOR[card.tier] } as CSSProperties}>
       <div className="tcg-tilt">
         <div className="tcg-pattern" />

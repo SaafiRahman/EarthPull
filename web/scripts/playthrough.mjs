@@ -19,8 +19,9 @@ const shot = async (page, name) => {
 const clickText = async (page, text, selector = 'button') => {
   const handles = await page.$$(selector)
   for (const h of handles) {
-    const t = await h.evaluate((el) => el.textContent?.trim() ?? '')
-    if (t.includes(text)) { await h.click(); return true }
+    // Only visible buttons: the header tabs are hidden on phones, the bottom tab bar on desktop
+    const ok = await h.evaluate((el, text) => (el.textContent ?? '').includes(text) && el.getClientRects().length > 0, text)
+    if (ok) { await h.click(); return true }
   }
   throw new Error(`No ${selector} with text "${text}"`)
 }

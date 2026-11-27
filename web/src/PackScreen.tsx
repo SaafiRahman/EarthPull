@@ -283,15 +283,15 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     const foil = best.foil ? 'Foil ' : ''
     const ready = phase === 'cards'
     return (
-      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-6 overflow-x-clip px-4 py-6 ${ready ? '' : 'min-h-[660px]'}`}>
+      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-3 overflow-x-clip px-4 py-3 sm:gap-6 sm:py-6 ${ready ? '' : 'min-h-[calc(100dvh-110px)] sm:min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
         <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{phone && !allFlipped ? 'Swipe through your cards. Tap a glowing one to reveal it.' : waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
-        <div ref={row} className={`-mx-4 -my-6 flex w-[calc(100%+2rem)] snap-x snap-mandatory gap-4 px-[calc(50vw-min(43vw,(100dvh-310px)*5/14))] py-6 sm:mx-0 sm:my-0 sm:py-0 sm:grid sm:w-full sm:grid-cols-3 sm:gap-3 sm:overflow-visible sm:px-0 lg:grid-cols-5 ${ready ? 'overflow-x-auto overscroll-x-contain [scrollbar-width:none]' : 'overflow-visible'}`}>
+        <div ref={row} className={`-mx-4 -my-6 flex w-[calc(100%+2rem)] snap-x snap-mandatory gap-4 px-[calc(50vw-min(43vw,(100dvh-290px)*5/14))] py-6 sm:mx-0 sm:my-0 sm:py-0 sm:grid sm:w-full sm:grid-cols-3 sm:gap-3 sm:overflow-visible sm:px-0 lg:grid-cols-5 ${ready ? 'overflow-x-auto overscroll-x-contain [scrollbar-width:none]' : 'overflow-visible'}`}>
           {pulls.map((p, i) => (
             <button
               key={p.card.id}
               ref={(el) => { cardEls.current[i] = el }}
-              className={`flip relative aspect-[5/7] text-left transition-opacity duration-300 ${charging >= 0 && charging !== i ? 'opacity-30' : ''} ${charging === i ? 'z-10' : ''} ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} w-[min(86vw,(100dvh-310px)*5/7)] shrink-0 snap-center sm:w-full`}
+              className={`flip relative aspect-[5/7] text-left transition-opacity duration-300 ${charging >= 0 && charging !== i ? 'opacity-30' : ''} ${charging === i ? 'z-10' : ''} ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} w-[min(86vw,(100dvh-290px)*5/7)] shrink-0 snap-center sm:w-full`}
               onClick={() => {
                 if (phone && i !== current) { goTo(i); return } // a peeking card: bring it to the middle first
                 if (flipped[i]) setOpen(p); else flip(i)
@@ -327,7 +327,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
             ))}
           </div>
         ) : null}
-        {ready && flipped[pulls.length - 1] && (best.serial != null || best.card.tier === 'Mythic') ? (
+        {ready && flipped[pulls.length - 1] && (!phone || current === pulls.length - 1) && (best.serial != null || best.card.tier === 'Mythic') ? (
           <p className="serial-in font-display text-lg font-semibold" style={{ color: TIER_COLOR[best.card.tier] }}>
             {best.card.tier === 'Mythic'
               ? `You pulled the only ${best.card.label} card in the world.`
@@ -350,7 +350,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
           )}
         </div>
         {!ready ? (
-          <div ref={packWrap} className="absolute inset-x-0 top-28 z-20 flex justify-center">
+          <div ref={packWrap} className="absolute inset-x-0 top-10 z-20 flex justify-center sm:top-28">
             <Pack key={openedAt} pool={pool} kind={kind} hint={bestTier(pulls)} fakeFrom={fakeFrom} onTorn={() => setPhase('opening')} />
           </div>
         ) : null}
@@ -367,15 +367,15 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const here = whereAmI(state)
   const ready = localReady(state, now)
   return (
-    <div className="mx-auto flex max-w-xl flex-col items-center gap-6 px-4 py-10 text-center">
+    <div className="mx-auto flex max-w-xl flex-col items-center gap-4 px-4 py-5 text-center sm:gap-6 sm:py-10">
       <div className="flex gap-3" aria-label={`${state.packs} of ${MAX_PACKS} packs`}>
         {Array.from({ length: MAX_PACKS }, (_, i) => (
-          <div key={i} ref={(el) => { stackEls.current[i] = el }} className={`aspect-[5/7] w-20 ${i < state.packs ? '' : 'opacity-25 grayscale'}`}><CardBack tier="Common" /></div>
+          <div key={i} ref={(el) => { stackEls.current[i] = el }} className={`aspect-[5/7] w-14 sm:w-20 ${i < state.packs ? '' : 'opacity-25 grayscale'}`}><CardBack tier="Common" /></div>
         ))}
       </div>
       <div>
-        <h1 className="font-display text-3xl font-extrabold">{state.packs ? `${state.packs} pack${state.packs > 1 ? 's' : ''} ready` : 'No packs right now'}</h1>
-        <p className="mt-1 text-muted">
+        <h1 className="font-display text-2xl font-extrabold sm:text-3xl">{state.packs ? `${state.packs} pack${state.packs > 1 ? 's' : ''} ready` : 'No packs right now'}</h1>
+        <p className="mt-1 text-sm text-muted sm:text-base">
           {PACK_SIZE} cards a pack · one new pack every 2 hours, up to {MAX_PACKS}
           {next != null ? <> · next in <span className="tabular-nums text-ink">{countdown(next)}</span></> : null}
         </p>
@@ -392,8 +392,8 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
       </button>
       <button onClick={onAddPack} className="text-xs text-muted underline">Demo: add a pack now</button>
 
-      <section className="mt-2 flex w-full items-center gap-4 rounded-2xl border border-local/40 bg-wine-deep/50 p-4 text-left" aria-label="Local pack">
-        <div ref={localIcon} className="w-20 shrink-0">
+      <section className="flex w-full items-center gap-3 rounded-2xl border border-local/40 bg-wine-deep/50 p-3 text-left sm:mt-2 sm:gap-4 sm:p-4" aria-label="Local pack">
+        <div ref={localIcon} className="w-16 shrink-0 sm:w-20">
           <StampSticker stamp={{ kind: 'local', place: here?.label ?? 'Near you', date: now }} inline />
         </div>
         <div className="flex min-w-0 flex-1 flex-col gap-1.5">

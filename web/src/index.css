@@ -240,6 +240,13 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 @keyframes epic-spark { from { transform: translate(0, 0) scale(1.3); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) scale(.3); opacity: 0; } }
 
+/* Bottom tab bar on phones: the header's leather band, upside down */
+.app-tabbar {
+  background: linear-gradient(0deg, rgba(74, 15, 29, .92), rgba(31, 17, 23, .94));
+  border-top: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
+  box-shadow: 0 -6px 24px -12px rgba(0,0,0,.8);
+}
+
 /* Card flip */
 .flip { perspective: 1200px; }
 .flip-inner {
@@ -310,7 +317,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   container-type: inline-size;
   width: 100%; height: 100%;
   perspective: 900px;
-  --mx: 50%; --my: 30%; --rx: 0deg; --ry: 0deg;
+  /* Pointer position on hover; on phones the motion sensor's values (set on <html>) */
+  --mx: var(--gmx, 50%); --my: var(--gmy, 30%); --rx: var(--grx, 0deg); --ry: var(--gry, 0deg);
   --body: rgba(18, 23, 34, 0.94);
   --frame: linear-gradient(150deg, #545d73, #2b3243 45%, #444d61 75%, #2a3141);
 }
@@ -546,6 +554,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .tcg-stamp.tcg-stamp-inline { position: static; width: 100%; height: auto; }
 .tcg-stamp-local .tcg-stamp-ink { fill: #e5484d; }
 .tcg-stamp-hometown .tcg-stamp-ink { fill: #13a594; }
+
+/* Small cards don't follow the motion sensor: long grids would repaint every frame */
+.tcg-sm { --mx: 50%; --my: 30%; --rx: 0deg; --ry: 0deg; }
+/* Motion sensor active: the light and glare show on large cards as if a pointer were over them */
+.motion-tilt .tcg:not(.tcg-sm) .tcg-glare { opacity: .55; }
+.motion-tilt .tcg-is-foil:not(.tcg-sm) .tcg-glare, .motion-tilt .tcg-legendary:not(.tcg-sm) .tcg-glare, .motion-tilt .tcg-mythic:not(.tcg-sm) .tcg-glare { opacity: .9; }
+.motion-tilt .tcg:not(.tcg-sm) .tcg-foil, .motion-tilt .tcg:not(.tcg-sm) .tcg-serial-foil { animation: none; }
+.motion-tilt .tcg:not(.tcg-sm) .tcg-tilt { transition: transform .15s linear; }
 
 /* Small cards (collection grid on phones): drop the coordinates and shrink the facts box */
 @container (max-width: 200px) {

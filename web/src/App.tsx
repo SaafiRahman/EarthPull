@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { startMotionTilt } from './Card'
 import { LogoMark } from './CardBack'
 import { CardPreview } from './CardPreview'
 import { Collection } from './Collection'
@@ -21,6 +22,8 @@ export default function App() {
 
   useEffect(() => { loadPool().then(setPool).catch((e) => setError(String(e.message || e))) }, [])
   useEffect(() => { saveState(state) }, [state])
+  // Phones: tilt the big cards with the motion sensor, started on the first tap (iPhones ask for permission then)
+  useEffect(() => { const f = () => startMotionTilt(); window.addEventListener('pointerdown', f, { once: true }); return () => window.removeEventListener('pointerdown', f) }, [])
   useEffect(() => { const t = setInterval(() => setState((s) => refill(s)), 15000); return () => clearInterval(t) }, [])
 
   const [askHere, setAskHere] = useState(false)
@@ -44,11 +47,11 @@ export default function App() {
 
   return (
     <div className="flex h-full flex-col">
-      <header className="app-header flex flex-wrap items-center justify-between gap-3 px-4 py-3">
-        <div className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"><LogoMark className="h-7 w-7" />Pull the Planet <span className="ml-1 rounded border border-accent/30 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-accent/80">North America demo</span></div>
+      <header className="app-header flex items-center justify-between gap-3 px-4 py-2 sm:py-3">
+        <div className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight"><LogoMark className="h-7 w-7" />Pull the Planet <span className="ml-1 hidden rounded border border-accent/30 px-1.5 py-0.5 align-middle text-[10px] font-semibold uppercase tracking-widest text-accent/80 sm:inline">North America demo</span></div>
         <div className="flex items-center gap-2">
         <MuteButton />
-        <nav className="flex gap-1 rounded-xl border border-line bg-ground/60 p-1" aria-label="Sections">
+        <nav className="hidden gap-1 rounded-xl border border-line bg-ground/60 p-1 sm:flex" aria-label="Sections">
           {TABS.map(([id, label]) => (
             <button
               key={id} onClick={() => setTab(id)} aria-current={tab === id ? 'page' : undefined}
@@ -66,12 +69,26 @@ export default function App() {
             onAddPack={() => setState((s) => refill({ ...s, packs: Math.min(MAX_PACKS, s.packs + 1) }))}
             onChangeHere={() => setAskHere(true)}
             onResetLocal={() => setState((s) => ({ ...s, localDay: null }))} />
-        ) : tab === 'collection' ? <Collection pool={pool} state={state} /> : <MapView pool={pool} state={state} />}
+        ) : tab === 'collection' ? (
+          <>
+            <Collection pool={pool} state={state} />
+            <p className="pb-6 text-center text-xs text-muted sm:hidden">Demo: serials are simulated. <ResetButton onReset={reset} /></p>
+          </>
+        ) : <MapView pool={pool} state={state} />}
       </main>
+      {/* Phones: tabs in a bottom bar, where the thumb is */}
+      <nav className="app-tabbar grid grid-cols-3 pb-[env(safe-area-inset-bottom)] sm:hidden" aria-label="Sections">
+        {TABS.map(([id, label]) => (
+          <button key={id} onClick={() => setTab(id)} aria-current={tab === id ? 'page' : undefined}
+            className={`flex flex-col items-center gap-0.5 py-2 text-xs font-semibold ${tab === id ? 'text-accent' : 'text-muted'}`}>
+            <TabIcon id={id} />
+            <span>{label}{id === 'packs' && state.packs ? <span className="ml-1 rounded-full bg-accent px-1.5 text-[10px] text-ground">{state.packs}</span> : null}</span>
+          </button>
+        ))}
+      </nav>
       {tab !== 'map' ? (
-        <footer className="flex flex-wrap justify-between gap-2 border-t border-line bg-ground/70 px-4 py-2 text-xs text-muted">
+        <footer className="hidden flex-wrap justify-between gap-2 border-t border-line bg-ground/70 px-4 py-2 text-xs text-muted">
           <span className="hidden sm:inline">Demo: packs roll in your browser and serial numbers are simulated. Places from GeoNames, Wikidata and Wikipedia; photos from Wikimedia Commons.</span>
-          <span className="sm:hidden">Demo: serials are simulated.</span>
           <ResetButton onReset={reset} />
         </footer>
       ) : null}
@@ -112,5 +129,16 @@ function MuteButton() {
         {muted ? <path d="m16 9 5 6m0-6-5 6" /> : <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />}
       </svg>
     </button>
+  )
+}
+
+function TabIcon({ id }: { id: Tab }) {
+  const p = { fill: 'none', stroke: 'currentColor', strokeWidth: 2, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const }
+  return (
+    <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden>
+      {id === 'packs' ? <><path d="M6 3h12l-1 3H7z" {...p} /><rect x="5" y="6" width="14" height="15" rx="2" {...p} /><path d="m12 10 1.2 2.6 2.8.3-2.1 1.9.6 2.8L12 16.2l-2.5 1.4.6-2.8L8 12.9l2.8-.3z" {...p} /></> : null}
+      {id === 'collection' ? <><rect x="3" y="6" width="11" height="15" rx="2" {...p} /><path d="M8 3h11a2 2 0 0 1 2 2v13" {...p} /></> : null}
+      {id === 'map' ? <><path d="M12 21s-6-5.5-6-10a6 6 0 0 1 12 0c0 4.5-6 10-6 10z" {...p} /><circle cx="12" cy="11" r="2.2" {...p} /></> : null}
+    </svg>
   )
 }
