@@ -34,4 +34,7 @@ export default defineConfig({
   // MapLibre loads its worker from a file next to its own module; Vite's dependency pre-bundling moves the module and
   // breaks that path ("Worker failed to load"), so serve maplibre-gl as-is.
   optimizeDeps: { exclude: ['maplibre-gl'] },
+  // Lets the developer open the dev server from a phone through a Cloudflare quick tunnel (random *.trycloudflare.com
+  // address, started by hand with `cloudflared tunnel --url http://localhost:5173`)
+  server: { allowedHosts: ['.trycloudflare.com'] },
 })
