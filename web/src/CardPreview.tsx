@@ -1,4 +1,5 @@
 import { CardBack, CardFace, type Stamp } from './Card'
+import { PACK_ARTS, Pack } from './Pack'
 import type { ReactNode } from 'react'
 import { TIERS, type IndexCard, type Pool, type Tier } from './data'
 
@@ -52,6 +53,9 @@ export function CardPreview({ pool }: { pool: Pool }) {
             <CardFace pool={pool} card={i === 5 ? mapOnly('Common') : byTier(t)} serial={SERIAL[t]} size="sm" foil={i === 1} stamp={i === 4 ? local('Halifax') : undefined} />
           </div>
         ))}
+      </Row>
+      <Row title="Booster packs (one famous place per pack)" cols={3}>
+        {PACK_ARTS.map((art, i) => <div key={art.file} className="flex justify-center"><Pack art={i} onTorn={() => {}} /></div>)}
       </Row>
       <Row title="Card backs (with the rarity glow they show face-down in a pack)">
         {tiers.map((t) => <div key={t} className="aspect-[5/7]"><CardBack tier={t} /></div>)}

@@ -74,6 +74,17 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   background: radial-gradient(circle at var(--mx) var(--my), rgba(255,244,214,.38), rgba(255,220,150,.08) 30%, transparent 55%);
   mix-blend-mode: overlay; clip-path: inset(5.7% 0 5.7% 0);
 }
+/* Holographic foil: a rainbow band that slides across the pack with the pointer (or the phone's tilt) */
+.pack-holo {
+  background: linear-gradient(115deg, transparent 25%, rgba(255,120,200,.5) 38%, rgba(255,230,120,.45) 45%, rgba(120,255,220,.5) 52%, rgba(130,170,255,.5) 59%, transparent 72%);
+  background-size: 260% 260%; background-position: var(--gmx, var(--mx)) var(--my);
+  mix-blend-mode: color-dodge; opacity: .32; clip-path: inset(5.7% 0 5.7% 0);
+  animation: holo-drift 6s ease-in-out infinite alternate;
+}
+.pack[data-tilt] .pack-holo, .motion-tilt .pack-holo { animation: none; }
+@keyframes holo-drift { from { background-position: 0% 30%; } to { background-position: 100% 70%; } }
+.pack-torn .pack-holo { clip-path: inset(var(--cut) 0 5.7% 0); }
+
 /* Soft shadow on the floor under the floating pack, shrinking as the pack rises */
 .pack-floor {
   position: absolute; left: 12%; right: 12%; bottom: -7%; height: 7%;
@@ -306,7 +317,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rise { animation: rise 0.4s ease-out both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .pack-float, .pack-sheen, .pack-floor, .pack-rays, .pack-seams, .pack-glow, .pack-hint-legendary .pack-shake, .pack-hint-mythic .pack-shake { animation: none; }
+  .pack-holo, .pack-float, .pack-sheen, .pack-floor, .pack-rays, .pack-seams, .pack-glow, .pack-hint-legendary .pack-shake, .pack-hint-mythic .pack-shake { animation: none; }
   .flip-inner { transition: none; }
   .charge-spark, .charge-light, .charge-core, .rv-rays, .epic-pop, .epic-ring, .epic-spark, .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }

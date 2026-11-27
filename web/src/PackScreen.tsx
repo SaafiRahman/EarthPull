@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import { CardBack, CardFace, StampSticker, TIER_COLOR } from './Card'
 import { CardModal } from './CardModal'
 import { TIERS, type Pool, type Tier } from './data'
-import { Pack } from './Pack'
+import { PACK_ARTS, Pack, preloadPackArt } from './Pack'
 import { Reveal } from './Reveal'
 import { sfx } from './sfx'
 import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type GameState, type Pulled } from './game'
@@ -79,6 +79,8 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const [open, setOpen] = useState<Pulled | null>(null)
   const [phase, setPhase] = useState<'pack' | 'opening' | 'cards'>('pack')
   const [fakeFrom, setFakeFrom] = useState<Tier | null>(null)
+  const [packArt, setPackArt] = useState(0)
+  useEffect(() => preloadPackArt(), [])
   const [featured, setFeatured] = useState(-1) // card in the walkout
   const [epicBurst, setEpicBurst] = useState(-1)
   const [charging, setCharging] = useState(-1)
@@ -168,6 +170,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     setFlipped(p.map(() => false))
     setCurrent(0)
     setFakeFrom(fakeOut(bestTier(p)))
+    setPackArt(Math.floor(Math.random() * PACK_ARTS.length)) // a different famous place on each pack
     setPhase('pack')
   }
   const setOneFlipped = (i: number) => setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
@@ -360,7 +363,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
         </div>
         {!ready ? (
           <div ref={packWrap} className="absolute inset-x-0 top-10 z-20 flex justify-center sm:top-28">
-            <Pack key={openedAt} pool={pool} kind={kind} hint={bestTier(pulls)} fakeFrom={fakeFrom} onTorn={() => setPhase('opening')} />
+            <Pack key={openedAt} kind={kind} art={packArt} hint={bestTier(pulls)} fakeFrom={fakeFrom} onTorn={() => setPhase('opening')} />
           </div>
         ) : null}
         {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stamp(open)} onClose={() => setOpen(null)} /> : null}
