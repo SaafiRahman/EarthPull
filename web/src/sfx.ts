@@ -115,6 +115,27 @@ export const sfx = {
     h.gain.gain.setTargetAtTime(0.0001, t, 0.04)
     h.oscs.forEach((o) => o.stop(t + 0.3))
   },
+  /** Charge-up before a special card turns over: a rising whine with a fast tremolo and a rising hiss, `dur` seconds. */
+  charge(dur: number, tier: Tier) {
+    const a = audio(); if (!a) return
+    const t = a.ctx.currentTime
+    const base = tier === 'Epic' ? 220 : tier === 'Legendary' ? 130 : 110
+    const o = a.ctx.createOscillator(), trem = a.ctx.createOscillator(), tremGain = a.ctx.createGain()
+    const filter = a.ctx.createBiquadFilter(), g = a.ctx.createGain()
+    o.type = 'sawtooth'
+    o.frequency.setValueAtTime(base, t); o.frequency.exponentialRampToValueAtTime(base * 4.5, t + dur)
+    filter.type = 'lowpass'; filter.Q.value = 6
+    filter.frequency.setValueAtTime(400, t); filter.frequency.exponentialRampToValueAtTime(4000, t + dur)
+    // Tremolo that speeds up: the "about to burst" flutter
+    trem.frequency.setValueAtTime(5, t); trem.frequency.exponentialRampToValueAtTime(28, t + dur)
+    tremGain.gain.value = 0.03
+    trem.connect(tremGain).connect(g.gain)
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.06, t + dur * 0.9); g.gain.linearRampToValueAtTime(0.0001, t + dur)
+    o.connect(filter).connect(g).connect(a.out)
+    o.start(t); trem.start(t); o.stop(t + dur + 0.05); trem.stop(t + dur + 0.05)
+    sweep(500, 5000, dur, 0.08, 1.5)
+    if (tier !== 'Epic') thump(60, 45, dur, 0.15) // a low swell under the bigger tiers
+  },
   /** Fake-out: the pack's glow upgrades a tier mid-tear. A quick rising run of bright notes. */
   upgrade() { [784, 988, 1175, 1568, 1976].forEach((f, i) => bell(f, i * 0.045, 0.5, 0.1)) },
   /** Low rumble under the Legendary walkout. */

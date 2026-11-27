@@ -84,7 +84,7 @@ try {
   const cards = await page.$$('button.flip')
   for (const c of await page.$$('button.flip:not(.flipped)')) {
     await c.click()
-    await sleep(1600)
+    await sleep(2800) // the charge-up before a special card
     // A Legendary or Mythic opens the walkout: let it play, then tap to go back
     const walkout = await page.$('[role="dialog"][aria-label$="reveal"]')
     if (walkout) {

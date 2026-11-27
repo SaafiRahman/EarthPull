@@ -200,6 +200,30 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 .rv-mythic-text { background: linear-gradient(100deg, #ff8fb1, #ffd66b, #7fe6d6, #b48cff, #ff8fb1); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: shimmer 3s linear infinite; }
 
+/* ───── Charge-up before a special card turns over (PackScreen charge()) ───── */
+.charge-light {
+  position: absolute; left: 50%; top: 50%; width: 170%; aspect-ratio: 1; margin: -85% 0 0 -85%; z-index: -1;
+  border-radius: 50%; pointer-events: none; opacity: 0; visibility: hidden;
+  background: radial-gradient(closest-side, var(--charge-c, #c99bff) 0%, color-mix(in srgb, var(--charge-c, #c99bff) 45%, transparent) 40%, transparent 70%);
+}
+.charge-epic { --charge-c: #b57cff; }
+.charge-legendary { --charge-c: #ffd25e; }
+.charge-mythic { --charge-c: #ff7aa8; }
+.charge-light.charge-mythic { background: conic-gradient(from var(--ang), #ff5f8f, #ffd66b, #5fd4c4, #7aa8ff, #c58bff, #ff5f8f); -webkit-mask: radial-gradient(closest-side, #000 10%, transparent 70%); mask: radial-gradient(closest-side, #000 10%, transparent 70%); animation: mythic-spin 1.2s linear infinite; }
+.charge-spark {
+  position: absolute; left: 50%; top: 50%; width: 6px; height: 6px; margin: -3px; z-index: 4; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, #fff, var(--charge-c) 55%, transparent 70%);
+  animation: charge-in .55s cubic-bezier(.6,0,1,.6) infinite;
+}
+/* Light swelling out of the compass pin on the card back (pin centre is about 44% down the card) */
+.charge-core {
+  position: absolute; left: 50%; top: 44%; width: 220%; aspect-ratio: 1; margin: -110% 0 0 -110%; z-index: 3;
+  border-radius: 50%; pointer-events: none; opacity: 0; visibility: hidden; mix-blend-mode: screen;
+  background: radial-gradient(closest-side, #fff 0%, #fff 6%, var(--charge-c) 22%, color-mix(in srgb, var(--charge-c) 50%, transparent) 45%, transparent 70%);
+}
+/* Sparks pulled in from all around towards the card */
+@keyframes charge-in { from { transform: translate(var(--dx), var(--dy)) scale(1.4); opacity: 0; } 30% { opacity: 1; } to { transform: translate(0, 0) scale(.3); opacity: 0; } }
+
 /* ───── Epic reveal: the card jumps, a purple shockwave and sparks ───── */
 .epic-pop { animation: epic-pop .55s cubic-bezier(.2,.9,.3,1.2); z-index: 3; }
 @keyframes epic-pop { 0% { transform: scale(1); } 30% { transform: scale(1.12) translateY(-10px); } 100% { transform: none; } }
@@ -277,7 +301,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) {
   .pack-float, .pack-sheen, .pack-floor, .pack-rays, .pack-seams, .pack-glow, .pack-hint-legendary .pack-shake, .pack-hint-mythic .pack-shake { animation: none; }
   .flip-inner { transition: none; }
-  .rv-rays, .epic-pop, .epic-ring, .epic-spark, .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
+  .charge-spark, .charge-light, .charge-core, .rv-rays, .epic-pop, .epic-ring, .epic-spark, .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }
 }
 

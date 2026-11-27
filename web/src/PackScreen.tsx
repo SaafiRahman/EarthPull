@@ -35,6 +35,10 @@ function fakeOut(best: Tier): Tier | null {
   return c && Math.random() < c[0] ? c[1] : null
 }
 
+// How long the charge-up lasts before a special card turns over
+const CHARGE_SECONDS: Record<Tier, number> = { Common: 0, Rare: 0, Epic: 1.2, Legendary: 1.8, Mythic: 2.2 }
+const CHARGE_COLOR: Record<Tier, string> = { Common: '#fff', Rare: '#fff', Epic: '#b57cff', Legendary: '#ffd25e', Mythic: '#ff7aa8' }
+
 // Directions the Epic sparks fly
 const SPARK_DIRS = Array.from({ length: 12 }, (_, i) => {
   const a = (i / 12) * Math.PI * 2
@@ -69,6 +73,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const [fakeFrom, setFakeFrom] = useState<Tier | null>(null)
   const [featured, setFeatured] = useState(-1) // card in the walkout
   const [epicBurst, setEpicBurst] = useState(-1)
+  const [charging, setCharging] = useState(-1)
   const stage = useRef<HTMLDivElement>(null)
   const packWrap = useRef<HTMLDivElement>(null)
   const cardEls = useRef<(HTMLButtonElement | null)[]>([])
@@ -157,22 +162,62 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     setPhase('pack')
   }
   const setOneFlipped = (i: number) => setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
+  /**
+   * Charge-up before a special card turns over (developer, 2026-11-26: "not enough build-up"). The card lifts, the
+   * others dim, light swells behind it, sparks are pulled in, and it shakes harder and harder over a rising whine.
+   * Longer and stronger for higher tiers. Then `release` runs: the Epic burst, or the walkout.
+   */
+  const charge = (i: number, tier: Tier, release: () => void) => {
+    const el = cardEls.current[i]
+    if (!el || calm()) { release(); return }
+    const dur = CHARGE_SECONDS[tier]
+    setCharging(i)
+    sfx.charge(dur, tier)
+    const light = el.querySelector('.charge-light')
+    const steps = Math.round(dur / 0.045)
+    // The card's own rarity glow swells (it can't hide behind the card the way a light behind it can on a phone)
+    const glow = el.querySelector<HTMLElement>('.glow')
+    const c = CHARGE_COLOR[tier]
+    const tl = gsap.timeline({ onComplete: () => { gsap.set(el, { clearProps: 'transform' }); if (glow) gsap.set(glow, { clearProps: 'boxShadow,animation,filter' }); setCharging(-1); release() } })
+    // On phones the card already fills the screen and sits in a clipped row: grow a little, don't lift
+    tl.to(el, { scale: phone ? 1.03 : tier === 'Epic' ? 1.07 : 1.1, y: phone ? 0 : -10, duration: 0.35, ease: 'power2.out' }, 0)
+    if (glow) {
+      gsap.set(glow, { animation: 'none' })
+      tl.fromTo(glow, { boxShadow: `0 0 12px 2px ${c}`, filter: 'brightness(1)' },
+        { boxShadow: phone ? `0 0 22px 8px ${c}` : `0 0 ${tier === 'Epic' ? 70 : 110}px ${tier === 'Epic' ? 24 : 40}px ${c}`, filter: 'brightness(1.35)', duration: dur, ease: 'power2.in' }, 0)
+    }
+    // Light swelling out of the compass pin on the card itself until it floods the card
+    tl.fromTo(el.querySelector('.charge-core'), { scale: 0.05, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: dur, ease: 'power3.in' }, 0)
+    tl.fromTo(light, { scale: 0.4, autoAlpha: 0 }, { scale: tier === 'Epic' ? 1.5 : 2, autoAlpha: 1, duration: dur, ease: 'power2.in' }, 0)
+    // Shake that grows: tiny at first, violent at the end
+    for (let k = 0; k < steps; k++) {
+      const amp = 0.4 + (k / steps) ** 2 * (tier === 'Epic' ? 5 : 8)
+      tl.to(el, { x: amp * (k % 2 ? 1 : -1), rotation: amp * 0.25 * (k % 2 ? -1 : 1), duration: 0.045, ease: 'none' }, 0.3 + k * 0.045 * ((dur - 0.3) / dur))
+    }
+    // A beat of stillness before the big tiers let go
+    if (tier !== 'Epic') tl.to(el, { x: 0, rotation: 0, scale: phone ? 1.05 : 1.14, duration: 0.18, ease: 'power2.out' })
+    else tl.to(el, { x: 0, rotation: 0, duration: 0.05 })
+  }
+
   const flip = (i: number) => {
-    if (!pulls || flipped[i]) return
+    if (!pulls || flipped[i] || charging >= 0) return
     const tier = pulls[i].card.tier
-    if (tier === 'Legendary' || tier === 'Mythic') { setFeatured(i); return } // the walkout
-    if (tier === 'Epic') {
+    if (tier === 'Legendary' || tier === 'Mythic') { charge(i, tier, () => setFeatured(i)); return } // then the walkout
+    if (tier === 'Epic') { charge(i, tier, () => burstEpic(i)); return }
+    sfx.flip()
+    window.setTimeout(() => sfx.reveal(tier), 380)
+    setOneFlipped(i)
+  }
+  const burstEpic = (i: number) => {
+    const tier = 'Epic'
+    {
       // The card jumps, a purple shockwave and sparks, then it turns over
       setEpicBurst(i)
       sfx.shock()
       window.setTimeout(() => { sfx.flip(); setOneFlipped(i) }, 160)
       window.setTimeout(() => sfx.reveal(tier), 480)
       window.setTimeout(() => setEpicBurst((b) => (b === i ? -1 : b)), 800)
-      return
     }
-    sfx.flip()
-    window.setTimeout(() => sfx.reveal(tier), 380)
-    setOneFlipped(i)
   }
   const revealAll = () => {
     if (!pulls) return
@@ -246,13 +291,19 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
             <button
               key={p.card.id}
               ref={(el) => { cardEls.current[i] = el }}
-              className={`flip relative aspect-[5/7] text-left ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} w-[min(86vw,(100dvh-310px)*5/7)] shrink-0 snap-center sm:w-full`}
+              className={`flip relative aspect-[5/7] text-left transition-opacity duration-300 ${charging >= 0 && charging !== i ? 'opacity-30' : ''} ${charging === i ? 'z-10' : ''} ${spotlight === i ? 'spotlight' : ''} ${epicBurst === i ? 'epic-pop' : ''} ${phase === 'pack' ? 'invisible' : ''} ${ready ? '' : 'pointer-events-none'} ${flipped[i] ? 'flipped' : ''} w-[min(86vw,(100dvh-310px)*5/7)] shrink-0 snap-center sm:w-full`}
               onClick={() => {
                 if (phone && i !== current) { goTo(i); return } // a peeking card: bring it to the middle first
                 if (flipped[i]) setOpen(p); else flip(i)
               }}
               aria-label={flipped[i] ? `${p.foil ? 'Foil ' : ''}${p.card.label}, ${p.card.tier}` : `Flip card ${i + 1}`}
             >
+              <span className={`charge-light charge-${p.card.tier.toLowerCase()}`} aria-hidden />
+              <span className={`charge-core charge-${p.card.tier.toLowerCase()}`} aria-hidden />
+              {charging === i ? SPARK_DIRS.map(([dx, dy], k) => (
+                <span key={`c${k}`} className={`charge-spark charge-${p.card.tier.toLowerCase()}`} aria-hidden
+                  style={{ '--dx': `${dx * 1.6}px`, '--dy': `${dy * 1.3}px`, '--dur': `${CHARGE_SECONDS[p.card.tier]}s`, animationDelay: `${(k % 6) * 0.12}s` } as CSSProperties} />
+              )) : null}
               {epicBurst === i ? (
                 <>
                   <span className="epic-ring" />
