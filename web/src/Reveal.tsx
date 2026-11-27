@@ -42,7 +42,11 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
     const pop = 1.0 + lines.length * 0.8 + 0.25
     t.to(q('.rv-rays'), { scale: 1.7, autoAlpha: 1, duration: 0.35, ease: 'power2.out' }, pop)
       .fromTo(q('.rv-flash'), { autoAlpha: 0 }, { autoAlpha: 0.9, duration: 0.08, yoyo: true, repeat: 1 }, pop)
+      // A flat turn under the flash: squash to an edge, swap faces, spring back. (A 3D flip glitched on phones, where the
+      // gyro tilt and the foil's blend layers sit inside it: developer, 2026-11-27.)
+      .to(q('.rv-turn'), { scaleX: 0, duration: 0.12, ease: 'power2.in' }, pop - 0.12)
       .add(() => { flip(); sfx.boom(); sfx.reveal(card.tier) }, pop)
+      .to(q('.rv-turn'), { scaleX: 1, duration: 0.3, ease: 'back.out(2)' }, pop)
       .to(q('.rv-lines'), { autoAlpha: 0, y: -16, duration: 0.3 }, pop)
       .fromTo(q('.rv-card'), { scale: 1.12 }, { scale: 1, duration: 0.7, ease: 'elastic.out(1, 0.5)' }, pop + 0.05)
       .to(q('.rv-result'), { autoAlpha: 1, y: 0, duration: 0.5, ease: 'power3.out' }, pop + 0.45)
@@ -61,17 +65,18 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
   return createPortal(
     <div ref={root} className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden" onClick={tap} role="dialog" aria-modal="true" aria-label={`${card.tier} reveal`}>
       <div className="rv-backdrop absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(40,14,22,.92),rgba(5,2,4,.97))]" />
-      <div className={`rv-rays ${mythic ? 'rv-rays-mythic' : ''}`} />
+      <div className={`rv-rays ${mythic ? 'rv-rays-mythic' : ''}`}><div className="rv-rays-spin" /></div>
       <div className="relative flex flex-col items-center gap-4 px-4">
         <div className="rv-lines flex h-28 flex-col items-center justify-end gap-1 text-center">
           <span className="rv-line rv-line-0 font-display text-3xl font-extrabold uppercase tracking-[0.25em] text-[#ffe9a8] sm:text-4xl">{lines[0]}</span>
           <span className="rv-line rv-line-1 font-display text-xl font-bold tracking-[0.12em] text-ink">{lines[1]}</span>
           <span className="rv-line rv-line-2 text-sm font-semibold uppercase tracking-[0.3em] text-muted">{lines[2]}</span>
         </div>
-        <div className={`rv-card flip aspect-[5/7] w-[min(68vw,300px,calc((100dvh-290px)/1.4))] ${flipped ? 'flipped' : ''}`}>
-          <div className="flip-inner">
-            <div className="flip-face"><CardBack tier={card.tier} /></div>
-            <div className="flip-face flip-front">{flipped ? <CardFace pool={pool} card={card} serial={pull.serial} foil={pull.foil} stamp={stamp} size="lg" /> : null}</div>
+        <div className={`rv-card aspect-[5/7] w-[min(68vw,300px,calc((100dvh-290px)/1.4))] ${finished ? '' : 'rv-still'}`}>
+          <div className="rv-turn relative h-full w-full">
+            {/* The face is built while the backdrop fades in (one hitch, hidden) and sits under the back, so it is already drawn when the back is taken away */}
+            <div className="absolute inset-0"><CardFace pool={pool} card={card} serial={pull.serial} foil={pull.foil} stamp={stamp} size="lg" /></div>
+            <div className={`absolute inset-0 ${flipped ? 'invisible' : ''}`}><CardBack tier={card.tier} /></div>
           </div>
         </div>
         <div className="rv-result flex flex-col items-center gap-1 text-center">

@@ -190,13 +190,25 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     // The card's own rarity glow swells (it can't hide behind the card the way a light behind it can on a phone)
     const glow = el.querySelector<HTMLElement>('.glow')
     const c = CHARGE_COLOR[tier]
-    const tl = gsap.timeline({ onComplete: () => { gsap.set(el, { clearProps: 'transform' }); if (glow) gsap.set(glow, { clearProps: 'boxShadow,animation,filter' }); setCharging(-1); release() } })
+    const lights = [el.querySelector('.charge-core'), light].filter(Boolean)
+    const tl = gsap.timeline({
+      onComplete: () => {
+        release()
+        setCharging(-1)
+        // Put the card back as it was (developer, 2026-11-27: the light stayed over a Legendary after its walkout).
+        // A quick fade, so nothing snaps behind the walkout's backdrop or the Epic burst.
+        gsap.to(lights, { autoAlpha: 0, duration: 0.3, overwrite: true })
+        gsap.to(el, { x: 0, y: 0, rotation: 0, scale: 1, duration: 0.3, overwrite: true, onComplete: () => { gsap.set(el, { clearProps: 'transform' }) } })
+        if (glow && !phone) gsap.to(glow, { filter: 'brightness(1)', boxShadow: `0 0 12px 2px ${c}`, duration: 0.3, overwrite: true, onComplete: () => { gsap.set(glow, { clearProps: 'boxShadow,animation,filter' }) } })
+      },
+    })
     // On phones the card already fills the screen and sits in a clipped row: grow a little, don't lift
     tl.to(el, { scale: phone ? 1.03 : tier === 'Epic' ? 1.07 : 1.1, y: phone ? 0 : -10, duration: 0.35, ease: 'power2.out' }, 0)
-    if (glow) {
+    // Desktop only: animating a shadow and a filter repaints the card every frame, which stuttered on phones (2026-11-27)
+    if (glow && !phone) {
       gsap.set(glow, { animation: 'none' })
       tl.fromTo(glow, { boxShadow: `0 0 12px 2px ${c}`, filter: 'brightness(1)' },
-        { boxShadow: phone ? `0 0 22px 8px ${c}` : `0 0 ${tier === 'Epic' ? 70 : 110}px ${tier === 'Epic' ? 24 : 40}px ${c}`, filter: 'brightness(1.35)', duration: dur, ease: 'power2.in' }, 0)
+        { boxShadow: `0 0 ${tier === 'Epic' ? 70 : 110}px ${tier === 'Epic' ? 24 : 40}px ${c}`, filter: 'brightness(1.35)', duration: dur, ease: 'power2.in' }, 0)
     }
     // Light swelling out of the compass pin on the card itself until it floods the card
     tl.fromTo(el.querySelector('.charge-core'), { scale: 0.05, autoAlpha: 0 }, { scale: 1, autoAlpha: 1, duration: dur, ease: 'power3.in' }, 0)
@@ -325,7 +337,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
               <div className="flip-inner">
                 <div className="flip-face"><CardBack tier={p.card.tier} /></div>
                 <div className="flip-face flip-front">
-                  {flipped[i] ? <CardFace pool={pool} card={p.card} serial={p.serial} foil={p.foil} stamp={stamp(p)} /> : null}
+                  {flipped[i] || featured === i ? <CardFace pool={pool} card={p.card} serial={p.serial} foil={p.foil} stamp={stamp(p)} /> : null}
                 </div>
               </div>
             </button>
@@ -369,7 +381,12 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
         {open ? <CardModal pool={pool} card={open.card} serial={open.serial} foil={open.foil} stamp={stamp(open)} onClose={() => setOpen(null)} /> : null}
         {featured >= 0 ? (
           <Reveal pool={pool} pull={pulls[featured]} stamp={stamp(pulls[featured])}
-            onDone={() => { setOneFlipped(featured); setFeatured(-1) }} />
+            onDone={() => {
+              // Already seen in the walkout: lay it face up in the row without a second flip
+              const inner = cardEls.current[featured]?.querySelector<HTMLElement>('.flip-inner')
+              if (inner) { inner.style.transition = 'none'; window.setTimeout(() => { inner.style.transition = '' }, 100) }
+              setOneFlipped(featured); setFeatured(-1)
+            }} />
         ) : null}
       </div>
     )

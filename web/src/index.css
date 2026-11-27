@@ -201,13 +201,21 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* ───── Walkout (Reveal.tsx) ───── */
 .rv-rays {
-  position: absolute; left: 50%; top: 50%; width: 170vmax; height: 170vmax; margin: -85vmax 0 0 -85vmax; pointer-events: none;
-  background: repeating-conic-gradient(from var(--ang), rgba(255,214,107,.55) 0 4deg, transparent 4deg 14deg);
-  -webkit-mask: radial-gradient(closest-side, #000 8%, transparent 62%); mask: radial-gradient(closest-side, #000 8%, transparent 62%);
-  animation: mythic-spin 16s linear infinite;
+  position: absolute; left: 50%; top: 50%; width: 150vmax; height: 150vmax; margin: -75vmax 0 0 -75vmax; pointer-events: none;
 }
-.rv-rays-mythic {
-  background: repeating-conic-gradient(from var(--ang), #ff5f8f 0 4deg, transparent 4deg 12deg, #ffd66b 12deg 16deg, transparent 16deg 24deg, #5fd4c4 24deg 28deg, transparent 28deg 36deg, #a970f7 36deg 40deg, transparent 40deg 48deg);
+/* The rays are drawn once and turned with a transform, so the phone's GPU spins them. Animating the gradient's angle
+   instead repainted this screen-sized layer every frame, which made the walkout stutter on phones (2026-11-27). */
+.rv-rays-spin {
+  position: absolute; inset: 0; will-change: transform;
+  background: repeating-conic-gradient(rgba(255,214,107,.55) 0 4deg, transparent 4deg 14deg);
+  -webkit-mask: radial-gradient(closest-side, #000 8%, transparent 70%); mask: radial-gradient(closest-side, #000 8%, transparent 70%);
+  animation: rv-spin 16s linear infinite;
+}
+@keyframes rv-spin { to { transform: rotate(360deg); } }
+/* No gyro tilt on the walkout card until the reveal has settled (it fought the turn and the spring on phones) */
+.rv-still .tcg-tilt { transform: none !important; transition: none !important; }
+.rv-rays-mythic .rv-rays-spin {
+  background: repeating-conic-gradient(#ff5f8f 0 4deg, transparent 4deg 12deg, #ffd66b 12deg 16deg, transparent 16deg 24deg, #5fd4c4 24deg 28deg, transparent 28deg 36deg, #a970f7 36deg 40deg, transparent 40deg 48deg);
 }
 .rv-mythic-text { background: linear-gradient(100deg, #ff8fb1, #ffd66b, #7fe6d6, #b48cff, #ff8fb1); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: shimmer 3s linear infinite; }
 
@@ -319,7 +327,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) {
   .pack-holo, .pack-float, .pack-sheen, .pack-floor, .pack-rays, .pack-seams, .pack-glow, .pack-hint-legendary .pack-shake, .pack-hint-mythic .pack-shake { animation: none; }
   .flip-inner { transition: none; }
-  .charge-spark, .charge-light, .charge-core, .rv-rays, .epic-pop, .epic-ring, .epic-spark, .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
+  .charge-spark, .charge-light, .charge-core, .rv-rays-spin, .epic-pop, .epic-ring, .epic-spark, .glow, .glow-strong, .glow-mythic::before, .back-sparks span, .mythic-frame, .rise { animation: none; }
   .serial-in { animation-duration: 0.01s; animation-delay: 0s; }
 }
 
