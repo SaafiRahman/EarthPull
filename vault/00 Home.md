@@ -10,7 +10,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 **Gate to Phase 2 (updated 2026-11-24):** the pipeline runs end to end for any country with one command from a clean machine, it has been run for all of North America (the launch pool), and a random sample of 100 cards looks right.
 
 ## What to do next
-**Latest: [[Dev Log/2026-11-28]]** (Mythic globe dive built; pack opening steps a-d are all done). The longer handoff with the remaining plan is in [[Dev Log/2026-11-26]].
+**Latest: [[Dev Log/2026-11-28]]** (Mythic globe dive, then a globe tour for every card with an Effects toggle; pack opening steps a-d are all done). The longer handoff with the remaining plan is in [[Dev Log/2026-11-26]].
 1. Developer: verify the domain's registrant email, and claim `pulltheplanet` on X, TikTok and Reddit.
 2. Phase 1: the pipeline runs for any country with one command (`run.py`) and has been run for all of North America on 2026-11-26: 86,389 cards in 41 countries and territories. The 100-card sample review was done on 2026-11-26 with fixes, (86,345 cards). Left for the Phase 2 gate: run the pipeline once on a clean machine (never tested). Every country now has at least one Mythic (46 in North America). All flavour lines are in English (translated 2026-11-26). Also open: switching to bulk data before going past North America. See [[Tasks]].
 
@@ -43,7 +43,7 @@ Index of the project brain. Read this, [[Tasks]] and the latest [[Dev Log/2026-1
 
 ## Dev Log
 One note per work session in `Dev Log/`, named YYYY-MM-DD.
-- [[Dev Log/2026-11-28]]: Mythic globe dive (pack opening step d)
+- [[Dev Log/2026-11-28]]: Mythic globe dive (pack opening step d); globe tour for every card, Effects toggle, map data cut from 21 MB to under 2 MB a pack
 - [[Dev Log/2026-11-26]]: Port-au-Prince fix, 100-card review, translation, web demo, server logic, card and pack design
 - [[Dev Log/2026-11-24]]: card facts, flavour and export for Canada; bad-data checks; launch pool is North America
 - [[Dev Log/2026-11-23]]: vault set up, filled in from the roadmap, first push, GitHub Projects board

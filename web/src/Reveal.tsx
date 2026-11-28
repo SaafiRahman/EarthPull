@@ -3,7 +3,8 @@
 // it and a rumble; then the country, the region and the kind of place appear one at a time, each with a note; then a
 // flash, the card flips, and its name and serial appear. Tap to skip ahead, then tap to go back to the pack.
 //
-// A Mythic (step d, 2026-11-28) starts in space instead: the Earth turns until the place's side faces you (country),
+// A Mythic (step d, 2026-11-28) starts in space instead (a Legendary too, a bit faster, since the same day; neither
+// when effects are off): the Earth turns until the place's side faces you (country),
 // the camera dives (region), tilts down over the spot (kind of place) and a pin lands on it. The card then rises out
 // of the pin over the dimmed map and the walkout ends as usual. Without WebGL it falls back to the plain walkout.
 import { useGSAP } from '@gsap/react'
@@ -14,6 +15,7 @@ import { CardBack, CardFace, kindLabel, type Stamp } from './Card'
 import { countryName, regionName, type Pool } from './data'
 import type { Pulled } from './game'
 import { closeZoom, createGlobe, starShadows, wholeGlobeZoom, type Cam, type Globe } from './Globe'
+import { getEffects } from './effects'
 import { sfx } from './sfx'
 
 gsap.registerPlugin(useGSAP)
@@ -25,10 +27,12 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
   const [finished, setFinished] = useState(false)
   const { card } = pull
   const mythic = card.tier === 'Mythic'
+  // The globe dive (Mythic, and a shorter one for Legendary) unless effects are off; read once, when the walkout opens
+  const [dive] = useState(() => (mythic || card.tier === 'Legendary') && getEffects() !== 'off')
   const lines = [countryName(pool, card.region), regionName(pool, card.region), kindLabel(card)]
   const globeEl = useRef<HTMLDivElement>(null)
   const globe = useRef<Globe | null>(null)
-  const stars = useMemo(() => (mythic ? starShadows(140) : ''), [mythic])
+  const stars = useMemo(() => (dive ? starShadows(140) : ''), [dive])
   // Where the camera starts (the far side of the Earth, the globe small), where the place's side faces you, and where
   // it ends (low over the spot, tilted)
   const cams = useMemo(() => {
@@ -42,12 +46,12 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
 
   // The map is made before the timeline below is built (effects run in order), so it loads while the screen dims
   useLayoutEffect(() => {
-    if (!mythic || !globeEl.current) return
+    if (!dive || !globeEl.current) return
     const g = createGlobe(globeEl.current, cams.from)
     globe.current = g
     if (import.meta.env.DEV) (window as unknown as { __globe?: Globe | null }).__globe = g // for scripts/record-special.mjs
     return () => { g?.map.remove(); globe.current = null }
-  }, [mythic, cams])
+  }, [dive, cams])
 
   useGSAP((_, contextSafe) => {
     const q = gsap.utils.selector(root)
@@ -67,26 +71,28 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
       const cam = { ...cams.from }
       const aim = () => g.aim(cam)
       const fine = window.matchMedia('(pointer: fine)').matches // a slow orbit after landing, but not on phones
-      T0 = 5.2
-      t.add(() => sfx.rumble(5.6), 0)
+      // A Legendary takes the same path a bit faster (k): the Mythic is the longest show in the game
+      const k = mythic ? 1 : 0.72
+      T0 = 5.2 * k
+      t.add(() => sfx.rumble(5.6 * k), 0)
         .fromTo(q('.rv-stars'), { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.8 }, 0)
-        .fromTo(q('.rv-globe'), { autoAlpha: 0, scale: 0.7 }, { autoAlpha: 1, scale: 1, duration: 1.4, ease: 'power2.out' }, 0.1)
+        .fromTo(q('.rv-globe'), { autoAlpha: 0, scale: 0.7 }, { autoAlpha: 1, scale: 1, duration: 1.4 * k, ease: 'power2.out' }, 0.1)
         // Turn the Earth until the place's side faces you
-        .to(cam, { lng: cams.facing.lng, lat: cams.facing.lat, zoom: cams.facing.zoom, duration: 2.3, ease: 'power2.inOut', onUpdate: aim }, 0.1)
+        .to(cam, { lng: cams.facing.lng, lat: cams.facing.lat, zoom: cams.facing.zoom, duration: 2.3 * k, ease: 'power2.inOut', onUpdate: aim }, 0.1)
         // Then dive. Zoom is already a log scale, so an even ease reads as a steady fall; tilt over the spot near the end.
-        .to(cam, { zoom: cams.end.zoom, duration: 2.3, ease: 'sine.inOut', onUpdate: aim }, 2.4)
-        .to(cam, { pitch: cams.end.pitch, bearing: cams.end.bearing, duration: 1.4, ease: 'power2.inOut', onUpdate: aim }, 3.3)
-        .to(q('.rv-stars'), { autoAlpha: 0, duration: 1.2 }, 2.8)
+        .to(cam, { zoom: cams.end.zoom, duration: 2.3 * k, ease: 'sine.inOut', onUpdate: aim }, 2.4 * k)
+        .to(cam, { pitch: cams.end.pitch, bearing: cams.end.bearing, duration: 1.4 * k, ease: 'power2.inOut', onUpdate: aim }, 3.3 * k)
+        .to(q('.rv-stars'), { autoAlpha: 0, duration: 1.2 * k }, 2.8 * k)
         // The pin lands on the spot
-        .fromTo(q('.rv-pin'), { autoAlpha: 0, y: -70, scale: 0.6 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.45, ease: 'bounce.out' }, 4.55)
-        .add(() => sfx.land(), 4.75)
-        .fromTo(q('.rv-ping'), { autoAlpha: 0.9, scale: 0.2 }, { autoAlpha: 0, scale: 3.2, duration: 0.9, ease: 'power2.out', immediateRender: false }, 4.75)
+        .fromTo(q('.rv-pin'), { autoAlpha: 0, y: -70, scale: 0.6 }, { autoAlpha: 1, y: 0, scale: 1, duration: 0.45, ease: 'bounce.out' }, 4.75 * k - 0.2)
+        .add(() => sfx.land(), 4.75 * k)
+        .fromTo(q('.rv-ping'), { autoAlpha: 0.9, scale: 0.2 }, { autoAlpha: 0, scale: 3.2, duration: 0.9, ease: 'power2.out', immediateRender: false }, 4.75 * k)
         // The map dims and the pin gives way to the card
         .to(q('.rv-dim'), { autoAlpha: 1, duration: 0.6 }, T0 - 0.1)
         .to(q('.rv-pin'), { autoAlpha: 0, scale: 0.4, duration: 0.3 }, T0)
       if (fine) t.to(cam, { bearing: cams.end.bearing - 30, duration: 6, ease: 'none', onUpdate: aim }, T0)
       ;[1.9, 3.1, 4.2].forEach((at, i) => {
-        t.to(q(`.rv-line-${i}`), { autoAlpha: 1, y: 0, duration: 0.45, ease: 'power3.out' }, at).add(() => sfx.sting(i), at)
+        t.to(q(`.rv-line-${i}`), { autoAlpha: 1, y: 0, duration: 0.45, ease: 'power3.out' }, at * k).add(() => sfx.sting(i), at * k)
       })
       // Start the dive once the map has its style, or after a moment whatever happens (the screen is dimming meanwhile)
       t.pause()
@@ -136,8 +142,8 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
   // Rendered on the page body: a transformed ancestor (the pack screen shakes) would otherwise become its frame
   return createPortal(
     <div ref={root} className="fixed inset-0 z-50 flex items-center justify-center overflow-hidden" onClick={tap} role="dialog" aria-modal="true" aria-label={`${card.tier} reveal`}>
-      <div className={`rv-backdrop absolute inset-0 ${mythic ? 'bg-[radial-gradient(circle_at_50%_45%,#0b0d1c,#020205)]' : 'bg-[radial-gradient(circle_at_50%_45%,rgba(40,14,22,.92),rgba(5,2,4,.97))]'}`} />
-      {mythic ? (
+      <div className={`rv-backdrop absolute inset-0 ${dive ? 'bg-[radial-gradient(circle_at_50%_45%,#0b0d1c,#020205)]' : 'bg-[radial-gradient(circle_at_50%_45%,rgba(40,14,22,.92),rgba(5,2,4,.97))]'}`} />
+      {dive ? (
         <>
           <div className="rv-stars pointer-events-none absolute left-0 top-0 h-px w-px rounded-full" style={{ boxShadow: stars }} />
           {/* The map gets its own element: MapLibre's CSS makes its container position: relative, which beats absolute */}
@@ -148,7 +154,9 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
             <svg className="rv-pin" viewBox="0 0 32 44" aria-hidden="true">
               <defs>
                 <linearGradient id="rv-pin-fill" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stopColor="#ff8fb1" /><stop offset=".35" stopColor="#ffd66b" /><stop offset=".7" stopColor="#7fe6d6" /><stop offset="1" stopColor="#b48cff" />
+                  {mythic
+                    ? <><stop offset="0" stopColor="#ff8fb1" /><stop offset=".35" stopColor="#ffd66b" /><stop offset=".7" stopColor="#7fe6d6" /><stop offset="1" stopColor="#b48cff" /></>
+                    : <><stop offset="0" stopColor="#fff1b8" /><stop offset=".5" stopColor="#f3b63f" /><stop offset="1" stopColor="#b9771a" /></>}
                 </linearGradient>
               </defs>
               <path d="M16 1C7.7 1 1 7.6 1 15.8 1 27 16 43 16 43s15-16 15-27.2C31 7.6 24.3 1 16 1z" fill="url(#rv-pin-fill)" stroke="#1a0b12" strokeWidth="1.5" />
@@ -159,7 +167,7 @@ export function Reveal({ pool, pull, stamp, onDone }: { pool: Pool; pull: Pulled
       ) : null}
       <div className={`rv-rays ${mythic ? 'rv-rays-mythic' : ''}`}><div className="rv-rays-spin" /></div>
       <div className="relative flex flex-col items-center gap-4 px-4">
-        <div className={`rv-lines ${mythic ? 'rv-lines-over-map' : ''} flex h-28 flex-col items-center justify-end gap-1 text-center`}>
+        <div className={`rv-lines ${dive ? 'rv-lines-over-map' : ''} flex h-28 flex-col items-center justify-end gap-1 text-center`}>
           <span className="rv-line rv-line-0 font-display text-3xl font-extrabold uppercase tracking-[0.25em] text-[#ffe9a8] sm:text-4xl">{lines[0]}</span>
           <span className="rv-line rv-line-1 font-display text-xl font-bold tracking-[0.12em] text-ink">{lines[1]}</span>
           <span className="rv-line rv-line-2 text-sm font-semibold uppercase tracking-[0.3em] text-muted">{lines[2]}</span>

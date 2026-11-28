@@ -6,6 +6,8 @@ import { CardModal } from './CardModal'
 import { TIERS, type Pool, type Tier } from './data'
 import { PACK_ARTS, Pack, preloadPackArt } from './Pack'
 import { Reveal } from './Reveal'
+import { useEffectsSetting } from './effects'
+import { HOP_SECONDS, TourMap, type Tour } from './TourMap'
 import { sfx } from './sfx'
 import { MAX_PACKS, PACK_SIZE, localReady, nextLocalAt, stampOf, whereAmI, type GameState, type Pulled } from './game'
 
@@ -93,6 +95,10 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
   const stackEls = useRef<(HTMLDivElement | null)[]>([])
   const localIcon = useRef<HTMLDivElement>(null)
   const calm = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  // Effects "full": the globe tour behind the pack (TourMap.tsx). Null when off, or when the browser has no WebGL.
+  const fx = useEffectsSetting()
+  const tour = useRef<Tour | null>(null)
+  const screen = useRef<HTMLDivElement>(null)
 
   // Summon: the pack lifts off the home-screen stack (or the local pack's sticker), flies to the middle and lands
   // with a bump. It can't be torn until it has landed.
@@ -227,7 +233,7 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     if (!pulls || flipped[i] || charging >= 0) return
     const tier = pulls[i].card.tier
     if (tier === 'Legendary' || tier === 'Mythic') { charge(i, tier, () => setFeatured(i)); return } // then the walkout
-    if (tier === 'Epic') { charge(i, tier, () => burstEpic(i)); return }
+    if (tier === 'Epic') { tour.current?.hop(pulls[i].card, CHARGE_SECONDS.Epic); charge(i, tier, () => burstEpic(i)); return }
     sfx.flip()
     window.setTimeout(() => sfx.reveal(tier), 380)
     setOneFlipped(i)
@@ -263,14 +269,22 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     if (phone) return // on phones the card in view flips itself (below)
     const hasSpecial = pulls.some(special)
     const auto = pulls.map((p, i) => (hasSpecial && special(p) ? -1 : i)).filter((i) => i >= 0)
-    const timers = auto.map((i, k) => window.setTimeout(() => {
-      sfx.flip()
-      setFlipped((f) => f.map((v, j) => (j === i ? true : v)))
-    }, 250 + k * 170))
+    // With the globe tour each card waits for the camera to reach its place, then turns over
+    const timers: number[] = []
+    let t = 250
+    for (const i of auto) {
+      if (tour.current) {
+        const card = pulls[i].card, hop = HOP_SECONDS[card.tier] * 1000
+        timers.push(window.setTimeout(() => tour.current?.hop(card), t))
+        t += hop - 120
+      }
+      timers.push(window.setTimeout(() => { sfx.flip(); setOneFlipped(i) }, t))
+      t += tour.current ? 160 : 170
+    }
     if (!hasSpecial) {
       const last = pulls.length - 1
-      timers.push(window.setTimeout(() => { sfx.reveal(pulls[last].card.tier); setSpotlight(last) }, 250 + auto.length * 170 + 250))
-      timers.push(window.setTimeout(() => setSpotlight(-1), 250 + auto.length * 170 + 1700))
+      timers.push(window.setTimeout(() => { sfx.reveal(pulls[last].card.tier); setSpotlight(last) }, t + 250))
+      timers.push(window.setTimeout(() => setSpotlight(-1), t + 1700))
     }
     return () => timers.forEach(clearTimeout)
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -291,15 +305,28 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
         if (!e.isIntersecting) continue
         const i = els.indexOf(e.target as HTMLButtonElement)
         setCurrent(i)
-        if (seen.has(i) || special(pulls[i])) continue
+        // The globe follows the card in view, but never to a face-down special card (that would give its place away)
+        if (seen.has(i)) { if (flippedRef.current[i]) tour.current?.hop(pulls[i].card, 0.7); continue }
+        if (special(pulls[i])) continue
         seen.add(i)
-        window.setTimeout(() => { sfx.flip(); window.setTimeout(() => sfx.reveal(pulls[i].card.tier), 380); setOneFlipped(i) }, 180)
+        const wait = tour.current ? HOP_SECONDS[pulls[i].card.tier] * 1000 - 120 : 180
+        tour.current?.hop(pulls[i].card)
+        window.setTimeout(() => { sfx.flip(); window.setTimeout(() => sfx.reveal(pulls[i].card.tier), 380); setOneFlipped(i) }, wait)
       }
     }, { root: row.current, threshold: 0.7 })
     els.forEach((el) => io.observe(el))
     return () => io.disconnect()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phone, phase, pulls])
+  const flippedRef = useRef(flipped)
+  flippedRef.current = flipped
+  // Where the tour puts each place: the middle of the biggest free space above or below the cards
+  const focusY = () => {
+    const box = screen.current?.getBoundingClientRect(), r = row.current?.getBoundingClientRect()
+    if (!box || !r) return 0
+    const above = r.top - box.top, below = box.bottom - r.bottom
+    return below >= above ? r.bottom - box.top + below / 2 : above / 2
+  }
   const goTo = (i: number) => cardEls.current[i]?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
 
   if (pulls) {
@@ -307,7 +334,9 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
     const foil = best.foil ? 'Foil ' : ''
     const ready = phase === 'cards'
     return (
-      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative mx-auto flex max-w-6xl flex-col items-center gap-3 overflow-x-clip px-4 py-3 sm:gap-6 sm:py-6 ${ready ? '' : 'min-h-[calc(100dvh-110px)] sm:min-h-[660px]'}`}>
+      <div ref={screen} className="relative min-h-full">
+      {fx === 'full' ? <TourMap key={openedAt} first={pulls[0].card} tour={tour} focusY={focusY} /> : null}
+      <div ref={stage} onPointerDownCapture={() => { if (phase === 'opening' && opening.current && opening.current.time() > 0.25) opening.current.progress(1) }} className={`relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-3 overflow-x-clip px-4 py-3 sm:gap-6 sm:py-6 ${ready ? '' : 'min-h-[calc(100dvh-110px)] sm:min-h-[660px]'}`}>
         {kind === 'local' ? <p className="font-display text-lg font-bold text-local">Local pack · near {pulls[0].local}</p> : null}
         <p className={`text-sm text-muted transition-opacity duration-300 ${ready ? '' : 'opacity-0'}`}>{phone && !allFlipped ? 'Swipe through your cards. Tap a glowing one to reveal it.' : waiting ? `Tap the glowing card${waiting > 1 ? 's' : ''} to reveal ${waiting > 1 ? 'them' : 'it'}.` : 'Tap a card to look closer.'}</p>
         <div key={openedAt} ref={row} className={`-mx-4 -my-6 flex w-[calc(100%+2rem)] snap-x snap-mandatory gap-4 px-[calc(50vw-min(43vw,(100dvh-290px)*5/14))] py-6 sm:mx-0 sm:my-0 sm:py-0 sm:grid sm:w-full sm:grid-cols-3 sm:gap-3 sm:overflow-visible sm:px-0 lg:grid-cols-5 ${ready ? 'overflow-x-auto overscroll-x-contain [scrollbar-width:none]' : 'overflow-visible'}`}>
@@ -385,9 +414,11 @@ export function PackScreen({ pool, state, onOpen, onAddPack, onChangeHere, onRes
               // Already seen in the walkout: lay it face up in the row without a second flip
               const inner = cardEls.current[featured]?.querySelector<HTMLElement>('.flip-inner')
               if (inner) { inner.style.transition = 'none'; window.setTimeout(() => { inner.style.transition = '' }, 100) }
+              tour.current?.jump(pulls[featured].card)
               setOneFlipped(featured); setFeatured(-1)
             }} />
         ) : null}
+      </div>
       </div>
     )
   }
