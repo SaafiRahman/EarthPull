@@ -66,7 +66,7 @@ try {
   await page.evaluate(() => { window.__f = []; const f = (t) => { window.__f.push(t); requestAnimationFrame(f) }; requestAnimationFrame(f) })
   if (TRACE) await page.tracing.start({ path: TRACE, categories: ['devtools.timeline', 'disabled-by-default-devtools.timeline', 'blink', 'cc', 'gpu'] })
   await tap(target)
-  await sleep(TIER === 'Epic' ? 2600 : 8000)
+  await sleep(TIER === 'Epic' ? 2600 : TIER === 'Mythic' ? 12500 : 8000)
   if (TIER !== 'Epic') { await page.touchscreen.tap(200, 450).catch(() => page.mouse.click(200, 450)); await sleep(2500) } // back to the pack
   const fr = await page.evaluate(() => window.__f)
   const t0 = fr[0]

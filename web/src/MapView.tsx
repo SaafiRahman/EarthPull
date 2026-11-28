@@ -13,10 +13,10 @@ export const MAP_STYLES = [
   { id: 'positron', name: 'Light', light: true },
   { id: 'fiord', name: 'Ocean', light: false },
 ] as const
-type StyleId = (typeof MAP_STYLES)[number]['id']
+export type StyleId = (typeof MAP_STYLES)[number]['id']
 const STYLE_KEY = 'ptp-map-style'
-const styleUrl = (id: StyleId) => `https://tiles.openfreemap.org/styles/${id}`
-function savedStyle(): StyleId {
+export const styleUrl = (id: StyleId) => `https://tiles.openfreemap.org/styles/${id}`
+export function savedStyle(): StyleId {
   try {
     const v = localStorage.getItem(STYLE_KEY)
     return (MAP_STYLES.find((s) => s.id === v)?.id ?? 'liberty') as StyleId

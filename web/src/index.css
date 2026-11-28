@@ -217,6 +217,16 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .rv-rays-mythic .rv-rays-spin {
   background: repeating-conic-gradient(#ff5f8f 0 4deg, transparent 4deg 12deg, #ffd66b 12deg 16deg, transparent 16deg 24deg, #5fd4c4 24deg 28deg, transparent 28deg 36deg, #a970f7 36deg 40deg, transparent 40deg 48deg);
 }
+/* Mythic globe dive (Reveal.tsx, Globe.tsx). The pin's tip sits on the screen's centre, which is the camera's spot. */
+.rv-globe .maplibregl-canvas { outline: none; }
+.rv-globe .maplibregl-ctrl-attrib { background: rgba(10,6,12,.6); color: #cbb; font-size: 10px; }
+.rv-globe .maplibregl-ctrl-attrib a { color: #e8d6a0; }
+/* The country, region and kind are read over a bright map during the dive */
+.rv-lines-over-map .rv-line { text-shadow: 0 0 3px #000, 0 1px 2px #000, 0 0 14px rgba(0,0,0,.9), 0 0 28px rgba(0,0,0,.7); }
+.rv-lines-over-map .text-muted { color: #e6dccb; }
+.rv-dim { background: radial-gradient(circle at 50% 50%, rgba(10,4,16,.35), rgba(4,2,6,.88)); }
+.rv-pin { position: absolute; width: 34px; height: 46px; left: -17px; top: -46px; filter: drop-shadow(0 6px 6px rgba(0,0,0,.55)) drop-shadow(0 0 10px rgba(255,214,107,.7)); }
+.rv-ping { position: absolute; width: 56px; height: 56px; left: -28px; top: -28px; border-radius: 50%; border: 3px solid #ffd66b; box-shadow: 0 0 18px #ff8fb1, inset 0 0 12px #7fe6d6; opacity: 0; }
 .rv-mythic-text { background: linear-gradient(100deg, #ff8fb1, #ffd66b, #7fe6d6, #b48cff, #ff8fb1); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: shimmer 3s linear infinite; }
 
 /* ───── Charge-up before a special card turns over (PackScreen charge()) ───── */
